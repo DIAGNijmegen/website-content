@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -r requirements.txt
+script:
+  - git clone --single-branch --branch deploy https://diagwebsteam:${GH_PAGES}@github.com/diagnijmegen/website-content.git output
+  - python parse_content.py
+  - git -C output add .
+  - python push_content.py
