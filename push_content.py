@@ -1,10 +1,12 @@
 import git
+import requests
+import os
 
 repo = git.Repo('output')
 
 diff = repo.index.diff('HEAD')
 
-sites_to_check = ['website-diag', 'website-pathology']
+sites_to_check = ['website-pathology']
 updated_sites = []
 
 for file in diff:
@@ -13,4 +15,19 @@ for file in diff:
             updated_sites.append(s)
             sites_to_check.remove(s)
 
-print(updated_sites)
+token = os.environ('TCI_TOKEN')
+
+headers = {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+    'Travis-API-Version': 3,
+    'Authorization': f'token {token}'
+}
+body = '{"request": {"branch":"master"}}'
+
+for site in updated_sites:
+    print(f"Triggering build for {site}.")
+    repo = f'diagnijmegen%2{site}'
+    url = f'https://api.travis-ci.org/repo/{repo}/requests'
+
+    requests.post(url, data=body, headers=headers)
