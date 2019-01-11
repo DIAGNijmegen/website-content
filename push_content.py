@@ -15,7 +15,7 @@ for file in diff:
             updated_sites.append(s)
             sites_to_check.remove(s)
 
-token = os.environ('TCI_TOKEN')
+token = os.environ['TCI_TOKEN']
 
 headers = {
     'Content-Type': 'application/json',
