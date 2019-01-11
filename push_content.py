@@ -20,7 +20,7 @@ token = os.environ['TCI_TOKEN']
 headers = {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
-    'Travis-API-Version': 3,
+    'Travis-API-Version': '3',
     'Authorization': f'token {token}'
 }
 body = '{"request": {"branch":"master"}}'
