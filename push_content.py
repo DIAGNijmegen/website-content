@@ -27,7 +27,10 @@ body = '{"request": {"branch":"master"}}'
 
 for site in updated_sites:
     print(f"Triggering build for {site}.")
-    repo = f'diagnijmegen%2{site}'
+    repo = f'DIAGNijmegen%2F{site}'
     url = f'https://api.travis-ci.org/repo/{repo}/requests'
 
-    requests.post(url, data=body, headers=headers)
+    try:
+        requests.post(url, data=body, headers=headers)
+    except:
+        print("Updating site failed")
