@@ -28,7 +28,7 @@ def add_edit_url(instance):
     if instance.source_path:
         # Split the directories to check what kind of file we are building
         dirs = os.path.normpath(instance.source_path).split(os.path.sep)
-        print(dirs)
+
         # Check if this is a shared file or not
         if any([f in instance.source_path for f in generated_pages]):
             rel_file_path = 'docs/generated.md'
