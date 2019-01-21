@@ -44,7 +44,7 @@ for dir in directories:
 
                             if not os.path.exists(out_dir):
                                 os.makedirs(out_dir)
-                            shutil.copyfile(file_path, os.path.join(out_path, filename))
+                            shutil.copyfile(file_path, os.path.join(out_dir, filename))
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
                         print(e)
