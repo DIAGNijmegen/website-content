@@ -2,6 +2,7 @@ title: Tumor-Stroma Ratio
 finished: false
 description: We aim at developing automatic and reproducible quantification of Tumor-Stroma Ratio in Whole-Slide Images using Deep Learning.
 template: project-single
+groups: pathology
 picture: TSR.png
 people: Jeroen van der Laak, Francesco Ciompi, Oscar Geessink
 bibkeys: Ciom17

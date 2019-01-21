@@ -4,6 +4,7 @@ bibkeys: Tell18a,Tell18b
 picture: PRIMB4C_1(2).jpg
 description: Detecting biomarkers for improved prognosis for triple negative breast cancer by combining histopathology, multiplex immunohistochemistry and Deep Learning.
 template: project-single
+groups: pathology
 people: Maschenka Balkenhol, David Tellez, Jeroen van der Laak, Peter Bult
 
 
