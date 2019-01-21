@@ -23,7 +23,7 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # URLs
 SITEURL = ''
-EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-retina/edit/master/{file_path}'
+EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
 
 #
 # Non-content variables
