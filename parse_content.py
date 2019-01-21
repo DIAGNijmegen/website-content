@@ -2,7 +2,7 @@ import os
 import glob
 import shutil
 
-directories = ['members']
+directories = ['members', 'highlights', 'presentations', 'projects']
 sites = ['website-diag', 'website-pathology', 'website-base']
 
 if not os.path.isdir('output'):
@@ -20,7 +20,7 @@ for site in sites:
 
 for dir in directories:
     print(f"Parsing {dir} directory")
-    files = glob.glob(os.path.join(dir, '*.md'))
+    files = glob.glob(os.path.join('content', 'pages', dir, '*.md'))
 
     for file_path in files:
         print(file_path)
@@ -36,7 +36,11 @@ for dir in directories:
                             if group_path not in sites:
                                 raise Exception(f"Invalid site {group} in {file_path}.")
 
-                            out_path =  os.path.join(group_path, 'content', 'pages', dir, filename)
+                            if dir is 'highlights':
+                                # Write hightlights to directory out of pages dir
+                                out_path =  os.path.join(group_path, 'content', dir, filename)
+                            else:
+                                out_path =  os.path.join(group_path, 'content', 'pages', dir, filename)
                             print(r"{file_path} to {out_path}")
                             shutil.copyfile(file_path, out_path)
                     except Exception as e:
