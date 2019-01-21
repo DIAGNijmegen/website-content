@@ -1,7 +1,7 @@
 # #!/usr/bin/env bash
 
 # List of websites to build
-declare -a websites=("website-base", "website-retina")
+declare -a websites=("website-base" "website-retina")
 
 # Distribute the content pages
 python parse_content.py
