@@ -42,6 +42,9 @@ for dir in directories:
                             else:
                                 out_path = os.path.join(group_path, 'content', 'pages', dir, filename)
                             print(f"CP {file_path} to {out_path}")
+                            if not os.path.exists(out_path):
+                                os.makedirs(directory)
+                        
                             shutil.copyfile(file_path, out_path)
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
