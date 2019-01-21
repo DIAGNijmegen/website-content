@@ -103,6 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-output/*
-!output/README.md
+#output/*
+#!output/README.md
 .idea
+
+content/pages/publications/*
+!content/pages/publications/.gitkeep
