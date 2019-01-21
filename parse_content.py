@@ -38,14 +38,13 @@ for dir in directories:
 
                             if dir is 'highlights':
                                 # Write hightlights to directory out of pages dir
-                                out_path = os.path.join(group_path, 'content', dir, filename)
+                                out_dir = os.path.join(group_path, 'content', dir)
                             else:
-                                out_path = os.path.join(group_path, 'content', 'pages', dir, filename)
-                            print(f"CP {file_path} to {out_path}")
-                            if not os.path.exists(out_path):
-                                os.makedirs(out_path)
+                                out_dir = os.path.join(group_path, 'content', 'pages', dir)
 
-                            shutil.copyfile(file_path, out_path)
+                            if not os.path.exists(out_dir):
+                                os.makedirs(out_dir)
+                            shutil.copyfile(file_path, os.path.join(out_path, filename))
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
                         print(e)
