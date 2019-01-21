@@ -10,6 +10,8 @@ for website in "${websites[@]}"
 do
   echo "Building $website"
 
+  # Copy default base pages
+  cp -r content/pages/defaults/. $website/content/
   # Copy images
   cp -r --no-clobber content/images $website/content
   # Copy bib generator script
