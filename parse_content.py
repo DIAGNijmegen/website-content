@@ -3,7 +3,7 @@ import glob
 import shutil
 
 directories = ['members', 'highlights', 'presentations', 'projects']
-sites = ['website-diag', 'website-pathology', 'website-base']
+sites = ['website-pathology', 'website-base']
 
 if not os.path.isdir('output'):
     os.mkdir('output')
@@ -41,7 +41,7 @@ for dir in directories:
                                 out_path =  os.path.join(group_path, 'content', dir, filename)
                             else:
                                 out_path =  os.path.join(group_path, 'content', 'pages', dir, filename)
-                            print(r"{file_path} to {out_path}")
+                            print(f"{file_path} to {out_path}")
                             shutil.copyfile(file_path, out_path)
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
