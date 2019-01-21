@@ -3,7 +3,7 @@ import glob
 import shutil
 
 directories = ['members', 'highlights', 'presentations', 'projects']
-sites = ['website-retina', 'website-pathology', 'website-base']
+sites = ['website-retina', 'website-pathology', 'website-base', 'website-diag']
 
 if not os.path.isdir('output'):
     os.mkdir('output')
