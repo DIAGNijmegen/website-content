@@ -33,11 +33,11 @@ def add_edit_url(instance):
         if any([f in instance.source_path for f in generated_pages]):
             rel_file_path = 'docs/generated.md'
             # print(rel_file_path)
-            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path)
+            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/edit', '/blob')
         elif any([f in instance.source_path for f in default_pages]):
             rel_file_path = 'docs/default_page.md'
             # print(rel_file_path)
-            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path)
+            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/edit', '/blob')
         elif any([dir in dirs for dir in shared_dirs]):
             rel_file_path = instance.source_path[len(PATH):].lstrip(os.path.sep)
             # print(rel_file_path)
