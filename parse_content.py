@@ -2,7 +2,7 @@ import os
 import glob
 import shutil
 
-directories = ['members', 'highlights', 'presentations', 'projects']
+directories = ['members', 'highlights', 'presentations', 'projects', 'software']
 sites = ['website-retina', 'website-pathology', 'website-base', 'website-diag']
 
 if not os.path.isdir('output'):
