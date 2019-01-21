@@ -11,7 +11,7 @@ do
   echo "Building $website"
 
   # Copy images
-  cp -r --no-clobber content/images $website/content/images
+  cp -r --no-clobber content/images $website/content
   # Copy bib generator script
   cp plugins/bib_writer.py $website/plugins/bib_writer.py
   # Copy literature
