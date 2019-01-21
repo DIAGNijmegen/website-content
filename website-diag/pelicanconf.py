@@ -64,8 +64,8 @@ ARCHIVES_SAVE_AS = 'archives/index.html'
 INDEX_SAVE_AS = 'highlights/index.html'
 
 # Theme settings
-THEME = "themes/radboudumc-theme"
+THEME = "../radboudumc-template"
 
 # Plugins
-PLUGIN_PATHS = ["plugins"]
+PLUGIN_PATHS = ["../plugins"]
 PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil"]
