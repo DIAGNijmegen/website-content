@@ -1,0 +1,5 @@
+title: Automatic mitosis detection in breast cancer tissue sections
+date: 22-08-2018
+picture: Tell_Highlight.png
+
+Manual counting of mitotic tumor cells in tissue sections constitutes one of the strongest prognostic markers for breast cancer. This procedure, however, is time-consuming and error-prone. <a href="https://diagnijmegen.github.io/website-pathology/members/david-tellez/">David Tellez</a> et al developed a method to automatically detect mitotic figures in H&E stained breast cancer tissue sections based on convolutional neural networks (CNNs). The system was trained in a single-center cohort and evaluated in an independent multicenter cohort from The Cancer Genome Atlas on the three tasks of the Tumor Proliferation Assessment Challenge (TUPAC). The image shows a selection of patches identified by the CNN as containing a mitotic figure. From 181 detections, 128 patches were classified as true positives by a resident pathologist, resulting in a precision score of 0.707. The work was published in <a href="https://ieeexplore.ieee.org/document/8327641/">Transactions on Medical Imaging</a>.

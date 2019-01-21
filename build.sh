@@ -13,7 +13,9 @@ do
   # Copy images
   cp -r --no-clobber content/images $website/content
   # Copy bib generator script
+  cp -r plugins/bibtex $website/plugins
   cp plugins/bib_writer.py $website/plugins/bib_writer.py
+
   # Copy literature
   cp content/diag.bib $website/content/diag.bib
   cp content/dict_pubs.json $website/content/dict_pubs.json
