@@ -11,12 +11,12 @@ do
   echo "Building $website"
 
   # Copy images
-  cp -r --no-clobber content/images "$website/images"
+  cp -r --no-clobber content/images $website/images
   # Copy bib generator script
-  cp plugins/bib_writer.py "$website/plugins/bib_writer.py"
+  cp plugins/bib_writer.py $website/plugins/bib_writer.py
   # Copy literature
-  cp content/diag.bib "$website/content/diag.bib"
-  cp content/dict_pubs.json "$website/content/dict_pubs.json"
+  cp content/diag.bib $website/content/diag.bib
+  cp content/dict_pubs.json $website/content/dict_pubs.json
 
   cd $website
   pwd
