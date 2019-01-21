@@ -4,6 +4,7 @@ template: people-single
 picture: Elke_Loskamp-Huntink.jpg
 position: Study manager
 active: yes
+groups: diag, pathology
 email: elke.loskamp-hunink@radboudumc.nl
 office: Route 812, room 2.39
 type: phd

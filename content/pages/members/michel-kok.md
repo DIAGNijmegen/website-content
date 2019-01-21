@@ -4,6 +4,7 @@ template: people-single
 picture: Michel_Kok.jpg
 position: Master student
 active: yes
+groups: diag, pathology
 email: michel.kok@radboudumc.nl
 office: Route 812, room 2.39
 type: student

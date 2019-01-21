@@ -4,6 +4,7 @@ template: people-single
 picture: Thomas_de_Bel.jpg
 position: PhD student
 active: yes
+groups: diag, pathology
 email: thomas.debel@radboudumc.nl
 office: Route 812, room 2.39
 type: phd

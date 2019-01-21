@@ -4,6 +4,7 @@ template: people-single
 picture: Mart_van_Rijthoven.jpg
 position: Scientific researcher
 active: yes
+groups: diag, pathology
 email: martijn.vanrijthoven@radboudumc.nl
 office: Route 812, room 2.39
 type: phd

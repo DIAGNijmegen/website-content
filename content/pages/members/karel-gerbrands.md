@@ -4,6 +4,7 @@ template: people-single
 picture: Karel_Gerbrands.jpg
 position: Scientific programmer
 active: yes
+groups: diag, pathology
 email: karel.gerbrands@radboudumc.nl
 office: Route 767, Room 2.25
 telephone:

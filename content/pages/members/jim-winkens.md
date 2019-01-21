@@ -4,6 +4,7 @@ template: people-single
 picture: Jim_Winkens.jpg
 position: Master student
 active: yes
+groups: diag, pathology
 email: jim.winkens@radboudumc.nl
 office: Route 812, room 2.39
 type: student

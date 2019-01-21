@@ -4,6 +4,7 @@ template: people-single
 picture: Zaneta_Swiderska-Chadaj.jpg
 position: Postdoctoral researcher
 active: yes
+groups: diag, pathology
 email: zatena.swiderska@radboudumc.nl
 office: Route 812, Room 2.18
 telephone:

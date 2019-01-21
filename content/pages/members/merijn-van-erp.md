@@ -4,6 +4,7 @@ template: people-single
 picture: merijn_van_erp.jpeg
 position: Scientific programmer
 active: yes
+groups: diag, pathology
 email: merijn.vanerp@radboudumc.nl
 office: Route 812, room 2.39
 type: tech

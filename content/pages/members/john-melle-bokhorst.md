@@ -4,6 +4,7 @@ template: people-single
 picture: John-Melle_Bokhorst.jpg
 position: PhD student
 active: yes
+groups: diag, pathology
 email: john-melle.bokhorst@radboudumc.nl
 office: Route 812, room 2.39
 type: phd

@@ -4,6 +4,7 @@ template: people-single
 picture: Emiel_Stoelinga.jpg
 position: Master student
 active: yes
+groups: diag, pathology
 email: emiel.stoelinga@radboudumc.nl
 office: Route 812, room 2.39
 type: student

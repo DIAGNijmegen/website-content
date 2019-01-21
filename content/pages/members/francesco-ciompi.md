@@ -4,6 +4,7 @@ template: people-single
 picture: Francesco_Ciompi.jpg
 position: Assistant Professor
 active: yes
+groups: diag, pathology
 email: francesco.ciompi@radboudumc.nl
 office: Route 812, Room 2.18
 telephone: +31 24 3614322

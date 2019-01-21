@@ -4,6 +4,7 @@ template: people-single
 picture: Maud_Wekking.jpg
 position: Research technician
 active: yes
+groups: diag, pathology
 email: maud.wekking@radboudumc.nl
 office: Route 812, room 2.39
 type: tech

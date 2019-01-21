@@ -4,6 +4,7 @@ template: people-single
 picture: Oscar_Geessink.jpg
 position: PhD student
 active: yes
+groups: diag, pathology
 email: oscar.geessink@radboudumc.nl
 office: Route 812, Room 2.39
 telephone:

@@ -4,6 +4,7 @@ template: people-single
 picture: Maschenka_Balkenhol.jpg
 position: Pathology resident and PhD student
 active: yes
+groups: diag, pathology
 email: maschenka.balkenhol@radboudumc.nl
 office: Route 828, room 3.85
 telephone: +31 6 21 39 59 75 (internal 93167) 
