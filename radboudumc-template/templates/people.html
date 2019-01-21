@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Member of the Computational Pathology Group.{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+    {% include 'blocks/breadcrumbs.html' %}
+
+    <div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {{ page.content }}
+
+    <div class="container">
+        <div class="row">
+            <h1 class="text-muted">Faculty</h1>
+        </div>
+
+        <div class="row people-grid">
+        {% for person in pages|reverse %}
+            {% if person.parent.url == 'members/' and person.type == 'faculty' and person.active == 'yes' %}
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <h1 class="text-muted">Scientific staff</h1>
+        <div class="row people-grid">
+        {% for person in pages %}
+            {% if person.parent.url == 'members/' and (person.type == 'postdoc' or person.type == 'phd') and person.active == 'yes' %}
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <h1 class="text-muted">Technical staff</h1>
+        <div class="row people-grid">
+        {% for person in pages %}
+            {% if person.parent.url == 'members/' and person.type == 'tech' and person.active == 'yes'%}
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <h1 class="text-muted">Visiting researcher</h1>
+        <div class="row people-grid">
+        {% for person in pages %}
+            {% if person.parent.url == 'members/' and (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' %}
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <h1 class="text-muted">Former members</h1>
+        <div>
+            <ul>
+            {% for person in pages %}
+                {% if person.parent.url == 'members/' and person.active == 'no' %}
+                    <li><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    </div>
+{% endblock %}

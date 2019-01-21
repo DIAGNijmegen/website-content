@@ -1,0 +1,43 @@
+/*
+
+Typograhpy
+-------------------------------------------
+
+Sets basic styles for text.
+
+*/
+
+body {
+  // Set font rendering defaults
+  // No web fonts are used so maximize client rendering of the system font
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Default settings for headers
+h1,h2,h3,h4,h5,h6 {
+  color: $primary;
+}
+h1,h2,h3 {
+  font-weight: 300;
+}
+h4,h5,h6 {
+  font-weight: 400;
+}
+
+// Main titles (for example on home page)
+h1.display-title {
+  @include media-breakpoint-up(md) {
+    font-size: 4em;
+  }
+  margin-bottom: 1em;
+}
+
+
+// First header on each page
+.page-title {
+  font-size: 3rem;
+  font-weight: 300;
+
+  margin-bottom: 1em;
+}

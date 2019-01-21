@@ -1,0 +1,24 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11 py-3 footer-content">
+                <p>
+                    {% if page %}
+                    <a href="{{ page.edit_url }}">&copy;</a>
+                    {% elif article %}
+                    <a href="{{ article.edit_url }}">&copy;</a>
+                    {% else %}
+                    &copy;
+                    {% endif %}
+
+                    {{SITENAME}} 2017-{{ CURRENTYEAR }}. <a href="{{SITEURL}}/colofon">Colofon</a>.
+                </p>
+                <p>{{FOOTER_TEXT}}</p>
+            </div>
+
+            <div class="col-md-1 footer-ribbon">
+                <img alt="Radboudumc logo" src="{{ SITEURL }}/images/umc_logo.png">
+            </div>
+        </div>
+    </div>
+</footer>

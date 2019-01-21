@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Projects of the Computational Pathology Group.{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+{% include 'blocks/breadcrumbs.html' %}
+
+<div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {{ page.content }}
+
+    <div class="row">
+        {% set projects_show_finished = 'false' %}
+        {% include "blocks/project-cards.html" %}
+    </div>
+
+    <h2 class="my-4">Finished projects</h2>
+    <div class="row">
+        {% set projects_show_finished = 'true' %}
+        {% include "blocks/project-cards.html" %}
+    </div>
+</div>
+{% endblock %}

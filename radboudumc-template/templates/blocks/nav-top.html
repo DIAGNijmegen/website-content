@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+    <div class="container">
+        <div class="navbar-brand">
+            <div class="external-links">
+                {{TOP_DOMAIN}} | {{PARENT_DOMAIN}}
+            </div>
+
+            <a href="{{ SITEURL }}/">
+                <span class="name-full">{{ SITENAME }}</span>
+                <span class="name-short">{{ SITENAME_SHORT }}</span>
+            </a>
+        </div>
+        <input type="checkbox" id="navbar-toggle-cbox">
+
+        <label for="navbar-toggle-cbox" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </label>
+
+        <div class="collapse navbar-collapse" id="navbar-top">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/highlights">
+                        <svg class="nav-icon svg-icon svg-icon-group"><use xlink:href="#icon-megaphone"></use></svg>
+                        <span class="nav-icon-text">Highlights</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/members" aria-label="Members">
+                        <svg class="nav-icon svg-icon"><use xlink:href="#icon-users"></use></svg>
+                        <span class="nav-icon-text">Members</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/projects" aria-label="Projects">
+                        <svg class="nav-icon svg-icon svg-icon-folder"><use xlink:href="#icon-folder"></use></svg>
+                        <span class="nav-icon-text">Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/software" aria-label="Software">
+                        <svg class="nav-icon svg-icon svg-icon-file-code"><use xlink:href="#icon-file-code"></use></svg>
+                        <span class="nav-icon-text">Software</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/publications" aria-label="Publications">
+                        <svg class="nav-icon svg-icon svg-icon-file-text-o"><use xlink:href="#icon-file-text-o"></use></svg>
+                        <span class="nav-icon-text nav-icon-text-hidden w-85">Publications</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/presentations" aria-label="Presentations">
+                        <svg class="nav-icon svg-icon svg-icon-presentations"><use xlink:href="#icon-presentations"></use></svg>
+                        <span class="nav-icon-text nav-icon-text-hidden w-95">Presentations</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/thesis-gallery" aria-label="Thesis gallery">
+                        <svg class="nav-icon svg-icon"><use xlink:href="#icon-book"></use></svg>
+                        <span class="nav-icon-text nav-icon-text-hidden w-95">Thesis gallery</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/contact" aria-label="Contact">
+                        <svg class="nav-icon svg-icon"><use xlink:href="#icon-envelope-o"></use></svg>
+                        <span class="nav-icon-text nav-icon-text-hidden w-60">Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

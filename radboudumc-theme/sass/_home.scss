@@ -1,0 +1,68 @@
+/*
+
+Home page
+-------------------------------------------
+
+Styles of the home page.
+
+*/
+
+// Home has custom styling on its container
+.content-home {
+  background-color: $body-bg-darker;
+}
+
+// Content blocks
+.block {
+  margin-bottom: 1em;
+  padding: 3em 0 3em 0;
+
+  border-bottom: 3px solid $gray-300;
+}
+
+// First block on the home page
+.block-home {
+  margin-top: -3px;
+  .lead {
+    font-weight: 400;
+  }
+}
+
+.block-primary {
+  border-radius: 0;
+  margin-bottom: 1em;
+  background-color: $primary;
+  color: $white;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+
+  figcaption {
+    color: white;
+  }
+}
+
+
+.content-home {
+  // Alternative styles for highlights
+  article {
+    background-color: white;
+    padding: 2em 1em;
+    margin-bottom: 15px;
+
+    @include media-breakpoint-up(lg) {
+      height: 300px;
+    }
+  }
+
+  // Styles for twitter block on home page.
+  .twitter-embed {
+    background-color: $white;
+
+    @include media-breakpoint-up(lg) {
+      height: 615px;
+      overflow: hidden;
+    }
+  }
+}

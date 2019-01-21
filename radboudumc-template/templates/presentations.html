@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Presentations and posters of the Computational Pathology Group.{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+{% include 'blocks/breadcrumbs.html' %}
+
+<div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    {{ page.content }}
+
+    <div class="row">
+        {% for presentation in pages %}
+            {% if presentation.parent.url == 'presentations/' %}
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top" src="{{ SITEURL}}/images/{{presentation.picture_overview}}" alt="{{ presentation.title }}"></a>
+                    <div class="card-body" style="height: 170px">
+                        <h5 class="card-title">{{ presentation.title }}</h5>
+                        <p class="text-muted">{{ presentation.author_list }}</p>
+                    </div>
+                    <div class="card-footer" style="background: none">
+                        <a href="{{ SITEURL }}/{{ presentation.url }}" class="btn btn-primary">Abstract</a>
+                        <a href="{{ presentation.arxiv }}" class="btn btn-primary">arXiv</a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+
+    </div>
+
+</div>
+{% endblock %}

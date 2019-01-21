@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block description %}The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology and focusing on computer-aided diagnosis.{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+
+<div class="container-home">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron block-primary block-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="display-title">{{SITENAME}}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead">{{SITELEAD}}</p>
+                </div>
+                <div class="col-md-6">
+                    <figure class="figure img-fluid">
+                        <img alt="Automated tumor detection" class="figure-img img-fluid" src="{{ SITEURL }}/{{HOME_IMAGE}}">
+                        <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>Highlights</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-lg-9">
+                    {% for article in articles[0:2] %}
+                        {% include 'blocks/article-summary.html' %}
+                    {% endfor %}
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="twitter-embed">
+                        <a class="twitter-timeline" data-height="615" data-chrome="transparent noheader nofooter" data-dnt="true" href="{{TWITTER_URL}}">Tweets by the group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>Projects</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                    {% set projects_show_finished = 'false' %}
+                    {% include "blocks/project-cards.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <h1>Members</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row people-grid">
+        {% for person in pages %}
+            {% if person.active == 'yes' and person.parent.url == 'members/' %}
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+
+</div>
+{% endblock content %}

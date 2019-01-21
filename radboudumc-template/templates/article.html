@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }}{% endblock title %}
+{% block page_picture %}{{ SITEURL }}/images/news/{{ article.picture }}{% endblock %}
+{% block description %}{% if article.description %}{{ article.description }}{% else %}{{ article.summary | striptags | truncate(200)}}{% endif %}{% endblock description %}
+{% block content %}
+<div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ SITEURL }}/">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ SITEURL }}/highlights">Highlights</a></li>
+        <li class="breadcrumb-item">{{ article.title }}</li>
+      </ol>
+    </nav>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-title">{{ article.title }}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            {% if article.picture %}
+            <img class="img-thumbnail" src="{{ SITEURL }}/images/news/{{ article.picture }}">
+            {% endif %}
+            <p class="mt-4 ml-1">
+                <small class="text-muted"><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
+            </p>
+        </div>
+
+        <div class="col-md-8">
+            {{ article.content }}
+
+            <a href="{{ SITEURL }}/highlights" class="mt-5">&larr; Back to overview</a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

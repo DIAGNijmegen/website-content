@@ -1,0 +1,27 @@
+<article class="row">
+    <div class="col-md-4">
+        {% if article.picture %}
+        <img class="img-thumbnail" alt="{{ article.title|striptags }}" src="{{ SITEURL }}/images/news/{{ article.picture }}">
+        {% endif %}
+        <footer class="post-info text-muted text-center mt-4">
+            <small><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
+        </footer>
+    </div>
+
+    <div class="col-md-8">
+        <header>
+            <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+        </header>
+
+        <p>
+            {% if article.description %}
+                {{ article.description }}
+            {% else %}
+            {{ article.summary | striptags }}
+            {% endif %}
+
+            <a href="{{ SITEURL }}/{{ article.url }}">Read more &rarr;</a>
+        </p>
+
+    </div>
+</article>

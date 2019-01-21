@@ -1,0 +1,52 @@
+/*
+
+Icons
+-------------------------------------------
+
+Styles for all svg icons
+
+*/
+
+.svg-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.svg-icon-github {
+  width: 0.857421875em;
+}
+.svg-icon-linkedin {
+  width: 0.857421875em;
+}
+.svg-icon-list-ol {
+  width: 1.0087890625em;
+}
+.svg-icon-group {
+  width: 1.0712890625em;
+}
+
+.svg-icon-address-card {
+  width: 1.142578125em;
+}
+
+.svg-icon-code {
+  width: 1.0712890625em;
+}
+.svg-icon-file-code {
+  width: 0.857421875em;
+}
+.svg-icon-folder {
+  width: 0.9287109375em;
+}
+.svg-icon-file-text-o {
+  width: 0.857421875em;
+}
+
+.btn .svg-icon {
+  font-size: 1.2em;
+  vertical-align: text-bottom;
+}

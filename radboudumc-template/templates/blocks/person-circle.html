@@ -1,0 +1,9 @@
+<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
+    {% if person.picture %}
+    <a href="{{ SITEURL }}/{{ person.url}}"><img src="{{SITEURL}}/images/people/{{ person.picture }}" class="img-thumbnail rounded-circle" alt="{{ person.name }}"></a>
+    {% else %}
+    <a href="{{ SITEURL }}/{{ person.url}}"><img src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle" alt="{{ person.name }}"></a>
+    {% endif %}
+    <h3 class="person-name"><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></h3>
+    <h4 class="person-title"><small>{{ person.position }}</small></h4>
+</div>

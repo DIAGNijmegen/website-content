@@ -1,0 +1,103 @@
+/*
+
+People page (index and individual)
+-------------------------------------------
+
+Styles for all the elements related to group members.
+
+*/
+
+// Grid of people thumbnails
+.people-grid {
+
+  padding: 2em 0 2em 0;
+
+  .person {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .person-name, .person-title {
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .person-name {
+    color: $primary;
+    font-weight: 400;
+
+    padding-top: 0.45em;
+  }
+  .person-title {
+    color: $secondary;
+    font-weight: 300;
+  }
+
+  .img-thumbnail {
+    // Use cover to auto adapt the image regardless of size
+    object-fit: cover;
+
+    height: 115px;
+    width: 115px;
+
+    border: 2px solid $gray-300;
+
+    @include media-breakpoint-up(md) {
+       width: 150px;
+       height: 150px;
+    }
+
+    &.placeholder {
+      margin: 0 auto;
+    }
+  }
+}
+
+// Styes for individual person pages
+.person-single-column {
+
+  @include media-breakpoint-up(md) {
+    padding-right: 2em;
+  }
+
+  .person {
+    text-align: center;
+    margin-bottom: 2em;
+
+    img {
+      object-fit: cover;
+
+      width: 200px;
+      height: 200px;
+
+      margin-bottom: 1em;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+// Styles of sidebar on people pages
+.person-links {
+  border: 1px solid $gray-300;
+  border-radius: 0.25rem;
+  padding: 1em;
+
+  .row {
+    margin-bottom: 0.5em;
+  }
+  a {
+    margin-left: 10px;
+  }
+  svg {
+    width: 22px;
+    height: 22px;
+    color: $secondary;
+    path {
+      fill: $secondary;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Publications of the Computational Pathology Group.{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+    <div class="container">
+    <h1>{{ page.title }}</h1>
+
+    {% set list_years = [] %}
+    {% set list_pub_type = [] %}
+    {% for bibkey in bibkeys_html.keys() %}
+        <!-- Getting list of years -->
+        {% if bibkeys_html[bibkey]['year'] not in list_years %}
+            {% if list_years.append(bibkeys_html[bibkey]['year']) %}{% endif %}
+        {% endif %}
+        <!-- Getting list of pub_type -->
+        {% if bibkeys_html[bibkey]['pub_type'] not in list_pub_type %}
+            {% if list_pub_type.append(bibkeys_html[bibkey]['pub_type']) %}{% endif %}
+        {% endif %}
+    {% endfor %}
+
+    <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
+
+    <!-- Lists the publications per year and organized by publication type -->
+    {% for cur_year in list_years|sort(reverse = True) %}
+        <h2>{{ cur_year }}</h2>
+            {% for pub_type in list_pub_type %}
+                {% set found = { 'flag': false } %}
+                {% for bibkey in bibkeys_html.keys() %}
+                    {% if bibkeys_html[bibkey]['pub_type'] == pub_type and bibkeys_html[bibkey]['year'] == cur_year %}
+                        {% if found['flag'] == false %}
+                            <!--h3>This piece of code can be reused. Used also in publications-author.html </h3-->
+                            {% if pub_type == '@Article' %}
+                                <h3>{{ 'Papers in international journals' }}</h3>
+                            {% endif%}
+                            {% if pub_type == '@InProceedings' %}
+                                <h3>{{ 'Papers in conference proceedings' }}</h3>
+                            {% endif%}
+                            {% if pub_type == '@Conference' %}
+                                <h3>{{ 'Abstracts' }}</h3>
+                            {% endif%}
+                            {% if pub_type == '@PhdThesis' %}
+                                <h3>{{ 'Theses' }}</h3>
+                            {% endif%}
+                            <!--h3>This piece of code can be reused. Used also in publications-author.html </h3-->
+                            <ul>
+                            {% if found.update({'flag': true}) %}{% endif %}
+                        {% endif %}
+                        {{ bibkeys_html[bibkey]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
+                    {% endif %}
+                {% endfor %}
+                {% if found['flag'] == true %}
+                    </ul>
+                {% endif %}
+            {% endfor %}
+    {% endfor %}
+
+    </div>
+{% endblock %}

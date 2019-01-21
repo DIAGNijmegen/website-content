@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}{{ page.description }}{% endblock %}
+{% block page_picture %}{{ SITEURL}}/images/projects/{{ page.picture }}{% endblock %}
+{% block content %}
+    {% include 'blocks/breadcrumbs.html' %}
+
+    <div class="container">
+    <h1 class="page-title">
+        {% if page.title_long %}
+            {{ page.title_long }}
+        {% else %}
+            {{ page.title }}
+        {% endif %}
+    </h1>
+
+    <div class="page-content">
+        {{ page.content }}
+    </div>
+
+    {% if page.people %}
+    <h2>People</h2>
+    <div class="container">
+        <div class="row people-grid">
+        {% for person_name in page.people.split(',') %}
+            {% set found = { 'flag': false } %}
+
+            {% for person in pages %}
+                {% if person.parent.url == 'members/' and person_name.strip() == person.name %}
+                    {% include "blocks/person-circle.html" %}
+                    {% if found.update({'flag': true}) %}{% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if not found.flag %}
+                {% include "blocks/person-external-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.bibkeys %}
+        <h2>Publications</h2>
+        <div class="container">
+            <ul>
+            {% for bibkey in page.bibkeys.split(',') %}
+                {% if bibkey.strip().lower() in bibkeys_html %}
+                    {{ bibkeys_html[bibkey.strip().lower()]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
+                {% else %}
+                    <li>{{ bibkey }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    </div>
+{% endblock %}

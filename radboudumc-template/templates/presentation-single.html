@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}{{ page.content | striptags | truncate(200)}}{% endblock %}
+{% block page_picture %}{{ SITEURL}}/images/{{page.picture_large}}{% endblock %}
+{% block content %}
+    {% include 'blocks/breadcrumbs.html' %}
+
+    <div class="container">
+    <h1 class="page-title">
+        {% if page.title_long %}
+            {{ page.title_long }}
+        {% else %}
+            {{ page.title }}
+        {% endif %}
+    </h1>
+
+    <div class="page-content">
+        <p>{{ page.author_list }}</p>
+
+        <h2 class="display-5">Abstract</h2>
+
+        {{ page.content }}
+
+        <p>
+            <a href="{{ page.arxiv }}" class="btn btn-primary">arXiv</a>
+        </p>
+        {% if page.picture_large %}
+            <img class="img-fluid mb-3" src="{{ SITEURL}}/images/{{page.picture_large}}">
+        {% endif %}
+
+    </div>
+{% endblock %}

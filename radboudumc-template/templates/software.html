@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Software of the Computational Pathology Group.{% endblock %}
+{% block page_picture %}{{ SITEURL }}/images/software/asap_screenshot.png{% endblock %}
+{% block content %}
+{% include 'blocks/breadcrumbs.html' %}
+
+<div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {{ page.content }}
+
+    {% for software in pages %}
+        {% if software.parent.url == 'software/' %}
+        <div class="row">
+            <div class="col-md-4">
+                {% if software.picture %}
+                <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ software.picture }}">
+                {% endif %}
+
+            </div>
+
+            <div class="col-md-8">
+                <header>
+                    <h2 class="entry-title"><a href="{{ SITEURL }}/{{ software.url }}" rel="bookmark" title="Permalink to {{ software.title|striptags }}">{{ software.title }}</a></h2>
+                </header>
+
+                <p>{{ software.description }}</p>
+
+                <p>
+                    <a href="{{ SITEURL }}/{{ software.url }}" class="btn btn-primary">More information</a>
+                    {% if software.github %}
+                    <a href="{{ software.github }}" class="btn btn-secondary"><svg class="svg-icon svg-icon-github"><use xlink:href="#icon-github"></use></svg> Github repository</a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

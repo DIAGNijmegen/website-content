@@ -4,7 +4,22 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - git clone --single-branch --branch deploy https://diagwebsteam:${GH_PAGES}@github.com/diagnijmegen/website-content.git output
-  - python parse_content.py
-  - git -C output add .
-  - python push_content.py
+  - bash build.sh
+  # - git clone --single-branch --branch deploy https://diagwebsteam:${GH_PAGES}@github.com/diagnijmegen/website-content.git output
+  # -
+  # - python parse_content.py
+  # - git -C output add .
+  # - python push_content.py
+
+deploy:
+  - provider: pages
+    repo: diagnijmegen/website-base
+    skip_cleanup: true
+    keep_history: true
+    local_dir: website-base/output
+    target_brach: gh-pages
+    email: webteamdiag@gmail.com
+    name: "Webteam DIAG Deploy Bot"
+    github_token: $GH_PAGES
+    on:
+      brach: master

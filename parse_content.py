@@ -4,7 +4,7 @@ import glob
 import shutil
 
 directories = ['members']
-sites = ['website-diag', 'website-pathology']
+sites = ['website-diag', 'website-pathology', 'website-base']
 
 if not os.path.isdir('output'):
     os.mkdir('output')
@@ -37,7 +37,8 @@ for dir in directories:
                             if group_path not in sites:
                                 raise Exception(f"Invalid site {group} in {file_path}.")
 
-                            shutil.copyfile(file_path, os.path.join('output', group_path, dir, filename))
+                            out_path =  os.path.join(group_path, 'content', 'pages', dir, filename)
+                            shutil.copyfile(file_path, out_path)
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
                         print(e)

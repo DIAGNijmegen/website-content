@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block content %}
+    {% include 'blocks/breadcrumbs.html' %}
+
+    <div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    <p class="lead">
+        {% for author in page.authors %}
+            {{ author }}{% if not loop.last %}, {% endif %}
+        {% endfor %}
+    </p>
+
+    <p>{{ page.pub_details }}</p>
+    <p>
+        {% if page.doi %}
+            <a href="{{ page.doi }}" class="btn btn-primary">DOI</a>
+        {% endif %}
+        {% if page.arxiv %}
+            <a href="{{ page.arxiv }}" class="btn btn-primary">arXiv</a>
+        {% endif %}
+        {% if page.pmid %}
+            <a href="{{ page.pmid }}" class="btn btn-primary">PMID</a>
+        {% endif %}
+    </p>
+    <h2>Abstract</h2>
+    {{ page.content }}
+
+    </div>
+{% endblock %}
