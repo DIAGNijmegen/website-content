@@ -74,4 +74,4 @@ PLUGIN_PATHS = ["../plugins"]
 PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil"]
 
 # Other
-EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-pathology/edit/master/{file_path}'
+EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
