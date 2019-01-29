@@ -32,19 +32,16 @@ def add_edit_url(instance):
         # Check if this is a shared file or not
         if any([f in instance.source_path for f in generated_pages]):
             rel_file_path = 'docs/generated.md'
-            # print(rel_file_path)
             instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/edit', '/blob')
         elif any([f in instance.source_path for f in default_pages]):
             rel_file_path = 'docs/default_page.md'
-            # print(rel_file_path)
             instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/edit', '/blob')
         elif any([dir in dirs for dir in shared_dirs]):
             rel_file_path = instance.source_path[len(PATH):].lstrip(os.path.sep)
-            # print(rel_file_path)
-            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path)
+            # Add replace for highlight (blog items)
+            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/content/highlights', '/content/pages/highlights')
         else:
             rel_file_path = WEBSITE + '/' + instance.source_path[len(PATH):].lstrip(os.path.sep)
-            # print(rel_file_path)
             instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path)
 
 def register():
