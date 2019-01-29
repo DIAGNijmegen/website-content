@@ -2,11 +2,11 @@ title: Mart van Rijthoven
 name: Mart van Rijthoven
 template: people-single
 picture: Mart_van_Rijthoven.jpg
-position: Scientific researcher
+position: PhD student 
 active: yes
 groups: diag, pathology
 email: martijn.vanrijthoven@radboudumc.nl
 office: Route 812, room 2.39
 type: phd
 
-Mart van Rijthoven studied the bachelor Artificial Intelligence at University of Utrecht and is now pursuing a master's degree in Artificial Intelligence at the Radboud University Nijmegen. For his master project he is currently researching the DCIS progression to invasive cancer, using deep learning based assessment of the stroma. He is supervised by Jeroen van der Laak, Geert Litjens and Francesco Ciompi.
+Mart van Rijthoven studied the bachelor Artificial Intelligence at University of Utrecht and obtained his master's degree in Artificial Intelligence at the Radboud University Nijmegen. Mart is currently working as a PhD student on the ExaMode project, where he focusses on collecting training data with limited human interaction for the processing of exascale volumes of healthcare data.
