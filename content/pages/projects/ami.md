@@ -14,3 +14,4 @@ We aim to develop deep neural networks that can automatically detect and outline
 
 ## Funding
 
+AMI is a collaborative project of the [Fraunhofer Gesellschaft](https://www.fraunhofer.de/) and the [Radboud University and University Medical Center](https://www.radboudumc.nl/en/research). 
