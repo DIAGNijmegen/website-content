@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
-{% block description %}Projects{% endblock %}
+{% block description %}Vacancies{% endblock %}
 {% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
 {% block content %}
 {% include 'blocks/breadcrumbs.html' %}
@@ -10,14 +10,14 @@
     {{ page.content }}
 
     <div class="row">
-        {% set projects_show_finished = 'false' %}
-        {% include "blocks/project-cards.html" %}
+        {% set vacancies_show_closed = 'false' %}
+        {% include "blocks/vacancy-blocks.html" %}
     </div>
 
-    <h2 class="my-4">Finished projects</h2>
+    <h2 class="my-4">Closed vacancies</h2>
     <div class="row">
-        {% set projects_show_finished = 'true' %}
-        {% include "blocks/project-cards.html" %}
+        {% set vacancies_show_closed = 'true' %}
+        {% include "blocks/vacancy-blocks.html" %}
     </div>
 </div>
 {% endblock %}

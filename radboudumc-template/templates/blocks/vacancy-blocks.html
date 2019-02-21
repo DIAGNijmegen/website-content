@@ -1,0 +1,25 @@
+{% for vacancy in pages %}
+    {% if vacancy.parent.url == 'vacancies/' %}
+        {% if vacancy.closed == vacancies_show_closed %}
+          <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    {% if vacancy.picture %}
+                    <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
+                    {% endif %}
+                </div>
+
+                <div class="col-md-8">
+                    <header>
+                        <h2 class="entry-title"><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">{{ vacancy.title }}</a></h2>
+                    </header>
+
+                    <p>{{ vacancy.description }}</p>
+
+                    <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
+                </div>
+            </div>
+          </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}
