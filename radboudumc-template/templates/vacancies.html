@@ -9,14 +9,31 @@
     <h1 class="page-title">{{ page.title }}</h1>
     {{ page.content }}
 
+    <h2>Open vacancies</h2>
     <div class="row">
         {% set vacancies_show_closed = 'false' %}
+        {% set vacancies_show_student_project = 'false' %}
+        {% include "blocks/vacancy-blocks.html" %}
+    </div>
+
+    <h2>Student projects</h2>
+    <div class="row">
+        {% set vacancies_show_closed = 'false' %}
+        {% set vacancies_show_student_project = 'true' %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
 
     <h2 class="my-4">Closed vacancies</h2>
     <div class="row">
         {% set vacancies_show_closed = 'true' %}
+        {% set vacancies_show_student_project = 'false' %}
+        {% include "blocks/vacancy-blocks.html" %}
+    </div>
+
+    <h2 class="my-4">Closed student projects</h2>
+    <div class="row">
+        {% set vacancies_show_closed = 'true' %}
+        {% set vacancies_show_student_project = 'true' %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
 </div>

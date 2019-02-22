@@ -1,11 +1,14 @@
 {% for vacancy in pages %}
     {% if vacancy.parent.url == 'vacancies/' %}
         {% if vacancy.closed == vacancies_show_closed %}
+        {% if vacancy.student_project == vacancies_show_student_project %}
           <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     {% if vacancy.picture %}
                     <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
+                    {% else %}
+                    <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
                     {% endif %}
                 </div>
 
@@ -20,6 +23,7 @@
                 </div>
             </div>
           </div>
+        {% endif %}
         {% endif %}
     {% endif %}
 {% endfor %}
