@@ -4,6 +4,12 @@
         {% if vacancy.student_project == vacancies_show_student_project %}
           <div class="container">
             <div class="row">
+
+              {% if vacancy.closed == 'true' %}
+                <div class="col-md-12">
+                  <p><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">{{ vacancy.title }}</a></p>
+                </div>
+              {% else %}
                 <div class="col-md-4">
                     {% if vacancy.picture %}
                     <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
@@ -21,6 +27,7 @@
 
                     <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
                 </div>
+              {% endif %}
             </div>
           </div>
         {% endif %}

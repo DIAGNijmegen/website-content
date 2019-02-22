@@ -17,20 +17,27 @@
     </div>
 
     <h2>Student projects</h2>
+    <p>We welcome good master's and bachelor's students to perform academic research in our group. We offer various projects that can be tuned to match your thesis requirements:</p>
     <div class="row">
         {% set vacancies_show_closed = 'false' %}
         {% set vacancies_show_student_project = 'true' %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
+    <p>You can also browse through our research pages to read about the different research topics of our group.</p>
+
+    <hr style="margin-top: 6em !important;">
 
     <h2 class="my-4">Closed vacancies</h2>
+    <p>The positions below are closed, please do not apply. They are listed to give you an idea of the kind of positions we regularly offer.</p>
+
+    <b>Vacancies</b>
     <div class="row">
         {% set vacancies_show_closed = 'true' %}
         {% set vacancies_show_student_project = 'false' %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
 
-    <h2 class="my-4">Closed student projects</h2>
+    <b>Student projects</b>
     <div class="row">
         {% set vacancies_show_closed = 'true' %}
         {% set vacancies_show_student_project = 'true' %}
