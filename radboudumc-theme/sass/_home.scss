@@ -56,6 +56,16 @@ Styles of the home page.
     }
   }
 
+  .vacancy {
+    background-color: white;
+    padding: 2em 1em;
+    margin-bottom: 15px;
+  }
+  .vacancy-label {
+    font-weight: bold;
+    color: $gray-600;
+  }
+
   // Styles for twitter block on home page.
   .twitter-embed {
     background-color: $white;

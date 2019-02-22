@@ -29,7 +29,6 @@
                 {% for bibkey in bibkeys_html.keys() %}
                     {% if bibkeys_html[bibkey]['pub_type'] == pub_type and bibkeys_html[bibkey]['year'] == cur_year %}
                         {% if found['flag'] == false %}
-                            <!--h3>This piece of code can be reused. Used also in publications-author.html </h3-->
                             {% if pub_type == '@Article' %}
                                 <h3>{{ 'Papers in international journals' }}</h3>
                             {% endif%}
@@ -42,7 +41,6 @@
                             {% if pub_type == '@PhdThesis' %}
                                 <h3>{{ 'Theses' }}</h3>
                             {% endif%}
-                            <!--h3>This piece of code can be reused. Used also in publications-author.html </h3-->
                             <ul>
                             {% if found.update({'flag': true}) %}{% endif %}
                         {% endif %}

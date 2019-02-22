@@ -48,6 +48,52 @@
         </div>
     </div>
 
+    {# Check if we have open vacancies #}
+    {% set open_vacancies = true %}
+    {% for vacancy in pages %}
+        {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
+            {% set open_vacancies = true %}
+        {% endif %}
+    {% endfor %}
+
+    {% if open_vacancies %}
+    <div class="block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-4"><h1>Vacancies &amp Student projects</h1></div>
+        </div>
+        {% for vacancy in pages %}
+          {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
+            <div class="row vacancy">
+              <div class="col-md-4">
+                {% if vacancy.picture %}
+                <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
+                {% else %}
+                <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+                {% endif %}
+              </div>
+
+              <div class="col-md-8">
+                {% if vacancy.student_project == 'true' %}
+                  <span class="vacancy-label">Student project</span>
+                {% else %}
+                  <span class="vacancy-label">Vacancy</span>
+                {% endif %}
+                <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
+                  {{ vacancy.title }}
+                </a></h3>
+
+                <p>{{ vacancy.description }}</p>
+
+                <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
+              </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     <div class="block">
         <div class="container">
             <div class="row">

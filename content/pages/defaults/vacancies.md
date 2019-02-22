@@ -1,4 +1,4 @@
-title: Vacancies
+title: Vacancies & Student projects
 template: vacancies
 
 <!---
