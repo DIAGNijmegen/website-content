@@ -8,7 +8,7 @@
     <div class="container">
     <h1 class="page-title">{{ page.title }}</h1>
 
-    {% if page.closed %}
+    {% if page.closed == 'true' %}
     <p class="alert alert-warning"><b>Note:</b> This application has been filled. Please see our <a href="{{ SITEURL }}/vacancies/">Vacancies</a> page for open vacancies.</p>
     {% endif %}
 
