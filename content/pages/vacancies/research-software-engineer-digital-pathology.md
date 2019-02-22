@@ -3,6 +3,7 @@ groups: pathology, diag
 closed: false
 student_project: false
 picture: vacancies/vacancy_rse_2019.png
+people: Jeroen van der Laak, Geert Litjens, Francesco Ciompi, James Meakin
 template: vacancy-single
 description: The Diagnostic Image Analysis Group (DIAG) of the Radboud University Medical Center, Nijmegen, The Netherlands, is seeking a research software engineer to join our growing team. This is an excellent opportunity to have an impact on the field by translating our state-of-the-art deep learning research in pathology into robust software that could be integrated into the pathologists workflow.
 

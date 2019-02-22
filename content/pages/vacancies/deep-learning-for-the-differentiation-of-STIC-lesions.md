@@ -3,6 +3,7 @@ groups: pathology
 closed: false
 student_project: true
 template: vacancy-single
+people: Jeroen van der Laak
 description: The goal is to develop a deep learning algorithm for the differentiation of STIC lesions from normal fallopian tube epithelium. The digital pathology images of a cohort of both STIC lesions and normal tubal epithelium from BRCA1/2 carries will be available. The output will be an algorithm that can  identify aberrant tubal epithelium with a high sensitivity.
 
 ## Background
