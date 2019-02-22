@@ -9,6 +9,39 @@
     <h1 class="page-title">{{ page.title }}</h1>
     {{ page.content }}
 
+
+    <h2 class="my-4">Software</h2>
+
+    {% for software in pages %}
+        {% if software.parent.url == 'software/' %}
+        <div class="row">
+            <div class="col-md-4">
+                {% if software.picture %}
+                <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ software.picture }}">
+                {% endif %}
+
+            </div>
+
+            <div class="col-md-8">
+                <header>
+                    <h3 class="entry-title"><a href="{{ SITEURL }}/{{ software.url }}" rel="bookmark" title="Permalink to {{ software.title|striptags }}">{{ software.title }}</a></h3>
+                </header>
+
+                <p>{{ software.description }}</p>
+
+                <p>
+                    <a href="{{ SITEURL }}/{{ software.url }}" class="btn btn-primary">More information</a>
+                    {% if software.github %}
+                    <a href="{{ software.github }}" class="btn btn-secondary"><svg class="svg-icon svg-icon-github"><use xlink:href="#icon-github"></use></svg> Github repository</a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+
+    <h2 class="my-4">Active projects</h2>
+
     <div class="row">
         {% set projects_show_finished = 'false' %}
         {% include "blocks/project-cards.html" %}
