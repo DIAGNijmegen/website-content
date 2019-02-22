@@ -103,8 +103,30 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# Ignore website-content that is common
 website-*/output/*
 output/*
+website-*/content/highlights/*
+website-*/content/images/*
+website-*/plugins/*
+website-*/content/pages/presentations/*
+website-*/content/pages/projects/*
+website-*/content/pages/software/*
+website-*/content/pages/vacancies/*
+website-*/content/pages/publications/*
+website-*/content/pages/members/*
+website-*/content/pages/404.md
+website-*/content/pages/colofon.md
+website-*/content/pages/home.md
+website-*/content/pages/members.md
+website-*/content/pages/presentations.md
+website-*/content/pages/projects.md
+website-*/content/pages/publications.md
+website-*/content/pages/software.md
+website-*/content/pages/thesis-gallery.md
+website-*/content/pages/vacancies.md
+website-*/content/diag.bib
+website-*/content/dict_pubs.json
 #!output/README.md
 .idea
 
