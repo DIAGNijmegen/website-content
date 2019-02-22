@@ -10,7 +10,7 @@
     {{ page.content }}
 
 
-    <h2 class="my-4">Software</h2>
+    <h2 style="margin-bottom: 1em;">Software</h2>
 
     {% for software in pages %}
         {% if software.parent.url == 'software/' %}
@@ -40,14 +40,14 @@
         {% endif %}
     {% endfor %}
 
-    <h2 class="my-4">Active projects</h2>
+    <h2 style="margin: 2em 0 1em 0;">Active projects</h2>
 
     <div class="row">
         {% set projects_show_finished = 'false' %}
         {% include "blocks/project-cards.html" %}
     </div>
 
-    <h2 class="my-4">Finished projects</h2>
+    <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
     <div class="row">
         {% set projects_show_finished = 'true' %}
         {% include "blocks/project-cards.html" %}
