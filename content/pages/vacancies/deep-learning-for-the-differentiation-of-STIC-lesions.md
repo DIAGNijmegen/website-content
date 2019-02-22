@@ -26,4 +26,4 @@ The TUBA study is a Dutch multicentre study examining an alternative surgical ap
 ## Information
 - Project duration: 6 months
 -	Location: Radboud University Nijmegen Medical Centre
--	For more information please contact
+-	For more information please contact Jeroen van der Laak

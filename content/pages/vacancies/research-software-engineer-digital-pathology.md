@@ -36,7 +36,7 @@ The Computational Pathology Group is a research group of the department of Patho
 
 
 ### RSE Team
-The Research Software Engineering team is a group within DIAG who also have expertise in software engineering and specialize in research that is driven by robust and reproducible research software. This software is made open source where appropriate (https://github.com/DIAGNijmegen) and published in academic journals. We also provide other researchers who do not have a background in software engineering education on the fundamentals, and promote best practices in software development learnt from industry. We also aim to have a direct impact on healthcare by translating some of the group's research software output into the clinical workflow for our in-house radiologists, pathologists, and ophthalmologists.
+The Research Software Engineering team is a group within DIAG who also have expertise in software engineering and specialize in research that is driven by robust and reproducible research software. This software is made open source where appropriate ([https://github.com/DIAGNijmegen](https://github.com/DIAGNijmegen)) and published in academic journals. We also provide other researchers who do not have a background in software engineering education on the fundamentals, and promote best practices in software development learnt from industry. We also aim to have a direct impact on healthcare by translating some of the group's research software output into the clinical workflow for our in-house radiologists, pathologists, and ophthalmologists.
 
 
 ### Radboudumc
@@ -44,7 +44,7 @@ Radboudumc strives to be a leading developer of sustainable, innovative and affo
 
 Read more about what it means to work at Radboudumc and how you can do your part.
 
-## Additional information
-Send applications to Dr. James Meakin, research software engineer. Applications will be reviewed on an ongoing basis until the position is filled.
+## How to apply
+Send applications to [Dr. James Meakin](http://diagnijmegen.nl/index.php/Person?name=James_Meakin), research software engineer. Applications will be reviewed on an ongoing basis until the position is filled.
 
 Recruitment agencies are asked not to respond to this job posting.
