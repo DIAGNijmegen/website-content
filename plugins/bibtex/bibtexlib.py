@@ -1,7 +1,6 @@
 #requires: pip install latexcodec
 import latexcodec
 from collections import defaultdict
-
 # helper functions:
 
 def get_blocks(content, start_character, delim=('{','}')):
@@ -165,13 +164,18 @@ def get_entry_content(content):
     returns a dict mapping the bib-keys to
     '''
     def get_key_value(lines):
-        for line in lines:
+        for idxline, line in enumerate(lines):
             if not '=' in line:
                 continue
             i = line.index('=')
             key = line[:i].strip()
             value = line[i + 1:].strip()
             if value.startswith('{'):
+                counter = 1
+                # This concatenates the next line to value when having a multiline value (i.e. multiline abstracts)
+                while value.find('}') == -1 and idxline + counter < len(lines) and line[idxline + counter].find('{') == -1:
+                    value += ' ' + lines[idxline + counter]
+                    counter += 1
                 value = value[:rindex(value, '}') + 1]
             elif value.endswith(','):
                 value = value[:-1]
