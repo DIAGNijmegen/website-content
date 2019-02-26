@@ -117,6 +117,9 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
     if 'url' in bib_item.entry and 'arxiv' in bib_item.entry['url']:
         url_arxiv = bib_item.entry['url']
         pub_html += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
+    if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower():
+        url_arxiv = get_arxiv_id_from_title(bib_item.entry['journal'])
+        pub_html += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
     if 'pmid' in bib_item.entry:
         url_pmid = 'http://www.ncbi.nlm.nih.gov/pubmed/' + bib_item.entry['pmid']
         pub_html += ' <a href=\"' + url_pmid + '/\">PMID</a>'
@@ -124,6 +127,13 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
     pub_html += '</li>\n'
 
     return pub_html, year, pub_type, pub_details
+
+
+def get_arxiv_id_from_title(title):
+    str_arxiv = title.lower().strip()
+    id_arxiv = str_arxiv.replace('axiv', '').replace(':', '').strip()
+    url_arxiv = 'https://arxiv.org/abs/'+id_arxiv
+    return url_arxiv
 
 
 def write_md_pass(out_path, md_format):
@@ -222,6 +232,9 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
                 md_format += 'doi: ' + 'https://doi.org/' + global_index[bibitem].entry['doi'] + '\n'
             if 'url' in global_index[bibitem].entry and 'arxiv' in global_index[bibitem].entry['url']:
                 md_format += 'arxiv: ' + global_index[bibitem].entry['url'] + '\n'
+            if 'journal' in global_index[bibitem].entry and 'arxiv' in global_index[bibitem].entry['journal'].lower():
+                url_arxiv = get_arxiv_id_from_title(global_index[bibitem].entry['journal'])
+                md_format += 'arxiv: ' + url_arxiv + '\n'
             if 'pmid' in global_index[bibitem].entry:
                 url_pmid = 'http://www.ncbi.nlm.nih.gov/pubmed/' + global_index[bibitem].entry['pmid']
                 md_format += 'pmid: ' + url_pmid + '\n'
