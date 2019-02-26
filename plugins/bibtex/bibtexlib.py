@@ -172,10 +172,20 @@ def get_entry_content(content):
             value = line[i + 1:].strip()
             if value.startswith('{'):
                 counter = 1
-                # This concatenates the next line to value when having a multiline value (i.e. multiline abstracts)
                 while value.find('}') == -1 and idxline + counter < len(lines) and line[idxline + counter].find('{') == -1:
+                    # This concatenates the next line to value when having a multiline value (i.e. multiline abstracts)
                     value += ' ' + lines[idxline + counter]
                     counter += 1
+
+                if key.lower() == 'abstract':
+                    # Some abstracts start as 'Background: This method...' which is exactly the same format to define tags 
+                    # as the Markdown files (.md). If we leave it as is, the MD file will treat the abstract as a tag with the 
+                    # name 'Background' and won't show the abstract. 
+                    # We remove the colon from the first word of the abstract to prevent that.
+                    idx_colon = value.find(':')
+                    idx_space = value.find(' ')
+                    if idx_colon > 0 and idx_space > 0 and idx_colon < idx_space:
+                        value = value.replace(':', '', 1)
                 value = value[:rindex(value, '}') + 1]
             elif value.endswith(','):
                 value = value[:-1]
