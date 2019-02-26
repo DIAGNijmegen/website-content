@@ -131,7 +131,7 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
 
 def get_arxiv_id_from_title(title):
     str_arxiv = title.lower().strip()
-    id_arxiv = str_arxiv.replace('axiv', '').replace(':', '').strip()
+    id_arxiv = str_arxiv.replace('arxiv', '').replace(':', '').strip()
     url_arxiv = 'https://arxiv.org/abs/'+id_arxiv
     return url_arxiv
 
