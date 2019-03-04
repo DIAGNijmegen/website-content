@@ -3,7 +3,7 @@ name: Jeffrey Hoven
 template: people-single
 picture: Jeffrey_Hoven.jpg
 position: Research technician
-active: yes
+active: no
 groups: diag, pathology
 email: jeffrey.hoven@radboudumc.nl
 office: Route 824
