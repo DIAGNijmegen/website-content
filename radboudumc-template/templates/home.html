@@ -52,7 +52,6 @@
     {% set open_vacancies = { 'flag': false } %}
     {% for vacancy in pages %}
         {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
-          {{ open_vacancies}}
             {% if open_vacancies.update({'flag': true}) %}{% endif %}
         {% endif %}
     {% endfor %}
