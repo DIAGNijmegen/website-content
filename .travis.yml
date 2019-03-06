@@ -11,7 +11,7 @@ deploy:
     repo: diagnijmegen/website-retina
     skip-cleanup: true
     keep-history: true
-    local0dir: website-retina/output
+    local-dir: website-retina/output
     target-branch: master
     email: webteamdiag@gmail.com
     name: "Webteam DIAG Deploy Bot"
@@ -22,7 +22,7 @@ deploy:
     repo: diagnijmegen/website-pathology
     skip-cleanup: true
     keep-history: true
-    local0dir: website-pathology/output
+    local-dir: website-pathology/output
     target-branch: gh-pages
     email: webteamdiag@gmail.com
     name: "Webteam DIAG Deploy Bot"
@@ -34,7 +34,7 @@ deploy:
     repo: diagnijmegen/website-rse
     skip-cleanup: true
     keep-history: true
-    local0dir: website-rse/output
+    local-dir: website-rse/output
     target-branch: master
     email: webteamdiag@gmail.com
     name: "Webteam DIAG Deploy Bot"
