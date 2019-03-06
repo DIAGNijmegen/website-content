@@ -1,7 +1,7 @@
 # #!/usr/bin/env bash
 
 # List of websites to build
-declare -a websites=("website-pathology" "website-rse" "website-retina") # "website-base"
+declare -a websites=("website-pathology" "website-rse" "website-retina")
 
 # Distribute the content pages
 python parse_content.py
