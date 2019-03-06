@@ -1,7 +1,7 @@
 # #!/usr/bin/env bash
 
 # List of websites to build
-declare -a websites=( "website-pathology" "website-rse" "website-retina") # "website-base"
+declare -a websites=("website-pathology" "website-rse" "website-retina") # "website-base"
 
 # Distribute the content pages
 python parse_content.py
@@ -26,10 +26,10 @@ do
   pwd
 
   # Generate publications
-  #python plugins/bib_writer.py
+  python plugins/bib_writer.py
 
   # Build pelican website
-  #pelican content -s publishconf.py
+  pelican content -s publishconf.py
 
   # Copy files for github
   cp CNAME output/CNAME
