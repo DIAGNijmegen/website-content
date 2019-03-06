@@ -109,6 +109,7 @@ output/*
 website-*/content/highlights/*
 website-*/content/images/*
 website-*/plugins/*
+!website-*/plugins/*.gitkeep
 website-*/content/pages/presentations/*
 website-*/content/pages/projects/*
 website-*/content/pages/software/*
