@@ -10,10 +10,7 @@
     {{ page.content }}
 
     <div class="container">
-        <div class="row">
-            <h1 class="text-muted">Faculty</h1>
-        </div>
-
+        <h1 class="text-muted">Faculty</h1>
         <div class="row people-grid">
         {% for person in pages|reverse %}
             {% if person.parent.url == 'members/' and person.type == 'faculty' and person.active == 'yes' %}
