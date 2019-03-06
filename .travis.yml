@@ -23,7 +23,7 @@ deploy:
     skip_cleanup: true
     keep_history: true
     local_dir: website-retina/output
-    target_brach: gh-pages
+    target_brach: master
     email: webteamdiag@gmail.com
     name: "Webteam DIAG Deploy Bot"
     github_token: $GH_PAGES
@@ -35,6 +35,17 @@ deploy:
     keep_history: true
     local_dir: website-pathology/output
     target_brach: gh-pages
+    email: webteamdiag@gmail.com
+    name: "Webteam DIAG Deploy Bot"
+    github_token: $GH_PAGES
+    on:
+      brach: master
+  - provider: pages
+    repo: diagnijmegen/website-rse
+    skip_cleanup: true
+    keep_history: true
+    local_dir: website-rse/output
+    target_brach: master
     email: webteamdiag@gmail.com
     name: "Webteam DIAG Deploy Bot"
     github_token: $GH_PAGES
