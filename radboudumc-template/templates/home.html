@@ -49,14 +49,15 @@
     </div>
 
     {# Check if we have open vacancies #}
-    {% set open_vacancies = 'false' %}
+    {% set open_vacancies = { 'flag': false } %}
     {% for vacancy in pages %}
         {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
-            {% set open_vacancies = 'true' %}
+          {{ open_vacancies}}
+            {% if open_vacancies.update({'flag': true}) %}{% endif %}
         {% endif %}
     {% endfor %}
 
-    {% if open_vacancies == 'true' %}
+    {% if open_vacancies.flag %}
     <div class="block">
       <div class="container">
         <div class="row">
