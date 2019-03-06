@@ -42,3 +42,4 @@ deploy:
     github-token: $GH_PAGES
     on:
       brach: master
+    fqdn: rse.diagnijmegen.nl
