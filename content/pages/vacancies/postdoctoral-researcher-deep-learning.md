@@ -5,7 +5,7 @@ student_project: false
 picture: vacancies/vacancy_postdoc.png
 people: Francesco Ciompi, Jeroen van der Laak, Esther Lips, Jelle Wesseling 
 template: vacancy-single
-description: The Computational Pathology Group of the Radboud University Medical Center, Nijmegen, The Netherlands, is seeking a Postdoctoral researcher with experience in development of deep learning models.
+description: The Computational Pathology Group of the Radboud University Medical Center, Nijmegen, The Netherlands, is seeking a Postdoctoral researcher with experience in development of deep learning models. This is an excellent opportunity to develop cutting-edge deep learning technology to have an impact on breast cancer research and personalized cancer treatment.
 
 ## Job description
 
