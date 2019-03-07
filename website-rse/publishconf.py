@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://diagnijmegen.github.io/website-rse/'
+SITEURL = 'https://rse.diagnijmegen.nl'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
