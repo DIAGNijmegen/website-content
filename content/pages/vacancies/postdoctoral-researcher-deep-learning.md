@@ -38,6 +38,6 @@ Radboudumc strives to be a leading developer of sustainable, innovative and affo
 Read more about what it means to work at Radboudumc and how you can do your part.
 
 ## How to apply
-Send applications to [Dr. Francesco Ciompi](https://www.radboudumc.nl/en/vacancies/66162-postdoctoral-researcher-for-deep-learning-in-computational-pathology Dr. Francesco Ciompi), assistant professor in computational pathology. Applications will be reviewed on an ongoing basis until the position is filled.
+Send applications to [Dr. Francesco Ciompi](https://www.radboudumc.nl/en/vacancies/66162-postdoctoral-researcher-for-deep-learning-in-computational-pathology), assistant professor in computational pathology. Applications will be reviewed on an ongoing basis until the position is filled.
 
 Recruitment agencies are asked not to respond to this job posting.
