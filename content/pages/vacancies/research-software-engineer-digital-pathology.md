@@ -1,5 +1,5 @@
 title: Research Software Engineer in Digital Pathology
-groups: pathology, diag
+groups: pathology, diag, rse
 closed: false
 student_project: false
 picture: vacancies/vacancy_rse_2019.png
