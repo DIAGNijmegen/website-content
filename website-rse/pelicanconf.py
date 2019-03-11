@@ -9,7 +9,7 @@ from datetime import date
 #
 AUTHOR = u'WebteamDIAG'
 SITENAME = u'RSE Team Diag'
-SITENAME_SHORT = 'DIAG'
+SITENAME_SHORT = 'RSE'
 SITE_REPO = 'website-rse'
 
 # Home page and social settings
