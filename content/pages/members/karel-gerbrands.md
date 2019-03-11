@@ -2,7 +2,7 @@ title: Karel Gerbrands
 name: Karel Gerbrands
 template: people-single
 picture: Karel_Gerbrands.jpg
-position: Scientific programmer
+position: Research Software Engineer
 active: yes
 groups: diag, pathology, rse
 email: karel.gerbrands@radboudumc.nl
