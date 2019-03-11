@@ -1,7 +1,7 @@
 title: Harm van Zeeland
 name: Harm van Zeeland
 template: people-single
-picture: Person.png
+picture: Harm_van_Zeeland.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse

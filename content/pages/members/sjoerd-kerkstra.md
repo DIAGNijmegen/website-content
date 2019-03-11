@@ -1,7 +1,7 @@
 title: Sjoerd Kerkstra
 name: Sjoerd Kerkstra
 template: people-single
-picture: Person.png
+picture: Sjoerd_Kerkstra.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse

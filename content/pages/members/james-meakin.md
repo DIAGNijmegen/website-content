@@ -1,7 +1,7 @@
 title: James Meakin
 name: James Meakin
 template: people-single
-picture: Person.png
+picture: James_Meakin.jpg
 position: Lead Research Software Engineer
 active: yes
 groups: diag, rse

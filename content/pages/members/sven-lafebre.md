@@ -1,7 +1,7 @@
 title: Sven Lafebre
 name: Sven Lafebre
 template: people-single
-picture: Person.png
+picture: Sven_Lafebre.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse

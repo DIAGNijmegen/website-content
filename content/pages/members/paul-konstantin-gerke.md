@@ -1,7 +1,7 @@
 title: Paul Konstantin Gerke
 name: Paul Konstantin Gerke
 template: people-single
-picture: Person.png
+picture: Paul_Konstantin_Gerke.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse

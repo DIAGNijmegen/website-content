@@ -1,7 +1,7 @@
 title: Haimasree Bhattacharya
 name: Haimasree Bhattacharya
 template: people-single
-picture: Person.png
+picture: Haimasree_Bhattacharya.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse
