@@ -19,6 +19,7 @@ deploy:
     github-token: $GH_PAGES
     on:
       brach: master
+    fqdn: a-eyeresearch.nl 
   - provider: pages
     repo: diagnijmegen/website-pathology
     skip-cleanup: true
