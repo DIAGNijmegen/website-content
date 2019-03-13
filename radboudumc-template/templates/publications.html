@@ -41,6 +41,9 @@
                             {% if pub_type == '@PhdThesis' %}
                                 <h3>{{ 'Theses' }}</h3>
                             {% endif%}
+                            {% if pub_type == '@Book' %}
+                                <h3>{{ 'Other publications' }}</h3>
+                            {% endif%}
                             <ul>
                             {% if found.update({'flag': true}) %}{% endif %}
                         {% endif %}

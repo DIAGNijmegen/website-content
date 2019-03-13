@@ -82,7 +82,8 @@ class BaseFormatter:
             '@Article': self.format_article,
             '@PhdThesis': self.format_thesis,
             '@Mastersthesis': self.format_thesis,
-            '@Patent': self.format_patent
+            '@Patent': self.format_patent,
+            '@Book': self.format_article
         }
         if bib_item.entry_type in type_formatters:
             return type_formatters[bib_item.entry_type](bib_item)

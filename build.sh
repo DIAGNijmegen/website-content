@@ -20,7 +20,6 @@ do
 
   # Copy literature
   cp content/diag.bib $website/content/diag.bib
-  cp content/dict_pubs.json $website/content/dict_pubs.json
 
   cd $website
   pwd

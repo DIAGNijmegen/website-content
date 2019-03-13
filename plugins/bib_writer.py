@@ -117,6 +117,9 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
     if 'url' in bib_item.entry and 'arxiv' in bib_item.entry['url']:
         url_arxiv = bib_item.entry['url']
         pub_html += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
+    elif 'url' in bib_item.entry:
+        url_pub = bib_item.entry['url']
+        pub_html += ' <a href=\"' + url_pub + '/\">URL</a>'
     if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower():
         url_arxiv = get_arxiv_id_from_title(bib_item.entry['journal'])
         pub_html += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
@@ -215,6 +218,9 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
             for k in 'promotor', 'copromotor', 'school', 'optmonth', 'year':
                 if k in global_index[bibitem].entry:
                     md_format += k+': ' + global_index[bibitem].entry[k] + '\n'
+            if 'url' in global_index[bibitem].entry:
+                url_pub = global_index[bibitem].entry['url']
+                md_format += 'url: ' + url_pub + '\n'
         else:
             md_format += 'template: publication\n'
             if 'booktitle' in global_index[bibitem].entry or 'journal' in global_index[bibitem].entry:
@@ -232,6 +238,9 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
                 md_format += 'doi: ' + 'https://doi.org/' + global_index[bibitem].entry['doi'] + '\n'
             if 'url' in global_index[bibitem].entry and 'arxiv' in global_index[bibitem].entry['url']:
                 md_format += 'arxiv: ' + global_index[bibitem].entry['url'] + '\n'
+            elif 'url' in global_index[bibitem].entry:
+                url_pub = global_index[bibitem].entry['url']
+                md_format += 'url: ' + url_pub + '\n'
             if 'journal' in global_index[bibitem].entry and 'arxiv' in global_index[bibitem].entry['journal'].lower():
                 url_arxiv = get_arxiv_id_from_title(global_index[bibitem].entry['journal'])
                 md_format += 'arxiv: ' + url_arxiv + '\n'
@@ -272,13 +281,14 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
 def get_list_people():
     base_dir = os.getcwd()
     people_dir = '{}/content/pages/members'.format(base_dir)
-    print(people_dir, '##')
+    print(people_dir)
     list_researchers = []
 
     for people_md_path in glob.glob(people_dir+'/*.md'):
         bname = os.path.basename(people_md_path).replace('.md', '')
         full_name = bname.split('-')
         list_researchers.append(full_name)
+        print('Member: ', full_name)
 
     return list_researchers
 
