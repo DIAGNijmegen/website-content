@@ -22,7 +22,7 @@ The goal of this project is to automate the screening workflow of eye diseases u
 
 Implementing dynamic deep learning methods in eye screening workflows will substantially reduce the burden on highly-trained personnel and reduce the associated costs, while maintaining the quality, obtaining higher throughput and increasing screening coverage.
 
-![Perspectief DLMedIA]({filename}/content/images/projects/perspectief_in_photo_smaller.PNG)
+![Perspectief DLMedIA]({filename}/images/projects/perspectief_in_photo_smaller.PNG)
 
 ## Funding
 
