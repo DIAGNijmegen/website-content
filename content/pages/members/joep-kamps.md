@@ -2,7 +2,7 @@ title: Joep Kamps
 name: Joep Kamps
 template: people-single
 picture: Joep_Kamps.jpg
-position: Research Software Engineer
+position: Data Manager
 active: yes
 groups: diag, rse, retina
 email:  joep.kamps@radboudumc.nl
