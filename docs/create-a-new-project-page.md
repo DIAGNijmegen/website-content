@@ -4,6 +4,7 @@
 2. Type project name in entry above and end with .md. Example: website-content/content/pages/projects/project.md
 3. Fill the page with the following content;
 
+```
 MANDATORY
 
 title: Project title (appears on top of page)
@@ -27,6 +28,8 @@ FREE TEXT, FOR EXAMPLE:
 
 #Funding
 {funding + links}
+
+```
 
 4. To add an image to the text, upload a resized image to website-content/content/images/projects/ and type ![link name image]({filename}/images/projects/{filename}.png). The first {filename} is text, don't type the actual filename there. 
 
