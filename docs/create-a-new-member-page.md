@@ -4,6 +4,7 @@
 2. Type person's name in entry above. The first and last names should be connected by a dashes ad end with .md. For example: website-content/content/pages/members/bram-van-ginneken.mnd
 3. The file should be filled with the following;
 
+```
 title: Firstname Lastname
 name: Firstname Lastname
 template: people-single
@@ -19,5 +20,6 @@ scholar: link
 researcherid: link
 
 {Text bio.}  
+```
 
 4. After editing, select 'Commit changes' at the bottom of the page. 
