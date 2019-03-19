@@ -42,18 +42,24 @@ def get_publications_by_author(global_index, list_researchers):
 
         for researcher_names in list_researchers:
             firstname = researcher_names[0]
-            lastname = researcher_names[-1]
+            lastnames = researcher_names[1:]
+            if len(lastnames) > 1:
+                # This fixes issue #10 for lastnames connected with a dash (-)
+                lastnames.append('-'.join(lastnames))
+            lastnames = [lname.lower() for lname in lastnames]
             for first, von, last, jr in authors:
-                if last.lower() == lastname and first[0].lower() == firstname[0].lower():
-                    author_index[lastname].add(bib_key)
+                if last.lower() in lastnames and first[0].lower() == firstname[0].lower():
+                    author_index[last.lower()].add(bib_key)
                     # Some 'von' are actually lastnames
                     pvon = von.replace(' ', '').replace('.', '')
 
+                    if len(lastnames) > 1:
+                        author_index[lastnames[-2]].add(bib_key)
+                        author_index[lastnames[-1]].add(bib_key)
                     if len(pvon) > 3:
                         author_index[von].add(bib_key)
                     if bib_key not in filtered_publications:
                         filtered_publications.append(bib_key)
-
     return author_index, filtered_publications
 
 
