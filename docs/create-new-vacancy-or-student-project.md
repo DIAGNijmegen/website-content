@@ -3,7 +3,7 @@
 1. Create a new file in website-content/content/pages/vacancies/
 2. Type the name of the page in the mepty entry above and end with .md. Example:  website-content/content/pages/vacancies/deep-learning-for-the-differentiation-of-STIC-lesions.md
 3. Fill in the following:
-
+```
 MANDATORY
 title: Title vacancy
 groups: pathology/retina/rse, etc (determines on which website the vacancy or student project appears)
@@ -36,5 +36,6 @@ For example:
 ## How to apply
 
 {text}
+```
 
 4. Commit changes to save page
