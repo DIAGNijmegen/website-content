@@ -8,19 +8,19 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'DIAG Base'
-SITENAME_SHORT = 'DIAG'
+SITENAME = u'A-eye Research Group'
+SITENAME_SHORT = 'A-eye'
 SITE_REPO = 'website-retina'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
-SITE_PICTURE = 'images/computational_pathology_social_image.png'
-HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
-HOME_IMAGE_CAPTION = 'Automated tumor detection'
+SITELEAD = 'The A-eye Research Group focuses on computer-aided detection and quantification techniques for diagnosis and quantification of retinal diseases.'
+SITE_PICTURE = 'images/general/retina_main.JPG'
+HOME_IMAGE = 'images/general/retina_main.JPG'
+#HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Some footer text'
+FOOTER_TEXT = 'The A-eye Research Group is part of <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
-PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+PARENT_DOMAIN = '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
 
 # URLs
 SITEURL = ''
