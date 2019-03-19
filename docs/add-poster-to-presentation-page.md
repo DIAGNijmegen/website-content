@@ -3,7 +3,8 @@
 1. Create a new file in website-content/content/pages/presentations/
 2. Type the name of the page in the empty entry on the top, and end with .md. Example:  website-content/content/pages/presentations/unsupervised-prostate-cancer-detection.md
 3. Fill in the following:
-ALL IN MANDATORY 
+
+ALL MANDATORY 
 
 title: Title poster
 template: presentation-single
