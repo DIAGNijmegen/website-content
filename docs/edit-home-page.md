@@ -1,7 +1,7 @@
 # Edit home page
 
 # Edit text home page
-1. Go to website-content/website-pathology/rse/retina/
+1. Go to website-content/website-{subgroup}
 2. Select pelicanconf.py
 3. Lines 8, 9, 15 and 18 are editable text. 
 8: The name of the site, for examle 'Computational Pathology Group' 
@@ -10,7 +10,7 @@
 18: The caption of the main image on the home page
 
 # Edit links header and footers
-1. Go to website-content/website-pathology/rse/retina/
+1. Go to website-content/website-{subgroup}
 2. Select pelicanconf.py
 3. Lines 20, 21 and 22 are editable
 Line 20: footer text and link
