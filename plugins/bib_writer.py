@@ -220,7 +220,7 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
                     md_format += k+': ' + global_index[bibitem].entry[k] + '\n'
             if 'url' in global_index[bibitem].entry:
                 url_pub = global_index[bibitem].entry['url']
-                md_format += 'url: ' + url_pub + '\n'
+                md_format += 'urlweb: ' + url_pub + '\n'
         else:
             md_format += 'template: publication\n'
             if 'booktitle' in global_index[bibitem].entry or 'journal' in global_index[bibitem].entry:
@@ -240,7 +240,7 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
                 md_format += 'arxiv: ' + global_index[bibitem].entry['url'] + '\n'
             elif 'url' in global_index[bibitem].entry:
                 url_pub = global_index[bibitem].entry['url']
-                md_format += 'url: ' + url_pub + '\n'
+                md_format += 'urlweb: ' + url_pub + '\n'
             if 'journal' in global_index[bibitem].entry and 'arxiv' in global_index[bibitem].entry['journal'].lower():
                 url_arxiv = get_arxiv_id_from_title(global_index[bibitem].entry['journal'])
                 md_format += 'arxiv: ' + url_arxiv + '\n'
