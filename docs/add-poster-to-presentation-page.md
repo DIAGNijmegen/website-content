@@ -14,6 +14,6 @@ arxiv: ArXiv link if possible
 author_list: First and last names of people involved
 groups: pathology/diag/rse/retina (determines on which website the poster shoud appear)
 
-{text discribing the poster}
+{text describing the poster}
 
 4. Commit changes at bottom of the page to save.
