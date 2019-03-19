@@ -1,4 +1,4 @@
-# Creating a new member page
+# Create a new member page
 
 1. Create a new file in website-content/content/pages/members/
 2. Type person's name in entry above. The first and last names should be connected by a dashes ad end with .md. For example: website-content/content/pages/members/bram-van-ginneken.mnd
