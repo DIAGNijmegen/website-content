@@ -13,7 +13,7 @@ SITENAME_SHORT = 'A-eye'
 SITE_REPO = 'website-retina'
 
 # Home page and social settings
-SITELEAD = 'The A-eye Research Group focuses on computer-aided detection and quantification techniques for diagnosis and quantification of retinal diseases.'
+SITELEAD = 'The A-eye Research Group focuses on computer-aided techniques based on artificial intelligence for detection, diagnosis and quantification of retinal diseases.'
 SITE_PICTURE = 'images/general/retina_main.JPG'
 HOME_IMAGE = 'images/general/retina_main.JPG'
 #HOME_IMAGE_CAPTION = 'Automated tumor detection'
