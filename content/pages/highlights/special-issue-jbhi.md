@@ -1,4 +1,4 @@
-title: JBHI's Special Issue 'Computational Pathology' Now Accepting Submissions
+title: JBHI's special issue 'Computational Pathology' now accepting submissions
 date: 20-3-2019
 picture: Special_issue.jpeg
 groups: diag, pathology
@@ -40,8 +40,11 @@ University of Warwick, Coventry, UK
 
 ## Key Dates
 Deadline for <a href="https://jbhi.embs.org/special-issues/computational-pathology/">submission</a>: September 1, 2019
+
 First reviews: October 15, 2019
+
 Revised Manuscript due: January 15, 2020
+
 Final decision: March 2020
 
 *Computational Pathology embodies the synergy of Digital Pathology, Medical Image Analysis, Computer Vision, and Machine Learning. The huge amount of information and data available in multi-gigapixel histopathology images makes digital pathology the perfect use case for advanced image analysis techniques. For this reason, deep learning and artificial intelligence have successfully powered computational pathology research in recent years. Recent scientific events on computational pathology, such as the MICCAI 2018 workshop on Computational Pathology (COMPAY), the European Conference on Digital Pathology (ECDP), the Computational Pathology Symposium at the European Conference of Pathology (ECP), among others, have generated a substantial pool of original research work in this discipline.*
