@@ -1,5 +1,5 @@
 title: Nathan Kaufman timely topics lecture for Jeroen van der Laak at USCAP 2019
-date: 22-03-2018
+date: 22-03-2019
 picture: USCAP_1.jpg
 groups: diag, pathology
 
