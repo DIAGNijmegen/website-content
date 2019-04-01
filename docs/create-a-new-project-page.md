@@ -13,7 +13,7 @@ finished: false (change to 'true' to move the project from Current projects to F
 picture: {filename}.png (This picture appears on the project home page and is collected from website-content/content/images/projects/. Upload a square and resized image there and keep into account with selecting your image that mostly the top part is showing)
 template: project-single
 groups: pathology/diag/rse/retina, etc (this tag determines on which websites the project will be shown. Adding diag is not mandatory)
-people: names of people involved in the project. (This will cause the project to appear on their personal pages. It is possible to add external people here. If you want their pictures to appear as well, upload a square and resized image to website-content/content/images/people/ with file name: firstname_lastname
+people: names of people involved in the project. (This will cause the project to appear on their personal pages. It is possible to add external people here. If you want their pictures to appear as well, upload a square and resized image to website-content/content/images/people/external/ with file name: firstname_lastname
 description: a short description of +/- 135 characters. This will appear on the project home page.
 bibkeys: bibkeys of publications that are connected to the project
 
