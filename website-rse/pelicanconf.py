@@ -8,17 +8,17 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'RSE Team Diag'
+SITENAME = u'Research Software Engineering'
 SITENAME_SHORT = 'RSE'
 SITE_REPO = 'website-rse'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
+SITELEAD = 'The homepage of the Research Software Engineering Team in the Diagnostic Image Analysis Group at Radboud University Medical Center.'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
-HOME_IMAGE_CAPTION = 'Automated tumor detection'
+HOME_IMAGE_CAPTION = ''
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Some footer text'
+FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
