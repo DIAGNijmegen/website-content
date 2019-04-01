@@ -4,6 +4,7 @@ template: people-single
 picture: Marjolijn_den_Boer.jpg
 position: Master student
 active: no
+groups: diag, pathology
 email: marjolijn.denboer@radboudumc.nl
 office: Route 812, room 2.39
 type: student
