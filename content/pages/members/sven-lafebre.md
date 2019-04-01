@@ -3,10 +3,10 @@ name: Sven Lafebre
 template: people-single
 picture: Sven_Lafebre.jpg
 position: Research Software Engineer
-active: yes
+active: no
 groups: diag, rse
-email: sven.lafebre@radboudumc.nl
-office: Route 767, Room 2.25
+email: 
+office: 
 telephone:
 type: tech
 
