@@ -1,6 +1,6 @@
 title: Research Software Engineer in Digital Pathology
 groups: pathology, diag, rse
-closed: false
+closed: true
 student_project: false
 picture: vacancies/vacancy_rse_2019.png
 people: Jeroen van der Laak, Geert Litjens, Francesco Ciompi, James Meakin
