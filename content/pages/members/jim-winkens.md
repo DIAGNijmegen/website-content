@@ -9,4 +9,4 @@ email: jim.winkens@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-Jim Winkens succesfully defended his thesis titled 'Out-of-distribution detection for computational pathology with multi-head ensembles’, and obtained his master's degree at the University of Amterdam. 
+Jim Winkens succesfully defended his thesis titled 'Out-of-distribution detection for computational pathology with multi-head ensembles’, and obtained his master's degree at the University of Amsterdam. 
