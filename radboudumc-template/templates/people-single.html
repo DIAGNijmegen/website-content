@@ -12,7 +12,9 @@
             <div class="person">
                 <img class="rounded-circle" src="{{SITEURL}}/images/people/{{ page.picture }}">
                 <h1>{{ page.title }}</h1>
+                {% if page.active == 'yes' %}
                 <h2 class="text-muted">{{ page.position }}</h2>
+                {% endif %}
             </div>
 
             <div class="person-links mb-4">
@@ -70,21 +72,18 @@
                 {% if page.active == 'yes' %}
                     <dt>Email:</dt>
                     <dd><a href="mailto:{{ page.email}}">{{ page.email }}</a></dd>
-                    
+
                     {% if page.office %}
                     <dt>Office:</dt>
                     <dd>{{ page.office }}</dd>
                     {% endif%}
-                    
+
                     {% if page.telephone %}
                     <dt>Telephone:</dt>
                     <dd>{{ page.telephone }}</dd>
                     {% endif %}
-                {% else %}
-                    <dt>Status:</dt> 
-                    <dd>{{ page.name }} is a former employee</dd>
                 {% endif %}
-                
+
                 <dt>Bio:</dt>
                 <dd>{{ page.content }}</dd>
 
