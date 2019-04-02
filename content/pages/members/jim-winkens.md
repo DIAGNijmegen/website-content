@@ -9,4 +9,4 @@ email: jim.winkens@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-Jim Winkens studied Applied Physics at the TU Delft and is now pursuing a master’s degree in Artificial Intelligence programme at the University of Amsterdam. For his master thesis project, he works on predictive uncertainty estimation in deep learning for digital pathology at the Diagnostic Image Analysis Group (DIAG) at Radboud University Medical Center, Nijmegen under the supervision of Geert Litjens.
+Jim Winkens succesfully defended his thesis titled 'Out-of-distribution detection for computational pathology with multi-head ensembles’, and obtained his master's degree at the University of Amterdam. 
