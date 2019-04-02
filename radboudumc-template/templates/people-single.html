@@ -87,6 +87,16 @@
                 <dt>Bio:</dt>
                 <dd>{{ page.content }}</dd>
 
+
+                {# Check if this user has projects #}
+                {% set has_projects = { 'flag': false } %}
+                {% for project in pages %}
+                    {% if project.parent.url == 'projects/' and project.people and page.name.strip() in project.people.split(', ') %}
+                        {% if has_projects.update({'flag': true}) %}{% endif %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if has_projects.flag %}
                 <dt>Projects:</dt>
                 <dd>
                     <ul>
@@ -97,6 +107,7 @@
                     {% endfor %}
                     </ul>
                 </dd>
+                {% endif %}
             </dl>
 
         </div>
