@@ -1,7 +1,7 @@
 title: CIRRUS Lung Screening
 title_long: CIRRUS Lung Screening
 finished: false
-picture: CIRRUSLungS_workstation.png
+picture: cirruslungs_workstation.png
 template: project-single
 groups: rse, diag
 people: Haimasree Bhattacharya, Colin Jacobs
@@ -30,7 +30,7 @@ prior scans. All nodules from the prior scans are propagated
 automatically to the new scan. Finally, the prior findings and the CAD 
 marks are merged. This software also provides a functionality to 
 propagate a newly found nodule retroactively through the previous scans.
-![Workstation]({filename}/images/projects/CIRRUSLungS_workstation.png)
+![Workstation]({filename}/images/projects/cirruslungs_workstation.png)
 *CIRRUSLungS workstation*
 
 After a user has finished reading, he/she navigates to the Report tab 
@@ -40,7 +40,7 @@ findings and their characteristics and optionally provides follow-up
 recommendations according to the BTS/Fleischner/LungRADS guidelines. 
 The suggested follow up and other case comments can be added to the 
 report. Finally, the user signs off the case and proceeds with the next one.
-![Workstation]({filename}/images/projects/CIRRUSLungS_report.png)
+![Workstation]({filename}/images/projects/cirruslungs_report.png)
 *CIRRUSLungS report*
 
 ## Usage
