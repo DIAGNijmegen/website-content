@@ -4,7 +4,7 @@ finished: false
 picture: cirruslungs_workstation.png
 template: project-single
 groups: rse, diag
-people: Haimasree Bhattacharya, Paul Gerke, Colin Jacobs
+people: Haimasree Bhattacharya, Paul Konstantin Gerke, Joep Kamps, Colin Jacobs
 description: This workstation is a highly optimized reading platform that allows fast and standardized reading of lung screening CT scans. 
 bibkeys: 
 
