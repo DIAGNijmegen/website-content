@@ -28,10 +28,10 @@ treatment options.
 | ---------------------- | ----------------------------- |
 | Compute nodes          | 30                            |
 | GPUs                   | 80                            |
-| CPUs                   |                               |
-| Total memory           |                               |
+| CPUs                   | 788                           |
+| Total memory           | 3.5TB                         |
 | Active users/month     | 40                            |
-| Experiments/month      |                               |
+| Jobs run/month         | 7000                          |
 
 ## Architecture
 
