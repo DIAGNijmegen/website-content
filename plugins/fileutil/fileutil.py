@@ -2,10 +2,15 @@ import os
 
 from pelican import signals
 
-def content_exists_or_default(path, default):
-  if os.path.isfile(os.path.join( os.getcwd(), 'content', path)):
-    return path
-  else:
+def content_exists_or_default(paths, default):
+    if type(paths) == str:
+        paths = [paths]
+
+    # Try to find a path that exists
+    for path in paths:
+      if os.path.isfile(os.path.join(os.getcwd(), 'content', path)):
+        return path
+
     return default
 
 def add_filter(pelican):

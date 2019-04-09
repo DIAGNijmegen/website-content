@@ -25,4 +25,4 @@ PLUGINS = ["bibtex",  "bibtex_loader",  "edit_url", "hierarchy", "fileutil"]
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-106053666-2"

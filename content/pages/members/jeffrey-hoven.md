@@ -11,8 +11,7 @@ type: tech
 
 
 
-Jeffrey Hoven started in 2017 as a research technician in the Computational Pathology group, supervised by Geert Litjens. He studied to be a biological-medical laboratory technician (MLO) at Rijnijssel. Currently he is studying Biological and Medical Laboratory Science at the HAN University of Applied Sciences. His main skills comprise of histology and (immuno)histochemistry. 
-
+Jeffrey Hoven worked until February 2018 as a research technician in the Computational Pathology group, supervised by Geert Litjens. He studied to be a biological-medical laboratory technician (MLO) at Rijnijssel and continued this study at the HLO of the HAN University of Applied Sciences. 
 
 
 

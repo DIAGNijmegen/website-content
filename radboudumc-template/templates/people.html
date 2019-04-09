@@ -37,7 +37,7 @@
         {% endfor %}
         </div>
 
-        <h1 class="text-muted">Visiting researcher</h1>
+        <h1 class="text-muted">Visiting researchers</h1>
         <div class="row people-grid">
         {% for person in pages %}
             {% if person.parent.url == 'members/' and (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' %}
