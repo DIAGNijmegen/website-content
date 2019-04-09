@@ -22,6 +22,17 @@ a centralized pool of GPGPUs. It is used to create state-of-the-art tools
 for detecting and classifying illnesses and quantify extent, and possible
 treatment options.
 
+## Capacity/Activity
+
+| Resource               | Value                         |
+| ---------------------- | ----------------------------- |
+| Compute nodes          | 30                            |
+| GPUs                   | 80                            |
+| CPUs                   |                               |
+| Total memory           |                               |
+| Active users/month     | 40                            |
+| Experiments/month      |                               |
+
 ## Architecture
 
 SOL uses offers consists of a compute cluster of 80 GPUs (mainly NVIDIA GTX1080Ti
@@ -31,5 +42,21 @@ based monitoring solution to monitor the activity and health of the cluster.
 
 ![sol-cluster-architecture]({filename}/images/projects/sol-architecture.png "SOL's architecture overview")
 
-The cluster uses Slurm as job scheduler and docker to encapsulate experiments and
-isolate the software stacks of different experiments from each other.
+Users log in to job nodes directly to either schedule an experiment or to
+interactively interact with a scheduled experiment. We use slurm as an automated
+job queue. Experiments are encapsialted in docker containers to isolate their 
+software stacks from the system software stack. This allows researchers to try
+out new libraries and software without the need to install new software on the
+base systems.
+
+## Future
+
+The SOL compute cluster runs reliably for 1.5 years now. The cluster was 
+steadily growing over that period and it will reach its maximum design capacity
+of 100 GPUs this year. After this, we will consolidate and upgrade old hardware
+and to remove non-stardard components and compute nodes from the cluster.
+
+In addition to this, the compute cluster will be rolled out as a service to 
+other departments of the hospital and we will start offering compute capabilites
+built around SOL to other departments of Radboud University in 2019.
+
