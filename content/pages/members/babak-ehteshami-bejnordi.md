@@ -9,4 +9,4 @@ office: Route 812, room 2.39
 type: phd
 groups: diag, pathology
 
-Babak Ehteshami Bejnordi succesfully defended his PhD thesis titled ['Histopathological diagnosis of breast cancer using machine learning'](https://www.computationalpathologygroup.eu/publications/bejn17a/).
+Babak Ehteshami Bejnordi was a PhD student in the CP group until December 2017. He succesfully defended his PhD thesis titled ['Histopathological diagnosis of breast cancer using machine learning'](https://www.computationalpathologygroup.eu/publications/bejn17a/).
