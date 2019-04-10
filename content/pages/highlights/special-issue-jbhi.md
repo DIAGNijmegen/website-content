@@ -1,7 +1,10 @@
 title: JBHI's special issue 'Computational Pathology' now accepting submissions
 date: 20-3-2019
+description: The goal of this special issue is to attract and highlight the latest developments in computational pathology, and feature papers proposing state-of-the-art solutions in the field of digital pathology using advanced image analysis and artificial intelligence.
 picture: Special_issue.jpeg
 groups: diag, pathology
+
+*Computational Pathology embodies the synergy of Digital Pathology, Medical Image Analysis, Computer Vision, and Machine Learning. The huge amount of information and data available in multi-gigapixel histopathology images makes digital pathology the perfect use case for advanced image analysis techniques. For this reason, deep learning and artificial intelligence have successfully powered computational pathology research in recent years. Recent scientific events on computational pathology, such as the MICCAI 2018 workshop on Computational Pathology (COMPAY), the European Conference on Digital Pathology (ECDP), the Computational Pathology Symposium at the European Conference of Pathology (ECP), among others, have generated a substantial pool of original research work in this discipline.*
 
 The goal of this special issue is to attract and highlight the latest developments in computational pathology, and feature papers proposing state-of-the-art solutions in the field of digital pathology using advanced image analysis and artificial intelligence.
 
@@ -47,4 +50,3 @@ Revised Manuscript due: January 15, 2020
 
 Final decision: March 2020
 
-*Computational Pathology embodies the synergy of Digital Pathology, Medical Image Analysis, Computer Vision, and Machine Learning. The huge amount of information and data available in multi-gigapixel histopathology images makes digital pathology the perfect use case for advanced image analysis techniques. For this reason, deep learning and artificial intelligence have successfully powered computational pathology research in recent years. Recent scientific events on computational pathology, such as the MICCAI 2018 workshop on Computational Pathology (COMPAY), the European Conference on Digital Pathology (ECDP), the Computational Pathology Symposium at the European Conference of Pathology (ECP), among others, have generated a substantial pool of original research work in this discipline.*
