@@ -9,4 +9,4 @@ email: marjolijn.denboer@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-Marjolijn den Boer has succesfully defended her thesis titles 'Automated structure segmentation and lymphocyte detection in kidney transplant whole slide images using a convolutional neural network', and obtained her master's degree at the Radboud University Nijmegen. 
+Marjolijn den Boer was a masters student in the CP group until September 2018. She has succesfully defended her master thesis titled 'Automated structure segmentation and lymphocyte detection in kidney transplant whole slide images using a convolutional neural network', and obtained her master's degree at the Radboud University Nijmegen. 
