@@ -73,4 +73,21 @@ article {
     max-width: 100%;
     height: auto;
   }
+  
+  // Create better tables for content
+  table {
+    th {
+      border-bottom: solid;
+      border-width: 1px;
+      border-color: black;
+      
+      padding-left: .5em;
+      padding-right: .5em;
+    }
+    
+    td {
+      padding-left: .5em;
+      padding-right: .5em;
+    }    
+  }
 }
