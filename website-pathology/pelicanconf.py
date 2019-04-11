@@ -71,7 +71,7 @@ THEME = "../radboudumc-template"
 # Plugins
 #
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil"]
+PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "bootstrapify"]
 
 # Other
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'

@@ -69,4 +69,4 @@ THEME = "../radboudumc-template"
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil"]
+PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "bootstrapify"]
