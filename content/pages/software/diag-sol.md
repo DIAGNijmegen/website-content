@@ -1,7 +1,7 @@
 title: SOL
 title_long: SOL - Deep Learning GPU Cluster
 finished: false
-picture: sol-logo.jpg
+picture: software/sol-logo.jpg
 template: project-single
 groups: rse, diag
 people: Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Erdi Calli, Matin Hosseinzadeh, Xie Weiyi, Patrick Brand
@@ -35,13 +35,15 @@ treatment options.
 
 SOL uses offers consists of a compute cluster of 80 GPUs (mainly NVIDIA GTX1080Ti
 and RTX2080Ti cards), a dedicated 500 TB storage server for serving data to
-deep learning compute nodes via 20 GBit networking, and a Prometheus/Grafana
+deep learning compute nodes using 20 GBit networking, and a 
+[Prometheus](https://prometheus.io/)+[Grafana](https://grafana.com/)
 based monitoring solution to monitor the activity and health of the cluster. 
 
-![sol-cluster-architecture]({filename}/images/projects/sol-architecture.png "SOL's architecture overview")
+![sol-cluster-architecture](software/sol-architecture.png "SOL's architecture overview")
 
 Users log in to job nodes directly to either schedule an experiment or to
-interactively interact with a scheduled experiment. We use slurm as an automated
+interactively interact with a scheduled experiment. We use 
+[Slurm](https://slurm.schedmd.com/overview.html) as an automated
 job queue. Experiments are encapsialted in docker containers to isolate their 
 software stacks from the system software stack. This allows researchers to try
 out new libraries and software without the need to install new software on the
