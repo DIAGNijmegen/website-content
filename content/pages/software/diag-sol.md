@@ -11,14 +11,14 @@ bibkeys:
 The Diagnostic Image Analysis Group's goal is to improve image analysis tools
 for clinicians. Since 2015, deep learning has become an essential tool for 
 artificial intelligence, substatially improving the acurracy and generalizability 
-on classical image classification techniques. In order to create high quality 
+on developed image classification techniques. In order to create high quality 
 deep learning based algorithms for clinical practice, DIAG's AI researchers 
-need to make use of high-power general purpose graphic processing units (GPGPUs).
+require the use of high-power general purpose graphic processing units (GPGPUs).
 
 SOL is DIAG's deep learning infrastructure. It offers researches access to 
 a centralized pool of GPGPUs. It is used to create state-of-the-art tools
-for detecting and classifying illnesses and quantify extent, and possible
-treatment options.
+for detecting and classifying illnesses and quantify extent and identify possible
+treatment options for diseases.
 
 ## Capacity/Activity
 
@@ -33,7 +33,8 @@ treatment options.
 
 ## Architecture
 
-SOL uses offers consists of a compute cluster of 80 GPUs (mainly NVIDIA GTX1080Ti
+SOL is a compute cluster which consists of 30 compute nodes that give access
+to a pool of 80 GPUs (mainly NVIDIA GTX1080Ti
 and RTX2080Ti cards), a dedicated 500 TB storage server for serving data to
 deep learning compute nodes using 20 GBit networking, and a 
 [Prometheus](https://prometheus.io/)+[Grafana](https://grafana.com/)
@@ -42,18 +43,20 @@ based monitoring solution to monitor the activity and health of the cluster.
 ![sol-cluster-architecture]({filename}/images/software/sol-architecture.png "SOL's architecture overview")
 
 Users log in to job nodes directly to either schedule an experiment or to
-interactively interact with a scheduled experiment. We use 
+interact with a running experiment using 
+[Jupyter Notebooks](https://jupyter.org/). We use 
 [Slurm](https://slurm.schedmd.com/overview.html) as an automated
-job queue. Experiments are encapsulated in docker containers to isolate their 
-software stacks from the system software stack of our compute nodes. This allows 
+job queue. Experiments are encapsulated in 
+[docker containers](https://www.docker.com/) to isolate their 
+software stacks from the base systems of our compute nodes. This allows 
 researchers maximum flexibilty when it comes to trying out new, experimental 
 libraries and software without us needing to install it on the base systems
-themselves.
+ourselves.
 
 ## Future
 
-The SOL compute cluster now runs reliably since mid 2017. The cluster was 
-steadily growing until 2019 when it will reach its maximum design capacity
+The SOL compute cluster now runs reliably since mid 2017. The cluster is planned
+to steadily grow until then end of 2019 when it will reach its maximum design capacity
 of 100 GPUs. After this point, plans are to consolidate and upgrade old hardware
 and to remove non-stardard components and compute nodes from the cluster.
 
