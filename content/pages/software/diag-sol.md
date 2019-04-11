@@ -44,16 +44,17 @@ based monitoring solution to monitor the activity and health of the cluster.
 Users log in to job nodes directly to either schedule an experiment or to
 interactively interact with a scheduled experiment. We use 
 [Slurm](https://slurm.schedmd.com/overview.html) as an automated
-job queue. Experiments are encapsialted in docker containers to isolate their 
-software stacks from the system software stack. This allows researchers to try
-out new libraries and software without the need to install new software on the
-base systems.
+job queue. Experiments are encapsulated in docker containers to isolate their 
+software stacks from the system software stack of our compute nodes. This allows 
+researchers maximum flexibilty when it comes to trying out new, experimental 
+libraries and software without us needing to install it on the base systems
+themselves.
 
 ## Future
 
-The SOL compute cluster runs reliably for 1.5 years now. The cluster was 
-steadily growing over that period and it will reach its maximum design capacity
-of 100 GPUs this year. After this, we will consolidate and upgrade old hardware
+The SOL compute cluster now runs reliably since mid 2017. The cluster was 
+steadily growing until 2019 when it will reach its maximum design capacity
+of 100 GPUs. After this point, plans are to consolidate and upgrade old hardware
 and to remove non-stardard components and compute nodes from the cluster.
 
 In addition to this, the compute cluster will be rolled out as a service to 
