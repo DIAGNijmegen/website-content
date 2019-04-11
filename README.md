@@ -16,5 +16,5 @@ This repository stores all the content for the diag websites
 
 If you design an image/poster or similar for the website, please store the
 design files (if not too big) in the directoy `content/src/` in the apropriate
-subtree. This allows other to update media more easily should they ever become
+subtree. This allows others to update media more easily should they ever become
 outdated.
