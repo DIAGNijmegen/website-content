@@ -1,5 +1,6 @@
 title: Results CAMELYON17 challenge
 date: 11-03-2018
+description: Peter Bandi and Oscar Geessink challenged participants to move from individual metastases detection to classification of lymph node status on a patient level. The algorithmic details of the twelve best submissions are discussed in the paper that appeared in IEEE Transactions on Medical Imaging last August.
 picture: CAMELYON17.png
 groups: diag, pathology
 
