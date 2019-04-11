@@ -1,5 +1,6 @@
 title: First edition MIDL 2018 great success
 date: 08-07-2018
+description: A big thank you to everyone who attended MIDL 2018 and made this first edition to a great success! Among 61 posters was work from Computational Pathology group members Hans Pinckaers,Zaneta Swiderska-Chadaj, David Tellez, Mart van Rijthoven and Wouter Bulten.
 picture: MIDL_OpenGraph_v3.png
 groups: diag, pathology
 
