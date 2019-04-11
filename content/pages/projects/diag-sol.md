@@ -1,7 +1,7 @@
 title: SOL
 title_long: SOL - Deep Learning GPU Cluster
 finished: false
-picture: sol-logo.png
+picture: sol-logo.jpg
 template: project-single
 groups: rse, diag
 people: Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Erdi Calli, Matin Hosseinzadeh, Xie Weiyi, Patrick Brand
