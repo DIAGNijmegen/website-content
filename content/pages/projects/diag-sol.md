@@ -8,8 +8,6 @@ people: Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Erdi Calli, Ma
 description: DIAG's deep learning cluster for training and applying automated image analysis tools.
 bibkeys: 
 
-## Background
-
 The Diagnostic Image Analysis Group's goal is to improve image analysis tools
 for clinicians. Since 2015, deep learning has become an essential tool for 
 artificial intelligence, substatially improving the acurracy and generalizability 
