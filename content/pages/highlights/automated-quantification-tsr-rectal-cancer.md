@@ -1,5 +1,6 @@
 title: Computer aided quantification of TSR as independent prognosticator in rectal cancer
 date: 19-03-2019
+description: Computational pathology group member Oscar Geessink and colleagues investigated the potential of computer-aided quantification of intratumoral stroma in rectal cancer whole-slide images. This month, their work has been accepted for publication by Celullar Oncology.
 picture: TSR.png
 groups: diag, pathology
 
