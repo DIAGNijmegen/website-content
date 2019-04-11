@@ -1,5 +1,6 @@
 title: Radboud Science Award 2018 for Jeroen van der Laak and Geert Litjens
 date: 10-06-2018
+description: This week, the Radboud Science Award was awarded to Hanneke van Ouden, Thijs Eijsvogels, Jeroen van der Laak and Geert Litjens. In addition to recognizing excellent research, this award aims at connecting academic research to primary school teaching programs.
 picture: RSA_2018.jpg
 groups: diag, pathology
 
