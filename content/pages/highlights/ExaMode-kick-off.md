@@ -1,5 +1,6 @@
 title: Kick-off H2020 project ExaMode
 date: 29-1-2019
+description: 20 European researchers gathered last week at the Techno-pôle in Sierre, Switserland to kick-off the European H2020 project ExaMode. The objective of the project is to develop new prototypes for processing large volumes of medical data on exascale computing facilities.
 picture: Examode.jpg
 groups: diag, pathology
 
