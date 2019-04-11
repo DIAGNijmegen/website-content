@@ -38,12 +38,15 @@
                     {% for article in articles[0:2] %}
                         {% include 'blocks/article-summary.html' %}
                     {% endfor %}
+                    <p><a href="{{ SITEURL }}/highlights" class="btn btn-primary">All highlights</a></p>
+                    
                 </div>
                 <div class="col-md-4 col-lg-3">
                     <div class="twitter-embed">
                         <a class="twitter-timeline" data-height="615" data-chrome="transparent noheader nofooter" data-dnt="true" href="{{TWITTER_URL}}">Tweets by the group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

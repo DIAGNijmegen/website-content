@@ -1,5 +1,6 @@
 title: Nathan Kaufman timely topics lecture for Jeroen van der Laak at USCAP 2019
 date: 22-03-2019
+description: Jeroen van der Laak was honored as Nathan Kaufman timely topics lecturer at the 108th annual meeting of the United States and Canadian Academy of Pathology (USCAP). This lecture is regarded as a great honor within the USCAP sphere.
 picture: USCAP_1.jpg
 groups: diag, pathology
 
