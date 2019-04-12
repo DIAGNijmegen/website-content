@@ -27,11 +27,24 @@
     </div>
 
     {% if articles %}
-        <div class="block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mb-4">
-                        <h1>Highlights</h1>
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>Highlights</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-lg-9">
+                    {% for article in articles[0:2] %}
+                        {% include 'blocks/article-summary.html' %}
+                    {% endfor %}
+                    <p><a href="{{ SITEURL }}/highlights" class="btn btn-primary">All highlights</a></p>
+
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="twitter-embed">
+                        <a class="twitter-timeline" data-height="615" data-chrome="transparent noheader nofooter" data-dnt="true" href="{{TWITTER_URL}}">Tweets by the group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
                 <div class="row">
@@ -51,50 +64,50 @@
                 </div>
             </div>
         </div>
+    </div>
     {% endif %}
 
-    {# Check if we have open vacancies #}
-    {% set open_vacancies = { 'flag': false } %}
-    {% for vacancy in pages %}
-        {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
-            {% if open_vacancies.update({'flag': true}) %}{% endif %}
-        {% endif %}
-    {% endfor %}
+    {% set ns = namespace(has_vacancy=False) %}
 
-    {% if open_vacancies.flag %}
+    {% for vacancy in pages %}
+      {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
+        {% if not ns.has_vacancy %}
+          {% set ns.has_vacancy = True %}
     <div class="block">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-4"><h1>Vacancies &amp Student projects</h1></div>
         </div>
-        {% for vacancy in pages %}
-          {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
-            <div class="row vacancy">
-              <div class="col-md-4">
-                {% if vacancy.picture %}
-                <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
-                {% else %}
-                <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
-                {% endif %}
-              </div>
-
-              <div class="col-md-8">
-                {% if vacancy.student_project == 'true' %}
-                  <span class="vacancy-label">Student project</span>
-                {% else %}
-                  <span class="vacancy-label">Vacancy</span>
-                {% endif %}
-                <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
-                  {{ vacancy.title }}
-                </a></h3>
-
-                <p>{{ vacancy.description }}</p>
-
-                <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
-              </div>
-          </div>
         {% endif %}
-      {% endfor %}
+
+        <div class="row vacancy">
+          <div class="col-md-4">
+            {% if vacancy.picture %}
+            <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
+            {% else %}
+            <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+            {% endif %}
+          </div>
+
+          <div class="col-md-8">
+            {% if vacancy.student_project == 'true' %}
+              <span class="vacancy-label">Student project</span>
+            {% else %}
+              <span class="vacancy-label">Vacancy</span>
+            {% endif %}
+            <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
+              {{ vacancy.title }}
+            </a></h3>
+
+            <p>{{ vacancy.description }}</p>
+
+            <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% if ns.has_vacancy %}
       </div>
     </div>
     {% endif %}

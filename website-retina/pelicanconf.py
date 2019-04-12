@@ -22,6 +22,18 @@ FOOTER_TEXT = 'The A-eye Research Group is part of <a href="https://www.radboudu
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
 
+# What sections to show in the nav bar
+NAV_SECTIONS = [
+    {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
+    {"name": "Members", "url": "members", "icon": "users"},
+    {"name": "Projects", "url": "projects", "icon": "folder"},
+    {"name": "Vacancies", "url": "vacancies"},
+    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
+    {"name": "Presentations", "url": "presentations", "hidden": 95},
+    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
+    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
+]
+
 # URLs
 SITEURL = ''
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'

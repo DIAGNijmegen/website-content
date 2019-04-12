@@ -18,55 +18,16 @@
 
         <div class="collapse navbar-collapse" id="navbar-top">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/highlights">
-                        <svg class="nav-icon svg-icon svg-icon-group"><use xlink:href="#icon-megaphone"></use></svg>
-                        <span class="nav-icon-text">Highlights</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/members" aria-label="Members">
-                        <svg class="nav-icon svg-icon"><use xlink:href="#icon-users"></use></svg>
-                        <span class="nav-icon-text">Members</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/projects" aria-label="Projects">
-                        <svg class="nav-icon svg-icon svg-icon-folder"><use xlink:href="#icon-folder"></use></svg>
-                        <span class="nav-icon-text">Projects</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/vacancies" aria-label="Vacancies">
-                        <svg class="nav-icon svg-icon svg-icon-vacancies"><use xlink:href="#icon-vacancies"></use></svg>
-                        <span class="nav-icon-text">Vacancies</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/publications" aria-label="Publications">
-                        <svg class="nav-icon svg-icon svg-icon-file-text-o"><use xlink:href="#icon-file-text-o"></use></svg>
-                        <span class="nav-icon-text nav-icon-text-hidden w-85">Publications</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/presentations" aria-label="Presentations">
-                        <svg class="nav-icon svg-icon svg-icon-presentations"><use xlink:href="#icon-presentations"></use></svg>
-                        <span class="nav-icon-text nav-icon-text-hidden w-95">Presentations</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/thesis-gallery" aria-label="Thesis gallery">
-                        <svg class="nav-icon svg-icon"><use xlink:href="#icon-book"></use></svg>
-                        <span class="nav-icon-text nav-icon-text-hidden w-95">Thesis gallery</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ SITEURL }}/contact" aria-label="Contact">
-                        <svg class="nav-icon svg-icon"><use xlink:href="#icon-envelope-o"></use></svg>
-                        <span class="nav-icon-text nav-icon-text-hidden w-60">Contact</span>
-                    </a>
-                </li>
-
+                {% for section in NAV_SECTIONS %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ SITEURL }}/{{ section.url }}">
+                            <svg class="nav-icon svg-icon svg-icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}">
+                                <use xlink:href="#icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}"></use>
+                            </svg>
+                            <span class="nav-icon-text {% if section.hidden %}nav-icon-text-hidden w-{{ section.hidden }}{% endif %}">{{ section.name }}</span>
+                        </a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
