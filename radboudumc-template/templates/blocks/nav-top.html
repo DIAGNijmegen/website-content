@@ -20,7 +20,7 @@
             <ul class="navbar-nav ml-auto">
                 {% for section in NAV_SECTIONS %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ SITEURL }}/{{ section.name|lower|replace(' ', '-') }}">
+                        <a class="nav-link" href="{{ SITEURL }}/{{ section.url }}">
                             <svg class="nav-icon svg-icon svg-icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}">
                                 <use xlink:href="#icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}"></use>
                             </svg>
