@@ -1,7 +1,10 @@
+{% set ns = namespace(has_vacancy = False) %}
+
 {% for vacancy in pages %}
     {% if vacancy.parent.url == 'vacancies/' %}
         {% if vacancy.closed == vacancies_show_closed %}
         {% if vacancy.student_project == vacancies_show_student_project %}
+        {% set ns.has_vacancy = True %}
           <div class="container">
             <div class="row">
 
@@ -34,3 +37,9 @@
         {% endif %}
     {% endif %}
 {% endfor %}
+
+{% if not ns.has_vacancy %}
+  <div class="col-md-8">
+    <p>There are no vacancies at the moment.</p>
+  </div>
+{% endif %}
