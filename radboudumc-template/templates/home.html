@@ -51,17 +51,17 @@
         </div>
     </div>
 
-    {% set ns = namespace(has_vacancy=false) %}
+    {% set ns = namespace(has_vacancy=False) %}
 
     {% for vacancy in pages %}
       {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
-        {% if not ns.has_vacancy}
+        {% if not ns.has_vacancy %}
           {% set ns.has_vacancy = True %}
     <div class="block">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-4"><h1>Vacancies &amp Student projects</h1></div>
-        </div>  
+        </div>
         {% endif %}
 
         <div class="row vacancy">
