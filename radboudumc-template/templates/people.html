@@ -10,52 +10,85 @@
     {{ page.content }}
 
     <div class="container">
-        <h1 class="text-muted">Faculty</h1>
-        <div class="row people-grid">
+
+        {% set ns = namespace(has_faculty = False, has_science = False, has_tech = False, has_visiting = False, has_former = False) %}
+
         {% for person in pages|reverse %}
             {% if person.parent.url == 'members/' and person.type == 'faculty' and person.active == 'yes' %}
+                {% if not ns.has_faculty %}
+                    <h1 class="text-muted">Faculty</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_faculty = True %}
+                {% endif %}
+
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        </div>
+        {% if ns.has_faculty %}
+                    </div>
+        {% endif %}
 
-        <h1 class="text-muted">Scientific staff</h1>
-        <div class="row people-grid">
         {% for person in pages %}
             {% if person.parent.url == 'members/' and (person.type == 'postdoc' or person.type == 'phd') and person.active == 'yes' %}
+                {% if not ns.has_science %}
+                    <h1 class="text-muted">Scientific staff</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_science = True %}
+                {% endif %}
+
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        </div>
+        {% if ns.has_science %}
+                    </div>
+        {% endif %}
 
-        <h1 class="text-muted">Technical staff</h1>
-        <div class="row people-grid">
         {% for person in pages %}
             {% if person.parent.url == 'members/' and person.type == 'tech' and person.active == 'yes'%}
+                {% if not ns.has_tech %}
+                    <h1 class="text-muted">Technical staff</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_tech = True %}
+                {% endif %}
+
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        </div>
+        {% if ns.has_tech %}
+                    </div>
+        {% endif %}
 
-        <h1 class="text-muted">Visiting researchers</h1>
-        <div class="row people-grid">
         {% for person in pages %}
             {% if person.parent.url == 'members/' and (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' %}
+                {% if not ns.has_visiting %}
+                    <h1 class="text-muted">Visiting researchers</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_visiting = True %}
+                {% endif %}
+
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        </div>
+        {% if ns.has_visiting %}
+                    </div>
+        {% endif %}
 
-        <h1 class="text-muted">Former members</h1>
-        <div>
-            <ul>
-            {% for person in pages %}
-                {% if person.parent.url == 'members/' and person.active == 'no' %}
-                    <li><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></li>
+        {% for person in pages %}
+            {% if person.parent.url == 'members/' and person.active == 'no' %}
+                {% if not ns.has_former %}
+                    <h1 class="text-muted">Former members</h1>
+                    <div>
+                        <ul>
+                {% set ns.has_former = True %}
                 {% endif %}
-            {% endfor %}
-            </ul>
-        </div>
+
+                            <li><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if ns.has_former %}
+                        </ul>
+                    </div>
+        {% endif %}
     </div>
 
     </div>
