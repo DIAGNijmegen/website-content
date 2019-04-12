@@ -133,3 +133,10 @@ website-*/content/dict_pubs.json
 
 content/pages/publications/*
 !content/pages/publications/.gitkeep
+
+# vscode
+.vscode/
+
+# pipenv is not used by this project
+Pipfile
+Pipfile.lock

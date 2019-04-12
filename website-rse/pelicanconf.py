@@ -22,6 +22,15 @@ FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
+# What sections to show in the nav bar
+NAV_SECTIONS = [
+    #{"name": "Highlights", "icon": "megaphone"},
+    {"name": "Members", "icon": "users"},
+    {"name": "Projects", "icon": "folder"},
+    {"name": "Vacancies"},
+    {"name": "Contact", "icon": "envelope-o"},
+]
+
 # URLs
 SITEURL = ''
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
