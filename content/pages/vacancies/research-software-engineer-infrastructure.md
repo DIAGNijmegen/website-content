@@ -1,15 +1,13 @@
-title: Infrastructure Research Software Engineer
+title: Research Software Engineer - Infrastructure
 groups: diag, rse
 closed: false
 student_project: false
 picture: software/sol-logo.jpg
 people: James Meakin, Bram van Ginneken, Paul Konstantin Gerke
 template: vacancy-single
-description: The Radiology and Nuclear Medicine Department of the Radboud University Medical Center, Nijmegen, The Netherlands, is searching for an Infrastructure Research Software Engineer to join our RSE team. This is a great opportunity to work closely with researchers to reliably deliver new functionality to the clinic.
+description: The Radiology and Nuclear Medicine Department of the Radboud University Medical Center, Nijmegen, The Netherlands, is searching for an Infrastructure Engineer to join our RSE team. This is a great opportunity to work closely with researchers to reliably deliver new functionality to the clinic.
 
 ### Job Description
-
-The Radiology and Nuclear Medicine Department of the Radboud University Medical Center, Nijmegen, The Netherlands, is searching for an Infrastructure Research Software Engineer to join our RSE team. This is a great opportunity to work closely with researchers to reliably deliver new functionality to the clinic.
 
 As Research Software Engineer in Infrastructure you will be responsible for the installation, configuration, maintenance and development of our computing infrastructure. Our internal cluster consists of 46 nodes, 864 CPU Cores, 90 Nvidia GPUs and 400 TB of storage. This system is built upon Debian and Arch Linux, uses Ansible for configuration management and deployment, and Slurm for scheduling container workloads. On this system, data scientists develop machine learning models that are then deployed to our external website ([https://grand-challenge.org](https://grand-challenge.org/)) for use by clinicians worldwide. This is an open source django 2.1 app (Python 3, Postgres, Celery, Redis, Docker) that runs on an external cluster.
 
