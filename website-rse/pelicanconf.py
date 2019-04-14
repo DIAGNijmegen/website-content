@@ -7,9 +7,9 @@ from datetime import date
 # Site specific variables
 # Please update these to customize the website.
 #
-AUTHOR = u'WebteamDIAG'
+AUTHOR = u'DIAG RSE'
 SITENAME = u'Research Software Engineering'
-SITENAME_SHORT = 'RSE'
+SITENAME_SHORT = 'DIAG RSE'
 SITE_REPO = 'website-rse'
 
 # Home page and social settings
@@ -25,8 +25,9 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 # What sections to show in the nav bar
 NAV_SECTIONS = [
     #{"name": "Highlights", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
+    {"name": "People", "url": "members", "icon": "users"},
+    #{"name": "Projects", "url": "projects", "icon": "folder"},
+    {"name": "Software", "url": "software", "icon": "code"},
     {"name": "Vacancies", "url": "vacancies"},
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
