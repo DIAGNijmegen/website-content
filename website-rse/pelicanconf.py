@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'DIAG RSE'
-SITENAME = u'Research Software Engineering'
+SITENAME = u'DIAG Research Software Engineering'
 SITENAME_SHORT = 'DIAG RSE'
 SITE_REPO = 'website-rse'
 
