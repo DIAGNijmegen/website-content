@@ -1,7 +1,7 @@
 title: Ophthalmology workstation
 title_long: Ophthalmology workstation 
 finished: false
-picture: ophthalmology_workstation_small.jpg
+picture: software/ophthalmology_workstation_small.jpg
 template: project-single
 groups: retina, rse, diag
 people: Harm van Zeeland, James Meakin, Clarisa Sánchez, Caroline Klaver
@@ -16,12 +16,12 @@ Researchers and specialists in the field of ophthalmology currently rely on subo
 
 The application consists of a web-based front-end that allows users to analyze baseline and follow-up images in a multi-modal viewer. It communicates with a back-end API for grader authentication, loading and storing of images and annotation data. Several types of annotation techniques are available, ranging from image-level classification to point-based and region-based lesion-level annotations.
 
-![Workstation]({filename}/images/projects/ophthalmology_workstation.jpg)
+![Workstation]({filename}/images/software/ophthalmology_workstation.jpg)
 *Screenshot showing a multi-modal hanging protocol with annotated lesions.*
 
 The user can select color fundus (CF) images, optical coherence tomography (OCT) volumes, infrared (IR) and autofluorescence (AF) images to be shown simultaneously in the viewer. Spatial alignment of the different modalities can be performed using an integrated affine registration method by clicking on corresponding landmarks, after which a synchronized cursor will appear. After several graders have annotated lesions, the application can be used to compare these and create a consensus grading.
 
-![Workstation consensus]({filename}/images/projects/ophthalmology_workstation_consensus.jpg)
+![Workstation consensus]({filename}/images/software/ophthalmology_workstation_consensus.jpg)
 *Screenshot showing the view for a consensus grading.*
 
 ## Usage
