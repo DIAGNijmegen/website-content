@@ -8,12 +8,15 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'DIAG RSE'
-SITENAME = u'Research Software Engineering'
+SITENAME = u'DIAG Research Software Engineering'
 SITENAME_SHORT = 'DIAG RSE'
 SITE_REPO = 'website-rse'
 
 # Home page and social settings
-SITELEAD = 'The homepage of the Research Software Engineering Team in the Diagnostic Image Analysis Group at Radboud University Medical Center.'
+SITELEAD = '''
+The Research Software Engineering Team is part of the Diagnostic Image Analysis Group at Radboud University Medical Center in Nijmegen, The Netherlands.<br><br>
+We use industry best practices to develop software that enables researchers to rapidly develop novel machine learning algorithms that we can integrate into research workstations for clinical validation.
+'''
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = ''
