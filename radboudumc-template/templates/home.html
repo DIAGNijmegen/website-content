@@ -26,6 +26,7 @@
         </div>
     </div>
 
+    {% if articles %}
     <div class="block">
         <div class="container">
             <div class="row">
@@ -50,6 +51,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
 
     {% set ns = namespace(has_vacancy=False) %}
 
