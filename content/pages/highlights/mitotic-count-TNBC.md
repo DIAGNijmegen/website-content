@@ -1,4 +1,4 @@
-title: Mitotic counting holds no prognostic information for triple negative breast cancer using Deep learning and manual procedures.
+title: Mitotic counting for triple negative breast cancer using Deep learning and manual procedures.
 date: 16-04-2019
 description: Maschenka Balkenhol et al assessed the prognostic value of absolute mitotic counts for triple negative breastcancer, using both deep learning and manual procedures. Yesterday their work appeared online in Cellular Oncology.
 picture: Detections.png
