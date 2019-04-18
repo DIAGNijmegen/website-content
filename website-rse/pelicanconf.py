@@ -35,6 +35,9 @@ NAV_SECTIONS = [
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
+# What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
+HOME_SECTIONS = ["Software"]
+
 # URLs
 SITEURL = ''
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'

@@ -98,6 +98,8 @@
     </div>
     {% endif %}
 
+
+    {% if "Projects" in HOME_SECTIONS %}
     <div class="block">
         <div class="container">
             <div class="row">
@@ -115,7 +117,26 @@
             </div>
         </div>
     </div>
+    {% endif %}
 
+    {% if "Software" in HOME_SECTIONS %}
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>Software</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                    {% include "blocks/software-blocks.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
 
     <div class="container">
         <div class="row">
