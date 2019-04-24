@@ -34,7 +34,7 @@ prior scans. All nodules from the prior scans are propagated
 automatically to the new scan. Finally, the prior findings and the CAD 
 marks are merged. This software also provides a functionality to 
 propagate a newly found nodule retroactively through the previous scans.
-![Workstation]({filename}/images/projects/cirruslungs_workstation.png)
+![Workstation]({filename}/images/software/cirruslungs_workstation.png)
 *CIRRUSLungS workstation*
 
 After a user has finished reading, a structured report is automatically 
@@ -44,7 +44,7 @@ optionally provides follow-up recommendations according to the
 BTS/Fleischner/LungRADS guidelines. The suggested follow up and other 
 case comments can be added to the report. Finally, the user signs off 
 the case and proceeds with the next one.
-![Workstation]({filename}/images/projects/cirruslungs_report.png)
+![Workstation]({filename}/images/software/cirruslungs_report.png)
 *CIRRUSLungS report*
 
 ## Usage
