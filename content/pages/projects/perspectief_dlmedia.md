@@ -6,7 +6,7 @@ template: project-single
 groups: retina
 people: Cristina González-Gonzalo, Clarisa Sánchez
 description: The goal of this project is to automate the screening workflow of eye diseases using innovative techniques based on artificial neural networks.
-bibkeys: 
+bibkeys: Gonz18
 
 ## Background
 Screening for retinal diseases has become a top healthcare priority. Today, 220 million people are affected by retinal diseases and this number is estimated to grow to 434 million in 2030 due to the aging population and the epidemic nature of obesity. Therefore, sustainability of screening programs is not warranted, and 50% of subjects at risk are still not screened due to lack of specialists and poor coverage in rural areas.
