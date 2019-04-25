@@ -16,6 +16,8 @@ git config --global user.name "DIAGWebTeam"
 
 git checkout master
 git status
+git diff
+
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if git diff --quiet; then
     echo "No changes to the output on this push."
