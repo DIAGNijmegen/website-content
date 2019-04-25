@@ -16,7 +16,6 @@ def get_resized_image(path, size):
     parts = os.path.splitext(path);
     resized_path  = f"{parts[0]}-{SIZE_TO_WIDTH_MAPPING[size]}{parts[1]}"
 
-    print(os.path.join(os.getcwd(), 'content', resized_path))
     if os.path.isfile(os.path.join(os.getcwd(), 'content', resized_path)):
         return resized_path
 

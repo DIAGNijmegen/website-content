@@ -19,9 +19,6 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Set bibtex plugin for publishing
-PLUGINS = ["bibtex",  "bibtex_loader",  "edit_url", "hierarchy", "fileutil"]
-
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
