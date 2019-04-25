@@ -8,6 +8,8 @@ cd imgoptim
 echo "Starting image optimization script"
 node optimize.js
 
+ls -al optimized_images
+
 echo "Commit new images to repository"
 git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
