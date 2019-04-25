@@ -14,6 +14,7 @@ echo "Commit new images to repository"
 git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
+git checkout master
 git status
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if git diff --quiet; then
