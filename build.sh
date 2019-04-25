@@ -22,7 +22,7 @@ git checkout master
 # else
 git add -A ./optimized_images
 git commit --message "Adding optimized images to repository. [ci skip]"
-git remote add origin https://${GH_TOKEN}@github.com/diagnijmegen/website-content.git > /dev/null 2>&1
+git remote add origin https://${GH_TOKEN}@github.com/diagnijmegen/website-content.git
 git push origin master
 # fi
 cd ..
