@@ -1,12 +1,14 @@
 language: python
 python:
   - "3.6"
-before_install:
-  - nvm install node
-
-cache: pip
+# before_install:
+#   - nvm install node
+cache:
+  - pip
+  - npm
 install:
   - pip install -r requirements.txt
+  - npm install --prefix imgoptim
 script:
   - bash build.sh
 
