@@ -20,7 +20,7 @@ if [[ $TRAVIS_BRANCH != master ]]; then
   msg "not pushing updates to branch $TRAVIS_BRANCH"
 else
   echo "Pushing changes back to repository"
-  git push "https://${GH_TOKEN}@github.com/DIAGNijmegen/website-content.git" "master"
+  git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
 fi
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
