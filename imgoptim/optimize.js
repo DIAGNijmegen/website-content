@@ -16,7 +16,7 @@ const readFile = promisify(fs.readFile);
 
 const sourceBasePath = '../content/images';
 const outputPath = "./optimized_images";
-const outputSizes = [320, 480, 640, 768, 1024];
+const outputSizes = [160, 320, 480, 768, 1024];
 
 /**
  * Resize an image using sharp (async).

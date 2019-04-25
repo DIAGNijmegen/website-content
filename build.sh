@@ -23,12 +23,7 @@ else
   git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
 fi
 
-# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-# if git diff --quiet; then
-#     echo "No changes to the output on this push."
-# else
-
-
+# Go back to main dir
 cd ..
 
 # List of websites to build
