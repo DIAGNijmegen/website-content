@@ -4,7 +4,8 @@ from pelican import signals
 
 SIZE_TO_WIDTH_MAPPING = {
     'tiny': '160',
-    'small': '320'
+    'small': '320',
+    'medium': '480',
 }
 
 def get_resized_image(path, size):
