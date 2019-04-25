@@ -92,7 +92,6 @@ function compressImages(paths, targetDir) {
       // Create resized versions of the image
       const resizedImages = await resizeImage(path, target, outputSizes);
 
-      console.log(resizedImages);
       // Compress resized images
       await compressImages(resizedImages, dirname(resizedImages[0]));
 

@@ -1,6 +1,9 @@
 language: python
 python:
   - "3.6"
+before_install:
+  - nvm install node
+
 cache: pip
 install:
   - pip install -r requirements.txt
@@ -19,7 +22,7 @@ deploy:
     github-token: $GH_PAGES
     on:
       brach: master
-    fqdn: www.a-eyeresearch.nl 
+    fqdn: www.a-eyeresearch.nl
   - provider: pages
     repo: diagnijmegen/website-pathology
     skip-cleanup: true
