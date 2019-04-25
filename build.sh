@@ -55,7 +55,7 @@ git commit --message "Adding optimized images to repository. [ci skip]"
 if [[ $TRAVIS_BRANCH != master ]]; then
   msg "not pushing updates to branch $TRAVIS_BRANCH"
 else
-  git push "https://${GH_TOKEN}@github.com/diagnijmegen/website-content.git" "master" > /dev/null 2>&1
+  git push "https://${GH_TOKEN}@github.com/DIAGNijmegen/website-content.git" "master" > /dev/null 2>&1
 fi
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
