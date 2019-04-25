@@ -15,7 +15,7 @@ git config --global user.name "DIAGWebTeam"
 
 git checkout master
 git add --all ./optimized_images
-git commit --message "Adding optimized images to repository. [ci skip]"
+git commit --message "Adding optimized images to repository. [ci skip]" -- .
 if [[ $TRAVIS_BRANCH != master ]]; then
   msg "not pushing updates to branch $TRAVIS_BRANCH"
 else
