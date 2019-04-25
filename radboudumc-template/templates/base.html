@@ -70,6 +70,15 @@
 
     <!-- lazyloader for images -->
     <script src="{{SITEURL}}/theme/js/lazysizes.min.js" async=""></script>
+    <!-- Add support for lazy loading backround images -->
+    <script>
+    document.addEventListener('lazybeforeunveil', function(e){
+    var bg = e.target.getAttribute('data-bg');
+        if(bg){
+            e.target.style.backgroundImage = 'url(' + bg + ')';
+        }
+    });
+    </script>
 
     {% if GOOGLE_ANALYTICS %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
