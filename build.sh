@@ -44,7 +44,7 @@ do
   # Copy default base pages
   cp -r content/pages/defaults/. $website/content/pages/
   # Copy images
-  cp -r --no-clobber content/images $website/content
+  cp -r --no-clobber imgoptim/optimized_images/. $website/content/images
   # Copy bib generator script
   cp -r plugins/bibtex $website/plugins
   cp plugins/bib_writer.py $website/plugins/bib_writer.py
