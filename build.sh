@@ -15,18 +15,16 @@ git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
 git checkout master
-git status
-git diff
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if git diff --quiet; then
-    echo "No changes to the output on this push."
-else
-  git add -A .
-  git commit --message "Adding optimized images to repository. [ci skip]"
-  git remote add origin https://${GH_TOKEN}@github.com/diagnijmegen/website-content.git > /dev/null 2>&1
-  git push origin master
-fi
+# if git diff --quiet; then
+#     echo "No changes to the output on this push."
+# else
+git add -A ./optimized_images
+git commit --message "Adding optimized images to repository. [ci skip]"
+git remote add origin https://${GH_TOKEN}@github.com/diagnijmegen/website-content.git > /dev/null 2>&1
+git push origin master
+# fi
 cd ..
 
 # List of websites to build
