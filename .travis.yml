@@ -1,8 +1,11 @@
 language: python
 python:
   - "3.6"
-# before_install:
-#   - nvm install node
+git:
+  depth: 1
+branches:
+  only:
+    - master
 cache:
   - pip
   - npm
