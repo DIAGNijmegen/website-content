@@ -3,6 +3,12 @@
 # Break build on error, prevents websites going offline in case of pelican errors
 set -e
 
+# Optimize the images before building the website`
+cd imgoptim
+echo "Starting image optimization script"
+node optimize.js
+cd ..
+
 # List of websites to build
 declare -a websites=("website-pathology" "website-rse" "website-retina")
 
