@@ -16,10 +16,13 @@ else
   git config --global user.email "webteamdiag@gmail.com"
   git config --global user.name "DIAGWebTeam"
 
+  # Add changed files
   git checkout master
   git add --all ./optimized_images
+  git add image-cache.json
 
-  if ((git diff-index --quiet HEAD == 1)); then
+  gitdiff='git diff-index --quiet HEAD .'
+  if $gitdiff; then
     echo "Files changed, commiting new images."
     git commit --message "Adding optimized images to repository. [ci skip]" -- .
     git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
