@@ -1,7 +1,7 @@
 # #!/usr/bin/env bash
 
 # Break build on error, prevents websites going offline in case of pelican errors
-set -e
+set -ev
 
 # Optimize the images before building the website`
 cd imgoptim
