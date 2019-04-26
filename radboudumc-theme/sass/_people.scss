@@ -96,8 +96,14 @@ Styles for all the elements related to group members.
     width: 22px;
     height: 22px;
     color: $secondary;
-    fill: $secondary;
-    
+
+    // Bit smaller earth icon to outline with the rest
+    &.svg-icon-earth {
+      width: 20px;
+      height: 20px;
+      margin-left: 1px;
+    }
+
     path {
       fill: $secondary;
     }
