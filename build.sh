@@ -1,7 +1,7 @@
 # #!/usr/bin/env bash
 
 # Break build on error, prevents websites going offline in case of pelican errors
-set -v
+set -e
 
 # Optimize the images before building the website`
 cd imgoptim
@@ -20,7 +20,7 @@ if [[ $TRAVIS_BRANCH != 'master' ]]; then
   echo "not pushing updates to branch $TRAVIS_BRANCH"
 else
   echo "Pushing changes back to repository"
-  git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
+  git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master" > /dev/null 2>&1
 fi
 
 # Go back to main dir
