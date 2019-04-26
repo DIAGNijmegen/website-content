@@ -1,8 +1,8 @@
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
     {% if person.picture %}
-    <a href="{{ SITEURL }}/{{ person.url}}"><img src="{{SITEURL}}/{{ ('images/people/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    <a href="{{ SITEURL }}/{{ person.url}}"><img data-src="{{SITEURL}}/{{ ('images/people/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% else %}
-    <a href="{{ SITEURL }}/{{ person.url}}"><img src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    <a href="{{ SITEURL }}/{{ person.url}}"><img data-src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% endif %}
     <h3 class="person-name"><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></h3>
     <h4 class="person-title"><small>{{ person.position }}</small></h4>
