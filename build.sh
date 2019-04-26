@@ -9,18 +9,19 @@ echo "Starting image optimization script"
 node optimize.js
 
 # Commit optimized images back to the repo
-echo "Commit new images to repository"
-git config --global user.email "webteamdiag@gmail.com"
-git config --global user.name "DIAGWebTeam"
-
-git checkout master
-git add --all ./optimized_images
-git commit --message "Adding optimized images to repository. [ci skip]" -- .
 if [[ $TRAVIS_BRANCH != 'master' ]]; then
   echo "not pushing updates to branch $TRAVIS_BRANCH"
 else
-  echo "Pushing changes back to repository"
-  git push --quiet "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master" > /dev/null 2>&1
+  echo "Commit new images to repository"
+  git config --global user.email "webteamdiag@gmail.com"
+  git config --global user.name "DIAGWebTeam"
+
+  git checkout master
+  git add --all ./optimized_images
+  if [[git diff-index --quiet HEAD]]; then
+    git commit --message "Adding optimized images to repository. [ci skip]" -- .
+    git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
+  fi
 fi
 
 # Go back to main dir
