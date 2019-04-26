@@ -18,6 +18,17 @@
             </div>
 
             <div class="person-links mb-4">
+                {% if page.website %}
+                <div class="row">
+                    <div class="col-1">
+                        <svg class="icon icon-earth"><use xlink:href="#icon-earth"></use></svg>
+                    </div>
+                    <div class="col">
+                        <a href="{{ page.website }}">Personal website</a>
+                    </div>
+                </div>
+                {% endif %}
+
                 <div class="row">
                     <div class="col-1">
                         <svg class="svg-icon"><use xlink:href="#icon-format_list_bulleted"></use></svg>
