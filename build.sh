@@ -7,7 +7,7 @@ set -ev
 cd imgoptim
 echo "Starting image optimization script"
 node optimize.js
-TRAVIS_BRANCH='master'
+
 # Commit optimized images back to the repo
 if [[ $TRAVIS_BRANCH != 'master' ]]; then
   echo "not pushing updates to branch $TRAVIS_BRANCH"
@@ -22,11 +22,13 @@ else
   git add image-cache.json
 
   gitdiff='git diff-index --quiet HEAD .'
-  if $gitdiff; then
+  if ! $gitdiff; then
+    echo $?
     echo "Files changed, commiting new images."
     git commit --message "Adding optimized images to repository. [ci skip]" -- .
     git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
   else
+    echo $?
     echo "Nothing new to commit, skipping push."
   fi
 fi
