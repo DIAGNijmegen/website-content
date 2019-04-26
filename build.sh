@@ -19,7 +19,11 @@ else
   git checkout master
   git add --all ./optimized_images
 
+  echo "git diff:"
+  echo git diff-index --quiet HEAD
+  echo "start if"
   if git diff-index --quiet HEAD; then
+    echo "Files changed, commiting new images."
     git commit --message "Adding optimized images to repository. [ci skip]" -- .
     git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
   else
