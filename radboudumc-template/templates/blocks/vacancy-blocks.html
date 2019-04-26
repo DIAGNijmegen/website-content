@@ -15,7 +15,7 @@
               {% else %}
                 <div class="col-md-4">
                     {% if vacancy.picture %}
-                    <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ vacancy.picture }}">
+                    <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
                     {% else %}
                     <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
                     {% endif %}
