@@ -98,24 +98,27 @@
                 <dt>Bio:</dt>
                 <dd>{{ page.content }}</dd>
 
-                {% set ns = namespace(has_projects=False) %}
+                {% set all_related_pages = ['projects', 'software'] %}
+                
+                {% for related_page in all_related_pages %}
+                    {% set ns = namespace(has_related_page=False) %}
+                    {% for other_page in pages %}
+                        {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
+                          {% if not ns.has_related_page %}
+                            {% set ns.has_related_page = True %}
+                        <dt> {{ related_page.capitalize() }}:</dt>
+                        <dd>
+                            <ul>
+                          {% endif %}
+                          <li><a href="{{ SITEURL }}/{{ other_page.url }}">{{ other_page.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
 
-                {% for project in pages %}
-                {% if project.parent.url == 'projects/' and project.people and page.name.strip() in project.people.split(', ') %}
-                  {% if not ns.has_projects %}
-                    {% set ns.has_projects = True %}
-                <dt>Projects:</dt>
-                <dd>
-                    <ul>
-                  {% endif %}
-                  <li><a href="{{ SITEURL }}/{{ project.url }}">{{ project.title }}</a></li>
-                {% endif %}
+                    {% if ns.has_related_page %}
+                        </ul>
+                    </dd>
+                    {% endif %}
                 {% endfor %}
-
-                {% if ns.has_projects %}
-                    </ul>
-                </dd>
-                {% endif %}
             </dl>
 
         </div>
