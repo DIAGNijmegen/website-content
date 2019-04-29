@@ -3,15 +3,15 @@
 # Break build on error, prevents websites going offline in case of pelican errors
 set -e
 
-# Optimize the images before building the website`
-cd imgoptim
-echo "Starting image optimization script"
-node optimize.js
-
-# Commit optimized images back to the repo
 if [[ $TRAVIS_BRANCH != 'master' ]]; then
-  echo "not pushing updates to branch $TRAVIS_BRANCH"
+  echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
 else
+  # Optimize the images before building the website`
+  cd imgoptim
+  echo "Starting image optimization script"
+  node optimize.js
+
+  # Commit optimized images back to the repo
   echo "Commit new images to repository"
   git config --global user.email "webteamdiag@gmail.com"
   git config --global user.name "DIAGWebTeam"
@@ -31,10 +31,10 @@ else
     echo $?
     echo "Nothing new to commit, skipping push."
   fi
-fi
 
-# Go back to main dir
-cd ..
+  # Go back to main dir
+  cd ..
+fi
 
 # List of websites to build
 declare -a websites=("website-pathology" "website-rse" "website-retina")
