@@ -27,3 +27,4 @@ This file describe the steps to set up a new website.
 ## 5. Publish
 
 1. Commit your changes, Travis should now build and deploy the website.
+2. Edit manual the github pages option from "None" to "Master branch" in the settings page of the github repository of the new website 
