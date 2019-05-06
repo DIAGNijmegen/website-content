@@ -22,6 +22,7 @@ This file describe the steps to set up a new website.
 
 1. Update `parse_content.py` (in the root directory) by adding the new site, see https://github.com/DIAGNijmegen/website-content/blob/master/parse_content.py#L6
 2. Update `travis.yaml` and add a new deploy step at the bottom. See the other deploy steps for an example. Set the `fqdn` variable to the website URL.
+3. Update build.sh and add new website to websites to build: declare -a websites= 
 
 ## 5. Publish
 
