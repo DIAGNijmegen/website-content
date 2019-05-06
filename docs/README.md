@@ -4,7 +4,7 @@
 
 ### New website
 
-- [Set up a new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
+- [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
 
 ## Content
 
