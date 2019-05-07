@@ -7,6 +7,7 @@ template: vacancy-single
 people: Maschenka Balkenhol
 description: Aim of the presently proposed ‘proof of concept‘ study is to develop digital pattern recognition algorithms (more specifically: deep neural networks) for the extraction of morphological features from scanned H&E stained tissue sections from TNBC which are indicative for the risk of recurrence.
 
+
 ## Background
 
 Triple negative breast cancer (TNBC) accounts for about 15-20% of all invasive breast cancers. TNBC is defined by the absence of expression of the hormonal receptors (HR) and the absence of overexpression of the human epidermal growth factor receptor 2 (HER2).
