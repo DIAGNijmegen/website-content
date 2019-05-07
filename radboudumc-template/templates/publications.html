@@ -33,6 +33,9 @@
                             {% if pub_type == '@Article' %}
                                 <h3>{{ 'Papers in international journals' }}</h3>
                             {% endif%}
+                            {% if pub_type == '@Preprint' %}
+                                <h3>{{ 'Preprints' }}</h3>
+                            {% endif%}
                             {% if pub_type == '@InProceedings' %}
                                 <h3>{{ 'Papers in conference proceedings' }}</h3>
                             {% endif%}

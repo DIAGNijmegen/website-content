@@ -79,6 +79,7 @@ def generate_md_bibitem():
     print('Bibtex plugin loaded')
     print('Output dirs: {}'.format((out_dir, bib_file, json_path)))
 
+    # Parses diag.bib 
     start_time = time.clock()
     index, global_index, string_rules = bibtexlib.read_bibtex_file(bib_file)
     time_diagbib = time.clock() - start_time
@@ -87,17 +88,22 @@ def generate_md_bibitem():
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
 
+    # Retrieves list of members and their publications
     list_researchers = get_list_people()
     author_index, filtered_publications = get_publications_by_author(global_index, list_researchers)
 
+    # Writes single md files per publication
     write_single_publication_md(global_index, string_rules, filtered_publications, out_dir, json_path)
     print('\nTime to process diag.bib ', time_diagbib)
     print('Time to create ' + str(len(global_index)) + ' MD files ', time.clock() - start_time)
 
+    # Writes list of publications of a member
     time_list_pubs = time.clock()
     write_author_publications_md(global_index, author_index, list_researchers, out_dir, string_rules)
     dict_pubs = write_list_publications_md(global_index, filtered_publications, out_dir, string_rules)
     print('Time to create filtered list of publications and publications per researcher', time.clock() - time_list_pubs)
+    
+    # Stores metadata as json file
     json_path = os.path.join(base_dir, '..', 'content/dict_pubs.json')
     save_dict2json(json_path, dict_pubs)
 
@@ -127,8 +133,10 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
         url_pub = bib_item.entry['url']
         pub_html += ' <a href=\"' + url_pub + '/\">URL</a>'
     if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower():
+        # If an entry has arxiv as journal, then it is considered as @Preprint
         url_arxiv = get_arxiv_id_from_title(bib_item.entry['journal'])
         pub_html += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
+        pub_type = '@Preprint'
     if 'pmid' in bib_item.entry:
         url_pmid = 'http://www.ncbi.nlm.nih.gov/pubmed/' + bib_item.entry['pmid']
         pub_html += ' <a href=\"' + url_pmid + '/\">PMID</a>'
