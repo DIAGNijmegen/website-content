@@ -31,7 +31,7 @@ FREE TEXT, FOR EXAMPLE:
 
 ```
 
-4. To add an image to the text, upload a resized image to website-content/content/images/projects/ and type `![link name image]({filename}/images/projects/{filename}.png)`. The first {filename} is text, don't type the actual filename there. 
+4. To add an image to the text, upload an image of choice to website-content/content/images/projects/ and type `![link name image]({filename}/images/projects/{filename}.png)`. The first {filename} is text, don't type the actual filename there. 
 
 5. A preview van be viewed by selecting 'Preview' on the top of the edit page. 
 
