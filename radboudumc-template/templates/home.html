@@ -26,31 +26,33 @@
         </div>
     </div>
 
-    {% if articles %}
-    <div class="block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mb-4">
-                    <h1>Highlights</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 col-lg-9">
-                    {% for article in articles[0:2] %}
-                        {% include 'blocks/article-summary.html' %}
-                    {% endfor %}
-                    <p><a href="{{ SITEURL }}/highlights" class="btn btn-primary">All highlights</a></p>
-
-                </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="twitter-embed">
-                        <a class="twitter-timeline" data-height="615" data-chrome="transparent noheader nofooter" data-dnt="true" href="{{TWITTER_URL}}">Tweets by the group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {% if "Highlights" in HOME_SECTIONS %}
+        {% if articles %}
+        <div class="block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <h1>Highlights</h1>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-8 col-lg-9">
+                        {% for article in articles[0:2] %}
+                            {% include 'blocks/article-summary.html' %}
+                        {% endfor %}
+                        <p><a href="{{ SITEURL }}/highlights" class="btn btn-primary">All highlights</a></p>
 
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="twitter-embed">
+                            <a class="twitter-timeline" data-height="615" data-chrome="transparent noheader nofooter" data-dnt="true" href="{{TWITTER_URL}}">Tweets by the group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
+        {% endif %}
     {% endif %}
 
     {% set ns = namespace(has_vacancy=False) %}
@@ -110,8 +112,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                    {% set projects_show_finished = 'false' %}
-                    {% include "blocks/project-cards.html" %}
+                        {% for card in pages %}
+                            {% if card.parent.url == 'projects/' %}
+                                {% if card.finished != 'false' %}
+                                 {% include "blocks/card.html" %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -130,7 +137,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                    {% include "blocks/software-blocks.html" %}
+                        {% for card in pages %}
+                            {% if card.parent.url == 'software/' %}
+                                {% if card.finished != 'true' %}
+                                 {% include "blocks/card.html" %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>

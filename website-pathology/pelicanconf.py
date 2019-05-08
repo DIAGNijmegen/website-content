@@ -34,7 +34,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Projects"]
+HOME_SECTIONS = ["Highlights", "Projects"]
 
 PATH = 'content'
 RELATIVE_URLS = False
