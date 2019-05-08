@@ -55,6 +55,7 @@
         {% endif %}
     {% endif %}
 
+    
     {% set ns = namespace(has_vacancy=False) %}
 
     {% for vacancy in pages %}
@@ -112,13 +113,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        {% for card in pages %}
-                            {% if card.parent.url == 'projects/' %}
-                                {% if card.finished != 'false' %}
-                                 {% include "blocks/card.html" %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
+                    {% set projects_show_finished = 'false' %}
+                    {% include "blocks/project-cards.html" %}
                     </div>
                 </div>
             </div>
@@ -137,13 +133,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        {% for card in pages %}
-                            {% if card.parent.url == 'software/' %}
-                                {% if card.finished != 'true' %}
-                                 {% include "blocks/card.html" %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
+                    {% include "blocks/software-blocks.html" %}
                     </div>
                 </div>
             </div>
