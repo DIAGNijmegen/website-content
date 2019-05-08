@@ -15,7 +15,7 @@
 
 ### Members
 
-- [Create new member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/creating-a-new-member-page.md)
+- [Create new member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-a-new-member-page.md)
 - [Add picture to member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/add-picture-to-member-page.md)
 
 ### Projects

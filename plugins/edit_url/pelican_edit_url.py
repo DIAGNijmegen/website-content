@@ -21,8 +21,8 @@ def add_edit_url(instance):
     # assume the parent of content dir is project dir
     PATH = os.path.dirname(instance.settings['PATH'])
 
-    shared_dirs = ['highlights', 'members', 'projects', 'presentations', 'software']
-    generated_pages = ['presentations.md', 'members.md', 'projects.md', 'software.md', 'publications.md', 'thesis-gallery.md']
+    shared_dirs = ['highlights', 'members', 'projects', 'presentations', 'software', 'vacancies']
+    generated_pages = ['presentations.md', 'members.md', 'projects.md', 'software.md', 'publications.md', 'thesis-gallery.md', 'vacancies.md']
     default_pages = ['colofon.md', '404.md', 'home.md']
 
     if instance.source_path:

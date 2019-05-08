@@ -6,7 +6,7 @@
 ```
 title: Title of highlight
 date: date highlight published
-picture: CAMELYON17.png (Image is collected from website-content/content/images/news/. Upload a rectangular (landscape), resized image there)
+picture: CAMELYON17.png (Image is collected from website-content/content/images/news/. Upload a rectangular (landscape) image there)
 groups: diag/retina/pathology, etc (determines on which website the highlight should appear.
 
 {Text Highlight}
