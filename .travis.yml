@@ -64,3 +64,10 @@ deploy:
     on:
       brach: master
     fqdn: bodyct.diagnijmegen.nl
+    
+notifications:
+  email:
+    recipients:
+      - $WEBTEAM_EMAIL
+    on_success: change # default: change
+    on_failure: change # default: always
