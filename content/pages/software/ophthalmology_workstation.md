@@ -1,12 +1,14 @@
 title: Ophthalmology workstation
-title_long: Ophthalmology workstation 
+title_long: Ophthalmology workstation
 finished: false
 picture: software/ophthalmology_workstation_small.jpg
 template: project-single
 groups: retina, rse, diag
 people: Harm van Zeeland, James Meakin, Clarisa Sánchez, Caroline Klaver
-description: The goal of this project is to develop a software solution that assists researchers and specialists to view and annotate retinal images. 
-bibkeys: 
+disable_gradient: true
+description: The goal of this project is to develop a software solution that assists researchers and specialists to view and annotate retinal images.
+bibkeys:
+
 
 ## Aim
 
@@ -27,4 +29,3 @@ The user can select color fundus (CF) images, optical coherence tomography (OCT)
 ## Usage
 
 The application has been used by graders and researchers in the EyeNED research group. Region based annotations of geographic atrophy were made for 313 studies containing 488 CF images and 68 OCT images; and of drusen in 100 OCT b-scans. Semi-automatic annotation of the area of central retinal atrophy in Stargardt disease was performed for 67 AF images. Point-based annotation was carried out on lesions in 50 CF images of diabetic retinopathy patients. The multimodal viewing and localisation of lesions was perceived as particularly helpful in the grading of lesions and consensus discussions.
-

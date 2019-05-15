@@ -6,8 +6,10 @@ template: project-single
 groups: rse, diag
 people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Karel Gerbrands, Bram van Ginneken
 description: The home of challenges in biomedical imaging.
-bibkeys: 
+disable_gradient: true
+bibkeys:
 github: https://github.com/comic/grand-challenge.org
+
 
 We develop and maintain [grand-challenge.org](https://grand-challenge.org), a Django site for hosting challenges in biomedical imaging, annotating data and making deep learning models accessible to clinicians. This text is adapted from our abstract at the [Challenges in Machine Learning workshop at NeurIPS 2018](https://nips.cc/Conferences/2018/Schedule?showEvent=10909).
 
