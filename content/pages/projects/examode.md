@@ -1,14 +1,14 @@
 title: ExaMode
-picture: ExaMode.png
+picture: projects/ExaMode.png
 finished: false
 description: The aim of ExaMode is to collect training data with limited human interaction for the processing of exascale volumes of healthcare data.
 template: project-single
 groups: pathology
 people: Jeroen van der Laak, Francesco Ciompi, Mart van Rijthoven
-bibkeys: 
+bibkeys:
 
 ## Background
-Big volumes of diverse data from distributed sources are continuously produced. Health-care data is expected to be over 2000 exabytes in 2020. Supervised deep learning models, require large amount of annotated data. Considering the available data, such annotations are impractical. The ExaMode project is a collaboration between universities and industries and addresses this impracticality by applying weakly supervised deep learning based on diverse data from distributed sources. 
+Big volumes of diverse data from distributed sources are continuously produced. Health-care data is expected to be over 2000 exabytes in 2020. Supervised deep learning models, require large amount of annotated data. Considering the available data, such annotations are impractical. The ExaMode project is a collaboration between universities and industries and addresses this impracticality by applying weakly supervised deep learning based on diverse data from distributed sources.
 
 ## Aim
 The project aims to solve: “weakly supervised knowledge discovery of exascale heterogeneous data.’’
@@ -24,6 +24,6 @@ Radboudumc is responsible for the following objectives:
 - Make developed methods available via a web-based platform.
 
 - Facilitate integration of developed methods in digital pathology workflow and development of decision support algorithms.
- 
+
 ## Funding
 - [The European Union’s Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en/)

@@ -1,6 +1,6 @@
 title: AMI
 finished: false
-picture: AMI.png
+picture: projects/AMI.png
 template: project-single
 groups: pathology
 people: Péter Bándi, Marcory van Dijk, Geert Litjens, Jeroen van der Laak

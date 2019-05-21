@@ -1,5 +1,5 @@
 title: AQUILA
-picture: Aquila.png
+picture: projects/Aquila.png
 finished: false
 description: The goal of AQUILA is to investigate the prognostic value of Tumor Infiltrating Lymphocytes (TILs) in breast and colon cancer.
 template: project-single

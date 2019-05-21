@@ -1,6 +1,6 @@
 title: CAMELYON17
 finished: false
-picture: camelyon17_logo.png
+picture: projects/camelyon17_logo.png
 template: project-single
 groups: pathology
 people: Péter Bándi, Oscar Geessink, Geert Litjens, Jeroen van der Laak

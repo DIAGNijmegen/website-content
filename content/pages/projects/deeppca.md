@@ -1,7 +1,7 @@
 title: Deep PCA
 title_long: Less unnecessary surgery and adjuvant therapy for prostate cancer patients through digital pathology and deep learning
 finished: false
-picture: Prostate3.png
+picture: projects/Prostate3.png
 template: project-single
 groups: pathology
 people: Geert Litjens, Wouter Bulten, Hans Pinckaers, Christina Hulsbergen-van de Kaa, Jeroen van der Laak

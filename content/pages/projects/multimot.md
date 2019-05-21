@@ -2,7 +2,7 @@ title: Multimot
 finished: false
 template: project-single
 groups: pathology
-picture: Multimot.png
+picture: projects/Multimot.png
 description: MULTIMOT aims to build an open data ecosystem for cell migration research, through standardization, dissemination and meta-analysis efforts.
 people: Merijn van Erp
 
