@@ -68,7 +68,7 @@ function compressImages(paths, targetDir) {
 (async () => {
 
   const imgCache = fs.existsSync('image-cache.json') ? JSON.parse(fs.readFileSync('image-cache.json', 'utf8')) : {};
-  const imgPaths = glob.sync(`${sourceBasePath}/**/*.+(png|jpg|jpeg|JPG)`);
+  const imgPaths = glob.sync(`${sourceBasePath}/**/*.+(png|jpg|jpeg|JPG|PNG)`);
 
   // Get MD5 hash of all images
   const imgHashes = await Promise.all(imgPaths.map(async path => {
