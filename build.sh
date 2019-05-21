@@ -67,8 +67,9 @@ do
   pelican content -s publishconf.py
 
   # Copy files for github
-  #cp CNAME output/CNAME
   cp README.md output/README.md
+  cp .nojekyll output/.nojekyll
+
   # Go back to root directory
   cd ..
 done
