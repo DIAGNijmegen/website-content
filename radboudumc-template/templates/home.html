@@ -114,7 +114,7 @@
                     <div class="row">
                         {% for card in pages %}
                             {% if card.parent.url == 'projects/' %}
-                                {% if card.finished != 'false' %}
+                                {% if card.finished == 'false' %}
                                  {% include "blocks/card.html" %}
                                 {% endif %}
                             {% endif %}
