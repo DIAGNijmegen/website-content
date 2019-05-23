@@ -14,7 +14,7 @@ Approximately 20% of
 all breast cancers are so-called triple-negative (TNBC), indicating their lack
 of overexpression of oestrogen and progesterone receptor and human epidermal
 growth factor receptor 2. These cancers are associated with an increased risk
-of recurrence, even for very small (<1cm) tumours. There is a tendency to
+of recurrence, even for tumors smaller than one centimeter. There is a tendency to
 administer adjuvant chemotherapy even to limited stage TNBC patients. This
 results, however, in substantial overtreatment, accompanied by unnecessary
 mortality, morbidity and costs. On the other site, approximately 25% of TNBC
