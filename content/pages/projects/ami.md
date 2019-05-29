@@ -1,5 +1,5 @@
 title: AMI
-finished: false
+finished: true
 picture: projects/AMI.png
 template: project-single
 groups: pathology
