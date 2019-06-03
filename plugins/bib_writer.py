@@ -28,7 +28,7 @@ def load_json2dict(json_path):
         json_data = json.load(json_file)
     else:
         json_data = None
-
+    
     return json_data
 
 
@@ -36,10 +36,10 @@ def get_publications_by_author(global_index, list_researchers):
     from collections import defaultdict
     author_index = defaultdict(set)
     filtered_publications = []
-
+    
     for bib_key, bib_item in global_index.items():
         authors = bib_item.author
-
+        
         for researcher_names in list_researchers:
             firstname = researcher_names[0]
             lastnames = researcher_names[1:]
@@ -52,7 +52,7 @@ def get_publications_by_author(global_index, list_researchers):
                     author_index[last.lower()].add(bib_key)
                     # Some 'von' are actually lastnames
                     pvon = von.replace(' ', '').replace('.', '')
-
+                    
                     if len(lastnames) > 1:
                         author_index[lastnames[-2]].add(bib_key)
                         author_index[lastnames[-1]].add(bib_key)
@@ -71,32 +71,32 @@ def generate_md_bibitem():
           on content/pages/publications. For instance content/pages/publications/francesco-ciompi.md
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))
-
+    
     out_dir = os.path.join(base_dir, '..', 'content/pages/publications')
     bib_file = os.path.join(base_dir, '..', 'content/diag.bib')
     json_path = os.path.join(base_dir, '..', 'output/md5s.json')
-
+    
     print('Bibtex plugin loaded')
     print('Output dirs: {}'.format((out_dir, bib_file, json_path)))
-
+    
     # Parses diag.bib 
     start_time = time.clock()
     index, global_index, string_rules = bibtexlib.read_bibtex_file(bib_file)
     time_diagbib = time.clock() - start_time
     start_time = time.clock()
-
+    
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
-
+    
     # Retrieves list of members and their publications
     list_researchers = get_list_people()
     author_index, filtered_publications = get_publications_by_author(global_index, list_researchers)
-
+    
     # Writes single md files per publication
     write_single_publication_md(global_index, string_rules, filtered_publications, out_dir, json_path)
     print('\nTime to process diag.bib ', time_diagbib)
     print('Time to create ' + str(len(global_index)) + ' MD files ', time.clock() - start_time)
-
+    
     # Writes list of publications of a member
     time_list_pubs = time.clock()
     write_author_publications_md(global_index, author_index, list_researchers, out_dir, string_rules)
@@ -107,14 +107,14 @@ def generate_md_bibitem():
     json_path = os.path.join(base_dir, '..', 'content/dict_pubs.json')
     save_dict2json(json_path, dict_pubs)
 
-    
+
 def append_publication_md(global_index, bib_key, html_format, go_parent_dir=False):
     bib_item = global_index[bib_key]
     html_to_write, pub_details = html_format.apply(bib_item)
     pub_html = '<li>'
     pub_html += html_to_write
     pub_html += r'. <a href="{filename}/pages/publications/' + bib_key.lower() + r'.md">Abstract</a>'
-
+    
     pub_type = bib_item.entry_type
     if 'year' in bib_item.entry:
         year = bib_item.entry['year']
@@ -122,7 +122,7 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
         # If year is absent, the bib_key is used to set the year
         year = int(bib_key[-2:])
         year = 2000 + year if year < 50 else 1900 + year
-
+    
     if 'doi' in bib_item.entry:
         url_doi = 'https://doi.org/' + bib_item.entry['doi']
         pub_html += ' <a href=\"' + url_doi + '\">DOI</a>'
@@ -140,22 +140,22 @@ def append_publication_md(global_index, bib_key, html_format, go_parent_dir=Fals
     if 'pmid' in bib_item.entry:
         url_pmid = 'http://www.ncbi.nlm.nih.gov/pubmed/' + bib_item.entry['pmid']
         pub_html += ' <a href=\"' + url_pmid + '/\">PMID</a>'
-
+    
     pub_html += '</li>\n'
-
+    
     return pub_html, year, pub_type, pub_details
 
 
 def get_arxiv_id_from_title(title):
     str_arxiv = title.lower().strip()
     id_arxiv = str_arxiv.replace('arxiv', '').replace(':', '').strip()
-    url_arxiv = 'https://arxiv.org/abs/'+id_arxiv
+    url_arxiv = 'https://arxiv.org/abs/' + id_arxiv
     return url_arxiv
 
 
 def write_md_pass(out_path, md_format):
     file = open(out_path, 'w', encoding='utf-8')
-
+    
     try:  # This is ugly but necessary for now to avoid UnicodeEncodeError
         file.write(md_format)
         file.close()
@@ -165,11 +165,12 @@ def write_md_pass(out_path, md_format):
 
 def write_list_publications_md(global_index, filtered_publications, out_dir, string_rules):
     html_format = bibtexformatter.HTML_Formatter(string_rules)
-
+    
     dict_pubs = {}
     for bib_key in filtered_publications:
         bib_key = bib_key.lower()
-        html_bibkey, year, pub_type, pub_details = append_publication_md(global_index, bib_key, html_format, go_parent_dir=False)
+        html_bibkey, year, pub_type, pub_details = append_publication_md(global_index, bib_key, html_format,
+                                                                         go_parent_dir=False)
         dict_pubs[bib_key] = {}
         dict_pubs[bib_key]['html'] = html_bibkey
         dict_pubs[bib_key]['year'] = int(year)
@@ -179,14 +180,14 @@ def write_list_publications_md(global_index, filtered_publications, out_dir, str
             dict_pubs[bib_key]['author_name'] = global_index[bib_key].entry['author']
             dict_pubs[bib_key]['title_thesis'] = global_index[bib_key].entry['title']
             # TODO this is a hardcode capital first letter of bibkey
-            dict_pubs[bib_key]['coverpng'] = bib_key[0].title()+bib_key[1:]+'.png'
+            dict_pubs[bib_key]['coverpng'] = bib_key[0].title() + bib_key[1:] + '.png'
     return dict_pubs
 
 
 def write_author_publications_md(global_index, author_index, list_researchers, out_dir, string_rules):
     list_bibs_error = []
     html_format = bibtexformatter.HTML_Formatter(string_rules)
-
+    
     for researcher_names in list_researchers:
         full_name = "-".join(researcher_names)
         title_md = " ".join(researcher_names).title()  # camel case
@@ -199,10 +200,10 @@ def write_author_publications_md(global_index, author_index, list_researchers, o
             if researcher_names[-1] == author_name.lower():
                 for bib_key in author_index[author_name]:
                     list_pubs_author.append(bib_key)
-        md_format += 'bibkeys: '+','.join(list_pubs_author)
-
+        md_format += 'bibkeys: ' + ','.join(list_pubs_author)
+        
         out_path = os.path.join(out_dir, full_name + '.md')
-
+        
         write_md_pass(out_path, md_format)
 
 
@@ -212,13 +213,14 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
     list_bibs_error = []
     for bibitem in filtered_publications:
         md_format = ''
-
+        
         if 'author' not in global_index[bibitem].entry or 'title' not in global_index[bibitem].entry:
             # It skips bibitems with absence of authors or title
             continue
-
+        
         for attr_key in global_index[bibitem].entry:
-            global_index[bibitem].entry[attr_key] = global_index[bibitem].entry[attr_key].replace('{', '').replace('}', '')
+            global_index[bibitem].entry[attr_key] = global_index[bibitem].entry[attr_key].replace('{', '').replace('}',
+                                                                                                                   '')
         authors_format = bibtexformatter.authors_to_string(global_index[bibitem].author)
         title = codecs.decode(global_index[bibitem].entry['title'], "ulatex")
         md_format += 'title: ' + title + '\n'
@@ -228,10 +230,10 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
         if pub_type.lower() == '@phdthesis':
             md_format += 'template: publication-thesis\n'
             # TODO this is a hardcode capital first letter of bibkey
-            md_format += 'coverpng: '+bibitem[0].title()+bibitem[1:]+'.png\n'
+            md_format += 'coverpng: ' + bibitem[0].title() + bibitem[1:] + '.png\n'
             for k in 'promotor', 'copromotor', 'school', 'optmonth', 'year':
                 if k in global_index[bibitem].entry:
-                    md_format += k+': ' + global_index[bibitem].entry[k] + '\n'
+                    md_format += k + ': ' + global_index[bibitem].entry[k] + '\n'
             if 'url' in global_index[bibitem].entry:
                 url_pub = global_index[bibitem].entry['url']
                 md_format += 'urlweb: ' + url_pub + '\n'
@@ -247,7 +249,7 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
                 md_format += 'published_in: ' + event_name + '\n'
                 _, pub_details = html_format.apply(global_index[bibitem])
                 md_format += 'pub_details: ' + pub_details + '\n'
-                    
+            
             if 'doi' in global_index[bibitem].entry:
                 md_format += 'doi: ' + 'https://doi.org/' + global_index[bibitem].entry['doi'] + '\n'
             if 'url' in global_index[bibitem].entry and 'arxiv' in global_index[bibitem].entry['url']:
@@ -263,7 +265,7 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
                 md_format += 'pmid: ' + url_pmid + '\n'
         if 'abstract' in global_index[bibitem].entry:
             md_format += global_index[bibitem].entry['abstract'] + '\n\n'
-
+        
         # if 'file' in global_index[bibitem].entry:
         # TODO: Disabled for now as we don't have a version of the PDFs on the new website
         #     md_format += 'A <b>pdf file</b> of this publication is available for personal use.'
@@ -275,19 +277,19 @@ def write_single_publication_md(global_index, string_rules, filtered_publication
         #     md_format += '  <input type=\"submit\" value=\"Send ' + global_index[bibitem].entry[
         #       'file'] + ' by e-mail\">'
         #     md_format += '</form>'
-
+        
         md_format = md_format.replace('{', '').replace('}', '')
         out_path = os.path.join(out_dir, bibitem + '.md')
-
+        
         file = open(out_path, 'w')
-
+        
         try:  # This is ugly but necessary for now to avoid UnicodeEncodeError
             file.write(md_format)
             file.close()
         except UnicodeEncodeError:
             list_bibs_error.append(bibitem)
     print('List of bibkeys returning UnicodeEncodeError')
-
+    
     for bib in list_bibs_error:
         print(bib)
 
@@ -297,13 +299,13 @@ def get_list_people():
     people_dir = '{}/content/pages/members'.format(base_dir)
     print(people_dir)
     list_researchers = []
-
-    for people_md_path in glob.glob(people_dir+'/*.md'):
+    
+    for people_md_path in glob.glob(people_dir + '/*.md'):
         bname = os.path.basename(people_md_path).replace('.md', '')
         full_name = bname.split('-')
         list_researchers.append(full_name)
         print('Member: ', full_name)
-
+    
     return list_researchers
 
 
