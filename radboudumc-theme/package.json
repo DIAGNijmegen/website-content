@@ -13,11 +13,11 @@
   "author": "Wouter Bulten",
   "license": "Copyright",
   "devDependencies": {
-    "autoprefixer": "^9.3.1",
-    "bootstrap": "^4.1.3",
-    "browser-sync": "^2.26.5",
-    "node-sass": "^4.11.0",
-    "node-sass-chokidar": "^1.3.4",
+    "autoprefixer": "^9.6.0",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.12.0",
+    "node-sass-chokidar": "^1.3.5",
     "postcss-cli": "^6.1.2"
   }
 }
