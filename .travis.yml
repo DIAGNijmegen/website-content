@@ -64,18 +64,18 @@ deploy:
     on:
       brach: master
     fqdn: bodyct.diagnijmegen.nl
-  - provider: pages
-    repo: diagnijmegen/website-aiimnijmegen
-    skip-cleanup: true
-    keep-history: true
-    local-dir: website-aiimnijmegen/output
-    target-branch: master
-    email: webteamdiag@gmail.com
-    name: "Webteam DIAG Deploy Bot"
-    github-token: $GH_PAGES
-    on:
-      brach: master
-    fqdn: aiimnijmegen.nl   
+#  - provider: pages
+    #repo: diagnijmegen/website-aiimnijmegen
+    #skip-cleanup: true
+    #keep-history: true
+    #local-dir: website-aiimnijmegen/output
+    #target-branch: master
+    #email: webteamdiag@gmail.com
+    #name: "Webteam DIAG Deploy Bot"
+    #github-token: $GH_PAGES
+    #on:
+      #brach: master
+    #fqdn: aiimnijmegen.nl   
 notifications:
   email:
     recipients:
