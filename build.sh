@@ -37,7 +37,7 @@ else
 fi
 
 # List of websites to build
-declare -a websites=("website-pathology" "website-rse" "website-retina" "website-bodyct")
+declare -a websites=("website-pathology" "website-rse" "website-retina" "website-bodyct", "website-aiimnijmegen")
 
 # Distribute the content pages
 python parse_content.py
