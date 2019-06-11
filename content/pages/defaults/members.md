@@ -1,4 +1,4 @@
-title: Members of DIAG
+title: Members
 template: people
 
 <!---
