@@ -29,12 +29,23 @@ async function resizeImage(path, target, sizes) {
   const image = sharp(path);
   const metadata = await image.metadata();
 
-  const baseFile = new Promise(resolve =>
-    fs.copyFile(path, target, () => resolve(target))
-  );
+  // Save the original file to a <filename>-full.<ext>
+  const baseFile = new Promise(resolve => {
+    const originalFileTarget = target.replace(/(\.[\w\d_-]+)$/i, '-full$1');
+    return fs.copyFile(path, originalFileTarget, () => resolve(originalFileTarget));
+  });
 
-  const resizedFiles = outputSizes.filter(s => s <= metadata.width).map(async size => {
-    const resizedTarget = target.replace(/(\.[\w\d_-]+)$/i, `-${size}$1`);
+  const availableSizes = outputSizes.filter(s => s <= metadata.width);
+  const resizedFiles = availableSizes.map(async size => {
+    let resizedTarget;
+    if(size == Math.max(...availableSizes)) {
+      // Save the highest resolution image to the original filename
+      // This makes sure that an optimized image is always available, even
+      // when the utility functions in pelican are not used.
+      resizedTarget = target;
+    } else {
+      resizedTarget = target.replace(/(\.[\w\d_-]+)$/i, `-${size}$1`);
+    }
 
     await image
       .resize({width: size})
