@@ -17,7 +17,7 @@ Is it possible to predict immune therapy treatment response in NSCLC patients?
 
 ## Tasks
 
-To develop a framework based on the synergy of digital pathology and AI for accurate classification of the tumor immune microenvironment of non-small cell lung cancer to allow personalization of (neo-adjuvant) immune therapy. Multiple students projects are available in the context of this research. Contact the supervisor of this project for more information about availability of projects.
+To develop a framework based on the synergy of digital pathology and AI for accurate classification of the tumor immune microenvironment of non-small cell lung cancer to allow personalization of (neo-adjuvant) immune therapy. Multiple student projects are available in the context of this research. Contact the supervisor of this project for more information about availability of projects.
 
 ## Requirements
 
