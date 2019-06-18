@@ -1,5 +1,5 @@
 title: Deep Learning to predict recurrence in triple negative breast cancer (TNBC)
-groups: pathology
+groups: pathology, msc-projects
 closed: false
 student_project: true
 picture: vacancies/TNBC-student.png
@@ -12,7 +12,7 @@ description: Aim of the presently proposed ‘proof of concept‘ study is to de
 
 Triple negative breast cancer (TNBC) accounts for about 15-20% of all invasive breast cancers. TNBC is defined by the absence of expression of the hormonal receptors (HR) and the absence of overexpression of the human epidermal growth factor receptor 2 (HER2).
 
-**Research question:** 
+**Research question:**
 Is it possible to predict recurrence for TNBC based on morphological features?
 
 ## Tasks

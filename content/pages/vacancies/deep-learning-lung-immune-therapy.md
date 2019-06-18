@@ -1,5 +1,5 @@
 title: Deep Learning to predict lung cancer immune therapy response
-groups: pathology
+groups: pathology, msc-projects
 closed: false
 student_project: true
 picture: vacancies/lung_projects_immuno.png
@@ -12,7 +12,7 @@ description: Aim of the proposed project is to develop deep learning algorithms 
 
 Immune therapy has shown unprecedent results in cancer treatment and fostered a strong focus on immune checkpoint inhibitors (ICI) both in research and in the clinic. Initially adopted in metastatic setting, soon ICI will be available in a neoadjuvant setting to treat early stage non-small cell lung cancer (NSCLC) patients. Given the high costs of treatment and associated adverse events, there is an unmet need for predictive and prognostic biomarkers for NSCLC patients undergoing ICI.
 
-**Research question:** 
+**Research question:**
 Is it possible to predict immune therapy treatment response in NSCLC patients?
 
 ## Tasks
