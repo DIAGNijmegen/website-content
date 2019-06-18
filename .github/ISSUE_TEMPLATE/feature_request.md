@@ -1,7 +1,6 @@
 ---
 name: Feature request
-about: 'Suggest an idea for the websites. Note: This repository is public, content
-  of issues can be viewed outside of the organization.'
+about: 'Suggest an idea for the websites. Note, This repository is public, content of issues can be viewed outside of the organization.'
 title: ''
 labels: enhancement
 assignees: ''
