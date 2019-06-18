@@ -1,7 +1,7 @@
 title: Merijn van Erp
 name: Merijn van Erp
 template: people-single
-picture: merijn_van_erp.jpeg
+picture: merijn_van_erp.jpg
 position: Scientific programmer
 active: yes
 groups: diag, pathology
