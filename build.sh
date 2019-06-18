@@ -38,6 +38,7 @@ fi
 
 # List of websites to build
 declare -a websites=("website-msc-projects" "website-pathology" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen")
+declare -a websites_without_bibtex=("website-msc-projects")
 
 # Distribute the content pages
 python parse_content.py
@@ -60,9 +61,11 @@ do
   cd $website
   pwd
 
-  # Generate publications
-  python plugins/bib_writer.py
-
+  if [[ $website != 'website-msc-projects' ]]; then
+    # Generate publications
+    python plugins/bib_writer.py
+  fi
+  
   # Build pelican website
   pelican content -s publishconf.py
 

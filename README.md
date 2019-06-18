@@ -3,6 +3,14 @@ This repository stores all the content for the diag websites
 
 [![Build Status](https://travis-ci.org/DIAGNijmegen/website-content.svg?branch=master)](https://travis-ci.org/DIAGNijmegen/website-content)
 
+## Current websites:
+
+- Pathology: https://www.computationalpathologygroup.eu
+- Retina: https://www.a-eyeresearch.nl
+- Bodyct: https://bodyct.diagnijmegen.nl
+- RSE: https://rse.diagnijmegen.nl
+- AIIM: pending
+- RTC Msc projects: pending
 
 ## Building the website locally
 
