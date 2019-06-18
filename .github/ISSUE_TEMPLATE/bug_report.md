@@ -1,10 +1,9 @@
 ---
 name: Bug report
-about: Problem with one of the website (both layout and build related). Note: This repository is public, content of issues can be viewed outside of the organization.
+about: Problem with one of the website (both layout and build related). Note, this repository is public, content of issues can be viewed outside of the organization.
 title: ''
 labels: bug
 assignees: ''
-
 ---
 
 **Describe the bug**
