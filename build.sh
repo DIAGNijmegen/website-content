@@ -65,7 +65,7 @@ do
     # Generate publications
     python plugins/bib_writer.py
   fi
-  
+
   # Build pelican website
   pelican content -s publishconf.py
 

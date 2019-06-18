@@ -9,6 +9,7 @@
 
     {% set list_years = [] %}
     {% set list_pub_type = [] %}
+    {% if bibkeys_html %}
     {% for bibkey in bibkeys_html.keys() %}
         <!-- Getting list of years -->
         {% if bibkeys_html[bibkey]['year'] not in list_years %}
@@ -19,6 +20,7 @@
             {% if list_pub_type.append(bibkeys_html[bibkey]['pub_type']) %}{% endif %}
         {% endif %}
     {% endfor %}
+    {% endif %}
 
     <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
 

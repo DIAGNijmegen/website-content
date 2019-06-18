@@ -11,7 +11,7 @@ bibkeys: Bokh19
 Big volumes of diverse data from distributed sources are continuously produced. Health-care data is expected to be over 2000 exabytes in 2020. Supervised deep learning models, require large amount of annotated data. Considering the available data, such annotations are impractical. The ExaMode project is a collaboration between universities and industries and addresses this impracticality by applying weakly supervised deep learning based on diverse data from distributed sources.
 
 ## Aim
-The project aims to solve: “weakly supervised knowledge discovery of exascale heterogeneous data.’’
+The project aims to solve: "weakly supervised knowledge discovery of exascale heterogeneous data.’’
 
 Radboudumc is responsible for the following objectives:
 - Develop deep learning methods for detection and semantic segmentation of regions of interest in histopathology whole-slide images.
