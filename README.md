@@ -10,7 +10,7 @@ This repository stores all the content for the diag websites
 - Bodyct: https://bodyct.diagnijmegen.nl
 - RSE: https://rse.diagnijmegen.nl
 - AIIM: pending
-- RTC Msc projects: pending
+- RTC Msc projects: https://diagnijmegen.github.io/website-msc-projects/ (temporary)
 
 ## Building the website locally
 
