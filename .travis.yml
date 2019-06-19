@@ -27,7 +27,7 @@ deploy:
     github-token: $GH_PAGES
     on:
       brach: master
-    fqdn: diagnijmegen.github.io/website-msc-projects
+#     fqdn: diagnijmegen.github.io/website-msc-projects
   - provider: pages
     repo: diagnijmegen/website-retina
     skip-cleanup: true
