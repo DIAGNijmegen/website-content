@@ -8,7 +8,7 @@ MANDATORY
 title: Title vacancy
 groups: pathology/retina/rse, etc (determines on which website the vacancy or student project appears)
 closed: false (change to true when vacanct is closed)
-student_project: true (change to false when it concerns a vacancy and not a student project)
+type: type of the vacancy (currently the following types are supported: general, student, student-aihealth)
 picture: filename.jpg (Image is collected from website-content/content/images/vacancies/. Upload a rectangular image here)
 template: vacancy-single
 people: people who are involved, generally this is only the contact person.
