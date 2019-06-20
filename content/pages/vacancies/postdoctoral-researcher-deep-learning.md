@@ -1,7 +1,7 @@
 title: Postdoctoral Researcher for Deep Learning in Computational Pathology
 groups: pathology, diag
 closed: true
-student_project: false
+type: general
 picture: vacancies/vacancy_postdoc.png
 people: Francesco Ciompi, Jeroen van der Laak, Esther Lips, Jelle Wesseling 
 template: vacancy-single

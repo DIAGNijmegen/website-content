@@ -1,7 +1,7 @@
 title: Deep Learning for the differentiation of STIC lesions
 groups: pathology, msc-projects
 closed: false
-student_project: true
+type: student
 picture: vacancies/master_student_stic.jpg
 template: vacancy-single
 people: Jeroen van der Laak

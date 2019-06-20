@@ -1,7 +1,7 @@
 title: Research Software Engineer - Infrastructure
 groups: diag, rse
 closed: true
-student_project: false
+type: general
 picture: software/sol-logo.jpg
 people: James Meakin, Bram van Ginneken, Paul Konstantin Gerke
 template: vacancy-single

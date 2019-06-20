@@ -12,7 +12,7 @@
     <p class="alert alert-warning"><b>Note:</b> This application has been filled. Please see our <a href="{{ SITEURL }}/vacancies/">Vacancies</a> page for open vacancies.</p>
     {% endif %}
 
-    {% if page.student_project == 'true' %}
+    {% if page.type == 'student' or page.type == 'student-aihealth' %}
     <p class="alert alert-info">This is a student project vacancy.</p>
     {% endif %}
 

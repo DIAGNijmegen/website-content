@@ -9,18 +9,11 @@
     <h1 class="page-title">{{ page.title }}</h1>
     {{ page.content }}
 
-    <h2>Open vacancies</h2>
+    <h2>projects</h2>
+    <p>We welcome good master's and bachelor's students to perform academic research in AI health care. We offer various projects that can be tuned to match your thesis requirements. You can also browse through our research pages to read about the different research topics.</p>
     <div class="row">
         {% set vacancies_show_closed = 'false' %}
-        {% set show_vacancy_types = ['general'] %}
-        {% include "blocks/vacancy-blocks.html" %}
-    </div>
-
-    <h2>Student projects</h2>
-    <p>We welcome good master's and bachelor's students to perform academic research in our group. We offer various projects that can be tuned to match your thesis requirements. You can also browse through our research pages to read about the different research topics of our group.</p>
-    <div class="row">
-        {% set vacancies_show_closed = 'false' %}
-        {% set show_vacancy_types = ['student'] %}
+	{% set show_vacancy_types = ['student-aihealth'] %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
 
@@ -29,18 +22,11 @@
     <h2 class="my-4">Closed vacancies</h2>
     <p>The positions below are closed, please do not apply. They are listed to give you an idea of the kind of positions we regularly offer.</p>
 
-    <b>Vacancies</b>
     <div class="row">
         {% set vacancies_show_closed = 'true' %}
-        {% set show_vacancy_types = ['general'] %}
+	{% set show_vacancy_types = ['student-aihealth'] %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
 
-    <b>Student projects</b>
-    <div class="row">
-        {% set vacancies_show_closed = 'true' %}
-        {% set show_vacancy_types = ['student'] %}
-        {% include "blocks/vacancy-blocks.html" %}
-    </div>
 </div>
 {% endblock %}

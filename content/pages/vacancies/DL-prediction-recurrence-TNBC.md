@@ -1,7 +1,7 @@
 title: Deep Learning to predict recurrence in triple negative breast cancer (TNBC)
 groups: pathology, msc-projects
 closed: false
-student_project: true
+type: student
 picture: vacancies/TNBC-student.png
 template: vacancy-single
 people: Maschenka Balkenhol

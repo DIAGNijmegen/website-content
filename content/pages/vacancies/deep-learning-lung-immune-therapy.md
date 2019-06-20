@@ -1,7 +1,7 @@
 title: Deep Learning to predict lung cancer immune therapy response
 groups: pathology, msc-projects
 closed: false
-student_project: true
+type: student
 picture: vacancies/lung_projects_immuno.png
 template: vacancy-single
 people: Francesco Ciompi
