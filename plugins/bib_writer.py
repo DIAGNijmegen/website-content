@@ -40,17 +40,17 @@ class PublicationsGenerator:
     # See the __main__ section to check how to run this python script.
     #
     # Algorithm:
-    # 1. This python script uses bibtexlib (Bart made it) to parse effitiently the large diag.bib file in
+    # 1. This python script uses bibtexlib (Bart designed it) to parse effitiently the large diag.bib file in
     #    a couple of seconds. 
     # 2. We obtain the list of researchers/members/authors of the current website. This is done in __get_list_people().
-    # 3. We filter out publications of the researcherds/members/author of the current website. This is done in 
+    # 3. We filter out publications of the researchers/members/author of the current website. This is done in 
     #    __get_publications_by_author().
     # 4. Generate markdown files per publication. This is done in __write_single_publication_md().
-    #    Sample: https://www.computationalpathologygroup.eu/publications/balo18/
+    #    Sample: Publication of bibkey balo18 https://www.computationalpathologygroup.eu/publications/balo18/
     # 5. The publications are grouped by author to create markdown files. This is done in __write_author_publications_md().
-    #    Sample: https://www.computationalpathologygroup.eu/publications/francesco-ciompi/
+    #    Sample: List of publications of Francesco https://www.computationalpathologygroup.eu/publications/francesco-ciompi/
     # 6. The full list of publications are generated in __write_list_publications_md().
-    #    Sample: https://www.computationalpathologygroup.eu/publications/
+    #    Sample: Full list of publication of the pathology group https://www.computationalpathologygroup.eu/publications/
     # 7. Additional information is stored in content/dict_pubs.json as json file.
     #
     @staticmethod

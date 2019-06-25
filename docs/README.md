@@ -37,5 +37,4 @@
 
 ### Publications and Theses Gallery
 
-- [Manage publications](https://github.com/DIAGNijmegen/website-content/edit/master/docs/manage-publications-and-theses-gallery.md)
-- [Manage theses gallery](https://github.com/DIAGNijmegen/website-content/edit/master/docs/manage-publications-and-theses-gallery.md)
+- [Manage publications and theses gallery](https://github.com/DIAGNijmegen/website-content/edit/master/docs/manage-publications-and-theses-gallery.md)
