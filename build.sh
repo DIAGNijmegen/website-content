@@ -48,7 +48,7 @@ do
   echo "Building $website"
 
   # Copy default base pages
-  cp -r content/pages/defaults/. $website/content/pages/
+  cp -r --no-clobber content/pages/defaults/. $website/content/pages/
   # Copy images
   cp -r --no-clobber imgoptim/optimized_images/. $website/content/images
   # Copy bib generator script
