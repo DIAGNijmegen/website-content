@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'DIAG Base'
+SITENAME = u'Vacancies'
 SITENAME_SHORT = 'DIAG'
 SITE_REPO = 'website-base'
 
@@ -24,9 +24,7 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "Vacancies-diag", "url": "vacancies_diag"},
-    {"name": "Vacancies-aihealth", "url": "vacancies_aihealth" },
-    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
+    {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])

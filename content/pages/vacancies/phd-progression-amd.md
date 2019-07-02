@@ -1,5 +1,5 @@
 title: PhD position for Extraction of imaging biomarkers for AMD with Deep Learning
-groups: retina, diag
+groups: retina, diag, msc-projects
 closed: false
 type: general
 picture: vacancies/Multimodal_retina.png
