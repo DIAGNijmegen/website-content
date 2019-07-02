@@ -51,7 +51,7 @@
     <style>
         {% if page %}
             /* above the fold for {{ page.template }} */
-            {% include "critical_css/" + page.template + ".css"  %}
+            {% include ["critical_css/" + page.template + ".css", "critical_css/home.css"] %}
         {% elif article %}
             /* above the fold for article */
             {% include "critical_css/article.css"  %}
