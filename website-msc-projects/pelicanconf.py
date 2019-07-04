@@ -8,15 +8,18 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'Vacancies'
-SITENAME_SHORT = 'DIAG'
+SITENAME = u'AI for Health'
+SITENAME_SHORT = 'AIHEALTH'
 SITE_REPO = 'website-base'
 
 # Home page and social settings
+SITETITLE = 'AI for Health -  Vacancies'
 SITELEAD = 'Some introduction text that is placed on the home page.'
-SITE_PICTURE = 'images/computational_pathology_social_image.png'
+SITE_PICTURE ='images/computational_pathology_social_image.png'
+
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
-HOME_IMAGE_CAPTION = 'Automated tumor detection'
+HOME_IMAGE_CAPTION = 'example picture'
+
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
