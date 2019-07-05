@@ -14,7 +14,7 @@ SITE_REPO = 'website-base'
 
 # Home page and social settings
 SITETITLE = 'AI for Health'
-SITELEAD = '*Artificial Intelligence for Health* is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer numerous courses for professionals, Master student projects and vacancies for PhD candidates.'
+SITELEAD = 'Artificial Intelligence for Health is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer numerous courses for professionals, Master student projects and vacancies for PhD candidates.'
 SITE_PICTURE ='images/computational_pathology_social_image.png'
 
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
