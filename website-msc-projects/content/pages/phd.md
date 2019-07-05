@@ -4,4 +4,4 @@ closed: false
 type: card
 picture: vacancies/AIFH_cap.png
 template: phd-vacancies 
-description: PhD description... 
+description: Vacancies for PhD candidates.
