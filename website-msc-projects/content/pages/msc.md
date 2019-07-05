@@ -4,4 +4,4 @@ closed: false
 type: card
 picture: vacancies/AIFH_books.png
 template: student-vacancies
-description: Master description... 
+description: AI project vacancies for Radboud University Master students.
