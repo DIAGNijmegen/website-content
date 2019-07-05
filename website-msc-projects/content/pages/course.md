@@ -4,4 +4,4 @@ closed: false
 type: card
 picture: vacancies/AIFH_diploma.png
 template: vacancy-single
-description: course description... 
+description: AI courses for health(care) professionals with a background in Medicine, Biomedical Medicine or Technical Medicine. 
