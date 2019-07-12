@@ -1,5 +1,6 @@
 const glob = require('glob');
 const fs = require('fs');
+const basename = require('path');
 const dirname = require('path').dirname;
 const md5 = require('md5');
 const mkdirp = require('mkdirp');
@@ -13,6 +14,7 @@ const imageminPngquant = require('imagemin-pngquant');
 
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
+const removeFile = promisify(fs.unlink);
 
 const sourceBasePath = '../content/images';
 const outputPath = "./optimized_images";
@@ -92,29 +94,45 @@ function compressImages(paths, targetDir) {
   // Create intermediate dirs if they do not exist
   await Promise.all(imgHashes.map(async ({target}) => await mkdirp(dirname(target))));
 
-  // Filter images that have not been changed
-  const changedImages = imgHashes
-    .filter(({path, hash}) => !(path in imgCache) || imgCache[path] != hash);
-
   // Resize images
-  await Promise.all(changedImages.map(async ({path, target, hash}) => {
-    try {
-      console.log(`Optimizing ${path}.`);
-      // Create resized versions of the image
-      const resizedImages = await resizeImage(path, target, outputSizes);
+  const updatedCache = {}
+  await Promise.all(imgHashes.map(async ({path, target, hash}) => {
+    if (!(path in imgCache) || imgCache[path] != hash) {
+      // Only create new images for updated source files
+      try {
+        console.log(`Optimizing ${path}.`);
+        // Create resized versions of the image
+        const resizedImages = await resizeImage(path, target, outputSizes);
 
-      // Compress resized images
-      await compressImages(resizedImages, dirname(resizedImages[0]));
+        // Compress resized images
+        await compressImages(resizedImages, dirname(resizedImages[0]));
 
-      // Update the cache
-      imgCache[path] = hash;
-    } catch(err) {
-      console.error(err);
+
+      } catch(err) {
+        console.error(err);
+      }
     }
+
+    // Update the cache
+    updatedCache[path] = hash;
   }));
 
   // Save new hash file
-  await writeFile('image-cache.json', JSON.stringify(imgCache), 'utf8');
+  await writeFile('image-cache.json', JSON.stringify(updatedCache), 'utf8');
 
-  console.log("Completed");
+  const generatedImages = glob.sync(`${outputPath}/**/*.+(png|jpg|jpeg|JPG|PNG)`);
+  // Targets for mapping generated filenames back to the original names
+  const replaceRegex = new RegExp(outputSizes.reduce((a, c) => `${a}|-${c}.`, '-full.'), 'g');
+  // Remove all images that are not in the cache anymore
+  await Promise.all(generatedImages.map(async (path) => {
+    const originalPath = path.replace(replaceRegex, '.')
+                             .replace(outputPath, sourceBasePath);
+
+    if(!(originalPath in updatedCache)) {
+      console.log(`Removing file ${path}`);
+      return removeFile(path);
+    }
+  }));
+
+  console.log("Completed image optimization.");
 })();
