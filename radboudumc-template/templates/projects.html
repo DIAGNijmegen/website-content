@@ -9,6 +9,17 @@
     <h1 class="page-title">{{ page.title }}</h1>
     {{ page.content }}
 
+    <h2 style="margin: 2em 0 1em 0;">Current research projects</h2>
+
+    <div class="row">
+        {% for card in pages %}
+            {% if card.parent.url == 'projects/' %}
+                {% if card.finished == 'false' %}
+                 {% include "blocks/card.html" %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
 
     <h2 style="margin-bottom: 1em;">Software</h2>
 
@@ -39,19 +50,7 @@
         </div>
         {% endif %}
     {% endfor %}
-
-    <h2 style="margin: 2em 0 1em 0;">Current research projects</h2>
-
-    <div class="row">
-        {% for card in pages %}
-            {% if card.parent.url == 'projects/' %}
-                {% if card.finished == 'false' %}
-                 {% include "blocks/card.html" %}
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    </div>
-
+    
     <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
     <div class="row">
         {% for card in pages %}
