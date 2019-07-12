@@ -1,5 +1,6 @@
-# website-content
-This repository stores all the content for the diag websites
+# DIAG Website content
+
+This repository stores all the content for the diag websites.
 
 [![Build Status](https://travis-ci.org/DIAGNijmegen/website-content.svg?branch=master)](https://travis-ci.org/DIAGNijmegen/website-content)
 
@@ -11,6 +12,7 @@ This repository stores all the content for the diag websites
 - RSE: https://rse.diagnijmegen.nl
 - AIIM: pending
 - RTC Msc projects: https://diagnijmegen.github.io/website-msc-projects/ (temporary)
+- Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
 
 ## Building the website locally
 
