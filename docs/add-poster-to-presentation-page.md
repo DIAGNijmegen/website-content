@@ -8,7 +8,7 @@ ALL MANDATORY
 
 title: Title poster
 template: presentation-single
-picture_overview: posters/filename.png (Small image for presentation home page. Collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters. Upload a resized image here)
+picture_overview: posters/filename.png (Small image for presentation home page. Collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters.)
 picture_large: posters/filename.png (Higher resolution image, collected from Collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters. Upload a resized image here)
 arxiv: ArXiv link if possible
 author_list: First and last names of people involved
