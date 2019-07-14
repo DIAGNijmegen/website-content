@@ -1,4 +1,3 @@
-
 title: Stain-transforming cycle-consistent generative adversarial networks for improved segmentation of renal histopathology
 template: presentation-single
 picture_overview: posters/MIDL_19_Thomas.jpeg 
