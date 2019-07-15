@@ -96,6 +96,7 @@ function compressImages(paths, targetDir) {
 
   // Resize images
   const updatedCache = {}
+  let updateImages = 0
   await Promise.all(imgHashes.map(async ({path, target, hash}) => {
     if (!(path in imgCache) || imgCache[path] != hash) {
       // Only create new images for updated source files
@@ -107,6 +108,7 @@ function compressImages(paths, targetDir) {
         // Compress resized images
         await compressImages(resizedImages, dirname(resizedImages[0]));
 
+        updateImages += 1
 
       } catch(err) {
         console.error(err);
@@ -117,8 +119,10 @@ function compressImages(paths, targetDir) {
     updatedCache[path] = hash;
   }));
 
-  // Save new hash file
-  await writeFile('image-cache.json', JSON.stringify(updatedCache), 'utf8');
+  if(updatedImages > 0) {
+    // Save new hash file, only if at least one image was updated
+    await writeFile('image-cache.json', JSON.stringify(updatedCache), 'utf8');
+  }
 
   const generatedImages = glob.sync(`${outputPath}/**/*.+(png|jpg|jpeg|JPG|PNG)`);
   // Targets for mapping generated filenames back to the original names
