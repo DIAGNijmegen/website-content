@@ -2,7 +2,7 @@ title: Stain-transforming cycle-consistent generative adversarial networks for i
 template: presentation-single
 picture_overview: posters/MIDL_19_Thomas-480.jpeg 
 picture_large: posters/MIDL_19_Thomas.jpeg 
-arxiv: 
+arxiv: http://proceedings.mlr.press/v102/de-bel19a.html
 author_list: Thomas de Bel, Meyke Hermsen, Jesper Kers, Jeroen van der Laak, Geert Litjens
 groups: pathology
 
