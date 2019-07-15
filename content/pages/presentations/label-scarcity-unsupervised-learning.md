@@ -1,7 +1,7 @@
 title: Dealing with Label Scarcity in Computational Pathology: A Use Case in Prostate Cancer Classification
 template: presentation-single
-picture_overview: posters/label-scarcity-unsupervised-learning-480.png
-picture_large: posters/label-scarcity-unsupervised-learning.png
+picture_overview: posters/midl_2019_poster_dercksen19-480.png
+picture_large: posters/midl_2019_poster_dercksen19.png
 arxiv: https://arxiv.org/abs/1905.06820
 author_list: Koen Dercksen, Wouter Bulten, Geert Litjens
 groups: pathology
