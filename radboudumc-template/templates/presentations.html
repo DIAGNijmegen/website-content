@@ -13,7 +13,7 @@
     <div class="row">
         {% for presentation in pages %}
             {% if presentation.parent.url == 'presentations/' %}
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top" src="{{ SITEURL}}/images/{{presentation.picture_overview}}" alt="{{ presentation.title }}"></a>
                     <div class="card-body" style="height: 170px">
