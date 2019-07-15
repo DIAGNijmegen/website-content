@@ -1,7 +1,7 @@
 title: Stain-transforming cycle-consistent generative adversarial networks for improved segmentation of renal histopathology
 template: presentation-single
-picture_overview: posters/MIDL_19_Thomas.jpeg 
-picture_large: posters/MIDL_19_Thomas_small.jpeg 
+picture_overview: posters/MIDL_19_Thomas-480.jpeg 
+picture_large: posters/MIDL_19_Thomas.jpeg 
 arxiv: 
 author_list: Thomas de Bel, Meyke Hermsen, Jesper Kers, Jeroen van der Laak, Geert Litjens
 groups: pathology
