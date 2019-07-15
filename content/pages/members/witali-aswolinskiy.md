@@ -1,7 +1,7 @@
 title: Witali Aswolinskiy
 name: Witali Aswolinskiy
 template: people-single
-picture: Person.png
+picture: Witali_Aswolinskiy.jpg
 position: Postdoctoral researcher
 active: yes
 groups: diag, pathology
