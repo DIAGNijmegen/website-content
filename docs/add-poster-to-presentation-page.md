@@ -8,8 +8,7 @@ ALL MANDATORY
 
 title: Title poster
 template: presentation-single
-picture_overview: posters/filename.png (Small image for presentation home page. Collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters.)
-picture_large: posters/filename.png (Higher resolution image, collected from Collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters. Upload a resized image here)
+picture: posters/filename.png (Higher resolution image, collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters. Prefarable 1000-1200 pixels wide.)
 arxiv: ArXiv link if possible
 author_list: First and last names of people involved
 groups: pathology/diag/rse/retina (determines on which website the poster shoud appear)
