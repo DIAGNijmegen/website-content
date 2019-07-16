@@ -4,8 +4,6 @@
 2. Type the name of the page in the empty entry on the top, and end with .md. Example:  website-content/content/pages/presentations/unsupervised-prostate-cancer-detection.md
 3. Fill in the following:
 ```
-ALL MANDATORY 
-
 title: Title poster
 template: presentation-single
 picture: posters/filename.png (Higher resolution image, collected from https://github.com/DIAGNijmegen/website-content/tree/master/content/images/posters. Prefarable 1000-1200 pixels wide.)
