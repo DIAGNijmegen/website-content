@@ -10,11 +10,11 @@ Live websites:
 
 - Pathology: https://www.computationalpathologygroup.eu
 - Retina: https://www.a-eyeresearch.nl
+- RSE: https://rse.diagnijmegen.nl
 
 Websites in development
 
 - Bodyct: https://bodyct.diagnijmegen.nl
-- RSE: https://rse.diagnijmegen.nl
 - AIIM: pending
 - RTC Msc projects: https://diagnijmegen.github.io/website-msc-projects/ (temporary)
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
