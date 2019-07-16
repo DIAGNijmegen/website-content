@@ -1,7 +1,6 @@
 title:Training convolutional neural networks with megapixel images
 template: presentation-single
-picture_overview: posters/midl_streaming_small.png
-picture_large: posters/midl_streaming.png
+picture: posters/midl_streaming.png
 arxiv: https://arxiv.org/abs/1804.05712
 author_list: Hans Pinckaers, Geert Litjens
 groups: pathology

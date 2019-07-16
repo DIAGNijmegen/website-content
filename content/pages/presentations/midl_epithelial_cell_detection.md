@@ -1,7 +1,6 @@
 title: From Point Annotations to Epithelial Cell Detection in Breast Cancer Histopathology using RetinaNet
 template: presentation-single
-picture_overview: posters/midl_2019_mercan19-480.png 
-picture_large: posters/midl_2019_mercan19.png 
+picture: posters/midl_2019_mercan19.png 
 arxiv: https://openreview.net/pdf?id=BJlvCtU45E
 author_list: Caner Mercan, Maschenka Balkenhol, Jeroen van der Laak, Francesco Ciompi
 groups: pathology

@@ -1,7 +1,6 @@
 title: Unsupervised Prostate Cancer Detection on H&E using Convolutional Adversarial Autoencoders
 template: presentation-single
-picture_overview: posters/unsupervised_pca.png
-picture_large: posters/unsupervised_pca_large.png
+picture: posters/unsupervised_pca_large.png
 arxiv: https://arxiv.org/abs/1804.07098
 author_list: Wouter Bulten, Geert Litjens
 groups: pathology
