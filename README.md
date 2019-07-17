@@ -20,6 +20,10 @@ Websites in development
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
 - DIAG: Planned
 
+## Updating the content
+
+Please see the [documentation](https://github.com/DIAGNijmegen/website-content/tree/master/docs) for guides on updating the websites.
+
 ## Building the website locally
 
 1. Run `build.sh`
