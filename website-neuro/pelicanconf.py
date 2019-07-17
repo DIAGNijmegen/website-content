@@ -9,8 +9,8 @@ from datetime import date
 #
 CURRENTYEAR = date.today().year
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'Neuro Image Analysis Group'
-SITENAME_SHORT = 'ndlab'
+SITENAME = u'Neuroimage Analysis Group'
+SITENAME_SHORT = 'neuro'
 SITE_REPO = 'website-base'
 
 # Home page and social settings
