@@ -16,8 +16,8 @@ SITE_REPO = 'website-base'
 # Home page and social settings
 SITELEAD = 'Some introduction text that is placed on the home page.'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
-HOME_IMAGE = 'images/general/neuromain.png'
-HOME_IMAGE_CAPTION = 'Color-mapping in 4D-CTA'
+HOME_IMAGE = 'images/general/neuromain0.png'
+HOME_IMAGE_CAPTION = 'tissue segmentation 4D-CTA'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
@@ -25,7 +25,7 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    #{"name": "Highlights", "url": "higlights", "icon": "megaphone"},
+    {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o"},
     {"name": "Software", "url": "software", "icon": "code"},
