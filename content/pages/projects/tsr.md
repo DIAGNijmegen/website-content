@@ -9,4 +9,4 @@ bibkeys: Ciom17, Gees19
 
 Tumour-stroma ratio (TSR) is an independent prognostic factor in colorectal cancer and other solid malignancies. Digital pathology holds opportunities for automated TSR analysis. The aim of this projects is to investigate the potential of computer-aided quantification of intratumoural stroma in H&E stained colorectal cancer whole-slide images using deep learning.
 
-![TSR]({filename}/images/projects/TSR_circles.png)
+![TSR]({static}/images/projects/TSR_circles.png)

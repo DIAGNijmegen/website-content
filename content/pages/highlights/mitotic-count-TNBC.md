@@ -8,7 +8,7 @@ The prognostic value of mitotic count for invasive breast cancer is firmly estab
 
 The absolute manual mitotic count was assessed by averaging counts from three independent observers. Deep learning was performed using a previously described <a href="https://ieeexplore.ieee.org/abstract/document/8327641">convolutional neural network</a> on digitized H&E slides. Multivariable Cox regression models for relapse-free survival and overall survival served as baseline models. These were expanded with dichotomized mitotic counts, attempting every possible cut-off value, and evaluated by means of the c-statistic. These results are depicted below. 
 
-![c-statistics mitotic count TNBC]({filename}/images/news/Graph.jpg)
+![c-statistics mitotic count TNBC]({static}/images/news/Graph.jpg)
 
 The authors found that per 2 mm2 averaged manual mitotic counts ranged from 1 to 187 (mean 37.6, SD 23.4), whereas automatic counts ranged from 1 to 269 (mean 57.6; SD 42.2). None of the cut-off values improved the models’ baseline c-statistic, for both manual and automatic assessments. This led to the conclusion that mitotic count does not serve as a prognostic factor for TNBC.
 
