@@ -1,6 +1,7 @@
 ---
 name: Content question / issue
-about: Issue regarding content or structure of the websites. Note, this repository is public, content of issues can be viewed outside of the organization.
+about: Issue regarding content or structure of the websites. Note, this repository
+  is public, content of issues can be viewed outside of the organization.
 title: ''
 labels: content
 assignees: ''
