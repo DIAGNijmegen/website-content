@@ -104,4 +104,4 @@ notifications:
     recipients:
       - $WEBTEAM_EMAIL
     on_success: change # default: change
-    on_failure: change # default: always
+    on_failure: always # default: always
