@@ -184,19 +184,19 @@ class PublicationsGenerator:
             try:
                 html_bibkey, year, pub_type, pub_details = self.__append_publication_md(global_index, bib_key, html_format)
                 pub_details = pub_details.replace('_', ' ').strip()
+                dict_pubs[bib_key] = {}
+                dict_pubs[bib_key]['html'] = html_bibkey
+                dict_pubs[bib_key]['year'] = int(year)
+                dict_pubs[bib_key]['pub_type'] = pub_type
+                dict_pubs[bib_key]['pub_details'] = pub_details
+                if pub_type.lower() == '@phdthesis':
+                    dict_pubs[bib_key]['author_name'] = global_index[bib_key].entry['author']
+                    dict_pubs[bib_key]['title_thesis'] = global_index[bib_key].entry['title']
+                    # TODO this is a hardcode capital first letter of bibkey
+                    dict_pubs[bib_key]['coverpng'] = bib_key[0].title() + bib_key[1:] + '.png'
             except:
                 print(f"Failed writing html for publication list for {bib_key}, skipping this entry.")
                 print(traceback.format_exc())
-            dict_pubs[bib_key] = {}
-            dict_pubs[bib_key]['html'] = html_bibkey
-            dict_pubs[bib_key]['year'] = int(year)
-            dict_pubs[bib_key]['pub_type'] = pub_type
-            dict_pubs[bib_key]['pub_details'] = pub_details
-            if pub_type.lower() == '@phdthesis':
-                dict_pubs[bib_key]['author_name'] = global_index[bib_key].entry['author']
-                dict_pubs[bib_key]['title_thesis'] = global_index[bib_key].entry['title']
-                # TODO this is a hardcode capital first letter of bibkey
-                dict_pubs[bib_key]['coverpng'] = bib_key[0].title() + bib_key[1:] + '.png'
         return dict_pubs
 
     def __write_author_publications_md(self, author_index, list_researchers, out_dir):
