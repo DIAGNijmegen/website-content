@@ -26,9 +26,16 @@ Please see the [documentation](https://github.com/DIAGNijmegen/website-content/t
 
 ## Building the website locally
 
+To build a website:
+
 1. Run `build.sh`
-2. Use browser sync in a one of the website directories: `browser-sync start --server output --files output`
-3. Run pelican in `website-pathology`: `pelican content --autoreload  --output output`
+2. Run pelican in `website-pathology` (or any other website): `pelican --autoreload`
+3. Start the development server: `pelican --listen`
+
+(On Non-windows you can combine step 2 and 3 with `pelican --autoreload --listen`)
+
+To build the css:
+
 4. Run css build in `radboudumc-theme`: `npm run deploy-watch`
 
 ## Design resources
