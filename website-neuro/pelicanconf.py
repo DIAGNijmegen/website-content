@@ -7,16 +7,17 @@ from datetime import date
 # Site specific variables
 # Please update these to customize the website.
 #
+CURRENTYEAR = date.today().year
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'Neuro DIAG'
-SITENAME_SHORT = 'Neuro'
+SITENAME = u'Neuro Image Analysis Group'
+SITENAME_SHORT = 'ndlab'
 SITE_REPO = 'website-base'
 
 # Home page and social settings
 SITELEAD = 'Some introduction text that is placed on the home page.'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
-HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
-HOME_IMAGE_CAPTION = 'Automated tumor detection'
+HOME_IMAGE = 'images/general/neuromain.png'
+HOME_IMAGE_CAPTION = 'Color-mapping in 4D-CTA'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
