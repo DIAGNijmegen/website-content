@@ -96,7 +96,7 @@ function compressImages(paths, targetDir) {
 
   // Resize images
   const updatedCache = {}
-  let updateImages = 0
+  let updatedImages = 0
   await Promise.all(imgHashes.map(async ({path, target, hash}) => {
     if (!(path in imgCache) || imgCache[path] != hash) {
       // Only create new images for updated source files
@@ -108,7 +108,7 @@ function compressImages(paths, targetDir) {
         // Compress resized images
         await compressImages(resizedImages, dirname(resizedImages[0]));
 
-        updateImages += 1
+        updatedImages += 1
 
       } catch(err) {
         console.error(err);
