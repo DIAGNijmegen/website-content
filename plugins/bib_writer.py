@@ -249,11 +249,12 @@ class PublicationsGenerator:
                         event_type = 'journal' if 'journal' in global_index[bibkey].entry else 'booktitle'
                         if global_index[bibkey].entry[event_type] in string_rules:
                             event_name = string_rules[global_index[bibkey].entry[event_type]]
-                            event_name = event_name.replace('_', ' ').strip()
                         else:
                             event_name = global_index[bibkey].entry[event_type]
+                        event_name = event_name.replace('_', ' ').strip()
                         md_format += 'published_in: ' + event_name + '\n'
                         _, pub_details = html_format.apply(global_index[bibkey])
+                        pub_details = pub_details.replace('_', ' ').strip()
                         md_format += 'pub_details: ' + pub_details + '\n'
 
                     md_format_bibitem, is_preprint = self.__format_bibitem(global_index[bibkey], is_html_format=False)
