@@ -49,8 +49,11 @@
                             {% if pub_type == '@Conference' %}
                                 <h3>{{ 'Abstracts' }}</h3>
                             {% endif%}
-                            {% if pub_type == '@PhdThesis' %}
+                            {% if pub_type in ['@PhdThesis', '@MastersThesis'] %}
                                 <h3>{{ 'Theses' }}</h3>
+                            {% endif%}
+                            {% if pub_type in ['@Book', '@Other'] %}
+                                <h3>{{ 'Other publications' }}</h3>
                             {% endif%}
                             <ul>
                             {% if found.update({'flag': true}) %}{% endif %}

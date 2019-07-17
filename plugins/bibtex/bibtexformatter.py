@@ -76,17 +76,21 @@ class BaseFormatter:
         pass
     
     def apply(self, bib_item):
+        # All the types by default as lowercase
         type_formatters = {
-            '@InProceedings': self.format_proceedings,
-            '@Conference': self.format_abstract,
-            '@Article': self.format_article,
-            '@PhdThesis': self.format_thesis,
-            '@Mastersthesis': self.format_thesis,
-            '@Patent': self.format_patent,
-            '@Book': self.format_article
+            '@inproceedings': self.format_proceedings,
+            '@conference': self.format_abstract,
+            '@article': self.format_article,
+            '@phdthesis': self.format_thesis,
+            '@mastersthesis': self.format_thesis,
+            '@patent': self.format_patent,
+            '@book': self.format_article
         }
-        if bib_item.entry_type in type_formatters:
-            return type_formatters[bib_item.entry_type](bib_item)
+        if bib_item.entry_type.lower() in type_formatters:
+            return type_formatters[bib_item.entry_type.lower()](bib_item)
+        else:
+            # Other publication types (@misc, @electronic, etc) will be formatted as article
+            return self.format_article(bib_item)
         
 class HTML_Formatter(BaseFormatter):
     
@@ -166,10 +170,10 @@ class HTML_Formatter(BaseFormatter):
     def format_thesis(self, bib_item):
         authors = authors_to_string(bib_item.author)
         
-        if bib_item.entry_type == '@PhdThesis':
+        if bib_item.entry_type.lower() == '@phdthesis':
             name = '<i>PhD thesis</i>'
-        elif bib_item.entry_type == '@Mastersthesis':
-            name = '<i>Mastersthesis</i>'
+        elif bib_item.entry_type.lower() == '@mastersthesis':
+            name = '<i>Masters thesis</i>'
         else:
             name = '?'
         school = getattr(bib_item, 'school')

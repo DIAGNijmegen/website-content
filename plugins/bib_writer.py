@@ -183,6 +183,7 @@ class PublicationsGenerator:
             bib_key = bib_key.lower()
             try:
                 html_bibkey, year, pub_type, pub_details = self.__append_publication_md(global_index, bib_key, html_format)
+                pub_details = pub_details.replace('_', ' ').strip()
             except:
                 print(f"Failed writing html for publication list for {bib_key}, skipping this entry.")
                 print(traceback.format_exc())
@@ -296,6 +297,7 @@ class PublicationsGenerator:
     def __append_publication_md(self, global_index, bib_key, html_format):
         bib_item = global_index[bib_key]
         html_to_write, pub_details = html_format.apply(bib_item)
+        html_to_write = html_to_write.replace('_', ' ').strip()
         pub_html = '<li>'
         pub_html += html_to_write
         pub_html += r'. <a href="{filename}/pages/publications/' + bib_key.lower() + r'.md">Abstract</a>'
@@ -308,18 +310,18 @@ class PublicationsGenerator:
             year = int(bib_key[-2:])
             year = 2000 + year if year < 50 else 1900 + year
 
-        html_format, is_preprint = self.__format_bibitem(bib_item, is_html_format=True)
+        html_format, new_pubtype = self.__format_bibitem(bib_item, is_html_format=True)
         pub_html += html_format
 
-        if is_preprint:
-            pub_type = '@Preprint'
+        if new_pubtype is not None:
+            pub_type = new_pubtype
         pub_html += '</li>\n'
 
         return pub_html, year, pub_type, pub_details
 
     def __format_bibitem(self, bib_item, is_html_format=True):
         formatted_text = ''
-        is_preprint = False
+        new_pubtype = None
         if 'doi' in bib_item.entry:
             url_doi = 'https://doi.org/' + bib_item.entry['doi']
             if is_html_format:
@@ -345,7 +347,11 @@ class PublicationsGenerator:
                 formatted_text += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
             else:
                 formatted_text += 'arxiv: ' + url_arxiv + '\n'
-            is_preprint = True
+            new_pubtype = '@Preprint'
+        elif  bib_item.entry_type.lower() not in ['@inproceedings', '@conference', '@article', '@phdthesis', '@mastersthesis', '@patent', '@book']:
+            # See the full list of publication types in bibtex/bibtexformatter.py (variable type_formatters)
+            new_pubtype = '@Other'
+
         if 'pmid' in bib_item.entry:
             url_pmid = 'http://www.ncbi.nlm.nih.gov/pubmed/' + bib_item.entry['pmid']
             if is_html_format:
@@ -353,7 +359,7 @@ class PublicationsGenerator:
             else:
                 formatted_text += 'pmid: ' + url_pmid + '\n'
 
-        return formatted_text, is_preprint
+        return formatted_text, new_pubtype
 
 
 if __name__ == '__main__':
