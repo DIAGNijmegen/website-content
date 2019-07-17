@@ -4,7 +4,7 @@ template: people-single
 picture: Rashindra_Manniesing.jpg
 position: Assistant Professor
 active: yes
-groups: neuro, diag
+groups: diag, neuro
 email: rashindra.manniesing@radboudumc.nl
 office: Route 767, Room 31
 telephone: +31 24 3616708
