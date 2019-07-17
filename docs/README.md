@@ -1,12 +1,8 @@
 # Website documentation
 
-## Tech
+## Writing or updating content of the websites
 
-### New website
-
-- [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
-
-## Content
+Please follow the guides below to update or write new content for one of the websites.
 
 ### General
 
@@ -38,3 +34,12 @@
 ### Publications and Theses Gallery
 
 - [Manage publications and theses gallery](https://github.com/DIAGNijmegen/website-content/edit/master/docs/manage-publications-and-theses-gallery.md)
+
+## Technical documentation
+
+Documentation regarding technical aspects of the website.
+
+### New website
+
+- [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
+
