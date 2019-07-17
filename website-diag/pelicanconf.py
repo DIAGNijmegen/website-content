@@ -71,11 +71,13 @@ SLUGIFY_SOURCE = 'basename'
 ARTICLE_URL = 'highlights/{slug}/'
 ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
 
-CATEGORY_URL = 'categories/{slug}'
-CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
-CATEGORIES_SAVE_AS = 'categories/index.html'
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+CATEGORY_URL = ''
+CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
 
-ARCHIVES_SAVE_AS = 'archives/index.html'
+ARCHIVES_SAVE_AS = ''
 
 INDEX_SAVE_AS = 'highlights/index.html'
 
