@@ -12,7 +12,7 @@ DIAG_WEBSITE_URLS = {}
 for website in ['website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-neuro', 'website-rse']:
     DIAG_WEBSITES_CONFIG[website[8:]] = importlib.import_module(f'{website}.pelicanconf')
     DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
-print(DIAG_WEBSITE_URLS)
+
 #
 # Site specific variables
 # Please update these to customize the website.
