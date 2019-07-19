@@ -99,7 +99,7 @@
                 <dd>{{ page.content }}</dd>
 
                 {% set all_related_pages = ['projects', 'software'] %}
-                
+
                 {% for related_page in all_related_pages %}
                     {% set ns = namespace(has_related_page=False) %}
                     {% for other_page in pages %}
@@ -119,6 +119,19 @@
                     </dd>
                     {% endif %}
                 {% endfor %}
+
+                {% if SHOW_GROUP_MEMBERSHIP %}
+                  <dt>Member of:</dt>
+                  <dd>
+                    <ul>
+                    {% for group in page.groups.replace(' ','').split(',') %}
+                      {% if group in DIAG_WEBSITE_URLS %}
+                        <li><a href="{{ DIAG_WEBSITE_URLS[group] }}">{{ DIAG_WEBSITES_CONFIG[group].SITENAME }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
+                  </dd>
+                {% endif %}
             </dl>
 
         </div>

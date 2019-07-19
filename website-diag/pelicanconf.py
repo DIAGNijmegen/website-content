@@ -10,9 +10,9 @@ sys.path.insert(0, '../')
 DIAG_WEBSITES_CONFIG = {}
 DIAG_WEBSITE_URLS = {}
 for website in ['website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-neuro', 'website-rse']:
-    DIAG_WEBSITES_CONFIG[website] = importlib.import_module(f'{website}.pelicanconf')
-    DIAG_WEBSITE_URLS[website] = importlib.import_module(f'{website}.publishconf').SITEURL
-
+    DIAG_WEBSITES_CONFIG[website[8:]] = importlib.import_module(f'{website}.pelicanconf')
+    DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
+print(DIAG_WEBSITE_URLS)
 #
 # Site specific variables
 # Please update these to customize the website.
@@ -47,8 +47,8 @@ NAV_SECTIONS = [
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
 HOME_SECTIONS = ["Highlights", "Projects", "Members"]
 
-# Reseach groups of which we show content
-RESEARCH_GROUPS = ["neuro", "retina", "pathology", "rse"]
+# Show membership of people on their page
+SHOW_GROUP_MEMBERSHIP = True
 
 # URLs
 SITEURL = ''
