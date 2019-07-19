@@ -2,6 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
+import sys
+import importlib
+
+# Load configs from all other websites
+sys.path.insert(0, '../')
+DIAG_WEBSITES_CONFIG = {}
+for website in ['website-pathology', 'website-rse', 'website-neuro']:
+    DIAG_WEBSITES_CONFIG[website] = importlib.import_module(f'{website}.pelicanconf')
 
 #
 # Site specific variables

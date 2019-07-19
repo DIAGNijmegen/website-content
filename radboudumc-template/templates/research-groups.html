@@ -8,5 +8,8 @@
 <div class="container">
     <h1 class="page-title">{{ page.title }}</h1>
 
+    {% for name, website in DIAG_WEBSITES_CONFIG.items() %}
+      <h2>{{ website.SITENAME }}</h2>
+    {% endfor %}
 </div>
 {% endblock %}
