@@ -24,7 +24,7 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
+    {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Research", "url": "research", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
