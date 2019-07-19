@@ -92,6 +92,8 @@ CATEGORIES_SAVE_AS = ''
 
 ARCHIVES_SAVE_AS = ''
 
+INDEX_SAVE_AS = 'highlights/index.html'
+
 # Theme settings
 THEME = "../radboudumc-template"
 
