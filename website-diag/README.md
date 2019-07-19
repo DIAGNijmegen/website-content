@@ -1,3 +1,3 @@
 # DIAG website
 
-This is the DIAG website.
+Main DIAG website.

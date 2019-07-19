@@ -10,7 +10,7 @@ from datetime import date
 AUTHOR = u'WebteamDIAG'
 SITENAME = u'DIAG Base'
 SITENAME_SHORT = 'DIAG'
-SITE_REPO = 'website-diag'
+SITE_REPO = 'website-base'
 
 # Home page and social settings
 SITELEAD = 'Some introduction text that is placed on the home page.'
@@ -35,7 +35,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Projects", "Members"]
+HOME_SECTIONS = ["Highlights", "Projects", "Members"]
 
 # URLs
 SITEURL = ''
@@ -78,8 +78,6 @@ CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 
 ARCHIVES_SAVE_AS = ''
-
-INDEX_SAVE_AS = 'highlights/index.html'
 
 # Theme settings
 THEME = "../radboudumc-template"

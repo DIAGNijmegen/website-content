@@ -17,6 +17,17 @@ script:
 
 deploy:
   - provider: pages
+    repo: diagnijmegen/website-diag
+    skip-cleanup: true
+    keep-history: true
+    local-dir: website-diag/output
+    target-branch: master
+    email: webteamdiag@gmail.com
+    name: "Webteam DIAG Deploy Bot"
+    github-token: $GH_PAGES
+    on:
+      brach: master
+  - provider: pages
     repo: diagnijmegen/website-msc-projects
     skip-cleanup: true
     keep-history: true
