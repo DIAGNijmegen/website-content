@@ -8,8 +8,10 @@ import importlib
 # Load configs from all other websites
 sys.path.insert(0, '../')
 DIAG_WEBSITES_CONFIG = {}
-for website in ['website-pathology', 'website-rse', 'website-neuro']:
+DIAG_WEBSITE_URLS = {}
+for website in ['website-pathology', 'website-retina', 'website-neuro', 'website-rse']:
     DIAG_WEBSITES_CONFIG[website] = importlib.import_module(f'{website}.pelicanconf')
+    DIAG_WEBSITE_URLS[website] = importlib.import_module(f'{website}.publishconf').SITEURL
 
 #
 # Site specific variables
