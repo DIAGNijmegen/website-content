@@ -6,10 +6,15 @@
 {% include 'blocks/breadcrumbs.html' %}
 
 <div class="container">
-    <h1 class="page-title">{{ page.title }}</h1>
-
-    {% for name, website in DIAG_WEBSITES_CONFIG.items() %}
     <div class="row">
+      <div class="col-md-12">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <p>{{ page.content }}</p>
+      </div>
+    </div>
+    
+    {% for name, website in DIAG_WEBSITES_CONFIG.items() %}
+    <div class="row mb-4">
       <div class="col-md-4">
           <img class="img-thumbnail" src="{{ SITEURL }}/{{ website.HOME_IMAGE | resize_image('medium')}}">
       </div>
@@ -21,6 +26,7 @@
 
           <p>{{ website.SITELEAD }}</p>
 
+          <p><a href="{{ DIAG_WEBSITE_URLS[name] }}" class="btn btn-primary">Visit main website</a>
       </div>
     </div>
     {% endfor %}
