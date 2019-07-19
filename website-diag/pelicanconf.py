@@ -8,17 +8,17 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'DIAG Base'
+SITENAME = u'Diagnostic Image Analysis Group'
 SITENAME_SHORT = 'DIAG'
-SITE_REPO = 'website-base'
+SITE_REPO = 'website-diag'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
+SITELEAD = 'The Diagnostic Image Analysis Group is part of the Departments of Radiology and Nuclear Medicine, Pathology, and Ophthalmology of Radboud University Medical Center. We develop computer algorithms to aid clinicians in the interpretation of medical images and thereby improve the diagnostic process.'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
-HOME_IMAGE_CAPTION = 'Automated tumor detection'
+HOME_IMAGE_CAPTION = 'Differnt applications of deep learning.'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Some footer text'
+FOOTER_TEXT = 'The iagnostic Image Analysis Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
@@ -26,7 +26,7 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 NAV_SECTIONS = [
     {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
+    {"name": "Research", "url": "research", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
     {"name": "Presentations", "url": "presentations", "hidden": 95},
@@ -36,6 +36,9 @@ NAV_SECTIONS = [
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
 HOME_SECTIONS = ["Highlights", "Projects", "Members"]
+
+# Reseach groups of which we show content
+RESEARCH_GROUPS = ["neuro", "retina", "pathology", "rse"]
 
 # URLs
 SITEURL = ''

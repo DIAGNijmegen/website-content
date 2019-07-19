@@ -18,7 +18,7 @@ Websites in development
 - AIIM: pending
 - RTC Msc projects: https://diagnijmegen.github.io/website-msc-projects/ (temporary)
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
-- DIAG: Planned
+- DIAG: https://diagnijmegen.github.io/website-diag/ (temporary)
 
 ## Updating the content
 
