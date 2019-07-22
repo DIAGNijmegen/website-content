@@ -45,7 +45,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Highlights", "Projects", "Members"]
+HOME_SECTIONS = ["Highlights"]
 
 # Show membership of people on their page
 SHOW_GROUP_MEMBERSHIP = True
