@@ -27,6 +27,7 @@ deploy:
     github-token: $GH_PAGES
     on:
       brach: master
+    fqdn: beta.diagnijmegen.nl
   - provider: pages
     repo: diagnijmegen/website-msc-projects
     skip-cleanup: true
