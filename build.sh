@@ -66,7 +66,7 @@ do
     python plugins/bib_writer.py
   fi
 
-  if [[ $website == 'website-pathlogy' ]]; then
+  if [[ $website == 'website-pathology' ]]; then
     # Init repo
     git clone "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" ./output
   fi
@@ -79,7 +79,7 @@ do
   cp .nojekyll output/.nojekyll
 
   # Push to github
-  if [[ $website == 'website-pathlogy' ]]; then
+  if [[ $website == 'website-pathology' ]]; then
     cd output
     git add .
     git status
@@ -94,6 +94,8 @@ do
       echo $?
       echo "Nothing new to commit, skipping push."
     fi
+  else
+    echo "Website is not in new pilot deploy"
   fi
 
   # Go back to root directory

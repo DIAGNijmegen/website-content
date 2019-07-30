@@ -52,18 +52,18 @@ deploy:
     on:
       brach: master
     fqdn: www.a-eyeresearch.nl
-  - provider: pages
-    repo: diagnijmegen/website-pathology
-    skip-cleanup: true
-    keep-history: true
-    local-dir: website-pathology/output
-    target-branch: master
-    email: webteamdiag@gmail.com
-    name: "Webteam DIAG Deploy Bot"
-    github-token: $GH_PAGES
-    on:
-      brach: master
-    fqdn: www.computationalpathologygroup.eu
+  # - provider: pages
+  #   repo: diagnijmegen/website-pathology
+  #   skip-cleanup: true
+  #   keep-history: true
+  #   local-dir: website-pathology/output
+  #   target-branch: master
+  #   email: webteamdiag@gmail.com
+  #   name: "Webteam DIAG Deploy Bot"
+  #   github-token: $GH_PAGES
+  #   on:
+  #     brach: master
+  #   fqdn: www.computationalpathologygroup.eu
   - provider: pages
     repo: diagnijmegen/website-rse
     skip-cleanup: true
