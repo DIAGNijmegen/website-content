@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-{% for article in articles %}
+{% for article in articles | sort(attribute='date', reverse=True) %}
   <url>
     <loc>{{ SITEURL }}/{{ article.url }}</loc>
     <priority>0.8</priority>
   </url>
 {% endfor %}
 
-{% for page in pages %}
+{% for page in pages | sort(attribute='title', reverse=False) %}
   <url>
     <loc>{{ SITEURL }}/{{ page.url }}</loc>
     <priority>1.0</priority>
