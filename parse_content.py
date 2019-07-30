@@ -19,11 +19,9 @@ for site in sites:
             os.mkdir(output_dir)
 
 for dir in directories:
-    print(f"Parsing {dir} directory")
     files = glob.glob(os.path.join('content', 'pages', dir, '*.md'))
 
     for file_path in files:
-        print(file_path)
         filename = os.path.basename(file_path)
         with open(file_path) as file:
             for line in file:

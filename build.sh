@@ -66,12 +66,35 @@ do
     python plugins/bib_writer.py
   fi
 
+  if [[ $website == 'website-pathlogy' ]]; then
+    # Init repo
+    git clone "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" ./output
+  fi
+
   # Build pelican website
   pelican content -s publishconf.py
 
   # Copy files for github
   cp README.md output/README.md
   cp .nojekyll output/.nojekyll
+
+  # Push to github
+  if [[ $website == 'website-pathlogy' ]]; then
+    cd output
+    git add .
+    git status
+
+    gitdiff='git diff-index --quiet HEAD .'
+    if ! $gitdiff; then
+      echo $?
+      echo "Files changed, commiting new images."
+      git commit --message "Pushing new version of ${website}" -- .
+      git push "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" "master"
+    else
+      echo $?
+      echo "Nothing new to commit, skipping push."
+    fi
+  fi
 
   # Go back to root directory
   cd ..
