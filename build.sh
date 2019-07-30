@@ -82,7 +82,8 @@ do
   if [[ $website == 'website-pathology' ]]; then
     cd output
     git add .
-
+    git status
+    
     gitdiff='git diff-index --quiet HEAD .'
     if ! $gitdiff; then
       echo "Files changed, commiting new images."
