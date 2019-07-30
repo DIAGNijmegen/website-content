@@ -82,18 +82,17 @@ do
   if [[ $website == 'website-pathology' ]]; then
     cd output
     git add .
-    git status
 
     gitdiff='git diff-index --quiet HEAD .'
     if ! $gitdiff; then
-      echo $?
       echo "Files changed, commiting new images."
       git commit --message "Pushing new version of ${website}" -- .
       git push "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" "master"
     else
-      echo $?
       echo "Nothing new to commit, skipping push."
     fi
+
+    cd ..
   else
     echo "Website is not in new pilot deploy"
   fi
