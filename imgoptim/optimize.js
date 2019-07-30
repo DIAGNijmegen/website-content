@@ -8,8 +8,8 @@ const { promisify } = require('util');
 const sharp = require('sharp');
 const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
-const imageminSvgo = require('imagemin-svgo');
-const imageminWebp = require('imagemin-webp');
+//const imageminSvgo = require('imagemin-svgo');
+//const imageminWebp = require('imagemin-webp');
 const imageminPngquant = require('imagemin-pngquant');
 
 const writeFile = promisify(fs.writeFile);
