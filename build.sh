@@ -81,6 +81,8 @@ do
 
   # Push to github
   if [[ $website == 'website-pathology' ]]; then
+    cp CNAME output/CNAME
+    
     cd output
     git add .
     git status
