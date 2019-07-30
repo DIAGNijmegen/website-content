@@ -67,7 +67,7 @@ do
   if [[ $website == 'website-pathology' ]]; then
     # Init repo
     echo "Cloning ${website} output repository"
-    git clone "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" ./output
+    git clone "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" output
   else
     echo "Website not in deploy pilot, using clean directory."
   fi
