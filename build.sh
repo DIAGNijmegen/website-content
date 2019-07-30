@@ -66,7 +66,10 @@ do
 
   if [[ $website == 'website-pathology' ]]; then
     # Init repo
+    echo "Cloning ${website} output repository"
     git clone "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" ./output
+  else
+    echo "Website not in deploy pilot, using clean directory."
   fi
 
   # Build pelican website
@@ -79,6 +82,8 @@ do
   # Push to github
   if [[ $website == 'website-pathology' ]]; then
     cd output
+    ls -al
+    git remote show origin
     git add .
     git status
 
