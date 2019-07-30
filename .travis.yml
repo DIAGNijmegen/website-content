@@ -57,7 +57,7 @@ deploy:
     skip-cleanup: true
     keep-history: true
     local-dir: website-pathology/output
-    target-branch: gh-pages
+    target-branch: master
     email: webteamdiag@gmail.com
     name: "Webteam DIAG Deploy Bot"
     github-token: $GH_PAGES
