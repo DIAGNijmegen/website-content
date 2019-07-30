@@ -23,12 +23,10 @@ else
 
   gitdiff='git diff-index --quiet HEAD .'
   if ! $gitdiff; then
-    echo $?
     echo "Files changed, commiting new images."
     git commit --message "Adding optimized images to repository. [ci skip]" -- .
     git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
   else
-    echo $?
     echo "Nothing new to commit, skipping push."
   fi
 
@@ -83,7 +81,7 @@ do
     cd output
     git add .
     git status
-    
+
     gitdiff='git diff-index --quiet HEAD .'
     if ! $gitdiff; then
       echo "Files changed, commiting new images."
