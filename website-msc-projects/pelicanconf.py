@@ -74,9 +74,11 @@ CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 
 ARCHIVES_SAVE_AS = ''
+SITEMAP_SAVE_AS = 'sitemap.xml'
 
 # Theme settings
 THEME = "../radboudumc-template"
+DIRECT_TEMPLATES = ['index', 'sitemap']
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]

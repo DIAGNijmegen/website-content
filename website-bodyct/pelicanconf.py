@@ -80,10 +80,12 @@ CATEGORIES_SAVE_AS = 'categories/index.html'
 
 ARCHIVES_SAVE_AS = 'archives/index.html'
 
+SITEMAP_SAVE_AS = 'sitemap.xml'
 INDEX_SAVE_AS = 'highlights/index.html'
 
 # Theme settings
 THEME = "../radboudumc-template"
+DIRECT_TEMPLATES = ['index', 'archives', 'sitemap']
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]

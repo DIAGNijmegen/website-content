@@ -74,14 +74,12 @@ CATEGORIES_SAVE_AS = ''
 
 ARCHIVES_SAVE_AS = ''
 
+SITEMAP_SAVE_AS = 'sitemap.xml'
 INDEX_SAVE_AS = 'highlights/index.html'
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
 # Theme settings
-#
 THEME = "../radboudumc-template"
+DIRECT_TEMPLATES = ['index', 'archives', 'sitemap']
 
 # Plugins
 #
