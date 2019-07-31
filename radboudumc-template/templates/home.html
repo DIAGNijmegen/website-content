@@ -55,7 +55,7 @@
         {% endif %}
     {% endif %}
 
-    {% set ns = namespace(has_vacancy=False) %}
+    {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
     {% for vacancy in pages %}
       {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
@@ -68,6 +68,8 @@
         </div>
         {% endif %}
 
+        {% set ns.vacancies = ns.vacancies + 1 %}
+        {% if ns.vacancies <= 3 %}
         <div class="row vacancy">
           <div class="col-md-4">
             {% if vacancy.picture %}
@@ -92,10 +94,14 @@
             <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
           </div>
         </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
 
     {% if ns.has_vacancy %}
+        <div class="row">
+          <div class="col-md-12 mb-4"><a href="{{ SITEURL }}/vacancies" class="btn btn-primary">All vacancies ({{ ns.vacancies }})</a></div>
+        </div>
       </div>
     </div>
     {% endif %}
