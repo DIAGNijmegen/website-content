@@ -34,7 +34,7 @@ Please follow the guides below to update or write new content for one of the web
 ### Publications and Theses Gallery
 
 - [Manage publications and theses gallery](https://github.com/DIAGNijmegen/website-content/edit/master/docs/manage-publications-and-theses-gallery.md)
-
+- [Publications pipeline for developers](https://github.com/DIAGNijmegen/website-content/edit/master/docs/publications-pipeline-developers.md)
 ## Technical documentation
 
 Documentation regarding technical aspects of the website.
