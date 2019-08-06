@@ -123,7 +123,7 @@ class PublicationsGenerator:
                 lastnames = [lname.lower() for lname in lastnames]
                 for author_pub in authors:
                     # Some bib entries are like 'R. Manniesing', the next line of code removes the '.'
-                    author_pub = [xname.replace('.', '') for xname in author_pub]
+                    author_pub = [xname.replace('.', ' ').strip() for xname in author_pub]
                     try:
                         if self.__match_author_publication(firstname, lastnames, author_pub):
                             von = author_pub[1]
