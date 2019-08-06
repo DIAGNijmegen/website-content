@@ -20,9 +20,9 @@ else
 
   # Add changed files
   git checkout master
+  git reset -- package-lock.json # When we have access to npm 5.5.7, we can replace npm install with npm ci (https://docs.npmjs.com/cli/ci.html)
   git add --all ./optimized_images
   git add image-cache.json
-  git reset -- package-lock.json # When we have access to npm 5.5.7, we can replace npm install with npm ci (https://docs.npmjs.com/cli/ci.html)
 
   gitdiff='git diff-index --quiet HEAD .'
   if ! $gitdiff; then
