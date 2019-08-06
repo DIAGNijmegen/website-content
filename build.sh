@@ -9,6 +9,8 @@ else
   # Optimize the images before building the website`
   cd imgoptim
   echo "Starting image optimization script"
+  node -v
+  npm -v
   node optimize.js
 
   # Commit optimized images back to the repo
