@@ -246,6 +246,7 @@ class PublicationsGenerator:
                         md_format += 'urlweb: ' + url_pub + '\n'
                 else:
                     md_format += 'template: publication\n'
+                    md_format += 'bibkey: ' + bibkey + '\n'
                     if 'booktitle' in global_index[bibkey].entry or 'journal' in global_index[bibkey].entry:
                         event_type = 'journal' if 'journal' in global_index[bibkey].entry else 'booktitle'
                         if global_index[bibkey].entry[event_type] in string_rules:
