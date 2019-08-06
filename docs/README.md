@@ -33,13 +33,11 @@ Please follow the guides below to update or write new content for one of the web
 
 ### Publications and Theses Gallery
 
-- [Manage publications and theses gallery](https://github.com/DIAGNijmegen/website-content/edit/master/docs/manage-publications-and-theses-gallery.md)
+- [Manage publications and theses gallery](https://github.com/DIAGNijmegen/website-content/blob/master/docs/manage-publications-and-theses-gallery.md)
 
 ## Technical documentation
 
 Documentation regarding technical aspects of the website.
 
-### New website
-
 - [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
-
+- [Publications pipeline for developers](https://github.com/DIAGNijmegen/website-content/blob/master/docs/publications-pipeline-developers.md)
