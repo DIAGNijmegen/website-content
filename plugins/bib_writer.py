@@ -55,7 +55,25 @@ class PublicationsGenerator:
     # 7. Additional information is stored in content/dict_pubs.json as json file.
     #
     @staticmethod
-    def __get_publications_by_author(global_index, list_researchers):
+    def __match_author_publication(firstname, lastnames, author):
+        # This function selects authors with the same lastname and matches the first name.
+        # For instance, 'A. Patel' will always represent 'Ajay Patel' and not 'Anup Patel'.
+        # If the bib file contains 'A Patel' then, it will associate the bibentry to 'Ajay Patel'.
+        # If the bib file contains 'M F L Meijs' then, this script will not associate the bibentry to 'Midas Meijs'
+        #  because it will check for the existence of von and jr (F and L in the example)
+        first, von, last, jr = author
+        if last.lower() in lastnames:
+            if len(first) > 1 and first.lower() == firstname.lower():
+                return True
+            elif len(first) == 1 and first[0].lower() == firstname[0].lower():
+                initials_lastnames = [x[0].lower() for x in lastnames]
+                if (len(von) == 0 and len(jr) == 0) or (len(von) >= 1 and von.lower() in initials_lastnames) or (len(jr) >=1 and jr.lower() in initials_lastnames):
+                    return True
+            return False
+        else:
+            return False
+
+    def __get_publications_by_author(self, global_index, list_researchers):
         from collections import defaultdict
         author_index = defaultdict(set)
         filtered_bibkeys = []
@@ -70,16 +88,14 @@ class PublicationsGenerator:
                     # This fixes issue #10 for lastnames connected with a dash (-)
                     lastnames.append('-'.join(lastnames))
                 lastnames = [lname.lower() for lname in lastnames]
-                for first, von, last, jr in authors:
+                for author_pub in authors:
+                    # Some bib entries are like 'R. Manniesing', the next line of code removes the '.'
+                    author_pub = [xname.replace('.', '') for xname in author_pub]
                     try:
-                        # Some bib entries are like 'R. Manniesing', the next line of code removes the '.'
-                        first = first.replace('.', '')
-                        if last.lower() in lastnames and (len(first) > 1 and first.lower() == firstname.lower() or len(first) == 1 and first[0].lower() == firstname[0].lower()):
-                            # This if sentence selects authors with the same lastname and matches the first name.
-                            # For instance, 'A. Patel' will always represent 'Ajay Patel' and not 'Anup Patel'.
-                            # If the bib file contains 'A Patel' then, it will associate the bibentry to 'Ajay Patel'.
-
-                            author_index[last.lower()].add(bib_key)
+                        if self.__match_author_publication(firstname, lastnames, author_pub):
+                            von = author_pub[1]
+                            lastname = author_pub[2]
+                            author_index[lastname.lower()].add(bib_key)
                             # Some 'von' are actually lastnames
                             pvon = von.replace(' ', '').replace('.', '')
 
