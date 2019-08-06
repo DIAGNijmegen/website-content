@@ -72,7 +72,13 @@ class PublicationsGenerator:
                 lastnames = [lname.lower() for lname in lastnames]
                 for first, von, last, jr in authors:
                     try:
-                        if last.lower() in lastnames and first[0].lower() == firstname[0].lower():
+                        # Some bib entries are like 'R. Manniesing', the next line of code removes the '.'
+                        first = first.replace('.', '')
+                        if last.lower() in lastnames and (len(first) > 1 and first.lower() == firstname.lower() or len(first) == 1 and first[0].lower() == firstname[0].lower()):
+                            # This if sentence selects authors with the same lastname and matches the first name.
+                            # For instance, 'A. Patel' will always represent 'Ajay Patel' and not 'Anup Patel'.
+                            # If the bib file contains 'A Patel' then, it will associate the bibentry to 'Ajay Patel'.
+
                             author_index[last.lower()].add(bib_key)
                             # Some 'von' are actually lastnames
                             pvon = von.replace(' ', '').replace('.', '')
