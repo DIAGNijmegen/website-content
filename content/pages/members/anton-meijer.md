@@ -2,7 +2,7 @@ title: Anton Meijer
 name: Anton Meijer
 template: people-single
 picture: Anton_Meijer_bw.jpg
-position: PhD student
+position: Neuroradiologist
 active: yes
 groups: diag, neuro
 email: anton.meijer@radboudumc.nl
