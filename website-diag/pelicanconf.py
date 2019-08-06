@@ -54,6 +54,9 @@ SHOW_GROUP_MEMBERSHIP = True
 SITEURL = ''
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
 
+# Show pdf request on publication pages
+ENABLE_PUBLICATION_PDF_REQUEST = True
+
 #
 # Non-content variables
 # In general these values do not have to be changed.
