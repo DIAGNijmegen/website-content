@@ -64,7 +64,7 @@ do
     python plugins/bib_writer.py
   fi
 
-  if [[ "$website" = 'website-pathology' ]] || [[ "$website" = 'website-diag' ]]; then
+  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]]; then
     # Init repo
     echo "Cloning ${website} output repository"
     git clone --depth 1 "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" output
@@ -80,7 +80,7 @@ do
   cp .nojekyll output/.nojekyll
 
   # Push to github
-  if [[ $website == 'website-pathology' ]]; then
+  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]]; then
     cp CNAME output/CNAME
 
     cd output
@@ -98,7 +98,7 @@ do
 
     cd ..
   else
-    echo "Website is not in new pilot deploy"
+    echo "Website ($website) not in deploy pilot, using clean directory."
   fi
 
   # Go back to root directory
