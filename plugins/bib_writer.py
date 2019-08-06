@@ -62,12 +62,45 @@ class PublicationsGenerator:
         # If the bib file contains 'M F L Meijs' then, this script will not associate the bibentry to 'Midas Meijs'
         #  because it will check for the existence of von and jr (F and L in the example)
         first, von, last, jr = author
+        # Additional variable that may help to avoid incorrect name matching #77
+        von_last = '-'.join([von, last])
+        von_last = von_last.replace(' ', '-').lower()
         if last.lower() in lastnames:
-            if len(first) > 1 and first.lower() == firstname.lower():
+            # First match based on last name
+            if len(first) > 1 and first.lower() == firstname.lower() or len(jr) > 1 and jr.lower() in lastnames:
+                # Easy match, the first name is complete and matches up
                 return True
-            elif len(first) == 1 and first[0].lower() == firstname[0].lower():
+            elif len(first) > 1 and ' ' in first:
+                # Incomplete match, some bib entries have authors as 'R Manniesing' instead of the full name
+                # or 'J A W M van der Laak' where firstname contains 'J A W M'
+                # or 'Jeroen AWM van der Laak' where firstname contains 'Jeroen A W M'
+                # This piece of code makes sure there is only one name and no spaces in between
+                von = ' '.join(first.split(' ')[1:]) + ' ' + von
+                first = first.split(' ')[0].lower()
+                if first == firstname.lower():
+                    return True
+                # if 'first' contains a single letter, it will continue
+
+            if len(first) == 1 and first[0].lower() == firstname[0].lower():
+                # If only one letter is provided as first name (incomplete in the bib entry).
+                # An additional variable stores the initial lastnames
                 initials_lastnames = [x[0].lower() for x in lastnames]
-                if (len(von) == 0 and len(jr) == 0) or (len(von) >= 1 and von.lower() in initials_lastnames) or (len(jr) >=1 and jr.lower() in initials_lastnames):
+                if (len(von) == 0 and len(jr) == 0):
+                    # If there is no 'von' neither 'jr', then it is a match
+                    return True
+                elif (len(jr) >= 1 and jr[0].lower() in initials_lastnames):
+                    # If 'jr' contains something, it will have to be listed on 'initials_lastnames'
+                    # to become a match
+                    return True
+                elif (len(von) >=1 and von[0].lower() in initials_lastnames):
+                    # If 'von' contains something, it will have to be listed on 'initials_lastnames'
+                    # to become a match
+                    return True
+                elif '-' != von_last[0] and len(lastnames) >=2 and lastnames[-1] in von_last:
+                    # If none of the previous methods worked, an additional checkup is done.
+                    # This is done only when having at least two last names.
+                    # the last lastname should be in 'von_last'.
+                    # For instance 'J A W M van der Laak' will become 'A-W-M-van-der-Laak', this matches up with 'van-der-laak'
                     return True
             return False
         else:
