@@ -1,9 +1,9 @@
 /*
 
-Projects
+Cards
 -------------------------------------------
 
-Styles for all the elements related to projects.
+Styles for all card like lements
 
 */
 
@@ -38,5 +38,17 @@ Styles for all the elements related to projects.
 
     height: 100%;
     width: 100%;
+  }
+}
+
+/* Article summary block */
+.article-summary {
+  .article-text, .article-image {
+    background-color: $gray-100;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-top: 1px solid $gray-200;
+    border-bottom: 1px solid $gray-200;
+    border-radius: 5px;
   }
 }
