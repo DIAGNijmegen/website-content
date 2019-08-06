@@ -13,7 +13,7 @@ SITENAME_SHORT = 'A-eye'
 SITE_REPO = 'website-retina'
 
 # Home page and social settings
-SITELEAD = 'The A-eye Research Group aimed at bringing artificial intellingence solutions to healthcare and, specifically, eye care. Our expertise lies in developing retinal image analysis methods based on deep learning technology for detection, diagnosis and quantification of retinal diseases. Application areas are automated screening of eye diseases, namely AMD, DR and glaucoma, for cost-effective triage of patient at risk; extraction of quantitative image biomarkers from multimodal data for accurate analysis of large population-based datasets; and the development of computer-aided solutions for personalized diagnosis and treatment of retinal diseases.'
+SITELEAD = 'The A-eye Research Group aims at bringing artificial intellingence solutions to healthcare and, specifically, eye care. Our expertise lies in developing retinal image analysis methods based on deep learning technology for detection, diagnosis and quantification of retinal diseases. Application areas are automated screening of eye diseases, namely AMD, DR and glaucoma, for cost-effective triage of patient at risk; extraction of quantitative image biomarkers from multimodal data for accurate analysis of large population-based datasets; and the development of computer-aided solutions for personalized diagnosis and treatment of retinal diseases.'
 SITE_PICTURE = 'images/general/retina_main.JPG'
 HOME_IMAGE = 'images/general/retina_main.JPG'
 #HOME_IMAGE_CAPTION = 'Automated tumor detection'
