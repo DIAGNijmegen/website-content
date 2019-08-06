@@ -256,6 +256,8 @@ class PublicationsGenerator:
                 md_format += 'title: ' + title + '\n'
                 md_format += 'authors: ' + authors_format + '\n'
                 pub_type = global_index[bibkey].entry_type
+                has_pdf = 'file' in global_index[bibkey].entry
+                md_format += 'has_pdf: ' + str(has_pdf) + '\n'
                 if pub_type.lower() == '@phdthesis':
                     md_format += 'template: publication-thesis\n'
                     # TODO this is a hardcode capital first letter of bibkey
