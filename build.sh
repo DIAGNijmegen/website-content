@@ -3,38 +3,38 @@
 # Break build on error, prevents websites going offline in case of pelican errors
 set -e
 
-if [[ $TRAVIS_BRANCH != 'master' ]]; then
-  echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
-else
-  # Optimize the images before building the website`
-  cd imgoptim
-  echo "Starting image optimization script"
-  node -v
-  npm -v
-  node optimize.js
-
-  # Commit optimized images back to the repo
-  echo "Commit new images to repository"
-  git config --global user.email "webteamdiag@gmail.com"
-  git config --global user.name "DIAGWebTeam"
-
-  # Add changed files
-  git checkout master
-  git add --all ./optimized_images
-  git add image-cache.json
-
-  gitdiff='git diff-index --quiet HEAD .'
-  if ! $gitdiff; then
-    echo "Files changed, commiting new images."
-    git commit --message "Adding optimized images to repository. [ci skip]" -- .
-    git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
-  else
-    echo "Nothing new to commit, skipping push."
-  fi
-
-  # Go back to main dir
-  cd ..
-fi
+# if [[ $TRAVIS_BRANCH != 'master' ]]; then
+#   echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
+# else
+#   # Optimize the images before building the website`
+#   cd imgoptim
+#   echo "Starting image optimization script"
+#   node -v
+#   npm -v
+#   node optimize.js
+#
+#   # Commit optimized images back to the repo
+#   echo "Commit new images to repository"
+#   git config --global user.email "webteamdiag@gmail.com"
+#   git config --global user.name "DIAGWebTeam"
+#
+#   # Add changed files
+#   git checkout master
+#   git add --all ./optimized_images
+#   git add image-cache.json
+#
+#   gitdiff='git diff-index --quiet HEAD .'
+#   if ! $gitdiff; then
+#     echo "Files changed, commiting new images."
+#     git commit --message "Adding optimized images to repository. [ci skip]" -- .
+#     git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
+#   else
+#     echo "Nothing new to commit, skipping push."
+#   fi
+#
+#   # Go back to main dir
+#   cd ..
+# fi
 
 # List of websites to build
 declare -a websites=("website-diag" "website-msc-projects" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen")
