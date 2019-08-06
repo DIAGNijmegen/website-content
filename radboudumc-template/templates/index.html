@@ -16,8 +16,33 @@
     <h1 class="page-title">Highlights</h1>
 
     {% for article in articles_page.object_list %}
-        {% include 'blocks/article-summary.html' %}
+    <article class="row article-summary">
+
+        <div class="col-md-3 article-image">
+            {% if article.picture %}
+            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ SITEURL }}/{{ ('images/news/' + article.picture) | resize_image('small')}}">
+            {% endif %}
+        </div>
+
+        <div class="col-md-9 article-text">
+            <header>
+                <small><time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }} </time></small>
+                <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+            </header>
+
+            <p>
+                {% if article.description %}
+                    {{ article.description }}
+                {% else %}
+                {{ article.summary | striptags }}
+                {% endif %}
+            </p>
+
+            <p><a href="{{ SITEURL }}/{{ article.url }}">Read more &rarr;</a>
+        </div>
+    </article>
     {% endfor %}
+
     <div class="row">
         {% if articles_page.has_other_pages() %}
             {% include 'blocks/pagination.html' %}

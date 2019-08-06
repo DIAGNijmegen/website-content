@@ -9,6 +9,8 @@ else
   # Optimize the images before building the website`
   cd imgoptim
   echo "Starting image optimization script"
+  node -v
+  npm -v
   node optimize.js
 
   # Commit optimized images back to the repo
@@ -69,7 +71,7 @@ do
     echo "Cloning ${website} output repository"
     git clone --depth 1 "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" output
   else
-    echo "Website not in deploy pilot, using clean directory."
+    echo "Website ($website) not in deploy pilot, using clean directory."
   fi
 
   # Build pelican website
@@ -80,7 +82,7 @@ do
   cp .nojekyll output/.nojekyll
 
   # Push to github
-  if [[ $website == 'website-pathology' ]]; then
+  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]]; then
     cp CNAME output/CNAME
 
     cd output
@@ -98,7 +100,7 @@ do
 
     cd ..
   else
-    echo "Website is not in new pilot deploy"
+    echo "Website ($website) not in deploy pilot, using clean directory."
   fi
 
   # Go back to root directory
