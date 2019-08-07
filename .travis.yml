@@ -100,7 +100,7 @@ deploy:
     github-token: $GH_PAGES
     on:
       brach: master
-    fqdn: aiimnijmegen.nl
+    fqdn: www.aiimnijmegen.nl
   - provider: pages
     repo: diagnijmegen/website-neuro
     skip-cleanup: true
