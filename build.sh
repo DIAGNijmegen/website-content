@@ -9,21 +9,17 @@ else
   # Optimize the images before building the website`
   cd imgoptim
   echo "Starting image optimization script"
-  node -v
-  npm -v
   node optimize.js
 
-  # Commit optimized images back to the repo
-  echo "Commit new images to repository"
   git config --global user.email "webteamdiag@gmail.com"
   git config --global user.name "DIAGWebTeam"
 
   # Add changed files
   git checkout master
-  git status
   git add --all ./optimized_images
   git add image-cache.json
 
+  # Commit optimized images back to the repo
   gitdiff='git diff-index --quiet HEAD .'
   if ! $gitdiff; then
     echo "Files changed, commiting new images."
