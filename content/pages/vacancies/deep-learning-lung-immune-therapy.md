@@ -1,4 +1,4 @@
-title: Deep Learning to predict lung cancer immune therapy response
+title: Deep Learning to predict lung cancer immunotherapy response
 groups: pathology, diag, msc-projects
 closed: false
 type: student
