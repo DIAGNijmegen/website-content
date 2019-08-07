@@ -172,9 +172,9 @@ def get_entry_content(content):
             value = line[i + 1:].strip()
             if value.startswith('{'):
                 counter = 1
-                while value.find('}') == -1 and idxline + counter < len(lines) and line[idxline + counter].find('{') == -1:
+                while not (value.endswith('}') or value.endswith('},')) and idxline + counter < len(lines) and not line[idxline + counter].startswith('{'):
                     # This concatenates the next line to value when having a multiline value (i.e. multiline abstracts)
-                    value += ' ' + lines[idxline + counter]
+                    value += ' ' + lines[idxline + counter].strip()
                     counter += 1
 
                 if key.lower() == 'abstract':
