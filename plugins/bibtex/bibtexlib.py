@@ -172,7 +172,7 @@ def get_entry_content(content):
             value = line[i + 1:].strip()
             if value.startswith('{'):
                 counter = 1
-                while not (value.endswith('}') or value.endswith('},')) and idxline + counter < len(lines) and not line[idxline + counter].startswith('{'):
+                while not value.endswith('},') and idxline + counter < len(lines) and not lines[idxline + counter].startswith('{'):
                     # This concatenates the next line to value when having a multiline value (i.e. multiline abstracts)
                     value += ' ' + lines[idxline + counter].strip()
                     counter += 1
@@ -186,7 +186,8 @@ def get_entry_content(content):
                     idx_space = value.find(' ')
                     if idx_colon > 0 and idx_space > 0 and idx_colon < idx_space:
                         value = value.replace(':', '', 1)
-                value = value[:rindex(value, '}') + 1]
+                if value.endswith('}') or value.endswith('},'):
+                    value = value[:rindex(value, '}') + 1]
             elif value.endswith(','):
                 value = value[:-1]
             yield key, value
