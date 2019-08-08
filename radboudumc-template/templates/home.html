@@ -55,6 +55,28 @@
         {% endif %}
     {% endif %}
 
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>News & Events</h1>
+                </div>
+            </div>
+            <dl class="row">
+              {% for news in pages if news.parent.url == 'news/' %}
+                {% if loop.index <= 5 %}
+                  <dt class="col-md-2">{{ news.date.strftime('%B %-d, %Y')  }}</dt>
+                  <dd class="col-md-10">{{ news.content }}</dd>
+                {% endif %}
+              {% endfor %}
+            </dl>
+
+            <div class="row">
+              <div class="col-md-12 mb-4"><a href="{{ SITEURL }}/news" class="btn btn-primary">News archive</a></div>
+            </div>
+        </div>
+    </div>
+
     {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
     {% for vacancy in pages %}
