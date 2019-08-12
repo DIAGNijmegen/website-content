@@ -42,11 +42,11 @@ Diagnostic Image Analysis Group, Dept. of Pathology, Radboud University Medical 
 University of Warwick, Coventry, UK
 
 ## Key Dates
-Deadline for <a href="https://jbhi.embs.org/special-issues/computational-pathology/">submission</a>: September 1, 2019
+Deadline for <a href="https://jbhi.embs.org/special-issues/computational-pathology/">submission</a>: October 31, 2019
 
-First reviews: October 15, 2019
+First reviews: December 15, 2019
 
-Revised Manuscript due: January 15, 2020
+Revised Manuscript due: March 15, 2020
 
-Final decision: March 2020
+Final decision: May 2020
 
