@@ -53,6 +53,8 @@ RELATIVE_URLS = False
 
 TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = 'EN'
+ARTICLE_TRANSLATION_ID = None
+PAGE_TRANSLATION_ID = None
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
