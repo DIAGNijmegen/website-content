@@ -1,4 +1,4 @@
-title: PhD position for Extraction of imaging biomarkers for AMD with Deep Learning
+title: PhD candidate to assess the value of Artificial Intelligence for Breast Cancer Screening
 groups: aiimnijmegen, diag
 closed: false
 type: general
@@ -13,9 +13,8 @@ We are offering a fully funded PhD position on the evaluation of breast cancer s
 For this project the department of Radiology of the Radboud University Medical Center, Nijmegen (The Netherlands), is seeking an enthusiastic PhD student with a clear interest in the potential that AI techniques may have in the field of radiology. This is an excellent opportunity to assess and implement cutting-edge technology in order to have an impact on breast cancer research and personalized cancer treatment.
 You should be a creative and enthusiastic researcher with a MSc in a relevant field, such as medicine, technical medicine, medical image analysis, medical biology, clinical epidemiology, or similar. Good communication skills are essential.
 
-*Specific requirements*
+**Specific requirements**
 Interest in medical imaging, with a particular focus on oncologic (breast) imaging and artificial intelligence. Interest in and preferably experience with scientific research. Independent work attitude. Basic skills in statistics (SPSS/R). Fluent in both Dutch (or willing to learn) and English.
-
 
 ##Terms of employment
 The project will appoint a PhD candidate for 3 years in total. Your performance will be evaluated after 1 year. If the evaluation is positive, the contract will be extended by another 2 years.
