@@ -13,7 +13,7 @@ SITENAME_SHORT = 'AIIM'
 SITE_REPO = 'website-aiimnijmegen'
 
 # Home page and social settings
-SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysis algorithms. Application areas include breast imaging, and radiotherapy applications.
+SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysis algorithms. Application areas include breast imaging, and radiotherapy applications.'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
