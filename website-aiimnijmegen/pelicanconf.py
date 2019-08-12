@@ -13,12 +13,12 @@ SITENAME_SHORT = 'AIIM'
 SITE_REPO = 'website-aiimnijmegen'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
+SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysis algorithms. Application areas include breast imaging, and radiotherapy applications.
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Some footer text'
+FOOTER_TEXT = 'The AIIM Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
