@@ -2,7 +2,7 @@ title: MARBLE
 finished: false
 template: project-single
 groups: aiimnijmegen
-picture: projects/logo_marble.jpg
+picture: projects/logo_marble.png
 people: Jonas Teuwen, Ritse Mann, Riccardo Samperna
 description: TBD
 
