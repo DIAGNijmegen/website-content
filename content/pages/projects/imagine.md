@@ -1,5 +1,5 @@
 title: IMAGINE
-finished: true
+finished: false
 template: project-single
 groups: aiimnijmegen
 people: Jonas Teuwen, Ritse Mann, Nico Karssemeijer, Nikita Moriakov
