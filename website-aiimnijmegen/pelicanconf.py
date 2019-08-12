@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'DIAG Aiimnijmegen'
+SITENAME = u'DIAG AIIM'
 SITENAME_SHORT = 'aiimnijmegen'
 SITE_REPO = 'website-aiimnijmegen'
 
