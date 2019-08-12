@@ -29,7 +29,7 @@ To develop a framework based on the synergy of digital pathology and AI for accu
 
 ## Information
 
-- Project duration: 6 months
+- Project duration: 3-9 months
 
 - Location: Radboud University Nijmegen Medical Centre
 
