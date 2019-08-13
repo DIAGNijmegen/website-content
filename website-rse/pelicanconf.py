@@ -17,7 +17,7 @@ SITELEAD = '''
 The Research Software Engineering Team is part of the Diagnostic Image Analysis Group at Radboud University Medical Center in Nijmegen, The Netherlands.<br><br>
 We use industry best practices to develop software that enables researchers to rapidly develop novel machine learning algorithms that we can integrate into research workstations for clinical validation.
 '''
-SITE_PICTURE = 'images/computational_pathology_social_image.png'
+SITE_PICTURE = 'images/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = ''
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
