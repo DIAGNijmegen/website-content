@@ -14,7 +14,7 @@ SITE_REPO = 'website-base'
 
 # Home page and social settings
 SITELEAD = 'Some introduction text that is placed on the home page.'
-SITE_PICTURE = 'images/missing_picture.png'
+SITE_PICTURE = 'images/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
