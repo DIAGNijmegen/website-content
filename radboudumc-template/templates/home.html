@@ -55,6 +55,30 @@
         {% endif %}
     {% endif %}
 
+    {% if "Calendar" in HOME_SECTIONS %}
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>Calendar</h1>
+                </div>
+            </div>
+            <dl class="row">
+              {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
+                {% if loop.index <= 5 %}
+                  <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
+                  <dd class="col-md-10">{{ event.content }}</dd>
+                {% endif %}
+              {% endfor %}
+            </dl>
+
+            <div class="row">
+              <div class="col-md-12 mb-4"><a href="{{ SITEURL }}/calendar" class="btn btn-primary">All events</a></div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
     {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
     {% for vacancy in pages %}
