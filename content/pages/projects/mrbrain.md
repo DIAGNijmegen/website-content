@@ -1,7 +1,7 @@
 title: MRBRAIN
 finished: true
 template: project-single
-picture: logo_mrbrain.png
+picture: projects/logo_mrbrain.png
 groups: aiimnijmegen
 people: Jonas Teuwen, Ritse Mann, Nikita Moriakov
 
