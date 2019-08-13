@@ -8,23 +8,23 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'DIAG Aiimnijmegen'
-SITENAME_SHORT = 'aiimnijmegen'
+SITENAME = u'DIAG AIIM'
+SITENAME_SHORT = 'AIIM'
 SITE_REPO = 'website-aiimnijmegen'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
-SITE_PICTURE = 'images/computational_pathology_social_image.png'
+SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysis algorithms. Application areas include breast imaging, and radiotherapy applications.'
+SITE_PICTURE = 'images/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
-TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Some footer text'
+TWITTER_URL = 'https://twitter.com/aiim_nl'
+FOOTER_TEXT = 'The AIIM Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
+    {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
@@ -50,6 +50,8 @@ RELATIVE_URLS = False
 
 TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = 'EN'
+ARTICLE_TRANSLATION_ID = None
+PAGE_TRANSLATION_ID = None
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

@@ -15,7 +15,7 @@ Live websites:
 Websites in development
 
 - Bodyct: https://bodyct.diagnijmegen.nl
-- AIIM: pending
+- AIIM: https://www.aiimnijmegen.nl
 - RTC Msc projects: https://diagnijmegen.github.io/website-msc-projects/ (temporary)
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
 - DIAG: https://beta.diagnijmegen.nl (temporary)

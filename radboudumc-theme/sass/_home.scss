@@ -52,7 +52,11 @@ Styles of the home page.
     margin-bottom: 15px;
 
     @include media-breakpoint-up(lg) {
-      height: 300px;
+      height: 280px;
+
+      .img-thumbnail {
+        max-height: 200px;
+      }
     }
   }
 
@@ -71,7 +75,7 @@ Styles of the home page.
     background-color: $white;
 
     @include media-breakpoint-up(lg) {
-      height: 615px;
+      height: 575px;
       overflow: hidden;
     }
   }

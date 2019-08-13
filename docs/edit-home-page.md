@@ -16,13 +16,6 @@
 Line 20: footer text and link
 Lines 21 + 22: header text and links. These should stay the same, link to Radboudumc and DIAG.
 
-# Edit picture when sharing links
-1. Upload a resized image to website-content/content/images/general/
-2. Go to website-content/website-pathology/rse/retina/
-3. Select pelicanconf.py
-4. Line 16 links to the image that appears when links are shared of the website. 
-Example: website-content/content/images/general/filename.png
-
 # Edit picture home page
 1. Upload a resized image to website-content/content/images/general/
 2. Go to website-content/website-pathology/rse/retina/

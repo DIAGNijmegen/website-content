@@ -4,12 +4,12 @@
         <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ SITEURL }}/{{ ('images/news/' + article.picture) | resize_image('medium')}}">
         {% endif %}
         <footer class="post-info text-muted text-center mt-4">
-            <small><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
         </footer>
     </div>
 
     <div class="col-md-8">
         <header>
+          <small><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
             <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
         </header>
 

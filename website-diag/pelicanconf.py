@@ -24,7 +24,7 @@ SITE_REPO = 'website-diag'
 
 # Home page and social settings
 SITELEAD = 'The Diagnostic Image Analysis Group is part of the Departments of Radiology and Nuclear Medicine, Pathology, and Ophthalmology of Radboud University Medical Center. We develop computer algorithms to aid clinicians in the interpretation of medical images and thereby improve the diagnostic process.'
-SITE_PICTURE = 'images/computational_pathology_social_image.png'
+SITE_PICTURE = 'images/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Differnt applications of deep learning.'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
@@ -66,6 +66,8 @@ RELATIVE_URLS = False
 
 TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = 'EN'
+ARTICLE_TRANSLATION_ID = None
+PAGE_TRANSLATION_ID = None
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

@@ -156,7 +156,7 @@ class PublicationsGenerator:
             bname = os.path.basename(people_md_path).replace('.md', '')
             full_name = bname.split('-')
             list_researchers.append(full_name)
-            print('Member: ', full_name)
+            # print('Member: ', full_name)
 
         return list_researchers
 
