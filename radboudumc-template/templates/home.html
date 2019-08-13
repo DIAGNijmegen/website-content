@@ -63,7 +63,7 @@
                     <h1>Calendar</h1>
                 </div>
             </div>
-            <dl class="row">
+            <dl class="row calendar">
               {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
                 {% if loop.index <= 5 %}
                   <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>

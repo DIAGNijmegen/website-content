@@ -61,7 +61,7 @@ Styles of the home page.
   }
 
   .vacancy {
-    background-color: white;
+    background-color: $white;
     padding: 2em 1em;
     margin-bottom: 15px;
   }
@@ -78,5 +78,10 @@ Styles of the home page.
       height: 575px;
       overflow: hidden;
     }
+  }
+
+  .calendar {
+    background-color: $white;
+    padding: 2em 1em;
   }
 }
