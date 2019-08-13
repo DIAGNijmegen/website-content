@@ -14,7 +14,7 @@ SITE_REPO = 'website-aiimnijmegen'
 
 # Home page and social settings
 SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysis algorithms. Application areas include breast imaging, and radiotherapy applications.'
-SITE_PICTURE = 'images/missing_picture.png'
+SITE_PICTURE = 'images/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
