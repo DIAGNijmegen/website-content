@@ -1,7 +1,7 @@
-title: PhD Vacancies 
+title: PhD Projects 
 groups: pathology, msc-projects
 closed: false
 type: card
 picture: vacancies/AIFH_cap.png
 template: phd-vacancies 
-description: Vacancies for PhD candidates.
+description: Projects for PhD candidates.
