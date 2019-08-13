@@ -2,7 +2,7 @@ title: PhD candidate to assess the value of Artificial Intelligence for Breast C
 groups: aiimnijmegen, diag
 closed: false
 type: general
-picture: marble_phd_ai_validation.png
+picture: vacancies/marble_phd_ai_validation.png
 people: Ritse Mann, Jonas Teuwen 
 template: vacancy-single
 description: We are offering a PhD position for our MARBLE project. In this project we will develop and validate artificial intelligence techniques for detection and classification of lesions on digital breast tomosynthesis and breast MRI.
