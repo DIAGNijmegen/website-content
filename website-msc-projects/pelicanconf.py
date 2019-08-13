@@ -14,7 +14,7 @@ SITE_REPO = 'website-base'
 
 # Home page and social settings
 SITETITLE = 'AI for Health'
-SITELEAD = 'Artificial Intelligence for Health is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer numerous courses for professionals, Master student projects and vacancies for PhD candidates.'
+SITELEAD = 'Artificial Intelligence for Health is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer courses for professionals, BSc and MSc student projects and PhD projects.'
 SITE_PICTURE ='images/computational_pathology_social_image.png'
 
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
@@ -23,7 +23,7 @@ HOME_IMAGE_CAPTION = 'example picture'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Artificial Intelligence for Health'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
-PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+#PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
