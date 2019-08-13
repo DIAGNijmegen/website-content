@@ -1,12 +1,12 @@
 title: Mitotic counting via deep learning and manual assessment is not prognostic in TNBC.
-date: 16-04-2019
+date: 2019-04-16
 description: Maschenka Balkenhol et al assessed the prognostic value of absolute mitotic counts for triple negative breast cancer, using both deep learning and manual procedures. Yesterday their work appeared online in Cellular Oncology.
 picture: Detections.jpg
 groups: diag, pathology
 
 The prognostic value of mitotic count for invasive breast cancer is firmly established. However, to date, no studies have been reported assessing the prognostic value of mitotic counts in triple negative breast cancer (TNBC). TNBC tumours display wide ranges of mitotic counts with most tumours showing counts that largely exceed the minimum number required for grade 3 of the modified Bloom and Richardson grading system. Considering this wide range of mitotic figures present in TNBC, it may be questioned whether the cut-off values of the modified Bloom and Richardson grading system are applicable to TNBC or whether better suited TNBC-specific cut-off values are available. The application of deep learning would allow for a comprehensive analysis of absolute mitotic counts, even in the presence of very high densities of such cells. Therefore, Computational patholoy group-member <a href="https://www.computationalpathologygroup.eu/members/maschenka-balkenhol/">Maschenka Balkenhol</a> and colleagues assessed the prognostic value of absolute mitotic counts for TNBC in a retrospective study (n=298), using both deep learning and manual procedures.
 
-The absolute manual mitotic count was assessed by averaging counts from three independent observers. Deep learning was performed using a previously described <a href="https://ieeexplore.ieee.org/abstract/document/8327641">convolutional neural network</a> on digitized H&E slides. Multivariable Cox regression models for relapse-free survival and overall survival served as baseline models. These were expanded with dichotomized mitotic counts, attempting every possible cut-off value, and evaluated by means of the c-statistic. These results are depicted below. 
+The absolute manual mitotic count was assessed by averaging counts from three independent observers. Deep learning was performed using a previously described <a href="https://ieeexplore.ieee.org/abstract/document/8327641">convolutional neural network</a> on digitized H&E slides. Multivariable Cox regression models for relapse-free survival and overall survival served as baseline models. These were expanded with dichotomized mitotic counts, attempting every possible cut-off value, and evaluated by means of the c-statistic. These results are depicted below.
 
 ![c-statistics mitotic count TNBC]({static}/images/news/Graph.jpg)
 

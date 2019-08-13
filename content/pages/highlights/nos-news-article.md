@@ -1,5 +1,5 @@
 title: NOS news article
-date: 03-04-2017
+date: 2017-04-03
 picture: nos.jpg
 groups: diag, pathology
 

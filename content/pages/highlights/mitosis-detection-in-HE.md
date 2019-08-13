@@ -1,5 +1,5 @@
 title: Automatic mitosis detection in breast cancer tissue sections
-date: 22-08-2018
+date: 2018-08-22
 description: Counting of mitotic tumor cells in tissue sections constitutes one of the strongest prognostic markers for breast cancer. David Tellez et al developed a method to automatically detect mitotic figures in H&E stained breast cancer tissue sections based on convolutional neural networks.
 picture: Tell_Highlight.png
 groups: diag, pathology

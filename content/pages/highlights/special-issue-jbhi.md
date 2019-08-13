@@ -1,5 +1,5 @@
 title: JBHI's special issue 'Computational Pathology' now accepting submissions
-date: 20-3-2019
+date: 2019-03-20
 description: The goal of this special issue is to attract and highlight the latest developments in computational pathology, and feature papers proposing state-of-the-art solutions in the field of digital pathology using advanced image analysis and artificial intelligence.
 picture: Special_issue.jpeg
 groups: diag, pathology
@@ -49,4 +49,3 @@ First reviews: December 15, 2019
 Revised Manuscript due: March 15, 2020
 
 Final decision: May 2020
-

@@ -1,5 +1,5 @@
 title: Final meeting AMI-project.
-date: 29-05-2019
+date: 2019-05-29
 description: The final meeting of the AMI-project took place last week.  The AMI-project was a close collaborative project between the Diagnostic Image Analysis Group and the Fraunhofer Institute for Digital Medicine MEVIS. With the development of a generic platform for automatic medical image analysis, the project was a succes.
 picture: AMI.png
 groups: diag, pathology, retina

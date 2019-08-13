@@ -1,5 +1,5 @@
 title: CAMELYON16 published in JAMA
-date: 12-01-2017
+date: 2017-01-12
 description: CAMELYON16 was the first medical image analysis challenge with whole slide digital pathology images in 2016. The competition was a great success, and several of the submitted software solutions outperformed human pathologists in the detection of lymph node metastases.
 picture: 1050px-Camelyon.jpg
 groups: diag, pathology

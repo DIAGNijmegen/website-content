@@ -1,5 +1,5 @@
 title: Best Poster Award MIDL 2019
-date: 07-10-2019
+date: 2019-07-10
 description: Congratulations to Thomas de Bel for winning the Best Poster Award at the second edition of the International Conference on Medical Imaging with Deep Learning held in London this week.
 picture: Thomas_award.jpg
 groups: diag, pathology
