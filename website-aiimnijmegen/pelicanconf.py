@@ -17,7 +17,7 @@ SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysi
 SITE_PICTURE = 'images/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
-TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
+TWITTER_URL = 'https://twitter.com/aiim_nl'
 FOOTER_TEXT = 'The AIIM Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
