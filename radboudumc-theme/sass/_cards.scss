@@ -43,12 +43,15 @@ Styles for all card like lements
 
 /* Article summary block */
 .article-summary {
-  .article-text, .article-image {
-    background-color: $gray-100;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    border-top: 1px solid $gray-200;
-    border-bottom: 1px solid $gray-200;
-    border-radius: 5px;
+  margin-bottom: 2em;
+
+  background-color: $gray-100;
+  border-top: 1px solid $gray-200;
+  border-bottom: 1px solid $gray-200;
+
+  padding: 1.5em 0.5em;
+
+  @include media-breakpoint-up(md) {
+    margin: 0 0 2em 0;
   }
 }

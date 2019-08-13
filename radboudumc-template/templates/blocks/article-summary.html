@@ -3,8 +3,6 @@
         {% if article.picture %}
         <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ SITEURL }}/{{ ('images/news/' + article.picture) | resize_image('medium')}}">
         {% endif %}
-        <footer class="post-info text-muted text-center mt-4">
-        </footer>
     </div>
 
     <div class="col-md-8">
