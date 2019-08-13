@@ -7,13 +7,19 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="{{ SITEURL }}/">Home</a></li>
-        <li class="breadcrumb-item">Highlights</li>
+        <li class="breadcrumb-item">Calendar</li>
       </ol>
     </nav>
 </div>
 
 <div class="container">
-    <h1 class="page-title">News</h1>
+    <h1 class="page-title">Calendar</h1>
 
+    <dl class="row">
+      {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
+          <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
+          <dd class="col-md-10">{{ event.content }}</dd>
+      {% endfor %}
+    </dl>
 </div>
 {% endblock content %}
