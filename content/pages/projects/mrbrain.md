@@ -1,4 +1,4 @@
-title: MBRAIN
+title: MRBRAIN
 finished: true
 template: project-single
 groups: aiimnijmegen
