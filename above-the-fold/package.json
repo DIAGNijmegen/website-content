@@ -1,0 +1,16 @@
+{
+  "name": "above-the-fold",
+  "version": "1.0.0",
+  "description": "Generates above the fold css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "critical": "node extract-css.js"
+  },
+  "author": "Wouter Bulten",
+  "dependencies": {
+    "critical": "^1.3.4",
+    "gulp": "^4.0.2",
+    "penthouse": "^2.2.0"
+  }
+}
