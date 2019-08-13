@@ -1,3 +1,7 @@
-title: About us
-
-Some information about the group.
+title: About us 
+groups: pathology, msc-projects
+closed: false
+type: card
+picture: vacancies/AIFH_diploma.png
+template: vacancy-single
+description: About us...
