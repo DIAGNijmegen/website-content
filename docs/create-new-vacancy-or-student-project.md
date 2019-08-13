@@ -9,7 +9,7 @@ title: Title vacancy
 groups: pathology/retina/rse, etc (determines on which website the vacancy or student project appears)
 closed: false (change to true when vacanct is closed)
 type: type of the vacancy (currently the following types are supported: general, student, student-aihealth)
-picture: filename.jpg (Image is collected from website-content/content/images/vacancies/. Upload a rectangular image here)
+picture: filename.jpg (Image is collected from website-content/content/images/. Upload a rectangular image here)
 template: vacancy-single
 people: people who are involved, generally this is only the contact person.
 description: A short description of +/- 300 words that will appear on the vacancy/student project home page
@@ -18,7 +18,7 @@ FREE TEXT
 
 For example:
 ## Job description
- 
+
  {text}
 
 ## Requirements
