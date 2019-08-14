@@ -16,7 +16,7 @@
                 <div class="col-md-6">
                     <figure>
                         {% if HOME_IMAGE == 'highlight' %}
-                        <img alt="{{ articles[0].title }}" class="figure-img" src="{{ SITEURL }}/images/news/{{ articles[0].picture }}">
+                        <img alt="{{ articles[0].title }}" class="figure-img" src="{{ SITEURL }}/{{ ('images/news/' + articles[0].picture) | resize_image('large')}}">
                         <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
                         {% else %}
                         <img alt="Automated tumor detection" class="figure-img" src="{{ SITEURL }}/{{HOME_IMAGE}}">
@@ -42,7 +42,7 @@
                 <div class="col-md-6">
                     <figure class="figure">
                       {% if HOME_IMAGE == 'highlight' %}
-                      <img alt="{{ articles[0].title }}" class="figure-img" src="{{ SITEURL }}/images/news/{{ articles[0].picture }}">
+                      <img alt="{{ articles[0].title }}" class="figure-img" src="{{ SITEURL }}/{{ ('images/news/' + articles[0].picture) | resize_image('large')}}">
                       <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
                       {% else %}
                       <img alt="Automated tumor detection" class="figure-img" src="{{ SITEURL }}/{{HOME_IMAGE}}">
