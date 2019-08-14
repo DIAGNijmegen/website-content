@@ -30,6 +30,10 @@ Styles of the home page.
 
   .lead {
     font-weight: 400;
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 1em;
+    }
   }
 
   &.block-home-dense {
@@ -42,10 +46,12 @@ Styles of the home page.
     color: $white;
   }
 
-  figure {
-    float: right;
-    height: 380px;
-    margin: 0;
+  @include media-breakpoint-up(md) {
+    figure {
+      float: right;
+      height: 380px;
+      margin: 0;
+    }
   }
 
   img {
