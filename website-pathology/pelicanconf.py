@@ -12,14 +12,15 @@ SITEURL = ''
 SITE_REPO = 'website-pathology'
 
 # Home page and social settings
-SITELEAD = 'The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology and focusing on computer-aided diagnosis. Application areas include diagnostics and prognostics of breast, prostate and colon cancer. We have rapidly expanded over the last few years, counting over 15 people today. Our group is among the international front runners in the field, witnessed for instance by our highly successful CAMELYON challenges. We have a strong translational focus, facilitated by our close collaboration with clinicians and industry.'
+SITELEAD = 'The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology.'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
-HOME_IMAGE = 'images/general/home-page-image.png'
+HOME_IMAGE = 'highlight'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'The Computational Pathology Group is part of the Department of Pathology at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
+HOME_JUMBOTRON_LAYOUT = 'dense'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
