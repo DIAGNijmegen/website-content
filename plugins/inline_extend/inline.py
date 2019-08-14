@@ -3,14 +3,33 @@ import re
 
 from pelican import signals
 
-regex_member = re.compile('\[member: (?P<member>[a-zA-Z\s]+)\]')
+# Group base urls
+group_websites = {
+    'diag': 'https://beta.diagnijmegen.nl',
+    'pathology': 'https://www.computationalpathologygroup.eu',
+    'retina': 'https://www.a-eyeresearch.nl',
+    'rse': 'https://rse.diagnijmegen.nl',
+    'bodyct': 'https://bodyct.diagnijmegen.nl',
+    'aiim': 'https://www.aiimnijmegen.nl',
+    'rtc': 'https://diagnijmegen.github.io/website-msc-projects/',
+    'neuro': 'https://diagnijmegen.github.io/website-neuro/',
+    'diag': 'https://beta.diagnijmegen.nl'
+}
+
+# Matches: [member: Wouter Bulten, group: diag]
+# group is optional
+regex_member = re.compile(r"\[member: (?P<member>[a-zA-Z\s]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]")
 
 def parse_member_tag(text):
     """Replaces [member: <name>] tags"""
     name = text.group('member')
     name_url = name.lower().replace(' ', '-')
+    group = text.group('group')
 
-    return f'<a href="/members/{name_url}">{name}</a>'
+    if group and group in group_websites:
+        return f'<a href="{group_websites[group]}/members/{name_url}">{name}</a>'
+    else:
+        return f'<a href="/members/{name_url}">{name}</a>'
 
 def get_settings(generator):
     print(generator.settings['SITEURL'])
