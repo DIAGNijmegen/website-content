@@ -22,6 +22,7 @@ TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+HOME_JUMBOTRON_LAYOUT = 'dense'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
