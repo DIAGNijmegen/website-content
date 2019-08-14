@@ -6,7 +6,7 @@
 <div class="container-home">
     <!-- Main jumbotron for a primary marketing message or call to action -->
     {% if HOME_JUMBOTRON_LAYOUT == 'dense' %}
-    <div class="jumbotron block-home block-home-dense">
+    <div class="jumbotron block-home block-home-dense {% if HOME_ALT_COLOR_SCHEME %}block-home-gray{% endif %}">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

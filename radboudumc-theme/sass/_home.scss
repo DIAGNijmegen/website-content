@@ -25,6 +25,7 @@ Styles of the home page.
   margin-top: -3px;
   border-radius: 0;
   background-color: $primary;
+
   color: $white;
   padding-bottom: 34px; /* Default padding, substracted with size of figcaption */
 
@@ -63,9 +64,23 @@ Styles of the home page.
 
   figcaption {
     color: lighten($primary, 45);
-
     a {
       color: lighten($primary, 45);
+    }
+  }
+
+  // Alternative color scheme
+  &.block-home-gray {
+    background-color: $gray-2;
+
+    img {
+      border: 1px solid lighten($gray-2, 30);
+    }
+    figcaption {
+      color: lighten($gray-2, 45);
+      a {
+        color: lighten($gray-2, 45);
+      }
     }
   }
 }
