@@ -85,7 +85,7 @@ do
   fi
 
   # Push to github
-  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]]; then
+  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]] || [[ $website == 'website-neuro' ]]; then
     cp CNAME output/CNAME
 
     cd output
