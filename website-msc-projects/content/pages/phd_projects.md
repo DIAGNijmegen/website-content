@@ -4,4 +4,4 @@ closed: false
 type: card
 picture: vacancies/AIFH_cap.png
 template: phd-vacancies 
-description: Projects for PhD candidates.
+description: AI projects for PhD candidates.
