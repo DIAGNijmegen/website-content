@@ -25,12 +25,13 @@ SITE_REPO = 'website-diag'
 # Home page and social settings
 SITELEAD = 'The Diagnostic Image Analysis Group is part of the Departments of Radiology and Nuclear Medicine, Pathology, and Ophthalmology of Radboud University Medical Center. We develop computer algorithms to aid clinicians in the interpretation of medical images and thereby improve the diagnostic process.'
 SITE_PICTURE = 'images/missing_picture_social.png'
-HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
+HOME_IMAGE = 'highlight'
 HOME_IMAGE_CAPTION = 'Differnt applications of deep learning.'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'The Diagnostic Image Analysis Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+HOME_JUMBOTRON_LAYOUT = 'dense'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
