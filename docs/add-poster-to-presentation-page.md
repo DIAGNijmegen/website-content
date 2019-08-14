@@ -10,7 +10,7 @@ picture: posters/filename.png (Higher resolution image, collected from https://g
 arxiv: ArXiv link if possible
 author_list: First and last names of people involved
 groups: pathology/diag/rse/retina (determines on which website the poster shoud appear)
-date: 24-04-2019
+date: YYYY-MM-DD
 
 {text describing the poster}
 ```
