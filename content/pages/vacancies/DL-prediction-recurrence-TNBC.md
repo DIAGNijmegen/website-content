@@ -10,7 +10,7 @@ description: Aim of the presently proposed ‘proof of concept‘ study is to de
 
 ## Background
 
-Triple negative breast cancer (TNBC) accounts for about 15-20% of all invasive breast cancers. TNBC is defined by the absence of expression of the hormonal receptors (HR) and the absence of overexpression of the human epidermal growth factor receptor 2 (HER2).
+Triple negative breast cancer (TNBC) accounts for 15-20% of all invasive breast cancers. TNBC is defined by the absence of expression of the hormonal receptors (HR) and the absence of overexpression of the human epidermal growth factor receptor 2 (HER2).
 
 **Research question:**
 Is it possible to predict recurrence for TNBC based on morphological features?
