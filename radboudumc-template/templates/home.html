@@ -5,6 +5,29 @@
 
 <div class="container-home">
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    {% if HOME_JUMBOTRON_LAYOUT == 'dense' %}
+    <div class="jumbotron block-primary block-home block-home-dense">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-title">{{SITENAME}}</h1>
+                    <p class="lead">{{SITELEAD}}</p>
+                </div>
+                <div class="col-md-6">
+                    <figure class="figure img-fluid">
+                        {% if HOME_IMAGE == 'highlight' %}
+                        <img alt="{{ articles[0].title }}" class="figure-img img-fluid" src="{{ SITEURL }}/images/news/{{ articles[0].picture }}">
+                        <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
+                        {% else %}
+                        <img alt="Automated tumor detection" class="figure-img img-fluid" src="{{ SITEURL }}/{{HOME_IMAGE}}">
+                        <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
+                        {% endif %}
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
     <div class="jumbotron block-primary block-home">
         <div class="container">
             <div class="row">
@@ -18,13 +41,19 @@
                 </div>
                 <div class="col-md-6">
                     <figure class="figure img-fluid">
-                        <img alt="Automated tumor detection" class="figure-img img-fluid" src="{{ SITEURL }}/{{HOME_IMAGE}}">
-                        <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
+                      {% if HOME_IMAGE == 'highlight' %}
+                      <img alt="{{ articles[0].title }}" class="figure-img img-fluid" src="{{ SITEURL }}/images/news/{{ articles[0].picture }}">
+                      <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
+                      {% else %}
+                      <img alt="Automated tumor detection" class="figure-img img-fluid" src="{{ SITEURL }}/{{HOME_IMAGE}}">
+                      <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
+                      {% endif %}
                     </figure>
                 </div>
             </div>
         </div>
     </div>
+    {% endif %}
 
     {% if "Highlights" in HOME_SECTIONS %}
         {% if articles %}

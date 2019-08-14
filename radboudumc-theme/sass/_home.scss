@@ -23,14 +23,20 @@ Styles of the home page.
 // First block on the home page
 .block-home {
   margin-top: -3px;
+
   .lead {
     font-weight: 400;
+  }
+
+  &.block-home-dense {
+    .display-title {
+      margin-bottom: 0.5em;
+    }
   }
 }
 
 .block-primary {
   border-radius: 0;
-  margin-bottom: 1em;
   background-color: $primary;
   color: $white;
 
@@ -40,6 +46,10 @@ Styles of the home page.
 
   figcaption {
     color: white;
+
+    a {
+      color: white;
+    }
   }
 }
 
