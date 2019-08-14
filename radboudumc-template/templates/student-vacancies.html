@@ -9,8 +9,8 @@
     <h1 class="page-title">{{ page.title }}</h1>
 {{ page.content }}
 
-    <h2>projects</h2>
-    <p>We welcome good master's and bachelor's students to perform academic research in AI health care. We offer various projects that can be tuned to match your thesis requirements. You can also browse through our research pages to read about the different research topics.</p>
+    <h2>Project Vacancies</h2>
+    <p>We welcome good BSc and MSc students to perform academic research in AI for health care.</p>
     <div class="row">
         {% set vacancies_show_closed = 'false' %}
 	{% set show_vacancy_types = ['student'] %}
@@ -19,8 +19,13 @@
 
     <hr style="margin-top: 6em !important;">
 
-    <h2 class="my-4">Closed vacancies</h2>
-    <p>The positions below are closed, please do not apply. They are listed to give you an idea of the kind of positions we regularly offer.</p>
+    <h2 class="my-4">Active Projects</h2>
+    <p>The research projects described below are currently active.</p>
+	
+    <hr style="margin-top: 6em !important;">
+	
+    <h2 class="my-4">Finished Projects</h2>
+    <p>The research projects described below have been finished.</p>
 
     <div class="row">
         {% set vacancies_show_closed = 'true' %}
