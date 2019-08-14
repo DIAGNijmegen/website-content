@@ -62,7 +62,7 @@ do
     python plugins/bib_writer.py
   fi
 
-  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]]; then
+  if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]] || [[ $website == 'website-neuro' ]]; then
     # Init repo
     echo "Cloning ${website} output repository"
     git clone --depth 1 "https://${GH_PAGES}@github.com/DIAGNijmegen/${website}.git" output
