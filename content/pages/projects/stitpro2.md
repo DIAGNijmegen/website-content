@@ -2,7 +2,7 @@ title: STITPRO II
 finished: false
 type: general
 template: project-single
-groups: pathology, msc-projects
+groups: pathology
 picture: projects/logo_ASAP.png
 people: Geert Litjens, Karel Gerbrands, Jeroen van der Laak
 description: Project with focus on the extension of open-source software ASAP that includes functionality for study and case management.
