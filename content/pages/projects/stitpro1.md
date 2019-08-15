@@ -2,7 +2,7 @@ title: STITPRO I
 finished: true
 type: general
 template: project-single
-groups: pathology, msc-projects
+groups: pathology
 picture: projects/logo_STITPRO.png
 description: Project on the development of ASAP and on the automatic detection of metastases in WSI of sentinel lymph nodes of breast cancer patients.
 people: Geert Litjens, Jeroen van der Laak
