@@ -47,6 +47,6 @@ Contact the supervisor of this project for more information about availability o
 
 - Project duration: 3-9 months
 
-- Location: Radboud University Nijmegen Medical Centre
+- Location: Radboud University Medical Centre, Nijmegen 
 
 - For more information please contact [Francesco Ciompi](https://www.computationalpathologygroup.eu/members/francesco-ciompi/)
