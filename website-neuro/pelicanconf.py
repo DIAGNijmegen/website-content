@@ -9,15 +9,15 @@ from datetime import date
 #
 CURRENTYEAR = date.today().year
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'Neuroimage Analysis Group'
+SITENAME = u'NeuroImaging'
 SITENAME_SHORT = 'neuro'
 SITE_REPO = 'website-base'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
+SITELEAD = ''
 SITE_PICTURE = 'images/missing_picture_social.png'
-HOME_IMAGE = 'images/general/neuromain1.png'
-HOME_IMAGE_CAPTION = 'RSNA 2016 highlight image'
+HOME_IMAGE = ''
+HOME_IMAGE_CAPTION = ''
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
