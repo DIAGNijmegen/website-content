@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/TNBC-student.png
 template: vacancy-single
-people: Henkjan Huisman
+people: Henkjan Huisman, Patrick Brand
 description: The goal of this project is to develop Artificial Intelligence (AI) to track tumor targets and automatically steer MRI acquisitions to optimally visualize these targets in real-time MRI conditions. 
 
 
