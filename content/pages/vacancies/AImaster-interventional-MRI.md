@@ -2,7 +2,7 @@ title: AI steered interventional MRI
 groups: diag, msc-projects
 closed: false
 type: student
-picture: vacancies/TNBC-student.png
+picture: vacancies/mr_guided_surgery.png
 template: vacancy-single
 people: Henkjan Huisman, Patrick Brand
 description: The goal of this project is to develop Artificial Intelligence (AI) to track tumor targets and automatically steer MRI acquisitions to optimally visualize these targets in real-time MRI conditions. 
