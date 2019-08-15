@@ -4,7 +4,7 @@ finished: false
 type: general
 picture: projects/perspectief_picture_map_cut.jpg
 template: project-single
-groups: retina, msc-projects
+groups: retina
 people: Cristina González-Gonzalo, Clarisa Sánchez
 description: The goal of this project is to automate the screening workflow of eye diseases using innovative techniques based on artificial neural networks.
 bibkeys: Gonz18
