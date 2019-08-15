@@ -1,5 +1,5 @@
 title: Research Software Engineer in Digital Pathology
-groups: pathology, diag, rse, msc-projects
+groups: pathology, diag, rse, ai-for-health 
 closed: true
 type: general
 picture: vacancies/vacancy_rse_2019.png

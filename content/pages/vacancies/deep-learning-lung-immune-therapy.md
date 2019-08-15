@@ -1,5 +1,5 @@
 title: Deep Learning to predict lung cancer immunotherapy response
-groups: pathology, diag, msc-projects
+groups: pathology, diag, ai-for-health 
 closed: false
 type: student
 picture: vacancies/lung_projects_immuno.png

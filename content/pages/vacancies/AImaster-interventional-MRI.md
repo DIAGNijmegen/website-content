@@ -1,5 +1,5 @@
 title: AI steered interventional MRI
-groups: diag, msc-projects
+groups: diag, ai-for-health
 closed: false
 type: student
 picture: vacancies/mr_guided_surgery.png

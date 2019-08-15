@@ -1,5 +1,5 @@
 title: PhD position for developing a decision support tool for patients with chronic lower back pain
-groups: msc-projects
+groups: ai-for-health 
 closed: false
 type: general
 picture: vacancies/Multimodal_retina.png
