@@ -1,7 +1,8 @@
 title: VPH-PRISM
 finished: true
+type: general
 template: project-single
-groups: pathology, aiimnijmegen
+groups: pathology, aiimnijmegen, msc-projects
 picture: projects/logo_vphprism.jpg
 people: Jeroen van der Laak, Mehmet Dalmis
 description: Study on the correlations between several radiological modalities and histpathology for more understanding of breast cancer presentation.

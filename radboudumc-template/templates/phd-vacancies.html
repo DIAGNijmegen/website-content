@@ -19,18 +19,33 @@
 
     <hr style="margin-top: 6em !important;">
 
-    <h2 class="my-4">Active Projects</h2>
-    <p>The research projects described below are currently active.</p>
-	
+    <h2 style="margin: 2em 0 1em 0;">Active Projects</h2>
+    <div class="row">
+        {% for card in pages %}
+            {% if card.parent.url == 'projects/' %}
+                {% if card.finished == 'false' %}
+		  {% if card.type == 'general' %}
+		    {% include "blocks/card.html" %}
+		  {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
     <hr style="margin-top: 6em !important;">
 
-    <h2 class="my-4">Finished Projects</h2>
-    <p>The research projects described below have been finished.</p>
 
+    <h2  style="margin: 2em 0 1em 0;">Finished Projects</h2>
     <div class="row">
-        {% set vacancies_show_closed = 'true' %}
-	{% set show_vacancy_types = ['general'] %}
-        {% include "blocks/vacancy-blocks.html" %}
+        {% for card in pages %}
+            {% if card.parent.url == 'projects/' %}
+                {% if card.finished == 'true' %}
+		  {% if card.type == 'general' %}
+                    {% include "blocks/card.html" %}
+		  {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
     </div>
 
 </div>
