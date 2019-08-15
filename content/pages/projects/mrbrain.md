@@ -3,7 +3,7 @@ finished: true
 type: general
 template: project-single
 picture: projects/logo_mrbrain.png
-groups: aiimnijmegen, msc-projects
+groups: aiimnijmegen
 people: Jonas Teuwen, Ritse Mann, Nikita Moriakov
 
 ## Funding
