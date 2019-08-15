@@ -1,11 +1,25 @@
 <div class="container">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
+      <ol class="breadcrumb">	
         <li class="breadcrumb-item"><a href="{{ SITEURL }}/">Home</a></li>
-        {% for page in page.parents %}
-        <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+        {% for parent_page in page.parents %}
+	  {% set pageurl  = parent_page.url %}
+	  {% set pagetitle = parent_page.title %}
+
+	  {% if (parent_page.url == 'vacancies/' or parent_page.url == 'projects/') and parent_page.type == 'aiforhealth' %}
+	    {% if page.type == 'general' %}
+ 	      {% set pageurl  = 'phd_projects' %}
+	      {% set pagetitle = 'Phd Projects' %}  
+	    {% endif %}
+	    {% if page.type == 'student' %}
+ 	      {% set pageurl  = 'student_projects' %}
+	      {% set pagetitle = 'BSc/MSc Projects' %} 
+	    {% endif %}
+	  {% endif %}
+
+          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ pageurl }}">{{ pagetitle }}</a></li>
         {% endfor %}
         <li class="breadcrumb-item">{{ page.title }}</li>
       </ol>
     </nav>
-</div>
+</div>``
