@@ -39,7 +39,7 @@ Contact the supervisor of this project for more information about availability o
 
 - Students with a major in artificial intelligence, computer science, biomedical engineering, physics, or a related area in the final stage of master level studies are invited to apply.
 
-- Interest in (medical) image analysis
+- Interest in medical image analysis
 
 - Affinity with programming in Python and with deep learning packages (e.g., TensorFlow, PyThorch) is required.
 
