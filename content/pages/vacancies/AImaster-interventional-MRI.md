@@ -34,4 +34,4 @@ The goal of this project is to develop Artificial Intelligence (AI) to track tar
 
 - Location: Radboud University Nijmegen Medical Centre
 
-- For more information please contact [Patrick Brand]
+- For more information please contact [Patrick Brand](http://diagnijmegen.nl/index.php/Person?name=Patrick_Brand)
