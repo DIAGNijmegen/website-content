@@ -29,7 +29,6 @@ Multiple student projects are available in the context of this research. Example
 * Detection of lung cancer tumor cells in H&E images with deep learning
 * Detection of lymphocytes in H&E images of lung cancer
 * Detection of macrophages in CD68 stained whole-slide images of lung cancer
-* Extraction of signatures of lung tumor microenvironment using (unsupervised) representation learning
 * Segmentation of several compartments of lung tissue with deep learning segmentation models
 * Classification of lung cancer subtypes using weakly supervised learning
 
