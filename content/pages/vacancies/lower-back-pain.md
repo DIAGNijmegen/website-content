@@ -27,6 +27,6 @@ blabla
 
 ## Application
 
-You can already apply directly by e-mail to [Nikolas Lessmann](nikolas.lessmann@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you’ve written in English.
+You can already apply directly by e-mail to [Nikolas Lessmann](mailto:nikolas.lessmann@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you’ve written in English.
 
 All applications will be processed immediately upon receipt until the position has been filled.
