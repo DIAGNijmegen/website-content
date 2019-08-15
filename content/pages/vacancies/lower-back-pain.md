@@ -9,7 +9,7 @@ description: We are looking for a PhD candidate for the project AI-based MRI ana
 
 ## Project Description
 
-blabla
+blabla di bla
 
 You will be part of the Radboud AI for Health Lab.
 
