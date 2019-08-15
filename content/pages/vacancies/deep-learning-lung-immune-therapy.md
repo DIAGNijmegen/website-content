@@ -10,7 +10,7 @@ description: Aim of the proposed project is to develop deep learning algorithms 
 
 ## Background
 
-Immunotherapy is a Nobel Prize winning approach to treat cancer patients, which has given hope to previously untreatable cancer patients, who have shown unprecedented positive responses to immunotherapy. However, not all patients respond to immunotherapy and are therefore only exposed to the toxicity of the drug. Additionally, the cost of immunotherapy treatment is very high (~100K Euro per patient), which puts a dramatic financial burden to the healthcare system.
+Immunotherapy is a Nobel Prize winning approach to treat cancer patients, which has given spectacular responses in some previously untreatable cancer patients. However, not all patients respond to immunotherapy and are therefore only exposed to the toxicity of the drugs. Additionally, the cost of immunotherapy treatment is very high (~100K Euro per patient), which puts a dramatic financial burden to the healthcare system.
 In this context, there is an urgent need for identifying responders and non-reponders at an early stage, to guarantee an efficient and personalized cancer treatment with immunotherapy.
 In this project, Artificial Intelligence models will be used to challenge one of deadliest of the diseases: lung cancer.
 AI has the potential to extract and discover features in histopathology images that correlate with treatment response.
