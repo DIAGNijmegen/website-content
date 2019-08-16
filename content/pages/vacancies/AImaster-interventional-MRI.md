@@ -26,13 +26,10 @@ In this pilot project, the focus is on simulated interventional MRI. The tasks a
 ## Requirements
 
 - Students at the final year of a study in computer science, artificial intelligence, physics, or a related area.
-
 - Basic level of knowledge and experience in Deep Learning in Healthcare
 
 ## Information
 
 - Project duration: 6-9 months
-
 - Location: Radboud University Nijmegen Medical Centre
-
 - For more information, please contact [Patrick Brand](http://diagnijmegen.nl/index.php/Person?name=Patrick_Brand)
