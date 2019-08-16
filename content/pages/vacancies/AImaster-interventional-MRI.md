@@ -2,7 +2,7 @@ title: AI steered interventional MRI
 groups: diag, ai-for-health
 closed: false
 type: student
-picture: vacancies/mr_guided_surgery.png
+picture: vacancies/mri_guided_intervention.png
 template: vacancy-single
 people: Henkjan Huisman, Patrick Brand
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
