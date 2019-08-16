@@ -9,7 +9,13 @@ description: We are looking for a PhD candidate for the project AI-based MRI ana
 
 ## Project Description
 
-blabla di bla
+blabla *di* bla
+
+*   Candy.
+*   Gum.
+*   Booze.
+
+
 
 You will be part of the Radboud AI for Health Lab.
 
