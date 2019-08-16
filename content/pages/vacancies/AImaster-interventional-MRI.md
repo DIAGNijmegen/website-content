@@ -12,14 +12,14 @@ description: The goal of this project is to develop Artificial Intelligence (AI)
 
 MRI allows minimally invasive treatment of cancer and other diseases. MRI accurately reveals a tumor within an organ or at difficult to  reach locations. Using real-time MRI special needles are inserted such that the tip is within the tumor. Several types of treatment exist. One such treatment is to heat the tumor tip. Tissue surrounding the tip is exposed to the treatment and tissue cells in that region are killed and subsequently broken down by the body. The size of the region depends on the duration of the treatment. This type of treatment has several advantages. MRI guided interventions prevents having to surgically search for the tumor reducing disruption to anatomical structures. The real-time feedback on the effect of the intervention ensures good coverage of the tumor region. The minimally invasive procedure allows faster recovery of the patient.
 
-The accuracy of interventional MRI is unfortunately limited by . Interventional MRI Interpreting real-time MRI imaging during the intervention is challenging. The chalpartly due to its low image resolution to accommodate real-time acquisition. Furthermore, it is difficult to keep the needle and target volume in focus due to needle movement and internal deformations. Bringing the needle and target back in focus requires manual adjustment of MRI acquisition settings, which is error prone and time-consuming.
+The accuracy of interventional MRI is unfortunately limited because during needle intervention the body deforms and structures disappear from the imaging display. The MRI needs to be manually adjusted to acquire images in a new imaging plane that shows the structure in relation to the needle. This repeated MRI adjustment takes considerable time and leads to supoptimal needle placement.
 
-The goal of this project is to develop Artificial Intelligence (AI) to track targets and automatically steer MRI acquisitions to optimally visualize these targets in real-time MRI conditions. 
+The goal of this project is to develop Artificial Intelligence (AI) improve MRI guided interventions by automatically tracking tumors and automatically steer MRI acquisitions to optimally visualize these. We have an MRI scanner that can be digitally steered to acquire a specific image plane. AI can be developed such that it can track an object. The AI output can be used to steer the MRI. With the improved visualization interventions can be become more accurate in less time.
 
 ## Tasks
-
-- Develop an MRI simulation module to test and train AI that generates synthetic MRI images with moving targets with adjustable motion
-- Develop an MRI tracking module that predicts the target location 
+In this pilot project the focus is on simulated interventional MRI.
+- Develop an MRI simulation module. The synthetic MRI images shows moving targets with adjustable motion to simulate varying levels of difficulty.
+- Develop an AI tracking module that predicts the target location from a series of MRI images.
 - Develop a demonstrator that compares conventional versus AI driven interventional MRI 
 
 ## Requirements
