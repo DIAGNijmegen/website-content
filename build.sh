@@ -60,6 +60,8 @@ do
   if [[ $website != 'website-ai-for-health' ]]; then
     # Generate publications
     python plugins/bib_writer.py
+  else
+    cp -r ../content/pages/members/. ./content/pages/members/
   fi
 
   if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]] || [[ $website == 'website-neuro' ]]; then
