@@ -57,12 +57,12 @@ do
 
   cd $website
 
-  if [[ $website != 'website-ai-for-health' ]]; then
+  if [[ $website == 'website-ai-for-health' ]]; then
     # Generate publications
-    python plugins/bib_writer.py
-  else
     cp -r ../content/pages/members/. ./content/pages/members/
   fi
+
+  python plugins/bib_writer.py
 
   if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]] || [[ $website == 'website-neuro' ]]; then
     # Init repo
