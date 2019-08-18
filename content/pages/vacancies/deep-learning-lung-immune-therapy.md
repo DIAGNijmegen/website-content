@@ -1,4 +1,4 @@
-title: Deep Learning to predict lung cancer immunotherapy response
+title: Ai to predict lung cancer immunotherapy response
 groups: pathology, diag, ai-for-health 
 closed: false
 type: student
