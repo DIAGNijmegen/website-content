@@ -2,7 +2,7 @@ title: PhD position for developing a decision support tool for patients with chr
 groups: ai-for-health 
 closed: false
 type: general
-picture: vacancies/msk_lbp.png
+picture: vacancies/msk_lbp.jpg
 people: Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken 
 template: vacancy-single
 description: We are looking for a PhD candidate for the project AI-based MRI analysis for treatment decision support in patients with chronic degenerative low back pain.
