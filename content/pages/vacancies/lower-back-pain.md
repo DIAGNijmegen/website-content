@@ -9,13 +9,15 @@ description: We are looking for a PhD candidate for the project AI-based MRI ana
 
 ## Project Description
 
-You will be part of the Radboud AI for Health Lab.
+Chronic low back pain (CLBP) is a highly prevalent disease with poorly understood aetiology. The affected population is heterogeneous and the condition multifactorial. This makes it challenging to determine the right treatment. In this project, we will develop a decision support tool to help patients and physicians choose a treatment that is likely to be successful. You will contribute to this decision support tool by developing automatic image analysis methods for assessing degenerative spinal and muscular changes on MRI scans. You will work in close collaboration with clinicians, including orthopedic surgeons and radiologists, and with image analysis and machine learning scientists. You will develop new image analysis tools based on deep learning and similar state-of-the-art technologies.
+
+You will be part of the Radboud AI for Health Lab, in which several PhD candidates are working on bringing artificial intelligence to the clinical. An important part of this project is therefore also the validation of the methods that you develop and their translation into the routine diagnostic workup of patients with chronic low back pain. We are working together with the Sint Maartenskliniek, a hospital specialized in musculoskeletal disorders in which every year thousands of patients with chronic low back pain are examined and treated.
 
 ## Requirements
 
-We are looking for ambitious deep learning engineers, data scientists, or machine learning experts. You should be creative, enthusiastic and have an MSc/Ph.D. degree in Computer Science, Data Science, Physics, Engineering or Biomedical Sciences or similar, with a clear interest in deep learning, image analysis and medical applications. Good communication skills and expertise in software development, preferably in Python/C++, are essential. Experience with machine learning should be evident from the (online) courses you've followed, your publications, GitHub account, etc. Experience with medical image processing is a plus.
+We are looking for ambitious deep learning engineers, data scientists, or machine learning experts. You should be creative, enthusiastic and have an MSc/Ph.D. degree in Computer Science, Data Science, Physics, Engineering or Biomedical Sciences or similar, with a clear interest in deep learning, image analysis and medical applications. Good communication skills and expertise in software development, preferably in Python/C++, are essential. Experience with machine learning should be evident from the (online) courses you have followed, your publications, GitHub account, etc. Experience with medical image processing is a plus.
 
-##Terms of employment
+## Terms of employment
 
 You will be appointed as a PhD student with the standard salary and secondary conditions for PhD students in the Netherlands. Your performance will be evaluated after 1 year. If the evaluation is positive, the contract will be extended by 3 years. The research should result in a PhD thesis.
 
@@ -25,6 +27,6 @@ blabla
 
 ## Application
 
-You can already apply directly by e-mail to [Nikolas Lessmann](mailto:nikolas.lessmann@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you’ve written in English.
+You can already apply directly by e-mail to [Nikolas Lessmann](mailto:nikolas.lessmann@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you have written in English.
 
 All applications will be processed immediately upon receipt until the position has been filled.
