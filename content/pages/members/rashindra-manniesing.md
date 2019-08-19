@@ -1,8 +1,8 @@
 title: Rashindra Manniesing
 name: Rashindra Manniesing
 template: people-single
-picture: Rashindra_Manniesing_bw.jpg
-position: Assistant Professor/Workgroup Leader
+picture: Rashindra_Manniesing.jpg
+position: Assistant Professor
 active: yes
 groups: diag, neuro
 email: rashindra.manniesing@radboudumc.nl
