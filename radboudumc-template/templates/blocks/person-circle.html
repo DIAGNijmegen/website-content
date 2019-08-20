@@ -4,6 +4,12 @@
     {% else %}
     <a href="{{ SITEURL }}/{{ person.url}}"><img data-src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% endif %}
-    <h3 class="person-name"><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></h3>
+
+    {% if 'http' in person.url %}
+    <h3 class="person-name"><a href="{{person.url}}">{{ person.name }}</a></h3>
+    {% else %}
+    <h3 class="person-name"><a href="{{ SITEURL }}/{{person.url}}">{{ person.name }}</a></h3>
+    {% endif %}
+
     <h4 class="person-title"><small>{{ person.position }}</small></h4>
 </div>

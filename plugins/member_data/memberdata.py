@@ -36,14 +36,14 @@ def parse_member_file(member, file):
                     data[tag] = value
 
     if 'default_group' not in data and 'groups' in data:
-        data['default_group'] = data['groups'][0]
+        data['default_group'] = data['groups'][0] if isinstance(data['groups'], list) else data['groups']
 
     if data['default_group'] in group_websites:
         # Create link to profile page
-        data['member_url'] = f"{group_websites[data['default_group']]}/members/{member}/"
+        data['url'] = f"{group_websites[data['default_group']]}/members/{member}/"
     else:
-        print("Could not set member url for member as default group has no url.")
-        data['member_url'] = None
+        print(f"Could not set member url for member {member} as default group has no url ({data['default_group']}).")
+        data['url'] = None
 
     return data
 
@@ -63,7 +63,7 @@ def load_member_data(generator):
 
     print(member_data)
 
-    generator.context['members'] = member_data
+    generator.context['MEMBER_DATA'] = member_data
 
 
 def register():

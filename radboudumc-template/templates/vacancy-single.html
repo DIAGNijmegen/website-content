@@ -30,18 +30,12 @@
     <div class="container">
         <div class="row people-grid">
         {% for person_name in page.people.split(',') %}
-            {% set found = { 'flag': false } %}
-
-            {% for person in pages %}
-                {% if person.parent.url == 'members/' and person_name.strip() == person.name %}
-                    {% include "blocks/person-circle.html" %}
-                    {% if found.update({'flag': true}) %}{% endif %}
-                {% endif %}
-            {% endfor %}
-
-            {% if not found.flag %}
-                {% include "blocks/person-external-circle.html" %}
-            {% endif %}
+          {% if person_name.strip() in MEMBER_DATA %}
+            {% set person = MEMBER_DATA[person_name.strip()] %}
+            {% include "blocks/person-circle.html" %}
+          {% else %}
+            {% include "blocks/person-external-circle.html" %}
+          {% endif %}
         {% endfor %}
         </div>
     </div>
