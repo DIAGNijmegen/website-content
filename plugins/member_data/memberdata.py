@@ -6,20 +6,18 @@ import os
 import glob
 from pelican import signals
 
-member_tags = ['name', 'position', 'groups', 'picture', 'default_group']
+import sys
+import importlib
 
-# Group base urls
-group_websites = {
-    'diag': 'https://beta.diagnijmegen.nl',
-    'pathology': 'https://www.computationalpathologygroup.eu',
-    'retina': 'https://www.a-eyeresearch.nl',
-    'rse': 'https://rse.diagnijmegen.nl',
-    'bodyct': 'https://bodyct.diagnijmegen.nl',
-    'aiimnijmegen': 'https://www.aiimnijmegen.nl',
-    'rtc': 'https://diagnijmegen.github.io/website-msc-projects/',
-    'neuro': 'https://diagnijmegen.github.io/website-neuro/',
-    'diag': 'https://beta.diagnijmegen.nl'
-}
+# Load configs from all other websites
+sys.path.insert(0, '../')
+DIAG_WEBSITES_NAMES = {}
+DIAG_WEBSITE_URLS = {}
+for website in ['website-diag', 'website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-neuro', 'website-rse']:
+    DIAG_WEBSITES_NAMES[website[8:]] = importlib.import_module(f'{website}.pelicanconf').SITENAME
+    DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
+
+member_tags = ['name', 'position', 'groups', 'picture', 'default_group']
 
 def parse_member_file(member, file):
     """Parse a single member file"""
@@ -38,12 +36,14 @@ def parse_member_file(member, file):
     if 'default_group' not in data and 'groups' in data:
         data['default_group'] = data['groups'][0] if isinstance(data['groups'], list) else data['groups']
 
-    if data['default_group'] in group_websites:
+    if data['default_group'] in DIAG_WEBSITE_URLS:
         # Create link to profile page
-        data['url'] = f"{group_websites[data['default_group']]}/members/{member}/"
+        data['url'] = f"{DIAG_WEBSITE_URLS[data['default_group']]}/members/{member}/"
+        data['group_name'] = DIAG_WEBSITES_NAMES[data['default_group']]
     else:
         print(f"Could not set member url for member {member} as default group has no url ({data['default_group']}).")
         data['url'] = None
+        data['group_name'] = ''
 
     return data
 
