@@ -8,7 +8,20 @@ from pelican import signals
 
 member_tags = ['name', 'position', 'groups', 'picture', 'default_group']
 
-def parse_member_file(file):
+# Group base urls
+group_websites = {
+    'diag': 'https://beta.diagnijmegen.nl',
+    'pathology': 'https://www.computationalpathologygroup.eu',
+    'retina': 'https://www.a-eyeresearch.nl',
+    'rse': 'https://rse.diagnijmegen.nl',
+    'bodyct': 'https://bodyct.diagnijmegen.nl',
+    'aiim': 'https://www.aiimnijmegen.nl',
+    'rtc': 'https://diagnijmegen.github.io/website-msc-projects/',
+    'neuro': 'https://diagnijmegen.github.io/website-neuro/',
+    'diag': 'https://beta.diagnijmegen.nl'
+}
+
+def parse_member_file(member, file):
     """Parse a single member file"""
     data = {}
     for line in file:
@@ -25,6 +38,13 @@ def parse_member_file(file):
     if 'default_group' not in data and 'groups' in data:
         data['default_group'] = data['groups'][0]
 
+    if data['default_group'] in group_websites:
+        # Create link to profile page
+        data['member_url'] = f"{group_websites[data['default_group']]}/members/{member}/"
+    else:
+        print("Could not set member url for member as default group has no url.")
+        data['member_url'] = None
+
     return data
 
 def load_member_data(generator):
@@ -38,7 +58,7 @@ def load_member_data(generator):
         member = os.path.splitext(os.path.basename(file))[0]
 
         with open(file) as f:
-            data = parse_member_file(f)
+            data = parse_member_file(member, f)
             member_data[data['name']] = data
 
     print(member_data)
