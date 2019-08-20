@@ -8,6 +8,7 @@ Please follow the guides below to update or write new content for one of the web
 
 - [Edit home page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/edit-home-page.md)
 - [Edit contact page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/edit-contact-page.md)
+- [Special content tags](https://github.com/DIAGNijmegen/website-content/blob/master/docs/special-content-tags.md)
 
 ### Members
 
