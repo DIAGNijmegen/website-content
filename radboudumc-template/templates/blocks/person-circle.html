@@ -12,11 +12,16 @@
     <a href="{{ person_url }}"><img data-src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% endif %}
 
-    <h3 class="person-name"><a href="{{ person_url }}">{{ person.name }} {% if person.default_group != SITE_GROUP %}<small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg>{% endif %}</small></a></h3>
+    <h3 class="person-name"><a href="{{ person_url }}">
+      {{ person.name }}
+      {% if person.default_group != SITE_GROUP and 'http' in person.url %}
+      <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
+      {% endif %}
+    </a></h3>
 
     <h4 class="person-title"><small>{{ person.position }}</small></h4>
 
-    {% if person.default_group != SITE_GROUP %}
+    {% if person.default_group != SITE_GROUP and person.group_name %}
       <p class='text-muted'>{{ person.group_name }}</p>
     {% endif %}
 </div>
