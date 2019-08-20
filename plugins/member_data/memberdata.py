@@ -57,7 +57,7 @@ def load_member_data(generator):
     for file in files:
         member = os.path.splitext(os.path.basename(file))[0]
 
-        with open(file) as f:
+        with open(file, encoding="utf-8") as f:
             data = parse_member_file(member, f)
             member_data[data['name']] = data
 

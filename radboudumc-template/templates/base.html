@@ -8,6 +8,8 @@
 
     {% if page and page.template == 'home' %}
     <link rel="canonical" href="{{ SITEURL }}">
+    {% elif page and page.parent.url == 'members/' and page.name in MEMBER_DATA %}
+    <link rel="canonical" href="{{ MEMBER_DATA[page.name].url }}">
     {% elif page %}
     <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
     {% elif article %}
