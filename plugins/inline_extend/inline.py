@@ -18,7 +18,7 @@ group_websites = {
 
 # Matches: [member: Wouter Bulten, group: diag]
 # group is optional
-regex_member = re.compile(r"\[member: (?P<member>[a-zA-Z\s]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]")
+regex_member = re.compile(r"\[member:\s*(?P<member>[a-zA-Z\s]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]")
 
 def parse_member_tag(text):
     """Replaces [member: <name>] tags"""
