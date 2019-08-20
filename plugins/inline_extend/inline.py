@@ -29,10 +29,11 @@ def parse_member_tag(text, member_data):
     group = text.group('group')
 
     if name in member_data:
+        url = member_data[name]['url']
+
         if group and group in group_websites:
-            return f'<a href="{group_websites[group]}/members/{name_url}">{name}</a>'
+            return f'<a href="{group_websites[group]}/members/{url}">{name}</a>'
         else:
-            url = member_data[name]['url']
             return f'<a href="{url}">{name}</a>'
     else:
         # For unknown members, just return the name
