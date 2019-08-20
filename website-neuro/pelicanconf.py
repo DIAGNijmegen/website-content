@@ -11,7 +11,8 @@ CURRENTYEAR = date.today().year
 AUTHOR = u'WebteamDIAG'
 SITENAME = u'NeuroImaging'
 SITENAME_SHORT = 'neuro'
-SITE_REPO = 'website-base'
+SITE_REPO = 'website-neuro'
+SITE_GROUP = 'neuro'
 
 # Home page and social settings
 SITELEAD = ''

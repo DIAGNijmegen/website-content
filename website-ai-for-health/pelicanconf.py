@@ -10,7 +10,8 @@ from datetime import date
 AUTHOR = u'WebteamDIAG'
 SITENAME = u'AI for Health'
 SITENAME_SHORT = 'AIHEALTH'
-SITE_REPO = 'website-base'
+SITE_REPO = 'website-ai-for-health'
+SITE_GROUP = 'ai-for-health'
 
 # Home page and social settings
 SITETITLE = 'AI for Health'

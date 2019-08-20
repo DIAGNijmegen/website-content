@@ -10,6 +10,7 @@ SITENAME_SHORT = 'CPG'
 SITE_PICTURE = 'images/computational_pathology_social_image.png'
 SITEURL = ''
 SITE_REPO = 'website-pathology'
+SITE_GROUP = 'pathology'
 
 # Home page and social settings
 SITELEAD = 'The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology.'
