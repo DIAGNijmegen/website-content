@@ -14,8 +14,12 @@ Adds an embed and responsive YouTube frame to a page.
 
 `[member: <member name>]`
 
+Example `[member: Wouter Bulten]`
+
+Creats a link to the member page of that user on the correct website. 
+
 `[member: <member name>, group: <group>]`
 
 Example `[member: Wouter Bulten, group: pathology]`
 
-Creats a link to a member page. Add the 'group' tag to link to a person on another website.
+Create a link to a member page on a specific website. Add the 'group' tag to link to a person on another website.
