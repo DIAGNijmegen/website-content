@@ -5,6 +5,7 @@ picture: Witali_Aswolinskiy.jpg
 position: Postdoctoral researcher
 active: yes
 groups: diag, pathology
+default_group: pathology
 email: witali.aswolinskiy@radboudumc.nl
 office: Route 812, Room 2.18
 telephone: +31 24 3616386

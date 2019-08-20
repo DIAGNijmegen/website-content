@@ -5,6 +5,7 @@ picture: Geert_Litjens.jpg
 position: Assistant professor
 active: yes
 groups: diag, pathology
+default_group: pathology
 email: geert.litjens@radboudumc.nl
 office: Route 812, Room 2.18
 telephone:

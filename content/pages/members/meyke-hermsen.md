@@ -5,6 +5,7 @@ picture: Meyke_Hermsen.jpg
 position: PhD student
 active: yes
 groups: diag, pathology
+default_group: pathology
 email: meyke.hermsen@radboudumc.nl
 office: Route 812, room 2.39
 type: phd

@@ -5,6 +5,7 @@ picture: Péter_Bándi.jpg
 position: PhD student
 active: yes
 groups: diag, pathology
+default_group: pathology
 email: peter.bandi@radboudumc.nl
 office: Route 812, Room 2.39
 telephone:

@@ -5,6 +5,7 @@ picture: Karel_Gerbrands.jpg
 position: Research Software Engineer
 active: no
 groups: diag, pathology, rse
+default_group: pathology
 email: karel.gerbrands@radboudumc.nl
 office: Route 767, Room 2.25
 telephone:

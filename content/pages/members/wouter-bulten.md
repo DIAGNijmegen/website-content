@@ -5,6 +5,7 @@ picture: Wouter_Bulten.png
 position: PhD student
 active: yes
 groups: diag, pathology
+default_group: pathology
 email: wouter.bulten@radboudumc.nl
 office: Route 812, room 2.39
 website: https://www.wouterbulten.nl
