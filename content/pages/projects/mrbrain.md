@@ -1,5 +1,6 @@
 title: MRBRAIN
 finished: true
+type: general
 template: project-single
 picture: projects/logo_mrbrain.png
 groups: aiimnijmegen

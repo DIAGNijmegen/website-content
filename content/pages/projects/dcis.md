@@ -1,5 +1,6 @@
 title: DCIS
 finished: false
+type: general
 picture: projects/DCIS_img.png
 people: Thomas de Bel, Jeroen van der Laak, Geert Litjens
 description: The aim of this project is to use deep learning for histological assessment of the stroma for improved risk stratification of ductal carcinoma in situ (DCIS) patients.

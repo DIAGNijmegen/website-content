@@ -1,5 +1,6 @@
 title: Tumor-Stroma Ratio
 finished: false
+type: general
 description: We aim at developing automatic and reproducible quantification of Tumor-Stroma Ratio in Whole-Slide Images using Deep Learning.
 template: project-single
 groups: pathology

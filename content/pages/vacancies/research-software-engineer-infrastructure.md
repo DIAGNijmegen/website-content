@@ -1,5 +1,5 @@
 title: Research Software Engineer - Infrastructure
-groups: diag, rse, msc-projects
+groups: diag, rse, ai-for-health 
 closed: true
 type: general
 picture: software/sol-logo.jpg

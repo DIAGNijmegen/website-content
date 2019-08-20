@@ -1,5 +1,5 @@
 title: Postdoctoral Researcher for Deep Learning in Computational Pathology
-groups: pathology, diag, msc-projects
+groups: pathology, diag, ai-for-health 
 closed: true
 type: general
 picture: vacancies/vacancy_postdoc.png

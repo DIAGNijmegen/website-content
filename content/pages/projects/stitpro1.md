@@ -1,5 +1,6 @@
 title: STITPRO I
 finished: true
+type: general
 template: project-single
 groups: pathology
 picture: projects/logo_STITPRO.png

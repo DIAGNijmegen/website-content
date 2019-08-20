@@ -1,5 +1,6 @@
 title: Tumor budding
 finished: false
+type: general
 picture: projects/TB_small.jpg
 template: project-single
 groups: pathology

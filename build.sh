@@ -34,8 +34,8 @@ else
 fi
 
 # List of websites to build
-declare -a websites=("website-diag" "website-msc-projects" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen")
-declare -a websites_without_bibtex=("website-msc-projects")
+declare -a websites=("website-diag" "website-ai-for-health" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen")
+#declare -a websites_without_bibtex=("website-ai-for-health")
 
 # Distribute the content pages
 python parse_content.py
@@ -57,10 +57,12 @@ do
 
   cd $website
 
-  if [[ $website != 'website-msc-projects' ]]; then
-    # Generate publications
-    python plugins/bib_writer.py
+  if [[ $website == 'website-ai-for-health' ]]; then
+    cp -r ../content/pages/members/. ./content/pages/members/
   fi
+
+  # Generate publications
+  python plugins/bib_writer.py
 
   if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]] || [[ $website == 'website-neuro' ]]; then
     # Init repo

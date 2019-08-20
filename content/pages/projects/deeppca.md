@@ -1,6 +1,7 @@
 title: Deep PCA
 title_long: Less unnecessary surgery and adjuvant therapy for prostate cancer patients through digital pathology and deep learning
 finished: false
+type: general
 picture: projects/Prostate3.png
 template: project-single
 groups: pathology

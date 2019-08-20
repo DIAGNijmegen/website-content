@@ -1,5 +1,6 @@
 title: STITPRO II
 finished: false
+type: general
 template: project-single
 groups: pathology
 picture: projects/logo_ASAP.png

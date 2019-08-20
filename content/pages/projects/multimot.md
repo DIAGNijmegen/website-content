@@ -1,5 +1,6 @@
 title: Multimot
 finished: false
+type: general
 template: project-single
 groups: pathology
 picture: projects/Multimot.png

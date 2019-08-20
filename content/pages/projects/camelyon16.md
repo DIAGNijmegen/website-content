@@ -1,5 +1,6 @@
 title: CAMELYON16
 finished: true
+type: general
 picture: projects/camelyon16_logo.png
 template: project-single
 groups: pathology

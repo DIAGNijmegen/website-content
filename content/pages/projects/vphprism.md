@@ -1,5 +1,6 @@
 title: VPH-PRISM
 finished: true
+type: general
 template: project-single
 groups: pathology, aiimnijmegen
 picture: projects/logo_vphprism.jpg

@@ -1,5 +1,6 @@
 title: SysMIFTA
 finished: false
+type: general
 picture: projects/SM_kidney.png
 bibkeys:
 people: Meyke Hermsen, Jeroen van der Laak, Luuk Hilbrands, Bart Smeets, Friedrich Feuerhake

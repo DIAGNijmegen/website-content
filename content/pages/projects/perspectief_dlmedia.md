@@ -1,6 +1,7 @@
 title: Perspectief DLMedIA
 title_long: Perspectief DLMedIA
 finished: false
+type: general
 picture: projects/perspectief_picture_map_cut.jpg
 template: project-single
 groups: retina
