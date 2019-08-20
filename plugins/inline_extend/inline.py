@@ -10,7 +10,7 @@ group_websites = {
     'retina': 'https://www.a-eyeresearch.nl',
     'rse': 'https://rse.diagnijmegen.nl',
     'bodyct': 'https://bodyct.diagnijmegen.nl',
-    'aiim': 'https://www.aiimnijmegen.nl',
+    'aiimnijmegen': 'https://www.aiimnijmegen.nl',
     'rtc': 'https://diagnijmegen.github.io/website-msc-projects/',
     'neuro': 'https://diagnijmegen.github.io/website-neuro/',
     'diag': 'https://beta.diagnijmegen.nl'

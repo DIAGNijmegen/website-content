@@ -15,7 +15,7 @@ group_websites = {
     'retina': 'https://www.a-eyeresearch.nl',
     'rse': 'https://rse.diagnijmegen.nl',
     'bodyct': 'https://bodyct.diagnijmegen.nl',
-    'aiim': 'https://www.aiimnijmegen.nl',
+    'aiimnijmegen': 'https://www.aiimnijmegen.nl',
     'rtc': 'https://diagnijmegen.github.io/website-msc-projects/',
     'neuro': 'https://diagnijmegen.github.io/website-neuro/',
     'diag': 'https://beta.diagnijmegen.nl'
@@ -60,8 +60,6 @@ def load_member_data(generator):
         with open(file) as f:
             data = parse_member_file(member, f)
             member_data[data['name']] = data
-
-    print(member_data)
 
     generator.context['MEMBER_DATA'] = member_data
 
