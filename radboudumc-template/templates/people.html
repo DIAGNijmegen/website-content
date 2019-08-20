@@ -15,7 +15,7 @@
 
         {% for person in pages|reverse %}
             {% if person.parent.url == 'members/' and person.type == 'chair' and person.active == 'yes' %}
-                {% if not ns.has_faculty %}
+                {% if not ns.has_chair %}
                     <h1 class="text-muted">Chair</h1>
                     <div class="row people-grid">
                     {% set ns.has_chair = True %}
@@ -24,7 +24,7 @@
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        {% if ns.has_faculty %}
+        {% if ns.has_chair %}
                     </div>
         {% endif %}
 
