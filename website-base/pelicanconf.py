@@ -11,6 +11,7 @@ AUTHOR = u'WebteamDIAG'
 SITENAME = u'DIAG Base'
 SITENAME_SHORT = 'DIAG'
 SITE_REPO = 'website-base'
+SITE_GROUP = 'base'
 
 # Home page and social settings
 SITELEAD = 'Some introduction text that is placed on the home page.'

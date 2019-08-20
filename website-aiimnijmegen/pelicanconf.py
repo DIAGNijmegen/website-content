@@ -11,6 +11,7 @@ AUTHOR = u'WebteamDIAG'
 SITENAME = u'DIAG AIIM'
 SITENAME_SHORT = 'AIIM'
 SITE_REPO = 'website-aiimnijmegen'
+SITE_GROUP = 'aiimnijmegen'
 
 # Home page and social settings
 SITELEAD = 'The AIIM Group develops, validates and deploys medical image analysis algorithms. Application areas include breast imaging, and radiotherapy applications.'

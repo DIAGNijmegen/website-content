@@ -14,6 +14,7 @@ SITENAME_SHORT = 'BodyCT'
 SITE_PICTURE = ''
 SITEURL = ''
 SITE_REPO = 'website-bodyct'
+SITE_GROUP = 'bodyct'
 
 # Home page and social settings
 SITELEAD = 'Some introduction text that is placed on the home page.'

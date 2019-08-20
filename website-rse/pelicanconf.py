@@ -11,6 +11,7 @@ AUTHOR = u'DIAG RSE'
 SITENAME = u'DIAG Research Software Engineering'
 SITENAME_SHORT = 'DIAG RSE'
 SITE_REPO = 'website-rse'
+SITE_GROUP = 'rse'
 
 # Home page and social settings
 SITELEAD = '''
