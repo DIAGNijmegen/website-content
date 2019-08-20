@@ -6,7 +6,7 @@ import os
 import glob
 from pelican import signals
 
-member_tags = ['name', 'position', 'groups', 'picture']
+member_tags = ['name', 'position', 'groups', 'picture', 'default_group']
 
 def parse_member_file(file):
     """Parse a single member file"""
@@ -21,6 +21,10 @@ def parse_member_file(file):
                     data[tag] = value.split(',')
                 else:
                     data[tag] = value
+
+    if 'default_group' not in data and 'groups' in data:
+        data['default_group'] = data['groups'][0]
+
     return data
 
 def load_member_data(generator):
