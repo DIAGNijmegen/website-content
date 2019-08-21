@@ -30,18 +30,6 @@ deploy:
   #   on:
   #     brach: master
   #   fqdn: beta.diagnijmegen.nl
- # - provider: pages
-    #repo: diagnijmegen/website-msc-projects
-    #skip-cleanup: true
-    #keep-history: true
-    #local-dir: website-msc-projects/output
-    #target-branch: master
-    #email: webteamdiag@gmail.com
-    #name: "Webteam DIAG Deploy Bot"
-    #github-token: $GH_PAGES
-    #on:
-      #brach: master
-##     fqdn: diagnijmegen.github.io/website-msc-projects
   - provider: pages
     repo: diagnijmegen/website-retina
     skip-cleanup: true

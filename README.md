@@ -12,11 +12,11 @@ Live websites:
 - Retina: https://www.a-eyeresearch.nl
 - RSE: https://rse.diagnijmegen.nl
 - RTC: https://www.ai-for-health.nl
+- AIIM: https://www.aiimnijmegen.nl
 
 Websites in development
 
 - Bodyct: https://bodyct.diagnijmegen.nl
-- AIIM: https://www.aiimnijmegen.nl
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
 - DIAG: https://beta.diagnijmegen.nl (temporary)
 

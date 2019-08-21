@@ -2,13 +2,17 @@
 
 To make writing content easier, custom tags can be used to include special content.
 
-## Embedding YouTube movies
+## Embedding YouTube/vimeo movies
 
 `[youtube: <video id>]`
 
 Example: [youtube: 9ks7cLpYAw8]
 
-Adds an embed and responsive YouTube frame to a page.
+`[vimeo: <video id>]`
+
+Example: [vimeo: 326352382]
+
+Adds an embedded and responsive YouTube/vimeo frame to a page.
 
 ## Linking to member pages
 
