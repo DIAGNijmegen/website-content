@@ -10,7 +10,7 @@ Example: [youtube: 9ks7cLpYAw8]
 
 `[vimeo: <video id>]`
 
-Example: [youtube: 326352382]
+Example: [vimeo: 326352382]
 
 Adds an embedded and responsive YouTube/vimeo frame to a page.
 
