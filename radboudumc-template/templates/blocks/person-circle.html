@@ -7,7 +7,7 @@
     {% endif %}
 
     {% if person.picture %}
-    <a href="{{ person_url }}"><img data-src="{{SITEURL}}/{{ ('images/people' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    <a href="{{ person_url }}"><img data-src="{{SITEURL}}/{{ ('images/people/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% else %}
     <a href="{{ person_url }}"><img data-src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% endif %}
