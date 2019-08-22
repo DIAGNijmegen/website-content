@@ -1,7 +1,7 @@
 title: Meyke Hermsen
 name: Meyke Hermsen
 template: people-single
-picture: Meyke_Hermsen.jpg
+picture: people/Meyke_Hermsen.jpg
 position: PhD student
 active: yes
 groups: diag, pathology
