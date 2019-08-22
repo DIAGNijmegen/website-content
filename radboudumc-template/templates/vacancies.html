@@ -10,7 +10,7 @@
     {{ page.content }}
 
     <h2>Open vacancies</h2>
-    <div class="row">
+    <div style="margin: 2em 0 1em 0;", class="row">
         {% set vacancies_show_closed = 'false' %}
         {% set show_vacancy_types = ['general'] %}
         {% include "blocks/vacancy-blocks.html" %}
@@ -18,7 +18,7 @@
 
     <h2>Student projects</h2>
     <p>We welcome good master's and bachelor's students to perform academic research in our group. We offer various projects that can be tuned to match your thesis requirements. You can also browse through our research pages to read about the different research topics of our group.</p>
-    <div class="row">
+    <div style="margin: 2em 0 1em 0;", class="row">
         {% set vacancies_show_closed = 'false' %}
         {% set show_vacancy_types = ['student'] %}
         {% include "blocks/vacancy-blocks.html" %}
@@ -30,14 +30,14 @@
     <p>The positions below are closed, please do not apply. They are listed to give you an idea of the kind of positions we regularly offer.</p>
 
     <b>Vacancies</b>
-    <div class="row">
+    <div style="margin: 1em 0 1em 0;", class="row">
         {% set vacancies_show_closed = 'true' %}
         {% set show_vacancy_types = ['general'] %}
         {% include "blocks/vacancy-blocks.html" %}
     </div>
 
     <b>Student projects</b>
-    <div class="row">
+    <div style="margin: 1em 0 1em 0;", class="row">
         {% set vacancies_show_closed = 'true' %}
         {% set show_vacancy_types = ['student'] %}
         {% include "blocks/vacancy-blocks.html" %}
