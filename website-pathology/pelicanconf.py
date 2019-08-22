@@ -14,7 +14,7 @@ SITE_GROUP = 'pathology'
 
 # Home page and social settings
 SITELEAD = 'The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology.'
-SITE_PICTURE = 'images/computational_pathology_social_image.png'
+SITE_PICTURE = 'images/social/computational_pathology_social_image.png'
 HOME_IMAGE = 'images/general/home-page-image.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
