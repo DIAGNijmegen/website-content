@@ -16,7 +16,7 @@ SITE_GROUP = 'neuro'
 
 # Home page and social settings
 SITELEAD = ''
-SITE_PICTURE = 'images/missing_picture_social.png'
+SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = ''
 HOME_IMAGE_CAPTION = ''
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
