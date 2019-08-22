@@ -6,39 +6,47 @@
         {% if vacancy.type in show_vacancy_types %}
         {% set ns.has_vacancy = True %}
           <div class="container">
-            <article class="row article-summary">
               {% if vacancy.closed == 'true' %}
                 <div class="col-md-12">
                   <p><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">{{ vacancy.title }}</a></p>
                 </div>
               {% else %}
-                <div class="col-md-3 article-image">
-                    {% if vacancy.picture %}
-                    <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
-                    {% else %}
-                    <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
-                    {% endif %}
-                </div>
+		<article class="row article-summary">
+		<div class="col-md-3 article-image">
+		    {% if vacancy.picture %}
+		    <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+		    {% else %}
+		    <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+		    {% endif %}
+		</div>
 
-                <div class="col-md-9 article-text">
-                    <header>
-                        <h3 class="entry-title"><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">{{ vacancy.title }}</a></h3>
-                    </header>
+		<div class="col-md-9 article-text">
+		    <header>
+			<h3 class="entry-title"><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">{{ vacancy.title }}</a></h3>
+		    </header>
 
-                    <p>{{ vacancy.description }}</p>
+		    <p>{{ vacancy.description }}</p>
 
-                    <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
-                </div>
+		    <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
+		</div>
+		</article>
               {% endif %}
-           </article>
+           
           </div>
         {% endif %}
         {% endif %}
     {% endif %}
 {% endfor %}
 
+
 {% if not ns.has_vacancy %}
-  <div class="col-md-8">
-    <p>There are no vacancies at the moment.</p>
-  </div>
+	{% if vacancies_show_closed == 'false' %}
+	  <div class="col-md-8">
+	    <p>There are no vacancies at the moment.</p>
+	  </div>
+	{% else %}
+	  <div class="col-md-8">
+	    <p>There are no closed vacancies at the moment.</p>
+	  </div>
+	{% endif %}
 {% endif %}
