@@ -10,7 +10,7 @@ MANDATORY
 title: Project title (appears on top of page)
 title_long: Project title (main caption)
 finished: false (change to 'true' to move the project from Current projects to Finished Projects)
-picture: {filename}.png (This picture appears on the project home page and is collected from website-content/content/images/. Upload a square and resized image there and keep into account with selecting your image that mostly the top part is showing)
+picture: projects/<image>.png (This picture appears on the project home page and is collected from website-content/content/images/. Upload a square and resized image there and keep into account with selecting your image that mostly the top part is showing)
 template: project-single
 groups: pathology/diag/rse/retina, etc (this tag determines on which websites the project will be shown. Adding diag is not mandatory)
 people: names of people involved in the project. (This will cause the project to appear on their personal pages. It is possible to add external people here. If you want their pictures to appear as well, upload a square and resized image to website-content/content/images/people/external/ with file name: firstname_lastname
@@ -31,7 +31,7 @@ FREE TEXT, FOR EXAMPLE:
 
 ```
 
-4. To add an image to the text, upload an image of choice to website-content/content/images/projects/ and type `![link name image]({filename}/images/projects/{filename}.png)`. The first {filename} is text, don't type the actual filename there. 
+4. To add an image to the text, upload an image of choice to website-content/content/images/projects/ and type `![name of image link]({filename}/images/projects/<image>.png)`. The first {filename} is text, don't type the actual filename there. 
 
 5. A preview van be viewed by selecting 'Preview' on the top of the edit page. 
 
