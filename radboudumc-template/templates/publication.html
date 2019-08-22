@@ -34,7 +34,7 @@
     {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
     <h2>Request PDF</h2>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="www.radboudimaging.nl">radboudimaging.nl</a>.
+    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
 
     <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey={{ page.bibkey }}&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
     {% endif %}
