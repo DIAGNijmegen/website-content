@@ -2,7 +2,8 @@
 
 1. Go to website-content/website-{subgroup}
 2. Select pelicanconf.py
-3. SITE_PICTURE refers to the default picture
+3. ```SITE_PICTURE = social/<image>.png``` refers to the default picture
 4. A placeholder ('missing_picture_social.png') is shown by default
-5. Add the picture you would like to appear for your website when sharing links in website-content/content-images/images
-6. Replace 'images/missing_picture_social.png' with the correct link.
+5. Add your image of choice in website-content/content-images/images/social
+6. Replace ```SITE_PICTURE = social/<image>.png``` with the correct link.
+7. Commit changes
