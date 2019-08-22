@@ -1,7 +1,7 @@
 title: John-Melle Bokhorst
 name: John-Melle Bokhorst
 template: people-single
-picture: John-Melle_Bokhorst.jpg
+picture: people/John-Melle_Bokhorst.jpg
 position: PhD student
 active: yes
 groups: diag, pathology

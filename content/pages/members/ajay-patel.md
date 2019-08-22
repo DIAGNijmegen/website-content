@@ -1,7 +1,7 @@
 title: Ajay Patel
 name: Ajay Patel
 template: people-single
-picture: Ajay_Patel_bw.jpg
+picture: people/Ajay_Patel_bw.jpg
 position: PhD student
 active: yes
 groups: diag, neuro

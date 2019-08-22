@@ -1,7 +1,7 @@
 title: Maschenka Balkenhol
 name: Maschenka Balkenhol
 template: people-single
-picture: Maschenka_Balkenhol.jpg
+picture: people/Maschenka_Balkenhol.jpg
 position: Pathology resident and PhD student
 active: yes
 groups: diag, pathology

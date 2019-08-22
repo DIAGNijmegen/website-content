@@ -1,7 +1,7 @@
 title: Mehmet Dalmis 
 name: Mehmet Dalmis 
 template: people-single
-picture: Mehmet_Dalmis.jpg
+picture: people/Mehmet_Dalmis.jpg
 position: PhD candidate
 active: yes
 groups: diag, aiimnijmegen

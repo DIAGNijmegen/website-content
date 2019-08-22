@@ -1,7 +1,7 @@
 title: Fazael Ayatollahi
 name: Fazael Ayatollahi
 template: people-single
-picture: Fazael_Ayatollahi.jpg
+picture: people/Fazael_Ayatollahi.jpg
 position: PhD candidate
 active: yes
 groups: aiimnijmegen

@@ -1,7 +1,7 @@
 title: Caner Mercan
 name: Caner Mercan
 template: people-single
-picture: Caner_Mercan.jpg
+picture: people/Caner_Mercan.jpg
 position: Postdoctoral researcher
 active: yes
 email: caner.mercan@radboudumc.nl

@@ -1,7 +1,7 @@
 title: Jeroen van der Laak
 name: Jeroen van der Laak
 template: people-single
-picture: Jeroen_van_der_Laak.jpg
+picture: people/Jeroen_van_der_Laak.jpg
 position: Associate professor/Group leader
 active: yes
 groups: diag, pathology

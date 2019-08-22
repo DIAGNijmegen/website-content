@@ -1,7 +1,7 @@
 title: Sil van de Leemput
 name: Sil van de Leemput
 template: people-single
-picture: Sil_van_de_Leemput.jpg
+picture: people/Sil_van_de_Leemput.jpg
 position: PhD student
 active: yes
 groups: diag, neuro

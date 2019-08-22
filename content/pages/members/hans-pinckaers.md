@@ -1,7 +1,7 @@
 title: Hans Pinckaers
 name: Hans Pinckaers
 template: people-single
-picture: Hans_Pinckaers.jpg
+picture: people/Hans_Pinckaers.jpg
 position: PhD student
 active: yes
 groups: diag, pathology

@@ -1,7 +1,7 @@
 title: Joep Kamps
 name: Joep Kamps
 template: people-single
-picture: Joep_Kamps.jpg
+picture: people/Joep_Kamps.jpg
 position: Data Manager
 active: yes
 groups: diag, rse, retina

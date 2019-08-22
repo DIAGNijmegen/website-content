@@ -1,7 +1,7 @@
 title: Germonda Mooij
 name: Germonda Mooij
 template: people-single
-picture: Germonda_Mooij.jpg
+picture: people/Germonda_Mooij.jpg
 position: Master student
 active: no
 groups: diag, pathology

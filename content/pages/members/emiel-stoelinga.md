@@ -1,7 +1,7 @@
 title: Emiel Stoelinga
 name: Emiel Stoelinga
 template: people-single
-picture: Emiel_Stoelinga.jpg
+picture: people/Emiel_Stoelinga.jpg
 position: Master student
 active: yes
 groups: diag, pathology

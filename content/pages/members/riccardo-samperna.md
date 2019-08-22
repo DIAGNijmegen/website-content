@@ -1,7 +1,7 @@
 title: Riccardo Samperna
 name: Riccardo Samperna
 template: people-single
-picture: Riccardo_Samperna.jpg
+picture: people/Riccardo_Samperna.jpg
 position: PhD candidate
 active: yes
 groups: diag, aiimnijmegen

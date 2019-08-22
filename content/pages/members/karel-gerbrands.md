@@ -1,7 +1,7 @@
 title: Karel Gerbrands
 name: Karel Gerbrands
 template: people-single
-picture: Karel_Gerbrands.jpg
+picture: people/Karel_Gerbrands.jpg
 position: Research Software Engineer
 active: no
 groups: diag, pathology, rse

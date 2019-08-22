@@ -1,7 +1,7 @@
 title: Bart Liefers
 name: Bart Liefers
 template: people-single
-picture: Bart_Liefers.jpg
+picture: people/Bart_Liefers.jpg
 position: PhD student
 active: yes
 groups: diag, retina

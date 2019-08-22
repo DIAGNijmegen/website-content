@@ -1,7 +1,7 @@
 title: Anton Meijer
 name: Anton Meijer
 template: people-single
-picture: Anton_Meijer_bw.jpg
+picture: people/Anton_Meijer_bw.jpg
 position: Neuroradiologist
 active: yes
 groups: diag, neuro

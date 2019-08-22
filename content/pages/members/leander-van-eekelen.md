@@ -1,7 +1,7 @@
 title: Leander van Eekelen
 name: Leander van Eekelen
 template: people-single
-picture: Leander_van_Eekelen.jpg
+picture: people/Leander_van_Eekelen.jpg
 position: Master student
 active: yes
 groups: diag, pathology

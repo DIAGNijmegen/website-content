@@ -1,7 +1,7 @@
 title: Francesco Ciompi
 name: Francesco Ciompi
 template: people-single
-picture: Francesco_Ciompi.jpg
+picture: people/Francesco_Ciompi.jpg
 position: Assistant Professor
 active: yes
 groups: diag, pathology

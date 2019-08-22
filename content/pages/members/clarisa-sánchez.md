@@ -1,7 +1,7 @@
 title: Clarisa Sánchez
 name: Clarisa Sánchez
 template: people-single
-picture: Clarisa_Sánchez.jpg
+picture: people/Clarisa_Sánchez.jpg
 position: Associate professor
 active: yes
 groups: diag, retina

@@ -1,7 +1,7 @@
 title: Oscar Geessink
 name: Oscar Geessink
 template: people-single
-picture: Oscar_Geessink.jpg
+picture: people/Oscar_Geessink.jpg
 position: PhD student
 active: yes
 groups: diag, pathology

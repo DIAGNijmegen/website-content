@@ -1,7 +1,7 @@
 title: Ritse Mann
 name: Ritse Mann
 template: people-single
-picture: Ritse_Mann.jpg
+picture: people/Ritse_Mann.jpg
 position: Breast and interventional radiologist
 active: yes
 groups: aiimnijmegen

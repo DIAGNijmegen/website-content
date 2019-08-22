@@ -1,7 +1,7 @@
 title: Babak Ehteshami-Bejnordi
 name: Babak Ehteshami-Bejnordi
 template: people-single
-picture: Babak_Ehteshami_Bejnordi.jpg
+picture: people/Babak_Ehteshami_Bejnordi.jpg
 position: PhD student
 active: no
 email: babak@radboudumc.nl

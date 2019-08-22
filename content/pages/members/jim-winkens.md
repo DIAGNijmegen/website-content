@@ -1,7 +1,7 @@
 title: Jim Winkens
 name: Jim Winkens
 template: people-single
-picture: Jim_Winkens.jpg
+picture: people/Jim_Winkens.jpg
 position: Master student
 active: no
 groups: diag, pathology

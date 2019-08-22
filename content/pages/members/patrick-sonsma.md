@@ -1,7 +1,7 @@
 title: Patrick Sonsma
 name: Patrick Sonsma
 template: people-single
-picture: Patrick_Sonsma.jpg
+picture: people/Patrick_Sonsma.jpg
 position: Master student
 active: yes
 groups: diag, pathology

@@ -1,7 +1,7 @@
 title: Nikolas Lessmann
 name: Nikolas Lessmann
 template: people-single
-picture: Nikolas_Lessmann.jpg
+picture: people/Nikolas_Lessmann.jpg
 position: Postdoctoral researcher
 active: yes
 groups: diag

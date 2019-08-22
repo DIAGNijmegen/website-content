@@ -1,7 +1,7 @@
 title: Miriam Groeneveld
 name: Miriam Groeneveld
 template: people-single
-picture: Miriam_Groeneveld.jpg
+picture: people/Miriam_Groeneveld.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, pathology, rse

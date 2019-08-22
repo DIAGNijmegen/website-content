@@ -1,7 +1,7 @@
 title: Henkjan Huisman
 name: Henkjan Huisman
 template: people-single
-picture: Henkjan_Huisman.jpg
+picture: people/Henkjan_Huisman.jpg
 position: Associate professor
 active: yes
 groups: diag

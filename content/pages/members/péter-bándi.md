@@ -1,7 +1,7 @@
 title: Péter Bándi
 name: Péter Bándi
 template: people-single
-picture: Péter_Bándi.jpg
+picture: people/Péter_Bándi.jpg
 position: PhD student
 active: yes
 groups: diag, pathology

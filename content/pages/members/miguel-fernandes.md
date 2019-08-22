@@ -1,7 +1,7 @@
 title: Miguel Fernandes
 name: Miguel Fernandes
 template: people-single
-picture: Miguel_Fernandes.jpg
+picture: people/Miguel_Fernandes.jpg
 position: PhD candidate
 active: yes
 groups: diag, aiimnijmegen

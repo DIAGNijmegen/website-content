@@ -1,7 +1,7 @@
 title: Mark van Grinsven
 name: Mark van Grinsven
 template: people-single
-picture: Mark_van_Grinsven.jpg
+picture: people/Mark_van_Grinsven.jpg
 position: PhD student
 active: no
 groups: diag, retina

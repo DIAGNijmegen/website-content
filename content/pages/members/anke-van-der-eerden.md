@@ -1,7 +1,7 @@
 title: Anke van der Eerden
 name: Anke van der Eerden
 template: people-single
-picture: Anke_van_der_Eerden_bw.jpg
+picture: people/Anke_van_der_Eerden_bw.jpg
 position: PhD student
 active: yes
 groups: diag, neuro

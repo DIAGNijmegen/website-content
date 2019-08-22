@@ -1,7 +1,7 @@
 title: Marcel Oei
 name: Marcel Oei
 template: people-single
-picture: Marcel_Oei_bw.jpg
+picture: people/Marcel_Oei_bw.jpg
 position: PhD student
 active: yes
 groups: diag, neuro

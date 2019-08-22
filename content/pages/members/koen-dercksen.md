@@ -1,7 +1,7 @@
 title: Koen Dercksen
 name: Koen Dercksen
 template: people-single
-picture: Koen_Dercksen.jpg
+picture: people/Koen_Dercksen.jpg
 position: Master student
 active: yes
 groups: diag, pathology

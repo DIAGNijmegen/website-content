@@ -1,7 +1,7 @@
 title: Bram van Ginneken
 name: Bram van Ginneken
 template: people-single
-picture: Bram_van_Ginneken.jpg
+picture: people/Bram_van_Ginneken.jpg
 position: Professor
 active: yes
 groups: diag

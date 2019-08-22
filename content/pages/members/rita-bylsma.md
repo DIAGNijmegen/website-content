@@ -1,7 +1,7 @@
 title: Rita Bylsma
 name: Rita Bylsma
 template: people-single
-picture: Person.png
+picture: people/Person.png
 position: Research Software Engineer
 active: yes
 groups: diag, rse

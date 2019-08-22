@@ -1,7 +1,7 @@
 title: Jeffrey Hoven
 name: Jeffrey Hoven
 template: people-single
-picture: Jeffrey_Hoven.jpg
+picture: people/Jeffrey_Hoven.jpg
 position: Research technician
 active: no
 groups: diag, pathology

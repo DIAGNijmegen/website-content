@@ -1,7 +1,7 @@
 title: Michel Kok
 name: Michel Kok
 template: people-single
-picture: Michel_Kok.jpg
+picture: people/Michel_Kok.jpg
 position: Master student
 active: yes
 groups: diag, pathology
