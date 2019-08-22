@@ -1,27 +1,32 @@
 # Edit home page
 
-# Edit text home page
 1. Go to website-content/website-{subgroup}
 2. Select pelicanconf.py
-3. Lines 8, 9, 15 and 18 are editable text. 
-8: The name of the site, for examle 'Computational Pathology Group' 
-9: The short name of the site, this is visible in mobile mode and should be only a couple of characters (max 5)
-15: The main text on the home page with info on your group
-18: The caption of the main image on the home page
+
+# Edit text home page
+
+Edit (one of the) following in the subgroup's pelicanconf.py
+
+```
+SITENAME = 'Name of the site'
+SITENAME_SHORT = 'Short name of the site, visible in mobile mode. Max 5 characters'
+SITELEAD = 'General text home page'
+HOME_IMAGE_CAPTION = 'Caption under top image home page'
+```
+
+# Edit main image home page
+
+### Static home page image
+
+1. Upload an image to website-content/content/images/general/
+2. Edit `HOME_IMAGE = 'images/general/<image>.png` in the subgroup's pelicanconf.py
+
+### Dynamic home page image
+
+Write `HOME_IMAGE = 'highlight'` in the subgroup's pelicanconf.py. The home page image will now automatically switch to the last Highlight
 
 # Edit links header and footers
-1. Go to website-content/website-{subgroup}
-2. Select pelicanconf.py
-3. Lines 20, 21 and 22 are editable
-Line 20: footer text and link
-Lines 21 + 22: header text and links. These should stay the same, link to Radboudumc and DIAG.
 
-# Edit picture home page
-1. Upload a resized image to website-content/content/images/general/
-2. Go to website-content/website-pathology/rse/retina/
-3. Select pelicanconf.py
-4. Line 17 links to the image that should appear on the home page
-Example: website-content/content/images/general/filename.png
+Edit ```FOOTER_TEXT = 'The .... Group is part of the Department of ... at <a href="link">text</a>.'```
 
-
-
+The ```TOP_DOMAIN``` and ```PARENT_DOMAIN``` should not be changed
