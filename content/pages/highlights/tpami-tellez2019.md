@@ -1,6 +1,6 @@
 title: Neural Image Compression for Gigapixel Histopathology Image Analysis.
 date: 2019-08-23
-description: David Tellez et al present a new method to train neural networks on gigapixel whole-slide images directly, avoiding the need for fine-grained annotations. This approach allows the neural network to discover new predictive features by using automatically derived 'annotations' such as biomarker presence or patient outcome. Their work is now published in IEEE Transactions on Pattern Analysis and Machine Intelligence.
+description: David Tellez et al present a new method to train neural networks on gigapixel whole-slide images directly, avoiding the need for fine-grained annotations. Their work appeared online yesterday in IEEE TPAMI.
 picture: tpami_I.png
 groups: diag, pathology
 
