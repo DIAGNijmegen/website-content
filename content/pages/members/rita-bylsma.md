@@ -1,11 +1,12 @@
 title: Rita Bylsma
 name: Rita Bylsma
 template: people-single
-picture: people/Person.png
+picture: people/Rita_Bijlsma.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse
 email: Rita.Bijlsma@radboudumc.nl
+linkedin: https://www.xing.com/profile/Rita_Bylsma; https://www.linkedin.com/in/rita-bijlsma-5885862/ 
 office: Route 767, Room 25
 type: tech
 
