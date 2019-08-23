@@ -13,5 +13,3 @@ NIC works in two steps. First, gigapixel images are compressed using a neural ne
  
 [member: David Tellez] et al compared several encoding strategies, namely reconstruction error minimization, contrastive training and adversarial feature learning, and evaluated NIC on a synthetic task and two public histopathology datasets. They found that NIC can exploit visual cues associated with image-level labels successfully, integrating both global and local visual information. Furthermore, they could visualize the regions of the WSIs where the classifier attended to, and confirmed that they overlapped with annotations from human experts.
 
-Read more about the work of David Tellez et al in their recent publication in <a href="https://ieeexplore.ieee.org/document/8809829">IEEE Transactions on Pattern Analysis and Machine Intelligence<a/>.
-
