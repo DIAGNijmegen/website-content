@@ -1,5 +1,5 @@
 title: Research Software Engineer
-groups: diag, rse, ai-for-health 
+groups: diag, rse
 closed: false
 type: general
 picture: general/ApplicationsOfDeepLearning.png
