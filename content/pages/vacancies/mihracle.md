@@ -2,7 +2,7 @@ title: PhD position for building multi-modal interactive health records
 groups: ai-for-health 
 closed: false
 type: general
-picture: vacancies/msk_lbp.jpg
+picture: vacancies/mihracle.png
 people: Arjen de Vries, Faegheh Hasibi, Liesbeth Langenhuysen, Paula Soedira, Monique Brink, Ritse Mann, Bram van Ginneken 
 template: vacancy-single
 description: We are looking for a PhD candidate to build a system that can automatically create annotated radiology reports that a patient can understand.
