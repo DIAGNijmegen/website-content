@@ -2,6 +2,7 @@ title: PhD position for developing an AI algorithm to prevent and predict the oc
 groups: ai-for-health 
 closed: false
 type: general
+picture: vacancies/cvc.jpg
 people: Tim Frenzel, Jeroen Schouten, Marcel van Gerven, Hans van der Hoeven
 template: vacancy-single
 description: We are looking for a PhD candidate to develop a real-time warning system for infection risk of central venous catheters for patients in the intensive care unit.
