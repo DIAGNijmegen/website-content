@@ -13,7 +13,7 @@ Unnecessary removal of wisdom teeth is an enormous health and economic problem w
 presurgical consultation.
 
 The goal of this project is to create an AI-driven decision flowchart (AIFC). In a first step, the AIFC will generate a categorial output based upon a 2D panoramic radiograph (OPG) and clinical signs, resulting in
-1) advice to Remove of a wisdom tooth; 2) advice to not remove a wisdom tooth; or 3) recommend additional 3D imaging with a cone-beam CT (CBCT) scan. If the CBCT scan is available, the system will recommend whether or not to remove a wisdom tooth.
+1) advice to remove a wisdom tooth; 2) advice to not remove a wisdom tooth; or 3) recommend additional 3D imaging with a cone-beam CT (CBCT) scan. If the CBCT scan is available, the system will recommend whether or not to remove a wisdom tooth.
 
 The system will be developed, validated, prospectively tested and implemented in close collaboration with AI experts of Radboud AI for Health and clinical experts at Radboudumc.
 
