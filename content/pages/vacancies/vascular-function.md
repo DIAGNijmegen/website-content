@@ -23,6 +23,6 @@ You will be appointed as a PhD student for four years with the standard salary a
 
 ## Application
 
-You can already apply directly by e-mail to [Dr. Christian Gillissen](mailto:Christian.Gilissen@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you have written in English.
+You can already apply directly by e-mail to [Dr. Jurgen Claassen](mailto:Jurgen.Claassen@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you have written in English.
 
 All applications will be processed immediately upon receipt until the position has been filled.
