@@ -2,7 +2,7 @@ title: PhD position for development and validation of a deep-learning system for
 groups: ai-for-health 
 closed: false
 type: general
-picture: vacancies/wisdomteeth.png
+picture: vacancies/wisdomteeth.jpg
 people: Thomas Maal, Tong Xi, Guido de Jong, Hossein Ghaeminia, Gilles Claeys, Bram van Ginneken, Stefaan Bergé
 template: vacancy-single
 description: We are looking for a PhD candidate to develop a deep-learning system that can predict, on the basis of clinical information, panoramic radiographs, and possibly cone-beam CT if wisdom tooth removal is recommended.
