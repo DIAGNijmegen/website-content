@@ -6,7 +6,7 @@ picture: vacancies/AIFH_info.png
 template: people
 description: ICAI, the Innovation Center for Artificial Intelligence, is a national network aimed at technology and talent development between knowledge institutes, industry, and government in the area of artificial intelligence.
 
-Opening of Thira Lab and Radboud AI for Health Lab
+#Opening of Thira Lab and Radboud AI for Health Lab
  
 We proudly invite you to the opening event on Monday September 16 of two newly established AI initiatives at Radboud university medical center: Radboud AI for Health and Thira Lab. These are the first two Nijmegen-based 'labs' within the nationwide Innovation Center for Artificial Intelligence (ICAI). 
  
