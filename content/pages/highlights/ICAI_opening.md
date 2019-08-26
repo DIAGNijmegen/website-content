@@ -1,6 +1,6 @@
 title: Opening of Thira Lab and Radboud AI for Health Lab.
 date: 2019-08-26
-description: We proudly invite you to the opening event on Monday September 16 of two newly established AI initiatives at Radboud university medical center: Radboud AI for Health and Thira Lab. These are the first two Nijmegen-based 'labs' within the nationwide Innovation Center for Artificial Intelligence (ICAI)..
+description: We proudly invite you to the opening event on Monday September 16 of two newly established AI initiatives at Radboud university medical center: Radboud AI for Health and Thira Lab. These are the first two Nijmegen-based 'labs' within the nationwide Innovation Center for Artificial Intelligence (ICAI).
 picture: ICAI_logo.jpg
 groups: ai-for-health
 
