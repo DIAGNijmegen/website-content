@@ -11,7 +11,7 @@ Live websites:
 - Pathology: https://www.computationalpathologygroup.eu
 - Retina: https://www.a-eyeresearch.nl
 - RSE: https://rse.diagnijmegen.nl
-- RTC: https://www.ai-for-health.nl
+- AI for Health: https://www.ai-for-health.nl
 - AIIM: https://www.aiimnijmegen.nl
 
 Websites in development
