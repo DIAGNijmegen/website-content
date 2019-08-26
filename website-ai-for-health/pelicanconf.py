@@ -67,8 +67,9 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 SLUGIFY_SOURCE = 'basename'
 
-ARTICLE_URL = 'highlights/{slug}/'
-ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
+ARTICLE_URL = 'news/{slug}/'
+ARTICLE_SAVE_AS = 'news/{slug}/index.html'
+ARTICLE_TYPE = 'News'
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
@@ -78,7 +79,7 @@ CATEGORIES_SAVE_AS = ''
 
 ARCHIVES_SAVE_AS = ''
 SITEMAP_SAVE_AS = 'sitemap.xml'
-
+INDEX_SAVE_AS = 'news/index.html'
 # Theme settings
 THEME = "../radboudumc-template"
 DIRECT_TEMPLATES = ['index', 'sitemap']

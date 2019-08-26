@@ -84,6 +84,7 @@ ARCHIVES_SAVE_AS = ''
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 INDEX_SAVE_AS = 'highlights/index.html'
+ARTICLE_TYPE = 'Highlights'
 
 # Theme settings
 THEME = "../radboudumc-template"

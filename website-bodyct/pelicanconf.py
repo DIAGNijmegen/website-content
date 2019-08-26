@@ -76,6 +76,9 @@ SLUGIFY_SOURCE = 'basename'
 
 ARTICLE_URL = 'highlights/{slug}/'
 ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
+ARTICLE_TYPE = 'Highlights'
+
+
 
 CATEGORY_URL = 'categories/{slug}'
 CATEGORY_SAVE_AS = 'categories/{slug}/index.html'

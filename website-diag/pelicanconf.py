@@ -90,6 +90,7 @@ SLUGIFY_SOURCE = 'basename'
 
 ARTICLE_URL = 'highlights/{slug}/'
 ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
+ARTICLE_TYPE = 'Highlights'
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''

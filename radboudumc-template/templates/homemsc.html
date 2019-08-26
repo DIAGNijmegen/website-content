@@ -24,6 +24,28 @@
             </div>
         </div>
     </div>
+
+    {% if articles %}
+        <div class="block">
+	    <div class="container">
+		<div class="row">
+		    <div class="col-md-12 mb-4">
+			<h1>{{ ARTICLE_TYPE }}</h1>
+		    </div>
+		</div>
+		<div class="row">
+		    <div class="col-md-8 col-lg-9">
+			{% for article in articles[0:2] %}
+			    {% include 'blocks/article-summary.html' %}
+			{% endfor %}
+			<p><a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}" class="btn btn-primary">All {{ ARTICLE_TYPE.lower() }}</a></p>
+
+		    </div>
+		</div>
+	    </div>
+	</div>
+    {% endif %}
+
     <div class="block">
         <div class="container">
             <div class="row">

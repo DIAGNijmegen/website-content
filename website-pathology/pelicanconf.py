@@ -69,6 +69,7 @@ SLUGIFY_SOURCE = 'basename'
 
 ARTICLE_URL = 'highlights/{slug}/'
 ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
+ARTICLE_TYPE = 'Highlights'
 
 CATEGORY_URL = ''
 CATEGORY_SAVE_AS = ''
@@ -78,6 +79,7 @@ ARCHIVES_SAVE_AS = ''
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 INDEX_SAVE_AS = 'highlights/index.html'
+
 
 # Theme settings
 THEME = "../radboudumc-template"
