@@ -21,7 +21,7 @@ The opening event will take place in the Tuinzaal (route 706). We will start wit
 The meeting ends at 14.30h and there will be time until 15.00h for drinks and networking.
  
 Registration
-The lunch and meeting are open to all. Please register via this link: https://radboudumc-web.ungerboeck.com/reg/reg_p1_form.aspx?oc=10&ct=COURREG&eventid=10408
+The lunch and meeting are open to all. Please register via this [link](https://radboudumc-web.ungerboeck.com/reg/reg_p1_form.aspx?oc=10&ct=COURREG&eventid=10408).
  
 Best regards on behalf of the directors of Thira Lab and Radboud AI for Health Lab,
  
