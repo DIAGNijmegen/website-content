@@ -25,5 +25,5 @@ The lunch and meeting are open to all. Please register via this [link](https://r
  
 Best regards on behalf of the directors of Thira Lab and Radboud AI for Health Lab,
  
-Marcel van Gerven , Bram van Ginneken, Colin Jacobs, Elena Marchiori, Clarisa Sanchez
+[Marcel van Gerven](mailto:m.vangerven@donders.ru.nl), [Bram van Ginneken](mailto:bram.vanginneken@radboudumc.nl), [Colin Jacobs](mailto:colin.jacobs@radboudumc.nl), [Elena Marchiori](elenam@cs.ru.nl), [Clarisa Sanchez](mailto:clara.sanchezgutierrez@radboudumc.nl)
 
