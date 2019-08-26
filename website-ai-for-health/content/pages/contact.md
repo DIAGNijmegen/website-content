@@ -1,6 +1,6 @@
 title: Contact
 
-If you have questions or suggestion about the ICAI Lab Radboud AI for Health, feel free to contact one of the directors or other people listed below
+If you have questions or suggestion about the ICAI Lab Radboud AI for Health, feel free to contact one of the directors or other people listed below.
 
 ## Scientific Directors
 
