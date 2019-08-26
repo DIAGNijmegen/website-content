@@ -1,4 +1,4 @@
-title: Neural Image Compression for Gigapixel Histopathology Image Analysis.
+title: Neural Image Compression for Gigapixel Histopathology Image Analysis
 date: 2019-08-23
 description: David Tellez et al present a new method to train neural networks on gigapixel whole-slide images directly, avoiding the need for fine-grained annotations. Their work appeared online yesterday in IEEE TPAMI.
 picture: tpami_I.png
