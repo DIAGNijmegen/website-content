@@ -32,6 +32,8 @@ Multiple student projects are available in the context of this research. Example
 * Segmentation of several compartments of lung tissue with deep learning segmentation models
 * Classification of lung cancer subtypes using weakly supervised learning
 
+For each task, the student is expected to develop a demonstrator that allows to run the built AI model/pipeline on new whole-slide images.
+
 Contact the supervisor of this project for more information about availability of projects.
 
 ## Requirements
