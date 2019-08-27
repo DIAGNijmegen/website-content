@@ -15,5 +15,15 @@ The Radboud AI for Health Lab received an initial funding from Radboudumc's inno
 
 The lab profits from the AI expertise available within Radboudumc, such as the [Diagnostic Image Analysis Group](http://diagnijmegen.nl/), and elsewhere in Radboud University, in the [Institute for Computing and Information Sciences](https://www.ru.nl/icis/) of the [Faculty of Science](https://www.ru.nl/science/) and the [Artificial Intelligence Department](https://www.ru.nl/cai/) of the [Faculty of Social Sciences](https://www.ru.nl/socialsciences/). The lab is housed in the [Radboudumc Innovation Space](https://www.radboudumc.nl/en/reshape/innovation-space), colocated with [iLab](https://www.radboudumc.nl/werken-bij/de-radboud-manier-van-werken/ilab) and [REshape](https://www.radboudumc.nl/reshape) and the [Radboudumc Technology Center Deep Learning](https://radboudumc.nl/deeplearning) to implement the lab's innovations into the clinic. The initiative is embedded within the national ICAI network and is actively looking to partner with others to grow further in the near future. 
 
+## Scientific Directors
+
+* [Marcel van Gerven](https://www.ru.nl/personen/gerven-m-van/), Professor of Artificial Cognitive Systems, Faculty of Social Sciences, Radboud University
+* [Bram van Ginneken](http://www.diagnijmegen.nl/index.php/Bram_van_Ginneken), Professor of Medical Image Analysis, Radboudumc
+* [Elena Marchiori](http://www.cs.ru.nl/~elenam/), Professor of Machine Learning for Natural Sciences, Faculty of Science, Radboud University
+
+## Governing Board
+
+The governing board will be installed soon.
+
 
 
