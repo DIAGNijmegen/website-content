@@ -14,7 +14,7 @@ SITE_REPO = 'website-rtc'
 SITE_GROUP = 'rtc'
 
 # Home page and social settings
-SITELEAD = 'Some introduction text that is placed on the home page.'
+SITELEAD = 'The Radboudumc Technology Center (RTC) Deep Learning leverages the expertise of the Diagnostic Image Analysis Group ([DIAG](www.diagnijmegen.nl)) in using machine learning, specifically deep learning, to analyze images and other medical data. RTC Deep Learning has set up a high-performance GPU cluster on which deep learning systems can be trained and deployed. We can be approached for consultation regarding all questions pertaining to the use of deep learning for specific problems. Additionally, we can make project-specific algorithms and commercial-grade web-based image analysis and data analytics software.<br><br> Our areas of expertise include: medical image analysis, development of deep learning algorithms, web-based image analysis and viewing applications and Docker and (cloud-based) GPU solutions.'
 SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
