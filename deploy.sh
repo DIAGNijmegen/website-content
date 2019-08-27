@@ -12,7 +12,8 @@ python parse_content.py
 for website in "${websites[@]}"
 do
   echo "Building $website"
-
+  cd $website
+  
   if [[ $website == 'website-pathology' ]] || [[ $website == 'website-diag' ]] || [[ $website == 'website-neuro' ]]; then
     # Init repo
     echo "Cloning ${website} output repository"
