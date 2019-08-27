@@ -3,6 +3,8 @@
 # Break build on error
 set -e
 
+echo $WEBSITES
+
 for website in "${WEBSITES[@]}"
 do
   echo "\n"
