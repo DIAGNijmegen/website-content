@@ -54,4 +54,4 @@ for dir in directories:
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
                         print(e)
-print('done')
+print('Copied pages to websites.')
