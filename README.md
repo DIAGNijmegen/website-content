@@ -19,7 +19,7 @@ Websites in development
 - Bodyct: https://bodyct.diagnijmegen.nl
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
 - DIAG: https://beta.diagnijmegen.nl (temporary)
-- RTC: https://diagnijmegen.github.io/website-rtc/projects/ (temporary)
+- RTC: https://diagnijmegen.github.io/website-rtc/ (temporary)
 
 ## Updating the content
 
