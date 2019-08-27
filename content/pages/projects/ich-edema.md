@@ -4,7 +4,7 @@ type: general
 description: Segmentation of intracerebral hemorrhage and peri-hematomal edema in non-contrast CT using Deep Learning.
 template: project-single
 groups: rtc
-picture: 
+picture: projects/ich-edema.png
 people: Ajay Patel, Rashindra Manniesing, Karin Klijn, Floris Schreuder
 bibkeys: 
 
