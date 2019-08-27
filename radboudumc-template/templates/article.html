@@ -7,7 +7,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="{{ SITEURL }}/">Home</a></li>
-        <li class="breadcrumb-item"><a href="{{ SITEURL }}/highlights">Highlights</a></li>
+	<li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}">{{ ARTICLE_TYPE }}</a></li>
         <li class="breadcrumb-item">{{ article.title }}</li>
       </ol>
     </nav>
