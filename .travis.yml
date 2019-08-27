@@ -15,7 +15,8 @@ install:
   - pip install -r requirements.txt
   - npm install --prefix imgoptim --no-save
 script:
-  - bash build.sh
+  - bash optimize_images.sh
+  - bash deploy.sh
 
 deploy:
   # - provider: pages
