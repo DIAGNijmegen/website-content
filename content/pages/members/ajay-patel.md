@@ -4,7 +4,7 @@ template: people-single
 picture: people/Ajay_Patel_bw.jpg
 position: PhD student
 active: yes
-groups: diag, neuro
+groups: diag, neuro, rtc
 email: ajay.patel@radboudumc.nl
 office: Route 767, Room 27
 type: phd
