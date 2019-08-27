@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'Research Technology Centre'
+SITENAME = u'RTC Deep Learning'
 SITENAME_SHORT = 'RTC'
 SITE_REPO = 'website-rtc'
 SITE_GROUP = 'rtc'
@@ -19,24 +19,24 @@ SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Some footer text'
+FOOTER_TEXT = 'RTC Deep Learning'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
+#     {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
+#     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
+#     {"name": "Presentations", "url": "presentations", "hidden": 95},
+#     {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Highlights", "Projects", "Members"]
+HOME_SECTIONS = ["Projects", "Members"]
 
 # URLs
 SITEURL = ''
