@@ -26,8 +26,8 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 # What sections to show in the nav bar
 NAV_SECTIONS = [
 #     {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
+#     {"name": "Members", "url": "members", "icon": "users"},
+#     {"name": "Projects", "url": "projects", "icon": "folder"},
 #     {"name": "Vacancies", "url": "vacancies"},
 #     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
 #     {"name": "Presentations", "url": "presentations", "hidden": 95},
@@ -36,7 +36,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Projects", "Members"]
+HOME_SECTIONS = ["Projects", "Software", "Members"]
 
 # URLs
 SITEURL = ''
