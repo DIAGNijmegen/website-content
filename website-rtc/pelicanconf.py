@@ -7,7 +7,7 @@ from datetime import date
 # Site specific variables
 # Please update these to customize the website.
 #
-AUTHOR = u'WebteamDIAG'
+AUTHOR = u'RTC'
 SITENAME = u'RTC Deep Learning'
 SITENAME_SHORT = 'RTC'
 SITE_REPO = 'website-rtc'
