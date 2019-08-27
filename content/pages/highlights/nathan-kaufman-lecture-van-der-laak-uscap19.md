@@ -1,7 +1,7 @@
 title: Nathan Kaufman timely topics lecture for Jeroen van der Laak at USCAP 2019
 date: 2019-03-22
 description: Jeroen van der Laak was honored as Nathan Kaufman timely topics lecturer at the 108th annual meeting of the United States and Canadian Academy of Pathology (USCAP). This lecture is regarded as a great honor within the USCAP sphere.
-picture: USCAP_1.jpg
+picture: news/USCAP_1.jpg
 groups: diag, pathology
 
 <a href="https://www.computationalpathologygroup.eu/members/jeroen-van-der-laak/">Jeroen van der Laak</a> was honored as Nathan Kaufman timely topics lecturer at the <a href="https://www.xcdsystem.com/uscap/program/2019/index.cfm?pgid=145">108th annual meeting</a> of the United States and Canadian Academy of Pathology (<a href="https://www.uscap.org/">USCAP</a>). His keynote lecture titled 'The Rise of Artificial Intelligence: Impact on Advanced Diagnostics in Health Care' was held inside the impressive Potomac Ballroom, in the Gaylord National Resort & Convention Center at the National Harber, Maryland. The lecture was witnessed by 3500 clinicians, researchers and other interested parties.

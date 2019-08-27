@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }}{% endblock title %}
-{% block page_picture %}{{ SITEURL }}/images/news/{{ article.picture }}{% endblock %}
+{% block page_picture %}{{ SITEURL }}/images/{{ article.picture }}{% endblock %}
 {% block description %}{% if article.description %}{{ article.description }}{% else %}{{ article.summary | striptags | truncate(200)}}{% endif %}{% endblock description %}
 {% block content %}
 <div class="container">
@@ -23,7 +23,7 @@
     <div class="row">
         <div class="col-md-4">
             {% if article.picture %}
-            <img class="img-thumbnail" src="{{ SITEURL }}/images/news/{{ article.picture }}">
+            <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ article.picture }}">
             {% endif %}
             <p class="mt-4 ml-1">
                 <small class="text-muted"><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
