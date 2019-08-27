@@ -3,7 +3,7 @@ groups: ai-for-health
 closed: false
 type: general
 picture: vacancies/genetic-diagnosis-rare-diseases.jpg
-people: Christian Gilissen, Marcel van Gerven, Lisenka Vissers, Helger Yntema
+people: Christian Gilissen, Marcel van Gerven, Max Hinne, Helger Yntema
 template: vacancy-single
 description: We are looking for a PhD candidate to develop an AI system to automatically diagnose patients with genetic diseases based on their exome and whole genome sequencing data. 
 
