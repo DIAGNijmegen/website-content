@@ -16,6 +16,8 @@ install:
   - npm install --prefix imgoptim --no-save
 script:
   - bash optimize_images.sh
+  - bash copy_content.sh
+  - bash generate_publications.sh
   - bash deploy.sh
 
 deploy:
