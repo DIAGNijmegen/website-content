@@ -20,4 +20,6 @@ do
 
   # Run the bib plugin
   python plugins/bib_writer.py
+
+  cd ..
 done
