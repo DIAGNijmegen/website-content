@@ -6,12 +6,6 @@ set -e
 echo $WEBSITES
 echo $NAME
 
-for website in $WEBSITES
-do
-  echo "\n"
-  echo $website
-done
-
 if [[ $TRAVIS_BRANCH != 'master' ]]; then
   echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
 else

@@ -3,13 +3,10 @@
 # Break build on error
 set -e
 
-# List of websites to build
-declare -a websites=("website-diag" "website-ai-for-health" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen" "website-rtc")
-
 # Distribute the content pages
 python parse_content.py
 
-for website in "${websites[@]}"
+for website in $WEBSITES
 do
   echo "Copying content for $website"
 

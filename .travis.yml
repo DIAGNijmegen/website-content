@@ -21,8 +21,8 @@ script:
   - bash deploy.sh
 env:
   global:
-    - WEBSITES="website-diag website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc" 
-    - NAME=test
+    - WEBSITES="website-diag website-ai-for-health website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc"
+    - WEBSITES_WITH_BIB="website-diag website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc"
 
 deploy:
   # - provider: pages

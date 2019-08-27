@@ -3,10 +3,7 @@
 # Break build on error, prevents websites going offline in case of pelican errors
 set -e
 
-# List of websites to build
-declare -a websites=("website-diag" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen" "website-rtc")
-
-for website in "${websites[@]}"
+for website in $WEBSITES_WITH_BIB
 do
 
   # Copy bib generator script
