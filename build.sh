@@ -34,7 +34,7 @@ else
 fi
 
 # List of websites to build
-declare -a websites=("website-diag" "website-ai-for-health" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen")
+declare -a websites=("website-diag" "website-ai-for-health" "website-pathology" "website-neuro" "website-rse" "website-retina" "website-bodyct" "website-aiimnijmegen" "website-rtc")
 declare -a websites_without_bibtex=("website-ai-for-health")
 
 # Distribute the content pages

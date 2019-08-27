@@ -1,10 +1,10 @@
 title: Ajay Patel
 name: Ajay Patel
 template: people-single
-picture: people/Ajay_Patel_bw.jpg
+picture: people/Ajay_Patel2.jpg
 position: PhD student
 active: yes
-groups: diag, neuro
+groups: diag, neuro, rtc
 email: ajay.patel@radboudumc.nl
 office: Route 767, Room 27
 type: phd

@@ -8,21 +8,21 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'AI for Health'
+SITENAME = u'Radboud AI for Health'
 SITENAME_SHORT = 'AIHEALTH'
 SITE_REPO = 'website-ai-for-health'
 SITE_GROUP = 'ai-for-health'
 
 # Home page and social settings
-SITETITLE = 'AI for Health'
-SITELEAD = 'Artificial Intelligence for Health is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer courses for professionals, BSc/MSc student projects and PhD projects.'
+SITETITLE = 'Radboud AI for Health'
+SITELEAD = 'Radboud AI for Health is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer courses for professionals, BSc/MSc student projects and PhD projects.'
 SITE_PICTURE ='images/social/missing_picture_social.png'
 
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'example picture'
 
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'Artificial Intelligence for Health'
+FOOTER_TEXT = 'Radboud Artificial Intelligence for Health'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 #PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 

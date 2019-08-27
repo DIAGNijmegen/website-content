@@ -4,7 +4,7 @@ template: people-single
 picture: people/James_Meakin.jpg
 position: Lead Research Software Engineer
 active: yes
-groups: diag, rse
+groups: diag, rse, rtc
 email: james.meakin@radboudumc.nl
 office: Route 767, Room 2.27
 telephone:
