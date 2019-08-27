@@ -6,7 +6,7 @@ set -e
 echo $WEBSITES
 echo $NAME
 
-for website in "${WEBSITES[@]}"
+for website in $WEBSITES
 do
   echo "\n"
   echo $website
