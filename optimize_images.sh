@@ -3,9 +3,6 @@
 # Break build on error
 set -e
 
-echo $WEBSITES
-echo $NAME
-
 if [[ $TRAVIS_BRANCH != 'master' ]]; then
   echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
 else
