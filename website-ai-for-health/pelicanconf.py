@@ -8,13 +8,13 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'AI for Health'
+SITENAME = u'Radboud AI for Health'
 SITENAME_SHORT = 'AIHEALTH'
 SITE_REPO = 'website-ai-for-health'
 SITE_GROUP = 'ai-for-health'
 
 # Home page and social settings
-SITETITLE = 'AI for Health'
+SITETITLE = 'Radboud AI for Health'
 SITELEAD = 'Artificial Intelligence for Health is an initiative that leverages the strong collaboration between the Radboud University and Radboudumc for the development of AI to achieve innovations in different areas of healthcare. We offer courses for professionals, BSc/MSc student projects and PhD projects.'
 SITE_PICTURE ='images/social/missing_picture_social.png'
 
