@@ -15,7 +15,7 @@ set -e
   git config --global user.name "DIAGWebTeam"
 
   # Add changed files
-  git checkout master
+  git checkout feature/build-optim
   git add --all ./optimized_images
   git add image-cache.json
 
