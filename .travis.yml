@@ -21,8 +21,8 @@ deploy_defaults: &deploy_defaults
     email: $WEBTEAM_EMAIL
     name: "Webteam DIAG Deploy Bot"
     github-token: $GH_PAGES
-    "on":
-      branch: master
+    # "on":
+    #   branch: master
 
 jobs:
   include:
@@ -51,12 +51,12 @@ jobs:
       env:
         - WEBSITE=website-bodyct
         - GENERATE_PUB=1
+      deploy: *deploy_defaults
     # Build and deploy steps for Neuro website
     - <<: *build_defaults
       env:
         - WEBSITE=website-neuro
         - GENERATE_PUB=1
-      deploy: *deploy_defaults
     # Build and deploy steps for DIAG website
     - <<: *build_defaults
       env:
