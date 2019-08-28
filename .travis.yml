@@ -23,6 +23,36 @@ jobs:
       env:
         - WEBSITE=website-retina
         - GENERATE_PUB=1
+    # Build and deploy steps for RSE website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-rse
+        - GENERATE_PUB=1
+    # Build and deploy steps for AIIM website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-aiimnijmegen
+        - GENERATE_PUB=1
+    # Build and deploy steps for Bodyct website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-bodyct
+        - GENERATE_PUB=1
+    # Build and deploy steps for Neuro website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-neuro
+        - GENERATE_PUB=1
+    # Build and deploy steps for DIAG website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-diag
+        - GENERATE_PUB=1
+    # Build and deploy steps for RTC website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-rtc
+        - GENERATE_PUB=1
     # Build and deploy steps for AI-for-Health website
     - <<: *deploy_defaults
       env:
