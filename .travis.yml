@@ -13,8 +13,11 @@ jobs:
   include:
     - stage: images
       script: bash ./optimize_images.sh
+      language: node_js
+      node_js:
+        - 10.15
       install:
-        - nvm install 10.15
+        # - nvm install 10.15
         - npm install --prefix imgoptim --no-save
     - stage: deploy
       env:
