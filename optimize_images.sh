@@ -24,7 +24,7 @@ set -e
   if ! $gitdiff; then
     echo "Files changed, commiting new images."
     git commit --message "Adding optimized images to repository. [ci skip]" -- .
-    git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
+    git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "feature/build-optim"
   else
     echo "Nothing new to commit, skipping push."
   fi
