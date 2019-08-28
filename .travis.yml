@@ -1,4 +1,4 @@
-deploy_defaults: &deploy_defaults
+build_defaults: &build_defaults
   stage: build and deploy
   language: python
   python:
@@ -11,50 +11,64 @@ deploy_defaults: &deploy_defaults
   cache:
     - pip
 
+deploy_defaults: &deploy_defaults
+    provider: pages
+    repo: diagnijmegen/$WEBSITE
+    skip-cleanup: true
+    keep-history: true
+    local-dir: $WEBSITE/output
+    target-branch: master
+    email: $WEBTEAM_EMAIL
+    name: "Webteam DIAG Deploy Bot"
+    github-token: $GH_PAGES
+    "on":
+      branch: master
+
 jobs:
   include:
     # Build and deploy steps for Pathology website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-pathology
         - GENERATE_PUB=1
     # Build and deploy steps for Retina website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-retina
         - GENERATE_PUB=1
     # Build and deploy steps for RSE website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-rse
         - GENERATE_PUB=1
     # Build and deploy steps for AIIM website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-aiimnijmegen
         - GENERATE_PUB=1
     # Build and deploy steps for Bodyct website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-bodyct
         - GENERATE_PUB=1
     # Build and deploy steps for Neuro website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-neuro
         - GENERATE_PUB=1
+      deploy: *deploy_defaults
     # Build and deploy steps for DIAG website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
     # Build and deploy steps for RTC website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-rtc
         - GENERATE_PUB=1
     # Build and deploy steps for AI-for-Health website
-    - <<: *deploy_defaults
+    - <<: *build_defaults
       env:
         - WEBSITE=website-ai-for-health
         - GENERATE_PUB=0
