@@ -1,7 +1,14 @@
+env:
+  - WEBSITE=website-pathology
+
+script:
+  - bash ./generate_publications.sh
+
 jobs:
   include:
     - stage: images
       script: bash ./optimize_images.sh
+    - stage: deploy
 
 # language: python
 # python:
