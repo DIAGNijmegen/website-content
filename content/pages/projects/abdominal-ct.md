@@ -4,6 +4,6 @@ type: general
 description: Segmentation and quantification of adipose and muscular tissue in non-contrast abdominal CT.
 template: project-single
 groups: rtc
-picture: 
+picture: projects/abdominal-ct.png
 people: Alina Vrieling, Scott Maurits, Ajay Patel, Nikolas Lessmann
 bibkeys: 
