@@ -1,8 +1,8 @@
 jobs:
   include:
     - stage: images
-      script: ./optimize_images.sh
-      
+      script: bash ./optimize_images.sh
+
 # language: python
 # python:
 #   - "3.6"
