@@ -1,5 +1,10 @@
+language: python
+python:
+  - "3.6"
+
 env:
   - WEBSITE=website-pathology
+  - WEBSITE=website-retina
 
 script:
   - bash ./generate_publications.sh
@@ -8,6 +13,8 @@ jobs:
   include:
     - stage: images
       script: bash ./optimize_images.sh
+      env:
+        - WEBSITE=all
     - stage: deploy
 
 # language: python
