@@ -13,6 +13,9 @@ jobs:
   include:
     - stage: images
       script: bash ./optimize_images.sh
+      install:
+        - nvm install 10.15
+        - npm install --prefix imgoptim --no-save
     - stage: deploy
       env:
         - WEBSITE=website-pathology
