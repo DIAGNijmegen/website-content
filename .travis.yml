@@ -1,6 +1,7 @@
 stages:
   - deploy
-  - images
+  - name: images
+    if: branch = master
 
 deploy_defaults: &deploy_defaults
   language: python
