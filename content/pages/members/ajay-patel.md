@@ -2,7 +2,7 @@ title: Ajay Patel
 name: Ajay Patel
 template: people-single
 picture: people/Ajay_Patel2.jpg
-position: PhD student
+position: Coordinator RTC Deep Learning
 active: yes
 groups: diag, neuro, rtc
 email: ajay.patel@radboudumc.nl

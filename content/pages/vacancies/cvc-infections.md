@@ -1,9 +1,9 @@
-title: PhD position for developing an AI algorithm to prevent and predict the occurrence of Central Venous Catheter infections
+title: PhD position for Predictive Modeling in the Intensive Care Unit
 groups: ai-for-health 
 closed: false
 type: general
 picture: vacancies/cvc.jpg
-people: Tim Frenzel, Jeroen Schouten, Marcel van Gerven, Hans van der Hoeven
+people: Tim Frenzel, Jeroen Schouten, Marcel van Gerven, Hans van der Hoeven, Luca Ambrogioni
 template: vacancy-single
 description: We are looking for a PhD candidate to develop a real-time warning system for infection risk of central venous catheters for patients in the intensive care unit.
 

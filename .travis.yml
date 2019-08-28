@@ -15,7 +15,14 @@ install:
   - pip install -r requirements.txt
   - npm install --prefix imgoptim --no-save
 script:
-  - bash build.sh
+  - bash optimize_images.sh
+  - bash copy_content.sh
+  - bash generate_publications.sh
+  - bash deploy.sh
+env:
+  global:
+    - WEBSITES="website-diag website-ai-for-health website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc"
+    - WEBSITES_WITH_BIB="website-diag website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc"
 
 deploy:
   # - provider: pages

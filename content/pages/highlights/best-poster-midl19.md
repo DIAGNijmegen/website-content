@@ -1,7 +1,7 @@
 title: Best Poster Award MIDL 2019
 date: 2019-07-10
 description: Congratulations to Thomas de Bel for winning the Best Poster Award at the second edition of the International Conference on Medical Imaging with Deep Learning held in London this week.
-picture: Thomas_award.jpg
+picture: news/Thomas_award.jpg
 groups: diag, pathology
 
 During the 2nd edition of <a href="https://2019.midl.io/">MIDL</a>, [member: Thomas de Bel, group: pathology] won the Best Poster Award for his <a href="https://www.computationalpathologygroup.eu/presentations/cc-gan-renal-histopathology/">poster</a> on stain-transforming cycle-consistent generative adversarial networks (cycleGAN) for improved segmentation of renal histopathology.

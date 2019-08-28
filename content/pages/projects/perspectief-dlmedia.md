@@ -7,7 +7,7 @@ template: project-single
 groups: retina
 people: Cristina González-Gonzalo, Clarisa Sánchez
 description: The goal of this project is to automate the screening workflow of eye diseases using innovative techniques based on artificial neural networks.
-bibkeys: Gonz18
+bibkeys: Gonz18, gonz19
 
 ## Background
 Screening for retinal diseases has become a top healthcare priority. Today, 220 million people are affected by retinal diseases and this number is estimated to grow to 434 million in 2030 due to the aging population and the epidemic nature of obesity. Therefore, sustainability of screening programs is not warranted, and 50% of subjects at risk are still not screened due to lack of specialists and poor coverage in rural areas.
@@ -24,6 +24,8 @@ The goal of this project is to automate the screening workflow of eye diseases u
 Implementing dynamic deep learning methods in eye screening workflows will substantially reduce the burden on highly-trained personnel and reduce the associated costs, while maintaining the quality, obtaining higher throughput and increasing screening coverage.
 
 ![Perspectief DLMedIA]({static}/images/projects/perspectief_in_photo_smaller.PNG)
+<br>
+<i>Visual interpretability of automated screening in a color fundus image predicted as referable diabetic retinopathy.</i>
 
 ## Funding
 

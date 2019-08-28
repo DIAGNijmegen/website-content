@@ -14,20 +14,20 @@ SITE_REPO = 'website-rtc'
 SITE_GROUP = 'rtc'
 
 # Home page and social settings
-SITELEAD = 'The Radboudumc Technology Center (RTC) Deep Learning leverages the expertise of the Diagnostic Image Analysis Group (DIAG) in using machine learning, specifically deep learning, to analyze images and other medical data. RTC Deep Learning has set up a high-performance GPU cluster on which deep learning systems can be trained and deployed. We can be approached for consultation regarding all questions pertaining to the use of deep learning for specific problems. Additionally, we can make project-specific algorithms and commercial-grade web-based image analysis and data analytics software.<br><br> Our areas of expertise include: medical image analysis, development of deep learning algorithms, web-based image analysis and viewing applications and Docker and (cloud-based) GPU solutions.'
+SITELEAD = 'The Radboudumc Technology Center (RTC) Deep Learning leverages the expertise of the Diagnostic Image Analysis Group (DIAG) in using machine learning, specifically deep learning, to analyze images and other medical data. RTC Deep Learning has set up a high-performance GPU cluster on which deep learning systems can be trained and deployed. We can be approached for consultation regarding all questions pertaining to the use of deep learning for specific problems. Additionally, we can make project-specific algorithms and commercial-grade web-based image analysis and data analytics software.<br><br> Our areas of expertise include: medical image analysis, development of deep learning algorithms, web-based image analysis and viewing applications, Docker and (cloud-based) GPU solutions.'
 SITE_PICTURE = 'images/social/missing_picture_social.png'
-HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
+HOME_IMAGE = 'images/general/rtc.jpg'
 HOME_IMAGE_CAPTION = ''
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'RTC Deep Learning'
+FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
 #     {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
+#     {"name": "Members", "url": "members", "icon": "users"},
+#     {"name": "Projects", "url": "projects", "icon": "folder"},
 #     {"name": "Vacancies", "url": "vacancies"},
 #     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
 #     {"name": "Presentations", "url": "presentations", "hidden": 95},
@@ -36,7 +36,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Projects", "Members"]
+HOME_SECTIONS = ["Projects", "Software", "Members"]
 
 # URLs
 SITEURL = ''

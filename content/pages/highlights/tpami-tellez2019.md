@@ -1,7 +1,7 @@
 title: Neural Image Compression for Gigapixel Histopathology Image Analysis
 date: 2019-08-23
 description: David Tellez et al present a new method to train neural networks on gigapixel whole-slide images directly, avoiding the need for fine-grained annotations. Their work appeared online yesterday in IEEE TPAMI.
-picture: tpami_I.png
+picture: news/tpami_I.png
 groups: diag, pathology
 
 Digitized H&E slides, also known as whole-slide images (WSI), are gigantic images composed of more than 1 billion pixels. Each WSI contains a tissue sample corresponding to a single patient, describing tissue morphology to the cell level with remarkable microscopic resolution, including thousands of cells. Until now, Computational Pathology algorithms were limited to applications where fine-grained annotations were available, such as semantic segmentation or object detection. 
