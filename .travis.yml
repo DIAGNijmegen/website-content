@@ -7,7 +7,13 @@ deploy_defaults: &deploy_defaults
   python:
     - "3.6"
   script:
-    - bash ./generate_publications.sh
+    - bash generate_publications.sh
+    - bash copy_content.sh
+    - bash generate_publications.sh
+  cache:
+    - pip
+  env:
+    - GENERATE_PUB=1
 
 jobs:
   include:
@@ -18,6 +24,8 @@ jobs:
         - 10.15
       install:
         - npm install --prefix imgoptim --no-save
+      cache:
+        - npm
     - stage: deploy website
       <<: *deploy_defaults
       env:
