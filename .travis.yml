@@ -53,7 +53,8 @@ jobs:
       env:
         - WEBSITE=website-bodyct
         - GENERATE_PUB=1
-      deploy: *deploy_defaults
+      deploy:
+        <<: *deploy_defaults
         fqdn: bodyct.diagnijmegen.nl
     # Build and deploy steps for Neuro website
     - <<: *build_defaults
