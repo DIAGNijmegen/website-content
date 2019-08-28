@@ -1,13 +1,13 @@
-language: python
-python:
-  - "3.6"
-
-script:
-  - bash ./generate_publications.sh
-
 stages:
   - images
   - deploy
+
+deploy_defaults: &deploy_defaults
+  language: python
+  python:
+    - "3.6"
+  script:
+    - bash ./generate_publications.sh
 
 jobs:
   include:
@@ -17,12 +17,13 @@ jobs:
       node_js:
         - 10.15
       install:
-        # - nvm install 10.15
         - npm install --prefix imgoptim --no-save
-    - stage: deploy
+    - stage: deploy website
+      <<: *deploy_defaults
       env:
         - WEBSITE=website-pathology
-    - env:
+    - <<: *deploy_defaults
+      env:
         - WEBSITE=website-retina
 # language: python
 # python:
