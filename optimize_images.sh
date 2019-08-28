@@ -2,10 +2,10 @@
 
 # Break build on error
 set -e
-
-if [[ $TRAVIS_BRANCH != 'master' ]]; then
-  echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
-else
+#
+# if [[ $TRAVIS_BRANCH != 'master' ]]; then
+#   echo "Not on travis-master build, skip running image optimzer (value: $TRAVIS_BRANCH)"
+# else
   # Optimize the images before building the website`
   cd imgoptim
   echo "Starting image optimization script"
@@ -28,4 +28,4 @@ else
   else
     echo "Nothing new to commit, skipping push."
   fi
-fi
+# fi
