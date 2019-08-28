@@ -1,4 +1,4 @@
-title: Muscle ultrasound
+title: Muscle ultrasound classification
 finished: false
 type: general
 description: Identification of abnormal muscle tissue in ultrasound images of the tibialis anterior.
