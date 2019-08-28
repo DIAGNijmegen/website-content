@@ -19,7 +19,7 @@ SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = 'images/general/rtc.jpg'
 HOME_IMAGE_CAPTION = ''
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'RTC Deep Learning'
+FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
