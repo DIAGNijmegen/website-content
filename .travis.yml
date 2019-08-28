@@ -17,6 +17,21 @@ deploy_defaults: &deploy_defaults
 
 jobs:
   include:
+    # Build and deploy steps for Pathology website
+    - stage: deploy website
+      <<: *deploy_defaults
+      env:
+        - WEBSITE=website-pathology
+    # Build and deploy steps for Retina website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-retina
+    # Build and deploy steps for AI-for-Health website
+    - <<: *deploy_defaults
+      env:
+        - WEBSITE=website-ai-for-health
+        - GENERATE_PUB=0
+    # Run image optimization script
     - stage: images
       script: bash ./optimize_images.sh
       language: node_js
@@ -26,13 +41,6 @@ jobs:
         - npm install --prefix imgoptim --no-save
       cache:
         - npm
-    - stage: deploy website
-      <<: *deploy_defaults
-      env:
-        - WEBSITE=website-pathology
-    - <<: *deploy_defaults
-      env:
-        - WEBSITE=website-retina
 # language: python
 # python:
 #   - "3.6"

@@ -7,7 +7,7 @@ directories = ['members', 'highlights', 'presentations', 'projects', 'software',
 site = sys.argv[1]
 group_name = site[8:]
 
-print(f"Copying content for {site} (group: {group_name}")
+print(f"Copying content for {site} (group: {group_name})")
 
 for dir in directories:
     output_dir = os.path.join(site, dir)
@@ -39,4 +39,4 @@ for dir in directories:
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
                         print(e)
-print(f'Copied pages to website {site}.')
+print(f'Copied pages to {site}.')

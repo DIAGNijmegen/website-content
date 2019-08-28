@@ -3,8 +3,6 @@
 # Break build on error
 set -e
 
-echo "Copying content for $WEBSITE"
-
 # Distribute the content pages
 python parse_content.py $WEBSITE
 
