@@ -9,14 +9,6 @@ group_name = site[8:]
 
 print(f"Copying content for {site} (group: {group_name}")
 
-# if not os.path.isdir('output'):
-#     os.mkdir('output')
-
-# Create directory
-site_dir = os.path.join('output', site)
-if not os.path.isdir(site_dir):
-    os.mkdir(site_dir)
-
 for dir in directories:
     output_dir = os.path.join(site_dir, dir)
     if not os.path.isdir(output_dir):

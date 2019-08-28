@@ -1,6 +1,6 @@
 stages:
-  - images
   - deploy
+  - images
 
 deploy_defaults: &deploy_defaults
   language: python
