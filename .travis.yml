@@ -1,8 +1,5 @@
-stages:
-  - deploy
-  - images
-
 deploy_defaults: &deploy_defaults
+  stage: build and deploy
   language: python
   python:
     - "3.6"
@@ -19,8 +16,7 @@ deploy_defaults: &deploy_defaults
 jobs:
   include:
     # Build and deploy steps for Pathology website
-    - stage: deploy website
-      <<: *deploy_defaults
+    - <<: *deploy_defaults
       env:
         - WEBSITE=website-pathology
     # Build and deploy steps for Retina website
