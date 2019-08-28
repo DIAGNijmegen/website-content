@@ -1,7 +1,7 @@
-title: Muscle Ultrasound
+title: Muscle ultrasound
 finished: false
 type: general
-description: Identification of abnormal muscle tissue in ultrasound images of the Tibialis Anterior using Deep Learning.
+description: Identification of abnormal muscle tissue in ultrasound images of the tibialis anterior.
 template: project-single
 groups: rtc
 picture: projects/muscle-us.png
