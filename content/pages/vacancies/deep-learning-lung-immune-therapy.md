@@ -10,7 +10,7 @@ description: Aim of the proposed project is to develop deep learning algorithms 
 
 ## Background
 
-Immunotherapy is a Nobel Prize winning approach to treat cancer patients, which has given spectacular responses in some previously untreatable cancer patients. However, not all patients respond to immunotherapy and are therefore only exposed to the toxicity of the drugs. Additionally, the cost of immunotherapy treatment is very high (~100K Euro per patient), which puts a dramatic financial burden to the healthcare system.
+Immunotherapy is a Nobel Prize winning approach to treat cancer patients, which has given spectacular responses in some previously untreatable cancer patients. However, many patients do not respond to immunotherapy and are only exposed to the toxicity of the drugs. Additionally, the cost of immunotherapy treatment is very high (~100kEuro per patient), which puts a dramatic financial burden on the healthcare system.
 In this context, there is an urgent need for identifying responders and non-reponders at an early stage, to guarantee an efficient and personalized cancer treatment with immunotherapy.
 In this project, Artificial Intelligence models will be used to challenge one of deadliest of the diseases: lung cancer.
 AI has the potential to extract and discover features in histopathology images that correlate with treatment response.
@@ -32,20 +32,18 @@ Multiple student projects are available in the context of this research. Example
 * Segmentation of several compartments of lung tissue with deep learning segmentation models
 * Classification of lung cancer subtypes using weakly supervised learning
 
+For each task, the student is expected to develop a demonstrator that allows to run the built AI model/pipeline on new whole-slide images.
+
 Contact the supervisor of this project for more information about availability of projects.
 
 ## Requirements
 
 - Students with a major in artificial intelligence, computer science, biomedical engineering, physics, or a related area in the final stage of master level studies are invited to apply.
-
 - Interest in medical image analysis
-
 - Affinity with programming in Python and with deep learning packages (e.g., TensorFlow, PyThorch) is required.
 
 ## Information
 
 - Project duration: 3-9 months
-
-- Location: Radboud University Medical Centre, Nijmegen 
-
+- Location: the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl) at Radboud University Medical Center
 - For more information please contact [Francesco Ciompi](https://www.computationalpathologygroup.eu/members/francesco-ciompi/)
