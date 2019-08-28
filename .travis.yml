@@ -21,8 +21,8 @@ deploy_defaults: &deploy_defaults
     email: $WEBTEAM_EMAIL
     name: "Webteam DIAG Deploy Bot"
     github-token: $GH_PAGES
-    # "on":
-    #   branch: master
+    "on":
+      branch: feature/build-optim
 
 jobs:
   include:
