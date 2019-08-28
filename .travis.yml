@@ -9,6 +9,10 @@ env:
 script:
   - bash ./generate_publications.sh
 
+stages:
+  - images
+  - deploy
+
 jobs:
   include:
     - stage: images
