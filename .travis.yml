@@ -24,7 +24,14 @@ deploy_defaults: &deploy_defaults
     name: "Webteam DIAG Deploy Bot"
     github-token: $GH_PAGES
     "on":
-      branch: feature/build-optim
+      branch: master
+
+notifications:
+  email:
+    recipients:
+      - $WEBTEAM_EMAIL
+    on_success: change # default: change
+    on_failure: always # default: always
 
 jobs:
   include:
@@ -33,21 +40,33 @@ jobs:
       env:
         - WEBSITE=website-pathology
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
+        fqdn: www.computationalpathologygroup.eu
     # Build and deploy steps for Retina website
     - <<: *build_defaults
       env:
         - WEBSITE=website-retina
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
+        fqdn: www.a-eyeresearch.nl
     # Build and deploy steps for RSE website
     - <<: *build_defaults
       env:
         - WEBSITE=website-rse
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
+        fqdn: rse.diagnijmegen.nl
     # Build and deploy steps for AIIM website
     - <<: *build_defaults
       env:
         - WEBSITE=website-aiimnijmegen
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
+        fqdn: www.aiimnijmegen.nl
     # Build and deploy steps for Bodyct website
     - <<: *build_defaults
       env:
@@ -61,21 +80,31 @@ jobs:
       env:
         - WEBSITE=website-neuro
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
     # Build and deploy steps for DIAG website
     - <<: *build_defaults
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
+        fqdn: beta.diagnijmegen.nl
     # Build and deploy steps for RTC website
     - <<: *build_defaults
       env:
         - WEBSITE=website-rtc
         - GENERATE_PUB=1
+      deploy:
+        <<: *deploy_defaults
     # Build and deploy steps for AI-for-Health website
     - <<: *build_defaults
       env:
         - WEBSITE=website-ai-for-health
         - GENERATE_PUB=0
+      deploy:
+        <<: *deploy_defaults
+        fqdn: www.ai-for-health.nl
     # Run image optimization script
     - stage: images
       script: bash ./optimize_images.sh
@@ -221,9 +250,3 @@ jobs:
 #   #     brach: master
 #   #
 #   #
-# notifications:
-#   email:
-#     recipients:
-#       - $WEBTEAM_EMAIL
-#     on_success: change # default: change
-#     on_failure: always # default: always
