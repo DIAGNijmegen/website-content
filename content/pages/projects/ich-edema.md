@@ -1,7 +1,7 @@
 title: ICH and PHE segmentation
 finished: false
 type: general
-description: Segmentation of intracerebral hemorrhage and peri-hematomal edema in non-contrast CT using Deep Learning.
+description: Segmentation and quantification of intracerebral hemorrhage and peri-hematomal edema in non-contrast CT.
 template: project-single
 groups: rtc
 picture: projects/ich-edema.png
