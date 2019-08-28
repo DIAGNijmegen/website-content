@@ -13,14 +13,14 @@ Retinal diseases, such as age-related macular degeneration (AMD) or diabetic ret
 
 ![Geographic atrophy segmentation in CFI]({static}/images/projects/ami_cf.jpg)
 <br>
-<i>Automatic segmentation of geographic atrophy in color fundus images</i>
+<i>Automatic segmentation of geographic atrophy in color fundus images.</i>
 
 ## Aim
 We aim to develop solutions for the automated analysis of multimodal retinal imaging examinations in order to assess treatment response in patients with advanced wet AMD and provide treatment decision support to clinicians. For that, as an alternative to traditional techniques, deep learning algorithms will be developed that can accurately analyze and quantify changes in follow-up optical coherence tomography scans and multimodal retinal images. In this project, we will also integrate these algorithms in a platform tailored to provide an advanced visualization of these changes and the joint review of multimodal retinal images.
 
 ![Lesions segmentation in OCT]({static}/images/projects/ami_oct.png)
 <br>
-<i>Automatic lesions segmentation in optical coherence tomography</i>
+<i>Automatic segmentation of different lesions in optical coherence tomography.</i>
 
 ## Funding
 AMI is a collaborative project of the Fraunhofer Gesellschaft and the Radboud University and University Medical Center.
