@@ -5,6 +5,6 @@ description: Identification of abnormal muscle tissue in ultrasound images of th
 template: project-single
 groups: rtc
 picture: projects/muscle-us.png
-people: Juerd Wijntjes, Jonne Doorduin, Ajay Patel
+people: Juerd Wijntjes, Jonne Doorduin, Ajay Patel, Bram van Ginneken
 bibkeys: 
 
