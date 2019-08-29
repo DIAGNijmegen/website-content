@@ -1,6 +1,7 @@
 # Default settings for all Pelican builds
 build_defaults: &build_defaults
   stage: build and deploy
+  name: Build $WEBSITE
   language: python
   python:
     - "3.6"
@@ -107,6 +108,7 @@ jobs:
         fqdn: www.ai-for-health.nl
     # Run image optimization script
     - stage: images
+      if: branch = master
       script: bash ./optimize_images.sh
       language: node_js
       node_js:
@@ -115,138 +117,3 @@ jobs:
         - npm install --prefix imgoptim --no-save
       cache:
         - npm
-# language: python
-# python:
-#   - "3.6"
-#
-# git:
-#   depth: 1
-# branches:
-#   only:
-#     - master
-# cache:
-#   - pip
-#   - npm
-# install:
-#   - nvm install 10.15
-#   - pip install -r requirements.txt
-#   - npm install --prefix imgoptim --no-save
-# script:
-#   - bash optimize_images.sh
-#   - bash copy_content.sh
-#   - bash generate_publications.sh
-#   - bash deploy.sh
-# env:
-#   global:
-#     - WEBSITES="website-diag website-ai-for-health website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc"
-#     - WEBSITES_WITH_BIB="website-diag website-pathology website-neuro website-rse website-retina website-bodyct website-aiimnijmegen website-rtc"
-#
-# deploy:
-#   # - provider: pages
-#   #   repo: diagnijmegen/website-diag
-#   #   skip-cleanup: true
-#   #   keep-history: true
-#   #   local-dir: website-diag/output
-#   #   target-branch: master
-#   #   email: webteamdiag@gmail.com
-#   #   name: "Webteam DIAG Deploy Bot"
-#   #   github-token: $GH_PAGES
-#   #   on:
-#   #     brach: master
-#   #   fqdn: beta.diagnijmegen.nl
-#   - provider: pages
-#     repo: diagnijmegen/website-retina
-#     skip-cleanup: true
-#     keep-history: true
-#     local-dir: website-retina/output
-#     target-branch: master
-#     email: webteamdiag@gmail.com
-#     name: "Webteam DIAG Deploy Bot"
-#     github-token: $GH_PAGES
-#     on:
-#       brach: master
-#     fqdn: www.a-eyeresearch.nl
-#   # - provider: pages
-#   #   repo: diagnijmegen/website-pathology
-#   #   skip-cleanup: true
-#   #   keep-history: true
-#   #   local-dir: website-pathology/output
-#   #   target-branch: master
-#   #   email: webteamdiag@gmail.com
-#   #   name: "Webteam DIAG Deploy Bot"
-#   #   github-token: $GH_PAGES
-#   #   on:
-#   #     brach: master
-#   #   fqdn: www.computationalpathologygroup.eu
-#   - provider: pages
-#     repo: diagnijmegen/website-rse
-#     skip-cleanup: true
-#     keep-history: true
-#     local-dir: website-rse/output
-#     target-branch: master
-#     email: webteamdiag@gmail.com
-#     name: "Webteam DIAG Deploy Bot"
-#     github-token: $GH_PAGES
-#     on:
-#       brach: master
-#     fqdn: rse.diagnijmegen.nl
-#   - provider: pages
-#     repo: diagnijmegen/website-bodyct
-#     skip-cleanup: true
-#     keep-history: true
-#     local-dir: website-bodyct/output
-#     target-branch: master
-#     email: webteamdiag@gmail.com
-#     name: "Webteam DIAG Deploy Bot"
-#     github-token: $GH_PAGES
-#     on:
-#       brach: master
-#     fqdn: bodyct.diagnijmegen.nl
-#   - provider: pages
-#     repo: diagnijmegen/website-aiimnijmegen
-#     skip-cleanup: true
-#     keep-history: true
-#     local-dir: website-aiimnijmegen/output
-#     target-branch: master
-#     email: webteamdiag@gmail.com
-#     name: "Webteam DIAG Deploy Bot"
-#     github-token: $GH_PAGES
-#     on:
-#       brach: master
-#     fqdn: www.aiimnijmegen.nl
-#   - provider: pages
-#     repo: diagnijmegen/website-ai-for-health
-#     skip-cleanup: true
-#     keep-history: true
-#     local-dir: website-ai-for-health/output
-#     target-branch: master
-#     email: webteamdiag@gmail.com
-#     name: "Webteam DIAG Deploy Bot"
-#     github-token: $GH_PAGES
-#     on:
-#       brach: master
-#     fqdn: www.ai-for-health.nl
-#   - provider: pages
-#     repo: diagnijmegen/website-rtc
-#     skip-cleanup: true
-#     keep-history: true
-#     local-dir: website-rtc/output
-#     target-branch: master
-#     email: webteamdiag@gmail.com
-#     name: "Webteam DIAG Deploy Bot"
-#     github-token: $GH_PAGES
-#     on:
-#       brach: master
-#   # - provider: pages
-#   #   repo: diagnijmegen/website-neuro
-#   #   skip-cleanup: true
-#   #   keep-history: true
-#   #   local-dir: website-neuro/output
-#   #   target-branch: master
-#   #   email: webteamdiag@gmail.com
-#   #   name: "Webteam DIAG Deploy Bot"
-#   #   github-token: $GH_PAGES
-#   #   on:
-#   #     brach: master
-#   #
-#   #
