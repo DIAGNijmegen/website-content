@@ -4,7 +4,7 @@ finished: false
 picture: software/sol-logo.jpg
 template: project-single
 groups: rse, diag, rtc
-people: Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Erdi Calli, Matin Hosseinzadeh, Xie Weiyi, Patrick Brand
+people: Rita Bijlsma, Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Matin Hosseinzadeh, Xie Weiyi, Patrick Brand
 description: DIAG's deep learning cluster for training and applying automated image analysis tools.
 bibkeys: 
 
