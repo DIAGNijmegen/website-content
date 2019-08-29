@@ -3,20 +3,20 @@
 # Break build on error, prevents websites going offline in case of pelican errors
 set -e
 
-for website in $WEBSITES_WITH_BIB
-do
+if [[ $GENERATE_PUB != '1' ]]; then
+  echo "Skipping generation of publication pages for $WEBSITE."
+else
+  echo "Generating publications for $WEBSITE"
 
   # Copy bib generator script
-  cp -r plugins/bibtex $website/plugins
-  cp plugins/bib_writer.py $website/plugins/bib_writer.py
+  cp -r plugins/bibtex $WEBSITE/plugins
+  cp plugins/bib_writer.py $WEBSITE/plugins/bib_writer.py
 
   # Copy literature
-  cp content/diag.bib $website/content/diag.bib
-
-  cd $website
+  cp content/diag.bib $WEBSITE/content/diag.bib
 
   # Run the bib plugin
+  cd $WEBSITE
   python plugins/bib_writer.py
-
   cd ..
-done
+fi
