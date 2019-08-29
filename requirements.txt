@@ -2,3 +2,4 @@ pelican==4.1.0
 markdown==2.6.8
 latexcodec==1.0.5
 beautifulsoup4==4.7.1
+pyyaml==5.1
