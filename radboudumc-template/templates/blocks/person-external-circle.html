@@ -1,4 +1,27 @@
+{% if person_name in EXTERNAL_PEOPLE_DATA %}
+{% set person = EXTERNAL_PEOPLE_DATA[person_name] %}
+
+<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
+
+    {% if person.picture %}
+    <a href="{{ person.url }}"><img data-src="{{SITEURL}}/{{ ('images/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    {% else %}
+    <a href="{{ person.url }}"><img data-src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    {% endif %}
+
+    <h3 class="person-name"><a href="{{ person.url }}">
+      {{ person.name }}
+      <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
+    </a></h3>
+
+    <h4 class="person-title"><small>{{ person.position }}</small></h4>
+
+    <p class='text-muted'>{{ person.affiliation }}</p>
+</div>
+
+{% else %}
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
     <img src="{{SITEURL}}/{{ [('images/people/external/' + person_name.lstrip().replace(' ', '_') + '.jpg'), ('images/people/' + person_name.lstrip().replace(' ', '_') + '.jpg')] | content_exists_or_default('images/people/Person.png') }}" class="img-thumbnail lazyload rounded-circle" alt="{{ person_name }}">
     <h3 class="person-name">{{ person_name }}</h3>
 </div>
+{% endif %}

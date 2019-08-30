@@ -1,30 +1,18 @@
 import os
 import glob
 import shutil
+import sys
 
 directories = ['members', 'highlights', 'presentations', 'projects', 'software', 'vacancies', 'calendar']
-sites = ['website-ai-for-health',
-         'website-retina',
-         'website-neuro',
-         'website-pathology',
-         'website-rse',
-         'website-diag',
-         'website-bodyct',
-         'website-aiimnijmegen',
-         'website-rtc']
+site = sys.argv[1]
+group_name = site[8:]
 
-if not os.path.isdir('output'):
-    os.mkdir('output')
+print(f"Copying content for {site} (group: {group_name})")
 
-for site in sites:
-    site_dir = os.path.join('output', site)
-    if not os.path.isdir(site_dir):
-        os.mkdir(site_dir)
-
-    for dir in directories:
-        output_dir = os.path.join(site_dir, dir)
-        if not os.path.isdir(output_dir):
-            os.mkdir(output_dir)
+for dir in directories:
+    output_dir = os.path.join(site, dir)
+    if not os.path.isdir(output_dir):
+        os.mkdir(output_dir)
 
 for dir in directories:
     files = glob.glob(os.path.join('content', 'pages', dir, '*.md'))
@@ -37,16 +25,13 @@ for dir in directories:
                     try:
                         groups = line.split(':')[1].replace(' ','').rstrip().split(',')
 
-                        for group in groups:
-                            group_path = f"website-{group}"
-                            if group_path not in sites:
-                                raise Exception(f"Invalid site {group} in {file_path}.")
-
+                        # Check if the content belongs to the current website
+                        if group_name in groups:
                             if dir is 'highlights':
                                 # Write hightlights to directory out of pages dir
-                                out_dir = os.path.join(group_path, 'content', dir)
+                                out_dir = os.path.join(site, 'content', dir)
                             else:
-                                out_dir = os.path.join(group_path, 'content', 'pages', dir)
+                                out_dir = os.path.join(site, 'content', 'pages', dir)
 
                             if not os.path.exists(out_dir):
                                 os.makedirs(out_dir)
@@ -54,4 +39,4 @@ for dir in directories:
                     except Exception as e:
                         print(f"Error parsing {file_path}.")
                         print(e)
-print('Copied pages to websites.')
+print(f'Copied pages to {site}.')

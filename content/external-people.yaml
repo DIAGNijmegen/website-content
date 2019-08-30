@@ -1,0 +1,54 @@
+people:
+  - name: Arjen de Vries
+    position: Professor
+    affiliation: Data Science, Radboud University
+    url: https://www.ru.nl/personen/vries-a-de/
+    picture: people/external/Arjen_de_Vries.jpg
+ 
+  - name: Karin Klijn
+    position: Professor
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/en/people/karin-klijn
+    picture: people/external/Karin_Klijn.jpg
+
+  - name: Floris Schreuder
+    position: Neurologist
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/personen/floris-schreuder
+    picture: people/external/Floris_Schreuder.jpg
+
+  - name: Alina Vrieling
+    position: Assistant professor
+    affiliation: Health Evidence
+    url: https://www.radboudumc.nl/en/people/alina-vrieling
+    picture: people/external/Alina_Vrieling.jpg
+
+  - name: Scott Maurits
+    position: PhD student
+    affiliation: Health Evidence
+    url: https://www.radboudumc.nl/en/people/scott-maurits
+    picture: people/external/Scott_Maurits.jpg
+
+  - name: Juerd Wijntjes
+    position: Neurologist
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/en/people/juerd-wijntjes
+    picture: people/external/Juerd_Wijntjes.jpg
+
+  - name: Jonne Doorduin
+    position: Assistant professor
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/en/people/jonne-doorduin
+    picture: people/external/Jonne_Doorduin.jpg
+
+  - name: Sebastiaan van de Groes
+    position: Orthopedic surgeon
+    affiliation: Orthopedics
+    url: https://www.radboudumc.nl/personen/sebastiaan-van-de-groes
+    picture: people/external/Sebastiaan_van_de_Groes.jpg
+
+  - name: Hans Dunning
+    position: PhD student
+    affiliation: Orthopedics
+    url: https://www.radboudumc.nl/en/people/hans-dunning
+    picture: people/external/Hans_Dunning.jpg

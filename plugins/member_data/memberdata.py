@@ -4,10 +4,11 @@ This plugins injects member information in to the generator.
 
 import os
 import glob
-from pelican import signals
-
 import sys
 import importlib
+import yaml
+
+from pelican import signals
 
 # Load configs from all other websites
 sys.path.insert(0, '../')
@@ -47,6 +48,20 @@ def parse_member_file(member, file):
 
     return data
 
+def parse_external_member_data():
+    """Load data from the external people data file"""
+    file_location = os.path.join(os.getcwd(), '../content/external-people.yaml')
+
+    data = {}
+
+    with open(file_location, 'r') as stream:
+        raw_data = yaml.safe_load(stream)
+
+        for person in raw_data['people']:
+            data[person['name']] = person
+
+    return data
+
 def load_member_data(generator):
     """Load all member data from the content dir"""
 
@@ -61,8 +76,10 @@ def load_member_data(generator):
             data = parse_member_file(member, f)
             member_data[data['name']] = data
 
-    generator.context['MEMBER_DATA'] = member_data
 
+
+    generator.context['MEMBER_DATA'] = member_data
+    generator.context['EXTERNAL_PEOPLE_DATA'] = parse_external_member_data()
 
 def register():
     signals.generator_init.connect(load_member_data)
