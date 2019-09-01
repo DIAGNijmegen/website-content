@@ -15,5 +15,5 @@ Rita Bylsma (officially Bijlsma) is a research software engineer in the
 
 She does Linux system administration, especially for the deep learning cluster. Previously, she worked for the groups of <a href="http://molbio.science.ru.nl/">Molecular Biology and Molecular Development Biology</a> at the <a href="http://www.ru.nl/english/">Radboud University</a>.
 
-She studied Physical Chemistry</a> at the <a href="http://www.ru.nl/english/">Radboud University</a>
+She studied Physical Chemistry at the <a href="http://www.ru.nl/english/">Radboud University</a>
 from 1986 to 1993 and specialized in the area of <a href="https://www.ru.nl/ssc/vm-research/research-topics/morphology/morphology-0/">computer simulations on crystals</a>. She had different jobs in IT and grew fond of (relational) databases and Linux system administration.
