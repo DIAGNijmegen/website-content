@@ -3,7 +3,7 @@ groups: ai-for-health
 closed: false
 type: general
 picture: vacancies/msk_lbp.jpg
-people: Nikolas Lessmann, Miranda van Hooff, Stan Buckens, Bram van Ginneken, Marinus de Kleuver 
+people: Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
 template: vacancy-single
 description: We are looking for a PhD candidate for the project AI-based MRI analysis for treatment decision support in patients with chronic degenerative low back pain.
 
