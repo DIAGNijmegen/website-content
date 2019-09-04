@@ -3,9 +3,9 @@ finished: false
 type: student
 template: project-single
 picture: projects/clinical_deterioration.jpg
-groups: rtc
+groups: ai-for-health
 people: Maarten Vos
-description: : Predicting clinical deterioration events in hospitalized patients by using novel machine learning techniques.
+description: Predicting clinical deterioration events in hospitalized patients by using novel machine learning techniques.
 
 **Background**<br>
 The deterioration of patients on the non-ICU wards of a hospital is a serious issue. Although there is  a low incidence, the effects are large, leading to prolonged length-of-stay, transfers to the ICU ward or even death. To counter this, the Radboudumc and many other hospitals in the world use an early warning system. Currently, the Radboudumc uses MEWS, or Modified Early Warning Score, which requires a nurse to measure five vital signs of a patient, after which the system will output a number of alarm points that indicate the risk of said patient. The MEWS uses bins that are based on expert opinion and the output value is based on the bins in which each of the vital signs fall.  Due to the labor intensive measurements and the large amount of beds on a ward, these vital signs are usually only measured three times a day, providing the clinicians with limited and often out-of-date information to make decisions upon.  
