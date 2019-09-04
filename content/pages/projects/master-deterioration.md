@@ -1,6 +1,6 @@
 title: Predicting Clinical Deterioration Events
 finished: false
-type: general
+type: student
 template: project-single
 picture: projects/clinical_deterioration.jpg
 groups: rtc
