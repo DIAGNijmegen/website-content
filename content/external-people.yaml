@@ -64,3 +64,9 @@ people:
     affiliation: Internal Medicine
     url: https://www.radboudumc.nl/personen/bas-bredie
     picture: people/external/Bas_Bredie.jpg
+
+  - name: Mats Koeneman
+    position: Technical physician
+    affiliation: REshape
+    url: https://radboudreshapecenter.com/about-us/
+    picture: people/external/Mats_Koeneman.jpg
