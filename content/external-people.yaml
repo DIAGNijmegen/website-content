@@ -70,3 +70,9 @@ people:
     affiliation: REshape
     url: https://radboudreshapecenter.com/about-us/
     picture: people/external/Mats_Koeneman.jpg
+
+  - name: Eric Postma
+    position: Professor
+    affiliation: Artificial Intelligence, Tilburg University
+    url: https://ericpostma.nl
+    picture: people/external/Eric_Postma.jpg
