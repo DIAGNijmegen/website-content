@@ -2,6 +2,7 @@ title: Predicting Clinical Deterioration Events
 finished: false
 type: general
 template: project-single
+picture: projects/clinical_deterioration.jpg
 groups: rtc
 people: Maarten Vos
 description: : Predicting clinical deterioration events in hospitalized patients by using novel machine learning techniques.
