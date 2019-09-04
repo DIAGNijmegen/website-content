@@ -52,3 +52,9 @@ people:
     affiliation: Orthopedics
     url: https://www.radboudumc.nl/en/people/hans-dunning
     picture: people/external/Hans_Dunning.jpg
+    
+  - name: Tom Heskes
+    position: Professor
+    affiliation: Data Science, Radboud University
+    url: https://www.cs.ru.nl/~tomh/
+    picture: people/external/Tom_Heskes.jpg
