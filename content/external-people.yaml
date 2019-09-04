@@ -52,6 +52,12 @@ people:
     affiliation: Orthopedics
     url: https://www.radboudumc.nl/en/people/hans-dunning
     picture: people/external/Hans_Dunning.jpg
+ 
+  - name: Maarten Vos
+    position: Master student
+    affiliation: Data Science, Radboud University
+    url: linkedin.com/in/maarten-vos-756a43a5
+    picture: people/external/Maarten_Vos.jpg
     
   - name: Tom Heskes
     position: Professor
