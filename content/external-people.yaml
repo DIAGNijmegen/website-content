@@ -58,3 +58,9 @@ people:
     affiliation: Data Science, Radboud University
     url: https://www.cs.ru.nl/~tomh/
     picture: people/external/Tom_Heskes.jpg
+
+  - name: Bas Bredie
+    position: Internist
+    affiliation: Internal Medicine
+    url: https://www.radboudumc.nl/personen/bas-bredie
+    picture: people/external/Bas_Bredie.jpg
