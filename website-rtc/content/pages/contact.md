@@ -6,6 +6,7 @@ If you have any questions and would like to get in touch, you can send an e-mail
 
 ## Visiting Address
 
+<br>
 Our offices are located at
 
 Geert Grooteplein 10<br>
