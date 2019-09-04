@@ -4,7 +4,7 @@ type: student
 template: project-single
 picture: projects/clinical_deterioration.jpg
 groups: ai-for-health
-people: Maarten Vos
+people: Maarten Vos, Tom Heskes, Bas Bredie, Mats Koeneman
 description: Predicting clinical deterioration events in hospitalized patients by using novel machine learning techniques.
 
 **Background**<br>
