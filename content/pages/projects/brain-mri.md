@@ -1,7 +1,7 @@
 title: Brain MRI classification
 finished: false
 type: general
-description: For the “Nationale Wetenschapsagenda” (NWA) we are collecting data and setting up a challenge for the identification of healthy or abnormal MRI scans of the brain.
+description: In the context of the “Nationale Wetenschapsagenda” (NWA) roadmap for Value Creation through Responsible Access to and use of Big Data (VWdata) we are collecting data and setting up a challenge for the identification of healthy or abnormal MRI scans of the brain.
 template: project-single
 groups: rtc
 picture: projects/brain-mri.png
