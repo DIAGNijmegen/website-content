@@ -88,7 +88,7 @@ people:
     position: Professor
     affiliation: Intensive Care Medicine
     url: https://www.radboudumc.nl/en/people/hans-van-der-hoeven
-    picture: people/external/.jpg
+    picture: people/external/Hans_van_der_Hoeven.jpg
   - name: Luca Ambrogioni
     position: Assistant professor
     affiliation: Artificial Intelligence, Radboud University
@@ -103,7 +103,7 @@ people:
     position: Assistant professor
     affiliation: Artificial Intelligence, Radboud University
     url: https://www.ru.nl/english/people/hinne-m/
-    picture: people/external/.jpg
+    picture: people/external/Max_Hinne.jpg
   - name: Helger Yntema
     position: Head of Genome Diagnostics
     affiliation: Human Genetics
@@ -113,7 +113,7 @@ people:
     position: Clinical epidemiologist
     affiliation: Sint Maartenskliniek
     url: https://www.maartenskliniek.nl/en/research-and-innovation/miranda-van-hooff
-    picture: people/external/.jpg
+    picture: people/external/Miranda_van_Hooff.jpg
   - name: Marinus de Kleuver 
     position: Professor
     affiliation: Orthopedic Surgery
