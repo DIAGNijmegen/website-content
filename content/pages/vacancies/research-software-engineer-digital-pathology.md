@@ -45,6 +45,5 @@ Radboudumc strives to be a leading developer of sustainable, innovative and affo
 Read more about what it means to work at Radboudumc and how you can do your part.
 
 ## How to apply
-Send applications to [Dr. James Meakin](https://www.radboudumc.nl/en/vacancies/65321-research-software-engineer-in-digital-pathology), research software engineer. Applications will be reviewed on an ongoing basis until the position is filled.
 
-Recruitment agencies are asked not to respond to this job posting.
+**This vacancy is closed**, however, if you are interested in similar positions then please get in touch with [Dr. James Meakin](mailto:James.Meakin@radboudumc.nl).
