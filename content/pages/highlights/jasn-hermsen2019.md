@@ -1,7 +1,7 @@
 title: Deep learning-based histopathological assessment of renal tissue
 date: 2019-09-06
 description: Meyke Hermsen et al present the first multi-class segmentation network for the histopathological analysis of renal tissue. Their work was published online yesterday by the Journal of the American Society of Nephrology.
-picture: JASN_small.png
+picture: news/JASN_small.png
 groups: diag, pathology
 
 Histopathologic assessment of kidney tissue currently relies on manual scoring or traditional image-processing techniques to
