@@ -4,3 +4,173 @@ people:
     affiliation: Data Science, Radboud University
     url: https://www.ru.nl/personen/vries-a-de/
     picture: people/external/Arjen_de_Vries.jpg
+  - name: Karin Klijn
+    position: Professor
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/en/people/karin-klijn
+    picture: people/external/Karin_Klijn.jpg
+  - name: Floris Schreuder
+    position: Neurologist
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/personen/floris-schreuder
+    picture: people/external/Floris_Schreuder.jpg
+  - name: Alina Vrieling
+    position: Assistant professor
+    affiliation: Health Evidence
+    url: https://www.radboudumc.nl/en/people/alina-vrieling
+    picture: people/external/Alina_Vrieling.jpg
+  - name: Scott Maurits
+    position: PhD student
+    affiliation: Health Evidence
+    url: https://www.radboudumc.nl/en/people/scott-maurits
+    picture: people/external/Scott_Maurits.jpg
+  - name: Juerd Wijntjes
+    position: Neurologist
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/en/people/juerd-wijntjes
+    picture: people/external/Juerd_Wijntjes.jpg
+  - name: Jonne Doorduin
+    position: Assistant professor
+    affiliation: Neurology
+    url: https://www.radboudumc.nl/en/people/jonne-doorduin
+    picture: people/external/Jonne_Doorduin.jpg
+  - name: Sebastiaan van de Groes
+    position: Orthopedic surgeon
+    affiliation: Orthopedics
+    url: https://www.radboudumc.nl/personen/sebastiaan-van-de-groes
+    picture: people/external/Sebastiaan_van_de_Groes.jpg
+  - name: Hans Dunning
+    position: PhD student
+    affiliation: Orthopedics
+    url: https://www.radboudumc.nl/en/people/hans-dunning
+    picture: people/external/Hans_Dunning.jpg
+  - name: Maarten Vos
+    position: Master student
+    affiliation: Data Science, Radboud University
+    url: https://www.linkedin.com/in/maarten-vos-756a43a5/
+    picture: people/external/Maarten_Vos.jpg
+  - name: Tom Heskes
+    position: Professor
+    affiliation: Data Science, Radboud University
+    url: https://www.cs.ru.nl/~tomh/
+    picture: people/external/Tom_Heskes.jpg
+  - name: Bas Bredie
+    position: Internist
+    affiliation: Internal Medicine
+    url: https://www.radboudumc.nl/personen/bas-bredie
+    picture: people/external/Bas_Bredie.jpg
+  - name: Mats Koeneman
+    position: Technical physician
+    affiliation: REshape
+    url: https://radboudreshapecenter.com/about-us/
+    picture: people/external/Mats_Koeneman.jpg
+  - name: Eric Postma
+    position: Professor
+    affiliation: Artificial Intelligence, Tilburg University
+    url: https://ericpostma.nl
+    picture: people/external/Eric_Postma.jpg
+  - name: Tim Frenzel
+    position: Intensivist
+    affiliation: Intensive Care Medicine
+    url: https://linkedin.com/in/timfrenzel
+    picture: people/external/Tim_Frenzel.jpg
+  - name: Jeroen Schouten
+    position: Intensivist
+    affiliation: Intensive Care Medicine
+    url: https://www.radboudumc.nl/en/people/jeroen-schouten
+    picture: people/external/Jeroen_Schouten.jpg
+  - name: Marcel van Gerven
+    position: Professor
+    affiliation: Artificial Intelligence, Radboud University
+    url: https://www.ru.nl/english/people/gerven-m-van/
+    picture: people/external/Marcel_van_Gerven.jpg
+  - name: Hans van der Hoeven
+    position: Professor
+    affiliation: Intensive Care Medicine
+    url: https://www.radboudumc.nl/en/people/hans-van-der-hoeven
+    picture: people/external/Hans_van_der_Hoeven.jpg
+  - name: Luca Ambrogioni
+    position: Assistant professor
+    affiliation: Artificial Intelligence, Radboud University
+    url: https://www.ru.nl/english/people/ambrogioni-l/
+    picture: people/external/Luca_Ambrogioni.jpg
+  - name: Christian Gilissen
+    position: Associate professor
+    affiliation: Human Genetics
+    url: https://www.radboudumc.nl/en/people/christian-gilissen
+    picture: people/external/Christian_Gilissen.jpg
+  - name: Max Hinne
+    position: Assistant professor
+    affiliation: Artificial Intelligence, Radboud University
+    url: https://www.ru.nl/english/people/hinne-m/
+    picture: people/external/Max_Hinne.jpg
+  - name: Helger Yntema
+    position: Head of Genome Diagnostics
+    affiliation: Human Genetics
+    url: https://order.radboudumc.nl/en/genetics
+    picture: people/external/Helger_Yntema.jpg
+  - name: Miranda van Hooff
+    position: Clinical epidemiologist
+    affiliation: Sint Maartenskliniek
+    url: https://www.maartenskliniek.nl/en/research-and-innovation/miranda-van-hooff
+    picture: people/external/Miranda_van_Hooff.jpg
+  - name: Marinus de Kleuver 
+    position: Professor
+    affiliation: Orthopedic Surgery
+    url: https://www.radboudumc.nl/en/people/marinus-de-kleuver
+    picture: people/external/Marinus_de_Kleuver.jpg
+  - name: Faegheh Hasibi
+    position: Assistant professor
+    affiliation: Institute of Computing and Information Sciences, Radboud University
+    url: http://hasibi.com/
+    picture: people/external/Faegheh_Hasibi.jpg
+  - name: Liesbeth Langenhuysen
+    position: Manager supply
+    affiliation: REshape
+    url: https://radboudreshapecenter.com/about-us/
+    picture: people/external/Liesbeth_Langenhuysen.jpg
+  - name: Monique Brink
+    position: Radiologist
+    affiliation: Radiology
+    url: https://www.radboudumc.nl/en/people/monique-brink
+    picture: people/external/Monique_Brink.jpg
+  - name: Jurgen Claassen
+    position: Clinical geriatrician
+    affiliation: Donders Center of Medical Neurosciences
+    url: https://www.ru.nl/english/people/claassen-j/
+    picture: people/external/Jurgen_Claassen.jpg
+  - name: Tom Claassen
+    position: Assistant professor
+    affiliation: Data Science, Radboud University
+    url: https://www.ru.nl/english/people/claassen-t/
+    picture: people/external/Tom_Claassen.jpg
+  - name: Elena Marchiori
+    position: Professor
+    affiliation: Data Science, Radboud University
+    url: http://www.cs.ru.nl/~elenam/
+    picture: people/external/Elena_Marchiori.jpg
+  - name: Thomas Maal
+    position: Professor
+    affiliation: 3D Lab
+    url: https://www.radboudumc.nl/en/people/thomas-maal
+    picture: people/external/Thomas_Maal.jpg
+  - name: Tong Xi
+    position: Oral & Maxillofacial surgeon
+    affiliation: Oral & Maxillofacial Surgery
+    url: https://www.radboudumc.nl/en/people/tong-xi
+    picture: people/external/Tong_Xi.jpg
+  - name: Guido de Jong
+    position: Research coordinator
+    affiliation: Neurosurgery
+    url: https://www.radboudumc.nl/en/people/guido-de-jong
+    picture: people/external/Guido_de_Jong.jpg
+  - name: Hossein Ghaeminia
+    position: Oral & Maxillofacial surgeon
+    affiliation: Rijnstate
+    url: https://www.rijnstate.nl/specialisten/h-ghaeminia/
+    picture: people/external/Hossein_Ghaeminia.jpg
+  - name: Stefaan Bergé
+    position: Professor
+    affiliation: Oral & Maxillofacial Surgery
+    url: https://www.radboudumc.nl/en/people/stefaan-berge
+    picture: people/external/Stefaan_Bergé.jpg

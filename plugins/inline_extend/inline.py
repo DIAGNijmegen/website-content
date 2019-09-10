@@ -11,7 +11,7 @@ group_websites = {
     'rse': 'https://rse.diagnijmegen.nl',
     'bodyct': 'https://bodyct.diagnijmegen.nl',
     'aiimnijmegen': 'https://www.aiimnijmegen.nl',
-    'rtc': 'https://diagnijmegen.github.io/website-msc-projects/',
+    'rtc': 'https://rtc.diagnijmegen.nl',
     'neuro': 'https://diagnijmegen.github.io/website-neuro/',
     'diag': 'https://beta.diagnijmegen.nl'
 }

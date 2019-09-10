@@ -53,8 +53,4 @@ Read more about the Radboudumc [employment conditions](http://www.radboudumc.nl
 
 ### Comments and Contact Information
 
-All additional information about the vacancy can be obtained from [Dr. James Meakin](mailto:James.Meakin@radboudumc.nl), Research Software Engineer. Use the Apply button to submit your application.
-
-**Please apply before May 9, 2019 by following [this link](https://www.radboudumc.nl/en/vacancies/67221-research-software-engineer-infrastructure).**
-
-*Recruitment agencies are asked not to respond to this job posting.*
+**This vacancy is closed**, however, if you are interested in similar positions then please get in touch with [Dr. James Meakin](mailto:James.Meakin@radboudumc.nl).

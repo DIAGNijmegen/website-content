@@ -13,13 +13,13 @@ Live websites:
 - RSE: https://rse.diagnijmegen.nl
 - AI for Health: https://www.ai-for-health.nl
 - AIIM: https://www.aiimnijmegen.nl
+- RTC: https://rtc.diagnijmegen.nl
 
 Websites in development
 
 - Bodyct: https://bodyct.diagnijmegen.nl
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
 - DIAG: https://beta.diagnijmegen.nl (temporary)
-- RTC: https://diagnijmegen.github.io/website-rtc/ (temporary)
 
 ## Updating the content
 

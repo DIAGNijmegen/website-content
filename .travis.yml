@@ -105,6 +105,7 @@ jobs:
         - GENERATE_PUB=1
       deploy:
         <<: *deploy_defaults
+        fqdn: rtc.diagnijmegen.nl
     # Build and deploy steps for AI-for-Health website
     - <<: *build_defaults
       name: Build AI-for-Health website

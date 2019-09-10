@@ -19,7 +19,7 @@ We are looking for an ambitious, creative and enthusiastic computer scientist, b
 
 ## Terms of employment
 
-You will be appointed as a PhD student for four years with the standard salary and secondary conditions for PhD students in the Netherlands. Your performance will be evaluated after 1 year. The research should result in a PhD thesis and a system that will be implemented within mijnRadboud portal.
+You will be appointed as a PhD student for four years with the standard salary and secondary conditions for PhD students in the Netherlands. Your performance will be evaluated after 1 year. The research should result in a PhD thesis and a system that will be implemented in Radboudumc.
 
 ## Application
 
