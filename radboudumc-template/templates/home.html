@@ -27,6 +27,19 @@
             </div>
         </div>
     </div>
+    {% elif HOME_JUMBOTRON_LAYOUT == 'neural-bg' %}
+    <div class="block-home-neural-bg">
+        <div class="jumbotron block-home block-home-dense block-home-neural">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-8">
+                      <h1 class="display-title">{{SITENAME}}</h1>
+                      <p class="lead">{{SITELEAD}}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
     {% else %}
     <div class="jumbotron block-home {% if HOME_ALT_COLOR_SCHEME %}block-home-gray{% endif %}">
         <div class="container">

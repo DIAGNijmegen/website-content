@@ -43,6 +43,15 @@ Styles of the home page.
     }
   }
 
+  &.block-home-neural {
+    background: none;
+    background-image: url('/images/general/home-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    min-height: 400px;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     color: $white;
   }
@@ -88,6 +97,13 @@ Styles of the home page.
   }
 }
 
+// Background gradient for neural image
+.block-home-neural-bg {
+    background: #00afdc;
+    @include media-breakpoint-up(md) {
+      background: linear-gradient(90deg, rgb(9, 38, 68) 0%, #00afdc 100%);
+    }
+}
 
 .content-home {
   // Alternative styles for highlights
