@@ -16,4 +16,4 @@ Their findings demonstrate applicability of CNNs for tissue from multiple center
 The left picture in the panel above is representative for regions that were used for testing of the CNN (PAS, Radboudumc). The middle picture presents the ouput of the network. For illustrative purposes, the PAS slide was restained using anti-
 Aquaporin-1 antibody, highlighting proximal tubuli (right). These images illustrate the high accuracy by which the network segments all different structures, the glomeruli and proximal tubuli in particular.
 
-Read more about the author's work in their <a href="https://jasn.asnjournals.org/content/early/2019/09/05/ASN.2019020144">paper</a> which appeared online yesterday in the <a href="https://jasn.asnjournals.org/>Journal of the American Society of Nephrology (JASN)</a>.
+Read more about the author's work in their <a href="https://jasn.asnjournals.org/content/early/2019/09/05/ASN.2019020144">paper</a> which appeared online yesterday in the <a href="https://jasn.asnjournals.org/">Journal of the American Society of Nephrology (JASN)</a>.
