@@ -23,7 +23,8 @@ Is it possible to predict immunotherapy treatment response in NSCLC patients via
 
 AI will be leveraged to build machines for automatic assessment of biomarkers based on the analysis of digitalized histopathology images. Computational Pathology models will be developed for the characterization of the immune reaction of the organism in the presence of lung cancer, by extracting biomarkers based on assessment of cytotoxic T-cells (CD8), immune checkpoints (PD-L1), Tumor Infiltrating Lymphocytes (TILs), tertiary lymphoid structures (TLS), among others, guided by the characterization of tissue morphology and composition of histopathology whole-slide images using deep learning methods. 
 The goal is to develop a framework based on the synergy of digital pathology and AI for accurate classification of the tumor immune microenvironment of NSCLC to allow personalization of immunotherapy.
-Multiple student projects are available in the context of this research. Examples of available projects and tasks are the following:
+
+We will address one or more of the following tasks:
 
 * Detection of PD-L1 positive cells with deep learning models for object detection and segmentation
 * Detection of lung cancer tumor cells in H&E images with deep learning
