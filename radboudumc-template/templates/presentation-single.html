@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block description %}{{ page.content | striptags | truncate(200)}}{% endblock %}
-{% block page_picture %}{{ SITEURL}}/images/{{page.picture_large}}{% endblock %}
+{% block page_picture %}{{ SITEURL}}/images/{{page.picture}}{% endblock %}
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
 
