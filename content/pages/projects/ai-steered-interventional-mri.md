@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/mri_guided_intervention.png
 template: project-single
-people: Henkjan Huisman, Patrick Brand
+people: Tristan de Boer, Henkjan Huisman, Patrick Brand
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
 
 ## Background
@@ -22,13 +22,3 @@ In this pilot project, the focus is on simulated interventional MRI. The tasks a
 - Develop an AI tracking module that predicts the tumor target location from a series of MRI images.
 - Develop a demonstrator that compares conventional versus AI-driven interventional MRI 
 
-## Requirements
-
-- Students at the final year of a study in computer science, artificial intelligence, physics, or a related area.
-- Basic level of knowledge and experience in Deep Learning in Healthcare
-
-## Information
-
-- Project duration: 6-9 months
-- Location: Radboud University Medical Center
-- For more information, please contact [Patrick Brand](http://diagnijmegen.nl/index.php/Person?name=Patrick_Brand)
