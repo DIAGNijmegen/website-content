@@ -2,7 +2,7 @@ title: AI steered interventional MRI
 groups: diag, ai-for-health
 finished: false
 type: student
-picture: projects/mri-intervention.jpg
+picture: projects/mri_intervention.jpg
 template: project-single
 people: Tristan de Boer, Henkjan Huisman, Patrick Brand
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
