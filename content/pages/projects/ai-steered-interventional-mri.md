@@ -21,4 +21,3 @@ In this pilot project, the focus is on simulated interventional MRI. The tasks a
 - Develop an MRI simulation module. Synthetic MRI image series should show moving tumor targets with an adjustable motion to simulate varying levels of difficulty.
 - Develop an AI tracking module that predicts the tumor target location from a series of MRI images.
 - Develop a demonstrator that compares conventional versus AI-driven interventional MRI 
-
