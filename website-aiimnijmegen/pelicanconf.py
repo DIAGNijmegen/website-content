@@ -19,7 +19,7 @@ SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = 'https://twitter.com/aiim_nl'
-FOOTER_TEXT = 'The AIIM Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
+FOOTER_TEXT = 'The AIIM Lab is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
@@ -30,7 +30,7 @@ NAV_SECTIONS = [
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
+    # {"name": "Presentations", "url": "presentations", "hidden": 95},
     {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
