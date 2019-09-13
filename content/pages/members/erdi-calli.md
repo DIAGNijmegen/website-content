@@ -2,7 +2,7 @@ title: Erdi Calli
 name: Erdi Calli
 template: people-single
 picture: people/Erdi_Calli.jpg
-position: PhD
+position: PhD student
 active: yes
 groups: diag
 email: erdi.calli@radboudumc.nl
