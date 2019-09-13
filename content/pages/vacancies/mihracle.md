@@ -1,6 +1,6 @@
 title: PhD position for building multi-modal interactive health records
 groups: ai-for-health 
-closed: false
+closed: true
 type: general
 picture: vacancies/mihracle.jpg
 people: Arjen de Vries, Faegheh Hasibi, Liesbeth Langenhuysen, Monique Brink, Ritse Mann, Bram van Ginneken 
