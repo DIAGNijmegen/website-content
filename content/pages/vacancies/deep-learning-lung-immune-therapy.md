@@ -1,6 +1,6 @@
 title: AI to predict lung cancer immunotherapy response
 groups: pathology, diag, ai-for-health 
-closed: false
+closed: true
 type: student
 picture: vacancies/lung_projects_immuno.png
 template: vacancy-single

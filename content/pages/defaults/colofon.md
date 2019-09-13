@@ -16,3 +16,7 @@ Icons are from:
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Linecons](https://www.flaticon.com/packs/linecons)
+
+Stock photos / illustrations:
+
+- On some pages we use an adapted version of the 'neural texture image' by [aew](https://www.rawpixel.com/aew/showcase).

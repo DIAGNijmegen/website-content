@@ -1,6 +1,6 @@
 title: Research Software Engineer
 groups: diag, rse
-closed: false
+closed: true
 type: general
 picture: general/ApplicationsOfDeepLearning.png
 people: James Meakin, Mathias Prokop, Paul Gerke, Bram van Ginneken
@@ -37,6 +37,5 @@ Radboudumc strives to be a leading developer of sustainable, innovative and affo
 Read more about what it means to work at Radboudumc and how you can do your part.
 
 ## How to apply
-Send applications to [Dr. James Meakin](https://www.radboudumc.nl/en/vacancies/71321-research-software-engineer), research software engineer. **Please apply before 5 September 2019**.
 
-Recruitment agencies are asked not to respond to this job posting.
+**This vacancy is closed**, however, if you are interested in similar positions then please get in touch with [Dr. James Meakin](mailto:James.Meakin@radboudumc.nl).

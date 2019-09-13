@@ -1,6 +1,6 @@
 title: AI steered interventional MRI
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/mri_guided_intervention.png
 template: vacancy-single

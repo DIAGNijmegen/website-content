@@ -3,7 +3,7 @@ groups: ai-for-health
 closed: false
 type: general
 picture: vacancies/msk_lbp.jpg
-people: Nikolas Lessmann, Miranda van Hooff, Stan Buckens, Bram van Ginneken, Marinus de Kleuver 
+people: Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
 template: vacancy-single
 description: We are looking for a PhD candidate for the project AI-based MRI analysis for treatment decision support in patients with chronic degenerative low back pain.
 
@@ -23,6 +23,6 @@ You will be appointed as a PhD student with the standard salary and secondary co
 
 ## Application
 
-You can already apply directly by e-mail to [Dr. Nikolas Lessmann](mailto:nikolas.lessmann@radboudumc.nl) or [Dr. Miranda van Hooff](mailto:m.vanhooff@maartenskliniek.nl). In your application include a motivation letter, your CV, list of grades and links to publications, your Master thesis or other work you have written in English.
+Please apply before 1 October 2019 by e-mail to [Dr. Nikolas Lessmann](mailto:nikolas.lessmann@radboudumc.nl) or [Dr. Miranda van Hooff](mailto:m.vanhooff@maartenskliniek.nl). In your application include a motivation letter, your CV, list of grades and links to publications, your Master thesis or other work you have written in English.
 
 All applications will be processed immediately upon receipt until the position has been filled.

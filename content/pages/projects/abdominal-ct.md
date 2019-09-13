@@ -1,7 +1,7 @@
 title: Adipose and muscular tissue segmentation
 finished: false
 type: general
-description: Segmentation and quantification of adipose and muscular tissue in non-contrast abdominal CT.
+description: For the department of Health Evidence we are developing an application for the segmentation and quantification of adipose and muscular tissue in non-contrast abdominal CT.
 template: project-single
 groups: rtc
 picture: projects/abdominal-ct.png

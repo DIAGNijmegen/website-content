@@ -54,7 +54,7 @@ def parse_external_member_data():
 
     data = {}
 
-    with open(file_location, 'r') as stream:
+    with open(file_location, encoding="utf-8") as stream:
         raw_data = yaml.safe_load(stream)
 
         for person in raw_data['people']:

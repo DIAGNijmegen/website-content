@@ -3,7 +3,7 @@ name: Mehmet Dalmis
 template: people-single
 picture: people/Mehmet_Dalmis.jpg
 position: PhD candidate
-active: yes
+active: no
 groups: diag, aiimnijmegen
 email: mehmet.dalmis@radboudumc.nl 
 office: Route 767
