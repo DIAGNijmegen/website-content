@@ -2,7 +2,7 @@ title: Ecem Lago
 name: Ecem Lago
 template: people-single
 picture: people/Ecem_Lago.jpg
-position: PhD
+position: PhD student
 active: yes
 groups: diag
 email: ecem.sogancioglu@radboudumc.nl
