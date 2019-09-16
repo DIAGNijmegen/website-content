@@ -5,6 +5,7 @@ template: project-single
 picture: projects/logo_direct.png
 groups: aiimnijmegen
 people: Jonas Teuwen, Nikita Moriakov, Roeland Dilz
+description: In the DIRECT project we develop deep learning-based image reconstruction methods.
 
 In the DIRECT (Deep Image REConsTruction) project we develop deep learning-based image reconstruction methods for Cone Beam CT (CBCT), tomosynthesis and MRI reconstruction.
 Many applications in imaging and radiotherapy would benefit from real-time reconstruction methods, that is, from methods that can directly map the measured machine data to the reconstructed image.
