@@ -13,4 +13,5 @@ While population-based breast cancer screening with mammography has shown to be 
 ## Funding
 
 * [EFRO Oost-Nederland](https://www.op-oost.eu/)
+
 ![EFRO Oost-Nederland]({static}/images/projects/op_oost_logo.png)
