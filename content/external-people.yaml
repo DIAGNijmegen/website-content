@@ -229,4 +229,9 @@ people:
     affiliation: Pathology, Radboudumc
     url: http://diagnijmegen.nl/index.php/Person?name=Tariq_Haddad
     picture: people/external/Tariq_Haddad.jpg
+  - name: Tristan de Boer
+    position: Master student
+    affiliation: Data Science, Radboud University
+    url: https://www.linkedin.com/in/tristandeboer
+    picture: 
     
