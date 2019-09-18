@@ -1,0 +1,11 @@
+title: Classification of CT Pulmonary Opacities as Perifissural Nodules: Reader Variability
+authors: A. Schreuder, B. van Ginneken, E.T. Scholten, C. Jacobs, M. Prokop, N. Sverzellati, S.R. Desai, A. Devaraj and C.M. Schaefer-Prokop
+has_pdf: True
+template: publication
+bibkey: schr18b
+published_in: Radiology
+pub_details: <i>Radiology</i> 2018;288(3):867-875
+doi: https://doi.org/10.1148/radiol.2018172771
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/29969076
+Purpose To study interreader variability for classifying pulmonary opacities at CT as perifissural nodules (PFNs) and determine how reliably radiologists differentiate PFNs from malignancies. Materials and Methods CT studies were obtained retrospectively from the National Lung Screening Trial (2002-2009). Nodules were eligible for the study if they were noncalcified, solid, within the size range of 5 to 10 mm, and scanned with a section thickness of 2 mm or less. Six radiologists classified 359 nodules in a cancer-enriched data set as PFN, non-PFN, or not applicable. Nodules classified as not applicable by at least three radiologists were excluded, leaving 316 nodules for post-hoc statistical analysis. Results The study group contained 22.2% cancers (70 of 316). The median proportion of nodules classified as PFNs was 45.6% (144 of 316). All six radiologists uniformly classified 17.7% (56 of 316) of the nodules as PFNs. The Fleiss κ was 0.50. Compared with non-PFNs, nodules classified as PFNs were smaller and more often located in the lower lobes and attached to a fissure (P < .001). Thirteen (18.6%) of 70 cancers were misclassified 21 times as PFNs. Individual readers' misclassification rates ranged from 0% (0 of 125) to 4.9% (eight of 163). Of 13 misclassified malignancies, 11 were in the upper lobes and two were attached to a fissure. Conclusion There was moderate interreader agreement when classifying nodules as perifissural nodules. Less than 2.5% of perifissural nodule classifications were misclassified lung cancers (21 of 865) in this cancer-enriched study. Allowing nodules classified as perifissural nodules to be omitted from additional follow-up in a screening setting could substantially reduce the number of unnecessary scans; excluding perifissural nodules in the upper lobes would greatly decrease the misclassification rate.
+

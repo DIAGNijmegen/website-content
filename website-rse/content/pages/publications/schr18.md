@@ -1,0 +1,11 @@
+title: Lung cancer risk to personalise annual and biennial follow-up computed tomography screening
+authors: A. Schreuder, C. Schaefer-Prokop, E. Scholten, C. Jacobs, M. Prokop and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: schr18
+published_in: Thorax
+pub_details: <i>Thorax</i> 2018;73(7):626-633
+doi: https://doi.org/10.1136/thoraxjnl-2017-211107
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/29602813
+Background All lung cancer CT screening trials used fixed follow-up intervals, which may not be optimal. We developed new lung cancer risk models for personalising screening intervals to 1 year or 2 years, and compared these with existing models. Methods: We included participants in the CT arm of the National Lung Screening Trial (2002–2010) who underwent a baseline scan and a first annual follow-up scan and were not diagnosed with lung cancer in the first year. True and false positives and the area under the curve of each model were calculated. Internal validation was performed using bootstrapping. Results: Data from 24 542 participants were included in the analysis. The accuracy was 0.785, 0.693, 0.697, 0.666 and 0.727 for the polynomial, patient characteristics, diameter, Patz and PanCan models, respectively. Of the 24 542 participants included, 174 (0.71%) were diagnosed with lung cancer between the first and the second annual follow-ups. Using the polynomial model, 2558 (10.4%, 95% CI 10.0% to 10.8%), 7544 (30.7%, 30.2% to 31.3%), 10 947 (44.6%, 44.0% to 45.2%), 16 710 (68.1%, 67.5% to 68.7%) and 20 023 (81.6%, 81.1% to 92.1%) of the 24 368 participants who did not develop lung cancer in the year following the first follow-up screening round could have safely skipped it, at the expense of delayed diagnosis of 0 (0.0%, 0.0% to 2.7%), 8 (4.6%, 2.2% to 9.2%), 17 (9.8%, 6.0% to 15.4%), 44 (25.3%, 19.2% to 32.5%) and 70 (40.2%, 33.0% to 47.9%) of the 174 lung cancers, respectively. Conclusions: The polynomial model, using both patient characteristics and baseline scan morphology, was significantly superior in assigning participants to 1-year or 2-year screening intervals. Implementing personalised follow-up intervals would enable hundreds of participants to skip a screening round per lung cancer diagnosis delayed.
+
