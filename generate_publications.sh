@@ -7,7 +7,7 @@ if [[ $GENERATE_PUB != '1' ]]; then
   echo "Skipping generation of publication pages for $WEBSITE."
 else
 
-  gitdiff='git diff-index --quiet HEAD ./content/diag.bib'
+  gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
   if ! $gitdiff; then
 
     echo "Generating publications for $WEBSITE"
