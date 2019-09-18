@@ -1,7 +1,7 @@
 title: Opening Thira Lab and Radboud AI for Health Lab
 date: 2019-09-18
 description: The first two Nijmegen-based labs of the nationwide Innovation Center of Artifical Intelligence (ICAI) were opened this Monday by Radboudumc's Chair of the Executive Board, Paul Smits. 
-picture: news/ICAI_logo.jpg
+picture: news/ICAI_logo_new.png
 groups: diag
 
 On the 16th of September the official opening event of the <a href="https://icai.ai/thira-lab/">Thira Lab</a> and <a href="https://www.ai-for-health.nl/">Radboud AI for Health Lab</a> look place in the Tuinzaal of <a href="https://www.radboudumc.nl/patientenzorg">Radboudumc</a>.  Witnessed by many interested attendees, Radboudumc’s  Chair of the Executive Board prof. Paul Smits opened the first two  Nijmegen-based labs within the nationwide Innovation Center of Artificial Intelligence (<a href="https://icai.ai/">ICAI</a>).
