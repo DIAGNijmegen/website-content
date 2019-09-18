@@ -123,7 +123,7 @@ website-*/content/pages/home.md
 website-*/content/pages/members.md
 website-*/content/pages/presentations.md
 website-*/content/pages/projects.md
-website-*/content/pages/publications.md
+#website-*/content/pages/publications.md
 website-*/content/pages/software.md
 website-*/content/pages/thesis-gallery.md
 website-*/content/pages/vacancies.md
