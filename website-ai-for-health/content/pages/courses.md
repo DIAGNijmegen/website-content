@@ -27,7 +27,7 @@ Costs for the course will be covered by Radboudumc. The participants signs a tra
 ## How to apply
 If you are interested please send by September 30 an e-mail to aiforhealth@radboudumc.nl containing the following:
 
-* Indicate if you prefer tov start in November 2019 ronde or in May 2020
+* Indicate if you prefer to start in November 2019 or in May 2020
 * Short CV (1 page max)
 * Letter of motivation (1 page max)
 * Letter signed by the Head of Department (see format [here](https://drive.google.com/open?id=12offpKFf96nYvPrRlL4JpgnlChwxzcfF)). This letter should be provided by October 14, 2019.
