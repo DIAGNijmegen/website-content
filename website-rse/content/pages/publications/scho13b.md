@@ -1,0 +1,11 @@
+title: Semi-automatic quantification of subsolid pulmonary nodules: comparison with manual measurements
+authors: E.T. Scholten, B. de Hoop, C. Jacobs, S. van Amelsvoort-van de Vorst, R.J. van Klaveren, M. Oudkerk, R. Vliegenthart, H.J. de Koning, C.M. van der Aalst, W.T.M. Mali, H.A. Gietema, M. Prokop, B. van Ginneken and P.A. de Jong
+has_pdf: True
+template: publication
+bibkey: scho13b
+published_in: PLoS One
+pub_details: <i>PLoS One</i> 2013;8:e80249
+doi: https://doi.org/10.1371/journal.pone.0080249
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/24278264
+Accurate measurement of subsolid pulmonary nodules (SSN) is becoming increasingly important in the management of these nodules. SSNs were previously quantified with time-consuming manual measurements. The aim of the present study is to test the feasibility of semi-automatic SSNs measurements and to compare the results to the manual measurements.In 33 lung cancer screening participants with 33 SSNs, the nodules were previously quantified by two observers manually. In the present study two observers quantified these nodules by using semi-automated nodule volumetry software. Nodules were quantified for effective diameter, volume and mass. The manual and semi-automatic measurements were compared using Bland-Altman plots and paired T tests. Observer agreement was calculated as an intraclass correlation coefficient. Data are presented as mean (SD).Semi-automated measurements were feasible in all 33 nodules. Nodule diameter, volume and mass were 11.2 (3.3) mm, 935 (691) ml and 379 (311) milligrams for observer 1 and 11.1 (3.7) mm, 986 (797) ml and 399 (344) milligrams for observer 2, respectively. Agreement between observers and within observer 1 for the semi-automatic measurements was good with an intraclass correlation coefficient >0.89. For observer 1 and observer 2, measured diameter was 8.8\% and 10.3\% larger (p<0.001), measured volume was 24.3\% and 26.5\% larger (p<0.001) and measured mass was 10.6\% and 12.0\% larger (p<0.001) with the semi-automatic program compared to the manual measurements.Semi-automated measurement of the diameter, volume and mass of SSNs is feasible with good observer agreement. Semi-automated measurement makes quantification of mass and volume feasible in daily practice.
+

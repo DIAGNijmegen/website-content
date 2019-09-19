@@ -1,0 +1,11 @@
+title: Predictive Accuracy of the PanCan Lung Cancer Risk Prediction Model -External Validation based on CT from the Danish Lung Cancer Screening Trial
+authors: M.M. Winkler Wille, S.J. van Riel, Z. Saghir, A. Dirksen, J.H. Pedersen, C. Jacobs, L.H. Thomsen, E.T. Scholten, L.T. Skovgaard and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: wink15a
+published_in: European Radiology
+pub_details: <i>European Radiology</i> 2015;25:3093-3099
+doi: https://doi.org/10.1007/s00330-015-3689-0
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25764091
+Lung cancer risk models should be externally validated to test generalizability and clinical usefulness. The Danish Lung Cancer Screening Trial (DLCST) is a population-based prospective cohort study, used to assess the discriminative performances of the PanCan models.From the DLCST database, 1,152 nodules from 718 participants were included. Parsimonious and full PanCan risk prediction models were applied to DLCST data, and also coefficients of the model were recalculated using DLCST data. Receiver operating characteristics (ROC) curves and area under the curve (AUC) were used to evaluate risk discrimination.AUCs of 0.826-0.870 were found for DLCST data based on PanCan risk prediction models. In the DLCST, age and family history were significant predictors (pÃ¢â‚¬â€°=Ã¢â‚¬â€°0.001 and pÃ¢â‚¬â€°=Ã¢â‚¬â€°0.013). Female sex was not confirmed to be associated with higher risk of lung cancer; in fact opposing effects of sex were observed in the two cohorts. Thus, female sex appeared to lower the risk (pÃ¢â‚¬â€°=Ã¢â‚¬â€°0.047 and pÃ¢â‚¬â€°=Ã¢â‚¬â€°0.040) in the DLCST.High risk discrimination was validated in the DLCST cohort, mainly determined by nodule size. Age and family history of lung cancer were significant predictors and could be included in the parsimonious model. Sex appears to be a less useful predictor.Ã¢â‚¬Â¢ High accuracy in logistic modelling for lung cancer risk stratification of nodules. Ã¢â‚¬Â¢ Lung cancer risk prediction is primarily based on size of pulmonary nodules. Ã¢â‚¬Â¢ Nodule spiculation, age and family history of lung cancer are significant predictors. Ã¢â‚¬Â¢ Sex does not appear to be a useful risk predictor.
+

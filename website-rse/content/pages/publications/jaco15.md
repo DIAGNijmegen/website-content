@@ -1,0 +1,11 @@
+title: Solid, Part-Solid, or Non-solid?: Classification of Pulmonary Nodules in Low-Dose Chest Computed Tomography by a Computer-Aided Diagnosis System
+authors: C. Jacobs, E.M. van Rikxoort, E.T. Scholten, P.A. de Jong, M. Prokop, C. Schaefer-Prokop and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: jaco15
+published_in: Investigative Radiology
+pub_details: <i>Investigative Radiology</i> 2015;50:168-173
+doi: https://doi.org/10.1097/RLI.0000000000000121
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25478740
+The purpose of this study was to develop and validate a computer-aided diagnosis (CAD) tool for automatic classification of pulmonary nodules seen on low-dose computed tomography into solid, part-solid, and non-solid. Study lesions were randomly selected from 2 sites participating in the Dutch-Belgian NELSON lung cancer screening trial. On the basis of the annotations made by the screening radiologists, 50 part-solid and 50 non-solid pulmonary nodules with a diameter between 5 and 30 mm were randomly selected from the 2 sites. For each unique nodule, 1 low-dose chest computed tomographic scan was randomly selected, in which the nodule was visible. In addition, 50 solid nodules in the same size range were randomly selected. A completely automatic 3-dimensional segmentation-based classification system was developed, which analyzes the pulmonary nodule, extracting intensity-, texture-, and segmentation-based features to perform a statistical classification. In addition to the nodule classification by the screening radiologists, an independent rating of all nodules by 3 experienced thoracic radiologists was performed. Performance of CAD was evaluated by comparing the agreement between CAD and human experts and among human experts using the Cohen ÃŽÂº statistics.Pairwise agreement for the differentiation between solid, part-solid, and non-solid nodules between CAD and each of the human experts had a ÃŽÂº range between 0.54 and 0.72. The interobserver agreement among the human experts was in the same range (ÃŽÂº range, 0.56-0.81). A novel automated classification tool for pulmonary nodules achieved good agreement with the human experts, yielding ÃŽÂº values in the same range as the interobserver agreement. Computer-aided diagnosis may aid radiologists in selecting the appropriate workup for pulmonary nodules.
+

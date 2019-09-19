@@ -1,0 +1,9 @@
+title: Computer-Aided Detection of Ground Glass Nodules in Lung Cancer Screening: Retrospective Evaluation of Potential Benefit
+authors: C. Jacobs, E. Th. Scholten, S.C. Saur, T. Twellmann, P.A. de Jong and B. van Ginneken
+has_pdf: False
+template: publication
+bibkey: jaco12
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2012
+PURPOSE Ground glass nodules (GGNs) have a high probability of being malignant. We retrospectively investigated the usefulness of a dedicated computer-aided detection (CAD) system for GGNs in a clinical screening setting. METHODS AND MATERIALS: A set of 620 low-dose chest CT scans (16x0.75mm, 120-140 kVp, 30 mAs) were randomly selected from a lung cancer screening trial. All scans were processed with a research prototype CAD system for GGNs (Diagnostic Image Analysis Group, Nijmegen, The Netherlands, Fraunhofer MEVIS, Bremen, Germany). Two chest radiologists inspected all CAD marks and classified them as GGN, other lesion, or false positive. Findings were compared with the annotations recorded in the screening trial database, which were obtained without the support of CAD. RESULTS: GGN CAD found 386 marks (0.62 per scan). Radiologist 1 classified 22 marks as GGN, 222 as other lesions and 142 as false positives. For radiologist 2 these numbers were 39, 107, and 240, respectively. Fifteen findings were considered to be GGNs by both radiologists. Of these 15, only 3 had been annotated in the screening trial. CAD marks that were classified by the radiologists as other lesions involved mainly scars and areas of inflammation. A common source of CAD false positives were hazy opacities caused by cardiac motion. CONCLUSION: At less than 0.7 false positives per scan, the CAD system can substantially increase the number of GGNs identified in a lung cancer screening trial at a false positive rate that does not impose a burden on the reading process.
+
