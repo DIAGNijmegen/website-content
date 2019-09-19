@@ -31,9 +31,3 @@ If you are interested please send by September 30 an e-mail to aiforhealth@radbo
 * Short CV (1 page max)
 * Letter of motivation (1 page max)
 * Letter signed by the Head of Department (see format [here](https://drive.google.com/open?id=12offpKFf96nYvPrRlL4JpgnlChwxzcfF)). This letter should be provided by October 14, 2019.
-
-[slideshare: rdOzN9kr1yK5eE]
-
-[youtube: 9ks7cLpYAw8]
-
-
