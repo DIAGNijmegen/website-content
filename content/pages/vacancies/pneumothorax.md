@@ -27,12 +27,10 @@ Detection and segmentation of pneumothorax in chest x-rays.
 The goal is to integrate the algorithm in a set of chest x-ray analysis algorithms that are tested in routine clinical care at the Department of Radiology and Nuclear Medicine at Radboud UMC.
 
 ## Requirements
-
 - Students in the final year of a study in computer science, artificial intelligence, physics, or a related area.
 - Knowledge of and experience with deep learning image analysis. You should sufficiently proficient to be able to implement systems described in [this book](https://www.manning.com/books/deep-learning-with-python). 
 
 ## Information
-
 - Project duration: 6 months
 - Location: Radboud University Medical Center
 - For more information, please contact [Keelin Murphy](http://diagnijmegen.nl/index.php/Person?name=Keelin_Murphy)
