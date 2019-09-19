@@ -6,11 +6,12 @@ picture: vacancies/AIFH_diploma.png
 template: people
 description: AI courses for health(care) professionals with a background in Medicine, Biomedical Sciences or Technical Medicine. 
 
+## AI for Health course
 Radboud AI for Health plans to run two courses every year for a group of around 25 professionals from Radboudumc interested to learn more about AI applications in healthcare. The course program will consist of lectures and practical exercises, and will conclude with a practical project around a Radboudumc case. Details of the program will be set up in collaboration with the participants. 
 
 The course will be organized in a collaboration between Radboudumc, Radboud University and the Jheronimus Academy of Data Science (JADS) in Den Bosch. A presentation by Egge van der Poel was given during an information session on September 16, 2019. The slides of this presentation can be found [here](https://drive.google.com/open?id=1nnYpNSdr10E3Zm7IiV78UFj239eIV4Yx). 
 
-What you need to know:
+## What you need to know
 * Course will be held on 10 Fridays, with different topics per day
 * We plan to have 7 obligatory session and 3 that can be selected from a larger list
 * Lectures in the morning, afternoon practicals with cases focused on Radboudumc practice
@@ -23,12 +24,14 @@ What you need to know:
 
 Costs for the course will be covered by Radboudumc. The participants signs a training agreement which ensures that part of the costs will be paid back should the participant leave Radboudumc within two years in agreement with article 3.1.3 from the CAO. The department where the participant is employed will reimburse addiiotnal costs, e.g. for travel and provides the participant the time to follow the course. 
 
+## How to apply
 If you are interested please send by September 30 an e-mail to aiforhealth@radboudumc.nl containing the following:
 * Indicate if you prefer tov start in November 2019 ronde or in May 2020
 * Short CV (1 page max)
 * Letter of motivation (1 page max)
 * Letter signed by the Head of Department (see format [here](https://drive.google.com/open?id=12offpKFf96nYvPrRlL4JpgnlChwxzcfF)). This letter should be provided by October 14, 2019.  
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 
