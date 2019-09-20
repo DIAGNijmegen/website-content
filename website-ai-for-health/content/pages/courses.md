@@ -22,4 +22,4 @@ The course will be organized in a collaboration between Radboudumc, Radboud Univ
 * The course will end with a graduation ceremony where teams will present their project results a certificate will be awarded
 * Start of the first edition: November 1, 2019 (the second edition is planned to start May 2020)
 
-More information and instructions how to apply can be found on [this internal Radboudmc] page(https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth). 
+More information and instructions how to apply can be found on [this internal Radboudmc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth). 
