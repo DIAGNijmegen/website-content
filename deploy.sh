@@ -9,6 +9,9 @@ cd $WEBSITE
 # Build pelican website
 pelican content -s publishconf.py
 
+
+echo "after publishconf.py"
+
 # Copy files for github
 cp README.md output/README.md
 cp .nojekyll output/.nojekyll
