@@ -7,7 +7,7 @@ build_defaults: &build_defaults
   script:
     - bash copy_content.sh
     - bash generate_publications.sh
-    - bash deploy.sh
+    - bash deploy.sh --debug
   cache:
     - pip
 
