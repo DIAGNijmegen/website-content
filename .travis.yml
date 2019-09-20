@@ -115,9 +115,9 @@ jobs:
         <<: *deploy_defaults
         fqdn: www.ai-for-health.nl
     # Run image optimization script
-#    - stage: commit
-      #if: branch = feature/publications
-      #script: bash ./push.sh
+    - stage: commit
+      if: branch = feature/publications
+      script: bash ./push.sh
     - stage: images
       if: branch = master
       script: bash ./optimize_images.sh
