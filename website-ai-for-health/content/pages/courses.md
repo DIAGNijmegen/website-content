@@ -22,12 +22,4 @@ The course will be organized in a collaboration between Radboudumc, Radboud Univ
 * The course will end with a graduation ceremony where teams will present their project results a certificate will be awarded
 * Start of the first edition: November 1, 2019 (the second edition is planned to start May 2020)
 
-Costs for the course will be covered by Radboudumc. The participants signs a training agreement which ensures that part of the costs will be paid back should the participant leave Radboudumc within two years in agreement with article 3.1.3 from the CAO. The department where the participant is employed will reimburse addiiotnal costs, e.g. for travel and provides the participant the time to follow the course. 
-
-## How to apply
-If you are interested please send by September 30 an e-mail to aiforhealth@radboudumc.nl containing the following:
-
-* Indicate if you prefer to start in November 2019 or in May 2020
-* Short CV (1 page max)
-* Letter of motivation (1 page max)
-* Letter signed by the Head of Department (see format [here](https://drive.google.com/open?id=12offpKFf96nYvPrRlL4JpgnlChwxzcfF)). This letter should be provided by October 14, 2019.
+More information and instructions how to apply can be found on [this internal Radboudmc] page(https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth). 
