@@ -7,25 +7,25 @@ if [[ $GENERATE_PUB != '1' ]]; then
   echo "Skipping generation of publication pages for $WEBSITE."
 else
 
-  gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
-  if ! $gitdiff; then
+#  gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
+  #if ! $gitdiff; then
 
-    echo "Generating publications for $WEBSITE"
+  echo "Generating publications for $WEBSITE"
 
-    # Copy bib generator script
-    cp -r plugins/bibtex $WEBSITE/plugins
-    cp plugins/bib_writer.py $WEBSITE/plugins/bib_writer.py
+  # Copy bib generator script
+  cp -r plugins/bibtex $WEBSITE/plugins
+  cp plugins/bib_writer.py $WEBSITE/plugins/bib_writer.py
 
-    # Copy literature
-    cp content/diag.bib $WEBSITE/content/diag.bib
+  # Copy literature
+  cp content/diag.bib $WEBSITE/content/diag.bib
 
-    # Run the bib plugin
-    cd $WEBSITE
-    python plugins/bib_writer.py
+  # Run the bib plugin
+  cd $WEBSITE
+  python plugins/bib_writer.py
     
-  else
-   echo "Diag bib not changed. Skipping generation of publiction (using current publications files)"
-  fi
+#  else
+   #echo "Diag bib not changed. Skipping generation of publiction (using current publications files)"
+  #fi
   
   cd ..
 fi
