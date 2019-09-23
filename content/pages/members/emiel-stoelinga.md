@@ -10,4 +10,4 @@ email: emiel.stoelinga@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-In 2016, Emiel Stoelinga graduated for his Bachelor's degree in Artificial Intelligence at the University of Groningen. In 2019 he performed his Master internship in the Computational Pathology group to obtain his Master's degree in Artificial Intelligence at the Radboud University. Under the supervision of Francesco Ciompi and Zaneta Swiderska-Chadaj he studied the classification of lung cancers in histopathologal slides.
+In 2016, Emiel Stoelinga graduated for his Bachelor's degree in Artificial Intelligence at the University of Groningen. In 2019 he performed his Master internship in the Computational Pathology group and obtained his Master's degree in Artificial Intelligence at the Radboud University. Under the supervision of Francesco Ciompi and Zaneta Swiderska-Chadaj he studied the classification of lung cancers in histopathologal slides.
