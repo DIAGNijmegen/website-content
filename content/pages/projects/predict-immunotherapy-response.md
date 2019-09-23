@@ -5,7 +5,7 @@ type: student
 picture: vacancies/lung_projects_immuno.png
 template: project-single
 people: Tristan Payer, Francesco Ciompi
-description: In this project we develop deep learning algorithms for the extraction of features from scanned H&E and immunohistochemically stained tissue sections from lung cancer that carry predictive value in the context of immunotherapy treatment response.
+description: Project aimed at development of deep learning algorithms for the extraction of predictive features for immunotherapy treatment response in lung cancer patients.
 
 
 ## Background
