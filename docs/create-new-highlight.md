@@ -11,5 +11,6 @@ groups: diag/retina/pathology, etc (determines on which website the highlight sh
 
 {Text Highlight}
 ```
+4. To add an image to the text, upload an image of choice to website-content/content/images/projects/ and type `![name of image link]({filename}/images/projects/<image>.png)`. The first {filename} is text, don't type the actual filename there. 
 
-4. Commit changes at bottom of the page to submit.
+5. Commit changes at bottom of the page to submit.
