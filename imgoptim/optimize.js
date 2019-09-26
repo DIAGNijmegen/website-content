@@ -70,7 +70,7 @@ function compressImages(paths, targetDir) {
   return imagemin(paths, targetDir, {
     plugins: [
       imageminPngquant(),
-      imageminMozjpeg({quality: 70}),
+      imageminMozjpeg({quality: 100}),
       // imageminWebp({quality: 70}),
       // imageminSvgo({plugins: [{removeViewBox: false}]}),
     ]
