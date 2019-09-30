@@ -43,9 +43,3 @@ do
       fi
     fi
 done
-
-# Check if diag bib changed 
-if ! $gitdiff; then
-  # push publications
-  ./push.sh
-fi
