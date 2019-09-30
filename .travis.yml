@@ -116,9 +116,9 @@ jobs:
         fqdn: www.ai-for-health.nl
     # Run publication script
     - stage: commit
-    - language: python
-    - python:
-      - "3.6"
+      language: python
+      python:
+        - "3.6"
       if: branch = feature/publications
       script: bash ./cache_publications.sh
     # Run image optimization script
