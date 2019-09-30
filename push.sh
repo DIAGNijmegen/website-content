@@ -9,7 +9,7 @@ git config --global user.name "DIAGWebTeam"
 
 # Add changed files
 git checkout feature/publications  
-git pull feature/publications
+git pull origin feature/publications
 
 gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
 if ! $gitdiff; then
