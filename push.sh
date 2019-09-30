@@ -13,7 +13,7 @@ git pull origin feature/publications
 
 gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
 if ! $gitdiff; then
-  git add --all ./website-*/content/pages/publications/
+  git add --all ./website-*/content/pages/publications
   git add --all ./website-*/content/dict_pubs.json
   echo "Files changed, commiting new publications."
   git commit --message "Adding publications to repository." -- .
