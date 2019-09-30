@@ -107,6 +107,6 @@ ENV/
 *.min.css
 *.min.css.map
 
-# Ignore md files of publications
-content/pages/publications/*.md
-content/dict_pubs.json
+## Ignore md files of publications
+#content/pages/publications/*.md
+#content/dict_pubs.json
