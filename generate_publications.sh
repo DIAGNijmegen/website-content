@@ -2,7 +2,7 @@
 
 # Break build on error, prevents websites going offline in case of pelican errors
 set -e
-
+echo $WEBSITE $GENERATE_PUB
 if [[ $GENERATE_PUB != '1' ]]; then
   echo "Skipping generation of publication pages for $WEBSITE."
 else
