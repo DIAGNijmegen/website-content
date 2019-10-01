@@ -120,9 +120,7 @@ jobs:
       python:
         - "3.6"
       if: branch = feature/publications
-      script: 
-        - bash ./cache_publications.sh
-        - bash ./push.sh
+      script: bash ./cache_publications.sh
     # Run image optimization script
     - stage: images
       if: branch = master
