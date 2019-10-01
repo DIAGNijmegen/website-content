@@ -4,7 +4,7 @@
 set -e
 
 EXCLUDES=(website-ai-for-health website-base)
-gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
+gitdiff='git diff --quiet HEAD~ ./content/diag.bib'
 
 for WEBSITE in website-*
 do
@@ -52,7 +52,6 @@ git config --global user.name "DIAGWebTeam"
 git checkout feature/publications  
 git pull origin feature/publications
 
-gitdiff='git diff --quiet HEAD^ ./content/diag.bib'
 if ! $gitdiff; then
   git add --all ./website-*/content/pages/publications
   git add --all ./website-*/content/dict_pubs.json
