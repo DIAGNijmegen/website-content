@@ -1,0 +1,11 @@
+title: Artificial Intelligence Based Classification of Breast Lesions Imaged With a Multi-Parametric Breast MRI Protocol With ultrafast DCE-MRI, T2 and DWI
+authors: M.U. Dalmış, A. Gubern-M\'erida, S. Vreemann, P. Bult, N. Karssemeijer, R. Mann and J. Teuwen
+has_pdf: True
+template: publication
+bibkey: dalm19
+published_in: Investigative Radiology
+pub_details: <i>Investigative Radiology</i> 2019
+doi: https://doi.org/10.1097/RLI.0000000000000544
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/30652985
+OBJECTIVES We investigated artificial intelligence (AI)-based classification of benign and malignant breast lesions imaged with a multiparametric breast magnetic resonance imaging (MRI) protocol with ultrafast dynamic contrast-enhanced MRI, T2-weighted, and diffusion-weighted imaging with apparent diffusion coefficient mapping. MATERIALS AND METHODS: We analyzed 576 lesions imaged with MRI, including a consecutive set of biopsied malignant (368) and benign (149) lesions, and an additional set of 59 benign lesions proven by follow-up. We used deep learning methods to interpret ultrafast dynamic contrast-enhanced MRI and T2-weighted information. A random forests classifier combined the output with patient information (PI; age and BRCA status) and apparent diffusion coefficient values obtained from diffusion-weighted imaging to perform the final lesion classification. We used receiver operating characteristic (ROC) analysis to evaluate our results. Sensitivity and specificity were compared with the results of the prospective clinical evaluation by radiologists. RESULTS: The area under the ROC curve was 0.811 when only ultrafast dynamics was used. The final AI system that combined all imaging information with PI resulted in an area under the ROC curve of 0.852, significantly higher than the ultrafast dynamics alone (P = 0.002). When operating at the same sensitivity level of radiologists in this dataset, this system produced 19 less false-positives than the number of biopsied benign lesions in our dataset. CONCLUSIONS: Use of adjunct imaging and PI has a significant contribution in diagnostic performance of ultrafast breast MRI. The developed AI system for interpretation of multiparametric ultrafast breast MRI may improve specificity.
+

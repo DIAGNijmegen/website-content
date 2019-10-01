@@ -1,0 +1,11 @@
+title: Downgrading of Breast Masses Suspicious for Cancer by Using Optoacoustic Breast Imaging.
+authors: G.L.G. Menezes, R.M. Pijnappel, C. Meeuwis, R. Bisschops, J. Veltman, P.T. Lavin, M.J. van de Vijver and R.M. Mann
+has_pdf: False
+template: publication
+bibkey: mene18
+published_in: Radiology
+pub_details: <i>Radiology</i> 2018;288:355-365
+doi: https://doi.org/10.1148/radiol.2018170500
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/29664342
+Purpose To assess the ability of optoacoustic (OA) ultrasonography (US) to help correctly downgrade benign masses classified as Breast Imaging Reporting and Data System (BI-RADS) 4a and 4b to BI-RADS 3 or 2. Materials and Methods OA/US technology uses laser light to detect relative amounts of oxygenated and deoxygenated hemoglobin in and around suspicious breast masses. In this prospective, multicenter study, results of 209 patients with 215 breast masses classified as BI-RADS 4a or 4b at US are reported. Patients were enrolled between 2015 and 2016. Masses were first evaluated with US with knowledge of previous clinical information and imaging results, and from this information a US imaging-based probability of malignancy (POM) and BI-RADS category were assigned to each mass. The same masses were then re-evaluated at OA/US. During the OA/US evaluation, radiologists scored five OA/US features, and then reassigned an OA/US-based POM and BI-RADS category for each mass. BI-RADS downgrade and upgrade percentages at OA/US were assessed by using a weighted sum of the five OA feature scores. Results At OA/US, 47.9% (57 of 119; 95% CI: 0.39, 0.57) of benign masses classified as BI-RADS 4a and 11.1% (three of 27; 95% CI: 0.03, 0.28) of masses classified as BI-RADS 4b were correctly downgraded to BI-RADS 3 or 2. Two of seven malignant masses classified as BI-RADS 4a at US were incorrectly downgraded, and one of 60 malignant masses classified as BI-RADS 4b at US was incorrectly downgraded for a total of 4.5% (three of 67; 95% CI: 0.01, 0.13) false-negative findings. Conclusion At OA/US, benign masses classified as BI-RADS 4a could be downgraded in BI-RADS category, which would potentially decrease biopsies negative for cancer and short-interval follow-up examinations, with the limitation that a few masses may be inappropriately downgraded.
+

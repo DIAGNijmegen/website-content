@@ -1,0 +1,11 @@
+title: MemCNN: A Python/PyTorch package for creating memory-efficient invertible neural networks
+authors: S.C. van de Leemput, J. Teuwen, B. van Ginneken and R. Manniesing
+has_pdf: True
+template: publication
+bibkey: leem19b
+published_in: Journal of Open Source Software
+pub_details: <i> Journal of Open Source Software </i> 2019;4(39):1576
+doi: https://doi.org/10.21105/joss.01576
+urlweb: http://dx.doi.org/10.21105/joss.01576
+Neural networks are computational models that were originally inspired by biological neural networks like animal brains. These networks are composed of many small computational units called neurons that perform elementary calculations. Instead of explicitly programming the behavior of neural networks, these models can be trained to perform tasks, like classifying images, by presenting them examples. Sufficiently complex neural networks can automatically extract task-relevant characteristics from the presented examples without having prior knowledge about the task domain, which makes them attractive for many complicated real-world applications.  Reversible operations have recently been successfully applied to classification problems to reduce memory requirements during neural network training. This feature is accomplished by removing the need to store the input activation for computing the gradients at the backward pass and instead reconstruct them on demand. However, current approaches rely on custom implementations of backpropagation, which limits applicability and extendibility. We present MemCNN, a novel PyTorch framework that simplifies the application of reversible functions by removing the need for a customized backpropagation. The framework contains a set of practical generalized tools, which can wrap common operations like convolutions and batch normalization and which take care of memory management. We validate the presented framework by reproducing state-of-the-art experiments using MemCNN and by comparing classification accuracy and training time on Cifar-10 and Cifar-100. Our MemCNN implementations achieved similar classification accuracy and faster training times while retaining compatibility with the default backpropagation facilities of PyTorch.
+

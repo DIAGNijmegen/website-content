@@ -1,0 +1,11 @@
+title: Online self-test identifies women at high familial breast cancer risk in population-based breast cancer screening without inducing anxiety or distress.
+authors: A. van Erkelens, A.S. Sie, P. Manders, A. Visser, L.E. Duijm, R.M. Mann, M. Ten Voorde, H. Kroeze, J.B. Prins and N. Hoogerbrugge
+has_pdf: False
+template: publication
+bibkey: erke17
+published_in: European journal of cancer (Oxford, England : 1990)
+pub_details: <i>European journal of cancer (Oxford, England : 1990)</i> 2017;78:45-52
+doi: https://doi.org/10.1016/j.ejca.2017.03.014
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/28412588
+Identifying high familial breast cancer (FBC) risk improves detection of yet unknown BRCA1/2-mutation carriers, for whom BC risk is both highly likely and potentially preventable. We assessed whether a new online self-test could identify women at high FBC risk in population-based BC screening without inducing anxiety or distress. After their visit for screening mammography, women were invited by email to take an online self-test for identifying highly increased FBC risk-based on Dutch guidelines. Exclusion criteria were previously diagnosed as increased FBC risk or a personal history of BC. Anxiety (State-Trait Anxiety Inventory Dutch Version), distress (Hospital Anxiety Depression Scale) and BC risk perception were assessed using questionnaires, which were completed immediately before and after taking the online self-test and 2 weeks later. Of the 562 women invited by email, 406 (72%) completed the online self-test while 304 also completed questionnaires (response rate 54%). After exclusion criteria, 287 (51%) were included for data analysis. Median age was 56 years (range 50-74). A high or moderate FBC risk was identified in 12 (4%) and three (1%) women, respectively. After completion of the online self-test, anxiety and BC risk perception were decreased while distress scores remained unchanged. Levels were below clinical relevance. Most women (85%) would recommend the self-test; few (3%) would not. The online self-test identified previously unknown women at high FBC risk (4%), who may carry a BRCA1/2-mutation, without inducing anxiety or distress. We therefore recommend offering this self-test to women who attend population-based screening mammography for the first time.
+
