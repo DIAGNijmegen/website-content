@@ -1,0 +1,11 @@
+title: Contrast-enhanced spectral mammography vs. mammography and MRI - clinical performance in a multi-reader evaluation.
+authors: E.M. Fallenberg, F.F. Schmitzberger, H. Amer, B. Ingold-Heppner, C. Balleyguier, F. Diekmann, F. Engelken, R.M. Mann, D.M. Renz, U. Bick, B. Hamm and C. Dromain
+has_pdf: False
+template: publication
+bibkey: fall16
+published_in: European radiology
+pub_details: <i>European radiology</i> 2017;27(7):2752-2764
+doi: https://doi.org/10.1007/s00330-016-4650-6
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/27896471
+To compare the diagnostic performance of contrast-enhanced spectral mammography (CESM) to digital mammography (MG) and magnetic resonance imaging (MRI) in a prospective two-centre, multi-reader study. One hundred seventy-eight women (mean age 53Â years) with invasive breast cancer and/or DCIS were included after ethics board approval. MG, CESM and CESM?+?MG were evaluated by three blinded radiologists based on amended ACR BI-RADS criteria. MRI was assessed by another group of three readers. Receiver-operating characteristic (ROC) curves were compared. Size measurements for the 70 lesions detected by all readers in each modality were correlated with pathology. Reading results for 604 lesions were available (273 malignant, 4 high-risk, 327 benign). The area under the ROC curve was significantly larger for CESM alone (0.84) and CESM?+?MG (0.83) compared to MG (0.76) (largest advantage in dense breasts) while it was not significantly different from MRI (0.85). Pearson correlation coefficients for size comparison were 0.61 for MG, 0.69 for CESM, 0.70 for CESM?+?MG and 0.79 for MRI. This study showed that CESM, alone and in combination with MG, is as accurate as MRI but is superior to MG for lesion detection. Patients with dense breasts benefitted most from CESM with the smallest additional dose compared to MG. ? CESM has comparable diagnostic performance (ROC-AUC) to MRI for breast cancer diagnostics. ? CESM in combination with MG does not improve diagnostic performance. ? CESM has lower sensitivity but higher specificity than MRI. ? Sensitivity differences are more pronounced in dense and not significant in non-dense breasts. ? CESM and MRI are significantly superior to MG, particularly in dense breasts.
+

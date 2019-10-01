@@ -1,0 +1,10 @@
+title: Automated soft tissue lesion detection and segmentation in digital mammography using a u-net deep learning network
+authors: T. de Moor, A. Rodriguez-Ruiz, R. Mann and J. Teuwen
+has_pdf: True
+template: publication
+bibkey: moor18a
+published_in: International Workshop on Breast Imaging
+pub_details: in: <i>International Workshop on Breast Imaging</i>, 2018
+arxiv: https://arxiv.org/abs/1802.06865
+Computer-aided detection or decision support systems aim to improve breast cancer screening programs by helping radiologists to evaluate digital mammography (DM) exams. Commonly such methods proceed in two steps: selection of candidate regions for malignancy, and later classification as either malignant or not. In this study, we present a candidate detection method based on deep learning to automatically detect and additionally segment soft tissue lesions in DM. A database of DM exams (mostly bilateral and two views) was collected from our institutional archive.
+

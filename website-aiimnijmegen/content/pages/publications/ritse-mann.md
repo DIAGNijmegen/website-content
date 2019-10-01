@@ -1,0 +1,5 @@
+title: Publications of Ritse Mann
+template: publications-author
+author: ritse-mann
+author_name: Ritse Mann
+bibkeys: vug18,mus17,wand17,liu14,sard17,caba18,kooi16a,zels12,dalm15,mann14,tan15a,rodr17,gube16,wand15,mann11,goor18,zels13,rodr17b,vree18b,cab18,zels17,plat11a,lass18,gube14,boet07,holl16b,moor18a,wand17a,sard16,holl16a,vree16a,mus17a,velt08a,teuw17b,tan16,huis10a,hups13a,clau18,meeu12,dalm15a,wang15b,gube15e,rodr18d,rodr18b,caba18b,mann08c,dalm16,vree19,dalm19,tan13,mus12,plat11,caba18c,mert17,gube15b,vree18,sand19a,meeu11a,obde14,tan13e,wand15c,gube15,evan18,gube16a,srik13,rodr19,velt10,mene18,vree17,geor16,mann12a,velt08,zels17b,beck16,vree18d,zels18,sand18,srik12,holl16c,mann08,holl15b,dalm18,gube15c,plat14,vree16c,vree15a,dalm17,zels18b,holl14,mann15a,rodr18,vree15,mert16,mor18,schi13,emau15,mert14,wang15a,sard14,kars16,mann08b,gube15f,plat12,mann12b,meel17,merc14,holl15a,tan13d,zels19a,holl15c,kooi17,saad19,tan13a,fall16,vree16b,zels17a,tan13c,mord18a,rodr18c,zels18a,zels15,vree15b,holl15,kars11b,mann10e,lang18,vree18c,sand19,moor2018,mann10b,vree16,mann10d,erke17
