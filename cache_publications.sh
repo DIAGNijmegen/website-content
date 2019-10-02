@@ -54,8 +54,11 @@ git pull origin feature/publications
 
 if ! $gitdiff; then
   git status
+  ls ./website-pathology/content/pages/publications
+
   git add --all ./website-*/content/pages/publications/*
   git add --all ./website-*/content/dict_pubs.json
+
   git status
   echo "Files changed, commiting new publications."
   git commit --message "Adding publications to repository." -- .
