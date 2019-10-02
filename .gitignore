@@ -132,8 +132,8 @@ website-*/content/diag.bib
 #!output/README.md
 .idea
 
-content/pages/publications/*
-!content/pages/publications/.gitkeep
+#content/pages/publications/*
+#!content/pages/publications/.gitkeep
 
 # vscode
 .vscode/
