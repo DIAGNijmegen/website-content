@@ -59,7 +59,7 @@ if ! $gitdiff; then
   ls ./website-pathology/content/pages/publications
 
   echo cd
-  cd ./web-site-pathology/content/pages/publications
+  cd ./website-pathology/content/pages/publications
   ls 
 
 
