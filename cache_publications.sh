@@ -54,7 +54,14 @@ git pull origin feature/publications
 
 if ! $gitdiff; then
   git status
+
+  echo ls
   ls ./website-pathology/content/pages/publications
+
+  echo cd
+  cd ./web-site-pathology/content/pages/publications
+  ls 
+
 
   git add --all ./website-*/content/pages/publications/*
   git add --all ./website-*/content/dict_pubs.json
