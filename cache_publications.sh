@@ -53,8 +53,10 @@ git checkout feature/publications
 git pull origin feature/publications
 
 if ! $gitdiff; then
+  git status
   git add --all ./website-*/content/pages/publications/*
   git add --all ./website-*/content/dict_pubs.json
+  git status
   echo "Files changed, commiting new publications."
   git commit --message "Adding publications to repository." -- .
   git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "feature/publications"
