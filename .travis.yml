@@ -71,14 +71,14 @@ jobs:
         <<: *deploy_defaults
         fqdn: www.aiimnijmegen.nl
     # Build and deploy steps for Bodyct website
-    - <<: *build_defaults
-      name: Build BodyCT website
-      env:
-        - WEBSITE=website-bodyct
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: bodyct.diagnijmegen.nl
+    # - <<: *build_defaults
+    #   name: Build BodyCT website
+    #   env:
+    #     - WEBSITE=website-bodyct
+    #     - GENERATE_PUB=1
+    #   deploy:
+    #     <<: *deploy_defaults
+    #     fqdn: bodyct.diagnijmegen.nl
     # Build and deploy steps for Neuro website
     - <<: *build_defaults
       name: Build Neuro website
