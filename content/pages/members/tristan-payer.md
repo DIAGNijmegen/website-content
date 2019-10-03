@@ -1,5 +1,5 @@
 title: Tristan Payer
-name: Trustan Payer
+name: Tristan Payer
 template: people-single
 picture: people/Person.png
 position: Master student
