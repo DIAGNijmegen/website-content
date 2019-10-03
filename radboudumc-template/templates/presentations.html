@@ -14,7 +14,7 @@
         {% for presentation in pages | selectattr('date') | sort(attribute='date', reverse=True) if presentation.parent.url == 'presentations/' %}
           <div class="col-md-4 mb-4">
               <div class="card">
-                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('small') }}" alt="{{ presentation.title }}"></a>
+                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('medium') }}" alt="{{ presentation.title }}"></a>
                   <div class="card-body" style="height: 210px">
                       <h5 class="card-title">{{ presentation.title }}</h5>
                       <p class="text-muted">{{ presentation.author_list }}</p>
