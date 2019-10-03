@@ -12,7 +12,7 @@ pelican content -s publishconf.py
 # Copy files for github
 cp README.md output/README.md
 cp .nojekyll output/.nojekyll
-if [[ -e robots.txt ]] then
+if [[ -e robots.txt ]]; then
   cp robots.txt output/robots.txt
 fi
 
