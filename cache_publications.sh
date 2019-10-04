@@ -6,6 +6,9 @@ set -e
 EXCLUDES=(website-ai-for-health website-base)
 gitdiff='git diff --quiet HEAD~ ./content/diag.bib'
 
+echo "Content before generation"
+ls -a ./website-pathology/content/pages/publications
+
 for WEBSITE in website-p*
 do
     GENERATE_PUB=1
@@ -21,7 +24,7 @@ do
       echo "Skipping generation of publication pages for $WEBSITE."
     else
 
-      # Check if diag bib changed 
+      # Check if diag bib changed
       #if true || ! $gitdiff; then
         echo "Generating publications for $WEBSITE"
         # Copy bib generator script
@@ -34,6 +37,10 @@ do
         # Run the bib plugin
         cd $WEBSITE
         python plugins/bib_writer.py
+
+        echo "Content after generation"
+        ls -a content/pages/publications
+
         cd ..
 
 #      else
@@ -48,8 +55,11 @@ git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
 ## Add changed files
-git checkout feature/publications  
+git checkout feature/publications
 #git pull origin feature/publications
+
+echo "Content after checkout"
+ls -a website-pathology/content/pages/publications
 
 #if ! $gitdiff; then
   echo status before add
@@ -59,9 +69,11 @@ git checkout feature/publications
   echo status after add
   git status -v
 
+  git add --all website-pathology/content/pages/publications
+  git status --verbose
   #echo cd
   #cd ./website-pathology/content/pages/publications
-  #ls 
+  #ls
   #echo done cd and ls
 
   #git add --all ./website-*/content/pages/publications/*
@@ -74,4 +86,3 @@ git checkout feature/publications
 #else
   #echo "Nothing new to commit, skipping push."
 #fi
-
