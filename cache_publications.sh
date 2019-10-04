@@ -6,8 +6,6 @@ set -e
 EXCLUDES=(website-ai-for-health website-base)
 gitdiff='git diff --quiet HEAD~ ./content/diag.bib'
 
-echo "Content before generation"
-ls -a ./website-pathology/content/pages/publications
 
 for WEBSITE in website-p*
 do
