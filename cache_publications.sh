@@ -54,9 +54,6 @@ git config --global user.name "DIAGWebTeam"
 git checkout feature/publications
 git pull origin feature/publications
 
-echo "Content after checkout"
-ls -a website-pathology/content/pages/publications
-
 if ! $gitdiff; then
   echo "Files changed, commiting new publications."
   git add --all ./website-*/content/pages/publications/*
