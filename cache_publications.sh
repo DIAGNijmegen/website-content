@@ -53,11 +53,11 @@ git checkout feature/publications
 
 #if ! $gitdiff; then
   echo status before add
-  git status
+  git status -v
   pwd
-  git add --all ./website-*/content/pages/publications/*
+  git add -v --all ./website-*/content/pages/publications/*
   echo status after add
-  git status
+  git status -v
 
   #echo cd
   #cd ./website-pathology/content/pages/publications
