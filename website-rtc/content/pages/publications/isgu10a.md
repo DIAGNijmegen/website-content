@@ -1,0 +1,10 @@
+title: Automatic coronary calcium scoring in low-dose non-ECG-synchronized thoracic CT scans
+authors: I. Išgum, M. Prokop, P.C. Jacobs, M.J. Gondrie, W.P. Th. M. Mali, M.A. Viergever and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: isgu10a
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, volume 7624 of SPIE, 2010, pages 76240M1-76240M8
+doi: https://doi.org/10.1117/12.840514
+This work presents a system for automatic coronary calcium scoring and cardiovascular risk stratification in thoracic CT scans. Data was collected from a Dutch-Belgian lung cancer screening trial. In 121 low-dose, non-ECG synchronized, non-contrast enhanced thoracic CT scans an expert scored coronary calcifications manually. A key element of the proposed algorithm is that the approximate position of the coronary arteries was inferred with a probabilistic coronary calcium atlas. This atlas was created with atlas-based segmentation from 51 scans and their manually identified calcifications, and was registered to each unseen test scan. In the test scans all objects with density above 130 HU were considered candidates that could represent coronary calcifications. A statistical pattern recognition system was designed to classify these candidates using features that encode their spatial position relative to the inferred position of the coronaries obtained from the atlas registration. In addition, size and texture features were computed for all candidates. Two consecutive classifiers were used to label each candidate. The system was trained with 35 and tested with another 35 scans. The detected calcifications were quantified and cardiovascular risk was determined for each subject. The system detected 71% of coronary calcifications with an average of 0.9 false positive objects per scan. Cardiovascular risk category was correctly assigned to 29 out of 35 subjects (83%). Five scans (14%) were one category off, and only one scan (3%) was two categories off. We conclude that automatic assessment of the cardiovascular risk from low-dose, non-ECG synchronized thoracic CT scans appears feasible.
+

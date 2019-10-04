@@ -1,0 +1,11 @@
+title: Validation of a whole-slide image-based teleconsultation network
+authors: A. Baidoshvili, N. Stathonikos, G. Freling, J. Bart, N. ‘t Hart, J. van der Laak, J. Doff, B. van der Vegt, M. Kluin Philip and P.J. van Dies
+has_pdf: True
+template: publication
+bibkey: baid18a
+published_in: Histopathology
+pub_details: <i>Histopathology</i> 2018;73:777-783
+doi: https://doi.org/10.1111/his.13673
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/29893996
+Aims Most validation studies on digital pathology diagnostics have been performed in single institutes. Because rapid consultation on cases with extramural experts is one of the most important uses for digital pathology laboratory networks, the aim of this study was to validate a whole-slide image-based teleconsultation network between three independent laboratories. Methods and results: Each laboratory contributed 30 biopsies and/or excisions, totalling 90 specimens (776 slides) of varying difficulty and covering a wide variety of organs and subspecialties. All slides were scanned centrally at 940 scanning magniﬁcation and uploaded, and subsequently assessed digitally by 16 pathologists using the same image management system and viewer. Each laboratory was excluded from digital assessment of their own cases. Concordance rates between the two diagnostic modalities (light microscopic versus digital) were compared. Loading speed of the images, zooming latency and focus quality were scored. Leaving out eight minor discrepancies without any clinical signiﬁcance, the concordance rate between remote digital and original microscopic diagnoses was 97.8%. The two cases with a major discordance (for which the light microscopic diagnoses were deemed to be the better ones) resulted from a different interpretation of diagnostic criteria in one case and an image quality issue in the other case. Average scores for loading speed of the images, zooming latency and focus quality were 2.37 (on a scale up to 3), 2.39 (scale up to 3) and 3.06 (scale up to 4), respectively. Conclusions: This validation study demonstrates the suitability of a teleconsultation network for remote digital consultation using whole-slide images. Such networks may contribute to faster revision and consultation in pathology while maintaining diagnostic standards.
+

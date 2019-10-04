@@ -1,0 +1,11 @@
+title: Screening for lung cancer with digital chest radiography: sensitivity and number of secondary work-up CT examinations
+authors: B. de Hoop, C.M. Schaefer-Prokop, H.A. Gietema, P.A. de Jong, B. van Ginneken, R.J. van Klaveren and M. Prokop
+has_pdf: True
+template: publication
+bibkey: hoop10a
+published_in: Radiology
+pub_details: <i>Radiology</i> 2010;255:629-637
+doi: https://doi.org/10.1148/radiol.09091308
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/20413773
+PURPOSE To estimate the performance of digital chest radiography for detection of lung cancer. MATERIALS AND METHODS: The study had ethics committee approval, and a nested case-control design was used and included 55 patients with lung cancer detected at computed tomography (CT) and confirmed with histologic examination and a sample of 72 of 4873 control subjects without nodules at CT. All patients underwent direct-detector digital chest radiography in two projections within 2 months of the screening CT. Four radiologists with varying experience identified and localized potential cancers on chest radiographs by using a confidence scale of level 1 (no lesion) to 5 (definite lesion). Localization receiver operating characteristic (ROC) analysis was performed. On the basis of the assumption that suspicious lesions seen at chest radiography would lead to further work-up with CT, the number of work-up CT examinations per detected cancer (CT examinations per cancer) was calculated at various confidence levels for the screening population (cancer rate in study population, 1.3\%). RESULTS: Tumor size ranged from 6.8 to 50.7 mm (median, 11.8 mm). Areas under the localization ROC curve ranged from 0.52 to 0.69. Detection rates substantially varied with the observers' experience and confidence level: At a confidence level of 5, detection rates ranged from 18\% at one CT examination per cancer to 53\% at 13 CT examinations per cancer. At a confidence level of 2 or higher, detection rates ranged from 94\% at 62 CT examinations per cancer to 78\% at 44 CT examinations per cancer. CONCLUSION: A detection rate of 94\% for lung tumors with a diameter of 6.8-50.7 mm found at CT screening was achievable with chest radiography only at the expense of a high false-positive rate and an excessive number of work-up CT examinations. Detection performance is strongly observer dependent.
+

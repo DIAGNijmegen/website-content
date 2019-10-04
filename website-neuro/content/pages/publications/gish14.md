@@ -1,0 +1,11 @@
+title: Fetal and infant growth patterns associated with total and abdominal fat distribution in school-age children
+authors: O. Gishti, R. Gaillard, R. Manniesing, M. Abrahamse-Berkeveld, E.M. van der Beek, D.H. Heppe, E.A. Steegers, A. Hofman, L. Duijts, B. Durmus and V.W. Jaddoe
+has_pdf: True
+template: publication
+bibkey: gish14
+published_in: Journal of Clinical Endocrinology and Metabolism
+pub_details: <i>Journal of Clinical Endocrinology and Metabolism</i> 2014;99:2557-2566
+doi: https://doi.org/10.1210/jc.2013-4345
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/24712569
+Context Higher infant growth rates are associated with an increased risk of obesity in later life. Objective: We examined the associations of longitudinally measured fetal and infant growth patterns with total and abdominal fat distribution in childhood. Design, Settings and participants: We performed a population-based prospective cohort study among 6,464 children. We measured growth characteristics in second and third trimester of pregnancy, at birth, and at 6, 12, and 24 months. Main Outcomes Measures: Body mass index, fat mass index (body fat mass/height2), lean mass index (body lean mass/height2) and android/gynoid fat ratio measured by Dual-energy X-ray Absorptiometry, and subcutaneous and preperitoneal abdominal fat measured by ultrasound at the median age of 6.0 years (90% range 5.7 Ã¢â‚¬â€œ 7.4). Results: We observed that weight gain in second and third trimester of fetal life, and in early, mid and late infancy were independently and positively associated with childhood body mass index (p-values<0.05). Only infant weight gain was associated with higher fat mass index, android/gynoid fat ratio, and abdominal fat in childhood (p-values<0.05). Children with both fetal and infant growth acceleration had the highest childhood body mass index, fat mass index and subcutaneous abdominal fat, whereas children with fetal growth deceleration and infant growth acceleration had the highest value for android/gynoid fat ratio and the lowest value for lean mass index (p-values<0.05). Conclusions: Both growth in fetal life and infancy affects childhood body mass index, whereas only infant growth affects directly measured total body and abdominal fat. Fetal growth deceleration followed by infant growth acceleration may lead to an adverse body fat distribution in childhood.
+

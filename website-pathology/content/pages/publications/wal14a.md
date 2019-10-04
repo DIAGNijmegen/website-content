@@ -1,0 +1,10 @@
+title: Lidocaine increases the anti-inﬂammatory cytokine IL-10 following mechanical ventilation in healthy mice
+authors: S. van der Wal, M. Vaneker, M. Steegers, v. Berkum B, M. Kox, J. van der Laak, J. van der Hoeven, K. Vissers and G.J. Scheffer
+has_pdf: True
+template: publication
+bibkey: wal14a
+published_in: Acta Anaesthesiologica Scandinavica
+pub_details: <i>Acta Anaesthesiologica Scandinavica</i> 2014;59:47-55
+doi: https://doi.org/10.1111/aas.12417
+Background Mechanical ventilation (MV) induces an inﬂammatory response that may result in (acute) lung injury. Lidocaine, an amide local anesthetic, has anti-inﬂammatory properties in vitro and in vivo, possibly due to an attenuation of pro-inﬂammatory cytokines, intracellular adhesion molecule-1 (ICAM-1), and reduction of neutrophils inﬂux. We hypothesized an attenuation of MV-induced inﬂammatory response with intravenously administered lidocaine. Methods: Lidocaine (Lido) (2, 4, and 8 mg/kg/h) was intravenously administered during 4 h of MV with a tidal volume of 8 ml/ kg, positive end expiratory pressure 1,5 cmH2O and FiO2 0.4. We used one ventilated control (CON) group receiving vehicle. After MV, mice were euthanized, and lungs and blood were immediately harvested, and cytokine levels and ICAM-1 levels were measured in plasma and lung homogenates. Pulmonary neutrophils inﬂux was determined in LEDER-stained slices of lungs. Anesthetic need was determined by painful hind paw stimulation. Results: Lidocaine-treated animals (Lido 2, 4 and 8 mg/kg/h) showed higher interleukin (IL)-10 plasma levels compared to control animals. Lidocaine treatment with 8 mg/kg/h (Lido 8) resulted in higher IL-10 in lung homogenates. No differences were observed in pro-inﬂammatory cytokines, ICAM-1, and pulmonary inﬂux between the different ventilated groups. Conclusions: Intravenously administered lidocaine increases levels of plasma IL-10 with infusion from 2, 4, and 8 mg/kg/h and pulmonary levels of IL-10 with 8 mg/kg/h in a murine mechanical ventilation model. Intravenously administered lidocaine appears to reduce anesthetic need in mice.
+

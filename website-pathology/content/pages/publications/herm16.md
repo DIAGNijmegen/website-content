@@ -1,0 +1,9 @@
+title: Highly multiplexed immunofluorescence using spectral imaging
+authors: M. Hermsen and J. van der Laak
+has_pdf: True
+template: publication
+bibkey: herm16
+published_in: DPA's Pathology Visions Conference 2016, San Diego, CA, US
+pub_details: in: <i>DPA's Pathology Visions Conference 2016, San Diego, CA, US</i>, 2016
+Research into cancer biomarkers often comprises testing of a number of potentially relevant markers in tissue sections. Use of single antibody immunohistochemistry, however, limits the amount of information available from the analysis. One single component can be visualized at a time, prohibiting the simultaneous assessment of multiple markers. Immunofluorescence is a widely used alternative, enabling two or three simultaneous markers. In, for instance, the study of tumor infiltrating lymphocytes one may wish to use multiplex immunophenotyping to identify the relevant subtypes of T-cells. This may require more than three markers in a single section. Also, because of availability, it is not always possible to compile panels of markers raised in different species to prevent cross-reactivity. This workshop will focus on highly multiplexed imaging, allowing up to 7 markers in a single section. The method comprises a staining procedure consisting of consecutive steps of IHC staining with tyramid signal amplification and microwave stripping of the antibody. Every antibody is labeled with a different fluorescent dye. Subsequent imaging is performed using a fully automated multispectral imaging setup. This approach enables the use of antibodies raised in the same species (e.g. mouse MAbs) and is capable of eliminating the effect of autofluorescence. The workshop will consist of two parts. First the specific staining techniques will be treated. In the second part we will focus on the imaging and analysis options. There will be ample opportunities for questions and discussion.
+

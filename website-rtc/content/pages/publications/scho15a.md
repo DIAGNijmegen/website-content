@@ -1,0 +1,9 @@
+title: Detection and quantification of the solid component in pulmonary subsolid nodules by semiautomatic segmentation
+authors: E.T. Scholten, C. Jacobs, B. van Ginneken, S. van Riel, R. Vliegenthart, M. Oudkerk, M. Prokop, H.A. Gietema and P.A. de Jong.
+has_pdf: True
+template: publication
+bibkey: scho15a
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2015
+Purpose To determine whether semiautomatic volumetric software can differentiate partsolid from nonsolid pulmonary nodules and aid quantification of the solid component. Methods: As the reference standard 115 nodules were differentiated into nonsolid and partsolid by two radiologists, disagreements were adjudicated by a third radiologist. The diameters of solid components were measured manually. Semiautomatic volumetric measurements were used to identify and quantify a possible solid component, using different Hounsfield Unit (HU) thresholds. The measurements were compared with the reference standard and manual measurements. Results: The reference standard detected a solid component in 86 nodules. Diagnosis of a solid component by semiautomatic software depended on the threshold chosen. A threshold of -300 HU resulted in the detection of a solid component in 75 nodules with good sensitivity (90%) and specificity (88%). At a threshold of -130 HU semiautomatic measurements of the diameter of the solid component (mean 2.4 mm, SD 2.7 mm) were comparable to manual measurements at mediastinal window setting (mean 2.3 mm, SD 2.5 mm [p=0.63]). Conclusion: Semiautomatic segmentation of subsolid nodules could diagnose partsolid nodules and quantify the solid component similar to human observers. Its performance depends on the attenuation segmentation thresholds This method may prove useful in managing subsolid nodules.
+

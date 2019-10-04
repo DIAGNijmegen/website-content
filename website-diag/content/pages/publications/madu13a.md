@@ -1,0 +1,10 @@
+title: Automated localization of costophrenic recesses and costophrenic angle measurement on frontal chest radiographs
+authors: P. Maduskar, L. Hogeweg, R. Philipsen and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: madu13a
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, volume 8670 of SPIE, 2013, pages 867038
+doi: https://doi.org/10.1117/12.2008239
+Computer aided detection (CAD) of tuberculosis (TB) on chest radiographs (CXR) is difficult because the disease has varied manifestations, like opacification, hilar elevation, and pleural effusions. We have developed a CAD research prototype for TB (CAD4TB v1.08, Diagnostic Image Analysis Group, Nijmegen, The Netherlands) which is trained to detect textural abnormalities inside unobscured lung fields. If the only abnormality visible on a CXR would be a blunt costophrenic angle, caused by pleural fluid in the costophrenic recess, this is likely to be missed by texture analysis in the lung fields. The goal of this work is therefore to detect the presence of blunt costophrenic (CP) angles caused by pleural effusion on chest radiographs. The CP angle is the angle formed by the hemidiaphragm and the chest wall. We define the intersection point of both as the CP angle point. We first detect the CP angle point automatically from a lung field segmentation by finding the foreground pixel of each lung with maximum y location. Patches are extracted around the CP angle point and boundary tracing is performed to detect 10 consecutive pixels along the hemidiaphragm and the chest wall and derive the CP angle from these. We evaluate the method on a data set of 250 normal CXRs, 200 CXRs with only one or two blunt CP angles and 200 CXRs with one or two blunt CP angles but also other abnormalities. For these three groups, the CP angle location and angle measurements were correct in 91%, 88%, and 92% of all the cases, respectively. The average CP angles for the three groups are indeed different with 71.6Ã‚Â° Ã‚Â± 22.9, 87.5Ã‚Â° Ã‚Â± 25.7, and 87.7Ã‚Â° Ã‚Â± 25.3, respectively.
+

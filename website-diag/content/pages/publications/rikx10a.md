@@ -1,0 +1,11 @@
+title: Adaptive local multi-atlas segmentation: application to the heart and the caudate nucleus
+authors: E.M. van Rikxoort, I. Išgum, Y. Arzhaeva, M. Staring, S. Klein, M.A. Viergever, J.P. W. Pluim and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: rikx10a
+published_in: Medical Image Analysis
+pub_details: <i>Medical Image Analysis</i> 2010;14:39-49
+doi: https://doi.org/10.1016/j.media.2009.10.001
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/19897403
+Atlas-based segmentation is a powerful generic technique for automatic delineation of structures in volumetric images. Several studies have shown that multi-atlas segmentation methods outperform schemes that use only a single atlas, but running multiple registrations on volumetric data is time-consuming. Moreover, for many scans or regions within scans, a large number of atlases may not be required to achieve good segmentation performance and may even deteriorate the results. It would therefore be worthwhile to include the decision which and how many atlases to use for a particular target scan in the segmentation process. To this end, we propose two generally applicable multi-atlas segmentation methods, adaptive multi-atlas segmentation (AMAS) and adaptive local multi-atlas segmentation (ALMAS). AMAS automatically selects the most appropriate atlases for a target image and automatically stops registering atlases when no further improvement is expected. ALMAS takes this concept one step further by locally deciding how many and which atlases are needed to segment a target image. The methods employ a computationally cheap atlas selection strategy, an automatic stopping criterion, and a technique to locally inspect registration results and determine how much improvement can be expected from further registrations. AMAS and ALMAS were applied to segmentation of the heart in computed tomography scans of the chest and compared to a conventional multi-atlas method (MAS). The results show that ALMAS achieves the same performance as MAS at a much lower computational cost. When the available segmentation time is fixed, both AMAS and ALMAS perform significantly better than MAS. In addition, AMAS was applied to an online segmentation challenge for delineation of the caudate nucleus in brain MRI scans where it achieved the best score of all results submitted to date.
+

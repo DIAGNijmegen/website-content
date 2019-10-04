@@ -1,0 +1,9 @@
+title: Automated Detection of the Internal Carotid Arteries in Multislice Cerebral CT Angiography
+authors: R. Manniesing and W.J. Niessen
+has_pdf: True
+template: publication
+bibkey: mann06c
+published_in: Annual Meeting of the Radiological Society of North America
+pub_details: in: <i>Annual Meeting of the Radiological Society of North America</i>, 2006
+PURPOSE Automated Internal Carotid Artery (ICA) detection, as preprocessing step for fully automatic vascular segmentation, diameter quantification or aneurysms detection in cerebral Computed Tomography Angiography (CTA). METHOD AND MATERIAL: A new three step method to automatically detect seed points in the Internal Carotid Artery in CTA is developed and evaluated. First, the image entropy per slice is computed, from which a cross sectional 2D plane which contains the carotids can automatically be defined by selecting the plane with maximum information. Subsequently, an automatic segmentation of high intensity objects in this region is performed. Finally, a Hough transform is applied to detect two structures which have the most circular shape. The method has been evaluated on 30 randomly selected patients who were examined for acute cerebrovascular events or for screening purposes. The data, acquired on a 16-slice CT scanner (Philips Mx8000), consisted of approximately 300 slices (512x512) with an in plane resolution of 0.3125x0.3125 mm and slice spacing of 0.5 mm. Visual inspection was used to determine whether the carotid arteries were correctly detected. RESULTS: In 60 ICAs of the 30 patients, a success rate of 91.6% (55/60) was achieved. CONCLUSION: Automated seed point placement in the ICA is feasible, which facilitates automatic initialization of e.g. vessel segmentation and quantification. CLINICAL RELEVANCE/APPLICATION: Automated initialization enables complete automation of the processing of large CTA data sets, reduces operator time and is not subject to observer variability.
+

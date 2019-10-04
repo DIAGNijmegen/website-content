@@ -1,0 +1,11 @@
+title: Timing-Invariant CT Angiography Derived from CT Perfusion Imaging in Acute Stroke: A Diagnostic Performance Study
+authors: E. J. Smit, E. Vonken, F.J.A. Meijer, J. W. Dankbaar, A. D. Horsch, B. van Ginneken, B. Velthuis, I. van der Schaaf and M. Prokop
+has_pdf: True
+template: publication
+bibkey: smit15
+published_in: American Journal of Neuroradiology
+pub_details: <i>American Journal of Neuroradiology</i> 2015;36:1834-1838
+doi: https://doi.org/10.3174/ajnr.A4376
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/26113070
+Timing-invariant (or delay-insensitive) CT angiography derived from CT perfusion data may obviate a separate cranial CTA in acute stroke, thus enhancing patient safety by reducing total examination time, radiation dose, and volume of contrast material. We assessed the diagnostic accuracy of timing-invariant CTA for detecting intracranial artery occlusion in acute ischemic stroke, to examine whether standard CTA can be omitted.Patients with suspected ischemic stroke were prospectively enrolled and underwent CTA and CTP imaging at admission. Timing-invariant CTA was derived from the CTP data. Five neuroradiologic observers assessed all images for the presence and location of intracranial artery occlusion in a blinded and randomized manner. Sensitivity and specificity of timing-invariant CTA and standard CTA were calculated by using an independent expert panel as the reference standard. Interrater agreement was determined by using ÃŽÂº statistics.We included 108 patients with 47 vessel occlusions. Overall, standard CTA and timing-invariant CTA provided similar high diagnostic accuracy for occlusion detection with a sensitivity of 96\% (95\% CI, 90\%-100\%) and a specificity of 100\% (99\%-100\%) for standard CTA and a sensitivity of 98\% (95\% CI, 94\%-100\%) and a specificity of 100\% (95\% CI, 100\%-100\%) for timing-invariant CTA. For proximal large-vessel occlusions, defined as occlusions of the ICA, basilar artery, and M1, the sensitivity and specificity were 100\% (95\% CI, 100\%-100\%) for both techniques. Interrater agreement was good for both techniques (mean ÃŽÂº value, 0.75 and 0.76).Timing-invariant CTA derived from CTP data provides diagnostic accuracy similar to that of standard CTA for the detection of artery occlusions in acute stroke.
+

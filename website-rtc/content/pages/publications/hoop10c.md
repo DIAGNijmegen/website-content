@@ -1,0 +1,11 @@
+title: Computer-aided Detection of Lung Cancer on Chest Radiographs: Effect on Observer Performance
+authors: B. de Hoop, D.W. de Boo, H.A. Gietema, F. van Hoorn, B. Mearadji, L. Schijf, B. van Ginneken, M. Prokop and C. Schaefer-Prokop
+has_pdf: True
+template: publication
+bibkey: hoop10c
+published_in: Radiology
+pub_details: <i>Radiology</i> 2010;257:532-540
+doi: https://doi.org/10.1148/radiol.10092437
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/20807851
+Purpose To assess how computer-aided detection (CAD) affects reader performance in detecting early lung cancer on chest radiographs. Materials and Methods: In this ethics committee-approved study, 46 individuals with 49 computed tomographically (CT)-detected and histologically proved lung cancers and 65 patients without nodules at CT were retrospectively included. All subjects participated in a lung cancer screening trial. Chest radiographs were obtained within 2 months after screening CT. Four radiology residents and two experienced radiologists were asked to identify and localize potential cancers on the chest radiographs, first without and subsequently with the use of CAD software. A figure of merit was calculated by using free-response receiver operating characteristic analysis. Results: Tumor diameter ranged from 5.1 to 50.7 mm (median, 11.8 mm). Fifty-one percent (22 of 49) of lesions were subtle and detected by two or fewer readers. Stand-alone CAD sensitivity was 61\%, with an average of 2.4 false-positive annotations per chest radiograph. Average sensitivity was 63\% for radiologists at 0.23 false-positive annotations per chest radiograph and 49\% for residents at 0.45 false-positive annotations per chest radiograph. Figure of merit did not change significantly for any of the observers after using CAD. CAD marked between five and 16 cancers that were initially missed by the readers. These correctly CAD-depicted lesions were rejected by radiologists in 92\% of cases and by residents in 77\% of cases. Conclusion: The sensitivity of CAD in identifying lung cancers depicted with CT screening was similar to that of experienced radiologists. However, CAD did not improve cancer detection because, especially for subtle lesions, observers were unable to sufficiently differentiate true-positive from false-positive annotations.
+

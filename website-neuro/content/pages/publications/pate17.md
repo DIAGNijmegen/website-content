@@ -1,0 +1,9 @@
+title: Robust segmentation of the cranial cavity in non-contrast CT and CT perfusion of the brain
+authors: A. Patel, F.J. A. Meijer, M. Prokop, B. van Ginneken and R. Manniesing
+has_pdf: False
+template: publication
+bibkey: pate17
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2017
+PURPOSE Cranial cavity segmentation in CT is the essential first step for subsequent image processing and automated detection of cerebral pathology. This becomes complicated in the presence of skull fractures, metallic foreign objects or due to connected soft tissues such as the orbit. A robust and accurate method is presented to segment the cranial cavity in CT images. METHOD AND MATERIALS We propose a multi-atlas based method that uses atlas selection based on anterior skull variations, followed by a two-stage levelset refinement. The method was developed using a set of 99 non-contrast CT and 18 CT perfusion (CTP) scans obtained for emergency indications on a 320-row detector CT scanner. It was evaluated on a different set of 200 non-contrast CT and 100 CTP scans obtained for the same indications. Quality of segmentations was visually assessed. The reference standard consisted of three randomly selected orthogonal slices per patient that were manually annotated by trained observers. The corresponding slices were extracted and compared to the reference standard. Dice similarity coefficient (DSC) and 95th percentile Hausdorff distance (95% HD) were reported. RESULTS The segmentation results were evaluated as very good to excellent. The method achieved a mean DSC of 0.98 +- 0.03 and mean 95% HD of 0.60 +- 2.15 mm in comparison to the reference standard. CONCLUSION The proposed method is capable of accurate segmentation of the cranial cavity in non-contrast CT and CTP independent of gross pathology or foreign objects. The method provides a fundamental first step towards automated evaluation of cranial CT.
+

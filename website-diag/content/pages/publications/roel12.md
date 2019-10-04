@@ -1,0 +1,10 @@
+title: Concurrent Endometrial Intraepithelial Carcinoma (EIC) and Serous Ovarian Cancer. Can EIC Be Seen as the Precursor Lesion?
+authors: T. Roelofsen, L.C.L.T. van Kempen, J.A.W.M. van der Laak, M.A. van Ham, J. Bulten and L.F.A.G. Massuger
+has_pdf: True
+template: publication
+bibkey: roel12
+published_in: International Journal of Gynecological Cancer
+pub_details: <i>International Journal of Gynecological Cancer</i> 2012;22(3):457-464
+doi: https://doi.org/10.1097/IGC.0b013e3182434a81
+Objective The pathogenesis of serous ovarian carcinoma (SOC) is still unknown. Recently, endometrial intraepithelial carcinoma (EIC) was proposed to be the precursor lesion of SOC. This study examines the model of EIC as precursor for SOC. Methods: Cases of SOC with a noninvasive or superficially invasive serous lesion, a hyperplastic lesion with/without atypia, or EIC in the endometrium were selected for inclusion in this study. Tissue sections from both ovaries, the fallopian tubes, and the uterus were extensively reviewed by an expert gynecopathologist. For both EIC and SOC, immunostaining for p53, Ki-67, estrogen receptor, and progesterone receptor; TP53 mutation analysis; and in situ ploidy analysis were performed. Results: Nine cases of SOC with concurrent EIC in the endometrium were identified. Immunostaining for p53, Ki-67, estrogen receptor, and progesterone receptor revealed almost identical expression patterns and similar intensities in each pair of EIC and coincidentSOC.IdenticalTP53mutationswerefoundinSOCandcoincidingEICin33%ofthe cases, suggesting a clonal origin. DNA ploidy analysis, as a marker for neoplastic progression, demonstrated an increased number of aneuploid nuclei in SOC compared to their corresponding EIC (P = 0.039). In addition, the mean amount of DNA per nucleus in SOC was higher (ie, more aneuploid) compared to EIC (P = 0.039). Conclusion: This study provides a first indication of EIC as possible precursor lesion for SOC. This finding could have major clinical implications for future ovarian cancer management and underscores EIC as a possible target for early SOC detection and prevention. 
+

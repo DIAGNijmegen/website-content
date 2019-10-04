@@ -1,0 +1,10 @@
+title: Computer Aided Detection of Brain Micro-Bleeds in Traumatic Brain Injury
+authors: T.L. A. van den Heuvel, M. Ghafoorian, A.W. van der Eerden, B.M. Goraj, T.M. J. C. Andriessen, B.M. ter Haar Romeny and B. Platel
+has_pdf: True
+template: publication
+bibkey: heuv15
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, volume 9414 of SPIE, 2015, pages 94142F
+doi: https://doi.org/10.1117/12.2075353
+Brain micro-bleeds (BMBs) are used as surrogate markers for detecting diffuse axonal injury in traumatic brain injury (TBI) patients. The location and number of BMBs have been shown to influence the long-term outcome of TBI. To further study the importance of BMBs for prognosis, accurate localization and quantification are required. The task of annotating BMBs is laborious, complex and prone to error, resulting in a high inter- and intra-reader variability. In this paper we propose a computer-aided detection (CAD) system to automatically detect BMBs in MRI scans of moderate to severe neuro-trauma patients. Our method consists of four steps. Step one: preprocessing of the data. Both susceptibility (SWI) and T1 weighted MRI scans are used. The images are co-registered, a brain-mask is generated, the bias field is corrected, and the image intensities are normalized. Step two: initial candidates for BMBs are selected as local minima in the processed SWI scans. Step three: feature extraction. BMBs appear as round or ovoid signal hypo-intensities on SWI. Twelve features are computed to capture these properties of a BMB. Step four: Classification. To identify BMBs from the set of local minima using their features, different classifiers are trained on a database of 33 expert annotated scans and 18 healthy subjects with no BMBs. Our system uses a leave-one-out strategy to analyze its performance. With a sensitivity of 90% and 1.3 false positives per BMB, our CAD system shows superior results compared to state-of-the-art BMB detection algorithms (developed for non-trauma patients).
+

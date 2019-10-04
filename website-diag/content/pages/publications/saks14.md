@@ -1,0 +1,11 @@
+title: Clinical characteristics of familial and sporadic age-related macular degeneration: differences and similarities
+authors: N. Saksens, E. Kersten, J.M.M. Groenewoud, M.J.J.P. van Grinsven, J.P.H. van de Ven, C.I. Sánchez, T. Schick, S. Fauser, A. den Hollander, C. Hoyng and C.J.F. Boon
+has_pdf: True
+template: publication
+bibkey: saks14
+published_in: Investigative Ophthalmology and Visual Science
+pub_details: <i>Investigative Ophthalmology and Visual Science</i> 2014;55:7085-7092
+doi: https://doi.org/10.1167/iovs.14-14659
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25301878
+Purpose To describe the differences and similarities in clinical characteristics and phenotype of familial and sporadic patients with age-related macular degeneration (AMD). Methods: We evaluated data of 1828 AMD patients and 1715 controls enrolled in the European Genetic Database. All subjects underwent ophthalmologic examination, including visual acuity testing and fundus photography. Images were graded and fundus photographs were used for automatic drusen quantification by a machine learning algorithm. Data on disease characteristics, family history, medical history and lifestyle habits were obtained by a questionnaire. Results: The age at first symptoms was significantly lower in AMD patients with a positive family history (68.7 years) than in AMD patients with no family history (71.8 years; P = 1.9x10-5). Risk factors identified in sporadic and familial subjects were increasing age (OR 1.08 per year; P = 3.0x10-51 and OR 1.15; P = 5.3x10-36, respectively) and smoking (OR 1.01 per pack year; P = 1.1x10-6 and OR 1.02; P = 0.005). Physical activity and daily red meat consumption were significantly associated with AMD in sporadic subjects only (OR 0.49; P = 3.7x10-10 and OR 1.81; P = 0.001). With regard to the phenotype, geographic atrophy and cuticular drusen were significantly more prevalent in familial AMD (17.5\% and 21.7\%, respectively) as compared to sporadic AMD (9.8\% and 12.1\%). Conclusions: Familial AMD patients become symptomatic at a younger age. The higher prevalence of geographic atrophy and cuticular drusen in the familial AMD cases may be explained by the contribution of additional genetic factors segregating within families.
+

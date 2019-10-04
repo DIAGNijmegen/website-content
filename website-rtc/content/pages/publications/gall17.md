@@ -1,0 +1,11 @@
+title: Computed tomography quantification of tracheal abnormalities in COPD and their influence on airflow limitation
+authors: L. Gallardo Estrella, E. Pompe, J. Kuhnigk, D.A. Lynch, S.P. Bhatt, B. van Ginneken and E.M. van Rikxoort
+has_pdf: True
+template: publication
+bibkey: gall17
+published_in: Medical Physics
+pub_details: <i>Medical Physics</i> 2017;44:3594-3603
+doi: https://doi.org/10.1002/mp.12274
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/28423189
+To present a method to automatically quantify tracheal morphology changes during breathing and investigate its contribution to airflow impairment when adding CT measures of emphysema, airway wall thickness, air trapping and ventilation. Because tracheal abnormalities often occur localized, a method is presented that automatically determines the most abnormal trachea section based on automatically computed sagittal and coronal lengths. In this most abnormal section, trachea morphology is encoded using four equiangular rays from the center of the trachea and the normalized lengths of these rays are used as features in a classification scheme. Consequently, trachea measurements are used as input for classification into GOLD stages in addition to emphysema, air trapping and ventilation. A database of 200 subjects distributed across all GOLD stages is used to evaluate the classification with a k nearest neighbour algorithm. Performance is assessed in two experimental settings: (a) when only inspiratory scans are taken; (b) when both inspiratory and expiratory scans are available. Given only an inspiratory CT scan, measuring tracheal shape provides complementary information only to emphysema measurements. The best performing set in the inspiratory setting was a combination of emphysema and bronchial measurements. The best performing feature set in the inspiratory-expiratory setting includes measurements of emphysema, ventilation, air trapping, and trachea. Inspiratory and inspiratory-expiratory settings showed similar performance. The fully automated system presented in this study provides information on trachea shape at inspiratory and expiratory CT. Addition of tracheal morphology features improves the ability of emphysema and air trapping CT-derived measurements to classify COPD patients into GOLD stages and may be relevant when investigating different aspects of COPD.
+

@@ -1,0 +1,10 @@
+title: Dimensionality reduction of image features using the canonical contextual correlation projection
+authors: M. Loog, B. van Ginneken and R.P. W. Duin
+has_pdf: True
+template: publication
+bibkey: loog05
+published_in: Pattern Recognition
+pub_details: <i>Pattern Recognition</i> 2005;38:2409-2418
+doi: https://doi.org/10.1016/j.patcog.2005.04.011
+A linear, discriminative, supervised technique for reducing feature vectors extracted from image data to a lower-dimensional representation is proposed. It is derived from classical linear discriminant analysis (LDA), extending this technique to cases where there is dependency between the output variables, i.e., the class labels, and not only between the input variables. (The latter can readily be dealt with in standard LDA.) The novel method is useful, for example, in supervised segmentation tasks in which high-dimensional feature vectors describe the local structure of the image. The principal idea is that where standard LDA merely takes into account a single class label for every feature vector, the new technique incorporates class labels of its neighborhood in the analysis as well. In this way, the spatial class label configuration in the vicinity of every feature vector is accounted for, resulting in a technique suitable for, e.g. image data. This extended LDA, that takes spatial label context into account, is derived from a formulation of standard LDA in terms of canonical correlation analysis. The novel technique is called the canonical contextual correlation projection (CCCP). An additional drawback of LDA is that it cannot extract more features than the number of classes minus one. In the two-class case this means that only a reduction to one dimension is possible. Our contextual LDA approach can avoid such extreme deterioration of the classification space and retain more than one dimension. The technique is exemplified on a pixel-based medical image segmentation problem in which it is shown that it may give significant improvement in segmentation accuracy.
+

@@ -1,0 +1,9 @@
+title: Hybrid digital phantom for optimizing data acquisition strategies in CT perfusion
+authors: M.T. H. Oei, R. van den Boom, L.J. Oostveen, S. Lafebre, E.J. Smit, B. van Ginneken, R. Manniesing and M. Prokop
+has_pdf: False
+template: publication
+bibkey: oei12
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2012
+Purpose Optimizing data acquisition strategies for cerebral CT perfusion (CTP) studies is difficult in clinical practice. We developed a hybrid digital phantom to study the influence of various acquisition parameters on CTP maps. Material and Methods: The phantom uses scans of an epoxy-filled human skull to provide a homogeneous background with realistic noise patterns derived from a 320-row CT scanner. Superimposed geometric shapes with real patient perfusion curves are digitally added. By manipulating the time tags of the images and by using noise patterns derived with various exposure settings different CTP acquisition strategies can be simulated. The resulting perfusion maps allow for studying contrast-to-noise ratios (CNR) of the superimposed shapes. We tested the phantom by simulating a clinical CTP protocol. We measured arterial input functions (AIF) and tissue curves in grey and white matter (GM, WM) in 9 patients. GM-to-WM CNR derived from the CBF maps were calculated for patients and compared to values of the phantom using identical AIF and tissue curves that were superimposed on the background (simulating WM) and on a circular object (20mm, simulating GM). Results: Measured noise in CBF maps from patient and phantom data was within 13% (1.9-23.9%) of each other. CNR for CBF maps derived from the phantom (20mm object) and patient data correlated well (R = 0.93). Conclusion: The phantom provides a good estimate of real noise in CTP maps and allows for measuring CNR. It can play a major role for future optimization of CTP protocols.
+

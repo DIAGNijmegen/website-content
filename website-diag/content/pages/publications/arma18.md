@@ -1,0 +1,11 @@
+title: The PROSTATEx Challenges for Computerized Classification of Prostate Lesions from Multi-Parametric Magnetic Resonance Images
+authors: S.G. Armato, H. Huisman, K. Drukker, L. Hadjiiski, J.S. Kirby, N. Petrick, G. Redmond, M.L. Giger, K. Cha, A. Mamonov, J. Kalpathy-Cramer and K. Farahani
+has_pdf: True
+template: publication
+bibkey: arma18
+published_in: Journal of Medical Imaging
+pub_details: <i>Journal of Medical Imaging</i> 2018;5(4):044501
+doi: https://doi.org/10.1117/1.JMI.5.4.044501
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/30840739
+Grand challenges stimulate advances within the medical imaging research community: within a competitive yet friendly environment, they allow for a direct comparison of algorithms through a well-defined, centralized infrastructure. The tasks of the two-part PROSTATEx Challenges (the PROSTATEx Challenge and the PROSTATEx-2 Challenge) were (1) the computerized classification of clinically significant prostate lesions and (2) the computerized determination of Gleason Grade Group in prostate cancer, both based on multi-parametric magnetic resonance images. The Challenges incorporated well-vetted cases for training and testing, a centralized performance assessment process to evaluate results, and an established infrastructure for case dissemination, communication, and result submission. In the PROSTATEx Challenge, 32 groups applied their computerized methods (71 methods total) to 208 prostate lesions in the test set. Area under the receiver operating characteristic curve (AUC) for these methods in the task of differentiating between lesions that were and were not clinically significant ranged from 0.45-0.87; statistically significant differences in performance among the top-performing methods, however, were not observed. In the PROSTATEx-2 Challenge, 21 groups applied their computerized methods (43 methods total) to 70 prostate lesions in the test set. When compared with the reference standard, the quadratic-weighted kappa values for these methods in the task of assigning a 5-point Gleason Grade Group to each lesion ranged from 0.24-0.27; superiority to random guessing could be established for only two methods. When approached with a sense of commitment and scientific rigor, challenges foster interest in the designated task and encourage innovation in the field.
+

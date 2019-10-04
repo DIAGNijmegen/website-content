@@ -1,0 +1,11 @@
+title: Should anterior pituitary function be tested during follow-up of all patients presenting at the emergency department because of traumatic brain injury?
+authors: A.W. van der Eerden, M.T.B. Twickler, F.C.G.J. Sweep, T. Beems, H.T. Hendricks, A.R.M.M. Hermus and P.E. Vos
+has_pdf: True
+template: publication
+bibkey: eerd10
+published_in: European journal of endocrinology
+pub_details: <i>European journal of endocrinology</i> 2010;162:19-28
+doi: https://doi.org/10.1530/EJE-09-0436
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/19783620
+A wide range (15-56%) of prevalences of anterior pituitary insufficiency are reported in patients after traumatic brain injury (TBI). However, different study populations, study designs, and diagnostic procedures were used. No data are available on emergency-department-based cohorts of TBI patients. To assess the prevalence of pituitary dysfunction in an emergency-department-based cohort of TBI patients using strict endocrinological diagnostic criteria. Of all the patients presenting in the emergency department with TBI over a 2-year period, 516 matched the inclusion criteria. One hundred and seven patients (77 with mild TBI and 30 with moderate/severe TBI) agreed to participate. They were screened for anterior pituitary insufficiency by GHRH-arginine testing, evaluation of fasting morning hormone levels (cortisol, TSH, free thyroxine, FSH, LH, and 17beta-estradiol or testosterone), and menstrual history 3-30 months after TBI. Abnormal screening results were defined as low peak GH to GHRH-arginine, or low levels of any of the end-organ hormones with low or normal pituitary hormone levels. Patients with abnormal screening results were extensively evaluated, including additional hormone provocation tests (insulin tolerance test, ACTH stimulation test, and repeated GHRH-arginine test) and assessment of free testosterone levels. Screening results were abnormal in 15 of 107 patients. In a subsequent extensive endocrine evaluation, anterior pituitary dysfunction was diagnosed in only one patient (partial hypocortisolism). By applying strict diagnostic criteria to an emergency-department-based cohort of TBI patients, it was shown that anterior pituitary dysfunction is rare (<1%). Routine pituitary screening in unselected patients after TBI is unlikely to be cost-effective.
+

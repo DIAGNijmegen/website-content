@@ -1,0 +1,11 @@
+title: Circulating sclerostin levels are decreased in patients with endogenous hypercortisolism and increase after treatment
+authors: A. H. van Lierop, A. W. van der Eerden, N.A.T. Hamdy, A. R. Hermus, M. den Heijer and S. E. Papapoulos
+has_pdf: True
+template: publication
+bibkey: lier12
+published_in: Journal of Clinical Endocrinology and Metabolism
+pub_details: <i>Journal of Clinical Endocrinology and Metabolism</i> 2012;97:E1953-E1957
+doi: https://doi.org/10.1210/jc.2012-2218
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/22844062
+Increased bone fragility is a frequent complication of hypercortisolism due predominantly to suppression of bone formation. Sclerostin is an osteocyte-produced negative regulator of bone formation, which is up-regulated by glucocorticoids in mice.Our objective was to assess the effect of endogenous hypercortisolism on circulating sclerostin and bone turnover in humans.We measured sclerostin, ÃŽÂ²-C-terminal telopeptide, amino-terminal propeptide of type 1 procollagen, and fibroblast growth factor 23 in blood samples of 21 patients with endogenous hypercortisolism and 21 age- and gender-matched controls. In 12 patients, measurements were repeated at various time intervals after successful surgical treatment (transsphenoidal surgery or adrenalectomy).Plasma sclerostin levels were significantly decreased in patients compared with controls (112Ã‚Â±49 vs. 207Ã‚Â±48 pg/ml, P<0.001). In the 12 patients who were evaluated after surgical treatment, sclerostin levels increased from 121.4Ã‚Â±46.5 to 175.8Ã‚Â±78.5 pg/ml (P=0.003). These changes in plasma sclerostin levels were accompanied by significant increases in levels of fibroblast growth factor 23 (from 44.2Ã‚Â±12.2 to 84.0Ã‚Â±58.8 pg/ml, P=0.017) and of the bone turnover markers amino-terminal propeptide of type 1 procollagen (from 31.7Ã‚Â±18.2 to 94.2Ã‚Â±92.2 ng/ml, P=0.037) and ÃŽÂ²-C-terminal telopeptide (from 134.2Ã‚Â±44 to 409.2Ã‚Â±285 pg/ml, P=0.005).Contrary to the findings in mice, circulating sclerostin is decreased in patients with chronic endogenous hypercortisolism and increases after treatment. These findings suggest that in humans, chronic exposure to glucocorticoids affects the number or function of osteocytes rather than the production of sclerostin.
+

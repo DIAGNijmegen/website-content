@@ -1,0 +1,10 @@
+title: Changes in radial artery volume assessed using intravascular ultrasound: a comparison of two vasodilator regimens in transradial coronary interventions
+authors: X. Carrillo, E. Fernandez-Nofrerias, F. Ciompi, O. Rodriguez-Leor, P. Radeva, N. Salvatella, O. Pujol, J. Mauri and A. Bayes-Genis
+has_pdf: True
+template: publication
+bibkey: carr11
+published_in: Journal of Invasive Cardiology
+pub_details: <i>Journal of Invasive Cardiology</i> 2011;23:401-404
+urlweb: http://europepmc.org/abstract/MED/21972156
+OBJECTIVES This study used intravascular ultrasound (IVUS) to evaluate radial artery volume changes after intraarterial administration of nitroglycerin and/or verapamil. BACKGROUND: Radial artery spasm, which is associated with radial artery size, is the main limitation of the transradial approach in percutaneous coronary interventions (PCI). METHODS: This prospective, randomized study compared the effect of two intra-arterial vasodilator regimens on radial artery volume: 0.2 mg of nitroglycerin plus 2.5 mg of verapamil (Group 1; n = 15) versus 2.5 mg of verapamil alone (Group 2; n = 15). Radial artery lumen volume was assessed using IVUS at two time points: at baseline (5 minutes after sheath insertion) and post-vasodilator (1 minute after drug administration). The luminal volume of the radial artery was computed using ECOC Random Fields (ECOC-RF), a technique used for automatic segmentation of luminal borders in longitudinal cut images from IVUS sequences. RESULTS: There was a significant increase in arterial lumen volume in both groups, with an increase from 451 Ã‚Â± 177 mmÃ‚Â³ to 508 Ã‚Â± 192 mmÃ‚Â³ (p = 0.001) in Group 1 and from 456 Ã‚Â± 188 mmÃ‚Â³ to 509 Ã‚Â± 170 mmÃ‚Â³ (p = 0.001) in Group 2. There were no significant differences between the groups in terms of absolute volume increase (58 mmÃ‚Â³ versus 53 mmÃ‚Â³, respectively; p = 0.65) or in relative volume increase (14% versus 20%, respectively; p = 0.69). CONCLUSIONS: Administration of nitroglycerin plus verapamil or verapamil alone to the radial artery resulted in similar increases in arterial lumen volume according to ECOC-RF IVUS measurements.
+

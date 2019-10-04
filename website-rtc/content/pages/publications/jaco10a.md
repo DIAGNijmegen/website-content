@@ -1,0 +1,11 @@
+title: Coronary artery calcification scoring in low-dose ungated CT screening for lung cancer: interscan agreement
+authors: P.C. A. Jacobs, I. Išgum, M.J. A. Gondrie, W.P. Th. M. Mali, B. van Ginneken, M. Prokop and Y.van der Graaf
+has_pdf: True
+template: publication
+bibkey: jaco10a
+published_in: American Journal of Roentgenology
+pub_details: <i>American Journal of Roentgenology</i> 2010;194:1244-1249
+doi: https://doi.org/10.2214/AJR.09.3047
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/20410410
+OBJECTIVE In previous studies detection of coronary artery calcification (CAC) with low-dose ungated MDCT performed for lung cancer screening has been compared with detection with cardiac CT. We evaluated the interscan agreement of CAC scores from two consecutive low-dose ungated MDCT examinations. SUBJECTS AND METHODS: The subjects were 584 participants in the screening segment of a lung cancer screening trial who underwent two low-dose ungated MDCT examinations within 4 months (mean, 3.1 +/- 0.6 months) of a baseline CT examination. Agatston score, volume score, and calcium mass score were measured by two observers. Interscan agreement of stratification of participants into four Agatston score risk categories (0, 1-100, 101-400, > 400) was assessed with kappa values. Interscan variability and 95\% repeatability limits were calculated for all three calcium measures and compared by repeated measures analysis of variance. RESULTS: An Agatston score > 0 was detected in 443 baseline CT examinations (75.8\%). Interscan agreement of the four risk categories was good (kappa = 0.67). The Agatston scores were in the same risk category in both examinations in 440 cases (75.3\%); 578 participants (99.0\%) had scores differing a maximum of one category. Furthermore, mean interscan variability ranged from 61\% for calcium volume score to 71\% for Agatston score (p < 0.01). A limitation of this study was that no comparison of CAC scores between low-dose ungated CT and the reference standard ECG-gated CT was performed. CONCLUSION: Cardiovascular disease risk stratification with low-dose ungated MDCT is feasible and has good interscan agreement of stratification of participants into Agatston score risk categories. High mean interscan variability precludes the use of this technique for monitoring CAC scores for individual patients.
+

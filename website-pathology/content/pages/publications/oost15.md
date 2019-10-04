@@ -1,0 +1,11 @@
+title: Successful Combination of Sunitinib and Girentuximab in Two Renal Cell Carcinoma Animal Models: A Rationale for Combination Treatment of Patients with Advanced RCC
+authors: J.C. Oosterwijk-Wakka, M.C.A. de Weijert, G.M. Franssen, W.P.J. Leenders, J.A.W.M. van der Laak, O.C. Boerman, P.F.A. Mulders and E. Oosterwijk
+has_pdf: True
+template: publication
+bibkey: oost15
+published_in: Neoplasia
+pub_details: <i>Neoplasia</i> 2015;17:215-224
+doi: https://doi.org/10.1016/j.neo.2014.12.011
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25748241
+Anti-angiogenic treatment with tyrosine kinase inhibitors (TKI) has lead to an impressive increase in progression-free survival for patients with metastatic RCC (mRCC), but mRCC remains largely incurable. We combined sunitinib, targeting the endothelial cells with Girentuximab (monoclonal antibody cG250, recognizing carbonic anhydrase IX (CAIX) targeting the tumor cells to study the effect of sunitinib on the biodistribution of Girentuximab because combination of modalities targeting tumor vasculature and tumor cells might result in improved effect. Nude mice with human RCC xenografts (NU12, SK-RC-52) were treated orally with 0.8 mg/day sunitinib, or vehicle for 7 to 14 days. Three days before start or cessation of treatment mice were injected i.v. with 0.4 MBq/5 ÃŽÂ¼g (111)In-Girentuximab followed by biodistribution studies. Immunohistochemical analyses were performed to study the tumor vasculature and CAIX expression and to confirm Girentuximab uptake. NU12 appeared to represent a sunitinib sensitive tumor: sunitinib treatment resulted in extensive necrosis and decreased microvessel density (MVD). Accumulation of Girentuximab was significantly decreased when sunitinib treatment preceded the antibody injection but remained unchanged when sunitinib followed Girentuximab injection. Cessation of therapy led to a rapid neovascularization, reminiscent of a tumor flare. SK-RC-52 appeared to represent a sunitinib-resistant tumor: (central) tumor necrosis was minimal and MVD was not affected. Sunitinib treatment resulted in increased Girentuximab uptake, regardless of the sequence of treatment. These data indicate that sunitinib can be combined with Girentuximab. Since these two modalities have different modes of action, this combination might lead to enhanced therapeutic efficacy.
+

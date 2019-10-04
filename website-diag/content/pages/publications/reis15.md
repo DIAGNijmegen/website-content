@@ -1,0 +1,11 @@
+title: 1.5-T multiparametric MRI using PI-RADS: a region by region analysis to localize the index-tumor of prostate cancer in patients undergoing prostatectomy
+authors: L.A. Reisæter, J.J. Fütterer, O.J. Halvorsen, Y. Nygård, M. Biermann, E. Andersen, K. Gravdal, S. Haukaas, J.A. Monssen, H.J. Huisman, L.A. Akslen, C. Beisland and J. Rørvik
+has_pdf: True
+template: publication
+bibkey: reis15
+published_in: Acta Radiologica
+pub_details: <i>Acta Radiologica</i> 2015;56:500-511
+doi: https://doi.org/10.1177/0284185114531754
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/24819231
+The use of multiparametric magnetic resonance imaging (mpMRI) to detect and localize prostate cancer has increased in recent years. In 2010, the European Society of Urogenital Radiology (ESUR) published guidelines for mpMRI and introduced the Prostate Imaging Reporting and Data System (PI-RADS) for scoring the different parameters.To evaluate the reliability and diagnostic performance of endorectal 1.5-T mpMRI using the PI-RADS to localize the index tumor of prostate cancer in patients undergoing prostatectomy.This institutional review board IRB-approved, retrospective study included 63 patients (mean age, 60.7 years, median PSA, 8.0). Three observers read mpMRI parameters (T2W, DWI, and DCE) using the PI-RADS, which were compared with the results from whole-mount histopathology that analyzed 27 regions of interest. Inter-observer agreement was calculated as well as sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV) by dichotomizing the PI-RADS criteria scores Ã¢â€°Â¥3. A receiver-operating curve (ROC) analysis was performed for the different MR parameters and overall score.Inter-observer agreement on the overall score was 0.41. The overall score in the peripheral zone achieved sensitivities of 0.41, 0.60, and 0.55 with an NPV of 0.80, 0.84, and 0.83, and in the transitional zone, sensitivities of 0.26, 0.15, and 0.19 with an NPV of 0.92, 0.91, and 0.92 for Observers 1, 2, and 3, respectively. The ROC analysis showed a significantly increased area under the curve (AUC) for the overall score when compared to T2W alone for two of the three observers.1.5Ã¢â‚¬â€°T mpMRI using the PI-RADS to localize the index tumor achieved moderate reliability and diagnostic performance.
+

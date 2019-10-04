@@ -1,0 +1,9 @@
+title: One-Step-Stroke Imaging: Does an Interleaved Acquisition of Cerebral CT Perfusion and CTA of the Carotids Affect CTP Values
+authors: M.T. H. Oei, R. Manniesing, F.J. A. Meijer and M. Prokop
+has_pdf: False
+template: publication
+bibkey: oei14
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2014
+Purpose One-step stroke imaging is a CT perfusion(CTP) scan in which one volumetric acquisition is replaced to acquire a carotid CTA using toggling table technique and a single dose of contrast agent. The purpose of this study is to determine if missing one acquisition of the CTP influences the CTP values. Methods and Materials: Ten patients with suspicion of ischemic stroke were scanned with a clinical CTP head protocol(14 scans every 2s, 5 scans every 5s) with a total duration of 55s using a 320-row CT scanner. The one-step stroke protocol is simulated from the original clinical protocol by deleting one acquisition. For every patient, the timepoint of the bolus arrival time(BAT) and the arterial peak(AP) in the middle cerebral artery was determined. One acquisition was deleted starting from the BAT up to the fifth time point after AP. Corresponding perfusion maps were calculated with bSVD using PMA-ASIST. Regions of interests(ROIs) were annotated in normal-appearing grey and white matter. The percentage errors were calculated per timepoint and patient. Results: The absolute mean of the percentage errors across all patients for each timepoint in grey matter compared to the original CBF, CBV and MTT is 3.40%(range 0.10-9.53%), 3.22%(0.00-9.98%) and 3.08%(0.00-13.79%), respectively. Percentage errors>8.50% occurred for some patients if an acquisition was deleted at BAT, 2s-4s after BAT, AP or after the AP. Similar results were found in WM. Conclusion: A one-step stroke protocol is feasible with only minor effects on the CTP maps if CTA is acquired 2-4s after BAT and before the AP.
+

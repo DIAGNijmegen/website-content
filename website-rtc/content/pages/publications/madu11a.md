@@ -1,0 +1,9 @@
+title: Cavity segmentation in chest radiographs
+authors: P. Maduskar, L. Hogeweg, H. Ayles, R. Dawson, P.A. de Jong, N. Karssemeijer and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: madu11a
+published_in: The Fourth International Workshop on Pulmonary Image Analysis
+pub_details: in: <i>The Fourth International Workshop on Pulmonary Image Analysis</i>, 2011
+Cavities are air-filled spaces within a pulmonary consolidation and can be indicative of various diseases like primary bronchogenic carcinoma, mycobacterium tuberculosis, cancer and infections. Segmentation of cavities is a challenging task in chest radiographs due to the presence of superimposed structures. It is important to accurately measure the extent of cavitation to measure temporal changes and response to therapy. In this paper, we propose a semi-automatic technique for cavity border segmentation based on dynamic programming. A pixel classifier is trained using cavity border pixels based on Gaussian, location and Hessian features to construct a cavity wall likelihood map. A polar transformation of this likelihood map around the seed point is then used as a cost function to find an optimal border using dynamic programming. We have validated our technique on 50 chest radiographs (2048 x 2048 resolution, pixel size 0.25 mm, Delft Imaging Systems, The Netherlands) containing in total 50 cavities. These cavities have been manually outlined by three human experts, one chest radiologist and two readers certified to read chest radiographs according to a tuberculosis scoring system. The automatic border segmentations are compared with manual segmentations provided by the readers using Jaccard overlapping measure. The agreement between the automatically determined outlines is comparable to the inter-observer agreement.
+

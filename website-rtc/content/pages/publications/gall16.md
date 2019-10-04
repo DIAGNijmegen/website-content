@@ -1,0 +1,11 @@
+title: Normalizing computed tomography data reconstructed with different filter kernels: effect on emphysema quantification
+authors: L. Gallardo-Estrella, D. A. Lynch, M. Prokop, D. Stinson, J. Zach, P. F. Judy, B. van Ginneken and E. M. van Rikxoort
+has_pdf: True
+template: publication
+bibkey: gall16
+published_in: European Radiology
+pub_details: <i>European Radiology</i> 2016;26:478-486
+doi: https://doi.org/10.1007/s00330-015-3824-y
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/26002132
+To propose and evaluate a method to reduce variability in emphysema quantification among different computed tomography (CT) reconstructions by normalizing CT data reconstructed with varying kernels.We included 369 subjects from the COPDGene study. For each subject, spirometry and a chest CT reconstructed with two kernels were obtained using two different scanners. Normalization was performed by frequency band decomposition with hierarchical unsharp masking to standardize the energy in each band to a reference value. Emphysema scores (ES), the percentage of lung voxels below -950 HU, were computed before and after normalization. Bland-Altman analysis and correlation between ES and spirometry before and after normalization were compared. Two mixed cohorts, containing data from all scanners and kernels, were created to simulate heterogeneous acquisition parameters.The average difference in ES between kernels decreased for the scans obtained with both scanners after normalization (7.7Ã¢â‚¬â€°Ã‚Â±Ã¢â‚¬â€°2.7 to 0.3Ã¢â‚¬â€°Ã‚Â±Ã¢â‚¬â€°0.7; 7.2Ã¢â‚¬â€°Ã‚Â±Ã¢â‚¬â€°3.8 to -0.1Ã¢â‚¬â€°Ã‚Â±Ã¢â‚¬â€°0.5). Correlation coefficients between ES and FEV1, and FEV1/FVC increased significantly for the mixed cohorts.Normalization of chest CT data reduces variation in emphysema quantification due to reconstruction filters and improves correlation between ES and spirometry.Ã¢â‚¬Â¢ Emphysema quantification is sensitive to the reconstruction kernel used. Ã¢â‚¬Â¢ Normalization allows comparison of emphysema quantification from images reconstructed with varying kernels. Ã¢â‚¬Â¢ Normalization allows comparison of emphysema quantification obtained with scanners from different manufacturers. Ã¢â‚¬Â¢ Normalization improves correlation of emphysema quantification with spirometry. Ã¢â‚¬Â¢ Normalization can be used to compare data from different studies and centers.
+

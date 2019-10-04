@@ -1,0 +1,11 @@
+title: Subphenotypes of Mild-to-Moderate COPD by Factor and Cluster Analysis of Pulmonary Function, CT Imaging and Breathomics in a Population-Based Survey
+authors: N. Fens, A.G.J. van Rossum, P. Zanen, B. van Ginneken, R.J. van Klaveren, A.H. Zwinderman and P.J. Sterk
+has_pdf: True
+template: publication
+bibkey: fens13
+published_in: COPD
+pub_details: <i>COPD</i> 2013;10:277-285
+doi: https://doi.org/10.3109/15412555.2012.744388
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/23536961
+Abstract Introduction: Classification of COPD is currently based on the presence and severity of airways obstruction. However, this may not fully reflect the phenotypic heterogeneity of COPD in the (ex-) smoking community. We hypothesized that factor analysis followed by cluster analysis of functional, clinical, radiological and exhaled breath metabolomic features identifies subphenotypes of COPD in a community-based population of heavy (ex-) smokers. Methods: Adults between 50-75 years with a smoking history of at least 15 pack-years derived from a random population-based survey as part of the NELSON study underwent detailed assessment of pulmonary function, chest CT scanning, questionnaires and exhaled breath molecular profiling using an electronic nose. Factor and cluster analyses were performed on the subgroup of subjects fulfilling the GOLD criteria for COPD (post-BD FEV1/FVC < 0.70). Results: Three hundred subjects were recruited, of which 157 fulfilled the criteria for COPD and were included in the factor and cluster analysis. Four clusters were identified: cluster 1 (n = 35; 22\%): mild COPD, limited symptoms and good quality of life. Cluster 2 (n = 48; 31\%): low lung function, combined emphysema and chronic bronchitis and a distinct breath molecular profile. Cluster 3 (n = 60; 38\%): emphysema predominant COPD with preserved lung function. Cluster 4 (n = 14; 9\%): highly symptomatic COPD with mildly impaired lung function. In a leave-one-out validation analysis an accuracy of 97.4\% was reached. Conclusions: This unbiased taxonomy for mild to moderate COPD reinforces clusters found in previous studies and thereby allows better phenotyping of COPD in the general (ex-) smoking population.
+

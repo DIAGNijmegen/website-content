@@ -1,0 +1,10 @@
+title: Breast parenchyma analysis and classification for breast masses detection using texture feature descriptors and neural networks in dedicated breast CT images
+authors: M. Caballo, J. Teuwen, R. Mann and I. Sechopolous
+has_pdf: True
+template: publication
+bibkey: cab18
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, 2019
+doi: https://doi.org/10.1117/12.2511718
+We propose a method to identify breast parenchyma regions containing mass-like abnormalities in dedicated breast CT images using texture feature descriptors. From 53 complete patient breast CT scans (29 of which containing masses), we first isolated the breast parenchyma through automatic segmentation, and we collected a total of 14,751 normal 2-D image patches (negatives), and 525 containing a breast mass (positives). We extracted 141 texture features (10 first-order descriptors, 6 Haralick features, 20 run-length features, 45 structural and pattern descriptors, 60 Gabor features), which we then analyzed through multivariate analysis of variance (MANOVA) and linear discriminant analysis, and which resulted in an area under the curve (AUC) of 0.92. We finally trained and validated a neural network using these data, dividing them into multiple batches, with each batch always containing the whole set of positive cases, and as many different negative examples. To avoid the possible bias due to the high skewness in class proportion, the training was performed on all these batches independently, without re-initializing the network weights after each training. The network was tested using an additional independent 18 patient breast CT scans (8 normal and 10 containing a mass), on a total of 6,635 image patches (213 positives, 6,422 negatives) which were not used during the training/validation phase, and resulted in a precision of 94.8%, a recall of 93.9%, and an AUC of 0.99. Our results suggest that the proposed approach could be further evaluated and expanded for computer-aided detection tasks in breast CT imaging.
+

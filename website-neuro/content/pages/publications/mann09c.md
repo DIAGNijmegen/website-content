@@ -1,0 +1,9 @@
+title: Automated CTA Lumen Segmentation of the Atherosclerotic Carotid Artery Bifurcation
+authors: R. Manniesing, D. Vukadinovic, S. Rozie, M. Schaap, A. van der Lugt and W.J. Niessen
+has_pdf: True
+template: publication
+bibkey: mann09c
+published_in: Annual Meeting of the Radiological Society of North America
+pub_details: in: <i>Annual Meeting of the Radiological Society of North America</i>, 2009
+PURPOSE To develop an image processing tool that requires minimal user interaction and automatically extracts the atherosclerotic bifurcation in CTA METHOD AND MATERIALS: We propose a two step approach: First, the central vessel axis is obtained based on path tracking between three user defined points. Second, starting from this path, the final segmentation is automatically obtained using a level set which is steered by a novel, slice feature-based speed function. We evaluate the method on a large data set of 234 carotid bifurcations of 129 ischemic stroke patients with atherosclerotic disease. The results are compared to manually obtained lumen segmentations. Parameter optimization is carried out on a subset of 30 representative carotid bifurcations. RESULTS: With the optimized parameter settings the method successfully tracked the central vessel paths in 201 of the remaining 204 bifurcations (99%) which were not part of the training set. Comparison with manually drawn segmentations shows an average overlap of 94% which is slightly less than the overlap between observers (96%). CONCLUSION: To our knowledge is this the first method which has been tested on such a large number of patient data. The results show that robust and accurate segmentation of the atherosclerotic bifurcation in CT angiography is feasible. CLINICAL RELEVANCE/APPLICATION: This work is highly relevant for clinical research/practice: lumen segmentation of the diseased bifurcation is the first step for stenosis grading, plaque characterization and hemodynamic modeling.
+

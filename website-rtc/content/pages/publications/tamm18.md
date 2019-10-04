@@ -1,0 +1,11 @@
+title: Predicting Malignancy Risk of Screen Detected Lung Nodules – Mean Diameter or Volume
+authors: M. Tammemagi, A.J. Ritchie, S. Atkar-Khattra, B. Dougherty, C. Sanghera, J.R. Mayo, R. Yuan, D. Manos, A.M. McWilliams, H. Schmidt, M. Gingras, S. Pasian, L. Stewart, S. Tsai, J. M.Seely, P. Burrowes, R. Bhatia, E. A.Haider, C. Boylan, C. Jacobs, B. van Ginneken, M. Tsao, S. Lam and  the Pan-Canadian Early Detection of Lung Cancer Study Group
+has_pdf: True
+template: publication
+bibkey: tamm18
+published_in: Journal of Thoracic Oncology
+pub_details: <i>Journal of Thoracic Oncology</i> 2019;14:203-211
+doi: https://doi.org/10.1016/j.jtho.2018.10.006
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/30368011
+Purpose In lung cancer screening practice using low-dose computed tomography (LDCT), diameter or volumetric measurement have been used in the management of screen detected lung nodules. The aim of this study is to compare the performance of nodule malignancy risk prediction tools using diameter or volume and between computer-aided detection (CAD) and radiologist measurements. Methods: Multivariable logistic regression models were prepared using data from two multi-center lung cancer screening trials. For model development and validation, baseline LDCT scans from the PanCan Study and a subset of National Lung Screening Trial (NLST) scans with lung nodule ≥3 mm in mean diameter were analysed using the CIRRUS Lung Screening Workstation (Radboud University Medical Center, Nijmegen, the Netherlands). In the NLST sample, nodules with cancer had been matched on size to nodules without cancer. Results: Both CAD-based mean diameter and volume models showed excellent discrimination and calibration, with similar areas under the receiver-operating-characteristic curves of 0.947. The two CAD models had similar predictive performance to the radiologist-based model. In NLST validation data, the CAD Mean Diameter and Volume models also demonstrated excellent discrimination: AUC’s 0.810 and 0.821, respectively. These performance statistics are similar to the PanCan Malignancy Probability Model in these data using radiologist measured maximum diameter. Conclusion: Either CAD-based nodule diameter or volume can be used to assist in predicting nodule malignancy risk.
+

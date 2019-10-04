@@ -1,0 +1,11 @@
+title: Prostate Cancer: Multiparametric MR Imaging for Detection, Localization, and Staging
+authors: C. M A Hoeks, J. O Barentsz, T. Hambrock, D. Yakar, D. M Somford, S. W T P J Heijmink, T. W J Scheenen, P. C Vos, H. Huisman, I. M van Oort, J. Alfred Witjes, A. Heerschap and J. J Fütterer
+has_pdf: True
+template: publication
+bibkey: hoek11a
+published_in: Radiology
+pub_details: <i>Radiology</i> 2011;261:46-66
+doi: https://doi.org/10.1148/radiol.11091822
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/21931141
+This review presents the current state of the art regarding multiparametric magnetic resonance (MR) imaging of prostate cancer. Technical requirements and clinical indications for the use of multiparametric MR imaging in detection, localization, characterization, staging, biopsy guidance, and active surveillance of prostate cancer are discussed. Although reported accuracies of the separate and combined multiparametric MR imaging techniques vary for diverse clinical prostate cancer indications, multiparametric MR imaging of the prostate has shown promising results and may be of additional value in prostate cancer localization and local staging. Consensus on which technical approaches (field strengths, sequences, use of an endorectal coil) and combination of multiparametric MR imaging techniques should be used for specific clinical indications remains a challenge. Because guidelines are currently lacking, suggestions for a general minimal protocol for multiparametric MR imaging of the prostate based on the literature and the authors' experience are presented. Computer programs that allow evaluation of the various components of a multiparametric MR imaging examination in one view should be developed. In this way, an integrated interpretation of anatomic and functional MR imaging techniques in a multiparametric MR imaging examination is possible. Education and experience of specialist radiologists are essential for correct interpretation of multiparametric prostate MR imaging findings. Supportive techniques, such as computer-aided diagnosis are needed to obtain a fast, cost-effective, easy, and more reproducible prostate cancer diagnosis out of more and more complex multiparametric MR imaging data. Ã¯Â¿Â½ RSNA, 2011.
+

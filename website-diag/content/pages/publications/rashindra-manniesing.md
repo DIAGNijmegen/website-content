@@ -1,0 +1,5 @@
+title: Publications of Rashindra Manniesing
+template: publications-author
+author: rashindra-manniesing
+author_name: Rashindra Manniesing
+bibkeys: mann09a,koop08a,leem18a,kort16,oei14a,ciet11,pate18,laue13,mann09c,beck16,vuka11,durm14a,ghaf18,beck19a,mord12,mord13,stan18,mann06b,mann98,mann16a,oei13,pate17a,vuka12,avoi13,mann06a,mann10,mann16,kuij10,firo12,mann17,meij18b,leem19,meij16,hame13,koek12,firo08,kort15,leem19b,meij18,pate16,mann00,kosc18,mann08a,tan16,vuka09a,mann04b,oei12,mann06e,oei17,vuka09,wiel10,koop06,mook09,mann16c,firo10,oei14,mann10a,mann09b,mann99,gish14,durm14,mann06,pate17b,roll09,boom12a,eerd18,mann07,pate17,boom12,vuka08,vuka10,koop08,oei18,meij17,meij18c,boom14,leem18c,ciet14,firo10a,scha07,mann09,firo12a,durm12,meij17a,pate19,pegg17a,meij19a,meij18a,wiel11,oei17a,mann05a,mann06c,mann99a,boom13,leem17,leem18b,heuv16,mann07a

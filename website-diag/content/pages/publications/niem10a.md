@@ -1,0 +1,10 @@
+title: Automatic determination of the artery vein ratio in retinal images
+authors: M. Niemeijer, B. van Ginneken and M.D. Abràmoff
+has_pdf: True
+template: publication
+bibkey: niem10a
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, volume 7624 of SPIE, 2010, pages 76240I1-76240I10
+doi: https://doi.org/10.1117/12.844469
+A lower ratio between the width of the arteries and veins (Arteriolar-to-Venular diameter Ratio, AVR) on the retina, is well established to be predictive of stroke and other cardiovascular events in adults, as well as an increased risk of retinopathy of prematurity in premature infants. This work presents an automatic method that detects the location of the optic disc, determines the appropriate region of interest (ROI), classifies the vessels in the ROI into arteries and veins, measures their widths and calculates the AVR. After vessel segmentation and vessel width determination the optic disc is located and the system eliminates all vessels outside the AVR measurement ROI. The remaining vessels are thinned, vessel crossing and bifurcation points are removed leaving a set of vessel segments containing centerline pixels. Features are extracted from each centerline pixel that are used to assign them a soft label indicating the likelihood the pixel is part of a vein. As all centerline pixels in a connected segment should be the same type, the median soft label is assigned to each centerline pixel in the segment. Next artery vein pairs are matched using an iterative algorithm and the widths of the vessels is used to calculate the AVR. We train and test the algorithm using a set of 25 high resolution digital color fundus photographs a reference standard that indicates for the major vessels in the images whether they are an artery or a vein. We compared the AVR values produced by our system with those determined using a computer assisted method in 15 high resolution digital color fundus photographs and obtained a correlation coefficient of 0.881.
+

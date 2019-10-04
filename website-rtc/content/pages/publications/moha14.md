@@ -1,0 +1,11 @@
+title: Contribution of CT Quantified Emphysema, Air Trapping and Airway Wall Thickness on Pulmonary Function in Male Smokers With and Without COPD
+authors: F. A. A. Mohamed Hoesein, P. A. de Jong, J.-W. J. Lammers, W. P. T. M. Mali, O. M. Mets, M. Schmidt, H. J. de Koning, C. van der Aalst, M. Oudkerk, R. Vliegenthart, B. van Ginneken, E. M. van Rikxoort and P. Zanen
+has_pdf: True
+template: publication
+bibkey: moha14
+published_in: COPD
+pub_details: <i>COPD</i> 2014;11:503-509
+doi: https://doi.org/10.3109/15412555.2014.933952
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25093696
+Abstract Emphysema, airway wall thickening and air trapping are associated with chronic obstructive pulmonary disease (COPD). All three can be quantified by computed tomography (CT) of the chest. The goal of the current study is to determine the relative contribution of CT derived parameters on spirometry, lung volume and lung diffusion testing. Emphysema, airway wall thickening and air trapping were quantified automatically on CT in 1,138 male smokers with and without COPD. Emphysema was quantified by the percentage of voxels below -950 Hounsfield Units (HU), airway wall thickness by the square root of wall area for a theoretical airway with 10 mm lumen perimeter (Pi10) and air trapping by the ratio of mean lung density at expiration and inspiration (E/I-ratio). Spirometry, residual volume to total lung capacity (RV/TLC) and diffusion capacity (Kco) were obtained. Standardized regression coefficients (ÃŽÂ²) were used to analyze the relative contribution of CT changes to pulmonary function measures. The independent contribution of the three CT measures differed per lung function parameter. For the FEV1 airway wall thickness was the most contributing structural lung change (ÃŽÂ² = -0.46), while for the FEV1/FVC this was emphysema (ÃŽÂ² = -0.55). For the residual volume (RV) air trapping was most contributing (ÃŽÂ² = -0.35). Lung diffusion capacity was most influenced by emphysema (ÃŽÂ² = -0.42). In a cohort of smokers with and without COPD the effect of different CT changes varies per lung function measure and therefore emphysema, airway wall thickness and air trapping need to be taken in account.
+

@@ -1,0 +1,11 @@
+title: Automated Staging of Age-Related Macular Degeneration Using Optical Coherence Tomography
+authors: F.G. Venhuizen, B. van Ginneken, F. van Asten, M.J.J.P van Grinsven, S. Fauser, C. B Hoyng, T. Theelen and C.I. Sánchez
+has_pdf: True
+template: publication
+bibkey: venh17a
+published_in: Investigative Ophthalmology and Visual Science
+pub_details: <i>Investigative Ophthalmology and Visual Science</i> 2017;58(4):2318-2328
+doi: https://doi.org/10.1167/iovs.16-20541
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/28437528
+Purpose To evaluate a machine learning algorithm that automatically grades age-related macular degeneration (AMD) severity stages from optical coherence tomography (OCT) scans. Methods: A total of 3265 OCT scans from 1016 patients with either no signs of AMD or with signs of early, intermediate, or advanced AMD were randomly selected from a large European multicenter database. A machine learning system was developed to automatically grade unseen OCT scans into different AMD severity stages without requiring retinal layer segmentation. The ability of the system to identify high-risk AMD stages and to assign the correct severity stage was determined by using receiver operator characteristic (ROC) analysis and Cohen's Kappa statistics, respectively. The results were compared to those of two human observers. Reproducibility was assessed in an independent, publicly available data set of 384 OCT scans. Results: The system achieved an area under the ROC curve of 0.980 with a sensitivity of 98.2% at a specificity of 91.2%. This compares favorably with the performance of human observers who achieved sensitivities of 97.0% and 99.4% at specificities of 89.7% and 87.2%, respectively. A good level of agreement with the reference was obtained (Kappa = 0.713) and was in concordance with the human observers (Kappa = 0.775 and Kappa = 0.755, respectively). Conclusions: A machine learning system capable of automatically grading OCT scans into AMD severity stages was developed and showed similar performance as human observers. The proposed automatic system allows for a quick and reliable grading of large quantities of OCT scans, which could increase the efficiency of large-scale AMD studies and pave the way for AMD screening using OCT.
+

@@ -1,0 +1,11 @@
+title: Detection of coronary calcifications from computed tomography scans for automated risk assessment of coronary artery disease
+authors: I. Išgum, A. Rutten, M. Prokop and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: isgu07
+published_in: Medical Physics
+pub_details: <i>Medical Physics</i> 2007;34:1450-1461
+doi: https://doi.org/10.1118/1.2710548
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/17500476
+A fully automated method for coronary calcification detection from non-contrast-enhanced, ECG-gated multi-slice computed tomography CT data is presented. Candidates for coronary calcifications are extracted by thresholding and component labeling. These candidates include coronary calcifications, calcifications in the aorta and in the heart, and other high-density structures such as noise and bone. A dedicated set of 64 features is calculated for each candidate object. They characterize the object's spatial position relative to the heart and the aorta, for which an automatic segmentation scheme was developed, its size and shape, and its appearance, which is described by a set of approximated Gaussian derivatives for which an efficient computational scheme is presented. Three classification strategies were designed. The first one tested direct classification without feature selection. The second approach also utilized direct classification, but with feature selection. Finally, the third scheme employed two-stage classification. In a computationally inexpensive first stage, the most easily recognizable false positives were discarded. The second stage discriminated between more difficult to separate coronary calcium and other candidates. Performance of linear, quadratic, nearest neighbor, and support vector machine classifiers was compared. The method was tested on 76 scans containing 275 calcifications in the coronary arteries and 335 calcifications in the heart and aorta. The best performance was obtained employing a two-stage classification system with a k-nearest neighbor (k-NN) classifier and a feature selection scheme. The method detected 73.8% of coronary calcifications at the expense of on average 0.1 false positives per scan. A calcium score was computed for each scan and subjects were assigned one of four risk categories based on this score. The method assigned the correct risk category to 93.4% of all scans.
+

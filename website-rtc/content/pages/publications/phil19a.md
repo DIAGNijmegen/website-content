@@ -1,0 +1,12 @@
+title: Automated chest X-ray reading for tuberculosis in the Philippines to improve case detection: a cohort study
+authors: R.H.H.M. Philipsen, C.I. Sánchez, J. Melendez, W.J. Lew and B. van Ginneken
+has_pdf: False
+template: publication
+bibkey: phil19a
+published_in: International Journal of Tuberculosis and Lung Disease
+pub_details: <i>International Journal of Tuberculosis and Lung Disease</i> 2019;23:805-810
+doi: https://doi.org/10.5588/ijtld.18.0004
+urlweb: https://www.ingentaconnect.com/contentone/iuatld/ijtld/2019/00000023/00000007/art00006
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/31439111
+ DetecTB (Diagnostic Enhanced Tools for Extra Cases of TB), an intensified tuberculosis (TB) case-finding programme targeting prisons and high-risk communities was implemented on Palawan Island, the Philippines.  To evaluate the performance of TB detection based on computerised chest radiography (CXR) readings.  Data from 14 094 subjects were analysed from September 2012 to June 2014. All CXRs were read by a physician and by software. Individuals with TB symptoms or CXR abnormalities according to the physician underwent Xpert  MTB/RIF testing, the remaining persons were considered TB-negative (screening reference). A subset of 200 CXRs was read by an independent human reader (radiological reference). This reader also re-read a subset of the most abnormal cases as identified using the software but read as normal by the physician (discordant cases).  A total of 10 755 individuals were included in the analysis, 2534 of whom had a positively assessed CXR; 298 cases were Xpert-positive. Using the screening reference, the area under the receiver operating characteristic curve for software readings was 0.93 (95%CI 0.92-0.94), with a sensitivity of 0.98 (95%CI 0.97-0.99) and a specificity of 0.69 (95%CI 0.40-0.98). Based on the radiological reference, the physician performed slightly worse than the software (sensitivity, 0.82, 95%CI 0.74-0.89 and specificity, 0.87, 95%CI 0.81-0.96 vs. sensitivity, 0.83, 95%CI 0.71-0.93 and specificity, 0.87, 95%CI 0.75-0.95), although this was not statistically significant. Of the 291 discordant cases, 70% were assessed as positive, resulting in a 22% increase in TB detection when extrapolated to the full cohort.  The performance of automated CXR reading is comparable to that of the attending physicians in DetecTB, and its use as a second reader could increase TB detection.
+

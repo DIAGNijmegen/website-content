@@ -1,0 +1,11 @@
+title: Interleaving cerebral CT perfusion with neck CT angiography. Part II: clinical implementation and image quality
+authors: M.T.H. Oei, F.J.A. Meijer, W. van der Woude, E.J. Smit, B. van Ginneken, R. Manniesing and M. Prokop
+has_pdf: True
+template: publication
+bibkey: oei17
+published_in: European Radiology
+pub_details: <i>European Radiology</i> 2017;27:2411-2418
+doi: https://doi.org/10.1007/s00330-016-4592-z
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/27651144
+Feasibility evaluation of the One-Step Stroke Protocol, which is an interleaved cerebral computed tomography perfusion (CTP) and neck volumetric computed tomography angiography (vCTA) scanning technique using wide-detector computed tomography, and to assess the image quality of vCTA. Twenty patients with suspicion of acute ischaemic stroke were prospectively scanned and evaluated with a head and neck CTA and with the One-Step Stroke Protocol. Arterial enhancement and contrast-to-noise ratio (CNR) in the carotid arteries was assessed. Three observers scored artefacts and image quality of the cervical arteries. The total z-coverage was evaluated. Mean enhancement in the carotid bifurcation was rated higher in the vCTA (595 ± 164 HU) than CTA (441 ± 117 HU). CNR was rated higher in vCTA. Image quality scores showed no significant difference in the region of the carotid bifurcation between vCTA and CTA. Lower neck image quality scores were slightly lower for vCTA due to artefacts, although not rated as diagnostically relevant. In ten patients, the origin of the left common carotid artery was missed by 1.6 ± 0.8 cm. Mean patient height was 1.8 ± 0.09 m. Carotid bifurcation and origin of vertebral arteries were covered in all patients. The One-Step Stroke Protocol is feasible with good diagnostic image quality of vCTA, although full z-coverage is limited in tall patients. • Interleaving cerebral CTP with neck CTA (One-Step Stroke Protocol) is feasible • Diagnostic quality of One-Step Stroke Protocol neck CTA is similar to conventional CTA • One-Step Stroke Protocol neck CTA suffers from streak artefacts in the lower neck • A limitation of One-Step Stroke Protocol CTA is lack of coverage in tall patients • Precise planning of One-Step Stroke Protocol neck CTA is necessary in tall patients.
+

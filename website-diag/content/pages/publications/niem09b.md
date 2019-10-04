@@ -1,0 +1,10 @@
+title: Registration of 3D spectral OCT volumes using 3D SIFT feature point matching
+authors: M. Niemeijer, M.K. Garvin, K. Lee, B. van Ginneken, M.D. Abràmoff and M. Sonka
+has_pdf: True
+template: publication
+bibkey: niem09b
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, volume 7259 of SPIE, 2009, pages 72591I-1-72591I-8
+doi: https://doi.org/10.1117/12.811906
+The recent introduction of next generation spectral OCT scanners has enabled routine acquisition of high resolution, 3D cross-sectional volumetric images of the retina. 3D OCT is used in the detection and management of serious eye diseases such as glaucoma and age-related macular degeneration. For follow-up studies, image registration is a vital tool to enable more precise, quantitative comparison of disease states. This work presents a registration method based on a recently introduced extension of the 2D Scale-Invariant Feature Transform (SIFT) framework to 3D. The SIFT feature extractor locates minima and maxima in the difference of Gaussian scale space to find salient feature points. It then uses histograms of the local gradient directions around each found extremum in 3D to characterize them in a 4096 element feature vector. Matching points are found by comparing the distance between feature vectors. We apply this method to the rigid registration of optic nerve head- (ONH) and macula-centered 3D OCT scans of the same patient that have only limited overlap. Three OCT data set pairs with known deformation were used for quantitative assessment of the method's robustness and accuracy when deformations of rotation and scaling were considered. Three-dimensional registration accuracy of 2.0?3.3 voxels was observed. The accuracy was assessed as average voxel distance error in N=1572 matched locations. The registration method was applied to 12 3D OCT scans (200 x 200 x 1024 voxels) of 6 normal eyes imaged in vivo to demonstrate the clinical utility and robustness of the method in a real-world environment.
+

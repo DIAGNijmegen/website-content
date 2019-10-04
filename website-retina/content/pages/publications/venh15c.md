@@ -1,0 +1,9 @@
+title: Vendor Independent Cyst Segmentation in Retinal SD-OCT Volumes using a Combination of Multiple Scale Convolutional Neural Networks
+authors: F.G. Venhuizen, M.J.J.P. van Grinsven, C.B. Hoyng, T. Theelen, B. van Ginneken and C.I. Sánchez
+has_pdf: True
+template: publication
+bibkey: venh15c
+published_in: Medical Image Computing and Computer-Assisted Intervention
+pub_details: in: <i>Medical Image Computing and Computer-Assisted Intervention</i>, 2015
+Major causes of blindness in developed countries are retinal vascular diseases, essentially neovascular age-related macular degeneration (AMD), retinal vein occlusion (RVO) and diabetic maculopathy (DMP). Automated computer-aided detection and diagnosis~(CAD) systems capable of detecting, classifying and quantifying the characteristics of the pathology associated with these retinal diseases is highly beneficial in the diagnosis, treatment prediction and the assessment of treatment progression. Among others, the presence of retinal cysts are an important biomarker in AMD and RVO, thus their detection and segmentation is beneficial to clinical disease analysis. Optical Coherence Tomography (OCT) imaging has the ability to visualize and analyze the morphology of the retina, as well as its abnormalities. Due to the technological advances in OCT imaging with regard to imaging speed, image quality, and functional analysis, OCT is rapidly becoming one of the main imaging modalities used in clinical practice, and for the quantification and analysis of disease-specific biomarkers such as cyst volume. In this work we propose a fully automatic CAD system for retinal cyst segmentation in OCT volume scans. The system is capable of detecting cysts in OCT volumes acquired with OCT scanners from different vendors, for which the amount of noise, image quality and contrast varies strongly.
+

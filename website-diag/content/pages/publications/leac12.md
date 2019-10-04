@@ -1,0 +1,11 @@
+title: Imaging vascular function for early stage clinical trials using dynamic contrast-enhanced magnetic resonance imaging
+authors: M. O. Leach, B. Morgan, P. S. Tofts, D. L. Buckley, W. Huang, M. A. Horsfield, T. L. Chenevert, D. J. Collins, A. Jackson, D. Lomas, B. Whitcher, L. Clarke, R. Plummer, I. Judson, R. Jones, R. Alonzi, T. Brunner, D. M. Koh, P. Murphy, J. C. Waterton, G. Parker, M. J. Graves, T.W.J. Scheenen, T. W. Redpath, M. Orton, G. Karczmar, H. Huisman, J. Barentsz, A. Padhani and o.b.o.t.E.C.M.C.I.N.S.C. 
+has_pdf: True
+template: publication
+bibkey: leac12
+published_in: European Radiology
+pub_details: <i>European Radiology</i> 2012;22:1451-1464
+urlweb: https://link.springer.com/article/10.1007%2Fs00330-012-2446-x
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/22562143
+Many therapeutic approaches to cancer affect the tumour vasculature, either indirectly or as a direct target. Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) has become an important means of investigating this action, both pre-clinically and in early stage clinical trials. For such trials, it is essential that the measurement process (i.e. image acquisition and analysis) can be performed effectively and with consistency among contributing centres. As the technique continues to develop in order to provide potential improvements in sensitivity and physiological relevance, there is considerable scope for between-centre variation in techniques. A workshop was convened by the Imaging Committee of the Experimental Cancer Medicine Centres (ECMC) to review the current status of DCE-MRI and to provide recommendations on how the technique can best be used for early stage trials. This review and the consequent recommendations are summarised here. Key Points Ã¯Â¿Â½ Tumour vascular function is key to tumour development and treatment Ã¯Â¿Â½ Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) can assess tumour vascular function Ã¯Â¿Â½ Thus DCE-MRI with pharmacokinetic models can assess novel treatments Ã¯Â¿Â½ Many recent developments are advancing the accuracy of and information from DCE-MRI Ã¯Â¿Â½ Establishing common methodology across multiple centres is challenging and requires accepted guidelines.
+

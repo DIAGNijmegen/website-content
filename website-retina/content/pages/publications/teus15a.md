@@ -1,0 +1,11 @@
+title: OCT Angiography Compared to Fluorescein and Indocyanine Green Angiography in Chronic Central Serous Chorioretinopathy
+authors: M.M. Teussink, M.B. Breukink, M.J.J.P. van Grinsven, C.B. Hoyng, B.J. Klevering, C.J.F. Boon, E.K. de Jong and T. Theelen
+has_pdf: True
+template: publication
+bibkey: teus15a
+published_in: Investigative Ophthalmology and Visual Science
+pub_details: <i>Investigative Ophthalmology and Visual Science</i> 2015;56:5229-5237
+doi: https://doi.org/10.1167/iovs.15-17140
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/26244299
+Abnormal choroidal blood flow is considered important in the pathogenesis of chronic central serous chorioretinopathy (CSC). Optical coherence tomography (OCT) angiography can image ocular blood cell flow and could thus provide novel insights in disease mechanisms of CSC. We evaluated depth-resolved flow in chronic CSC by OCT angiography compared to fluorescein angiography (FA) and indocyanine green angiography (ICGA).Eighteen eyes with chronic CSC, and six healthy controls, were included. Two human observers annotated areas of staining, hypofluorescence, and hotspots on FA and ICGA, and areas of abnormal flow on OCT angiography. Interobserver agreement in annotating OCT angiography and FA/ICGA was measured by Jaccard indices (JIs). We assessed colocation of flow abnormalities and subretinal fluid visible on OCT, and the distance between hotspots on ICGA from flow abnormalities.Abnormal areas were most frequently annotated in late-phase ICGA and choriocapillary OCT angiography, with moderately high (median JI, 0.74) and moderate (median JI, 0.52) interobserver agreement, respectively. Abnormalities on late-phase ICGA and FA colocated with those on OCT angiography. Aberrant choriocapillary OCT angiography presented as foci of reduced flow surrounded by hyperperfused areas. Hotspots on ICGA were located near hypoperfused spots on OCT angiography (mean distance, 168 ÃŽÂ¼m). Areas with current or former subretinal fluid were colocated with flow abnormalities.On OCT angiography, chronic CSC showed irregular choriocapillary flow patterns, corresponding to ICGA abnormalities. These results suggest focal choriocapillary ischemia with surrounding hyperperfusion that may lead to subretinal fluid leakage.
+

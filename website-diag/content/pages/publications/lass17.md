@@ -1,0 +1,11 @@
+title: Fast interactive segmentation of the pulmonary lobes from thoracic computed tomography data
+authors: B.C. Lassen-Schmidt, J. Kuhnigk, O. Konrad, B. van Ginneken and E. van Rikxoort
+has_pdf: True
+template: publication
+bibkey: lass17
+published_in: Physics in Medicine and Biology
+pub_details: <i>Physics in Medicine and Biology</i> 2017;62(16):6649-6665
+doi: https://doi.org/10.1088/1361-6560/aa7674
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/28570264
+Automated lung lobe segmentation methods often fail for challenging and clinically relevant cases with incomplete fissures or substantial amounts of pathology. We present a fast and intuitive method to interactively correct a given lung lobe segmentation or to quickly create a lobe segmentation from scratch based on a lung mask.&#13; A given lobar boundary is converted into a mesh by principal component analysis of 3D lobar boundary markers to obtain a plane where nodes correspond to the position of the markers. An observer can modify the mesh by drawing on 2D slices in arbitrary orientations. After each drawing, the mesh is immediately adapted in a 3D region around the user interaction.&#13; For evaluation we participated in the international lung lobe segmentation challenge LObe and Lung Analysis 2011 (LOLA11). Two observers applied the method to correct a given lung lobe segmentation obtained by a fully automatic method for all 55 CT scans of LOLA11.&#13; &#13; On average observer 1/2 required 8+-4/25+-12 interactions per case and took 1:30+-0:34/3:19+-1:29 min. The average distances to the reference segmentation were improved from an initial 2.68+-14.71 mm to 0.89+-1.63/0.74+-1.51 mm. In addition, one observer applied the proposed method to create a segmentation from scratch. This took 3:44+-0:58 minutes on average per case, applying an average of 20+-3 interactions to reach an average distance to the reference of 0.77+-1.14 mm.&#13; Thus, both the interactive corrections and the creation of a segmentation from scratch were feasible in a short time with excellent results and minimal interaction. Since the mesh adaptation is independent of image features, the method can successfully handle patients with severe pathologies, provided that the human operator is capable of correctly indicating the lobar boundaries.
+

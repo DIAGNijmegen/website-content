@@ -1,0 +1,11 @@
+title: Microvascularity in transition zone prostate tumors resembles normal prostatic tissue
+authors: C.G. van Niekerk, J.A. Witjes, J.O. Barentsz, J.A.W.M. van der Laak and C.A. Hulsbergen-van de Kaa
+has_pdf: True
+template: publication
+bibkey: niek12
+published_in: Prostate
+pub_details: <i>Prostate</i> 2013;73:467-475
+doi: https://doi.org/10.1002/pros.22588
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/22996830
+BACKGROUND The objective of this study was comparison of characteristics of the microvasculature in transition zone tumor (TZT) and benign nodular hyperplasia (BPH) with normal prostatic transition zone (NTZ), applying accurate and objective quantification based on digital image analysis. Results of this study may increase understanding of prostate dynamic contrast enhanced (DCE) MRI analysis. METHODS: Radical prostatectomy specimens of 28 patients containing TZT ranging from pT2-pT4 were used. In 11 patients a concomitant peripheral zone tumor (PZT) was present. Microvessels were visualized by CD31 immunohistochemistry. Specimens were scanned using a computer-controlled microscope with automatic recognition of microvessels. Pseudocolor maps were produced displaying microvessel density, perimeter, and area of an entire prostate transection. Mean, 75th percentile (p75) and coefficient of variation (CV) were calculated automatically in manually indicated areas of the tumor and corresponding contralateral normal tissue, and BPH. RESULTS: Large variability was seen in TZT microvascular parameters, indicating presence of patients having both hypo and hypervascularized tumors compared to NTZ. In contrast, areas of BPH showed a more consistent increase in vascular parameters, with decreased CV. Analysis of PZT confirmed results of our previous study, with mean and p75 of all vascular parameters being significantly increased and a decrease in CV. No correlation was found for clinicopathological parameters and microvascular parameters. CONCLUSION: Microvasculature of transition zone tumor showed increased heterogeneity compared to BPH and peripheral zone tumors, possibly explaining the difficulty of TZT detection on DCE-MRI. Prostate Ã¯Â¿Â½ 2012 Wiley Periodicals, Inc.
+

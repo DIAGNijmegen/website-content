@@ -1,0 +1,11 @@
+title: Foreign object detection and removal to improve automated analysis of chest radiographs
+authors: L. Hogeweg, C. I. Sánchez, J. Melendez, P. Maduskar, A. Story, A. Hayward and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: hoge13
+published_in: Medical Physics
+pub_details: <i>Medical Physics</i> 2013;40:071901
+doi: https://doi.org/10.1118/1.4805104
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/23822438
+Purpose Chest radiographs commonly contain projections of foreign objects, such as buttons, brassier clips, jewellery, or pacemakers and wires. The presence of these structures can substantially affect the output of computer analysis of these images. An automated method is presented to detect, segment, and remove foreign objects from chest radiographs. Methods: Detection is performed using supervised pixel classification with a kNN classifier, resulting in a probability estimate per pixel to belong to a projected foreign object. Segmentation is performed by grouping and post-processing pixels with a probability above a certain threshold. Next, the objects are replaced by texture inpainting. Results: The method is evaluated in experiments on 257 chest radiographs. The detection at pixel level is evaluated with receiver operating characteristic analysis on pixels within the unobscured lung fields and an Az value of 0.949 is achieved. Free response operator characteristic analysis is performed at the object level, and 95.6% of objects are detected with on average 0.25 false positive detections per image. To investigate the effect of removing the detected objects through inpainting, a texture analysis system for tuberculosis detection is applied to images with and without pathology and with and without foreign object removal. Unprocessed, the texture analysis abnormality score of normal images with foreign objects is comparable to those with pathology. After removing foreign objects, the texture score of normal images with and without foreign objects is similar, while abnormal images, whether they contain foreign objects or not, achieve on average higher scores. Conclusions: The authors conclude that removal of foreign objects from chest radiographs is feasible and beneficial for automated image analysis.
+

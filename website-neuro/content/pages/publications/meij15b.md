@@ -1,0 +1,10 @@
+title: Clinical Application of Brain MRI in Parkinsonism - From basic to advanced imaging
+authors: A. Meijer
+has_pdf: True
+template: publication-thesis
+coverpng: Meij15b.png
+school: Radboud Universiteit Nijmegen
+optmonth: June, 23
+year: 2015
+The main objective of the studies presented in this thesis is to evaluate the (added) diagnostic value of brain MR imaging in early stage parkinsonism. The current state of literature concerning brain MR imaging in ParkinsonÃ¢â‚¬â„¢s disease and neurodegenerative atypical parkinsonism is discussed, both for conventional and advanced MR imaging sequences. Next, the diagnostic value of brain MR imaging in the diagnostic work-up of early stage parkinsonism is evaluated, both for a conventional MR protocol performed at 1 or 1.5 Tesla magnetic field strength, and for a standardized 3 Tesla MR scanning protocol extended with a Susceptibility Weighted Imaging (SWI) and Diffusion Tensor Imaging (DTI) sequence. These studies are part of two larger prospective observational clinical cohort studies. Brain MR imaging proves to be of added value for the diagnostic work-up of early stage parkinsonism, mainly when there is uncertainty about the clinical diagnosis. To further enhance the diagnostic yield, an optimized MR imaging scanning protocol is advised, which includes a T2* or SWI sequence. We demonstrate that severe hypo-intensity of the putamen on SWI is indicative of MSA-P, and this improves the diagnostic accuracy of brain MRI. High- resolution SWI could possibly provide a new diagnostic marker specific for ParkinsonÃ¢â‚¬â„¢s disease, though further research is needed to evaluate whether the Ã¢â‚¬Ëœswallow tail signÃ¢â‚¬â„¢ is of added value in the diagnostic work-up of early stage parkinsonism. Clinical application of quantitative DTI is more complex, as it requires dedicated post-processing, and quantitative measures are dependent on the scanning parameters and magnetic field strength used. It remains to be determined how DTI should be optimally applied to evaluate an individual patient, and whether this technique improves the diagnostic accuracy of brain MRI.
+

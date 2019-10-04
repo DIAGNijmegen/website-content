@@ -1,0 +1,10 @@
+title: Automatic classication of pulmonary function in COPD patients using trachea analysis in chest CT scans
+authors: E.M. van Rikxoort, P.A. de Jong, O.M. Mets and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: rikx12
+published_in: Medical Imaging
+pub_details: in: <i>Medical Imaging</i>, volume 8315 of SPIE, 2012, pages 83150P-83150P-6
+doi: https://doi.org/10.1117/12.911603
+Chronic Obstructive Pulmonary Disease (COPD) is a chronic lung disease that is characterized by airflow limitation. COPD is clinically diagnosed and monitored using pulmonary function testing (PFT), which measures global inspiration and expiration capabilities of patients and is time-consuming and labor-intensive. It is becoming standard practice to obtain paired inspiration-expiration CT scans of COPD patients. Predicting the PFT results from the CT scans would alleviate the need for PFT testing. It is hypothesized that the change of the trachea during breathing might be an indicator of tracheomalacia in COPD patients and correlate with COPD severity. In this paper, we propose to automatically measure morphological changes in the trachea from paired inspiration and expiration CT scans and investigate the in fluence on COPD GOLD stage classification. The trachea is automatically segmented and the trachea shape is encoded using the lengths of rays cast from the center of gravity of the trachea. These features are used in a classi er, combined with emphsyma scoring, to attempt to classify subjects into their COPD stage. A database of 187 subjects, well distributed over the COPD GOLD stages 0 through 4 was used for this study. The data was randomly divided into training and test set. Using the training scans, a nearest mean classifier was trained to classify the subjects into their correct GOLD stage using either emphysema score, tracheal shape features, or a combination. Combining the proposed trachea shape features with emphysema score, the classi cation performance into GOLD stages improved with 11% to 51%. In addition, an 80% accuracy was achieved in distinguishing healthy subjects from COPD patients.
+

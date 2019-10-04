@@ -1,0 +1,11 @@
+title: Content Based Image Retrieval by Metric Learning from Radiology Reports: Application to Interstitial Lung Diseases
+authors: J. Ramos, T. Kockelkorn, I. Ramos, R. Ramos, B. van Ginneken, M. Viergever, A. Campilho and J. Grutters
+has_pdf: True
+template: publication
+bibkey: ramo15
+published_in: IEEE Journal of Biomedical and Health Informatics
+pub_details: <i>IEEE Journal of Biomedical and Health Informatics</i> 2015;20(1):281-292
+doi: https://doi.org/10.1109/JBHI.2014.2375491
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25438332
+Content Based Image Retrieval (CBIR) is a search technology that could aid medical diagnosis by retrieving and presenting earlier reported cases that are related to the one being diagnosed. To retrieve relevant cases, CBIR systems depend on supervised learning to map low level image contents to high level diagnostic concepts. However, the annotation by medical doctors for training and evaluation purposes is a difficult and timeconsuming task, which restricts the supervised learning phase to specific CBIR problems of well defined clinical applications. This paper proposes a new technique that automatically learns the similarity between the several exams from textual distances extracted from radiology reports, thereby successfully reducing the number of annotations needed. Our method firstly infers the relation between patients by using information retrieval techniques to determine the textual distances between patient radiology reports. These distances are subsequently used to supervise a metric learning algorithm, that transforms the image space accordingly to textual distances. CBIR systems with different image descriptions and different levels of medical annotations were evaluated, with and without supervision from textual distances, using a database of computer tomography scans of patients with interstitial lung diseases. The proposed method consistently improves CBIR mean average precision, with improvements that can reach 38\%, and more marked gains for small annotation sets. Given the overall availability of radiology reports in Picture Archiving and Communication Systems, the proposed approach can be broadly applied to CBIR systems in different medical problems, and may facilitate the introduction of CBIR in clinical practice.
+

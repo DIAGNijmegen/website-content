@@ -1,0 +1,8 @@
+title: The Third International Workshop on Pulmonary Image Analysis
+authors: M. Brown, M. de Bruijne, B. van Ginneken, A. Kiraly, J.-M. Kuhnigk, C. Lorenz, K. Mori and J. Reinhardt
+has_pdf: True
+template: publication
+bibkey: brow10
+urlweb: http://www.amazon.com/Third-International-Workshop-Pulmonary-Analysis/dp/1453776001/
+These are the proceedings of the third edition of the International Workshop on Pulmonary Image Analysis held on September 20, 2010 at MICCAI 2010 in Beijing. The two first events, organized also as workshops in conjunction with the MICCAI conferences in 2008 in New York and in 2009 in London, were very successful in bringing together researchers in pulmonary image analysis to discuss new developments in this growing field. For this edition, we received a large number of high quality papers that received a detailed review by two to four reviewers from the organizing team or from guest reviewers. A total of eight papers have been accepted for oral presentation at the workshop, in sessions on segmentation, classiffication and quantification, and registration. Six papers and one software were selected for poster presentation. Together these papers cover a wide range of topics within the field of pulmonary image analysis. We are also very happy that Eric Hoffman, Professor of Radiology, Medicine and Biomedical Engineering at the University of Iowa and director of the Iowa Comprehensive Lung Imaging Center, has agreed to give the keynote lecture of the third International Workshop on Pulmonary Image Analysis. Dr Hoffman was involved in the development of CT in the very early days and continues to lead forefront research in unravelling the mechanisms of pulmonary ventilation and lung diseases.
+

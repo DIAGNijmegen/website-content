@@ -1,0 +1,11 @@
+title: Computer aided detection of tuberculosis on chest radiographs: An evaluation of the CAD4TB v6 system
+authors: K. Murphy, S.S. Habib, S.M.A. Zaidi, S. Khowaja, A. Khan, J. Melendez, E.T. Scholten, F. Amad, S. Schalekamp, M. Verhagen, R.H.H.M. Philipsen, A. Meijers and B. van Ginneken
+has_pdf: True
+template: publication
+bibkey: murp19
+published_in: arXiv:1903.03349
+pub_details: <i>arXiv:1903.03349</i> 2019
+arxiv: https://arxiv.org/abs/1903.03349
+arxiv: https://arxiv.org/abs/1903.03349
+There is a growing interest in the automated analysis of chest X-Ray (CXR) as a sensitive and inexpensive means of screening susceptible populations for pulmonary tuberculosis. In this work we evaluate the latest version of CAD4TB, a software platform designed for this purpose. Version 6 of CAD4TB was released in 2018 and is here tested on an independent dataset of 5565 CXR images with GeneXpert (Xpert) sputum test results available (854 Xpert positive subjects). A subset of 500 subjects (50% Xpert positive) was reviewed and annotated by 5 expert observers independently to obtain a radiological reference standard. The latest version of CAD4TB is found to outperform all previous versions in terms of area under receiver operating curve (ROC) with respect to both Xpert and radiological reference standards. Improvements with respect to Xpert are most apparent at high sensitivity levels with a specificity of 76% obtained at 90% sensitivity. When compared with the radiological reference standard, CAD4TB v6 also outperformed previous versions by a considerable margin and achieved 98% specificity at 90% sensitivity. No substantial difference was found between the performance of CAD4TB v6 and any of the various expert observers against the Xpert reference standard. A cost and efficiency analysis on this dataset demonstrates that in a standard clinical situation, operating at 90% sensitivity, users of CAD4TB v6 can process 132 subjects per day at an average cost per screen of \$5.95 per sub ject, while users of version 3 process only 85 subjects per day at a cost of \$8.41 per subject. At all tested operating points version 6 is shown to be more efficient and cost effective than any other version.
+

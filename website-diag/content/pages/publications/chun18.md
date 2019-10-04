@@ -1,0 +1,11 @@
+title: Visual Discrimination of Screen-detected Persistent from Transient Subsolid Nodules: an Observer Study
+authors: K. Chung, F. Ciompi, J. M. Scholten E. Th. Goo, M. Prokop, C. Jacobs, B. van Ginneken and C. M. Schaefer-Prokop
+has_pdf: True
+template: publication
+bibkey: chun18
+published_in: PLoS One
+pub_details: <i>PLoS One</i> 2018;13:e0191874
+doi: https://doi.org/10.1371/journal.pone.0191874
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/29438443
+PURPOSE To evaluate whether, and to which extent, experienced radiologists are able to visually correctly differentiate transient from persistent subsolid nodules from a single CT examination alone and to determine CT morphological features to make this differentiation. MATERIALS AND METHODS: We selected 86 transient and 135 persistent subsolid nodules from the National Lung Screening Trial (NLST) database. Four experienced radiologists visually assessed a predefined list of morphological features and gave a final judgment on a continuous scale (0-100). To assess observer performance, area under the receiver operating characteristic (ROC) curve was calculated. Statistical differences of morphological features between transient and persistent lesions were calculated using Chi-square. Inter-observer agreement of morphological features was evaluated by percentage agreement. RESULTS: Forty-nine lesions were excluded by at least 2 observers, leaving 172 lesions for analysis. On average observers were able to differentiate transient from persistent subsolid nodules ≥ 10 mm with an area under the curve of 0.75 (95% CI 0.67-0.82). Nodule type, lesion margin, presence of a well-defined border, and pleural retraction showed significant differences between transient and persistent lesions in two observers. Average pair-wise percentage agreement for these features was 81%, 64%, 47% and 89% respectively. Agreement for other morphological features varied from 53% to 95%. CONCLUSION: The visual capacity of experienced radiologists to differentiate persistent and transient subsolid nodules is moderate in subsolid nodules larger than 10 mm. Performance of the visual assessment of CT morphology alone is not sufficient to generally abandon a short-term follow-up for subsolid nodules.
+

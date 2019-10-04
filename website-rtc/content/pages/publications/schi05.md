@@ -1,0 +1,9 @@
+title: Computer-aided diagnosis as a second reader for nodule detection in chest radiographs versus single and double reading
+authors: A.M. R. Schilham and B. van Ginneken
+has_pdf: False
+template: publication
+bibkey: schi05
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2005
+Purpose Instead of using computer-aided diagnosis (CAD) only for generating prompts at suspicious areas, we assess the potential of a CAD system as an independent second reader for lung nodule detection in chest radiographs, compared to single and double reading. Method and materials: The public JSRT database was used, containing 154 chest radiographs with a single proven lung nodule and 93 normal cases. Five experienced radiologists and one resident participated. All cases were read by one radiologist and by the resident. A CAD system developed by the authors was used as an independent second reader, operating at 7 markers on average per case (marking 68% of the nodules). Observers marked regions suspect of being a nodule, and assigned a suspicion score, using a low threshold on confidence. Scores were scaled to make observers comparable. Independent double reading was simulated by averaging probabilities of matching regions, with zero probability for missing regions. Performance was assessed with localized ROC curves. Results are given as sensitivities at a clinically important, low false positive referral rate of 0.02. Results: Single reading sensitivities of radiologists and resident were similar: 0.13. The JSRT database contains many subtle nodules which may explain these low sensitivities. With double reading, the sensitivity increased to 0.40. Using CAD as a second reader gave a sensitivity of 0.27. Conclusions: Using CAD as an independent double reader outperforms single reading: The sensitivity at low false positive referral rate is doubled. Human double reading is superior to CAD double reading.
+

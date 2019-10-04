@@ -1,0 +1,11 @@
+title: Biomechanical modeling constrained surface-based image registration for prostate MR guided TRUS biopsy
+authors: W.J.M. van de Ven, Y. Hu, J.O. Barentsz, N. Karssemeijer, D. Barratt and H.J. Huisman
+has_pdf: True
+template: publication
+bibkey: ven15
+published_in: Medical Physics
+pub_details: <i>Medical Physics</i> 2015;42:2470
+doi: https://doi.org/10.1118/1.4917481
+pmid: http://www.ncbi.nlm.nih.gov/pubmed/25979040
+Adding magnetic resonance (MR)-derived information to standard transrectal ultrasound (TRUS) images for guiding prostate biopsy is of substantial clinical interest. A tumor visible on MR images can be projected on ultrasound (US) by using MR-US registration. A common approach is to use surface-based registration. The authors hypothesize that biomechanical modeling will better control deformation inside the prostate than a regular nonrigid surface-based registration method. The authors developed a novel method by extending a nonrigid surface-based registration algorithm with biomechanical finite element (FE) modeling to better predict internal deformations of the prostate.Data were collected from ten patients and the MR and TRUS images were rigidly registered to anatomically align prostate orientations. The prostate was manually segmented in both images and corresponding surface meshes were generated. Next, a tetrahedral volume mesh was generated from the MR image. Prostate deformations due to the TRUS probe were simulated using the surface displacements as the boundary condition. A three-dimensional thin-plate spline deformation field was calculated by registering the mesh vertices. The target registration errors (TREs) of 35 reference landmarks determined by surface and volume mesh registrations were compared.The median TRE of a surface-based registration with biomechanical regularization was 2.76 (0.81-7.96) mm. This was significantly different than the median TRE of 3.47 (1.05-7.80) mm for regular surface-based registration without biomechanical regularization.Biomechanical FE modeling has the potential to improve the accuracy of multimodal prostate registration when comparing it to a regular nonrigid surface-based registration algorithm and can help to improve the effectiveness of MR guided TRUS biopsy procedures.
+

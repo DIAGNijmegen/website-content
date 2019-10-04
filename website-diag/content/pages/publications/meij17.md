@@ -1,0 +1,9 @@
+title: Detection of vessel occlusion in acute stroke is facilitated by color-coded 4D-CTA
+authors: M. Meijs, S. Pegge, M. Prokop, B. van Ginneken, F.J. A. Meijer and R. Manniesing
+has_pdf: True
+template: publication
+bibkey: meij17
+published_in: European Congress of Radiology
+pub_details: in: <i>European Congress of Radiology</i>, 2017
+PURPOSE To perform a pilot study to explore the effect of a new post-processing technique for 4D-CTA on speed and accuracy of the detection of intracranial vessel occlusions in acute stroke. This technique color-codes the contrast arrival time in the cerebral vasculature in 4D-CTA so that abnormally delayed vascular territories are easily detected. METHOD AND MATERIALS We selected 10 patients without and 10 patients with a confirmed single vessel occlusion on CTA from our database of acute ischemic stroke patients, so that occlusions of the ICA, MCA, ACA and PCA of varying subtlety were included. Whole-brain CT perfusion was performed on a 320 detector-row scanner. Color-coded 4D-CTA images were obtained by centering the color scale of vessel time-to-peak (TTP) on the modus of the TTP histogram. Temporal MIP of 4D-CTA with and without color-coding were evaluated in random order for the presence of vessel occlusion by to two neuroradiologists. Time-to-detection and accuracy of detection of vessel occlusions were evaluated. RESULTS One false-positive vessel occlusion was rated on color-mapping by both observers. Overall, the average time-to-detection decreased from 37.0s to 19.4s (p<0.03) and the average accuracy of vessel occlusion detection increased from 0.825 to 0.85 with color-mapping. CONCLUSION Color-mapping of cerebral vasculature in 4D-CTA improves the speed and may improve the accuracy of the detection of vessel occlusions in acute stroke patients.
+
