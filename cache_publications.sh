@@ -50,7 +50,7 @@ git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
 ## Add changed files
-#git checkout feature/publications  
+git checkout feature/publications  
 #git pull origin feature/publications
 
 if ! $gitdiff; then
