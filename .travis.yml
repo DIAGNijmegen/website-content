@@ -34,86 +34,86 @@ notifications:
 
 jobs:
   include:
-    # Build and deploy steps for Pathology website
-    - <<: *build_defaults
-      name: Build Computational Pathology website
-      env:
-        - WEBSITE=website-pathology
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: www.computationalpathologygroup.eu
-    # Build and deploy steps for Retina website
-    - <<: *build_defaults
-      name: Build Retina website
-      env:
-        - WEBSITE=website-retina
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: www.a-eyeresearch.nl
-    # Build and deploy steps for RSE website
-    - <<: *build_defaults
-      name: Build RSE website
-      env:
-        - WEBSITE=website-rse
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: rse.diagnijmegen.nl
-    # Build and deploy steps for AIIM website
-    - <<: *build_defaults
-      name: Build AIIM website
-      env:
-        - WEBSITE=website-aiimnijmegen
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: www.aiimnijmegen.nl
-    # Build and deploy steps for Bodyct website
-    - <<: *build_defaults
-      name: Build BodyCT website
-      env:
-        - WEBSITE=website-bodyct
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: bodyct.diagnijmegen.nl
-    # Build and deploy steps for Neuro website
-    - <<: *build_defaults
-      name: Build Neuro website
-      env:
-        - WEBSITE=website-neuro
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-    # Build and deploy steps for DIAG website
-    - <<: *build_defaults
-      name: Build DIAG websites
-      env:
-        - WEBSITE=website-diag
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: beta.diagnijmegen.nl
-    # Build and deploy steps for RTC website
-    - <<: *build_defaults
-      name: Build RTC website
-      env:
-        - WEBSITE=website-rtc
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: rtc.diagnijmegen.nl
-    # Build and deploy steps for AI-for-Health website
-    - <<: *build_defaults
-      name: Build AI-for-Health website
-      env:
-        - WEBSITE=website-ai-for-health
-        - GENERATE_PUB=0
-      deploy:
-        <<: *deploy_defaults
-        fqdn: www.ai-for-health.nl
+   # # Build and deploy steps for Pathology website
+    #- <<: *build_defaults
+      #name: Build Computational Pathology website
+      #env:
+        #- WEBSITE=website-pathology
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: www.computationalpathologygroup.eu
+    ## Build and deploy steps for Retina website
+    #- <<: *build_defaults
+      #name: Build Retina website
+      #env:
+        #- WEBSITE=website-retina
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: www.a-eyeresearch.nl
+    ## Build and deploy steps for RSE website
+    #- <<: *build_defaults
+      #name: Build RSE website
+      #env:
+        #- WEBSITE=website-rse
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: rse.diagnijmegen.nl
+    ## Build and deploy steps for AIIM website
+    #- <<: *build_defaults
+      #name: Build AIIM website
+      #env:
+        #- WEBSITE=website-aiimnijmegen
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: www.aiimnijmegen.nl
+    ## Build and deploy steps for Bodyct website
+    #- <<: *build_defaults
+      #name: Build BodyCT website
+      #env:
+        #- WEBSITE=website-bodyct
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: bodyct.diagnijmegen.nl
+    ## Build and deploy steps for Neuro website
+    #- <<: *build_defaults
+      #name: Build Neuro website
+      #env:
+        #- WEBSITE=website-neuro
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+    ## Build and deploy steps for DIAG website
+    #- <<: *build_defaults
+      #name: Build DIAG websites
+      #env:
+        #- WEBSITE=website-diag
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: beta.diagnijmegen.nl
+    ## Build and deploy steps for RTC website
+    #- <<: *build_defaults
+      #name: Build RTC website
+      #env:
+        #- WEBSITE=website-rtc
+        #- GENERATE_PUB=1
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: rtc.diagnijmegen.nl
+    ## Build and deploy steps for AI-for-Health website
+    #- <<: *build_defaults
+      #name: Build AI-for-Health website
+      #env:
+        #- WEBSITE=website-ai-for-health
+        #- GENERATE_PUB=0
+      #deploy:
+        #<<: *deploy_defaults
+        #fqdn: www.ai-for-health.nl
     # Run publication script
     - stage: commit
       language: python

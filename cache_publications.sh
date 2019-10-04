@@ -6,7 +6,7 @@ set -e
 EXCLUDES=(website-ai-for-health website-base)
 gitdiff='git diff --quiet HEAD~ ./content/diag.bib'
 
-for WEBSITE in website-*
+for WEBSITE in website-p*
 do
     GENERATE_PUB=1
     for EXCLUDE in ${EXCLUDES[*]}
@@ -22,10 +22,8 @@ do
     else
 
       # Check if diag bib changed 
-      if ! $gitdiff; then
-
+      #if true || ! $gitdiff; then
         echo "Generating publications for $WEBSITE"
-
         # Copy bib generator script
         cp -r plugins/bibtex $WEBSITE/plugins
         cp plugins/bib_writer.py $WEBSITE/plugins/bib_writer.py
@@ -38,9 +36,9 @@ do
         python plugins/bib_writer.py
         cd ..
 
-      else
-        echo "Diag bib not changed. Skipping generation of publiction (using current publications files)"
-      fi
+#      else
+        #echo "Diag bib not changed. Skipping generation of publiction (using current publications files)"
+      #fi
     fi
 done
 
@@ -56,6 +54,7 @@ git checkout feature/publications
 if ! $gitdiff; then
   echo status before add
   git status
+  pwd
   git add --all ./website-*/content/pages/publications/*
   echo status after add
   git status
