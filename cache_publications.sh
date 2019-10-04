@@ -21,7 +21,7 @@ do
     if [[ $GENERATE_PUB != '1' ]]; then
       echo "Skipping generation of publication pages for $WEBSITE."
     else
-        ./copy_content.sh $WEBSITE
+        bash ./copy_content.sh $WEBSITE
       # Check if diag bib changed
       #if true || ! $gitdiff; then
         echo "Generating publications for $WEBSITE"
