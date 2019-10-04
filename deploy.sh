@@ -7,7 +7,7 @@ echo "Starting Pelican build of $WEBSITE"
 cd $WEBSITE
 
 # Build pelican website
-pelican content -s publishconf.py --debug
+pelican content -s publishconf.py 
 
 
 echo "after publishconf.py"

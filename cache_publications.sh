@@ -59,7 +59,7 @@ if ! $gitdiff; then
   git add --all ./website-*/content/pages/publications/*
   git add --all ./website-*/content/dict_pubs.json
  
-  git commit --message "Adding publications to repository." -- .
+  git commit --message "Adding publications to repository. [ci skip]" -- .
   git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "feature/publications"
 else
   echo "Nothing new to commit, skipping push."
