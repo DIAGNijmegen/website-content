@@ -44,32 +44,34 @@ do
     fi
 done
 
+
 # Optimize the images before building the website`
 git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
-# Add changed files
-git checkout feature/publications  
-git pull origin feature/publications
+## Add changed files
+#git checkout feature/publications  
+#git pull origin feature/publications
 
 if ! $gitdiff; then
+  echo status before add
   git status
-
-  echo ls
-  ls ./website-pathology/content/pages/publications
-
-  echo cd
-  cd ./website-pathology/content/pages/publications
-  ls 
-
-
   git add --all ./website-*/content/pages/publications/*
-  git add --all ./website-*/content/dict_pubs.json
-
+  echo status after add
   git status
-  echo "Files changed, commiting new publications."
-  git commit --message "Adding publications to repository." -- .
-  git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "feature/publications"
+
+  #echo cd
+  #cd ./website-pathology/content/pages/publications
+  #ls 
+  #echo done cd and ls
+
+  #git add --all ./website-*/content/pages/publications/*
+  #git add --all ./website-*/content/dict_pubs.json
+
+  #git status
+  #echo "Files changed, commiting new publications."
+  #git commit --message "Adding publications to repository." -- .
+  #git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "feature/publications"
 else
   echo "Nothing new to commit, skipping push."
 fi
