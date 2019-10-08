@@ -400,13 +400,15 @@ class PublicationsGenerator:
                 formatted_text += ' <a href=\"' + url_pub + '/\">URL</a>'
             else:
                 formatted_text += 'urlweb: ' + url_pub + '\n'
-        if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower() and not arxiv_link:
-            # If an entry has arxiv as journal, then it is considered as @Preprint
-            url_arxiv = self.__get_arxiv_id_from_title(bib_item.entry['journal'])
-            if is_html_format:
-                formatted_text += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
-            else:
-                formatted_text += 'arxiv: ' + url_arxiv + '\n'
+
+        if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower():
+            if not arxiv_link:
+                # If an entry has arxiv as journal, then it is considered as @Preprint
+                url_arxiv = self.__get_arxiv_id_from_title(bib_item.entry['journal'])
+                if is_html_format:
+                    formatted_text += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
+                else:
+                    formatted_text += 'arxiv: ' + url_arxiv + '\n'
             new_pubtype = '@Preprint'
         elif  bib_item.entry_type.lower() not in ['@inproceedings', '@conference', '@article', '@phdthesis', '@mastersthesis', '@patent', '@book']:
             # See the full list of publication types in bibtex/bibtexformatter.py (variable type_formatters)
