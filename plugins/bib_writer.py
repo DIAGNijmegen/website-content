@@ -380,6 +380,7 @@ class PublicationsGenerator:
     def __format_bibitem(self, bib_item, is_html_format=True):
         formatted_text = ''
         new_pubtype = None
+        arxiv_link = False
         if 'doi' in bib_item.entry:
             url_doi = 'https://doi.org/' + bib_item.entry['doi']
             if is_html_format:
@@ -387,6 +388,7 @@ class PublicationsGenerator:
             else:
                 formatted_text += 'doi: ' + url_doi + '\n'
         if 'url' in bib_item.entry and 'arxiv' in bib_item.entry['url']:
+            arxiv_link = True
             url_arxiv = bib_item.entry['url']
             if is_html_format:
                 formatted_text += ' <a href=\"' + url_arxiv + '/\">arXiv</a>'
@@ -398,7 +400,7 @@ class PublicationsGenerator:
                 formatted_text += ' <a href=\"' + url_pub + '/\">URL</a>'
             else:
                 formatted_text += 'urlweb: ' + url_pub + '\n'
-        if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower():
+        if 'journal' in bib_item.entry and 'arxiv' in bib_item.entry['journal'].lower() and not arxiv_link:
             # If an entry has arxiv as journal, then it is considered as @Preprint
             url_arxiv = self.__get_arxiv_id_from_title(bib_item.entry['journal'])
             if is_html_format:
