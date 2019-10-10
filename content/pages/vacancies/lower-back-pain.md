@@ -23,6 +23,6 @@ You will be appointed as a PhD student with the standard salary and secondary co
 
 ## Application
 
-Please apply before 7 October 2019 via [the Radboudumc website](https://www.radboudumc.nl/en/vacancies/72541-phd-candidate-mri-based-decision-support-tool-for-chronic-low-back-pain). In your application include a motivation letter, your CV, list of grades and links to publications, your Master thesis or other work you have written in English.
+Please apply before 25 October 2019 via [the Radboudumc website](https://www.radboudumc.nl/en/vacancies/72541-phd-candidate-mri-based-decision-support-tool-for-chronic-low-back-pain-ai-for-health). In your application include a motivation letter, your CV, list of grades and links to publications, your Master thesis or other work you have written in English.
 
 Questions can be directed to [Dr. Nikolas Lessmann](mailto:nikolas.lessmann@radboudumc.nl) (Radiology) and [Dr. Miranda van Hooff](mailto:Miranda.vanHooff@radboudumc.nl) (Orthopedics).
