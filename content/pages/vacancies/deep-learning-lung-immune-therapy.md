@@ -1,4 +1,4 @@
-title: AI to predict lung cancer immunotherapy response
+title: AI to analyze lung cancer histology images
 groups: pathology, diag, ai-for-health 
 closed: true
 type: student
