@@ -1,6 +1,6 @@
 title: PhD position for Extraction of imaging biomarkers for AMD with Deep Learning
 groups: retina, diag
-closed: false
+closed: true
 type: general
 picture: vacancies/Multimodal_retina.png
 people: Clarisa Sánchez 
