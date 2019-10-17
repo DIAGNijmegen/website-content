@@ -5,7 +5,7 @@ picture: news/arvo-2019.jpg
 groups: retina
 
 
-[member: Bart Liefers, group: retina], [member: Cristina González-Gonzalo, group:retina] and [member: Harm van Zeeland, group: retina] presented their work during the corresponding Poster Sessions at the Association for Research in Vision and Ophthalmology (<a href="https://www.arvo.org/annual-meeting/">ARVO</a>) Annual Meeting , in Vancouver (28th April - 2nd May 2019).
+Bart Liefers, Cristina González-Gonzalo and Harm van Zeeland presented their work during the corresponding Poster Sessions at the Association for Research in Vision and Ophthalmology (<a href="https://www.arvo.org/annual-meeting/">ARVO</a>) Annual Meeting , in Vancouver (28th April - 2nd May 2019).
 
 - Bart Liefers: <a href="https://iovs.arvojournals.org/article.aspx?articleid=2746851&resultClick=1">Prediction of areas at risk of developing geographic atrophy in color fundus images using deep learning</a>
 - Cristina González-Gonzalo: <a href="https://iovs.arvojournals.org/article.aspx?articleid=2746850&resultClick=1">Opening the “black box” of deep learning in automated screening of eye diseases</a>
