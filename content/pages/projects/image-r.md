@@ -2,7 +2,7 @@ title: IMAGE-R
 title_long: IMAGE-R
 finished: false
 type: general
-picture: 
+picture: vacancies/Multimodal_retina.png
 template: project-single
 groups: retina
 people: Coen de Vente, Clarisa Sánchez
