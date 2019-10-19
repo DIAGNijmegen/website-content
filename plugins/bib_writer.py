@@ -11,6 +11,7 @@ import time
 import hashlib
 import _pickle as pickle
 import codecs
+import unidecode
 import latexcodec
 import traceback
 
@@ -260,7 +261,7 @@ class PublicationsGenerator:
             title_md = " ".join(researcher_names).title()  # camel case
             md_format = 'title: Publications of ' + title_md + '\n'
             md_format += 'template: publications-author\n'
-            md_format += 'author: ' + "-".join(researcher_names) + '\n'
+            md_format += 'author: ' + unidecode.unidecode("-".join(researcher_names)) + '\n'
             md_format += 'author_name: ' + title_md + '\n'
             list_pubs_author = []
             for author_name in author_index.keys():
