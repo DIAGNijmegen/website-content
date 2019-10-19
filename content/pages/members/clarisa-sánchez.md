@@ -1,5 +1,6 @@
 title: Clarisa Sánchez
 name: Clarisa Sánchez
+pub_name: Clara Sánchez
 template: people-single
 picture: people/Clarisa_Sánchez.jpg
 position: Associate professor

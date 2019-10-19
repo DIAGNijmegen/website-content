@@ -152,11 +152,17 @@ class PublicationsGenerator:
         people_dir = '{}/content/pages/members'.format(base_dir)
         print(people_dir)
         list_researchers = []
-
         for people_md_path in glob.glob(people_dir + '/*.md'):
-            bname = os.path.basename(people_md_path).replace('.md', '')
-            full_name = bname.split('-')
-            list_researchers.append(full_name)
+
+            try:
+                with open(people_md_path) as fp:
+                    tags = {line.split(':')[0]:line.split(':')[1].strip().lower().split() for line in (fp) if len(line.split(':')) > 1}
+                    full_names = (tags['name'], tags['pub_name']) if 'pub_name' in tags else (tags['name'], tags['name'])
+            except:
+                bname = os.path.basename(people_md_path).replace('.md', '')
+                full_names = (bname.split('-'), bname.split('-'))
+
+            list_researchers.append(full_names)
             # print('Member: ', full_name)
 
         return list_researchers
@@ -213,7 +219,7 @@ class PublicationsGenerator:
 
         # Retrieves list of members and their publications
         list_researchers = self.__get_list_people()
-        author_index, filtered_bibkeys = self.__get_publications_by_author(global_index, list_researchers)
+        author_index, filtered_bibkeys = self.__get_publications_by_author(global_index, [list_researcher[1] for list_researcher in list_researchers])
 
         # Writes single md files per publication
         self.__write_single_publication_md(global_index, string_rules, filtered_bibkeys, out_dir)
@@ -222,7 +228,7 @@ class PublicationsGenerator:
 
         # Writes list of publications of a member
         time_list_pubs = time.clock()
-        self.__write_author_publications_md(author_index, list_researchers, out_dir)
+        self.__write_author_publications_md(author_index, [list_researcher[0] for list_researcher in list_researchers], out_dir)
         dict_pubs = self.__write_list_publications_md(global_index, filtered_bibkeys, string_rules)
         print('Time to create filtered list of publications and publications per researcher',
               time.clock() - time_list_pubs)
@@ -257,6 +263,7 @@ class PublicationsGenerator:
 
     def __write_author_publications_md(self, author_index, list_researchers, out_dir):
         for researcher_names in list_researchers:
+
             full_name = "-".join(researcher_names)
             title_md = " ".join(researcher_names).title()  # camel case
             md_format = 'title: Publications of ' + title_md + '\n'
