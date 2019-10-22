@@ -1,5 +1,5 @@
 title: AI to predict lung cancer immunotherapy response
-groups: pathology, diag, ai-for-health 
+groups: ai-for-health 
 finished: false
 type: student
 picture: vacancies/lung_projects_immuno.png
@@ -27,11 +27,6 @@ The goal is to develop a framework based on the synergy of digital pathology and
 We will address one or more of the following tasks:
 
 * Detection of PD-L1 positive cells with deep learning models for object detection and segmentation
-* Detection of lung cancer tumor cells in H&E images with deep learning
-* Detection of lymphocytes in H&E images of lung cancer
-* Detection of macrophages in CD68 stained whole-slide images of lung cancer
-* Segmentation of several compartments of lung tissue with deep learning segmentation models
-* Classification of lung cancer subtypes using weakly supervised learning
 
 We will develop a demonstrator that allows to run the built AI model/pipeline on new whole-slide images.
 
