@@ -244,3 +244,7 @@ people:
     affiliation: Gynaecology, Radboudumc
     url: https://www.radboudumc.nl/personen/jeroen-van-dillen
     picture: people/external/Jeroen_van_Dillen.jpg    
+  - name: Chris de Korte
+    position: Professor
+    affiliation: Medical UltraSound Imaging Centre
+    picture: people/external/Chris_de_Korte.jpg
