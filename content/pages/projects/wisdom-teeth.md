@@ -16,18 +16,3 @@ The goal of this project is to create an AI-driven decision flowchart (AIFC). In
 1) advice to remove a wisdom tooth; 2) advice to not remove a wisdom tooth; or 3) recommend additional 3D imaging with a cone-beam CT (CBCT) scan. If the CBCT scan is available, the system will recommend whether or not to remove a wisdom tooth.
 
 The system will be developed, validated, prospectively tested and implemented in close collaboration with AI experts of Radboud AI for Health and clinical experts at Radboudumc.
-<!---
-## Requirements
-
-We are looking for an ambitious, creative and enthusiastic computer scientist, biomedical engineer or data scientist. You should have a MSc degree in a relevant field, skills in developing artifical intelligence systems and text analysis. Good communication skills and programming experience, preferably in Python/C++, are essential. 
-
-## Terms of employment
-
-You will be appointed as a PhD student for four years with the standard salary and secondary conditions for PhD students in the Netherlands. Your performance will be evaluated after 1 year. The research should result in a PhD thesis and a real-time risk infection prediction system that will be implemented in clinical care at Radboudumc.
-
-## Application
-
-You can already apply directly by e-mail to [Prof. Thomas Maal](mailto:Thomas.Maal@radboudumc.nl). In your application include a motivation letter, your CV, list of grades and links to publications and your Master thesis or other work you have written in English.
-
-All applications will be processed immediately upon receipt until the position has been filled. 
--->
