@@ -1,7 +1,7 @@
 title: Thomas van den Heuvel  
 name: Thomas van den Heuvel
 template: people-single
-picture: people/Thomas_van_den_Heuvel.jpg
+picture: people/Thomas_van_den_Heuvel.png
 position: Postdoctoral researcher
 active: yes
 email: thomas.vandenheuvel@radboudumc.nl
