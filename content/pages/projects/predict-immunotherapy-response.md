@@ -2,7 +2,7 @@ title: AI-assisted PD-L1 scoring in lung cancer
 groups: ai-for-health 
 finished: false
 type: student
-picture: vacancies/lung_projects_immuno.png
+picture: vacancies/pdl1-project.png
 template: project-single
 people: Tristan Payer, Francesco Ciompi
 description: Project aimed at development of deep learning algorithms for the (semi-) automated scoring of PD-L1 positive tumor cells, an established biomarker for immunotherapy treatment response in lung cancer patients.
