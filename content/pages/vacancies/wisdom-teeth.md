@@ -1,6 +1,6 @@
 title: PhD position for development and validation of a deep-learning system for wisdom tooth removal
 groups: ai-for-health 
-closed: false
+closed: true
 type: general
 picture: vacancies/wisdomteeth.jpg
 people: Shankeeth Vinayahalingam, Thomas Maal, Tong Xi, Guido de Jong, Hossein Ghaeminia, Gilles Claeys, Bram van Ginneken, Stefaan Bergé
