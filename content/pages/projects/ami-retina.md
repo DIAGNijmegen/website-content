@@ -24,3 +24,6 @@ We aim to develop solutions for the automated analysis of multimodal retinal ima
 
 ## Funding
 AMI is a collaborative project of the Fraunhofer Gesellschaft and the Radboud University and University Medical Center.
+
+## Media
+- Best Demo Award from Live Demonstrations Workshop at SPIE Medical Imaging 2017 : “A Multimodal Workstation for Analysis of Retinal Images”
