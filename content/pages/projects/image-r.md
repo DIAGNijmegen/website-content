@@ -2,7 +2,7 @@ title: IMAGE-R
 title_long: IMAGE-R
 finished: false
 type: general
-picture: vacancies/Multimodal_retina.png
+picture: projects/image-r.png
 template: project-single
 groups: retina
 people: Coen de Vente, Clarisa Sánchez
@@ -16,6 +16,8 @@ Detection and quantification of retinal diseases during screening and monitoring
 
 ## Aim
 The goal of this project is to revolutionize current eye care diagnostics and disease management by providing IMAGE-R, a computer-aided detection (CAD) system for retinal diseases, which makes use of state-of-the-art machine learning techniques. IMAGE-R provides eye care professionals with a comprehensive solution for fast, accurate, and cost-saving retinal disease detection (for screening) as well as quantification (for disease management). The system will be applicable for the most frequent retinal diseases (age-related macular degeneration (AMD), diabetic retinopathy (DR) and glaucoma), be compatible with color fundus (CF) retinal images and optical coherence tomography (OCT) imaging data, and be widely accessible to eye care providers through a cloud-based platform. This project is a collaboration between <a href="http://www.retinai.com/">Retinai Medical Ag</a>, <a href="http://www.a-eyeresearch.nl/">RadboudUMC - A-eye research group RadboudUMC</a>, <a href="http://www.thirona.eu/">Thirona B.V.</a>, and <a href="http://www.unibe.ch/">University Of Bern - Artorg Center For Biomedical Engineering Research</a>.
+
+![Multimodal (OCT and CF) image analysis]({static}/images/projects/image-r.png)
 
 ## Funding
 This project is funded by <a href="https://www.eurostars-eureka.eu/">Horizon 2020: Eurostars</a>.
