@@ -1,6 +1,6 @@
 title: PhD position for developing a decision support tool for patients with chronic lower back pain
 groups: ai-for-health 
-closed: false
+closed: true
 type: general
 picture: vacancies/msk_lbp.jpg
 people: Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
