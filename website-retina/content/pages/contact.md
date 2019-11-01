@@ -13,9 +13,7 @@ The A-Eye Research Group is located at the Radboud University Medical Center, Ni
 
 <i>Postal address</i>
 <br>Radboudumc
-<br>Department of Radiology and Nuclear Medicine
-<br>Diagnostic Image Analysis Group
 <br>Post 766, Radiology
 <br>P.O. Box 9101
 <br>6500 HB Nijmegen
-<br>the Netherlands
+<br>The Netherlands
