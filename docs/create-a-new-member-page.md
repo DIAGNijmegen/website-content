@@ -12,7 +12,7 @@ picture: people/<image>.png (for adding a picture to a profile see: website-cont
 position: PhD student/Associate Professor/Assistant Professor/Postdoctoral researcher/ etc. (free text but keep consistent throughout pages, so please check how other groups have written down the positions)
 active: yes (change to 'no' when this person is a former employee)
 groups: diag, pathology, retina, rse (this determines on which websites the profile will appear. DIAG is standard, followed by your subgroup)
-default_group: diag (the main group of this person, used for internal links. If not set, the first group from 'groups' is used.)
+default_group: diag (the main group of this person, used for internal links. If not set, the first group from 'groups' is used. If set to 'external', internal links and people-circles will load data from external-people.yaml.)
 email: example@radboudumc.nl
 office: Route ..., room ....
 type: phd/chair/faculty/tech/student  (header = Scientific Staff/Chair/Faculty)/Technical Staff/Visiting researchers
