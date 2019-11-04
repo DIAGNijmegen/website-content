@@ -25,7 +25,7 @@
 
     {% for software in pages %}
         {% if software.parent.url == 'software/' %}
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-4">
                 {% if software.picture %}
                 <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ software.picture }}">
@@ -50,7 +50,7 @@
         </div>
         {% endif %}
     {% endfor %}
-    
+
     <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
     <div class="row">
         {% for card in pages %}
