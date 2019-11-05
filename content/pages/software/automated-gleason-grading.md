@@ -9,7 +9,7 @@ bibkeys: bult19b, bult19, Bel19, Band17
 The **Gleason score** is the most important prognostic marker for prostate cancer patients but suffers from significant inter-observer variability. We developed a **fully automated system using deep learning** that can grade prostate biopsies following the Gleason Grading System. We have published the algorithm, and it is now available to try out online; no deep learning hardware required.
 
 <figure class="figure my-4">
-  <img data-src="/images/software/gleason_segmentation_overlays_small.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorith.">
+  <img data-src="/images/software/gleason_segmentation_overlays_small.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorithm.">
   <figcaption class="figure-caption">Three examples showing the output of the Gleason algorithm. The algorithm marks glands in green (benign), yellow (Gleason 3), orange (Gleason 4) or red (Gleason 5).</figcaption>
 </figure>
 
