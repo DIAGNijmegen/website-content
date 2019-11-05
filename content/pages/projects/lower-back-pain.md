@@ -1,4 +1,4 @@
-title: PhD position for developing a decision support tool for patients with chronic lower back pain
+title: MRI-based decision support tool for patients with chronic lower back pain
 groups: ai-for-health 
 finished: false
 type: general
