@@ -34,7 +34,7 @@ The algorithm consists of multiple steps to prepare and analyze the data:
 2. The trained normalization algorithm is applied to all input biopsies to normalize the data.
 3. Each normalized biopsy is processed by the automated Gleason grading system. The output of the system consists of an overlay and a set of metrics for each biopsy. The metrics include the biopsy-level grade group, the Gleason score, and predicted volume percentages.
 
-Each job roughly completes within an hour, depending on the size of the input and the processing capacity. Approximately 80% of the time is spent on training a new normalization CycleGAN network. It is, therefore, more efficient to submit several biopsies at once, then to submit multiple jobs with a single biopsy. The Gleason grading system itself can grade a biopsy within a few minutes.
+Each job roughly completes within an hour, depending on the size and number of biopsies, and the processing capacity. Approximately 80% of the time is spent on training a new normalization CycleGAN network. It is, therefore, more efficient to submit several biopsies at once, than to submit multiple jobs with a single biopsy. The Gleason grading system itself can grade a biopsy within a few minutes.
 
 <figure class="figure my-4">
   <img data-src="/images/software/gleason_algorithm_overview.png" class="figure-img img-fluid lazyload rounded" alt="Overview of the pipeline.">
