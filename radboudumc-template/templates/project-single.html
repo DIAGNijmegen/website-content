@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block description %}{{ page.description }}{% endblock %}
-{% block page_picture %}{{ SITEURL}}/images/projects/{{ page.picture }}{% endblock %}
+{% block page_picture %}{{ SITEURL}}/images/{{ page.picture }}{% endblock %}
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
-
     <div class="container">
     <h1 class="page-title">
         {% if page.title_long %}
@@ -35,16 +34,16 @@
     {% endif %}
 
     {% if page.bibkeys %}
-        <h2>Publications</h2>
-        <div class="container">
-            <ul>
-            {% for bibkey in page.bibkeys.split(',') %}
-                {% if bibkey.strip().lower() in bibkeys_html %}
-                    {{ bibkeys_html[bibkey.strip().lower()]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
-                {% endif %}
-            {% endfor %}
-            </ul>
-        </div>
+    <h2>Publications</h2>
+    <div class="container">
+        <ul>
+        {% for bibkey in page.bibkeys.split(',') %}
+            {% if bibkey.strip().lower() in bibkeys_html %}
+                {{ bibkeys_html[bibkey.strip().lower()]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
     {% endif %}
     </div>
 {% endblock %}

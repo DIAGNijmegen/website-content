@@ -1,5 +1,5 @@
-title: Babak Ehteshami-Bejnordi
-name: Babak Ehteshami-Bejnordi
+title: Babak Ehteshami Bejnordi
+name: Babak Ehteshami Bejnordi
 template: people-single
 picture: people/Babak_Ehteshami_Bejnordi.jpg
 position: PhD student

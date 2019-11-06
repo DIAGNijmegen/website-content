@@ -12,7 +12,7 @@ The AIIM Lab is located at the Radboud University Medical Center, Nijmegen, the 
 
 <i>Postal address</i>
 <br>Radboudumc
-<br>Department of Pathology
+<br>Department of Radiology and Nuclear Medicine
 <br>Postbus 9101, huispost 767
 <br>6500 HB Nijmegen
 <br>the Netherlands

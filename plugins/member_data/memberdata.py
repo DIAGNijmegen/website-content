@@ -37,6 +37,12 @@ def parse_member_file(member, file):
     if 'default_group' not in data and 'groups' in data:
         data['default_group'] = data['groups'][0] if isinstance(data['groups'], list) else data['groups']
 
+    if data['default_group'] == 'external':
+        # If the external tag is set, we need to favor the data in the external-people list.
+        # The member is not included in the member-dictionary, this makes sure that the templates
+        # get the data from the external people list.
+        return None
+
     if data['default_group'] in DIAG_WEBSITE_URLS:
         # Create link to profile page
         data['url'] = f"{DIAG_WEBSITE_URLS[data['default_group']]}/members/{member}/"
@@ -74,7 +80,8 @@ def load_member_data(generator):
 
         with open(file, encoding="utf-8") as f:
             data = parse_member_file(member, f)
-            member_data[data['name']] = data
+            if data:
+                member_data[data['name']] = data
 
 
 
