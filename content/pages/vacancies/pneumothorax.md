@@ -1,6 +1,6 @@
 title: Pneumothorax detection
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/pneumothorax.jpg
 template: vacancy-single
