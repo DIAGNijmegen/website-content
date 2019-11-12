@@ -88,7 +88,7 @@ DIRECT_TEMPLATES = ['index', 'archives', 'sitemap']
 # Plugins
 #
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "bootstrapify", "imgutil", "inline_extend", "member_data"]
+PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "bootstrapify", "imgutil", "inline_extend", "content_aggregator"]
 
 # Other
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'

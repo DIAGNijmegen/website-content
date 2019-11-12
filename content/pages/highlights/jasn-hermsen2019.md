@@ -5,7 +5,7 @@ picture: news/JASN_MH.png
 groups: diag, pathology
 
 Histopathologic assessment of kidney tissue currently relies on manual scoring or traditional image-processing techniques to
-quantify and classify tissue features. These are time-consuming approaches that have limited reproducibility. [member: Meyke Hermsen] et al present an alternative approach, featuring a convolutional neural network (CNN) for multiclass segmentation of periodic acid–Schiff (PAS)-stained kidney tissue sections.
+quantify and classify tissue features. These are time-consuming approaches that have limited reproducibility. [member/meyke-hermsen] et al present an alternative approach, featuring a convolutional neural network (CNN) for multiclass segmentation of periodic acid–Schiff (PAS)-stained kidney tissue sections.
 
 Using multi-class annotations of 40 PAS-stained kidney transplant whole-slide images, the authors trained multiple CNNs through cross-validation. The networks were applied as an ensemble on four independent data sets. Multi-class segmentation performance was assessed by calculcating Dice coefficients (DCs) on an internal test set and a test set from an external center for validation ((the Mayo Clinic, Rochester, Minnesota). Additionally, the authors fully segmented 15 nephrectomy samples and calculated the network's glomerular detection rates and compared network-based measures with visually scored histologic components of the Banff classification system in 82 kidney transplant biopsies.
 

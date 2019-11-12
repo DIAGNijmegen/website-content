@@ -86,4 +86,4 @@ DIRECT_TEMPLATES = ['index', 'sitemap']
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ["edit_url", "hierarchy", "fileutil", "bootstrapify", "imgutil", "inline_extend", "member_data"]
+PLUGINS = ["edit_url", "hierarchy", "fileutil", "bootstrapify", "imgutil", "inline_extend", "content_aggregator"]

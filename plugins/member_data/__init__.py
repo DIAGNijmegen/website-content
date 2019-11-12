@@ -1,1 +1,0 @@
-from .memberdata import *
