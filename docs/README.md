@@ -46,3 +46,4 @@ Documentation regarding technical aspects of the website.
 
 - [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
 - [Publications pipeline for developers](https://github.com/DIAGNijmegen/website-content/blob/master/docs/publications-pipeline-developers.md)
+- [Critical CSS](https://github.com/DIAGNijmegen/website-content/blob/master/docs/critical-above-the-fold-css.md)
