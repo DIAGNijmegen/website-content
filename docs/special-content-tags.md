@@ -14,16 +14,22 @@ Example: [vimeo: 326352382]
 
 Adds an embedded and responsive YouTube/vimeo frame to a page.
 
-## Linking to member pages
+## Linking to content pages
 
-`[member: <member name>]`
+`[<content type>/<slug>]`
 
-Example `[member: Wouter Bulten]`
+Examples:
 
-Creats a link to the member page of that user on the correct website. 
+- `[member/wouter-bulten]`
+- `[software/asap]`
+- `[vacancy/deep-learning-for-artifacts]`
+- `[project/deeppca]`
+- `[presentation/unsupervised-prostate-cancer-detection]`
 
-`[member: <member name>, group: <group>]`
+Creates a link to the member page of that user on the correct website.
 
-Example `[member: Wouter Bulten, group: pathology]`
+`[<content type>/<slug>, group: <group>]`
 
-Create a link to a member page on a specific website. Add the 'group' tag to link to a person on another website.
+Example `[member/wouter-bulten, group: pathology]`
+
+Creates a link to a page on a specific website.
