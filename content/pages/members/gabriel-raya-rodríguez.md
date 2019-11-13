@@ -1,7 +1,7 @@
 title: Gabriel Raya Rodríguez
 name: Gabriel Raya Rodríguez
 template: people-single
-picture: people/external/Gabriel_Raya_Rodríguez.jpg
+picture: people/Gabriel_Raya_Rodríguez.jpg
 position: Master student
 active: yes
 groups: diag, pathology
