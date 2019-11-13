@@ -2,7 +2,7 @@ title: Text mining pathology reports
 groups: diag, ai-for-health
 finished: false
 type: student
-picture: vacancies/textmining.jpg
+picture: projects/textmining.jpg
 template: project-single
 people:  Josien Visschedijk, Jan van den Brand, Wynand Alkema, Jack Wetzels, Djoerd Hiemstra
 description: Development of a text mining system to accurately make a diagnosis from nephrology pathology reports.
