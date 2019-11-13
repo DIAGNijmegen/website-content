@@ -136,6 +136,10 @@ def load_content(generator):
 
         generator.context[config['varname']] = aggregated_data
 
+        # For members we also need name-based matching
+        if type == 'member':
+            generator.context['MEMBER_DATA_PER_NAME'] = {x['name']: x for _, x in aggregated_data.items()}
+
     # Custom loader for external member data
     generator.context['EXTERNAL_PEOPLE_DATA'] = parse_external_member_data()
 
