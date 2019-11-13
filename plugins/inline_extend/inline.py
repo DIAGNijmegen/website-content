@@ -35,7 +35,7 @@ content_varnames = {
     'vacancy': 'VACANCY_DATA',
 }
 
-def parse_member_tag(text, context):
+def parse_content_tag(text, context):
     """Replaces tags that link to internal content  """
     identifier = text.group('identifier')
     group = text.group('group')
@@ -86,8 +86,7 @@ def parse_tags(instance):
     if instance._content is not None:
         content = instance._content
 
-        if '[member/' in content:
-            content = regex_member.sub(lambda m: parse_member_tag(m, instance._context), content)
+        content = regex_member.sub(lambda m: parse_content_tag(m, instance._context), content)
 
         if '[youtube:' in content:
             content = regex_youtube.sub(lambda m: parse_youtube_tag(m), content)
