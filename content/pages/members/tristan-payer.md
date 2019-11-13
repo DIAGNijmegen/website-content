@@ -1,7 +1,7 @@
 title: Tristan Payer
 name: Tristan Payer
 template: people-single
-picture: people/external/Tristan_Payer.jpg
+picture: people/Tristan_Payer.jpg
 position: Master student
 active: yes
 groups: diag, pathology
