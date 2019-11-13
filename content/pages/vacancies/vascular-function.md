@@ -3,7 +3,7 @@ groups: ai-for-health
 closed: false
 type: general
 picture: vacancies/vascular-function.jpg
-people: Jurgen Claassen, Tom Claassen, Elena Marchiori, Jerrald Rector
+people: Jurgen Claassen, Tom Claassen, Tom Heskes, Jerrald Rector
 template: vacancy-single
 description: We are looking for a PhD candidate to predict vascular function of the brain from short, non-invasive ten-minute recordings of blood pressure, heart rate, and cerebral perfusion.
 
