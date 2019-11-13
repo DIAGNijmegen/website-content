@@ -264,3 +264,29 @@ people:
     affiliation: Data Science, Radboud University
     url: https://www.linkedin.com/in/ruben-kluge-21472496/
     picture: 
+  - name: Josien Visschedijk
+    position: Master student
+    affiliation: Computer Science, Radboud University
+    url: https://www.linkedin.com/in/josien-visschedijk-930066b2/?originalSubdomain=nl
+    picture: people/external/Josien_Visschedijk.jpg
+  - name: Jan van den Brand
+    position: Postdoctoral researcher
+    affiliation: Nephrology, Radboudumc
+    url: https://www.linkedin.com/in/jan-van-den-brand-1236a63a/?originalSubdomain=nl
+    picture: people/external/Jan_van_den_Brand.jpg
+  - name: Wynand Alkema
+    position: Head of RTC Bioinformatics
+    affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/wynand-alkema
+    picture: people/external/Wynand_Alkema.jpg
+  - name: Jack Wetzels
+    position: Professor
+    affiliation: Nephrology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/jack-wetzels
+    picture: people/external/Jack_Wetzels.jpg
+  - name: Djoerd Hiemstra
+    position: Professor
+    affiliation: Computer Science, Radboud University
+    url: https://www.linkedin.com/in/hiemstra/?originalSubdomain=nl
+    picture: people/external/Djoerd_Hiemstra.jpg
+
