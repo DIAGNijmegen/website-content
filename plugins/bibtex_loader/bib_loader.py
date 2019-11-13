@@ -17,14 +17,16 @@ def load_json2dict(json_path):
         json_data = None
 
     return json_data
-
     
+
 def load_bibkeys(generator):
     json_path = generator.settings['BIBKEYS_SRC']
-    bibkeys_html = load_json2dict(json_path)
-    
-    generator.context['bibkeys_html'] = bibkeys_html
-    
-    
+    all_json_path = './content/all_dict_pubs.json'
+    bibkeys = load_json2dict(json_path)
+    all_bibkeys = load_json2dict(all_json_path)
+    generator.context['bibkeys_html'] = bibkeys
+    generator.context['all_bibkeys_html'] = all_bibkeys 
+   
+
 def register():
     signals.generator_init.connect(load_bibkeys)
