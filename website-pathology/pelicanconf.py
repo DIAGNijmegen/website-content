@@ -60,6 +60,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 #THEME = 'pathology-theme'
 DEFAULT_PAGINATION = 10
+MAX_YEAR_PUB = 2012
 
 # URL settings
 BIBKEYS_SRC = 'content/dict_pubs.json'
