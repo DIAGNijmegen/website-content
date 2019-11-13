@@ -69,7 +69,7 @@ def parse_content_file(type, url, tags, content):
 
                 # Expand lists
                 if ',' in value:
-                    data[tag] = value.split(',')
+                    data[tag] = [x.strip() for x in value.split(',')] # Remove whitespace in list
                 else:
                     data[tag] = value
 

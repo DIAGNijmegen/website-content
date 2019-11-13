@@ -48,9 +48,15 @@ def parse_member_tag(text, context):
         # Detertime the label to show
         label = data[identifier]['name'] if 'name' in data[identifier] else data[identifier]['title']
 
+        # Check if an explicit group is set, if so use that to build the link
         if group and group in group_websites:
             url = data[identifier]['url_internal']
             return f'<a href="{group_websites[group]}/{url}">{label}</a>'
+        # If this page is part of the current website, create an internal link
+        elif context['SITE_GROUP'] in data[identifier]['groups'] and context['SITE_GROUP'] in group_websites:
+            url = data[identifier]['url_internal']
+            return f'<a href="/{url}">{label}</a>'
+        # If not group was set, and the page is not part of the current website, use the default url
         else:
             url = data[identifier]['url']
             return f'<a href="{url}">{label}</a>'
