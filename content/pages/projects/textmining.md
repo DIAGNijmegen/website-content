@@ -9,6 +9,7 @@ description: Development of a text mining system to accurately make a diagnosis 
 
 ## Background
 Within the department nephrology, a biopsy is taken from patients for further research. This biopsy can be analyzed with three different methods:
+
 * Light microscopy
 * Immunofluorescence
 * Electron microscopy
