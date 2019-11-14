@@ -5,8 +5,8 @@ type: general
 description: The aim of ExaMode is to collect training data with limited human interaction for the processing of exascale volumes of healthcare data.
 template: project-single
 groups: pathology
-people: Jeroen van der Laak, Francesco Ciompi, Mart van Rijthoven
-bibkeys: Bokh19
+people: Francesco Ciompi, Jeroen van der Laak, Mart van Rijthoven
+bibkeys: Tell19,Swid19,Bokh19
 
 ## Background
 Big volumes of diverse data from distributed sources are continuously produced. Health-care data is expected to be over 2000 exabytes in 2020. Supervised deep learning models, require large amount of annotated data. Considering the available data, such annotations are impractical. The ExaMode project is a collaboration between universities and industries and addresses this impracticality by applying weakly supervised deep learning based on diverse data from distributed sources.
