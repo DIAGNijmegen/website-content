@@ -289,4 +289,14 @@ people:
     affiliation: Computer Science, Radboud University
     url: https://www.linkedin.com/in/hiemstra/?originalSubdomain=nl
     picture: people/external/Djoerd_Hiemstra.jpg
+  - name: Lex Dingemans
+    position: PhD student
+    affiliation: Human Genetics, Radboudumc
+    url: https://www.linkedin.com/in/lex-dingemans-828a07107
+    picture: people/external/Lex_Dingemans.jpg
+  - name: Bert de Vries
+    position: Clinical geneticist
+    affiliation: Human Genetics, Radboudumc
+    url: https://www.radboudumc.nl/en/people/bert-de-vries
+    picture: people/external/Bert_de_Vries.jpg
 
