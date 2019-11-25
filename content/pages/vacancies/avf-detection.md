@@ -1,4 +1,4 @@
-title: Labeling of Intracranial Vasculature in 4D-CTA for the Automated Detection of Cranial Arteriovenous Shunts
+title: Automated Detection of Cranial Arteriovenous Shunts in 4D-CTA
 groups: diag, ai-for-health
 closed: false
 type: student
@@ -15,7 +15,6 @@ This project builds upon previous work at our department. In previous work, we h
 
 ## Tasks
 - Collecting and labeling of 4D-CTA of patients with and without shunt
-- Development of AI for intracranial vessel labeling 
 - Development of AI for detection of arteriovenous shunts
 - Development of a demonstrator 
 - Writing of manuscript in accordance with publication guidelines
