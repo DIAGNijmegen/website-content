@@ -1,4 +1,4 @@
-title: Automated Detection of Cranial Arteriovenous Shunts in 4D-CTA
+title: Automated detection of cranial arteriovenous shunts in 4D-CTA
 groups: diag, ai-for-health
 closed: false
 type: student
