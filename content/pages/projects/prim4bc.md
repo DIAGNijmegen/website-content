@@ -1,12 +1,12 @@
 title: PRIM4BC
 finished: false
 type: general
-bibkeys: Tell18a,Tell18b
+bibkeys: Balk19,Balk19a,Tell18a,Tell18b
 picture: projects/PRIMB4C_1.jpg
 description: Detecting biomarkers for improved prognosis for triple negative breast cancer by combining histopathology, multiplex immunohistochemistry and Deep Learning.
 template: project-single
 groups: pathology
-people: Maschenka Balkenhol, David Tellez, Jeroen van der Laak, Peter Bult
+people: Maschenka Balkenhol, David Tellez, Jeroen van der Laak, Francesco Ciompi, Peter Bult
 
 
 ## Background
@@ -45,18 +45,10 @@ model will be able to predict TNBC recurrence and survival within 5 years.
 
 ## Media & Publications
 
-Tellez D, Balkenhol M,Otte-Holler I, van de Loo R, Vogels R, Bult P, Wauters C,
-Vreuls W, Mol S,Karssemeijer N, Litjens G, van der Laak J, Ciompi, F.
-Whole-Slide MitosisDetection in H&E Breast Histology Using PHH3 as a Reference to Train
-Distilled Stain-Invariant Convolutional Networks. Accepted in IEEE Trans Med
-Imaging. 2018.
-
-First prize OOR ON
-Onderzoeksprijs (clinical residents' science award), Nijmegen, The Netherlands,
+* First prize OOR ON Onderzoeksprijs (clinical residents' science award), Nijmegen, The Netherlands,
 2017.
 
-Balkenhol MCA,
-Ehteshami Bejnordi B, Otte-Höller I, de Boer O, Nap M, van Dijk M, Damen J,
+* Balkenhol MCA, Ehteshami Bejnordi B, Otte-Höller I, de Boer O, Nap M, van Dijk M, Damen J,
 Nooijen P, Baidoshvili A, Karssemeijer N, van der Laak J. Improved assessment
 of IHC staining quality applying quantitative measures. Poster presentation,
 Digital Pathology Conference, December 2015, London, Great Britain.

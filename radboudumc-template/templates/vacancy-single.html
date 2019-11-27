@@ -30,8 +30,8 @@
     <div class="container">
         <div class="row people-grid">
         {% for person_name in page.people.split(',') %}
-          {% if person_name.strip() in MEMBER_DATA %}
-            {% set person = MEMBER_DATA[person_name.strip()] %}
+          {% if person_name.strip() in MEMBER_DATA_PER_NAME %}
+            {% set person = MEMBER_DATA_PER_NAME[person_name.strip()] %}
             {% include "blocks/person-circle.html" %}
           {% else %}
             {% include "blocks/person-external-circle.html" %}

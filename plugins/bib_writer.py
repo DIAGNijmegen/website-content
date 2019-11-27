@@ -93,11 +93,11 @@ class PublicationsGenerator:
                     # If 'jr' contains something, it will have to be listed on 'initials_lastnames'
                     # to become a match
                     return True
-                elif (len(von) >=1 and von[0].lower() in initials_lastnames):
+                elif (len(von.strip()) >= 1 and von.strip()[0].lower() in initials_lastnames):
                     # If 'von' contains something, it will have to be listed on 'initials_lastnames'
                     # to become a match
                     return True
-                elif '-' != von_last[0] and len(lastnames) >=2 and lastnames[-1] in von_last:
+                elif '-' != von_last[0] and len(lastnames) >= 2 and lastnames[-1] in von_last:
                     # If none of the previous methods worked, an additional checkup is done.
                     # This is done only when having at least two last names.
                     # the last lastname should be in 'von_last'.

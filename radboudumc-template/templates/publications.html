@@ -7,26 +7,53 @@
     <div class="container">
     <h1>{{ page.title }}</h1>
 
+
+
     {% set list_years = [] %}
     {% set list_pub_type = [] %}
+
+
     {% if bibkeys_html %}
     {% for bibkey in bibkeys_html.keys() %}
-        <!-- Getting list of years -->
+        {# Getting list of years #}
         {% if bibkeys_html[bibkey]['year'] not in list_years %}
             {% if list_years.append(bibkeys_html[bibkey]['year']) %}{% endif %}
         {% endif %}
-        <!-- Getting list of pub_type -->
+        {# Getting list of pub_type #}
         {% if bibkeys_html[bibkey]['pub_type'] not in list_pub_type %}
             {% if list_pub_type.append(bibkeys_html[bibkey]['pub_type']) %}{% endif %}
         {% endif %}
     {% endfor %}
     {% endif %}
+    <style>
+      input[name="year-selection"]:checked + label {
+      font-weight: bold;
+      }
+      input[name="year-selection"]:hover + label {
+      font-weight: bold;
+      text-decoration: none;
+      }
 
-    <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
+    </style>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    {% set max_year = MAX_YEAR_PUB or 2012   %}
+    {% for cur_year in list_years|sort(reverse = True) if cur_year >= max_year  %}
+        {% if cur_year <= max_year %}
+            {% set cur_year = max_year|string + ' and before' %}
+        {% endif %}
+    <input type="radio" name="year-selection" data-year="{{ cur_year }}" id="input_{{ cur_year }}" autocomplete="off" style="display: none">
+    <label class="year-button btn btn-link" for="input_{{cur_year}}", style="color:grey">
+        {{ cur_year }}
+    </label>
+    {% endfor %}
+    </div>
+ 
+    {# Inpress keys should go here. To include "Accepted or to appear" section #}
 
-    <!-- Lists the publications per year and organized by publication type -->
+    {# Lists the publications per year and organized by publication type #}
     {% for cur_year in list_years|sort(reverse = True) %}
-        <h2>{{ cur_year }}</h2>
+        <div data-year="{{ cur_year }}" class="publication-year">
+            <h2>{{ cur_year }}</h2>
             {% for pub_type in list_pub_type %}
                 {% set found = { 'flag': false } %}
                 {% for bibkey in bibkeys_html.keys() %}
@@ -60,7 +87,37 @@
                     </ul>
                 {% endif %}
             {% endfor %}
+        </div>
     {% endfor %}
 
     </div>
+
+<script type="text/javascript">
+    var buttons = document.getElementsByName('year-selection');
+    var year_blocks = document.getElementsByClassName('publication-year');
+
+    for(var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', function(event) {
+        var year = this.dataset.year; 
+        var yearsplit = year.split(' ')
+        for(var b = 0; b < year_blocks.length; b++) {
+            if (yearsplit[yearsplit.length-1] == 'before'){
+                if(year_blocks[b].dataset.year <= parseInt(yearsplit[0])) {
+                    year_blocks[b].style.display = 'block';
+                } else {
+                    year_blocks[b].style.display = 'none';
+                }
+    
+            } else {
+                if(year_blocks[b].dataset.year == year) {
+                    year_blocks[b].style.display = 'block';
+                } else {
+                    year_blocks[b].style.display = 'none';
+                }
+            }
+      }
+    });
+  }
+  buttons[0].click()
+</script>
 {% endblock %}
