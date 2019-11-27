@@ -114,7 +114,7 @@ people:
     affiliation: Sint Maartenskliniek
     url: https://www.maartenskliniek.nl/en/research-and-innovation/miranda-van-hooff
     picture: people/external/Miranda_van_Hooff.jpg
-  - name: Marinus de Kleuver 
+  - name: Marinus de Kleuver
     position: Professor
     affiliation: Orthopedic Surgery, Radboudumc
     url: https://www.radboudumc.nl/en/people/marinus-de-kleuver
@@ -233,7 +233,7 @@ people:
     position: Master student
     affiliation: Data Science, Radboud University
     url: https://www.linkedin.com/in/tristandeboer
-    picture: 
+    picture:
   - name: Tristan Payer
     position: Master student
     affiliation: Artificial Intelligence, Radboud University
@@ -243,7 +243,7 @@ people:
     position: Gynaecologist
     affiliation: Gynaecology, Radboudumc
     url: https://www.radboudumc.nl/personen/jeroen-van-dillen
-    picture: people/external/Jeroen_van_Dillen.jpg    
+    picture: people/external/Jeroen_van_Dillen.jpg
   - name: Chris de Korte
     position: Professor
     affiliation: Medical UltraSound Imaging Centre
@@ -263,7 +263,7 @@ people:
     position: Master student
     affiliation: Data Science, Radboud University
     url: https://www.linkedin.com/in/ruben-kluge-21472496/
-    picture: 
+    picture:
   - name: Josien Visschedijk
     position: Master student
     affiliation: Computer Science, Radboud University
@@ -299,4 +299,18 @@ people:
     affiliation: Human Genetics, Radboudumc
     url: https://www.radboudumc.nl/en/people/bert-de-vries
     picture: people/external/Bert_de_Vries.jpg
-
+  - name: Christina Hulsbergen-van de Kaa
+    position: Pathologist
+    affiliation: LabPON
+    url: https://www.labpon.nl/over-labpon/pathologen-en-subspecialisaties/29-pathologen/104-christina-hulsbergen-van-de-kaa
+    picture: people/external/Christina_Hulsbergen-van_de_Kaa.jpg
+  - name: Robert Vink
+    position: Pathologist
+    affiliation: LabPON
+    url: https://www.labpon.nl/over-labpon/pathologen-en-subspecialisaties/29-pathologen/111-robert-vink
+    picture: people/external/Robert_Vink.jpg
+  - name: Hester van Boven
+    position: Pathologist
+    affiliation: Antoni van Leeuwenhoek
+    url: https://www.avl.nl/voorbereiding-afspraak/afdelingen-en-centra/pathologie-met-moleculaire-diagnostiek/
+    picture: people/external/Hester_van_Boven.jpg
