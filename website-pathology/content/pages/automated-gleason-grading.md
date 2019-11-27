@@ -62,6 +62,6 @@ Please refer to any of the following sources for more information:
 
 - A summary of the research can be found in our [blog post](https://www.wouterbulten.nl/blog/tech/automated-gleason-grading-deep-learning/).
 - The full paper can be read at *journal link follows*, a preprint is available on [arXiv](https://arxiv.org/abs/1907.07980/).
-- This algorithm is part of the [DeepPCA](/projects/deeppca) research project.
+- This algorithm is part of the [Deep PCA](/projects/deeppca) research project.
 
 Further questions regarding the Gleason grading system can be addressed to [member/wouter-bulten].
