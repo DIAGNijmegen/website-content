@@ -7,7 +7,10 @@
 
 <div class="container">
     <h1 class="page-title">{{ page.title }}</h1>
-    {{ page.content }}
+
+    {% if not page.content_after %}
+      {{ page.content }}
+    {% endif %}
 
     <h2 style="margin: 2em 0 1em 0;">Current research projects</h2>
 
@@ -50,7 +53,7 @@
         </div>
         {% endif %}
     {% endfor %}
-    
+
     <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
     <div class="row">
         {% for card in pages %}
@@ -61,5 +64,11 @@
             {% endif %}
         {% endfor %}
     </div>
+
+    {% if page.content_after %}
+    <div class="row">
+      {{ page.content }}
+    </div>
+    {% endif %}
 </div>
 {% endblock %}

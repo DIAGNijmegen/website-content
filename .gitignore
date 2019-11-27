@@ -123,6 +123,7 @@ website-*/content/pages/home.md
 website-*/content/pages/members.md
 website-*/content/pages/presentations.md
 website-*/content/pages/projects.md
+!website-retina/content/pages/projects.md # Custom projects page
 website-*/content/pages/publications.md
 website-*/content/pages/software.md
 website-*/content/pages/thesis-gallery.md
