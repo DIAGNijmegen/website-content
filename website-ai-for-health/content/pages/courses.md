@@ -13,7 +13,6 @@ The course will be organized in a collaboration between Radboudumc, Radboud Univ
 
 ## What you need to know
 * Course will be held on 10 Fridays, with different topics per day
-* We plan to have 7 obligatory session and 3 that can be selected from a larger list
 * Lectures in the morning, afternoon practicals with cases focused on Radboudumc practice
 * Program for the 10 Fridays will be held at JADS in Den Bosch
 * In addition there will be 4 project days, also on Fridays, in the Radboudumc where you will work in a team on a Radboudumc project
@@ -23,3 +22,6 @@ The course will be organized in a collaboration between Radboudumc, Radboud Univ
 * Start of the first edition: November 1, 2019 (the second edition is planned to start May 2020)
 
 More information and instructions how to apply can be found on [this internal Radboudmc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth). 
+
+
+ <!-- We plan to have 7 obligatory session and 3 that can be selected from a larger list --> 
