@@ -1,6 +1,6 @@
 title: PhD position for unraveling mechanisms of vascular function and regulation with causal discovery
 groups: ai-for-health 
-closed: false
+closed: true
 type: general
 picture: vacancies/vascular-function.jpg
 people: Jurgen Claassen, Tom Claassen, Tom Heskes, Jerrald Rector
