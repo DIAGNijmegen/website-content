@@ -2,7 +2,7 @@ title: Development and validation of machine-learning based histopathologic skin
 groups: pathology
 closed: false
 type: general
-picture: vacancies/KidneyDLpatho.jpg (Image is collected from website-content/content/images/. Upload a rectangular image here)
+picture: vacancies/KidneyDLpatho.jpg
 template: vacancy-single
 people: Geert Litjens
 description: Do you want to contribute to the world’s first prospectively evaluated algorithm-supported workflow for digital pathology, which will increase the time of pathologists for complex diagnostics and reduce the wait time for patients? Due to the tripling of skin cancer incidence over the past two decades, more skin biopsies and resections are performed than ever before. This has led to an enormous increase in workload for pathologists, who perform the microscopic diagnostics of skin samples. Machine learning and specifically deep learning offers a path to automating the diagnoses of skin samples, which would reduce the pressure on pathologists and the cost of diagnosis, both in time and money. We are looking for a Ph.D. candidate who is not just interested in developing an algorithm which can perform skin diagnostics at the level of an expert pathologist, but also explicitly wants to identify the most fruitful way of integrating these algorithms into the routine workflow.
