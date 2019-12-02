@@ -1,6 +1,6 @@
 title: PhD position for AI-driven genetic diagnosis for rare-diseases
 groups: ai-for-health 
-closed: false
+closed: true
 type: general
 picture: vacancies/genetic-diagnosis-rare-diseases.jpg
 people: Christian Gilissen, Marcel van Gerven, Max Hinne, Helger Yntema
