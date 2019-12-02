@@ -123,44 +123,42 @@
 
     {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
-    {% for vacancy in pages %}
-      {% if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false' %}
-        {% if not ns.has_vacancy %}
-          {% set ns.has_vacancy = True %}
-    <div class="block">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-4"><h1>Vacancies &amp; Student projects</h1></div>
-        </div>
-        {% endif %}
-
-        {% set ns.vacancies = ns.vacancies + 1 %}
-        {% if ns.vacancies <= 3 %}
-        <div class="row vacancy">
-          <div class="col-md-4">
-            {% if vacancy.picture %}
-            <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
-            {% else %}
-            <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+    {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false'  %}
+      {% if not ns.has_vacancy %}
+        {% set ns.has_vacancy = True %}
+        <div class="block">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 mb-4"><h1>Vacancies &amp; Student projects</h1></div>
+            </div>
             {% endif %}
+
+            {% set ns.vacancies = ns.vacancies + 1 %}
+            {% if ns.vacancies <= 3 %}
+            <div class="row vacancy">
+              <div class="col-md-4">
+                {% if vacancy.picture %}
+                <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+                {% else %}
+                <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+                {% endif %}
+              </div>
+
+              <div class="col-md-8">
+                {% if vacancy.type == 'student' %}
+                  <span class="vacancy-label">Student project</span>
+                {% else %}
+                  <span class="vacancy-label">Vacancy</span>
+                {% endif %}
+                <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
+                  {{ vacancy.title }}
+                </a></h3>
+
+                <p>{{ vacancy.description }}</p>
+
+                <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
+              </div>
           </div>
-
-          <div class="col-md-8">
-            {% if vacancy.type == 'student' %}
-              <span class="vacancy-label">Student project</span>
-            {% else %}
-              <span class="vacancy-label">Vacancy</span>
-            {% endif %}
-            <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
-              {{ vacancy.title }}
-            </a></h3>
-
-            <p>{{ vacancy.description }}</p>
-
-            <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
-          </div>
-        </div>
-        {% endif %}
       {% endif %}
     {% endfor %}
 
