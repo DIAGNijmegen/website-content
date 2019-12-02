@@ -1,7 +1,7 @@
 title: Muscle ultrasound classification
-finished: false
+finished: true
 type: general
-description: For the Neurophysiology department we are developing an algorithm for the identification of abnormal muscle tissue in ultrasound images of the tibialis anterior.
+description: For the Neurophysiology department we have developed an algorithm for the identification of abnormal muscle tissue in ultrasound images of the tibialis anterior.
 template: project-single
 groups: rtc
 picture: projects/muscle-us.png
@@ -14,4 +14,4 @@ Ultrasound is a non-invasive imaging technique that is increasingly used to diag
 Currently, a manual ROI is drawn in each image by a technician and the mean pixel value in the ROI averaged over the three images is used to obtain a 'Z-score'. The Z-score is compared to a curve that shows the average Z-score of a healthy subject for a given age. If the Z-score is two standard deviations or more above the curve it is considered abnormal. The creation of such curves is time-consuming and expensive. Automatic analysis of the entire images could possibly be used to distinguish between abnormal and healthy subjects, negating the use of manual interaction and standard curves.
 <br>
 
-The RTC Deep Learning is developing an algorithm for the classification of ultrasound images of the tibialis anterior muscle.
+The RTC Deep Learning has developed an algorithm for the binary classification of ultrasound images of the tibialis anterior muscle. We are looking at the possibility of further extending this to classifying a combination of ultrasound images obtained from different muscle groups of the same individual.
