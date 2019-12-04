@@ -138,9 +138,9 @@
             <div class="row vacancy">
               <div class="col-md-4">
                 {% if vacancy.picture %}
-                <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+                <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
                 {% else %}
-                <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+                <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{SITE_PICTURE}}">
                 {% endif %}
               </div>
 
