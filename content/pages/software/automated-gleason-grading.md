@@ -17,9 +17,7 @@ The algorithm we developed is available to try out online, without any requireme
 
 ## Trying out the algorithm
 
-Our trained system can be tried out online through the [Grand Challenge Algorithms](https://grand-challenge.org/algorithms/) platform. All processing is performed on the platform; there is no specialized hardware required to try out our algorithm. Running the algorithm requires an account for Grand Challenge. If you don't have an account yet, you can register at the [website](https://grand-challenge.org/accounts/signin/); alternatively, you can log in using a Google account.
-
-After registering for a new account, or logging in to an existing Grand Challenge account, you can request access to the algorithm. For now, requesting access can be done by sending an email to [member/wouter-bulten].
+Our trained system can be tried out online through the [Grand Challenge Algorithms](https://grand-challenge.org/algorithms/) platform. All processing is performed on the platform; there is no specialized hardware required to try out our algorithm. Running the algorithm requires an account for Grand Challenge. If you don't have an account yet, you can register at the [website](https://grand-challenge.org/accounts/signin/); alternatively, you can log in using a Google account. After registering for a new account, or logging in to an existing Grand Challenge account, you can request access to the algorithm.
 
 The algorithm can be run with a minimum of one biopsy, supplied in a multiresolution tiff file. We assume that the following magnification levels are available in the slide (measured in &mu;m pixel spacing): 0.5, 1.0, and 2.0 (with a small tolerance).
 
