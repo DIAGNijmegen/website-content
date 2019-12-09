@@ -18,6 +18,10 @@
     <link rel="canonical" href="{{ SITEURL }}/hightlights/">
     {% endif %}
 
+    {% if page and page.redirect %}
+    <meta http-equiv="refresh" content="0; URL={{ page.redirect }}" />
+    {% endif %}
+
     {% include "blocks/feeds.html" %}
 
     <title>{% block title %}{{ SITENAME }}{% endblock title %}{% if page and page.template != 'home' %} - {{ SITENAME }}{% endif %}</title>
