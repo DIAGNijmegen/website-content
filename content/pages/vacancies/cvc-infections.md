@@ -1,6 +1,6 @@
 title: PhD position for Predictive Modeling in the Intensive Care Unit
 groups: ai-for-health 
-closed: false
+closed: true
 type: general
 picture: vacancies/cvc.jpg
 people: Tim Frenzel, Jeroen Schouten, Marcel van Gerven, Hans van der Hoeven, Luca Ambrogioni

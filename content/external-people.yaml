@@ -265,7 +265,7 @@ people:
     url: https://www.linkedin.com/in/ruben-kluge-21472496/
     picture:
   - name: Josien Visschedijk
-    position: Master student
+    position: Bachelor student
     affiliation: Computer Science, Radboud University
     url: https://www.linkedin.com/in/josien-visschedijk-930066b2/?originalSubdomain=nl
     picture: people/external/Josien_Visschedijk.jpg
@@ -319,4 +319,23 @@ people:
     affiliation: Data Science, Radboud University
     url: https://nl.linkedin.com/in/ioangabrielbucur
     picture: people/external/Gabriel_Bucur.jpg
-    
+  - name: Ruud van Kaam
+    position: PhD student 
+    affiliation: Intensive Care Medicine, Radboudumc
+    url: https://www.linkedin.com/in/ruud-van-kaam-1b908b7b/
+    picture: people/external/Ruud_van_Kaam.jpg
+  - name: Kirsten Kluivers
+    position: Urogynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/kirsten-kluivers
+    picture: people/external/Kirsten_Kluivers.jpg
+  - name: Marieke Claas-Quax
+    position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: 
+    picture: people/external/Marieke_Claas_Quax.jpg
+  - name: Evi Sijben
+    position: Master student
+    affiliation: Data Science, Radboud University
+    url: https://www.linkedin.com/in/evisijben/
+    picture: people/external/Evi_Sijben.jpg
