@@ -5,6 +5,7 @@ description: Automated analysis of prostate biopsies following the Gleason gradi
 groups: pathology, diag
 people: Wouter Bulten, Geert Litjens, Hans Pinckaers, Thomas de Bel, Christina Hulsbergen-van de Kaa, Robert Vink, Hester van Boven, Jeroen van der Laak, Bram van Ginneken
 bibkeys: bult19b, bult19, Bel19, Band17
+openseadragon: true
 
 The **Gleason score** is the most important prognostic marker for prostate cancer patients but suffers from significant inter-observer variability. We developed a **fully automated system using deep learning** that can grade prostate biopsies following the Gleason Grading System. A description of our method and research can be found in the paper: [Automated deep learning system for Gleason grading of prostate biopsies: a development and validation study](https://arxiv.org/abs/1907.07980). A summary is available in a [blog post on our study](https://www.wouterbulten.nl/blog/tech/automated-gleason-grading-deep-learning/).
 
@@ -14,6 +15,19 @@ The algorithm we developed is available to try out online, without any requireme
   <img data-src="/images/software/gleason_segmentation_overlays_small.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorithm.">
   <figcaption class="figure-caption">Three examples showing the output of the Gleason algorithm. The algorithm marks glands in green (benign), yellow (Gleason 3), orange (Gleason 4) or red (Gleason 5).</figcaption>
 </figure>
+
+## Online examples
+
+The two examples below show the raw output of the algorithm, without any post-processing, overlayed on biopsies. Benign tissue is colored green, Gleason 3 in yellow, Gleason 4 in orange and Gleason 5 in red. The original biopsy is shown on the left, the biopsy with overlay on the right. You can zoom in by scrolling, moving around can be done with click&drag.
+
+<div class="row my-4">
+  <div class="col-md-6">
+    <div id="openseadragon1" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
+  </div>
+  <div class="col-md-6  ">
+    <div id="openseadragon2" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
+  </div>
+</div>
 
 ## Trying out the algorithm
 
@@ -63,3 +77,18 @@ Please refer to any of the following sources for more information:
 - This algorithm is part of the [Deep PCA](/projects/deeppca) research project.
 
 Further questions regarding the Gleason grading system can be addressed to [member/wouter-bulten].
+
+<script type="text/javascript">
+function loadDzi() {
+  var viewer = OpenSeadragon({
+    id: "openseadragon1",
+    prefixUrl: "/dzi/images/",
+    tileSources: "/dzi/gleason_example_1_512.dzi"
+  });
+  var viewer2 = OpenSeadragon({
+    id: "openseadragon2",
+    prefixUrl: "/dzi/images/",
+    tileSources: "/dzi/gleason_example_2_1024.dzi"
+  });
+}
+</script>
