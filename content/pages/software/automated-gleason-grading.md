@@ -11,11 +11,18 @@ The **Gleason score** is the most important prognostic marker for prostate cance
 
 The algorithm we developed is available to try out online, without any requirements on deep learning hardware.
 
+1. [Online examples](#examples)
+2. [Try out the algorithm](#try-out)
+3. [Pipeline](#pipeline)
+4. [Terms & Conditions](#terms)
+5. [More information](#info)
+
 <figure class="figure my-4">
   <img data-src="/images/software/gleason_segmentation_overlays_small.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorithm.">
   <figcaption class="figure-caption">Three examples showing the output of the Gleason algorithm. The algorithm marks glands in green (benign), yellow (Gleason 3), orange (Gleason 4) or red (Gleason 5).</figcaption>
 </figure>
 
+<a name="examples"></a>
 ## Online examples
 
 The two examples below show the raw output of the algorithm, without any post-processing, overlayed on biopsies. Benign tissue is colored green, Gleason 3 in yellow, Gleason 4 in orange and Gleason 5 in red. The original biopsy is shown on the left, the biopsy with overlay on the right. You can zoom in by scrolling, moving around can be done with click&drag.
@@ -29,6 +36,7 @@ The two examples below show the raw output of the algorithm, without any post-pr
   </div>
 </div>
 
+<a name="try-out"></a>
 ## Trying out the algorithm
 
 Our trained system can be tried out online through the [Grand Challenge Algorithms](https://grand-challenge.org/algorithms/) platform. All processing is performed on the platform; there is no specialized hardware required to try out our algorithm. Running the algorithm requires an account for Grand Challenge. If you don't have an account yet, you can register at the [website](https://grand-challenge.org/accounts/signin/); alternatively, you can log in using a Google account. After registering for a new account, or logging in to an existing Grand Challenge account, you can request access to the algorithm.
@@ -39,6 +47,7 @@ The algorithm can be run with a minimum of one biopsy, supplied in a multiresolu
 
 <small class="text-muted">Before submitting, please take our <a href="#terms">Terms & Conditions</a> in to account.</small>
 
+<a name="pipeline"></a>
 ## Description of the pipeline
 
 The online Gleason grading algorithm consists of multiple steps to prepare and analyze the data:
@@ -68,6 +77,7 @@ When submitting data to the algorithm, please take the following into account:
 4. All input images should contain magnification levels that correspond to a 0.5, 1.0, and 2.0&mu;m pixel spacing (&plusmn; 0.05). The algorithm will stop if any of the input images miss one or more of these levels.
 5. Following the Terms & Conditions of the Grand-Challenge platform, submitted data can be used for future research projects. We assume that submitted data has been anonymized and that you, as a submitter, have the right to submit the image.
 
+<a name="info"></a>
 ## More information
 
 Please refer to any of the following sources for more information:
