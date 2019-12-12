@@ -93,3 +93,4 @@ PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "boo
 
 # Other
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
+STATIC_PATHS = ['images', 'dzi']
