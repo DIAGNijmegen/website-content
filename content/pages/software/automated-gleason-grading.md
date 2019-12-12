@@ -83,7 +83,7 @@ function loadDzi() {
   var viewer = OpenSeadragon({
     id: "openseadragon1",
     prefixUrl: "/dzi/images/",
-    tileSources: "/dzi/gleason_example_1_512.dzi"
+    tileSources: "/dzi/gleason_example_1_1024.dzi"
   });
   var viewer2 = OpenSeadragon({
     id: "openseadragon2",
