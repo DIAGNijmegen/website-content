@@ -5,6 +5,7 @@ picture: people/Nikolas_Lessmann.jpg
 position: Postdoctoral researcher
 active: yes
 groups: diag
+default_group: diag
 email: nikolas.lessmann@radboudumc.nl
 office: Route 767, Room 27
 type: phd

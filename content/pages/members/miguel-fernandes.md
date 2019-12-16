@@ -5,6 +5,7 @@ picture: people/Miguel_Fernandes.jpg
 position: PhD candidate
 active: yes
 groups: diag, aiimnijmegen
+default_group: aiimnijmegen
 email: miguel.fernandes@radboudumc.nl
 type: phd
 

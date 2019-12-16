@@ -5,6 +5,7 @@ picture: people/Germonda_Mooij.jpg
 position: Master student
 active: no
 groups: diag, pathology
+default_group: pathology
 email: germonda.mooij@radboudumc.nl
 office: Route 812, room 2.39
 type: student

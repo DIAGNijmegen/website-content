@@ -4,7 +4,8 @@ template: people-single
 picture: people/Fazael_Ayatollahi.jpg
 position: PhD candidate
 active: yes
-groups: aiimnijmegen
+groups: diag, aiimnijmegen
+default_group: aiimnijmegen
 email: fazael.ayatollahi@radboudumc.nl
 type: phd
 

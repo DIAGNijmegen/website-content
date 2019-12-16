@@ -5,6 +5,7 @@ picture: people/Paul_Konstantin_Gerke.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse
+default_group: rse
 email: paul.gerke@radboudumc.nl
 office: Route 767, Room 2.25
 telephone:

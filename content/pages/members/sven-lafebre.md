@@ -5,6 +5,7 @@ picture: people/Sven_Lafebre.jpg
 position: Research Software Engineer
 active: no
 groups: diag, rse
+default_group: rse
 email: 
 office: 
 telephone:

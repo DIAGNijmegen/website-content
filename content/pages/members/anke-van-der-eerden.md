@@ -5,6 +5,7 @@ picture: people/Anke_van_der_Eerden_bw.jpg
 position: PhD student
 active: yes
 groups: diag, neuro
+default_group: neuro
 email: anke.vandereerden@radboudumc.nl
 office: Route 767
 type: phd

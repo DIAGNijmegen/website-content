@@ -5,6 +5,7 @@ picture: people/Cristina_Gonzalez_Gonzalo.jpg
 position: PhD student
 active: yes
 groups: diag, retina
+default_group: retina
 email: cristina.gonzalezgonzalo@radboudumc.nl
 office: Route 767, Room 23
 type: phd

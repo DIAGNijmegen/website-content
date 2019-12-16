@@ -4,7 +4,8 @@ template: people-single
 picture: people/Midas_Meijs.jpg 
 position: PhD student 
 active: yes 
-groups: diag, neuro 
+groups: diag, neuro
+default_group: neuro
 email: midas.meijs@radboudumc.nl 
 office: Route 767, Room 23 
 telephone: +31 24 3655973 

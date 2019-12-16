@@ -5,6 +5,7 @@ picture: people/Mike_Overkamp.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse, radiology
+default_group: rse
 email: mike.overkamp@radboudumc.nl
 office: Route 767, Room 2.25
 telephone:

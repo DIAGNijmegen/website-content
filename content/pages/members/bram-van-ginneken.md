@@ -5,6 +5,7 @@ picture: people/Bram_van_Ginneken.jpg
 position: Professor
 active: yes
 groups: diag, rtc
+default_group: diag
 email: bram.vanginneken@radboudumc.nl
 office: Route 767, Room 29
 telephone:

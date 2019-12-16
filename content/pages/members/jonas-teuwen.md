@@ -5,6 +5,7 @@ picture: people/Jonas_Teuwen.jpg
 position: Assistant professor
 active: yes
 groups: diag, aiimnijmegen
+default_group: aiimnijmegen
 email: jonas.teuwen@radboudumc.nl
 office: Route 767, Room 27
 type: faculty

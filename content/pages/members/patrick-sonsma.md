@@ -5,6 +5,7 @@ picture: people/Patrick_Sonsma.jpg
 position: Master student
 active: no
 groups: diag, pathology
+default_group: pathology
 email: patrick.sonsma@radboudumc.nl
 office: Route 812, room 2.39
 type: student

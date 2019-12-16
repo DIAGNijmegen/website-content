@@ -5,6 +5,7 @@ picture: people/Rita_Bijlsma.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse
+default_group: rse
 email: Rita.Bijlsma@radboudumc.nl
 linkedin: https://www.xing.com/profile/Rita_Bylsma
 office: Route 767, Room 25

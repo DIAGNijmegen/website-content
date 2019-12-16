@@ -5,6 +5,7 @@ picture: people/Matthieu_Rutten.jpg
 position: Associate professor
 active: yes
 groups: diag
+default_group: diag
 email: matthieu.rutten@radboudumc.nl
 office: Route 766, Room 27
 telephone:

@@ -5,6 +5,7 @@ picture: people/Kevin_Koschmieder_bw.jpg
 position: PhD student
 active: yes
 groups: diag, neuro
+default_group: neuro
 email: kevin.koschmieder@radboudumc.nl
 office: Route 767, Room 32
 type: phd

@@ -5,6 +5,7 @@ picture: people/Freerk_Venhuizen.jpg
 position: PhD student
 active: no
 groups: diag, retina
+default_group: retina
 type: phd
 linkedin: https://www.linkedin.com/in/freerkvenhuizen/
 

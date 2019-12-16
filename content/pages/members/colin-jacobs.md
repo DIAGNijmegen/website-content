@@ -5,6 +5,7 @@ picture: people/Colin_Jacobs.jpg
 position: Assistant Professor / Research Software Engineer
 active: yes
 groups: diag, rse
+default_group: diag
 email: colin.jacobs@radboudumc.nl
 office: Route 767, Room 2.30
 telephone: +31 24 3614766

@@ -5,6 +5,7 @@ picture: people/Ecem_Lago.jpg
 position: PhD student
 active: yes
 groups: diag
+default_group: diag
 email: ecem.sogancioglu@radboudumc.nl
 office: Route 767, Room 23
 type: phd

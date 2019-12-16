@@ -5,6 +5,7 @@ picture: people/Keelin_Murphy.jpg
 position: Postdoctoral researcher
 active: yes
 groups: diag
+default_group: diag
 email: 
 office: 
 telephone: +35 3876292652

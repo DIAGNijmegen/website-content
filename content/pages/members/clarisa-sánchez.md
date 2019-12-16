@@ -6,6 +6,7 @@ picture: people/Clarisa_Sánchez.jpg
 position: Associate professor
 active: yes
 groups: diag, retina
+default_group: retina
 email: clara.sanchezgutierrez@radboudumc.nl
 office: Route 767, Room 31
 telephone:

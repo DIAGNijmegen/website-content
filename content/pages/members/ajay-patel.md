@@ -5,6 +5,7 @@ picture: people/Ajay_Patel2.jpg
 position: Coordinator RTC Deep Learning
 active: yes
 groups: diag, neuro, rtc
+default_group: rtc
 email: ajay.patel@radboudumc.nl
 office: Route 767, Room 27
 type: phd

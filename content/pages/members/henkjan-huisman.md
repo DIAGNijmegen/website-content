@@ -5,6 +5,7 @@ picture: people/Henkjan_Huisman.jpg
 position: Associate professor
 active: yes
 groups: diag
+default_group: diag
 email: henkjan.huisman@radboudumc.nl
 office: Route 767, Room 30
 type: faculty

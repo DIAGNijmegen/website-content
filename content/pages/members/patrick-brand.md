@@ -5,6 +5,7 @@ picture: people/Patrick_Brand.jpg
 position: PhD student
 active: yes
 groups: diag
+default_group: diag
 email: patrick.brand@radboudumc.nl
 office: Route 767
 type: phd

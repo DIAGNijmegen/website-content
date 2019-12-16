@@ -5,6 +5,7 @@ picture: people/Coen_de_Vente.jpg
 position: PhD student
 active: yes
 groups: diag, retina
+default_group: retina
 email: coen.devente@radboudumc.nl
 office: Route 767, Room 32
 type: phd
