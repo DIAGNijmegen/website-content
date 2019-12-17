@@ -3,7 +3,7 @@ groups: ai-for-health
 finished: false
 type: general
 picture: projects/msk_lbp.jpg
-people: Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
+people: Jasper van der Graaf, Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
 template: project-single
 description: The aim of this project is to develop AI-based MRI analysis software to help provide treatment decision support in patients with chronic degenerative low back pain.
 
