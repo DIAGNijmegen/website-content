@@ -7,6 +7,7 @@ SIZE_TO_WIDTH_MAPPING = {
     'small': '320',
     'medium': '480',
     'large': '768',
+    'full': 'full',
 }
 
 def get_resized_image(path, size):
