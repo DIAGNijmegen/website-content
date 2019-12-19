@@ -2,7 +2,7 @@ title: Development and validation of a deep-learning system for wisdom tooth rem
 finished: false 
 type: general 
 picture: vacancies/wisdomteeth.jpg 
-people: Shankeeth Vinayahalingam, Thomas Maal, Tong Xi, Guido de Jong, Hossein Ghaeminia, Gilles Claeys, Bram van Ginneken, Stefaan Bergé
+people: Shankeeth Vinayahalingam, Thomas Maal, Tong Xi, Guido de Jong, Hossein Ghaeminia, Bram van Ginneken, Stefaan Bergé
 description: The aim of this project is to develop a deep-learning system that can predict, on the basis of clinical information, panoramic radiographs, and possibly cone-beam CT, if wisdom tooth removal is recommended.
 template: project-single 
 groups: ai-for-health
