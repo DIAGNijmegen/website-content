@@ -71,7 +71,7 @@ The training time of the normalization algorithm is independent of the number of
 
 When submitting data to the algorithm, please take the following into account:
 
-1. The use of the algorithm is for meant for research purposes only. The algorithm was trained on data from a single center, and can give the wrong diagnosis on external data. We give no assurance on the correctness of the system's output.
+1. The use of the algorithm is meant for research purposes only. The algorithm was trained on data from a single center, and can give the wrong diagnosis on external data. We give no assurance on the correctness of the system's output.
 2. A custom normalization algorithm is trained on the input data, though this cannot overcome all stain and scanner differences. We limit the overall processing time of each job by setting an upper bound on the number of epochs the normalization algorithm is trained. Due to the limited processing time, in some cases the normalization technique can fail.
 3. We currently only support multiresolution .tif files as input.
 4. All input images should contain magnification levels that correspond to a 0.5, 1.0, and 2.0&mu;m pixel spacing (&plusmn; 0.05). The algorithm will stop if any of the input images miss one or more of these levels.
