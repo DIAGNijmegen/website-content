@@ -21,6 +21,10 @@ The lab profits from the AI expertise available within Radboudumc, such as the [
 * [Bram van Ginneken](http://www.diagnijmegen.nl/index.php/Bram_van_Ginneken), Professor of Medical Image Analysis, Radboudumc
 * [Elena Marchiori](http://www.cs.ru.nl/~elenam/), Professor of Machine Learning for Natural Sciences, Faculty of Science, Radboud University
 
+## Coordinator
+
+* [Ajay Patel](http://www.diagnijmegen.nl/index.php/Person?name=Ajay_Patel)
+
 ## Governing Board
 
 The governing board will be installed soon.
