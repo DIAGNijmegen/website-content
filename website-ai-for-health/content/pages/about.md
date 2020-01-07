@@ -23,7 +23,7 @@ The lab profits from the AI expertise available within Radboudumc, such as the [
 
 ## Coordinator
 
-* [Ajay Patel](http://www.diagnijmegen.nl/index.php/Person?name=Ajay_Patel)
+* [Ajay Patel](http://www.diagnijmegen.nl/index.php/Person?name=Ajay_Patel). Ajay coordinates all activities in AI for Health. For any questions, send him an email on aiforhealth@radboudumc.nl.  
 
 ## Governing Board
 
