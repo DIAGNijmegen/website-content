@@ -1,6 +1,6 @@
 title: Development and validation of machine-learning based histopathologic skin cancer diagnostics for real-world clinical practice
 groups: pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/skin.PNG
 template: vacancy-single
