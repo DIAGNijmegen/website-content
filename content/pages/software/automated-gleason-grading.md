@@ -41,7 +41,7 @@ The two examples below show the raw output of the algorithm, without any post-pr
 
 Our trained system can be tried out online through the [Grand Challenge Algorithms](https://grand-challenge.org/algorithms/) platform. All processing is performed on the platform; there is no specialized hardware required to try out our algorithm. Running the algorithm requires an account for Grand Challenge. If you don't have an account yet, you can register at the [website](https://grand-challenge.org/accounts/signin/); alternatively, you can log in using a Google account. After registering for a new account, or logging in to an existing Grand Challenge account, you can request access to the algorithm.
 
-The algorithm can be run with a minimum of one biopsy, supplied in a multiresolution tiff file. We assume that the following magnification levels are available in the slide (measured in &mu;m pixel spacing): 0.5, 1.0, and 2.0 (with a small tolerance).
+The algorithm can be run with a minimum of one biopsy, supplied in a multiresolution tiff file. For more details on how to generate such a file, see [below](#info). We assume that the following magnification levels are available in the slide (measured in &mu;m pixel spacing): 0.5, 1.0, and 2.0 (with a small tolerance). Note that the algorithm will provide two outputs, the first is the normalized version of the uploaded image, the second is the output of the Gleason grading system. To visualize the output of the Gleason grading system, press the second 'View input & output' button. You can download the processed results as well.
 
 <a href="https://grand-challenge.org/algorithms/gleason-grading-of-prostate-biopsies/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
@@ -85,6 +85,7 @@ Please refer to any of the following sources for more information:
 - A summary of the research can be found in our [blog post](https://www.wouterbulten.nl/blog/tech/automated-gleason-grading-deep-learning/).
 - The full paper can be read at *journal link follows*, a preprint is available on [arXiv](https://arxiv.org/abs/1907.07980/).
 - This algorithm is part of the [Deep PCA](/projects/deeppca) research project.
+- To generate a multi-resolution TIF file from proprietary WSI scanner formats, we recommend using the multiresolutionimageconverter command line tool which is provided with the [ASAP](https://computationalpathologygroup.github.io/ASAP/) package.
 
 Further questions regarding the Gleason grading system can be addressed to [member/wouter-bulten].
 
