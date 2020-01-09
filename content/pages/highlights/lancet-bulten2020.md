@@ -1,6 +1,6 @@
 title: Automated Gleason Grading of Prostate Biopsies using Deep Learning
 date: 2020-01-08
-description: The Gleason score suffers from significant inter-observer variability. This problem could be solved by the fully automated deep learning system developed by Wouter Bulten and his colleagues. Their work appeared online today in the The Lancet Oncology. 
+description: The Gleason score suffers from significant inter-observer variability. This problem could be solved by the fully automated deep learning system developed by Wouter Bulten and his colleagues. Their work appeared online today in The Lancet Oncology. 
 picture: news/lancet_I.png
 groups: diag, pathology
 
