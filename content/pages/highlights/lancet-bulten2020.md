@@ -14,8 +14,8 @@ The figure above depicts the development of the deep learning system. The author
 
 The developed system achieved a high agreement with the reference standard (quadratic kappa 0.918). In a separate observer experiment, the deep learning system outperformed 10 out of 15 pathologists in agreement with the reference standard. The system was validated on an external test set where it achieved an AUC of 0.977 on distinguishing between benign and malignant biopsies and an AUC of 0.871 using grade group 2 as a cut-off.
 
-Would you like to read more about the project on automated gleason grading or try Wouter's algorithm on your own data? Click [projects/automated-gleason-grading here].
 
+Click <a href="https://www.computationalpathologygroup.eu/software/automated-gleason-grading/">here</a> to try Wouter's algorithm on your own data and learn more about the project on automated Gleason grading.
 
 
 
