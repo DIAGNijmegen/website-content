@@ -5,40 +5,51 @@
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
     <div class="container">
-    <h1>{{ page.title }}</h1>
 
 
+    <h1>{{ page.title  }} this is text6  </h1>
+    
+    {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}
+    {% set years = [] %}    
+    {% set bib_keys = [] %}
 
-    {% set list_years = [] %}
-    {% set list_pub_type = [] %}
-
-
-    {% if bibkeys_html %}
-    {% for bibkey in bibkeys_html.keys() %}
-        {# Getting list of years #}
-        {% if bibkeys_html[bibkey]['year'] not in list_years %}
-            {% if list_years.append(bibkeys_html[bibkey]['year']) %}{% endif %}
-        {% endif %}
-        {# Getting list of pub_type #}
-        {% if bibkeys_html[bibkey]['pub_type'] not in list_pub_type %}
-            {% if list_pub_type.append(bibkeys_html[bibkey]['pub_type']) %}{% endif %}
-        {% endif %}
+    {% for person in pages|reverse %}
+	{% if person.parent.url == 'members/' %}
+	   {% set person_key = 'ja' %}  
+	   {% if person.pub_name %}
+		{% set person_key = person.pub_name.lower().replace(' ', '-') %}  
+	   {% else %}
+		{% set person_key = person.name.lower().replace(' ', '-') %}  
+	   {% endif %}
+	   {% if person_key in author_keys %}
+	   	{% for bibkey in author_keys[person_key]  %}
+			{% if bibkey not in bib_keys %}
+			    {% set _ = bib_keys.append(bibkey) %}
+			{% endif %}
+		{% endfor %}
+	   {% endif %}
+	{% endif %}
     {% endfor %}
-    {% endif %}
-    <style>
-      input[name="year-selection"]:checked + label {
-      font-weight: bold;
-      }
-      input[name="year-selection"]:hover + label {
-      font-weight: bold;
-      text-decoration: none;
-      }
 
+
+    {% for bibkey in bib_keys if bib_items[bibkey]['year'] not in years %}
+      {% set _ = years.append(bib_items[bibkey]['year']) %}
+    {% endfor %}
+
+    <style>
+	input[name="year-selection"]:checked + label {
+	    font-weight: bold;
+	}
+	input[name="year-selection"]:hover + label {
+	    font-weight: bold;
+	    text-decoration: none;
+	}
     </style>
+
     <div class="btn-group btn-group-toggle" data-toggle="buttons">
     {% set max_year = MAX_YEAR_PUB or 2012   %}
-    {% for cur_year in list_years|sort(reverse = True) if cur_year >= max_year  %}
-        {% if cur_year <= max_year %}
+    {% for cur_year in years|sort(reverse = True) if cur_year|int >= max_year  %}
+        {% if cur_year|int <= max_year %}
             {% set cur_year = max_year|string + ' and before' %}
         {% endif %}
     <input type="radio" name="year-selection" data-year="{{ cur_year }}" id="input_{{ cur_year }}" autocomplete="off" style="display: none">
@@ -47,40 +58,38 @@
     </label>
     {% endfor %}
     </div>
- 
-    {# Inpress keys should go here. To include "Accepted or to appear" section #}
 
     {# Lists the publications per year and organized by publication type #}
-    {% for cur_year in list_years|sort(reverse = True) %}
+    {% for cur_year in years|sort(reverse = True) %}
         <div data-year="{{ cur_year }}" class="publication-year">
             <h2>{{ cur_year }}</h2>
             {% for pub_type in list_pub_type %}
                 {% set found = { 'flag': false } %}
-                {% for bibkey in bibkeys_html.keys() %}
-                    {% if bibkeys_html[bibkey]['pub_type'] == pub_type and bibkeys_html[bibkey]['year'] == cur_year %}
+                {% for bibkey in bib_keys %}
+                    {% if bib_items[bibkey]['type'] == pub_type and bib_items[bibkey]['year']|int == cur_year|int %}
                         {% if found['flag'] == false %}
-                            {% if pub_type == '@Article' %}
+                            {% if pub_type == 'article' %}
                                 <h3>{{ 'Papers in international journals' }}</h3>
                             {% endif%}
-                            {% if pub_type == '@Preprint' %}
+                            {% if pub_type == 'preprint' %}
                                 <h3>{{ 'Preprints' }}</h3>
                             {% endif%}
-                            {% if pub_type == '@InProceedings' %}
+                            {% if pub_type == 'inproceedings' %}
                                 <h3>{{ 'Papers in conference proceedings' }}</h3>
                             {% endif%}
-                            {% if pub_type == '@Conference' %}
+                            {% if pub_type == 'conference' %}
                                 <h3>{{ 'Abstracts' }}</h3>
                             {% endif%}
-                            {% if pub_type in ['@PhdThesis', '@MastersThesis'] %}
+                            {% if pub_type in ['phdthesis', 'mastersthesis'] %}
                                 <h3>{{ 'Theses' }}</h3>
                             {% endif%}
-                            {% if pub_type in ['@Book', '@Other'] %}
+                            {% if pub_type in ['book', 'other'] %}
                                 <h3>{{ 'Other publications' }}</h3>
                             {% endif%}
                             <ul>
                             {% if found.update({'flag': true}) %}{% endif %}
                         {% endif %}
-                        {{ bibkeys_html[bibkey]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
+			{% include "blocks/publication-item.html" %}				
                     {% endif %}
                 {% endfor %}
                 {% if found['flag'] == true %}
@@ -90,7 +99,9 @@
         </div>
     {% endfor %}
 
+
     </div>
+
 
 <script type="text/javascript">
     var buttons = document.getElementsByName('year-selection');
@@ -120,4 +131,5 @@
   }
   buttons[0].click()
 </script>
+
 {% endblock %}
