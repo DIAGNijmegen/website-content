@@ -12,7 +12,7 @@ The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
-| 09-1-2020      | Shankeeth Vinayahalingam       | Development and validation of a deep-learning <br> system for wisdom tooth removal.   |
-| 16-1-2020   | Koen Dercksen        | Building multi-modal interactive health records.      |
-| 23-1-2020   | TBD   |        |
-| 30-1-2020   | TBD   |        |
+| 09-01-2020      | Shankeeth Vinayahalingam       | Development and validation of a deep-learning <br> system for wisdom tooth removal.   |
+| 16-01-2020   | Koen Dercksen        | Building multi-modal interactive health records.      |
+| 23-01-2020   | TBD   |        |
+| 30-01-2020   | TBD   |        |
