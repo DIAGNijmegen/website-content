@@ -16,4 +16,5 @@ The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc
 | 09-01-2020      | Shankeeth Vinayahalingam       | Development and validation of a deep-learning <br> system for wisdom tooth removal.   |
 | 16-01-2020   | Koen Dercksen        | Building multi-modal interactive health records.      |
 | 23-01-2020   | Tristan de Boer   | AI steered interventional MRI.       |
-| 30-01-2020   | TBD   |        |
+| 30-01-2020   | **Guest Speakers** <br> Francesco Ciompi <br> Wouter Bulten   |  <br> An introduction to Computational Pathology. <br> Automated Gleason Grading using Deep Learning.    |
+| 06-02-2020   | TBD   |        |
