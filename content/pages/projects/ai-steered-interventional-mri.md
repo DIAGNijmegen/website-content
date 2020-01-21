@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: projects/mri_intervention.jpg
 template: project-single
-people: Tristan de Boer, Henkjan Huisman, Patrick Brand
+people: Tristan de Boer, Henkjan Huisman, Patrick Brand, Elena Marchiori
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
 
 ## Background
