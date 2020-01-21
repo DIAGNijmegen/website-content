@@ -2,7 +2,7 @@ title: Automated prenatal ultrasound screening
 groups: ai-for-health 
 finished: false
 type: student
-picture: projects/prenatal-screening.jpg
+picture: vacancies/prenatal-screening.jpg
 template: project-single
 people: Martijn Schilpzand, Thomas van den Heuvel, Jeroen van Dillen, Chris de Korte, Bram van Ginneken
 description: Project aimed at development of deep learning algorithms for automated detection of twin pregnancies and placenta localization.
