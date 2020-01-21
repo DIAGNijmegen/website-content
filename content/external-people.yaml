@@ -344,3 +344,8 @@ people:
     affiliation: Radboudumc
     url: https://www.linkedin.com/in/jwvdg/
     picture: people/external/Jasper_van_der_Graaf.jpg
+  - name: Tim Kietzmann
+    position: Assistant professor
+    affiliation: Artificial Intelligence, Radboud University
+    url: https://www.ru.nl/english/people/kietzmann-t/
+    picture: people/external/Tim_Kietzmann.png
