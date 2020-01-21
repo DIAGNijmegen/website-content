@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/pdl1-project.png
 template: project-single
-people: Tristan Payer, Francesco Ciompi
+people: Tristan Payer, Francesco Ciompi, Tim Kietzmann
 description: Project aimed at development of deep learning algorithms for the (semi-) automated scoring of PD-L1 positive tumor cells, an established biomarker for immunotherapy treatment response in lung cancer patients.
 
 
