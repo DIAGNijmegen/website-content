@@ -1,6 +1,6 @@
 title: Automated prenatal ultrasound screening
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/prenatal-screening.jpg
 template: vacancy-single
