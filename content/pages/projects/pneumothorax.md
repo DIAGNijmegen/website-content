@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/pneumothorax.jpg
 template: project-single
-people:  Ruben Kluge, Ecem Lago, Erdi Calli, Bram van Ginneken, Keelin Murphy
+people:  Ruben Kluge, Ecem Lago, Erdi Calli, Bram van Ginneken, Keelin Murphy, Elena Marchiori
 description: Development of a system to detect pneumothorax in frontal chest radiographs.
 
 ## Background
