@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/prenatal-screening.jpg
 template: project-single
-people: Martijn Schilpzand, Thomas van den Heuvel, Jeroen van Dillen, Chris de Korte, Bram van Ginneken
+people: Martijn Schilpzand, Thomas van den Heuvel, Jeroen van Dillen, Chris de Korte, Bram van Ginneken, Tom Heskes
 description: Project aimed at development of deep learning algorithms for automated detection of twin pregnancies and placenta localization.
 
 ## Background
