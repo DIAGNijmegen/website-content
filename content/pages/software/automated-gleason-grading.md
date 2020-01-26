@@ -83,7 +83,7 @@ When submitting data to the algorithm, please take the following into account:
 Please refer to any of the following sources for more information:
 
 - A summary of the research can be found in our [blog post](https://www.wouterbulten.nl/blog/tech/automated-gleason-grading-deep-learning/).
-- The full paper can be read at *journal link follows*, a preprint is available on [arXiv](https://arxiv.org/abs/1907.07980/).
+- The paper can be read in the [Lancet Oncology](https://doi.org/10.1016/S1470-2045(19)30739-9), a preprint is available on [arXiv](https://arxiv.org/abs/1907.07980/).
 - This algorithm is part of the [Deep PCA](/projects/deeppca) research project.
 - To generate a multi-resolution TIF file from proprietary WSI scanner formats, we recommend using the multiresolutionimageconverter command line tool which is provided with the [ASAP](https://computationalpathologygroup.github.io/ASAP/) package.
 
