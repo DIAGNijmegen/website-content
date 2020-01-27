@@ -4,7 +4,7 @@ picture: software/automated_gleason_grading.png
 description: Automated analysis of prostate biopsies following the Gleason grading system.
 groups: pathology, diag
 people: Wouter Bulten, Geert Litjens, Hans Pinckaers, Thomas de Bel, Christina Hulsbergen-van de Kaa, Robert Vink, Hester van Boven, Jeroen van der Laak, Bram van Ginneken
-bibkeys: bult19b, bult19, Bel19, Band17
+bibkeys: Bult20, bult19, Bel19, Band17
 openseadragon: true
 
 The **Gleason score** is the most important prognostic marker for prostate cancer patients but suffers from significant inter-observer variability. We developed a **fully automated system using deep learning** that can grade prostate biopsies following the Gleason Grading System. A description of our method and research can be found in the paper: [Automated deep learning system for Gleason grading of prostate biopsies: a development and validation study](https://arxiv.org/abs/1907.07980). A summary is available in a [blog post on our study](https://www.wouterbulten.nl/blog/tech/automated-gleason-grading-deep-learning/).
