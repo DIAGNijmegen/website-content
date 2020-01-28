@@ -17,5 +17,5 @@ The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc
 | 16-01-2020   | Koen Dercksen        | Building multi-modal interactive health records.      |
 | 23-01-2020   | Tristan de Boer   | AI steered interventional MRI.       |
 | 30-01-2020   | **Guest Speakers** <br> Francesco Ciompi <br> Wouter Bulten   |  <br> An introduction to Computational Pathology. <br> Automated Gleason Grading using Deep Learning.    |
-| 06-02-2020   | TBD   |        |
+| 06-02-2020   | Tristan Payer   | AI-assisted PD-L1 scoring in lung cancer.       |
 | 13-02-2020   | Ruben Kluge  | Pneumothorax detection using Deep Learning.  |
