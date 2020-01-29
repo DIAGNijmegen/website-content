@@ -38,4 +38,4 @@ Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl
 
 ## Application
 
-All additional information about the vacancy can be obtained from [Dr. Jeroen van der Laak](mailto:jeroen.vanderlaak@radboudumc.nl) or [Prof. Dr. Iris Nagetgaal](mailto:iris.nagtegaal@radboudumc.nl) via +31 (0)6 15 89 16 07. Use the Apply button on [this page](Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/76181-phd-candidate-for-development-and-validation-of-machine-learning-based-histopathological-skin-) to apply for this position. This vacancy closes on **Februari 18**.
+All additional information about the vacancy can be obtained from [Dr. Jeroen van der Laak](mailto:jeroen.vanderlaak@radboudumc.nl) or [Prof. Dr. Iris Nagtegaal](mailto:iris.nagtegaal@radboudumc.nl) via +31 (0)6 15 89 16 07. Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/78681-postdoc-deep-learning-in-digital-gastrointestinal-pathology) to apply for this position. This vacancy closes on **Februari 18**.
