@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/facial-phenotyping.jpg
 template: vacancy-single
-people: Lex Dingemans, Luca Ambrogioni, Bert de Vries, Marcel van Gerven
+people: Lex Dingemans, Bert de Vries, Marcel van Gerven
 description: Development of a deep learning algorithm for learning face representations.
 
 ## Background
