@@ -12,11 +12,11 @@
         {% endfor %}
     </p>
   
-    {% if page.journal %}
+    {% if page.journal and page.year %}
     	<p>{{ page.journal }} ({{ page.year }})</p>
     {% endif %}
 
-    {% if not page.journal and page.booktitle %}
+    {% if not page.journal and page.booktitle and page.year %}
      	<p>{{ page.booktitle }} ({{ page.year }})</p>
     {% endif %}
 
