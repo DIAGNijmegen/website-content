@@ -20,13 +20,15 @@ def load_json2dict(json_path):
     
 
 def load_bibkeys(generator):
-    json_path = generator.settings['BIBKEYS_SRC']
-    all_json_path = './content/all_dict_pubs.json'
-    bibkeys = load_json2dict(json_path)
-    all_bibkeys = load_json2dict(all_json_path)
-    generator.context['bibkeys_html'] = bibkeys
-    generator.context['all_bibkeys_html'] = all_bibkeys 
-   
+
+    bibitems = load_json2dict('./content/bib/bibitems.json')
+    author_keys = load_json2dict('./content/bib/authorkeys.json')
+
+    print(len(bibitems))
+    print(len(author_keys))
+
+    generator.context['bib_items'] = bibitems
+    generator.context['author_keys'] = author_keys 
 
 def register():
     signals.generator_init.connect(load_bibkeys)

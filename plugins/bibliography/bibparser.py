@@ -4,12 +4,6 @@ import latexcodec
 import codecs
 import glob
 import os 
-import json
-import time
-import latexcodec
-import codecs
-import glob
-import os 
 
 def save_dict2json(json_path, dict_md5):
     with open(json_path, 'w') as fp:
@@ -234,17 +228,15 @@ def read_bibtex_file(filename):
             # update journal name
             if 'journal' in bib_item:
                 bib_item['journal'] = string_rules[bib_item['journal']].strip('_').replace('_', ' ') if bib_item['journal'] in string_rules else bib_item['journal']
-                bib_item['journal'].replace('{', '').replace('}', '')
-
-            if 'booktitle' in bib_item:
-                bib_item['booktitle'] = string_rules[bib_item['booktitle']].strip('_').replace('_', ' ') if bib_item['booktitle'] in string_rules else bib_item['booktitle']
-                bib_item['booktitle'] = bib_item['booktitle'].replace('{', '').replace('}', '')
 
             bib_item['author'] = list(map(parse_name, split_authors(bib_item['author'])))
             bib_item['authors'] = authors_to_string(bib_item['author'], bib_key)
-            
-            bib_item['title'] = bib_item['title'].replace('{', '').replace('}', '').replace('\\', '').strip(',')
 
+            if 'abstract' in bib_item:
+                bib_item['abstract'] = bib_item['abstract'].replace('{', '').replace('}', '').replace('\\', '').replace(':', '-')
+                
+            bib_item['title'] = bib_item['title'].replace('{', '').replace('}', '').replace('\\', '')
+                                                                                                      
             if 'copromotor' in bib_item:
                 try:
                     bib_item['author'] += list(map(parse_name, split_authors(bib_item['copromotor'])))
@@ -264,17 +256,18 @@ def read_bibtex_file(filename):
 
 # authors
 def get_list_researchers(members_path):
-    list_researchers = []
+    list_researchers = {}
     for people_md_path in glob.glob(members_path + '/*.md'):
         with open(people_md_path) as fp:
             # parse md file
-            tags = {line.split(':')[0]:line.split(':')[1].strip().lower().split() for line in (fp) if len(line.split(':')) > 1}
+            tags = {line.split(':')[0]:line.split(':')[1].strip().split() for line in (fp) if len(line.split(':')) > 1}
 
             # get publication name
-            research_name = [n.lower() for n in tags['pub_name']] if 'pub_name' in tags else [n.lower() for n in tags['name']]
-
+            research_name = [n for n in tags['pub_name']] if 'pub_name' in tags else [n for n in tags['name']]
+            name = '-'.join(tags['name'])
+            groups =  [group.strip(',')  for group in tags['groups']]
         # append researches 
-        list_researchers.append(research_name)    
+        list_researchers[name] = (research_name, groups)
     return list_researchers
 
 
@@ -284,9 +277,10 @@ def get_publications_by_author(bib_items, list_researchers, debug_args=None):
     debug=False
     for bib_key, bib_item in bib_items.items():
         authors = bib_item['author']
-        for researcher_name in list_researchers:
-            firstname = researcher_name[0]
-            lastnames = researcher_name[1:]
+        for name, value in list_researchers.items():
+            researcher_name, groups = value
+            firstname = researcher_name[0].lower()
+            lastnames = [n.lower() for n in researcher_name[1:]]
             
             if debug_args:
                 debug = True if bib_key == debug_args['bib_key'] and firstname == debug_args['firstname'] else False
@@ -294,9 +288,10 @@ def get_publications_by_author(bib_items, list_researchers, debug_args=None):
             if len(lastnames) > 1:
                 # This fixes issue #10 for lastnames connected with a dash (-)
                 lastnames.append('-'.join(lastnames))
+                
             for author_pub in authors:
                 if match_author_publication(firstname, lastnames, author_pub, bib_key):
-                    author_bibkeys.setdefault('-'.join(researcher_name), []).append(bib_key)
+                    author_bibkeys.setdefault(name, []).append(bib_key)
     return author_bibkeys
 
 
@@ -359,21 +354,85 @@ def match_author_publication(firstname, lastnames, author, bib_key):
         return False
     else:
         return False
-    
+
+
+
+"""
+
+MD files
+
+"""
+
+
+def save_md_file(output_path, md_content):
+    file = open(output_path, 'w', encoding='utf-8')
+    file.write(md_content)
+    file.close()
+   
+ 
+def create_author_md_files(author_bib_keys, list_researchers):
+    for name, bib_keys in author_bib_keys.items():
+        author_name = name.replace('_', ' ')
+        groups = list_researchers[name][1]
+        
+        md_string = 'title: Publications of ' + author_name.replace('-', ' ') + '\n'
+        md_string += 'template: publications-author\n'
+        md_string += 'author: ' + name +'\n'
+        md_string += 'author_name: ' + author_name.replace('-', ' ') + '\n'
+        md_string += 'groups: ' + ','.join(groups) + '\n'
+        md_string += 'bibkeys: ' + ','.join(bib_keys)
+        md_file_name = './content/pages/publications/' +  name.lower() + '.md'
+        save_md_file(md_file_name, md_string)
+       
+ 
+def create_publications_md(bib_items, author_bib_keys, list_researchers):
+    for bib_key, bib_item in bib_items.items():
+        diag_authors = []
+        groups = set()
+        for name, bib_keys in author_bib_keys.items():
+            for bkey in bib_keys:
+                if bib_key == bkey:
+                    diag_authors.append(name)
+                    for group in list_researchers[name][1]:
+                        groups.add(group)
+                    md_string = 'title: ' + bib_item['title'] + '\n'
+                    md_string += 'template: publication\n'
+                    md_string += 'bibkey: ' + bib_key + '\n'
+                    md_string += 'diag_authors: ' + ','.join(diag_authors) +'\n'
+                    md_string += 'groups: ' + ','.join(groups) + '\n'
+                    if 'journal' in bib_item:
+                        md_string += 'published in: \n' if 'journal' not in bib_item else 'journal: ' + bib_item['journal'] + '\n'
+
+                    if not 'journal' in bib_item and 'booktitle' in bib_item:
+                        md_string += 'booktitle: ' + bib_item['booktitle'] +'\n'
+
+                    md_string += 'pub_type: ' + bib_item['type'] +'\n' 
+                    if 'year' in bib_item:
+                        md_string += 'year: \n' if 'year' not in bib_item else 'year: ' + bib_item['year'] + '\n'
+                    if 'doi' in bib_item:
+                        md_string += 'doi: \n' if 'doi' not in bib_item else 'doi: ' + bib_item['doi'] + '\n'
+                    if 'url' in bib_item:
+                        md_string += 'url: \n' if 'url' not in bib_item else 'url: ' + bib_item['url'] + '\n'
+                    md_string += 'authors: ' + bib_item['authors'] + '\n'
+                    if 'abstract' in bib_item:
+                        md_string += '' if 'abstract' not in bib_item else bib_item['abstract']
+                    md_file_name = './content/pages/publications/' + bib_key + '.md'
+                    save_md_file(md_file_name, md_string)
+
+
 # get bib_items
 @timeit
 def run():
-    bib_items = read_bibtex_file('./content/diag.bib')
+    bib_items = read_bibtex_file('./content/bib/diag.bib')
     list_researchers = get_list_researchers('./content/pages/members/')  
     author_bib_keys = get_publications_by_author(bib_items, list_researchers)
-    save_dict2json('./content/bibitems.json', bib_items)
-    save_dict2json('./content/authorkeys.json', author_bib_keys)
-    return bib_items, author_bib_keys
+    save_dict2json('./content/bib/bibitems.json', bib_items)
+    save_dict2json('./content/bib/authorkeys.json', author_bib_keys)
+    return bib_items, list_researchers, author_bib_keys
 
 
 if __name__ == "__main__":
-    run()
-
-
-
-
+    bib_items, list_researchers, author_bib_keys = run()
+    create_author_md_files(author_bib_keys, list_researchers)
+    create_publications_md(bib_items, author_bib_keys, list_researchers)
+    	

@@ -7,19 +7,18 @@
     <div class="container">
 
 
-    <h1>{{ page.title  }} this is text6  </h1>
-    
+    <h1>{{ page.title  }} </h1>
+
     {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}
     {% set years = [] %}    
     {% set bib_keys = [] %}
-
     {% for person in pages|reverse %}
 	{% if person.parent.url == 'members/' %}
 	   {% set person_key = 'ja' %}  
 	   {% if person.pub_name %}
-		{% set person_key = person.pub_name.lower().replace(' ', '-') %}  
+		{% set person_key = person.pub_name.replace(' ', '-') %}  
 	   {% else %}
-		{% set person_key = person.name.lower().replace(' ', '-') %}  
+		{% set person_key = person.name.replace(' ', '-') %}  
 	   {% endif %}
 	   {% if person_key in author_keys %}
 	   	{% for bibkey in author_keys[person_key]  %}
@@ -98,8 +97,6 @@
             {% endfor %}
         </div>
     {% endfor %}
-
-
     </div>
 
 

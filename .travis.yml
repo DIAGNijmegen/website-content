@@ -5,8 +5,8 @@ build_defaults: &build_defaults
   python:
     - "3.6"
   script:
+    - bash parse_publications.sh
     - bash copy_content.sh
-    - bash generate_publications.sh
     - bash deploy.sh
   cache:
     - pip
