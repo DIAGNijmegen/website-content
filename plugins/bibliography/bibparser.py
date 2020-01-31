@@ -236,6 +236,9 @@ def read_bibtex_file(filename):
                 bib_item['abstract'] = bib_item['abstract'].replace('{', '').replace('}', '').replace('\\', '').replace(':', '-')
                 
             bib_item['title'] = bib_item['title'].replace('{', '').replace('}', '').replace('\\', '')
+
+            if 'year' not in bib_item:
+                bib_item['year'] = '0000'
                                                                                                       
             if 'copromotor' in bib_item:
                 try:
