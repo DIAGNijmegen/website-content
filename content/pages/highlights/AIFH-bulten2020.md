@@ -1,5 +1,5 @@
-title: The work of Wouter Bulten from the Computational Pathology Group on Automated Gleason Grading using Deep Learning was published in The Lancet Oncology 
-date: 2020-01-09
+title: The work of the Computational Pathology Group on Automated Gleason Grading using Deep Learning was published in The Lancet Oncology 
+date: 2020-02-03
 description: The Gleason score suffers from significant inter-observer variability. This problem could be solved by the fully automated deep learning system developed by Wouter Bulten and his colleagues. Their work appeared in The Lancet Oncology last month. 
 picture: news/lancet_I.png
 groups: ai-for-health
