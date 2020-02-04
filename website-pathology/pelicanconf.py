@@ -40,6 +40,9 @@ HOME_SECTIONS = ["Highlights", "Projects", "Members"]
 PATH = 'content'
 RELATIVE_URLS = False
 
+# Show pdf request on publication pages
+ENABLE_PUBLICATION_PDF_REQUEST = True
+
 TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = 'EN'
 ARTICLE_TRANSLATION_ID = None
