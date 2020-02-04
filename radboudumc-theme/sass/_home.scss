@@ -14,10 +14,16 @@ Styles of the home page.
 
 // Content blocks
 .block {
-  margin-bottom: 1em;
   padding: 3em 0 3em 0;
 
   border-bottom: 3px solid $gray-300;
+
+  &.block-gray {
+    background-color: $body-bg-darker;
+  }
+  &.block-white {
+    background-color: $white;
+  }
 }
 
 // First block on the home page
@@ -121,8 +127,14 @@ Styles of the home page.
     }
   }
 
+  .block-gray .vacancy {
+    background-color: $white; // Alternative color scheme for vacancy
+  }
+  .block-white .vacancy {
+    background-color: $body-bg-darker;
+  }
+
   .vacancy {
-    background-color: $white;
     padding: 2em 1em;
     margin-bottom: 15px;
   }

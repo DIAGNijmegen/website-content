@@ -4,7 +4,6 @@
 {% block content %}
 
 <div class="container-home">
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     {% if HOME_JUMBOTRON_LAYOUT == 'dense' %}
     <div class="jumbotron block-home block-home-dense {% if HOME_ALT_COLOR_SCHEME %}block-home-gray{% endif %}">
         <div class="container">
@@ -68,9 +67,11 @@
     </div>
     {% endif %}
 
+    {% set row_class = cycler('block-gray', 'block-white') %}
+
     {% if ARTICLE_TYPE in HOME_SECTIONS %}
         {% if articles %}
-        <div class="block">
+        <div class="block {{ row_class.next() }}">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 mb-4">
@@ -98,7 +99,7 @@
     {% endif %}
 
     {% if "Calendar" in HOME_SECTIONS %}
-    <div class="block">
+    <div class="block {{ row_class.next() }}">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-4">
@@ -126,7 +127,7 @@
     {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false'  %}
       {% if not ns.has_vacancy %}
         {% set ns.has_vacancy = True %}
-        <div class="block">
+        <div class="block {{ row_class.next() }}">
           <div class="container">
             <div class="row">
               <div class="col-md-12 mb-4"><h1>Vacancies &amp; Student projects</h1></div>
@@ -172,7 +173,7 @@
 
 
     {% if "Projects" in HOME_SECTIONS %}
-    <div class="block">
+    <div class="block {{ row_class.next() }}">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-4">
@@ -197,7 +198,7 @@
     {% endif %}
 
     {% if "Software" in HOME_SECTIONS %}
-    <div class="block">
+    <div class="block {{ row_class.next() }}">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-4">
@@ -222,22 +223,22 @@
     {% endif %}
 
     {% if "Members" in HOME_SECTIONS %}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 mb-4">
-                <h1>Members</h1>
-            </div
-        </div>
-    </div>
+    <div class="block {{ row_class.next() }}">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 mb-4">
+                  <h1>Members</h1>
+              </div
+          </div>
 
-    <div class="container">
-        <div class="row people-grid">
-        {% for person in pages %}
-            {% if person.active == 'yes' and person.parent.url == 'members/' %}
-                {% include "blocks/person-circle.html" %}
-            {% endif %}
-        {% endfor %}
-        </div>
+          <div class="row people-grid">
+          {% for person in pages %}
+              {% if person.active == 'yes' and person.parent.url == 'members/' %}
+                  {% include "blocks/person-circle.html" %}
+              {% endif %}
+          {% endfor %}
+          </div>
+      </div>
     </div>
     {% endif %}
 

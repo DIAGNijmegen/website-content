@@ -13,22 +13,22 @@ var fs = require('fs')
 // only X will be executed in parallel;
 // configured at the bottom
 var urls = [
-  {id: 'home', url: 'https://www.computationalpathologygroup.eu/'},
-  {id: 'index', url: 'https://www.computationalpathologygroup.eu/highlights/'},
-  {id: 'page', url: 'https://www.computationalpathologygroup.eu/contact/'},
-  {id: 'article', url: 'https://www.computationalpathologygroup.eu/highlights/mitosis-detection-in-he/'},
-  {id: 'people', url: 'https://www.computationalpathologygroup.eu/members/'},
-  {id: 'people-single', url: 'https://www.computationalpathologygroup.eu/members/jeroen-van-der-laak/'},
-  {id: 'projects', url: 'https://www.computationalpathologygroup.eu/projects/'},
-  {id: 'project-single', url: 'https://www.computationalpathologygroup.eu/projects/deeppca/'},
-  {id: 'software', url: 'https://www.computationalpathologygroup.eu/software/'},
-  {id: 'publications', url: 'https://www.computationalpathologygroup.eu/publications/'},
-  {id: 'publications-author', url: 'https://www.computationalpathologygroup.eu/publications/jeroen-van-der-laak/'},
-  {id: 'publication-thesis', url: 'https://www.computationalpathologygroup.eu/publications/bejn17a/'},
-  {id: 'publication', url: 'https://www.computationalpathologygroup.eu/publications/bejn18a/'},
-  {id: 'presentations', url: 'https://www.computationalpathologygroup.eu/presentations/'},
-  {id: 'presentation-single', url: 'https://www.computationalpathologygroup.eu/presentations/midl-streaming/'},
-  {id: 'thesis-gallery', url: 'https://www.computationalpathologygroup.eu/thesis-gallery//'},
+  {id: 'home', url: 'http://localhost:8000/'},
+  {id: 'index', url: 'http://localhost:8000/highlights/'},
+  {id: 'page', url: 'http://localhost:8000/contact/'},
+  {id: 'article', url: 'http://localhost:8000/highlights/mitosis-detection-in-he/'},
+  {id: 'people', url: 'http://localhost:8000/members/'},
+  {id: 'people-single', url: 'http://localhost:8000/members/jeroen-van-der-laak/'},
+  {id: 'projects', url: 'http://localhost:8000/projects/'},
+  {id: 'project-single', url: 'http://localhost:8000/projects/deeppca/'},
+  {id: 'software', url: 'http://localhost:8000/software/'},
+  {id: 'publications', url: 'http://localhost:8000/publications/'},
+  {id: 'publications-author', url: 'http://localhost:8000/publications/jeroen-van-der-laak/'},
+  {id: 'publication-thesis', url: 'http://localhost:8000/publications/bejn17a/'},
+  {id: 'publication', url: 'http://localhost:8000/publications/bejn18a/'},
+  {id: 'presentations', url: 'http://localhost:8000/presentations/'},
+  {id: 'presentation-single', url: 'http://localhost:8000/presentations/midl-streaming/'},
+  {id: 'thesis-gallery', url: 'http://localhost:8000/thesis-gallery//'},
 ];
 
 // recursively generates critical css for one url at the time,
@@ -39,7 +39,7 @@ function startNewJob () {
     // no more new jobs to process (might still be jobs currently in process)
     return Promise.resolve()
   }
-
+  
   console.log(`Processing ${current.id}`);
 
   return penthouse({
