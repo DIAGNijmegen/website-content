@@ -36,7 +36,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <a href="{{SITEURL}}/publications/{{ bibkey }}"><img class="card-img-top lazyload" data-src="{{ ('images/theses/' + coverpng) | resize_image('medium') }}" alt="{{ bibkeys_html[bibkey]['title_thesis'] }}"></a>
+                            <a href="{{SITEURL}}/publications/{{ bibkey }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/theses/' + coverpng) | resize_image('medium') }}" alt="{{ bibkeys_html[bibkey]['title_thesis'] }}"></a>
                         </div>
                     </div>
                     {% endif %}
