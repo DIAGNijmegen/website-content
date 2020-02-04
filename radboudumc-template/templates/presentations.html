@@ -20,7 +20,7 @@
                   <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('medium') }}" alt="{{ presentation.title }}"></a>
                   {% endif %}
 
-                  <div class="card-body" style="height: 210px">
+                  <div class="card-body">
                       <h5 class="card-title">{{ presentation.title }}</h5>
                       <p class="text-muted">{{ presentation.author_list }}</p>
                   </div>
