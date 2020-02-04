@@ -54,7 +54,7 @@
     <meta name="article:published_time" content="{{ article.date.isoformat() }}">
     {% endif %}
 
-    <style>
+    <!-- <style>
         {% if page %}
             /* above the fold for {{ page.template }} */
             {% include ["critical_css/" + page.template + ".css", "critical_css/home.css"] %}
@@ -67,7 +67,7 @@
         {% else %}
             /* no above the fold css for {{ page_name}} */
         {% endif %}
-    </style>
+    </style> -->
 
     <!-- Async load css -->
     <link href="{{SITEURL}}/theme/css/theme.min.css?v={% include 'blocks/css.version' %}" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'">

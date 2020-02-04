@@ -7,11 +7,6 @@ Styles of the home page.
 
 */
 
-// Home has custom styling on its container
-.content-home {
-  background-color: $body-bg-darker;
-}
-
 // Content blocks
 .block {
   padding: 3em 0 3em 0;
@@ -112,6 +107,10 @@ Styles of the home page.
 }
 
 .content-home {
+
+  // Remove site-wide bottom padding for homepage
+  padding-bottom: 0;
+
   // Alternative styles for highlights
   article {
     background-color: white;
