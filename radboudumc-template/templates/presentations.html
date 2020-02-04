@@ -12,22 +12,26 @@
 
     <div class="row">
         {% for presentation in pages | selectattr('date') | sort(attribute='date', reverse=True) if presentation.parent.url == 'presentations/' %}
-          <div class="col-md-4 mb-4">
+          <div class="{% if presentation.format == 'landscape' %}col-md-8{%else%}col-md-4{%endif%} my-3">
               <div class="card">
+                  {% if presentation.format == 'landscape' %}
+                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('large') }}" alt="{{ presentation.title }}"></a>
+                  {% else %}
                   <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('medium') }}" alt="{{ presentation.title }}"></a>
+                  {% endif %}
+
                   <div class="card-body" style="height: 210px">
                       <h5 class="card-title">{{ presentation.title }}</h5>
                       <p class="text-muted">{{ presentation.author_list }}</p>
                   </div>
                   <div class="card-footer" style="background: none">
-                      <a href="{{ SITEURL }}/{{ presentation.url }}" class="btn btn-primary">Abstract</a>
-                      <a href="{{ presentation.arxiv }}" class="btn btn-primary">arXiv</a>
+                      <a href="{{ SITEURL }}/{{ presentation.url }}" class="btn btn-link">Abstract</a>
+                      <a href="{{ presentation.arxiv }}" class="btn btn-link">arXiv</a>
                   </div>
               </div>
           </div>
         {% endfor %}
 
     </div>
-
 </div>
 {% endblock %}
