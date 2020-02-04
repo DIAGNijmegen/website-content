@@ -34,16 +34,9 @@
                     {% set coverpng = bibkeys_html[bibkey]['coverpng'] %}
                     {% set bibkey = bibkeys_html[bibkey]['coverpng'].replace('.png', '').lower() %}
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                         <div class="card">
                             <a href="{{SITEURL}}/publications/{{ bibkey }}"><img class="card-img-top" src="{{SITEURL}}/images/theses/{{ coverpng }}" alt="{{ bibkeys_html[bibkey]['title_thesis'] }}"></a>
-                            <div class="card-body" style="height: 170px">
-                                <h5 class="card-title"><a href="{{SITEURL}}/publications/{{ bibkey }}">{{ bibkeys_html[bibkey]['title_thesis'] }}</a></h5>
-                                <p class="text-muted">{{ bibkeys_html[bibkey]['author_name'] }}</p>
-                            </div>
-                            <div class="card-footer" style="background: none">
-                                <a href="{{SITEURL}}/publications/{{ bibkey }}" class="btn btn-primary">Read more</a>
-                            </div>
                         </div>
                     </div>
                     {% endif %}
