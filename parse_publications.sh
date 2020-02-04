@@ -2,4 +2,3 @@
 
 
 python plugins/bibliography/bibparser.py
-
