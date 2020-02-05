@@ -18,10 +18,10 @@ SITETITLE = 'Radboud AI for Health'
 SITELEAD = 'Radboud AI for Health is an ICAI lab where Radboud University and Radboudumc collaborate to create AI innovations in healthcare. We offer courses for professionals, BSc/MSc student projects and PhD projects.'
 SITE_PICTURE ='images/social/missing_picture_social.png'
 
-HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
+HOME_IMAGE = None
 HOME_IMAGE_CAPTION = 'example picture'
 
-TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
+TWITTER_URL = None
 FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 #PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
@@ -32,7 +32,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = []
+HOME_SECTIONS = ["News", "PageCards"]
 
 # URLs
 SITEURL = ''

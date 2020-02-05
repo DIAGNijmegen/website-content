@@ -8,10 +8,11 @@
     <div class="jumbotron block-home block-home-dense {% if HOME_ALT_COLOR_SCHEME %}block-home-gray{% endif %}">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="{% if HOME_IMAGE %}col-md-6{% else %}col-md-12{% endif %}">
                     <h1 class="display-title">{{SITENAME}}</h1>
                     <p class="lead">{{SITELEAD}}</p>
                 </div>
+                {% if HOME_IMAGE %}
                 <div class="col-md-6">
                     <figure>
                         {% if HOME_IMAGE == 'highlight' %}
@@ -23,6 +24,7 @@
                         {% endif %}
                     </figure>
                 </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -48,9 +50,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="{% if HOME_IMAGE %}col-md-6{% else %}col-md-12{% endif %}">
                     <p class="lead">{{SITELEAD}}</p>
                 </div>
+                {% if HOME_IMAGE %}
                 <div class="col-md-6">
                     <figure class="figure">
                       {% if HOME_IMAGE == 'highlight' %}
@@ -62,6 +65,7 @@
                       {% endif %}
                     </figure>
                 </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -79,19 +83,20 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 col-lg-9">
+                    <div class="{% if TWITTER_URL %}col-md-8 col-lg-9{% else %}col-md-12{% endif %}">
                         {% for article in articles[0:2] %}
                             {% include 'blocks/article-summary.html' %}
                         {% endfor %}
                         <p><a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}" class="btn btn-primary">All {{ ARTICLE_TYPE.lower() }}</a></p>
 
                     </div>
+                    {% if TWITTER_URL %}
                     <div class="col-md-4 col-lg-3">
                         <div class="twitter-embed">
                             <a class="twitter-timeline" data-height="615" data-chrome="transparent noheader nofooter" data-dnt="true" href="{{TWITTER_URL}}">Tweets by the group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
-
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -122,53 +127,55 @@
     </div>
     {% endif %}
 
-    {% set ns = namespace(has_vacancy=False, vacancies=0) %}
+    {% if "Vacancies" in HOME_SECTIONS %}
+      {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
-    {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false'  %}
-      {% if not ns.has_vacancy %}
-        {% set ns.has_vacancy = True %}
-        <div class="block {{ row_class.next() }}">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 mb-4"><h1>Vacancies &amp; Student projects</h1></div>
+      {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false'  %}
+        {% if not ns.has_vacancy %}
+          {% set ns.has_vacancy = True %}
+          <div class="block {{ row_class.next() }}">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 mb-4"><h1>Vacancies &amp; Student projects</h1></div>
+              </div>
+              {% endif %}
+
+              {% set ns.vacancies = ns.vacancies + 1 %}
+              {% if ns.vacancies <= 3 %}
+              <div class="row vacancy">
+                <div class="col-md-4">
+                  {% if vacancy.picture %}
+                  <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+                  {% else %}
+                  <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{SITE_PICTURE}}">
+                  {% endif %}
+                </div>
+
+                <div class="col-md-8">
+                  {% if vacancy.type == 'student' %}
+                    <span class="vacancy-label">Student project</span>
+                  {% else %}
+                    <span class="vacancy-label">Vacancy</span>
+                  {% endif %}
+                  <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
+                    {{ vacancy.title }}
+                  </a></h3>
+
+                  <p>{{ vacancy.description }}</p>
+
+                  <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
+                </div>
             </div>
-            {% endif %}
+        {% endif %}
+      {% endfor %}
 
-            {% set ns.vacancies = ns.vacancies + 1 %}
-            {% if ns.vacancies <= 3 %}
-            <div class="row vacancy">
-              <div class="col-md-4">
-                {% if vacancy.picture %}
-                <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
-                {% else %}
-                <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{SITE_PICTURE}}">
-                {% endif %}
-              </div>
-
-              <div class="col-md-8">
-                {% if vacancy.type == 'student' %}
-                  <span class="vacancy-label">Student project</span>
-                {% else %}
-                  <span class="vacancy-label">Vacancy</span>
-                {% endif %}
-                <h3><a href="{{ SITEURL }}/{{ vacancy.url }}" rel="bookmark" title="Permalink to {{ vacancy.title|striptags }}">
-                  {{ vacancy.title }}
-                </a></h3>
-
-                <p>{{ vacancy.description }}</p>
-
-                <p><a href="{{ SITEURL }}/{{ vacancy.url }}" class="btn btn-primary">More information</a></p>
-              </div>
+      {% if ns.has_vacancy %}
+          <div class="row">
+            <div class="col-md-12 mb-4"><a href="{{ SITEURL }}/vacancies" class="btn btn-primary">All vacancies ({{ ns.vacancies }})</a></div>
           </div>
-      {% endif %}
-    {% endfor %}
-
-    {% if ns.has_vacancy %}
-        <div class="row">
-          <div class="col-md-12 mb-4"><a href="{{ SITEURL }}/vacancies" class="btn btn-primary">All vacancies ({{ ns.vacancies }})</a></div>
         </div>
       </div>
-    </div>
+      {% endif %}
     {% endif %}
 
 
@@ -219,6 +226,32 @@
                 </div>
             </div>
         </div>
+    </div>
+    {% endif %}
+
+    {% if "PageCards" in HOME_SECTIONS %}
+    <div class="block {{ row_class.next() }}">
+      <div class="container">
+        <div class="row">
+        {% for card in pages %}
+          {% if card.type == 'card' %}
+          <div class="col-md-4">
+            <div class="card image-card lazyload" data-bg="{{ SITEURL}}/images/{{ card.picture }}">
+              {%if not card.disable_gradient %}
+                <div class="card-gradient"></div>
+              {% endif %}
+
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ SITEURL }}/{{ card.url }}">{{ card.title }}</a></h5>
+                <p class="card-text">{{ card.description }}</p>
+                <a href="{{ SITEURL }}/{{ card.url }}">Read more →</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
     </div>
     {% endif %}
 

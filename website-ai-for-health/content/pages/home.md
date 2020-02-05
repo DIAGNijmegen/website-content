@@ -1,6 +1,6 @@
 title: DIAG
 save_as:  index.html
-template: homemsc
+template: home
 
 <!---
 
