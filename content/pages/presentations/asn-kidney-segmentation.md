@@ -4,6 +4,7 @@ picture: posters/asn-hermsen.png
 author_list: Meyke Hermsen, Thomas de Bel, Marjolijn den Boer, Eric Steenbergen, Jesper Kers, Sandrine Florquin, Joris Roelofs, Mark Stegall, Mariam Alexander, Byron Smith, Bart Smeets, Luuk Hilbrands, Jeroen van der Laak
 groups: pathology
 date: 8-11-2019
+format: landscape
 
 Traditional quantitative assessment of renal tissue is often tedious and not robust to color variance. We trained a convolutional neural network (CNN) for multi-class segmentation of digitized periodic acid-Schiff (PAS)-stained renal tissue sections from multiple centers.
 
