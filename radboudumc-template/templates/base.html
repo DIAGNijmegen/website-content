@@ -94,7 +94,7 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{ GOOGLE_ANALYTICS }}');
+      gtag('config', '{{ GOOGLE_ANALYTICS }}',  { 'anonymize_ip': true });
     </script>
     {% endif %}
 </head>
@@ -104,7 +104,7 @@
     {% include "blocks/svg-definitions.html" %}
     {% include "blocks/nav-top.html" %}
 
-    <main role="main" class="content {% if page and (page.template == 'home' or page.template == 'homemsc') %}content-home{%endif%}">
+    <main role="main" class="content {% if page and page.template == 'home' %}content-home{%endif%}">
         {% block content %}
         {% endblock %}
     </main>
