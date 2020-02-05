@@ -15,6 +15,8 @@ else
   # Download bib file for publications
   curl -o $WEBSITE/content/diag.bib -u ${BIB_TOKEN} ${BIB_URL} #>/dev/null 2>&1
 
+  ls $WEBSITE/content/
+  
   # Run the bib plugin
   cd $WEBSITE
   python plugins/bib_writer.py
