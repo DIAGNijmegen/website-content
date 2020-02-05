@@ -12,8 +12,8 @@ else
   cp -r plugins/bibtex $WEBSITE/plugins
   cp plugins/bib_writer.py $WEBSITE/plugins/bib_writer.py
 
-  # Copy literature
-  cp content/diag.bib $WEBSITE/content/diag.bib
+  # Download bib file for publications
+  curl -o $WEBSITE/content/diag.bib -u ${BIB_TOKEN} ${BIB_URL} >/dev/null 2>&1
 
   # Run the bib plugin
   cd $WEBSITE
