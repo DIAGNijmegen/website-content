@@ -4,7 +4,7 @@ closed: false
 type: general
 picture: vacancies/postdoc-gastro.png
 template: vacancy-single
-people: Jeroen van der Laak, Francesco Ciompi, Iris Nagtegaal
+people: Jeroen van der Laak, Iris Nagtegaal
 description: Are you a creative researcher with a PhD degree in medical image analysis, computer vision, machine learning or similar? Do you want to contribute to the implementation of a algorithm-supported workflow for digital gastrointestinal pathology, which will increase the time of pathologists for complex diagnostics and reduce the wait time for patients? Then we are looking for you!
 
 ## Background
