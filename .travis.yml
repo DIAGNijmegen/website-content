@@ -2,8 +2,7 @@
 build_defaults: &build_defaults
   stage: build and deploy
   language: python
-  python:
-    - "3.6"
+  python: 3.6
   script:
     - bash copy_content.sh
     - bash generate_publications.sh
@@ -16,12 +15,12 @@ deploy_defaults: &deploy_defaults
     provider: pages
     repo: diagnijmegen/$WEBSITE
     skip-cleanup: true
-    keep-history: true
-    local-dir: $WEBSITE/output
-    target-branch: master
+    keep_history: true
+    local_dir: $WEBSITE/output
+    target_branch: master
     email: $WEBTEAM_EMAIL
     name: "Webteam DIAG Deploy Bot"
-    github-token: $GH_PAGES
+    token: $GH_PAGES
     "on":
       branch: master
 
@@ -119,8 +118,7 @@ jobs:
       if: branch = master
       script: bash ./optimize_images.sh
       language: node_js
-      node_js:
-        - 10.15
+      node_js: 10.15
       install:
         - npm install --prefix imgoptim --no-save
       cache:
