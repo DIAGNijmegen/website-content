@@ -13,8 +13,7 @@ else
   cp plugins/bib_writer.py $WEBSITE/plugins/bib_writer.py
 
   # Download bib file for publications
-  curl -o content/diag.bib -u ${BIB_TOKEN} ${BIB_URL} >/dev/null 2>&1
-  cp content/diag.bib $WEBSITE/content/diag.bib
+  curl -o $WEBSITE/content/diag.bib -u ${BIB_TOKEN} ${BIB_URL} >/dev/null 2>&1
 
   ls $WEBSITE/content/
 
