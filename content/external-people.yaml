@@ -359,3 +359,28 @@ people:
     affiliation: Neurology, Radboudumc
     url: https://www.radboudumc.nl/personen/nens-van-alfen
     picture: people/external/Nens_van_Alfen.jpg
+  - name: Alex Tichter
+    position: Master student
+    affiliation: Artificial Intelligence, Radboud University
+    url: 
+    picture: 
+  - name: Jan-Willem Wasmann
+    position: Medical physicist audiologist
+    affiliation: KNO, Radboudumc
+    url: https://www.radboudumc.nl/afdelingen/keel-neus-oorheelkunde/onze-onderdelen/hearing-implants/ci-team
+    picture: people/external/Jan-Willem_Wasmann.jpg
+  - name: Marc van Wanrooij
+    position: Assistant professor
+    affiliation: Department of Biophysics, Donders Institute for Brain, Cognition and Behaviour, Radboud University 
+    url: https://www.ru.nl/english/people/wanrooij-m-van/
+    picture: people/external/Marc_van_Wanrooij.png
+  - name: Yağmur Güçlütürk
+    position: Assistant professor
+    affiliation: Artificial Intelligence, Radboud University 
+    url: https://www.ru.nl/english/people/gucluturk-y/
+    picture: people/external/Yagmur_Gucluturk.png
+  - name: Umut Güçlü
+    position: Assistant professor
+    affiliation: Artificial Intelligence, Radboud University 
+    url: https://www.ru.nl/english/people/guclu-u/
+    picture: people/external/Umut_Guclu.png
