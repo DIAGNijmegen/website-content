@@ -1,4 +1,3 @@
-
 title: Simulated Prosthetic Hearing in deaf subjects
 groups: diag, ai-for-health
 finished: false
