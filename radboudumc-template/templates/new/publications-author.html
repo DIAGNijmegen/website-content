@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block content %}
+    {% include 'blocks/breadcrumbs.html' %}
+    <div class="container">
+    <h1>{{ page.title }}</h1>
+
+    <p class="my-4">
+        <a href="{{SITEURL}}/members/{{ page.author}}/">Back to page of {{ page.author_name}}</a>
+    </p>
+
+    {% set list_years = [] %}
+    {% set list_pub_type = [] %}
+
+    {%if bibkeys_html %}
+    {% for bibkey in bibkeys_html.keys() %}
+        {# Getting list of years #}
+        {% if bibkeys_html[bibkey]['year'] not in list_years %}
+            {% if list_years.append(bibkeys_html[bibkey]['year']) %}{% endif %}
+        {% endif %}
+        {# Getting list of pub_type #}
+        {% if bibkeys_html[bibkey]['pub_type'] not in list_pub_type %}
+            {% if list_pub_type.append(bibkeys_html[bibkey]['pub_type']) %}{% endif %}
+        {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {% for cur_year in list_years|sort(reverse = True) %}
+            {% set found_year = { 'flag': false } %}
+            {% for pub_type in list_pub_type %}
+                {% set found = { 'flag': false } %}
+                {% for bibkey in bibkeys_html.keys() %}
+                    {# TODO: Lazy code alert! I copied publications.html template and added page.bibkeys.split(',') to make this work for publications per researcher #}
+                    {% if bibkey in page.bibkeys.split(',') and bibkeys_html[bibkey]['pub_type'] == pub_type and bibkeys_html[bibkey]['year'] == cur_year %}
+                        {% if found_year['flag'] == false %}
+                            <h2>{{ cur_year }}</h2>
+                            {% if found_year.update({'flag': true}) %}{% endif %}
+                        {% endif %}
+                        {% if found['flag'] == false %}
+                            {% if pub_type == '@Article' %}
+                                <h3>{{ 'Papers in international journals' }}</h3>
+                            {% endif%}
+                            {% if pub_type == '@Preprint' %}
+                                <h3>{{ 'Preprints' }}</h3>
+                            {% endif%}
+                            {% if pub_type == '@InProceedings' %}
+                                <h3>{{ 'Papers in conference proceedings' }}</h3>
+                            {% endif%}
+                            {% if pub_type == '@Conference' %}
+                                <h3>{{ 'Abstracts' }}</h3>
+                            {% endif%}
+                            {% if pub_type in ['@PhdThesis', '@MastersThesis'] %}
+                                <h3>{{ 'Theses' }}</h3>
+                            {% endif%}
+                            {% if pub_type in ['@Book', '@Other'] %}
+                                <h3>{{ 'Other publications' }}</h3>
+                            {% endif%}
+                            <ul>
+                            {% if found.update({'flag': true}) %}{% endif %}
+                        {% endif %}
+                        {{ bibkeys_html[bibkey]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
+                    {% endif %}
+                {% endfor %}
+                {% if found['flag'] == true %}
+                    </ul>
+                {% endif %}
+            {% endfor %}
+    {% endfor %}
+
+    </div>
+{% endblock %}

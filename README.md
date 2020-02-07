@@ -29,7 +29,8 @@ Please see the [documentation](https://github.com/DIAGNijmegen/website-content/t
 
 To build a website:
 
-1. Run `build.sh`
+1. Run `./parse_publications.sh` to parse the .bib file.
+3. Run `WEBSITE=website-pathology ./copy_content.sh` to copy files for any website (pathology in this example).
 2. Run pelican in `website-pathology` (or any other website): `pelican --autoreload`
 3. Start the development server: `pelican --listen`
 
