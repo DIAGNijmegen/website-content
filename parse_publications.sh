@@ -1,4 +1,4 @@
 # #!/usr/bin/env bash
 
 
-python plugins/bibliography/bibparser.py
+python ./bibliography/bibparser.py

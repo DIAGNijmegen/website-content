@@ -5,6 +5,7 @@ import codecs
 import glob
 import os 
 
+
 def save_dict2json(json_path, dict_md5):
     with open(json_path, 'w') as fp:
         json.dump(dict_md5, fp)
@@ -26,7 +27,7 @@ def timeit(method):
             name = kw.get('log_name', method.__name__.upper())
             kw['log_time'][name] = int((te - ts) * 1000)
         else:
-            print('%r  %2.2f ms' % \
+            print('%r ran for  %2.2f ms' % \
                   (method.__name__, (te - ts) * 1000))
         return result
     return timed
@@ -39,13 +40,6 @@ def authors_to_string(names, bib_key):
         first, von, last, jr = name
         if first:
             first = first[0] + '.'
-#         if first:
-#             first = ''.join([f.strip('.').strip(',')[0].capitalize()+'.' for f in first.strip().replace('  ', ' ').split(' ')])
-#         if '.' in von:
-#             first = ''.join([first, *von.upper().split(' ')])
-#             von = ''
-#         if last:
-#             last = '-'.join([l.capitalize() for l in last.strip().split('-')])
         if idx == len(names)-2:
             d = ' and '
         if idx == len(names)-1:
@@ -229,16 +223,16 @@ def read_bibtex_file(filename):
             if 'journal' in bib_item:
                 bib_item['journal'] = string_rules[bib_item['journal']].strip('_').replace('_', ' ') if bib_item['journal'] in string_rules else bib_item['journal']
 
-            bib_item['author'] = list(map(parse_name, split_authors(bib_item['author'])))
-            bib_item['authors'] = authors_to_string(bib_item['author'], bib_key)
+            if 'author' in bib_item:
+                bib_item['author'] = list(map(parse_name, split_authors(bib_item['author'])))
+                bib_item['authors'] = authors_to_string(bib_item['author'], bib_key)
 
             if 'abstract' in bib_item:
-                bib_item['abstract'] = bib_item['abstract'].replace('{', '').replace('}', '').replace('\\', '').replace(':', '-')
+                bib_item['abstract'] = bib_item['abstract'].replace('{', '').replace('}', '').replace('\\', '')
                 
-            bib_item['title'] = bib_item['title'].replace('{', '').replace('}', '').replace('\\', '')
-
-            if 'year' not in bib_item:
-                bib_item['year'] = '0000'
+            if 'title' in bib_item:
+                bib_item['title'] = bib_item['title'].replace('{', '').replace('}', '').replace('\\', '')
+                bib_item['coverpng'] = bib_key[0].title() + bib_key[1:] + '.png'
                                                                                                       
             if 'copromotor' in bib_item:
                 try:
@@ -251,7 +245,9 @@ def read_bibtex_file(filename):
                     bib_item['author'] += list(map(parse_name, split_authors(bib_item['promotor'])))
                 except:
                     print('bib_key p', bib_key)
-#             if 'optnote' in bib_item and 'diag' in bib_item['optnote'].lower():
+
+            cover_path = bib_key[0].title() + bib_key[1:] + '.png'
+            bib_item['cover_exists'] = str(os.path.exists(os.path.join('.', 'content', 'images', 'theses', cover_path)))
 
             bib_items[bib_key.lower()] = bib_item
     return bib_items
@@ -357,7 +353,7 @@ def match_author_publication(firstname, lastnames, author, bib_key):
         return False
     else:
         return False
-
+    
 
 
 """
@@ -387,8 +383,9 @@ def create_author_md_files(author_bib_keys, list_researchers):
         md_file_name = './content/pages/publications/' +  name.lower() + '.md'
         save_md_file(md_file_name, md_string)
        
- 
-def create_publications_md(bib_items, author_bib_keys, list_researchers):
+    
+    
+def create_publication_md(bib_items, author_bib_keys, list_researchers):
     for bib_key, bib_item in bib_items.items():
         diag_authors = []
         groups = set()
@@ -398,44 +395,60 @@ def create_publications_md(bib_items, author_bib_keys, list_researchers):
                     diag_authors.append(name)
                     for group in list_researchers[name][1]:
                         groups.add(group)
+
                     md_string = 'title: ' + bib_item['title'] + '\n'
-                    md_string += 'template: publication\n'
-                    md_string += 'bibkey: ' + bib_key + '\n'
-                    md_string += 'diag_authors: ' + ','.join(diag_authors) +'\n'
-                    md_string += 'groups: ' + ','.join(groups) + '\n'
-                    if 'journal' in bib_item:
-                        md_string += 'published in: \n' if 'journal' not in bib_item else 'journal: ' + bib_item['journal'] + '\n'
-
-                    if not 'journal' in bib_item and 'booktitle' in bib_item:
-                        md_string += 'booktitle: ' + bib_item['booktitle'] +'\n'
-
-                    md_string += 'pub_type: ' + bib_item['type'] +'\n' 
-                    if 'year' in bib_item:
-                        md_string += 'year: \n' if 'year' not in bib_item else 'year: ' + bib_item['year'] + '\n'
-                    if 'doi' in bib_item:
-                        md_string += 'doi: \n' if 'doi' not in bib_item else 'doi: ' + bib_item['doi'] + '\n'
-                    if 'url' in bib_item:
-                        md_string += 'url: \n' if 'url' not in bib_item else 'url: ' + bib_item['url'] + '\n'
                     md_string += 'authors: ' + bib_item['authors'] + '\n'
-                    if 'abstract' in bib_item:
-                        md_string += '' if 'abstract' not in bib_item else bib_item['abstract']
+                    md_string += 'has_pdf: True \n' if 'file' in bib_item else 'has_pdf: False \n'
+                    md_string += 'bibkey: ' + bib_key + '\n'
+                    md_string += 'groups: ' + ','.join(groups) + '\n'
+                    md_string += 'booktitle: NA \n' if 'booktitle' not in bib_items else 'booktitle: ' + bib_item['booktitle'] +'\n'
+                    md_string += 'year: NA \n' if 'year' not in bib_item else 'year: ' + bib_item['year'] + '\n'
+                    md_string += 'doi: NA \n' if 'doi' not in bib_item else 'doi: ' + bib_item['doi'] + '\n'
+                    md_string += 'url: NA \n' if 'url' not in bib_item else 'url: ' + bib_item['url'] + '\n'
+
+
+                    if bib_item['type'] == 'phdthesis':
+                        md_string += 'template: publication-thesis\n'
+                        # TODO this is a hardcode capital first letter of bibkey
+                        cover_path = bib_key[0].title() + bib_key[1:] + '.png'
+                        md_string += 'coverpng: ' + cover_path + '\n'
+                        for k in 'promotor', 'copromotor', 'school', 'optmonth', 'year':
+                            if k in bib_item:
+                                md_string += k + ': ' + bib_item[k] + '\n'
+                        if 'url' in bib_item:
+                            md_string += 'urlweb: ' + bib_item['url'] + '\n'
+                    else:
+                        md_string += 'template: publication\n'
+                        md_string += 'diag_authors: ' + ','.join(diag_authors) +'\n'
+                        md_string += 'journal: NA \n' if 'journal' not in bib_item else 'journal: ' + bib_item['journal'] + '\n'
+
+                    md_string += '' if 'abstract' not in bib_item else bib_item['abstract']
                     md_file_name = './content/pages/publications/' + bib_key + '.md'
                     save_md_file(md_file_name, md_string)
+    
 
 
 # get bib_items
 @timeit
-def run():
-    bib_items = read_bibtex_file('./content/bib/diag.bib')
+def parse_bib_file():
+    print('parsing bib file...')
+    bib_items = read_bibtex_file('./content/diag.bib')
+    print('retreiving list of diag members')
     list_researchers = get_list_researchers('./content/pages/members/')  
+    print('mapping bib keys to authors')
     author_bib_keys = get_publications_by_author(bib_items, list_researchers)
+    print('saving bibitems.json')
     save_dict2json('./content/bib/bibitems.json', bib_items)
+    print('saving auhtorbibkeys.json')
+
     save_dict2json('./content/bib/authorkeys.json', author_bib_keys)
     return bib_items, list_researchers, author_bib_keys
 
 
 if __name__ == "__main__":
-    bib_items, list_researchers, author_bib_keys = run()
+    bib_items, list_researchers, author_bib_keys = parse_bib_file()
+    print('creating author md files')
     create_author_md_files(author_bib_keys, list_researchers)
-    create_publications_md(bib_items, author_bib_keys, list_researchers)
+    print('creating publication md files')
+    create_publication_md(bib_items, author_bib_keys, list_researchers)
     	
