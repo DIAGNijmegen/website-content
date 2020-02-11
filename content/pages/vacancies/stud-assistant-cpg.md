@@ -5,7 +5,7 @@ type: general
 picture: vacancies/stud_ass_cpg.png
 template: vacancy-single
 people: Jeroen van der Laak, Elke Loskamp-Huntink
-description: Are you looking for job next to your studies and do you have affinity with artificial intelligence and medical images? Then don't miss this opportunity! The Computational Pathology group is looking for a student assistant to assist with ground truth generation for training of artificial neural networks and preparation of slides for digitization.
+description: Are you looking for a job next to your studies and do you have affinity with artificial intelligence and medical images? Then don't miss this opportunity! The Computational Pathology group is looking for a student assistant to assist with ground truth generation for training of artificial neural networks and preparation of slides for digitization.
 
 ## Background
 
