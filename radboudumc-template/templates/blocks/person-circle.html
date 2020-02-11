@@ -6,6 +6,11 @@
       {% set person_url = person.url %}
     {% endif %}
 
+    {# Disable DIAG people links for now #}
+    {% if person.default_group == 'diag' and person.default_group != SITE_GROUP %}
+      {% set person_url = 'http://www.diagnijmegen.nl/index.php/Person?name=' + person.name.replace(' ', '_') %}
+    {% endif %}
+
     {% if person.picture %}
     <a href="{{ person_url }}"><img data-src="{{SITEURL}}/{{ ('images/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% else %}
