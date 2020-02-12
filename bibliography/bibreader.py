@@ -124,6 +124,8 @@ def parse_bibtex_file(filename):
                 else:
                     bib_item['url_type'] = 'URL'
 
+            if 'year' not in bib_item:
+                bib_item['year'] = '0000'
 
             cover_path = bib_key[0].title() + bib_key[1:] + '.png'
             bib_item['cover_exists'] = str(os.path.exists(os.path.join('.', 'content', 'images', 'theses', cover_path)))
