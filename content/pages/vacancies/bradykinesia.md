@@ -34,13 +34,13 @@ When the algorithm(s) developed in this study have sufficient sensitivity and ac
 
 ## Requirements
 To successfully complete this internship we expect you to: 
--	Be in the last year of your master in data science, computer science, artificial intelligence or related areas;
--	Be interested in the application of technology to address health-related issues;
--	Have previously experience with robust data analysis techniques and/or machine learning techniques to identify patterns in datasets;
--	Have good command of MATLAB and/or R; 
--	Have initiative and critical thinking;
--	Good writing and speaking command of English. Dutch is a plus;
--	Enjoy working in an international environment.
+- Be in the last year of your master in data science, computer science, artificial intelligence or related areas;
+- Be interested in the application of technology to address health-related issues;
+- Have previously experience with robust data analysis techniques and/or machine learning techniques to identify patterns in datasets;
+- Have good command of MATLAB and/or R; 
+- Have initiative and critical thinking;
+- Good writing and speaking command of English. Dutch is a plus;
+- Enjoy working in an international environment.
 
 ## Information
 -	Project duration: 6 months (preferably starting in March – 2020);
