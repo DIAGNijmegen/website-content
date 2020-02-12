@@ -1,0 +1,30 @@
+<li>
+     {{ BIB_ITEMS[bibkey]['authors'] }}.
+   
+    "{{ BIB_ITEMS[bibkey]['title'] }}",
+   
+    {% if 'journal' in BIB_ITEMS[bibkey] %}
+    <i>{{ BIB_ITEMS[bibkey]['journal'] }}, </i>
+    {% elif 'booktitle' in BIB_ITEMS[bibkey] %}
+        <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
+    {% endif %}
+   
+    {% if 'year' in BIB_ITEMS[bibkey] %}
+        {{ BIB_ITEMS[bibkey]['year'] }}.
+    {% endif %}
+   
+    <a href={{ '/publications/%s'%bibkey }}>Abstract</a>
+   
+    {% if 'doi' in BIB_ITEMS[bibkey] %}
+    <a href={{ BIB_ITEMS[bibkey]['doi'] }}>DOI</a>
+    {% endif %}
+    
+    {% if 'pmid' in BIB_ITEMS[bibkey] %}
+    <a href={{ BIB_ITEMS[bibkey]['pmid'] }}>PMID</a>
+    {% endif %}
+
+    {% if 'url' in BIB_ITEMS[bibkey] %}
+	<a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
+    {% endif %}
+</li>
+

@@ -1,0 +1,14 @@
+
+.year-button-group {
+
+    input:checked + label {
+        font-weight: bold;
+    }
+    
+    input:hover + label {
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer
+    }
+
+} 
