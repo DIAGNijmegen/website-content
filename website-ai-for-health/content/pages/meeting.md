@@ -19,3 +19,5 @@ The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc
 | 30-01-2020   | **Guest Speakers** <br> Francesco Ciompi <br> Wouter Bulten   |  <br> An introduction to Computational Pathology. <br> Automated Gleason Grading using Deep Learning.    |
 | 06-02-2020   | Tristan Payer   | AI-assisted PD-L1 scoring in lung cancer.       |
 | 13-02-2020   | Ruben Kluge  | Pneumothorax detection using Deep Learning.  |
+| 20-02-2020   | Evi Sijben   | Predicting and explaining the effect of pelvic floor surgeries.  |
+| 27-02-2020   | TBD   |    |
