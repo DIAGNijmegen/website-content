@@ -409,3 +409,8 @@ people:
     affiliation: Neurology, Radboudumc
     url: https://www.radboudumc.nl/en/people/bas-bloem
     picture: people/external/Bas_Bloem.jpg    
+  - name: Fien Ockers
+    position: Master student
+    affiliation: Data Science, Radboud University
+    url: https://www.linkedin.com/in/fien-ockers-a8aa43162/
+    picture: people/external/Fien_Ockers.jpg
