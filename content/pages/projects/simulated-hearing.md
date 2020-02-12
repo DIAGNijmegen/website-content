@@ -21,9 +21,9 @@ Previous research showed that machine learning models can localize sound based o
 An improved emulated strategy can provide valuable improvements and innovations for actual CI recipients to achieve binaural hearing, and thereby improved speech perception even under noisy listening conditions.
 
 ## Tasks
-–	Simulating normal-hearing and CI recipient auditory systems of spatial hearing with DNNs.
-–	Improve cochlear implant settings based on the network’s prediction
-–	Validate the improved parameter set by comparing the localization performance of normal-hearing listeners between the original and optimized vocoder strategy
+- Simulating normal-hearing and CI recipient auditory systems of spatial hearing with DNNs.
+- Improve cochlear implant settings based on the network’s prediction
+- Validate the improved parameter set by comparing the localization performance of normal-hearing listeners between the original and optimized vocoder strategy
 
 ## Innovation
 The aim of this project is to build a simulation of impaired directional hearing, which is able to predict the optimal settings for the CI recipient, while needing minimal time of patients and the clinic.
