@@ -17,4 +17,5 @@ cp -r --no-clobber imgoptim/optimized_images/. $WEBSITE/content/images
 cp -r --no-clobber content/images/. $WEBSITE/content/images
 
 # copy bib files
-cp -r content/bib/. $WEBSITE/content/bib
+cp content/bibitems.json $WEBSITE/content/bibitems.json
+cp content/authorkeys.json $WEBSITE/content/authorkeys.json
