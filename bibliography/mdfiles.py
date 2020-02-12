@@ -52,7 +52,7 @@ def create_publication_md(bib_items, author_bib_keys, list_researchers):
                     md_string += 'has_pdf: True \n' if 'file' in bib_item else 'has_pdf: False \n'
                     md_string += 'bibkey: ' + bib_key + '\n'
                     md_string += 'groups: ' + ','.join(groups) + '\n'
-                    md_string += 'booktitle: NA \n' if 'booktitle' not in bib_items else 'booktitle: ' + bib_item['booktitle'] +'\n'
+                    md_string += 'booktitle: NA \n' if 'booktitle' not in bib_item else 'booktitle: ' + bib_item['booktitle'] +'\n'
                     md_string += 'year: NA \n' if 'year' not in bib_item else 'year: ' + bib_item['year'] + '\n'
                     md_string += 'doi: NA \n' if 'doi' not in bib_item else 'doi: ' + bib_item['doi'] + '\n'
                     md_string += 'url: NA \n' if 'url' not in bib_item else 'url: ' + bib_item['url'] + '\n'
