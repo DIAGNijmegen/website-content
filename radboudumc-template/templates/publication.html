@@ -21,13 +21,18 @@
     {% endif %}
 
     <p>
-        {% if page.doi %}
-            <a href="{{ page.doi }}" class="btn btn-primary">DOI</a>
+        {% if 'doi' in BIB_ITEMS[page.bibkey] %}
+        <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
+        {% endif %}
+        
+        {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
+        <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
+        {% endif %}
+    
+        {% if 'url' in BIB_ITEMS[page.bibkey] %}
+      <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
         {% endif %}
 
-        {% if not page.doi and page.urlweb %}
-            <a href="{{ page.url }}" class="btn btn-primary">URL</a>
-        {% endif %}
     </p>
 
     
