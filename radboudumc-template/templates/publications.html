@@ -14,14 +14,9 @@
     {% set bib_keys = [] %}
     {% for person in pages|reverse %}
 	{% if person.parent.url == 'members/' %}
-	   {% set person_key = 'ja' %}  
-	   {% if person.pub_name %}
-		{% set person_key = person.pub_name.replace(' ', '-') %}  
-	   {% else %}
-		{% set person_key = person.name.replace(' ', '-') %}  
-	   {% endif %}
-	   {% if person_key in author_keys %}
-	   	{% for bibkey in author_keys[person_key]  %}
+	   {% set person_key = person.name.replace(' ', '-') %}  
+	   {% if person_key in AUTHOR_KEYS %}
+	   	{% for bibkey in AUTHOR_KEYS[person_key]  %}
 			{% if bibkey not in bib_keys %}
 			    {% set _ = bib_keys.append(bibkey) %}
 			{% endif %}
@@ -31,102 +26,11 @@
     {% endfor %}
 
 
-    {% for bibkey in bib_keys if bib_items[bibkey]['year'] not in years %}
-      {% set _ = years.append(bib_items[bibkey]['year']) %}
+    {% for bibkey in bib_keys if BIB_ITEMS[bibkey]['year'] not in years %}
+      {% set _ = years.append(BIB_ITEMS[bibkey]['year']) %}
     {% endfor %}
 
-    <style>
-	input[name="year-selection"]:checked + label {
-	    font-weight: bold;
-	}
-	input[name="year-selection"]:hover + label {
-	    font-weight: bold;
-	    text-decoration: none;
-	}
-    </style>
+    {% include 'blocks/publication_list.html' %}
 
-    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-    {% set max_year = MAX_YEAR_PUB or 2012   %}
-    {% for cur_year in years|sort(reverse = True) if cur_year|int >= max_year  %}
-        {% if cur_year|int <= max_year %}
-            {% set cur_year = max_year|string + ' and before' %}
-        {% endif %}
-    <input type="radio" name="year-selection" data-year="{{ cur_year }}" id="input_{{ cur_year }}" autocomplete="off" style="display: none">
-    <label class="year-button btn btn-link" for="input_{{cur_year}}", style="color:grey">
-        {{ cur_year }}
-    </label>
-    {% endfor %}
-    </div>
-
-    {# Lists the publications per year and organized by publication type #}
-    {% for cur_year in years|sort(reverse = True) %}
-        <div data-year="{{ cur_year }}" class="publication-year">
-            <h2>{{ cur_year }}</h2>
-            {% for pub_type in list_pub_type %}
-                {% set found = { 'flag': false } %}
-                {% for bibkey in bib_keys %}
-                    {% if bib_items[bibkey]['type'] == pub_type and bib_items[bibkey]['year']|int == cur_year|int %}
-                        {% if found['flag'] == false %}
-                            {% if pub_type == 'article' %}
-                                <h3>{{ 'Papers in international journals' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'preprint' %}
-                                <h3>{{ 'Preprints' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'inproceedings' %}
-                                <h3>{{ 'Papers in conference proceedings' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'conference' %}
-                                <h3>{{ 'Abstracts' }}</h3>
-                            {% endif%}
-                            {% if pub_type in ['phdthesis', 'mastersthesis'] %}
-                                <h3>{{ 'Theses' }}</h3>
-                            {% endif%}
-                            {% if pub_type in ['book', 'other'] %}
-                                <h3>{{ 'Other publications' }}</h3>
-                            {% endif%}
-                            <ul>
-                            {% if found.update({'flag': true}) %}{% endif %}
-                        {% endif %}
-			            {% include "blocks/publication-item.html" %}				
-                    {% endif %}
-                {% endfor %}
-                {% if found['flag'] == true %}
-                    </ul>
-                {% endif %}
-            {% endfor %}
-        </div>
-    {% endfor %}
-    </div>
-
-
-<script type="text/javascript">
-    var buttons = document.getElementsByName('year-selection');
-    var year_blocks = document.getElementsByClassName('publication-year');
-
-    for(var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', function(event) {
-        var year = this.dataset.year; 
-        var yearsplit = year.split(' ')
-        for(var b = 0; b < year_blocks.length; b++) {
-            if (yearsplit[yearsplit.length-1] == 'before'){
-                if(year_blocks[b].dataset.year <= parseInt(yearsplit[0])) {
-                    year_blocks[b].style.display = 'block';
-                } else {
-                    year_blocks[b].style.display = 'none';
-                }
-    
-            } else {
-                if(year_blocks[b].dataset.year == year) {
-                    year_blocks[b].style.display = 'block';
-                } else {
-                    year_blocks[b].style.display = 'none';
-                }
-            }
-      }
-    });
-  }
-  buttons[0].click()
-</script>
 
 {% endblock %}

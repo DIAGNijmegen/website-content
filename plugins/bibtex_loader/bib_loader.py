@@ -21,14 +21,11 @@ def load_json2dict(json_path):
 
 def load_bibkeys(generator):
 
-    bibitems = load_json2dict('./content/bib/bibitems.json')
-    author_keys = load_json2dict('./content/bib/authorkeys.json')
+    bibitems = load_json2dict('./content/bibitems.json')
+    author_keys = load_json2dict('./content/authorkeys.json')
 
-    print(len(bibitems))
-    print(len(author_keys))
-
-    generator.context['bib_items'] = bibitems
-    generator.context['author_keys'] = author_keys 
+    generator.context['BIB_ITEMS'] = bibitems
+    generator.context['AUTHOR_KEYS'] = author_keys 
 
 def register():
     signals.generator_init.connect(load_bibkeys)

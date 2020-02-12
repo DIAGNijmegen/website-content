@@ -3,7 +3,7 @@
 {% block description %}{{ page.content | striptags | truncate(200)}}{% endblock %}
 {% block page_picture %}{{SITEURL}}/images/theses/{{ page.coverpng }}{% endblock %}
 {% block content %}
-    {% include 'blocks/breadcrumbs.html' %}
+{% include 'blocks/breadcrumbs.html' %}
 
     <div class="container">
     <h1 class="page-title">{{ page.title }}</h1>
@@ -13,7 +13,9 @@
             {{ author }}
         {% endfor %}
     </p>
-    <img src="{{SITEURL}}/images/theses/{{ page.coverpng }}">
+    {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
+    <img src="{{SITEURL}}/images/theses/{{ page.coverpng | resize_image('large') }}">
+    {% endif %}
     {% if page.promotor %}
         <p><b>Promotor: {{ page.promotor }}</b></p>
     {% endif %}
@@ -29,7 +31,7 @@
                 {{page.optmonth.replace(',', '')}},
             {% endif %}
             {% if page.year %}
-                {{page.year}}
+                {{ page.year }}
             {% endif %}
         </b></p>
     {% endif %}

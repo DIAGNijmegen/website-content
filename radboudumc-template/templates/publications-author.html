@@ -3,7 +3,7 @@
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
     <div class="container">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }} </h1>
 
     <p class="my-4">
         <a href="{{SITEURL}}/members/{{ page.author_name.lower().replace(' ', '-') }}/">Back to page of {{ page.author_name}}</a>
@@ -16,53 +16,13 @@
     {% if bib_keys %}
     	{% for bibkey in bib_keys %}
     	    {# Getting list of years #}
-            {% if bibkey != '' and bib_items[bibkey]['year'] not in years %}
-                {% if years.append(bib_items[bibkey]['year']) %}{% endif %}
+            {% if bibkey != '' and BIB_ITEMS[bibkey]['year'] not in years %}
+                {% if years.append(BIB_ITEMS[bibkey]['year']) %}{% endif %}
             {% endif %}
     	{% endfor %}
     {% endif %}
-    
-    {% for cur_year in years|sort(reverse = True) %}
-            {% set found_year = { 'flag': false } %}
-            {% for pub_type in list_pub_type %}
-                {% set found = { 'flag': false } %}
-                {% for bibkey in bib_keys %}
-                    {% if bib_items[bibkey]['type'] == pub_type and bib_items[bibkey]['year'] == cur_year %}
-                        {% if found_year['flag'] == false %}
-                            <h2>{{ cur_year }}</h2>
-                            {% if found_year.update({'flag': true}) %}{% endif %}
-                        {% endif %}
-                        {% if found['flag'] == false %}
-                            {% if pub_type == 'article' %}
-                                <h3>{{ 'Papers in international journals' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'preprint' %}
-                                <h3>{{ 'Preprints' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'inproceedings' %}
-                                <h3>{{ 'Papers in conference proceedings' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'conference' %}
-                                <h3>{{ 'Abstracts' }}</h3>
-                            {% endif%}
-                            {% if pub_type in ['phdthesis', 'mastersthesis'] %}
-                                <h3>{{ 'Theses' }}</h3>
-                            {% endif%}
-                            {% if pub_type in ['book', 'other'] %}
-                                <h3>{{ 'Other publications' }}</h3>
-                            {% endif%}
-                            <ul>
-                            {% if found.update({'flag': true}) %}{% endif %}
-                        {% endif %}
-			{{ bib_key }}
-			{% include "blocks/publication-item.html" %}		
-                    {% endif %}
-                {% endfor %}
-                {% if found['flag'] == true %}
-                    </ul>
-                {% endif %}
-            {% endfor %}
-    {% endfor %}
+                
+    {% include 'blocks/publication_list.html' %}
 
     </div>
 {% endblock %}

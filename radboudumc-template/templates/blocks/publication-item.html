@@ -1,23 +1,30 @@
-<div>
-     {{ bib_items[bibkey]['authors'] }}.
+<li>
+     {{ BIB_ITEMS[bibkey]['authors'] }}.
    
-    "{{ bib_items[bibkey]['title'] }}",
+    "{{ BIB_ITEMS[bibkey]['title'] }}",
    
-    {% if 'journal' in bib_items[bibkey] %}
-    <i>{{ bib_items[bibkey]['journal'] }}, </i>
-    {% elif 'booktitle' in bib_items[bibkey] %}
-        <i>{{ bib_items[bibkey]['booktitle'] }}, </i>
+    {% if 'journal' in BIB_ITEMS[bibkey] %}
+    <i>{{ BIB_ITEMS[bibkey]['journal'] }}, </i>
+    {% elif 'booktitle' in BIB_ITEMS[bibkey] %}
+        <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
     {% endif %}
    
-    {% if 'year' in bib_items[bibkey] %}
-        {{ bib_items[bibkey]['year'] }}.
+    {% if 'year' in BIB_ITEMS[bibkey] %}
+        {{ BIB_ITEMS[bibkey]['year'] }}.
     {% endif %}
    
     <a href={{ '/publications/%s'%bibkey }}>Abstract</a>
    
-    {% if 'doi' in bib_items[bibkey] %}
-	<a href=https://doi.org/{{ bib_items[bibkey]['doi'] }}>DOI</a>
-    {% elif 'url' in bib_items[bibkey] %}
-	<a href={{ bib_items[bibkey]['url'] }}>URL</a>
+    {% if 'doi' in BIB_ITEMS[bibkey] %}
+    <a href={{ BIB_ITEMS[bibkey]['doi'] }}>DOI</a>
     {% endif %}
-</div>
+    
+    {% if 'pmid' in BIB_ITEMS[bibkey] %}
+    <a href={{ BIB_ITEMS[bibkey]['pmid'] }}>PMID</a>
+    {% endif %}
+
+    {% if 'url' in BIB_ITEMS[bibkey] %}
+	<a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
+    {% endif %}
+</li>
+
