@@ -129,7 +129,8 @@ website-*/content/pages/software.md
 website-*/content/pages/thesis-gallery.md
 website-*/content/pages/vacancies.md
 website-*/content/diag.bib
-website-*/content/dict_pubs.json
+website-*/content/bibitems.json
+website-*/content/authorkeys.json
 #!output/README.md
 .idea
 

@@ -1,6 +1,6 @@
 title: Quantitative facial phenotyping of patients with intellectual disability
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/facial-phenotyping.jpg
 template: vacancy-single

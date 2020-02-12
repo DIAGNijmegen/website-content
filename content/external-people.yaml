@@ -384,3 +384,33 @@ people:
     affiliation: Artificial Intelligence, Radboud University 
     url: https://www.ru.nl/english/people/guclu-u/
     picture: people/external/Umut_Guclu.png
+  - name: Gelena Khazeeva
+    position: PhD student
+    affiliation: Radboudumc
+    url: 
+    picture: 
+  - name: Ana Ligia Silva de Lima
+    position: Postdoctoral researcher
+    affiliation: Expertise Center for Parkinson’s disease and Movement Disorders, Radboudumc
+    url: https://www.linkedin.com/in/ana-l%C3%ADgia-silva-de-lima-73138988/
+    picture: people/external/Ana_Silva_de_Lima.jpg
+  - name: Marjan Meinders
+    position: Senior researcher
+    affiliation: Healthcare Improvement Science, Radboudumc
+    url: https://www.radboudumc.nl/en/people/marjan-meinders
+    picture: people/external/Marjan_Meinders.jpg
+  - name: Twan van Laarhoven
+    position: Assistant professor
+    affiliation: Data Science, Radboud University
+    url: https://www.ru.nl/english/people/laarhoven-t-van/
+    picture: people/external/Twan_van_Laarhoven.jpg
+  - name: Bas Bloem
+    position: Professor
+    affiliation: Neurology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/bas-bloem
+    picture: people/external/Bas_Bloem.jpg    
+  - name: Fien Ockers
+    position: Master student
+    affiliation: Data Science, Radboud University
+    url: https://www.linkedin.com/in/fien-ockers-a8aa43162/
+    picture: people/external/Fien_Ockers.jpg

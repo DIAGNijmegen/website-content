@@ -3,7 +3,7 @@ import glob
 import shutil
 import sys
 
-directories = ['members', 'highlights', 'presentations', 'projects', 'software', 'vacancies', 'calendar']
+directories = ['members', 'highlights', 'presentations', 'projects', 'software', 'vacancies', 'calendar', 'publications']
 site = sys.argv[1]
 group_name = site[8:]
 
