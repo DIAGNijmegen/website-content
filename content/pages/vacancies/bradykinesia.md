@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/bradykinesia.jpg
 template: vacancy-single
-people: Ana Lígia Silva de Lima, Marjan Meinders, Twan van Laarhoven, Bas Bloem
+people: Ana Ligia Silva de Lima, Marjan Meinders, Twan van Laarhoven, Bas Bloem
 description: Development of a model for the automatic identification of Parkinson's disease based on a keyboard test.
 
 ## Background
