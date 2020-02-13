@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/muscle_us.png
 template: vacancy-single
-people: Jonne Doorduin, Juerd Wijntjes, Nens van Alfen
+people: Jonne Doorduin, Juerd Wijntjes, Nens van Alfen, Ajay Patel
 description: Development of a deep learning algorithm for the automatic classification of muscle ultrasound images.
 
 ## Background
