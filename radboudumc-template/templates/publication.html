@@ -11,7 +11,7 @@
             {{ author }}{% if not loop.last %}, {% endif %}
         {% endfor %}
     </p>
-  
+
     {% if page.journal != 'NA' and page.year %}
     	<p>{{ page.journal }} ({{ page.year }})</p>
     {% endif %}
@@ -24,22 +24,22 @@
         {% if 'doi' in BIB_ITEMS[page.bibkey] %}
         <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
         {% endif %}
-        
+
         {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
         <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
         {% endif %}
-    
+
         {% if 'url' in BIB_ITEMS[page.bibkey] %}
       <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
         {% endif %}
 
     </p>
 
-    
+
     <h2>Abstract</h2>
     {{ page.content }}
 
-    {% if ENABLE_PUBLICATION_PDF_REQUEST and (page.has_pdf == 'True' or 1 == 1) %}
+    {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True') %}
     <div id="pdf-form" class="mt-5">
       <h2>Request PDF</h2>
 
