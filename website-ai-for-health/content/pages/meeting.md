@@ -24,3 +24,11 @@ The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc
 | 05-03-2020   | TBD   |    |
 | 12-03-2020   | TBD   |    |
 | 19-03-2020   | **NO MEETING**  |     |
+| 26-03-2020   | TBD   |    |
+| 12-03-2020   | TBD   |    |
+| 02-04-2020   | TBD   |    |
+| 09-04-2020   | TBD   |    |
+| 16-04-2020   | TBD   |    |
+| 23-04-2020   | TBD   |    |
+| 30-04-2020   | TBD   |    |
+| 07-05-2020   | TBD   |    |
