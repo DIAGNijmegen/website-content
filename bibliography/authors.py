@@ -46,6 +46,8 @@ def get_publications_by_author(bib_items, list_researchers):
     '''
     author_bibkeys = {}
     for bib_key, bib_item in bib_items.items():
+        if 'author' not in bib_item:
+            continue
         authors = bib_item['author']
         for name, value in list_researchers.items():
             researcher_name, _ = value
