@@ -8,7 +8,7 @@ groups: diag, pathology
 default_group: pathology
 email: jeffrey.hoven@radboudumc.nl
 office: Route 824
-type: tech
+type: student
 
 
 
