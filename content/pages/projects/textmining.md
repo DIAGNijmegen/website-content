@@ -1,5 +1,5 @@
 title: Text mining pathology reports
-groups: diag
+groups: diag, ai-for-health
 finished: true
 type: student
 picture: projects/textmining.jpg
