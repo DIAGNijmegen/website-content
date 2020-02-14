@@ -21,7 +21,7 @@ The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc
 | 13-02-2020   | Ruben Kluge  | [Pneumothorax detection using Deep Learning.](https://drive.google.com/open?id=1ftGLhnryHfIR_ao0QI-MxDxjGWazmKis)  |
 | 20-02-2020   | Evi Sijben   | Predicting and explaining the effect of pelvic floor surgeries.  |
 | 27-02-2020   | **NO MEETING**  |    |
-| 05-03-2020   | TBD   |    |
+| 05-03-2020   | Josien Visschedijk   | Text mining pathology reports.  |
 | 12-03-2020   | TBD   |    |
 | 19-03-2020   | **NO MEETING**  |     |
 | 26-03-2020   | TBD   |    |
