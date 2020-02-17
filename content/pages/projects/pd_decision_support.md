@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: projects/decision_support.jpg
 template: project-single
-people:  Luc Evers, Marjan Meinders, Lieneke van den Heuvel, Bas Bloem, Tom Heskes
+people:  Max Oosterwegel, Luc Evers, Marjan Meinders, Lieneke van den Heuvel, Bas Bloem, Tom Heskes
 description: Development of a model to support treatment decisions regarding cardiovascular risk management in patients with Parkinson’s disease (PD).
 
 ## Clinical problem
