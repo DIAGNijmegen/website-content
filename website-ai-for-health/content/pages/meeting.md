@@ -34,7 +34,7 @@ The slides for past presentations are available by clicking on the links in the 
 | [30-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2030-4-2020)   | TBD   |    |
 | [07-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%207-5-2020)   | TBD   |    |
 | [14-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2014-5-2020)   | TBD   |    |
-| [21-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2021-5-2020)   | **NO MEETING**   |    |
+| 21-05-2020 | **NO MEETING**   |    |
 | [28-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2028-5-2020)   | TBD   |    |
 | [04-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%204-6-2020)   | TBD   |    |
 | [11-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2011-6-2020)   | TBD   |    |
