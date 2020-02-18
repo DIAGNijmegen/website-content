@@ -7,10 +7,13 @@ template: project-single
 people:  Ruben Kluge, Ecem Lago, Erdi Calli, Bram van Ginneken, Keelin Murphy, Elena Marchiori
 description: Development of a system to detect pneumothorax in frontal chest radiographs.
 
-## Background
+## Clinical problem
 Pneumothorax is a critical medical condition, commonly referred to as a collapsed lung. It can be painful and is potentially deadly, so pneumothorax requires immediate attention. Pneumothorax may be caused by an underlying lung disease, a blunt chest injury or can occur after surgery. It can also occur spontaneously. It is generally diagnosed by radiologists through examining chest radiographs (chest x-rays) and can be difficult to confirm - can you see the pneumothorax in the image shown here?! For further information see [the Radiopaedia definition](https://radiopaedia.org/articles/pneumothorax) or the [Radiology Assistant](http://www.radiologyassistant.nl/en/p497b2a265d96d#in5150424f9f96b). 
 
 Recently, the Society for Imaging Informatics in Medicine (SIIM) organized a [Kaggle challenge](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview) to tackle the detection and segmentation of this condition on chest x-ray images. We are interested in creating an open-source algorithm that uses this Kaggle dataset (initially) and other open datasets as well as chest x-ray data we have collected at Radboud UMC to detect pneumothorax. 
+
+## Solution 
+Artificial Intelligence can be used to automatically detect pneumothorax in chest x-rays.
 
 ## Research question and tasks
 Detection and segmentation of pneumothorax in chest x-rays. 
