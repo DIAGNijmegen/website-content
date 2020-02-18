@@ -1,12 +1,12 @@
-title: Xie Wieyi
-name: Xie Wieyi
+title: Xie Weiyi
+name: Xie Weiyi
 template: people-single
-picture: people/Xie_Wieyi.jpg
+picture: people/Xie_Weiyi.jpg
 position: PhD student
 active: yes
 groups: diag
 default_group: diag
-email: wieyi.xie@radboudumc.nl
+email: weiyi.xie@radboudumc.nl
 office: Route 767, Room 35
 telephone: +31 24 3655792
 type: phd
