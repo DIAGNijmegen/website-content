@@ -7,14 +7,14 @@ template: project-single
 people: Tristan de Boer, Henkjan Huisman, Patrick Brand, Elena Marchiori
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
 
-## Background
-
+## Clinical problem
 The field of minimally invasive image guided interventions (MIIGI) is emerging. MIIGI, for example using an MRI, allows minimally invasive treatment of cancer and other diseases. Currently, connecting MIIGI to real-time Artificial Intelligence is unexplored. In this research, we assess the feasibility of deep learning based tracking for real-time MIIGI, by developing a deep learning based pipeline for automated guidewire tracking.
 
 Using MRI, we can accurately reveal a tumor within an organ or at difficult to reach locations. Using real-time MRI visualization, special needles can be inserted such that the tip of the needle is within the tumor, which then can be used for treatment. One such treatment is cryoablation, where the tumor tip is frozen. Using this treatment the tissue surrounding the tip is frozen and tissue cells in that region are killed and subsequently broken down by the body. Cryoablation has several advantages, as the minimally invasive procedure is less disruptive for surrounding tissues and thus allows for faster recovery of the patient. Furthermore, the real-time feedback on the effect of intervention ensures excellent coverage of the tumor region, ensuring that the entire tumor has been destroyed.
 
 The accuracy of MIIGI is unfortunately limited because during needle intervention, the body deforms and structures disappear from the imaging display. The MRI needs to be manually adjusted to acquire images in a new imaging plane that shows the structure in relation to the needle. This repeated MRI adjustment takes considerable time and leads to suboptimal needle placement.
 
+## Solution
 The goal of this project is to develop Artificial Intelligence (AI) to improve MRI guided interventions by automatically tracking tumors and automatically steering MRI acquisitions, using an MRI scanner that can be digitally steered. Deep learning techniques can be used such that it can track an object from a series of MRI images. The output can be used to steer the MRI, which can be used for improved visualization, making interventions more accurate while reducing the duration of an intervention.
 
 ## Tasks
