@@ -7,7 +7,7 @@ template: project-single
 people: Thijs van den Hout, Nikolas Lessmann, Alina Vrieling, Matthieu Rutten
 description: Develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT images.
 
-## Background
+## Clinical problem
 Body composition is an important biomarker in the treatment of cancer. In particular, low muscle mass has been associated with
 higher chemotherapy toxicity, shorter time to tumor progression, poorer surgical outcomes, impaired functional status, and
 shorter survival. However, because CT-based body composition assessment requires outlining the different tissues in the image,
