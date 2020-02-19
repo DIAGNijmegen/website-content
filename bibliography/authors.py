@@ -22,16 +22,18 @@ def get_list_researchers(members_path):
         with open(people_md_path) as fp:
 
             # get all tags and values in md file
-            tags = {line.split(':')[0]:line.split(':')[1].strip().split() for line in (fp) if len(line.split(':')) > 1}
+            tags = {line.split(':')[0]: line.split(':')[1].strip(
+            ).split() for line in (fp) if len(line.split(':')) > 1}
 
             # get author name, if pub_name in md file use that, else use name
-            author_name = [n for n in tags['pub_name']] if 'pub_name' in tags else [n for n in tags['name']]
+            author_name = [n for n in tags['pub_name']
+                           ] if 'pub_name' in tags else [n for n in tags['name']]
 
             # get name
             name = '-'.join(tags['name'])
 
             # get groups
-            groups =  [group.strip(',')  for group in tags['groups']]
+            groups = [group.strip(',') for group in tags['groups']]
 
         # append researcher with name as key and author_name and groups as value
         list_researchers[name] = (author_name, groups)
@@ -53,11 +55,11 @@ def get_publications_by_author(bib_items, list_researchers):
             researcher_name, _ = value
             firstname = researcher_name[0].lower()
             lastnames = [n.lower() for n in researcher_name[1:]]
-                
+
             if len(lastnames) > 1:
                 # This fixes issue #10 for lastnames connected with a dash (-)
                 lastnames.append('-'.join(lastnames))
-                
+
             for author_pub in authors:
                 if match_author_publication(firstname, lastnames, author_pub, bib_key):
                     author_bibkeys.setdefault(name, []).append(bib_key)
@@ -77,7 +79,7 @@ def match_author_publication(firstname, lastnames, author, bib_key):
     first = first.lower()
     last = last.lower()
     jr = jr.lower()
-    
+
     # Additional variable that may help to avoid incorrect name matching #77
     von_last = '-'.join([von, last])
     von_last = von_last.replace(' ', '-').lower()
@@ -92,7 +94,7 @@ def match_author_publication(firstname, lastnames, author, bib_key):
             # or 'J A W M van der Laak' where firstname contains 'J A W M'
             # or 'Jeroen AWM van der Laak' where firstname contains 'Jeroen A W M'
             # This piece of code makes sure there is only one name and no spaces in between
-#             von = ' '.join(first.split(' ')[1:]) + ' ' + von
+            #             von = ' '.join(first.split(' ')[1:]) + ' ' + von
             first = first.split(' ')[0].lower()
             if first == firstname.lower():
                 return True
@@ -132,6 +134,7 @@ def single_author(author_string):
     splits = [s.strip() for s in splits]
     return len(splits) == 2 and not(' ' in splits[0] and ' ' in splits[1])
 
+
 def split_authors(author_string):
     '''
     Split all authors which are seperated by 'and' or ','
@@ -142,8 +145,9 @@ def split_authors(author_string):
         authors = author_string.replace('AND', 'and').split(' and ')
     else:
         authors = author_string.split(',')
-    authors = [a.strip().replace('{', '').replace('}', '') for a in authors]
+    authors = [a.strip() for a in authors]
     return authors
+
 
 def decode_name(name):
     '''
@@ -154,6 +158,7 @@ def decode_name(name):
         name_part = name_part.strip()
         if '\\' in name_part:
             name_part = codecs.decode(name_part, 'ulatex')
+        name_part = name_part.replace('{', '').replace('}', '')
         parsed_name.append(name_part)
     return parsed_name
 
@@ -165,43 +170,43 @@ def parse_name(name):
     returns a tuple (first, von, last, jr)
     '''
     parts = name.strip(',').split(',')
-    
+
     # "First von Last"
-    if len(parts)==1:
+    if len(parts) == 1:
         s, e = (name.index(' '), name.rfind(' ')) if ' ' in name else (0, 0)
         first = name[:s]
         von = name[s:e]
         last = name[e:]
         jr = ''
-        
+
     # "von Last, First"
-    elif len(parts)==2: 
+    elif len(parts) == 2:
         first = parts[1]
         e = parts[0].rfind(' ') if ' ' in parts[0] else 0
         von = parts[0][:e]
         last = parts[0][e:]
         jr = ''
-        
+
     # "von Last, Jr, First"
-    elif len(parts)==3: 
+    elif len(parts) == 3:
         first = parts[2]
         e = parts[0].rfind(' ') if ' ' in parts[0] else 0
         von = parts[0][:e]
         last = parts[0][e:]
         jr = parts[1]
-        
+
     else:
         print('warning! bibtex format error in name "{}"'.format(''.join(name)))
-        first, von, last, jr = '', '', name, ''  
-    
+        first, von, last, jr = '', '', name, ''
+
     nfirst = ''
     for f in first.strip().split('.'):
         f = f.strip()
         f = f.capitalize()
         if len(f) == 1:
-            f += '.'    
+            f += '.'
         nfirst = ' '.join([nfirst, f])
-    
+
     #post process von to second names
     nvon = ''
     for v in von.strip().split():
@@ -210,19 +215,20 @@ def parse_name(name):
             nfirst = ' '.join([nfirst, v])
         else:
             nvon = ' '.join([nvon, v])
-    
+
     #post process first and second names
     nfirst2 = ''
     for f in nfirst.strip().split():
         f = f.strip()
         f = f.capitalize()
         if len(f) == 1:
-            f += '.'    
-        nfirst2 = ' '.join([nfirst2, f]) 
-        
+            f += '.'
+        nfirst2 = ' '.join([nfirst2, f])
+
     last = '-'.join(last.strip().split())
-        
+
     return decode_name((nfirst2, nvon, last, jr))
+
 
 def authors_to_string(names):
     """
@@ -239,5 +245,6 @@ def authors_to_string(names):
             d = ' and '
         if idx == len(names)-1:
             d = ''
-        string_authors += ' '.join(part for part in [first, von, last, jr] if part) + d
+        string_authors += ' '.join(
+            part for part in [first, von, last, jr] if part) + d
     return string_authors

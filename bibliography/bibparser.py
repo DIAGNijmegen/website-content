@@ -3,7 +3,7 @@ import time
 import latexcodec
 import codecs
 import glob
-import os 
+import os
 
 
 from mdfiles import create_author_md_files, create_publication_md
@@ -34,17 +34,19 @@ def timeit(method):
             name = kw.get('log_name', method.__name__.upper())
             kw['log_time'][name] = int((te - ts) * 1000)
         else:
-            print('%r ran for  %2.2f ms' % \
+            print('%r ran for  %2.2f ms' %
                   (method.__name__, (te - ts) * 1000))
         return result
     return timed
 
+
 @timeit
 def parse_bib_file():
     print('parsing bib file...')
-    bib_items = parse_bibtex_file('./content/diag.bib')
+    bib_items = parse_bibtex_file(
+        './content/diag.bib', './content/fullstrings.bib')
     print('retreiving list of diag members')
-    list_researchers = get_list_researchers('./content/pages/members/')  
+    list_researchers = get_list_researchers('./content/pages/members/')
     print('mapping bib keys to authors')
     author_bib_keys = get_publications_by_author(bib_items, list_researchers)
     print('saving bibitems.json')
@@ -61,4 +63,3 @@ if __name__ == "__main__":
     create_author_md_files(author_bib_keys, list_researchers)
     print('creating publication md files')
     create_publication_md(bib_items, author_bib_keys, list_researchers)
-    	
