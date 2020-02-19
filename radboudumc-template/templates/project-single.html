@@ -38,8 +38,9 @@
     <div class="container">
         <ul>
         {% for bibkey in page.bibkeys.split(',') %}
-            {% if bibkey.strip().lower() in bibkeys_html %}
-                {{ bibkeys_html[bibkey.strip().lower()]['html'].replace('{filename}/pages', SITEURL).replace('.md', '/') }}
+            {% set bibkey = bibkey.strip().lower() %}
+            {% if bibkey in BIB_ITEMS %}
+                {% include "blocks/publication-item.html" %}
             {% endif %}
         {% endfor %}
         </ul>
