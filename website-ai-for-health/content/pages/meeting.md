@@ -31,7 +31,7 @@ The slides for past presentations are available by clicking on the links in the 
 | [09-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%209-4-2020)   | TBD   |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
 | [23-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2023-4-2020)   | TBD   |    |
-| [30-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2030-4-2020)   | TBD   |    |
+| 30-04-2020  | **NO MEETING**   |    |
 | [07-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%207-5-2020)   | TBD   |    |
 | [14-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2014-5-2020)   | TBD   |    |
 | 21-05-2020 | **NO MEETING**   |    |
