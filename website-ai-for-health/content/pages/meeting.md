@@ -18,10 +18,10 @@ The slides for past presentations are available by clicking on the links in the 
 | 09-01-2020      | Shankeeth Vinayahalingam       | [Development and validation of a deep-learning <br> system for wisdom tooth removal.](https://drive.google.com/open?id=14EI95gwzb2WojLpZGzk0t8oJvmGu8LuI)   |
 | 16-01-2020   | Koen Dercksen        | [Building multi-modal interactive health records.](https://drive.google.com/open?id=1iF8OF520Tze2YGY6hLcQem0ticioMU8J)      |
 | 23-01-2020   | Tristan de Boer   | [AI steered interventional MRI.](https://drive.google.com/open?id=18MnSThorfFcqJIq5z8Qwr0UT4rAjg9fr)       |
-| 30-01-2020   | **Guest Speakers** <br> Francesco Ciompi <br> Wouter Bulten   |  <br> [An introduction to Computational Pathology.](https://drive.google.com/open?id=1IE_COqyU5KDI4smXUZPwaAj1MKYKIK7b) <br> Automated Gleason Grading using Deep Learning.    |
+| 30-01-2020   | **Guest Speakers** <br> Francesco Ciompi <br> Wouter Bulten   |  <br> [An introduction to Computational Pathology.](https://drive.google.com/open?id=1IE_COqyU5KDI4smXUZPwaAj1MKYKIK7b) <br> [Automated Gleason Grading using Deep Learning.](https://drive.google.com/open?id=1BtyDqtFcOwvfuwvnFAmz38hTOfpkTDu2)    |
 | 06-02-2020   | Tristan Payer   | AI-assisted PD-L1 scoring in lung cancer.       |
 | 13-02-2020   | Ruben Kluge  | [Pneumothorax detection using Deep Learning.](https://drive.google.com/open?id=1ftGLhnryHfIR_ao0QI-MxDxjGWazmKis)  |
-| 20-02-2020   | Evi Sijben   | Predicting and explaining the effect of pelvic floor surgeries.  |
+| 20-02-2020   | Evi Sijben   | [Predicting and explaining the effect of pelvic floor surgeries.](https://drive.google.com/open?id=19jeN4hVsG_qpeZmKb9XqOY_tG_Lb9mvJ)  |
 | 27-02-2020   | **NO MEETING**  |    |
 | 05-03-2020   | Josien Visschedijk   | Text mining pathology reports.  |
 | [12-03-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2012-3-2020)   | TBD   |    |
