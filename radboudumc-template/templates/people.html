@@ -74,6 +74,36 @@
         {% endif %}
 
         {% for person in pages %}
+            {% if person.parent.url == 'members/' and person.type == 'administrative' and person.active == 'yes'%}
+                {% if not ns.has_tech %}
+                    <h1 class="text-muted">Administrative Staff</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_tech = True %}
+                {% endif %}
+
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        {% if ns.has_tech %}
+                    </div>
+        {% endif %}
+
+        {% for person in pages %}
+            {% if person.parent.url == 'members/' and (person.type == 'student-assistant') and person.active == 'yes' %}
+                {% if not ns.has_visiting %}
+                    <h1 class="text-muted">Student assistants</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_visiting = True %}
+                {% endif %}
+
+                {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        {% if ns.has_visiting %}
+                    </div>
+        {% endif %}
+
+        {% for person in pages %}
             {% if person.parent.url == 'members/' and (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' %}
                 {% if not ns.has_visiting %}
                     <h1 class="text-muted">Visiting researchers</h1>
