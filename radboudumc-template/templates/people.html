@@ -11,7 +11,7 @@
 
     <div class="container">
 
-        {% set ns = namespace(has_faculty = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False) %}
+        {% set ns = namespace(has_faculty = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
 
         {% for person in pages|reverse %}
             {% if person.parent.url == 'members/' and person.type == 'chair' and person.active == 'yes' %}
@@ -75,31 +75,31 @@
 
         {% for person in pages %}
             {% if person.parent.url == 'members/' and person.type == 'administrative' and person.active == 'yes'%}
-                {% if not ns.has_tech %}
+                {% if not ns.has_admin %}
                     <h1 class="text-muted">Administrative Staff</h1>
                     <div class="row people-grid">
-                    {% set ns.has_tech = True %}
+                    {% set ns.has_admin = True %}
                 {% endif %}
 
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        {% if ns.has_tech %}
+        {% if ns.has_admin %}
                     </div>
         {% endif %}
 
         {% for person in pages %}
             {% if person.parent.url == 'members/' and (person.type == 'student-assistant') and person.active == 'yes' %}
-                {% if not ns.has_visiting %}
+                {% if not ns.has_studentassistant %}
                     <h1 class="text-muted">Student assistants</h1>
                     <div class="row people-grid">
-                    {% set ns.has_visiting = True %}
+                    {% set ns.has_studentassistant = True %}
                 {% endif %}
 
                 {% include "blocks/person-circle.html" %}
             {% endif %}
         {% endfor %}
-        {% if ns.has_visiting %}
+        {% if ns.has_studentassistant %}
                     </div>
         {% endif %}
 
