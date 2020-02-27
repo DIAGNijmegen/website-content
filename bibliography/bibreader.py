@@ -71,6 +71,11 @@ def get_full_strings(full_strings_bib):
             string_rules[k.strip()] = v.strip()
     return string_rules
 
+def get_arxiv_id_from_title(title):
+    str_arxiv = title.lower().strip()
+    id_arxiv = str_arxiv.replace('arxiv', '').replace(':', '').strip()
+    url_arxiv = 'https://arxiv.org/abs/' + id_arxiv
+    return url_arxiv
 
 def parse_bibtex_file(filename, full_strings_bib):
     '''
@@ -116,7 +121,7 @@ def parse_bibtex_file(filename, full_strings_bib):
 
                 bib_item['journal'] = name
 
-                if 'arxiv' in name:
+                if 'arxiv' in name.lower():
                     bib_item['type'] = 'preprint'
 
             if 'booktitle' in bib_item:
@@ -169,9 +174,13 @@ def parse_bibtex_file(filename, full_strings_bib):
 
             if 'url' in bib_item:
                 if 'arxiv' in bib_item['url']:
-                    bib_item['url_type'] = 'ARXIV'
+                    bib_item['url_type'] = 'arXiv'
                 else:
-                    bib_item['url_type'] = 'URL'
+                    bib_item['url_type'] = 'Url'
+            elif bib_item['type'] == 'preprint':
+                bib_item['url_type'] = 'arXiv'
+                if bib_item['title'] and 'arxiv' in bib_item['title'].lower():
+                    bib_item['url'] = get_arxiv_id_from_title(bib_item['title'])
 
             if 'year' not in bib_item:
                 bib_item['year'] = '0000'
