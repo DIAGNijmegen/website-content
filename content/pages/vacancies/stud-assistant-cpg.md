@@ -1,6 +1,6 @@
 title: Student assistant Computational Pathology
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/stud_ass_cpg.png
 template: vacancy-single
