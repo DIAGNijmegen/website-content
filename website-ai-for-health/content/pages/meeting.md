@@ -24,7 +24,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 20-02-2020   | Evi Sijben   | [Predicting and explaining the effect of pelvic floor surgeries.](https://drive.google.com/open?id=19jeN4hVsG_qpeZmKb9XqOY_tG_Lb9mvJ)  |
 | 27-02-2020   | **NO MEETING**  |    |
 | 05-03-2020   | Josien Visschedijk   | Text mining pathology reports.  |
-| [12-03-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2012-3-2020)   | TBD   |    |
+| 12-03-2020   | Alex Tichter   | Simulated Prosthetic Hearing in deaf subjects   |
 | 19-03-2020   | **NO MEETING**  |     |
 | [26-03-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2026-3-2020)   | TBD   |    |
 | [02-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%202-4-2020)   | TBD   |    |
