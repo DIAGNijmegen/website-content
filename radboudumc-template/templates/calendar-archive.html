@@ -18,7 +18,17 @@
     <dl class="row">
       {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
           <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
-          <dd class="col-md-10">{{ event.content }}</dd>
+          <dd class="col-md-10">
+            
+            {% if event.content_after and event.date < item.date.now() %}
+              {{ event.content_after }}
+            {% elif event.content_before and event.date > item.date.now() %}
+              {{ event.content_before }}
+            {% else %}
+              {{ event.content }}
+            {% endif %}
+          
+          </dd>
       {% endfor %}
     </dl>
 </div>
