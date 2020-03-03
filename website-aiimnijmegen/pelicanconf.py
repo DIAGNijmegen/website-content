@@ -61,6 +61,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 CURRENTYEAR = date.today().year
+TODAY = date.today()
 LINKS = ()
 DEFAULT_PAGINATION = 10
 

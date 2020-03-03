@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from datetime import date
 
 CURRENTYEAR = date.today().year
+TODAY = date.today()
 AUTHOR = u'WebteamDIAG'
 SITENAME = u'Computational Pathology Group'
 SITENAME_SHORT = 'CPG'

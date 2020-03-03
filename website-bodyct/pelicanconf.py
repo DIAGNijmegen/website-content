@@ -8,6 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 CURRENTYEAR = date.today().year
+TODAY = date.today()
 AUTHOR = u'WebteamDIAG'
 SITENAME = u'Body CT'
 SITENAME_SHORT = 'BodyCT'
@@ -65,6 +66,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 CURRENTYEAR = date.today().year
+TODAY = date.today()
 LINKS = ()
 DEFAULT_PAGINATION = 10
 
