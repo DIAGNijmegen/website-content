@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 import sys
-sys.path.insert(0, os.curdir)
-from pelicanconf import *
+sys.path.append(os.curdir)
+from .pelicanconf import *
 
 SITEURL = 'https://bodyct.diagnijmegen.nl'
 RELATIVE_URLS = False
