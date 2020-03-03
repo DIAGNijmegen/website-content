@@ -179,8 +179,8 @@ def parse_bibtex_file(filename, full_strings_bib):
                     bib_item['url_type'] = 'Url'
             elif bib_item['type'] == 'preprint':
                 bib_item['url_type'] = 'arXiv'
-                if bib_item['title'] and 'arxiv' in bib_item['title'].lower():
-                    bib_item['url'] = get_arxiv_id_from_title(bib_item['title'])
+                if bib_item['journal'] and 'arxiv' in bib_item['journal'].lower():
+                    bib_item['url'] = get_arxiv_id_from_title(bib_item['journal'])
 
             if 'year' not in bib_item:
                 bib_item['year'] = '0000'

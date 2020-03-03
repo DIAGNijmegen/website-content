@@ -21,19 +21,18 @@
     {% endif %}
 
     <p>
-        {% if 'doi' in BIB_ITEMS[page.bibkey] %}
-        <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
-        {% endif %}
-
-        {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
-        <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
-        {% endif %}
-
-        {% if 'url' in BIB_ITEMS[bibkey] and BIB_ITEMS[bibkey]['url_type'] == 'arXiv' %}
-        <a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
-        {% endif %}
-
+      {% if 'doi' in BIB_ITEMS[page.bibkey] %}
+      <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
+      {% endif %}
+      
+      {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
+      <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
+      {% endif %}
+      {% if 'url' in BIB_ITEMS[page.bibkey] and BIB_ITEMS[page.bibkey]['url_type'] == 'arXiv' %}
+      <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
+      {% endif %}
     </p>
+
 
 
     <h2>Abstract</h2>
