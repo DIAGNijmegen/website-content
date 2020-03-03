@@ -3,6 +3,8 @@ build_defaults: &build_defaults
   stage: build and deploy
   language: python
   python: 3.6
+  before_install:
+    - export TZ=Europe/Amsterdam
   script:
     - bash parse_publications.sh
     - bash copy_content.sh
