@@ -1,7 +1,7 @@
 title: Jeroen Vermazeren
 name: Jeroen Vermazeren
 template: people-single
-picture: people/Jeroen_Vermazeren.png
+picture: people/Jeroen_Vermazeren.jpg
 position: Master student
 active: yes
 groups: diag, pathology
