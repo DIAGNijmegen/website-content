@@ -2,7 +2,7 @@
 build_defaults: &build_defaults
   stage: build and deploy
   language: python
-  python: 3.6
+  python: 3.7
   before_install:
     - export TZ=Europe/Amsterdam
   script:
