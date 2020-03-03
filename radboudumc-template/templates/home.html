@@ -116,9 +116,9 @@
                 {% if loop.index <= 5 %}
                   <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
                   <dd class="col-md-10">
-                    {% if event.content_after and event.date < item.date.now() %}
+                    {% if event.content_after and event.date < event.date.now() %}
                         {{ event.content_after }}
-                    {% elif event.content_before and event.date > item.date.now() %}
+                    {% elif event.content_before and event.date > event.date.now() %}
                         {{ event.content_before }}
                     {% else %}
                         {{ event.content }}
