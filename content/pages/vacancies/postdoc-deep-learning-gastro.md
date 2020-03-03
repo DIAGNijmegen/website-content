@@ -1,6 +1,6 @@
 title: Postdoc 'Deep learning in digital gastrointestinal pathology'
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/postdoc-gastro.png
 template: vacancy-single
