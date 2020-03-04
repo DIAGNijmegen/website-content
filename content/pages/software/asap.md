@@ -3,7 +3,7 @@ picture: software/asap_screenshot.png
 template: project-single
 description: ASAP (Automated Slide Analysis Platform) is a fast and fluid viewer for digitized multi-resolution histopathology images. ASAP offers several tools to make annotations in an intuitive way. Dots, rectangles, polygons are all supported. ASAP allows on-slide visualization of image analysis and machine learning results such as segmentation masks with customizable lookup-tables.
 github: https://github.com/computationalpathologygroup/ASAP
-groups: pathology, diag, rse
+groups: pathology, diag
 people: Geert Litjens
 
 ASAP is an open source platform for visualizing, annotating and automatically analyzing whole-slide histopathology images. It consists of several key-components (slide input/output, image processing, viewer) which can be used seperately. It is built on top of several well-developed open source packages like OpenSlide, Qt and OpenCV but also tries to extend them in several meaningful ways.
