@@ -4,7 +4,7 @@ finished: false
 picture: software/grand-challenge.png
 template: project-single
 groups: rse, diag
-people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Karel Gerbrands, Bram van Ginneken
+people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Bram van Ginneken, Sil van de Leemput, Mike Overkamp
 description: The home of challenges in biomedical imaging.
 disable_gradient: true
 bibkeys:
