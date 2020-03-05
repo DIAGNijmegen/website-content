@@ -1,4 +1,4 @@
-title: Novartis Transplantation Award for JASN publication on Deep Learning-Based Histopathologic Assessment of Kidney Tissue
+title: Novartis Transplantation Award for JASN publication on Deep learning for renal tissue assessment
 date: 2020-03-04
 description: The Novartis Transplantation Award for Basic Research was awarded to the Computational Pathology group for the JASN publication on Deep learning for histopathologic renal tissue assessment by Meyke Hermsen et al. 
 picture: news/Novartis.png
