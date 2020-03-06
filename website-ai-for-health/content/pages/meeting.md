@@ -7,7 +7,7 @@ description: AI for Health organizes a weekly meeting that allows the PhD candid
 
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 
 
-The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc every Thursday afternoon from 15:00 - 16:00 PM, and is mandatory for all PhD candidates and students. The attendance of research project supervisors is optional, but highly appreciated. 
+The weekly meeting is held in the Innovation Space (route 441) of the Radboudumc every Thursday afternoon from 15:00 - 16:00 PM, and is mandatory for all PhD candidates and MSc students. MSc students are required to present their work at the beginning and end of their project. The research project supervisors are expected to be present during the presentations of their MSc student. The attendance of research project supervisors during other meetings is optional, but highly appreciated. 
 
 The slides for past presentations are available by clicking on the links in the titles below. To reserve a presentation slot for a future meeting, click on the desired date or send an email to [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl).
 
