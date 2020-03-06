@@ -28,7 +28,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 19-03-2020   | **NO MEETING**  |     |
 | 26-03-2020   | Ruud van Kaam <br> Tim Frenzel   |    |
 | [02-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%202-4-2020)   | TBD   |    |
-| 09-04-2020  | **Reserved**   |    |
+| 09-04-2020  | **Guest Speaker** <br> Wilco van der Lugt   |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
 | [23-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2023-4-2020)   | TBD   |    |
 | 30-04-2020  | **NO MEETING**   |    |
