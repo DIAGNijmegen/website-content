@@ -28,7 +28,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 19-03-2020   | **NO MEETING**  |     |
 | 26-03-2020   | Ruud van Kaam <br> Tim Frenzel   |    |
 | [02-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%202-4-2020)   | TBD   |    |
-| [09-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%209-4-2020)   | TBD   |    |
+| 09-04-2020  | **Reserved**   |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
 | [23-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2023-4-2020)   | TBD   |    |
 | 30-04-2020  | **NO MEETING**   |    |
@@ -43,5 +43,3 @@ The slides for past presentations are available by clicking on the links in the 
 | [02-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%202-7-2020)   | TBD   |    |
 | [09-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%209-7-2020)   | TBD   |    |
 | [16-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2016-7-2020)   | TBD   |    |
-| [23-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2023-7-2020)   | TBD   |    |
-| [30-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2030-7-2020)   | TBD   |    |
