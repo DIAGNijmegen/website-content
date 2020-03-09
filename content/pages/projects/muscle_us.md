@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/muscle_us.png
 template: project-single
-people: Klaus Lux, Jonne Doorduin, Juerd Wijntjes, Nens van Alfen, Ajay Patel
+people: Klaus Lux, Jonne Doorduin, Juerd Wijntjes, Nens van Alfen, Twan van Laarhoven, Ajay Patel
 description: Development of a deep learning algorithm for the automatic classification of muscle ultrasound images.
 
 ## Clinical problem
