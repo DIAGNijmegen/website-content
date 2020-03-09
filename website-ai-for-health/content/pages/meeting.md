@@ -24,16 +24,16 @@ The slides for past presentations are available by clicking on the links in the 
 | 20-02-2020   | Evi Sijben   | [Predicting and explaining the effect of pelvic floor surgeries.](https://drive.google.com/open?id=19jeN4hVsG_qpeZmKb9XqOY_tG_Lb9mvJ)  |
 | 27-02-2020   | **NO MEETING**  |    |
 | 05-03-2020   | Josien Visschedijk   | [Text mining pathology reports.](https://drive.google.com/file/d/1PxBlrPV0EZru659kIjR2vqc_4w6mb76S/view)  |
-| 12-03-2020   | Alex Tichter   | Simulated Prosthetic Hearing in deaf subjects   |
+| 12-03-2020   | Alex Tichter   | Simulated Prosthetic Hearing in deaf subjects.   |
 | 19-03-2020   | **NO MEETING**  |     |
 | 26-03-2020   | Ruud van Kaam <br> Tim Frenzel   |    |
-| [02-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%202-4-2020)   | TBD   |    |
+| 02-04-2020   | Martijn Schilpzand   | Automated prenatal ultrasound screening.  |
 | 09-04-2020  | **Guest Speaker** <br> Wilco van der Lugt   |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
-| [23-04-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2023-4-2020)   | TBD   |    |
+| 23-04-2020  | Lisette Boeijenk   |    |
 | 30-04-2020  | **NO MEETING**   |    |
-| [07-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%207-5-2020)   | TBD   |    |
-| [14-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2014-5-2020)   | TBD   |    |
+| 07-05-2020  | Manon de Jonge   | Predicting changes in quality of life of ICU survivors.   |
+| 14-05-2020  | Fien Ockers   |  Quantitative facial phenotyping of patients with intellectual disability.  |
 | 21-05-2020 | **NO MEETING**   |    |
 | [28-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2028-5-2020)   | TBD   |    |
 | [04-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%204-6-2020)   | TBD   |    |
