@@ -527,3 +527,21 @@ people:
     url: https://www.linkedin.com/in/klaus-michael-lux/
     picture: people/external/Klaus_Lux.jpg
     email: Klaus.Lux@radboudumc.nl
+  - name: Manon de Jonge
+    position: Master student
+    affiliation: Artificial Intelligence, Radboud University
+    url: https://www.linkedin.com/in/manon-de-jonge/
+    picture: people/external/Manon_de_Jonge.jpg
+    email: Manon.deJonge@radboudumc.nl
+  - name: Mark van den Boogaard
+    position: Assistant professor
+    affiliation: Intensive Care, Radboudumc
+    url: https://www.radboudumc.nl/en/people/mark-van-den-boogaard
+    picture: people/external/Mark_van_den_Boogaard.jpg
+    email: Mark.vandenBoogaard@radboudumc.nl
+  - name: Marieke Zegers
+    position: Senior researcher
+    affiliation: Intensive Care, Radboudumc
+    url: https://www.radboudumc.nl/en/people/marieke-zegers
+    picture: people/external/Marieke_Zegers.jpg
+    email: Marieke.Zegers@radboudumc.nl    
