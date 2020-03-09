@@ -4,14 +4,20 @@
             <div class="col-md-11 py-3 footer-content">
                 <p>
                     {% if page %}
-                    <a href="{{ page.edit_url }}">&copy;</a>
+                    <a href="{{ page.edit_url }}" title="Edit on Github">
+                        <svg class="nav-icon svg-icon svg-icon-github">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </a>
                     {% elif article %}
-                    <a href="{{ article.edit_url }}">&copy;</a>
-                    {% else %}
-                    &copy;
+                    <a href="{{ article.edit_url }}" title="Edit on Github">
+                        <svg class="nav-icon svg-icon svg-icon-github">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </a>
                     {% endif %}
 
-                    {{SITENAME}} {{ CURRENTYEAR }}. <a href="{{SITEURL}}/colofon">Colofon</a>.
+                    &copy; {{SITENAME}} {{ CURRENTYEAR }}. <a href="{{SITEURL}}/colofon">Colofon</a>.
                 </p>
                 <p>{{FOOTER_TEXT}}</p>
             </div>
