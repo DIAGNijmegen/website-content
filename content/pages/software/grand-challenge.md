@@ -20,7 +20,7 @@ An increasing reliance on imaging for clinical decision making and an ageing pop
 Since 2012, as part of the Consortium for Open Medical Image Computing, we have developed and maintained an open source framework for hosting challenges in biomedical imaging, and support an instance of this at [grand-challenge.org](https://grand-challenge.org). Here, we have hosted successful challenges across various medical domains, such as LUNA16 for lung nodule detection, CAMELYON16/17 in digital pathology and The Medical Imaging Decathlon for 10 segmentation tasks in CT and MRI. The platform is now integral to our groups work, from private challenges used in educational courses to the reproducibility of scientific output and archiving of developed algorithms. The platform has recently been extended to assist the algorithm developer in clinical validation by allowing clinicians to execute algorithms on their own data via a web interface.
 
 The grand-challenge.org project is developed on GitHub and consists of 3 main components:
-``
+
 -   [the grand-challenge.org framework](https://github.com/comic/grand-challenge.org), a re-usable platform for hosting challenges.
 -   [Evalutils](https://github.com/comic/evalutils), a pip installable python package that assists challenge administrators in creating Docker containers for evaluating submissions from challenge participants and for creating Docker containers for processing algorithm submissions.
 -   [CIRRUS](/software/cirrus/), a platform for developing medical imaging workstations that integrates with clinicians' workflows.
