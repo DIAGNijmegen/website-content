@@ -23,7 +23,7 @@ The first edition of the AI for Health course started November 2, 2019. A group 
 - The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded
 - The second edition will start May 2020
 
-More information and instructions how to apply can be found on [this internal Radboudmc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth). 
+More information and instructions how to apply can be found on [this internal Radboudmc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth/cursus-ai-voor-medewerkers). 
 
 
  <!-- We plan to have 7 obligatory session and 3 that can be selected from a larger list --> 
