@@ -28,7 +28,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 19-03-2020   | Alex Tichter   | Simulated Prosthetic Hearing in deaf subjects.   |
 | 26-03-2020   | Ruud van Kaam <br> Tim Frenzel   | Predictive Modeling in the Intensive Care Unit. <br>   |
 | 02-04-2020   | Martijn Schilpzand   | Automated prenatal ultrasound screening.  |
-| 09-04-2020  | **Guest Speaker** <br> Wilco van der Lugt   |    |
+| 09-04-2020  | TBD  |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
 | 23-04-2020  | Lisette Boeijenk   |    |
 | 30-04-2020  | **NO MEETING**   |    |
