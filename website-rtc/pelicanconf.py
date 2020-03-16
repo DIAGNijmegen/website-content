@@ -36,8 +36,8 @@ NAV_SECTIONS = [
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
 
-# What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Projects", "Software", "Members"]
+# What sections to show on homepage (current options that you customizable: {section_name: custom_name})
+HOME_SECTIONS = {"Projects": "Projects", "Software": "Infrastructure", "Members": "Members"}
 
 # URLs
 SITEURL = ''

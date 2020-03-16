@@ -46,8 +46,8 @@ NAV_SECTIONS = [
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
 
-# What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Highlights", "Vacancies", "Calendar"]
+# What sections to show on homepage (current options that you customizable: {section_name: custom_name})
+HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Calendar": "Calendar"}
 
 # Show membership of people on their page
 SHOW_GROUP_MEMBERSHIP = True
