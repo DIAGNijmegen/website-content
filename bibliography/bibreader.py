@@ -91,9 +91,9 @@ def parse_bibtex_file(filename, full_strings_bib):
 
     for block in get_bib_blocks(content):
         block_name, block_content = block
-        if '@Comment' in block_name:
+        if '@comment' in block_name:
             continue
-        elif '@String' in block_name:
+        elif '@string' in block_name:
             k, v = [x.strip() for x in block_content.split('=')]
             string_rules[k] = v
         else:  # bib item text
