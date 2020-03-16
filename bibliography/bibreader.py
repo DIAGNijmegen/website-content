@@ -2,7 +2,7 @@
 import os
 
 from authors import parse_name, split_authors, authors_to_string, get_list_researchers, get_publications_by_author
-
+import codecs
 
 # pasre bib file
 def get_bib_blocks(content, start_character='@', delim=('{', '}')):
@@ -119,7 +119,7 @@ def parse_bibtex_file(filename, full_strings_bib):
                     name = full_strings_rules[bib_item['journal']].strip(
                         '{').strip('}')
 
-                bib_item['journal'] = name
+                bib_item['journal'] = codecs.decode(name, 'ulatex')
 
                 if 'arxiv' in name.lower():
                     bib_item['type'] = 'preprint'
@@ -136,7 +136,7 @@ def parse_bibtex_file(filename, full_strings_bib):
                     name = full_strings_rules[bib_item['booktitle']].strip(
                         '{').strip('}')
 
-                bib_item['booktitle'] = name
+                bib_item['booktitle'] = codecs.decode(name, 'ulatex')
 
             if 'author' in bib_item:
                 bib_item['author'] = list(
