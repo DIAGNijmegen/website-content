@@ -6,7 +6,7 @@ position: Student assistant
 active: yes
 groups: diag, pathology
 default_group: pathology
-email: 
+email: Nikki.Wissink@radboudumc.nl
 office: Route 812, room 3.42
 type: student-assistant
 linkedin: https://www.linkedin.com/in/nikki-wissink-32a8a3ab
