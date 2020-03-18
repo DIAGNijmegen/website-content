@@ -120,7 +120,7 @@ website-*/content/pages/calendar/*
 website-*/content/pages/404.md
 website-*/content/pages/colofon.md
 website-*/content/pages/home.md
-website-*/content/pages/members.md
+!website-*/content/pages/members.md
 website-*/content/pages/presentations.md
 website-*/content/pages/projects.md
 !website-retina/content/pages/projects.md # Custom projects page

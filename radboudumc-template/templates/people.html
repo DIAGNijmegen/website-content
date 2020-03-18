@@ -14,7 +14,7 @@
         {% set ns = namespace(has_faculty = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
 
         {% for person in pages|reverse %}
-            {% if person.parent.url == 'members/' and person.type == 'chair' and person.active == 'yes' %}
+            {% if person.category == 'members' and person.type == 'chair' and person.active == 'yes' %}
                 {% if not ns.has_chair %}
                     <h1 class="text-muted">Chair</h1>
                     <div class="row people-grid">
@@ -29,7 +29,7 @@
         {% endif %}
 
         {% for person in pages|reverse %}
-            {% if person.parent.url == 'members/' and person.type == 'faculty' and person.active == 'yes' %}
+            {% if person.category == 'members' and person.type == 'faculty' and person.active == 'yes' %}
                 {% if not ns.has_faculty %}
                     <h1 class="text-muted">Faculty</h1>
                     <div class="row people-grid">
@@ -44,7 +44,7 @@
         {% endif %}
 
         {% for person in pages %}
-            {% if person.parent.url == 'members/' and (person.type == 'postdoc' or person.type == 'phd') and person.active == 'yes' %}
+            {% if person.category == 'members' and (person.type == 'postdoc' or person.type == 'phd') and person.active == 'yes' %}
                 {% if not ns.has_science %}
                     <h1 class="text-muted">Scientific staff</h1>
                     <div class="row people-grid">
@@ -59,7 +59,7 @@
         {% endif %}
 
         {% for person in pages %}
-            {% if person.parent.url == 'members/' and person.type == 'tech' and person.active == 'yes'%}
+            {% if person.category == 'members' and person.type == 'tech' and person.active == 'yes'%}
                 {% if not ns.has_tech %}
                     <h1 class="text-muted">Technical staff</h1>
                     <div class="row people-grid">
@@ -74,7 +74,7 @@
         {% endif %}
 
         {% for person in pages %}
-            {% if person.parent.url == 'members/' and person.type == 'administrative' and person.active == 'yes'%}
+            {% if person.category == 'members' and person.type == 'administrative' and person.active == 'yes'%}
                 {% if not ns.has_admin %}
                     <h1 class="text-muted">Administrative Staff</h1>
                     <div class="row people-grid">
@@ -89,7 +89,7 @@
         {% endif %}
 
         {% for person in pages %}
-            {% if person.parent.url == 'members/' and (person.type == 'student-assistant') and person.active == 'yes' %}
+            {% if person.category == 'members' and (person.type == 'student-assistant') and person.active == 'yes' %}
                 {% if not ns.has_studentassistant %}
                     <h1 class="text-muted">Student assistants</h1>
                     <div class="row people-grid">
@@ -104,7 +104,7 @@
         {% endif %}
 
         {% for person in pages %}
-            {% if person.parent.url == 'members/' and (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' %}
+            {% if person.category == 'members' and (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' %}
                 {% if not ns.has_visiting %}
                     <h1 class="text-muted">Visiting researchers</h1>
                     <div class="row people-grid">
@@ -119,7 +119,7 @@
         {% endif %}
 
         {% for person in pages %}
-            {% if person.parent.url == 'members/' and person.active == 'no' %}
+            {% if person.category == 'members' and person.active == 'no' %}
                 {% if not ns.has_former %}
                     <h1 class="text-muted">Former members</h1>
                     <div>

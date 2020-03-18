@@ -37,7 +37,7 @@ HOME_JUMBOTRON_LAYOUT = 'dense'
 # What sections to show in the nav bar
 NAV_SECTIONS = [
     {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
+    {"name": "People", "url": "people", "icon": "users"},
     {"name": "Research", "url": "research", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
@@ -87,6 +87,8 @@ DEFAULT_PAGINATION = 10
 BIBKEYS_SRC = 'content/dict_pubs.json'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+PAGE_MEMBERS_SAVE_AS = 'people/{slug}/index.html'
+PAGE_MEMBERS_URL = 'people/{slug}/'
 SLUGIFY_SOURCE = 'basename'
 
 ARTICLE_URL = 'highlights/{slug}/'

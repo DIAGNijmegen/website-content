@@ -274,7 +274,7 @@
 
           <div class="row people-grid">
           {% for person in pages %}
-              {% if person.active == 'yes' and person.parent.url == 'members/' %}
+              {% if person.active == 'yes' and person.category == 'members' %}
                   {% include "blocks/person-circle.html" %}
               {% endif %}
           {% endfor %}

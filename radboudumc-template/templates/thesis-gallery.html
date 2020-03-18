@@ -11,7 +11,7 @@
     {% set bib_keys = [] %}
     <!-- get bibkeys for current group -->
     {% for person in pages|reverse %}
-    {% if person.parent.url == 'members/' %}
+    {% if person.category == 'members' %}
        {% set person_key = person.name.replace(' ', '-') %}  
        {% if person_key in AUTHOR_KEYS %}
            {% for bibkey in AUTHOR_KEYS[person_key]  %}
