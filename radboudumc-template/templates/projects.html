@@ -16,7 +16,7 @@
 
     <div class="row">
         {% for card in pages %}
-            {% if card.parent.url == 'projects/' %}
+            {% if card.category == 'projects' %}
                 {% if card.finished == 'false' %}
                  {% include "blocks/card.html" %}
                 {% endif %}
@@ -27,7 +27,7 @@
     <h2 style="margin-bottom: 1em;">Software</h2>
 
     {% for software in pages %}
-        {% if software.parent.url == 'software/' %}
+        {% if software.category == 'software' %}
         <div class="row mb-4">
             <div class="col-md-4">
                 {% if software.picture %}
@@ -57,7 +57,7 @@
     <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
     <div class="row">
         {% for card in pages %}
-            {% if card.parent.url == 'projects/' %}
+            {% if card.category == 'projects' %}
                 {% if card.finished == 'true' %}
                  {% include "blocks/card.html" %}
                 {% endif %}

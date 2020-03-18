@@ -11,7 +11,7 @@
 
     <div class="row">
         {% for card in pages %}
-            {% if card.parent.url == 'software/' %}
+            {% if card.category == 'software' %}
                 {% if card.finished != 'true' %}
                  {% include "blocks/card.html" %}
                 {% endif %}

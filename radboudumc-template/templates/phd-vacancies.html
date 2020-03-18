@@ -21,7 +21,7 @@
     <h2 style="margin: 2em 0 1em 0;">Running Projects</h2>
     <div class="row">
         {% for card in pages %}
-            {% if card.parent.url == 'projects/' %}
+            {% if card.category == 'projects' %}
                 {% if card.finished == 'false' %}
 		  {% if card.type == 'general' %}
 		    {% include "blocks/card.html" %}
@@ -37,7 +37,7 @@
     <h2  style="margin: 2em 0 1em 0;">Completed Projects</h2>
     <div class="row">
         {% for card in pages %}
-            {% if card.parent.url == 'projects/' %}
+            {% if card.category == 'projects' %}
                 {% if card.finished == 'true' %}
 		  {% if card.type == 'general' %}
                     {% include "blocks/card.html" %}

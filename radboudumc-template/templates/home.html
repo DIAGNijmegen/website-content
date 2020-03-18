@@ -112,7 +112,7 @@
                 </div>
             </div>
             <dl class="row calendar">
-              {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
+              {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.category == 'calendar' %}
                 {% if loop.index <= 5 %}
                   <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
                   <dd class="col-md-10">
@@ -138,7 +138,7 @@
     {% if "Vacancies" in HOME_SECTIONS %}
       {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
-      {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false'  %}
+      {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.category == 'vacancies' and vacancy.closed == 'false'  %}
         {% if not ns.has_vacancy %}
           {% set ns.has_vacancy = True %}
           <div class="block {{ row_class.next() }}">
@@ -199,7 +199,7 @@
                 <div class="col-md-12">
                     <div class="row">
                         {% for card in pages %}
-                            {% if card.parent.url == 'projects/' %}
+                            {% if card.category == 'projects' %}
                                 {% if card.finished == 'false' %}
                                  {% include "blocks/card.html" %}
                                 {% endif %}
@@ -224,7 +224,7 @@
                 <div class="col-md-12">
                     <div class="row">
                         {% for card in pages %}
-                            {% if card.parent.url == 'software/' %}
+                            {% if card.category == 'software' %}
                                 {% if card.finished != 'true' %}
                                  {% include "blocks/card.html" %}
                                 {% endif %}

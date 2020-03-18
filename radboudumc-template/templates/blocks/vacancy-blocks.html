@@ -1,7 +1,7 @@
 {% set ns = namespace(has_vacancy = False) %}
 
 {% for vacancy in pages %}
-    {% if vacancy.parent.url == 'vacancies/' %}
+    {% if vacancy.category == 'vacancies' %}
         {% if vacancy.closed == vacancies_show_closed %}
         {% if vacancy.type in show_vacancy_types %}
         {% set ns.has_vacancy = True %}

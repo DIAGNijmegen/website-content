@@ -16,7 +16,7 @@
     <h1 class="page-title">Calendar</h1>
 
     <dl class="row">
-      {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
+      {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.category == 'calendar' %}
           <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
           <dd class="col-md-10">
             

@@ -11,7 +11,7 @@
     {{ page.content }}
 
     <div class="row">
-        {% for presentation in pages | selectattr('date') | sort(attribute='date', reverse=True) if presentation.parent.url == 'presentations/' %}
+        {% for presentation in pages | selectattr('date') | sort(attribute='date', reverse=True) if presentation.category == 'presentations' %}
           <div class="{% if presentation.format == 'landscape' %}col-md-8{%else%}col-md-4{%endif%} my-3">
               <div class="card">
                   {% if presentation.format == 'landscape' %}
