@@ -3,7 +3,7 @@ title_long: Grand Challenges in Biomedical Image Analysis
 finished: false
 picture: software/grand-challenge.png
 template: project-single
-groups: rse, diag
+groups: rse, diag, rtc
 people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Karel Gerbrands, Bram van Ginneken
 description: The home of challenges in biomedical imaging.
 disable_gradient: true
