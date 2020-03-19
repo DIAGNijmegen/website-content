@@ -26,11 +26,11 @@ The slides for past presentations are available by clicking on the links in the 
 | 05-03-2020   | Josien Visschedijk   | [Text mining pathology reports.](https://drive.google.com/file/d/1PxBlrPV0EZru659kIjR2vqc_4w6mb76S/view)  |
 | 12-03-2020   | **NO MEETING**   |    |
 | 19-03-2020   | Alex Tichter   | Simulated Prosthetic Hearing in deaf subjects.   |
-| 26-03-2020   | TBD   |   |
+| 26-03-2020   | **NO MEETING**   |   |
 | 02-04-2020   | Martijn Schilpzand   | Automated prenatal ultrasound screening.  |
-| 09-04-2020  | TBD  |    |
+| 09-04-2020  | **NO MEETING**  |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
-| 23-04-2020  | Lisette Boeijenk   |    |
+| 23-04-2020  | TBD  |    |
 | 30-04-2020  | **NO MEETING**   |    |
 | 07-05-2020  | Manon de Jonge   | Predicting changes in quality of life of ICU survivors.   |
 | 14-05-2020  | Fien Ockers   |  Quantitative facial phenotyping of patients with intellectual disability.  |
