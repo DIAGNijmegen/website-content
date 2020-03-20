@@ -25,7 +25,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 27-02-2020   | **NO MEETING**  |    |
 | 05-03-2020   | Josien Visschedijk   | [Text mining pathology reports.](https://drive.google.com/file/d/1PxBlrPV0EZru659kIjR2vqc_4w6mb76S/view)  |
 | 12-03-2020   | **NO MEETING**   |    |
-| 19-03-2020   | Alex Tichter   | Simulated Prosthetic Hearing in deaf subjects.   |
+| 19-03-2020   | Alex Tichter   | [Simulated Prosthetic Hearing in deaf subjects.](https://drive.google.com/open?id=1vQ7GuKOKJHNLfUIqWqAs0tTJFIVMp18G)   |
 | 26-03-2020   | **NO MEETING**   |   |
 | 02-04-2020   | Martijn Schilpzand   | Automated prenatal ultrasound screening.  |
 | 09-04-2020  | **NO MEETING**  |    |
