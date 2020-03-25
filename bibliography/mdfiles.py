@@ -60,8 +60,6 @@ def create_publication_md(bib_items, author_bib_keys, list_researchers):
                         bib_item['year'] + '\n'
                     md_string += 'doi: NA \n' if 'doi' not in bib_item else 'doi: ' + \
                         bib_item['doi'] + '\n'
-                    md_string += 'url: NA \n' if 'url' not in bib_item else 'url: ' + \
-                        bib_item['url'] + '\n'
 
                     if bib_item['type'] == 'phdthesis':
                         md_string += 'template: publication-thesis\n'
