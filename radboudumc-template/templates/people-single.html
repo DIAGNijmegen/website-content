@@ -27,8 +27,7 @@
                     </div>
                 </div>
                 {% endif %}
-
-                {% if ('publications/' + page.slug) in pages | map(attribute="url")  %}
+                {% if page.slug in AUTHOR_KEYS %}
                 <div class="row">
                     <div class="col-1">
                         <svg class="svg-icon"><use xlink:href="#icon-format_list_bulleted"></use></svg>
@@ -37,7 +36,7 @@
                         <a href="{{SITEURL}}/publications/{{ page.slug }}">Publications</a>
                     </div>
                 </div>
-                {% endif %}
+                {% endfor %}
 
                 {% if page.scholar %}
                 <div class="row">
