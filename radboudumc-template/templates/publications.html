@@ -6,13 +6,13 @@
     {% include 'blocks/breadcrumbs.html' %}
     <div class="container">
 
-
     <h1>{{ page.title  }} </h1>
-
-    {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
-    {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
-    {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
-    {% include 'blocks/publication_list.html' %}
+    {% if SITE_GROUP in GROUP_KEYS %}
+        {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
+        {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
+        {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
+        {% include 'blocks/publication_list.html' %}
+    {% endif %}
 
 
 {% endblock %}

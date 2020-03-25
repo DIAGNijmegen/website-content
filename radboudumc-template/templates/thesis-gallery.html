@@ -7,50 +7,50 @@
 
     <div class="container">
     <h1>{{ page.title }}</h1>
+    {% if SITE_GROUP in GROUP_KEYS %}
+        {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
+        {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
+        {% set list_pub_type = ['phdthesis'] %}            
+        
+        <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
+        <p>Below is an overview of PhD theses written or supervised by members of the Diagnostic Image Analysis Group.</p>
 
-    {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
-    {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
-    {% set list_pub_type = ['phdthesis'] %}            
-    
-    <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
-    <p>Below is an overview of PhD theses written or supervised by members of the Diagnostic Image Analysis Group.</p>
-
-    <!-- Lists the publications per year and organized by publication type -->
-    <div class="row">
-    {% set theses_without_cover = [] %}
-    {% for cur_year in years %}
-            {% for pub_type in list_pub_type %}
-                {% set found = { 'flag': false } %}
-                {% for bibkey in bibkeys_per_year[cur_year] %}
-                    {% if BIB_ITEMS[bibkey]['type'] == pub_type %}
-                    {% set coverpng = BIB_ITEMS[bibkey]['coverpng'] %}
-                    {% set bibkey = BIB_ITEMS[bibkey]['coverpng'].replace('.png', '').lower() %}
-                        {% if BIB_ITEMS[bibkey]['cover_exists'] == 'True' %}
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <a href="{{SITEURL}}/publications/{{ bibkey }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/theses/' + coverpng) | resize_image('medium') }}" alt="{{ BIB_ITEMS[bibkey]['title_thesis'] }}"></a>
+        <!-- Lists the publications per year and organized by publication type -->
+        <div class="row">
+        {% set theses_without_cover = [] %}
+        {% for cur_year in years %}
+                {% for pub_type in list_pub_type %}
+                    {% set found = { 'flag': false } %}
+                    {% for bibkey in bibkeys_per_year[cur_year] %}
+                        {% if BIB_ITEMS[bibkey]['type'] == pub_type %}
+                        {% set coverpng = BIB_ITEMS[bibkey]['coverpng'] %}
+                        {% set bibkey = BIB_ITEMS[bibkey]['coverpng'].replace('.png', '').lower() %}
+                            {% if BIB_ITEMS[bibkey]['cover_exists'] == 'True' %}
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <a href="{{SITEURL}}/publications/{{ bibkey }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/theses/' + coverpng) | resize_image('medium') }}" alt="{{ BIB_ITEMS[bibkey]['title_thesis'] }}"></a>
+                                </div>
                             </div>
-                        </div>
-                        {% else %}
-                            {% set _ = theses_without_cover.append(bibkey) %}
+                            {% else %}
+                                {% set _ = theses_without_cover.append(bibkey) %}
+                            {% endif %}
+
                         {% endif %}
-
-                    {% endif %}
+                    {% endfor %}
                 {% endfor %}
-            {% endfor %}
-    {% endfor %}
-    </div>
-
-
-    <!-- Thesis without cover -->
-    <div class="row">
-        <h3>Thesis (without cover)</h3>
-        <ul>
-        {% for bibkey in theses_without_cover %}
-            {% include "blocks/publication-item.html" %}
         {% endfor %}
-        </ul>
-    </div>
+        </div>
 
+
+        <!-- Thesis without cover -->
+        <div class="row">
+            <h3>Thesis (without cover)</h3>
+            <ul>
+            {% for bibkey in theses_without_cover %}
+                {% include "blocks/publication-item.html" %}
+            {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
     </div>
 {% endblock %}
