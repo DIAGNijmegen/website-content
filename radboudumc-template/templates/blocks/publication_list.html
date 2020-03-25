@@ -1,7 +1,7 @@
 
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
     {% set max_year = MAX_YEAR_PUB or 2012   %}
-    {% for cur_year in years|sort(reverse = True) if cur_year|int >= max_year  %}
+    {% for cur_year in years if cur_year|int >= max_year  %}
         {% if cur_year|int <= max_year %}
             {% set cur_year = max_year|string + ' and before' %}
         {% endif %}
@@ -10,16 +10,16 @@
         {{ cur_year }}
     </label>
     {% endfor %}
-    </div>
+</div>
 
     {# Lists the publications per year and organized by publication type #}
-    {% for cur_year in years|sort(reverse = True) %}
+    {% for cur_year in years %}
         <div data-year="{{ cur_year }}" class="publication-year">
             <h2>{{ cur_year }}</h2>
             {% for pub_type in list_pub_type %}
                 {% set found = { 'flag': false } %}
-                {% for bibkey in bib_keys %}
-                    {% if BIB_ITEMS[bibkey]['type'] == pub_type and BIB_ITEMS[bibkey]['year']|int == cur_year|int %}
+                {% for bibkey in bibkeys_per_year[cur_year] %}
+                    {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
                         {% if found['flag'] == false %}
                             {% if pub_type == 'article' %}
                                 <h3>{{ 'Papers in international journals' }}</h3>

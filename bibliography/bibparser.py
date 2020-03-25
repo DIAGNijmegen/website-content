@@ -4,16 +4,22 @@ import latexcodec
 import codecs
 import glob
 import os
-
+import numpy as np
 
 from mdfiles import create_author_md_files, create_publication_md
 from authors import get_list_researchers, get_publications_by_author
 from bibreader import parse_bibtex_file
 
 
+class SetEncoder(json.JSONEncoder):
+    def default(self, obj):
+       if isinstance(obj, set):
+          return list(obj)
+       return json.JSONEncoder.default(self, obj)
+
 def save_dict2json(json_path, dict_md5):
     with open(json_path, 'w') as fp:
-        json.dump(dict_md5, fp)
+        json.dump(dict_md5, fp, cls=SetEncoder)
 
 
 def load_json2dict(json_path):
@@ -40,26 +46,71 @@ def timeit(method):
     return timed
 
 
+def sort_bib_keys_author(author_bib_keys, bib_items):
+    bib_items_per_author_per_date = {}
+    for researcher, keys in author_bib_keys.items():
+        bib_items_per_data = {}
+        for key in keys:
+            bib_items_per_data.setdefault(bib_items[key]['year'], set()).add(key)
+        bib_items_per_data['__years__'] = sorted(set(bib_items_per_data.keys()))[::-1]
+        #TODO sort by month
+        bib_items_per_author_per_date[researcher] = bib_items_per_data
+    return bib_items_per_author_per_date
+
+
+def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
+    bib_items_per_group_per_date = {}
+    groups = []
+    for researcher, keys in author_bib_keys.items():
+        # set group if not set
+        for group in list_researchers[researcher][1]:
+            if group not in groups:
+                groups.append(group)
+            bib_items_per_group_per_date.setdefault(group, {})
+            for key in keys:
+                bib_items_per_group_per_date[group].setdefault(bib_items[key]['year'], set()).add(key)
+                
+    # compute all years per group
+    for group in groups:
+        bib_items_per_group_per_date[group]['__years__'] = sorted(set(bib_items_per_group_per_date[group].keys()))[::-1]
+        #TODO sort by month
+    return bib_items_per_group_per_date
+
+
 @timeit
 def parse_bib_file():
     print('parsing bib file...')
-    bib_items = parse_bibtex_file(
-        './content/diag.bib', './content/fullstrings.bib')
+    bib_items = parse_bibtex_file('./content/diag.bib', './content/fullstrings.bib')
+    
     print('retreiving list of diag members')
     list_researchers = get_list_researchers('./content/pages/members/')
+
     print('mapping bib keys to authors')
     author_bib_keys = get_publications_by_author(bib_items, list_researchers)
+
+    # sorting
+    print('sorting')
+    bib_items_per_author_per_date = sort_bib_keys_author(author_bib_keys, bib_items)
+    bib_items_per_group_per_date = sort_bib_keys_group(author_bib_keys, bib_items, list_researchers)
+
+    # saving
     print('saving bibitems.json')
     save_dict2json('./content/bibitems.json', bib_items)
-    print('saving auhtorbibkeys.json')
-    save_dict2json('./content/authorkeys.json', author_bib_keys)
+    print('saving authorbibkeys.json')
+    save_dict2json('./content/authorkeys.json', bib_items_per_author_per_date )
+    print('saving groupbibkeys.json')
+    save_dict2json('./content/groupkeys.json', bib_items_per_group_per_date )
 
     return bib_items, list_researchers, author_bib_keys
 
 
 if __name__ == "__main__":
     bib_items, list_researchers, author_bib_keys = parse_bib_file()
+
     print('creating author md files')
     create_author_md_files(author_bib_keys, list_researchers)
+
     print('creating publication md files')
     create_publication_md(bib_items, author_bib_keys, list_researchers)
+
+    

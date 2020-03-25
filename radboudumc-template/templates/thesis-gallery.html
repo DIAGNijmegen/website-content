@@ -8,35 +8,9 @@
     <div class="container">
     <h1>{{ page.title }}</h1>
 
-    {% set bib_keys = [] %}
-    <!-- get bibkeys for current group -->
-    {% for person in pages|reverse %}
-    {% if person.category == 'members' %}
-       {% set person_key = person.name.replace(' ', '-') %}  
-       {% if person_key in AUTHOR_KEYS %}
-           {% for bibkey in AUTHOR_KEYS[person_key]  %}
-            {% if bibkey not in bib_keys %}
-                {% set _ = bib_keys.append(bibkey) %}
-            {% endif %}
-        {% endfor %}
-       {% endif %}
-    {% endif %}
-    {% endfor %}
-    
-    {% set list_years = [] %}
-    {% set list_pub_type = [] %}
-    {% if bib_keys %}
-    {% for bibkey in bib_keys %}
-        <!-- Getting list of years -->
-        {% if BIB_ITEMS[bibkey]['type'] == 'phdthesis' and BIB_ITEMS[bibkey]['year'] not in list_years %}
-            {% if list_years.append(BIB_ITEMS[bibkey]['year']) %}{% endif %}
-        {% endif %}
-        <!-- Getting list of pub_type -->
-        {% if BIB_ITEMS[bibkey]['type'] == 'phdthesis' and BIB_ITEMS[bibkey]['type'] not in list_pub_type %}
-            {% if list_pub_type.append(BIB_ITEMS[bibkey]['type']) %}{% endif %}
-        {% endif %}
-    {% endfor %}
-    {% endif %}
+    {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
+    {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
+    {% set list_pub_type = ['phdthesis'] %}            
     
     <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
     <p>Below is an overview of PhD theses written or supervised by members of the Diagnostic Image Analysis Group.</p>
@@ -44,11 +18,11 @@
     <!-- Lists the publications per year and organized by publication type -->
     <div class="row">
     {% set theses_without_cover = [] %}
-    {% for cur_year in list_years|sort(reverse = True) %}
+    {% for cur_year in years %}
             {% for pub_type in list_pub_type %}
                 {% set found = { 'flag': false } %}
-                {% for bibkey in bib_keys %}
-                    {% if BIB_ITEMS[bibkey]['type'] == pub_type and BIB_ITEMS[bibkey]['year'] == cur_year %}
+                {% for bibkey in bibkeys_per_year[cur_year] %}
+                    {% if BIB_ITEMS[bibkey]['type'] == pub_type %}
                     {% set coverpng = BIB_ITEMS[bibkey]['coverpng'] %}
                     {% set bibkey = BIB_ITEMS[bibkey]['coverpng'].replace('.png', '').lower() %}
                         {% if BIB_ITEMS[bibkey]['cover_exists'] == 'True' %}

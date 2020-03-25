@@ -9,19 +9,9 @@
         <a href="{{SITEURL}}/members/{{ page.author_name.lower().replace(' ', '-') }}/">Back to page of {{ page.author_name}}</a>
     </p>
 
-    {% set years = [] %}
-    {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}
-    {% set bib_keys = page.bibkeys.split(',') %}	
-
-    {% if bib_keys %}
-    	{% for bibkey in bib_keys %}
-    	    {# Getting list of years #}
-            {% if bibkey != '' and bibkey in BIB_ITEMS and BIB_ITEMS[bibkey]['year'] not in years %}
-                {% if years.append(BIB_ITEMS[bibkey]['year']) %}{% endif %}
-            {% endif %}
-    	{% endfor %}
-    {% endif %}
-                
+    {% set years = AUTHOR_KEYS[page.author|string()]['__years__'] %}   
+    {% set bibkeys_per_year = AUTHOR_KEYS[page.author|string()] %} 
+    {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
     {% include 'blocks/publication_list.html' %}
 
     </div>
