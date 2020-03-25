@@ -120,16 +120,22 @@
                 {% endfor %}
 
                 {% if SHOW_GROUP_MEMBERSHIP %}
-                  <dt>Member of:</dt>
-                  <dd>
-                    <ul>
+                    {% set ns = namespace(group_membership=False) %}
                     {% for group in page.groups.replace(' ','').split(',') %}
                       {% if group in DIAG_WEBSITE_URLS %}
+                        {% if not ns.group_membership %}
+                            {% set ns.group_membership = True %}
+                    <dt>Member of:</dt>
+                    <dd>
+                        <ul>
+                        {% endif %}
                         <li><a href="{{ DIAG_WEBSITE_URLS[group] }}">{{ DIAG_WEBSITES_CONFIG[group].SITENAME }}</a></li>
                       {% endif %}
                     {% endfor %}
-                    </ul>
-                  </dd>
+                    {% if ns.group_membership %}
+                        </ul>
+                    </dd>
+                    {% endif %}
                 {% endif %}
             </dl>
 
