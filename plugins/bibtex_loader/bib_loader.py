@@ -14,7 +14,7 @@ def load_json2dict(json_path):
         json_file = open(json_path)
         json_data = json.load(json_file)
     else:
-        json_data = None
+        json_data = {}
 
     return json_data
     
