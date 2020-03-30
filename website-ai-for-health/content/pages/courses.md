@@ -19,7 +19,7 @@ The first edition of the AI for Health course started November 2, 2019. A group 
 > Despite this, I learned a lot, both about the backgrounds of data science and AI as well as in applying them. I actually became even more curious about what can be achieved by applying data science and AI models to the gigantic mountain of data that the Radboudumc has.
 The course was an alternation between theory and practice and covers a wide range of topics, including for example machine learning, data visualization, ultrasound images and genetic data.
 >
-> Do you want to acquire knowledge about the data science and AI, or do you already have experience with facets of data science and do you want to deepen, broaden or apply this knowledge within the Radboudumc? Then this course is highly recommended! “ according to Pascal van Nispen, interface specialist, Department Information Management at the Radboudumc
+> Do you want to acquire knowledge about the data science and AI, or do you already have experience with facets of data science and do you want to deepen, broaden or apply this knowledge within the Radboudumc? Then this course is highly recommended!“ according to Pascal van Nispen, interface specialist, Department Information Management at the Radboudumc
 
 
 ## What you need to know for the second edition of the course:
