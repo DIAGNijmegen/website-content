@@ -13,6 +13,8 @@ The course will be organized in a collaboration between Radboudumc, Radboud Univ
 
 The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, conisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that are now developing an AI solution to a challenging clinical problem. The six teams will present their work at the final meeting of the course in September in the [Radboudumc Innovation Space](https://www.radboudumc.nl/en/reshape/innovation-space).
 
+***
+
 ## Testimonials
 _“I was a participant of the first group that followed this course, therefore it felt sometimes a bit like trial and error. It's nice to see that the lessons we've learned have already been incorporated into the new course._
 
