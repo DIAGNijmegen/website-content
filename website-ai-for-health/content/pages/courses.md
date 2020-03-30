@@ -11,7 +11,16 @@ Radboud AI for Health plans to run two courses every year for a group of around 
 
 The course will be organized in a collaboration between Radboudumc, Radboud University and the Jheronimus Academy of Data Science ([JADS](https://www.jads.nl/)) in Den Bosch. A presentation by Egge van der Poel was given during an information session on September 16, 2019. The slides of this presentation can be found [here](https://drive.google.com/open?id=1nnYpNSdr10E3Zm7IiV78UFj239eIV4Yx). 
 
-The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, conisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that are now developing an AI solution to a challenging clinical problem. The six teams will present their work at the final meeting of the course in the afternoon of May 15 in the [Radboudumc Innovation Space](https://www.radboudumc.nl/en/reshape/innovation-space).
+The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, conisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that are now developing an AI solution to a challenging clinical problem. The six teams will present their work at the final meeting of the course in September in the [Radboudumc Innovation Space](https://www.radboudumc.nl/en/reshape/innovation-space).
+
+## Testimonials
+> “I was a participant of the first group that followed this course, therefore it felt sometimes a bit like trial and error. It's nice to see that the lessons we've learned have already been incorporated into the new course.
+>
+> Despite this, I learned a lot, both about the backgrounds of data science and AI as well as in applying them. I actually became even more curious about what can be achieved by applying data science and AI models to the gigantic mountain of data that the Radboudumc has.
+The course was an alternation between theory and practice and covers a wide range of topics, including for example machine learning, data visualization, ultrasound images and genetic data.
+>
+> Do you want to acquire knowledge about the data science and AI, or do you already have experience with facets of data science and do you want to deepen, broaden or apply this knowledge within the Radboudumc? Then this course is highly recommended! “ according to Pascal van Nispen, interface specialist, Department Information Management at the Radboudumc
+
 
 ## What you need to know for the second edition of the course:
 - Course will be held on 13 Fridays, with different topics per day
