@@ -27,7 +27,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 12-03-2020   | **NO MEETING**   |    |
 | 19-03-2020   | Alex Tichter   | [Simulated Prosthetic Hearing in deaf subjects.](https://drive.google.com/open?id=1vQ7GuKOKJHNLfUIqWqAs0tTJFIVMp18G)   |
 | 26-03-2020   | **NO MEETING**   |   |
-| 02-04-2020   | Martijn Schilpzand   | Automated prenatal ultrasound screening.  |
+| 02-04-2020   | Martijn Schilpzand   | [Automated prenatal ultrasound screening.](https://drive.google.com/open?id=1ZTLtrl6DV1UD6cHsABVuhvQbGocKfEMT)  |
 | 09-04-2020  | **NO MEETING**  |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  How to create a successful product from your research.  |
 | 23-04-2020  | TBD  |    |
