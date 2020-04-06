@@ -22,8 +22,12 @@ regex_member = re.compile(r"\[(?P<type>member|project|software|highlight|present
 
 # Matches: [youtube: video_id]
 regex_youtube = re.compile(r"\[youtube:\s*(?P<video>[a-zA-Z0-9\-\_]+)\]")
+
 # Matches: [vimeo: video_id]
 regex_vimeo = re.compile(r"\[vimeo:\s*(?P<video>[a-zA-Z0-9\-\_]+)\]")
+
+# Matches: [slideshare: slide_id]
+regex_slideshare = re.compile(r"\[slideshare:\s*(?P<slide>[a-zA-Z0-9\-\_]+)\]")
 
 # Content type to Pelican variable mapping
 content_varnames = {
@@ -68,14 +72,16 @@ def parse_content_tag(text, context):
 def parse_youtube_tag(text):
     """Replaces [youtube: id] tags"""
     video_id = text.group('video')
-
     return f'<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/{video_id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>'
 
 def parse_vimeo_tag(text):
     """Replaces [vimeo: id] tags"""
     video_id = text.group('video')
-
     return f'<div class="video-container"><iframe src="https://player.vimeo.com/video/{video_id}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'
+
+def parse_slideshare_tag(text):
+    slide_id = text.group('slide')
+    return f'<div class="slide-container"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/{slide_id}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe></div>'
 
 def get_settings(generator):
     print(generator.context['MEMBER_DATA'])
@@ -92,8 +98,11 @@ def parse_tags(instance):
             content = regex_youtube.sub(lambda m: parse_youtube_tag(m), content)
         if '[vimeo:' in content:
             content = regex_vimeo.sub(lambda m: parse_vimeo_tag(m), content)
+        if '[slideshare:' in content:
+            content = regex_slideshare.sub(lambda m: parse_slideshare_tag(m), content)
 
         instance._content = content
+
 def register():
     #signals.generator_init.connect(get_settings)
     signals.content_object_init.connect(parse_tags)
