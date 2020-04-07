@@ -1,13 +1,15 @@
 title: PANDA Challenge
 finished: false
 type: general
-picture: projects/panda_logo_square.png
+picture: projects/panda_logo_hor.png
 template: project-single
 groups: pathology
 description: Prostate cancer grading of biopsies using the Gleason grading system
 disable_gradient: true
 people: Wouter Bulten, Peter Ström, Kimmo Kartasalo, Hans Pinckaers, Martin Eklund, Geert Litjens 
 bibkeys: Bult20
+
+![PANDA Challenge logo]({static}/images/projects/panda_logo_square.png)
 
 With 1.1 million new diagnoses every year, prostate cancer (PCa) is the most common cancer in men in developed countries. The biopsy Gleason grading system is the most important prognostic marker for prostate cancer but suffers from significant inter-observer variability, limiting its usefulness for individual patients. The Gleason grade is determined by pathologists on hematoxylin and eosin (H&E) stained tissue specimens based on the architectural growth patterns of the tumor.
 
