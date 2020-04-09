@@ -11,3 +11,5 @@ Currently, there is no cure for GA. However, several potential therapies are bei
 One technical challenge for getting the model to work was the large variability in image quality, with data form different camera's, containing both digital and digitized (scanned analogue) images. The resulting model is therefore quite robust to these variations, and can now be used in many other data sets. We are particularly excited about the opportunity to study the relationship between imaging parameters and GA growth rate, as well as in the context of genetics, demographic information and life-style.
 
 ![Segmentation of GA to study its long-term natural history]({static}/images/news/retina-ga-content.jpg)
+<br>
+<i>Segmentation of GA to study its long-term natural history.</i>
