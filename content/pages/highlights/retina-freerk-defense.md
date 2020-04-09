@@ -1,7 +1,7 @@
 title: PhD defense of Freerk Venhuizen
 date: 2019-12-10
 description: Freerk Venhuizen has defended his doctoral thesis, titled "Machine Learning for Quantification of Age-Related Macular Degeneration Imaging Biomarkers in Optical Coherence Tomography". 
-picture: news/retina-freerk-defense.JPG
+picture: news/retina-freerk-defense.jpg
 groups: retina
 
 Freerk Venhuizen has been awarded the title of Doctor by the Radboud University of Nijmegen after defending his PhD thesis, titled "Machine Learning for Quantification of Age-Related Macular Degeneration Imaging Biomarkers in Optical Coherence Tomography".
