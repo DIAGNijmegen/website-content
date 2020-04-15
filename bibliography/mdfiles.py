@@ -23,9 +23,8 @@ def create_author_md_files(author_bib_keys, list_researchers):
     for name, bib_keys in author_bib_keys.items():
         author_name = name.replace('_', ' ')
         groups = list_researchers[name][1]
-
         md_string = 'title: Publications of ' + \
-            author_name.replace('-', ' ') + '\n'
+            list_researchers[name][2] + '\n'
         md_string += 'template: publications-author\n'
         md_string += 'author: ' + name.lower() + '\n'
         md_string += 'author_name: ' + author_name.replace('-', ' ') + '\n'

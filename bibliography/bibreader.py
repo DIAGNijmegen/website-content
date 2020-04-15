@@ -114,8 +114,6 @@ def parse_bibtex_file(filename, full_strings_bib):
                     else:
                         name = name.replace('_', ' ').strip()
                 elif name in full_strings_rules:
-                    if name == '_Journal_of_Open_Source_Software_':
-                        print('hello')
                     name = full_strings_rules[bib_item['journal']].strip(
                         '{').strip('}')
 
