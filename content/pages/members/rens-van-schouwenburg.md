@@ -1,7 +1,7 @@
 title: Rens van Schouwenburg
 name: Rens van Schouwenburg
 template: people-single
-picture: Rens_Van_Schouwenburg.jpeg
+picture: people/Rens_Van_Schouwenburg.jpeg
 active: yes
 groups: diag, pathology
 default_group: pathology
