@@ -1,7 +1,7 @@
 title: Cristina González-Gonzalo
 name: Cristina González-Gonzalo
 template: people-single
-picture: people/Cristina_Gonzalez_Gonzalo.jpg
+picture: people/Cristina_Gonzalez_Gonzalo_2.jpg
 position: PhD student
 active: yes
 groups: diag, retina
