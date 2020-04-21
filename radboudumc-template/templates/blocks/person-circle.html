@@ -29,4 +29,8 @@
     {% if person.default_group != SITE_GROUP and person.group_name %}
       <p class='text-muted'>{{ person.group_name }}</p>
     {% endif %}
+
+    {% if SHOW_EMAIL_GROUP_MEMBERS_INLINE and person.email %}
+    <p class='text-muted'><a href="mailto:{{ person.email }}"><svg class="svg-icon svg-icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg></a></p>
+    {% endif %}
 </div>
