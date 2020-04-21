@@ -26,6 +26,9 @@ FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 #PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 
+# Whether to show email buttons on every person circle
+SHOW_EMAIL_GROUP_MEMBERS_INLINE = True
+
 # What sections to show in the nav bar
 NAV_SECTIONS = [
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
