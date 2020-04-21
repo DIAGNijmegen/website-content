@@ -15,7 +15,6 @@
                 <h2 class="text-muted">{{ page.position }}</h2>
                 {% endif %}
             </div>
-
             <div class="person-links mb-4">
                 {% if page.website %}
                 <div class="row">
@@ -27,7 +26,7 @@
                     </div>
                 </div>
                 {% endif %}
-                {% if page.slug in AUTHOR_KEYS %}
+                {% if page.name.lower().replace(' ', '-') in AUTHOR_KEYS %}
                 <div class="row">
                     <div class="col-1">
                         <svg class="svg-icon"><use xlink:href="#icon-format_list_bulleted"></use></svg>
@@ -130,7 +129,7 @@
                     <dd>
                         <ul>
                         {% endif %}
-                        <li><a href="{{ DIAG_WEBSITE_URLS[group] }}">{{ DIAG_WEBSITES_CONFIG[group].SITENAME }}</a></li>
+                        <li><a href="{{ DIAG_WEBSITE_URLS[group] }}">{{ DIAG_WEBSITES_CONFIG[group].SITENAME }} </a></li>
                       {% endif %}
                     {% endfor %}
                     {% if ns.group_membership %}

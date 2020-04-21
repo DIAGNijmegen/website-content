@@ -6,7 +6,7 @@
     <h1>{{ page.title }} </h1>
 
     <p class="my-4">
-        <a href="{{SITEURL}}/members/{{ page.author_name.lower().replace(' ', '-') }}/">Back to page of {{ page.author_name}}</a>
+        <a href="{{SITEURL}}/members/{{ page.slug }}/">Back to page of {{ page.author_name}}</a>
     </p>
 
     {% set years = AUTHOR_KEYS[page.author|string()]['__years__'] %}   

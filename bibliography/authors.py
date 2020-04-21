@@ -36,7 +36,7 @@ def get_list_researchers(members_path):
             groups = [group.strip(',') for group in tags['groups']]
 
         # append researcher with name as key and author_name and groups as value
-        list_researchers[name.lower()] = (author_name, groups)
+        list_researchers[name.lower()] = (author_name, groups, name.replace('-', ' '))
     return list_researchers
 
 
@@ -52,7 +52,7 @@ def get_publications_by_author(bib_items, list_researchers):
             continue
         authors = bib_item['author']
         for name, value in list_researchers.items():
-            researcher_name, _ = value
+            researcher_name, _, _ = value
             firstname = researcher_name[0].lower()
             lastnames = [n.lower() for n in researcher_name[1:]]
 
