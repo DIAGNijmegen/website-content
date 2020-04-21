@@ -26,7 +26,7 @@
                         {% set coverpng = BIB_ITEMS[bibkey]['coverpng'] %}
                         {% set bibkey = BIB_ITEMS[bibkey]['coverpng'].replace('.png', '').lower() %}
                             {% if BIB_ITEMS[bibkey]['cover_exists'] == 'True' %}
-                            <div class="col-md-4 mb-4">
+                            <div class="col-md-4 col-6 mb-4">
                                 <div class="card">
                                     <a href="{{SITEURL}}/publications/{{ bibkey }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/theses/' + coverpng) | resize_image('medium') }}" alt="{{ BIB_ITEMS[bibkey]['title_thesis'] }}"></a>
                                 </div>
