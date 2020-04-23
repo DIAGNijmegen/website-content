@@ -30,7 +30,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 02-04-2020   | Martijn Schilpzand   | [Automated prenatal ultrasound screening.](https://drive.google.com/open?id=1ZTLtrl6DV1UD6cHsABVuhvQbGocKfEMT)  |
 | 09-04-2020  | **NO MEETING**  |    |
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  DIAG AI development for COVID-19.  |
-| 23-04-2020  | TBD  |    |
+| 23-04-2020  | **NO MEETING**  |    |
 | 30-04-2020  | **NO MEETING**   |    |
 | 07-05-2020  | Manon de Jonge   | Predicting changes in quality of life of ICU survivors.   |
 | 14-05-2020  | Fien Ockers   |  Quantitative facial phenotyping of patients with intellectual disability.  |
