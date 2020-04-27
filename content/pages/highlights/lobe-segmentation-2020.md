@@ -1,7 +1,7 @@
 title: Pulmonary lobe segmentation for CT-scans COVID-19 and COPD patients.
 date: 2020-04-27
 description: Pulmonary lobe segmentation in computed tomography scans is essential for regional assessment of pulmonary diseases. Our algorithm for automatic segmentation of pulmonary lobes on CT scans for patients with COPD or COVID-19 is now available on Grand Challenge.
-picture: lobe_segmentation_I.png
+picture: news/lobe_segmentation_I.png
 groups: diag
 
 Automated pulmonary lobe segmentation in computed tomography scans is still an open problem, especially for scans with substantial abnormalities, such as in COVID-19 infection. Recent works used Convolutional Neural Networks for automatic pulmonary lobe segmentation. Convolution kernels in these networks only respond to local information within the scope of their effective receptive field, and this may be insufficient to capture all necessary contextual information. 
