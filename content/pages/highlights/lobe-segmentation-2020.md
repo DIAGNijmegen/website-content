@@ -1,4 +1,4 @@
-title: Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.
+title: Pulmonary lobe segmentation for CT-scans COVID-19 and COPD patients.
 date: 2020-04-27
 description: Pulmonary lobe segmentation in computed tomography scans is essential for regional assessment of pulmonary diseases. Our algorithm for automatic segmentation of pulmonary lobes on CT scans for patients with COPD or COVID-19 is now available on Grand Challenge.
 picture: lobe_segmentation_I.png
