@@ -1,5 +1,5 @@
 title: Virtual Conference on Computational Audiology (VCCA)
-date: 2020-04-
+date: 2020-04-28
 description: Save the date and call for abstracts for the first Virtual Conference on Computational Audiology (VCCA) to be held on June 19, 2020.
 picture: news/VCCA.jpg
 groups: ai-for-health
