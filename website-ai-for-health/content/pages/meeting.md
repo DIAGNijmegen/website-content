@@ -32,7 +32,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 16-04-2020  | **Guest Speaker** <br> Bram van Ginneken   |  DIAG AI development for COVID-19.  |
 | 23-04-2020  | **NO MEETING**  |    |
 | 30-04-2020  | **NO MEETING**   |    |
-| 07-05-2020  | Manon de Jonge   | Predicting changes in quality of life of ICU survivors.   |
+| 07-05-2020  | **NO MEETING**   |   |
 | 14-05-2020  | Fien Ockers   |  Quantitative facial phenotyping of patients with intellectual disability.  |
 | 21-05-2020 | **NO MEETING**   |    |
 | [28-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2028-5-2020)   | TBD   |    |
