@@ -1,7 +1,7 @@
 title: Ludo van Alst
 name: Ludo van Alst
 template: people-single
-picture: people/Person.png
+picture: people/Ludo_van_Alst.jpg
 position: Master student
 active: yes
 groups: diag, pathology
