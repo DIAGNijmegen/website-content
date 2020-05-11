@@ -4,7 +4,7 @@ finished: false
 picture: software/cirrus.png
 template: project-single
 description: CIRRUS is the workstation platform for DIAG
-groups: rse, diag
+groups: rse, diag, rtc
 people: Haimasree Bhattacharya, Paul Konstantin Gerke, Colin Jacobs, James Meakin
 bibkeys: 
 
