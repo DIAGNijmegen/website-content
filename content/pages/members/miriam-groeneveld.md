@@ -4,7 +4,7 @@ template: people-single
 picture: people/Miriam_Groeneveld.jpg
 position: Research Software Engineer
 active: yes
-groups: diag, pathology, rse
+groups: diag, pathology, rse, rtc
 default_group: pathology
 email: Miriam.Groeneveld@radboudumc.nl
 office: Route 767, Room 25
