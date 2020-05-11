@@ -4,7 +4,7 @@ template: people-single
 picture: people/Haimasree_Bhattacharya.jpg
 position: Research Software Engineer
 active: yes
-groups: diag, rse
+groups: diag, rse, rtc
 default_group: rse
 email: haimasree.bhattacharya@radboudumc.nl
 office: Route 767, Room 2.25
