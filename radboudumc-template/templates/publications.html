@@ -7,11 +7,39 @@
     <div class="container">
 
     <h1>{{ page.title  }} </h1>
-    {% if SITE_GROUP in GROUP_KEYS %}
+
+
+    <!-- if bibkeys are  custom set-->
+    {% if page.bibkeys %}
+        {% set years = [] %} 
+        {% set bibkeys_per_year = dict() %}
+        {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %} 
+
+        {% for bibkey in page.bibkeys.split(',') %}
+            {% set bibkey = bibkey.strip().lower() %}
+            {% set year = BIB_ITEMS[bibkey]['year'] %}
+
+            {% if year not in years %}
+                {% set _dummy =  years.append(year) %} 
+            {% endif %}
+            
+            {% if year in bibkeys_per_year %}
+                {% set _dummy = bibkeys_per_year.update({ year: bibkeys_per_year[key] + [bibkey]  })  %}
+            {% else %}
+                {% set _dummy = bibkeys_per_year.update({ year: [bibkey] }) %}
+            {% endif %}
+
+        {% endfor %}
+        {% include 'blocks/publication_list.html' %}
+
+    <!-- use site group bib keys -->
+    {% elif SITE_GROUP in GROUP_KEYS  %}
+
         {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
         {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
         {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
         {% include 'blocks/publication_list.html' %}
+
     {% endif %}
 
 
