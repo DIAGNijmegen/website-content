@@ -3,16 +3,30 @@
         <div class="row">
             <div class="col-md-11 py-3 footer-content">
                 <p>
-                    {% if page %}
-                    <a href="{{ page.edit_url }}" title="Edit on Github">
+                    <a href="https://github.com/diagnijmegen" title="Our GitHub repository">
                         <svg class="nav-icon svg-icon svg-icon-github">
                             <use xlink:href="#icon-github"></use>
                         </svg>
                     </a>
+                    
+                    {% if TWITTER_URL %}
+                    <a href="{{ TWITTER_URL }}" title="Twitter">
+                        <svg class="nav-icon svg-icon">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                    {% endif %}
+                    
+                    {% if page %}
+                    <a href="{{ page.edit_url }}" title="Edit on Github">
+                        <svg class="nav-icon svg-icon">
+                            <use xlink:href="#icon-write"></use>
+                        </svg>
+                    </a>
                     {% elif article %}
                     <a href="{{ article.edit_url }}" title="Edit on Github">
-                        <svg class="nav-icon svg-icon svg-icon-github">
-                            <use xlink:href="#icon-github"></use>
+                        <svg class="nav-icon svg-icon">
+                            <use xlink:href="#icon-write"></use>
                         </svg>
                     </a>
                     {% endif %}
