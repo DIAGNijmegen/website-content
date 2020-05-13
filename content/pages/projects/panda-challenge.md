@@ -21,7 +21,7 @@ The task of the challenge is to design a system that can automatically detect pr
 
 ## Participate in the challenge
 
-The challenge is hosted on Kaggle. Please signup here: https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview
+The challenge is hosted on Kaggle. Please signup at the [Kaggle webite](https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview).
 
 ## Organizers
 
