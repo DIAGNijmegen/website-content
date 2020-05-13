@@ -6,29 +6,25 @@
                     <a href="https://github.com/diagnijmegen" title="Our GitHub repository">
                         <svg class="nav-icon svg-icon svg-icon-github">
                             <use xlink:href="#icon-github"></use>
-                        </svg>
-                    </a>
-                    
+                        </svg></a>&nbsp;
+
                     {% if TWITTER_URL %}
                     <a href="{{ TWITTER_URL }}" title="Twitter">
                         <svg class="nav-icon svg-icon">
                             <use xlink:href="#icon-twitter"></use>
-                        </svg>
-                    </a>
+                        </svg></a>&nbsp;
                     {% endif %}
                     
                     {% if page %}
                     <a href="{{ page.edit_url }}" title="Edit on Github">
                         <svg class="nav-icon svg-icon">
                             <use xlink:href="#icon-write"></use>
-                        </svg>
-                    </a>
+                        </svg></a>&nbsp;
                     {% elif article %}
                     <a href="{{ article.edit_url }}" title="Edit on Github">
                         <svg class="nav-icon svg-icon">
                             <use xlink:href="#icon-write"></use>
-                        </svg>
-                    </a>
+                        </svg></a>&nbsp;
                     {% endif %}
 
                     &copy; {{SITENAME}} {{ CURRENTYEAR }}. <a href="{{SITEURL}}/colofon">Colofon</a>.
