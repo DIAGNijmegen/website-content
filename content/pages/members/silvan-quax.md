@@ -8,7 +8,7 @@ groups: rtc
 default_group: rtc
 email: silvan.quax@radboudumc.nl
 office: Route 767, Room 27
-type: 
+type: tech
 telephone: +31 24 3614548
 linkedin: https://www.linkedin.com/in/silvan-quax/
 researcherid: http://www.researcherid.com/rid/Q-8683-2018
