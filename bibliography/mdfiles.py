@@ -27,7 +27,7 @@ def create_author_md_files(author_bib_keys, list_researchers):
             list_researchers[name][2] + '\n'
         md_string += 'template: publications-author\n'
         md_string += 'author: ' + name.lower() + '\n'
-        md_string += 'author_name: ' + author_name.replace('-', ' ') + '\n'
+        md_string += 'author_name: ' + list_researchers[name][2] + '\n'
         md_string += 'groups: ' + ','.join(groups) + '\n'
         md_string += 'bibkeys: ' + ','.join(bib_keys)
         md_file_name = './content/pages/publications/' + name.lower() + '.md'
