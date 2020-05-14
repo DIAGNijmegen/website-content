@@ -3,8 +3,9 @@
 # Break build on error
 set -e
 
-# Check if this commit is the latest, if not we skip
-git checkout master # Travis starts on a detached branch
+# Check if we are up to date with the remote master branch.
+# If not we skip optimization to prevent conflicts.
+git checkout master # Travis starts on a detached head
 git fetch
 if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
   echo "Not on latest commit, skipping optimization."
