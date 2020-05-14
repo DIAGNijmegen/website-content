@@ -17,6 +17,7 @@ cd imgoptim
 echo "Starting image optimization script"
 node optimize.js
 
+# Set user to the webteam deploy bot
 git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
