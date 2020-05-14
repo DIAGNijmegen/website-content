@@ -1,6 +1,6 @@
 # DIAG Website content
 
-This repository stores all the content and source code for the diag websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
+This repository stores all the content and source code for the DIAG websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
 
 [![Build Status](https://travis-ci.org/DIAGNijmegen/website-content.svg?branch=master)](https://travis-ci.org/DIAGNijmegen/website-content)
 
@@ -19,7 +19,7 @@ Websites in development
 
 - Bodyct: https://bodyct.diagnijmegen.nl
 - Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
-- DIAG: https://beta.diagnijmegen.nl (temporary)
+- DIAG (main website): https://beta.diagnijmegen.nl (temporary)
 
 ## Updating the content
 
