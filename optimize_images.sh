@@ -4,6 +4,7 @@
 set -e
 
 # Check if this commit is the latest, if not we skip
+git checkout master # Travis starts on a detached branch
 git fetch
 if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
   echo "Not on latest commit, skipping optimization."
@@ -19,7 +20,6 @@ git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
 
 # Add changed files
-git checkout master
 git add --all ./optimized_images
 git add image-cache.json
 
