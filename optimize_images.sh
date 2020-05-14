@@ -5,7 +5,7 @@ set -e
 
 # Check if this commit is the latest, if not we skip
 git fetch
-if $(git rev-parse HEAD) != $(git rev-parse @{u}); then
+if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
   echo "Not on latest commit, skipping optimization."
   exit 1;
 fi
