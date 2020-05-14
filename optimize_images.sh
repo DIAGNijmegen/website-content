@@ -7,7 +7,7 @@ set -e
 git fetch
 if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
   echo "Not on latest commit, skipping optimization."
-  exit 1;
+  exit 0;
 fi
 
 # Optimize the images before building the website`
