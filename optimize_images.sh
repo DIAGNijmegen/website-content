@@ -7,7 +7,7 @@ set -e
 # If not we skip optimization to prevent conflicts.
 currentcommit="$(git rev-parse HEAD)"
 git checkout master # Travis starts on a detached head
-if [ $currentcommit != "$(git rev-parse @{u})" ]; then
+if [ $currentcommit != "$(git rev-parse HEAD)" ]; then
   echo "Not on latest commit, skipping optimization."
   exit 0;
 fi
