@@ -5,9 +5,9 @@ set -e
 
 # Check if we are up to date with the remote master branch.
 # If not we skip optimization to prevent conflicts.
+currentcommit="$(git rev-parse HEAD)"
 git checkout master # Travis starts on a detached head
-git fetch
-if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
+if [ $currentcommit != "$(git rev-parse @{u})" ]; then
   echo "Not on latest commit, skipping optimization."
   exit 0;
 fi
