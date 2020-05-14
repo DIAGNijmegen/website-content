@@ -4,7 +4,7 @@
 set -e
 
 # Check if we are up to date with the remote master branch.
-# If not we skip optimization to prevent conflicts.
+# If not we skip optimization to prevent conflicts and save time.
 currentcommit="$(git rev-parse HEAD)"
 git checkout master # Travis starts on a detached head
 if [ $currentcommit != "$(git rev-parse HEAD)" ]; then
@@ -20,6 +20,14 @@ node optimize.js
 # Set user to the webteam deploy bot
 git config --global user.email "webteamdiag@gmail.com"
 git config --global user.name "DIAGWebTeam"
+
+# Get latest version, there could be a new commit
+git checkout master 
+# Check if we are still on the latest commit
+if [ $currentcommit != "$(git rev-parse HEAD)" ]; then
+  echo "Not on latest commit, skipping optimization."
+  exit 0;
+fi
 
 # Add changed files
 git add --all ./optimized_images
