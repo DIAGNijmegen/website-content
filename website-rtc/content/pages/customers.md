@@ -10,6 +10,8 @@ All our projects and activities are funded by a variety of external and internal
 [AQUILA](https://www.computationalpathologygroup.eu/projects/aquila/) funded by [Alpe d'HuZes - KWF](https://www.kwf.nl/help-jij-ons/fietsen/alpe-dhuzes)  
 [ExaMode](https://www.examode.eu/)  
 
+---- 
+
 **Internal customers**
 
 Department of Radiology Nuclear Medicine and Anatomy  
