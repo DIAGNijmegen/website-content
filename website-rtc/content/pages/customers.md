@@ -2,7 +2,7 @@ All our projects and activities are funded by a variety of external and internal
 
 **External customers**
 
-[MevVis Medical Solutions](https://www.mevis.de/en/)  
+[MeVis Medical Solutions](https://www.mevis.de/en/)  
 [Dutch Research Agenda VWData program](https://commit2data.nl/)  
 [Contrast Consortium](https://www.contrast-consortium.nl/)  
 [TTW Perspectief Consortium DLMedIA](http://dlmedia.eu/)  
