@@ -8,7 +8,7 @@ picture: projects/ai_for_health.png
 people: Marcel van Gerven, Bram van Ginneken, Elena Marchiori, Ajay Patel, Silvan Quax
 bibkeys: 
 
-innovations will be applied in Radboudumc and other healthcare institutes. We perform PhD research projects and BSc/MSc research projects. We also offer courses for Radboudumc personnel on the use of AI in healthcare. 
+Radboud AI for Health is an [ICAI](https://icai.ai/) lab. It is a collaboration between [Radboud University](https://www.ru.nl/english/) and [Radboudumc](https://www.radboudumc.nl/en/research) aimed at developing innovations based on artificial intelligence that solve clinical problems. The innovations will be applied in Radboudumc and other healthcare institutes. We perform PhD research projects and BSc/MSc research projects. We also offer courses for Radboudumc personnel on the use of AI in healthcare. 
 
 Healthcare is seen as one of the areas where AI will have a profound impact. Data is ubiquitous in hospitals, and is available in a many forms: patient records, clinical signs and measurements, genetic information, text reports, and images. This data forms the basis for decisions, the diagnosis of a disease, detection of acute and long-term risks, treatment plans, treatment monitoring, and real-time support for example during surgery and interventions. 
 
