@@ -193,6 +193,15 @@
             <div class="row">
                 <div class="col-md-12 mb-4">
                     <h1>{{ HOME_SECTIONS["Projects"] }}</h1>
+                    {% for card in pages %}
+                        {% if card.category == 'pages' %}
+                            {% if card.template == 'projects' %}
+                                {% if card.description %} 
+                                    {{ card.description }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
             <div class="row">
@@ -218,6 +227,15 @@
             <div class="row">
                 <div class="col-md-12 mb-4">
                     <h1>{{ HOME_SECTIONS["Software"] }}</h1>
+                    {% for card in pages %}
+                        {% if card.category == 'pages' %}
+                            {% if card.template == 'software' %}
+                                {% if card.description %} 
+                                    {{ card.description }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
             <div class="row">
