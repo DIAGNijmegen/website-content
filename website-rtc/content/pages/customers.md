@@ -1,3 +1,5 @@
+title: Customers
+
 All our projects and activities are funded by a variety of external and internal (Radboudumc) customers. An overview of grants, customers and associated departments is shown below.
 
 **External customers**
