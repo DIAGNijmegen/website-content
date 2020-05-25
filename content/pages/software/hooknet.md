@@ -22,23 +22,25 @@ The examples below show the output of HookNet, overlayed on the processed WSIs. 
 <div class="row my-4">
   <div class="col-md-6">
     <div id="openseadragon1" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch HookNet" onclick="switchHookNetdcis()"/>
-    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(0.5)" onclick="switchUnet05dcis()"/>
-    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(8.0)" onclick="switchUnet80dcis()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show HookNet" onclick="switchHookNetdcis()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show U-Net(0.5)" onclick="switchUnet05dcis()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show U-Net(8.0)" onclick="switchUnet80dcis()"/>
   </div>
   <div class="col-md-6  ">
     <div id="openseadragon2" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_ground_truth" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch ground truth" onclick="switchGroundTruthdcis()"/>
+    <input id="switch_ground_truth" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show ground truth" onclick="switchGroundTruthdcis()"/>
   </div>
 </div>
+
+
 
 
 <div class="row my-4">
   <div class="col-md-6">
     <div id="openseadragon3" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch HookNet" onclick="switchHookNetidc()"/>
-    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(0.5)" onclick="switchUnet05idc()"/>
-    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(8.0)" onclick="switchUnet80idc()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show HookNet" onclick="switchHookNetidc()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show U-Net(0.5)" onclick="switchUnet05idc()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show U-Net(8.0)" onclick="switchUnet80idc()"/>
   </div>
   <div class="col-md-6  ">
     <div id="openseadragon4" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
