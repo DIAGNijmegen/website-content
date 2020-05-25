@@ -2,7 +2,7 @@ title: HookNet
 template: project-single
 picture: software/concept_hooknet2.png
 description: HookNet: multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images
-groups: pathology
+groups: pathology, diag
 people: Mart van Rijthoven, Maschenka Balkenhol,  Jeroen van der Laak, Francesco Ciompi
 openseadragon: true
 
@@ -10,7 +10,7 @@ openseadragon: true
 5. [More information](#info)
 
 <figure class="figure my-4">
-  <img data-src="/images/software/concept_hooknet2.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorithm.">
+  <img data-src="/images/software/concept_hooknet2.png" class="figure-img img-fluid lazyload" alt="Example segmentations of Hooknet.">
   <figcaption class="figure-caption">Overview of the network architecture</figcaption>
 </figure>
 
@@ -22,13 +22,13 @@ The example below show the raw output of HookNet without any post-processing, ov
 <div class="row my-4">
   <div class="col-md-6">
     <div id="openseadragon1" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_prediction" type="button" value="switch HookNet" onclick="switchHookNetdcis()"/>
-    <input id="switch_prediction" type="button" value="switch U-Net(0.5)" onclick="switchUnet05dcis()"/>
-    <input id="switch_prediction" type="button" value="switch U-Net(8.0)" onclick="switchUnet80dcis()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch HookNet" onclick="switchHookNetdcis()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(0.5)" onclick="switchUnet05dcis()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(8.0)" onclick="switchUnet80dcis()"/>
   </div>
   <div class="col-md-6  ">
     <div id="openseadragon2" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_ground_truth" type="button" value="switch ground truth" onclick="switchGroundTruthdcis()"/>
+    <input id="switch_ground_truth" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch ground truth" onclick="switchGroundTruthdcis()"/>
   </div>
 </div>
 
@@ -36,13 +36,13 @@ The example below show the raw output of HookNet without any post-processing, ov
 <div class="row my-4">
   <div class="col-md-6">
     <div id="openseadragon3" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_prediction" type="button" value="switch HookNet" onclick="switchHookNetidc()"/>
-    <input id="switch_prediction" type="button" value="switch U-Net(0.5)" onclick="switchUnet05idc()"/>
-    <input id="switch_prediction" type="button" value="switch U-Net(8.0)" onclick="switchUnet80idc()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch HookNet" onclick="switchHookNetidc()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(0.5)" onclick="switchUnet05idc()"/>
+    <input id="switch_prediction" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="switch U-Net(8.0)" onclick="switchUnet80idc()"/>
   </div>
   <div class="col-md-6  ">
     <div id="openseadragon4" class="img-thumbnail" style="width: 100%; height: 400px;"></div>
-    <input id="switch_ground_truth" type="button" value="switch ground truth" onclick="switchGroundTruthidc()"/>
+    <input id="switch_ground_truth" class="btn btn-secondary" style="height:25px;width:150px;font-size:10px;margin:5px;" type="button" value="show ground truth" onclick="switchGroundTruthidc()"/>
   </div>
 </div>
 
