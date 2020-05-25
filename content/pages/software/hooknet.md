@@ -17,7 +17,7 @@ openseadragon: true
 <a name="examples"></a>
 ## Online examples
 
-The example below show the raw output of HookNet without any post-processing, overlayed on a processed WSI. You can zoom in by scrolling, moving around can be done with click&drag.
+The examples below show the output of HookNet, overlayed on the processed WSIs. You can zoom in by scrolling, moving around can be done with click&drag.
 
 <div class="row my-4">
   <div class="col-md-6">
