@@ -1,6 +1,6 @@
 title: Software
 template: software
-description: description... 
+description: 
 
 <!---
 
