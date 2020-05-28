@@ -2,7 +2,7 @@ title: PDF Email test
 
 <div id="pdf-requested" class="mt-5 alert alert-info" style="display: none;">
     <h3>PDF sent</h3>
-    <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    <p>An email message containing a code and instructions to download the following paper has been sent to your email address.</p>
 </div>
 <div id="pdf-error" class="mt-5 alert alert-warning" style="display: none;"></div>
 
