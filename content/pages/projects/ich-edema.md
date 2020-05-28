@@ -5,7 +5,7 @@ description: For the CONTRAST consortium and Dutch ICH Surgery Trial (DIST) we a
 template: project-single
 groups: rtc
 picture: projects/ich-edema.png
-people: Karin Klijn, Floris Schreuder, Ajay Patel, Rashindra Manniesing, Bram van Ginneken, James Meakin
+people: Karin Klijn, Floris Schreuder, Silvan Quax, Ajay Patel, Rashindra Manniesing, Bram van Ginneken, James Meakin
 bibkeys: 
 
 Non-traumatic spontaneous intracerebral hemorrhage (ICH) is the most deadly stroke subtype with a 30-day mortality of 40%. ICH volume is an important predictor of early neurological deterioration and functional outcome and in one-third of patients the hemorrhage expands further, particularly in the first hours. Furthermore, secondary injury due to the development of perihematomal edema (PHE) contributes to disability and mortality. Prevention of early hematoma growth has become an important treatment target, although medical therapies have not been proven effective so far. ICH and PHE volumes are therefore important imaging biomarkers for patient stratification, treatment monitoring and outcome prediction. However, current quantification methods are mainly based on visual estimations or over-simplified assumptions, such as the [ABC method](https://www.ahajournals.org/doi/full/10.1161/01.str.27.8.1304), and are laborious, prone to observer variability and inaccurate. In addition, no method exists for PHE quantification in non-contrast CT (NCCT), and no model exists for longitudinal analysis.

@@ -5,7 +5,7 @@ description: For the Orthopedics department we are developing an application for
 template: project-single
 groups: rtc
 picture: projects/knee-segmentation.png
-people: Sebastiaan van de Groes, Hans Dunning, Ajay Patel, Bram van Ginneken, James Meakin, Stan Buckens
+people: Sebastiaan van de Groes, Hans Dunning, Silvan Quax, Ajay Patel, Bram van Ginneken, James Meakin, Stan Buckens
 bibkeys: 
 
 Musculoskeletal disorders are a common cause of pain and disability affecting millions of people around the world. The Orthopaedic Research Laboratory ([ORL]( https://orthopaedicresearchlab.nl/)) of the Radboudumc performs research that is focused on congenital deformities of the knee. Within this spectrum patellofemoral instability due to trochlear deformity and tubercle mal-positions are common. The instability causes patellar dislocations, which is the most common acute knee disorder in children and adolescents, with negative effect on quality of life.

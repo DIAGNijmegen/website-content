@@ -24,7 +24,7 @@
             {% endif %}
             
             {% if year in bibkeys_per_year %}
-                {% set _dummy = bibkeys_per_year.update({ year: bibkeys_per_year[key] + [bibkey]  })  %}
+                {% set _dummy = bibkeys_per_year.update({ year: bibkeys_per_year[year] + [bibkey]  })  %}
             {% else %}
                 {% set _dummy = bibkeys_per_year.update({ year: [bibkey] }) %}
             {% endif %}
