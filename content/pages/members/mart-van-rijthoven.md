@@ -6,7 +6,7 @@ position: PhD student
 active: yes
 groups: diag, pathology
 default_group: pathology
-email: martijn.vanrijthoven@radboudumc.nl
+email: mart.vanrijthoven@radboudumc.nl
 office: Route 812, room 2.39
 type: phd
 
