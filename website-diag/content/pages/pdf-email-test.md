@@ -9,7 +9,7 @@ title: PDF Email test
 Use the form below to request a PDF of bibkey "Bult20".
 
 <form id="pdf-form" name="pdf-form">
-    <input type="hidden" value="swid19" name="bibkey">
+    <input type="hidden" value="bult20" name="bibkey">
     <label for="email">
         Email:
     </label>
@@ -22,9 +22,9 @@ Use the form below to request a PDF of bibkey "Bult20".
 
 document.getElementById("pdf-form").addEventListener("submit", function(event) {
 
-    const form = event.submitter.parentElement;
-    const data = new FormData(form)
+    const data = new FormData(document.getElementById("pdf-form"));
     const params = new URLSearchParams(data).toString();
+
 
     // Prevent normal form submit
     event.preventDefault();
