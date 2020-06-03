@@ -22,7 +22,8 @@ Use the form below to request a PDF of bibkey "Bult20".
 
 document.getElementById("pdf-form").addEventListener("submit", function(event) {
 
-    const data = new FormData(document.getElementById("pdf-form"));
+    const form = event.currentTarget.parentElement;
+    const data = new FormData(form);
     const params = new URLSearchParams(data).toString();
 
 
