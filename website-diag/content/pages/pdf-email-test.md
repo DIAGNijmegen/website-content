@@ -20,15 +20,14 @@ Use the form below to request a PDF of bibkey "Bult20".
 
 <script>
 
-document.getElementById("pdf-form").addEventListener("submit", function(event) {
-
-    const form = event.currentTarget.parentElement;
-    const data = new FormData(form);
-    const params = new URLSearchParams(data).toString();
-
+const form = document.getElementById("pdf-form");
+form.addEventListener("submit", function(event) {
 
     // Prevent normal form submit
     event.preventDefault();
+
+    const data = new FormData(form);
+    const params = new URLSearchParams(data).toString();
 
     fetch(`https://n3vxoalwka.execute-api.eu-west-3.amazonaws.com/default/sendpdf?${params}`, {
         method: 'GET',
