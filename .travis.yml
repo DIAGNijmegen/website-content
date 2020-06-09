@@ -88,15 +88,6 @@ jobs:
         - GENERATE_PUB=1
       deploy:
         <<: *deploy_defaults
-    # Build and deploy steps for DIAG website
-    - <<: *build_defaults
-      name: Build DIAG websites
-      env:
-        - WEBSITE=website-diag
-        - GENERATE_PUB=1
-      deploy:
-        <<: *deploy_defaults
-        fqdn: beta.diagnijmegen.nl
     # Beta deploy job for deploying to Netlify
     - <<: *build_defaults
       name: Build DIAG websites (Netlify beta)
