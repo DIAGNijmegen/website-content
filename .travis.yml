@@ -94,6 +94,7 @@ jobs:
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
+        - SKIP_IMG_COPY=1
       deploy:
         provider: netlify
         site: $NETLIFY_SITEID_DIAG
