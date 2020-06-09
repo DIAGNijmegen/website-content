@@ -101,6 +101,7 @@ jobs:
         auth: $NETLIFY_AUTH
         edge: true # opt in to dpl v2
         dir: $WEBSITE/output
+        prod: true
         on:
           branch: master
     # Build and deploy steps for RTC website
@@ -138,5 +139,6 @@ jobs:
         auth: $NETLIFY_AUTH
         edge: true # opt in to dpl v2
         dir: assets_deploy
+        prod: true
         on:
           branch: master
