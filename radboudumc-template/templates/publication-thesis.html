@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block description %}{{ page.content | striptags | truncate(200)}}{% endblock %}
-{% block page_picture %}{{SITEURL}}/images/theses/{{ page.coverpng }}{% endblock %}
+{% block page_picture %}{{ IMGURL }}/images/theses/{{ page.coverpng }}{% endblock %}
 {% block content %}
 {% include 'blocks/breadcrumbs.html' %}
 
@@ -14,7 +14,7 @@
         {% endfor %}
     </p>
     {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
-    <img src="{{SITEURL}}/images/theses/{{ page.coverpng | resize_image('large') }}">
+    <img src="{{ IMGURL }}/images/theses/{{ page.coverpng | resize_image('large') }}">
     {% endif %}
     {% if page.promotor %}
         <p><b>Promotor: {{ page.promotor }}</b></p>

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block description %}{{ page.content | striptags | truncate(200)}}{% endblock %}
-{% block page_picture %}{{ SITEURL}}/images/{{page.picture}}{% endblock %}
+{% block page_picture %}{{ IMGURL }}/images/{{page.picture}}{% endblock %}
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
 
@@ -29,7 +29,7 @@
             {% endif %}
         </p>
         {% if page.picture %}
-            <a href="{{ SITEURL}}/{{ ('images/' + page.picture) | resize_image('full') }}"><img class="img-fluid mb-3" src="{{ SITEURL}}/{{ ('images/' + page.picture) | resize_image('large') }}"></a>
+            <a href="{{ SITEURL}}/{{ ('images/' + page.picture) | resize_image('full') }}"><img class="img-fluid mb-3" src="{{ IMGURL}}/{{ ('images/' + page.picture) | resize_image('large') }}"></a>
         {% endif %}
 
     </div>

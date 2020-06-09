@@ -18,7 +18,7 @@
     {% for name, website in DIAG_WEBSITES_CONFIG.items() %}
     <div class="col-md-4 mb-4">
         <div class="card" >
-            <img src="{{ SITEURL }}/{{ website.SITE_PICTURE | resize_image('medium')}}" class="card-img-top lazyload" style="height: 200px;">
+            <img src="{{ IMGURL }}/{{ website.SITE_PICTURE | resize_image('medium')}}" class="card-img-top lazyload" style="height: 200px;">
             <div class="card-body" style="height: 250px;">
                 <h5 class="card-title"><a href="{{ DIAG_WEBSITE_URLS[name] }}">{{ website.SITENAME }}</a></h5>
                 <p class="card-text">{{  website.SITELEAD | truncate(200, false, '...') }}</p>

@@ -14,9 +14,9 @@
 		<article class="row article-summary">
 		<div class="col-md-3 article-image">
 		    {% if vacancy.picture %}
-		    <img class="img-thumbnail" src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+		    <img class="img-thumbnail" src="{{ IMGURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
 		    {% else %}
-		    <img class="img-thumbnail" src="{{ SITEURL }}/{{SITE_PICTURE}}">
+		    <img class="img-thumbnail" src="{{ IMGURL }}/{{SITE_PICTURE}}">
 		    {% endif %}
 		</div>
 

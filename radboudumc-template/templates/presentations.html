@@ -15,9 +15,9 @@
           <div class="{% if presentation.format == 'landscape' %}col-md-8{%else%}col-md-4{%endif%} my-3">
               <div class="card">
                   {% if presentation.format == 'landscape' %}
-                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('large') }}" alt="{{ presentation.title }}"></a>
+                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{ IMGURL}}/{{ ('images/' + presentation.picture) | resize_image('large') }}" alt="{{ presentation.title }}"></a>
                   {% else %}
-                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{SITEURL}}/{{ ('images/' + presentation.picture) | resize_image('medium') }}" alt="{{ presentation.title }}"></a>
+                  <a href="{{ SITEURL }}/{{ presentation.url }}"><img class="card-img-top lazyload" data-src="{{ IMGURL}}/{{ ('images/' + presentation.picture) | resize_image('medium') }}" alt="{{ presentation.title }}"></a>
                   {% endif %}
 
                   <div class="card-body">

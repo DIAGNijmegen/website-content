@@ -20,7 +20,7 @@
 
         <div class="col-md-3 article-image">
             {% if article.picture %}
-            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ SITEURL }}/{{ ('images/' + article.picture) | resize_image('small')}}">
+            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ IMGURL }}/{{ ('images/' + article.picture) | resize_image('small')}}">
             {% endif %}
         </div>
 
