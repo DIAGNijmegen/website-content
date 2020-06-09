@@ -41,6 +41,7 @@ HOME_SECTIONS = {"Projects": "Projects", "Software": "Infrastructure & Software"
 
 # URLs
 SITEURL = ''
+IMGURL = SITEURL
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
 
 #

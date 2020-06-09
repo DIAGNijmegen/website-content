@@ -14,6 +14,7 @@ SITENAME = u'Body CT'
 SITENAME_SHORT = 'BodyCT'
 SITE_PICTURE = ''
 SITEURL = ''
+IMGURL = SITEURL
 SITE_REPO = 'website-bodyct'
 SITE_GROUP = 'bodyct'
 
@@ -44,6 +45,7 @@ HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Projects
 
 # URLs
 SITEURL = ''
+IMGURL = SITEURL
 EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
 
 #

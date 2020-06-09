@@ -9,6 +9,7 @@ AUTHOR = u'WebteamDIAG'
 SITENAME = u'Computational Pathology Group'
 SITENAME_SHORT = 'CPG'
 SITEURL = ''
+IMGURL = SITEURL
 SITE_REPO = 'website-pathology'
 SITE_GROUP = 'pathology'
 
