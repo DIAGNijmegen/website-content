@@ -9,6 +9,8 @@ title: PDF Email test
 Use the form below to request a PDF of bibkey "Bult20".
 
 <form id="pdf-form" name="pdf-form">
+    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+    <input type="hidden" name="action" value="validate_captcha">
     <input type="hidden" value="bult20" name="bibkey">
     <label for="email">
         Email:
@@ -17,6 +19,7 @@ Use the form below to request a PDF of bibkey "Bult20".
 
     <button type="submit">Request pdf</button>
 </form>
+
 
 <script>
 
@@ -28,6 +31,8 @@ form.addEventListener("submit", function(event) {
 
     const data = new FormData(form);
     const params = new URLSearchParams(data).toString();
+
+
 
     fetch(`https://n3vxoalwka.execute-api.eu-west-3.amazonaws.com/default/sendpdf?${params}`, {
         method: 'GET',
@@ -55,4 +60,18 @@ form.addEventListener("submit", function(event) {
         errorEl.style.display = "block";
     });
 });
+</script>
+
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeyggEVAAAAAJzjhbBQihQxJbiLsk9PCZBvE1oD"></script>
+<script>
+    grecaptcha.ready(function() {
+    // do request for recaptcha token
+    // response is promise with passed token
+        grecaptcha.execute('6LeyggEVAAAAAJzjhbBQihQxJbiLsk9PCZBvE1oD', {action:'validate_captcha'})
+                  .then(function(token) {
+            // add token value to form
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    });
 </script>
