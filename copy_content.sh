@@ -11,13 +11,15 @@ cp -r --no-clobber content/pages/defaults/. $WEBSITE/content/pages/
 
 # Copy images
 if [[ -z "$SKIP_IMG_COPY" ]]; then
-    echo "Skipping copying images for this build."
-else
+    echo "Start copying images"
+    
     cp -r --no-clobber imgoptim/optimized_images/. $WEBSITE/content/images
 
     # Copy non-optimized images (non-overwrite)
     # This makes sure that content is always available, even if it is not processed by the optimizer.
     cp -r --no-clobber content/images/. $WEBSITE/content/images
+else
+    echo "Skipping copying images for this build."
 fi
 
 # copy bib files
