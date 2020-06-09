@@ -32,7 +32,7 @@ count was found to yield prognostic information. To date, assessment of these
 biomarkers lack standardisation, resulting in large variations in published
 results and hampering clinical implementation.
 
-![Automated Mitotic Count]({static}/images/projects/mitosis_comb.png)
+![Automated Mitotic Count]({{ IMGURL }}/images/projects/mitosis_comb.png)
  
 ## Aim
 

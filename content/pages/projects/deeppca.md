@@ -15,7 +15,7 @@ Several groups have shown that quantifying the tumour and its micro-environment 
 
 Recent years have seen the more widespread introduction of whole-slide imaging systems, which for the first time allow computerized processing of tissue slides. Automated extraction of aforementioned quantitative biomarkers through image analysis can achieve the required accuracy and robustness to impact clinical practice. In tandem with these developments, computer vision has seen a machine learning revolution over the past decade due to the advent of deep learning.
 
-![Prostate cancer detection]({static}/images/general/home-page-image.png)
+![Prostate cancer detection]({{ IMGURL }}/images/general/home-page-image.png)
 
 In this project, we will combine deep learning and digitized whole-slide imaging of prostate cancer for reproducible extraction of quantitative biomarkers. Furthermore, due to the ability of deep learning systems to learn relevant features without human intervention, we expect to identify novel biomarkers which allow us to further improve the current risk models.
 

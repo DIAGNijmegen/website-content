@@ -40,7 +40,7 @@ deep learning compute nodes using 20 GBit networking, and a
 [Prometheus](https://prometheus.io/)+[Grafana](https://grafana.com/)
 based monitoring solution to monitor the activity and health of the cluster. 
 
-![sol-cluster-architecture]({static}/images/software/sol-architecture.png "SOL's architecture overview")
+![sol-cluster-architecture]({{ IMGURL }}/images/software/sol-architecture.png "SOL's architecture overview")
 
 Users log in to job nodes directly to either schedule an experiment or to
 interact with a running experiment using 

@@ -10,7 +10,7 @@ Automated pulmonary lobe segmentation in computed tomography scans is still an o
 
 With a limited amount of training data available from COVID-19 subjects, [member/xie-weiyi] et al initially train and validate CTSU-Net on a cohort of 5000 subjects from the COPDGene study (4000 for training and 1000 for evaluation). Using the models pretrained on COPDGene,  transfer learning  was applied to retrain and evaluate CTSU-Net on 204 COVID-19 subjects (104 for retraining and 100 for evaluation). Experimental results show that CTSU-Net outperforms state-of-the-art baselines and performs robustly on cases with incomplete fissures and severe lung infection due to COVID-19. The algorithm is now available on <a href="https://grand-challenge.org/algorithms/">Grand Challenge</a>, where users are free to use the algorithm on their own data sets.
 
-![Results automated pulmonary lobe segmentation in COVID-19 patients]({static}/images/news/lobe_segmentation_II.png)
+![Results automated pulmonary lobe segmentation in COVID-19 patients]({{ IMGURL }}/images/news/lobe_segmentation_II.png)
 
 The image above displays a qualitative comparison of the proposed CTSU-Net segmentation (middle row) and ground truth (bottom row) in CT scans of COVID-19 patients. Blue: right upper lobe, light blue: right lower lobe, red: left upper lobe, green: left lower lobe. 
 

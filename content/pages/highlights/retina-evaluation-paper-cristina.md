@@ -12,6 +12,6 @@ In this paper, we validate the performance of a commercially available, CE‐cer
 
 We show that the validated system performs comparably to human experts at simultaneous detection of DR and AMD. This shows that DL systems can facilitate access to joint screening of eye diseases and become a quick and reliable support for ophthalmological experts. We also demonstrate that an automated solution for joint detection would be beneficial at screening settings, since eye diseases can coexist and examination protocols rely on the same principles and actions, while reducing subjectivity due to interobserver disagreement. 
 
-![Joint automated screening performance]({static}/images/news/retina-evaluation-paper-content.jpg)
+![Joint automated screening performance]({{ IMGURL }}/images/news/retina-evaluation-paper-content.jpg)
 <br>
 <i>Joint automated screening performance for DR and AMD of the validated DL system and human experts.</i>

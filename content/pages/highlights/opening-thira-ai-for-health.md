@@ -6,13 +6,13 @@ groups: diag, retina
 
 On the 16th of September the official opening event of the <a href="https://icai.ai/thira-lab/">Thira Lab</a> and <a href="https://www.ai-for-health.nl/">Radboud AI for Health Lab</a> look place in the Tuinzaal of <a href="https://www.radboudumc.nl/patientenzorg">Radboudumc</a>.  Witnessed by many interested attendees, Radboudumc’s  Chair of the Executive Board prof. Paul Smits opened the first two  Nijmegen-based labs within the nationwide Innovation Center of Artificial Intelligence (<a href="https://icai.ai/">ICAI</a>).
 
-![Opening Paul Smits]({static}/images/news/Opening_ICAI.jpg)
+![Opening Paul Smits]({{ IMGURL }}/images/news/Opening_ICAI.jpg)
 
 ## Thira Lab
 
 <a href="https://icai.ai/thira-lab/">Thira Lab</a> is a collaboration between Radboudumc and <a href="https://thirona.eu/">Thirona</a>, a spin-out company from Radboudumc, and <a href="https://www.delft.care/">Delft Imaging Systems</a>, a company developing healthcare solutions for the specific needs of vulnerable communities around the world. In Thira Lab, nine Ph.D. candidates and post-docs from Radboudumc work on deep learning image analysis of CT scans, radiographs and retinal images. 
 
-![Bram van Ginneken and Clarisa Sanchez]({static}/images/news/ICAI_Bram_Clarisa.jpg)
+![Bram van Ginneken and Clarisa Sanchez]({{ IMGURL }}/images/news/ICAI_Bram_Clarisa.jpg)
 
 ## Radboud AI for Health
 

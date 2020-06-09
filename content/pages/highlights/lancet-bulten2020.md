@@ -8,7 +8,7 @@ With 1.2 million new prostate cancer cases each year, a high incidence-to-mortal
 
 As an alternative, [member/wouter-bulten] et al developed a fully-automated cancer detection and Gleason grading system for entire prostate biopsies. The system was developed using 5759 biopsies from 1243 patients. A semi-automatic labeling technique was used to circumvent the need for manual pixel-level annotations. The study was focussed on the full range of Gleason grades, and evaluated on a large cohort of patients with an expert consensus reference standard and an external tissue microarray test set. Their work was accepted for publication by <a href="https://www.thelancet.com/journals/lanonc/home">The Lancet Oncology</a> and appeared <a href="https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(19)30739-9/fulltext">online</a> today. 
 
-![Deep learning system Gleason grading]({static}/images/news/Lancet_II.png)
+![Deep learning system Gleason grading]({{ IMGURL }}/images/news/Lancet_II.png)
 
 The figure above depicts the development of the deep learning system. The authors employed a semi-automated method of labelling the training data (top row), removing the need for manual annotations by pathologists. The final system can assign Gleason growth patterns on a cell-level.
 

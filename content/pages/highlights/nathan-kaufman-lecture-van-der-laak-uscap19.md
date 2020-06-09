@@ -8,4 +8,4 @@ groups: diag, pathology
 
 The  Education  Committee of USCAP established  the  <a href="https://www.uscap.org/public/documents/Kaufman_TimelyTopics_Info_VER7.pdf">Timely  Topics Lecture</a> in  1982  at  the  suggestion  of  Dr.  Nathan  Kaufman.  It  was  initially  conceived  as  a  lecture  by  a  prominent  individual  in  the  field  of  pathology  to  address  a  "timely  topic"  but  has  evolved  into  a  sophisticated  presentation,  generally  by  a  clinician  or  researcher,  whose  integrated  relationship  with  pathology  moves  the  discipline  forward with contemporary ideas, innovative methods, and futuristic technology. This lecture is regarded as a great honor within the USCAP sphere.
 
-![USCAP]({static}/images/news/USCAP_2.jpg)
+![USCAP]({{ IMGURL }}/images/news/USCAP_2.jpg)
