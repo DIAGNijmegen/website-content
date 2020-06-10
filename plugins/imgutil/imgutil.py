@@ -29,9 +29,30 @@ def get_resized_image(path, size):
 
     return path
 
+def srcset_image(path, base_url):
+
+    srcset = []
+
+    # Split image path in extension and path (to inject img size)
+    parts = os.path.splitext(path)
+    
+    for size in SIZE_TO_WIDTH_MAPPING.values():
+        # Don't make the full size part of the srcset to save bandwidth
+        if size == 'full':
+            continue
+
+        resized_path  = f"{parts[0]}-{size}{parts[1]}"
+        
+        if os.path.isfile(os.path.join(optim_path, resized_path.replace('images/', ''))):
+            srcset.append(f'{base_url}/{resized_path} {size}w')
+
+    print(srcset)
+    return ', '.join(srcset)
+
+
 def add_filter(pelican):
     """Add filters."""
-    pelican.env.filters.update({'resize_image': get_resized_image})
+    pelican.env.filters.update({'resize_image': get_resized_image, 'srcset_image': srcset_image})
 
 def register():
     """Plugin registration."""
