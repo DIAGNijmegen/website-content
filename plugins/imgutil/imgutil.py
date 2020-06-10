@@ -9,6 +9,7 @@ SIZE_TO_WIDTH_MAPPING = {
     'large': '768',
     'full': 'full',
 }
+SIZES = ['160', '320', '480', '768']
 
 # Path where the optimized images are stored in the repo
 optim_path = os.path.join(os.getcwd(), '../imgoptim/optimized_images')
@@ -36,21 +37,23 @@ def srcset_image(path, base_url):
     # Split image path in extension and path (to inject img size)
     parts = os.path.splitext(path)
     
-    for name, size in SIZE_TO_WIDTH_MAPPING.items():
-        # Don't make the full size part of the srcset to save bandwidth
-        if name == 'full':
-            continue
-
+    # loop through sizes from low to high
+    for size in SIZES:
         resized_path  = f"{parts[0]}-{size}{parts[1]}"
         
         if os.path.isfile(os.path.join(optim_path, resized_path.replace('images/', ''))):
             srcset.append(f'{base_url}/{resized_path} {size}w')
-        elif name == 'large':
-            # If there is no 'large' version, we use the 'full' version of the image instead for this size.
-            # This makes sure the browser will load the highest resolution iamge for large viewports.
-            # Ideally we would inject the correct width here, 768 is a best-effor guess.
-            srcset.append(f'{base_url}/{parts[0]}-full{parts[1]} 768w')
+        else:
+            # There is no version of this image at this size, and by definition
+            # none of a higher size (given the order of the loop).
+            # To make sure the browser can always load the highest resolution image,
+            # we set the 'large' version to this size.
+            # The width is not completely correct, but makes sure the browser loads this image
+            # if a high-res version is required.
+            srcset.append(f'{base_url}/{parts[0]}-full{parts[1]} {size}w')
 
+            # No higher-res images available
+            break
     return ', '.join(srcset)
 
 
