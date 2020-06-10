@@ -1,7 +1,7 @@
 <article class="row">
     <div class="col-md-4">
         {% if article.picture %}
-        <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ IMGURL }}/{{ ('images/' + article.picture) | resize_image('medium')}}">
+        <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ IMGURL }}/{{ ('images/' + article.picture) | resize_image('small')}}" srcset="{{ ('images/' + article.picture) | srcset_image(IMGURL)}}">
         {% endif %}
     </div>
 
