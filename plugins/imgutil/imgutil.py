@@ -49,7 +49,7 @@ def srcset_image(path, base_url):
             # If there is no 'large' version, we use the 'full' version of the image instead for this size.
             # This makes sure the browser will load the highest resolution iamge for large viewports.
             # Ideally we would inject the correct width here, 768 is a best-effor guess.
-            srcset.append(f'{base_url}/{resized_path} 768w')
+            srcset.append(f'{base_url}/{parts[0]}-full{parts[1]} 768w')
 
     return ', '.join(srcset)
 
