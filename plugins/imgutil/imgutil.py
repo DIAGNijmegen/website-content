@@ -10,15 +10,18 @@ SIZE_TO_WIDTH_MAPPING = {
     'full': 'full',
 }
 
+# Path where the optimized images are stored in the repo
+optim_path = os.path.join(os.getcwd(), '../imgoptim/optimized_images')
+
 def get_resized_image(path, size):
 
     if size not in SIZE_TO_WIDTH_MAPPING:
         return path
 
-    parts = os.path.splitext(path);
+    parts = os.path.splitext(path)
     resized_path  = f"{parts[0]}-{SIZE_TO_WIDTH_MAPPING[size]}{parts[1]}"
 
-    if os.path.isfile(os.path.join(os.getcwd(), 'content', resized_path)):
+    if os.path.isfile(os.path.join(optim_path, resized_path)):
         return resized_path
 
     return path
