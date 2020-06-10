@@ -20,6 +20,7 @@ def get_resized_image(path, size):
 
     parts = os.path.splitext(path)
     resized_path  = f"{parts[0]}-{SIZE_TO_WIDTH_MAPPING[size]}{parts[1]}"
+    resized_path = resized_path.replace('images/', '')
 
     if os.path.isfile(os.path.join(optim_path, resized_path)):
         return resized_path
