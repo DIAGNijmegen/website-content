@@ -16,10 +16,18 @@
                 <div class="col-md-6">
                     <figure>
                         {% if HOME_IMAGE == 'highlight' %}
-                        <img alt="{{ articles[0].title }}" class="figure-img" srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}" src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('medium')}}">
+                        <img alt="{{ articles[0].title }}" class="figure-img" 
+                            data-sizes="auto"
+                            data-srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}"
+                            data-src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('small')}}"
+                        >
                         <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
                         {% else %}
-                        <img alt="{{ HOME_IMAGE_CAPTION }}" class="figure-img" srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}" src="{{ IMGURL }}/{{HOME_IMAGE}}">
+                        <img alt="{{ HOME_IMAGE_CAPTION }}" class="figure-img" 
+                            data-sizes="auto"    
+                            data-srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}"
+                            data-src="{{ IMGURL }}/{{HOME_IMAGE}}"
+                        >
                         <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
                         {% endif %}
                     </figure>
@@ -57,10 +65,16 @@
                 <div class="col-md-6">
                     <figure class="figure">
                       {% if HOME_IMAGE == 'highlight' %}
-                      <img alt="{{ articles[0].title }}" class="figure-img" srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}" src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('medium')}}">
+                      <img alt="{{ articles[0].title }}" class="figure-img" 
+                        data-sizes="auto"
+                        data-srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}"
+                        data-src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('small')}}">
                       <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
                       {% else %}
-                      <img alt="Automated tumor detection" class="figure-img" srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}" src="{{ IMGURL }}/{{HOME_IMAGE}}">
+                      <img alt="Automated tumor detection" class="figure-img"
+                        data-sizes="auto"
+                        data-srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}"
+                        data-src="{{ IMGURL }}/{{HOME_IMAGE}}">
                       <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
                       {% endif %}
                     </figure>
@@ -153,7 +167,7 @@
               <div class="row vacancy">
                 <div class="col-md-4">
                   {% if vacancy.picture %}
-                  <img class="img-thumbnail lazyload" data-src="{{ IMGURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+                  <img class="img-thumbnail lazyload" data-src="{{ IMGURL }}/{{ ('images/' + vacancy.picture) | resize_image('small')}}">
                   {% else %}
                   <img class="img-thumbnail lazyload" data-src="{{ IMGURL }}/{{SITE_PICTURE}}">
                   {% endif %}
