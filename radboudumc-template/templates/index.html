@@ -20,9 +20,11 @@
 
         <div class="col-md-3 article-image">
             {% if article.picture %}
-            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" 
+            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}"
+                src="{{ IMGURL }}/{{ ('images/' + article.picture) | resize_image('small')}}"
+                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+
                 data-sizes="auto"
-                data-src="{{ IMGURL }}/{{ ('images/' + article.picture) | resize_image('small')}}" 
                 data-srcset="{{ ('images/' + article.picture) | srcset_image(IMGURL)}}"
             >
             {% endif %}
