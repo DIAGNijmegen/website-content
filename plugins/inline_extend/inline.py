@@ -29,6 +29,9 @@ regex_vimeo = re.compile(r"\[vimeo:\s*(?P<video>[a-zA-Z0-9\-\_]+)\]")
 # Matches: [slideshare: slide_id]
 regex_slideshare = re.compile(r"\[slideshare:\s*(?P<slide>[a-zA-Z0-9\-\_]+)\]")
 
+# Matches: {{ IMGURL }}
+regex_imgurl = re.compile(r"\{\{\s*IMGURL\s*\}\}")
+
 # Content type to Pelican variable mapping
 content_varnames = {
     'member': 'MEMBER_DATA',
@@ -100,6 +103,8 @@ def parse_tags(instance):
             content = regex_vimeo.sub(lambda m: parse_vimeo_tag(m), content)
         if '[slideshare:' in content:
             content = regex_slideshare.sub(lambda m: parse_slideshare_tag(m), content)
+        if 'IMGURL' in content:
+            content = regex_imgurl.sub(lambda m: instance._context['IMGURL'], content)
 
         instance._content = content
 
