@@ -18,8 +18,8 @@ Live websites:
 Websites in development
 
 - Bodyct: https://bodyct.diagnijmegen.nl
-- Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
-- DIAG (main website): https://beta.diagnijmegen.nl (temporary)
+- Neuro: https://diagnijmegen.github.io/website-neuro/
+- DIAG (main website): https://beta.diagnijmegen.nl
 
 ## Updating the content
 
