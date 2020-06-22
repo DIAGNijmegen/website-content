@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/avf-detection.jpg
 template: vacancy-single
-people: Anton Meijer, Rashindra Manniesing
+people: Anton Meijer, Ajay Patel, Bram van Ginneken
 description: Development of a deep learning algorithm for the detection of arteriovenous shunts.
 
 ## Background
