@@ -3,7 +3,7 @@ finished: false
 type: general
 picture: projects/TB_small.jpg
 template: project-single
-groups: pathology
+groups: pathology, diag
 people: John-Melle Bokhorst, Francesco Ciompi,Jeroen van der Laak, Tariq Haddad, Femke Doubrava-Simmer, Iris Nagtegaal
 description: In this project, we will develop and validate digital image analysis algorithms for quantification of tumor budding from scanned whole slide images.
 bibkeys: Bokh19,Bokh18a
