@@ -1,5 +1,5 @@
 title: AI steered interventional MRI
-groups: diag, ai-for-health
+groups: ai-for-health
 finished: false
 type: student
 picture: projects/mri_intervention.jpg
