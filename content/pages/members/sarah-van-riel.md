@@ -3,7 +3,7 @@ name: Sarah van Riel
 template: people-single
 picture: people/Sarah_van_Riel.jpg
 position: PhD student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: sarah.vanriel@radboudumc.nl
