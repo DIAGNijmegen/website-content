@@ -28,6 +28,10 @@ Please follow the guides below to update or write new content for one of the web
 
 - [Add poster to presentation page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/add-poster-to-presentation-page.md)
 
+### Calendar
+
+- [Add a new calendar item](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-calendar-item.md)
+
 ### Vacancies & Student projects
 
 - [Create new vacancy](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-new-vacancy-or-student-project.md)
