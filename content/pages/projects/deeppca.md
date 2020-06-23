@@ -4,8 +4,8 @@ finished: false
 type: general
 picture: projects/Prostate3.png
 template: project-single
-groups: pathology
-people: Geert Litjens, Wouter Bulten, Hans Pinckaers, Christina Hulsbergen-van de Kaa, Jeroen van der Laak
+groups: diag, pathology
+people: Geert Litjens, Wouter Bulten, Hans Pinckaers, Christina Hulsbergen-van de Kaa, Jeroen van der Laak, Bram van Ginneken
 description: In this project, we will combine deep learning and digitized whole-slide imaging of prostate cancer for reproducible extraction of quantitative biomarkers.
 bibkeys: Bult20, Bult18, Bult19, Pinc19, Derck19, Bult19a
 
