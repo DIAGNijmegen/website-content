@@ -3,7 +3,7 @@ name: Tristan Payer
 template: people-single
 picture: people/Tristan_Payer.jpg
 position: Master student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: tristan.payer@radboudumc.nl
