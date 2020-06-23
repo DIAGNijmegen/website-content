@@ -4,7 +4,7 @@ template: people-single
 picture: people/Sophie_van_den_Broek.jpg
 position: Student assistant
 active: yes
-groups: diag, pathology
+groups: pathology
 default_group: pathology
 email: Sophie.vandenBroek@radboudumc.nl
 office: Route 812, room 3.42
