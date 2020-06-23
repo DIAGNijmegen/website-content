@@ -31,7 +31,7 @@ NAV_SECTIONS = [
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
+    {"name": "Presentations", "url": "presentations", "icon": "presentations", "hidden": 95},
     {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
