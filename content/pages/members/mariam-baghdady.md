@@ -4,7 +4,7 @@ template: people-single
 picture: people/Mariam_Baghdady.jpg
 position: Student assistant
 active: yes
-groups: diag, pathology
+groups: pathology
 default_group: pathology
 email: m.baghdady@student.ru.nl
 office: Route 812, room 3.42
