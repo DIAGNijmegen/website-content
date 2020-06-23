@@ -1,5 +1,5 @@
 title: Objective home-based bradykinesia assessment in Parkinson’s disease
-groups: diag, ai-for-health
+groups: ai-for-health
 closed: false
 type: student
 picture: vacancies/bradykinesia.jpg
