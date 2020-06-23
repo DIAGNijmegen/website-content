@@ -1,5 +1,5 @@
 title: Modelling long-term progression of Parkinson’s disease
-groups: diag, ai-for-health
+groups: ai-for-health
 finished: false
 type: student
 picture: projects/decision_support.jpg
