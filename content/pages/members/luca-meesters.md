@@ -4,7 +4,7 @@ template: people-single
 picture: people/Luca_Meesters.jpg
 position: Student assistant
 active: yes
-groups: diag, pathology
+groups: pathology
 default_group: pathology
 email: L.Meesters@student.ru.nl
 office: Route 812, room 3.42
