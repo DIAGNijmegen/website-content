@@ -22,14 +22,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ SITEURL }}/{{ section.url }}">
                             {% if section.icon %}
-                            <svg class="nav-icon svg-icon svg-icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}">
-                                <use xlink:href="#icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}"></use>
+                            <svg class="nav-icon svg-icon svg-icon-{{ section.icon }}">
+                                <use xlink:href="#icon-{{ section.icon }}"></use>
                             </svg>
                             {% endif %}
 
                             {% if section.icon_mobile %}
-                            <svg class="d-lg-none nav-icon svg-icon svg-icon-{{ section.icon_mobile|d(section.name|lower|replace(' ', '-')) }}">
-                                <use xlink:href="#icon-{{ section.icon_mobile|d(section.name|lower|replace(' ', '-')) }}"></use>
+                            <svg class="d-lg-none nav-icon svg-icon svg-icon-{{ section.icon_mobile }}">
+                                <use xlink:href="#icon-{{ section.icon_mobile }}"></use>
                             </svg>
                             {% endif %}
 

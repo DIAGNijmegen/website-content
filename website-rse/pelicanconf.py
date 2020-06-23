@@ -32,7 +32,7 @@ NAV_SECTIONS = [
     {"name": "People", "url": "members", "icon": "users"},
     #{"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Software", "url": "software", "icon": "code"},
-    {"name": "Vacancies", "url": "vacancies"},
+    {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
