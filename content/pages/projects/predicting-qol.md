@@ -1,5 +1,5 @@
 title: Predicting changes in quality of life of ICU survivors
-groups: diag, ai-for-health
+groups: ai-for-health
 finished: false
 type: student
 picture: projects/predicting-icu-survival.png
