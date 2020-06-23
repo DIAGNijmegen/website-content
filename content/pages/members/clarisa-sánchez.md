@@ -3,7 +3,7 @@ name: Clarisa Sánchez
 pub_name: Clara I Sánchez
 template: people-single
 picture: people/Clarisa_Sánchez.jpg
-position: Associate professor
+position: Associate Professor
 active: yes
 groups: diag, retina
 default_group: retina
