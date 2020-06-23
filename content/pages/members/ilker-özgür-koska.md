@@ -3,7 +3,7 @@ name: Ilker Özgür Koska
 template: people-single
 picture: people/Person.png
 position: PhD student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: ozgur.koska@radboudumc.nl
