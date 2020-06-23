@@ -3,7 +3,7 @@ name: Oscar Geessink
 template: people-single
 picture: people/Oscar_Geessink.jpg
 position: PhD student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: oscar.geessink@radboudumc.nl
