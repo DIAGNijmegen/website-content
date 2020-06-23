@@ -1,5 +1,5 @@
 title: A machine learning model to identify neurogenic and infectious fever in ICU patients with acute brain injury
-groups: diag, ai-for-health
+groups: ai-for-health
 finished: false
 type: student
 picture: projects/intensive_care.jpg
