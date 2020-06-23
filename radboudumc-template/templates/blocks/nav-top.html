@@ -21,10 +21,19 @@
                 {% for section in NAV_SECTIONS %}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ SITEURL }}/{{ section.url }}">
+                            {% if section.icon %}
                             <svg class="nav-icon svg-icon svg-icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}">
                                 <use xlink:href="#icon-{{ section.icon|d(section.name|lower|replace(' ', '-')) }}"></use>
                             </svg>
-                            <span class="nav-icon-text {% if section.hidden %}nav-icon-text-hidden w-{{ section.hidden }}{% endif %}">{{ section.name }}</span>
+                            {% endif %}
+
+                            {% if section.icon_mobile %}
+                            <svg class="d-lg-none nav-icon svg-icon svg-icon-{{ section.icon_mobile|d(section.name|lower|replace(' ', '-')) }}">
+                                <use xlink:href="#icon-{{ section.icon_mobile|d(section.name|lower|replace(' ', '-')) }}"></use>
+                            </svg>
+                            {% endif %}
+
+                            <span class="nav-icon-text {% if section.text_class %}{{section.text_class }}{% endif %} {% if section.hidden %}nav-icon-text-hidden w-{{ section.hidden }}{% endif %}">{{ section.name }}</span>
                         </a>
                     </li>
                 {% endfor %}

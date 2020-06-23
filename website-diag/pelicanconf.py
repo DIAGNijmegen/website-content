@@ -35,15 +35,15 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = 'dense'
 
 # What sections to show in the nav bar
+# For diag the text is shown in viewports lg and up, below that only the icon is shown
+# d-lg-block is used to force to show the text on lg viewports, for other websites there is not
+# enought room to show the text.
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
-    {"name": "People", "url": "people", "icon": "users"},
-    {"name": "Research", "url": "research", "icon": "folder"},
-    {"name": "Vacancies", "url": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
+    {"name": "People", "url": "people", "icon_mobile": "users", "text_class": "d-lg-block"},
+    {"name": "Research", "url": "research", "icon_mobile": "folder", "text_class": "d-lg-block"},
+    {"name": "Publications", "url": "publications", "icon_mobile": "file-text-o", "text_class": "d-lg-block"},
+    {"name": "Vacancies", "url": "vacancies", "icon_mobile": "vacancies", "text_class": "d-lg-block"},
+    {"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
 ]
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
