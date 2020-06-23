@@ -2,7 +2,7 @@ title: Geert Litjens
 name: Geert Litjens
 template: people-single
 picture: people/Geert_Litjens.jpg
-position: Assistant professor
+position: Assistant Professor
 active: yes
 groups: diag, pathology
 default_group: pathology
