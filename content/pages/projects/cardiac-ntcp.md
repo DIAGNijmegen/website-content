@@ -4,7 +4,7 @@ finished: false
 type: general
 picture: projects/ntcp_cardiac.png
 template: project-single
-groups: aiimnijmegen
+groups: aiimnijmegen, diag
 people: Miguel Fernandes, Jonas Teuwen
 description: The goal of this project is to develop a cardiac toxicity model to optimize the radiotherapy treatment of lung cancer.
 
