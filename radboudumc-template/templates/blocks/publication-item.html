@@ -13,6 +13,7 @@
         {{ BIB_ITEMS[bibkey]['year'] }}.
     {% endif %}
    
+    <small>
     {% if 'file' in BIB_ITEMS[bibkey] %}    
         <a href={{ '/publications/%s'%bibkey }}>Abstract/PDF</a>
     {% else %}
@@ -30,5 +31,6 @@
     {% if 'url' in BIB_ITEMS[bibkey] and BIB_ITEMS[bibkey]['url_type'] == 'arXiv' %}
 	<a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
     {% endif %}
+    </small>
 </li>
 
