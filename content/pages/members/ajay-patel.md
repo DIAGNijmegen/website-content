@@ -8,7 +8,7 @@ groups: diag, neuro, rtc
 default_group: rtc
 email: ajay.patel@radboudumc.nl
 office: Route 767, Room 27
-type: phd
+type: faculty
 telephone: +31 24 3614548
 linkedin: https://www.linkedin.com/in/ajay-patel-a609027a/
 researcherid: http://www.researcherid.com/rid/O-9215-2015
