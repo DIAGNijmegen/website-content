@@ -3,7 +3,7 @@ name: Anke van der Eerden
 template: people-single
 picture: people/Anke_van_der_Eerden_bw.jpg
 position: PhD student
-active: yes
+active: no
 groups: diag, neuro
 default_group: neuro
 email: anke.vandereerden@radboudumc.nl
