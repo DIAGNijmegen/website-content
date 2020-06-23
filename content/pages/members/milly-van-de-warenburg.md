@@ -4,7 +4,7 @@ template: people-single
 picture: people/Milly_van_de_Warenburg.jpg
 position: Student assistant
 active: yes
-groups: diag, pathology
+groups: pathology
 default_group: pathology
 email: Milly.vandeWarenburg@radboudumc.nl
 office: Route 812, room 3.42
