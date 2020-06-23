@@ -2,7 +2,7 @@ title: Jonas Teuwen
 name: Jonas Teuwen
 template: people-single
 picture: people/Jonas_Teuwen.jpg
-position: Assistant professor
+position: Assistant Professor
 active: yes
 groups: diag, aiimnijmegen
 default_group: aiimnijmegen
