@@ -9,7 +9,7 @@ default_group: diag
 email: nico.karssemeijer@radboudumc.nl
 office: Route 767, Room 27
 telephone:
-type: chair
+type: faculty
 linkedin: https://www.linkedin.com/in/nico-karssemeijer-34685590/
 scholar: https://scholar.google.com/citations?user=ca7SqLQAAAAJ
 
