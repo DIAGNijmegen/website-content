@@ -2,7 +2,7 @@ title: Matthieu Rutten
 name: Matthieu Rutten
 template: people-single
 picture: people/Matthieu_Rutten.jpg
-position: Associate professor
+position: Associate Professor
 active: yes
 groups: diag
 default_group: diag
