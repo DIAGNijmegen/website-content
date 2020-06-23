@@ -2,7 +2,7 @@ title: Alessandro Ardu
 name: Alessandro Ardu
 template: people-single
 picture: people/Alessandro_Ardu.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, retina
 default_group: retina
