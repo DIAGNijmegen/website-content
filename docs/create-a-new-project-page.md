@@ -16,6 +16,7 @@ groups: pathology/diag/rse/retina, etc (this tag determines on which websites th
 people: names of people involved in the project. (This will cause the project to appear on their personal pages. It is possible to add external people here. If you want their pictures to appear as well, upload a square and resized image to website-content/content/images/people/external/ with file name: firstname_lastname
 description: a short description of +/- 135 characters. This will appear on the project home page.
 bibkeys: bibkeys of publications that are connected to the project
+disable_gradient: true # Optional, add this tag when you don't want the gradient on top of the image to show up on the projects page
 
 FREE TEXT, FOR EXAMPLE:
 
