@@ -39,14 +39,14 @@
                             {% if pub_type in ['book', 'other'] %}
                                 <h3>{{ 'Other publications' }}</h3>
                             {% endif%}
-                            <ul>
+                            <ol>
                             {% if found.update({'flag': true}) %}{% endif %}
                         {% endif %}
                         {% include "blocks/publication-item.html" %}				
                     {% endif %}
                 {% endfor %}
                 {% if found['flag'] == true %}
-                    </ul>
+                    </ol>
                 {% endif %}
             {% endfor %}
         </div>
