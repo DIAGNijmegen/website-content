@@ -11,7 +11,7 @@ bibkeys: Murp20a, Habi20, Maho20, Murp20, Ginn18, Phil19a, Mele18, Koes18, Mele1
 
 ![CAD4TB]({{ IMGURL }}/images/projects/cxr.jpg)
 
-Chest radiogrpahy is the most common radiological exam in the world. In many hospitals 40% of all exams made in the radiology department are chest x-rays. The advent of deep learning has increased the interest for chest x-ray analysis. At DIAG, we have pioneered tuberculosis detection with chest x-ray, but we also have research projects aimed at detecting other diseases from chest radiographs.
+Chest radiography is the most common radiological exam in the world. In many hospitals 40% of all exams made in the radiology department are chest x-rays. The advent of deep learning has increased the interest for chest x-ray analysis. At DIAG, we have pioneered tuberculosis detection with chest x-ray, but we also have research projects aimed at detecting other diseases from chest radiographs.
 
 ## Tuberculosis screening and chest radiography
 Tuberculosis (TB) is a highly infectious disease that still kills 1.5 million people every year, despite the fact that a cheap cocktail of antibiotics can cure almost every TB patient. Finding TB before patients infect others and putting people on treatment is crucial. 
