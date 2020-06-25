@@ -5,8 +5,7 @@ type: general
 picture: projects/cxr.png
 template: project-single
 groups: diag
-people: Bram van Ginneken,m Keelin Muprphy, Erdi Calli, Ecem Sogancioglu, Gaby Whitehead
-
+people: Bram van Ginneken, Keelin Murphy, Erdi Calli, Ecem Sogancioglu, Gaby Whitehead
 description: Chest radiography is ubiquitous in radiology. We develop tools to interpret these exams automatically.
 
 With the CAD4TB software, computers can automatically analyze chest radiographs for signs of tuberculosis.
