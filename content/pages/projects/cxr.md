@@ -2,7 +2,7 @@ title: Chest x-ray analysis
 title_long: Chest x-ray analysis
 finished: false
 type: general
-picture: projects/cxr.png
+picture: projects/cxr.jpg
 template: project-single
 groups: diag
 people: Bram van Ginneken, Keelin Murphy, Erdi Calli, Ecem Sogancioglu, Gaby Whitehead
