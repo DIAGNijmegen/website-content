@@ -9,6 +9,8 @@ people: Bram van Ginneken, Keelin Murphy, Erdi Calli, Ecem Sogancioglu, Gaby Whi
 description: Chest radiography is ubiquitous in radiology. We develop tools to interpret these exams automatically.
 bibkeys: Murp20a, Habi20, Maho20, Murp20, Ginn18, Phil19a, Mele18, Koes18, Mele17, Mele16a, Stei15, Phil15b, Muyo14, Madu13c, Breu14, Hoge17, Mele16, Madu16, Phil15, Hoge15, Mele14a, Madu14, Hoge13, Hoge13, Hoge12, Hoge10a, Arzh09, Arzh07, Ginn06b, Ginn02a, Phil19, Madu15a, Mele15, Hoge13b, Ginn01a
 
+![CAD4TB]({{ IMGURL }}/images/projects/cxr.jpg)
+
 Chest radiogrpahy is the most common radiological exam in the world. In many hospitals 40% of all exams made in the radiology department are chest x-rays. The advent of deep learning has increased the interest for chest x-ray analysis. At DIAG, we have pioneered tuberculosis detection with chest x-ray, but we also have research projects aimed at detecting other diseases from chest radiographs.
 
 ## Tuberculosis screening and chest radiography
