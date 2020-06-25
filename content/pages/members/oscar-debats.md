@@ -3,7 +3,7 @@ name: Oscar Debats
 template: people-single
 picture: people/Oscar_Debats.jpg
 position: PhD student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: oscar.debats@radboudumc.nl
