@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Bram van Ginneken, Keelin Murphy, Erdi Calli, Ecem Sogancioglu, Gaby Whitehead
 description: Chest radiography is ubiquitous in radiology. We develop tools to interpret these exams automatically.
-bibkeys: Murp20a, Habi20, Maho20, Murp20, Ginn18, Phil19a, Mele18, Koes18, Mele17, Mele16a, Stei15, Phil15b, Madu15, Phil15a, Muyo14, Madu13c, Ginn12, Hoge11, Breu14, Zaid14, Stei14a, Khan14, Hoge17, Mele16, Madu16, Phil15, Hoge15, Mele14a, Madu14, Mele14, Ginn13a, Hoge13, Hoge13, Madu13, Madu13a, Hoge12, Hoge10a, Hoge10, Arzh09, Arzh07, Ginn06b, Ginn02a, Phil19, Madu15a, Mele15, Hoge13b, Ginn01a
+bibkeys: Murp20a, Habi20, Maho20, Murp20, Ginn18, Phil19a, Mele18, Koes18, Mele17, Mele16a, Stei15, Phil15b, Muyo14, Madu13c, Breu14, Hoge17, Mele16, Madu16, Phil15, Hoge15, Mele14a, Madu14, Hoge13, Hoge13, Hoge12, Hoge10a, Arzh09, Arzh07, Ginn06b, Ginn02a, Phil19, Madu15a, Mele15, Hoge13b, Ginn01a
 
 Chest radiogrpahy is the most common radiological exam in the world. In many hospitals 40% of all exams made in the radiology department are chest x-rays. The advent of deep learning has increased the interest for chest x-ray analysis. At DIAG, we have pioneered tuberculosis detection with chest x-ray, but we also have research projects aimed at detecting other diseases from chest radiographs.
 
@@ -19,14 +19,14 @@ Chest radiography has always been widely used to find TB. Digital chest radiogra
 One issue remains: the lack of human expert readers in countries with a high burden of TB. CAD4TB eliminates this problem by automating the reading process. 
 
 ## The CAD4TB project
-Our work in developing software to detect signs of tuberculosis started in 1996 when digital x-ray machines were first entering the market. We work with [Delft Imaging](https://www.delft.care), famous as the inventor of the Odelca camera from the 1960s, one of the most widely used systems in x-ray TB screening in the world. Our project resulted in a [[Publication?bibkey=Ginn01a|prototype computer-aided detection system for TB in 2001]]. At that time, however, digital x-ray was not yet widely adopted for TB case finding. 
+Our work in developing software to detect signs of tuberculosis started in 1996 when digital x-ray machines were first entering the market. We work with [Delft Imaging](https://www.delft.care), famous as the inventor of the Odelca camera from the 1960s, one of the most widely used systems in x-ray TB screening in the world. Our project resulted in a [prototype computer-aided detection system for TB in 2001](/publications/ginn02a/). At that time, however, digital x-ray was not yet widely adopted for TB case finding. 
 
-In 2007, we attracted a research grant and established the CAD4TB project with partners in South Africa, the [http://lunginstitute.co.za University of Cape Town Lung Institute], and in Zambia, the NGO [http://www.zambart.org/ Zambart].
+In 2007, we attracted a research grant and established the CAD4TB project with partners in South Africa, the [University of Cape Town Lung Institute](http://lunginstitute.co.za), and in Zambia, the NGO [Zambart](http://www.zambart.org/).
 
 ## The CAD4TB software
 The first CAD4TB beta prototype (CAD4TB v0.01) was field-tested in 2010. In 2011, the first official prototype version was released (CAD4TB v1.08), notably improved by training the system with a much larger number of images. A string of new versions of the software has been released: in 2012 v2.09, in 2013 v3.07, and in 2014 v4.10. Version v4.10 was the first version to receive a CE label. In 2016, version 5 saw the light and in 2019 version 6 was released, based on deep learning. Algorithm development behind CAD4TB is now carried out at [Thirona](https://www.thirona.eu), a spin-off company from the Diagnostic Image Analysis Group.
 
-CAD4TB is commercially available via [Delft Imaging](http://www.delft.care) and has hundreds of installations in over 40 countries worldwide. 
+CAD4TB is commercially available via [Delft Imaging](https://www.delft.care) and has hundreds of installations in over 40 countries worldwide. 
 
 This BBC report shows CAD4TB in action in Ghana:
 
