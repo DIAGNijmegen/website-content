@@ -2,7 +2,7 @@ title: Ecem Sogancioglu
 name: Ecem Sogancioglu
 template: people-single
 picture: people/Ecem_Lago.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag
