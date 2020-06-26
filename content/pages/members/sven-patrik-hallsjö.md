@@ -2,7 +2,7 @@ title: Sven-Patrik Hallsjö
 name: Sven-Patrik Hallsjö
 template: people-single
 picture: people/Sven_Patrik_Hallsjo.jpg
-position: Postdoctoral researcher
+position: Postdoctoral Researcher
 active: yes
 email: sven-patrik.hallsjo@radboudumc.nl
 office: Route 812, room 2.39 

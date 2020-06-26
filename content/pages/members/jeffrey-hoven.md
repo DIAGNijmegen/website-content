@@ -2,7 +2,7 @@ title: Jeffrey Hoven
 name: Jeffrey Hoven
 template: people-single
 picture: people/Jeffrey_Hoven.jpg
-position: Bachelor student
+position: Bachelor Student
 active: yes
 groups: diag, pathology
 default_group: pathology

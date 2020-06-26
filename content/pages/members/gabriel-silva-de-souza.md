@@ -2,7 +2,7 @@ title: Gabriel Silva de Souza
 name: Gabriel Silva de Souza
 template: people-single
 picture: people/Gabriel_Silva_de_Souza.jpeg
-position: Research assistant
+position: Research Assistant
 active: yes
 groups: diag, pathology
 default_group: pathology

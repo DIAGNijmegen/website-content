@@ -2,6 +2,7 @@ title: Rens van Schouwenburg
 name: Rens van Schouwenburg
 template: people-single
 picture: people/Rens_Van_Schouwenburg.jpeg
+position: Master Student
 active: yes
 groups: diag, pathology
 default_group: pathology

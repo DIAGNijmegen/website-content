@@ -2,7 +2,7 @@ title: Anoek Gerrits
 name: Anoek Gerrits
 template: people-single
 picture: people/Person.png
-position: Bachelor student
+position: Bachelor Student
 active: yes
 groups: diag, pathology
 default_group: pathology

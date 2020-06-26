@@ -2,7 +2,7 @@ title: Caner Mercan
 name: Caner Mercan
 template: people-single
 picture: people/Caner_Mercan.jpg
-position: Postdoctoral researcher
+position: Postdoctoral Researcher
 active: yes
 email: caner.mercan@radboudumc.nl
 office: Route 812, room 2.39
