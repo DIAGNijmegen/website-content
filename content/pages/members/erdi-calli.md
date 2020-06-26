@@ -2,7 +2,7 @@ title: Erdi Calli
 name: Erdi Calli
 template: people-single
 picture: people/Erdi_Calli.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

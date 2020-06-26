@@ -2,7 +2,7 @@ title: Thomas de Bel
 name: Thomas de Bel
 template: people-single
 picture: people/Thomas_de_Bel.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology

@@ -2,7 +2,7 @@ title: Sarah van Riel
 name: Sarah van Riel
 template: people-single
 picture: people/Sarah_van_Riel.jpg
-position: PhD student
+position: PhD Candidate
 active: no
 groups: diag
 default_group: diag

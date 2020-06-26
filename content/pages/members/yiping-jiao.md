@@ -2,7 +2,7 @@ title: Yiping Jiao
 name: Yiping Jiao
 template: people-single
 picture: people/Yiping_Jiao.jpg
-position: PhD student
+position: PhD Candidate
 active: no
 groups: diag, pathology
 default_group: pathology

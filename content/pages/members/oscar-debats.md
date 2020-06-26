@@ -2,7 +2,7 @@ title: Oscar Debats
 name: Oscar Debats
 template: people-single
 picture: people/Oscar_Debats.jpg
-position: PhD student
+position: PhD Candidate
 active: no
 groups: diag
 default_group: diag

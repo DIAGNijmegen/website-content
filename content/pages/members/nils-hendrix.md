@@ -2,7 +2,7 @@ title: Nils Hendrix
 name: Nils Hendrix
 template: people-single
 picture: people/Nils_Hendrix.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

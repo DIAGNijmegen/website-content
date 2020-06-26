@@ -2,7 +2,7 @@ title: Tristan de Boer
 name: Tristan de Boer
 template: people-single
 picture: people/Tristan_de_Boer.jpg
-position: Master student
+position: Master Student
 active: no
 groups: diag
 default_group: diag

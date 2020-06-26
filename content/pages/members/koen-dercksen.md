@@ -2,7 +2,7 @@ title: Koen Dercksen
 name: Koen Dercksen
 template: people-single
 picture: people/Koen_Dercksen.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

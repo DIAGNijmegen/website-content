@@ -2,7 +2,7 @@ title: David Tellez
 name: David Tellez
 template: people-single
 picture: people/David_Tellez.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology

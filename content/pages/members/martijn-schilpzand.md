@@ -2,7 +2,7 @@ title: Martijn Schilpzand
 name: Martijn Schilpzand
 template: people-single
 picture: people/Person.png
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag

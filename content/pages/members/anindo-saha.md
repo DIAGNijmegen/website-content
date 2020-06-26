@@ -2,7 +2,7 @@ title: Anindo Saha
 name: Anindo Saha
 template: people-single
 picture: people/Person.png
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag

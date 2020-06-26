@@ -2,7 +2,7 @@ title: Matin Hosseinzadeh
 name: Matin Hosseinzadeh
 template: people-single
 picture: people/Matin_Hosseinzadeh.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

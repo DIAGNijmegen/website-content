@@ -2,7 +2,7 @@ title: Gabriel Humpire Mamani
 name: Gabriel Humpire Mamani
 template: people-single
 picture: people/Gabriel_Humpire_Mamani.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

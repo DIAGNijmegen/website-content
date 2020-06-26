@@ -2,7 +2,7 @@ title: Ludo van Alst
 name: Ludo van Alst
 template: people-single
 picture: people/Ludo_van_Alst.jpg
-position: Master student
+position: Master Student
 active: yes
 groups: diag, pathology
 default_group: pathology

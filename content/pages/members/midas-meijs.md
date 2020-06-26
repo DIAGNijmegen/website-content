@@ -2,7 +2,7 @@ title: Midas Meijs
 name: Midas Meijs 
 template: people-single 
 picture: people/Midas_Meijs.jpg 
-position: PhD student 
+position: PhD Candidate 
 active: no 
 groups: diag, neuro
 default_group: neuro

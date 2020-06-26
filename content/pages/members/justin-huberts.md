@@ -2,7 +2,7 @@ title: Justin Huberts
 name: Justin Huberts
 template: people-single
 picture: people/Justin_Huberts.jpg
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag

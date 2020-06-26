@@ -9,7 +9,7 @@ title: Firstname Lastname
 name: Firstname Lastname
 template: people-single
 picture: people/<image>.png (for adding a picture to a profile see: website-content/docs/adding-picture-to-profile.md)
-position: PhD Candidate/Associate Professor/Assistant Professor/Postdoctoral Researcher/ etc. (pay attention to formulation and capitalisation)
+position: Master Student/PhD Candidate/Associate Professor/Assistant Professor/Postdoctoral Researcher/ etc. (pay attention to formulation and capitalisation)
 active: yes (change to 'no' when this person is a former employee)
 groups: diag, pathology, retina, rse (this determines on which websites the profile will appear. diag is standard, followed by your subgroup)
 default_group: diag (the main group of this person, used for internal links. If not set, the first group from 'groups' is used. If set to 'external', internal links and people-circles will load data from external-people.yaml.)

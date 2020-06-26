@@ -2,7 +2,7 @@ title: Kicky van Leeuwen
 name: Kicky van Leeuwen
 template: people-single
 picture: people/Kicky_van_Leeuwen.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

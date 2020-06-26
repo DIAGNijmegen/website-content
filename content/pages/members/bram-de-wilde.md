@@ -2,7 +2,7 @@ title: Bram de Wilde
 name: Bram de Wilde
 template: people-single
 picture: people/Bram_de_Wilde.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

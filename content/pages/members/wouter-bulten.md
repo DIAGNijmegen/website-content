@@ -2,7 +2,7 @@ title: Wouter Bulten
 name: Wouter Bulten
 template: people-single
 picture: people/Wouter_Bulten.png
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology

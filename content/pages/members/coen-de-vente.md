@@ -2,7 +2,7 @@ title: Coen de Vente
 name: Coen de Vente
 template: people-single
 picture: people/Coen_de_Vente.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, retina
 default_group: retina
