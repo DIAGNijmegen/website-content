@@ -1,6 +1,6 @@
 title: AI steered interventional MRI
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: projects/mri_intervention.jpg
 template: project-single
