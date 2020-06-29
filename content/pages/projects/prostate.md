@@ -2,13 +2,24 @@ title: Prostate
 title_long: Prostate
 finished: false
 type: general
-picture: projects/prostate.jpg
+picture: projects/prostateradiology1.png
 template: project-single
 groups: diag
 people: Matin Hosseinzadeh, Oscar Debats, Henkjan Huisman
-description: A large number of AI products are now on the market. How should AI be implemented in radiology practice? 
+description: The investigation of AI for prostate radiology 
 bibkeys: 
 
-Over one hundred CE certified products based on artificial intelligence for radiology are now for sale. This research project focuses on the questions how radiology departments can obtain an overview of the available products, how to best evaluate these products in terms of different aspects, from technical performance to cost-effectiveness and societal benefit, and how to implement AI in the radiology practice.
+## Background
 
-We have made a website available that lists all products: [AI for Radiology](https://grand-challenge.org/aiforradiology/)
+Prostate cancer detection for decades was done using systematic ultrasound biopsies in lack of a modality that can detect presence and location of a cancer. The last decade MRI has evolved into a modality that can succesfully detect and localize prostate cancer. This allows to avoid biopsies in case no cancer is present or to guide the biopsy to reduce increase certainty about aggressiveness. Guided biopsies are performed in the MRI itself, but mostly using ultrasound fusion. Fusion is easier for the patient and more cost-effective for healthcare, but slightly less effective than MRI biospy. 
+
+Challenges: 
+* Prostate MRI reading performance depends very strongly on expertise,
+* Fusion biopsy misses smaller and less aggressive lesions.
+
+## Aim
+Develop AI to improve reading prostate MRI and fusion biopsy.
+
+## Funding
+* [Siemens Healthineers](https://www.siemens-healthineers.com/)
+* [H2020 IMI2 PIONEER](https://prostate-pioneer.eu/)
