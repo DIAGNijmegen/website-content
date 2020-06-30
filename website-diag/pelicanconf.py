@@ -33,7 +33,7 @@ FOOTER_TEXT = 'The Diagnostic Image Analysis Group is part of the <a href="https
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = 'dense'
-SHOW_CARD_GRADIENT = False
+HIDE_CARD_GRADIENT = True
 
 # What sections to show in the nav bar
 # For diag the text is shown in viewports lg and up, below that only the icon is shown
