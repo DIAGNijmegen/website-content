@@ -9,7 +9,7 @@
         {% if PAGE_MEMBERS_URL %}
             <a href="{{SITEURL}}/{{ PAGE_MEMBERS_URL.format(slug=page.slug) }}">Back to page of {{ page.author_name}}</a>
         {% else %}
-            <a href="{{SITEURL}}/people/{{ page.slug }}">Back to page of {{ page.author_name}}</a>
+            <a href="{{SITEURL}}/members/{{ page.slug }}">Back to page of {{ page.author_name}}</a>
         {% endif %}
     </p>
 
