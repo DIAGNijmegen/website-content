@@ -36,3 +36,11 @@ Using the value of each dictionary item, the title of the section can be set.
 
 Set `ENABLE_PUBLICATION_PDF_REQUEST` to `True` to enable a form on each publication page to request a pdf.
 
+## Card layout
+
+The website uses cards for showing projects, software, etc. Some layout properties can be changed:
+
+```python
+# Add the following to the config to disable gradients on the card images.
+SHOW_CARD_GRADIENT = False
+```
