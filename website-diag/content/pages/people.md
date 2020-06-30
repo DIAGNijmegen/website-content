@@ -1,5 +1,6 @@
 title: People of DIAG
 template: people
+former_people_page: former-employees
 
 <!---
 
