@@ -31,7 +31,7 @@
                                 <h3>{{ 'Abstracts' }}</h3>
                             {% elif pub_type == 'phdthesis' %}
                                 <h3>{{ 'PhD theses' }}</h3>
-                            {% elif pub_type == 'mscthesis' %}
+                            {% elif pub_type in ['mscthesis', 'mastersthesis'] %}
                                 <h3>{{ 'Master theses' }}</h3>
                             {% elif pub_type in ['book', 'other'] %}
                                 <h3>{{ 'Other publications' }}</h3>
