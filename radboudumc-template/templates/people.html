@@ -13,7 +13,7 @@
 
         {% set ns = namespace(has_faculty = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
 
-        {% for person in pages|reverse %}
+        {% for person in pages %}
             {% if person.category == 'members' and person.type == 'chair' and person.active == 'yes' %}
                 {% if not ns.has_chair %}
                     <h1 class="text-muted">Chair</h1>
@@ -28,7 +28,7 @@
                     </div>
         {% endif %}
 
-        {% for person in pages|reverse %}
+        {% for person in pages %}
             {% if person.category == 'members' and person.type == 'faculty' and person.active == 'yes' %}
                 {% if not ns.has_faculty %}
                     <h1 class="text-muted">Faculty</h1>
@@ -118,21 +118,25 @@
                     </div>
         {% endif %}
 
-        {% for person in pages %}
-            {% if person.category == 'members' and person.active == 'no' %}
-                {% if not ns.has_former %}
-                    <h1 class="text-muted">Former members</h1>
-                    <div>
-                        <ul>
-                {% set ns.has_former = True %}
-                {% endif %}
+        {% if page.former_people_page %}
+        <p>We also maintain a list of <a href="{{ SITEURL }}/{{ page.former_people_page }}" title="Former Employees">Former Employees</a>.</p>
+        {% else %}
+            {% for person in pages %}
+                {% if person.category == 'members' and person.active == 'no' %}
+                    {% if not ns.has_former %}
+                        <h1 class="text-muted">Former members</h1>
+                        <div>
+                            <ul>
+                    {% set ns.has_former = True %}
+                    {% endif %}
 
-                            <li><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></li>
+                                <li><a href="{{ SITEURL }}/{{ person.url}}">{{ person.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% if ns.has_former %}
+                            </ul>
+                        </div>
             {% endif %}
-        {% endfor %}
-        {% if ns.has_former %}
-                        </ul>
-                    </div>
         {% endif %}
     </div>
 

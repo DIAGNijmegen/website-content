@@ -13,11 +13,12 @@
         {% endif %}
     </p>
 
-    {% set years = AUTHOR_KEYS[page.author|string()]['__years__'] %}   
-    {% set bibkeys_per_year = AUTHOR_KEYS[page.author|string()] %} 
-    {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
-    {% include 'blocks/publication_list.html' %}
-
+    {% if page.author in AUTHOR_KEYS %}
+        {% set years = AUTHOR_KEYS[page.author|string()]['__years__'] %}   
+        {% set bibkeys_per_year = AUTHOR_KEYS[page.author|string()] %} 
+        {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
+        {% include 'blocks/publication_list.html' %}
+    {% endif %}
     </div>
 {% endblock %}
 

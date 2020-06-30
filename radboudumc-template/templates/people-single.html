@@ -16,6 +16,34 @@
                 {% endif %}
             </div>
             <div class="person-links mb-4">
+                <div class="row">
+                    <div class="col-1">
+                        <svg class="svg-icon svg-icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+                    </div>
+                    <div class="col">
+                        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+                    </div>
+                </div>
+                {% if page.office %}
+                <div class="row">
+                    <div class="col-1">
+                        <svg class="svg-icon svg-icon-office"><use xlink:href="#icon-office"></use></svg>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.radboudumc.nl/en/patient-care/getting-there">{{ page.office }}</a>
+                    </div>
+                </div>
+                {% endif %}
+                {% if page.telephone %}
+                <div class="row">
+                    <div class="col-1">
+                        <svg class="svg-icon svg-icon-phone"><use xlink:href="#icon-phone"></use></svg>
+                    </div>
+                    <div class="col">
+                        <a href="tel:{{ page.telephone }}">{{ page.telephone }}</a>
+                    </div>
+                </div>
+                {% endif %}
                 {% if page.website %}
                 <div class="row">
                     <div class="col-1">
@@ -78,25 +106,10 @@
 
 
         <div class="col-md-8">
+            <p><b>About {{ page.title }}</b></p>
+            {{ page.content }}
+
             <dl>
-                {% if page.active == 'yes' %}
-                    <dt>Email:</dt>
-                    <dd><a href="mailto:{{ page.email}}">{{ page.email }}</a></dd>
-
-                    {% if page.office %}
-                    <dt>Office:</dt>
-                    <dd>{{ page.office }}</dd>
-                    {% endif%}
-
-                    {% if page.telephone %}
-                    <dt>Telephone:</dt>
-                    <dd>{{ page.telephone }}</dd>
-                    {% endif %}
-                {% endif %}
-
-                <dt>Bio:</dt>
-                <dd>{{ page.content }}</dd>
-
                 {% set all_related_pages = ['projects', 'software'] %}
 
                 {% for related_page in all_related_pages %}

@@ -1,7 +1,7 @@
 <div class="col-md-4">
     <div class="card image-card lazyload" data-bg="{{ IMGURL }}/images/{{ card.picture }}">
 
-        {%if not card.disable_gradient %}
+        {%if not card.disable_gradient and not HIDE_CARD_GRADIENT %}
         <div class="card-gradient"></div>
         {% endif %}
 
