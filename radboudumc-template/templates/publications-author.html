@@ -6,7 +6,11 @@
     <h1>{{ page.title }} </h1>
 
     <p class="my-4">
-        <a href="{{SITEURL}}/members/{{ page.slug }}/">Back to page of {{ page.author_name}}</a>
+        {% if PAGE_MEMBERS_URL %}
+            <a href="{{SITEURL}}/{{ PAGE_MEMBERS_URL.format({'slug': page.slug}) }}">Back to page of {{ page.author_name}}</a>
+        {% else %}
+            <a href="{{SITEURL}}/people/{{ page.slug }}">Back to page of {{ page.author_name}}</a>
+        {% endif %}
     </p>
 
     {% set years = AUTHOR_KEYS[page.author|string()]['__years__'] %}   
