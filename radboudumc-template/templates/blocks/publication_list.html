@@ -1,14 +1,18 @@
 
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
+    <input type="radio" name="year-selection" data-year="all" id="input_all" autocomplete="off" style="display: none">
+    <label class="btn btn-link" for="input_all", style="color:grey">
+        all
+    </label>
     {% set max_year = MAX_YEAR_PUB or 2012   %}
     {% for cur_year in years if cur_year|int >= max_year  %}
         {% if cur_year|int <= max_year %}
             {% set cur_year = max_year|string + ' and before' %}
         {% endif %}
-    <input type="radio" name="year-selection" data-year="{{ cur_year }}" id="input_{{ cur_year }}" autocomplete="off" style="display: none">
-    <label class="btn btn-link" for="input_{{cur_year}}", style="color:grey">
-        {{ cur_year }}
-    </label>
+        <input type="radio" name="year-selection" data-year="{{ cur_year }}" id="input_{{ cur_year }}" autocomplete="off" style="display: none">
+        <label class="btn btn-link" for="input_{{cur_year}}", style="color:grey">
+            {{ cur_year }}
+        </label>
     {% endfor %}
 </div>
 
@@ -23,20 +27,17 @@
                         {% if found['flag'] == false %}
                             {% if pub_type == 'article' %}
                                 <h3>{{ 'Papers in international journals' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'preprint' %}
+                            {% elif pub_type == 'preprint' %}
                                 <h3>{{ 'Preprints' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'inproceedings' %}
+                            {% elif pub_type == 'inproceedings' %}
                                 <h3>{{ 'Papers in conference proceedings' }}</h3>
-                            {% endif%}
-                            {% if pub_type == 'conference' %}
+                            {% elif pub_type == 'conference' %}
                                 <h3>{{ 'Abstracts' }}</h3>
-                            {% endif%}
-                            {% if pub_type in ['phdthesis', 'mastersthesis'] %}
-                                <h3>{{ 'Theses' }}</h3>
-                            {% endif%}
-                            {% if pub_type in ['book', 'other'] %}
+                            {% elif pub_type == 'phdthesis' %}
+                                <h3>{{ 'PhD theses' }}</h3>
+                            {% elif pub_type in ['mscthesis', 'mastersthesis'] %}
+                                <h3>{{ 'Master theses' }}</h3>
+                            {% elif pub_type in ['book', 'other'] %}
                                 <h3>{{ 'Other publications' }}</h3>
                             {% endif%}
                             <ol>
@@ -63,22 +64,27 @@
         var year = this.dataset.year; 
         var yearsplit = year.split(' ')
         for(var b = 0; b < year_blocks.length; b++) {
-            if (yearsplit[yearsplit.length-1] == 'before'){
-                if(year_blocks[b].dataset.year <= parseInt(yearsplit[0])) {
-                    year_blocks[b].style.display = 'block';
+            if (year == 'all'){
+                year_blocks[b].style.display = 'block';
+            }
+            else{
+                if (yearsplit[yearsplit.length-1] == 'before'){
+                    if(year_blocks[b].dataset.year <= parseInt(yearsplit[0])) {
+                        year_blocks[b].style.display = 'block';
+                    } else {
+                        year_blocks[b].style.display = 'none';
+                    }
+        
                 } else {
-                    year_blocks[b].style.display = 'none';
-                }
-    
-            } else {
-                if(year_blocks[b].dataset.year == year) {
-                    year_blocks[b].style.display = 'block';
-                } else {
-                    year_blocks[b].style.display = 'none';
+                    if(year_blocks[b].dataset.year == year) {
+                        year_blocks[b].style.display = 'block';
+                    } else {
+                        year_blocks[b].style.display = 'none';
+                    }
                 }
             }
         }
     });
     }
-    buttons[0].click()
+    buttons[1].click()
 </script>
