@@ -181,6 +181,8 @@ def parse_bibtex_file(filename, full_strings_bib):
                     bib_item['url'] = get_arxiv_id_from_title(bib_item['journal'])
 
             if 'year' not in bib_item:
+                print('no year found in bibitem. skipping bibitem:', bib_item)
+                continue
                 bib_item['year'] = '0000'
 
             cover_path = ''
