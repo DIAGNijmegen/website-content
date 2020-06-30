@@ -16,10 +16,8 @@
 
     <div class="row">
         {% for card in pages %}
-            {% if card.category == 'projects' %}
-                {% if card.finished == 'false' %}
-                 {% include "blocks/card.html" %}
-                {% endif %}
+            {% if card.category == 'projects' and card.type != 'student' and card.finished == 'false' %}
+                {% include "blocks/card.html" %}
             {% endif %}
         {% endfor %}
     </div>
@@ -56,13 +54,28 @@
     {% endfor %}
     {% endif %}
 
+    {% set ns = namespace(has_student_projects=False) %}
+    {% for card in pages %}
+        {% if card.category == 'projects' and card.type == 'student' %}
+            {% if card.finished == 'false' %}
+                {% if not ns.has_student_projects %}
+                    {% set ns.has_student_projects = True %}
+                    <h2 style="margin: 2em 0 1em 0;">Current student projects</h2>
+                    <div class="row">
+                {% endif %}
+                {% include "blocks/card.html" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% if ns.has_student_projects %}
+    </div>
+    {% endif %}
+
     <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
     <div class="row">
         {% for card in pages %}
-            {% if card.category == 'projects' %}
-                {% if card.finished == 'true' %}
-                 {% include "blocks/card.html" %}
-                {% endif %}
+            {% if card.category == 'projects' and card.finished == 'true'%}
+                {% include "blocks/card.html" %}
             {% endif %}
         {% endfor %}
     </div>
