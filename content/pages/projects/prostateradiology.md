@@ -1,5 +1,5 @@
-title: Prostate
-title_long: Prostate
+title: Prostate Radiology
+title_long: Prostate Radiology
 finished: false
 type: general
 picture: projects/prostateradiology1.png
