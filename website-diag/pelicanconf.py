@@ -23,7 +23,7 @@ SITENAME_SHORT = 'DIAG'
 SITE_REPO = 'website-diag'
 SITE_GROUP = 'diag'
 
-# Home page and social settings
+# Home page, layout and social settings
 SITELEAD = 'The Diagnostic Image Analysis Group is part of the Departments of Radiology and Nuclear Medicine, Pathology, and Ophthalmology of Radboud University Medical Center. We develop computer algorithms to aid clinicians in the interpretation of medical images and thereby improve the diagnostic process.'
 SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = 'highlight'
@@ -33,6 +33,7 @@ FOOTER_TEXT = 'The Diagnostic Image Analysis Group is part of the <a href="https
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = 'dense'
+SHOW_CARD_GRADIENT = False
 
 # What sections to show in the nav bar
 # For diag the text is shown in viewports lg and up, below that only the icon is shown
