@@ -2,7 +2,7 @@ title: Xie Weiyi
 name: Xie Weiyi
 template: people-single
 picture: people/Xie_Weiyi.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

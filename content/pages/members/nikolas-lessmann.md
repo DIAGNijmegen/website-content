@@ -11,4 +11,4 @@ office: Route 767, Room 27
 type: faculty
 telephone: +31 24 3614548
 
-Nikolas Lessmann is a postdoctoral researcher in the Diagnostic Image Analysis Group, working on automatic medical image analysis with machine learning / artificial intelligence. His focus area are musculoskeletal diseases and disorders, which are among the leading causes of disability worldwide. Nikolas studied Biomedical Engineering at the University of Lübeck, Germany, and worked as a PhD student in the Quantitative Image Analysis group at the University Medical Center Utrecht.
+Nikolas Lessmann is a tenure-track researcher in the Diagnostic Image Analysis Group, where he is leading the research group on musculoskeletal image analysis with machine learning / artificial intelligence. Nikolas studied [Biomedical Engineering at the University of Lübeck, Germany](https://www.uni-luebeck.de/en/studies/degree-programmes/medical-engineering-science.html) and obtained his PhD at the [University Medical Center Utrecht](https://www.isi.uu.nl/).

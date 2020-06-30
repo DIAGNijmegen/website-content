@@ -2,7 +2,7 @@ title: Freerk Venhuizen
 name: Freerk Venhuizen
 template: people-single
 picture: people/Freerk_Venhuizen.jpg
-position: PhD student
+position: PhD Candidate
 active: no
 groups: diag, retina
 default_group: retina

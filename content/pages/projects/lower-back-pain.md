@@ -1,5 +1,5 @@
 title: MRI-based decision support tool for patients with chronic lower back pain
-groups: ai-for-health 
+groups: diag, ai-for-health 
 finished: false
 type: general
 picture: projects/msk_lbp.jpg

@@ -2,7 +2,7 @@ title: Ruben Kluge
 name: Ruben Kluge
 template: people-single
 picture: people/Ruben_Kluge.jpg
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag

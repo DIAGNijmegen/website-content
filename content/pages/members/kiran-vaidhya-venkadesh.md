@@ -2,7 +2,7 @@ title: Kiran Vaidhya Venkadesh
 name: Kiran Vaidhya Venkadesh
 template: people-single
 picture: people/Kiran_Vaidhya_Venkadesh.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

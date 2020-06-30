@@ -2,7 +2,7 @@ title: Grzegorz Chlebus
 name: Grzegorz Chlebus
 template: people-single
 picture: people/external/Grzegorz_Chlebus.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

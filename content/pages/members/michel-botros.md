@@ -2,7 +2,7 @@ title: Michel Botros
 name: Michel Botros
 template: people-single
 picture: people/Michel_Botros.jpg
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag

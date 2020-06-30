@@ -22,6 +22,5 @@ In this project, we will combine deep learning and digitized whole-slide imaging
 The aim of this project is to prevent unnecessary surgery and adjuvant therapy for individual patients by improving currently established risk models. Risk models will be enhanced through the addition of pre- and post-operative quantitative biomarkers obtained via image analysis and deep learning. We will focus both on the accurate and objective quantification of biomarkers already identified in literature and the discovery of novel biomarkers.
 
 ## Funding
-
 - [Bas Mulder Award - KWF](https://www.kwf.nl/helpjijons/alpedhuzes/Pages/bas-mulder-award.aspx)
 - [NWO Veni](https://www.nwo.nl/en/funding/our-funding-instruments/nwo/innovational-research-incentives-scheme/veni/index.html)

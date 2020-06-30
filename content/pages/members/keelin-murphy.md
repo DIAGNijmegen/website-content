@@ -2,7 +2,7 @@ title: Keelin Murphy
 name: Keelin Murphy
 template: people-single
 picture: people/Keelin_Murphy.jpg
-position: Postdoctoral researcher
+position: Postdoctoral Researcher
 active: yes
 groups: diag
 default_group: diag

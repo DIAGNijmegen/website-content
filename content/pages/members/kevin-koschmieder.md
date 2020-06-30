@@ -2,7 +2,7 @@ title: Kevin Koschmieder
 name: Kevin Koschmieder
 template: people-single
 picture: people/Kevin_Koschmieder_bw.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, neuro
 default_group: neuro

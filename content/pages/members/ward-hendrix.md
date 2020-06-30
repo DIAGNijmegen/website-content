@@ -2,7 +2,7 @@ title: Ward Hendrix
 name: Ward Hendrix
 template: people-single
 picture: people/Ward_Hendrix.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

@@ -2,7 +2,7 @@ title: Daan Geijs
 name: Daan Geijs
 template: people-single
 picture: people/Daan_Geijs.jpg
-position: PhD student
+position: PhD Candidate
 active: yes 
 groups: diag, pathology
 default_group: pathology 

@@ -2,8 +2,8 @@ title: Marcel Oei
 name: Marcel Oei
 template: people-single
 picture: people/Marcel_Oei_bw.jpg
-position: PhD student
-active: yes
+position: PhD Candidate
+active: no
 groups: diag, neuro
 default_group: neuro
 email: marcel.oei@radboudumc.nl

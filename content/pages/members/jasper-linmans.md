@@ -2,7 +2,7 @@ title: Jasper Linmans
 name: Jasper Linmans
 template: people-single
 picture: people/Jasper_Linmans.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology

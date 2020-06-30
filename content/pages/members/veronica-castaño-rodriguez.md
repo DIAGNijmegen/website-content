@@ -2,7 +2,7 @@ title: Veronica Castaño Rodriguez
 name: Veronica Castaño Rodriguez
 template: people-single
 picture: people/Person.png
-position: Bachelor student
+position: Bachelor Student
 active: yes
 groups: diag, pathology
 default_group: pathology

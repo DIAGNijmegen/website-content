@@ -2,7 +2,7 @@ title: Zaneta Swiderska-Chadaj
 name: Zaneta Swiderska-Chadaj
 template: people-single
 picture: people/Zaneta_Swiderska-Chadaj.jpg
-position: Postdoctoral researcher
+position: Postdoctoral Researcher
 active: no
 groups: diag, pathology
 default_group: pathology

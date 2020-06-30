@@ -2,7 +2,7 @@ title: Maud Wekking
 name: Maud Wekking
 template: people-single
 picture: people/Maud_Wekking.jpg
-position: Research technician
+position: Research Technician
 active: yes
 groups: diag, pathology
 default_group: pathology

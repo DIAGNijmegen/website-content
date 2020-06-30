@@ -2,7 +2,7 @@ title: Gabriel Humpire Mamani
 name: Gabriel Humpire Mamani
 template: people-single
 picture: people/Gabriel_Humpire_Mamani.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag
@@ -15,4 +15,4 @@ scholar: http://scholar.google.com/citations?user=oE82pPoAAAAJ
 
 Gabriel graduated in Computer Science at the National University of San Agustin in Peru. He received his master's degree in Computer Science at the University of Sao Paulo in Brazil in 2012.
 
-His research interests include Computer Vision, Image Processing, Video processing, and Machine Learning. He is working as a Ph.D. student at the Diagnostic Image Analysis Group (DIAG) on the AMI Oncology project since February 2016, supervised by Bram van Ginneken and Colin Jacobs.
+His research interests include Computer Vision, Image Processing, Video processing, and Machine Learning. He is working as a Ph.D. student at the Diagnostic Image Analysis Group (DIAG) on the AMI Oncology project since February 2016, supervised by [member/bram-van-ginneken] and [member/colin-jacobs], and [member/nikolas-lessmann].

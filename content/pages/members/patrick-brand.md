@@ -2,7 +2,7 @@ title: Patrick Brand
 name: Patrick Brand
 template: people-single
 picture: people/Patrick_Brand.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

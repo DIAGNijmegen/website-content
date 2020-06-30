@@ -2,7 +2,7 @@ title: Anton Schreuder
 name: Anton Schreuder
 template: people-single
 picture: people/Anton_Schreuder.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

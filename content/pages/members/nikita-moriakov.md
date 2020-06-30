@@ -2,7 +2,7 @@ title: Nikita Moriakov
 name: Nikita Moriakov
 template: people-single
 picture: people/Nikita_Moriakov.jpg
-position: Postdoctoral researcher
+position: Postdoctoral Researcher
 active: yes
 groups: diag, aiimnijmegen
 default_group: aiimnijmegen

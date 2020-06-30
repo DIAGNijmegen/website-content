@@ -2,7 +2,7 @@ title: Mart van Rijthoven
 name: Mart van Rijthoven
 template: people-single
 picture: people/Mart_van_Rijthoven.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology

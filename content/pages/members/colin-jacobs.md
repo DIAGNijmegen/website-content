@@ -2,7 +2,7 @@ title: Colin Jacobs
 name: Colin Jacobs
 template: people-single
 picture: people/Colin_Jacobs.jpg
-position: Assistant Professor / Research Software Engineer
+position: Assistant Professor
 active: yes
 groups: diag, rse
 default_group: diag

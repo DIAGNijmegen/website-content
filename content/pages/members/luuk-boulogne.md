@@ -2,7 +2,7 @@ title: Luuk Boulogne
 name: Luuk Boulogne
 template: people-single
 picture: people/Luuk_Boulogne.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag

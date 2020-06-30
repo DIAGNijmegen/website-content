@@ -2,7 +2,7 @@ title: HookNet
 template: project-single
 picture: software/concept_hooknet2.png
 description: HookNet: multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images
-groups: pathology, diag
+groups: pathology
 people: Mart van Rijthoven, Maschenka Balkenhol,  Jeroen van der Laak, Francesco Ciompi
 openseadragon: true
 
