@@ -43,7 +43,10 @@ PATH = 'content'
 RELATIVE_URLS = False
 
 # Show pdf request on publication pages
-ENABLE_PUBLICATION_PDF_REQUEST = True
+# ENABLE_PUBLICATION_PDF_REQUEST = True
+
+# show publication years
+# SHOW_PUBLICATION_YEARS = False
 
 TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = 'EN'

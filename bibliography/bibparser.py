@@ -47,20 +47,27 @@ def timeit(method):
 
 
 def sort_bib_keys_author(author_bib_keys, bib_items):
+    _types = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other']
     bib_items_per_author_per_date = {}
     for researcher, keys in author_bib_keys.items():
         bib_items_per_data = {}
         for key in keys:
             bib_items_per_data.setdefault(bib_items[key]['year'], set()).add(key)
+            bib_items_per_data.setdefault('__types__', set()).add(bib_items[key]['type'])
         bib_items_per_data['__years__'] = sorted(set(bib_items_per_data.keys()))[::-1]
+        bib_items_per_data['__years__'].remove('__types__')
+        bib_items_per_data['__types__'] = [t for t in _types if t in bib_items_per_data['__types__']]
+
         #TODO sort by month
         bib_items_per_author_per_date[researcher] = bib_items_per_data
     return bib_items_per_author_per_date
 
 
 def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
+    _types = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other']
     bib_items_per_group_per_date = {}
     groups = []
+    publication_types = set()
     for researcher, keys in author_bib_keys.items():
         # set group if not set
         for group in list_researchers[researcher][1]:
@@ -69,10 +76,13 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
             bib_items_per_group_per_date.setdefault(group, {})
             for key in keys:
                 bib_items_per_group_per_date[group].setdefault(bib_items[key]['year'], set()).add(key)
+                bib_items_per_group_per_date[group].setdefault('__types__', set()).add(bib_items[key]['type'])
                 
     # compute all years per group
     for group in groups:
         bib_items_per_group_per_date[group]['__years__'] = sorted(set(bib_items_per_group_per_date[group].keys()))[::-1]
+        bib_items_per_group_per_date[group]['__years__'].remove('__types__')
+        bib_items_per_group_per_date[group]['__types__'] = [t for t in _types if t in bib_items_per_group_per_date[group]['__types__']]
         #TODO sort by month
     return bib_items_per_group_per_date
 

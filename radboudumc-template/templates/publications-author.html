@@ -14,9 +14,14 @@
     </p>
 
     {% if page.author in AUTHOR_KEYS %}
+        {% if page.show_publication_years == 'yes' %}
+            {% set show_years = True  %}
+        {% else %}
+            {% set show_years = False  %}
+        {% endif %}
         {% set years = AUTHOR_KEYS[page.author|string()]['__years__'] %}   
         {% set bibkeys_per_year = AUTHOR_KEYS[page.author|string()] %} 
-        {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
+        {% set list_pub_type = AUTHOR_KEYS[page.author|string()]['__types__'] %}            
         {% include 'blocks/publication_list.html' %}
     {% endif %}
     </div>

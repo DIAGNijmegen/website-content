@@ -29,7 +29,8 @@ def create_author_md_files(author_bib_keys, list_researchers):
         md_string += 'author: ' + name.lower() + '\n'
         md_string += 'author_name: ' + list_researchers[name][2] + '\n'
         md_string += 'groups: ' + ','.join(groups) + '\n'
-        md_string += 'bibkeys: ' + ','.join(bib_keys)
+        md_string += 'bibkeys: ' + ','.join(bib_keys) + '\n'
+        md_string += 'show_publication_years: ' + list_researchers[name][3]
         md_file_name = './content/pages/publications/' + name.lower() + '.md'
         save_md_file(md_file_name, md_string)
 

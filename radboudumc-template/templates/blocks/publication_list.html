@@ -1,4 +1,7 @@
 
+
+{% if show_years %}
+
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
     <input type="radio" name="year-selection" data-year="all" id="input_all" autocomplete="off" style="display: none">
     <label class="btn btn-link" for="input_all", style="color:grey">
@@ -15,46 +18,49 @@
         </label>
     {% endfor %}
 </div>
-
+{% endif %}
+    
     {# Lists the publications per year and organized by publication type #}
-    {% for cur_year in years %}
-        <div data-year="{{ cur_year }}" class="publication-year">
-            <h2>{{ cur_year }}</h2>
-            {% for pub_type in list_pub_type %}
-                {% set found = { 'flag': false } %}
-                {% for bibkey in bibkeys_per_year[cur_year] %}
-                    {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
-                        {% if found['flag'] == false %}
-                            {% if pub_type == 'article' %}
-                                <h3>{{ 'Papers in international journals' }}</h3>
-                            {% elif pub_type == 'preprint' %}
-                                <h3>{{ 'Preprints' }}</h3>
-                            {% elif pub_type == 'inproceedings' %}
-                                <h3>{{ 'Papers in conference proceedings' }}</h3>
-                            {% elif pub_type == 'conference' %}
-                                <h3>{{ 'Abstracts' }}</h3>
-                            {% elif pub_type == 'phdthesis' %}
-                                <h3>{{ 'PhD theses' }}</h3>
-                            {% elif pub_type in ['mscthesis', 'mastersthesis'] %}
-                                <h3>{{ 'Master theses' }}</h3>
-                            {% elif pub_type in ['book', 'other'] %}
-                                <h3>{{ 'Other publications' }}</h3>
-                            {% endif%}
-                            <ol>
-                            {% if found.update({'flag': true}) %}{% endif %}
+    {% if show_years %}
+        {% for cur_year in years %}
+            <div data-year="{{ cur_year }}" class="publication-year">
+                <h2>{{ cur_year }}</h2>
+                {% for pub_type in list_pub_type %}
+                    {% set found = { 'flag': false } %}
+                    {% for bibkey in bibkeys_per_year[cur_year] %}
+                        {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
+                            {% if found['flag'] == false %}
+                                {% include "blocks/publication-type.html" %}
+                                <ol>
+                                {% if found.update({'flag': true}) %}{% endif %}
+                            {% endif %}
+                            {% include "blocks/publication-item.html" %}				
                         {% endif %}
-                        {% include "blocks/publication-item.html" %}				
+                    {% endfor %}
+                    {% if found['flag'] == true %}
+                        </ol>
                     {% endif %}
                 {% endfor %}
-                {% if found['flag'] == true %}
-                    </ol>
-                {% endif %}
-            {% endfor %}
-        </div>
-    {% endfor %}
-    </div>
+            </div>
+        {% endfor %}
+        
+    {# Lists the publications organized by publication type per year #}
+    {% else %}
+        {% for pub_type in list_pub_type %}
+                {% include "blocks/publication-type.html" %}
+                <ol>
+                {% for cur_year in years %}
+                    {% for bibkey in bibkeys_per_year[cur_year] %}
+                        {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
+                            {% include "blocks/publication-item.html" %}				
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                </ol>
+        {% endfor %}
+    {% endif %}
 
-
+{% if show_years %}
 <script type="text/javascript">
     var buttons = document.getElementsByName('year-selection');
     var year_blocks = document.getElementsByClassName('publication-year');
@@ -88,3 +94,4 @@
     }
     buttons[1].click()
 </script>
+{% endif %}

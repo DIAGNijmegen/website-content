@@ -34,10 +34,14 @@
 
     <!-- use site group bib keys -->
     {% elif SITE_GROUP in GROUP_KEYS  %}
-
+        {% if SHOW_PUBLICATION_YEARS is not defined %}
+            {% set show_years = True %}
+        {% else %}
+            {% set show_years = SHOW_PUBLICATION_YEARS %}
+        {% endif %}
         {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
         {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
-        {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}            
+        {% set list_pub_type = GROUP_KEYS[SITE_GROUP]['__types__'] %}            
         {% include 'blocks/publication_list.html' %}
 
     {% endif %}
