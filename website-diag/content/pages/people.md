@@ -1,4 +1,4 @@
-title: People of DIAG
+title: People
 template: people
 former_people_page: former-employees
 
