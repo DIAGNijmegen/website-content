@@ -33,7 +33,7 @@ For most face representations, several simple classifiers (SVM, k-NN, RandomFore
 ## Results
 Below are some preliminary results of classifying patients in the binary way described above, and using the DeepFace representation and a GradientBoostClassifier with 10 trees.
 
-| --- | Area under the ROC curve | Specificity | Sensitivity |
+| | Area under the ROC curve | Specificity | Sensitivity |
 | --- | --- | --- | --- |
 | ADNP (N=33)	| 0.7622	| 0.6970	| 0.8182 |
 | ANKRD11 (N=25) | 0.6976	| 0.7200	| 0.8000 |
