@@ -2,7 +2,7 @@ title: Prostate Radiology
 title_long: Prostate Radiology
 finished: false
 type: general
-picture: projects/prostateradiology1.png
+picture: projects/prostate.jpg
 template: project-single
 groups: diag
 people: Matin Hosseinzadeh, Oscar Debats, Henkjan Huisman
