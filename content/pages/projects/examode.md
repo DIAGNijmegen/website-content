@@ -15,15 +15,12 @@ Big volumes of diverse data from distributed sources are continuously produced. 
 The project aims to solve: "weakly supervised knowledge discovery of exascale heterogeneous data.’’
 
 Radboudumc is responsible for the following objectives:
+
 - Develop deep learning methods for detection and semantic segmentation of regions of interest in histopathology whole-slide images.
-
 - Develop deep learning methods for whole-slide image classification using image-level target labels extracted from pathology reports.
-
 - Develop methods of whole-slide image compression to allow end-to-end training of deep neural networks with whole-slide image data.
-
 - Develop efficient parallel implementations of researched ANNs dealing with both shared and distributed memory environments.
 - Make developed methods available via a web-based platform.
-
 - Facilitate integration of developed methods in digital pathology workflow and development of decision support algorithms.
 
 ## Funding
