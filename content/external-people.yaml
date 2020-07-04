@@ -575,3 +575,15 @@ people:
     url: https://www.linkedin.com/in/anna-gansen/
     picture: people/external/Anna_Gansen.jpg
     email: 
+  - name: Richard ten Broek
+    position: General Surgery Resident
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/richard-ten-broek-18651929
+    picture: people/external/Richard_ten_Broek.jpg
+    email: richard.tenbroek@radboudumc.nl
+  - name: Harry van Goor
+    position: Professor
+    affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/harry-van-goor
+    picture: people/external/Harry_van_Goor.jpg
+  
