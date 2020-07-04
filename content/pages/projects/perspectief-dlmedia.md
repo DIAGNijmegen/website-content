@@ -2,7 +2,7 @@ title: Perspectief DLMedIA
 title_long: Perspectief DLMedIA
 finished: false
 type: general
-picture: projects/perspectief_picture_map_cut.jpg
+picture: projects/perspectief.jpg
 template: project-single
 groups: diag, retina
 people: Cristina González-Gonzalo, Clarisa Sánchez
