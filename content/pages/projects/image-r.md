@@ -2,7 +2,7 @@ title: IMAGE-R
 title_long: IMAGE-R
 finished: false
 type: general
-picture: projects/image-r.png
+picture: projects/image-r2.png
 template: project-single
 groups: diag, retina
 people: Coen de Vente, Clarisa Sánchez
