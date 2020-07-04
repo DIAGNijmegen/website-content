@@ -1,7 +1,7 @@
 title: Building multi-modal interactive health records
 finished: false
 type: general
-picture: vacancies/mihracle.jpg
+picture: projects/mihracle.jpg
 people: Koen Dercksen, Arjen de Vries, Faegheh Hasibi, Liesbeth Langenhuysen, Monique Brink, Ritse Mann, Bram van Ginneken 
 description: The aim of this project is to build a system that can automatically create annotated radiology reports that a patient can understand.
 template: project-single
