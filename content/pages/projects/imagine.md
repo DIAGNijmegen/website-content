@@ -2,7 +2,7 @@ title: IMAGINE
 finished: false
 type: general
 template: project-single
-groups: diag, aiimnijmegen
+groups: aiimnijmegen
 people: Nikita Moriakov, Jonas Teuwen, Ritse Mann, Nico Karssemeijer
 description: The IMAGINE study aims to find image features on mammograms that can distinguish aggressive breast tumours from those that would never threaten a woman’s life.
 
