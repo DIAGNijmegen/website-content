@@ -2,7 +2,7 @@ title: MARBLE
 finished: false
 type: general
 template: project-single
-groups: diag, aiimnijmegen
+groups: aiimnijmegen
 picture: projects/logo_marble.png
 people: Jonas Teuwen, Ritse Mann, Riccardo Samperna, Nikita Moriakov, Nico Karssemeijer
 description: MARBLE studies the use of deep learning to improve the screening of breast cancer with MRI, DBT and mammography.
