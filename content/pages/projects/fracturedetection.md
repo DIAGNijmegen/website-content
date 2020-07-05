@@ -3,7 +3,7 @@ finished: false
 type: general
 picture: projects/fracturedetection.jpg
 people: Nils Hendrix, Matthieu Rutten, Eric Postma, Bram van Ginneken
-description: Failure to detect a fractures in the hand can have major negative consequences. We develop deep learning solutions for fracture detection in hand radiographs.
+description: Failure to detect a fracture in the hand can have major negative consequences. We develop deep learning solutions for fracture detection in hand radiographs.
 template: project-single
 groups: diag
 bibkeys: 
