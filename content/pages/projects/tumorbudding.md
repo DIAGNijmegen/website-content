@@ -1,7 +1,7 @@
 title: Tumor budding
 finished: false
 type: general
-picture: projects/TB_small.jpg
+picture: projects/TB2-1.jpg
 template: project-single
 groups: pathology, diag
 people: John-Melle Bokhorst, Francesco Ciompi,Jeroen van der Laak, Tariq Haddad, Femke Doubrava-Simmer, Iris Nagtegaal
