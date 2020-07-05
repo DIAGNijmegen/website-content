@@ -6,7 +6,7 @@ picture: projects/tbi.jpg
 template: project-single
 groups: diag
 people: Kevin Koschmieder, Bram van Ginneken, Anke van der Eerden, Rashindra Manniesing
-description: A system to autamtically detect and quantify microbleeds in people who had traumatic brain injury is developed. 
+description: A system to automatically detect and quantify microbleeds in people who had traumatic brain injury is developed. 
 bibkeys: Kosc18, Heuv16
 
 It is difficult to predict what will happen in the long-term to somebody with traumatic brain injury (TBI) after a car or motorcycle crash, a fall, sports injuries or an assaults. TBI is common, it occurs to 2.5 million people each year in europe, and of those, 1 million are admitted to hospital and 75.000 die. TBI is the leading cause of death and disability in young adults and the incidence in elderly patients is increasing.
