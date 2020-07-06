@@ -22,7 +22,7 @@
         {% endfor %}
     </div>
 
-    {% if not page.hide_software and page.hide_software == 'true' %}
+    {% if not page.hide_software and page.hide_software != 'true' %}
     <h2 style="margin-bottom: 1em;">Software</h2>
 
     {% for software in pages %}
