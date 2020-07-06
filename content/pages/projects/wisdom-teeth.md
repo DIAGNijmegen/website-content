@@ -16,3 +16,14 @@ The goal of this project is to create an AI-driven decision flowchart (AIFC). In
 1) advice to remove a wisdom tooth; 2) advice to not remove a wisdom tooth; or 3) recommend additional 3D imaging with a cone-beam CT (CBCT) scan. If the CBCT scan is available, the system will recommend whether or not to remove a wisdom tooth.
 
 The system will be developed, validated, prospectively tested and implemented in close collaboration with AI experts of Radboud AI for Health and clinical experts at Radboudumc.
+
+## Results
+
+# Automated detection of third molars and mandibular nerve by deep learning
+
+The approximity of the inferior alveolar nerve (IAN) to the roots of lower third molars (M3) is a risk factor for the occurrence of nerve damage and subsequent sensory disturbances of the lower lip and chin following the removal of third molars. To assess this risk, the identification of M3 and IAN on dental panoramic radiographs (OPG) is mandatory. In this study, we developed and validated an automated approach, based on deep-learning, to detect and segment the M3 and IAN on OPGs. As a reference, M3s and IAN were segmented manually on 81 OPGs. 
+
+A deep-learning approach based on U-net was applied on the reference data to train the convolutional neural network (CNN) in the detection and segmentation of the M3 and IAN. Subsequently, the trained U-net was applied onto the original OPGs to detect and segment both structures. Dice-coefficients were calculated to quantify the degree of similarity between the manually and automatically segmented M3s and IAN. The mean dice-coefficients for M3s and IAN were 0.947 ± 0.033 and 0.847 ± 0.099, respectively. Deep-learning is an encouraging approach to segment anatomical structures and later on in clinical decision making, though further enhancement of the algorithm is advised to improve the accuracy.
+
+Publication:
+https://doi.org/10.1038/s41598-019-45487-3
