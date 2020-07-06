@@ -6,8 +6,10 @@ groups: pathology
 people: Mart van Rijthoven, Maschenka Balkenhol,  Jeroen van der Laak, Francesco Ciompi
 openseadragon: true
 
+HookNet algorithm for the segmentation of histopathology breast tissue including ductal carcinoma in situ, invasive ductal carcinoma, invasive lobular carcinoma, non-malignant epithelium, fat and other breast tissue. 
+
 1. [Online examples](#examples)
-5. [More information](#info)
+2. [More information](#info)
 
 <figure class="figure my-4">
   <img data-src="/images/software/concept_hooknet2.png" class="figure-img img-fluid lazyload" alt="Example segmentations of Hooknet.">
@@ -48,7 +50,9 @@ The examples below show the output of HookNet, overlayed on the processed WSIs. 
   </div>
 </div>
 
-
+<a name="info"></a>
+## Info
+You can try out the algorithm here: https://grand-challenge.org/algorithms/hooknet (please make an account on grand-challenge and request access to the algorithm)
 Further questions regarding HookNet can be addressed to: [member/mart-van-rijthoven].
 
 <script type="text/javascript">
