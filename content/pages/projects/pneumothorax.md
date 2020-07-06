@@ -73,6 +73,7 @@ From these results, we can conclude that radiologists are still better at assess
 Further, in part II, we propose an unsupervised domain adaptation method – _iterative self-training_ – that improves performance on an unseen dataset without the need for additional labelling (i.e. different hospital data). These results show an increase in performance (AUC 0.82 -> 0.89) for pneumothorax detection on public datasets CheXpert -> SIIM. This method was submitted to MIDL 2020 as a short paper.
 
 ![Iterative self-training Grad-CAMs]({{ IMGURL }}/images/projects/pneumothorax_detection_UDA_results.PNG)
+
 These class activation maps show an increase in pneumothorax localization (red outline) after _iterative self-training_.
 
 ### Clinical validation
