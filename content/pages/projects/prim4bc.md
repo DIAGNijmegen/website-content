@@ -2,7 +2,7 @@ title: PRIM4BC
 finished: false
 type: general
 bibkeys: Balk19,Balk19a,Tell18a,Tell18b
-picture: projects/PRIMB4C_1.jpg
+picture: projects/PRIMB4C_1(2).jpg
 description: Detecting biomarkers for improved prognosis for triple negative breast cancer by combining histopathology, multiplex immunohistochemistry and Deep Learning.
 template: project-single
 groups: pathology
