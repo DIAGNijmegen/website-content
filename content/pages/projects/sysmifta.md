@@ -7,6 +7,8 @@ people: Meyke Hermsen, Jeroen van der Laak, Luuk Hilbrands, Bart Smeets, Friedri
 description: The investigation of the role of immune cell subsets in interstitial fibrosis and tubular atrophy in renal allografts, using multiplex immunohistochemistry and Deep Learning.
 template: project-single
 groups: pathology, diag
+bibkey: Herm17, Herm18, Herm19
+disable_gradient: true
 
 ## Background
 
