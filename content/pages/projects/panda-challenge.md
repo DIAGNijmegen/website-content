@@ -1,7 +1,7 @@
 title: PANDA Challenge
 finished: false
 type: general
-picture: projects/panda_logo_notext.png
+picture: projects/panda_logo_1_2.png
 template: project-single
 groups: pathology
 description: Challenge on prostate cancer grading of biopsies using the Gleason grading system.
