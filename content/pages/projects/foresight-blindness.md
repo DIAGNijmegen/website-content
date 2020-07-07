@@ -2,7 +2,7 @@ title: Foresight of blindness
 title_long: Foresight of blindness
 finished: false
 type: general
-picture: vacancies/Multimodal_retina.png
+picture: projects/Multimodal_retina.png
 template: project-single
 groups: retina, diag
 people: Alessandro Ardu, Clarisa Sánchez
