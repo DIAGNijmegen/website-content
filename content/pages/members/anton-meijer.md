@@ -4,7 +4,7 @@ template: people-single
 picture: people/Anton_Meijer.jpg
 position: Neuroradiologist
 active: yes
-groups: neuro
+groups: diag, neuro
 default_group: diag
 email: anton.meijer@radboudumc.nl
 office: Route 767, Room 12
