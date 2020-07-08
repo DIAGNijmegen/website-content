@@ -35,6 +35,9 @@ NAV_SECTIONS = [
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
 
+# Whether to show breadcrumbs on the page
+ENABLE_BREADCRUMBS = True
+
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Projects": "Projects", "Members": 'Members'}
 # URLs

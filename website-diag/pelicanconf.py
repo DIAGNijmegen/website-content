@@ -50,6 +50,9 @@ NAV_SECTIONS = [
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Calendar": "Calendar"}
 
+# Whether to show breadcrumbs on the page
+ENABLE_BREADCRUMBS = False
+
 # Show membership of people on their page
 SHOW_GROUP_MEMBERSHIP = True
 

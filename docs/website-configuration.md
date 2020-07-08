@@ -36,6 +36,15 @@ Using the value of each dictionary item, the title of the section can be set.
 
 Set `ENABLE_PUBLICATION_PDF_REQUEST` to `True` to enable a form on each publication page to request a pdf.
 
+## Breadcrumbs
+
+To enable or disable breadcrumbs on each page, you can set the `ENABLE_BREADCRUMBS` tag:
+
+```python
+# Whether to show breadcrumbs on the page
+ENABLE_BREADCRUMBS = True
+```
+
 ## Card layout
 
 The website uses cards for showing projects, software, etc. Some layout properties can be changed:
