@@ -11,7 +11,15 @@ pelican content -s publishconf.py
 
 # Copy files for github
 cp README.md output/README.md
-cp .nojekyll output/.nojekyll
+
+if [[ -e .nojekyll ]]; then
+  cp .nojekyll output/.nojekyll
+fi
+
+if [[ -e netlify.toml ]]; then
+  cp netlify.toml output/netlify.toml
+fi
+
 if [[ -e robots.txt ]]; then
   cp robots.txt output/robots.txt
 fi
