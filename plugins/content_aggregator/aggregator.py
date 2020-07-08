@@ -14,7 +14,7 @@ from pelican import signals
 sys.path.insert(0, '../')
 DIAG_WEBSITES_NAMES = {}
 DIAG_WEBSITE_URLS = {}
-for website in ['website-rtc', 'website-ai-for-health', 'website-diag', 'website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-neuro', 'website-rse']:
+for website in ['website-rtc', 'website-ai-for-health', 'website-diag', 'website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-rse']:
     DIAG_WEBSITES_NAMES[website[8:]] = importlib.import_module(f'{website}.pelicanconf').SITENAME
     DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
 
