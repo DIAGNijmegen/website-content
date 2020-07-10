@@ -4,7 +4,7 @@ template: people-single
 picture: people/Midas_Meijs.jpg 
 position: PhD Candidate 
 active: no 
-groups: diag, neuro
+groups: diag
 default_group: diag
 email: midas.meijs@radboudumc.nl 
 office: Route 767, Room 23 

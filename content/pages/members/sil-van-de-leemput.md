@@ -4,7 +4,7 @@ template: people-single
 picture: people/Sil_van_de_Leemput.jpg
 position: Research Software Engineer
 active: yes
-groups: diag, rse, neuro, rtc
+groups: diag, rse, rtc
 default_group: diag
 email: sil.vandeleemput@radboudumc.nl
 office: Route 767, Room 2.25
