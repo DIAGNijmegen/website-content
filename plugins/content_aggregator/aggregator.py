@@ -14,52 +14,62 @@ from pelican import signals
 sys.path.insert(0, '../')
 DIAG_WEBSITES_NAMES = {}
 DIAG_WEBSITE_URLS = {}
+
+# Sites can save their profile pages using different patterns so we need to collect these
+MEMBER_FILE_PATTERN = {}
+
 for website in ['website-rtc', 'website-ai-for-health', 'website-diag', 'website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-rse']:
-    DIAG_WEBSITES_NAMES[website[8:]] = importlib.import_module(f'{website}.pelicanconf').SITENAME
-    DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
+    
+    website_config = importlib.import_module(f'{website}.pelicanconf')
+    publish_config = importlib.import_module(f'{website}.publishconf')
+    identifier = website[8:]
+
+    DIAG_WEBSITES_NAMES[identifier] = website_config.SITENAME
+    DIAG_WEBSITE_URLS[identifier] = publish_config.SITEURL
+    MEMBER_FILE_PATTERN[identifier] = website_config.PAGE_MEMBERS_URL if hasattr(website_config, 'PAGE_MEMBERS_URL') else 'members/{slug}/'
 
 # Dictionary that defines which content to read
 # Format: <content type>: [list of tags to read]
-content_types = {
+CONTENT_TYPES = {
     'member': {
         'dir': 'members',
-        'url': 'members/{filename}/',
+        'url': 'members/{slug}/',
         'tags': ['name', 'position', 'groups', 'email', 'picture', 'default_group'],
         'varname': 'MEMBER_DATA',
     },
     'project': {
         'dir': 'projects',
-        'url': 'projects/{filename}/',
+        'url': 'projects/{slug}/',
         'tags': ['title', 'groups', 'picture', 'default_group'],
         'varname': 'PROJECT_DATA',
     },
     'presentation': {
         'dir': 'presentations',
-        'url': 'presentations/{filename}/',
+        'url': 'presentations/{slug}/',
         'tags': ['title', 'groups', 'picture', 'default_group'],
         'varname': 'PRESENTATION_DATA',
     },
     'vacancy': {
         'dir': 'vacancies',
-        'url': 'vacancies/{filename}/',
+        'url': 'vacancies/{slug}/',
         'tags': ['title', 'groups', 'picture', 'default_group'],
         'varname': 'VACANCY_DATA',
     },
     'software': {
         'dir': 'software',
-        'url': 'software/{filename}/',
+        'url': 'software/{slug}/',
         'tags': ['title', 'groups', 'picture', 'default_group'],
         'varname': 'SOFTWARE_DATA',
     },
     'highlight': {
         'dir': 'highlights',
-        'url': 'highlights/{filename}/',
+        'url': 'highlights/{slug}/',
         'tags': ['title', 'groups', 'picture', 'default_group'],
         'varname': 'HIGHLIGHT_DATA',
     }
 }
 
-def parse_content_file(type, url, tags, content):
+def parse_content_file(type, filename, tags, content):
     """Parse a single member file"""
     data = {}
     for line in content:
@@ -84,9 +94,26 @@ def parse_content_file(type, url, tags, content):
         return None
 
     if data['default_group'] in DIAG_WEBSITE_URLS:
-        # Create link to the page
-        data['url'] = f"{DIAG_WEBSITE_URLS[data['default_group']]}/{url}"
-        data['url_internal'] = url
+
+        # Create the absolute links for every site this page belongs to.
+        data['url_groups'] = {}
+        for group in data['groups'] if isinstance(data['groups'], list) else [data['groups']]:
+            if group not in DIAG_WEBSITE_URLS:
+                print(f"Skipping the creation of an url for group {group} and page {filename} as the group is invalid.")
+                continue
+
+            # For member pages we have to perform a rewrite of the url structure based on the site settings.
+            # The absolute url is always based on the default group's settings.
+            if type == 'member':
+                url = MEMBER_FILE_PATTERN[group].format(slug=filename)
+            else:
+                url = CONTENT_TYPES[type]['url'].format(slug=filename)
+            
+            data['url_groups'][group] = f"{DIAG_WEBSITE_URLS[group]}/{url}"
+
+        # Store the default absolute link to a page, always based on the default website's url.
+        data['url'] = f"{data['url_groups'][data['default_group']]}"
+        
         data['group_name'] = DIAG_WEBSITES_NAMES[data['default_group']]
     else:
         print(f"Could not set url for {type} page as default group has no url ({data['default_group']}).")
@@ -112,7 +139,7 @@ def parse_external_member_data():
 def load_content(generator):
     """Load content files from the content dir"""
 
-    for type, config in content_types.items():
+    for type, config in CONTENT_TYPES.items():
 
         files = glob.glob(os.path.join(os.getcwd(), f'../content/pages/{config["dir"]}/*.md'))
         aggregated_data = {}
@@ -125,7 +152,7 @@ def load_content(generator):
             with open(file, encoding="utf-8") as f:
                 data = parse_content_file(
                     type=type,
-                    url=config['url'].format(filename=filename),
+                    filename=filename,
                     tags=config['tags'],
                     content=f
                 )
