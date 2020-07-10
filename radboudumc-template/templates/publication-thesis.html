@@ -5,6 +5,45 @@
 {% block content %}
 {% include 'blocks/breadcrumbs.html' %}
 
+    <div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    <p class="lead">
+        {% for author in page.authors %}
+            {{ author }}
+        {% endfor %}
+    </p>
+    {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
+    <img src="{{ IMGURL }}/images/theses/{{ page.coverpng | resize_image('large') }}">
+    {% endif %}
+    {% if page.promotor %}
+        <p><b>Promotor: {{ page.promotor }}</b></p>
+    {% endif %}
+    {% if page.copromotor %}
+        <p><b>Copromotor: {{ page.copromotor }}</b></p>
+    {% endif %}
+    {% if page.school %}
+        <p><b>{{ page.school }}</b></p>
+    {% endif %}
+    {% if page.optmonth or page.year %}
+        <p><b>
+            {% if page.optmonth %}
+                {{page.optmonth.replace(',', '')}},
+            {% endif %}
+            {% if page.year %}
+                {{ page.year }}
+            {% endif %}
+        </b></p>
+    {% endif %}
+
+    <p>{{ page.pub_details }}</p>
+    <p>
+        {% if page.urlweb %}
+            <a href="{{ page.urlweb }}" class="btn btn-primary">URL</a>
+        {% endif %}
+    </p>
+    <h2>Abstract</h2>
+    {{ page.content }}
 
     </div>
 {% endblock %}
