@@ -2,11 +2,11 @@ title: AI4ImageGuidedIntervention
 title_long: AI4ImageGuidedIntervention
 finished:false 
 type: general 
-picture: 
+picture: projects/AI4ImageGuidedIntervention.png
 template: project-single 
 groups: diag
 people: Patrick Brand, Henkjan Huisman, Bram van Ginneken
-description: 
+description: Research towards real-time AI driven modeling of MRI for image guided interventions.
 bibkeys:
 
 # Background
