@@ -5,15 +5,12 @@ type: general
 picture: 
 template: project-single 
 groups: diag
-people: Patrick Brand, Henkjan Huisman, Jurgen Fütterer, Bram van Ginneken
+people: Patrick Brand, Henkjan Huisman, Bram van Ginneken
 description: 
 bibkeys:
 
 # Background
 
-One million men receive a prostate cancer diagnosis, and three hundred thousand die from prostate cancer each year worldwide.
-Magnetic Resonance Imaging (MRI) represents a major breakthrough by accurately detecting clinically significant prostate cancers at an early, potentially more curable stage.
-The same MRI can also be used for better treatment targeting and for avoiding unnecessary systematic biopsies.
 MRI allows patient-specific guidance during surgery.
 Interpreting MRI imaging during surgery is however very challenging and time-consuming.
 Technology for real-time accurate modeling is not available.
