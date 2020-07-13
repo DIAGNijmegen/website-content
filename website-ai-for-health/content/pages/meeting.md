@@ -35,11 +35,12 @@ The slides for past presentations are available by clicking on the links in the 
 | 07-05-2020  | **NO MEETING**   |   |
 | 14-05-2020  | Fien Ockers   |  Quantitative facial phenotyping of patients with intellectual disability.  |
 | 21-05-2020 | **NO MEETING**   |    |
-| [28-05-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2028-5-2020)   | TBD   |    |
-| [04-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%204-6-2020)   | TBD   |    |
-| [11-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2011-6-2020)   | TBD   |    |
-| [18-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2018-6-2020)   | TBD   |    |
-| [25-06-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2025-6-2020)   | TBD   |    |
+| 28-05-2020 | **NO MEETING**   |    |
+| 04-06-2020  | **NO MEETING**   |    |
+| 11-06-2020 | **NO MEETING**   |    |
+| 18-06-2020   | **NO MEETING**   |    |
+| 25-06-2020 | **NO MEETING**  |    |
 | 02-07-2020 | Ruben Kluge  | [Pneumothorax detection using Deep Learning.](https://drive.google.com/open?id=1ftGLhnryHfIR_ao0QI-MxDxjGWazmKis)  |
-| [09-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%209-7-2020)   | TBD   |    |
-| [16-07-2020](mailto:aiforhealth@radboudumc.nl?subject=Presentation%2016-7-2020)   | TBD   |    |
+| 09-07-2020 | **NO MEETING**  |    |
+| 16-07-2020 | **NO MEETING**   |    |
+| 27-08-2020 | Fien Ockers | Quantitative facial phenotyping of patients with intellectual disability.  |
