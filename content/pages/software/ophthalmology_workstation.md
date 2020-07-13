@@ -5,7 +5,7 @@ picture: software/ophthalmology_workstation_small.jpg
 template: project-single
 groups: retina, rse, diag, rtc
 people: Harm van Zeeland, James Meakin, Bart Liefers, Clarisa Sánchez, Caroline Klaver
-disable_gradient: true
+
 description: The goal of this project is to develop a software solution that assists researchers and specialists to view and annotate retinal images.
 bibkeys:
 

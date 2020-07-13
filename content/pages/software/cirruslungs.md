@@ -6,7 +6,7 @@ template: project-single
 groups: rse, diag
 people: Haimasree Bhattacharya, Sil van de Leemput, Paul Konstantin Gerke, Colin Jacobs, Mathias Prokop, Bram van Ginneken
 description: This workstation is a highly optimized reading platform that allows fast and standardized reading of lung screening CT scans.
-disable_gradient: true
+
 bibkeys:
 
 ## Aim

@@ -7,7 +7,7 @@ template: project-single
 groups: diag, pathology
 people: Francesco Ciompi, Jeroen van der Laak, Mart van Rijthoven, Miriam Groeneveld, Witali Aswolinskiy, Elke Loskamp-Huntink, Maud Wekking
 bibkeys: Tell19,Swid19,Bokh19
-disable_gradient: true
+
 
 ## Background
 Big volumes of diverse data from distributed sources are continuously produced. Health-care data is expected to be over 2000 exabytes in 2020. Supervised deep learning models, require large amount of annotated data. Considering the available data, such annotations are impractical. The ExaMode project is a collaboration between universities and industries and addresses this impracticality by applying weakly supervised deep learning based on diverse data from distributed sources.

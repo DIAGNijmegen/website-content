@@ -7,7 +7,7 @@ description: Detecting biomarkers for improved prognosis for triple negative bre
 template: project-single
 groups: pathology
 people: Maschenka Balkenhol, David Tellez, Jeroen van der Laak, Francesco Ciompi, Peter Bult
-disable_gradient: true
+
 
 
 ## Background

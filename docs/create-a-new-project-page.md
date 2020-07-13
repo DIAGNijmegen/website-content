@@ -17,10 +17,6 @@ people: names of people involved in the project. (This will cause the project to
 description: a short description of +/- 135 characters. This will appear on the project home page.
 bibkeys: bibkeys of publications that are connected to the project
 
-# Optional, add this tag when you don't want the gradient on top of the image to show up on the projects page
-# (Make sure that there are no newlines between this tag and the list above.)
-disable_gradient: true 
-
 FREE TEXT, FOR EXAMPLE:
 
 #Background
