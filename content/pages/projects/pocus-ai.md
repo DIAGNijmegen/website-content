@@ -1,5 +1,5 @@
 title: POCUS-AI
-picture: projects/pocus-ai.jpg
+picture: projects/pocusai.jpg
 finished: false
 type: general
 description: We develop real-time deep learning algorithms to use and interpret exams made with portable ultrasound devices.
