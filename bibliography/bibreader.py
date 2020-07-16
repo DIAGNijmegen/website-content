@@ -192,7 +192,7 @@ def parse_bibtex_file(filename, full_strings_bib):
                 bib_item['pubinfo'] += '(' + bib_item['issue'].strip() + ')'
                 
             if 'pages' in bib_item:
-                bib_item['pubinfo'] += ':' + bib_item['pages'].strip()
+                bib_item['pubinfo'] += ':' + bib_item['pages'].strip().replace('--', '-')
 
             cover_path = ''
             if len(bib_key) > 2:
