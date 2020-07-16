@@ -10,9 +10,9 @@ MANDATORY
 title: Project title (appears on top of page)
 title_long: Project title (main caption)
 finished: false (change to 'true' to move the project from Current projects to Finished Projects)
-picture: projects/<image>.png (This picture appears on the project home page and is collected from website-content/content/images/. Upload a square and resized image there and keep into account with selecting your image that mostly the top part is showing)
+picture: projects/<image>.png (This picture appears on the project home page and is collected from website-content/content/images/. Image should be landscape, ratio 2:1, minimum width 480 px)
 template: project-single
-groups: pathology/diag/rse/retina, etc (this tag determines on which websites the project will be shown. Adding diag is not mandatory)
+groups: pathology/diag/rse/retina, etc (this tag determines on which websites the project will be shown. Adding diag is not mandatory. Groups are divided by commas)
 people: names of people involved in the project. (This will cause the project to appear on their personal pages. It is possible to add external people here. If you want their pictures to appear as well, upload a square and resized image to website-content/content/images/people/external/ with file name: firstname_lastname
 description: a short description of +/- 135 characters. This will appear on the project home page.
 bibkeys: bibkeys of publications that are connected to the project
