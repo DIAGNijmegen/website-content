@@ -15,6 +15,7 @@ for dir in directories:
         os.mkdir(output_dir)
 
 for dir in directories:
+
     files = glob.glob(os.path.join('content', 'pages', dir, '*.md'))
 
     for file_path in files:
@@ -34,13 +35,27 @@ for dir in directories:
                                 else:
                                     out_dir = os.path.join(site, 'content', 'pages', dir)
 
+                                # copy author publication folder
+                                if dir is 'publications':
+                                    author_publication_folder = filename.replace('.md', '')
+                                    author_publication_path = os.path.join('content', 'pages', dir, author_publication_folder)
+                                    if os.path.exists(author_publication_path):
+                                        out_author_publication_path = os.path.join(site, 'content', 'pages', dir, author_publication_folder)
+                                        shutil.copytree(author_publication_path, out_author_publication_path)
+
                                 if not os.path.exists(out_dir):
                                     os.makedirs(out_dir)
                                 shutil.copyfile(file_path, os.path.join(out_dir, filename))
+  
+
 
                             # Stop parsing file
                             break
             except Exception as e:
                 print(f"Error parsing {file_path}.")
                 print(e)
+
+        
+
+
 print(f'Copied pages to {site}.')

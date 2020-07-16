@@ -1,4 +1,4 @@
-
+import os
 
 """
 
@@ -31,13 +31,17 @@ def create_author_md_files(author_bib_keys, list_researchers):
         md_string += 'groups: ' + ','.join(groups) + '\n'
         md_string += 'bibkeys: ' + ','.join(bib_keys) + '\n'
 
+        # standard
         standard_md_string = md_string + 'show_publication_years: ' + list_researchers[name][3]
-        all_md_string = md_string + 'show_publication_years: ' + 'no'
         md_file_name = './content/pages/publications/' + name.lower() + '.md'
-        all_md_file_name = './content/pages/publications/' + name.lower() + '-all.md'
-
         save_md_file(md_file_name, standard_md_string)
-        save_md_file(all_md_file_name, all_md_string)
+
+        # all 
+        all_md_string = md_string + 'show_publication_years: ' + 'no'
+        dir_name = './content/pages/publications/' + name.lower()
+        if not os.path.exists(dir_name):
+            os.mkdir(dir_name)
+        save_md_file(os.path.join(dir_name, 'all.md'), all_md_string)
 
 
 def create_publication_md(bib_items, author_bib_keys, list_researchers):
