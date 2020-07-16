@@ -6,6 +6,7 @@ people: Thomas de Bel, Jeroen van der Laak, Geert Litjens
 description: The aim of this project is to use deep learning for histological assessment of the stroma for improved risk stratification of ductal carcinoma in situ (DCIS) patients.
 template: project-single
 groups: diag, pathology
+default_group: pathology
 bibkeys: Bel19
 disable_gradient: true
 

@@ -3,6 +3,7 @@ finished: false
 type: general
 template: project-single
 groups: pathology
+default_group: pathology
 picture: projects/asap.png
 people: Geert Litjens, Miriam Groeneveld, Jeroen van der Laak
 description: Project with focus on the extension of open-source software ASAP that includes functionality for study and case management.
