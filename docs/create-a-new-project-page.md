@@ -1,7 +1,7 @@
 # Create a new project page 
 
 1. Create new file on website-content/content/pages/projects/
-2. Type project name in entry above and end with .md. Example: website-content/content/pages/projects/project.md
+2. Type project name in entry above and end with .md. Example: ```website-content/content/pages/projects/project.md```
 3. Fill the page with the following content;
 
 ```
