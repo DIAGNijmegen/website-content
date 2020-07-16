@@ -1,6 +1,6 @@
 import glob
 import codecs
-import re
+
 '''
 
 This file contains author specific functions which are needed when parsing the bibfile.
@@ -148,10 +148,8 @@ def split_authors(author_string):
     returns all separeted authors
     '''
     authors = []
-    if author_string.lower().count(' and ') > 1 or single_author(author_string):
+    if 'and' in author_string.lower() or single_author(author_string):
         authors = author_string.replace('AND', 'and').split(' and ')
-    elif 'and' in author_string.lower() and ',' in author_string.lower():
-        authors = re.split('and |,', author_string.lower())
     else:
         authors = author_string.split(',')
     authors = [a.strip() for a in authors]
@@ -236,7 +234,7 @@ def parse_name(name):
 
     last = '-'.join(last.strip().split())
 
-    return decode_name((nfirst2, nvon, last.capitalize(), jr))
+    return decode_name((nfirst2, nvon, last, jr))
 
 
 def authors_to_string(names):
