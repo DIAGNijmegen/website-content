@@ -19,6 +19,7 @@ type: phd/chair/faculty/tech/student  (header = Scientific Staff/Chair/Faculty)/
 linkedin: link
 scholar: link
 researcherid: link
+show_publication_years: yes (if this tag is not present it will be automatically set to yes)
 
 {Text bio.} 
 The bio should be written in the 3rd person. Include your former education, the topic of your research and your supervisors. Include links where possible.
