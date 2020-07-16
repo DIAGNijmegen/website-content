@@ -6,7 +6,7 @@
 ```
 title: Title of highlight
 date: date highlight published (YYYY-MM-DD)
-picture: news/<image>.png (Image is collected from website-content/content/images/news/. Upload a rectangular (landscape) image there)
+picture: news/<image>.png (Image is collected from website-content/content/images/news/. Image should be landscape, ratio 2:1, minimum width 480 px)
 groups: diag/retina/pathology, etc (determines on which website the highlight should appear.
 
 {Text Highlight}
