@@ -8,6 +8,7 @@ picture: projects/Multimot.png
 description: MULTIMOT aims to build an open data ecosystem for cell migration research, through standardization, dissemination and meta-analysis efforts.
 people: Merijn van Erp
 
+
 ## Background
 
 Cell migration is a fundamental process in medically highly relevant topics, including morphogenesis, immune function, wound healing, and cancer metastasis, and the study of cell migration thus has a direct impact on major clinical applications, especially regarding personalized treatment and diagnosis. Over the last few years, cell migration research has benefited enormously from advances in methodology and instrumentation, allowing multiplexing and multi-parameter post-processing of cell migration analyses to become widely used.

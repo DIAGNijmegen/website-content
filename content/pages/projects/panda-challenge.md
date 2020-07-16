@@ -8,7 +8,7 @@ default_group: pathology
 description: Challenge on prostate cancer grading of biopsies using the Gleason grading system.
 people: Wouter Bulten, Peter Ström, Kimmo Kartasalo, Hans Pinckaers, Martin Eklund, Geert Litjens 
 bibkeys: Bult20
-disable_gradient: true
+
 
 <img alt="PANDA Challenge logo" class="img-fluid" src="https://www.computationalpathologygroup.eu/images/projects/panda_logo_square.png" style="max-width: 300px; float: right; padding-left: 1em;">
 

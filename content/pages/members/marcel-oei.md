@@ -4,8 +4,8 @@ template: people-single
 picture: people/Marcel_Oei_bw.jpg
 position: PhD Candidate
 active: no
-groups: diag, neuro
-default_group: neuro
+groups: diag
+default_group: diag
 email: marcel.oei@radboudumc.nl
 office: Route 767, Room 36
 type: phd

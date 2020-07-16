@@ -8,7 +8,7 @@ groups: diag, pathology
 default_group: pathology
 people: Francesco Ciompi, Jeroen van der Laak, Witali Aswolinskiy, Esther Lips, Jelle Wesseling
 bibkeys:
-disable_gradient: true
+
 
 ## Background
 Neoadjuvant Chemotherapy (NACT) is increasingly used for pre-operative treatment of breast cancer patients. Successful application of NACT, resulting in a substantial or complete reduction in tumor volume, enables breast-conserving surgery in a higher number of cases. In addition, NACT allows assessment of tumor sensitivity to chemotherapy. The most reliable measure of NACT effectiveness is quantification of post-operative residual disease via histology, which has been shown to be a strong indicator of long-term prognosis. Although many patients have indeed substantial benefit from neoadjuvant treatment, there is a large group of patients not responding while still experiencing the toxic side effects. To date, it is impossible to predict upfront whether a patient will respond to NACT.

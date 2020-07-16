@@ -8,7 +8,7 @@ groups: pathology
 default_group: pathology
 people: Jeroen van der Laak, Francesco Ciompi, Oscar Geessink, Quirine Manson
 bibkeys: Gees19, Bokh19, Merc19, Swid19, Swid18, Rijt18, Ciom17
-disable_gradient: true
+
 
 ## Background
 Current cancer care suffers from considerable over- and undertreatment. This is a consequence of the imperfect prognostic value for individual patients of cancer staging systems (mainly TNM) and prognostic markers currently in use. The resulting mortality and morbidity prompt for urgent identification and validation of more accurate prognosticators that may help to improve survival and avoid morbidity. Recently, the amount and composition of the host immune response were shown to be prognostically superior to TNM stage for, among others, patients with carcinoma of the colon and breast. It was shown that the use of image analysis enables accurate and reproducible assessment of immune cell infiltrate features in digitized microscopic slides. Other studies show that digital image analysis also enables quantification of tumour-to-stroma ratio and other architectural features that have been proven to yield prognostic information independent of clinical, pathological and molecular factors. We hypothesize that jointly assessing these tissue based biomarkers using deep learning applied to digital image analysis delivers superior, reproducible, fast and cheap prognostic information enabling better selection of patients for adjuvant treatment.

@@ -12,11 +12,10 @@ group_websites = {
     'bodyct': 'https://bodyct.diagnijmegen.nl',
     'aiimnijmegen': 'https://www.aiimnijmegen.nl',
     'rtc': 'https://rtc.diagnijmegen.nl',
-    'neuro': 'https://diagnijmegen.github.io/website-neuro/',
     'diag': 'https://beta.diagnijmegen.nl'
 }
 
-# Matches: [member: Wouter Bulten, group: diag]
+# Matches: [member/wouter-bulten, group: pathology]
 # group is optional
 regex_member = re.compile(r"\[(?P<type>member|project|software|highlight|presentation|vacancy)\/(?P<identifier>[a-zA-Z-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]")
 
@@ -55,14 +54,17 @@ def parse_content_tag(text, context):
         # Detertime the label to show
         label = data[identifier]['name'] if 'name' in data[identifier] else data[identifier]['title']
 
+        print(context['SITE_GROUP'])
+        print(data[identifier]['url_groups'])
+        
         # Check if an explicit group is set, if so use that to build the link
-        if group and group in group_websites:
-            url = data[identifier]['url_internal']
-            return f'<a href="{group_websites[group]}/{url}">{label}</a>'
+        if group and group in data[identifier]['url_groups']:
+            url = data[identifier]['url_groups'][group]
+            return f'<a href="{url}">{label}</a>'
         # If this page is part of the current website, create an internal link
-        elif context['SITE_GROUP'] in data[identifier]['groups'] and context['SITE_GROUP'] in group_websites:
-            url = data[identifier]['url_internal']
-            return f'<a href="/{url}">{label}</a>'
+        elif context['SITE_GROUP'] in data[identifier]['url_groups']:
+            url = data[identifier]['url_groups'][context['SITE_GROUP']]
+            return f'<a href="{url}">{label}</a>'
         # If not group was set, and the page is not part of the current website, use the default url
         else:
             url = data[identifier]['url']
@@ -86,9 +88,6 @@ def parse_slideshare_tag(text):
     slide_id = text.group('slide')
     return f'<div class="slide-container"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/{slide_id}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe></div>'
 
-def get_settings(generator):
-    print(generator.context['MEMBER_DATA'])
-
 def parse_tags(instance):
     """Function loops through all the pages and searches for tags"""
 
@@ -109,5 +108,4 @@ def parse_tags(instance):
         instance._content = content
 
 def register():
-    #signals.generator_init.connect(get_settings)
     signals.content_object_init.connect(parse_tags)

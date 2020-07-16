@@ -4,8 +4,8 @@ template: people-single
 picture: people/Kevin_Koschmieder_bw.jpg
 position: PhD Candidate
 active: yes
-groups: diag, neuro
-default_group: neuro
+groups: diag
+default_group: diag
 email: kevin.koschmieder@radboudumc.nl
 office: Route 767, Room 32
 type: phd

@@ -38,6 +38,8 @@ NAV_SECTIONS = [
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {"News": 'News', "PageCards": "PageCards"}
 
+# Enable gradients for CARD images
+CARD_IMG_GRADIENTS = True
 
 # URLs
 SITEURL = ''

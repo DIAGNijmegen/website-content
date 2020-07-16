@@ -1,14 +1,14 @@
 # Create a new member page
 
 1. Create a new file in website-content/content/pages/members/
-2. Type person's name in entry above. The first and last names should be connected by a dashes and end with .md. For example: website-content/content/pages/members/bram-van-ginneken.md
+2. Type person's name in entry above. The first and last names should be connected by a dashes and end with .md. For example: ```website-content/content/pages/members/bram-van-ginneken.md```
 3. The file should be filled with the following;
 
 ```
 title: Firstname Lastname
 name: Firstname Lastname
 template: people-single
-picture: people/<image>.png (for adding a picture to a profile see: website-content/docs/adding-picture-to-profile.md)
+picture: people/<image>.png (for adding a picture to a profile see: website-content/docs/adding-picture-to-profile.md. When no picture is availabe, use ```person.png```)
 position: Master Student/PhD Candidate/Associate Professor/Assistant Professor/Postdoctoral Researcher/ etc. (pay attention to formulation and capitalisation)
 active: yes (change to 'no' when this person is a former employee)
 groups: diag, pathology, retina, rse (this determines on which websites the profile will appear. diag is standard, followed by your subgroup)

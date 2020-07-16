@@ -9,7 +9,7 @@ default_group: pathology
 people: Geert Litjens, Wouter Bulten, Hans Pinckaers, Christina Hulsbergen-van de Kaa, Jeroen van der Laak, Bram van Ginneken
 description: In this project, we will combine deep learning and digitized whole-slide imaging of prostate cancer for reproducible extraction of quantitative biomarkers.
 bibkeys: Bult20, Bult18, Bult19, Pinc19, Derck19, Bult19a
-disable_gradient: true
+
 
 Most men die with, not because of prostate cancer. This high incidence-to-mortality ratio sounds like a positive trait, but comes with its own share of problems: high risk of overdiagnosis and overtreatment with significant patient morbidity. To combat overtreatment, several models have been developed to assign patients to risk categories with differing treatment regimes. Although these models show good correlation with patient outcome on the group level, their benefit for the individual patient remains limited.
 

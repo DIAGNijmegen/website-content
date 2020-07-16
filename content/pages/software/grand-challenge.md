@@ -6,7 +6,7 @@ template: project-single
 groups: rse, diag, rtc
 people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Karel Gerbrands, Bram van Ginneken
 description: The home of challenges in biomedical imaging.
-disable_gradient: true
+
 bibkeys:
 github: https://github.com/comic/grand-challenge.org
 

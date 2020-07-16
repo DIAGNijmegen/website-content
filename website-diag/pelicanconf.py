@@ -9,7 +9,7 @@ import importlib
 sys.path.insert(0, '../')
 DIAG_WEBSITES_CONFIG = {}
 DIAG_WEBSITE_URLS = {}
-for website in ['website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-neuro', 'website-rse', 'website-rtc']:
+for website in ['website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-rse', 'website-rtc']:
     DIAG_WEBSITES_CONFIG[website[8:]] = importlib.import_module(f'{website}.pelicanconf')
     DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
 
@@ -33,7 +33,6 @@ FOOTER_TEXT = 'The Diagnostic Image Analysis Group is part of the <a href="https
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = 'dense'
-HIDE_CARD_GRADIENT = True
 
 # What sections to show in the nav bar
 # For diag the text is shown in viewports lg and up, below that only the icon is shown
@@ -49,6 +48,9 @@ NAV_SECTIONS = [
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Calendar": "Calendar"}
+
+# Whether to show breadcrumbs on the page
+ENABLE_BREADCRUMBS = False
 
 # Show membership of people on their page
 SHOW_GROUP_MEMBERSHIP = True
