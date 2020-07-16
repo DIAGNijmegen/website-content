@@ -9,10 +9,10 @@
         <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
     {% endif %}
    
-    {% if 'year' in BIB_ITEMS[bibkey] %}
-        {{ BIB_ITEMS[bibkey]['year'] }}.
+    {% if 'pubinfo' in BIB_ITEMS[bibkey] %}
+        {{ BIB_ITEMS[bibkey]['pubinfo'] }}.
     {% endif %}
-   
+
     <small>
     {% if 'file' in BIB_ITEMS[bibkey] %}    
         <a href={{ '/publications/%s'%bibkey }}>Abstract/PDF</a>

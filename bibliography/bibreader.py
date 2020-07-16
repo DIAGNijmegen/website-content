@@ -121,7 +121,6 @@ def parse_bibtex_file(filename, full_strings_bib):
 
                 if 'arxiv' in name.lower():
                     bib_item['type'] = 'preprint'
-
             if 'booktitle' in bib_item:
                 name = bib_item['booktitle']
                 if bib_item['booktitle'] in string_rules:
@@ -183,7 +182,17 @@ def parse_bibtex_file(filename, full_strings_bib):
             if 'year' not in bib_item:
                 print('no year found in bibitem. skipping bibitem:', bib_item)
                 continue
-                bib_item['year'] = '0000'
+
+            bib_item['pubinfo'] = bib_item['year'].strip()
+            
+            if 'volume' in bib_item:
+                bib_item['pubinfo'] += ';' + bib_item['volume'].strip()
+
+            if 'issue' in bib_item:
+                bib_item['pubinfo'] += '(' + bib_item['issue'].strip() + ')'
+                
+            if 'pages' in bib_item:
+                bib_item['pubinfo'] += ':' + bib_item['pages'].strip()
 
             cover_path = ''
             if len(bib_key) > 2:

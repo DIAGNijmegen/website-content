@@ -19,7 +19,7 @@ class SetEncoder(json.JSONEncoder):
 
 def save_dict2json(json_path, dict_md5):
     with open(json_path, 'w') as fp:
-        json.dump(dict_md5, fp, cls=SetEncoder)
+        json.dump(dict_md5, fp, cls=SetEncoder, ensure_ascii=False)
 
 
 def load_json2dict(json_path):
