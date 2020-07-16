@@ -3,8 +3,9 @@ finished: true
 type: general
 template: project-single
 groups: pathology, aiimnijmegen
+default_group: pathology
 picture: projects/logo_vphprism.jpg
-people: Jeroen van der Laak, Mehmet Dalmis
+people: Jeroen van der Laak, Mehmet Dalmis, Babak Ehteshami Bejnordi, Suzan Vreemann
 description: Study on the correlations between several radiological modalities and histpathology for more understanding of breast cancer presentation.
 bibkeys: Ehte18,Bejn17b,Mert17,Ehte16a,Ehte16,Mert16,Dalm17,Vree19,Dam19a
 

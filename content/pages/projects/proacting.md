@@ -5,6 +5,7 @@ type: general
 description: The aim of PROACTING is to predict neoadjuvant chemotherapy treatment response from a single pre-operative core-needle biopsy of breast cancer tissue.
 template: project-single
 groups: diag, pathology
+default_group: pathology
 people: Francesco Ciompi, Jeroen van der Laak, Witali Aswolinskiy, Esther Lips, Jelle Wesseling
 bibkeys:
 

@@ -4,6 +4,7 @@ type: general
 picture: projects/ami_oct_cut.png
 template: project-single
 groups: retina
+default_group: retina
 people: Bart Liefers, Clarisa Sánchez
 description: In this project we aim at developing a platform for the automated analysis of multimodal retinal imaging examinations during treatment decision in neovascular AMD.
 bibkeys: lief19b, lief19, lief19a, lief17, lief17a, lief17b

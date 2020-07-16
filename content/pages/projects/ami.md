@@ -4,6 +4,7 @@ type: general
 picture: projects/AMI.png
 template: project-single
 groups: pathology
+default_group: pathology
 people: Péter Bándi, Marcory van Dijk, Geert Litjens, Jeroen van der Laak
 description: Joint project between DIAG and Fraunhofer MEVIS aimed at the development of a generic platform for automatic medical image analysis.
 

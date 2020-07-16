@@ -4,6 +4,7 @@ type: general
 picture: projects/camelyon17_2_1.png
 template: project-single
 groups: pathology
+default_group: pathology
 people: Péter Bándi, Oscar Geessink, Geert Litjens, Jeroen van der Laak
 description: ISBI 2017 challenge to evaluate algorithms for automated detection and classification of breast cancer metastases in whole-slide images of histological lymph node sections.
 bibkeys: Band18, Ehte17, Litj18

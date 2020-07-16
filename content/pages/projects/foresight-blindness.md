@@ -5,6 +5,7 @@ type: general
 picture: projects/Multimodal_retina.png
 template: project-single
 groups: retina, diag
+default_group: retina
 people: Alessandro Ardu, Clarisa Sánchez
 description: The aim of this project is to automatically identify and extract imaging biomarkers using deep learning to predict progression of age-related macular degeneration.
 bibkeys: 
