@@ -44,3 +44,6 @@ The slides for past presentations are available by clicking on the links in the 
 | 09-07-2020 | **NO MEETING**  |    |
 | 16-07-2020 | **NO MEETING**   |    |
 | 27-08-2020 | Fien Ockers | Quantitative facial phenotyping of patients with intellectual disability.  |
+| 04-09-2020 | **TBD** |  |
+| 10-09-2020 | **TBD** | |
+| 17-09-2020 | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment.  |
