@@ -1,5 +1,6 @@
 import glob
 import codecs
+import re
 
 '''
 
@@ -148,10 +149,22 @@ def split_authors(author_string):
     returns all separeted authors
     '''
     authors = []
-    if 'and' in author_string.lower() or single_author(author_string):
-        authors = author_string.replace('AND', 'and').split(' and ')
-    else:
+    author_string = author_string.replace(' AND ', ' and ')
+    if author_string.count(' and ')==1 and author_string.count(',') == 1:
+        authors = re.split(' and |, ', author_string)
+    elif ' and ' not in author_string: # ',' in author_string.lower():
         authors = author_string.split(',')
+    else:
+        authors = author_string.split(' and ')
+
+    # author_string = author_string.replace(' AND ', ' and ')
+    # if (' and ' in author_string and ',' not in author_string) or single_author(author_string):
+    #     authors = author_string.split(' and ')
+
+    # else:
+    #     authors = author_string.split(',')
+
+
     authors = [a.strip() for a in authors]
     return authors
 
