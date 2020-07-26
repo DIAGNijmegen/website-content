@@ -48,4 +48,11 @@ The slides for past presentations are available by clicking on the links in the 
 | 10-09-2020 | **TBD** | |
 | 17-09-2020 | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment.  |
 | 24-09-2020 | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
-| 01-10-2020   | Martijn Schilpzand   | Automated prenatal ultrasound screening. |
+| 01-10-2020 | Martijn Schilpzand   | Automated prenatal ultrasound screening. |
+| 08-10-2020 | **TBD** | |
+| 15-10-2020 | **TBD** | |
+| 22-10-2020 | **TBD** | |
+| 29-10-2020 | **TBD** | |
+| 05-11-2020 | **TBD** | |
+| 12-11-2020 | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever in ICU patients with acute brain injury. |
+| 19-11-2020 | **TBD** | |
