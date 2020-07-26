@@ -591,4 +591,15 @@ people:
     affiliation: Radboudumc
     url: https://www.radboudumc.nl/en/people/mathias-prokop
     picture: people/external/Mathias_Prokop.jpg
-  
+  - name: Mirjam Schaap
+    position: PhD candidate
+    affiliation: Dermatology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/mirjam-schaap
+    picture: people/external/Mirjam_Schaap.jpg
+    email: mirjam.schaap@radboudumc.nl
+  - name: Marieke Seyger
+    position: Dermatologist
+    affiliation: Dermatology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/marieke-seyger
+    picture: people/external/Marieke_Seyger.jpg
+    email: marieke.seyger@radboudumc.nl
