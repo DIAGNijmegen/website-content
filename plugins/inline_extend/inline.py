@@ -88,10 +88,10 @@ def parse_slideshare_tag(text):
     slide_id = text.group('slide')
     return f'<div class="slide-container"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/{slide_id}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe></div>'
 
-def parse_tags(content, context):
+def parse_tags(content, settings):
     """Function parses content and searches for tags to replace"""
 
-    content = regex_member.sub(lambda m: parse_content_tag(m, context), content)
+    content = regex_member.sub(lambda m: parse_content_tag(m, settings), content)
 
     if '[youtube:' in content:
         content = regex_youtube.sub(lambda m: parse_youtube_tag(m), content)
@@ -100,7 +100,7 @@ def parse_tags(content, context):
     if '[slideshare:' in content:
         content = regex_slideshare.sub(lambda m: parse_slideshare_tag(m), content)
     if 'IMGURL' in content:
-        content = regex_imgurl.sub(lambda m: context['IMGURL'], content)
+        content = regex_imgurl.sub(lambda m: settings['IMGURL'], content)
 
     return content
 
@@ -111,7 +111,7 @@ def parse_content(instance):
 
 def add_filter(pelican):
     """Add parse filter so that it can be used in places that are not part of the normal content object."""
-    pelican.env.filters.update({'parse_custom_tags': lambda c: parse_tags(c, pelican.context)})
+    pelican.env.filters.update({'parse_custom_tags': lambda c: parse_tags(c, pelican.settings)})
 
 def register():
     """Plugin registration."""
