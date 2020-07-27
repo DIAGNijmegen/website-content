@@ -51,8 +51,8 @@ echo "Preparing staging dir for Netlify deploy"
 mkdir assets_deploy
 
 # Copy all optimizes images
-cp -r imgoptim/optimized_images/. assets_deploy/images
+cp -r imgoptim/optimized_images/. assets/images
 
 # Copy non-optimized images (non-overwrite)
 # This makes sure that content is always available, even if it is not processed by the optimizer.
-cp -r --no-clobber content/images/. assets_deploy/images
+cp -r --no-clobber content/images/. assets/images

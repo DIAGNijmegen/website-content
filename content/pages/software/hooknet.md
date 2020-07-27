@@ -160,24 +160,24 @@ function switchGroundTruthidc(){
 function loadDzi() {
   viewer1 = OpenSeadragon({
       id: "openseadragon1",
-      prefixUrl: "/dzi/images/",
-      tileSources: "/dzi/hooknet/dcis/dcis_image_color.dzi"
+      prefixUrl: "https://assets.diagnijmegen.nl/dzi/images/",
+      tileSources: "https://assets.diagnijmegen.nl/dzi/hooknet/dcis/dcis_image_color.dzi"
      
   });
 
   viewer1.addTiledImage({
-      tileSource: "/dzi/hooknet/dcis/dcis_hooknet_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/dcis/dcis_hooknet_color.dzi",
       index: 1,
       opacity: 0.8
   });
 
   viewer1.addTiledImage({
-      tileSource: "/dzi/hooknet/dcis/dcis_unet05_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/dcis/dcis_unet05_color.dzi",
       index: 2,
       opacity: 0.0
   });
   viewer1.addTiledImage({
-      tileSource: "/dzi/hooknet/dcis/dcis_unet80_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/dcis/dcis_unet80_color.dzi",
       index: 3,
       opacity: 0.0
   });
@@ -185,12 +185,12 @@ function loadDzi() {
 
   viewer2 = OpenSeadragon({
       id: "openseadragon2",
-      prefixUrl: "/dzi/images/",
-      tileSources: "/dzi/hooknet/dcis/dcis_image_color.dzi"
+      prefixUrl: "https://assets.diagnijmegen.nl/dzi/images/",
+      tileSources: "https://assets.diagnijmegen.nl/dzi/hooknet/dcis/dcis_image_color.dzi"
   });
 
   viewer2.addTiledImage({
-      tileSource: "/dzi/hooknet/dcis/dcis_true_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/dcis/dcis_true_color.dzi",
       index: 1,
       opacity: 0.8
   });
@@ -207,24 +207,24 @@ viewer2.addHandler('pan', viewer2Handler);
 
 viewer3 = OpenSeadragon({
       id: "openseadragon3",
-      prefixUrl: "/dzi/images/",
-      tileSources: "/dzi/hooknet/idc/idc_image_color.dzi"
+      prefixUrl: "https://assets.diagnijmegen.nl/dzi/images/",
+      tileSources: "https://assets.diagnijmegen.nl/dzi/hooknet/idc/idc_image_color.dzi"
      
   });
 
   viewer3.addTiledImage({
-      tileSource: "/dzi/hooknet/idc/idc_hooknet_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/idc/idc_hooknet_color.dzi",
       index: 1,
       opacity: 0.8
   });
 
   viewer3.addTiledImage({
-      tileSource: "/dzi/hooknet/idc/idc_unet05_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/idc/idc_unet05_color.dzi",
       index: 2,
       opacity: 0.0
   });
   viewer3.addTiledImage({
-      tileSource: "/dzi/hooknet/idc/idc_unet80_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/idc/idc_unet80_color.dzi",
       index: 3,
       opacity: 0.0
   });
@@ -232,12 +232,12 @@ viewer3 = OpenSeadragon({
 
   viewer4 = OpenSeadragon({
       id: "openseadragon4",
-      prefixUrl: "/dzi/images/",
-      tileSources: "/dzi/hooknet/idc/idc_image_color.dzi"
+      prefixUrl: "https://assets.diagnijmegen.nl/dzi/images/",
+      tileSources: "https://assets.diagnijmegen.nl/dzi/hooknet/idc/idc_image_color.dzi"
   });
 
   viewer4.addTiledImage({
-      tileSource: "/dzi/hooknet/idc/idc_true_color.dzi",
+      tileSource: "https://assets.diagnijmegen.nl/dzi/hooknet/idc/idc_true_color.dzi",
       index: 1,
       opacity: 0.8
   });
