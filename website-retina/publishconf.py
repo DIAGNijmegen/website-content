@@ -11,6 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://www.a-eyeresearch.nl/'
+IMGURL = 'https://assets.diagnijmegen.nl'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
