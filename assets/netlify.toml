@@ -1,4 +1,4 @@
 [[headers]]
   for = "/dzi*"
     [headers.values]
-    Access-Control-Allow-Origin = "https://www.computationalpathologygroup.eu, https://beta.diagnijmegen.nl, https://www.diagnijmegen.nl"
+    Access-Control-Allow-Origin = "*"
