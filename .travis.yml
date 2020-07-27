@@ -52,8 +52,8 @@ jobs:
         - WEBSITE=website-pathology
         - GENERATE_PUB=1
       deploy:
-        <<: *netlify_deploy_defaults
-        site: $NETLIFY_SITEID_PATHOLOGY
+        <<: *deploy_defaults
+        fqdn: www.computationalpathologygroup.eu
     # Build and deploy steps for Retina website
     - <<: *build_defaults
       name: Build Retina website
@@ -83,7 +83,7 @@ jobs:
         fqdn: www.aiimnijmegen.nl
     # Beta deploy job for deploying to Netlify
     - <<: *build_defaults
-      name: Build DIAG websites
+      name: Build DIAG websites (Netlify beta)
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
