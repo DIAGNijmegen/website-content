@@ -26,6 +26,16 @@ deploy_defaults: &deploy_defaults
     "on":
       branch: master
 
+# Default configuration for deploys to Netlify
+netlify_deploy_defaults: &netlify_deploy_defaults
+    provider: netlify
+    auth: $NETLIFY_AUTH
+    edge: true # opt in to dpl v2
+    dir: $WEBSITE/output
+    prod: true
+    on:
+      branch: master
+
 notifications:
   email:
     recipients:
@@ -79,14 +89,9 @@ jobs:
         - GENERATE_PUB=1
         - SKIP_IMG_COPY=1
       deploy:
-        provider: netlify
+        <<: *&netlify_deploy_defaults
         site: $NETLIFY_SITEID_DIAG
-        auth: $NETLIFY_AUTH
-        edge: true # opt in to dpl v2
-        dir: $WEBSITE/output
-        prod: true
-        on:
-          branch: master
+
     # Build and deploy steps for RTC website
     - <<: *build_defaults
       name: Build RTC website
