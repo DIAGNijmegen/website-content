@@ -88,24 +88,32 @@ def parse_slideshare_tag(text):
     slide_id = text.group('slide')
     return f'<div class="slide-container"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/{slide_id}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe></div>'
 
-def parse_tags(instance):
-    """Function loops through all the pages and searches for tags"""
+def parse_tags(content, context):
+    """Function parses content and searches for tags to replace"""
 
-    if instance._content is not None:
-        content = instance._content
+    content = regex_member.sub(lambda m: parse_content_tag(m, context), content)
 
-        content = regex_member.sub(lambda m: parse_content_tag(m, instance._context), content)
+    if '[youtube:' in content:
+        content = regex_youtube.sub(lambda m: parse_youtube_tag(m), content)
+    if '[vimeo:' in content:
+        content = regex_vimeo.sub(lambda m: parse_vimeo_tag(m), content)
+    if '[slideshare:' in content:
+        content = regex_slideshare.sub(lambda m: parse_slideshare_tag(m), content)
+    if 'IMGURL' in content:
+        content = regex_imgurl.sub(lambda m: context['IMGURL'], content)
 
-        if '[youtube:' in content:
-            content = regex_youtube.sub(lambda m: parse_youtube_tag(m), content)
-        if '[vimeo:' in content:
-            content = regex_vimeo.sub(lambda m: parse_vimeo_tag(m), content)
-        if '[slideshare:' in content:
-            content = regex_slideshare.sub(lambda m: parse_slideshare_tag(m), content)
-        if 'IMGURL' in content:
-            content = regex_imgurl.sub(lambda m: instance._context['IMGURL'], content)
+    return content
 
-        instance._content = content
+def parse_content(instance):
+    """Parse the content of a content object. This is done for every page."""
+    if instance._content is not None:        
+        instance._content = parse_tags(instance._content, instance._context)
+
+def add_filter(pelican):
+    """Add parse filter so that it can be used in places that are not part of the normal content object."""
+    pelican.env.filters.update({'parse_custom_tags': lambda c: parse_tags(c, pelican.context)})
 
 def register():
-    signals.content_object_init.connect(parse_tags)
+    """Plugin registration."""
+    signals.generator_init.connect(add_filter)
+    signals.content_object_init.connect(parse_content)

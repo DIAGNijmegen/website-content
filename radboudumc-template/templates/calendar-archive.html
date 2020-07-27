@@ -21,9 +21,9 @@
           <dd class="col-md-10">
             
             {% if event.content_after and event.date.date() < TODAY %}
-              {{ event.content_after }}
+              {{ event.content_after | parse_custom_tags }}
             {% elif event.content_before and event.date.date() > TODAY %}
-              {{ event.content_before }}
+              {{ event.content_before | parse_custom_tags }}
             {% else %}
               {{ event.content }}
             {% endif %}
