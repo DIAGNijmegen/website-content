@@ -12,7 +12,7 @@ SIZE_TO_WIDTH_MAPPING = {
 SIZES = ['160', '320', '480', '768']
 
 # Path where the optimized images are stored in the repo
-optim_path = os.path.join(os.getcwd(), '../imgoptim/optimized_images')
+optim_path = os.path.join(os.getcwd(), '../assets/images')
 
 def get_resized_image(path, size):
 
