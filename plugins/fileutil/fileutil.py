@@ -8,8 +8,8 @@ def content_exists_or_default(paths, default):
 
     # Try to find a path that exists
     for path in paths:
-      if os.path.isfile(os.path.join(os.getcwd(), 'content', path)):
-        return path
+        if os.path.isfile(os.path.join(os.getcwd(), '../assets', path)):
+            return path
 
     return default
 
