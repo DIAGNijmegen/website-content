@@ -121,7 +121,7 @@ jobs:
         site: $NETLIFY_SITEID_MEDIA
         auth: $NETLIFY_AUTH
         edge: true # opt in to dpl v2
-        dir: assets_deploy
+        dir: assets
         prod: true
         on:
           branch: master

@@ -30,7 +30,7 @@ if [ $currentcommit != "$(git rev-parse HEAD)" ]; then
 fi
 
 # Add changed files
-git add --all ./optimized_images
+git add --all ../assets/images
 git add image-cache.json
 
 # Commit optimized images back to the repo
@@ -45,13 +45,6 @@ fi
 
 # Go back to starting dir
 cd ..
-
-# Create deploy dir for Netlify
-echo "Preparing staging dir for Netlify deploy"
-mkdir assets_deploy
-
-# Copy all optimizes images
-cp -r imgoptim/optimized_images/. assets/images
 
 # Copy non-optimized images (non-overwrite)
 # This makes sure that content is always available, even if it is not processed by the optimizer.

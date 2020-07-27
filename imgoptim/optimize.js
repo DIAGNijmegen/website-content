@@ -17,7 +17,7 @@ const readFile = promisify(fs.readFile);
 const removeFile = promisify(fs.unlink);
 
 const sourceBasePath = '../content/images';
-const outputPath = "./optimized_images";
+const outputPath = "../assets/images";
 const outputSizes = [160, 320, 480, 768, 1024];
 
 /**
