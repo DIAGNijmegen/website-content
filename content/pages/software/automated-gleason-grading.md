@@ -18,7 +18,7 @@ The algorithm we developed is available to try out online, without any requireme
 5. [More information](#info)
 
 <figure class="figure my-4">
-  <img data-src="{{ IMG_URL }}/images/software/gleason_segmentation_overlays_small.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorithm.">
+  <img data-src="{{ IMGURL }}/images/software/gleason_segmentation_overlays_small.png" class="figure-img img-fluid lazyload" alt="Example segmentations of the Gleason algorithm.">
   <figcaption class="figure-caption">Three examples showing the output of the Gleason algorithm. The algorithm marks glands in green (benign), yellow (Gleason 3), orange (Gleason 4) or red (Gleason 5).</figcaption>
 </figure>
 
