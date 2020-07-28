@@ -1,6 +1,6 @@
 title: Automated clinical scoring in psoriasis based on RGB images
 groups: ai-for-health
-closed: true
+closed: false
 type: student
 picture: vacancies/psoriasis_AI.jpg
 template: vacancy-single
