@@ -170,5 +170,9 @@ def load_content(generator):
     # Custom loader for external member data
     generator.context['EXTERNAL_PEOPLE_DATA'] = parse_external_member_data()
 
+    # Set the links to all the diag websites
+    generator.context['DIAG_WEBSITE_URLS'] = DIAG_WEBSITE_URLS
+    generator.context['DIAG_WEBSITE_NAMES'] = DIAG_WEBSITES_NAMES 
+    
 def register():
     signals.generator_init.connect(load_content)
