@@ -5,14 +5,6 @@ from datetime import date
 import sys
 import importlib
 
-# Load configs from all other websites
-sys.path.insert(0, '../')
-DIAG_WEBSITES_CONFIG = {}
-DIAG_WEBSITE_URLS = {}
-for website in ['website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-rse', 'website-rtc']:
-    DIAG_WEBSITES_CONFIG[website[8:]] = importlib.import_module(f'{website}.pelicanconf')
-    DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
-
 #
 # Site specific variables
 # Please update these to customize the website.
