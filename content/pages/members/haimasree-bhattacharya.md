@@ -3,7 +3,7 @@ name: Haimasree Bhattacharya
 template: people-single
 picture: people/Haimasree_Bhattacharya.jpg
 position: Research Software Engineer
-active: yes
+active: no
 groups: diag, rse, rtc
 default_group: rse
 email: haimasree.bhattacharya@radboudumc.nl
