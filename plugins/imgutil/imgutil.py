@@ -54,6 +54,11 @@ def srcset_image(path, base_url):
 
         #     # No higher-res images available
         #     break
+
+    if len(srcset) == 0:
+        # If no images were found with a specific size, we add the original image as a fallback
+        srcset.append(f'{base_url}/{path} 160w')
+
     return ', '.join(srcset)
 
 

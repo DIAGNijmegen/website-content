@@ -29,9 +29,12 @@ if [ $currentcommit != "$(git rev-parse HEAD)" ]; then
   exit 0;
 fi
 
-# Add changed files
-git add --all ../assets/images
+# Add cache file
 git add image-cache.json
+
+# Add all exported iamges
+cd ..
+git add --all assets/images
 
 # Commit optimized images back to the repo
 gitdiff='git diff-index --quiet HEAD .'
@@ -43,9 +46,6 @@ else
   echo "Nothing new to commit, skipping push."
 fi
 
-# Go back to starting dir
-cd ..
-
-# Copy non-optimized images (non-overwrite)
+# Copy non-optimized images (non-overwrite) to deploy directory
 # This makes sure that content is always available, even if it is not processed by the optimizer.
 cp -r --no-clobber content/images/. assets/images
