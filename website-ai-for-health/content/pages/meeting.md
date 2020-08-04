@@ -43,7 +43,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 02-07-2020 | Ruben Kluge  | [Pneumothorax detection using Deep Learning.](https://drive.google.com/open?id=1ftGLhnryHfIR_ao0QI-MxDxjGWazmKis)  |
 | 09-07-2020 | **NO MEETING**  |    |
 | 16-07-2020 | **NO MEETING**   |    |
-| 27-08-2020 | Fien Ockers <br> Max Oosterwegel | Quantitative facial phenotyping of patients with intellectual disability. **(Defense)** <br> Modelling long-term progression of Parkinson’s disease. |
+| 27-08-2020 | Fien Ockers <br> Max Oosterwegel | Quantitative facial phenotyping of patients with intellectual disability. **(Defense)** <br> Modelling long-term progression of Parkinson’s disease. **(Defense)** |
 | 03-09-2020 | Manon de Jonge | Predicting changes in quality of life of ICU survivors. **(Defense)** |
 | 10-09-2020 | **TBD** | |
 | 17-09-2020 | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment.  |
