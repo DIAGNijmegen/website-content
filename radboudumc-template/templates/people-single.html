@@ -16,6 +16,7 @@
                 {% endif %}
             </div>
             <div class="person-links mb-4">
+                {% if page.active == 'yes' %}
                 <div class="row">
                     <div class="col-1">
                         <svg class="svg-icon svg-icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
@@ -43,6 +44,7 @@
                         <a href="tel:{{ page.telephone }}">{{ page.telephone }}</a>
                     </div>
                 </div>
+                {% endif %}
                 {% endif %}
                 {% if page.website %}
                 <div class="row">
