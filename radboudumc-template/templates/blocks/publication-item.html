@@ -1,29 +1,23 @@
-<li>
-     {{ BIB_ITEMS[bibkey]['authors'] }}.
-   
-    "{{ BIB_ITEMS[bibkey]['title'] }}",
-   
-    {% if 'journal' in BIB_ITEMS[bibkey] %}
-    <i>{{ BIB_ITEMS[bibkey]['journal'] }}, </i>
-    {% elif 'booktitle' in BIB_ITEMS[bibkey] %}
+<li>{{- BIB_ITEMS[bibkey]['authors']|safe }}, "{{ BIB_ITEMS[bibkey]['title'] -}}",
+    {%- if 'journal' in BIB_ITEMS[bibkey] -%}
+        <i>{{ BIB_ITEMS[bibkey]['journal'] }}, </i>
+    {%- elif 'booktitle' in BIB_ITEMS[bibkey] -%}
         <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
-    {% endif %}
-   
-    {% if 'pubinfo' in BIB_ITEMS[bibkey] %}
-        {{ BIB_ITEMS[bibkey]['pubinfo'] }}.
-    {% endif %}
-
+    {%- endif -%}
+    {%- if 'pubinfo' in BIB_ITEMS[bibkey] -%}
+        {{- BIB_ITEMS[bibkey]['pubinfo'] -}}.
+    {%- endif -%}
     <small>
     {% if 'file' in BIB_ITEMS[bibkey] %}    
-        <a href={{ '/publications/%s'%bibkey }}>Abstract/PDF</a>
+        <a href={{- '/publications/%s'%bibkey -}}>Abstract/PDF</a>
     {% else %}
-        <a href={{ '/publications/%s'%bibkey }}>Abstract</a>
+        <a href={{- '/publications/%s'%bibkey -}}>Abstract</a>
     {% endif %}
 
     {% if 'doi' in BIB_ITEMS[bibkey] %}
     <a href={{ BIB_ITEMS[bibkey]['doi'] }}>DOI</a>
     {% endif %}
-    
+
     {% if 'pmid' in BIB_ITEMS[bibkey] %}
     <a href={{ BIB_ITEMS[bibkey]['pmid'] }}>PMID</a>
     {% endif %}
@@ -31,6 +25,4 @@
     {% if 'url' in BIB_ITEMS[bibkey] and BIB_ITEMS[bibkey]['url_type'] == 'arXiv' %}
 	<a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
     {% endif %}
-    </small>
-</li>
-
+    </small></li>
