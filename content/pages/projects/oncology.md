@@ -13,4 +13,4 @@ Radiology departments make large amounts of CT scans of the abdomen and the thor
 
 ## Funding
 
-* [Europees Fonds voor Regionale Ontwikkeling (EFRO)](http://www.op-oost.eu/). See [press release](https://www.radboudumc.nl/nieuws/2020/thirona-en-quirem-lanceren-met-radboudumc-project-radiologie-van-de-toekomst)
+* [Europees Fonds voor Regionale Ontwikkeling (EFRO)](http://www.op-oost.eu/). See [press release](https://www.radboudumc.nl/nieuws/2020/thirona-en-quirem-lanceren-met-radboudumc-project-radiologie-van-de-toekomst) (in Dutch).
