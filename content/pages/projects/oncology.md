@@ -10,3 +10,7 @@ description: Oncology patients receive many CT scans and reporting those scans i
 bibkeys: Hump18
 
 Radiology departments make large amounts of CT scans of the abdomen and the thorax. Reporting those scans is time-consuming and difficult. We develop tools to speed up and improve this process.
+
+##Funding
+
+* [EFRO Radiologie van de Toekomst](https://www.radboudumc.nl/nieuws/2020/thirona-en-quirem-lanceren-met-radboudumc-project-radiologie-van-de-toekomst)
