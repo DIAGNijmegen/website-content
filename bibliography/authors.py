@@ -138,9 +138,11 @@ def single_author(author_string):
     '''
     Checks if author is the single author
     '''
+    if ' and ' not in author_string and ',' not in author_string:
+        return True
     splits = author_string.split(',')
     splits = [s.strip() for s in splits]
-    return len(splits) == 2 and not(' ' in splits[0] and ' ' in splits[1])
+    return len(splits) == 2 and ' ' not in splits[1]
 
 
 def split_authors(author_string):
@@ -148,23 +150,20 @@ def split_authors(author_string):
     Split all authors which are seperated by 'and' or ','
     returns all separeted authors
     '''
-    authors = []
+
     author_string = author_string.replace(' AND ', ' and ')
+
+    if single_author(author_string):
+        return [author_string]
+
+    authors = []
     if author_string.count(' and ')==1 and author_string.count(',') == 1:
         authors = re.split(' and |, ', author_string)
     elif ' and ' not in author_string: # ',' in author_string.lower():
         authors = author_string.split(',')
     else:
         authors = author_string.split(' and ')
-
-    # author_string = author_string.replace(' AND ', ' and ')
-    # if (' and ' in author_string and ',' not in author_string) or single_author(author_string):
-    #     authors = author_string.split(' and ')
-
-    # else:
-    #     authors = author_string.split(',')
-
-
+        
     authors = [a.strip() for a in authors]
     return authors
 
