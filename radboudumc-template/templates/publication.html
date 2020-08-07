@@ -33,31 +33,17 @@
       {% endif %}
     </p>
 
-
-
     <h2>Abstract</h2>
     {{ page.content }}
 
     {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
-    <!-- <div id="pdf-form" class="mt-5">
+    <div id="pdf-form" class="mt-5">
       <h2>Request PDF</h2>
 
       <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-      <form method="post" action=" https://n3vxoalwka.execute-api.eu-west-3.amazonaws.com/default/sendpdf?bibkey={{ page.bibkey }}&ref={{SITE_REPO}}"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
-    </div> -->
-
-    <form id="pdf-form" name="pdf-form">
-      <input type="hidden" value="swid19" name="bibkey">
-      <label for="email">
-          Email:
-      </label>
-      <input type="email" id="email" name="email">
-  
-      <button type="submit">Request pdf</button>
-    </form>
-  
-
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey={{ page.bibkey }}&ref={{SITE_REPO}}"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
     <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
       <h3>PDF sent</h3>
@@ -71,48 +57,7 @@
         document.getElementById('pdf-form').style.display = 'none';
         document.getElementById('pdf-sent').style.display = 'block';
       }
-
-      document.getElementById("pdf-form").addEventListener("submit", function(event) {
-          const data = new FormData(document.getElementById("pdf-form"));
-          const params = new URLSearchParams(data).toString();
-         
-          // Prevent normal form submit
-          event.preventDefault();
-          fetch(`https://n3vxoalwka.execute-api.eu-west-3.amazonaws.com/default/sendpdf?${params}`, {
-              method: 'GET',
-              cache: 'no-cache'
-          })
-          .then(response => {
-  
-              alert(JSON.stringify(response))
-              alert(response.status)
-              switch(response.status) {
-                  case 404:
-                      throw new Exception("A pdf could not be found for this bibkey.");
-                  case 400:
-                      throw new Exception("The submitted information is not correct, please check your email address.");
-                  case 500:
-                      throw new Exception("The PDF service is currently unavaiable, please check again later.")
-                  default:
-                      return response;
-              }
-          })
-          .then(() => {
-              alert('hoi', response.keys())
-              // document.getElementById("pdf-sent").style.display = 'block';
-              // form.style.display = 'none';
-              return response
-          })
-          .catch(error => {
-              // const errorEl = document.getElementById("pdf-error");
-              // errorEl.textContent = error.toString();
-              // errorEl.style.display = "block";
-          });
-      });
-      </script>
-
-
-
+    </script>
     {% endif %}
 
     </div>
