@@ -3,6 +3,7 @@ import os
 
 from authors import parse_name, split_authors, authors_to_string, get_list_researchers, get_publications_by_author
 import codecs
+import io
 
 # pasre bib file
 def get_bib_blocks(content, start_character='@', delim=('{', '}')):
@@ -141,8 +142,13 @@ def parse_bibtex_file(filename, full_strings_bib):
                 bib_item['authors'] = authors_to_string(bib_item['author'])
 
             if 'abstract' in bib_item:
-                bib_item['abstract'] = bib_item['abstract'].replace(
-                    '{', '').replace('}', '').replace('\\', '')
+                abstract_temp = bib_item['abstract']
+                bib_item['abstract'] = '\n\n'
+                s = abstract_temp.replace('{', '').replace('}', '') 
+                for s_ in s.split('\n'):
+                    if len(s_.strip()) >0:
+                        bib_item['abstract'] += s_.strip() + '\n\n'
+
 
             if 'title' in bib_item:
                 bib_item['title'] = bib_item['title'].replace(
