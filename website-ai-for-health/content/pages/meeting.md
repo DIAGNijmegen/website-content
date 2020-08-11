@@ -45,7 +45,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 16-07-2020 | **NO MEETING**   |    |
 | 27-08-2020 | Fien Ockers <br> Max Oosterwegel | Quantitative facial phenotyping of patients with intellectual disability. **(Defense)** <br> Modelling long-term progression of Parkinson’s disease. **(Defense)** |
 | 03-09-2020 | Manon de Jonge | Predicting changes in quality of life of ICU survivors. **(Defense)** |
-| 10-09-2020 | **TBD** | |
+| 10-09-2020 | **Guest Speaker** <br> Stanley Pham | Optimalisation and implementation of computer-based qEEG prediction tools for prognostication of comatose patients after cardiac arrest. |
 | 17-09-2020 | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. **(Defense)** |
 | 24-09-2020 | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
 | 01-10-2020 | Martijn Schilpzand   | Automated prenatal ultrasound screening. **(Defense)** |
