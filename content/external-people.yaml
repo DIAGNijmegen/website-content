@@ -608,4 +608,16 @@ people:
     affiliation: Data Science, Radboud University
     url: linkedin.com/in/nolan-cardozo-b232b5a4
     picture: people/external/Nolan_Cardozo.jpg
-    email: 
+    email: nolancardozo@gmail.com
+  - name: Frank Bosch
+    position: Internist-Intensivist
+    affiliation: Emergency Medicine, Radboudumc
+    url: https://www.linkedin.com/in/frankbosch/
+    picture: people/external/Frank_Bosch.jpg
+    email: Frank.Bosch@radboudumc.nl
+  - name: Bram Kok
+    position: Internist in training
+    affiliation: Internal Medicine, Radboudumc
+    url: https://www.radboudumc.nl/patientenzorg/verpleegafdelingen/acute-opname-afdeling/team-aoa
+    picture: 
+    email: Bram.Kok@radboudumc.nl
