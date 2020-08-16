@@ -27,7 +27,9 @@ In Utrecht, Van Ginneken started to work on the analysis of chest CT scans [in 2
 Another activity that Bram van Ginneken started in Utrecht and continued in Nijmegen was analysis of retinal images. [member/clarisa-sanchez] joined Bram van Ginneken in Utrecht as a postdoc and went with him to Nijmegen where she is now a faculty member, leading the research on [image analysis of ophthalmological images](https://www.a-eyeresearch.nl/). DIAG is closely collaborating with Radboudumc's Department of Ophthalmology in this area and a first joint paper was published [in 2013](/publications/grin13).
 
 ## Computational Pathology
-Radiologists used to look at images on a [lightbox](https://en.wikipedia.org/wiki/Lightbox). Today they obviously use computer screens; only when you search on google for pictures of a radiologist, you'll still see films and lightboxes. Pathologists, on the other hand, still use their microscopes to look at glass slides. But google for pictures of a pathologist and you start to see computer screen with zoomed in pathology slides. The reason that pathology is two decades behind radiology in terms of digitization is that scanned tissue slides at the resolution needed by a pathologist are very large. But nowadays, progress in computer technology makes fully digital pathology departments economically feasible. DIAG realized that this transition has the same potential for computer-aided diagnosis as in radiology and started in 2013 with research project on computational pathology, led by [member/jeroen-van-der-laak] and later joined by [member/geert-litjens] and [member/francesco-ciompi].
+Radiologists used to look at images on a [lightbox](https://en.wikipedia.org/wiki/Lightbox). Today they obviously use computer screens; only when you search on google for pictures of a radiologist, you'll still see films and lightboxes. Pathologists, on the other hand, still use their microscopes to look at glass slides. But google for pictures of a pathologist and you start to see computer screens with colorful pathology images next to the microscopes. The reason that pathology is two decades behind radiology in terms of digitization is that scanned tissue slides at the resolution needed by a pathologist are very large. But nowadays, progress in computer technology makes fully digital pathology departments economically feasible. DIAG realized that this transition has the same potential for computer-aided diagnosis as in radiology and started in 2013 with research projects on computational pathology, led by [member/jeroen-van-der-laak] and later joined by [member/geert-litjens] and [member/francesco-ciompi].
+
+deep learning
 
 (https://www.computationalpathologygroup.eu/).
 
@@ -44,9 +46,9 @@ DIAG has also expanded its activities to neuro image analysis with [MRI](http://
 
 matthieu, nikolas
 
-radiotherapy
+radiotherapy jonas
 
-In 2015, the group has grown to 8 faculty members, 5 post-docs, 4 scientific programmers, and 28 PhD students. DIAG is a very diverse and international group, our 45 researchers originally come from 12 different countries.
+In 2020, the group has grown to 13 faculty members, 6 post-docs, 4 radiologists, 12 software engineers and support personnel, and 33 PhD students. DIAG is a diverse and international group, our 68 researchers originate from 15 countries.
 
 ## grand-challenge
 [DIAGTechnologies](http://www.diagtechnologies.com/) was established in 2012 as a division of DIAG with the purpose of providing an organization that can develop, maintain, and distribute software for analysis of medical images in a quality controlled certified environment. As of 2013, DIAGTechnologies is fully compliant with MDD Annex II and ISO 13485. The first product released by DIAGTechnologies is ProCAD, an optimized reading environment for multi-parametric prostate MRI studies. ProCAD is CE marked for distribution within Europe since May 2013 and TGA marked for distribution in Australia since November 2013. In March 2014, the second product of DIAGTechnologies, CAD4TB, was CE marked.
