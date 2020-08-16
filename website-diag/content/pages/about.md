@@ -1,6 +1,6 @@
 title: About DIAG
 
-The Diagnostic Image Analysis Group was founded in January 2010. This page provides a brief history. 
+The Diagnostic Image Analysis Group was founded in January 2010. This page provides a brief history of the group, our main research topics, and collaborations. 
 
 ## Mammography
 When mammography screening for breast cancer started in The Netherlands in 1989, the national reference center was established in Nijmegen. [member/nico-karssemeijer], then a post-doc at Radboudumc, realized that computer analysis of mammograms was going to be a key area within medical image analysis, especially when [digital screening](/publications/nab90) would become a reality. He published his [first paper](/publications/kars92) on the automatic detection of abnormalities in mammograms in 1992.
@@ -45,9 +45,14 @@ DIAG has also expanded its activities to neuro image analysis with [MRI] and [4D
 In 2020, the group has grown to 13 faculty members, 6 post-docs, 4 radiologists, 12 software engineers and support personnel, and 33 PhD students. DIAG is a diverse and international group, our 68 researchers originate from 15 countries.
 
 ## grand-challenge.org
+In 2007, [member/bram-van-ginneken] co-organized the [first](https://sliver07.grand-challenge.org/) "grand- challenge" in medical image analysis. The idea of a challange is that a task is defined, for example the segmentation of the liver in a CT scan, a test data set is set aside and team send in the output of their best algorithm and all these results are validated and compared. The concept has been very successful. In 2010, DIAG started to implement a web platform for organizing such challenges, [grand-challenge.org](https://grand-challenge.org/). 
 
+It became clear that most research projects of DIAG can be seen as a "challenge", as the work involves the collection of training data (input), the development of software trained with that data to produce a certain output, and writing a scientific paper. Gradually, DIAG started to use [grand-challenge.org](https://grand-challenge.org/) for more and more internal project, while at the same time the number of external users grew quickly. As of mid 2020, over 45,000 researchers have registered on the platform, it hosts 80 public challenges and 180 internal projects and every month about 2500 unique users log in to the site. The software engineering team of DIAG, led by [member/james-meakin] has integrated data archives, annotation tools using CIRRUS built with the web toolkit of MeVisLab, and support for online [algorithms]((https://grand-challenge.org/algorithms).  
+
+[grand-challenge.org](https://grand-challenge.org/) is now the official platform for the Radboud Technology Center Deep learning](https://www.radboudumc.nl/en/research/radboud-technology-centers/deep-learning), led by [member/ajay-patel]. The RTC Deep Learning supports image analysis research within DIAG but also wider within Radboudumc and externally. It develops AI solutions and maintains Sol, one of the largest GPU research clusters in The Netherlands.    
 
 ## AI for Health
+In June 2019, Radboudumc decided to invest broadly in applied research aiming to integrate artifial intelligence solution in clinical practice. This initiative, [AI for Health](https://www.ai-for-health.nl/) aligns perfectly with the vision of DIAG, but has a wider scope and also addresses AI application that do not use medical images as input, but process clinical data, genetic data, and text data. AI for Health is also an [ICAI lab](https://icai.ai/radboud-ai-for-health/).The soaring interest in healthcare applications of AI is fueled by the success of [deep learning](/publications/litj17), the technology used in all DIAG projects these days. In the next few years, we may see a close integration of DIAG and AI for Health. 
 
 ## Industry collaborations
 With its focus on creating clinical applications of its algorithmic solution for medical image analysis, DIAG is closely collaborating with a wide range of companies. The following companies directly fund research carried out at DIAG, or have done so in the recent past:
