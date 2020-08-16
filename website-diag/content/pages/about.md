@@ -34,42 +34,35 @@ The [Computational Pathology Group](https://www.computationalpathologygroup.eu/)
 ### ScreenPoint and Thirona
 In 2014, two spin-off companies were established by DIAG members. [member/nico-karssemeijer] founded [ScreenPoint](http://www.screenpoint-medical.com/), focusing on solutions for computerized interpretation of mammograms and digital breast tomosynthesis. [member/eva-van-rikxoort] and [member/bram-van-ginneken] started [Thirona](http://www.thirona.eu/), a company that provides tools and services for medical image analysis and imaging quantification. Many alumni of DIAG work in these new companies.
 
-ScreenPoint has released Transpara, a product for detecting breast cancers on mammograms and tomosynthesis breast exams. Thirona has developed LungQ, CAD4TB and RetCAD, three products for analysing chest CT scans, chest radiographs and fundus photographs. Thirona also collaborates with DIAG and Delft Imaging in [Thira Lab](https://icai.ai/thira-lab/), an ICAI Lab. These labs have a focus on AI technology and are started throughout the Netherlands to stimulate knowledge transfer from public to private partners and, in our case, make the solutions developed at DIAG available to patients worldwide.  
+ScreenPoint has released Transpara, a product for detecting breast cancers on mammograms and tomosynthesis breast exams. Thirona has developed LungQ, CAD4TB and RetCAD, three products for analysing chest CT scans, chest radiographs and fundus photographs. Thirona also collaborates with DIAG and Delft Imaging in [Thira Lab](https://icai.ai/thira-lab/), an [ICAI](https://icai.ai/) Lab. These labs have a focus on AI technology and are started throughout the Netherlands to stimulate knowledge transfer from public to private partners and, in our case, make the solutions developed at DIAG available to patients worldwide.  
 
 ## Strategic collaboration with Fraunhofer MEVIS
 Bremen-based [Fraunhofer MEVIS](http://www.mevis.fraunhofer.de/en.html) and DIAG have been successfully collaborating as partners in research projects in the area of breast imaging since the mid-nineties, long before MEVIS became part of the Fraunhofer-Gesellschaft. In 2010, this collaboration was deepened and DIAG and Fraunhofer MEVIS established a strategic partnership. There is a continuous exchange of softare, data, and personnel between the two groups. Van Ginneken holds a part-time position at Fraunhofer MEVIS and several Fraunhofer MEVIS researchers have [performed](/publications/lass15a) or are performing their PhD research at DIAG. [MeVisLab](http://www.mevislab.de/) has been adopted at DIAG as the software environment used to build all its medical image analysis applications.
 
 ## An expanding set of topics
-DIAG has also expanded its activities to neuro image analysis with [MRI](http://diagnijmegen.nl/index.php/White_Matter_Lesions) and [4D computed tomography](http://diagnijmegen.nl/index.php/4DCT), and has more recently started several projects in the area of 
-
-matthieu, nikolas
-
-radiotherapy jonas
+DIAG has also expanded its activities to neuro image analysis with [MRI] and [4D computed tomography] led by [member/rashindra-manniesing], and has more recently started new research lines in the area of musculoskelatal image analysis, led by [member/nikolas-lessmann] and [member/matthieu-rutten], point-of-care ultrasound with real-time integrated deep learning support led by [members/thomas-van-den-heuvel] and radiotherap[y image analysis, led by [member/jonas-teuwen]. 
 
 In 2020, the group has grown to 13 faculty members, 6 post-docs, 4 radiologists, 12 software engineers and support personnel, and 33 PhD students. DIAG is a diverse and international group, our 68 researchers originate from 15 countries.
 
-## grand-challenge
-[DIAGTechnologies](http://www.diagtechnologies.com/) was established in 2012 as a division of DIAG with the purpose of providing an organization that can develop, maintain, and distribute software for analysis of medical images in a quality controlled certified environment. As of 2013, DIAGTechnologies is fully compliant with MDD Annex II and ISO 13485. The first product released by DIAGTechnologies is ProCAD, an optimized reading environment for multi-parametric prostate MRI studies. ProCAD is CE marked for distribution within Europe since May 2013 and TGA marked for distribution in Australia since November 2013. In March 2014, the second product of DIAGTechnologies, CAD4TB, was CE marked.
+## grand-challenge.org
 
-To achieve a consistent user interface for all our applications with the look and feel of a modern radiological workstation, we have built [CIRRUS](https://rse.diagnijmegen.nl/software/cirrus/). Most of the applications developed by DIAG researchers use CIRRUS.
 
-### AI for Health
+## AI for Health
 
-### Industry collaborations
+## Industry collaborations
 With its focus on creating clinical applications of its algorithmic solution for medical image analysis, DIAG is closely collaborating with a wide range of companies. The following companies directly fund research carried out at DIAG, or have done so in the recent past:
 
-
-* [Mevis Medical Solutions](http://www.mevis.de/) (formerly MeVis Technology AG) was founded in 1997 as an independent spin-off of MeVis Research (today Fraunhofer MEVIS) to act as a commercial partner and to facilitate the transfer of research results into marketable products. DIAG works with MMS in the area of lung CT screening and breast image analysis.
-* Thirona
-* [Delft Imaging](http://www.delft.care/) develops diagnostic imaging equipment and e-health software. DIS is the only imaging company worldwide to invest in x-ray solutions that assist the medical community in the fight against tuberculosis. DIAG and DIS have developed CAD4TB, CE marked software for the automated interpretation of chest radiographs.
-* Siemens Healthineers
-* ScreenPoint
-* Elekta
-* Philips
-* Sectra
-* Smart Reporting
-* [Canon](http://www.toshibamedicalsystems.com/corporate/global/japan.html) (Japan) is working with DIAG on 4D CT image analysis and evaluation of novel ultrasound technologies. CT topics include protocol optimization, dose reduction, subtraction imaging and an optimized workup for stroke suspects. There is also an active collaboration with the ultrasound division of Toshiba. Topics include quantitative ultrasound and CT/MR guided biopsies.
-* [Riverain Technologies](http://www.riveraintech.com/) from Dayton, Ohio, develops proprietary pattern recognition and machine learning technologies to process and analyze chest radiographs. DIAG has developed algorithms for Riverain and is currently carrying out observer studies with Riverain's software to investigate the effect of using bone suppression, temporal analysis and nodule detection on clinical practice.
-* [Matakina](http://www.matakina.com/) is a start-up company co-founded by [member/nico-karssemeijer] that is based in the UK and New Zealand and which develops software for mammographic image analysis. Matakina’s first product is Volpara, an automatic software system that gives a breast density score based on an estimate of the volume of dense tissue in the breast. Matakina is funding DIAG research towards improvements of breast density estimation methods.
-* [MedQIA](http://www.medqia.org/) is an imaging contract research organization based in Los Angeles that specializes in quantitative image analysis for clinical trials. DIAG is working with * MedQIA in the area of lung CT image analysis.
+* [Mevis Medical Solutions](http://www.mevis.de/) (formerly MeVis Technology AG) was founded in 1997 as an independent spin-off of MeVis Research (today Fraunhofer MEVIS) to act as a commercial partner and to facilitate the transfer of research results into marketable products. DIAG works with MMS in the area of lung CT screening.
+* [Thirona](https://thirona.eu/) was founded in 2014 by DIAG members [member/eva-van-rikxoort] and [member/bram-van-ginneken]. The company funds DIAG research projects in chest CT analysis, fundus imaging, chest x-ray analysis and oncology. Thirona participates in [Thira Lab](https://icai.ai/thira-lab/).
+* [Delft Imaging](http://www.delft.care/) develops diagnostic imaging equipment and e-health software. DIAG and Delft Imaging have developed CAD4TB, CE marked software for the automated interpretation of chest radiographs, and they work together in the area of maternal health, developing a portable ultrasound device with integrated deep learning called the BabyChker. Delft Imaging is also part of [Thira Lab](https://icai.ai/thira-lab/).
+* [Siemens Healthineers](https://www.siemens-healthineers.com/) has a close collaboration with the Imaging Department of Radboudumc and works with DIAG in the area of prostate MRI analysis and interventions.
+* [ScreenPoint](http://www.screenpoint-medical.com/) collaborates with DIAG in various project in breast image analysis.
+* [Elekta](https://www.elekta.com/) is partnering with the Department of Radiotherapy in Radboudumc. They work with DIAG on radiotherapy aplication in MRI and cone-beam CT integrated in their linear accelarators.
+* [Philips](https://www.philips.nl/) is involved in multiple research projects with DIAG in the area of digital pathology and lung cancer interventions.
+* [Sectra](https://medical.sectra.com/solutionarea/digital-pathology/) works with the computational pathology group in DIAG.
+* [Smart Reporting](https://www.smart-reporting.com/en) runs several projects with DIAG researchers, as part of EU-funded research. One exmaple is the collaboration in CT and chest x-ray image analysis of COVID-19 suspects and patients.
+* [Canon](https://global.medical.canon/) is working with DIAG on ultrasound image analysis, is selling DIAG's CAD4TB software solution and was involved in 4D CT image analysis research.
+* Riverain Technologies](http://www.riveraintech.com/) from Dayton, Ohio, develops software to analyze chest radiographs and chest CT scans. DIAG has developed algorithms for Riverain and has carried out observer studies with Riverain's software to investigate the effect of using bone suppression, temporal analysis and nodule detection on clinical practice.
+* [Matakina](http://www.matakina.com/) is a company co-founded by [member/nico-karssemeijer] that develops software for mammographic image analysis. Matakina’s flagship product is Volpara, an automatic software system that gives a breast density score based on an estimate of the volume of dense tissue in the breast. Matakina has been funding DIAG research towards improvements of breast density estimation methods.
+* [MedQIA](http://www.medqia.org/) is an imaging contract research organization based in Los Angeles that specializes in quantitative image analysis for clinical trials. DIAG worked with MedQIA and still collaborates with them through Thirona. 
 * [QView Medical](http://www.qviewmedical.com/), Los Altos, California was co-founded by [member/nico-karssemeijer] and [member/henkjan-huisman] and is working on 3D breast ultrasound image analysis. Together with DIAG new computer-aided detection algorithms are developed.
