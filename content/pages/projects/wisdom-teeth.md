@@ -27,3 +27,6 @@ A deep-learning approach based on U-net was applied on the reference data to tra
 
 Publication:
 https://doi.org/10.1038/s41598-019-45487-3
+
+## Funding
+* [Radboud AI for Health](https://www.ai-for-health.nl/)
