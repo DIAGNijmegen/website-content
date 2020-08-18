@@ -26,4 +26,4 @@ Radboudumc is responsible for the following objectives:
 - Facilitate integration of developed methods in digital pathology workflow and development of decision support algorithms.
 
 ## Funding
-- [The European Union’s Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en/)
+- [The European Union’s Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en/): [ExaMode](https://www.examode.eu/)
