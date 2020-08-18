@@ -2,7 +2,7 @@ title: AI4Adhesion
 title_long: AI4Adhesion
 finished: false
 type: general
-picture: projects/ai4adhesion.png
+picture: projects/ai4adhesion.jpg
 template: project-single
 groups: diag
 people: Bram de Wilde, Henkjan Huisman, Richard ten Broek, Harry van Goor, Bram van Ginneken
