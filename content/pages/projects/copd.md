@@ -4,7 +4,7 @@ type: general
 picture: projects/copd.jpg
 template: project-single
 groups: diag
-people: Xie Weiyi, Colin Jacobs, Jean-Paul Charbonnier, Eva van Rikxoort, Dirkjan Slebos, Bram van Ginneken, 
+people: Xie Weiyi, Colin Jacobs, Jean-Paul Charbonnier, Eva van Rikxoort, Dirkjan Slebos, Bram van Ginneken
 description: Computed tomography is an important tool to assess lung damage from chronic obstructive pulmonary disease. We develop AI tools for CT in COPD. 
 bibkeys: Xie20
 
