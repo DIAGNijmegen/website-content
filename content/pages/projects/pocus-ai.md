@@ -12,3 +12,4 @@ Point-of-care ultrasound (POCUS) is about using portable ultrasound devices, oft
 
 ## Funding
 - [TTW Demonstrator](https://www.nwo.nl/onderzoek-en-resultaten/programmas/ttw/demonstrator/2019.html)
+- [Delft Imaging](http://www.delft.care/)
