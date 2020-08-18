@@ -1,5 +1,4 @@
-title: Perspectief DLMedIA
-title_long: Perspectief DLMedIA
+title: Dynamic retinal deep learning
 finished: false
 type: general
 picture: projects/perspectief.jpg
@@ -29,5 +28,5 @@ Implementing dynamic deep learning methods in eye screening workflows will subst
 <i>Visual interpretability of automated screening in a color fundus image predicted as referable diabetic retinopathy.</i>
 
 ## Funding
-
-This work is supported by the Dutch Technology Foundation STW, which is part of the Netherlands Organisation for Scientific Research (NWO) and partly funded by the Ministry of Economic Affairs (Perspectief programme P15-26 ‘DLMedIA: Deep Learning for Medical Image Analysis’).
+* [Thirona](https://thirona.eu/) 
+* [Deep Learning in Medical Image Analysis](http://dlmedia.eu/)
