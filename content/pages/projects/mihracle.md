@@ -21,3 +21,6 @@ Initially, we are working on linking EHR text to medical knowledge bases. These 
 In the paper [*First Steps Towards Patient-Friendly Presentation of Dutch Radiology Reports*](http://ceur-ws.org/Vol-2619/paper1.pdf) (ECIR2020), we present preliminary work on preparing Dutch radiology reports for entity linking to provide additional information to patients. It provides an overview of existing resources and touches on subjects like data anonymisation and annotation, as well as potential word embedding techniques and models.
 
 Alongside these ongoing efforts, we are also closely involved in the development of [Radboud Entity Linker (REL)](https://github.com/informagi/REL), a state-of-the-art open source entity linking package that we are now enhancing for medical entity linking. A paper on REL was [published at SIGIR2020](http://hasibi.com/files/sigir2020-REL.pdf), demonstrating state-of-the-art performance on classical entity linking datasets. We hope to eventually use REL (amongst other systems) for linking entities in Dutch EHRs.
+
+## Funding
+* [Radboud AI for Health](https://www.ai-for-health.nl/)
