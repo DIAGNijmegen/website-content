@@ -10,3 +10,6 @@ bibkeys:
 
 Scaphoid fractures are the most common fractures of the carpal bones. They may be difficult to detect in the acute phase. The consequences of missing a fracture can be severe. with complications such as avascular necrosis, carpal instability, osteoarthritis, surgical intervention for bony repositioning and fixation or resection of the proximal carpal row, and ultimately functional loss (6–8). Due to the risks involved, more than half of the patients receive unnecessary wrist immobilization out of precaution, increasing health
 expenditure. In this project we therefore develop deep learning detection systems for diagnosing scaphoid fractures on radiographs.
+
+## Funding
+* [Jeroen Bosch Ziekenhuis](https://www.jeroenboschziekenhuis.nl/)
