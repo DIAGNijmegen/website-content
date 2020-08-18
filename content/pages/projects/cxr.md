@@ -36,3 +36,10 @@ This BBC report shows CAD4TB in action in Ghana:
 
 ## New research
 Our current research focuses on extending the capabilities of the software to do more than outputting a single number related to the probability the subject has TB. We have developed a system for automatically measuring the cardiothoracic ratio, for childhood pneumonia detection, and we are working on detection of COVID-19 on the chest radiograph. In collaboration with Thirona, the Fondation Botnar, the Swiss Tropical and Public Health Institute and NGO SolidarMed, we will field test a combined TB and COVID-19 screening in district hospitals in Lesotho with a new  AI system that uses a combination of chest x-ray and blood markers.
+
+## Funding
+* [Delft Imaging](http://www.delft.care/)
+* [Deep Learning in Medical Image Analysis](http://dlmedia.eu/)
+* [ImageREPORT](https://www.eurostars-eureka.eu/project/id/11470)
+* [TBTriage+](https://tbtriage.com/)
+* [MistraL](https://www.fondationbotnar.org/)
