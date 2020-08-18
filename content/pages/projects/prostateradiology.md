@@ -6,7 +6,7 @@ picture: projects/prostate.jpg
 template: project-single
 groups: diag
 people: Matin Hosseinzadeh, Oscar Debats, Henkjan Huisman
-description: The investigation of AI for prostate radiology 
+description: The investigation of AI for prostate radiology. 
 bibkeys: 
 
 ## Background
