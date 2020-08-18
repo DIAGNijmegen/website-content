@@ -23,3 +23,4 @@ State-of-the-art deep learning models will be continuously evaluated and impleme
 
 # Funding
 - [NWO: Efficient Deep Learning](https://efficientdeeplearning.nl/)
+- [Siemens Healthineers](https://www.siemens-healthineers.com/)
