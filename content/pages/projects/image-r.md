@@ -21,4 +21,4 @@ The goal of this project is to revolutionize current eye care diagnostics and di
 ![Multimodal (OCT and CF) image analysis]({{ IMGURL }}/images/projects/image-r.png)
 
 ## Funding
-This project is funded by <a href="https://www.eurostars-eureka.eu/">Horizon 2020: Eurostars</a>.
+* [Eurostars](https://www.eurostars-eureka.eu/node/554798)
