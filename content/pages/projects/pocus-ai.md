@@ -12,7 +12,7 @@ Point-of-care ultrasound (POCUS) is about using portable ultrasound devices, oft
 
 The first project we've worked on the last few years is aimed at reducing maternal death in developing countries using a sweep protocol with integrated deep learning analysis to scan pregnant women and detect those with a high risk pregnancy. Below is an excerpt from a presentation by Bram van Ginneken given at the [2020 AAPM COMP meeting](https://w3.aapm.org/meetings/2020AM/index.php) outlining the status of the project:
 
-[vimeo: 449054596]
+[vimeo: 449153316]
 
 ## Funding
 - [TTW Demonstrator](https://www.nwo.nl/onderzoek-en-resultaten/programmas/ttw/demonstrator/2019.html)
