@@ -18,7 +18,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 03-09-2020     | Manon de Jonge | Predicting changes in quality of life of ICU survivors. <br>**(Defense)** |
 | 10-09-2020    | **Guest Speaker** <br> Stanley Pham | Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG. |
 | 17-09-2020    | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. <br>**(Defense)** |
-| 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using <br> automatic classification of muscle ultrasound images. |
+| 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
 | 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**(Defense)** |
 | 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning <br> system for wisdom tooth removal. |
 | 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. |
