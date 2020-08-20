@@ -2,6 +2,7 @@ title: Former employees
 
 - [Max Argus](https://www.linkedin.com/in/max-argus-5810636)
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
+- [Haimasree Bhattacharya](https://www.linkedin.com/in/haimasreebhattacharya/)
 - [Zijian Bian](https://www.linkedin.com/in/zijian-bian-1ba342106)
 - [Rieneke van den Boom](http://nl.linkedin.com/in/rienekevandenboom/en)
 - [Guido te Brake](http://nl.linkedin.com/in/guidotebrake/en)
