@@ -65,3 +65,5 @@ A Leave One Out Cross validation was performed for each model for each syndrome.
 
 ## Conclusion
 This project has tried to come up with a model that performs better than the existing Hybrid model. However, no such model has been found, as the Hybrid model has the best performance in the syndrome vs. control classification task for most syndromes. It has been seen that the performance of all models fluctuates over the different syndromes. Hence, it will be quite challenging and possibly even too ambitious to come up with one model that performs well for all the different syndromes. This research has used multiple different models, as well as face representations to explore what the possibilities are, and therefore adds value to the current body of research regarding this topic. Hopefully, this project can guide new research in the right direction of a model that performs well for all syndromes in a syndrome vs. control classification task. 
+
+The code for this project can be found in this [GitHub repository](https://github.com/spatiebalk/face-classification).
