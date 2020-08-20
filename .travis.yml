@@ -61,8 +61,8 @@ jobs:
         - WEBSITE=website-retina
         - GENERATE_PUB=1
       deploy:
-        <<: *deploy_defaults
-        fqdn: www.a-eyeresearch.nl
+        <<: *netlify_deploy_defaults
+        site: $NETLIFY_SITEID_RETINA
     # Build and deploy steps for RSE website
     - <<: *build_defaults
       name: Build RSE website

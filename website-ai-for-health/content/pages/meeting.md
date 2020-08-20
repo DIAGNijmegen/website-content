@@ -2,7 +2,6 @@ title: Meeting
 closed: false 
 type: card 
 picture: vacancies/AIFH_meeting.png 
-template:  
 description: AI for Health organizes a weekly meeting that allows the PhD candidates and students to present their work in progress and discuss their plans for the future.
 
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 

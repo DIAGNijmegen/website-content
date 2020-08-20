@@ -8,48 +8,60 @@ people:  Fien Ockers, Lex Dingemans, Bert de Vries, Marcel van Gerven
 description: Development of a deep learning algorithm for learning face representations.
 
 ## Clinical problem
-lntellectual disability (lD), affecting 2% of the general population, is frequently part of a syndrome with specific facial characteristics, so-called dysmorphism. The majority of lD cases are caused by rare sporadic genetic mutations, making it difficult to accurately diagnose. For clinical geneticists, craniofacial characteristics are highly informative when diagnosing genetic diseases. We propose to automate the extraction of patient-specific facial phenotypic information from image data. To this end, we will develop new machine learning algorithms for the analysis of facial expressions that are able to capture the relevant features for accurate matching of facial characteristics. This analysis will be supported by whole exome sequencing to assess the presence of a mutation in the patient. The main challenges in this study come from the novelty of the application area, the clinical conditions, and the rarity of some of the genetic disorders.
+Approximately 2% of the general population is affected by Intellectual Disability (ID), a neurodevelopmental disorder.  Intellectual Disability is defined by the incomplete development of the mind during the developing stages of childhood, leading to impairment of several skills that contribute to the general level of intelligence, e.g. cognition, language, motor or social abilities.
+
+In about 30-40% of the cases, ID is caused by a genetic syndrome. However, extracted genetic data is not always decisive with regards to a diagnosis. In those cases, doctors can take a look at the facial characteristics of a patient and compare them with previously diagnosed patients. This is a subjective process and therefore doctors would benefit from an objective model that would support their decisions in diagnosing patients. 
 
 ## Solution
 Successful completion of the study will result in a technically and clinically validated technology that provides quick, automated, quantitative, and objective phenotyping of patients. The foreseen technology will reduce the burden on both the medical system and patient families by providing a quick non-invasive strategy able to increase the number of positive diagnoses of patients with lD.
 
 ## Research question
-To be able to execute the task of quantitative phenotyping of facial features there are roughly two tasks that need to be solved: 1) A rich face representation needs to be extracted from faces. 2) A model should be found that can classify these face representations into their correct syndrome category. 
-Initially, this classification problem has been seen as a binary classification problem. A patient either belongs to a specific syndrome group or to the control group (patients with an undefined form of ID, so no healthy patients, as that would be too easy). Later on in the project, also a syndrome vs. syndrome approach has been taken to better understand the capabilities of various representations and models.
+Can a model be found that performs better than the existing Hybrid model, regarding syndrome vs. control face classification for a specific syndrome, by trying different combinations of a face representation and classification model?
 
 ## Methods
 
-There are several ways to get a face representation. In general there are two different kinds of approaches. The first approach is model based, i.e. letting a neural network (DeepFace and FaceNet are two well-performing examples) determine a face representation, based on the pixel image input, which is acquired by using these face representations in a task of face recognition or face verification. However, this leads to not a lot of insight into which numbers in the face representation correspond to which parts of the face.
-The second approach is more local based, i.e. locating keypoints on an image (corner of the eyes, mouth etc.) and using these, their pairwise distances or surrounding textures as face representation to feed as input to the classifier. This would of course give a better clue about which features are distinctive to certain syndromes, but these methods perform in general a bit worse. 
+### Data
+The available data for this project is either extracted from published papers or created in the Radboudumc. In total, the data of 12 syndromes was taken into account for this project.
 
-Currently, the face representations that are/have been experimented with are:
-- A publicly available implementation of DeepFace, a neural network made originally by Facebook which has a face representation of 4096 features
-- The pairwise distances of the 68 automatically detected facial keypoints by the python library dlib
-¬- The 510 3D facial keypoints, found by the algorithm made by the company VicarVision which they have made available for this research project.
-- The hybrid model representation, which is a combination of the model-based publicly available implementation of FaceNet, OpenFace, and the local-based method which combines pair-wise distances with surrounding textures CFPS. This hybrid model is a result of previous research done into this topic.
+The control data set was mainly made in the Radboudumc itself and consisted of patients with an unknown form of ID. It was decided to use these images as a control set, as this mimics the real-world application of this classification problem the best. 
 
-For most face representations, several simple classifiers (SVM, k-NN, RandomForest) are tried, in combination with a Leave One Out cross validation method to ensure that as much data as possible can be used.  For the 3D point-representation the pointnet model is currently used for some experiments.
+A control set was created for each of the 12 syndromes. Per syndrome, one control patient was selected for each syndromic patient, such that there was an even distribution of both labels. These control patients were selected based on gender, age and ethnicity, as was done in the development of the Hybrid model. 
+
+### Models
+Model 1: Deepface model
+The Deepface model is developed by Facebook and is a convolutional neural network that uses deep learning to perform the task of face verification. The Deepface model is used to obtain a face representation and as a classifier a k-NN is chosen with k set to 3.
+
+Model 2:  FaceReader PointNet model
+For this project, the university was able to use and test the capabilities of the model called FaceReader, developed by the company VicarVision. This model detects a 3D face representation of 510 landmarks. These landmarks are processed by the PointNet model to result into a prediction. 
+
+Model 3: FaceReader distance model
+This model uses the pairwise distances of the 3D landmark face representations in combination with a Random Forest classifier. 
+
+Model 4: Ensemble  model
+The previously described 3 models are combined into an ensemble model to see whether they perform better together.
+
+Model 5: Hybrid model
+This model has been developed previously in the Radboudumc for mainly face clustering. This model combines the CFPS and Openface face representation, which are both models that put a face representation into an Euclidean space. This combined face representation is again classified with a k-NN with k set to 3. 
+
+### Experiments
+A Leave One Out Cross validation was performed for each model for each syndrome. The Area under the ROC curve (aroc), the specificity (spec) and sensitivity (sens) were used as evaluation metrics. Here only the aroc scores are displayed.
 
 ## Results
-Below are some preliminary results of classifying patients in the binary way described above, and using the DeepFace representation and a GradientBoostClassifier with 10 trees.
+### Area under the ROC curve
+| | Model 1 | Model 2 | Model 3 | Model 4 | Model 5 |
+| --- | --- | --- | --- | --- | --- | 
+| ADNP (N=33)	| 0.612 |	0.668 |	0.420 |	0.609 |	0.734 |
+| ANKRD11 (N=25) | 0.809 |	0.589 |	0.716	| 0.854	| 0.835 |
+| CDK13 (N=30)	| 0.559	| 0.780 |	0.722 |	0.786	| 0.870 |
+| DEAF1 (N=19)	| 0.499	| 0.743	| 0.448	| 0.728	| 0.666 |
+| DYRK1A (N=16)	| 0.694	| 0.508	| 0.525	| 0.520	| 0.750 |
+| EHMT1 (N=39)	| 0.843	| 0.704	| 0.849	| 0.901	| 0.882 |
+| FBXO11 (N=17)	| 0.580	| 0.473	| 0.444	| 0.492	| 0.593 |
+| KDVS (N=75)	| 0.740	| 0.494	| 0.463	| 0.628	| 0.748 |
+| SON (N=18)	| 0.698	| 0.755	| 0.610	| 0.857	| 0.634 |
+| WAC (N=12)	| 0.418	| 0.665	| 0.828	| 0.722	| 0.790 |
+| YY1 (N=10)	| 0.683	| 0.748	| 0.883	| 0.801	| 0.545 |
+| 22q11 | 0.756	| 0.759	| 0.603	| 0.793	| 0.622 |
 
-| | Area under the ROC curve | Specificity | Sensitivity |
-| --- | --- | --- | --- |
-| ADNP (N=33)	| 0.7622	| 0.6970	| 0.8182 |
-| ANKRD11 (N=25) | 0.6976	| 0.7200	| 0.8000 |
-| CDK13 (N=30)	| 0.7967	| 0.8667	| 0.8000 |
-| DEAF1 (N=19)	| 0.7064	| 0.6316	| 0.6316 |
-| DYRK1A (N=16)	| 0.5391	| 0.5625	| 0.6250 |
-| EHMT1 (N=39)	| 0.6285	| 0.6923	| 0.6410 |
-| FBXO11 (N=17)	| 0.5121	| 0.4706	| 0.6471 |
-| KDVS (N=75)	| 0.7717	| 0.6667	| 0.7333 |
-| SON (N=18)	| 0.9228	| 0.8333	| 0.8889 |
-| WAC (N=12)	| 0.6667	| 0.6667	| 1.0000 |
-| YY1 (N=10)	| 0.9300	| 0.8000	| 0.7000 |
-
-
-## Innovation
-This project represents a unique combination of state-of-the-art genomic analysis, with significant developments in the phenotyping of patients with rare and difficult to diagnose developmental disorders via facial image analysis. This innovation comes through combining the two major research fields of genetics and machine learning, and requires a multidisciplinary team of clinicians, bioinformaticians and informaticians.
-
-The developed tool for quantitative facial phenotyping will be tested and subsequently implemented in the Dept. of Human Genetics, Radboudumc. Further dissemination will follow both at national as well as international level.
-
+## Conclusion
+This project has tried to come up with a model that performs better than the existing Hybrid model. However, no such model has been found, as the Hybrid model has the best performance in the syndrome vs. control classification task for most syndromes. It has been seen that the performance of all models fluctuates over the different syndromes. Hence, it will be quite challenging and possibly even too ambitious to come up with one model that performs well for all the different syndromes. This research has used multiple different models, as well as face representations to explore what the possibilities are, and therefore adds value to the current body of research regarding this topic. Hopefully, this project can guide new research in the right direction of a model that performs well for all syndromes in a syndrome vs. control classification task. 
