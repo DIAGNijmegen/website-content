@@ -1,7 +1,7 @@
 title: CAD4COVID-XRay in the news
 date: 2020-08-20
 picture: news/cad4covidxray.jpg
-description: RSNA News interviewed Keelin Murphy about her Radiology publication on CAD4COVID-XRay, an AI solution for findsing COVID-19 patients with chest radiography.
+description: RSNA News interviewed Keelin Murphy about her Radiology publication on CAD4COVID-XRay, an AI solution for finding COVID-19 with chest radiography.
 groups: diag
 
 [RSNA News](https://www.rsna.org/en/news/2020/July/AI-COVID-Research) interviewed [member/keelin-murphy] in an article that describes how on AI models help in detecting, monitoring, and interpreting data on COVID-19. [member/keelin-murphy] published her [validation study in Radiology](/publications/murp20a/) of the [CAD4COVID-XRay solution developed by Thirona](https://thirona.eu/cad4covid/). 
