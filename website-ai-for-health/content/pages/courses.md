@@ -26,6 +26,7 @@ _Do you want to acquire knowledge about the data science and AI, or do you alrea
 ***
 
 ## What you need to know for the second edition of the course:
+- The second edition will start September 18th 2020
 - Course will be held on 13 Fridays, with different topics per day
 - The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice
 - The program for the 13 Fridays will be held at Radboudumc in Nijmegen and JADS in Den Bosch
@@ -33,7 +34,29 @@ _Do you want to acquire knowledge about the data science and AI, or do you alrea
 - We expect particpants to spend on average 4 hours per week on homework and self study
 - There will be an online training environment with support documentation, discussion forum and blended learning
 - The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded
-- The second edition will start September 2020
+
+An overview of the course schedule can be seen below.
+
+| Date  |  Topic  |
+| ----- | ------- |
+| 18-09-2020 | Intro / Machine Learning 1 |
+| 25-09-2020 | Machine Learning 2 / Final Presentations Course 1 |
+| 02-10-2020 | Machine Learning 3 / Python Assignments |
+| 09-10-2020 | Machine Learning 4 / Python Assignments |
+| 30-10-2020 | Data Engineering |
+| 06-11-2020 | Deep Learning 1 / Python Assignments |
+| 13-11-2020 | Deep Learning 2 / Python Assignments |
+| 20-11-2020 | Project Day 1 |
+| 27-11-2020 | Machine Learning 5 / Python Assignments |
+| 04-12-2020 | Project Day 2 |
+| 11-12-2020 | Decision Support |
+| 18-12-2020 | Visualization |
+| 08-01-2021 | Project Day 3 |
+| 15-01-2021 | Bioinformatics |
+| 22-01-2021 | Text Mining |
+| 29-01-2021 | Project Day 4 |
+| 05-02-2021 | Ethics |
+| 12-02-2021 | Final Presentations |
 
 More information and instructions how to apply can be found on [this internal Radboudmc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth/cursus-ai-voor-medewerkers). 
 
