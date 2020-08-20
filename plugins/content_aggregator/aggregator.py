@@ -18,7 +18,7 @@ DIAG_WEBSITE_URLS = {}
 # Sites can save their profile pages using different patterns so we need to collect these
 MEMBER_FILE_PATTERN = {}
 
-for website in ['website-rtc', 'website-ai-for-health', 'website-diag', 'website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-rse']:
+for website in ['website-rtc', 'website-ai-for-health', 'website-diag', 'website-pathology', 'website-retina', 'website-aiimnijmegen', 'website-rse']:
     
     website_config = importlib.import_module(f'{website}.pelicanconf')
     publish_config = importlib.import_module(f'{website}.publishconf')
