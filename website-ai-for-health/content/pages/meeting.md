@@ -13,20 +13,20 @@ The slides for past presentations are available by clicking on the links in the 
 ## Upcoming meetings
 
 | Date    | Speaker           |   Title    |
-| --------        |    ----  |          --- |
-| 27-08-2020 | Fien Ockers <br> Max Oosterwegel | Quantitative facial phenotyping of patients with intellectual disability. **(Defense)** <br> Modelling long-term progression of Parkinson’s disease. **(Defense)** |
-| 03-09-2020 | Manon de Jonge | Predicting changes in quality of life of ICU survivors. **(Defense)** |
-| 10-09-2020 | **Guest Speaker** <br> Stanley Pham | Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG. |
-| 17-09-2020 | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. **(Defense)** |
-| 24-09-2020 | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
-| 01-10-2020 | Martijn Schilpzand   | Automated prenatal ultrasound screening. **(Defense)** |
-| 08-10-2020 | Shankeeth Vinayahalingam | Development and validation of a deep-learning <br> system for wisdom tooth removal. |
-| 15-10-2020 | Koen Dercksen | Building multi-modal interactive health records. |
-| 22-10-2020 | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. |
-| 29-10-2020 | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. |
-| 05-11-2020 | Ruud van Kaam | Predictive Modeling in the Intensive Care Unit. |
-| 12-11-2020 | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever in ICU patients with acute brain injury. **(Defense)**  |
-| 19-11-2020 | Gelena Khazeeva | AI-driven genetic diagnosis for rare-diseases. |
+| -------        |    ----  |          --- |
+| 27-08-2020     | Fien Ockers <br><br> Max Oosterwegel | Quantitative facial phenotyping of patients with intellectual disability. <br>**(Defense)** <br> Modelling long-term progression of Parkinson’s disease. <br>**(Defense)** |
+| 03-09-2020     | Manon de Jonge | Predicting changes in quality of life of ICU survivors. <br>**(Defense)** |
+| 10-09-2020    | **Guest Speaker** <br> Stanley Pham | Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG. |
+| 17-09-2020    | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. <br>**(Defense)** |
+| 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using <br> automatic classification of muscle ultrasound images. |
+| 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**(Defense)** |
+| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning <br> system for wisdom tooth removal. |
+| 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. |
+| 22-10-2020     | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. |
+| 29-10-2020   | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. |
+| 05-11-2020    | Ruud van Kaam | Predictive Modeling in the Intensive Care Unit. |
+| 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**(Defense)**  |
+| 19-11-2020   | Gelena Khazeeva | AI-driven genetic diagnosis for rare-diseases. |
 
 ## Past meetings
 
