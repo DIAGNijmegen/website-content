@@ -1,5 +1,4 @@
 title: Former employees
-template: people-former
 
 - [Max Argus](https://www.linkedin.com/in/max-argus-5810636)
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
