@@ -1,9 +1,9 @@
 title: Contact
 
 DIAG is located at the Radboud University Medical Center, Nijmegen, the Netherlands.
-Follow walking route 767 to reach the secretary of the Department of Pathology.
+Follow walking route 767 to reach the secretary of the Imaging Department.
 
-Visiting address
+Visiting address:<br>
 Radboudumc
 Department of Radiology
 Geert Grooteplein Zuid 10
