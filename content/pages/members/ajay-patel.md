@@ -1,7 +1,7 @@
 title: Ajay Patel
 name: Ajay Patel
 template: people-single
-picture: people/Ajay_Patel2.jpg
+picture: people/Ajay_Patel.jpg
 position: Coordinator RTC Deep Learning
 active: yes
 groups: diag, rtc
