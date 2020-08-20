@@ -17,7 +17,6 @@ Live websites:
 
 Websites in development
 
-- Bodyct: https://bodyct.diagnijmegen.nl
 - DIAG (main website): https://beta.diagnijmegen.nl
 
 ## Updating the content
