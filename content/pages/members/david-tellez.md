@@ -4,7 +4,7 @@ template: people-single
 picture: people/David_Tellez.jpg
 position: PhD Candidate
 active: yes
-groups: pathology
+groups: pathology, diag
 default_group: pathology
 email: david.tellez@radboudumc.nl
 office: Route 812, room 2.39
