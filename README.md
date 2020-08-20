@@ -21,7 +21,7 @@ Websites in development
 
 ## Updating the content
 
-Please see the [documentation](https://github.com/DIAGNijmegen/website-content/tree/master/docs) for guides on updating the websites.
+Please see the [documentation](https://github.com/DIAGNijmegen/website-content/tree/master/docs) for guides on updating the sites.
 
 ## Building the website locally
 
