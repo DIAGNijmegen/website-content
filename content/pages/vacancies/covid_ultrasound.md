@@ -1,5 +1,5 @@
 title: Automated COVID-19 classification using ultrasound
-groups: ai-for-health
+groups: ai-for-health, diag
 closed: false
 type: student
 picture: vacancies/covid_echo.png
