@@ -40,7 +40,7 @@ NAV_SECTIONS = [
 ]
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
-HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Calendar": "Calendar"}
+HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies"}
 
 # Whether to show breadcrumbs on the page
 ENABLE_BREADCRUMBS = False
