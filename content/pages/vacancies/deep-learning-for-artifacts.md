@@ -29,5 +29,5 @@ The main goal of this project is to develop a deep learning model that can detec
 
 ## Information
 - Project duration: 6 months
-- Location: Radboud University Nijmegen Medical Centre
-- For more information please contact [Caner Mercan](https://www.computationalpathologygroup.eu/members/caner-mercan/)
+- Location: Radboud University Nijmegen Medical Center
+- For more information please contact [Caner Mercan](https://www.computationalpathologygroup.eu/members/caner-mercan/).
