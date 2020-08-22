@@ -39,3 +39,6 @@ The mean percentage differences between the predicted area quantification and gr
 
 ![Bland-Altman plots](/content/images/projects/muscle-fat-seg-blandaltman.png)
 *Bland-Altman plots showing the difference in area for each class between the predicted quantification and the ground truth in cm^2. The predictions are those of the twin networks approach. The 30 data points are the test slices, 6 for each location in the abdomen (L1 - L5). The mean difference is indicated by the dashed blue line. The 95% confidence intervals are indicated by the gray dotted lines.*
+
+![Example segmentation](/content/images/projects/muscle-fat-seg-segmentations.png)
+*Representative example of abdominal segmentation of muscle and fat. A-C: axial slices at L1, L3, and L5. D, E: sagittal slices through the middle and to the left of the body. F: coronal slice through the center of the abdomen.*
