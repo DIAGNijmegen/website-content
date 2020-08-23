@@ -5,7 +5,7 @@ type: general
 picture: projects/lungcancerimaging.png
 template: project-single
 groups: diag
-people: Colin Jacobs, Kiran Vaidhya Venkadesh, Ward Hendrix, Anton Schreuder, Sil van de Leemput, Ernst Scholten, Steven Schalekamp, Bram van Ginneken, Matthieu Rutten, Cornelia Schaefer-Prokop, Mathias Prokop
+people: Colin Jacobs, Kiran Vaidhya Venkadesh, Ward Hendrix, Anton Schreuder, Luuk Boulogne, Sil van de Leemput, Ernst Scholten, Steven Schalekamp, Bram van Ginneken, Matthieu Rutten, Cornelia Schaefer-Prokop, Mathias Prokop
 description: CT imaging is key for early detection, diagnosis and treatment planning in lung cancer. AI solutions can optimize and automate this process. 
 bibkeys: Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Chun18b, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
