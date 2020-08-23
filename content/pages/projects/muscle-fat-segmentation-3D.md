@@ -28,17 +28,17 @@ The algorithm achieves dice scores of 0.91, 0.84, 0.97 and 0.97 for SM, IMAT, VA
 
 The mean percentage differences between the predicted area quantification and ground truth are 8.83%, 11.5%, 3.47%, and 1.08% for SM, IMAT, VAT, and SAT respectively.
 
-![App flowchart]({{ IMGURL }}/images/projects/muscle-fat-seg-flowchart.png)
+![App flowchart]({{ IMGURL }}/images/projects/muscle-fat-seg-flowchart.png)<br>
 *Flowchart of the application, as it is hosted on grand-challenge.*
 
-![Class dice boxplot]({{ IMGURL }}/images/projects/muscle-fat-seg-class-boxplot.png)
+![Class dice boxplot]({{ IMGURL }}/images/projects/muscle-fat-seg-class-boxplot.png)<br>
 *Box plots showing the dice score (averaged over all locations in the abdomen) for each class and each experiment model. The final proposed model is the Twin networks approach.*
 
-![Location dice boxplot]({{ IMGURL }}/images/projects/muscle-fat-seg-location-boxplot.png)
+![Location dice boxplot]({{ IMGURL }}/images/projects/muscle-fat-seg-location-boxplot.png)<br>
 *Box plots showing the dice score (averaged over all classes) in each location in the abdomen, for each model. Note that the box plot for the twin networks is not shown in this figure since it is equivalent to the performance of the L3 base model for L1 - L4, and the active learning model at L5.*
 
-![Bland-Altman plots]({{ IMGURL }}/images/projects/muscle-fat-seg-blandaltman.png)
+![Bland-Altman plots]({{ IMGURL }}/images/projects/muscle-fat-seg-blandaltman.png)<br>
 *Bland-Altman plots showing the difference in area for each class between the predicted quantification and the ground truth in cm^2. The predictions are those of the twin networks approach. The 30 data points are the test slices, 6 for each location in the abdomen (L1 - L5). The mean difference is indicated by the dashed blue line. The 95% confidence intervals are indicated by the gray dotted lines.*
 
-![Example segmentation]({{ IMGURL }}/images/projects/muscle-fat-seg-segmentations.png)
+![Example segmentation]({{ IMGURL }}/images/projects/muscle-fat-seg-segmentations.png)<br>
 *Representative example of abdominal segmentation of muscle and fat. A-C: axial slices at L1, L3, and L5. D, E: sagittal slices through the middle and to the left of the body. F: coronal slice through the center of the abdomen.*
