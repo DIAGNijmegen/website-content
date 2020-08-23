@@ -1,7 +1,7 @@
 title: Thijs van den Hout
 name: Thijs van den Hout
 template: people-single
-picture: people/Person.png
+picture: people/Thijs_van_den_Hout.jpg
 position: Master Student
 active: yes
 groups: diag
