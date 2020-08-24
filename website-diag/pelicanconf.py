@@ -31,7 +31,7 @@ HOME_JUMBOTRON_LAYOUT = 'dense'
 # d-lg-block is used to force to show the text on lg viewports, for other websites there is not
 # enought room to show the text.
 NAV_SECTIONS = [
-    {"name": "About", "url": "about", "icon_mobile": "info-o", "text_class": "d-lg-block"},
+    {"name": "About", "url": "about", "icon_mobile": "info", "text_class": "d-lg-block"},
     {"name": "People", "url": "people", "icon_mobile": "users", "text_class": "d-lg-block"},
     {"name": "Research", "url": "research", "icon_mobile": "folder", "text_class": "d-lg-block"},
     {"name": "Publications", "url": "publications", "icon_mobile": "file-text-o", "text_class": "d-lg-block"},
