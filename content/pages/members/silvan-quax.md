@@ -4,7 +4,7 @@ template: people-single
 picture: people/Silvan_Quax.jpg
 position: Research Scientist
 active: yes
-groups: rtc
+groups: rtc, diag
 default_group: rtc
 email: silvan.quax@radboudumc.nl
 office: Route 767, Room 27
