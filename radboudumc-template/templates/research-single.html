@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}{{ page.description }}{% endblock %}
+{% block page_picture %}{{ IMGURL }}/images/{{ page.picture }}{% endblock %}
+{% block content %}
+    {% include 'blocks/breadcrumbs.html' %}
+    <div class="container">
+    <h1 class="page-title">
+        {% if page.title_long %}
+            {{ page.title_long }}
+        {% else %}
+            {{ page.title }}
+        {% endif %}
+    </h1>
+
+    <div class="page-content">
+        {{ page.content }}
+    </div>
+
+    {% if page.projects %}
+    <h2>Projects</h2>
+    <div class="row mt-4">
+        {% for project in page.projects.split(',') %}
+            {% for card in pages %}
+                {% if card.category == 'projects' and card.slug == project.strip() %}
+                    {% include "blocks/card.html" %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.people %}
+    <h2>People</h2>
+    <div class="container">
+        <div class="row people-grid">
+        {% for person_name in page.people.split(',') %}
+          {% if person_name.strip() in MEMBER_DATA_PER_NAME %}
+            {% set person = MEMBER_DATA_PER_NAME[person_name.strip()] %}
+            {% include "blocks/person-circle.html" %}
+          {% else %}
+            {% include "blocks/person-external-circle.html" %}
+          {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.bibkeys %}
+    <h2>Publications</h2>
+    <div class="container">
+        <ul>
+        {% for bibkey in page.bibkeys.split(',') %}
+            {% set bibkey = bibkey.strip().lower() %}
+            {% if bibkey in BIB_ITEMS %}
+                {% include "blocks/publication-item.html" %}
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    </div>
+{% endblock %}

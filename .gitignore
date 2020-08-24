@@ -112,6 +112,7 @@ website-*/plugins/*
 !website-*/plugins/*.gitkeep
 website-*/content/pages/presentations/*
 website-*/content/pages/projects/*
+website-*/content/pages/research/*
 website-*/content/pages/software/*
 website-*/content/pages/vacancies/*
 website-*/content/pages/publications/*

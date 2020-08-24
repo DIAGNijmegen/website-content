@@ -1,5 +1,5 @@
-[[redirects]]
-  from = "/projects"
-  to = "/research"
-  status = 301
-  force = true
+#[[redirects]]
+#  from = "/projects"
+#  to = "/research"
+#  status = 301
+#  force = true
