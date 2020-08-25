@@ -1,11 +1,11 @@
-title: Lung Cancer Imaging
-title_long: Artificial Intelligence for Lung Cancer Imaging
+title: Artificial Intelligence for Lung Cancer Screening
+title_long: Artificial Intelligence for Lung Cancer Screening
 finished: false
 type: general
 picture: projects/lungcancerimaging.png
 template: project-single
 groups: diag
-people: Colin Jacobs, Kiran Vaidhya Venkadesh, Ward Hendrix, Anton Schreuder, Luuk Boulogne, Sil van de Leemput, Ernst Scholten, Steven Schalekamp, Bram van Ginneken, Matthieu Rutten, Cornelia Schaefer-Prokop, Mathias Prokop
+people: Colin Jacobs, Kiran Vaidhya Venkadesh, Anton Schreuder, Sil van de Leemput, Ernst Scholten, Bram van Ginneken, Cornelia Schaefer-Prokop, Mathias Prokop
 description: CT imaging is key for early detection, diagnosis and treatment planning in lung cancer. AI solutions can optimize and automate this process. 
 bibkeys: Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Chun18b, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
@@ -20,4 +20,4 @@ AI holds great potential to assist in many of the detection and characterization
 In this project, we aim for early detection of lung cancer. Much of our work is about extending and improving our current nodule CAD algorithms and automating lung cancer screening. Next to that, we alos have a strong focus on performing clinical research in this area. To help us achieve our goals, we have developed a high-throughput workstation for lung cancer screening (see more info below), which incorporates many of the algorithms we develop. This project is done in close collaboration with [MeVis Medical Solutions AG](https://www.mevis.de/en/) and [Jeroen Bosch Ziekenhuis in 's-Hertogenbosch](https://www.jeroenboschziekenhuis.nl). This project has led to the release of [Veolity](https://www.veolity.com), a optimized workstation solution for lung cancer screening.
 
 ## Funding
-This project has received and continues to receive funding from several sources: [Dutch Research Council (NWO)](https://www.nwo.nl/en/), [Radboudumc](https://www.radboudumc.nl), [Jeroen Bosch Ziekenhuis in 's-Hertogenbosch](https://www.jeroenboschziekenhuis.nl), and [MeVis Medical Solutions AG](https://www.mevis.de/en/).
+This project has received and continues to receive funding from several sources: [Dutch Research Council (NWO)](https://www.nwo.nl/en/), [Radboudumc](https://www.radboudumc.nl) and [MeVis Medical Solutions AG](https://www.mevis.de/en/).
