@@ -6,7 +6,7 @@ picture: projects/lung-cancer-screening.png
 template: project-single
 groups: diag
 people: Colin Jacobs, Kiran Vaidhya Venkadesh, Anton Schreuder, Sil van de Leemput, Ernst Scholten, Bram van Ginneken, Cornelia Schaefer-Prokop, Mathias Prokop
-description: CT imaging is key for early detection, diagnosis and treatment planning in lung cancer. AI solutions can optimize and automate this process. 
+description: We aim to improve the efficiency of lung cancer screening by using artificial intelligence. 
 bibkeys: Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Chun18b, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
 ## Background
