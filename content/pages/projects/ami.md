@@ -1,7 +1,7 @@
 title: AMI
 finished: true
 type: general
-picture: projects/AMI.png
+picture: projects/ami-combined.png
 template: project-single
 groups: pathology, retina, diag
 default_group: diag
