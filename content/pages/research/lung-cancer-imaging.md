@@ -3,10 +3,7 @@ picture: projects/lung-cancer-imaging.png
 template: research-single
 groups: diag
 description: Artificial intelligence in lung cancer imaging
-people: Colin Jacobs, Kiran Vaidhya Venkadesh, Ward Hendrix, Anton Schreuder, Sil van de Leemput, Ernst Scholten, Bram van Ginneken, Matthieu Rutten, Cornelia Schaefer-Prokop, Mathias Prokop
-bibkeys: Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Chun18b, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 projects: lung-cancer-screening, incidental-lung-nodules
-software: cirruslungs
 
 Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. The World Health Organization (WHO) has estimated that there were 2.09 million cases of lung cancer and 1.76 million deaths due to lung cancer in 2018. Tobacco smoking remains the main risk factor for lung cancer. CT imaging is key for early detection, diagnosis and treatment planning in lung cancer. In our research, we aim to develop, validate and deploy algorithms that assist in the interpretation of radiological imaging for lung cancer. 
 
