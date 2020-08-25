@@ -190,6 +190,8 @@ def parse_bibtex_file(filename, full_strings_bib):
                 continue
 
             bib_item['pubinfo'] = bib_item['year'].strip()
+
+            bib_item['year'] = int(bib_item['year'])
             
             if 'volume' in bib_item:
                 bib_item['pubinfo'] += ';' + bib_item['volume'].strip()

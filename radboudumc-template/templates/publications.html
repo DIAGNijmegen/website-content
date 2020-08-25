@@ -6,15 +6,16 @@
     {% include 'blocks/breadcrumbs.html' %}
     <div class="container">
 
-    <h1>{{ page.title  }} </h1>
+    <h1>{{ page.main_title }} </h1>
 
 
     <!-- if bibkeys are  custom set-->
+    {% set custom = 'false' %}
     {% if page.bibkeys %}
         {% set years = [] %} 
         {% set bibkeys_per_year = dict() %}
         {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %} 
-
+        {% set custom = 'true' %}
         {% for bibkey in page.bibkeys.split(',') %}
             {% set bibkey = bibkey.strip().lower() %}
             {% set year = BIB_ITEMS[bibkey]['year'] %}
@@ -23,13 +24,16 @@
                 {% set _dummy =  years.append(year) %} 
             {% endif %}
             
-            {% if year in bibkeys_per_year %}
-                {% set _dummy = bibkeys_per_year.update({ year: bibkeys_per_year[year] + [bibkey]  })  %}
+            {% if year|string() in bibkeys_per_year %}
+                {% set _dummy = bibkeys_per_year.update({ year|string(): bibkeys_per_year[year|string()] + [bibkey]  })  %}
             {% else %}
-                {% set _dummy = bibkeys_per_year.update({ year: [bibkey] }) %}
+                {% set _dummy = bibkeys_per_year.update({ year|string(): [bibkey] }) %}
             {% endif %}
 
         {% endfor %}
+
+        {% set bib_years = years %}
+        {% set next_url = 'publications/' %}
         {% include 'blocks/publication_list.html' %}
 
     <!-- use site group bib keys -->
@@ -39,9 +43,22 @@
         {% else %}
             {% set show_years = SHOW_PUBLICATION_YEARS %}
         {% endif %}
+
         {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
+
+        {% if page.slug == 'publications' or page.slug == 'no-year-headings' %}
+            {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__'] %}
+        {% elif page.slug == '2012-and-before' %}
+            {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__']|select("lessthan", 2013) %}
+        {% else %}
+            {% set bib_years = [page.slug] %}
+        {% endif %}
+
         {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
-        {% set list_pub_type = GROUP_KEYS[SITE_GROUP]['__types__'] %}            
+        {% set list_pub_type = GROUP_KEYS[SITE_GROUP]['__types__'] %}   
+        
+        {% set next_url = 'publications/' %}
+
         {% include 'blocks/publication_list.html' %}
 
     {% endif %}

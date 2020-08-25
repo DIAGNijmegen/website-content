@@ -1,47 +1,57 @@
-
-
-{% if show_years %}
-
+{% if custom == 'false' %}
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
-    <input type="radio" name="year-selection" data-year="all" id="input_all" autocomplete="off" style="display: none">
-    <label class="btn btn-link" for="input_all", style="color:grey">
-        all
-    </label>
+    {% if page.slug == page.author or page.slug == 'publications' %}
+        <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}">all</a>
+    {% else %}
+        <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}">all</a>
+    {% endif %}
+    
+
+    {% if page.slug == 'no-year-headings' %}
+        <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}no-year-headings">all (no year headings)</a>
+    {% else %}
+        <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}no-year-headings">all (no year headings)</a>
+    {% endif %}
+
     {% set max_year = MAX_YEAR_PUB or 2012   %}
     {% for cur_year in years if cur_year|int >= max_year  %}
+        {% set cur_year_slug = cur_year %}
         {% if cur_year|int <= max_year %}
             {% set cur_year = max_year|string + ' and before' %}
+            {% set cur_year_slug = max_year|string + '-and-before' %}
         {% endif %}
-        <input type="radio" name="year-selection" data-year="{{ cur_year }}" id="input_{{ cur_year }}" autocomplete="off" style="display: none">
-        <label class="btn btn-link" for="input_{{cur_year}}", style="color:grey">
-            {{ cur_year }}
-        </label>
+
+        {% if page.slug == cur_year_slug|string() %}
+            <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}{{cur_year_slug}}">{{ cur_year }}</a>
+        {% else %}
+            <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}{{cur_year_slug}}">{{ cur_year }}</a>
+        {% endif %}
+        
     {% endfor %}
 </div>
 {% endif %}
+
     
     {# Lists the publications per year and organized by publication type #}
-    {% if show_years %}
-        {% for cur_year in years %}
-            <div data-year="{{ cur_year }}" class="publication-year">
-                <h2>{{ cur_year }}</h2>
-                {% for pub_type in list_pub_type %}
-                    {% set found = { 'flag': false } %}
-                    {% for bibkey in bibkeys_per_year[cur_year] %}
-                        {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
-                            {% if found['flag'] == false %}
-                                {% include "blocks/publication-type.html" %}
-                                <ol>
-                                {% if found.update({'flag': true}) %}{% endif %}
-                            {% endif %}
-                            {% include "blocks/publication-item.html" %}				
+    {% if page.slug != 'no-year-headings'%}
+        {% for cur_year in bib_years %}
+            <h2>{{ cur_year }}</h2>
+            {% for pub_type in list_pub_type %}
+                {% set found = { 'flag': false } %}
+                {% for bibkey in bibkeys_per_year[cur_year|string()] %}
+                    {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
+                        {% if found['flag'] == false %}
+                            {% include "blocks/publication-type.html" %}
+                            <ol>
+                            {% if found.update({'flag': true}) %}{% endif %}
                         {% endif %}
-                    {% endfor %}
-                    {% if found['flag'] == true %}
-                        </ol>
+                        {% include "blocks/publication-item.html" %}				
                     {% endif %}
                 {% endfor %}
-            </div>
+                {% if found['flag'] == true %}
+                    </ol>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
         
     {# Lists the publications organized by publication type per year #}
@@ -49,8 +59,8 @@
         {% for pub_type in list_pub_type %}
                 {% include "blocks/publication-type.html" %}
                 <ol>
-                {% for cur_year in years %}
-                    {% for bibkey in bibkeys_per_year[cur_year] %}
+                {% for cur_year in bib_years %}
+                    {% for bibkey in bibkeys_per_year[cur_year|string()] %}
                         {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
                             {% include "blocks/publication-item.html" %}				
                         {% endif %}
@@ -59,39 +69,3 @@
                 </ol>
         {% endfor %}
     {% endif %}
-
-{% if show_years %}
-<script type="text/javascript">
-    var buttons = document.getElementsByName('year-selection');
-    var year_blocks = document.getElementsByClassName('publication-year');
-
-    for(var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', function(event) {
-        var year = this.dataset.year; 
-        var yearsplit = year.split(' ')
-        for(var b = 0; b < year_blocks.length; b++) {
-            if (year == 'all'){
-                year_blocks[b].style.display = 'block';
-            }
-            else{
-                if (yearsplit[yearsplit.length-1] == 'before'){
-                    if(year_blocks[b].dataset.year <= parseInt(yearsplit[0])) {
-                        year_blocks[b].style.display = 'block';
-                    } else {
-                        year_blocks[b].style.display = 'none';
-                    }
-        
-                } else {
-                    if(year_blocks[b].dataset.year == year) {
-                        year_blocks[b].style.display = 'block';
-                    } else {
-                        year_blocks[b].style.display = 'none';
-                    }
-                }
-            }
-        }
-    });
-    }
-    buttons[1].click()
-</script>
-{% endif %}

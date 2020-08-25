@@ -6,7 +6,7 @@ import glob
 import os
 import numpy as np
 
-from mdfiles import create_author_md_files, create_publication_md
+from mdfiles import create_author_md_files, create_publication_md, create_group_md_files
 from authors import get_list_researchers, get_publications_by_author
 from bibreader import parse_bibtex_file
 
@@ -54,8 +54,7 @@ def sort_bib_keys_author(author_bib_keys, bib_items):
         for key in keys:
             bib_items_per_data.setdefault(bib_items[key]['year'], set()).add(key)
             bib_items_per_data.setdefault('__types__', set()).add(bib_items[key]['type'])
-        bib_items_per_data['__years__'] = sorted(set(bib_items_per_data.keys()))[::-1]
-        bib_items_per_data['__years__'].remove('__types__')
+        bib_items_per_data['__years__'] = sorted(set([y for y in bib_items_per_data.keys() if isinstance(y, int)]))[::-1]
         bib_items_per_data['__types__'] = [t for t in _types if t in bib_items_per_data['__types__']]
 
         #TODO sort by month
@@ -80,8 +79,7 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
                 
     # compute all years per group
     for group in groups:
-        bib_items_per_group_per_date[group]['__years__'] = sorted(set(bib_items_per_group_per_date[group].keys()))[::-1]
-        bib_items_per_group_per_date[group]['__years__'].remove('__types__')
+        bib_items_per_group_per_date[group]['__years__'] = sorted(set([y for y in bib_items_per_group_per_date[group].keys() if isinstance(y, int)]))[::-1]
         bib_items_per_group_per_date[group]['__types__'] = [t for t in _types if t in bib_items_per_group_per_date[group]['__types__']]
         #TODO sort by month
     return bib_items_per_group_per_date
@@ -90,7 +88,7 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
 @timeit
 def parse_bib_file():
     print('parsing bib file...')
-    bib_items = parse_bibtex_file('./content/diag.bib', './content/fullstrings.bib')
+    bib_items = parse_bibtex_file('/home/mart/Radboudumc/diag-literature/diag.bib', '/home/mart/Radboudumc/diag-literature/fullstrings.bib')
     
     print('retreiving list of diag members')
     list_researchers = get_list_researchers('./content/pages/members/')
@@ -111,16 +109,19 @@ def parse_bib_file():
     print('saving groupbibkeys.json')
     save_dict2json('./content/groupkeys.json', bib_items_per_group_per_date )
 
-    return bib_items, list_researchers, author_bib_keys
+    return bib_items, list_researchers, bib_items_per_author_per_date, bib_items_per_group_per_date
 
 
 if __name__ == "__main__":
-    bib_items, list_researchers, author_bib_keys = parse_bib_file()
+    bib_items, list_researchers, bib_items_per_author_per_date, bib_items_per_group_per_date = parse_bib_file()
 
     print('creating author md files')
-    create_author_md_files(author_bib_keys, list_researchers)
+    create_author_md_files(bib_items_per_author_per_date, list_researchers)
+
+    print('creating group md files')
+    create_group_md_files(bib_items_per_group_per_date)
 
     print('creating publication md files')
-    create_publication_md(bib_items, author_bib_keys, list_researchers)
+    create_publication_md(bib_items, bib_items_per_author_per_date, list_researchers)
 
     

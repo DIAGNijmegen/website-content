@@ -33,8 +33,10 @@
       {% endif %}
     </p>
 
-    <h2>Abstract</h2>
-    {{ page.content }}
+    
+    <div class="page-content">
+        {{ page.content }}
+    </div>
 
     {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
     <div id="pdf-form" class="mt-5">
