@@ -1,4 +1,4 @@
-title: AI for Health
+title: Radboud AI for Health
 picture: projects/ai-for-health.jpg
 template: research-single
 groups: diag
