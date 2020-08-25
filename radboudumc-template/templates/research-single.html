@@ -30,6 +30,19 @@
     </div>
     {% endif %}
 
+    {% if page.software %}
+    <h2>Software</h2>
+    <div class="row mt-4">
+        {% for software in page.software.split(',') %}
+            {% for card in pages %}
+                {% if card.category == 'software' and card.slug == software.strip() %}
+                    {% include "blocks/card.html" %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
     {% if page.people %}
     <h2>People</h2>
     <div class="container">
