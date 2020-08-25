@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Colin Jacobs, Kiran Vaidhya Venkadesh, Anton Schreuder, Sil van de Leemput, Ernst Scholten, Bram van Ginneken, Cornelia Schaefer-Prokop, Mathias Prokop
 description: We aim to improve the efficiency of lung cancer screening by using artificial intelligence. 
-bibkeys: Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Chun18b, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
+bibkeys: Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
 ## Background
 To be able to detect lung cancer in an early stage, screening of high-risk subjects using low-dose CT has been proposed. In 2011, the National Lung Screening Trial (NLST) was the first multicenter randomized controlled trial (RCT) to demonstrate that three rounds of annual screening of a high-risk population using low-dose chest computed tomography (CT) lead to 20% fewer lung cancer deaths after seven years of follow-up, compared to annual screening with chest radiography. Over 53,000 participants were included in this landmark study. The Dutch-Belgian NELSON trial – the second largest RCT with 15,789 participants – recently published their results and showed a 24% mortality reduction in a high-risk population of men compared to no screening. Based on the results of these trials, several countries have started the implementation of lung cancer screening, and other countries are conducting pilot trials. 
