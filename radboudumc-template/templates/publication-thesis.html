@@ -6,6 +6,11 @@
 {% include 'blocks/breadcrumbs.html' %}
 
     <div class="container">
+
+    {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
+        <img src="{{ IMGURL }}/images/theses/{{ page.coverpng | resize_image('large') }}">
+    {% endif %}
+
     <h1 class="page-title">{{ page.title }}</h1>
 
     <p class="lead">
@@ -13,37 +18,64 @@
             {{ author }}
         {% endfor %}
     </p>
-    {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
-    <img src="{{ IMGURL }}/images/theses/{{ page.coverpng | resize_image('large') }}">
-    {% endif %}
+
+
     {% if page.promotor %}
-        <p><b>Promotor: {{ page.promotor }}</b></p>
-    {% endif %}
-    {% if page.copromotor %}
-        <p><b>Copromotor: {{ page.copromotor }}</b></p>
-    {% endif %}
-    {% if page.school %}
-        <p><b>{{ page.school }}</b></p>
-    {% endif %}
-    {% if page.optmonth or page.year %}
-        <p><b>
-            {% if page.optmonth %}
-                {{page.optmonth.replace(',', '')}},
-            {% endif %}
-            {% if page.year %}
-                {{ page.year }}
-            {% endif %}
-        </b></p>
+        <b>Promotor: {{ page.promotor }}</b><br>
     {% endif %}
 
-    <p>{{ page.pub_details }}</p>
-    <p>
-        {% if page.urlweb %}
-            <a href="{{ page.urlweb }}" class="btn btn-primary">URL</a>
-        {% endif %}
-    </p>
+    {% if page.copromotor %}
+        <b>Copromotor: {{ page.copromotor }}</b><br>
+    {% endif %}
+
+    {% if page.school %}
+        <b>{{ page.school }}</b><br>
+    {% endif %}
+
+    {% if page.optmonth or page.year %}
+        <b>
+            {% if page.optmonth %}
+                {{page.optmonth.replace(',', '')}}<br>
+            {% endif %}
+            {% if page.year %}
+                {{ page.year }}<br>
+            {% endif %}
+        </b><br>
+    {% endif %}
+
+    {{ page.pub_details }}<br>
+
+    {% if page.urlweb %}
+        <a href="{{ page.urlweb }}" class="btn btn-primary">URL</a><br>
+    {% endif %}
+
     <h2>Abstract</h2>
     {{ page.content }}
+
+
+    {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
+
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
+
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey={{ page.bibkey }}&ref={{SITE_REPO}}"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
+
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+    {% endif %}
 
     </div>
 {% endblock %}
