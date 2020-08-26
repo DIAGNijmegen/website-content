@@ -3,7 +3,7 @@ title: About DIAG
 The Diagnostic Image Analysis Group was founded in January 2010. This page provides a brief history of the group, our main research topics, and collaborations. 
 
 ## Mammography
-When mammography screening for breast cancer started in The Netherlands in 1989, the national reference center was established in Nijmegen. [member/nico-karssemeijer], then a post-doc at Radboudumc, realized that computer analysis of mammograms was going to be a key area within medical image analysis, especially when [digital screening](/publications/nab90) would become a reality. He published his [first paper](/publications/kars92) on the automatic detection of abnormalities in mammograms in 1992.
+When mammography screening for breast cancer started in The Netherlands in 1989, the national reference center was established in Nijmegen. [member/nico-karssemeijer], then a post-doc at Radboudumc, realized that computer analysis of mammograms would become a key area within medical image analysis, especially when [digital screening](/publications/nab90) would become a reality. He published his [first paper](/publications/kars92) on the automatic detection of abnormalities in mammograms in 1992.
 
 Karssemeijer soon established one of the leading groups in the emerging field of computer-aided detection and diagnosis (CAD). He set up a long collaboration with the Bay Area tech company [R2 Technology](http://web.archive.org/web/19981111190238/http://www.r2tech.com/), which developed the first FDA approved CAD product for detecting breast cancer in mammograms. The [core technology](http://web.archive.org/web/19981111190238/http://www.r2tech.com/) for this product is based on Karssemeijer's method of [stellate distortion detection](/publications/kars96a). 
 
