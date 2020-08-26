@@ -8,10 +8,19 @@
   from = "/highlights/:title/"
   to = "/news/:title/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/highlights/"
   to = "/news/"
   status = 301
-  force = true
+
+[[redirects]]
+  from = "/index.php/Publications"
+  to = "/publications/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Publications"
+  query = {bibkey = ":bibkey"}
+  to = "/publications/:bibkey/"
+  status = 301
