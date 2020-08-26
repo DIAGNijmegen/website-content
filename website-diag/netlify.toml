@@ -25,3 +25,67 @@
   to = "/publications/"
   status = 301
 
+[[redirects]]
+  from = "/index.php/Research"
+  to = "/research/"
+  status = 301
+  
+[[redirects]]
+  from = "/index.php/Theses"
+  to = "/thesis-gallery/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Vacancies"
+  to = "/vacancies/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/MasterProjects"
+  to = "/vacancies/"
+  status = 301
+  
+[[redirects]]
+  from = "/index.php/Contact"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/About"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Digital_Pathology"
+  to = "/research/pathology/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Neuro"
+  to = "/research/neuro/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Retina"
+  to = "/research/retina/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Chest"
+  to = "/research/cxr/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Breast"
+  to = "/research/breast-image-analysis/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php/Prostate"
+  to = "/research/pelvic/"
+  status = 301
+
+
+
+
+
