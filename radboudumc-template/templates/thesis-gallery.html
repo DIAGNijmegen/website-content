@@ -21,7 +21,7 @@
         {% for cur_year in years %}
                 {% for pub_type in list_pub_type %}
                     {% set found = { 'flag': false } %}
-                    {% for bibkey in bibkeys_per_year[cur_year] %}
+                    {% for bibkey in bibkeys_per_year[cur_year|string()] %}
                         {% if BIB_ITEMS[bibkey]['type'] == pub_type %}
                         {% set coverpng = BIB_ITEMS[bibkey]['coverpng'] %}
                         {% set bibkey = BIB_ITEMS[bibkey]['coverpng'].replace('.png', '').lower() %}
