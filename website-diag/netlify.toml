@@ -3,3 +3,9 @@
 #  to = "/research"
 #  status = 301
 #  force = true
+
+[[redirects]]
+  from = "/highlights/:title/"
+  to = "/news/:title/"
+  status = 301
+  force = true
