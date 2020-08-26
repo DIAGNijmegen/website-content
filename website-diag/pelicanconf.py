@@ -88,9 +88,9 @@ PAGE_MEMBERS_SAVE_AS = 'people/{slug}/index.html'
 PAGE_MEMBERS_URL = 'people/{slug}/'
 SLUGIFY_SOURCE = 'basename'
 
-ARTICLE_URL = 'highlights/{slug}/'
-ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
-ARTICLE_TYPE = 'Highlights'
+ARTICLE_URL = 'news/{slug}/'
+ARTICLE_SAVE_AS = 'news/{slug}/index.html'
+ARTICLE_TYPE = 'News'
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
@@ -100,7 +100,7 @@ CATEGORIES_SAVE_AS = ''
 
 ARCHIVES_SAVE_AS = ''
 SITEMAP_SAVE_AS = 'sitemap.xml'
-INDEX_SAVE_AS = 'highlights/index.html'
+INDEX_SAVE_AS = 'news/index.html'
 
 # Theme settings
 THEME = "../radboudumc-template"

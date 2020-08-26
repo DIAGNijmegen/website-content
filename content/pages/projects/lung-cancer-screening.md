@@ -1,5 +1,5 @@
-title: Artificial Intelligence for Lung Cancer Screening
-title_long: Artificial Intelligence for Lung Cancer Screening
+title: Artificial intelligence for lung cancer screening
+title_long: Artificial intelligence for lung cancer screening
 finished: false
 type: general
 picture: projects/lung-cancer-screening.png
