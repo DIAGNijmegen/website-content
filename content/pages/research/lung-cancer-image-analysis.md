@@ -1,5 +1,5 @@
-title: Lung Cancer Imaging
-picture: projects/lung-cancer-imaging.png
+title: Lung Cancer Image Analysis
+picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
 description: Artificial intelligence in lung cancer imaging
