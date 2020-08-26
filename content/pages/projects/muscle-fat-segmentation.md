@@ -1,11 +1,11 @@
-title: Muscle and fat segmentation in 3D CT images for body composition assessment
+title: Muscle and fat segmentation in CT images for body composition assessment
 groups: ai-for-health, diag
 finished: false
 type: student
-picture: vacancies/body-composition.jpg
+picture: projects/body-composition.jpg
 template: project-single
 people: Thijs van den Hout, Nikolas Lessmann, Alina Vrieling, Matthieu Rutten
-description: Develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT images.
+description: We develop algorithms for segmentation of muscles and fat tissue in 3D CT images.
 
 ## Clinical problem
 Body composition is an important biomarker in the treatment of cancer. In particular, low muscle mass has been associated with
