@@ -2,7 +2,7 @@ title: Radiotherapy AI
 picture: projects/radiotherapy.jpg
 template: research-single
 groups: diag
-description: At DIAG we focus on building state-of-the-art adaptive radiotherapy techniques.
+description: At DIAG we focus on building AI-based adaptive radiotherapy techniques.
 projects: 
 
 Cancer is the second leading cause of death worldwide. Radiation therapy, or radiotherapy for short, plays a pivotal role in the treatment of many cancers, where approximately 50% of cancer patients can benefit from RT in the management of their disease. During radiotherapy ionizing radiation, generally produced by a linear accelerator (linac) is delivered with the intent of killing malignant cells.
