@@ -1,4 +1,4 @@
-title: Musculoskeletal Image Analysis
+title: Musculoskeletal image analysis
 picture: projects/msk.jpg
 template: research-single
 groups: diag
@@ -10,6 +10,6 @@ Musculoskeletal diseases are responsible for more years lived with disability th
 
 ## Funding
 * [AI for Health](https://www.ai-for-health.nl/)
-* [Europees Fonds voor Regionale Ontwikkeling (EFRO)](http://www.op-oost.eu/). See [press release](https://www.radboudumc.nl/nieuws/2020/thirona-en-quirem-lanceren-met-radboudumc-project-radiologie-van-de-toekomst) (in Dutch).
+* [Europees Fonds voor Regionale Ontwikkeling (EFRO)](http://www.op-oost.eu/)
 
 ![EFRO Oost-Nederland]({{ IMGURL }}/images/projects/op_oost_logo.png)
