@@ -15,12 +15,13 @@
   status = 301
 
 [[redirects]]
-  from = "/index.php/Publications"
-  to = "/publications/"
+  from = "/index.php/Publication"
+  query = {bibkey = ":bibkey"}
+  to = "/publications/:bibkey/"
   status = 301
 
 [[redirects]]
   from = "/index.php/Publications"
-  query = {bibkey = ":bibkey"}
-  to = "/publications/:bibkey/"
+  to = "/publications/"
   status = 301
+
