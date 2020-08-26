@@ -1,4 +1,4 @@
-title: Lung Cancer Image Analysis
+title: Lung cancer image analysis
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
