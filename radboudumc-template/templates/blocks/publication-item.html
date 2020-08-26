@@ -25,4 +25,17 @@
     {% if 'url' in BIB_ITEMS[bibkey] and BIB_ITEMS[bibkey]['url_type'] == 'arXiv' %}
 	<a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
     {% endif %}
+
+    {% if 'gsid' in BIB_ITEMS[bibkey] and 'gscites' in BIB_ITEMS[bibkey] %}
+	<a href={{ BIB_ITEMS[bibkey]['gsid'] }}>Cited(~{{  BIB_ITEMS[bibkey]['gscites'] }} times)</a>
+    {% endif %}
+
+    {% if 'code' in BIB_ITEMS[bibkey] %}
+    <a href={{ BIB_ITEMS[bibkey]['code'] }}>Code</a>
+    {% endif %}
+
+    {% if 'algorithm' in BIB_ITEMS[bibkey] %}
+    <a href={{ BIB_ITEMS[bibkey]['algorithm'] }}>Algorithm</a>
+    {% endif %}
+
     </small></li>

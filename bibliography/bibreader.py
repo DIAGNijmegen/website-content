@@ -202,6 +202,14 @@ def parse_bibtex_file(filename, full_strings_bib):
             if 'pages' in bib_item:
                 bib_item['pubinfo'] += ':' + bib_item['pages'].strip().replace('--', '-')
 
+
+            if 'algorithm' in bib_item:
+                pass
+        
+
+            if 'gsid' in bib_item and 'gscites' in bib_item:
+                bib_item['gsid'] = f"https://scholar.google.com/scholar?cites={bib_item['gsid']}"
+
             cover_path = ''
             if len(bib_key) > 2:
                 cover_path = bib_key[0].title() + bib_key[1:] + '.png'
