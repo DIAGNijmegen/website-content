@@ -1,7 +1,7 @@
 title: Gaby Whitehead
 name: Gaby Whitehead
 template: people-single
-picture: 
+picture: people/Gaby_Whitehead.jpg
 position: PhD Candidate
 active: yes
 groups: diag
