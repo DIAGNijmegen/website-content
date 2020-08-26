@@ -1,7 +1,7 @@
 import glob
 import codecs
 import re
-
+import os
 '''
 
 This file contains author specific functions which are needed when parsing the bibfile.
@@ -32,6 +32,8 @@ def get_list_researchers(members_path):
 
             # get name
             name = '-'.join(tags['name'])
+            name = os.path.basename(people_md_path[:-3])
+            # print(name, os.path.basename(people_md_path[:-3]))
 
             # get groups
             groups = [group.strip(',') for group in tags['groups']]
