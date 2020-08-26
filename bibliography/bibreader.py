@@ -173,7 +173,7 @@ def parse_bibtex_file(filename, full_strings_bib):
                     bib_item['pmid']
 
             if 'doi' in bib_item:
-                bib_item['doi'] = 'https://doi.org/' + bib_item['doi']
+                bib_item['doi'] = 'https://doi.org/' + bib_item['doi'].replace('>', '&gt;').replace('<', '&lt;')
 
             if 'url' in bib_item:
                 if 'arxiv' in bib_item['url']:
