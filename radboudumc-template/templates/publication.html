@@ -28,9 +28,23 @@
       {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
       <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
       {% endif %}
+
       {% if 'url' in BIB_ITEMS[page.bibkey] and BIB_ITEMS[page.bibkey]['url_type'] == 'arXiv' %}
       <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
       {% endif %}
+
+      {% if 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
+      <a href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited(~{{  BIB_ITEMS[page.bibkey]['gscites'] }} times)</a>
+      {% endif %}
+
+      {% if 'code' in BIB_ITEMS[page.bibkey] %}
+      <a href={{ BIB_ITEMS[page.bibkey]['code'] }}>Code</a>
+      {% endif %}
+
+      {% if 'algorithm' in BIB_ITEMS[page.bibkey] %}
+      <a href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
+      {% endif %}
+
     </p>
 
     
