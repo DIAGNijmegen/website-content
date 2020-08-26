@@ -9,3 +9,9 @@
   to = "/news/:title/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/highlights/"
+  to = "/news/"
+  status = 301
+  force = true
