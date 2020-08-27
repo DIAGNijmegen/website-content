@@ -1,9 +1,3 @@
-#[[redirects]]
-#  from = "/projects"
-#  to = "/research"
-#  status = 301
-#  force = true
-
 [[redirects]]
   from = "/highlights/:title/"
   to = "/news/:title/"
@@ -96,8 +90,9 @@
   to = "/people-redirect/?name=:name"
   query = {name = ":name"}
   status = 301
+
 [[redirects]]
-  from = index.php/PublicationsAuthor"
+  from = "index.php/PublicationsAuthor"
   to = "/people-redirect/?pubname=:name"
   query = {author = ":author", fullname: ":name"}
   status = 301
