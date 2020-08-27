@@ -245,6 +245,7 @@
 [[redirects]]
   from = "index.php/Person?name=Wouter_Bulten"
   to = "/people/wouter-bulten/"
+  query = {name = ":name"}
   status = 301
 [[redirects]]
   from = "index.php/Person?name=Erdi_Calli"
