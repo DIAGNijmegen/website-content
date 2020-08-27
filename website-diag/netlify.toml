@@ -85,10 +85,21 @@
   to = "/research/pelvic/"
   status = 301
 
+[[redirects]]
+  from = "/index.php/Featured_Image_Archive"
+  to = "/news/"
+  status = 301
+
 # People redirects
 #
 #
 #
+
+[[redirects]]
+  from = "index.php/Person"
+  to = "/people-redirect/?name=:name"
+  query = {name = ":name"}
+  status = 301
 
 [[redirects]]
   from = "index.php/Person?name=Bram_van_Ginneken"
