@@ -6,6 +6,7 @@ picture: projects/mri_intervention.jpg
 template: project-single
 people: Tristan de Boer, Henkjan Huisman, Patrick Brand, Elena Marchiori
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
+publications: boer2020
 
 ## Clinical problem
 The field of minimally invasive image guided interventions (MIIGI) is emerging. MIIGI, for example using an MRI, allows minimally invasive treatment of cancer and other diseases. Currently, connecting MIIGI to real-time Artificial Intelligence is unexplored. In this research, we assess the feasibility of deep learning based tracking for real-time MIIGI, by developing a deep learning based pipeline for automated guidewire tracking.
