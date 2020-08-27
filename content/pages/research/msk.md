@@ -2,7 +2,7 @@ title: Musculoskeletal image analysis
 picture: projects/msk.jpg
 template: research-single
 groups: diag
-description: Musculoskeletal conditions are a major cause of disability. We develop image analysis algorithm to improve diagnosis and treatment decisions.
+description: Musculoskeletal conditions are a major cause of disability. We develop image analysis algorithms to improve diagnosis and treatment.
 projects: lower-back-pain, muscle-fat-segmentation
 people: Nikolas Lessmann, Jasper van der Graaf, Michel Kok
 
