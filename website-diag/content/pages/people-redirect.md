@@ -1,4 +1,4 @@
-title: Redirecting
+title: This page has moved
 comment: This is a temporary page to allow for redirects of old DIAG links to the new URL format.
 
 This page has moved. For an overview of all people please see the [People page](/people/).

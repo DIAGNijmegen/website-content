@@ -90,9 +90,3 @@
   to = "/people-redirect/?name=:name"
   query = {name = ":name"}
   status = 301
-
-[[redirects]]
-  from = "index.php/PublicationsAuthor"
-  to = "/people-redirect/?pubname=:fullname"
-  query = {author = ":author", fullname: ":fullname"}
-  status = 301
