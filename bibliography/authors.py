@@ -1,7 +1,7 @@
 import glob
 import codecs
 import re
-
+import os
 '''
 
 This file contains author specific functions which are needed when parsing the bibfile.
@@ -32,6 +32,8 @@ def get_list_researchers(members_path):
 
             # get name
             name = '-'.join(tags['name'])
+            name = os.path.basename(people_md_path[:-3])
+            # print(name, os.path.basename(people_md_path[:-3]))
 
             # get groups
             groups = [group.strip(',') for group in tags['groups']]
@@ -85,12 +87,13 @@ def match_author_publication(firstname, lastnames, author, bib_key):
     author = [xname.replace('.', ' ').strip() for xname in author]
     first, von, last, jr = author
     first = first.lower()
-    last = last.lower()
+    last = '-'.join(last.lower().replace('-', ' ').replace('  ', ' ').split(' '))
     jr = jr.lower()
 
     # Additional variable that may help to avoid incorrect name matching #77
     von_last = '-'.join([von, last])
     von_last = von_last.replace(' ', '-').lower()
+
 
     if last.lower() in lastnames:
         # First match based on last name
@@ -196,6 +199,7 @@ def parse_name(name):
         first = name[:s]
         von = name[s:e]
         last = name[e:]
+
         jr = ''
 
     # "von Last, First"
@@ -204,6 +208,7 @@ def parse_name(name):
         e = parts[0].rfind(' ') if ' ' in parts[0] else 0
         von = parts[0][:e]
         last = parts[0][e:]
+
         jr = ''
 
     # "von Last, Jr, First"
@@ -212,6 +217,7 @@ def parse_name(name):
         e = parts[0].rfind(' ') if ' ' in parts[0] else 0
         von = parts[0][:e]
         last = parts[0][e:]
+
         jr = parts[1]
 
     else:
@@ -226,14 +232,23 @@ def parse_name(name):
             f += '.'
         nfirst = ' '.join([nfirst, f])
 
-    #post process von to second names
-    nvon = ''
-    for v in von.strip().split():
-        v = v.strip()
-        if v[0].isupper():
-            nfirst = ' '.join([nfirst, v])
-        else:
-            nvon = ' '.join([nvon, v])
+    #post process von to second/last names
+    if len(parts) == 1: # second name check
+        nvon = ''
+        for v in von.strip().split():
+            v = v.strip()
+            if v[0].isupper():
+                nfirst = ' '.join([nfirst, v])
+            else:
+                nvon = ' '.join([nvon, v])
+    else: # double last names check
+        nvon = ''
+        for v in von.strip().split():
+            v = v.strip()
+            if v[0].isupper():
+                last = ' '.join([v, last])
+            else:
+                nvon = ' '.join([nvon, v])
 
     #post process first and second names
     nfirst2 = ''
@@ -244,7 +259,12 @@ def parse_name(name):
             f += '.'
         nfirst2 = ' '.join([nfirst2, f])
 
-    last = '-'.join(last.strip().split())
+    if '{' in nvon:
+        last = nvon + last
+        nvon = ''
+
+    if 'bejnordi' in name.lower():
+        print(f'first: {nfirst2}, von: {nvon}, last: {last}, jr:{jr}')
 
     return decode_name((nfirst2, nvon, last, jr))
 
@@ -258,6 +278,7 @@ def authors_to_string(names):
     d = ', '
     for idx, name in enumerate(names):
         first, von, last, jr = name
+
         if first:
             first = first[0] + '.'
         if idx == len(names)-2:

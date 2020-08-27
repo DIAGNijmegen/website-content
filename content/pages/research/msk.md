@@ -1,8 +1,15 @@
-title: Musculoskeletal AI
+title: Musculoskeletal image analysis
 picture: projects/msk.jpg
 template: research-single
 groups: diag
-description: Short description of the muscoloskeletal AI research line in DIAG.
-projects: lower-back-pain
+description: Musculoskeletal conditions are a major cause of disability. We develop image analysis algorithms to improve diagnosis and treatment.
+projects: lower-back-pain, muscle-fat-segmentation
+people: Nikolas Lessmann, Jasper van der Graaf, Michel Kok
 
-msk details here. project page for bone metastases detection, and link to "radiologie van de toekomst"
+Musculoskeletal diseases are responsible for more years lived with disability than any other kind of chronic condition. We develop image analysis algorithms that assist radiologists and orthopedic surgeons in recognizing musculoskeletal conditions early and in making well-informed treatment decisions based on quantitative imaging data. This research line is led by [member/nikolas-lessmann].
+
+## Funding
+* [AI for Health](https://www.ai-for-health.nl/)
+* [Europees Fonds voor Regionale Ontwikkeling (EFRO)](http://www.op-oost.eu/)
+
+![EFRO Oost-Nederland]({{ IMGURL }}/images/projects/op_oost_logo.png)

@@ -13,7 +13,7 @@ Please follow the guides below to update or write new content for one of the web
 
 ### Members
 
-- [Create new member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-a-new-member-page.md)
+- [Create new member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-new-member-page.md)
 - [Add picture to member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/add-picture-to-member-page.md)
 - To add people without a member page, add name, url and link to picture in the file https://github.com/DIAGNijmegen/website-content/blob/master/content/external-people.yaml
 
