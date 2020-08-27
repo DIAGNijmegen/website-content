@@ -28,6 +28,6 @@ if(getParameterByName('name') in valid_people) {
 
 if(getParameterByName('pubname') in valid_pub_pages) {
     // Redirect to new publication page
-    window.location.replace('https://' + window.location.hostname + '/publications/' + validvalid_pub_pages_people[getParameterByName('pubname')])
+    window.location.replace('https://' + window.location.hostname + '/publications/' + valid_pub_pages[getParameterByName('pubname')])
 }
 </script>
