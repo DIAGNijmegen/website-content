@@ -87,12 +87,10 @@
 # People redirects
 [[redirects]]
   from = "index.php/Person"
-  to = "/people-redirect/?name=:name"
-  query = {name = ":name"}
+  to = "/people-redirect/"
   status = 301
 
 [[redirects]]
   from = "index.php/PublicationsAuthor"
-  to = "/people-redirect/?pubname=:name"
-  query = {author = ":author", fullname: ":name"}
+  to = "/people-redirect/"
   status = 301
