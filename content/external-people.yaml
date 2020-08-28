@@ -305,12 +305,6 @@ people:
     url: https://www.linkedin.com/in/shankeeth-vinayahalingam-304b3b159/
     picture: people/external/Shankeeth_Vinayahalingam.jpg
     email: Shankeeth.Vinayahalingam@radboudumc.nl
-  - name: Koen Dercksen
-    position: PhD student
-    affiliation: Data Science, Radboud University
-    url: https://www.linkedin.com/in/koen-dercksen-083a835b/
-    picture: people/external/Koen_Dercksen.jpg
-    email: Koen.Dercksen@radboudumc.nl
   - name: Ruben Kluge
     position: Master student
     affiliation: Data Science, Radboud University
@@ -407,12 +401,6 @@ people:
     url: https://www.linkedin.com/in/evisijben/
     picture: people/external/Evi_Sijben.jpg
     email: E.Sijben@student.science.ru.nl
-  - name: Jasper van der Graaf
-    position: PhD student
-    affiliation: Radboudumc
-    url: https://www.linkedin.com/in/jwvdg/
-    picture: people/external/Jasper_van_der_Graaf.jpg
-    email: Jasper.vanderGraaf@radboudumc.nl
   - name: Tim Kietzmann
     position: Assistant professor
     affiliation: Artificial Intelligence, Radboud University

@@ -34,7 +34,7 @@
       {% endif %}
 
       {% if 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
-      <a href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited(~{{  BIB_ITEMS[page.bibkey]['gscites'] }} times)</a>
+      <a href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited by ~{{  BIB_ITEMS[page.bibkey]['gscites'] }}</a>
       {% endif %}
 
       {% if 'code' in BIB_ITEMS[page.bibkey] %}
