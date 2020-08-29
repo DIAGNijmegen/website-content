@@ -10,6 +10,8 @@ email: kiranvaidhya.venkadesh@radboudumc.nl
 office: Route 767, Room 32
 type: phd
 linkedin: http://www.linkedin.com/in/kiran-vaidhya-2bb63aa8/
+scholar: https://scholar.google.com/citations?user=jIwy5iAAAAAJ&hl=en
+researcherid: http://www.researcherid.com/rid/AAD-3087-2020
 
 Kiran is a Ph.D. candidate at Radboudumc. He started work at the Diagnostic Image Analysis Group (DIAG) on 01-11-2019. He is working on early lung cancer detection with an emphasis on temporal analysis on chest CT scans using deep learning. He is supervised by [member/bram-van-ginneken], [Mathias Prokop](https://www.radboudumc.nl/en/people/mathias-prokop) and [member/colin-jacobs] under [projects/lung-cancer-screening] at DIAG.
 
