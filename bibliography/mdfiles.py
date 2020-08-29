@@ -65,10 +65,10 @@ def create_author_md_files(bib_items_per_author_per_date, list_researchers, rest
         all_bib_keys = []
         rest_bib_keys = []
         md_content = {}
-        md_content['main_title'] = 'main_title: Publications of ' + list_researchers[name][2]
+        md_content['main_title'] = 'main_title: Publications of ' + list_researchers[name][3]
         md_content['template'] = 'template: publications-author'
         md_content['author'] = 'author: ' + name.lower()
-        md_content['author_name'] = 'author_name: ' + list_researchers[name][2]
+        md_content['author_name'] = 'author_name: ' + list_researchers[name][3]
         groups = list_researchers[name][1]
         md_content['groups'] = 'groups: ' + ','.join(groups)
         
@@ -94,7 +94,7 @@ def create_author_md_files(bib_items_per_author_per_date, list_researchers, rest
                 md_file_name = os.path.join(dir_name, f'{rest_year}-and-before.md')
                 save_md_file(md_file_name, '\n'.join(md_content.values()))
             
-            md_content['title'] = 'title: Publications of ' + list_researchers[name][2]
+            md_content['title'] = 'title: Publications of ' + list_researchers[name][3]
             md_file_name = dir_name + '.md'
             save_md_file(md_file_name, '\n'.join(md_content.values()))
             
