@@ -8,20 +8,25 @@ people: Luuk Boulogne, Colin Jacobs, Bram van Ginneken
 description: Development of deep learning algorithms and web application for automated classification of COVID-19.
 
 ## Clinical problem
-The COVID-19 pandemic causes health care challenges around the world. Its major morbidity and mortality is caused by COVID-19 pneumonia and respiratory failure. Fast diagnosis and classification of the severity of the disease is of vital importance. A physical examination and chest X-ray are not sufficient to determine the severity of the disease. Most patients with a suspicion of COVID-19 will therefore undergo a CT scan, but this results in radiation exposure and is only performed within a radiology department of a hospital which limits its accessibility. Ultrasound imaging could resolve these problems, since it is does not use ionizing radiation and can be performed at the point-of-care. Moreover, in COVID-19 pneumonia it has comparable diagnostic accuracy compared to CT. Ultrasound devices have become very portable and can be connected to laptops, tablets and even smartphones. Several point-of-care ultrasound (POCUS) devices have become available on the market in recent years. Some examples are: Butterfly iQ, Philips Lumify, Telemed MicrUs Pro and the Clarius C3. Ultrasound requires a trained sonographer that can both acquire and interpret the images, which limits the use of these devices outside the hospital environment.
+Early this year, during the first peak of the COVID-19 pandemic, hospitals in hard-hit regions were overflowing with patients presenting at the emergency unit with respiratory complaints. To diagnose COVID-19, a positive RT-PCR test would be needed. But there was a huge shortage of tests and when swabs were made for RT-PCR, the result of the test was often only received after several days, while a physician would like to decide in a few minutes whether to send a patient home for self-isolation or hospitalize him or her, and if so, send him or her to a COVID-19 ward or a regular ward. 
 
-## Solution
-In this project we will make use of a standardized acquisition protocol and develop AI algorithms that will automatically interpret the ultrasound images. This makes it possible to widely perform lung ultrasound for patients suspected of COVID-19 with minimal amount of training. This would enable fast triage also outside hospitals and would make follow-up of patients over time without any radiation burden possible.
+To quickly obtain a working diagnosis, many hospitals decided to make chest CT scans of all COVID-19 suspects arriving at their emergency room. 
 
-## Tasks
--	Learn about ultrasound imaging and the acquisition protocol that is used
--	Development of deep learning algorithms
--	Evaluation of the developed algorithms
--	Optimize the algorithms on computational efficiency
-- Development of a web application for automated classification of COVID-19
- 
-## Innovation
-When the algorithms have sufficient sensitivity and accuracy, and are able to run on a smartphone, they can be used for development of a point-of-care ultrasound solution that makes it possible for health-care personnel to perform the predefined acquisition protocol with minimal amount of training, since the developed algorithm will perform the automated interpretation. This could enable wide spread use of POCUS for fast triage of COVID-19 suspected patients. The development of a web-based application will enable widespread use of the state-of-the-art algorithm by clincians and health-care personnel.
+Several Dutch hospitals collaborated and produced a standardized system for reporting these CT scans called CO-RADS. Radboudumc validated CO-RADS and showed in a [Radiology publication](https://pubs.rsna.org/doi/10.1148/radiol.2020201473) that in this high prevalence situation predicting whether patients had COVID-19 on the basis of the CT scan alone could be done with high accuracy (area under the ROC curve of 0.95).  
+
+Subsequently, researchers from the Diagnostic Image Analysis Group together with colleagues from Amsterdam and Bremen, developed an AI system to perform this diagnosis and they showed in another [Radiology publication](https://pubs.rsna.org/doi/10.1148/radiol.2020202439) that the AI system, called CORADS-AI and publicly available on [https://grand-challenge.org/algorithms/corads-ai/](https://grand-challenge.org/algorithms/corads-ai/), was nearly as accurate as radiologists in making this assessment.
+However, during the first peak of the pandemic, the population of COVID-19 suspects suffered from few other diseases that mimic the appearance of COVID-19, for example other pneumonias (during the COVID-19 peak, the yearly influenza peak had already passed) and other interstitial lung diseases. As CORADS-AI was trained with only scans from Radboudumc obtained during the peak of the pandemic in 2020, we expect that CORADS-AI may perform a lot worse during the upcoming winter season.
+
+Meanwhile, it has become evident that certain laboratory tests from blood are also quite predictive for COVID-19. These blood tests can also provide results within minutes. It is clear that an optimal test would analyze both the CT scan, clinical parameters and blood test results.
+
+## Solution 
+We want to improve CORADS-AI by training it to differentiate between COVID-19 and other lung diseases and by combining the CT scan analysis with routinely acquired blood parameters. This improved CORADS-AI system can then be used during the upcoming winter season and maybe it could even do a background screening of any patient who undergoes a chest CT scan in the hospital, flagging suspect cases to the technician who acquires the scan while the patient is still in the room. Patients with a suspicious scan could then receive an RT-PCR test immediately.  
+
+## Data
+We have access to several public and proprietary data sets of CT scans, clinical information and blood test results. In total, scans and clinical features of thousands of COVID-19 suspects and people without COVID-19 who were examined in the pre-COVID-19 era, are available. 
+
+## Approach
+You will be supervised by [DIAG](http://www.diagnijmegen.nl) researchers who contributed to CORADS-AI. You will have access to [Sol](https://rtc.diagnijmegen.nl/software/sol/), a high-performance deep learning cluster. There are several machine learning approaches you could explore to differentiate between COVID-19 and other lung diseases with overlapping patterns and to combine CT scans with clinical features and blood values. We are looking for two students, one to focus on CT analysis, the other one on combining image analysis with clinical features.
 
 ## Requirements
 - Students with a major in data science, computer science, or artificial intelligence in the final stage of master level studies are invited to apply.
