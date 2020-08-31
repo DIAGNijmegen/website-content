@@ -16,8 +16,8 @@ With over ten thousand people on the waiting list for kidney transplantation, re
 
 ## Aim
 
-Key is combining dynamic mathematical models of macrophage-associated immunological and metabolic regulation with advanced biopsy evaluation and in-vitro experiments to dissect processes in the renal interstitium that converge into IF/TA.  
-In our study we combine  Deep Learning with Periodic Acid Schiff (PAS) and multiplex immunohistochemically (mIHC) stained histopathological slides to extract objective information from protocol biopsies with the aim to answer research objectives revolving around kidney allograft rejection.
+Key is combining dynamic mathematical models of macrophage-associated immunological and metabolic regulation with advanced biopsy evaluation and in-vitro experiments to dissect processes in the renal interstitium that converge into IFTA.  
+In our study we combine  Deep Learning with multiplex immunohistochemically (mIHC) stained histopathological slides to extract objective information from protocol biopsies with the aim to answer research objectives revolving around kidney allograft rejection.
 
 ## Media
 
