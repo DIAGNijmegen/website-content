@@ -36,5 +36,5 @@ You will be supervised by [DIAG](http://www.diagnijmegen.nl) researchers who con
 ## Information
 -	Project duration: 6 months
 -	Location: Radboud University Medical Center
--	For more information, please contact [member/luuk-boulogne] 
+-	For more information, please contact [member/luuk-boulogne]. 
 
