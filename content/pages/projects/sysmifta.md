@@ -20,9 +20,9 @@ With over ten thousand people on the waiting list for kidney transplantation, re
 Key is combining dynamic mathematical models of macrophage-associated immunological and metabolic regulation with advanced biopsy evaluation and in-vitro experiments to dissect processes in the renal interstitium that converge into IF/TA.  
 In our study we combine  Deep Learning with Periodic Acid Schiff (PAS) and multiplex immunohistochemically (mIHC) stained histopathological slides to extract objective information from protocol biopsies with the aim to answer research objectives revolving around kidney allograft rejection.
 
-## Media & Publications
+## Media
 
-Kim M (2018, March 29). ‘A Machine Learning Algorithm Segments Renal Tissue into Healthy and Pathological Structures.' [Bioengineering Today]( https://bioengineeringtoday.org/emerging-tech/machine-learning-algorithm-segments-renal-tissue-healthy-and-pathological-structures)
+['Wiskundig wapen tegen afstoting donornier - algoritme kan helpen beschadiging vroeg te herkennen', Mediator (34), ZonMw.](https://mediator.zonmw.nl/mediator-34/wiskundig-wapen-tegen-afstoting-donornier/)
 
 ## Funding
 
