@@ -1,11 +1,11 @@
-title: Automated COVID-19 classification using ultrasound
+title: Improving detection of COVID-19 classification with CT scans
 groups: ai-for-health, diag
 closed: false
 type: student
 picture: vacancies/corads-ai.jpg
 template: vacancy-single
 people: Luuk Boulogne, Colin Jacobs, Bram van Ginneken
-description: Development of deep learning algorithms and web application for automated classification of COVID-19.
+description: Development of deep learning algorithms and a web application for automated classification of COVID-19.
 
 ## Clinical problem
 Early this year, during the first peak of the COVID-19 pandemic, hospitals in hard-hit regions were overflowing with patients presenting at the emergency unit with respiratory complaints. To diagnose COVID-19, a positive RT-PCR test would be needed. But there was a huge shortage of tests and when swabs were made for RT-PCR, the result of the test was often only received after several days, while a physician would like to decide in a few minutes whether to send a patient home for self-isolation or hospitalize him or her, and if so, send him or her to a COVID-19 ward or a regular ward. 
