@@ -7,9 +7,9 @@ active: yes
 groups: diag
 default_group: diag
 email: anton.schreuder@radboudumc.nl
-office: Route 767, Room 23
-telephone: +31 24 3655793
 type: phd
 linkedin: http://www.linkedin.com/in/anton-schreuder-21978030
+scholar: https://scholar.google.com/citations?user=Y-qreYAAAAAJ&hl=en
+researcherid: http://www.researcherid.com/rid/N-6349-2017
 
-Anton Schreuder is a PhD student at the Radboud university medical center, Nijmegen, working as part of the Diagnostic Image Analysis Group. His bachelor consisted of the pre-medical track at the University College Roosevelt, Middelburg (2009 to 2012), directly followed by studying at the Leiden university medical center, Leiden, where he obtained his medical degree in 2016. Anton is doing research on the use of CT scans for the screening of lung cancer, more specifically the epidemiological aspect of determining participation eligibility which would lead to a more effective screening. This project is being carried out under the supervision of Cornelia Schaefer-Prokop, Bram van Ginneken, and Mathias Prokop and is funded by the Dutch Cancer Society.
+Anton Schreuder started as a PhD student in the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) of the [Department of Radiology and Nuclear Imaging](https://www.radboudumc.nl/afdelingen/radiologie-en-nucleaire-geneeskunde) of the [Radboudumc (Nijmegen)](https://www.radboudumc.nl/research) in 2016 right after obtaining his medical degree from [Leiden University Medical Center](https://www.lumc.nl/onderwijs/geneeskunde/). His research focuses on risk prediction modelling in the field of lung cancer CT screening; the goal is to use information from CT scans to determine who should (continue to) participate in the screening programs as well as how often they should be screened ([project/lung-cancer-screening] project). Anton's supervision team consists of [member/cornelia-schaefer-prokop] (primary promoter), [member/bram-van-ginneken] (secondary promoter), [member/colin-jacobs] (co-promoter), and [Mathias Prokop](http://radboudimaging.nl/index.php/Person?name=Mathias_Prokop) (supervisor) and was funded by the [Dutch Cancer Society](https://www.kwf.nl/onderzoek?gclid=EAIaIQobChMI3diSspTF6wIVhbp3Ch13iAmrEAAYASACEgLitPD_BwE) and [Bram van Ginneken's VICI grant](https://www.ru.nl/@762601/vici-toekenningen/#h36c30be4-a911-4d4a-94e4-ed1d7afb49ef).

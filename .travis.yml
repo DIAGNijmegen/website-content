@@ -107,8 +107,8 @@ jobs:
         - WEBSITE=website-ai-for-health
         - GENERATE_PUB=0
       deploy:
-        <<: *deploy_defaults
-        fqdn: www.ai-for-health.nl
+        <<: *netlify_deploy_defaults
+        site: $NETLIFY_SITEID_AIFORHEALTH
     # Run image optimization script
     - stage: images
       if: branch = master

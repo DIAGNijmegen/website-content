@@ -31,7 +31,7 @@ def get_list_researchers(members_path):
                            ] if 'pub_name' in tags else [n for n in tags['name']]
 
             # get name
-            name = '-'.join(tags['name'])
+            title_name = ' '.join(tags['name'])
             name = os.path.basename(people_md_path[:-3])
             # print(name, os.path.basename(people_md_path[:-3]))
 
@@ -46,7 +46,7 @@ def get_list_researchers(members_path):
 
 
         # append researcher with name as key and author_name and groups as value
-        list_researchers[name.lower()] = (author_name, groups, name.replace('-', ' '), pub_per_year)
+        list_researchers[name.lower()] = (author_name, groups, name.replace('-', ' '), title_name, pub_per_year)
     return list_researchers
 
 
@@ -62,7 +62,7 @@ def get_publications_by_author(bib_items, list_researchers):
             continue
         authors = bib_item['author']
         for name, value in list_researchers.items():
-            researcher_name, _, _, _ = value
+            researcher_name, _, _, _, _ = value
             firstname = researcher_name[0].lower()
             lastnames = [n.lower() for n in researcher_name[1:]]
 
@@ -262,9 +262,6 @@ def parse_name(name):
     if '{' in nvon:
         last = nvon + last
         nvon = ''
-
-    if 'bejnordi' in name.lower():
-        print(f'first: {nfirst2}, von: {nvon}, last: {last}, jr:{jr}')
 
     return decode_name((nfirst2, nvon, last, jr))
 
