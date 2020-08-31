@@ -89,6 +89,11 @@
   to = "/"
   status = 301
 
+[[redirects]]
+  from = "/index.php/People"
+  to = "/people/"
+  status = 301
+
 # People redirects
 [[redirects]]
   from = "index.php/Person"
