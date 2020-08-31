@@ -8,7 +8,7 @@ description: The investigation of the role of immune cell subsets in interstitia
 template: project-single
 groups: pathology, diag
 default_group: pathology
-bibkey: Herm17, Herm18, Herm19, Herm20
+bibkeys: Herm17, Herm18, Herm19, Herm20
 disable_gradient: true
 
 ## Background
