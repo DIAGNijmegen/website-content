@@ -1,0 +1,2 @@
+title: Vacancies
+template: vacancies
