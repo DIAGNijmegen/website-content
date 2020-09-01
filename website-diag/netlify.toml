@@ -101,12 +101,23 @@
 
 
 # People redirects
+#[[redirects]]
+#  from = "index.php/Person"
+#  to = "/people-redirect/?name=:name"
+#  query = {name = ":name"}
+#  status = 301
+
 [[redirects]]
   from = "index.php/Person"
-  to = "/people-redirect/?name=:name"
+  to = "/people-redirect/:name"
   query = {name = ":name"}
   status = 301
 
+[[redirects]]
+  from = "people-redirect/Mart_van_Rijthoven"
+  to = "/people/mart-van-rijthoven"
+  query = {name = ":name"}
+  status = 301
 
 [[redirects]]
   from = "index.php/PublicationsAuthor"
