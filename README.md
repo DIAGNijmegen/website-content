@@ -14,9 +14,6 @@ Live websites:
 - AI for Health: https://www.ai-for-health.nl
 - AIIM: https://www.aiimnijmegen.nl
 - RTC: https://rtc.diagnijmegen.nl
-
-Websites in development
-
 - DIAG (main website): https://www.diagnijmegen.nl
 
 ## Updating the content
