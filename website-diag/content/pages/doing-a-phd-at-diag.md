@@ -1,3 +1,5 @@
+title: Doing a PhD at DIAG
+
 # Information for PhD students
 
 At DIAG over twenty researchers are working as PhD students. At the time of writing this, about half of them do not originate from The Netherlands. We thus get many applicants for PhD positions, both from The Netherlands and from abroad. This page provides some background information about what it is like to do a PhD at DIAG and what you should be aware of when applying for a position.
