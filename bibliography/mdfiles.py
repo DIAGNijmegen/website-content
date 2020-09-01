@@ -51,8 +51,9 @@ def create_group_md_files(bib_items_per_group_per_date, rest_year=2012):
             md_file_name = os.path.join(f'./website-{group}/content/pages/publications.md')
             save_md_file(md_file_name, '\n'.join(md_content.values()))
             
-            md_content['title'] = 'title: All (no year headings)'
-            md_file_name = os.path.join(f'./website-{group}/content/pages/publications/no-year-headings.md')
+            md_content['title'] = 'title: All Years'
+            print('ALL years')
+            md_file_name = os.path.join(f'./website-{group}/content/pages/publications/all-years.md')
             save_md_file(md_file_name, '\n'.join(md_content.values()))
     
 
@@ -98,8 +99,8 @@ def create_author_md_files(bib_items_per_author_per_date, list_researchers, rest
             md_file_name = dir_name + '.md'
             save_md_file(md_file_name, '\n'.join(md_content.values()))
             
-            md_content['title'] = 'title: All (no year headings)'
-            md_file_name = os.path.join(dir_name, 'no-year-headings.md')
+            md_content['title'] = 'title: All Years'
+            md_file_name = os.path.join(dir_name, 'all-years.md')
             save_md_file(md_file_name, '\n'.join(md_content.values()))
 
         # save_md_file(md_file_name, standard_md_string)

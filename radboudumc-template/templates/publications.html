@@ -46,7 +46,7 @@
 
         {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
 
-        {% if page.slug == 'publications' or page.slug == 'no-year-headings' %}
+        {% if page.slug == 'publications' or page.slug == 'all-years' %}
             {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__'] %}
         {% elif page.slug == '2012-and-before' %}
             {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__']|select("lessthan", 2013) %}

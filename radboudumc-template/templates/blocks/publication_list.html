@@ -1,18 +1,21 @@
 {% if custom == 'false' %}
+<div class="container">
+<div class="row">
+<div class="col-md-12 mb-4">
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
+
     {% if page.slug == page.author or page.slug == 'publications' %}
         <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}">all</a>
     {% else %}
         <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}">all</a>
     {% endif %}
-    
 
-    {% if page.slug == 'no-year-headings' %}
-        <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}no-year-headings">all (no year headings)</a>
+    {% if page.slug == 'all-years' %}
+        <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}all-years">all years</a>
     {% else %}
-        <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}no-year-headings">all (no year headings)</a>
+        <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}all-years">all years</a>
     {% endif %}
-
+    
     {% set max_year = MAX_YEAR_PUB or 2012   %}
     {% for cur_year in years if cur_year|int >= max_year  %}
         {% set cur_year_slug = cur_year %}
@@ -29,11 +32,16 @@
         
     {% endfor %}
 </div>
+</div>
+</div>
+</div>
 {% endif %}
 
-    
+<div class="row">
+<div class="col-md-12 mb-4">
+    <div class="container">
     {# Lists the publications per year and organized by publication type #}
-    {% if page.slug != 'no-year-headings'%}
+    {% if next_url != page.url  %}
         {% for cur_year in bib_years %}
             <h2>{{ cur_year }}</h2>
             {% for pub_type in list_pub_type %}
@@ -69,3 +77,6 @@
                 </ol>
         {% endfor %}
     {% endif %}
+</div>    
+</div>
+</div>

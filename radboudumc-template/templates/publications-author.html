@@ -7,13 +7,13 @@
     <h1>{{ page.main_title }} </h1>
     {% set next_url = page.parent.slug if page.parent.slug != 'publications' else page.slug %}
 
-    <p class="my-4">
+    <!-- <p class="my-4">
         {% if PAGE_MEMBERS_URL %}
             <a href="{{SITEURL}}/{{ PAGE_MEMBERS_URL.format(slug=next_url) }}">Back to page of {{ page.author_name}}</a>
         {% else %}
             <a href="{{SITEURL}}/members/{{ next_url }}">Back to page of {{ page.author_name}}</a>
         {% endif %}
-    </p>
+    </p> -->
 
     {%set custom = 'false' %}
     {% if page.author|string() in AUTHOR_KEYS %}
@@ -25,7 +25,7 @@
 
         {% set years = AUTHOR_KEYS[page.author|string()]['__years__']  %}
 
-        {% if page.slug == page.author|string() or page.slug == 'no-year-headings' %}
+        {% if page.slug == page.author|string() or page.slug == 'all-years' %}
             {% set bib_years = AUTHOR_KEYS[page.author|string()]['__years__'] %}
         {% elif page.slug == '2012-and-before' %}
             {% set bib_years = AUTHOR_KEYS[page.author|string()]['__years__']|select("lessthan", 2013) %}
