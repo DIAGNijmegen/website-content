@@ -129,6 +129,7 @@ website-*/content/pages/publications.md
 website-*/content/pages/software.md
 website-*/content/pages/thesis-gallery.md
 website-*/content/pages/vacancies.md
+!website-diag/content/pages/vacancies.md
 website-*/content/diag.bib
 website-*/content/bibitems.json
 website-*/content/authorkeys.json
