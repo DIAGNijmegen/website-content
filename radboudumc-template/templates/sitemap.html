@@ -8,11 +8,17 @@
   </url>
 {% endfor %}
 
-{% for page in pages | sort(attribute='title', reverse=False) if page.parent.url != 'calendar/' %}
+{% for page in pages | sort(attribute='title', reverse=False) if page.parent.url != 'calendar/' and page.parent.url != 'publications/' %}
   <url>
     <loc>{{ SITEURL }}/{{ page.url }}</loc>
     <priority>1.0</priority>
   </url>
 {% endfor %}
 
+{% for page in pages | sort(attribute='title', reverse=False) if page.parent.url != 'publication/' %}
+  <url>
+    <loc>{{ SITEURL }}/{{ page.url }}</loc>
+    <priority>0.6</priority>
+  </url>
+{% endfor %}
 </urlset>
