@@ -116,7 +116,6 @@
 [[redirects]]
   from = "people-redirect/Mart_van_Rijthoven"
   to = "/people/mart-van-rijthoven"
-  query = {name = ":name"}
   status = 301
 
 [[redirects]]
