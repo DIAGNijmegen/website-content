@@ -60,7 +60,7 @@ async function resizeImage(path, target, sizes) {
   // If the source image is smaller than the smallest output size, copy the original file
   // to the output directory.
   if(availableSizes.length == 0) {
-    console.info(`Image file ${path} has a width < 160px and will not be optimized.`);
+    console.log(`Image file ${path} has a width < 160px and will not be optimized.`);
     resizedFiles.push(new Promise(resolve => {
       return fs.copyFile(path, target, () => resolve(target));
     }));
