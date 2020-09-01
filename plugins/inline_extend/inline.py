@@ -5,13 +5,13 @@ from pelican import signals
 
 # Group base urls
 group_websites = {
-    'diag': 'https://beta.diagnijmegen.nl',
+    'diag': 'https://www.diagnijmegen.nl',
     'pathology': 'https://www.computationalpathologygroup.eu',
     'retina': 'https://www.a-eyeresearch.nl',
     'rse': 'https://rse.diagnijmegen.nl',
     'aiimnijmegen': 'https://www.aiimnijmegen.nl',
     'rtc': 'https://rtc.diagnijmegen.nl',
-    'diag': 'https://beta.diagnijmegen.nl'
+    'diag': 'https://www.diagnijmegen.nl'
 }
 
 # Matches: [member/wouter-bulten, group: pathology]

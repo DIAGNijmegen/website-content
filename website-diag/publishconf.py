@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://beta.diagnijmegen.nl'
+SITEURL = 'https://www.diagnijmegen.nl'
 IMGURL = 'https://assets.diagnijmegen.nl'
 RELATIVE_URLS = False
 

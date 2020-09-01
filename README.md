@@ -17,7 +17,7 @@ Live websites:
 
 Websites in development
 
-- DIAG (main website): https://beta.diagnijmegen.nl
+- DIAG (main website): https://www.diagnijmegen.nl
 
 ## Updating the content
 
