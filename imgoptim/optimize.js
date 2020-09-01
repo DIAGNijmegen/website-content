@@ -38,6 +38,15 @@ async function resizeImage(path, target, sizes) {
   });
 
   const availableSizes = outputSizes.filter(s => s <= metadata.width);
+  
+  // If the source image is smaller than the smallest output size, copy the original file
+  // to the output directory.
+  if(availableSizes.length == 0) {
+    new Promise(resolve => {
+      return fs.copyFile(path, target, () => resolve(target));
+    });
+  }
+
   const resizedFiles = availableSizes.map(async size => {
     let resizedTarget;
     if(size == Math.max(...availableSizes)) {
