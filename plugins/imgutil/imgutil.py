@@ -43,17 +43,16 @@ def srcset_image(path, base_url):
         
         if os.path.isfile(os.path.join(optim_path, resized_path.replace('images/', ''))):
             srcset.append(f'{base_url}/{resized_path} {size}w')
-        # else:
-        #     # There is no version of this image at this size, and by definition
-        #     # none of a higher size (given the order of the loop).
-        #     # To make sure the browser can always load the highest resolution image,
-        #     # we set the 'large' version to this size.
-        #     # The width is not completely correct, but makes sure the browser loads this image
-        #     # if a high-res version is required.
-        #     srcset.append(f'{base_url}/{parts[0]}-full{parts[1]} {2*int(size)}w')
+        else:
+            # There is no version of this image at this size, and by definition
+            # none of a higher size (given the order of the loop).
+            # The largest available image size is always saved at <filename>.<extension> so
+            # we use that image for the current size. This ensures that a browser
+            # can always load the highest resolution.
+            srcset.append(f'{base_url}/{parts[0]}-full{parts[1]} {size}w')
 
-        #     # No higher-res images available
-        #     break
+            # No higher-res images available
+            break
 
     if len(srcset) == 0:
         # If no images were found with a specific size, we add the original image as a fallback
