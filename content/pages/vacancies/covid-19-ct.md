@@ -8,7 +8,7 @@ people: Luuk Boulogne, Colin Jacobs, Bram van Ginneken
 description: Development of deep learning algorithms and a web application for automated classification of COVID-19.
 
 ## Clinical problem
-Early this year, during the first peak of the COVID-19 pandemic, hospitals in hard-hit regions were overflowing with patients presenting at the emergency unit with respiratory complaints. To diagnose COVID-19, a positive RT-PCR test would be needed. But there was a huge shortage of tests and when swabs were made for RT-PCR, the result of the test was often only received after several days, while a physician would like to decide in a few minutes whether to send a patient home for self-isolation or hospitalize him or her, and if so, send him or her to a COVID-19 ward or a regular ward. 
+Early this year, during the first peak of the COVID-19 pandemic, hospitals in hard-hit regions were overflowing with patients presenting at the emergency unit with respiratory complaints. To diagnose COVID-19, a positive RT-PCR test would be needed. But there was a huge shortage of tests and when swabs were made for RT-PCR, the result of the test was often only received after several days. This was a problem, since a physician would like to decide in a few minutes whether to send a patient home for self-isolation or hospitalize him or her, and if so, send him or her to a COVID-19 ward or a regular ward. 
 
 To quickly obtain a working diagnosis, many hospitals decided to make chest CT scans of all COVID-19 suspects arriving at their emergency room. 
 
@@ -26,7 +26,7 @@ We want to improve CORADS-AI by training it to differentiate between COVID-19 an
 We have access to several public and proprietary data sets of CT scans, clinical information and blood test results. In total, scans and clinical features of thousands of COVID-19 suspects and people without COVID-19 who were examined in the pre-COVID-19 era, are available. 
 
 ## Approach
-You will be supervised by [DIAG](http://www.diagnijmegen.nl) researchers who contributed to CORADS-AI. You will have access to [Sol](https://rtc.diagnijmegen.nl/software/sol/), a high-performance deep learning cluster. There are several machine learning approaches you could explore to differentiate between COVID-19 and other lung diseases with overlapping patterns and to combine CT scans with clinical features and blood values. We are looking for two students, one to focus on CT analysis, the other one on combining image analysis with clinical features.
+You will be supervised by [DIAG](http://www.diagnijmegen.nl) researchers who contributed to CORADS-AI. You will have access to [Sol](https://rtc.diagnijmegen.nl/software/sol/), a high-performance deep learning cluster. There are several machine learning approaches you could explore to differentiate between COVID-19 and other lung diseases with overlapping patterns and to combine CT scans with clinical features and blood values. We are looking for two students: one to focus on CT analysis, the other one on combining image analysis with clinical features.
 
 ## Requirements
 - Students with a major in data science, computer science, or artificial intelligence in the final stage of master level studies are invited to apply.
