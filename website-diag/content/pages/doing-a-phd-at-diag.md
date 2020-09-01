@@ -2,26 +2,31 @@ title: Doing a PhD at DIAG
 
 # Information for PhD students
 
-At DIAG over twenty researchers are working as PhD students. At the time of writing this, about half of them do not originate from The Netherlands. We thus get many applicants for PhD positions, both from The Netherlands and from abroad. This page provides some background information about what it is like to do a PhD at DIAG and what you should be aware of when applying for a position.
+At DIAG almost forty researchers are working as PhD students. About half of them do not originate from The Netherlands. We thus get many applicants for PhD positions, both from The Netherlands and from abroad. This page provides some background information about what it is like to do a PhD at DIAG and what you should be aware of when applying for a position.
 
 ## PhD students at DIAG are primarily researchers
 
 In many countries, doing a PhD, being a PhD student or PhD candidate, or being a graduate student (similar terms for the same thing) is closer to being a student than to being an independent researcher. 
 
-''In the Netherlands, and particularly at DIAG, the opposite is true.'' 
+*In the Netherlands, and particularly at DIAG, the opposite is true.*
 
-At DIAG, a PhD student is over 80% of his or her time busy with doing research, and this is the case from day 1. A quick look at our publications will make it clear to you that PhD students are first authors of the bulk of our scientific output.
+At DIAG, a PhD student is over 80% of his or her time busy with doing research, and this is the case from day 1. Of course, independence is something that comes with experience. And we work a lot in teams. A quick look at our publications will make it clear to you that PhD students are first authors of the bulk of our scientific output.
 
 ## PhD students work on a particular predefined project
 
-In some countries, a graduate student starts by following courses and at some point writes a proposal about the research he or she wants to do; once this proposal is approved, the actual research is carried out. In the Netherlands, this is not common and in particular at DIAG we do not work this way. PhD students work on particular projects. In almost all cases, funding for this project has been secured by supervisor(s) (those listed under Chairs and Faculty on this page), prior to hiring a PhD student. It therefore makes no sense to send us an e-mail "to apply to enroll in your PhD program". PhD students are hired to fill a particular vacancy and these vacancies are posted on our web site. Talented students are always invited to send us their CV, so we know already about you and your interest to work with us.
+In some countries, a graduate student starts by following courses and at some point writes a proposal about the research he or she wants to do; once this proposal is approved, the actual research is carried out. 
+
+*In the Netherlands, this is not common and in particular at DIAG we do not work this way.*
+
+PhD students work on particular projects. In almost all cases, funding for this project has been secured by supervisors, prior to hiring a PhD student. It therefore makes no sense to send us an e-mail "to apply to enroll in your PhD program". PhD students are hired to fill a particular vacancy and these vacancies are posted on our web site. Talented students are always invited to send us their CV, so we know already about you and your interest to work with us.
 
 The fact that you work on a predefined project does not mean you do not have a lot of freedom to define your own research. We encourage you to be creative, follow your own ideas and make your own contributions. This is part of becoming an independent researcher.
 
-If you apply on a particular position, you should motivate why you would like to work on that project and why you believe you are a good candidate for that particular project. Many applications we receive we discard immediately because they read like a stock letter. We recommend to read these tips.
+If you apply on a particular position, you should motivate why you would like to work on that project and why you believe you are a good candidate for that particular project. Many applications we receive we discard immediately because they read like a stock letter. We recommend to read [these tips](http://www.sciencesurvivalblog.com/tips_for_juniors/applying-successfully-for-a-phd-position-by-email_6682).
 
-You can follow courses, but you spend limited time on these
-PhD students do have the possibility to follow courses, and most of our students follow several courses during their PhD period. Often this includes a course on giving scientific presentations or writing scientific articles, courses on topics in image processing or machine learning, and high level tutorials at conferences or summer schools. But following courses is not obligatory, usually you do not do exams, and you discuss what courses are useful for you with your supervisor. The total time you spend on courses is less than 10%.
+## You can follow courses, but you spend limited time on these
+
+PhD students do have the possibility to follow courses, and most of our students follow several courses during their PhD period. Often this includes a course on giving scientific presentations or writing scientific articles, courses on topics in deep learning, image processing or machine learning, and high level tutorials at conferences or summer schools. But following courses is not obligatory, usually you do not do exams, and you discuss what courses are useful for you with your supervisor. The total time you spend on courses is less than 10%.
 
 ## Side activities
 
