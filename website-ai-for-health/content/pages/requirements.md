@@ -1,7 +1,5 @@
 title: Requirements
 
-## Requirements for AI for Health MSc projects
-
 For AI for Health MSc projects, students are eligible to receive a monthly reimbursement of €500,- for a period of six months. The following requirments must be met during the course of the project:
 
 - Each student is required to set up and maintain a [project webpage](https://www.ai-for-health.nl/student_projects/). The webpage should provide a clear overview of which people are involved in the project, what the project entails and what results have been achieved. 
