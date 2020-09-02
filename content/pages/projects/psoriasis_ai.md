@@ -7,6 +7,9 @@ template: project-single
 people: Nolan Cardozo, Mirjam Schaap, Marieke Seyger, Ajay Patel, Bram van Ginneken
 description: Development of automatic classification algorithm for psoriasis in photographs of the body.
 
+**Start date: 07-09-2020** <br>
+**End date: 07-03-2021**
+
 ## Clinical problem
 
 Psoriasis is a common chronic inflammatory skin disease, with a prevalence of 2-3% of the Western population. The skin disease is characterized by raised, red, scaling lesions, which can be present all over the body. These lesions are often a burden to patients since they can be  visible, itchy or painful. Due to its chronic nature, psoriasis causes a remarkable decrease in the quality of life of patients. In daily clinical practice and clinical research, psoriasis severity is often measured by the Psoriasis Area Severity Index ([PASI](https://en.wikipedia.org/wiki/Psoriasis_Area_and_Severity_Index)) score. This is a subjective score that determines the severity of the psoriasis in four anatomical regions, which consist of the head, trunk, arms and legs. For each anatomical region, four separate  subscores are determined: a) redness of the lesions, b) amount of scaling (called desquamation), and c) the thickness are assessed on a 5 point scale (0-4). Additionally, the affected body surface area is assessed on a 7 point scale (0-6). These scores are combined in an equation to result in the PASI score (0-72). The PASI score is used to determine treatment efficacy and is also used for treatment decisions. In addition, it is used in international randomized controlled pharmaceutical trials as one of the main efficacy outcome measures. Unfortunately, the PASI score is a subjective and time-consuming severity score. Development of an automated (time saving of 3-5 minutes on a total patient contact of 10-15 minutes) and objective PASI scoring device is therefore of utmost importance for patients, physicians and pharmaceutical industries. 
