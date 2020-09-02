@@ -15,7 +15,7 @@ def save_md_file(output_path, md_content):
     file.close()
 
 
-def create_group_md_files(bib_items_per_group_per_date, rest_year=2012):
+def create_group_md_files(_bib_items, bib_items_per_group_per_date, rest_year=2012):
     for group, bib_items_per_date in bib_items_per_group_per_date.items():
         all_bib_items = []
         rest_bib_items = []
@@ -54,6 +54,13 @@ def create_group_md_files(bib_items_per_group_per_date, rest_year=2012):
             md_content['title'] = 'title: All Years'
             print('ALL years')
             md_file_name = os.path.join(f'./website-{group}/content/pages/publications/all-years.md')
+            save_md_file(md_file_name, '\n'.join(md_content.values()))
+
+            md_content['title'] = 'title: Most cited'
+            gs_bib_items = [item for item in all_bib_items if 'gscites' in _bib_items[item]]
+            gs_bib_items = sorted(gs_bib_items, key = lambda i: int(_bib_items[i]['gscites']),reverse=True) 
+            md_content['bibkeys'] = f"bibkeys: {','.join(gs_bib_items[:100])}"
+            md_file_name = os.path.join(f'./website-{group}/content/pages/publications/most-cited.md')
             save_md_file(md_file_name, '\n'.join(md_content.values()))
     
 

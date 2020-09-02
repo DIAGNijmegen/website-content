@@ -11,7 +11,7 @@
 
     <!-- if bibkeys are  custom set-->
     {% set custom = 'false' %}
-    {% if page.bibkeys %}
+    {% if page.bibkeys and page.slug != 'most-cited' %}
         {% set years = [] %} 
         {% set bibkeys_per_year = dict() %}
         {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %} 
@@ -46,7 +46,7 @@
 
         {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
 
-        {% if page.slug == 'publications' or page.slug == 'all-years' %}
+        {% if page.slug == 'publications' or page.slug == 'all-years' or page.slug == 'most-cited' %}
             {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__'] %}
         {% elif page.slug == '2012-and-before' %}
             {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__']|select("lessthan", 2013) %}

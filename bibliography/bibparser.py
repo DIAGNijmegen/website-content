@@ -119,7 +119,7 @@ if __name__ == "__main__":
     create_author_md_files(bib_items_per_author_per_date, list_researchers)
 
     print('creating group md files')
-    create_group_md_files(bib_items_per_group_per_date)
+    create_group_md_files(bib_items, bib_items_per_group_per_date)
 
     print('creating publication md files')
     create_publication_md(bib_items, bib_items_per_author_per_date, list_researchers)
