@@ -5,7 +5,7 @@ type: student
 picture: vacancies/covid_echo.png
 template: vacancy-single
 people: Thomas van den Heuvel, Bram Kok, Frank Bosch, Chris de Korte
-description: Development of deep learning algorithms and web application for automated classification of COVID-19. **This is an AI for Health MSc project.**
+description: Development of deep learning algorithms and web application for automated classification of COVID-19. 
 
 **This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please visit the [AI for Health website](https://www.ai-for-health.nl/student_projects/).**
 
