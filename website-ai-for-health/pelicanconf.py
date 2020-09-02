@@ -25,6 +25,7 @@ TWITTER_URL = None
 FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 #PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+HOME_JUMBOTRON_LAYOUT = 'neural-bg'
 
 # Whether to show email buttons on every person circle
 SHOW_EMAIL_GROUP_MEMBERS_INLINE = True
