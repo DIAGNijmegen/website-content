@@ -32,6 +32,10 @@ SHOW_EMAIL_GROUP_MEMBERS_INLINE = True
 # What sections to show in the nav bar
 NAV_SECTIONS = [
     {"name": "About", "url": "about", "icon": "info"},
+    {"name": "Courses", "url": "courses", "icon": "vacancies"},
+    {"name": "PhD Projects", "url": "phd_projects", "icon": "file-code"},
+    {"name": "MSc Projects", "url": "student_projects", "icon": "book"},
+    {"name": "Meeting", "url": "meeting", "icon": "users"},
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
