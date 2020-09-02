@@ -7,7 +7,7 @@ template: vacancy-single
 people: Luuk Boulogne, Colin Jacobs, Bram van Ginneken
 description: Development of deep learning algorithms and a web application for automated classification of COVID-19. 
 
-**This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please visit the [AI for Health website](https://www.ai-for-health.nl/requirements/).**
+**This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements/).**
 
 ## Clinical problem
 Early this year, during the first peak of the COVID-19 pandemic, hospitals in hard-hit regions were overflowing with patients presenting at the emergency unit with respiratory complaints. To diagnose COVID-19, a positive RT-PCR test would be needed. But there was a huge shortage of tests and when swabs were made for RT-PCR, the result of the test was often only received after several days. This was a problem, since a physician would like to decide in a few minutes whether to send a patient home for self-isolation or hospitalize him or her, and if so, send him or her to a COVID-19 ward or a regular ward. 
