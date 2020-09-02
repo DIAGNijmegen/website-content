@@ -7,6 +7,8 @@ template: project-single
 people: Tristan Payer, Francesco Ciompi, Tim Kietzmann
 description: Project aimed at development of deep learning algorithms for the (semi-) automated scoring of PD-L1 positive tumor cells, an established biomarker for immunotherapy treatment response in lung cancer patients.
 
+**Start date: 16-09-2020** <br>
+**End date: 15-03-2020**
 
 ## Clinical problem
 Immunotherapy is a Nobel Prize winning approach to treat cancer patients, which has given spectacular responses in some previously untreatable cancer patients. However, many patients do not respond to immunotherapy and are only exposed to the toxicity of the drugs. Additionally, the cost of immunotherapy treatment is very high (~100kEuro per patient), which puts a dramatic financial burden on the healthcare system.
