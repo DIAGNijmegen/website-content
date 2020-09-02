@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = u'WebteamDIAG'
-SITENAME = u'Radboud AI for Health'
+SITENAME = u'AI for Health'
 SITENAME_SHORT = 'AIHEALTH'
 SITE_REPO = 'website-ai-for-health'
 SITE_GROUP = 'ai-for-health'
