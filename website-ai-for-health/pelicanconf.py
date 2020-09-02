@@ -35,7 +35,7 @@ NAV_SECTIONS = [
     {"name": "Courses", "url": "courses", "icon_mobile": "vacancies", "text_class": "d-lg-block"},
     {"name": "Meeting", "url": "meeting", "icon_mobile": "users", "text_class": "d-lg-block"},
     {"name": "PhD Projects", "url": "phd_projects", "icon_mobile": "publications", "text_class": "d-lg-block"},
-    {"name": "MSc Projects", "url": "student_projects", "icon_mobile": "book", "text_class": "d-lg-block""},
+    {"name": "MSc Projects", "url": "student_projects", "icon_mobile": "book", "text_class": "d-lg-block"},
     {"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
 ]
 
