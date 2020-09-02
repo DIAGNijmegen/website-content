@@ -8,6 +8,8 @@ groups: diag, pathology
 default_group: pathology
 email: mart.vanrijthoven@radboudumc.nl
 office: Route 812, room 2.39
+scholar: https://scholar.google.nl/citations?user=VVBmpMQAAAAJ&hl=nl
+researcherid: http://www.researcherid.com/rid/V-1860-2018
 type: phd
 show_publication_years: no
 
