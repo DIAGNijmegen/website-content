@@ -20,13 +20,10 @@ The lab profits from the AI expertise available within Radboudumc, such as the [
 * [Bram van Ginneken](http://www.diagnijmegen.nl/index.php/Bram_van_Ginneken), Professor of Medical Image Analysis, Radboudumc
 * [Elena Marchiori](http://www.cs.ru.nl/~elenam/), Professor of Machine Learning for Natural Sciences, Faculty of Science, Radboud University
 
-## Coordinator
+## Coordinators
 
-* [Ajay Patel](http://www.diagnijmegen.nl/index.php/Person?name=Ajay_Patel). Ajay coordinates all activities in AI for Health. For any questions, send him an email on aiforhealth@radboudumc.nl.  
+* [Ajay Patel](https://www.diagnijmegen.nl/people/ajay-patel/)
+* [Silvan Quax](https://www.diagnijmegen.nl/people/silvan-quax/) 
 
-## Governing Board
-
-The governing board will be installed soon.
-
-
+Ajay and Silvan coordinate all activities in AI for Health. For any questions, send them an email on [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl).  
 
