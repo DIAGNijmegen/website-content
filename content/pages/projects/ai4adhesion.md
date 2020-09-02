@@ -18,4 +18,4 @@ Develop AI to improve adhesion detection on cine MRI.
 
 ## Funding
 * [Maag Lever Darm Stichting](https://www.mlds.nl/)
-* [Health~Holland](www.health-holland.com)
+* [Health~Holland](https://www.health-holland.com)
