@@ -8,7 +8,7 @@ groups: diag, pathology
 default_group: pathology
 email: hans.pinckaers@radboudumc.nl
 office: Route 812, room 2.39
-website: https://www.hanspinckaers.com
+website: http://www.hanspinckaers.com
 type: phd
 linkedin: https://www.linkedin.com/in/wouterbulten
 scholar: https://scholar.google.com/citations?user=wo0gzgAAAAJ
