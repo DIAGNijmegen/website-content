@@ -66,6 +66,6 @@ MODIFY ALL INFORMATION GIVEN IN CURLY BRACKETS
     email: {EMAIL@ADDRESS}
 
 ```
-9. Upload a square and resized image to ```website-content/content/images/people/external/``` with file name: firstname_lastname
+9. Upload images to ```website-content/content/images/people/external/``` with file name: firstname_lastname
 
 10. Make a pull request of the changes made to your Fork
