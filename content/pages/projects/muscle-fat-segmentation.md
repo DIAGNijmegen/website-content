@@ -7,6 +7,9 @@ template: project-single
 people: Thijs van den Hout, Nikolas Lessmann, Alina Vrieling, Matthieu Rutten
 description: We develop algorithms for segmentation of muscles and fat tissue in 3D CT images.
 
+**Start date: 01-03-2020** <br>
+**End date: 31-08-2020**
+
 ## Clinical problem
 Body composition is an important biomarker in the treatment of cancer. In particular, low muscle mass has been associated with
 higher chemotherapy toxicity, shorter time to tumor progression, poorer surgical outcomes, impaired functional status, and
