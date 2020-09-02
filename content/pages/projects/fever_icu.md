@@ -7,6 +7,9 @@ template: project-single
 people:  Lisette Boeijenk, Ruud van Kaam, Astrid Hoedemaekers, Tim Frenzel, Luca Ambrogioni
 description: Development of a model that can identify whether a febrile ICU patient with acute brain injury has a neurogenic fever or an infectious fever.
 
+**Start date: 13-01-2020** <br>
+**End date: 15-10-2020**
+
 ## Clinical problem
 Fever is a common symptom in critically ill neurologic patients, presenting in up to 70% of patients at some point during their stay in the ICU. Though fever is common among patients in the ICU, multiple studies show that fever impacts the population of patients with acute brain injury (ABI) differently and is associated with increased mortality, increased ICU and hospital length-of-stay (LOS) and worse outcome. Given this costly impact of fever on ABI patients it is important to promptly and accurately identify the underlying cause of the fever and start adequate treatment. Only half of the fevers among neurologic ICU patients are caused by an infection, other etiologies for fever among neurologic ICU patients are drug reactions, post-surgical, venous thromboembolism, paroxysmal sympathetic hyperactivity and neurogenic. The latter, neurogenic fever (NF), also known as central fever and centrally mediated fever, can be caused by a complex disturbance of the thermoregulatory center and is thought to be induced by injury to the hypothalamus. Another common cause of NF is the body’s inflammatory response to the cleanup of damaged tissue (e.g. damage due to trauma to the brain or other parts of the body, such as a hematoma), leading to fever. 
 
