@@ -7,6 +7,9 @@ template: project-single
 people: Anna Gansen, Ana Ligia Silva de Lima, Marjan Meinders, Twan van Laarhoven, Bas Bloem
 description: Development of a model for the automatic identification of Parkinson's disease based on a keyboard test.
 
+**Start date: 18-08-2020** <br>
+**End date: 18-02-2021**
+
 ## Background
 Bradykinesia is one of the cardinal symptoms of Parkinson’s disease (PD). Bradykinesia is defined as a slowness to initiate a movement, with a progressive reduction in speed and amplitude. This decrease in amplitude or speed, also known as sequence effect, is often seen while performing repetitive movements. The management of bradykinesia is determined by clinical evaluation using standardized clinical assessments. However, the reliability of those assessments usually falls short. In general, the problem lays in the large inter-rater variability. In the case of bradykinesia, symptoms as sequence effect, akinesia and freezing are all condensed in one score; making harder to standardize the rating process. In addition, the use of standardized scales requires an in-person clinical examination, which includes burdensome travel time for patients and provides only a partial representation (i.e. one time-point assessment) of the overall disease impairment.
 Objective assessments, such as the online keyboard test or the analysis of someone’s typing behaviour, may address the limitations in clinical evaluation by diminishing the inter-rate variability and allowing the detection of small variations due to long-term monitoring. We expect that the analysis of the online keyboard test data and the typing behaviour data of participants using robust data analysis techniques may reveal patterns that can be used to estimate bradykinesia in a more reliable and standardized manner.
