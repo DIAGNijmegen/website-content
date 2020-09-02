@@ -5,7 +5,7 @@ type: student
 picture: vacancies/avf-detection.jpg
 template: vacancy-single
 people: Anton Meijer, Ajay Patel, Bram van Ginneken
-description: Development of a deep learning algorithm for the detection of arteriovenous shunts. **This is an AI for Health MSc project.**
+description: Development of a deep learning algorithm for the detection of arteriovenous shunts.
 
 **This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please visit the [AI for Health website](https://www.ai-for-health.nl/student_projects/).**
 
