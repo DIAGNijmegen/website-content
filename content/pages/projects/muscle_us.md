@@ -7,6 +7,9 @@ template: project-single
 people: Klaus Lux, Jonne Doorduin, Juerd Wijntjes, Nens van Alfen, Twan van Laarhoven, Ajay Patel
 description: Development of a deep learning algorithm for the automatic classification of muscle ultrasound images.
 
+**Start date: 01-03-2020** <br>
+**End date: 31-08-2020**
+
 ## Clinical problem
 Muscle ultrasound is a useful and patient friendly tool in the diagnostic evaluation of patients with suspected neuromuscular diseases. Neuromuscular diseases cause structural changes such as fibrosis and fatty infiltration that increases muscle echogenicity (gray value of the muscle). With quantitative muscle ultrasound the echogenicity of the muscle is calculated and used to distinguish normal from diseased muscle. Quantitative muscle ultrasound has proven to be more reliable and more sensitive in detecting neuromuscular diseases than visual evaluation, with a sensitivity of 92%. Although quantitative muscle ultrasound offers advantages over visual assessments, widespread implementation of quantitative muscle ultrasound in the clinical setting is limited by an inability to replicate reference values, and therefore results, between different ultrasound devices. Echogenicity of different devices cannot be compared, because beam-forming and post-processing of raw RF signals is different between ultrasound devices, as well as physical characteristics of the acoustic array such as frequency, element size and pitch, acoustical lens, and the beam profile. Furthermore, the post-processing is also machine specific affecting the echogenicity even more. Consequently, a set of new normal values is required for each device, which is time-consuming and expensive.
 
