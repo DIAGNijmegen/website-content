@@ -7,6 +7,8 @@ template: project-single
 people:  Alex Tichter, Jan-Willem Wasmann, Marc van Wanrooij, Yağmur Güçlütürk, Umut Güçlü
 description: Development of a neural network based model that improves speech perception in cochlear implant recipients, by optimizing the vocoder strategy in order to restore binaural hearing in deaf subjects.
 
+**Start date: 01-02-2020** <br>
+**End date: 01-08-2020**
 
 ## Clinical problem
 Hearing loss is the second most prevalent (>440 million people affected) health impairment worldwide, with adequate diagnosis and treatment lacking for many. In case of severe or profound hearing impairment, rehabilitation can be provided by a cochlear implant (CI) that directly stimulates the auditory nerve via acoustically modulated electrical current pulses. The CI provides auditory sensations, and in the most successful cases leads to near-normal speech perception in low-noise listening conditions. However, not all CI recipients experience such a successful outcome; the variability in speech perception outcome among CI recipients is large. Moreover, under noisy listening conditions, CI performance is poor for all recipients.
