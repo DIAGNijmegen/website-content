@@ -7,6 +7,9 @@ template: project-single
 people:  Manon de Jonge, Marieke Zegers, Mark van den Boogaard, Ruud van Kaam, Luca Ambrogioni
 description: Development of a model for prediction of quality of life.
 
+**Start date: 01-02-2020** <br>
+**End date: 01-10-2020**
+
 ## Clinical problem
 Annually, over 85,000 patients are admitted to Dutch Intensive Care Units (ICUs), often in life-threatening circumstances. Due to advances in critical care medicine, more patients survive their critical illness. However, the survival of a serious illness does only rarely pass without consequences. It is estimated that 25% to 75% of ICU survivors experience physical problems (e.g. pain, shortness of breath, reduced muscle strength), psychological complaints (e.g.  anxiety/depression), cognitive problems (e.g. memory-related) and/or problems related to daily functioning. These issues often negatively influence the quality of life (QoL) and the financial and social situation of former ICU patients.
 
