@@ -10,6 +10,7 @@ Please follow the guides below to update or write new content for one of the web
 - [Edit contact page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/edit-contact-page.md)
 - [Special content tags](https://github.com/DIAGNijmegen/website-content/blob/master/docs/special-content-tags.md)
 - [Creating redirects](https://github.com/DIAGNijmegen/website-content/blob/master/docs/redirects.md)
+- [Creating custom pages](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-custom-page.md)
 
 ### Members
 
