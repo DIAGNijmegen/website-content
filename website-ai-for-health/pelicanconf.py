@@ -15,7 +15,7 @@ SITE_GROUP = 'ai-for-health'
 
 # Home page and social settings
 SITETITLE = 'Radboud AI for Health'
-SITELEAD = 'Radboud AI for Health is an ICAI lab where Radboud University and Radboudumc collaborate to create AI innovations in healthcare. We offer courses for professionals, BSc/MSc student projects and PhD projects.'
+SITELEAD = 'Radboud AI for Health is an ICAI lab where Radboud University and Radboudumc collaborate to create AI innovations in healthcare. We offer courses for professionals, MSc student projects and PhD projects.'
 SITE_PICTURE ='images/social/missing_picture_social.png'
 
 HOME_IMAGE = None
@@ -31,6 +31,7 @@ SHOW_EMAIL_GROUP_MEMBERS_INLINE = True
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
+    {"name": "About", "url": "about", "icon": "info"},
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
