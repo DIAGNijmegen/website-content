@@ -21,6 +21,7 @@
     </div>
 
     <div class="row">
+        {% if not article.full_width %}
         <div class="col-md-4">
             {% if article.picture %}
             <img class="img-thumbnail" src="{{ IMGURL }}/images/{{ article.picture }}">
@@ -29,8 +30,9 @@
                 <small class="text-muted"><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
             </p>
         </div>
+        {% endif %}
 
-        <div class="col-md-8">
+        <div class="{% if article.full_width %}col-md-12{% else %}col-md-8{% endif %}">
             {{ article.content }}
 
 	    <a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}" class="mt-5">&larr; Back to overview</a>

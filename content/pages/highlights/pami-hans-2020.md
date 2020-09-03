@@ -3,6 +3,7 @@ date: 2020-08-26
 description: Due to memory constraints on current hardware, most convolutional neural networks (CNN) are trained on sub-megapixel images. A novel method for end-to-end training of CNNs on multi-megapixel images was proposed by Hans Pinckaers and his colleagues. Their work appeared online in IEEE Transactions on Pattern Analysis and Machine Intelligence. 
 picture: news/StreamingCNN.png
 groups: diag, pathology
+full_width: true
 
 Graphics Processing Units (GPUs) are fundamental for training deep Convolutional Neural Networks (CNNs). They typically have about 11GB in memory, and up to 24GB for higher end [GPUs](https://www.nvidia.com/en-us/geforce/news/introducing-rtx-30-series-graphics-cards/). However, this is not enough to train the CNNs on full resolution digital pathology images to identify the presence of disease accurately. [member/hans-pinckaers] et al. from the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) have now found a solution to this problem and their work was accepted for publication by [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/document/9178453).
 
