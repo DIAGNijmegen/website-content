@@ -1,6 +1,6 @@
 title: Deep Learning to detect artifacts in whole slide images
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/artifact_msc_project.png
 template: vacancy-single
