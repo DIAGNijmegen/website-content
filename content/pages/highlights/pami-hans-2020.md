@@ -18,11 +18,13 @@ The figure above depicts the schematic overview of streaming in a one-dimensiona
 They improved the AUC from 0.580 on 4-megapixel images to 0.706 on 66-megapixel images for metastasis detection in breast cancer on the [CAMELYON17](https://camelyon17.grand-challenge.org/Data/) dataset.
 
 ![Streaming CNN CAMELYON17]({{ IMGURL }}/images/news/StreamingCNN_CAMELYON17.png)
+
 The figure above shows the saliency maps for images of the tuning set of the CAMELYON17 experiment. The highest resolution model, trained on image-level labels shows highlights corresponding to the ground truth pixel-level annotation of a breast cancer metastasis. The lower resolution models have lower probability for the ground truth class and show little correspondence to the location of the metastases.
 
 They also obtained a Spearman correlation metric approaching state-of-the-art performance on the [TUPAC16](http://tupac.tue-image.nl/node/3) dataset, from 0.485 on 1-megapixel images to 0.570 on 16-megapixel images.
 
 ![Streaming CNN TUPAC16]({{ IMGURL }}/images/news/StreamingCNN_TUPAC16.png)
+
 The figure above shows the saliency maps for test set images of the TUPAC16 experiment using the best performing models. The TUPAC16 network shows highlights in cell-dense and cancerous regions. There is a trend in which the higher the input solution of the model, the less it focuses on healthy tissue. Also, higher resolution models focus on more locations of the tissue.
 
 The code to reproduce a subset of the experiments is publicly available [here](https://github.com/DIAGNijmegen/StreamingCNN).
