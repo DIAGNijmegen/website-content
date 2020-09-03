@@ -24,7 +24,7 @@ HOME_IMAGE_CAPTION = 'AI for Health'
 TWITTER_URL = None
 FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
-#PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+PARENT_DOMAIN = '<a href="https://www.ru.nl/ai/">Radboud AI</a>'
 HOME_JUMBOTRON_LAYOUT = 'neural-bg'
 
 # Whether to show email buttons on every person circle
