@@ -16,16 +16,16 @@ The slides for past presentations are available by clicking on the links in the 
 | -------        |    ----  |          --- |
 | 03-09-2020     | Manon de Jonge | Predicting changes in quality of life of ICU survivors. <br>**[MSc project](https://www.ai-for-health.nl/projects/predicting-qol/) defense** |
 | 10-09-2020    | **Guest Speaker** <br> Stanley Pham | Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG. |
-| 17-09-2020    | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. <br>**(Defense)** |
+| 17-09-2020    | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. <br>**[MSc project](https://www.ai-for-health.nl/projects/muscle-fat-segmentation/) defense** |
 | 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
-| 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**(Defense)** |
-| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning system for wisdom tooth removal. <br> **[PhD project](https://www.ai-for-health.nl/projects/wisdom-teeth/) update** |
-| 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. |
-| 22-10-2020     | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. |
-| 29-10-2020   | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. |
-| 05-11-2020    | Ruud van Kaam | Predictive Modeling in the Intensive Care Unit. |
-| 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**(Defense)**  |
-| 19-11-2020   | Gelena Khazeeva | AI-driven genetic diagnosis for rare-diseases. |
+| 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**[MSc project](https://www.ai-for-health.nl/projects/prenatal-screening/) defense** |
+| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning system for wisdom tooth removal. <br>**[PhD project](https://www.ai-for-health.nl/projects/wisdom-teeth/) update** |
+| 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. <br>**[PhD project](https://www.ai-for-health.nl/projects/mihracle/) update**|
+| 22-10-2020     | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. <br>**[PhD project](https://www.ai-for-health.nl/projects/lower-back-pain/) update**|
+| 29-10-2020   | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. <br>**[PhD project](https://www.ai-for-health.nl/projects/vascular-function/) update**|
+| 05-11-2020    | Ruud van Kaam | Predictive Modeling in the Intensive Care Unit. <br>**[PhD project](https://www.ai-for-health.nl/projects/cvc-infections/) update**|
+| 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**[MSc project](https://www.ai-for-health.nl/projects/fever_icu/) defense**  |
+| 19-11-2020   | Gelena Khazeeva | AI-driven genetic diagnosis for rare-diseases. <br>**[PhD project](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) update**|
 
 ## Past meetings
 
