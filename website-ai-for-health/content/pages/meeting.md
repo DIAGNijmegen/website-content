@@ -14,12 +14,12 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-| 03-09-2020     | Manon de Jonge | Predicting changes in quality of life of ICU survivors. <br>**(Defense)** |
+| 03-09-2020     | Manon de Jonge | Predicting changes in quality of life of ICU survivors. <br>**[MSc project](https://www.ai-for-health.nl/projects/predicting-qol/) defense** |
 | 10-09-2020    | **Guest Speaker** <br> Stanley Pham | Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG. |
 | 17-09-2020    | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. <br>**(Defense)** |
 | 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
 | 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**(Defense)** |
-| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning <br> system for wisdom tooth removal. |
+| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning system for wisdom tooth removal. <br> **[PhD project](https://www.ai-for-health.nl/projects/wisdom-teeth/) update** |
 | 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. |
 | 22-10-2020     | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. |
 | 29-10-2020   | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. |
