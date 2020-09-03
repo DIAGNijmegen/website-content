@@ -61,7 +61,7 @@
         {% elif article %}
             /* above the fold for article */
             {% include "critical_css/article.css"  %}
-        {% elif page_name == 'highlights/index' %}
+        {% elif page_name == 'highlights/index' or page_name == 'news/index' %}
             /* above the fold for hightlights */
             {% include "critical_css/index.css"  %}
         {% else %}
