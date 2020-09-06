@@ -27,4 +27,4 @@ They also obtained a Spearman correlation metric approaching state-of-the-art pe
 
 The figure above shows the saliency maps for test set images of the TUPAC16 experiment using the best performing models. The TUPAC16 network shows highlights in cell-dense and cancerous regions. There is a trend in which the higher the input solution of the model, the less it focuses on healthy tissue. Also, higher resolution models focus on more locations of the tissue.
 
-The code to reproduce a subset of the experiments is publicly available [here](https://github.com/DIAGNijmegen/StreamingCNN).
+The code to reproduce the experiments is publicly available [here](https://github.com/DIAGNijmegen/StreamingCNN).
