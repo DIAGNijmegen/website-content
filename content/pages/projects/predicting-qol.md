@@ -1,6 +1,6 @@
 title: Predicting changes in quality of life of ICU survivors
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: projects/predicting-icu-survival.png
 template: project-single
@@ -38,7 +38,7 @@ Results showed that, while some models outperform others slightly, the differenc
 
 Due to the way the Dutch measurement of QoL used in this study (EQ-5D-5L) is defined, changes in QoL scores can theoretically range from -1.45 to +1.45. The baseline model had a MAE of 0.129. Out of all predicted values, 48% differed less than 0.1 from their actual score and 82% differed less than 0.2. The best-performing extended model had a MAE of 0.125. Out of all of its predictions, 53% differed less than 0.1 and 84% differed less than 0.2 from the actual value. These are increases of 5% and 2% respectively. 
 
-Each of the extended models used fifteen features or less for generating predictions. Several of the EHR features included in this project were repeatedly selected by the models. This suggests that these features are of influence to one-year post-ICU QoL. The baseline EQ-5D-5L score (QoL before ICU admission) stayed the most important predictor by far, followed by the prevalence of a cerebrovascular accident (CVA) that was also included in the original study. New features that were considered influential in this study are high body temperature, low BMI, and prevalence of delirium. 
+Each of the extended models used fifteen features or less for generating predictions. Several of the EHR features included in this project were repeatedly selected by the models. This suggests that these features are of influence to one-year post-ICU QoL. The baseline EQ-5D-5L score (QoL before ICU admission) stayed the most important predictor by far, followed by the prevalence of a cerebrovascular accident (CVA) that was also included in the original study. New features that were considered influential in this study are high body temperature, low BMI, and prevalence of delirium. The full results can be found in this [final report](https://drive.google.com/file/d/1RskDzNP-hgDEAEUz3JxDNwg-zW8vgjtv/view?usp=sharing).
 
 
 |                        | **Five-feature baseline** |       |       | **Baseline + EHR data** |          |       |       |
