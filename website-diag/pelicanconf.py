@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
-import sys
-import importlib
+
+CURRENTYEAR = date.today().year
+
 
 #
 # Site specific variables
@@ -34,7 +35,7 @@ NAV_SECTIONS = [
     {"name": "About", "url": "about", "icon_mobile": "info", "text_class": "d-lg-block"},
     {"name": "People", "url": "people", "icon_mobile": "users", "text_class": "d-lg-block"},
     {"name": "Research", "url": "research", "icon_mobile": "folder", "text_class": "d-lg-block"},
-    {"name": "Publications", "url": "publications", "icon_mobile": "file-text-o", "text_class": "d-lg-block"},
+    {"name": "Publications", "url": f"publications/{CURRENTYEAR}", "icon_mobile": "file-text-o", "text_class": "d-lg-block"},
     {"name": "Vacancies", "url": "vacancies", "icon_mobile": "vacancies", "text_class": "d-lg-block"},
     {"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
 ]

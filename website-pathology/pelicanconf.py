@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 from datetime import date
 
+
 CURRENTYEAR = date.today().year
 TODAY = date.today()
 AUTHOR = u'WebteamDIAG'
@@ -30,7 +31,7 @@ NAV_SECTIONS = [
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
+    {"name": "Publications", "url": f"publications/{CURRENTYEAR}", "icon": "file-text-o", "hidden": 85},
     {"name": "Presentations", "url": "presentations", "icon": "presentations", "hidden": 95},
     {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
