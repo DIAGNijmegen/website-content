@@ -26,7 +26,8 @@ The slides for past presentations are available by clicking on the links in the 
 | 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**[MSc project](https://www.ai-for-health.nl/projects/fever_icu/) defense**  |
 | 19-11-2020   | Gelena Khazeeva | AI-driven genetic diagnosis for rare-diseases. <br>**[PhD project](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) update**|
 |  26-11-2020   | Anna Gansen   | Objective home-based bradykinesia assessment in Parkinson’s disease. <br>**[MSc project](https://www.ai-for-health.nl/projects/bradykinesia/) update** |
-|  03-12-2020  | Nolan Cardozo  | Automated clinical scoring in psoriasis based on RGB images. <br>**[MSc project](https://www.ai-for-health.nl/projects/psoriasis_ai/) update**|
+|  03-12-2020  | **TBD**   |  |
+|  10-12-2020  | Nolan Cardozo  | Automated clinical scoring in psoriasis based on RGB images. <br>**[MSc project](https://www.ai-for-health.nl/projects/psoriasis_ai/) update**|
 
 
 
