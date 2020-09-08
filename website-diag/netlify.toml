@@ -954,3 +954,9 @@
   from = "/publications-redirect/Alessa+Hering"
   to = "/publications/alessa-hering/"
   status = 301
+  
+[[redirects]]
+  from = "/index.php/Bram_van_Ginneken"
+  to = "/people/bram-van-ginneken"
+  status = 301
+  
