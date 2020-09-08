@@ -1,7 +1,7 @@
 title: Streaming CNNs for Multi-Megapixel Images 
 date: 2020-08-26
 description: Due to memory constraints on current hardware, most convolutional neural networks (CNN) are trained on sub-megapixel images. A novel method for end-to-end training of CNNs on multi-megapixel images was proposed by Hans Pinckaers and his colleagues. Their work appeared online in IEEE Transactions on Pattern Analysis and Machine Intelligence. 
-picture: news/StreamingCNN.png
+picture: news/streamingCNN_highlight.png
 groups: diag, pathology
 full_width: true
 
@@ -11,9 +11,9 @@ They developed a novel method to directly train state-of-the-art convolutional n
 
 Memory demand is typically highest in the first few layers of state-of-the-art CNNs before several pooling layers are applied because the intermediate activation maps are large. These activation maps require much less memory in subsequent layers. They proposed to construct these later activations by _streaming_ the input image through the CNN in a tiled fashion, changing the memory requirement of the CNN to be based on the size of the tile and not the input image. This method allows the processing of input images of any size.
 
-![Streaming CNN Full]({{ IMGURL }}/images/news/StreamingCNN_full.png)
+![Streaming CNN Full]({{ IMGURL }}/images/news/streamingCNN_explanation.png)
 
-The figure above depicts the schematic overview of streaming in a one-dimensional case, using a 1x3 kernel. A detailed explanation of the algorithm can be found in their [paper](https://ieeexplore.ieee.org/document/9178453).
+The figure above depicts the schematic overview of streaming. A detailed explanation of the algorithm can be found in their [paper](https://ieeexplore.ieee.org/document/9178453).
 
 They improved the AUC from 0.580 on 4-megapixel images to 0.706 on 66-megapixel images for metastasis detection in breast cancer on the [CAMELYON17](https://camelyon17.grand-challenge.org/Data/) dataset.
 
