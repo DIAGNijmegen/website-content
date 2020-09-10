@@ -11,6 +11,25 @@ build_defaults: &build_defaults
     - bash deploy.sh
   cache:
     - pip
+  branches:
+    only:
+      - master
+
+dev_build_defaults: &dev_build_defaults
+  stage: build and deploy to beta
+  language: python
+  python: 3.6
+  before_install:
+    - export TZ=Europe/Amsterdam
+  script:
+    - bash parse_publications.sh
+    - bash copy_content.sh
+    - bash deploy.sh
+  cache:
+    - pip
+  branches:
+    only:
+      - develop
 
 # Default configuration for the deploy to Github Pages
 deploy_defaults: &deploy_defaults
@@ -35,6 +54,16 @@ netlify_deploy_defaults: &netlify_deploy_defaults
     prod: true
     "on":
       branch: master
+
+# Default configuration for dev deploys to Netlify
+netlify_dev_deploy_defaults: &netlify_dev_deploy_defaults
+    provider: netlify
+    auth: $NETLIFY_DEV_AUTH
+    edge: true # opt in to dpl v2
+    dir: $WEBSITE/output
+    prod: true
+    "on":
+      branch: develop
 
 notifications:
   email:
@@ -81,15 +110,24 @@ jobs:
       deploy:
         <<: *deploy_defaults
         fqdn: www.aiimnijmegen.nl
-    # Beta deploy job for deploying to Netlify
+    # Deploy job for deploying to Netlify
     - <<: *build_defaults
-      name: Build DIAG websites (Netlify beta)
+      name: Build DIAG websites
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_DIAG
+
+    - <<: *build_defaults_dev
+      name: Build DIAG websites
+      env:
+        - WEBSITE=website-diag
+        - GENERATE_PUB=1
+      deploy:
+        <<: *netlify_dev_deploy_defaults
+        site: $NETLIFY_SITEID_DIAG_BETA
 
     # Build and deploy steps for RTC website
     - <<: *build_defaults
