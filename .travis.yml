@@ -112,7 +112,7 @@ jobs:
         fqdn: www.aiimnijmegen.nl
     # Deploy job for deploying to Netlify
     - <<: *build_defaults
-      name: Build DIAG websites
+      name: Build DIAG website
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
@@ -120,8 +120,8 @@ jobs:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_DIAG
 
-    - <<: *build_defaults_dev
-      name: Build DIAG websites
+    - <<: *dev_build_defaults
+      name: Build DIAG website (dev branch)
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
