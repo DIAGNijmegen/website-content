@@ -17,12 +17,26 @@ body {
 // Default settings for headers
 h1,h2,h3,h4,h5,h6 {
   color: $primary;
-}
-h1,h2,h3 {
   font-weight: 300;
 }
-h4,h5,h6 {
-  font-weight: 400;
+
+h1 {
+  font-size: 2rem;
+}
+
+// Sub-titles
+h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+
+  margin-top: 1.5rem;
+}
+
+.content-home h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+
+  margin-top: 0rem;
 }
 
 // Main titles (for example on home page)
@@ -33,11 +47,59 @@ h1.display-title {
   margin-bottom: 1em;
 }
 
-
 // First header on each page
 .page-title {
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 800;
 
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
 }
+
+p a { 
+  font-weight: 800;
+}
+
+h3 a {
+  font-weight: 300;
+}
+
+div.container > p,
+div.page-content > p {
+  margin-bottom: 0.75em;
+}
+
+@media (min-width: 768px) {
+  div.container > p,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul {
+    padding-right: 5em;
+  }
+}
+@media (min-width: 992px) {
+  div.container > p,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul {
+    padding-right: 10em;
+  }
+}
+@media (min-width: 1200px) {
+  div.container > p,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul {
+    padding-right: 20em;
+  }
+}
+
+// A bit more whitespace for lists
+ul, ol {
+  margin-top: 0.25rem;
+  padding-left: 1.5em;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+

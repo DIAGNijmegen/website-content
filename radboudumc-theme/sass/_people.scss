@@ -24,11 +24,13 @@ Styles for all the elements related to group members.
     color: $primary;
     font-weight: 400;
 
-    padding-top: 0.45em;
+    padding-top: 0.65em;
+    margin-bottom: 0px;
   }
   .person-title {
     color: $secondary;
     font-weight: 300;
+    font-size: 1.2em;
   }
 
   .img-thumbnail {
