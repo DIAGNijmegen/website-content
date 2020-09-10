@@ -9,8 +9,8 @@ cd $WEBSITE
 # Development deploys (e.g. to develop.diagnijmegen.nl)
 if [ "$DEVELOPMENT" = "1" ]; then
   # Copy images locally (dev deploy does not use CDN)
-  cp -r --no-clobber assets/images/. output/images
-  cp -r --no-clobber content/images/. output/images
+  cp -r --no-clobber ../assets/images/. output/images
+  cp -r --no-clobber ../content/images/. output/images
 
   pelican content
 
