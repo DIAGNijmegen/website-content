@@ -108,6 +108,7 @@ jobs:
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
+        - DEVELOPMENT=1
       deploy:
         <<: *netlify_dev_deploy_defaults
         site: $NETLIFY_SITEID_DIAG_BETA
