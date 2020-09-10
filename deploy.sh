@@ -24,7 +24,7 @@ if [[ -e robots.txt ]]; then
   cp robots.txt output/robots.txt
 fi
 
-if [ "$TESTVAR" = "foo" ]; then
+if [ "$DEVELOPMENT" = "1" ]; then
   # Custom robots file for dev sites
   cp robots_dev.txt output/robots.txt
 fi
