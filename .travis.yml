@@ -1,5 +1,5 @@
 # Default settings for all Pelican builds
-build_defaults: &build_defaults
+_build_defaults: &build_defaults
   stage: build and deploy
   language: python
   python: 3.6
@@ -11,12 +11,13 @@ build_defaults: &build_defaults
     - bash deploy.sh
   cache:
     - pip
+  if: branch = master
 
 # Default configuration for the deploy to Github Pages
-deploy_defaults: &deploy_defaults
+_deploy_defaults: &deploy_defaults
     provider: pages
     repo: diagnijmegen/$WEBSITE
-    skip-cleanup: true
+    skip_cleanup: true
     keep_history: true
     local_dir: $WEBSITE/output
     target_branch: master
@@ -27,7 +28,7 @@ deploy_defaults: &deploy_defaults
       branch: master
 
 # Default configuration for deploys to Netlify
-netlify_deploy_defaults: &netlify_deploy_defaults
+_netlify_deploy_defaults: &netlify_deploy_defaults
     provider: netlify
     auth: $NETLIFY_AUTH
     edge: true # opt in to dpl v2
@@ -35,6 +36,16 @@ netlify_deploy_defaults: &netlify_deploy_defaults
     prod: true
     "on":
       branch: master
+
+# Default configuration for dev deploys to Netlify
+_netlify_dev_deploy_defaults: &netlify_dev_deploy_defaults
+    provider: netlify
+    auth: $NETLIFY_DEV_AUTH
+    edge: true # opt in to dpl v2
+    dir: $WEBSITE/output
+    prod: true
+    "on":
+      branch: develop
 
 notifications:
   email:
@@ -81,15 +92,26 @@ jobs:
       deploy:
         <<: *deploy_defaults
         fqdn: www.aiimnijmegen.nl
-    # Beta deploy job for deploying to Netlify
+    # Deploy job for deploying to Netlify
     - <<: *build_defaults
-      name: Build DIAG websites (Netlify beta)
+      name: Build DIAG website
       env:
         - WEBSITE=website-diag
         - GENERATE_PUB=1
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_DIAG
+
+    - <<: *build_defaults
+      name: Build DIAG website (dev branch)
+      if: branch = develop
+      env:
+        - WEBSITE=website-diag
+        - GENERATE_PUB=1
+        - DEVELOPMENT=1
+      deploy:
+        <<: *netlify_dev_deploy_defaults
+        site: $NETLIFY_SITEID_DIAG_BETA
 
     # Build and deploy steps for RTC website
     - <<: *build_defaults

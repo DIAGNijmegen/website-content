@@ -6,8 +6,20 @@ set -e
 echo "Starting Pelican build of $WEBSITE"
 cd $WEBSITE
 
-# Build pelican website
-pelican content -s publishconf.py
+# Development deploys (e.g. to develop.diagnijmegen.nl)
+if [ "$DEVELOPMENT" = "1" ]; then
+  pelican content
+
+  # Copy images locally (dev deploy does not use CDN)
+  cp -r --no-clobber ../assets/images/. output/images
+  cp -r --no-clobber ../content/images/. output/images
+
+  # Custom robots file for dev sites
+  cp robots_dev.txt output/robots.txt
+else
+  # Build pelican website for deployment
+  pelican content -s publishconf.py
+fi
 
 # Copy files for github
 cp README.md output/README.md
