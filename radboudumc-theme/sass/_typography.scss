@@ -12,20 +12,11 @@ body {
   // No web fonts are used so maximize client rendering of the system font
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
-
-  color: rgb(50, 50, 50);
 }
 
 // Default settings for headers
 h1,h2,h3,h4,h5,h6 {
   color: $primary;
-}
-
-h1,h2,h3,h4,h5,h6  {
-  font-weight: 300;
-}
-
-.block-home h1 {
   font-weight: 300;
 }
 
@@ -36,13 +27,14 @@ h1 {
 // Sub-titles
 h2 {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 800;
 
   margin-top: 1.5rem;
 }
 
-main.content-home h2 {
+.content-home h2 {
   font-size: 1.75rem;
+  font-weight: 300;
 
   margin-top: 0rem;
 }
@@ -57,11 +49,10 @@ h1.display-title {
 
 // First header on each page
 .page-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
 
   margin-bottom: 1.5rem;
-  font-size: 2rem;
 }
 
 p a { 
@@ -102,17 +93,13 @@ div.page-content > p {
   }
 }
 
-nav a {
-  font-weight: 300;
-}
-
 // A bit more whitespace for lists
 ul, ol {
   margin-top: 0.25rem;
   padding-left: 1.5em;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
 }
 
-ul li,
-ol li {
-  margin-bottom: 0.25rem;
-}
