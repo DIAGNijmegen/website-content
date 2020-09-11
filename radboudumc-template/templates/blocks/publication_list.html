@@ -1,6 +1,5 @@
 {% if custom == 'false' or page.slug == 'most-cited' %} 
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
-
     {% if page.slug == page.author or page.slug == 'publications' %}
         <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}">all</a>
     {% else %}
