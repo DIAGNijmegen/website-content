@@ -7,7 +7,6 @@ active: yes
 groups: diag, retina
 default_group: retina
 email: cristina.gonzalezgonzalo@radboudumc.nl
-office: Route 767, Room 23
 type: phd
 linkedin: https://www.linkedin.com/in/cristina-gonzalez-gonzalo-32756a151/
 scholar: https://scholar.google.nl/citations?user=N6H5b3YAAAAJ&hl=en
