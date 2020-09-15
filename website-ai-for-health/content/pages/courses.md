@@ -25,22 +25,21 @@ An overview of the course schedule can be seen below.
 | Date  |  Topic  | Location |
 | ----- | ------- | ------- |
 | 18-09-2020 | Intro / Machine Learning 1 | JADS |
-| 25-09-2020 | Machine Learning 2 / Final Presentations Course 1 |  Radboudumc |
-| 02-10-2020 | Machine Learning 3 / Python Assignments |  Radboudumc |
-| 09-10-2020 | Machine Learning 4 / Python Assignments |  Radboudumc |
-| 30-10-2020 | Data Engineering |  Radboudumc |
-| 06-11-2020 | Deep Learning 1 / Python Assignments |  Radboudumc |
-| 13-11-2020 | Deep Learning 2 / Python Assignments |  Radboudumc |
-| 20-11-2020 | Project Day 1 |  Radboudumc |
-| 27-11-2020 | Machine Learning 5 / Python Assignments |  Radboudumc |
-| 04-12-2020 | Project Day 2 |  Radboudumc |
+| 25-09-2020 | Machine Learning 2 / Final Presentations Course 1 |  Radboudumc <br> Route 123 - Mertens B until 13:15 PM <br> Route 608 - Oranjezaal after 14:00 PM |
+| 02-10-2020 | Machine Learning 3 / Python Assignments |  Radboudumc <br> Route 479 - Ruimte 05 |
+| 09-10-2020 | Machine Learning 4 / Python Assignments |  Radboudumc <br> Route 448 - Ruimte 01 |
+| 30-10-2020 | Data Engineering |  Radboudumc <br> Route 417 - Ruimte 01 |
+| 06-11-2020 | Deep Learning 1 / Python Assignments |  Radboudumc <br> Route 325 - Colloquiumzaal 1.2/1.3 (Tandheelkunde)|
+| 13-11-2020 | Deep Learning 2 / Python Assignments |  Radboudumc <br> Route 325 - Colloquiumzaal 1.2/1.3 (Tandheelkunde)|
+| 20-11-2020 | Project Day 1 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
+| 27-11-2020 | Machine Learning 5 / Python Assignments |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
+| 04-12-2020 | Project Day 2 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 11-12-2020 | Decision Support | JADS |
 | 18-12-2020 | Visualization | JADS |
-| 08-01-2021 | Project Day 3 |  Radboudumc |
-| 15-01-2021 | Bioinformatics |  Radboudumc |
+| 08-01-2021 | Project Day 3 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
+| 15-01-2021 | Bioinformatics |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 22-01-2021 | Text Mining | JADS |
-| 29-01-2021 | Project Day 4 |  Radboudumc |
-| 05-02-2021 | Ethics |  Radboudumc | JADS |
+| 29-01-2021 | Project Day 4 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)||
 | 12-02-2021 | Final Presentations |  Radboudumc |
 
 ## First edition
