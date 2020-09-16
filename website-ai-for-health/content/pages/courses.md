@@ -25,10 +25,10 @@ An overview of the course schedule can be seen below.
 | Date  |  Topic  | Location |
 | ----- | ------- | ------- |
 | 18-09-2020 | Intro / Machine Learning 1 | JADS |
-| 25-09-2020 | Machine Learning 2 / Final Presentations Course 1 |  Radboudumc <br> Route 123 - Mertens B until 13:15 PM <br> Route 608 - Oranjezaal after 14:00 PM |
-| 02-10-2020 | Machine Learning 3 / Python Assignments |  Radboudumc <br> Route 479 - Ruimte 05 |
-| 09-10-2020 | Machine Learning 4 / Python Assignments |  Radboudumc <br> Route 448 - Ruimte 01 |
-| 30-10-2020 | Data Engineering |  Radboudumc <br> Route 417 - Ruimte 01 |
+| 25-09-2020 | Machine Learning 2 / Final Presentations Course 1 |  Radboudumc <br> Route 123 - Mertens B until 13:15 PM <br> Livestram link for graduation coming soon |
+| 02-10-2020 | Machine Learning 3 / Python Assignments |  Radboudumc <br> Route 448 - Ruimte 01 from 09:30 AM|
+| 09-10-2020 | Machine Learning 4 / Python Assignments |  Radboudumc <br> Route 448 - Ruimte 01 from 09:30 AM|
+| 30-10-2020 | Data Engineering |  Radboudumc <br> Route 448 - Ruimte 01 from 09:30 AM|
 | 06-11-2020 | Deep Learning 1 / Python Assignments |  Radboudumc <br> Route 325 - Colloquiumzaal 1.2/1.3 (Tandheelkunde)|
 | 13-11-2020 | Deep Learning 2 / Python Assignments |  Radboudumc <br> Route 325 - Colloquiumzaal 1.2/1.3 (Tandheelkunde)|
 | 20-11-2020 | Project Day 1 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
