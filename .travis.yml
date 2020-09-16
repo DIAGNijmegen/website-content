@@ -120,8 +120,8 @@ jobs:
         - WEBSITE=website-rtc
         - GENERATE_PUB=1
       deploy:
-        <<: *deploy_defaults
-        fqdn: rtc.diagnijmegen.nl
+        <<: *netlify_deploy_defaults
+        site: $NETLIFY_SITEID_RTC
     # Build and deploy steps for AI-for-Health website
     - <<: *build_defaults
       name: Build AI-for-Health website
