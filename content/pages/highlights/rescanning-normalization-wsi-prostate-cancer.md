@@ -1,4 +1,4 @@
-title: Impact of Rescanning and Normalization on CNN performance for Prostate Cancer Classification on Whole Slide Images
+title: Impact of Scanner Variations and Staining of WSIs on CNNs
 date: 2020-09-01
 description: The impact of scanner variations and stain normalization on CNN performance for prostate cancer classification on WSIs was investigated by Zaneta Swiderska-Chadaj and their colleagues, and the work was published in Nature Scientific Reports.
 picture: news/wsi-heterogeneity.png
