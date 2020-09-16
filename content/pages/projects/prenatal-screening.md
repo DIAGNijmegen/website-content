@@ -25,7 +25,8 @@ Development of a deep learning algorithm that automatically determines the locat
 When the algorithm has sufficient sensitivity and accuracy, and are able to run on a smartphone, it will be integrated in the current prototype which we are planning to evaluate in resource-limited settings.
 
 ## Methods
-The placenta localization algorithm was split in two parts
+The placenta localization algorithm was split in two parts:
+
 - Placenta segmentation 
 - Placenta classification
 
