@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-| 10-09-2020    | **Guest Speaker** <br> Stanley Pham | Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG. |
 | 17-09-2020    | Thijs van den Hout | Muscle and fat segmentation in 3D CT images for body composition assessment. <br>**[MSc project](https://www.ai-for-health.nl/projects/muscle-fat-segmentation/) defense** |
 | 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
 | 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**[MSc project](https://www.ai-for-health.nl/projects/prenatal-screening/) defense** |
@@ -35,6 +34,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 10-09-2020    | **Guest Speaker** <br> Stanley Pham | [Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG.](https://drive.google.com/file/d/173Q0X9Pa6pWRfsAeYeMr9PObirWz4YUr/view?usp=sharing) [[Video]](https://drive.google.com/file/d/1ZtAqltB_nE-zW5wy7gR_fZNtVjYbopVz/view?usp=sharing) |
 | 03-09-2020     | Manon de Jonge | [Predicting changes in quality of life of ICU survivors.](https://drive.google.com/file/d/1Ch_ZFYtUP4VskZDDh2LTdVaucyKCkiae/view?usp=sharing) |
 | 27-08-2020  | Fien Ockers <br><br> Max Oosterwegel | [Quantitative facial phenotyping of patients with intellectual disability.](https://drive.google.com/file/d/17YopMfcXMnRpL_Ikhs0X43G_vD0gh9pn/view?usp=sharing)  <br> [Modelling long-term progression of Parkinson’s disease.](https://drive.google.com/file/d/16NsO8Q2wrFiyfqZClBSI38SQjangsgT7/view?usp=sharing)  |
 | 02-07-2020 | Ruben Kluge  | [Pneumothorax detection using Deep Learning.](https://drive.google.com/open?id=1ftGLhnryHfIR_ao0QI-MxDxjGWazmKis)  |
