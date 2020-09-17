@@ -1,6 +1,6 @@
 title: Muscle and fat segmentation in CT images for body composition assessment
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: projects/body-composition.jpg
 template: project-single
