@@ -1,13 +1,13 @@
 /*
 
-Main Pathology website stylesheet file (in Sass)
+Base website stylesheet file (in Sass)
 -------------------------------------------
 
 Built on top of Bootstrap 4.
-
+Loads all the dependencies.
 */
 
-// Import the main variables file, all other files should use these variables
+// Import default values for variables
 @import "variables";
 
 // Some parts of bootstrap are not loaded to decrease file size
@@ -34,7 +34,7 @@ Built on top of Bootstrap 4.
 @import "node_modules/bootstrap/scss/card";
 @import "node_modules/bootstrap/scss/breadcrumb";
 @import "node_modules/bootstrap/scss/pagination";
-@import "node_modules/bootstrap/scss/badge";
+// @import "node_modules/bootstrap/scss/badge";
 @import "node_modules/bootstrap/scss/jumbotron";
 @import "node_modules/bootstrap/scss/alert";
 // @import "node_modules/bootstrap/scss/progress";
@@ -47,7 +47,6 @@ Built on top of Bootstrap 4.
 // @import "node_modules/bootstrap/scss/carousel";
 @import "node_modules/bootstrap/scss/utilities";
 @import "node_modules/bootstrap/scss/print";
-
 
 // Styles for the base theme
 @import "layout";
