@@ -1,0 +1,119 @@
+@@ -1,118 +0,0 @@
+<!doctype html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    {% block head %}
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% if page and page.template == 'home' %}
+    <link rel="canonical" href="{{ SITEURL }}">
+    {% elif page and page.category == 'members' and page.name in MEMBER_DATA_PER_NAME %}
+    <link rel="canonical" href="{{ MEMBER_DATA_PER_NAME[page.name].url }}">
+    {% elif page %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
+    {% elif article %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
+    {% elif page_name == 'highlights/index' %}
+    <link rel="canonical" href="{{ SITEURL }}/hightlights/">
+    {% endif %}
+
+    {% if page and page.redirect %}
+    <meta http-equiv="refresh" content="0; URL={{ page.redirect }}" />
+    {% endif %}
+
+    {% include "blocks/feeds.html" %}
+
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}{% if page and page.template != 'home' %} - {{ SITENAME }}{% endif %}</title>
+
+    {% endblock head %}
+
+    <!-- Search Engine -->
+    <meta name="description" content="{% block description %}{% endblock description %}">
+    <meta name="image" content="{% block page_picture %}{% endblock %}">
+
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="{{ self.title() }}{% if page and page.template != 'home' %} - {{ SITENAME }}{% endif %}">
+    <meta itemprop="description" content="{{ self.description() }}">
+    <meta itemprop="image" content="{{ self.page_picture() }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ self.title() }}{% if page and page.template != 'home' %} - {{ SITENAME }}{% endif %}">
+    <meta name="twitter:description" content="{{ self.description() }}">
+    <meta name="twitter:creator" content="@diagnijmegen">
+    <meta name="twitter:image:src" content="{{ self.page_picture() }}">
+
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="og:title" content="{{ self.title() }}{% if page and page.template != 'home' %} - {{ SITENAME }}{% endif %}">
+    <meta property="og:description" content="{{ self.description() }}">
+    <meta property="og:image" content="{{ self.page_picture() }}">
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    <meta property="og:type" content="{% if article %}article{% else %}website{% endif %}">
+    {% if article %}
+    <meta name="article:published_time" content="{{ article.date.isoformat() }}">
+    {% endif %}
+
+    <style>
+        {% if page %}
+            /* above the fold for {{ page.template }} */
+            {% include ["critical_css/" + page.template + ".css", "critical_css/home.css"] %}
+        {% elif article %}
+            /* above the fold for article */
+            {% include "critical_css/article.css"  %}
+        {% elif page_name == 'highlights/index' or page_name == 'news/index' %}
+            /* above the fold for hightlights */
+            {% include "critical_css/index.css"  %}
+        {% else %}
+            /* no above the fold css for {{ page_name}} */
+        {% endif %}
+    </style>
+
+    <!-- Async load css -->
+    <link href="{{SITEURL}}/theme/css/{{ CSS_THEME if CSS_THEME else 'default-theme' }}.css?v={% include 'blocks/css.version' %}" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="{{SITEURL}}/theme/css/{{ CSS_THEME if CSS_THEME else 'default-theme' }}.css?v={% include 'blocks/css.version' %}" rel="stylesheet"></noscript>
+    <script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+
+    <!-- lazyloader for images -->
+    <script src="{{ SITEURL }}/theme/js/lazysizes.min.js" async=""></script>
+    <!-- Add support for lazy loading backround images -->
+    <script>
+    document.addEventListener('lazybeforeunveil', function(e){
+    var bg = e.target.getAttribute('data-bg');
+        if(bg){
+            e.target.style.backgroundImage = 'url(' + bg + ')';
+        }
+    });
+    </script>
+
+    {% if GOOGLE_ANALYTICS %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ GOOGLE_ANALYTICS }}',  { 'anonymize_ip': true });
+    </script>
+    {% endif %}
+</head>
+
+<body>
+
+    {% include "blocks/svg-definitions.html" %}
+    {% include "blocks/nav-top.html" %}
+
+    <main role="main" class="content {% if page and page.template == 'home' %}content-home{%endif%}">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    {% include "blocks/footer.html" %}
+
+    {% if page and page.openseadragon %}
+    <script type="text/javascript" src="https://assets.diagnijmegen.nl/dzi/openseadragon.min.js" async onload="window.loadDzi();"></script>
+    {% endif %}
+</body>
+</html>
