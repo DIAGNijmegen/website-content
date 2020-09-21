@@ -1,4 +1,4 @@
-title: Closing the gap: Implementation of AI-based breast and prostate grading algorithms in clinical practice
+title: Closing the gap: Implementation of AI-based breast and prostate cancer grading algorithms in clinical practice
 groups: diag, pathology
 closed: false
 type: general
