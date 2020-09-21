@@ -2,7 +2,7 @@ title: Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventi
 groups: ai-for-health, diag
 closed: false
 type: student
-picture: vacancies/fracture_detection_radius_ulna_metacarpals_radiographs.jpg
+picture: vacancies/fracture_detection_radius_ulna_metacarpals_msc_project.jpg
 template: vacancy-single
 people: Nils Hendrix, Sharon Ong, Matthieu Rutten, Eric Postma, Bram van Ginneken
 description: Development of a deep learning algorithm and web application for automated detection of fractures in the radius, ulna, and metacarpal bones on conventional radiographs. 
