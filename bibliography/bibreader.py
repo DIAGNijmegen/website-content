@@ -60,9 +60,9 @@ def parse_bib_block_content(bib_item_text):
         if key == "author":
             value = value.replace("}}", "}__strip__}")
             value = value.replace("{{", "{__strip__{")
-            value = value.strip("{").strip("}").strip("__strip__")
+            value = value.strip().strip("{").strip("}").strip("__strip__").strip()
         else:
-            value = value.strip().strip("{").strip("}")
+            value = value.strip().strip("{").strip("}").strip()
 
         # set bib_item
         bib_item[key] = value
