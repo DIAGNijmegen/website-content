@@ -201,11 +201,13 @@ def parse_bibtex_file(filename, full_strings_bib):
                 if "arxiv" in bib_item["url"]:
                     bib_item["url_type"] = "arXiv"
                 else:
-                    bib_item["url_type"] = "url"
+                    bib_item["url_type"] = "Url"
             elif bib_item["type"] == "preprint":
-                bib_item["url_type"] = "arXiv"
                 if bib_item["journal"] and "arxiv" in bib_item["journal"].lower():
                     bib_item["url"] = get_arxiv_id_from_title(bib_item["journal"])
+                    bib_item["url_type"] = "arXiv"
+                else:
+                    bib_item["url_type"] == "Url"
 
             if "year" not in bib_item:
                 print("no year found in bibitem. skipping bibitem:", bib_item)

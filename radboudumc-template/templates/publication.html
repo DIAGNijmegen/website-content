@@ -1,80 +1,84 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block content %}
-    {% include 'blocks/breadcrumbs.html' %}
+{% include 'blocks/breadcrumbs.html' %}
 
-    <div class="container">
-    <h1 class="page-title">{{ page.title }}</h1>
+<div class="container">
+  <h1 class="page-title">{{ page.title }}</h1>
 
-    <p class="lead">
-        {% for author in page.authors %}
-            {{ author }}{% if not loop.last %}, {% endif %}
-        {% endfor %}
-    </p>
+  <p class="lead">
+    {% for author in page.authors %}
+    {{ author }}{% if not loop.last %}, {% endif %}
+    {% endfor %}
+  </p>
 
-    {% if page.journal != 'NA' and page.year %}
-    	<p>{{ page.journal }} {{  BIB_ITEMS[page.bibkey]['pubinfo'] }}.</p>
+  {% if page.journal != 'NA' and page.year %}
+  <p>{{ page.journal }} {{  BIB_ITEMS[page.bibkey]['pubinfo'] }}.</p>
+  {% endif %}
+
+  {% if page.journal == 'NA' and page.booktitle != 'NA' and page.year %}
+  <p>{{ page.booktitle }} {{  BIB_ITEMS[page.bibkey]['pubinfo'] }}.</p>
+  {% endif %}
+
+  <p>
+    {% if 'doi' in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
     {% endif %}
 
-    {% if page.journal == 'NA' and page.booktitle != 'NA' and page.year %}
-     	<p>{{ page.booktitle }} {{  BIB_ITEMS[page.bibkey]['pubinfo'] }}.</p>
+    {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
     {% endif %}
 
-    <p>
-      {% if 'doi' in BIB_ITEMS[page.bibkey] %}
-      <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
-      {% endif %}
-      
-      {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
-      <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
-      {% endif %}
-
-      {% if 'url' in BIB_ITEMS[page.bibkey] and BIB_ITEMS[page.bibkey]['url_type'] == 'arXiv' %}
-      <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
-      {% endif %}
-
-      {% if 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
-      <a href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited by ~{{  BIB_ITEMS[page.bibkey]['gscites'] }}</a>
-      {% endif %}
-
-      {% if 'code' in BIB_ITEMS[page.bibkey] %}
-      <a href={{ BIB_ITEMS[page.bibkey]['code'] }}>Code</a>
-      {% endif %}
-
-      {% if 'algorithm' in BIB_ITEMS[page.bibkey] %}
-      <a href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
-      {% endif %}
-
-    </p>
-
-    
-    <div class="page-content">
-        {{ page.content }}
-    </div>
-
-    {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
-    <div id="pdf-form" class="mt-5">
-      <h2>Request PDF</h2>
-
-      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
-
-      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey={{ page.bibkey }}&ref={{SITE_REPO}}"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
-    </div>
-
-    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
-      <h3>PDF sent</h3>
-
-      <p>An email message containing a code and instructions to download the following paper has been sent to your email address.</p>
-    </div>
-
-    <script type="text/javascript">
-      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
-      if(window.location.hash == '#pdf-sent') {
-        document.getElementById('pdf-form').style.display = 'none';
-        document.getElementById('pdf-sent').style.display = 'block';
-      }
-    </script>
+    {% if 'url' in BIB_ITEMS[page.bibkey] and 'doi' not in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
     {% endif %}
 
-    </div>
+    {% if 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited by ~{{  BIB_ITEMS[page.bibkey]['gscites'] }}</a>
+    {% endif %}
+
+    {% if 'code' in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['code'] }}>Code</a>
+    {% endif %}
+
+    {% if 'algorithm' in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
+    {% endif %}
+
+  </p>
+
+
+  <div class="page-content">
+    {{ page.content }}
+  </div>
+
+  {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
+  <div id="pdf-form" class="mt-5">
+    <h2>Request PDF</h2>
+
+    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and
+      press the button. You will receive an e-mail message with a link to the pdf file.</p>
+
+    <form method="post"
+      action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey={{ page.bibkey }}&ref={{SITE_REPO}}">
+      <input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+  </div>
+
+  <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+    <h3>PDF sent</h3>
+
+    <p>An email message containing a code and instructions to download the following paper has been sent to your email
+      address.</p>
+  </div>
+
+  <script type="text/javascript">
+    // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+    if (window.location.hash == '#pdf-sent') {
+      document.getElementById('pdf-form').style.display = 'none';
+      document.getElementById('pdf-sent').style.display = 'block';
+    }
+  </script>
+  {% endif %}
+
+</div>
 {% endblock %}
