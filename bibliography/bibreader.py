@@ -201,7 +201,7 @@ def parse_bibtex_file(filename, full_strings_bib):
                 if "arxiv" in bib_item["url"]:
                     bib_item["url_type"] = "arXiv"
                 else:
-                    bib_item["url_type"] = "Url"
+                    bib_item["url_type"] = "url"
             elif bib_item["type"] == "preprint":
                 bib_item["url_type"] = "arXiv"
                 if bib_item["journal"] and "arxiv" in bib_item["journal"].lower():

@@ -1,41 +1,41 @@
 <li>{{- BIB_ITEMS[bibkey]['authors']|safe }}, "{{ BIB_ITEMS[bibkey]['title'] }}",
     {% if 'journal' in BIB_ITEMS[bibkey] -%}
-        <i>{{ BIB_ITEMS[bibkey]['journal'] }}, </i>
+    <i>{{ BIB_ITEMS[bibkey]['journal'] }}, </i>
     {%- elif 'booktitle' in BIB_ITEMS[bibkey] -%}
-        <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
+    <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
     {%- endif -%}
     {%- if 'pubinfo' in BIB_ITEMS[bibkey] -%}
-        {{- BIB_ITEMS[bibkey]['pubinfo'] -}}.
+    {{- BIB_ITEMS[bibkey]['pubinfo'] -}}.
     {%- endif -%}
     <small>
-    {% if 'file' in BIB_ITEMS[bibkey] %}    
+        {% if 'file' in BIB_ITEMS[bibkey] %}
         <a href={{- '/publications/%s'%bibkey -}}>Abstract/PDF</a>
-    {% else %}
+        {% else %}
         <a href={{- '/publications/%s'%bibkey -}}>Abstract</a>
-    {% endif %}
+        {% endif %}
 
-    {% if 'doi' in BIB_ITEMS[bibkey] %}
-    <a href={{ BIB_ITEMS[bibkey]['doi'] }}>DOI</a>
-    {% endif %}
+        {% if 'doi' in BIB_ITEMS[bibkey] %}
+        <a href={{ BIB_ITEMS[bibkey]['doi'] }}>DOI</a>
+        {% endif %}
 
-    {% if 'pmid' in BIB_ITEMS[bibkey] %}
-    <a href={{ BIB_ITEMS[bibkey]['pmid'] }}>PMID</a>
-    {% endif %}
+        {% if 'pmid' in BIB_ITEMS[bibkey] %}
+        <a href={{ BIB_ITEMS[bibkey]['pmid'] }}>PMID</a>
+        {% endif %}
 
-    {% if 'url' in BIB_ITEMS[bibkey] and BIB_ITEMS[bibkey]['url_type'] == 'arXiv' %}
-	<a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
-    {% endif %}
+        {% if 'url' in BIB_ITEMS[bibkey] %}
+        <a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
+        {% endif %}
 
-    {% if 'gsid' in BIB_ITEMS[bibkey] and 'gscites' in BIB_ITEMS[bibkey] %}
-	<a href={{ BIB_ITEMS[bibkey]['gsid'] }}>Cited by ~{{  BIB_ITEMS[bibkey]['gscites'] }}</a>
-    {% endif %}
+        {% if 'gsid' in BIB_ITEMS[bibkey] and 'gscites' in BIB_ITEMS[bibkey] %}
+        <a href={{ BIB_ITEMS[bibkey]['gsid'] }}>Cited by ~{{  BIB_ITEMS[bibkey]['gscites'] }}</a>
+        {% endif %}
 
-    {% if 'code' in BIB_ITEMS[bibkey] %}
-    <a href={{ BIB_ITEMS[bibkey]['code'] }}>Code</a>
-    {% endif %}
+        {% if 'code' in BIB_ITEMS[bibkey] %}
+        <a href={{ BIB_ITEMS[bibkey]['code'] }}>Code</a>
+        {% endif %}
 
-    {% if 'algorithm' in BIB_ITEMS[bibkey] %}
-    <a href={{ BIB_ITEMS[bibkey]['algorithm'] }}>Algorithm</a>
-    {% endif %}
+        {% if 'algorithm' in BIB_ITEMS[bibkey] %}
+        <a href={{ BIB_ITEMS[bibkey]['algorithm'] }}>Algorithm</a>
+        {% endif %}
 
     </small></li>
