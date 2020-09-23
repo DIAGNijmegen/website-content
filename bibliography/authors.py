@@ -301,7 +301,7 @@ def authors_to_string(names):
         first, von, last, jr = name
 
         if first:
-            first = first[0] + "."
+            first = first[0].capitalize() + "."
         if idx == len(names) - 2:
             d = " and "
         if idx == len(names) - 1:
