@@ -25,4 +25,4 @@ Application areas include diagnostics and prognostics of breast, colon, prostate
 For more information please contact [member/geert-litjens] by e-mail.
 
 ## Application
-Please apply [here](https://www.radboudumc.nl/en/vacancies/87381-phd-candidate-closing-the-gap-implementation-of-ai-based-breast-and-prostate-grading-algorithm)!
+Please apply [here](https://www.radboudumc.nl/en/vacancies/87381-phd-candidate-closing-the-gap-implementation-of-ai-based-breast-and-prostate-cancer-grading-al)!
