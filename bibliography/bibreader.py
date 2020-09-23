@@ -58,9 +58,9 @@ def parse_bib_block_content(bib_item_text):
         key = key.lower().strip()
 
         if key == "author":
-            value = value.replace("}}", "}--}")
-            value = value.replace("{{", "{--{")
-            value = value.strip("{").strip("}").strip("--")
+            value = value.replace("}}", "}__strip__}")
+            value = value.replace("{{", "{__strip__{")
+            value = value.strip("{").strip("}").strip("__strip__")
         else:
             value = value.strip().strip("{").strip("}")
 

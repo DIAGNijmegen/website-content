@@ -287,7 +287,7 @@ def parse_name(name):
         last = nvon + last
         nvon = ""
 
-    return decode_name((nfirst2, nvon, last, jr))
+    return decode_name((nfirst2.capitalize(), nvon, last, jr))
 
 
 def authors_to_string(names):
