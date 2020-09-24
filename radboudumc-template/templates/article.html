@@ -32,7 +32,7 @@
         </div>
         {% endif %}
 
-        <div class="{% if article.full_width %}col-md-12{% else %}col-md-8{% endif %}">
+        <div class="{% if article.full_width %}col-md-12{% else %}col-md-8{% endif %} news-item">
             {{ article.content }}
 
 	    <a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}" class="mt-5">&larr; Back to overview</a>
