@@ -2,10 +2,7 @@ title: Artificial intelligence-assisted detection of adhesions on cine MRI
 groups: ai-for-health, diag
 closed: false
 type: student
-<!---
-TODO
-picture: vacancies/fracture_detection_radius_ulna_metacarpals_msc_project.jpg
--->
+picture: projects/ai4adhesion.jpg
 template: vacancy-single
 people: Bram de Wilde, Henkjan Huisman
 description: Development of an AI-assisted algorithm for automatic detection of adhesions on cine MRI
