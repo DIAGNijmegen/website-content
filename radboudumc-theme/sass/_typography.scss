@@ -72,49 +72,47 @@ div.page-content > p {
   margin-bottom: 0.75em;
 }
 
-@media (min-width: 768px) {
+@include media-breakpoint-up(md) {
   div.container > p,
   div.container > ol,
   div.container > ul,
   div.page-content > p,
   div.page-content > ol,
   div.page-content > ul,
-  div.news-item > p {
+  div.col-md-12.news-item > p {
     padding-right: 5em;
   }
-  div.news-item img {
-    width: 700px;
-    max-width: unset;
+  div.col-md-12.news-item img {
+    max-width: 700px;
   }
 }
-@media (min-width: 992px) {
+
+@include media-breakpoint-up(lg) {
   div.container > p,
   div.container > ol,
   div.container > ul,
   div.page-content > p,
   div.page-content > ol,
   div.page-content > ul,
-  div.news-item > p {
+  div.col-md-12.news-item > p {
     padding-right: 10em;
   }
-  div.news-item img {
-    width: 900px;
-    max-width: unset;
+  div.col-md-12.news-item img {
+    max-width: 900px;
   }
 }
-@media (min-width: 1200px) {
+@include media-breakpoint-up(xl) {
   div.container > p,
   div.container > ol,
   div.container > ul,
   div.page-content > p,
   div.page-content > ol,
   div.page-content > ul,
-  div.news-item > p {
+  div.col-md-12.news-item > p {
     padding-right: 20em;
   }
-  div.news-item img {
-    width: 1000px;
-    max-width: unset;
+  div.col-md-12.news-item img {
+    max-width: 1000px;
   }
 }
 
