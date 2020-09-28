@@ -1,12 +1,14 @@
 title: Artifact detection in digitized histopathology images using deep learning
 groups: pathology, diag, ai-for-health
-closed: false
+finished: false
 type: student
 picture: vacancies/artifact_msc_project.png
 template: project-single
 people: Gijs Smit, Caner Mercan, Francesco Ciompi
 description: Development of a deep learning algorithm that can classify the different types of artifacts in whole slide images.
 
+**Start date: ** <br>
+**End date: **
 
 ## Background
 Whole slide imaging technology allowed the digitization of conventional glass slides which led to several new opportunities in the field such as the integration of computational systems, most notably artificial intelligence. However, the digitization process also brought along new challenges for the automated analysis of tissue images. An important challenge arises from the presence of image artifacts, including, but not limited to
