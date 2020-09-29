@@ -1,4 +1,4 @@
-title: Screening for neuromuscular disorders using automatic classification of muscle ultrasound images
+title: Automatic screening for neuromuscular disorders using ultrasound images
 groups: ai-for-health
 finished: false
 type: student
