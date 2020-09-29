@@ -1,4 +1,4 @@
-title: Artifact detection in digitized histopathology images using deep learning
+title: Artifact detection in digitized histopathology images
 groups: pathology, diag, ai-for-health
 finished: false
 type: student
