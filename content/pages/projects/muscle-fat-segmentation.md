@@ -1,4 +1,4 @@
-title: Muscle and fat segmentation in CT images for body composition assessment
+title: Segmentation in CT images for body composition assessment
 groups: ai-for-health, diag
 finished: true
 type: student
