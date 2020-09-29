@@ -3,6 +3,7 @@ date: 2018-09-25
 picture: general/AIforHealth.png
 groups: ai-for-health
 visible: false
+status: draft
 
 Friday, September 25, 2020, the first AI for Health course concluded with a meeting where all participants presented the results of their AI projects. 
 
