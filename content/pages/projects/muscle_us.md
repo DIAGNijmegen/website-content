@@ -1,4 +1,4 @@
-title: Automatic screening for neuromuscular disorders using ultrasound images
+title: Automatic screening for neuromuscular disorders
 groups: ai-for-health
 finished: false
 type: student
