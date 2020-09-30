@@ -189,9 +189,12 @@ def parse_bibtex_file(filename, full_strings_bib):
                 )
 
             if "pmid" in bib_item:
+                bib_item["pmidnumber"] = int(bib_item["pmid"])
                 bib_item["pmid"] = (
                     "http://www.ncbi.nlm.nih.gov/pubmed/" + bib_item["pmid"]
                 )
+            else:
+                bib_item["pmidnumber"] = -1
 
             if "doi" in bib_item:
                 bib_item["doi"] = "https://doi.org/" + bib_item["doi"].replace(
