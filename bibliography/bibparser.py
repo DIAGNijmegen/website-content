@@ -137,10 +137,7 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
 @timeit
 def parse_bib_file():
     print("parsing bib file...")
-    bib_items = parse_bibtex_file(
-        "/home/mart/Radboudumc/diag-literature/diag.bib",
-        "/home/mart/Radboudumc/diag-literature/fullstrings.bib",
-    )
+    bib_items = parse_bibtex_file("./content/diag.bib", "./content/fullstrings.bib")
 
     print("retreiving list of diag members")
     list_researchers = get_list_researchers("./content/pages/members/")
