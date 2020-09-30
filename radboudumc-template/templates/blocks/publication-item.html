@@ -22,7 +22,7 @@
         <a href={{ BIB_ITEMS[bibkey]['pmid'] }}>PMID</a>
         {% endif %}
 
-        {% if 'url' in BIB_ITEMS[bibkey] and 'doi' not in BIB_ITEMS[bib_key] %}
+        {% if 'url' in BIB_ITEMS[bibkey] and 'doi' not in BIB_ITEMS[bibkey] %}
         <a href={{ BIB_ITEMS[bibkey]['url'] }}> {{ BIB_ITEMS[bibkey]['url_type'] }} </a>
         {% endif %}
 
