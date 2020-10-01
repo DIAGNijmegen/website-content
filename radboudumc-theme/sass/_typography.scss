@@ -17,7 +17,7 @@ body {
 // Default settings for headers
 h1,h2,h3,h4,h5,h6 {
   color: $primary;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 h1 {
@@ -27,15 +27,19 @@ h1 {
 // Sub-titles
 h2 {
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 600;
 
   margin-top: 1.5rem;
 }
 
 .content-home h2 {
   font-size: 1.75rem;
-  font-weight: 300;
+  font-weight: 500;
 
+  margin-top: 0rem;
+}
+
+h2.entry-title {
   margin-top: 0rem;
 }
 
@@ -50,17 +54,17 @@ h1.display-title {
 // First header on each page
 .page-title {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
 
   margin-bottom: 1.5rem;
 }
 
 p a { 
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h3 a {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 div.container > p,
@@ -68,34 +72,47 @@ div.page-content > p {
   margin-bottom: 0.75em;
 }
 
-@media (min-width: 768px) {
+@include media-breakpoint-up(md) {
   div.container > p,
   div.container > ol,
   div.container > ul,
   div.page-content > p,
   div.page-content > ol,
-  div.page-content > ul {
+  div.page-content > ul,
+  div.col-md-12.news-item > p {
     padding-right: 5em;
   }
-}
-@media (min-width: 992px) {
-  div.container > p,
-  div.container > ol,
-  div.container > ul,
-  div.page-content > p,
-  div.page-content > ol,
-  div.page-content > ul {
-    padding-right: 10em;
+  div.col-md-12.news-item img {
+    max-width: 700px;
   }
 }
-@media (min-width: 1200px) {
+
+@include media-breakpoint-up(lg) {
   div.container > p,
   div.container > ol,
   div.container > ul,
   div.page-content > p,
   div.page-content > ol,
-  div.page-content > ul {
+  div.page-content > ul,
+  div.col-md-12.news-item > p {
+    padding-right: 10em;
+  }
+  div.col-md-12.news-item img {
+    max-width: 900px;
+  }
+}
+@include media-breakpoint-up(xl) {
+  div.container > p,
+  div.container > ol,
+  div.container > ul,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul,
+  div.col-md-12.news-item > p {
     padding-right: 20em;
+  }
+  div.col-md-12.news-item img {
+    max-width: 1000px;
   }
 }
 
@@ -109,3 +126,6 @@ ul, ol {
   }
 }
 
+dt {
+  font-weight: 600;
+}
