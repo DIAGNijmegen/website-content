@@ -4,11 +4,11 @@
   "description": "Theme for pathology website",
   "main": "index.js",
   "scripts": {
-    "minify": "node-sass --output-style compressed ./sass/theme.scss ./build/theme.min.css",
-    "postcss": "postcss ./build/theme.min.css --no-map --map --use autoprefixer -o ./build/theme.min.css",
+    "minify": "node-sass --output-style compressed ./sass/ -o ./build/",
+    "postcss": "postcss  --replace ./build/*.css --no-map --map --use autoprefixer",
     "watch": "node-sass-chokidar ./sass -o ./build --watch --source-map-embed ",
     "deploy": "npm run minify && npm run postcss && cp -r ./build/. ./../radboudumc-template/static/css/ && node increase-version.js",
-    "deploy-watch": "node-sass-chokidar --watch --source-map-embed ./sass/theme.scss ./../website-diag/output/theme/css/theme.min.css"
+    "deploy-watch": "node-sass-chokidar --watch --source-map-embed ./sass/diag.scss ./../website-diag/output/theme/css/diag.css"
   },
   "author": "Wouter Bulten",
   "license": "Copyright",
