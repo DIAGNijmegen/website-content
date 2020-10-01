@@ -32,7 +32,7 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
 | 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br> (https://www.ai-for-health.nl/projects/prenatal-screening/) |
-| 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. (https://drive.google.com/file/d/1Aa65YmetnLcLyKJ_p_BE9Ztah5Nb_fX0/view?usp=sharing)|
+| 24-09-2020    | Klaus Lux | [Screening for neuromuscular disorders using automatic classification of muscle ultrasound images.](https://drive.google.com/file/d/1Aa65YmetnLcLyKJ_p_BE9Ztah5Nb_fX0/view?usp=sharing)|
 | 17-09-2020    | Thijs van den Hout | [Muscle and fat segmentation in 3D CT images for body composition assessment.](https://drive.google.com/file/d/103UKepB-8X_JFX-3WTz9MAA5FKKYplJD/view?usp=sharing)  |
 | 10-09-2020    | **Guest Speaker** <br> Stanley Pham | [Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG.](https://drive.google.com/file/d/173Q0X9Pa6pWRfsAeYeMr9PObirWz4YUr/view?usp=sharing) [[Video]](https://drive.google.com/file/d/1ZtAqltB_nE-zW5wy7gR_fZNtVjYbopVz/view?usp=sharing) |
 | 03-09-2020     | Manon de Jonge | [Predicting changes in quality of life of ICU survivors.](https://drive.google.com/file/d/1Ch_ZFYtUP4VskZDDh2LTdVaucyKCkiae/view?usp=sharing) |
