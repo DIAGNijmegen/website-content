@@ -1,9 +1,5 @@
 {% if custom == 'false' or page.slug == 'most-cited' %} 
-<div class="container">
-<div class="row">
-<div class="col-md-12 mb-4">
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
-
     {% if page.slug == page.author or page.slug == 'publications' %}
         <a class="btn btn-link" style="color:grey; font-weight: bold" href="{{SITEURL}}/{{next_url}}">all</a>
     {% else %}
@@ -37,66 +33,58 @@
     {% elif next_url == 'publications/' %}
         <a class="btn btn-link" style="color:grey" href="{{SITEURL}}/{{next_url}}most-cited">most cited</a>
     {% endif %}
-
-</div>
-</div>
-</div>
 </div>
 {% endif %}
 
-<div class="row">
-<div class="col-md-12 mb-4">
-    <div class="container">
-    {# Lists the publications per year and organized by publication type #}
 
-    {% if page.slug == 'most-cited' %}
-        <h2>{{ page.title }}</h2>
-        <ol>
-        {% for bibkey in page.bibkeys.split(',') %}
-            {% set bibkey = bibkey.strip().lower() %}
-            {% if bibkey in BIB_ITEMS %}
-                {% include "blocks/publication-item.html" %}
-            {% endif %}
-        {% endfor %}
-        </ol>
-    {% else %}
-        {% if next_url != page.url and page.slug != 'most-cited' %}
-            {% for cur_year in bib_years %}
+{% if page.slug == 'most-cited' %}
+    <h2>{{ page.title }}</h2>
+    <ol>
+    {% for bibkey in page.bibkeys.split(',') %}
+        {% set bibkey = bibkey.strip().lower() %}
+        {% if bibkey in BIB_ITEMS %}
+            {% include "blocks/publication-item.html" %}
+        {% endif %}
+    {% endfor %}
+    </ol>
+{% else %}
+    {% if next_url != page.url and page.slug != 'most-cited' %}
+        {% for cur_year in bib_years %}
                 <h2>{{ cur_year }}</h2>
-                {% for pub_type in list_pub_type %}
-                    {% set found = { 'flag': false } %}
+            
+            {% for pub_type in list_pub_type %}
+                {% set found = { 'flag': false } %}
+                {% for bibkey in bibkeys_per_year[cur_year|string()] %}
+                    {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
+                        {% if found['flag'] == false %}
+                            {% include "blocks/publication-type.html" %}
+                            <ol>
+                            {% if found.update({'flag': true}) %}{% endif %}
+                        {% endif %}
+                        {% include "blocks/publication-item.html" %}				
+                    {% endif %}
+                {% endfor %}
+                {% if found['flag'] == true %}
+                    </ol>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        
+    {# Lists the publications organized by publication type per year #}
+    {% else %}
+        {% for pub_type in list_pub_type %}
+                {% include "blocks/publication-type.html" %}
+                <ol>
+                {% for cur_year in bib_years %}
                     {% for bibkey in bibkeys_per_year[cur_year|string()] %}
                         {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
-                            {% if found['flag'] == false %}
-                                {% include "blocks/publication-type.html" %}
-                                <ol>
-                                {% if found.update({'flag': true}) %}{% endif %}
-                            {% endif %}
                             {% include "blocks/publication-item.html" %}				
                         {% endif %}
                     {% endfor %}
-                    {% if found['flag'] == true %}
-                        </ol>
-                    {% endif %}
                 {% endfor %}
-            {% endfor %}
-            
-        {# Lists the publications organized by publication type per year #}
-        {% else %}
-            {% for pub_type in list_pub_type %}
-                    {% include "blocks/publication-type.html" %}
-                    <ol>
-                    {% for cur_year in bib_years %}
-                        {% for bibkey in bibkeys_per_year[cur_year|string()] %}
-                            {% if BIB_ITEMS[bibkey]['type'] == pub_type  %}
-                                {% include "blocks/publication-item.html" %}				
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-                    </ol>
-            {% endfor %}
-        {% endif %}
+                </ol>
+        {% endfor %}
     {% endif %}
-</div>    
-</div>
-</div>
+{% endif %}
+
+   
