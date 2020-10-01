@@ -79,7 +79,7 @@ jobs:
         - WEBSITE=website-rse
       deploy:
         <<: *netlify_deploy_defaults
-        site: NETLIFY_SITEID_RSE
+        site: $NETLIFY_SITEID_RSE
     # Build and deploy steps for AIIM website
     - <<: *build_defaults
       name: Build AIIM website
