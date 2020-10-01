@@ -22,7 +22,6 @@ TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'The A-eye Research Group is part of <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
-CSS_THEME = 'retina-theme'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
