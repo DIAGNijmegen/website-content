@@ -1,4 +1,4 @@
-title: Quantitative facial phenotyping of patients with intellectual disability
+title: Facial phenotyping of intellectual disability patients
 groups: ai-for-health
 finished: true
 type: student

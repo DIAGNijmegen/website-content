@@ -3,13 +3,11 @@ name: Maud Wekking
 template: people-single
 picture: people/Maud_Wekking.jpg
 position: Research Technician
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: maud.wekking@radboudumc.nl
 office: Route 812, room 2.39
 type: tech
 
-
-
-Maud Wekking is a research technician in the Computational Pathology Group since September 2018. She studied Biological and Medical Laboratory Research, with a specialization in cyto-histopathology, at the HAN University of Applied Sciences and graduated in July 2018. She is supporting the group by tissue processing, performing the (immuno)histochemical stainings and digitizing the glass slides into whole-slide images. She is working under the supervision of Jeroen van der Laak.
+Maud Wekking worked as a research technician in the Computational Pathology Group from September 2018 to September 2020. She supported the group by tissue processing, performing the (immuno)histochemical stainings and digitizing the glass slides into whole-slide images.

@@ -27,4 +27,4 @@ You will work in the Diagnostic Image Analysis Group (DIAG) DIAG is part of the 
 For more information please contact [member/bram-van-ginneken] by e-mail.
 
 ## Application
-Please apply through the Radboudumc vacancy system. You can send applications as a single pdf file to bram.vanginneken@radboudumc.nl. In this pdf file the following should be included: CV, list of followed courses and grades, letter of motivation, and preferably a reprint of your Master thesis or any publications in English you have written. This application will remain open until the position has been filled. Applications are processed immediately upon receipt.
+You can send applications as a single pdf file to bram.vanginneken@radboudumc.nl. In this pdf file the following should be included: CV, list of followed courses and grades, letter of motivation, and preferably a reprint of your Master thesis or any publications in English you have written. This application will remain open until the position has been filled. Applications are processed immediately upon receipt.

@@ -15,37 +15,37 @@ _build_defaults: &build_defaults
 
 # Default configuration for the deploy to Github Pages
 _deploy_defaults: &deploy_defaults
-    provider: pages
-    repo: diagnijmegen/$WEBSITE
-    skip_cleanup: true
-    keep_history: true
-    local_dir: $WEBSITE/output
-    target_branch: master
-    email: $WEBTEAM_EMAIL
-    name: "Webteam DIAG Deploy Bot"
-    token: $GH_PAGES
-    "on":
-      branch: master
+  provider: pages
+  repo: diagnijmegen/$WEBSITE
+  skip_cleanup: true
+  keep_history: true
+  local_dir: $WEBSITE/output
+  target_branch: master
+  email: $WEBTEAM_EMAIL
+  name: "Webteam DIAG Deploy Bot"
+  token: $GH_PAGES
+  "on":
+    branch: master
 
 # Default configuration for deploys to Netlify
 _netlify_deploy_defaults: &netlify_deploy_defaults
-    provider: netlify
-    auth: $NETLIFY_AUTH
-    edge: true # opt in to dpl v2
-    dir: $WEBSITE/output
-    prod: true
-    "on":
-      branch: master
+  provider: netlify
+  auth: $NETLIFY_AUTH
+  edge: true # opt in to dpl v2
+  dir: $WEBSITE/output
+  prod: true
+  "on":
+    branch: master
 
 # Default configuration for dev deploys to Netlify
 _netlify_dev_deploy_defaults: &netlify_dev_deploy_defaults
-    provider: netlify
-    auth: $NETLIFY_DEV_AUTH
-    edge: true # opt in to dpl v2
-    dir: $WEBSITE/output
-    prod: true
-    "on":
-      branch: develop
+  provider: netlify
+  auth: $NETLIFY_DEV_AUTH
+  edge: true # opt in to dpl v2
+  dir: $WEBSITE/output
+  prod: true
+  "on":
+    branch: develop
 
 notifications:
   email:
@@ -61,7 +61,6 @@ jobs:
       name: Build Computational Pathology website
       env:
         - WEBSITE=website-pathology
-        - GENERATE_PUB=1
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_PATHOLOGY
@@ -70,7 +69,6 @@ jobs:
       name: Build Retina website
       env:
         - WEBSITE=website-retina
-        - GENERATE_PUB=1
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_RETINA
@@ -79,16 +77,14 @@ jobs:
       name: Build RSE website
       env:
         - WEBSITE=website-rse
-        - GENERATE_PUB=1
       deploy:
-        <<: *deploy_defaults
-        fqdn: rse.diagnijmegen.nl
+        <<: *netlify_deploy_defaults
+        site: $NETLIFY_SITEID_RSE
     # Build and deploy steps for AIIM website
     - <<: *build_defaults
       name: Build AIIM website
       env:
         - WEBSITE=website-aiimnijmegen
-        - GENERATE_PUB=1
       deploy:
         <<: *deploy_defaults
         fqdn: www.aiimnijmegen.nl
@@ -97,7 +93,6 @@ jobs:
       name: Build DIAG website
       env:
         - WEBSITE=website-diag
-        - GENERATE_PUB=1
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_DIAG
@@ -107,7 +102,6 @@ jobs:
       if: branch = develop
       env:
         - WEBSITE=website-diag
-        - GENERATE_PUB=1
         - DEVELOPMENT=1
       deploy:
         <<: *netlify_dev_deploy_defaults
@@ -118,7 +112,6 @@ jobs:
       name: Build RTC website
       env:
         - WEBSITE=website-rtc
-        - GENERATE_PUB=1
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_RTC
@@ -127,7 +120,6 @@ jobs:
       name: Build AI-for-Health website
       env:
         - WEBSITE=website-ai-for-health
-        - GENERATE_PUB=0
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_AIFORHEALTH

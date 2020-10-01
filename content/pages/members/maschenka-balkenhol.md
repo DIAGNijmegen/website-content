@@ -2,7 +2,7 @@ title: Maschenka Balkenhol
 name: Maschenka Balkenhol
 template: people-single
 picture: people/Maschenka_Balkenhol.jpg
-position: Pathology Resident and PhD Candidate
+position: Pathology Resident and Researcher
 active: yes
 groups: diag, pathology
 default_group: pathology
@@ -14,4 +14,4 @@ linkedin: http://www.linkedin.com/in/maschenkabalkenhol
 scholar: https://scholar.google.com/citations?user=t1bV91AAAAAJ
 researcherid: https://www.researchgate.net/profile/Maschenka_Balkenhol
 
-Maschenka Balkenhol obtained her medical degree at Maastricht University (MSc). She started her PhD project "Quantitative pathological analysis for improved prognostication of triple negative breast cancer" (Prim4BC) in January 2015 at the Department of Pathology of the Radboud University Medical Center. Prim4BC is funded by the Radboud Institute for Health Sciences (RIHS) as a Junior Researcher 2015 project. Prim4BC combines experience and technology in the areas of immunohistochemistry, advanced microscopy and deep learning to construct statistical models for triple negative breast cancer prognosis. She is supervised by Jeroen van der Laak, Nico Karssemeijer and Peter Bult. In 2016 she started as a pathology resident and combines her PhD research with the clinical residency training.
+Maschenka Balkenhol obtained her medical degree at Maastricht University (MSc) in 2014. In 2015 she joined the [Computational Pathology group](https://www.computationalpathologygroup.eu/) of the [Department of Pathology](https://www.radboudumc.nl/en/research/departments/pathology) of the [Radboud University Medical Center](https://www.radboudumc.nl/research) in Nijmegen as a PhD student under the supervision of [member/jeroen-van-der-laak], [member/nico-karssemeijer], [Peter Bult] (https://www.radboudumc.nl/afdelingen/pathologie/team-pathologie) and [member/francesco-ciompi] on deep learning for improved prognostics in triple negative breast cancer ([project/prim4bc] project). In 2020, she completed her PhD entitled [Tissue-based biomarker assessment for predicting prognosis of triple negative breast cancer: the additional value of artificial intelligence](/publications/balk20a). Currently, Maschenka is pathology resident, while working as part-time researcher in validation studies on automated breast cancer grading and prognosis. Her research interests focus on application of artificial intelligence in clinical pathology for improved diagnostics and prognosis, with a special interest in breast pathology. 

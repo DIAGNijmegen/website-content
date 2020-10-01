@@ -1,4 +1,4 @@
-title: Modelling long-term progression of Parkinson’s disease
+title: Modelling long-term progression of Parkinson’s
 groups: ai-for-health
 finished: true
 type: student

@@ -1,6 +1,6 @@
-title: Muscle and fat segmentation in CT images for body composition assessment
+title: Segmenting CT images for body composition assessment
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: projects/body-composition.jpg
 template: project-single
@@ -45,3 +45,7 @@ The mean percentage differences between the predicted area quantification and gr
 
 ![Example segmentation]({{ IMGURL }}/images/projects/muscle-fat-seg-segmentations.png)<br>
 *Representative example of abdominal segmentation of muscle and fat. A-C: axial slices at L1, L3, and L5. D, E: sagittal slices through the middle and to the left of the body. F: coronal slice through the center of the abdomen.*
+
+The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/msk-fat-muscle-quantification).
+
+The final report for this project can be found [here](https://drive.google.com/file/d/1crvG6jbaj0dnw9I4ller4K__l4XVBp1z/view?usp=sharing).

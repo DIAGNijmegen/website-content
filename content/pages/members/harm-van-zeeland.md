@@ -11,4 +11,4 @@ office: Route 767, Room 2.25
 telephone:
 type: tech
 
-Harm van Zeeland obtained a BSc degree in Biomedical Engineering at the Eindhoven University of Technology (TU/e), while working as a freelance web- and software developer. His thesis focused on developing an algorithm for the detection of epileptic seizures using accelerometer data. Currently, he is working at the Diagnostic Image Analysis Group as a Research Software Engineer under supervision of James Meakin.
+Harm van Zeeland is a Research Software Engineer in the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) of the [Radboud University Medical Center](https://www.radboudumc.nl/research) in Nijmegen. He studied Biomedical Engineering at the [Eindhoven University of Technology](https://tue.nl/), while working as a web- and software developer. His thesis focused on developing an algorithm for the detection of epileptic seizures using accelerometer data.
