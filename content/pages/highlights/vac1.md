@@ -6,6 +6,7 @@ status: draft
 title: PhD vacancy for AI optimization of MR-linac radiotherapy for pancreatic cancer patients  
 groups: diag
 description: We are offering a PhD position for optimizing radiotherapy treatment of pancreatic cancer patients.
+people: Marcel Verheij, Rene Monshouwer, Bram van Ginneken, Henkjan Huisman, John Hermans
 
 ## Background
 Pancreatic cancer is one of the most lethal cancers and the number of patients in the Netherlands is increasing from around 1500 per year in 2000 to around 2700 now. Pancreatic cancer is one of the few cancers for which survival rates have hardly improved over the past decades.
