@@ -1,5 +1,5 @@
 title: Final presentations first AI for Health course
-date: 2018-09-25
+date: 2020-09-25
 picture: news/XMG_20200925_142130.jpg
 groups: ai-for-health, diag
 
