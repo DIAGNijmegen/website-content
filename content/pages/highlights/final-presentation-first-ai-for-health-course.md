@@ -22,3 +22,9 @@ Amon Heijne, Daan de Jong, Daphne Everaerd and Laurens Verscheijden reported on 
 Finally, Lex Dingemans, Tom Loonen, Anouk van der Schot and Mirjam Schaap addressed **Automated clinical scoring in psoriasis**. The severity of disease in psoriasis patients is often quqntified with the PASI score. The team presented the first steps towards automatically assessing one aspect of this score from photographs using deep convolutional neural networks. Mirjam Schaap also recently received a [Radboud AI Voucher](https://www.ru.nl/ai/news-events/news/vm-eigen-news/five-winners-first-round-radboud-ai-innovation/) to continue this research.
 
 Joran Lokkerbol, who led the AI for Health course handed out certificates to all course participants, with a special recipe box to make your own Bossche Bol.
+
+![desc]({{ IMGURL }}/images/news/XMG_20200925_142130.jpg)
+![desc]({{ IMGURL }}/images/news/XMG_20200925_142737.jpg)
+![desc]({{ IMGURL }}/images/news/XMG_20200925_144456.jpg)
+![desc]({{ IMGURL }}/images/news/XMG_20200925_155608.jpg)
+
