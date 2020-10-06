@@ -2,7 +2,7 @@ title: MIDL 2020 MRI Reconstruction Challenge
 date: 2020-07-16
 picture: news/calgary-campinas-challenge.png
 description: Together with colleagues from the NCI and the AMC, DIAG's Jonas Teuwen and Nikita Moriakov won an international competition where MRI-scans can be accelerated using deep learning.
-groups: diag, aiimnijmegen
+groups: diag
 
 Researchers [member/jonas-teuwen] and [member/nikita-moriakov] of the Diagnostic Image Analysis Group of the Radboud University Medical Center together with colleagues 
 from the <a href="https://nki.nl">Netherlands Cancer Institute</a> and the <a href="https://amsterdamumc.nl/">Amsterdam Medical Center</a> won an international competition where MRI-scans can be accelerated using deep learning algorithms. Their deep learning algorithm won the competition resulting in images of high quality within 2 minutes of scanning.

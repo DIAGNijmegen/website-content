@@ -4,7 +4,7 @@ template: people-single
 picture: people/Mehmet_Dalmis.jpg
 position: PhD candidate
 active: no
-groups: diag, aiimnijmegen
+groups: diag
 default_group: aiimnijmegen
 email: mehmet.dalmis@radboudumc.nl 
 office: Route 767

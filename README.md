@@ -12,7 +12,6 @@ Live websites:
 - Retina: https://www.a-eyeresearch.nl
 - RSE: https://rse.diagnijmegen.nl
 - AI for Health: https://www.ai-for-health.nl
-- AIIM: https://www.aiimnijmegen.nl
 - RTC: https://rtc.diagnijmegen.nl
 - DIAG (main website): https://www.diagnijmegen.nl
 

@@ -80,14 +80,6 @@ jobs:
       deploy:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_RSE
-    # Build and deploy steps for AIIM website
-    - <<: *build_defaults
-      name: Build AIIM website
-      env:
-        - WEBSITE=website-aiimnijmegen
-      deploy:
-        <<: *deploy_defaults
-        fqdn: www.aiimnijmegen.nl
     # Deploy job for deploying to Netlify
     - <<: *build_defaults
       name: Build DIAG website

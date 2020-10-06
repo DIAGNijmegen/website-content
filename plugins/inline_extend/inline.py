@@ -9,7 +9,6 @@ group_websites = {
     'pathology': 'https://www.computationalpathologygroup.eu',
     'retina': 'https://www.a-eyeresearch.nl',
     'rse': 'https://rse.diagnijmegen.nl',
-    'aiimnijmegen': 'https://www.aiimnijmegen.nl',
     'rtc': 'https://rtc.diagnijmegen.nl',
     'diag': 'https://www.diagnijmegen.nl'
 }

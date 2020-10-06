@@ -4,7 +4,7 @@ template: people-single
 picture: people/Jonas_Teuwen.jpg
 position: Postdoctoral Researcher
 active: yes
-groups: diag, aiimnijmegen
+groups: diag
 default_group: aiimnijmegen
 email: jonas.teuwen@radboudumc.nl
 office: Route 767, Room 27
