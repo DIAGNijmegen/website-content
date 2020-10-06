@@ -2,7 +2,7 @@ title: PhD defense Mehmet Dalmis
 date: 2019-07-10
 description: Mehmet Dalmis will defend his PhD thesis with the title' Automated Analysis of Breast MRI: from Traditional Methods into Deep Learning' the 12th of September at 12.30.
 picture: news/Dalmis_thesis_small.png
-groups: aiimnijmegen
+groups: diag
 
 **Mehmet Dalmis will defend his PhD thesis with the title' Automated Analysis of Breast MRI: from Traditional Methods into Deep Learning' the 12th of September at 12.30 in the Auditorium of Radboud University**
 
