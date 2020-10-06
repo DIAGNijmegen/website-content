@@ -13,7 +13,7 @@ Esmee Bakker and Yonne Peters presented **Electronic nose device: detection of c
 
 ![Predicting re-intubation presentation]({{ IMGURL }}/images/news/XMG_20200925_144456.jpg)
 
-Sabine van den Akker, Tessel Galesloot, Luc Evers, Ruud van Kaam and Tim Frenzel described their work on **Predicting re-intubation in critically ill patients**. Many patients in ICU where the tube has been removed need to be re-intubated at a later point in time. A model that accurately computes the probability that re-intubation will be needed could mprove patient management. The team showed that data collection at the ICU is challenging, and careful data cleaning is required before machine learning can be applied. 
+Sabine van den Akker, Tessel Galesloot, Luc Evers, Ruud van Kaam and Tim Frenzel described their work on **Predicting re-intubation in critically ill patients**. Many patients in ICU where the tube has been removed need to be re-intubated at a later point in time. A model that accurately computes the probability that re-intubation will be needed could improve patient management. The team showed that data collection at the ICU is challenging, and careful data cleaning is required before machine learning can be applied. 
 
 Ilse Spenkelink, Tom Perik, Loes van der Zanden, Gerben Lassche and Chris de Korte worked with deep learning techniques for image classification in **AI for classification of breast cancer in 3D ultrasound data**. Building upon standard 2D convolutional networks, they developed a pipeline to classify 3D ultrasound patches. 
 
