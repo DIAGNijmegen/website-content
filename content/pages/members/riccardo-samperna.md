@@ -5,7 +5,7 @@ picture: people/Riccardo_Samperna.jpg
 position: PhD candidate
 active: yes
 groups: diag
-default_group: aiimnijmegen
+default_group: diag
 email: riccardo.samperna@radboudumc.nl
 office: Route 767
 type: phd

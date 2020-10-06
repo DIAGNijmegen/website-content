@@ -5,7 +5,7 @@ picture: people/Ritse_Mann.jpg
 position: Breast and interventional radiologist
 active: yes
 groups: aiimnijmegen
-default_group: aiimnijmegen
+default_group: diag
 email: ritse.mann@radboudumc.nl
 type: faculty
 
