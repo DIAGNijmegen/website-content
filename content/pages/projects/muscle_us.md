@@ -1,6 +1,6 @@
 title: Automatic screening for neuromuscular disorders
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/muscle_us.png
 template: project-single
