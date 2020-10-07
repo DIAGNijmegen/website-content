@@ -1,5 +1,5 @@
 title: Turbo grant for Nikolas Lessmann for accelerating bone metastasis fracture risk assessment 
-date: 2020-09-25
+date: 2020-10-07
 picture: news/flowchart_pignn.jpg
 groups: diag
 full_width: true
