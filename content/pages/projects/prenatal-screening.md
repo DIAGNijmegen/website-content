@@ -1,6 +1,6 @@
 title: Automated prenatal ultrasound screening
 groups: ai-for-health 
-finished: false
+finished: true
 type: student
 picture: vacancies/prenatal-screening.jpg
 template: project-single
