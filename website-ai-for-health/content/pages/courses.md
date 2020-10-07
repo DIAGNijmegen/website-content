@@ -6,9 +6,9 @@ picture: vacancies/AIFH_diploma.png
 description: AI courses for health(care) professionals with a background in Medicine, Biomedical Sciences or Technical Medicine. 
 
 ## AI for Health course
-Radboud AI for Health plans to run two courses every year for a group of around 25 professionals from Radboudumc interested to learn more about AI applications in healthcare. The course program will consist of lectures and practical exercises, and will conclude with a practical project around a Radboudumc case. Details of the program will be set up in collaboration with the participants.
+Radboud AI for Health plans to run two courses every year for a group of around 25 professionals from Radboudumc interested to learn more about AI applications in healthcare. The course program will consist of lectures and practical exercises, and will conclude with a practical project around a Radboudumc case. 
 
-The course will be organized in a collaboration between Radboudumc, Radboud University and the Jheronimus Academy of Data Science ([JADS](https://www.jads.nl/)) in Den Bosch. A presentation by Egge van der Poel was given during an information session on September 16, 2019. The slides of this presentation can be found [here](https://drive.google.com/open?id=1nnYpNSdr10E3Zm7IiV78UFj239eIV4Yx). 
+The course is a collaboration between Radboudumc and the Jheronimus Academy of Data Science ([JADS](https://www.jads.nl/)) in Den Bosch. 
 
 ## What you need to know for the second edition of the course:
 - The second edition will start September 18th 2020
@@ -43,7 +43,9 @@ An overview of the course schedule can be seen below.
 | 12-02-2021 | Final Presentations |  Radboudumc |
 
 ## First edition
-The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, consisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that have developed an AI solution to a challenging clinical problem. The six teams will present their work at the final meeting of the course on September 25th. More information regarding these projects will follow soon.
+The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, consisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that have developed an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final-presentation-first-ai-for-health-course/).
+
+An introductory presentation by Egge van der Poel was given on September 16, 2019. The slides of this presentation can be found [here](https://drive.google.com/open?id=1nnYpNSdr10E3Zm7IiV78UFj239eIV4Yx). 
 
 ***
 
