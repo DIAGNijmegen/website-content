@@ -45,7 +45,7 @@ NAV_SECTIONS = [
 HOME_SECTIONS = {"News": 'News', "PageCards": "PageCards"}
 
 # Enable gradients for CARD images
-CARD_IMG_GRADIENTS = False
+CARD_IMG_GRADIENTS = True
 
 # URLs
 SITEURL = ''
