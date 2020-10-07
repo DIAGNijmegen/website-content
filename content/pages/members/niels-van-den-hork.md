@@ -1,7 +1,7 @@
 title: Niels van den Hork
 name: Niels van den Hork
 template: people-single
-picture: people/Person.png
+picture: people/Niels_van_den_Hork.jpg
 position: Master Student
 active: yes
 groups: diag, pathology
