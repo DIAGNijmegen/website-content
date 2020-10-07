@@ -226,6 +226,8 @@ def parse_bibtex_file(filename, full_strings_bib):
 
             if "issue" in bib_item:
                 bib_item["pubinfo"] += "(" + bib_item["issue"].strip() + ")"
+            elif "number" in bib_item:
+                bib_item["pubinfo"] += "(" + bib_item["number"].strip() + ")"
 
             if "pages" in bib_item:
                 bib_item["pubinfo"] += ":" + bib_item["pages"].strip().replace(
