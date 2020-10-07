@@ -2,7 +2,6 @@ title: Turbo grant for Nikolas Lessmann for accelerating bone metastasis fractur
 date: 2020-09-25
 picture: news/flowchart_pignn.jpg
 groups: diag
-status: draft
 full_width: true
 
 [member/nikolas-lessmann] and [member/bram-van-ginneken] of DIAG received a [TURBO grant](https://www.radboudumc.nl/nieuws/2020/vier-turbo-grants-voor-medisch-technisch-onderzoek) of 80,000 euro for a collaboration project with [Jelmer Wolterink](https://people.utwente.nl/j.m.wolterink) and [Christoph Brune](https://people.utwente.nl/c.brune) from the faculty of Applied Mathematics at the University of Twente and [Esther Tanck](https://www.radboudumc.nl/en/people/esther-tanck) and [Dennis Janssen](https://www.radboudumc.nl/en/people/dennis-janssen) from the Department of Orthopedics of Radboudumc to work on accelerating fracture risk assessment for bone metastases using physics-inspired graph neural networks, for which they came up with the abbreviation PIGNN.
