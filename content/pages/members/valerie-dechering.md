@@ -1,7 +1,7 @@
 title: Valerie Dechering
 name: Valerie Dechering
 template: people-single
-picture: people/Valerie_Dechering.jepg
+picture: people/Valerie_Dechering.jpg
 position: Bachelor Student
 active: yes
 groups: diag, pathology
