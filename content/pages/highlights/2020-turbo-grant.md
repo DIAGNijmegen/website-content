@@ -11,4 +11,4 @@ In the Netherlands, more than 25,000 patients suffer from metastases of cancer i
 
 ![Flowchart]({{ IMGURL }}/images/news/flowchart_pignn.jpg)
 
-Performing deep learning on graph-structured data representations is one of the most active [new research areas] (https://pure.uva.nl/ws/files/46900201/Thesis.pdf) in machine learning. In physics-informed versions of graph networks, physical force and stress terms regularize the network and ensure realistic predictions even with limited training data. Application of this new line of methods to medical problems will hopefully be the topic of a new line of collaboration between DIAG and the University of Twente. 
+Performing deep learning on graph-structured data representations is one of the most active [new research areas](https://pure.uva.nl/ws/files/46900201/Thesis.pdf) in machine learning. In physics-informed versions of graph networks, physical force and stress terms regularize the network and ensure realistic predictions even with limited training data. Application of these methods to medical problems will hopefully become a new line of collaboration between DIAG and the University of Twente. 
