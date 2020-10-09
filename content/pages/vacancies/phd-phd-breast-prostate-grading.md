@@ -1,6 +1,6 @@
 title: Closing the gap: Implementation of AI-based breast and prostate cancer grading algorithms in clinical practice
 groups: diag, pathology
-closed: false
+closed: true
 type: general 
 picture: vacancies/phd-phd-breas-prostate-grading.md.png
 people: Geert Litjens
