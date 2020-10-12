@@ -1,3 +1,5 @@
+title: Deep Learning
+
 ### Deep neural networks
 
 The concept of artificial neural networks (ANN) has existed for several decades. ANNs are loosely inspired by the manner in which the human brain processes information through a complex network of interconnected neuronal cells. ANNs consist of multiple processing units also called neurons, just as in the central nervous system, which are stacked in numerous layers. The units of an ANN layer are connected to all units of the preceding and following layer. The first layer of neurons processes an input signal and produces a numerical activation as output. The neurons in the deeper layers of the network, also called hidden neurons, process the weighted inputs received from the connections with the previous layer. The final layer consists of output neurons which convey the information that has been learned by the model for a given input. 
