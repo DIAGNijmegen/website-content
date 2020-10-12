@@ -1,7 +1,5 @@
 title: Services
 
-### Our services:
-
 - Consultation regarding the use of deep learning for specific research questions
 - Assistance with data preparation and annotation
 - Development and training of deep learning algorithms for detection, classification and segmentation problems
