@@ -62,7 +62,7 @@ def parse_bib_block_content(bib_item_text):
             value = value.replace("{{", "{__strip__{")
             value = value.strip().strip("{").strip("}")
             if "__strip__" in value:
-                value = value.strip("__strip__").strip()
+                value = value.replace("__strip__", "").strip()
         else:
             value = value.strip().strip("{").strip("}").strip()
         # set bib_item
