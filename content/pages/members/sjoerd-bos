@@ -3,8 +3,8 @@ name: Sjoerd Bos
 template: people-single
 position: Master Student
 active: yes
-groups: music, diag
-default_group: music
+groups: diag
+default_group: diag
 email: Sjoerd.Bos@radboudumc.nl
 office: Route 767, room 16
 type: student
