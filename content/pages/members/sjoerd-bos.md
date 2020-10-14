@@ -1,7 +1,7 @@
 title: Sjoerd Bos
 name: Sjoerd Bos
 template: people-single
-picture: 
+picture: people/Sjoerd_Bos.png
 position: Master Student
 active: yes
 groups: diag
