@@ -193,7 +193,7 @@ people:
     email: Tong.Xi@radboudumc.nl
   - name: Guido de Jong
     position: Research coordinator
-    affiliation: Neurosurgery, Radboudumc
+    affiliation: 3D Lab, Radboudumc
     url: https://www.radboudumc.nl/en/people/guido-de-jong
     picture: people/external/Guido_de_Jong.jpg
     email: Guido.deJong@radboudumc.nl
@@ -609,3 +609,15 @@ people:
     url: https://www.radboudumc.nl/patientenzorg/verpleegafdelingen/acute-opname-afdeling/team-aoa
     picture: 
     email: Bram.Kok@radboudumc.nl
+  - name: Timen ten Harkel
+    position: PhD student
+    affiliation: 3D Lab, Radboudumc
+    url: https://www.radboudumc.nl/en/people/timen-ten-harkel
+    picture: people/external/Timen_ten_Harkel.jpg
+    email: Timen.tenHarkel@radboudumc.nl
+  - name: Tom Loonen
+    position: PhD student
+    affiliation: 3D Lab, Radboudumc
+    url: https://www.radboudumc.nl/en/people/tom-loonen
+    picture: people/external/Tom_Loonen.jpg
+    email: Tom.Loonen@radboudumc.nl
