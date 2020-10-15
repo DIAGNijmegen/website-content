@@ -4,11 +4,9 @@ from authors import (
     parse_name,
     split_authors,
     authors_to_string,
-    get_list_researchers,
-    get_publications_by_author,
 )
 import codecs
-import io
+
 
 # pasre bib file
 def get_bib_blocks(content, start_character="@", delim=("{", "}")):
