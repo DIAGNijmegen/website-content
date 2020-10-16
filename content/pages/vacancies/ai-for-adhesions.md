@@ -18,7 +18,8 @@ year in the Netherlands that develop chronic pain after abdominal
 surgery. This pain is often caused by adhesions, tough bands of tissue
 that form between structures and organs in the abdomen. Medical
 consumption in these patients is high, 70% is under treatment of a
-gastroenterologist and one in three is opioid dependent. A recently
+gastroenterologist and one in three is permanently taking pain 
+suppressing medication. A recently
 developed imaging technique, cine MRI, can detect and localize
 these adhesions. This type of imaging can be used to make treatment
 decisions. Cine MRI is not widely used yet, because radiological
@@ -27,20 +28,22 @@ reading is time-consuming and expertise-dependent.
 <!--- TODO: add mp4 with normal and adhesion patient -->
 
 ## Solution
-We want to automate an existing registration-based method using deep
-learning segmentation and classification. The method segments the 
-abdiminal cavity and performs a masked registration. The difference in
-deformation in and outside the abdominal cavity gives an indication of
-the amount of visceral slide. Little or no visceral slide indicates that
+We want to develop an automated system for adhesion detection, using
+deep learning segmentation and classification. We take existing, 
+semi-automated, methods as a starting point.
+Existing methods need a segmentation map of the abdominal cavity, to 
+perform a masked image registration. This allows quantification of the amount 
+and direction of movement of the abdomen and its contents. The local
+difference in movement between the abdominal wall and its contents, 
+called visceral slide, is indicative for adhesions. Little or no visceral slide indicates that
 an adhesion is present. This method can be fully automated using 
 deep learning-based segmentation of the abdominal cavity and deep
 learning-based classification or detection on the registration
-results.
-Another possibility is to bypass registration and use a fully deep
-learning-based approach, based on for example video architectures.
+results. This task is new and unexplored territory in AI research and
+leaves a lot of room for creative and challenging approaches!
 
 ## Data
-The student will have access to a database of more than 400 cine MRI
+The student will have access to a database of more than 300 cine MRI
 scans with labels extracted from radiology reports. A subset of these
 scans is annotated with segmentations of relevant anatomy and adhesion 
 locations.
