@@ -24,9 +24,31 @@ To date, the only parameter clinically validated to discriminate between healthy
 Since 2002, the clinical neurophysiology laboratory of the department of Neurology at the Radboudumc performs research on the frontier of neuromuscular ultrasound. The technique of quantitative muscle ultrasound based on echogenicity has been developed in our lab and is part of our routine daily clinical practice. However, a new method to screen for neuromuscular diseases based on ultrasound images that is device independent is much needed to able to continue this routine care when our current ultrasound machine is eventually phased out. Thus, if a reliable AI algorithm can be developed to screen for neuromuscular disorders this will be implemented in our clinical practice immediately. Furthermore, this innovation will facilitate widespread clinical implementation of muscle ultrasound. 
 
 ## Methods
-We leverage pre-trained convolutional neural networks for ultrasound image classification. Specifically, we investigate the use of various forms of multi-instance learning to be able to integrate information from multiple images of multiple muscles that characterized each patient record. Various forms of unsupervised domain adaptation are investigated to ensure that a model trained on images from one ultrasound machine also works reliably on images from another machine. As these methods are unsupervised, the adoption of new devices can be eased in the future: A number of images need to be recorded, but there is no need for collecting separate labels or annotations. 
+To be able to train and evaluate machine learning methods for the screening task, labeled data is required. To validate the transfer between different devices, the data should be from at least two different devices. No large dataset of a heterogenouos clinical population of suspected NMD cases had previously been made available to research, so we first processed all records from clinical practice since muscular ultrasound was introduced at the department in 2007. After filtering and retrieval of patient diagnosis from a separate database, we obtained two datasets, one with patients recorded on an older Philips iU22 device and the other from a newer ESAOTE 6100 machine. The number of patients as well as the data split are listed in the table.
+
+|                      | Philips iU22| ESAOTE 6100|
+|:--------------------:|:-------:|:------:|
+|     Training set     |   644   |   794  |
+|    Validation set    |   100   |   100  |
+|       Test set       |   120   |   230  |
+
+Each patient record consists of a number of ultrasound images of different muscles and one binary diagnosis (i.e. NMD or no NMD). This allows us the formulate the screening task as follows: Given the set of images, does the patient suffer from neuromuscular disease?
+
+To perform the task, we leverage pre-trained convolutional neural networks. We compare two methods for patient-level prediction, namely simple image aggregation and multi-instance learning.
+
+### Image aggregation
+![Image aggregation]({{ IMGURL }}/images/projects/mus_image_aggregation.png) 
+
+We do not have any information on whether an individual muscle is affected by a particular disease, rather, we only know the status of the patient at large. A simple workaround is to attribute the label of each patient to all associated images, to train an image-level classifier and then to aggregate image-level predictions. The first step is potentially problematic: No matter whether a given image shows a diseased muscle, it will be labeled as diseased if the patient is. Introducing label noise in this fashion could potentially render the image label classifier useless, thus also barring us from adequate patient level classification. \\
+
+### Multi-instance learning
+A possible alternative is Multi-instance learning (MIL). This technique can be suitable for scenarios with weak labels that do not apply to individual instances, but only to sets of instances, such as the current one. We use the following setup: Individual images are first fed through a neural network that serves as a backend. Activations from one of the layers of the network are then aggregated, using a so-called pooling layer. The pooled representation is finally classified by a separate neural network. This method allows to use bags of arbitrary size in a deep learning setting.
+
+![Multi-instance learning]({{ IMGURL }}/images/projects/mus_multi_instance_learning.png) 
+
+### Domain adaptation
+Various forms of unsupervised domain adaptation are investigated to ensure that a model trained on images from one ultrasound machine also works reliably on images from another machine. As these methods are unsupervised, the adoption of new devices can be eased in the future: A number of images need to be recorded, but there is no need for collecting separate labels or annotations. 
 
 ## Results
-
 
 ## Conclusion
