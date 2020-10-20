@@ -18,12 +18,13 @@ A quantitative method developed at RadboudUMC extracts the echogenicity of the m
 The goal of this project was to develop a new device-independent method that can discriminate between muscle ultrasound images from healthy subjects and patients with a neuromuscular disease.
 
 ## Tasks
-To date, the only parameter clinically validated to discriminate between healthy and diseased muscle ultrasound images is its echogenicity (gray value). Probably, other features than echogenicity can be extracted from the muscle ultrasound images that discriminate between healthy and diseased muscle. The AI challenge in this project is to develop an algorithm that can extract these features from muscle ultrasound images that is independent from the ultrasound machine. Specifically, the task for this project is to develop an AI algorithm that 1) can discriminate between healthy and diseased muscle, and 2) can classify patients with a neuromuscular disease based on a set of muscle ultrasound images, and 3) can perform this classification on ultrasound images from different ultrasound machines and setups.
+To date, the only parameter clinically validated to discriminate between healthy and diseased muscle ultrasound images is its echogenicity (gray value). Probably, other features than echogenicity can be extracted from the muscle ultrasound images that discriminate between healthy and diseased muscle. The AI challenge in this project is to develop an algorithm that can extract these features from muscle ultrasound images that is independent from the ultrasound machine. Specifically, the task for this project is to develop an AI algorithm that 1) can classify patients with a neuromuscular disease based on a set of muscle ultrasound images, and 2) can perform this classification on ultrasound images from different ultrasound machines and setups.
 
 ## Innovation
 Since 2002, the clinical neurophysiology laboratory of the department of Neurology at the Radboudumc performs research on the frontier of neuromuscular ultrasound. The technique of quantitative muscle ultrasound based on echogenicity has been developed in our lab and is part of our routine daily clinical practice. However, a new method to screen for neuromuscular diseases based on ultrasound images that is device independent is much needed to able to continue this routine care when our current ultrasound machine is eventually phased out. Thus, if a reliable AI algorithm can be developed to screen for neuromuscular disorders this will be implemented in our clinical practice immediately. Furthermore, this innovation will facilitate widespread clinical implementation of muscle ultrasound. 
 
 ## Methods
+
 To be able to train and evaluate machine learning methods for the screening task, labeled data is required. To validate the transfer between different devices, the data should be from at least two different devices. No large dataset of a heterogenouos clinical population of suspected NMD cases had previously been made available to research, so we first processed all records from clinical practice since muscular ultrasound was introduced at the department in 2007. After filtering and retrieval of patient diagnosis from a separate database, we obtained two datasets, one with patients recorded on an older Philips iU22 device and the other from a newer ESAOTE 6100 machine. The number of patients as well as the data split are listed in the table.
 
 |                      | Philips iU22| ESAOTE 6100|
@@ -32,12 +33,15 @@ To be able to train and evaluate machine learning methods for the screening task
 |    Validation set    |   100   |   100  |
 |       Test set       |   120   |   230  |
 
+*Number of patients in the splits of the two datasets collected for this project*
+
 Each patient record consists of a number of ultrasound images of different muscles and one binary diagnosis (i.e. NMD or no NMD). This allows us the formulate the screening task as follows: Given the set of images, does the patient suffer from neuromuscular disease?
 
-To perform the task, we leverage pre-trained convolutional neural networks. We compare two methods for patient-level prediction, namely simple image aggregation and multi-instance learning.
+We hypothesize that deep learning could be beneficial for the transfer, automatically learning useful high level feature representations. Thus, w leverage pre-trained convolutional neural networks. Faced with the challenge of predicting labels for sets of images rather than just for individual images, we compare two methods for patient-level prediction, namely simple image aggregation and multi-instance learning.
 
 ### Image aggregation
 ![Image aggregation]({{ IMGURL }}/images/projects/mus_image_aggregation.png) 
+*Schematic representation of the image aggregation method (IMG)*
 
 We do not have any information on whether an individual muscle is affected by a particular disease, rather, we only know the status of the patient at large. A simple workaround is to attribute the label of each patient to all associated images, to train an image-level classifier and then to aggregate image-level predictions. The first step is potentially problematic: No matter whether a given image shows a diseased muscle, it will be labeled as diseased if the patient is. Introducing label noise in this fashion could potentially render the image label classifier useless, thus also barring us from adequate patient level classification. \\
 
@@ -45,10 +49,46 @@ We do not have any information on whether an individual muscle is affected by a 
 A possible alternative is Multi-instance learning (MIL). This technique can be suitable for scenarios with weak labels that do not apply to individual instances, but only to sets of instances, such as the current one. We use the following setup: Individual images are first fed through a neural network that serves as a backend. Activations from one of the layers of the network are then aggregated, using a so-called pooling layer. The pooled representation is finally classified by a separate neural network. This method allows to use bags of arbitrary size in a deep learning setting.
 
 ![Multi-instance learning]({{ IMGURL }}/images/projects/mus_multi_instance_learning.png) 
+*Schematic representation of multi-instance learning (MIL) as used for this project*
+
+### Traditional machine learning
+It seems conceivable that the existing echogenicity features could be used even more effectively with a different decision support system obtained via machine learning. Moreover, benchmarking only the rule-based system does not allow us to determine whether issues with generalization are inherent to the use of grayscale features, as they could also be due to the particular rules instead. For this reason, we devise two representations of patients that are then used for training a traditional machine learning model to predict patient diagnosis. The first condition (EIZ) is based on muscle-level z-scores that are already used in the rule-based method. For a given patient, we collect the distribution of the z-scores across muscles and sides. We represent the distribution with a small set of features. The second condition (EI) uses raw echogenicity values instead.
 
 ### Domain adaptation
-Various forms of unsupervised domain adaptation are investigated to ensure that a model trained on images from one ultrasound machine also works reliably on images from another machine. As these methods are unsupervised, the adoption of new devices can be eased in the future: A number of images need to be recorded, but there is no need for collecting separate labels or annotations. 
+Various forms of unsupervised domain adaptation are investigated to ensure that a model trained on images from one ultrasound machine also works reliably on images from another machine. We experiment with Deep CORAL, a method for adjusting the loss of the neural network to encourage it to exhibit domain invariance in its internal feature representation. Additionally, we experiment with domain-mapping methods: These are isolated fŕom the downstream task and map automatically map images from one domain to the other. We use two simple baselines based on a brightness adjustment and one more involved method based on a CycleGAN for mapping the images.
+
+![Image mapping methods]({{ IMGURL }}/images/projects/mus_image_mapping.png) 
+*An image from one ultrasound machine made to appear as if from another, using two simple brightness-based methods and a CycleGAN mapping.*
 
 ## Results
 
+### In-domain performance
+|            | AUC   | p | Sn    | Sp    |
+|------------|-------|---|-------|-------|
+| Rule-based | 0.765 | - | 0.624 | 0.885 |
+| EI ML      | 0.786 | 1 | 0.803 | 0.672 |
+| EIZ ML     | 0.786 | 1 | 0.779 | 0.719 |
+| IMG        | 0.783 | 1 | 0.777 | 0.717 |
+| MIL        | 0.750 | 1 | 0.795 | 0.681 |
+
+*In-domain performance comparison on Esaote test set. The table shows the area-under-the-curve (AUC) and the statistical significance of the difference in AUC to the baseline (p). Sensitivity (Sn) and Specificity (Sp) at best point, using Youden's method.*
+
+|                   | AUC   | p    | Sn    | Sp    |
+|-------------------|-------|------|-------|-------|
+| Rule-based        | 0.684 | -    | 0.629 | 0.707 |
+| EI ML             | 0.762 | 0.09 | 0.611 | 0.862 |
+| EIZ ML            | 0.659 | 0.52 | 0.580 | 0.724 |
+| IMG               | 0.787 | 0.04 | 0.693 | 0.793 |
+| MIL               | 0.747 | 0.28 | 0.645 | 0.793 |
+
+*In-domain performance comparison on Philips test set. *
+
+
+### Transfer between machines
+
 ## Conclusion
+
+## Code and report
+The code for this project can be found in this [GitHub repository](https://github.com/CreateRandom/muscle-ultrasound).
+
+The final report for this project can be found [here](https://drive.google.com/file/d/1Rv9-Vmu7iP8TLgokFYH3TMJTc-Mc8PF3/view?usp=sharing).
