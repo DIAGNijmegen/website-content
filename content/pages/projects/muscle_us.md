@@ -61,8 +61,12 @@ Various forms of unsupervised domain adaptation are investigated to ensure that 
 *An image from one ultrasound machine made to appear as if from another, using two simple brightness-based methods and a CycleGAN mapping.*
 
 ## Results
+In this section, we first present a comparison of different methods when trained and evaluated on the same dataset. Afterwards, we look into the domain transfer scenario: The systems are trained on data from one device and then evaluated on the other.
 
 ### In-domain performance
+Here, we compare the rule-based system currently in clinical use to the two deep learning conditions and two additional baselines using traditional machine learning. The below table shows the area under the curve (AUC) of the different methods on the test set portion of the Esoate dataset. It can be seen that all methods are relatively similar. The second column shows no proposed methods have statistically significantly higher AUC. However, all proposed methods offer a specificity-sensitivity tradeoff that is more geared towards sensitivity.
+
+
 |            | AUC   | p | Sn    | Sp    |
 |------------|-------|---|-------|-------|
 | Rule-based | 0.765 | - | 0.624 | 0.885 |
@@ -72,6 +76,9 @@ Various forms of unsupervised domain adaptation are investigated to ensure that 
 | MIL        | 0.750 | 1 | 0.795 | 0.681 |
 
 *In-domain performance comparison on Esaote test set. The table shows the area-under-the-curve (AUC) and the statistical significance of the difference in AUC to the baseline (p). Sensitivity (Sn) and Specificity (Sp) at best point, using Youden's method.*
+
+The below table shows the resuts of same evaluation protocol on the test set portion of the Philips dataset. Here, we can see statistically significant gains in AUC by one of the deep learning conditions, with an improvement of 10 percentage points. It also offers improvements in specificity and sensitivity.
+
 
 |                   | AUC   | p    | Sn    | Sp    |
 |-------------------|-------|------|-------|-------|
@@ -85,6 +92,8 @@ Various forms of unsupervised domain adaptation are investigated to ensure that 
 
 
 ### Transfer between machines
+In this section, we investigate the interaction of different classifiers and image mapping methods. We first train systems on the Esaote set and then adjust test set Philips image using the different mapping methods.
+
 
 |            | None  | B     | R     | C     | In-domain |
 |------------|-------|-------|-------|-------|-----------|
@@ -94,7 +103,7 @@ Various forms of unsupervised domain adaptation are investigated to ensure that 
 | IMG        | 0.504 | 0.632 | 0.661 | 0.413 | 0.787     |
 | MIL        | 0.415 | 0.769 | 0.719 | 0.379 | 0.747     |
 
-*Esaote to Philips transfer.*
+*Esaote to Philips transfer. AUC on Philips test set. B: Brightness, R: Regression, C: CycleGAN.*
 
 
 |                   | None  | B     | R     | C     | In-domain |
@@ -102,11 +111,15 @@ Various forms of unsupervised domain adaptation are investigated to ensure that 
 | Rule-based        | -     | -     | -     | -     | 0.765     |
 | EI ML             | 0.581 | 0.68  | 0.708 | 0.691 | 0.786     |
 | EIZ ML            | -     | -     | -     | -     | 0.786     |
-| Image aggregation | 0.591 | 0.486 | 0.549 | 0.657 | 0.783     |
+| IMG               | 0.591 | 0.486 | 0.549 | 0.657 | 0.783     |
 | MIL               | 0.646 | 0.701 | 0.703 | 0.705 | 0.750     |
-*Philips to Esaote transfer.*
+
+*Philips to Esaote transfer. AUC on Esaote test set. Some conditions not available due to missing reference model.*
+
+
 
 ## Conclusion
+
 
 ## Code and report
 The code for this project can be found in this [GitHub repository](https://github.com/CreateRandom/muscle-ultrasound).
