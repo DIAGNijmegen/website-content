@@ -81,10 +81,30 @@ Various forms of unsupervised domain adaptation are investigated to ensure that 
 | IMG               | 0.787 | 0.04 | 0.693 | 0.793 |
 | MIL               | 0.747 | 0.28 | 0.645 | 0.793 |
 
-*In-domain performance comparison on Philips test set. *
+*In-domain performance comparison on Philips test set.*
 
 
 ### Transfer between machines
+
+|            | None  | B     | R     | C     | In-domain |
+|------------|-------|-------|-------|-------|-----------|
+| Rule-based | 0.5   | 0.67  | 0.727 | 0.696 | 0.684     |
+| EI ML      | 0.719 | 0.79  | 0.784 | 0.726 | 0.762     |
+| EIZ ML     | 0.606 | 0.716 | 0.771 | 0.783 | 0.659     |
+| IMG        | 0.504 | 0.632 | 0.661 | 0.413 | 0.787     |
+| MIL        | 0.415 | 0.769 | 0.719 | 0.379 | 0.747     |
+
+*Esaote to Philips transfer.*
+
+
+|                   | None  | B     | R     | C     | In-domain |
+|-------------------|-------|-------|-------|-------|-----------|
+| Rule-based        | -     | -     | -     | -     | 0.765     |
+| EI ML             | 0.581 | 0.68  | 0.708 | 0.691 | 0.786     |
+| EIZ ML            | -     | -     | -     | -     | 0.786     |
+| Image aggregation | 0.591 | 0.486 | 0.549 | 0.657 | 0.783     |
+| MIL               | 0.646 | 0.701 | 0.703 | 0.705 | 0.750     |
+*Philips to Esaote transfer.*
 
 ## Conclusion
 
