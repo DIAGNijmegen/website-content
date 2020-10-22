@@ -92,7 +92,7 @@ The below table shows the resuts of same evaluation protocol on the test set por
 
 
 ### Transfer between machines
-In this section, we investigate the interaction of different classifiers and image mapping methods. We first train systems on the Esaote set and then adjust test set Philips image using the different mapping methods.
+In this section, we investigate the interaction of different classifiers and image mapping methods. We first train systems on the Esaote set and then adjust test set Philips image using the different mapping methods, the results are presented in the first table. Below, we reverse the process, training on Philips and deploying to Esaote.
 
 
 |            | None  | B     | R     | C     | In-domain |
@@ -105,6 +105,9 @@ In this section, we investigate the interaction of different classifiers and ima
 
 *Esaote to Philips transfer. AUC on Philips test set. B: Brightness, R: Regression, C: CycleGAN.*
 
+We can see that explicit methods for domain adaptation are necessary for the task: All classifiers suffer when used without adaptation methods. As already known informally beforehand, the rule-based method breaks down completely, performing only at chance level. Comparing it to the machine learning conditions, we can see that this effect seems to be mostly due to the particular rules, as these perform less badly when transformed, indicating that the grayscale features themselves can still be informative. We hypothesized that the neural methods would do better when tranferred between domains naively, but in fact they perform worse.
+
+Comparing different mapping methods on the first shift, we can see that the very simple brightness-based mapping boosts performance throughout the board, though it is generally not quite on par with the models trained on the target domain. Regression-based mapping is better, delivering bigger gains and target-level performance for all but two classifiers. The CycleGAN is a good option when combined with non-neural methods, though the combination with neural methods performs much worse.
 
 |                   | None  | B     | R     | C     | In-domain |
 |-------------------|-------|-------|-------|-------|-----------|
@@ -116,7 +119,7 @@ In this section, we investigate the interaction of different classifiers and ima
 
 *Philips to Esaote transfer. AUC on Esaote test set. Some conditions not available due to missing reference model.*
 
-
+For the opposite domain shift, we can see that all methods suffer from the shift between domains, though on this dataset, the neural methods do less so. Solely brightness-based mapping (B and R) works less well for neural methods on this domain, instead actually worsening performance for all conditions but MIL. The picture is the same for regression-based mapping. CycleGAN mapping works much better than for the opposite domain shift, increasing AUC for all methods. The reason for this difference might be that mapping images from Esaote to Philips is an easier task, as it involves more the destruction of details than their creation, as the Philips machine is older and offers a poorer resolution. For this reason, there might not be the issue with artifacts that affected the performance on the neural methods on the opposite shift.
 
 ## Conclusion
 
