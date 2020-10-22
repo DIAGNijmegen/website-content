@@ -123,6 +123,9 @@ For the opposite domain shift, we can see that all methods suffer from the shift
 
 ## Conclusion
 
+In this study, we were interested in leveraging deep learning to improve the diagnostic accuracy of NMD screening with ultrasound imagery and to develop a system that does not require manual image annotation and transfers more easily between different devices than the current rule-based system. While we cannot show substantial improvements in classification performance across the board, the results presented are still encouraging: Deep learning is generally suitable for neuromuscular disease screening, achieving classification performance on par with the rule-based system currently in clinical use on one dataset and outperforming it on the other. Its use could eliminate the need for manual ROI annotation, as it is fully end-to-end. 
+
+We investigated different methods for domain adaptation between different devices and showed that simple baselines such as brightness-based alignment can already go a long way to improve performance. The more involved deep-learning based CycleGAN method was less unambiguously useful, especially when mapping images from a lower quality domain to a higher quality domain. The refinement of the method with a semantic consistency loss can be expected to alleviate this issue. There is a very large body of work on domain adaptation, so additional methods should also be experimented with. For current purposes, the simple mapping methods should be preferred. When matched images from both devices are available, the regression-based method can be used, but even if this is not the case, brightness-based mapping works surprisingly well.
 
 ## Code and report
 The code for this project can be found in this [GitHub repository](https://github.com/CreateRandom/muscle-ultrasound).
