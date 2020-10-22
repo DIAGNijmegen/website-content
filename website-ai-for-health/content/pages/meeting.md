@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-| 22-10-2020     | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. <br>**[PhD project](https://www.ai-for-health.nl/projects/lower-back-pain/) update**|
 | 29-10-2020   | Alex Tichter | Simulated Prosthetic Hearing in deaf subjects. <br>**[MSc project](https://www.ai-for-health.nl/projects/simulated-hearing/) defense**|
 | 05-11-2020    | Ruud van Kaam | Predictive Modeling in the Intensive Care Unit. <br>**[PhD project](https://www.ai-for-health.nl/projects/cvc-infections/) update**|
 | 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**[MSc project](https://www.ai-for-health.nl/projects/fever_icu/) defense**  |
@@ -29,9 +28,10 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 22-10-2020     | Jasper van der Graaf | [MRI-based decision support tool for patients with chronic lower back pain.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)
 | 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. (https://www.ai-for-health.nl/projects/mihracle/)|
 | 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning system for wisdom tooth removal. (https://www.ai-for-health.nl/projects/wisdom-teeth/)|
-| 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. (https://www.ai-for-health.nl/projects/prenatal-screening/) |
+| 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. (https://www.ai-for-health.nl/projects/prenatal-screening/)|
 | 24-09-2020    | Klaus Lux | [Screening for neuromuscular disorders using automatic classification of muscle ultrasound images.](https://drive.google.com/file/d/1Aa65YmetnLcLyKJ_p_BE9Ztah5Nb_fX0/view?usp=sharing)|
 | 17-09-2020    | Thijs van den Hout | [Muscle and fat segmentation in 3D CT images for body composition assessment.](https://drive.google.com/file/d/103UKepB-8X_JFX-3WTz9MAA5FKKYplJD/view?usp=sharing)  |
 | 10-09-2020    | **Guest Speaker** <br> Stanley Pham | [Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG.](https://drive.google.com/file/d/173Q0X9Pa6pWRfsAeYeMr9PObirWz4YUr/view?usp=sharing) [[Video]](https://drive.google.com/file/d/1ZtAqltB_nE-zW5wy7gR_fZNtVjYbopVz/view?usp=sharing) |
