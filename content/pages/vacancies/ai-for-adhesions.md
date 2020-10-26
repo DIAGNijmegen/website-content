@@ -25,7 +25,7 @@ these adhesions. This type of imaging can be used to make treatment
 decisions. Cine MRI is not widely used yet, because radiological
 reading is time-consuming and expertise-dependent.
 
-<!--- TODO: add mp4 with normal and adhesion patient -->
+![Adhesion example]({{ IMGURL }}/images/projects/ai4adhesion-example.gif)
 
 ## Solution
 We want to develop an automated system for adhesion detection, using
