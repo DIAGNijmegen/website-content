@@ -30,7 +30,7 @@ The slides for past presentations are available by clicking on the links in the 
 | --------        |    ----  |          --- |
 | 22-10-2020     | Jasper van der Graaf | [MRI-based decision support tool for patients with chronic lower back pain.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)
 | 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. (https://www.ai-for-health.nl/projects/mihracle/)|
-| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning system for wisdom tooth removal. (https://www.ai-for-health.nl/projects/wisdom-teeth/)|
+| 08-10-2020     | Shankeeth Vinayahalingam | [Development and validation of a deep-learning system for wisdom tooth removal.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)|
 | 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. (https://www.ai-for-health.nl/projects/prenatal-screening/)|
 | 24-09-2020    | Klaus Lux | [Screening for neuromuscular disorders using automatic classification of muscle ultrasound images.](https://drive.google.com/file/d/1Aa65YmetnLcLyKJ_p_BE9Ztah5Nb_fX0/view?usp=sharing)|
 | 17-09-2020    | Thijs van den Hout | [Muscle and fat segmentation in 3D CT images for body composition assessment.](https://drive.google.com/file/d/103UKepB-8X_JFX-3WTz9MAA5FKKYplJD/view?usp=sharing)  |
