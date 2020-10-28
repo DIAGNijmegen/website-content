@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/msc-vertebral-fractures.jpg
 template: vacancy-single
-people: Nikolas Lessmann, Stan Buckens, Bram van Ginneken
+people: Nikolas Lessmann, Stan Buckens, Matthieu Rutten, Bram van Ginneken
 description: Develop image analysis algorithms to detect osteoporotic fractures in the spine.
 
 ## Background
