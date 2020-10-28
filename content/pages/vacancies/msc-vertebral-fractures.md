@@ -30,11 +30,11 @@ in the background to detect fractures that would otherwise be missed. The goal o
 algorithm available on the [grand-challenge.org](https://grand-challenge.org) platform.
 
 ## Requirements
-- Student in the final year of a Master study in biomedical engineering, artificial intelligence, data science or similar.
+- Student in the final year of a Master study in biomedical engineering, artificial intelligence, data science or similar
 - Interest in medical applications and medical image analysis
 - Good programming skills are important (Python)
 - A solid theoretical understanding of deep learning is crucial, experience with deep learning frameworks (PyTorch)
-  is beneficial.
+  is beneficial
 
 ## Information
 - Project duration: 6 months
