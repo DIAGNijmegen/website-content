@@ -1,9 +1,9 @@
 title: VIDI grant for Francesco Ciompi for improving lung cancer treatment planning
-date: 2020-14-04
+date: 2020-11-04
 description: Francesco Ciompi of the Computational Pathology group has received a prestigious NWO-TTW VIDI grant of 800,000 euro for his project "Predicting Lung Cancer Immunotherapy Response. It's personal". 
 picture: news/vidi-news-img-2.png
 groups: diag, pathology
-diag full_width: true
+full_width: true
 
 The [NWO](https://www.nwo.nl/en) granted [member/francesco-ciompi] of the [Computational Pathology group](https://www.computationalpathologygroup.eu/) a prestigious [VIDI-TTW grant](https://www.nwo.nl/calls/nwo-talentprogramma-vidi-toegepaste-en-technische-wetenschappen-ttw) of 800,000 euro for his project "<i>Predicting Lung Cancer Immunotherapy Response. It's personal</i>". 
 
