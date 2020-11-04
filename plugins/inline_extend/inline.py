@@ -15,7 +15,7 @@ group_websites = {
 
 # Matches: [member/wouter-bulten, group: pathology]
 # group is optional
-regex_member = re.compile(r"\[(?P<type>member|project|software|highlight|presentation|vacancy)\/(?P<identifier>[a-zA-Z-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]")
+regex_member = re.compile(r"\[(?P<type>member|project|software|highlight|presentation|vacancy)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]")
 
 # Matches: [youtube: video_id]
 regex_youtube = re.compile(r"\[youtube:\s*(?P<video>[a-zA-Z0-9\-\_]+)\]")
