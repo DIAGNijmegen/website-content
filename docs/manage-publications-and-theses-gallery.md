@@ -1,6 +1,6 @@
 # Manage publications and theses gallery
 
-1. All publications and theses are collected from the diag.bib that is *automatically* copied into website-content/content/.
+1. All publications and theses are collected from the diag.bib (https://github.com/DIAGNijmegen/diag-literature) that is *automatically* copied into website-content/content/.
 2. The allowed entry types are: InProceedings, Conference, Article, PhdThesis, Mastersthesis, Patent, Book
 3. Personal publications are based on the last names from the member's pages in combination with the bibentry.
 4. The (personal) publication page and theses gallery of the group should be filled correctly automatically.
