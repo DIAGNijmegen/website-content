@@ -19,11 +19,29 @@ surgery. This pain is often caused by adhesions, tough bands of tissue
 that form between structures and organs in the abdomen. Medical
 consumption in these patients is high, 70% is under treatment of a
 gastroenterologist and one in three is permanently taking pain 
-suppressing medication. A recently
-developed imaging technique, cine MRI, can detect and localize
-these adhesions. This type of imaging can be used to make treatment
-decisions. Cine MRI is not widely used yet, because radiological
-reading is time-consuming and expertise-dependent.
+suppressing medication. Adhesions can be detected both invasively and
+non-invasively. Invasive diagnosis is controversial, because it can 
+cause the formation of new adhesions. Non-invasively, adhesions are
+detected with either ultrasound or cine MRI. Ultrasound works well, but
+can only detect adhesions attached to the front abdominal wall. Cine MRI,
+on the other hand, can detect adhesions in the entire abdomen. 
+This type of imaging is used in the Radboudumc to make treatment
+decisions for patients with chronic abdominal pain. It helps doctors
+decide whether a patient should be treated conservatively with medication,
+or more progressively with surgery. Cine MRI is not 
+widely used in other hospitals yet, because radiological reading is 
+time-consuming and expertise-dependent.
+
+Automatic detection algorithms for adhesion detection can reduce the
+learning curve for new readers and reduce variability among radiologists. 
+By helping
+radiologists interpret the images, the algorithm may reduce the number
+of false positives and negatives. False positives can result in 
+unnecessary surgery, whereas false negatives can block surgery for
+patients who may actually be helped by it.
+
+The gif below gives an impression of the type of data the student will
+be working with.
 
 ![Adhesion example]({{ IMGURL }}/images/projects/ai4adhesion-example.gif)
 
@@ -43,10 +61,11 @@ results. This task is new and unexplored territory in AI research and
 leaves a lot of room for creative and challenging approaches!
 
 ## Data
-The student will have access to a database of more than 300 cine MRI
-scans with labels extracted from radiology reports. A subset of these
-scans is annotated with segmentations of relevant anatomy and adhesion 
-locations.
+The student will have immediate access to 60 cine MRI studies with
+binary labels (adhesions or no adhesions) extracted from radiology
+reports. 10 of these studies are annotated with bounding boxes. Soon,
+this database will be extended to more than 300 cine MRI studies with
+labels from another hospital.
 
 ## Approach
 Students will be supervised by a [DIAG](https://www.diagnijmegen.nl/) 
