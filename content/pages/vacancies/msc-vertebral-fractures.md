@@ -14,16 +14,16 @@ millions of CT scans of the thorax and abdomen are made worldwide, for reasons o
 fractures, but providing the opportunity to detect these kind of fractures in the spine.
 
 ## Research question and tasks
-We have robust methods for automatically finding the spine in CT images and for delineating the individual vertebrae
-that form the spine. The goal of this project is to develop a system that automatically determines for each vertebra
-whether it is normal or whether it is starting to collapse. For abnormal vertebrae, the system needs to quantify the
-degree to which the bone has collapsed in order to distinguish between early stage fractures and advanced fractures.
+The goal of this project is to develop a system that automatically determines for each vertebra
+whether it is normal or whether it is fractured, or is starting to collapse. For abnormal vertebrae, the system needs to
+quantify the degree to which the bone has collapsed in order to distinguish between early stage fractures and advanced
+fractures.
 
-We have access to a set of CT scans in which fractures have been labeled by a radiologist. We also have access to a much
-larger set of CT scans in which the vertebrae have been manually delineated, but in which fractures have not yet been
-labeled. We furthermore have access to a very large amount of CT scans without any labels. While an initial completely
-labeled dataset is therefore available, part of the project will be to configure a workstation that can be used by
-radiologists to label additional data.
+We have robust methods for automatically finding the spine in CT images and for delineating the individual vertebrae.
+A set of CT scans in which fractures have been labeled by a radiologist is available for this project. We also have
+access to a much larger set of CT scans in which the vertebrae have been manually delineated, but in which fractures
+have not yet been labeled. While a labeled dataset is therefore available, part of the project will be to configure a
+workstation that can be used by radiologists to label additional data.
 
 The resulting automatic fracture detection system will be a first step toward automatically reading all thorax CT scans
 in the background to detect fractures that would otherwise be missed. The goal of the project is to make the developed
