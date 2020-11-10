@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/covid_echo.png
 template: project-single
-people: Sjoerd Bos, Thomas van den Heuvel, Bram Kok, Frank Bosch, Chris de Korte
+people: Sjoerd Bos, Thomas van den Heuvel, Luca Ambrogioni, Bram Kok, Frank Bosch, Chris de Korte
 description: Development of deep learning algorithms and web application for automated classification of COVID-19. 
 
 **Start date: 01-10-2020** <br>
