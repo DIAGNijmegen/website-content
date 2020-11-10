@@ -1,14 +1,15 @@
 title: Anindo Saha
 name: Anindo Saha
 template: people-single
-picture: people/Person.png
-position: Master Student
-active: no
+picture: people/Anindo_Saha.png
+position: PhD Candidate
+active: yes
 groups: diag
 default_group: diag
-email: anindo@ieee.org
+email: anindya.shaha@radboudumc.nl
+scholar: https://scholar.google.com/citations?user=Ve1DcokAAAAJ&hl=en
 office: 
 linkedin: https://www.linkedin.com/in/anindo-saha/
-type: student
+type: phd
 
-Anindo Saha is a Joint MSc candidate of the Medical Imaging and Applications (MaIA) program supported by the 2018-20 Erasmus+: EMJMD Grant, under the consortium of University of Girona (Spain), UNICAS (Italy) and University of Bourgogne (France). In February 2020, he joined the Diagnostic Image Analysis Group as a visiting researcher in completion of his Masters thesis. His primary research topic is computer-aided diagnosis of clinically significant prostate cancer in mpMRI scans using deep neural networks, under the supervision of Matin Hosseinzadeh and Henkjan Huisman.
+Anindo Saha is a PhD Candidate working on deep learning-based prostate MRI surveillance with the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) and the [Minimally Invasive Image-Guided Intervention Center (MAGIC)](http://magic.radboudimaging.nl/), under the supervision of [member/henkjan-huisman] and [Jurgen Fütterer](http://magic.radboudimaging.nl/index.php/Person?name=Jurgen_F%C3%BCtterer). In 2020, he obtained his Joint MSc in [Medical Imaging and Applications (MaIA)](http://maiamaster.udg.edu/) from the University of Girona (Spain), UNICAS (Italy) and the University of Bourgogne (France), as a recipient of the [European Union: Erasmus+ EMJMD scholarship](https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-master-degrees_en). His past affiliations also include the Carl E. Ravin Advanced Imaging Laboratories at [Duke University Medical Center (USA)](https://www.dukehealth.org/locations/duke-university-medical-center).

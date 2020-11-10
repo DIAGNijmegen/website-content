@@ -4,7 +4,7 @@ template: people-single
 picture: people/Maschenka_Balkenhol.jpg
 position: Pathology Resident and Researcher
 active: yes
-groups: diag, pathology
+groups: pathology
 default_group: pathology
 email: maschenka.balkenhol@radboudumc.nl
 office: Route 828, room 3.85

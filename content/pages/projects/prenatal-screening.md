@@ -45,3 +45,8 @@ The placenta classifier achieves a AUC of 0.90. Selecting the threshold to attai
 ## Conclusion
 The placenta locatization algorithm shows promising results. 
 Combined with the predefined acquisition protocol it could help to identify at-risk pregnancies in resource-limited settings and refer these cases to a hospital for further examination by a trained sonographer. This gives pregnant women the possibility to travel to a health care facility before delivery, so they can receive care when required. 
+
+
+The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/babychecker-placenta-localization).
+
+The final report for this project can be found [here](https://drive.google.com/file/d/1-K95brXPDVxYkkO7uDxbrBUNN64motRL/view?usp=sharing).

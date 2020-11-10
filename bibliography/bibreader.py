@@ -4,11 +4,9 @@ from authors import (
     parse_name,
     split_authors,
     authors_to_string,
-    get_list_researchers,
-    get_publications_by_author,
 )
 import codecs
-import io
+
 
 # pasre bib file
 def get_bib_blocks(content, start_character="@", delim=("{", "}")):
@@ -132,7 +130,7 @@ def parse_bibtex_file(filename, full_strings_bib):
 
                 bib_item["journal"] = codecs.decode(name, "ulatex")
 
-                if "arxiv" in name.lower():
+                if "arxiv" in name.lower() or "medrxiv" in name.lower():
                     bib_item["type"] = "preprint"
             if "booktitle" in bib_item:
                 name = bib_item["booktitle"]
@@ -204,12 +202,16 @@ def parse_bibtex_file(filename, full_strings_bib):
             if "url" in bib_item:
                 if "arxiv" in bib_item["url"]:
                     bib_item["url_type"] = "arXiv"
+                elif "medrxiv" in bib_item["url"]:
+                    bib_item["url_type"] = "medRxiv"
                 else:
                     bib_item["url_type"] = "Url"
             elif bib_item["type"] == "preprint":
                 if bib_item["journal"] and "arxiv" in bib_item["journal"].lower():
                     bib_item["url"] = get_arxiv_id_from_title(bib_item["journal"])
                     bib_item["url_type"] = "arXiv"
+                elif bib_item["journal"] and "medrxiv" in bib_item["journal"].lower():
+                    bib_item["url_type"] = "medRxiv"
                 else:
                     bib_item["url_type"] == "Url"
 

@@ -3,7 +3,7 @@ name: Ruben Kluge
 template: people-single
 picture: people/Ruben_Kluge.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: ruben.kluge@radboudumc.nl
