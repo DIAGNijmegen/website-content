@@ -26,7 +26,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
-| 05-11-2020    | Ruud van Kaam | [Predictive Modeling in the Intensive Care Unit.](https://www.ai-for-health.nl/projects/cvc-infections/)|
+| 05-11-2020    | Ruud van Kaam | [Predictive Modeling in the Intensive Care Unit.](https://drive.google.com/file/d/1GV8EmcX73wVNCFeNQizyvuLqvK7qiZ4H/view?usp=sharing)|
 | 29-10-2020   | Alex Tichter | [Simulated Prosthetic Hearing in deaf subjects.](https://drive.google.com/file/d/1zbc4Ah_H8yDtonnC5A4iQYWAmd8JcOtB/view?usp=sharing)|
 | 22-10-2020     | Jasper van der Graaf | [MRI-based decision support tool for patients with chronic lower back pain.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)|
 | 15-10-2020     | Koen Dercksen | [Building multi-modal interactive health records.](https://drive.google.com/file/d/1vfVXYTUADrHvxvsiexCc56hv56iT_N07/view?usp=sharing)|
