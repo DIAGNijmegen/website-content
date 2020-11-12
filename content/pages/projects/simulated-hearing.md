@@ -1,6 +1,6 @@
 title: Simulated Prosthetic Hearing in deaf subjects
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/simulated_hearing.png
 template: project-single
