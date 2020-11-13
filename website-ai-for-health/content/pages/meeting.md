@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-| 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**[MSc project](https://www.ai-for-health.nl/projects/fever_icu/) defense**  |
 | 19-11-2020   | Gelana Khazeeva | AI-driven genetic diagnosis for rare-diseases. <br>**[PhD project](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) update**|
 |  26-11-2020   | Anna Gansen   | Objective home-based bradykinesia assessment in Parkinson’s disease. <br>**[MSc project](https://www.ai-for-health.nl/projects/bradykinesia/) update** |
 |  03-12-2020  | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. <br>**[PhD project](https://www.ai-for-health.nl/projects/vascular-function/) update**|
@@ -26,6 +25,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 12-11-2020   | Lisette Boeijenk | [A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury.](https://www.ai-for-health.nl/projects/fever_icu/)|
 | 05-11-2020    | Ruud van Kaam | [Predictive Modeling in the Intensive Care Unit.](https://drive.google.com/file/d/1GV8EmcX73wVNCFeNQizyvuLqvK7qiZ4H/view?usp=sharing)|
 | 29-10-2020   | Alex Tichter | [Simulated Prosthetic Hearing in deaf subjects.](https://drive.google.com/file/d/1zbc4Ah_H8yDtonnC5A4iQYWAmd8JcOtB/view?usp=sharing)|
 | 22-10-2020     | Jasper van der Graaf | [MRI-based decision support tool for patients with chronic lower back pain.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)|
