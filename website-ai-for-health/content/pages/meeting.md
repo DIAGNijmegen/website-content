@@ -17,7 +17,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 19-11-2020   | Gelana Khazeeva | AI-driven genetic diagnosis for rare-diseases. <br>**[PhD project](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) update**|
 |  26-11-2020   | Anna Gansen   | Objective home-based bradykinesia assessment in Parkinson’s disease. <br>**[MSc project](https://www.ai-for-health.nl/projects/bradykinesia/) update** |
 |  03-12-2020  | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. <br>**[PhD project](https://www.ai-for-health.nl/projects/vascular-function/) update**|
-|  10-12-2020  | Nolan Cardozo  | Automated clinical scoring in psoriasis based on RGB images. <br>**[MSc project](https://www.ai-for-health.nl/projects/psoriasis_ai/) update**|
+|  10-12-2020  | Nolan Cardozo + Gijs Smit  | Automated clinical scoring in psoriasis based on RGB images. <br>**[MSc project](https://www.ai-for-health.nl/projects/psoriasis_ai/) update** + Artifact detection in digitized histopathology images. <br>**[MSc project](https://www.ai-for-health.nl/projects/artifact_detection/) update**|
 
 
 
