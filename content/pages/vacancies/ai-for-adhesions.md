@@ -1,6 +1,6 @@
 title: Artificial intelligence-assisted detection of adhesions on cine MRI
 groups: ai-for-health, diag
-closed: true
+closed: false
 type: student
 picture: projects/ai4adhesion.jpg
 template: vacancy-single
