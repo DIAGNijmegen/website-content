@@ -1,8 +1,11 @@
-title: Artificial intelligence-assisted detection of adhesions on cine
-MRI groups: ai-for-health, diag closed: false type: student picture:
-projects/ai4adhesion.jpg template: vacancy-single people: Bram de
-Wilde, Henkjan Huisman description: Development of an AI-assisted
-algorithm for automatic detection of adhesions on cine MRI
+title: Artificial intelligence-assisted detection of adhesions on cine MRI
+groups: ai-for-health, diag
+closed: true
+type: student
+picture: projects/ai4adhesion.jpg
+template: vacancy-single
+people: Bram de Wilde, Henkjan Huisman
+description: Development of an AI-assisted algorithm for automatic detection of adhesions on cine MRI
 
 **This is an AI for Health MSc project. Students are
 elgible to receive a monthly reimbursement of €500,- for
