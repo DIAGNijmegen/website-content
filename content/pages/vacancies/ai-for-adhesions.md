@@ -12,7 +12,9 @@ elgible to receive a monthly reimbursement of €500,- for
 a period of six months. For more information please read the
 [requirements](https://www.ai-for-health.nl/requirements/).**
 
-## Clinical problem This project aims to improve outcomes in the
+## Clinical problem 
+
+This project aims to improve outcomes in the
 30,000 patients per year in the Netherlands that develop chronic pain
 after abdominal surgery. This pain is often caused by adhesions,
 tough bands of tissue that form between structures and organs in
@@ -44,7 +46,9 @@ will be working with.
 
 ![Adhesion example]({{ IMGURL }}/images/projects/ai4adhesion-example.gif)
 
-## Solution We want to develop an automated system for adhesion
+## Solution 
+
+We want to develop an automated system for adhesion
 detection, using deep learning segmentation and classification. We take
 an existing, semi-automated method as a starting point.  This existing
 method need a segmentation map of the abdominal cavity, to perform a
@@ -63,14 +67,18 @@ approaches. Adhesion detection is new and unexplored territory in
 AI research and leaves a lot of room for creative and challenging
 approaches!
 
-## Data The student will have immediate access to 60 cine MRI studies
+## Data 
+
+The student will have immediate access to 60 cine MRI studies
 with binary labels (adhesions or no adhesions) extracted from radiology
 reports and abdominal cavity segmentations.  In 10 of these studies,
 adhesions are annotated with bounding boxes.  Soon, this database
 will be extended to more than 300 cine MRI studies with labels from
 another hospital.
 
-## Approach Students will be supervised by a
+## Approach 
+
+Students will be supervised by a
 [DIAG](https://www.diagnijmegen.nl/) research member whose
 research is dedicated to adhesion detection with machine learning
 techniques. Depending on the project progression, they will be guided
@@ -82,13 +90,14 @@ get access to the high-performance deep learning cluster of DIAG,
 named [SOL](https://rtc.diagnijmegen.nl/software/sol/), for running
 machine learning experiments.
 
-## Requirements - Student with a major in data science, computer
-science, or artificial
+## Requirements 
+- Student with a major in data science, computer science, or artificial
     intelligence in the final stage of master level studies
-- Interest in (medical) image analysis and machine learning - Affinity
-with programming in Python and with deep learning packages
+- Interest in (medical) image analysis and machine learning 
+- Affinity with programming in Python and with deep learning packages 
     (e.g. PyTorch) is required
 
-## Information - Project duration: 6 months - Location: Radboud
-University Medical Center - For more information, please contact
-[member/bram-de-wilde]
+## Information 
+- Project duration: 6 months 
+- Location: Radboud University Medical Center 
+- For more information, please contact [member/bram-de-wilde]
