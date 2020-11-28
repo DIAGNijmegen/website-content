@@ -5,6 +5,8 @@ picture: news/fiets-pieten.jpeg
 groups: pathology
 full_width: true
 
+![Fiets Pieten]({{ IMGURL }}/images/news/fiets-pieten.jpeg)
+
 Sinterklaas was visiting Radboud,  
 but when he entered the second floor he was in doubt.
 
