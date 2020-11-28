@@ -29,7 +29,7 @@ Sint sent out the best Detective Pieten he could find,
 hoping they could figure out how this mystery will unwind.
 
 Most of Sint’s Pieten were busy with their delivery hike,  
-so he send the fastest elite of his Pieten crew per bike.
+so he sent the fastest elite of his Pieten crew per bike.
 
 Packed with poems, pepernoten and chocolate treats,  
 they started their journey, dressed as true athletes.
