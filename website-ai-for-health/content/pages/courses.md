@@ -34,7 +34,7 @@ An overview of the course schedule can be seen below.
 | 20-11-2020 | Project Day 1 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 27-11-2020 | Machine Learning 5 / Python Assignments |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 04-12-2020 | Project Day 2 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
-| 11-12-2020 | Decision Support | JADS |
+| 11-12-2020 | Intervision, Practical Applications and Personalized Treatment | JADS |
 | 18-12-2020 | Visualization | JADS |
 | 08-01-2021 | Project Day 3 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 15-01-2021 | Bioinformatics |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
