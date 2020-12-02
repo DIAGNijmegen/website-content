@@ -3,3 +3,13 @@
   from = "/vacancies/phd-phd-breas-prostate-grading/"
   to = "/vacancies/phd-phd-breast-prostate-grading/"
   status = 301
+
+[[redirects]]
+  from = "/highlights/:title/"
+  to = "/news/:title/"
+  status = 301
+
+[[redirects]]
+  from = "/highlights/"
+  to = "/news/"
+  status = 301
