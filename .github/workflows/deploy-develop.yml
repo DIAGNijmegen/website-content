@@ -1,4 +1,4 @@
-name: Deploy and Publish develop test
+name: Deploy and Publish (Develop)
 
 on:
   push:

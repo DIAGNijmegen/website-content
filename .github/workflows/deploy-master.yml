@@ -1,9 +1,8 @@
 # name: Deploy and Publish
 
-# on:
-#   push:
-#     branches: master
-
+on:
+  push:
+    branches: master
 # jobs:
 #   deploy:
 #     runs-on: ubuntu-latest
