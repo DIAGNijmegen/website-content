@@ -37,15 +37,15 @@ _netlify_deploy_defaults: &netlify_deploy_defaults
   "on":
     branch: master
 
-# Default configuration for dev deploys to Netlify
-_netlify_dev_deploy_defaults: &netlify_dev_deploy_defaults
-  provider: netlify
-  auth: $NETLIFY_DEV_AUTH
-  edge: true # opt in to dpl v2
-  dir: $WEBSITE/output
-  prod: true
-  "on":
-    branch: develop
+# # Default configuration for dev deploys to Netlify
+# _netlify_dev_deploy_defaults: &netlify_dev_deploy_defaults
+#   provider: netlify
+#   auth: $NETLIFY_DEV_AUTH
+#   edge: true # opt in to dpl v2
+#   dir: $WEBSITE/output
+#   prod: true
+#   "on":
+#     branch: develop
 
 notifications:
   email:
@@ -89,15 +89,15 @@ jobs:
         <<: *netlify_deploy_defaults
         site: $NETLIFY_SITEID_DIAG
 
-    - <<: *build_defaults
-      name: Build DIAG website (dev branch)
-      if: branch = develop
-      env:
-        - WEBSITE=website-diag
-        - DEVELOPMENT=1
-      deploy:
-        <<: *netlify_dev_deploy_defaults
-        site: $NETLIFY_SITEID_DIAG_BETA
+    # - <<: *build_defaults
+    #   name: Build DIAG website (dev branch)
+    #   if: branch = develop
+    #   env:
+    #     - WEBSITE=website-diag
+    #     - DEVELOPMENT=1
+    #   deploy:
+    #     <<: *netlify_dev_deploy_defaults
+    #     site: $NETLIFY_SITEID_DIAG_BETA
 
     # Build and deploy steps for RTC website
     - <<: *build_defaults
