@@ -12,7 +12,7 @@ jobs:
       matrix:
         include:
           - website-dir: website-diag
-            site-id: ${{ secrets.NETLIFY_SITEID_DIAG_BETA }}
+            site-id: NETLIFY_SITEID_DIAG_BETA
 
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
       - name: Publish
         uses: netlify/actions/cli@master
         env:
-          NETLIFY_SITE_ID: ${{ matrix.site-id }}
+          NETLIFY_SITE_ID: ${{ secrets.[matrix.site-id] }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
         with:
           args: deploy --dir=${{ matrix.website-dir }}/output --prod
