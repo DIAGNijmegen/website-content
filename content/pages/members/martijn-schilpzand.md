@@ -3,7 +3,7 @@ name: Martijn Schilpzand
 template: people-single
 picture: people/Person.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: martijn.schilpzand@radboudumc.nl

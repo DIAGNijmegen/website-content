@@ -146,7 +146,7 @@ def parse_bib_file():
     author_bib_keys = get_publications_by_author(bib_items, list_researchers)
 
     # sorting
-    print("sorting")
+    print("sorting...")
     bib_items_per_author_per_date = sort_bib_keys_author(author_bib_keys, bib_items)
     bib_items_per_group_per_date = sort_bib_keys_group(
         author_bib_keys, bib_items, list_researchers

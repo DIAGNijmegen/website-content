@@ -1,6 +1,6 @@
 title: Deep learning for Prostate MRI Surveillance
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/prostatemri.jpg
 people: Henkjan Huisman 

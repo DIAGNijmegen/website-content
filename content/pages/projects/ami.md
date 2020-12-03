@@ -3,7 +3,7 @@ finished: true
 type: general
 picture: projects/ami-combined.png
 template: project-single
-groups: pathology, retina, diag
+groups: pathology, retina, diag, rtc
 default_group: diag
 people: Péter Bándi, Bart Liefers, Gabriel Humpire Mamani, Marcory van Dijk, James Meakin, Paul Konstantin Gerke, Geert Litjens, Jeroen van der Laak, Clarisa Sánchez, Colin Jacobs, Bram van Ginneken
 description: Automation in Medical Imaging - a joint project between DIAG and Fraunhofer MEVIS aimed at the development of a generic platform for automatic medical image analysis.

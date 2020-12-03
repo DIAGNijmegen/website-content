@@ -14,18 +14,8 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-| 24-09-2020    | Klaus Lux | Screening for neuromuscular disorders using automatic classification of muscle ultrasound images. |
-| 01-10-2020    | Martijn Schilpzand   | Automated prenatal ultrasound screening. <br>**[MSc project](https://www.ai-for-health.nl/projects/prenatal-screening/) defense** |
-| 08-10-2020     | Shankeeth Vinayahalingam | Development and validation of a deep-learning system for wisdom tooth removal. <br>**[PhD project](https://www.ai-for-health.nl/projects/wisdom-teeth/) update** |
-| 15-10-2020     | Koen Dercksen | Building multi-modal interactive health records. <br>**[PhD project](https://www.ai-for-health.nl/projects/mihracle/) update**|
-| 22-10-2020     | Jasper van der Graaf | MRI-based decision support tool for patients with chronic lower back pain. <br>**[PhD project](https://www.ai-for-health.nl/projects/lower-back-pain/) update**|
-| 29-10-2020   | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. <br>**[PhD project](https://www.ai-for-health.nl/projects/vascular-function/) update**|
-| 05-11-2020    | Ruud van Kaam | Predictive Modeling in the Intensive Care Unit. <br>**[PhD project](https://www.ai-for-health.nl/projects/cvc-infections/) update**|
-| 12-11-2020   | Lisette Boeijenk | A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury. <br>**[MSc project](https://www.ai-for-health.nl/projects/fever_icu/) defense**  |
-| 19-11-2020   | Gelena Khazeeva | AI-driven genetic diagnosis for rare-diseases. <br>**[PhD project](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) update**|
-|  26-11-2020   | Anna Gansen   | Objective home-based bradykinesia assessment in Parkinson’s disease. <br>**[MSc project](https://www.ai-for-health.nl/projects/bradykinesia/) update** |
-|  03-12-2020  | **TBD**   |  |
-|  10-12-2020  | Nolan Cardozo  | Automated clinical scoring in psoriasis based on RGB images. <br>**[MSc project](https://www.ai-for-health.nl/projects/psoriasis_ai/) update**|
+|  03-12-2020  | Mirthe van Diepen | Unraveling mechanisms of vascular function and regulation with causal discovery. <br>**[PhD project](https://www.ai-for-health.nl/projects/vascular-function/) update**|
+|  10-12-2020  | Nolan Cardozo <br><br> Gijs Smit  | Automated clinical scoring in psoriasis based on RGB images. <br>**[MSc project](https://www.ai-for-health.nl/projects/psoriasis_ai/) update** <br> Artifact detection in digitized histopathology images. <br>**[MSc project](https://www.ai-for-health.nl/projects/artifact_detection/) update**|
 
 
 
@@ -33,6 +23,16 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  26-11-2020   | Anna Gansen   | [Objective home-based bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/) |
+| 19-11-2020   | Gelana Khazeeva | [AI-driven genetic diagnosis for rare-diseases.](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/)|
+| 12-11-2020   | Lisette Boeijenk | [A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury.](https://drive.google.com/file/d/1orPO1AV8cgpr-gTQv0jKwn-4j99yeaGK/view?usp=sharing)|
+| 05-11-2020    | Ruud van Kaam | [Predictive Modeling in the Intensive Care Unit.](https://drive.google.com/file/d/1GV8EmcX73wVNCFeNQizyvuLqvK7qiZ4H/view?usp=sharing)|
+| 29-10-2020   | Alex Tichter | [Simulated Prosthetic Hearing in deaf subjects.](https://drive.google.com/file/d/1zbc4Ah_H8yDtonnC5A4iQYWAmd8JcOtB/view?usp=sharing)|
+| 22-10-2020     | Jasper van der Graaf | [MRI-based decision support tool for patients with chronic lower back pain.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)|
+| 15-10-2020     | Koen Dercksen | [Building multi-modal interactive health records.](https://drive.google.com/file/d/1vfVXYTUADrHvxvsiexCc56hv56iT_N07/view?usp=sharing)|
+| 08-10-2020     | Shankeeth Vinayahalingam | [Development and validation of a deep-learning system for wisdom tooth removal.](https://drive.google.com/file/d/1-3Cmh2vRFZe4dyzF2Mak4Sj-OcyvPPN8/view?usp=sharing)|
+| 01-10-2020    | Martijn Schilpzand   | [Automated prenatal ultrasound screening.](https://drive.google.com/file/d/1etjJEU9oIw1RpNEiawjDNF3hRuz8vxra/view?usp=sharing)|
+| 24-09-2020    | Klaus Lux | [Screening for neuromuscular disorders using automatic classification of muscle ultrasound images.](https://drive.google.com/file/d/1Aa65YmetnLcLyKJ_p_BE9Ztah5Nb_fX0/view?usp=sharing)|
 | 17-09-2020    | Thijs van den Hout | [Muscle and fat segmentation in 3D CT images for body composition assessment.](https://drive.google.com/file/d/103UKepB-8X_JFX-3WTz9MAA5FKKYplJD/view?usp=sharing)  |
 | 10-09-2020    | **Guest Speaker** <br> Stanley Pham | [Deep Learning Architectures for Prognostication After Cardiac Arrest with EEG.](https://drive.google.com/file/d/173Q0X9Pa6pWRfsAeYeMr9PObirWz4YUr/view?usp=sharing) [[Video]](https://drive.google.com/file/d/1ZtAqltB_nE-zW5wy7gR_fZNtVjYbopVz/view?usp=sharing) |
 | 03-09-2020     | Manon de Jonge | [Predicting changes in quality of life of ICU survivors.](https://drive.google.com/file/d/1Ch_ZFYtUP4VskZDDh2LTdVaucyKCkiae/view?usp=sharing) |

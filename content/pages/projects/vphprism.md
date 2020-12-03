@@ -2,7 +2,7 @@ title: VPH-PRISM
 finished: true
 type: general
 template: project-single
-groups: pathology, aiimnijmegen
+groups: pathology
 default_group: pathology
 picture: projects/logo_vphprism.jpg
 people: Jeroen van der Laak, Mehmet Dalmis, Babak Ehteshami Bejnordi, Suzan Vreemann

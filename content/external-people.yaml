@@ -193,7 +193,7 @@ people:
     email: Tong.Xi@radboudumc.nl
   - name: Guido de Jong
     position: Research coordinator
-    affiliation: Neurosurgery, Radboudumc
+    affiliation: 3D Lab, Radboudumc
     url: https://www.radboudumc.nl/en/people/guido-de-jong
     picture: people/external/Guido_de_Jong.jpg
     email: Guido.deJong@radboudumc.nl
@@ -449,11 +449,11 @@ people:
     url: https://www.ru.nl/english/people/guclu-u/
     picture: people/external/Umut_Guclu.png
     email: u.guclu@donders.ru.nl
-  - name: Gelena Khazeeva
+  - name: Gelana Khazeeva
     position: PhD student
     affiliation: Radboudumc
-    url: 
-    picture: 
+    url: https://www.linkedin.com/in/gelana-khazeeva-ba116a9a/
+    picture:  people/external/Gelana_Khazeeva.jpg
     email: Gelana.Khazeeva@radboudumc.nl
   - name: Ana Ligia Silva de Lima
     position: Postdoctoral researcher
@@ -553,16 +553,16 @@ people:
     email: Stan.Buckens@radboudumc.nl
   - name: Mirthe van Diepen
     position: PhD student
-    affiliation: 
+    affiliation: Radboud University
     url: https://www.linkedin.com/in/mirthe-van-diepen-a9525aa8/
     picture: people/external/Mirthe_van_Diepen.jpg
-    email: 
+    email: Mirthe.vanDiepen@ru.nl
   - name: Anna Gansen
     position: Master student
     affiliation: Artificial Intelligence, Radboud University
     url: https://www.linkedin.com/in/anna-gansen/
     picture: people/external/Anna_Gansen.jpg
-    email: 
+    email: Anna.Gansen@radboudumc.nl
   - name: Richard ten Broek
     position: General Surgery Resident
     affiliation: Radboudumc
@@ -609,3 +609,15 @@ people:
     url: https://www.radboudumc.nl/patientenzorg/verpleegafdelingen/acute-opname-afdeling/team-aoa
     picture: 
     email: Bram.Kok@radboudumc.nl
+  - name: Timen ten Harkel
+    position: PhD student
+    affiliation: 3D Lab, Radboudumc
+    url: https://www.radboudumc.nl/en/people/timen-ten-harkel
+    picture: people/external/Timen_ten_Harkel.jpg
+    email: Timen.tenHarkel@radboudumc.nl
+  - name: Tom Loonen
+    position: PhD student
+    affiliation: 3D Lab, Radboudumc
+    url: https://www.radboudumc.nl/en/people/tom-loonen
+    picture: people/external/Tom_Loonen.jpg
+    email: Tom.Loonen@radboudumc.nl

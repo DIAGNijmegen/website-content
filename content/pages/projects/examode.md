@@ -4,7 +4,7 @@ finished: false
 type: general
 description: The aim of ExaMode is to collect training data with limited human interaction for the processing of exascale volumes of healthcare data.
 template: project-single
-groups: diag, pathology
+groups: diag, pathology, rtc
 default_group: pathology
 people: Francesco Ciompi, Jeroen van der Laak, Mart van Rijthoven, Miriam Groeneveld, Witali Aswolinskiy, Elke Loskamp-Huntink, Maud Wekking
 bibkeys: Tell19,Swid19,Bokh19

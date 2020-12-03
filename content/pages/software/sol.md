@@ -5,17 +5,17 @@ picture: software/sol-logo.jpg
 template: project-single
 groups: rse, diag, rtc
 people: Rita Bijlsma, Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Matin Hosseinzadeh, Xie Weiyi, Patrick Brand
-description: DIAG's deep learning cluster for training and applying automated image analysis tools.
+description: RTC Deep Learning's cluster for training and applying automated image analysis tools.
 bibkeys: 
 
 The Diagnostic Image Analysis Group's goal is to improve image analysis tools
 for clinicians. Since 2015, deep learning has become an essential tool for 
 artificial intelligence, substatially improving the acurracy and generalizability 
 on developed image classification techniques. In order to create high quality 
-deep learning based algorithms for clinical practice, DIAG's AI researchers 
+deep learning based algorithms for clinical practice, AI researchers 
 require the use of high-power general purpose graphic processing units (GPGPUs).
 
-SOL is DIAG's deep learning infrastructure. It offers researches access to 
+SOL is the RTC Deep Learning's infrastructure. It offers researchers access to 
 a centralized pool of GPGPUs. It is used to create state-of-the-art tools
 for detecting and classifying illnesses and quantify extent and identify possible
 treatment options for diseases.
@@ -24,8 +24,8 @@ treatment options for diseases.
 
 | Resource               | Value                         |
 | ---------------------- | ----------------------------- |
-| Compute nodes          | 30                            |
-| GPUs                   | 80                            |
+| Compute nodes          | 40                            |
+| GPUs                   | 100                            |
 | CPUs                   | 788                           |
 | Total memory           | 3.5TB                         |
 | Active users/month     | 40                            |
@@ -33,8 +33,8 @@ treatment options for diseases.
 
 ## Architecture
 
-SOL is a compute cluster which consists of 30 compute nodes that give access
-to a pool of 80 GPUs (mainly NVIDIA GTX1080Ti
+SOL is a compute cluster which consists of 40 compute nodes that give access
+to a pool of 100 GPUs (mainly NVIDIA GTX1080Ti
 and RTX2080Ti cards), a dedicated 500 TB storage server for serving data to
 deep learning compute nodes using 20 GBit networking, and a 
 [Prometheus](https://prometheus.io/)+[Grafana](https://grafana.com/)
@@ -62,5 +62,5 @@ and to remove non-stardard components and compute nodes from the cluster.
 
 In addition to this, the compute cluster will be rolled out as a service to 
 other departments of the hospital and we will start offering compute capabilites
-built around SOL to other departments of Radboud University in 2019.
+built around SOL to other departments of Radboud University in 2021.
 

@@ -3,7 +3,7 @@ title_long: CIRRUS Lung Screening
 finished: false
 picture: software/cirruslungs_workstation.png
 template: project-single
-groups: rse, diag
+groups: rse, diag, rtc
 people: Haimasree Bhattacharya, Sil van de Leemput, Paul Konstantin Gerke, Colin Jacobs, Mathias Prokop, Bram van Ginneken
 description: This workstation is a highly optimized reading platform that allows fast and standardized reading of lung screening CT scans.
 

@@ -1,6 +1,6 @@
 title: Improving detection of COVID-19 classification with CT scans
 groups: ai-for-health, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/corads-ai.jpg
 template: vacancy-single

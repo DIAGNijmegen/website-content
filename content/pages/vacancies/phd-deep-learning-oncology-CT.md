@@ -1,6 +1,6 @@
 title: Deep learning for oncologic CT imaging
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/oncology-ct.jpg
 people: Bram van Ginneken 

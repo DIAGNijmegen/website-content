@@ -2,7 +2,7 @@ title: Kick-off EFRO Project MARBLE
 date: 2019-09-17
 description: Researchers of the Radboud University, the Radboud University Medical Center and ScreenPoint Medical gathered this week to kick-off the European EFRO project MARBLE. 
 picture: news/marble_kickoff.png
-groups: aiimnijmegen
+groups: diag
 
 The objective of the 4-year project [MARBLE](https://www.aiimnijmegen.nl/projects/marble/) is to develop and validate AI algorithms for breast cancer screening.
 

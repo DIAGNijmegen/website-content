@@ -17,6 +17,7 @@ default_group: diag (the main group of this person, used for internal links. If 
 people: names of people involved in the project. (This will cause the project to appear on their personal pages. It is possible to add external people here. If you want their pictures to appear as well, upload a square and resized image to website-content/content/images/people/external/ with file name: firstname_lastname
 description: a short description of +/- 135 characters. This will appear on the project home page.
 bibkeys: bibkeys of publications that are connected to the project
+type: One of (student|normal), set to 'student' to mark this project as a student project. In some overviews, student projects are displayed in a seperate list.
 
 FREE TEXT, FOR EXAMPLE:
 

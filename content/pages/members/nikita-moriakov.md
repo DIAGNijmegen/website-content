@@ -4,8 +4,8 @@ template: people-single
 picture: people/Nikita_Moriakov.jpg
 position: Postdoctoral Researcher
 active: yes
-groups: diag, aiimnijmegen
-default_group: aiimnijmegen
+groups: diag
+default_group: diag
 email: nikita.moriakov@radboudumc.nl
 office: Route 767, Room 27
 type: phd

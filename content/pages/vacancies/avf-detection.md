@@ -1,6 +1,6 @@
 title: Automated detection of cranial arteriovenous shunts in 4D-CTA
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/avf-detection.jpg
 template: vacancy-single

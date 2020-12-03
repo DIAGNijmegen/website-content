@@ -4,7 +4,7 @@ finished: false
 type: general
 description: The goal of AQUILA is to investigate the prognostic value of Tumor Infiltrating Lymphocytes (TILs) in breast and colon cancer.
 template: project-single
-groups: pathology
+groups: pathology, rtc
 default_group: pathology
 people: Jeroen van der Laak, Francesco Ciompi, Oscar Geessink, Quirine Manson
 bibkeys: Gees19, Bokh19, Merc19, Swid19, Swid18, Rijt18, Ciom17
