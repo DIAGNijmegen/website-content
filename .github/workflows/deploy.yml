@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Setup npm
-        uses: actions/setup-node@v1
-        run: npm install --prefix imgoptim --no-save
+      - uses: actions/setup-node@v1
         with:
           node-version: "10.15"
+
+      - name: Setup npm
+        run: npm install --prefix imgoptim --no-save
 
       - name: Optimize
         run: bash ./optimize_images.sh
