@@ -40,4 +40,4 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_DIAG_BETA }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
         with:
-          args: deploy --dir=website-diag --prod
+          args: deploy --dir=website-diag/output --prod
