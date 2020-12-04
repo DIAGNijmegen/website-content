@@ -32,7 +32,6 @@ jobs:
             run: github.ref == refs/heads/master
           - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
-            run: github.ref == refs/heads/develop
 
     steps:
       - uses: actions/checkout@v2
