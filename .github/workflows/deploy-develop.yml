@@ -36,6 +36,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Test Matrix Run
         run: echo ${{ matrix.run }}
 
       - name: Set up Python
