@@ -46,6 +46,6 @@ node optimize.js
 #   echo "Nothing new to commit, skipping push."
 # fi
 
-# # Copy non-optimized images (non-overwrite) to deploy directory
-# # This makes sure that content is always available, even if it is not processed by the optimizer.
-# cp -r --no-clobber content/images/. assets/images
+# Copy non-optimized images (non-overwrite) to deploy directory
+# This makes sure that content is always available, even if it is not processed by the optimizer.
+cp -r --no-clobber content/images/. assets/images

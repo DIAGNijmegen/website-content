@@ -14,10 +14,10 @@ inputs:
     required: true
     default: ""
 
-# outputs:
-#   random-number:
-#     description: "Random number"
-#     value: hello
+  development: # id of input
+    description: "development"
+    required: false
+    default: 0
 
 runs:
   using: "composite"
@@ -32,7 +32,7 @@ runs:
       shell: bash
       env:
         WEBSITE: ${{ inputs.website-dir }}
-        DEVELOPMENT: "1"
+        DEVELOPMENT: ${{ inputs.development }}
     - name: Netlify deploy
       run: |
         yarn global add netlify-cli
