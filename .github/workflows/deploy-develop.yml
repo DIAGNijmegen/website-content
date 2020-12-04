@@ -2,78 +2,103 @@ name: Deploy and Publish (Develop)
 
 on:
   push:
-    branches: develop
+    branches: [master, develop]
 
 jobs:
   deploy:
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
         include:
           - website-dir: website-diag
+            # site-id: NETLIFY_SITEID_DIAG
+            run: github.ref == refs/heads/master
+          - website-dir: website-pathology
+            # site-id: NETLIFY_SITEID_PATHOLOGY
+            run: github.ref == refs/heads/master
+          - website-dir: website-retina
+            # site-id: NETLIFY_SITEID_RETINA
+            run: github.ref == refs/heads/master
+          - website-dir: website-rse
+            # site-id: NETLIFY_SITEID_RSE
+            run: github.ref == refs/heads/master
+          - website-dir: website-rtc
+            # site-id: NETLIFY_SITEID_RTC
+            run: github.ref == refs/heads/master
+          - website-dir: website-ai-for-health
+            # site-id: NETLIFY_SITEID_AIFORHEALTH
+            run: github.ref == refs/heads/master
+          - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
+            run: github.ref == refs/heads/develop
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Test Matrix Run
-        if: ${{ github.ref }} == refs/heads/develop
-        run: echo develop
-
       - name: Set up Python
+        if: ${{ matrix.run }}
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
 
       - uses: actions/cache@v2
+        if: ${{ matrix.run }}
         id: cache
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
 
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: ${{ matrix.run }} && steps.cache.outputs.cache-hit != 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -r ./requirements.txt
 
       - name: Parse Publications
+        if: ${{ matrix.run }}
         run: bash ./parse_publications.sh
 
       - name: Copy Content
+        if: ${{ matrix.run }}
         run: bash copy_content.sh
         env:
           WEBSITE: ${{ matrix.website-dir }}
 
       - name: Deploy Settings
+        if: ${{ matrix.run }}
         run: bash deploy.sh
         env:
           WEBSITE: ${{ matrix.website-dir }}
           DEVELOPMENT: 1
 
       - name: Publish
+        if: ${{ matrix.run }}
         uses: netlify/actions/cli@master
         env:
           NETLIFY_SITE_ID: ${{ secrets[matrix.site-id] }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
         with:
           args: deploy --dir=${{ matrix.website-dir }}/output --prod
-  # images:
-  #   if: github.ref == 'refs/heads/master' && "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: actions/setup-node@v1
-  #       with:
-  #         node-version: "10.15"
-  #     - uses: actions/cache@v2
-  #       with:
-  #         path: ~/.npm
-  #         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-  #         restore-keys: |
-  #           ${{ runner.os }}-node-
-  #     - name: Setup npm
-  #       run: npm install --prefix imgoptim --no-save
-  #     - name: Optimize
-  #       run: bash ./optimize_images.sh
+
+  images:
+    if: github.ref == 'refs/heads/master' && "!contains(github.event.commits[0].message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "10.15"
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Setup npm
+        run: npm install --prefix imgoptim --no-save
+
+      - name: Optimize
+        run: bash ./optimize_images.sh
