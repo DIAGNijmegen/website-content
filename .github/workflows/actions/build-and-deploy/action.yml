@@ -22,23 +22,6 @@ description: "This will buid"
 runs:
   using: "composite"
   steps:
-    - name: Echo run
-      run: echo ${{ matrix.run-on-branch }}
-    - name: Set up Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.6
-    - uses: actions/cache@v2
-      id: cache
-      with:
-        path: ${{ env.pythonLocation }}
-        key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
-    - name: Install dependencies
-      if: ${{ github.ref ==  matrix.run-on-branch  && steps.cache.outputs.cache-hit != 'true' }}
-      run: |
-        pip install -r ./requirements.txt
-    - name: Parse Publications
-      run: bash ./parse_publications.sh
     - name: Copy Content
       run: bash copy_content.sh
       env:
@@ -47,7 +30,7 @@ runs:
       run: bash deploy.sh
       env:
         WEBSITE: ${{ matrix.website-dir }}
-        DEVELOPMENT: 1
+        DEVELOPMENT: "1"
     - name: Netlify deploy
       run: |
         yarn global add netlify-cli

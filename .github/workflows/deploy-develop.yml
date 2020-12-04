@@ -36,6 +36,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install dependencies
+        if: ${{ github.ref ==  matrix.run-on-branch  && steps.cache.outputs.cache-hit != 'true' }}
+        run: |
+          pip install -r ./requirements.txt
+      - name: Parse Publications
+        run: bash ./parse_publications.sh
       - name: Use local my-action
         uses: ./.github/workflows/actions/build-and-deploy
 
