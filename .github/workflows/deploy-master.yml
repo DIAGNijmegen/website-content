@@ -1,0 +1,56 @@
+name: Deploy and Publish (Develop)
+
+on:
+  push:
+    branches: master
+
+jobs:
+  deploy:
+    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        include:
+          - website-dir: website-diag
+            site-id: NETLIFY_SITEID_DIAG
+            run-on-branch: refs/heads/master
+          - website-dir: website-pathology
+            site-id: NETLIFY_SITEID_PATHOLOGY
+            run-on-branch: refs/heads/master
+          - website-dir: website-retina
+            site-id: NETLIFY_SITEID_RETINA
+            run-on-branch: refs/heads/master
+          - website-dir: website-rse
+            site-id: NETLIFY_SITEID_RSE
+            run-on-branch: refs/heads/master
+          - website-dir: website-rtc
+            site-id: NETLIFY_SITEID_RTC
+            run-on-branch: refs/heads/master
+          - website-dir: website-ai-for-health
+            site-id: NETLIFY_SITEID_AIFORHEALTH
+            run-on-branch: refs/heads/master
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install dependencies
+        if: ${{ github.ref ==  matrix.run-on-branch  && steps.cache.outputs.cache-hit != 'true' }}
+        run: |
+          pip install -r ./requirements.txt
+      - name: Parse Publications
+        run: bash ./parse_publications.sh
+      - name: Use local my-action
+        uses: ./.github/workflows/actions/build-and-deploy
+        with:
+          website-dir: ${{ matrix.website-dir }}
+          website-api: ${{ secrets[matrix.site-id] }}
+          netlify_key: ${{ secrets.NETLIFY_DEV_AUTH }}

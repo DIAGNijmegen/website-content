@@ -29,7 +29,7 @@ for dir in directories:
 
                             # Check if the content belongs to the current website
                             if group_name in groups:
-                                if dir is 'highlights':
+                                if dir == 'highlights':
                                     # Write hightlights to directory out of pages dir
                                     out_dir = os.path.join(site, 'content', dir)
                                 else:
