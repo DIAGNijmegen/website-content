@@ -32,12 +32,13 @@ jobs:
           #   run: github.ref == refs/heads/master
           - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
+            run-deploy: github.ref == refs/heads/master
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Echo run
-        run: echo hello
+        run: echo ${{ matrix.run-deploy }}
   #     - name: Set up Python
   #       if: ${{ matrix.run }}
   #       uses: actions/setup-python@v1
