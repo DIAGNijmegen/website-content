@@ -13,10 +13,6 @@ jobs:
       matrix:
         include:
           - website-dir: website-diag
-            site-id: NETLIFY_SITEID_DIAG_BETA
-            run-on-branch: refs/heads/develop
-
-          - website-dir: website-diag
             # site-id: NETLIFY_SITEID_DIAG
             run-on-branch: refs/heads/master
           - website-dir: website-pathology
@@ -34,68 +30,69 @@ jobs:
           - website-dir: website-ai-for-health
             # site-id: NETLIFY_SITEID_AIFORHEALTH
             run-on-branch: refs/heads/master
+          - website-dir: website-diag
+            site-id: NETLIFY_SITEID_DIAG_BETA
+            run-on-branch: refs/heads/develop
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Echo branch
-        run: |
-          echo github.ref 
-          echo ${{ matrix.run-on-branch }}
-
-      - name: Set up Python
-        if: github.ref == ${{ matrix.run-on-branch }}
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.6
-      - uses: actions/cache@v2
-        if: github.ref == ${{ matrix.run-on-branch }}
-        id: cache
-        with:
-          path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
-      - name: Install dependencies
-        if: github.ref == ${{ matrix.run-on-branch }} && steps.cache.outputs.cache-hit != 'true'
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r ./requirements.txt
-      - name: Parse Publications
-        if: github.ref == ${{ matrix.run-on-branch }}
-        run: bash ./parse_publications.sh
-      - name: Copy Content
-        if: github.ref == ${{ matrix.run-on-branch }}
-        run: bash copy_content.sh
-        env:
-          WEBSITE: ${{ matrix.website-dir }}
-      - name: Deploy Settings
-        if: github.ref == ${{ matrix.run-on-branch }}
-        run: bash deploy.sh
-        env:
-          WEBSITE: ${{ matrix.website-dir }}
-          DEVELOPMENT: 1
-      - name: Publish
-        if: github.ref == ${{ matrix.run-on-branch }}
-        uses: netlify/actions/cli@master
-        env:
-          NETLIFY_SITE_ID: ${{ secrets[matrix.site-id] }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
-        with:
-          args: deploy --dir=${{ matrix.website-dir }}/output --prod
-  images:
-    if: github.ref == 'refs/heads/master' && "!contains(github.event.commits[0].message, '[skip ci]')"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "10.15"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      - name: Setup npm
-        run: npm install --prefix imgoptim --no-save
-      - name: Optimize
-        run: bash ./optimize_images.sh
+      - name: Echo run
+        if: github.ref == ${{ matrix.run-deploy }}
+        run: echo ${{ matrix.run-deploy }}
+  #     - name: Set up Python
+  #       if: ${{ matrix.run }}
+  #       uses: actions/setup-python@v1
+  #       with:
+  #         python-version: 3.6
+  #     - uses: actions/cache@v2
+  #       if: ${{ matrix.run }}
+  #       id: cache
+  #       with:
+  #         path: ${{ env.pythonLocation }}
+  #         key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+  #     - name: Install dependencies
+  #       if: ${{ matrix.run }} && steps.cache.outputs.cache-hit != 'true'
+  #       run: |
+  #         python -m pip install --upgrade pip
+  #         pip install -r ./requirements.txt
+  #     - name: Parse Publications
+  #       if: ${{ matrix.run }}
+  #       run: bash ./parse_publications.sh
+  #     - name: Copy Content
+  #       if: ${{ matrix.run }}
+  #       run: bash copy_content.sh
+  #       env:
+  #         WEBSITE: ${{ matrix.website-dir }}
+  #     - name: Deploy Settings
+  #       if: ${{ matrix.run }}
+  #       run: bash deploy.sh
+  #       env:
+  #         WEBSITE: ${{ matrix.website-dir }}
+  #         DEVELOPMENT: 1
+  #     - name: Publish
+  #       if: ${{ matrix.run }}
+  #       uses: netlify/actions/cli@master
+  #       env:
+  #         NETLIFY_SITE_ID: ${{ secrets[matrix.site-id] }}
+  #         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
+  #       with:
+  #         args: deploy --dir=${{ matrix.website-dir }}/output --prod
+  # images:
+  #   if: github.ref == 'refs/heads/master' && "!contains(github.event.commits[0].message, '[skip ci]')"
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-node@v1
+  #       with:
+  #         node-version: "10.15"
+  #     - uses: actions/cache@v2
+  #       with:
+  #         path: ~/.npm
+  #         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-node-
+  #     - name: Setup npm
+  #       run: npm install --prefix imgoptim --no-save
+  #     - name: Optimize
+  #       run: bash ./optimize_images.sh
