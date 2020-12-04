@@ -2,18 +2,34 @@ name: Deploy and Publish (Develop)
 
 on:
   push:
-    branches: develop
+    branches: master
+
 jobs:
   deploy:
-    if: "!contains(github.event.commits[0].message, '[skip ci]')"
+    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
         include:
           - website-dir: website-diag
-            site-id: NETLIFY_SITEID_DIAG_BETA
-            run-on-branch: refs/heads/develop
+            site-id: NETLIFY_SITEID_DIAG
+            run-on-branch: refs/heads/master
+          - website-dir: website-pathology
+            site-id: NETLIFY_SITEID_PATHOLOGY
+            run-on-branch: refs/heads/master
+          - website-dir: website-retina
+            site-id: NETLIFY_SITEID_RETINA
+            run-on-branch: refs/heads/master
+          - website-dir: website-rse
+            site-id: NETLIFY_SITEID_RSE
+            run-on-branch: refs/heads/master
+          - website-dir: website-rtc
+            site-id: NETLIFY_SITEID_RTC
+            run-on-branch: refs/heads/master
+          - website-dir: website-ai-for-health
+            site-id: NETLIFY_SITEID_AIFORHEALTH
+            run-on-branch: refs/heads/master
 
     steps:
       - uses: actions/checkout@v2
