@@ -57,7 +57,7 @@ jobs:
         run: |
           pip install -r ./requirements.txt
       - name: Parse Publications
-        if: github.ref == ${{ matrix.run-on-branch }}
+        if: github.ref == matrix.run-on-branch
         run: bash ./parse_publications.sh
       - name: Copy Content
         if: github.ref == matrix.run-on-branch
