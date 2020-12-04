@@ -38,16 +38,16 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Echo run
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref == matrix.run-on-branch
         run: echo ${{ matrix.run-on-branch }}
 
       - name: Set up Python
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref ==  matrix.run-on-branch
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
       - uses: actions/cache@v2
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref == matrix.run-on-branch
         id: cache
         with:
           path: ${{ env.pythonLocation }}
@@ -57,21 +57,21 @@ jobs:
         run: |
           pip install -r ./requirements.txt
       - name: Parse Publications
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref == ${{ matrix.run-on-branch }}
         run: bash ./parse_publications.sh
       - name: Copy Content
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref == matrix.run-on-branch
         run: bash copy_content.sh
         env:
           WEBSITE: ${{ matrix.website-dir }}
       - name: Deploy Settings
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref == matrix.run-on-branch
         run: bash deploy.sh
         env:
           WEBSITE: ${{ matrix.website-dir }}
           DEVELOPMENT: 1
       - name: Publish
-        if: ${{ github.ref ==  matrix.run-on-branch }}
+        if: github.ref ==  matrix.run-on-branch
         uses: netlify/actions/cli@master
         env:
           NETLIFY_SITE_ID: ${{ secrets[matrix.site-id] }}
