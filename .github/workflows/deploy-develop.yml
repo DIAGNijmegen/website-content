@@ -36,6 +36,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        if: github.ref == matrix.run-on-branch
 
       - name: Echo run
         if: github.ref == matrix.run-on-branch
