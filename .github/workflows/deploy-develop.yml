@@ -37,6 +37,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Echo branch
+        run: |
+          echo github.ref 
+          echo ${{ matrix.run-on-branch }}
+
       - name: Set up Python
         if: github.ref == ${{ matrix.run-on-branch }}
         uses: actions/setup-python@v1
