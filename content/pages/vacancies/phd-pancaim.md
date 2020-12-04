@@ -3,7 +3,7 @@ groups: diag, pathology
 closed: false
 type: general 
 picture: vacancies/phd-pancaim.png
-people: Henkjan Huisman, Geert Litjens
+people: Henkjan Huisman, Geert Litjens, John Hermans
 template: vacancy-single
 description: We are offering three PhD positions to apply machine learning to varying diagnostic modality to improve treatment for pancreatic cancer patients
 
