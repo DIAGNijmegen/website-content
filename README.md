@@ -2,7 +2,7 @@
 
 This repository stores all the content and source code for the DIAG websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
 
-[![Build Status](https://github.com/DIAGNijmegen/website-content/workflows/.github/workflows/deploy-master.yml/badge.svg)
+![Build Status](https://github.com/DIAGNijmegen/website-content/workflows/.github/workflows/deploy-master.yml/badge.svg)
 
 ## Websites
 
