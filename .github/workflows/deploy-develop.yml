@@ -38,3 +38,4 @@ jobs:
           website-dir: ${{ matrix.website-dir }}
           website-api: ${{ secrets[matrix.site-id] }}
           netlify_key: ${{ secrets.NETLIFY_DEV_AUTH }}
+          development: 1
