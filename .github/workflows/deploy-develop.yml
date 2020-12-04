@@ -38,8 +38,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Echo run
-        if: github.ref == ${{ matrix.run-deploy }}
-        run: echo ${{ matrix.run-deploy }}
+        if: github.ref == ${{  matrix.run-on-branch  }}
+        run: echo ${{ matrix.run-on-branch }}
   #     - name: Set up Python
   #       if: ${{ matrix.run }}
   #       uses: actions/setup-python@v1
