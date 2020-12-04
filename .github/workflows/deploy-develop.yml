@@ -12,24 +12,24 @@ jobs:
     strategy:
       matrix:
         include:
-          - website-dir: website-diag
-            # site-id: NETLIFY_SITEID_DIAG
-            run: ${GITHUB_REF##*/} == master
-          - website-dir: website-pathology
-            # site-id: NETLIFY_SITEID_PATHOLOGY
-            run: ${GITHUB_REF##*/} == master
-          - website-dir: website-retina
-            # site-id: NETLIFY_SITEID_RETINA
-            run: ${GITHUB_REF##*/} == master
-          - website-dir: website-rse
-            # site-id: NETLIFY_SITEID_RSE
-            run: ${GITHUB_REF##*/} == master
-          - website-dir: website-rtc
-            # site-id: NETLIFY_SITEID_RTC
-            run: ${GITHUB_REF##*/} == master
-          - website-dir: website-ai-for-health
-            # site-id: NETLIFY_SITEID_AIFORHEALTH
-            run: ${GITHUB_REF##*/} == master
+          # - website-dir: website-diag
+          #   # site-id: NETLIFY_SITEID_DIAG
+          #   run: ${GITHUB_REF##*/} == master
+          # - website-dir: website-pathology
+          #   # site-id: NETLIFY_SITEID_PATHOLOGY
+          #   run: ${GITHUB_REF##*/} == master
+          # - website-dir: website-retina
+          #   # site-id: NETLIFY_SITEID_RETINA
+          #   run: ${GITHUB_REF##*/} == master
+          # - website-dir: website-rse
+          #   # site-id: NETLIFY_SITEID_RSE
+          #   run: ${GITHUB_REF##*/} == master
+          # - website-dir: website-rtc
+          #   # site-id: NETLIFY_SITEID_RTC
+          #   run: ${GITHUB_REF##*/} == master
+          # - website-dir: website-ai-for-health
+          #   # site-id: NETLIFY_SITEID_AIFORHEALTH
+          #   run: ${GITHUB_REF##*/} == master
           - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
             run: ${GITHUB_REF##*/} == develop
