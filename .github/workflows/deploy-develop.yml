@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    # if: "! contains(toJSON(github.event.commits[0].*.message), '[ci skip]')"
+    if: "! contains(toJSON(github.event.commits[0].*.message), '[ci skip]')"
     runs-on: ubuntu-latest
 
     strategy:
@@ -14,25 +14,25 @@ jobs:
         include:
           - website-dir: website-diag
             # site-id: NETLIFY_SITEID_DIAG
-            run: github.ref == 'refs/heads/master'
+            run: ${GITHUB_REF##*/} == master
           - website-dir: website-pathology
             # site-id: NETLIFY_SITEID_PATHOLOGY
-            run: github.ref == 'refs/heads/master'
+            run: ${GITHUB_REF##*/} == master
           - website-dir: website-retina
             # site-id: NETLIFY_SITEID_RETINA
-            run: github.ref == 'refs/heads/master'
+            run: ${GITHUB_REF##*/} == master
           - website-dir: website-rse
             # site-id: NETLIFY_SITEID_RSE
-            run: github.ref == 'refs/heads/master'
+            run: ${GITHUB_REF##*/} == master
           - website-dir: website-rtc
             # site-id: NETLIFY_SITEID_RTC
-            run: github.ref == 'refs/heads/master'
+            run: ${GITHUB_REF##*/} == master
           - website-dir: website-ai-for-health
             # site-id: NETLIFY_SITEID_AIFORHEALTH
-            run: github.ref == 'refs/heads/master'
+            run: ${GITHUB_REF##*/} == master
           - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
-            run: github.ref == 'refs/heads/develop'
+            run: ${GITHUB_REF##*/} == develop
 
     steps:
       - uses: actions/checkout@v2
