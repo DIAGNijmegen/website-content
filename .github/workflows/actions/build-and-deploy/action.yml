@@ -1,18 +1,18 @@
 name: "Build and Deploy"
 description: "This will buid"
-# inputs:
-#   website-dir: # id of input
-#     description: "Website to build"
-#     required: true
-#     default: ""
-#   website-api: # id of input
-#     description: "Website Api"
-#     required: true
-#     default: ""
-#   netlify_key: # id of input
-#     description: "Netlify Key"
-#     required: true
-#     default: ""
+inputs:
+  website-dir: # id of input
+    description: "Website to build"
+    required: true
+    default: ""
+  website-api: # id of input
+    description: "Website Api"
+    required: true
+    default: ""
+  netlify_key: # id of input
+    description: "Netlify Key"
+    required: true
+    default: ""
 
 # outputs:
 #   random-number:
@@ -26,18 +26,18 @@ runs:
       run: bash copy_content.sh
       shell: bash
       env:
-        WEBSITE: ${{ matrix.website-dir }}
+        WEBSITE: ${{ inputs.website-dir }}
     - name: Deploy Settings
       run: bash deploy.sh
       shell: bash
       env:
-        WEBSITE: ${{ matrix.website-dir }}
+        WEBSITE: ${{ inputs.website-dir }}
         DEVELOPMENT: "1"
     - name: Netlify deploy
       run: |
         yarn global add netlify-cli
-        "$(yarn global bin)/netlify" deploy --dir=${{ matrix.website-dir }}/output --prod
+        "$(yarn global bin)/netlify" deploy --dir=${{ inputs.website-dir }}/output --prod
       shell: bash
       env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
-        NETLIFY_SITE_ID: ${{ secrets[matrix.site-id] }}
+        NETLIFY_AUTH_TOKEN: ${{ inputs.netlify_key }}
+        NETLIFY_SITE_ID: ${{ inputs.website-api }}
