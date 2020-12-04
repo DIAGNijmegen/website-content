@@ -37,6 +37,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Echo run
+        run: echo ${{ matrix.run }}
+
       - name: Set up Python
         if: ${{ matrix.run }}
         uses: actions/setup-python@v1
