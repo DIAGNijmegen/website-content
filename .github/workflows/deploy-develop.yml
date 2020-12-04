@@ -2,7 +2,7 @@ name: Deploy and Publish (Develop)
 
 on:
   push:
-    branches: develop
+    branches: [master, develop]
 
 jobs:
   deploy:
@@ -13,43 +13,69 @@ jobs:
       matrix:
         include:
           - website-dir: website-diag
+            # site-id: NETLIFY_SITEID_DIAG
+            run: github.ref == 'refs/heads/master'
+          - website-dir: website-pathology
+            # site-id: NETLIFY_SITEID_PATHOLOGY
+            run: github.ref == 'refs/heads/master'
+          - website-dir: website-retina
+            # site-id: NETLIFY_SITEID_RETINA
+            run: github.ref == 'refs/heads/master'
+          - website-dir: website-rse
+            # site-id: NETLIFY_SITEID_RSE
+            run: github.ref == 'refs/heads/master'
+          - website-dir: website-rtc
+            # site-id: NETLIFY_SITEID_RTC
+            run: github.ref == 'refs/heads/master'
+          - website-dir: website-ai-for-health
+            # site-id: NETLIFY_SITEID_AIFORHEALTH
+            run: github.ref == 'refs/heads/master'
+          - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
+            run: github.ref == 'refs/heads/develop'
 
     steps:
       - uses: actions/checkout@v2
+        if: ${{ matrix.run }}
 
       - name: Set up Python
+        if: ${{ matrix.run }}
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
 
       - uses: actions/cache@v2
+        if: ${{ matrix.run }}
         id: cache
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
 
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: ${{ matrix.run }} && steps.cache.outputs.cache-hit != 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -r ./requirements.txt
 
       - name: Parse Publications
+        if: ${{ matrix.run }}
         run: bash ./parse_publications.sh
 
       - name: Copy Content
+        if: ${{ matrix.run }}
         run: bash copy_content.sh
         env:
           WEBSITE: ${{ matrix.website-dir }}
 
       - name: Deploy Settings
+        if: ${{ matrix.run }}
         run: bash deploy.sh
         env:
           WEBSITE: ${{ matrix.website-dir }}
           DEVELOPMENT: 1
 
       - name: Publish
+        if: ${{ matrix.run }}
         uses: netlify/actions/cli@master
         env:
           NETLIFY_SITE_ID: ${{ secrets[matrix.site-id] }}
@@ -58,7 +84,7 @@ jobs:
           args: deploy --dir=${{ matrix.website-dir }}/output --prod
 
   images:
-    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
+    if: github.ref == 'refs/heads/master' && "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
