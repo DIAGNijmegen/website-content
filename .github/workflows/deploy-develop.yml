@@ -32,13 +32,12 @@ jobs:
           #   run: ${GITHUB_REF##*/} == master
           - website-dir: website-diag
             site-id: NETLIFY_SITEID_DIAG_BETA
-            run: ${GITHUB_REF##*/} == develop
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Test Matrix Run
-        run: echo ${{ matrix.run }}
+        run: echo ${GITHUB_REF##*/} == develop
 
       - name: Set up Python
         if: ${{ matrix.run }}
