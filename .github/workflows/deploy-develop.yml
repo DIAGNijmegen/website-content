@@ -13,6 +13,10 @@ jobs:
       matrix:
         include:
           - website-dir: website-diag
+            site-id: NETLIFY_SITEID_DIAG_BETA
+            run-on-branch: refs/heads/develop
+
+          - website-dir: website-diag
             # site-id: NETLIFY_SITEID_DIAG
             run-on-branch: refs/heads/master
           - website-dir: website-pathology
@@ -30,9 +34,6 @@ jobs:
           - website-dir: website-ai-for-health
             # site-id: NETLIFY_SITEID_AIFORHEALTH
             run-on-branch: refs/heads/master
-          - website-dir: website-diag
-            site-id: NETLIFY_SITEID_DIAG_BETA
-            run-on-branch: refs/heads/develop
 
     steps:
       - uses: actions/checkout@v2
