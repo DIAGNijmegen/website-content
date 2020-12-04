@@ -4,10 +4,6 @@ on:
     branches: master
 
 jobs:
-  deploy:
-    if: "!contains(github.event.commits[0].message, '[skip ci]')"
-    runs-on: ubuntu-latest
-
   images:
     if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
