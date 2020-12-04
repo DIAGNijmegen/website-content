@@ -6,6 +6,7 @@ on:
 
 jobs:
   deploy:
+    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     runs-on: ubuntu-latest
 
     strategy:
@@ -57,6 +58,7 @@ jobs:
           args: deploy --dir=${{ matrix.website-dir }}/output --prod
 
   images:
+    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
