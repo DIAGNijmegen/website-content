@@ -1,4 +1,4 @@
-name: Deploy and Publish (Develop)
+name: Build and Deploy (Develop)
 
 on:
   push:
