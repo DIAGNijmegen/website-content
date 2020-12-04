@@ -2,7 +2,7 @@ name: Deploy and Publish (Develop)
 
 on:
   push:
-    branches: [master, develop]
+    branches: develop
 
 jobs:
   deploy:
