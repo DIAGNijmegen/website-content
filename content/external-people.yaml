@@ -5,6 +5,12 @@ people:
     url: https://www.ru.nl/personen/vries-a-de/
     picture: people/external/Arjen_de_Vries.jpg
     email: a.devries@cs.ru.nl
+  - name: John Hermans
+    position: Radiologist
+    affiliation: Radboudumc
+    url: http://radboudimaging.nl/index.php/Person?name=John_Hermans
+    picture: people/external/John_Hermans.jpg
+    email: john.hermans@radboudumc.nl  
   - name: Karin Klijn
     position: Professor
     affiliation: Neurology, Radboudumc
