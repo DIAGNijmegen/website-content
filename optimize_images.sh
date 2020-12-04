@@ -32,8 +32,8 @@ node optimize.js
 # # Add cache file
 # git add image-cache.json
 
-# # Add all exported iamges
-# cd ..
+# Add all exported iamges
+cd ..
 # git add --all assets/images
 
 # # Commit optimized images back to the repo
