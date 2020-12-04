@@ -13,15 +13,33 @@ inputs:
     description: "Netlify Key"
     required: true
     default: ""
-
   development: # id of input
     description: "development"
     required: false
     default: 0
+  github_token:
+    description: "github token"
+    required: true
+    default: ""
 
 runs:
   using: "composite"
   steps:
+    - name: Parse Publications
+      shell: bash
+      run: |
+        curl -H "Authorization: token ${{ inputs.github_token }}" \
+            -o content/diag.bib \
+            -s \
+            -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/diag.bib
+
+        curl -H "Authorization: token ${{ inputs.github_token }}" \
+            -o content/fullstrings.bib \
+            -s \
+            -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/fullstrings.bib
+
+        python ./bibliography/bibparser.py
+
     - name: Copy Content
       run: bash copy_content.sh
       shell: bash

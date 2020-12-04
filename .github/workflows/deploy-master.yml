@@ -46,11 +46,11 @@ jobs:
         if: ${{ github.ref ==  matrix.run-on-branch  && steps.cache.outputs.cache-hit != 'true' }}
         run: |
           pip install -r ./requirements.txt
-      - name: Parse Publications
-        run: bash ./parse_publications.sh
+
       - name: Use local my-action
         uses: ./.github/workflows/actions/build-and-deploy
         with:
           website-dir: ${{ matrix.website-dir }}
           website-api: ${{ secrets[matrix.site-id] }}
           netlify_key: ${{ secrets.NETLIFY_DEV_AUTH }}
+          github_token: ${{ secrets.GH_BIB_TOKEN }}
