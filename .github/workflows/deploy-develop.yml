@@ -73,6 +73,7 @@ jobs:
           DEVELOPMENT: 1
 
       - name: Netlify deploy
+        if: github.ref ==  matrix.run-on-branch
         run: |
           yarn global add netlify-cli
           "$(yarn global bin)/netlify" deploy --prod
