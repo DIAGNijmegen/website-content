@@ -35,7 +35,7 @@ jobs:
             run-on-branch: refs/heads/develop
 
     steps:
-      - uses: actions/checkout@develop
+      - uses: actions/checkout@v2
       - name: Use local my-action
         uses: ./.github/actions/build-and-deploy
 
