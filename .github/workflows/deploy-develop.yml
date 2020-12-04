@@ -36,8 +36,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Use local my-action
-        uses: ./.github/actions/build-and-deploy
+        name: Checkout
+      - uses: DIAGNijmegen/website-content/.github/actions/build-and-deploy@develop
+        name: Use local my-action
 
       # - uses: actions/checkout@v2
       #   if: github.ref == matrix.run-on-branch
