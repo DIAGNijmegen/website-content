@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
+    if: "! contains(toJSON(github.event.commits[0].*.message), '[ci skip]')"
     runs-on: ubuntu-latest
 
     strategy:
