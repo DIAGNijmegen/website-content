@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [master, repository_dispatch]
+    branches: [master, workflow_dispatch]
 
 jobs:
   cancel-running-jobs:
