@@ -29,6 +29,7 @@ runs:
       shell: bash
       run: |
         git config --list
+        python --version
         pip install -r ./requirements.txt
 
     - name: Parse Publications
