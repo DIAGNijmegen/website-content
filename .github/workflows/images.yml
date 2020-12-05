@@ -2,8 +2,8 @@ name: Optimize Images
 on:
   push:
     branches: master
-    # paths:
-    #   - "content/images/**"
+    paths:
+      - "content/images/**"
 
 jobs:
   images:
