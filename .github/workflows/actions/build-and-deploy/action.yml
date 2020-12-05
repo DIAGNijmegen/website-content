@@ -6,7 +6,7 @@ inputs:
     required: true
     default: ""
   website-api: # id of input
-    description: "Website Api"
+    description: "Website API"
     required: true
     default: ""
   netlify_key: # id of input
@@ -25,37 +25,36 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Parse Publications
+    - name: Install dependencies
       shell: bash
       run: |
-        curl -H "Authorization: token ${{ inputs.github_token }}" \
-            -o content/diag.bib \
-            -s \
-            -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/diag.bib
+        git config --list
+        pip install -r ./requirements.txt
 
-        curl -H "Authorization: token ${{ inputs.github_token }}" \
-            -o content/fullstrings.bib \
-            -s \
-            -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/fullstrings.bib
-
-        python ./bibliography/bibparser.py
+    - name: Parse Publications
+      shell: bash
+      run: bash parse_publications.sh
+      env:
+        GH_BIB_TOKEN: ${{ inputs.github_token }}
 
     - name: Copy Content
-      run: bash copy_content.sh
       shell: bash
+      run: bash copy_content.sh
       env:
         WEBSITE: ${{ inputs.website-dir }}
-    - name: Deploy Settings
-      run: bash deploy.sh
+
+    - name: Build Pelican Website ${{ inputs.website-dir }}
       shell: bash
+      run: bash deploy.sh
       env:
         WEBSITE: ${{ inputs.website-dir }}
         DEVELOPMENT: ${{ inputs.development }}
+
     - name: Netlify deploy
+      shell: bash
       run: |
         yarn global add netlify-cli
         "$(yarn global bin)/netlify" deploy --dir=${{ inputs.website-dir }}/output --prod
-      shell: bash
       env:
         NETLIFY_AUTH_TOKEN: ${{ inputs.netlify_key }}
         NETLIFY_SITE_ID: ${{ inputs.website-api }}
