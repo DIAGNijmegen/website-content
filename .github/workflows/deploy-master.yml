@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-diagnijmegen
+          - name: website-diag
             site-id: NETLIFY_SITEID_DIAG
           - name: website-pathology
             site-id: NETLIFY_SITEID_PATHOLOGY
