@@ -1,5 +1,5 @@
 pelican==4.1.0
-markdown==3.2.2
+markdown==3.1.1
 latexcodec==1.0.5
 beautifulsoup4==4.7.1
 pyyaml==5.1
