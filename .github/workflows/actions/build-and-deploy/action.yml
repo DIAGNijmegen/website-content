@@ -28,8 +28,6 @@ runs:
     - name: Install dependencies
       shell: bash
       run: |
-        git config --list
-        python --version
         sudo pip install -r ./requirements.txt
 
     - name: Parse Publications
