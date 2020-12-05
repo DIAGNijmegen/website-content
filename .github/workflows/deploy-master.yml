@@ -12,24 +12,18 @@ jobs:
     strategy:
       matrix:
         include:
-          - website-dir: website-diag
+          - name: website-diagnijmegen
             site-id: NETLIFY_SITEID_DIAG
-            run-on-branch: refs/heads/master
-          - website-dir: website-pathology
+          - name: website-pathology
             site-id: NETLIFY_SITEID_PATHOLOGY
-            run-on-branch: refs/heads/master
-          - website-dir: website-retina
+          - name: website-retina
             site-id: NETLIFY_SITEID_RETINA
-            run-on-branch: refs/heads/master
-          - website-dir: website-rse
+          - name: website-rse
             site-id: NETLIFY_SITEID_RSE
-            run-on-branch: refs/heads/master
-          - website-dir: website-rtc
+          - name: website-rtc
             site-id: NETLIFY_SITEID_RTC
-            run-on-branch: refs/heads/master
-          - website-dir: website-ai-for-health
+          - name: website-ai-for-health
             site-id: NETLIFY_SITEID_AIFORHEALTH
-            run-on-branch: refs/heads/master
 
     steps:
       - uses: actions/checkout@v2
@@ -46,7 +40,7 @@ jobs:
       - name: Build and Deploy
         uses: ./.github/workflows/actions/build-and-deploy
         with:
-          website-dir: ${{ matrix.website-dir }}
+          website-dir: ${{ matrix.name }}
           website-api: ${{ secrets[matrix.site-id] }}
           netlify_key: ${{ secrets.NETLIFY_DEV_AUTH }}
           github_token: ${{ secrets.GH_BIB_TOKEN }}
