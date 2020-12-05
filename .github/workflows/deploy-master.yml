@@ -35,7 +35,7 @@ jobs:
         id: cache
         with:
           path: ~/.cache/pip
-          key: ${{ ~/.cache/pip }}-${{ hashFiles('./requirements.txt') }}
+          key: ~/.cache/pip-${{ hashFiles('./requirements.txt') }}
 
       - name: Build and Deploy
         uses: ./.github/workflows/actions/build-and-deploy
