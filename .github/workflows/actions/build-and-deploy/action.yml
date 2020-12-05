@@ -1,19 +1,21 @@
 name: "Build and Deploy"
-description: "This will buid"
+
+description: "build and deploy"
+
 inputs:
-  website-dir: # id of input
+  website-dir:
     description: "Website to build"
     required: true
     default: ""
-  website-api: # id of input
+  website-api:
     description: "Website API"
     required: true
     default: ""
-  netlify_key: # id of input
+  netlify_key:
     description: "Netlify Key"
     required: true
     default: ""
-  development: # id of input
+  development:
     description: "development"
     required: false
     default: 0
@@ -28,7 +30,7 @@ runs:
     - name: Install dependencies
       shell: bash
       run: |
-        sudo pip install -r ./requirements.txt
+        pip install -r ./requirements.txt
 
     - name: Parse Publications
       shell: bash
