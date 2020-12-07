@@ -41,6 +41,10 @@
     <a href={{ BIB_ITEMS[page.bibkey]['code'] }}>Code</a>
     {% endif %}
 
+    {% if 'github' in BIB_ITEMS[page.bibkey] %}
+    <a href={{ BIB_ITEMS[page.bibkey]['github'] }}>GitHub</a>
+    {% endif %}
+
     {% if 'algorithm' in BIB_ITEMS[page.bibkey] %}
     <a href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
     {% endif %}
