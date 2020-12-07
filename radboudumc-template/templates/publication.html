@@ -22,31 +22,32 @@
 
   <p>
     {% if 'doi' in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['doi'] }}>DOI</a>
     {% endif %}
 
     {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
     {% endif %}
 
     {% if 'url' in BIB_ITEMS[page.bibkey] and 'doi' not in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
     {% endif %}
 
     {% if 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited by ~{{  BIB_ITEMS[page.bibkey]['gscites'] }}</a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['gsid'] }}>Cited by
+      ~{{  BIB_ITEMS[page.bibkey]['gscites'] }}</a>
     {% endif %}
 
     {% if 'code' in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['code'] }}>Code</a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['code'] }}>Code</a>
     {% endif %}
 
     {% if 'github' in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['github'] }}>GitHub</a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['github'] }}>GitHub</a>
     {% endif %}
 
     {% if 'algorithm' in BIB_ITEMS[page.bibkey] %}
-    <a href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
+    <a class="badge badge-light" href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
     {% endif %}
 
   </p>
