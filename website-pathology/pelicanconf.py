@@ -82,7 +82,7 @@ SLUGIFY_SOURCE = 'basename'
 
 ARTICLE_URL = 'news/{slug}/'
 ARTICLE_SAVE_AS = 'news/{slug}/index.html'
-ARTICLE_TYPE = 'news'
+ARTICLE_TYPE = 'News'
 
 CATEGORY_URL = ''
 CATEGORY_SAVE_AS = ''
