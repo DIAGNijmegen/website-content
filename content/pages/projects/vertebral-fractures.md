@@ -5,7 +5,7 @@ type: student
 picture: vacancies/msc-vertebral-fractures.jpg
 template: project-single
 people: Michel Botros, Nikolas Lessmann, Stan Buckens, Matthieu Rutten, Bram van Ginneken
-description: Developing image analysis algorithms that automatically detect osteoporotic fractures in the spine.
+description: Developing image analysis algorithms that automatically detect osteoporotic vertebral fractures.
 
 
 ** Start date: 01-02-2021** <br>
