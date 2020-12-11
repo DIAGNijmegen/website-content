@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/psoriasis_AI.jpg
 template: project-single
-people: Nolan Cardozo, Mirjam Schaap, Marieke Seyger, Ajay Patel, Bram van Ginneken
+people: Nolan Cardozo, Mirjam Schaap, Marieke Seyger, Ajay Patel, Bram van Ginneken, Elena Marchiori
 description: Development of automatic classification algorithm for psoriasis in photographs of the body.
 
 **Start date: 07-09-2020** <br>
