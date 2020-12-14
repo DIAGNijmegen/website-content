@@ -14,9 +14,9 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  21-01-2021  | Sjoerd Bos | **Master Project** Automated COVID-19 classification using ultrasound. (https://www.ai-for-health.nl/projects/covid_ultrasound/)|
-|  28-01-2021  | Ismail Güclü | **Master Project** TBA |
-|  04-02-2021  | Roel Hacking | **Master Project** Improving detection of COVID-19 classification with CT scans. (https://www.ai-for-health.nl/projects/covid-19-ct/)|
+|  21-01-2021  | Sjoerd Bos | Automated COVID-19 classification using ultrasound. [MSc Project](https://www.ai-for-health.nl/projects/covid_ultrasound/) **update**|
+|  28-01-2021  | Ismail Güclü | TBA |
+|  04-02-2021  | Roel Hacking | Improving detection of COVID-19 classification with CT scans. [MSc Project](https://www.ai-for-health.nl/projects/covid-19-ct/) **update**|
 
 ## Past meetings
 
