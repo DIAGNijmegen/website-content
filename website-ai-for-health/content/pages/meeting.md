@@ -14,8 +14,9 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-
-
+|  21-01-2021  | Sjoerd Bos | **Master Project** Automated COVID-19 classification using ultrasound. (https://www.ai-for-health.nl/projects/covid_ultrasound/)|
+|  28-01-2021  | Ismail Güclü | **Master Project** TBA |
+|  04-02-2021  | Roel Hacking | **Master Project** Improving detection of COVID-19 classification with CT scans. (https://www.ai-for-health.nl/projects/covid-19-ct/)|
 
 ## Past meetings
 
@@ -23,7 +24,7 @@ The slides for past presentations are available by clicking on the links in the 
 | --------        |    ----  |          --- |
 |  10-12-2020  | Nolan Cardozo <br><br> Gijs Smit  | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/)|
 |  03-12-2020  | Mirthe van Diepen | [Unraveling mechanisms of vascular function and regulation with causal discovery.](https://www.ai-for-health.nl/projects/vascular-function/)|
-|  26-11-2020   | Anna Gansen   | [Objective home-based bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/) |
+|  26-11-2020   | Anna Gansen | [Objective home-based bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/) |
 | 19-11-2020   | Gelana Khazeeva | [AI-driven genetic diagnosis for rare-diseases.](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/)|
 | 12-11-2020   | Lisette Boeijenk | [A machine learning model to identify neurogenic and infectious fever <br> in ICU patients with acute brain injury.](https://drive.google.com/file/d/1orPO1AV8cgpr-gTQv0jKwn-4j99yeaGK/view?usp=sharing)|
 | 05-11-2020    | Ruud van Kaam | [Predictive Modeling in the Intensive Care Unit.](https://drive.google.com/file/d/1GV8EmcX73wVNCFeNQizyvuLqvK7qiZ4H/view?usp=sharing)|
