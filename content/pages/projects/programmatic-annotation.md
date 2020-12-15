@@ -2,7 +2,7 @@ title: Programmatically Generating Annotations for Clinical Data
 groups: ai-for-health
 finished: false 
 type: student
-picture: {projects/project-programmatic-picture.png}
+picture: projects/project-programmatic-picture.png
 template: project-single
 people: Ismail Guclu, Djoerd Hiemstra, Koen Dercksen 
 description: Development of machine learning systems to find and annotate protected health information in medical records.
