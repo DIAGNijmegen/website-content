@@ -22,7 +22,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
-|  10-12-2020  | Nolan Cardozo <br><br> Gijs Smit  | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/)|
+|  10-12-2020  | Nolan Cardozo <br><br> Gijs Smit  | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) <br><br>  [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/)|
 |  03-12-2020  | Mirthe van Diepen | [Unraveling mechanisms of vascular function and regulation with causal discovery.](https://www.ai-for-health.nl/projects/vascular-function/)|
 |  26-11-2020   | Anna Gansen | [Objective home-based bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/) |
 | 19-11-2020   | Gelana Khazeeva | [AI-driven genetic diagnosis for rare-diseases.](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/)|
