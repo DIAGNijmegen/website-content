@@ -10,31 +10,51 @@ Radboud AI for Health plans to run two courses every year for a group of around 
 
 The course is a collaboration between Radboudumc and the Jheronimus Academy of Data Science ([JADS](https://www.jads.nl/)) in Den Bosch. 
 
-## What you need to know for the second edition of the course:
-- The second edition will start September 18th 2020
-- Course will be held on 13 Fridays, with different topics per day
-- The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice
-- The program for the 13 Fridays will be held at Radboudumc in Nijmegen and JADS in Den Bosch
-- In addition there will be 4 project days, also on Fridays, in the Radboudumc where you will work in a team on a Radboudumc project
-- We expect particpants to spend on average 4 hours per week on homework and self study
-- There will be an online training environment with support documentation, discussion forum and blended learning
-- The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded
+## What you need to know for the third edition of the course:
+- The course will be held on 14 Fridays, with different topics per day.
+- The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice.
+- The program for the 14 Fridays will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.
+- In addition there will be 4 project days, also on Fridays, in the Radboudumc where you will work in a team on a Radboudumc project.
+- We expect participants to spend on average 4 hours per week on homework and self study.
+- There will be an online training environment with support documentation, discussion forum and blended learning.
+- The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded.
 
 An overview of the course schedule can be seen below.
 
+| Date  |  Topic  |
+| ----- | ------- |
+| 12-02-2021 | Introduction / Final Presentations Course 2 | 
+| 26-02-2021 | Machine Learning 1 / Python 1 |
+| 05-03-2021 |	Machine Learning 2 / Python 2 |
+| 12-03-2021 | Machine Learning 3 |
+| 19-03-2021 | Machine Learning 4 |
+| 26-03-2021 |	Deep Learning 1 |
+| 09-04-2021 |	Deep Learning 2 |
+| 16-04-2021 |	Data Engineering / Ethics / Privacy |
+| 23-04-2021 |	Project Day 1 |
+| 30-04-2021 |	Machine Learning 5 |
+| 21-05-2021 |	Text Mining |
+| 28-05-2021 |	Project Day 2 |
+| 04-06-2021 |	Bioinformatics |
+| 11-06-2021 |	Visualization |
+| 18-06-2021 |	Project Day 3 |
+| 25-06-2021 |	Deployment | 
+| 02-07-2021 | Project Day 4 |
+| 09-07-2021 |	Final Presentations  |
+
+**How to apply**:<br>
+If you are interested, please send the following information to aiforhealth@radboudumc.nl before 5 January 2021:
+
+- Motivation letter (max 1 A4)
+- CV (max 1 A4)
+- Support letter head of department ([see format here](https://www.radboudumc.nl/intranet/getmedia/722df5b9-18e5-473e-978f-fd8bb4636564/Concept-akkoord-Afdelingshoofd-deelname-cursus-februari-2021.aspx))
+
+## Second edition
+
+An overview of the remaining course days for the current edition can be seen below.
+
 | Date  |  Topic  | Location |
 | ----- | ------- | ------- |
-| 18-09-2020 | Intro / Machine Learning 1 | JADS |
-| 25-09-2020 | Machine Learning 2 / Final Presentations Course 1 |  Radboudumc <br> Route 123 - Mertens B until 13:15 PM <br> Livestram link for graduation coming soon |
-| 02-10-2020 | Machine Learning 3 / Python Assignments |  Radboudumc <br> Route 448 - Ruimte 01 from 09:30 AM|
-| 09-10-2020 | Machine Learning 4 / Python Assignments |  Radboudumc <br> Route 448 - Ruimte 01 from 09:30 AM|
-| 30-10-2020 | Data Engineering |  Radboudumc <br> Route 448 - Ruimte 01 from 09:30 AM|
-| 06-11-2020 | Deep Learning 1 / Python Assignments |  Radboudumc <br> Route 325 - Colloquiumzaal 1.2/1.3 (Tandheelkunde)|
-| 13-11-2020 | Deep Learning 2 / Python Assignments |  Radboudumc <br> Route 325 - Colloquiumzaal 1.2/1.3 (Tandheelkunde)|
-| 20-11-2020 | Project Day 1 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
-| 27-11-2020 | Machine Learning 5 / Python Assignments |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
-| 04-12-2020 | Project Day 2 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
-| 11-12-2020 | Intervision, Practical Applications and Personalized Treatment | JADS |
 | 18-12-2020 | Visualization | JADS |
 | 08-01-2021 | Project Day 3 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 15-01-2021 | Bioinformatics |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
