@@ -33,7 +33,10 @@ jobs:
         run: npm install --prefix imgoptim --no-save
 
       - name: Optimize Images
-        run: bash node imgoptim/optimize.js
+        run: |
+          cd imgoptim
+          node optimize.js
+          cd ..
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
