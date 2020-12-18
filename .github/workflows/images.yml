@@ -4,7 +4,6 @@ on:
     branches: [master]
     # paths:
     #   - "content/images/**"
-
 jobs:
   cancel-running-jobs:
     runs-on: ubuntu-latest
