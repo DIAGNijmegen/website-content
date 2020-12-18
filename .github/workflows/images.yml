@@ -43,17 +43,13 @@ jobs:
           commit_message: Update optimized images
           file_pattern: imgoptim/image-cache.json assets/images/*
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
       - uses: actions/cache@v2
         id: yarn-cache
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: ~/.yarn/bin
+          key: ~/.yarn/bin
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ~/.yarn/bin
 
       - name: Install Netlify
         if: steps.yarn-cache.outputs.cache-hit != 'true'
