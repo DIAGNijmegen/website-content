@@ -43,13 +43,37 @@ jobs:
           commit_message: Update optimized images
           file_pattern: imgoptim/image-cache.json assets/images/*
 
-      - uses: actions/cache@v2
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: |
+          echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Set yarn global bin path
+        run: |
+          yarn config set prefix $(yarn cache dir)
+
+      - name: Add yarn bin path to system path
+        run: |
+          echo $(yarn global bin) >> $GITHUB_PATH
+
+      - name: Set yarn global installation path
+        run: |
+          yarn config set global-folder $(yarn cache dir)
+
+      - name: CACHE ACTION
+        uses: actions/cache@v2
+        env:
+          cache-version: v1
         id: yarn-cache
         with:
-          path: ~/.yarn
-          key: ${{ runner.os }}-yarn-
+          path: |
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            **/node_modules
+          key: ${{ runner.os }}-yarn-${{ env.cache-version }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
+            ${{ runner.os }}-yarn-${{ env.cache-version }}-
             ${{ runner.os }}-yarn-
+            ${{ runner.os }}-
 
       - name: Install Netlify
         if: steps.yarn-cache.outputs.cache-hit != 'true'
