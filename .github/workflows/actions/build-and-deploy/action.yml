@@ -54,7 +54,6 @@ runs:
     - name: Netlify deploy
       shell: bash
       run: |
-        yarn global add netlify-cli
         "$(yarn global bin)/netlify" deploy --dir=${{ inputs.website-dir }}/output --prod
       env:
         NETLIFY_AUTH_TOKEN: ${{ inputs.netlify_key }}
