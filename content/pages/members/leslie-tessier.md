@@ -1,7 +1,7 @@
 title: Leslie Tessier
 name: Leslie Tessier
 template: people-single
-picture: people/Person.png
+picture: people/Leslie_Tessier.jpg
 position: PhD Candidate
 active: yes
 groups: diag, pathology
