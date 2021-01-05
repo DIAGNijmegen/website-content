@@ -55,6 +55,7 @@ title: Former employees
 - [Rianne Swart-Hupse](http://nl.linkedin.com/in/riannehupse)
 - [Zaneta Swiderska-Chadaj](https://www.linkedin.com/in/zaneta-s-621589156/)
 - [Tao Tan](http://nl.linkedin.com/pub/tao-tan/13/470/b78/en)
+- [Jonas Teuwen](https://www.linkedin.com/in/jonasteuwen/)
 - [Nadya Timofeeva](https://de.linkedin.com/pub/nadya-timofeeva/10/458/587)
 - [Sheila Timp](https://www.linkedin.com/pub/sheila-timp/b/429/b9a)
 - [Wouter Veldkamp](http://nl.linkedin.com/pub/wouter-veldkamp/2/3b7/994/en)
