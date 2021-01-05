@@ -4,6 +4,7 @@ picture: software/concept_hooknet2.png
 description: HookNet: multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images
 groups: pathology
 people: Mart van Rijthoven, Maschenka Balkenhol, Jeroen van der Laak, Francesco Ciompi
+bibkeys: Rijt21
 openseadragon: true
 
 HookNet algorithm for the segmentation of histopathology breast tissue including ductal carcinoma in situ, invasive ductal carcinoma, invasive lobular carcinoma, non-malignant epithelium, fat and other breast tissue. 
@@ -53,18 +54,13 @@ The examples below show the output of HookNet, overlayed on the processed WSIs. 
 <a name="info"></a>
 
 ## Info
-You can try out the algorithm here:  
-[HookNet Breast Algorithm](https://grand-challenge.org/algorithms/hooknet-breast)  
-[HookNet Lung Algorithm](https://grand-challenge.org/algorithms/hooknet-lung)  
 
-You can find our paper here:  
-[M. van Rijthoven, M. Balkenhol, K. Silina, J. van der Laak and F. Ciompi, "HookNet: Multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images", Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841520302541)  
+- You can try out the algorithm for [Breast Tissue](https://grand-challenge.org/algorithms/hooknet-breast) or 
+[Lung Tissue](https://grand-challenge.org/algorithms/hooknet-lung) on the [Grand Challenge](https://grand-challenge.org/) Platform.
 
-You can find the tensorflow code here  
-[HookNet GitHub Repository](https://github.com/DIAGNijmegen/pathology-hooknet)  
+- You can find the tensorflow implementation on our [GitHub repository](https://github.com/DIAGNijmegen/pathology-hooknet)
 
-Further questions regarding HookNet can be addressed to: [member/mart-van-rijthoven].  
-
+- Further questions regarding HookNet can be addressed to: [member/mart-van-rijthoven].  
 
 
 <script type="text/javascript">
