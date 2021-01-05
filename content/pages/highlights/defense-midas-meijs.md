@@ -1,6 +1,6 @@
 title: PhD defense Midas Meijs
 date: 2020-11-26
-description: Midas Meijs successfully defended her PhD thesis titled 'Automated Image Analysis and Machine Learning to Detect Cerebral Vascular Pathology in 4D-CTA' on the 26th of November. 
+description: Midas Meijs successfully defended his PhD thesis titled 'Automated Image Analysis and Machine Learning to Detect Cerebral Vascular Pathology in 4D-CTA' on the 26th of November. 
 picture: news/defense-midas-meijs.jpg
 groups: diag
 
