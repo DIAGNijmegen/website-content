@@ -1,5 +1,7 @@
 name: Optimize Images
 on:
+  workflow_dispatch:
+    branches: [master]    
   push:
     branches: [master]
     paths:
