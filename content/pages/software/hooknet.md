@@ -52,9 +52,19 @@ The examples below show the output of HookNet, overlayed on the processed WSIs. 
 
 <a name="info"></a>
 ## Info
-You can try out the algorithm here: https://grand-challenge.org/algorithms/hooknet (please make an account on grand-challenge and request access to the algorithm)
+You can try out the algorithm here: 
+ - [HookNet Breast Algorithm](https://grand-challenge.org/algorithms/hooknet-breast)
+ - [HookNet Lung Algorithm](https://grand-challenge.org/algorithms/hooknet-lung)
+
+You can find our paper here:
+ - [HookNet: Multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images](https://www.sciencedirect.com/science/article/pii/S1361841520302541)
+
+You can find the tensorflow code here
+ - [HookNet GitHub Repository](https://github.com/DIAGNijmegen/pathology-hooknet)
+
 Further questions regarding HookNet can be addressed to: [member/mart-van-rijthoven].
-paper: https://www.sciencedirect.com/science/article/pii/S1361841520302541
+
+
 
 <script type="text/javascript">
 
