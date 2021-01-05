@@ -12,7 +12,7 @@ HookNet algorithm for the segmentation of histopathology breast tissue including
 2. [More information](#info)
 
 <figure class="figure my-4">
-  <img data-src="/images/software/concept_hooknet2.png" class="figure-img img-fluid lazyload" alt="Example segmentations of Hooknet.">
+  <img data-src="{{ IMGURL }}/images/software/concept_hooknet2.png" class="figure-img img-fluid lazyload" alt="HookNet">
   <figcaption class="figure-caption">Overview of the network architecture</figcaption>
 </figure>
 
