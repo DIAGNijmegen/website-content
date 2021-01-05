@@ -3,7 +3,7 @@ template: project-single
 picture: software/concept_hooknet2.png
 description: HookNet: multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images
 groups: pathology
-people: Mart van Rijthoven
+people: Mart van Rijthoven, Maschenka Balkenhol, Jeroen van der Laak, Francesco Ciompi
 openseadragon: true
 
 HookNet algorithm for the segmentation of histopathology breast tissue including ductal carcinoma in situ, invasive ductal carcinoma, invasive lobular carcinoma, non-malignant epithelium, fat and other breast tissue. 
