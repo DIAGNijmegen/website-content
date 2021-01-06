@@ -55,7 +55,6 @@ An overview of the remaining course days for the current edition can be seen bel
 
 | Date  |  Topic  | Location |
 | ----- | ------- | ------- |
-| 18-12-2020 | Visualization | JADS |
 | 08-01-2021 | Project Day 3 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 15-01-2021 | Bioinformatics |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
 | 22-01-2021 | Text Mining | JADS |
