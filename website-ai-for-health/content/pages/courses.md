@@ -43,7 +43,7 @@ An overview of the course schedule can be seen below.
 | 09-07-2021 |	Final Presentations  |
 
 **How to apply**:<br>
-If you are interested, please send the following information to aiforhealth@radboudumc.nl before 5 January 2021:
+If you are interested, please send the following information to aiforhealth@radboudumc.nl:
 
 - Motivation letter (max 1 A4)
 - CV (max 1 A4)
