@@ -7,8 +7,6 @@ groups: rse, diag, rtc
 people: Marco Marra, Sil van de Leemput, Paul Konstantin Gerke, Colin Jacobs, Mathias Prokop, Bram van Ginneken
 description: This workstation is a highly optimized reading platform that allows fast and standardized reading of lung screening CT scans.
 
-bibkeys:
-
 ## Aim
 This software is aimed to facilitate research collaborations between a
 network of clinical and technical partners that is needed to address
