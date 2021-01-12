@@ -1,6 +1,6 @@
 title: Crossing the boundaries: machine learning for pancreatic cancer across radiology, pathology and genetics (PANCAIM)
 groups: diag, pathology
-closed: false
+closed: true
 type: general 
 picture: vacancies/phd-pancaim.png
 people: Henkjan Huisman, Geert Litjens, John Hermans
