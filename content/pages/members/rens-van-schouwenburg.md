@@ -3,7 +3,7 @@ name: Rens van Schouwenburg
 template: people-single
 picture: people/Rens_Van_Schouwenburg.jpeg
 position: Master Student
-active: no
+active: yes
 groups: diag, pathology
 default_group: pathology
 email: rens.vanschouwenburg@radboudumc.nl
