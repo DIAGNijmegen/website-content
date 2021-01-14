@@ -3,7 +3,7 @@ name: Niels van den Hork
 template: people-single
 picture: people/Niels_van_den_Hork.jpg
 position: Master Student
-active: no
+active: yes
 groups: diag, pathology
 default_group: pathology
 email: niels.vandenhork@radboudumc.nl

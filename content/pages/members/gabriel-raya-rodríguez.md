@@ -3,7 +3,7 @@ name: Gabriel Raya Rodríguez
 template: people-single
 picture: people/Gabriel_Raya_Rodríguez.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Gabriel.RayaRodriguez@radboudumc.nl
