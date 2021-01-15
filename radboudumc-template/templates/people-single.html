@@ -149,6 +149,19 @@
                 {% endif %}
 
 
+                {% if page.twitter %}
+                <div class="row">
+                    <div class="col-1">
+                        <svg class="svg-icon svg-icon-twitter">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </div>
+                    <div class="col">
+                        <a href="{{ page.twitter }}">Twitter</a>
+                    </div>
+                </div>
+                {% endif %}
+
             </div>
         </div>
 
