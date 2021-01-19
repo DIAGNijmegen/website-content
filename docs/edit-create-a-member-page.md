@@ -19,6 +19,9 @@ type: phd/chair/faculty/tech/student  (header = Scientific Staff/Chair/Faculty)/
 linkedin: link
 scholar: link
 researcherid: link
+publons: link
+orcid: link
+twitter: link
 show_publication_years: yes (if this tag is not present it will be automatically set to yes)
 
 {Text bio.} 
