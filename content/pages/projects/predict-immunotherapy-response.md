@@ -7,7 +7,7 @@ template: project-single
 people: Tristan Payer, Francesco Ciompi, Tim Kietzmann
 description: Project aimed at development of deep learning algorithms for the (semi-) automated scoring of PD-L1 positive tumor cells, an established biomarker for immunotherapy treatment response in lung cancer patients.
 
-**Start date: 16-09-2020** <br>
+**Start date: 16-09-2019** <br>
 **End date: 15-03-2020**
 
 ## Clinical problem
