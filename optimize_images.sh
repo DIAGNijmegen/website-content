@@ -17,17 +17,8 @@ cd imgoptim
 echo "Starting image optimization script"
 node optimize.js
 
-# # Set user to the webteam deploy bot
-# git config --global user.email "webteamdiag@gmail.com"
-# git config --global user.name "DIAGWebTeam"
 
-# # Get latest version, there could be a new commit
-# git checkout master 
-# # Check if we are still on the latest commit
-# if [ $currentcommit != "$(git rev-parse HEAD)" ]; then
-#   echo "Not on latest commit, skipping optimization."
-#   exit 0;
-# fi
+# new github action
 
 # # Add cache file
 # git add image-cache.json
@@ -35,16 +26,6 @@ node optimize.js
 # Add all exported iamges
 cd ..
 # git add --all assets/images
-
-# # Commit optimized images back to the repo
-# gitdiff='git diff-index --quiet HEAD .'
-# if ! $gitdiff; then
-#   echo "Files changed, commiting new images."
-#   git commit --message "Adding optimized images to repository. [ci skip]" -- .
-#   git push "https://${GH_PAGES}@github.com/DIAGNijmegen/website-content.git" "master"
-# else
-#   echo "Nothing new to commit, skipping push."
-# fi
 
 # Copy non-optimized images (non-overwrite) to deploy directory
 # This makes sure that content is always available, even if it is not processed by the optimizer.
