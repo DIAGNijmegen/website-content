@@ -4,8 +4,8 @@ finished: false
 type: general
 picture: projects/lung-cancer-early-stage-treatment.png
 template: project-single
-groups: diag
-people: Colin Jacobs, Francesco Ciompi, Erik Aarntzen
+groups: diag, pathology
+people: Erik Aarntzen, Francesco Ciompi, Colin Jacobs
 description: We aim to combine advanced CT and FDG-PET image analysis with computational pathology to predict the most optimal treatment for each individual patient. 
 bibkeys:
 
