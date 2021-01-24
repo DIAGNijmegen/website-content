@@ -1,21 +1,17 @@
-{% extends "base.html" %}
-{% block title %}{{ page.title }}{%endblock%}
-{% block description %}Research{% endblock %}
-{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
-{% block content %}
-{% include 'blocks/breadcrumbs.html' %}
+{% extends "base.html" %} {% block title %}{{ page.title }}{%endblock%} {% block
+description %}Research{% endblock %} {% block page_picture %}{{ SITEURL
+}}/{{SITE_PICTURE}}{% endblock %} {% block content %} {% include
+'blocks/breadcrumbs.html' %}
 
 <div class="container">
-    <h1 class="page-title">{{ page.title }} 2</h1>
+  <h1 class="page-title">{{ page.title }}</h1>
 
-    {{ page.content }}
+  {{ page.content }}
 
-    <div class="row mt-4">
-        {% for card in pages %}
-            {% if card.category == 'research' and card.show_in_overview != 'false' %}
-                {% include "blocks/card.html" %}
-            {% endif %}
-        {% endfor %}
-    </div>
+  <div class="row mt-4">
+    {% for card in pages %} {% if card.category == 'research' and
+    card.show_in_overview != 'false' %} {% include "blocks/card.html" %} {%
+    endif %} {% endfor %}
+  </div>
 </div>
 {% endblock %}
