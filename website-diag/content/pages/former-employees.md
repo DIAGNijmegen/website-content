@@ -46,6 +46,7 @@ title: Former employees
 - [Alejandro Rodriguez Ruiz](https://www.linkedin.com/in/alejandro-rodr\'iguez-ruiz-3b8875b5)
 - [Henk Roozen](http://nl.linkedin.com/pub/henk-roozen/98/a32/aa/nl)
 - [Maurice Samulski](https://www.linkedin.com/in/mauricesamulski/)
+- [Clarisa Sanchez](https://www.linkedin.com/in/clarisa-sanchez-0b3a2b3)
 - [Steven Schalekamp](https://nl.linkedin.com/pub/steven-schalekamp/b2/6a/223)
 - [Guido van Schie](http://nl.linkedin.com/in/guidovanschie)
 - [Arnaud Arindra Adiyoso Setio](https://www.linkedin.com/in/arnaudsetio)
