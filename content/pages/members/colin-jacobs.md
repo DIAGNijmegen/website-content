@@ -10,9 +10,11 @@ email: colin.jacobs@radboudumc.nl
 office: Route 767, Room 2.30
 telephone: +31 24 3614766
 type: faculty
-linkedin: https://www.linkedin.com/in/colin-jacobs-01a14628
 scholar: http://scholar.google.com/citations?user=afUvm7gAAAAJ
+publons: https://publons.com/researcher/1522852/colin-jacobs/
+orcid: https://orcid.org/0000-0003-1180-3805
 researcherid: http://www.researcherid.com/rid/P-6938-2015
+linkedin: https://www.linkedin.com/in/colin-jacobs-01a14628
 
 Colin Jacobs is Assistant Professor within the Department of Medical Imaging of the [Radboud University Medical Center](https://www.radboudumc.nl). Within the Diagnostic Image Analysis Group, he leads the research line on [lung cancer image analysis](/research/lung-cancer-image-analysis/).
 
