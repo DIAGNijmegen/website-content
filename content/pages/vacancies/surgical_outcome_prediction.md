@@ -1,6 +1,6 @@
 title: Three dimensional oral and maxillofacial surgical outcome prediction
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/soft_tissue.png
 template: vacancy-single
