@@ -1,6 +1,6 @@
 title: Three dimensional landmark detection in 3D CT-Scans and 3D Photos
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/3d_landmark_detection.png
 template: vacancy-single
