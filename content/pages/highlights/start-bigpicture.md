@@ -1,12 +1,12 @@
 title: New European consortium BIGPICTURE, coordinated by Radboudumc, will build largest AI-enabled digital pathology database in the world
 date: 2021-01-28
-description: The Innovative Medicine Innitiative (IMI) has awarded a 70 MEuro project, coordinated by CPG, to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. Jeroen van der Laak and Katrien Grünberg will coordinate the overall project and Francesco Ciompi and Geert Litjens will lead the work package on AI development. 
+description: The Innovative Medicine Initiative has awarded a 70 MEuro project, coordinated by CPG, to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. 
 picture: news/bigpicture-consortium.png
 groups: pathology, diag
 full_width: true
 
 #### Goal
-To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70M project called BIGPICTURE, will herald a new era in pathology.
+To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70M project called [BIGPICTURE](www.bigpicture.eu), will herald a new era in pathology.
 
 #### Background
 Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.
@@ -16,7 +16,7 @@ While the microscope symbolizes the profession, the digitalisation of slides in 
 To allow the fast development of AI in pathology, the BIGPICTURE project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The BIGPICTURE platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.
 
 #### Radboudumc
-The consortium is coordinated by Radboudumc's Computational Pathology Group, with Jeroen van der Laak and Katrien Grünberg acting as overall project leads and Francesco Ciompi and Geert Litjens spearheading the AI work package. Specically, we, together with our partners, will develop state-of-the-art algorithms for whole-slide image classification and registration, content-based image retrieval, AI-powered (semi-)automated annotation, federated learning, and data quality assurance, among others. 
+The consortium is coordinated by Radboudumc's Computational Pathology Group, with [member/jeroen-van-der-laak] and [Katrien Grünberg](https://www.radboudumc.nl/personen/katrien-grunberg) acting as overall project leads and [member/francesco-ciompi] and [member/geert-litjens] spearheading the AI work package. Specifically, we, together with our partners, will develop state-of-the-art algorithms for whole-slide image classification and registration, content-based image retrieval, AI-powered (semi-)automated annotation, federated learning, and data quality assurance, among others. 
 
 #### Intended results
 The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.
