@@ -633,3 +633,21 @@ people:
     url: https://www.radboudumc.nl/en/people/tom-loonen
     picture: people/external/Tom_Loonen.jpg
     email: Tom.Loonen@radboudumc.nl
+  - name: Joris van Drongelen
+  	position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/joris-van-drongelen
+    picture: people/external/Joris_van_Drongelen.jpg
+    email: Joris.vanDrongelen@radboudumc.nl
+  - name: Wieteke Heidema
+   	position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/wieteke-heidema
+    picture: people/external/Wieteke_Heidema.jpg
+    email: Wieteke.Heidema@radboudumc.nl
+  - name: Rik Vullings
+   	position: Assistant Professor
+    affiliation: TU Eindhoven
+    url: https://www.tue.nl/en/research/researchers/rik-vullings/
+    picture: people/external/Rik_Vullings.jpg
+    email: r.vullings@tue.nl
