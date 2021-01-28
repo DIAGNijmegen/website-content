@@ -3,7 +3,6 @@ date: 2021-01-28
 description: The Innovative Medicine Initiative has awarded a 70 MEuro project to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. 
 picture: news/bigpicture-consortium.png
 groups: pathology, diag
-full_width: false
 
 #### Goal
 To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70M project called [BIGPICTURE](https://www.bigpicture.eu), will herald a new era in pathology.
