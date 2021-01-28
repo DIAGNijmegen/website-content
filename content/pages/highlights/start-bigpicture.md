@@ -6,7 +6,7 @@ groups: pathology, diag
 full_width: true
 
 #### Goal
-To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70M project called [BIGPICTURE](www.bigpicture.eu), will herald a new era in pathology.
+To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70M project called [BIGPICTURE](https://www.bigpicture.eu), will herald a new era in pathology.
 
 #### Background
 Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.
