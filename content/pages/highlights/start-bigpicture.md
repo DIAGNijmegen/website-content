@@ -3,7 +3,7 @@ date: 2021-01-28
 description: The Innovative Medicine Initiative has awarded a 70 MEuro project to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. 
 picture: news/bigpicture-consortium.png
 groups: pathology, diag
-full_width: true
+full_width: false
 
 #### Goal
 To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70M project called [BIGPICTURE](https://www.bigpicture.eu), will herald a new era in pathology.
@@ -39,7 +39,7 @@ This project has received funding from the Innovative Medicines Initiative 2 Joi
 This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.
 
 
-<div class="row">
+<div class="row mt-5">
   <div class="col-md-4"><img alt="BIGPICTURE" src="{{ IMGURL }}/images/news/bigpicture-logo.jpg" style="max-width: 100%"></div>
   <div class="col-md-4"><img alt="IMI" src="{{ IMGURL }}/images/news/bigpicture-imi-logo.jpg" style="max-width: 100%"></div>
  <div class="col-md-2"><img alt="EFPIA" src="{{ IMGURL }}/images/news/bigpicture-efpia-logo.jpg" style="max-width: 100%"></div>
