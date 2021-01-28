@@ -1,4 +1,10 @@
 people:
+  - name: Katrien Grünberg
+    position: Professor
+    affiliation: Pathology, Radboud University Medical Center
+    url: https://www.radboudumc.nl/personen/katrien-grunberg
+    picture: people/external/katrien-grunberg.jpg
+    email: katrien.grunberg@radboudumc.nl
   - name: Arjen de Vries
     position: Professor
     affiliation: Data Science, Radboud University
