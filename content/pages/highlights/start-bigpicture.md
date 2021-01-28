@@ -38,11 +38,10 @@ This project has received funding from the Innovative Medicines Initiative 2 Joi
 
 This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.
 
-![BIGPICTURE]({{ IMGURL }}/images/news/bigpicture-logo.jpg)
 
-![IMI]({{ IMGURL }}/images/news/bigpicture-imi-logo.jpg)
-
-![EFPIA]({{ IMGURL }}/images/news/bigpicture-efpia-logo.jpg)
-
-![EU]({{ IMGURL }}/images/news/bigpicture-eu-logo.jpg)
-
+<div class="row">
+  <div class="col-md-4"><img alt="BIGPICTURE" src="{{ IMGURL }}/images/news/bigpicture-logo.jpg" class="img-responsive"></div>
+  <div class="col-md-4"><img alt="IMI" src="{{ IMGURL }}/images/news/bigpicture-imi-logo.jpg" class="img-responsive"></div>
+ <div class="col-md-4"><img alt="EFPIA" src="{{ IMGURL }}/images/news/bigpicture-efpia-logo.jpg" class="img-responsive"></div>
+ <div class="col-md-4"><img alt="EU" src="{{ IMGURL }}/images/news/bigpicture-eu-logo.jpg" class="img-responsive"></div>
+</div>
