@@ -1,6 +1,6 @@
-title: New European consortium BIGPICTURE, coordinated by Radboudumc, will build largest AI-enabled digital pathology database in the world
+title: New European consortium BIGPICTURE, coordinated by CPG, will build the world's largest AI-enabled digital pathology database
 date: 2021-01-28
-description: The Innovative Medicine Initiative has awarded a 70 MEuro project, coordinated by CPG, to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. 
+description: The Innovative Medicine Initiative has awarded a 70 MEuro project to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. 
 picture: news/bigpicture-consortium.png
 groups: pathology, diag
 full_width: true
