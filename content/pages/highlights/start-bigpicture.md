@@ -2,7 +2,7 @@ title: New European consortium BIGPICTURE, coordinated by Radboudumc, will build
 date: 2021-01-28
 description: The Innovative Medicine Innitiative (IMI) has awarded a 70 MEuro project, coordinated by CPG, to build the largest integrated database of digitized histopathologic slides and AI algorithms in the world. Jeroen van der Laak and Katrien Grünberg will coordinate the overall project and Francesco Ciompi and Geert Litjens will lead the work package on AI development. 
 picture: news/bigpicture-consortium.png
-groups: diag, pathology
+groups: pathology, diag
 full_width: true
 
 #### Goal
