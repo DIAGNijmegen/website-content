@@ -651,3 +651,45 @@ people:
     url: https://www.tue.nl/en/research/researchers/rik-vullings/
     picture: people/external/Rik_Vullings.jpg
     email: r.vullings@tue.nl
+  - name: Kees van Boven
+    position: Scientific Researcher
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/kees-van-boven-7b84a5179/?originalSubdomain=nl
+    picture: people/external/Kees_van_Boven.jpg
+    email: Kees.vanBoven@radboudumc.nl
+  - name: Michael Ricking
+    position: ICT Developer
+    affiliation: RTC Health Data, Radboudumc
+    url: https://www.radboudumc.nl/en/research/radboud-technology-centers/health-data/health-data_1
+    picture: people/external/Michael_Ricking.jpg
+    email: Michael.Ricking@radboudumc.nl
+  - name: Hans Peters
+    position: 
+    affiliation: 
+    url: 
+    picture: 
+    email: 
+  - name: Tim Olde Hartman
+    position: 
+    affiliation: Primary Care, Radboudumc
+    url: https://www.radboudumc.nl/personen/tim-olde-hartman
+    picture: people/external/Tim_Olde_Hartman.jpg
+    email: Tim.OldeHartman@radboudumc.nl
+  - name: Hilde Luijks
+    position: 
+    affiliation: Primary Care, Radboudumc
+    url: 
+    picture: people/external/Hilde_Luijks.jpg
+    email: 
+  - name: Annemarie Uijen
+    position: 
+    affiliation: Primary Care, Radboudumc
+    url: 
+    picture: people/external/Annemarie_Uijen.jpg
+    email: 
+  - name: Henk Schers
+    position: 
+    affiliation: 
+    url: https://www.radboudumc.nl/personen/henk-schers
+    picture: people/external/Henk_Schers.jpg
+    email: Henk.Schers@radboudumc.nl
