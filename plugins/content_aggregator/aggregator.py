@@ -63,7 +63,7 @@ CONTENT_TYPES = {
     },
     'highlight': {
         'dir': 'highlights',
-        'url': 'highlights/{slug}/',
+        'url': 'news/{slug}/',
         'tags': ['title', 'groups', 'picture', 'default_group'],
         'varname': 'HIGHLIGHT_DATA',
     }

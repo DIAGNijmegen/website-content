@@ -10,10 +10,12 @@
     <link rel="canonical" href="{{ SITEURL }}">
     {% elif page and page.category == 'members' and page.name in MEMBER_DATA_PER_NAME %}
     <link rel="canonical" href="{{ MEMBER_DATA_PER_NAME[page.name].url }}">
+    {% elif page and page.category == 'projects' and page.slug in PROJECT_DATA %}
+    <link rel="canonical" href="{{ PROJECT_DATA[page.slug].url }}">
     {% elif page %}
     <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
-    {% elif article %}
-    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
+    {% elif article and article.slug in HIGHLIGHT_DATA and 'news' in ARTICLE_URL %}
+    <link rel="canonical" href="{{ HIGHLIGHT_DATA[article.slug].url }}">
     {% elif page_name == 'highlights/index' %}
     <link rel="canonical" href="{{ SITEURL }}/hightlights/">
     {% elif page_name == 'news/index' %}
