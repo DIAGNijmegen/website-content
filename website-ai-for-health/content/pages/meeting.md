@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-
 |  04-02-2021  | Roel Hacking | [Improving detection of COVID-19 classification with CT scans.](https://www.ai-for-health.nl/projects/covid-19-ct/) <br> **MSc project update**|
 
 ## Past meetings
