@@ -2,7 +2,7 @@ title: Third edition of AI for Health course
 date: 2020-11-06
 description: Registration for the third edition of the AI for Health course is now open.
 picture: news/aifh-course-3.jpg
-groups: ai-for-health
+groups: 
 
 For the third edition of the AI for Health course, starting 12 February 2021, the registration has opened. The third edition will run from February until July 2021.
 
