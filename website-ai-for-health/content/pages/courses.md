@@ -11,7 +11,7 @@ Radboud AI for Health plans to run two courses every year for a group of around 
 The course is a collaboration between Radboudumc and the Jheronimus Academy of Data Science ([JADS](https://www.jads.nl/)) in Den Bosch. 
 
 ## What you need to know for the third edition of the course:
-- The course will be held on 14 Fridays, with different topics per day.
+- The course will be held on 14 Fridays, with different topics per day, starting in September 2021.
 - The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice.
 - The program for the 14 Fridays will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.
 - In addition there will be 4 project days, also on Fridays, in the Radboudumc where you will work in a team on a Radboudumc project.
@@ -23,24 +23,24 @@ An overview of the course schedule can be seen below.
 
 | Date  |  Topic  |
 | ----- | ------- |
-| 12-02-2021 | Introduction / Final Presentations Course 2 | 
-| 26-02-2021 | Machine Learning 1 / Python 1 |
-| 05-03-2021 |	Machine Learning 2 / Python 2 |
-| 12-03-2021 | Machine Learning 3 |
-| 19-03-2021 | Machine Learning 4 |
-| 26-03-2021 |	Deep Learning 1 |
-| 09-04-2021 |	Deep Learning 2 |
-| 16-04-2021 |	Data Engineering / Ethics / Privacy |
-| 23-04-2021 |	Project Day 1 |
-| 30-04-2021 |	Machine Learning 5 |
-| 21-05-2021 |	Text Mining |
-| 28-05-2021 |	Project Day 2 |
-| 04-06-2021 |	Bioinformatics |
-| 11-06-2021 |	Visualization |
-| 18-06-2021 |	Project Day 3 |
-| 25-06-2021 |	Deployment | 
-| 02-07-2021 | Project Day 4 |
-| 09-07-2021 |	Final Presentations  |
+| TBD | Introduction / Final Presentations Course 2 | 
+| TBD | Machine Learning 1 / Python 1 |
+| TBD |	Machine Learning 2 / Python 2 |
+| TBD | Machine Learning 3 |
+| TBD | Machine Learning 4 |
+| TBD |	Deep Learning 1 |
+| TBD |	Deep Learning 2 |
+| TBD |	Data Engineering / Ethics / Privacy |
+| TBD |	Project Day 1 |
+| TBD |	Machine Learning 5 |
+| TBD |	Text Mining |
+| TBD |	Project Day 2 |
+| TBD |	Bioinformatics |
+| TBD |	Visualization |
+| TBD |	Project Day 3 |
+| TBD |	Deployment | 
+| TBD | Project Day 4 |
+| TBD |	Final Presentations  |
 
 **How to apply**:<br>
 If you are interested, please send the following information to aiforhealth@radboudumc.nl:
