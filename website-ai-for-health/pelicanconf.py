@@ -76,7 +76,7 @@ HOME_SECTIONS = {"News": "News"}
 # HOME_SECTIONS = {"News": 'News', "PageCards": "PageCards"}
 
 # Enable gradients for CARD images
-CARD_IMG_GRADIENTS = True
+CARD_IMG_GRADIENTS = False
 
 # URLs
 SITEURL = ""
