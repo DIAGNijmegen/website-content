@@ -31,7 +31,12 @@ HOME_JUMBOTRON_LAYOUT = "dense"
 NAV_SECTIONS = [
     {"name": "News", "url": "news", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
+    {
+        "name": "Research",
+        "url": "research",
+        "icon_mobile": "folder",
+        "text_class": "d-lg-block",
+    },
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {
         "name": "Publications",
