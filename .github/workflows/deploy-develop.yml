@@ -2,7 +2,7 @@ name: Build and Deploy (Develop)
 
 on:
   workflow_dispatch:
-    branches: [master]
+    branches: [develop]
   push:
     branches: [develop]
 
@@ -22,7 +22,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-diag
+          - name: website-pathology
             site-id: NETLIFY_SITEID_DIAG_BETA
 
     steps:
