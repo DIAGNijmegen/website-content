@@ -10,7 +10,7 @@ email: hans.pinckaers@radboudumc.nl
 office: Route 812, room 2.39
 website: http://www.hanspinckaers.com
 type: phd
-linkedin: https://www.linkedin.com/in/wouterbulten
+linkedin: https://www.linkedin.com/in/hanspinckaers
 scholar: https://scholar.google.com/citations?user=wo0gzgAAAAJ
 researcherid: https://publons.com/researcher/2013788/hans-pinckaers/
 
