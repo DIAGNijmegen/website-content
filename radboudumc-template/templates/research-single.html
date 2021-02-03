@@ -21,7 +21,7 @@
     {% if page.research %}
     <h2>Research</h2>
     <div class="row mt-4">
-        {% for project in page.research.split(',') %}
+        {% for research in page.research.split(',') %}
             {% for card in pages %}
                 {% if card.category == 'research' and card.slug == research.strip() and card.show_in_overview == 'false' %}
                     {% include "blocks/card.html" %}

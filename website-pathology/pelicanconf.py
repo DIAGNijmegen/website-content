@@ -34,7 +34,7 @@ NAV_SECTIONS = [
     {
         "name": "Research",
         "url": "research",
-        "icon_mobile": "folder",
+        "icon": "folder",
         "text_class": "d-lg-block",
     },
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
@@ -61,7 +61,7 @@ ENABLE_BREADCRUMBS = True
 HOME_SECTIONS = {
     "News": "News",
     "Vacancies": "Vacancies",
-    "Projects": "Projects",
+    "Research": "Research Lines",
     "Members": "Members",
 }
 
