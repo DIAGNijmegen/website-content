@@ -61,7 +61,7 @@ ENABLE_BREADCRUMBS = True
 HOME_SECTIONS = {
     "News": "News",
     "Vacancies": "Vacancies",
-    "Research": "Research Lines",
+    "Research": "Research Areas",
     "Members": "Members",
 }
 

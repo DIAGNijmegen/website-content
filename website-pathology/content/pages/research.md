@@ -5,6 +5,6 @@ Pariatur culpa nisi aute magna aute. Elit nisi adipisicing et aliquip minim. Ex 
 
 
 
-## Research lines
-Click on any of the cards below to learn more about the research lines in DIAG.
+## Research Areas
+Click on any of the cards below to learn more about the research areas in DIAG.
 
