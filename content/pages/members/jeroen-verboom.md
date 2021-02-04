@@ -3,7 +3,7 @@ name: Jeroen Verboom
 template: people-single
 picture: people/Jeroen_Verboom.jpg
 position: Master Student
-active: no
+active: yes
 groups: diag
 default_group: diag
 email: jeroen.verboom@radboudumc.nl
