@@ -2,6 +2,7 @@ title: Lung cancer image analysis
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
+people: Colin Jacobs, Kiran Vaidhya Venkadesh, Ward Hendrix, Ernst Scholten, Anton Schreuder, Marco Marra, Sil van de Leemput
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: lung-cancer-screening, incidental-lung-nodules, lung-cancer-early-stage-treatment
 
