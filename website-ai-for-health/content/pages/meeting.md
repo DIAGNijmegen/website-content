@@ -21,7 +21,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
-|  04-02-2021  | Roel Hacking | [Improving detection of COVID-19 classification with CT scans.](https://www.ai-for-health.nl/projects/covid-19-ct/)|
+|  04-02-2021  | Roel Hacking | [Improving detection of COVID-19 classification with CT scans.](https://drive.google.com/file/d/1LggV-nrFww-2G4uxSkiMq3DazNy3wvED/view?usp=sharing)|
 |  28-01-2021  | Ismail Güclü | [Programmatically Generating Annotations for Clinical Data](https://drive.google.com/file/d/1xVeutEUfWzX_LvGpfAyiLSCZH6KH1XxD/view?usp=sharing)|
 |  10-12-2020  | Nolan Cardozo <br><br> Gijs Smit  | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) <br><br>  [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/)|
 |  03-12-2020  | Mirthe van Diepen | [Unraveling mechanisms of vascular function and regulation with causal discovery.](https://www.ai-for-health.nl/projects/vascular-function/)|
