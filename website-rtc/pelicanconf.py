@@ -108,6 +108,16 @@ INDEX_SAVE_AS = "highlights/index.html"
 THEME = "../radboudumc-template"
 DIRECT_TEMPLATES = ["index", "archives", "sitemap"]
 
+ARTICLE_EXCLUDES = ['templates']
+TEMPLATE_PAGES = {
+    'templates/homepage.html': 'index.html',
+}
+
+ARTICLE_EXCLUDES = ['templates']
+TEMPLATE_PAGES = {
+    'templates/homepage.html': 'index.html',
+}
+
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
 PLUGINS = [
