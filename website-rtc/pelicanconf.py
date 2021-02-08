@@ -46,6 +46,7 @@ ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
+    "Info": "Info",
     "Projects": "Projects",
     "Software": "Infrastructure & Software",
     "Members": "Members",
@@ -108,10 +109,6 @@ INDEX_SAVE_AS = "highlights/index.html"
 THEME = "../radboudumc-template"
 DIRECT_TEMPLATES = ["index", "archives", "sitemap"]
 
-ARTICLE_EXCLUDES = ['templates']
-TEMPLATE_PAGES = {
-    'templates/homepage.html': 'index.html',
-}
 
 ARTICLE_EXCLUDES = ['templates']
 TEMPLATE_PAGES = {
