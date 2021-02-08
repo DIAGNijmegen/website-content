@@ -2,7 +2,7 @@ title: Silvan Quax
 name: Silvan Quax
 template: people-single
 picture: people/Silvan_Quax.jpg
-position: Research Scientist, RTC Deep Learning
+position: Research Scientist RTC Deep Learning
 active: yes
 groups: rtc, diag
 default_group: rtc
