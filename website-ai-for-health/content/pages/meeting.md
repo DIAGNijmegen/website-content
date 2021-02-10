@@ -14,6 +14,8 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
+|  11-02-2021  | **No meeting** |    |
+|  18-02-2021  | **No meeting** |  **Spring vacation**  |
 |  25-02-2021  | Anna Gansen | [Bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/) <br> **MSc defense**|
 |  04-03-2021  | Gijs Smit | [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/) <br> **MSc defense**|
 |  11-03-2021  | **Guest speaker** <br> Sijm Noteboom | Prediction of intracranial pressure after neurotrauma |
