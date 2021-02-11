@@ -20,6 +20,8 @@ The slides for past presentations are available by clicking on the links in the 
 |  04-03-2021  | Gijs Smit | [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/) <br> **MSc defense**|
 |  11-03-2021  | **Guest speaker** <br> Sijm Noteboom | Prediction of intracranial pressure after neurotrauma |
 |  18-03-2021  | **Guest speaker** <br> Tom Claassen | TBA |
+|  25-03-2021  | Gelana Khazeeva | TBA |
+|  01-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 
 ## Past meetings
 
