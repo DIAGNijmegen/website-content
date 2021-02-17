@@ -1,7 +1,7 @@
 title: What is deep learning?
 description: Deep learning is an AI technique that is able to learn complex patterns in large data sets.
 groups: rtc
-picture: projects/ai_for_health.png
+picture: projects/what_is_deep_learning.png
 
 ### Deep neural networks
 
