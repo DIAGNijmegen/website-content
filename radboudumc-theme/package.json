@@ -8,7 +8,7 @@
     "postcss": "postcss  --replace ./build/*.css --no-map --map --use autoprefixer",
     "watch": "node-sass-chokidar ./sass -o ./build --watch --source-map-embed ",
     "deploy": "npm run minify && npm run postcss && cp -r ./build/. ./../radboudumc-template/static/css/ && node increase-version.js",
-    "deploy-watch": "node-sass-chokidar --watch --source-map-embed ./sass/diag.scss ./../website-diag/output/theme/css/diag.css"
+    "deploy-watch": "node-sass-chokidar --watch --source-map-embed ./sass/diag-theme.scss ./../website-diag/output/theme/css/diag-theme.css"
   },
   "author": "Wouter Bulten",
   "license": "Copyright",
