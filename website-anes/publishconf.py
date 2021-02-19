@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://aiforanesthesiology.netlify.app'
-IMGURL = 'https://aiforanesthesiology.netlify.app'
+IMGURL = 'https://aiforanesthesiology-assets.netlify.app'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
