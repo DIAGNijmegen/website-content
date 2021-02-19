@@ -27,13 +27,13 @@ PARENT_DOMAIN = '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-p
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "News", "url": "news", "icon": "megaphone"},
+    #{"name": "News", "url": "news", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
-    {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    {"name": "Publications", "url": f"publications/{CURRENTYEAR}", "icon": "file-text-o"},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book"},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o"},
+    #{"name": "Projects", "url": "projects", "icon": "folder"},
+    #{"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
+    #{"name": "Publications", "url": f"publications/{CURRENTYEAR}", "icon": "file-text-o"},
+    #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book"},
+    #{"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
 # Whether to show breadcrumbs on the page
@@ -41,7 +41,7 @@ ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
-    "News": "News",
+    #"News": "News",
     "Vacancies": "Vacancies",
     "Projects": "Projects",
     "Members": "Members",
@@ -87,9 +87,9 @@ PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 SLUGIFY_SOURCE = "basename"
 
-ARTICLE_URL = "news/{slug}/"
-ARTICLE_SAVE_AS = "news/{slug}/index.html"
-ARTICLE_TYPE = "News"
+ARTICLE_URL = "highlights/{slug}/"
+ARTICLE_SAVE_AS = "highlights/{slug}/index.html"
+ARTICLE_TYPE = "Highlights"
 
 TAGS_SAVE_AS = ""
 TAG_SAVE_AS = ""
@@ -100,7 +100,7 @@ CATEGORIES_SAVE_AS = ""
 ARCHIVES_SAVE_AS = ""
 
 SITEMAP_SAVE_AS = "sitemap.xml"
-INDEX_SAVE_AS = "news/index.html"
+INDEX_SAVE_AS = "highlights/index.html"
 
 # Theme settings
 THEME = "../radboudumc-template"
