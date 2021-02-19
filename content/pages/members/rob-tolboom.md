@@ -1,18 +1,24 @@
-title: Ajay Patel
-name: Ajay Patel
+title: Rob Tolboom
+name: Rob Tolboom
 template: people-single
-picture: people/Ajay_Patel.jpg
-position: Coordinator RTC Deep Learning
+picture: people/Rob_Tolboom.jpeg
+position: Researcher
 active: yes
 groups: anes
 default_group: anes
-email: ajay.patel@radboudumc.nl
-office: Route 767, Room 27
+email: Rob.Tolboom@radboudumc.nl
+office: Route 710
 type: faculty
-telephone: +31 24 3614548
-scholar: http://scholar.google.com/citations?user=O1j6_MsAAAAJ
-publons: https://publons.com/researcher/2761863/bram-van-ginneken/
-orcid: https://orcid.org/0000-0003-2028-8972
-linkedin: http://www.linkedin.com/in/bramvanginneken/
+telephone: +31 24 0000 0000
+scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
+publons: https://publons.com/researcher/2830600/robert-c-tolboom/
+orcid: https://orcid.org/0000-0002-3460-1934
+linkedin: http://www.linkedin.com/in/robtolboom/
 
-Ajay Patel studied Biomedical Sciences (BSc) and Biomedical Image Sciences (MSc) at the University of Utrecht. In March 2015 he joined the Diagnostic Image Analysis Group as a PhD student working on Computer Aided Diagnosis in acute stroke, under supervision of Rashindra Manniesing and Bram van Ginneken. Since March 2019 he acts as coordinator of the Radboudumc Technology Center (RTC) Deep Learning which leverages the expertise of the Diagnostic Image Analysis Group in using machine learning, specifically deep learning, to analyze images and other medical data. The RTC Deep Learning functions as the main portal for all questions regarding the use of deep learning in the Radboudumc and can provide expert guidance and services for big data analysis and deep learning, specifically in the field of image analysis but also on predictive analytics in general.
+After graduation from secondary education (Baarnsch Lyceum) in 2005, he moved to Utrecht to study Medicine at Utrecht University. During the latter years of his study, his interest in research was sparked and he started contributing to a research project at the department of cardiology as research-assistant. He finished his master’s degree with a senior internship at the department of surgery at the Sint Antonius Hospital in Nijmegen, followed by a senior internship at the department of pediatric anesthesiology at the Wilhelmina Childrens’ hospital in Utrecht. 
+
+Following his graduation in 2012, Rob started working at the Meander Medical Center in Amersfoort as a surgical resident (not in training). Here he met prof. Broeders and dr. Draaisma with whom he initiated several research projects which eventually culminated to his thesis on High-tech Hiatal Hernia surgery. 
+
+After working at several other hospitals in the fields of general surgery and intensive care medicine, he decided to enter the anesthesiology residency program at Radboud University Medical Center under supervision of dr. C. Keijzer-Broeders. Recent advances in artificial intelligence have led to him following a course on AI for Health at the Jheronimus Academy of Data Science in Den Bosch. 
+
+His current research focus primarily is AI implementations in anesthesiologic care.
