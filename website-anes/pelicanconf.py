@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = "AI for Anesthesiology"
-SITENAME = "AI for Anesthesiology Research Group"
+SITENAME = "AI for Anesthesiology"
 SITENAME_SHORT = "AI4A"
 SITE_REPO = "website-anes"
 SITE_GROUP = "anes"
@@ -19,7 +19,7 @@ SITE_PICTURE = "images/general/retina_main.JPG"
 HOME_IMAGE = "images/general/retina_main.JPG"
 # HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
-FOOTER_TEXT = 'The A-eye Research Group is part of <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
+FOOTER_TEXT = 'The AI for Anesthesiology group is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = (
     '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-pijn-en-palliatieve-geneeskunde">Anesthesiology</a>'
@@ -31,9 +31,9 @@ NAV_SECTIONS = [
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o"},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book"},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o"},
+    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
+    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
+    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 95},
 ]
 
 # Whether to show breadcrumbs on the page
@@ -50,7 +50,7 @@ HOME_SECTIONS = {
 SITEURL = ""
 IMGURL = SITEURL
 EDIT_CONTENT_URL = (
-    "https://github.com/diagnijmegen/website-content/edit/master/{file_path}"
+    "https://github.com/AIforAnesthesiology/website-content/edit/master/{file_path}"
 )
 
 #
