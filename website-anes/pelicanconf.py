@@ -10,8 +10,8 @@ from datetime import date
 AUTHOR = "DIAG RSE"
 SITENAME = "DIAG Research Software Engineering"
 SITENAME_SHORT = "DIAG RSE"
-SITE_REPO = "website-rse"
-SITE_GROUP = "rse"
+SITE_REPO = "website-anes"
+SITE_GROUP = "anes"
 
 # Home page and social settings
 SITELEAD = """
