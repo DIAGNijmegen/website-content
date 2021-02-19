@@ -145,3 +145,6 @@ content/pages/publications/*
 # pipenv is not used by this project
 Pipfile
 Pipfile.lock
+
+# OSX
+.DS_Store
