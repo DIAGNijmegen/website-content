@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-anes
+          - name: website-pathology
             site-id: NETLIFY_SITEID_AIFORA
 
     steps:
