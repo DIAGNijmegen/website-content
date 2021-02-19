@@ -14,11 +14,13 @@ SITE_REPO = "website-anes"
 SITE_GROUP = "anes"
 
 # Home page and social settings
-SITELEAD = "The A-eye Research Group aims at bringing artificial intellingence solutions to healthcare and, specifically, eye care. Our expertise lies in developing retinal image analysis methods based on deep learning technology for detection, diagnosis and quantification of retinal diseases. Application areas are automated screening of eye diseases, namely AMD, DR and glaucoma, for cost-effective triage of patient at risk; extraction of quantitative image biomarkers from multimodal data for accurate analysis of large population-based datasets; and the development of computer-aided solutions for personalized diagnosis and treatment of retinal diseases."
-SITE_PICTURE = "images/general/retina_main.JPG"
-HOME_IMAGE = "images/general/retina_main.JPG"
+SITELEAD = """
+The AI for Anesthesiology research group...
+"""
+SITE_PICTURE = "images/general/AI4A.jpeg"
+HOME_IMAGE = "images/general/AI4A.jpeg"
 # HOME_IMAGE_CAPTION = 'Automated tumor detection'
-TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
+TWITTER_URL = ""
 FOOTER_TEXT = 'The AI for Anesthesiology group is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = (
