@@ -23,8 +23,6 @@ jobs:
         include:
           - name: website-pathology
             site-id: NETLIFY_SITEID_AIFORA
-          - name: website-anes
-            site-id: NETLIFY_SITEID_AI4A
 
     steps:
       - uses: actions/checkout@v2
