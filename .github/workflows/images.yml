@@ -79,4 +79,4 @@ jobs:
         shell: bash
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_MEDIA }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_AI4A }}
