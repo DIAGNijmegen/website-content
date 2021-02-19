@@ -7,33 +7,39 @@ from datetime import date
 # Site specific variables
 # Please update these to customize the website.
 #
-AUTHOR = "AI for Anesthesiology"
-SITENAME = "AI for Anesthesiology"
-SITENAME_SHORT = "AI 4 A"
+AUTHOR = "WebteamDIAG"
+SITENAME = "A-eye Research Group"
+SITENAME_SHORT = "A-eye"
 SITE_REPO = "website-anes"
 SITE_GROUP = "anes"
 
 # Home page and social settings
-SITELEAD = """
-Blablabla
-"""
-SITE_PICTURE = "images/social/missing_picture_social.png"
-HOME_IMAGE = "images/general/ApplicationsOfDeepLearning.png"
-HOME_IMAGE_CAPTION = ""
-#TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
-FOOTER_TEXT = "The AI for Anesthesiology Group is part of the Department of Anesthesiology, Pain and Palliative Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>."
+SITELEAD = "The A-eye Research Group aims at bringing artificial intellingence solutions to healthcare and, specifically, eye care. Our expertise lies in developing retinal image analysis methods based on deep learning technology for detection, diagnosis and quantification of retinal diseases. Application areas are automated screening of eye diseases, namely AMD, DR and glaucoma, for cost-effective triage of patient at risk; extraction of quantitative image biomarkers from multimodal data for accurate analysis of large population-based datasets; and the development of computer-aided solutions for personalized diagnosis and treatment of retinal diseases."
+SITE_PICTURE = "images/general/retina_main.JPG"
+HOME_IMAGE = "images/general/retina_main.JPG"
+# HOME_IMAGE_CAPTION = 'Automated tumor detection'
+TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
+FOOTER_TEXT = 'The A-eye Research Group is part of <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
-PARENT_DOMAIN = '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-pijn-en-palliatieve-geneeskunde">Anesthesiology</a>'
+PARENT_DOMAIN = (
+    '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
+)
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    #{"name": "News", "url": "news", "icon": "megaphone"},
+    {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    #{"name": "Projects", "url": "projects", "icon": "folder"},
-    #{"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    #{"name": "Publications", "url": f"publications/{CURRENTYEAR}", "icon": "file-text-o"},
-    #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book"},
-    #{"name": "Contact", "url": "contact", "icon": "envelope-o"},
+    {"name": "Projects", "url": "projects", "icon": "folder"},
+    {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
+    {
+        "name": "Publications",
+        "url": "publications",
+        "icon": "file-text-o",
+        "hidden": 85,
+    },
+    {"name": "Presentations", "url": "presentations", "hidden": 95},
+    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
+    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
 
 # Whether to show breadcrumbs on the page
@@ -41,17 +47,16 @@ ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
-    #"News": "News",
+    "Highlights": "Highlights",
     "Vacancies": "Vacancies",
     "Projects": "Projects",
     "Members": "Members",
 }
-
 # URLs
 SITEURL = ""
 IMGURL = SITEURL
 EDIT_CONTENT_URL = (
-    "https://github.com/AIforAnesthesiology/website-content/edit/master/{file_path}"
+    "https://github.com/diagnijmegen/website-content/edit/master/{file_path}"
 )
 
 #
@@ -89,7 +94,6 @@ SLUGIFY_SOURCE = "basename"
 
 ARTICLE_URL = "highlights/{slug}/"
 ARTICLE_SAVE_AS = "highlights/{slug}/index.html"
-ARTICLE_TYPE = "Highlights"
 
 TAGS_SAVE_AS = ""
 TAG_SAVE_AS = ""
@@ -101,6 +105,7 @@ ARCHIVES_SAVE_AS = ""
 
 SITEMAP_SAVE_AS = "sitemap.xml"
 INDEX_SAVE_AS = "highlights/index.html"
+ARTICLE_TYPE = "Highlights"
 
 # Theme settings
 THEME = "../radboudumc-template"
