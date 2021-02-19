@@ -7,9 +7,9 @@ from datetime import date
 # Site specific variables
 # Please update these to customize the website.
 #
-AUTHOR = "WebteamDIAG"
-SITENAME = "A-eye Research Group"
-SITENAME_SHORT = "A-eye"
+AUTHOR = "AI for Anesthesiology"
+SITENAME = "AI for Anesthesiology Research Group"
+SITENAME_SHORT = "AI4A"
 SITE_REPO = "website-anes"
 SITE_GROUP = "anes"
 
@@ -22,7 +22,7 @@ TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
 FOOTER_TEXT = 'The A-eye Research Group is part of <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = (
-    '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
+    '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-pijn-en-palliatieve-geneeskunde">Anesthesiology</a>'
 )
 
 # What sections to show in the nav bar
@@ -31,15 +31,9 @@ NAV_SECTIONS = [
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    {
-        "name": "Publications",
-        "url": "publications",
-        "icon": "file-text-o",
-        "hidden": 85,
-    },
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
+    {"name": "Publications", "url": "publications", "icon": "file-text-o"},
+    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book"},
+    {"name": "Contact", "url": "contact", "icon": "envelope-o"},
 ]
 
 # Whether to show breadcrumbs on the page
