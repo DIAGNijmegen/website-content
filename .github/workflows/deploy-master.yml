@@ -21,18 +21,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-diag
-            site-id: NETLIFY_SITEID_DIAG
-          - name: website-pathology
-            site-id: NETLIFY_SITEID_PATHOLOGY
-          - name: website-retina
-            site-id: NETLIFY_SITEID_RETINA
-          - name: website-rse
-            site-id: NETLIFY_SITEID_RSE
-          - name: website-rtc
-            site-id: NETLIFY_SITEID_RTC
-          - name: website-ai-for-health
-            site-id: NETLIFY_SITEID_AIFORHEALTH
+          - name: website-anes
+            site-id: NETLIFY_SITEID_AIFORA
 
     steps:
       - uses: actions/checkout@v2
