@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://rse.diagnijmegen.nl'
-IMGURL = 'https://assets.diagnijmegen.nl'
+SITEURL = 'https://aiforanesthesiology.netlify.app'
+IMGURL = 'https://aiforanesthesiology.netlify.app'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
@@ -23,4 +23,4 @@ AUTHOR_FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
 
-GOOGLE_ANALYTICS = 'UA-140921185-1'
+GOOGLE_ANALYTICS = ''
