@@ -2,10 +2,10 @@ title: Brachial plexus segmentation on ultrasound imaging with a deep learning m
 picture: projects/brachial-plexus.png
 groups: anes-ai
 finished: false
-type: student
+type: general
 template: project-single
 people: Michel Botros
-description: Developing image analysis algorithms that automatically detect osteoporotic vertebral fractures.
+description: The goal of this study is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and then train a deep learning model to segment the ultrasound images.
 
 
 ## Background
