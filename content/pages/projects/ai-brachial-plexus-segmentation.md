@@ -5,7 +5,7 @@ default_group: anes-ai
 finished: false
 type: general
 template: project-single
-people: Michel Botros, Jeroen van der Laak
+people: Michel Botros, Gijs van der Veen
 description: The goal of this study is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and then train a deep learning model to segment the ultrasound images.
 
 
