@@ -1,4 +1,4 @@
-title: Brachial plexus segmentation on ultrasound imaging with a deep learning model
+title: Brachial plexus segmentation on ultrasound imaging
 groups: anes-ai
 closed: false
 type: student
