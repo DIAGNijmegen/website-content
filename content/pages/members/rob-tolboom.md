@@ -4,8 +4,8 @@ template: people-single
 picture: people/Rob_Tolboom.jpeg
 position: Researcher
 active: yes
-groups: anes
-default_group: anes
+groups: anes-ai
+default_group: anes-ai
 email: Rob.Tolboom@radboudumc.nl
 office: Route 710
 type: faculty
