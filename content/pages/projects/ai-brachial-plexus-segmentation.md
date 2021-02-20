@@ -7,7 +7,6 @@ template: project-single
 groups: anes
 default_group: anes
 people: Rob Tolboom
-bibkeys: 
 
 
 ## Background
