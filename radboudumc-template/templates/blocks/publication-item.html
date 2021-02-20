@@ -1,6 +1,6 @@
 <li>{{- BIB_ITEMS[bibkey]['authors']|safe }}. {{ BIB_ITEMS[bibkey]['title'] }}.
     {% if 'journal' in BIB_ITEMS[bibkey] -%}
-    {{ BIB_ITEMS[bibkey]['journal'] }} 
+    {{ BIB_ITEMS[bibkey]['journal'] }}&nbsp; 
     {%- elif 'booktitle' in BIB_ITEMS[bibkey] -%}
     <i>{{ BIB_ITEMS[bibkey]['booktitle'] }}, </i>
     {%- endif -%}
