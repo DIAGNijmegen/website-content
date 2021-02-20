@@ -22,8 +22,8 @@ It’s essential to recognise ultrasound anatomy when performing nerve blocks, h
 ## Aim
 In this study we will attempt to create a dataset of ultrasound images depicting the brachial plexus and use this dataset to train an U-net model in order to identify the region of interest in these images, which may potentially be used in clinical practise.
 
-Primary Objective  
- - Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
+Primary objective:  
+1. Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
 
-Secondary Objective(s)  
- - Train an U-net deep learning model using the dataset and teach it to properly identify the brachial plexus
+Secondary objective(s):  
+1. Train an U-net deep learning model using the dataset and teach it to properly identify the brachial plexus
