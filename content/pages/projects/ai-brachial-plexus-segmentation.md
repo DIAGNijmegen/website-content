@@ -4,8 +4,8 @@ finished: false
 type: general
 description: The goal of this study is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and then train a deep learning model to segment the ultrasound images.
 template: project-single
-groups: anes
-default_group: anes
+groups: AI4A
+default_group: AI4A
 people: Rob Tolboom
 
 
