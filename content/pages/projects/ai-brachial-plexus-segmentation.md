@@ -1,29 +1,26 @@
-title: Brachial plexus segmentation on ultrasound imaging with a deep learning model
-picture: projects/brachial-plexus.png
-finished: false
-type: general
-description: The goal of this study is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and then train a deep learning model to segment the ultrasound images.
-template: project-single
+title: Detecting and characterizing vertebral fractures in CT scans
 groups: anes-ai
-default_group: anes-ai
-people: Rob Tolboom
+finished: false
+type: student
+picture: vacancies/msc-vertebral-fractures.jpg
+template: project-single
+people: Michel Botros, Nikolas Lessmann, Stan Buckens, Matthieu Rutten, Bram van Ginneken
+description: Developing image analysis algorithms that automatically detect osteoporotic vertebral fractures.
 
 
-## Background
-Regional nerve block is a common anaesthesia technique used for surgery on the extremities. A successful block requires excellent anaesthesia experience including the ability to identify the appropriate nerves and surrounding tissues on ultrasound and good skills with a needle.
+** Start date: 01-02-2021** <br>
+** End date: 31-07-2021**
 
-Previous studies have primarily focussed on the usage of ultrasound which has shown that ultrasound increases the success rate of regional nerve blocks. Some studies, however, have found that even with ultrasound assistance, a relatively high failure rate persists. This failure rate has largely been attributed to operators with limited experience and insufficient ultrasound skills.
+## Clinical problem
 
-A failed nerve block not only results in a bad experience for the patient, it might even lead to damage to the patients’ health and in some cases complications could even threaten life.
+Osteoporosis is a silent age-related disease that slowly decreases the stability of the bones, which eventually leads to
+bones starting to fracture and collapse. These kind of fractures are referred to as compression fractures. Every year,
+millions of CT scans of the thorax and abdomen are made worldwide, for reasons other than osteoporosis and compression
+fractures, but providing the opportunity to detect compression fractures of the spine.
 
-It’s essential to recognise ultrasound anatomy when performing nerve blocks, however this may sometimes be hampered by patients’ habitus. 
+## Solution
 
-
-## Aim
-In this study we will attempt to create a dataset of ultrasound images depicting the brachial plexus and use this dataset to train an U-net model in order to identify the region of interest in these images, which may potentially be used in clinical practise.
-
-### Primary Objective
-1. 	 Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
-
-### Secondary Objective(s)
-1. Train an U-net deep learning model using the dataset and teach it to properly identify the brachial plexus
+The goal of this project is to develop a system that automatically determines for each vertebra visible on a CT scan
+whether it is normal or whether it is fractured and collapsed, or is starting to collapse. For abnormal vertebrae, the
+system can quantify the degree to which the bone has collapsed in order to distinguish between early stage fractures
+and advanced fractures.
