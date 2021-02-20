@@ -1,3 +1,0 @@
-title: About us
-
-The Computational Pathology Group is a research group of the department of Pathology of the Radboud University Medical Center. We work closely together with The Diagnostic Image Analysis Group (DIAG) of the Department of Radiology and Nuclear Medicine. The group develops, validates and deploys novel medical image analysis methods, usually based on deep learning technology and focusing on computer-aided diagnosis (CAD). Application areas include diagnostics and prognostics of breast, prostate and colon cancer. We have rapidly expanded over the last few years, counting over 20 people today. Our group is among the international front runners in the field, partially due to the close collaboration with clinicians and industry. 
