@@ -20,7 +20,7 @@ The AI for Anesthesiology research group...
 SITE_PICTURE = "images/general/AI4A.jpeg"
 HOME_IMAGE = "images/general/AI4A.jpeg"
 # HOME_IMAGE_CAPTION = 'Automated tumor detection'
-TWITTER_URL = ""
+TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
 FOOTER_TEXT = 'The AI for Anesthesiology group is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = (

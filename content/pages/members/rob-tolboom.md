@@ -21,4 +21,4 @@ Following his graduation in 2012, Rob started working at the Meander Medical Cen
 
 After working at several other hospitals in the fields of general surgery and intensive care medicine, he decided to enter the anesthesiology residency program at Radboud University Medical Center under supervision of dr. C. Keijzer-Broeders. Recent advances in artificial intelligence have led to him following a course on AI for Health at the Jheronimus Academy of Data Science in Den Bosch. 
 
-His current research focus primarily is AI implementations in anesthesiologic care.
+His current research focusses primarily on AI implementations in anesthesiologic care.
