@@ -11,6 +11,7 @@ group_websites = {
     "rse": "https://rse.diagnijmegen.nl",
     "rtc": "https://rtc.diagnijmegen.nl",
     "diag": "https://www.diagnijmegen.nl",
+    "anes-ai": "https://www.aiforanesthesiology.nl",
 }
 
 # Matches: [member/wouter-bulten, group: pathology]
