@@ -16,6 +16,7 @@ SITE_GROUP = "anes-ai"
 # Home page and social settings
 SITELEAD = """
 The AI for Anesthesiology research group is a newly founded research group that primarily focusses on developing and later implementation of AI solutions for the anesthesiologists of the future.
+It's our aim to develop better prediction tools to predict adverse outcomes when providing anesthesia to patients and algoritms to improve patient safety.
 """
 SITE_PICTURE = "images/general/AI4A.jpeg"
 HOME_IMAGE = "images/general/AI4A.jpeg"
@@ -29,13 +30,13 @@ PARENT_DOMAIN = (
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
+    #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 95},
+    #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
+    #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
+    #{"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 95},
 ]
 
 # Whether to show breadcrumbs on the page
@@ -49,7 +50,7 @@ HOME_SECTIONS = {
     "Members": "Members",
 }
 # URLs
-SITEURL = "https://aiforanesthesiology.netlify.app"
+SITEURL = "https://www.aiforanesthesiology.nl"
 IMGURL = SITEURL
 EDIT_CONTENT_URL = (
     "https://github.com/AIforAnesthesiology/website-content/edit/master/{file_path}"
