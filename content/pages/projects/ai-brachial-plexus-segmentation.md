@@ -8,19 +8,21 @@ people: Michel Botros, Nikolas Lessmann, Stan Buckens, Matthieu Rutten, Bram van
 description: Developing image analysis algorithms that automatically detect osteoporotic vertebral fractures.
 
 
-** Start date: 01-02-2021** <br>
-** End date: 31-07-2021**
+## Background
+Regional nerve block is a common anaesthesia technique used for surgery on the extremities. A successful block requires excellent anaesthesia experience including the ability to identify the appropriate nerves and surrounding tissues on ultrasound and good skills with a needle.
 
-## Clinical problem
+Previous studies have primarily focussed on the usage of ultrasound which has shown that ultrasound increases the success rate of regional nerve blocks. Some studies, however, have found that even with ultrasound assistance, a relatively high failure rate persists. This failure rate has largely been attributed to operators with limited experience and insufficient ultrasound skills.
 
-Osteoporosis is a silent age-related disease that slowly decreases the stability of the bones, which eventually leads to
-bones starting to fracture and collapse. These kind of fractures are referred to as compression fractures. Every year,
-millions of CT scans of the thorax and abdomen are made worldwide, for reasons other than osteoporosis and compression
-fractures, but providing the opportunity to detect compression fractures of the spine.
+A failed nerve block not only results in a bad experience for the patient, it might even lead to damage to the patients’ health and in some cases complications could even threaten life.
 
-## Solution
+It’s essential to recognise ultrasound anatomy when performing nerve blocks, however this may sometimes be hampered by patients’ habitus. 
 
-The goal of this project is to develop a system that automatically determines for each vertebra visible on a CT scan
-whether it is normal or whether it is fractured and collapsed, or is starting to collapse. For abnormal vertebrae, the
-system can quantify the degree to which the bone has collapsed in order to distinguish between early stage fractures
-and advanced fractures.
+
+## Aim
+In this study we will attempt to create a dataset of ultrasound images depicting the brachial plexus and use this dataset to train an U-net model in order to identify the region of interest in these images, which may potentially be used in clinical practise.
+
+### Primary Objective
+1. 	 Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
+
+### Secondary Objective(s)
+1. Train an U-net deep learning model using the dataset and teach it to properly identify the brachial plexus
