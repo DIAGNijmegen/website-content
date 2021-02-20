@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/msc-vertebral-fractures.jpg
 template: project-single
-people: Rob Tolboom
+people: Michel Botros
 description: Developing image analysis algorithms that automatically detect osteoporotic vertebral fractures.
 
 
