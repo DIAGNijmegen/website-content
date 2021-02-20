@@ -15,13 +15,13 @@ SITE_GROUP = "anes-ai"
 
 # Home page and social settings
 SITELEAD = """
-The AI for Anesthesiology research group...
+The AI for Anesthesiology research group is a newly founded research group that primarily focusses on developing and later implementation of AI solutions for the anesthesiologists of the future.
 """
 SITE_PICTURE = "images/general/AI4A.jpeg"
 HOME_IMAGE = "images/general/AI4A.jpeg"
 # HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = None
-FOOTER_TEXT = 'The AI for Anesthesiology group is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
+FOOTER_TEXT = 'AI for Anesthesiology is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = (
     '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-pijn-en-palliatieve-geneeskunde">Anesthesiology</a>'
