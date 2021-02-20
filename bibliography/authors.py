@@ -125,6 +125,8 @@ def match_author_publication(firstname, lastnames, author, bib_key):
             first = first.split(" ")[0].lower()
             if first == firstname.lower():
                 return True
+            elif first == "robert" and firstname.lower() == "rob":
+                return True
             # if 'first' contains a single letter, it will continue
 
         if len(first) == 1 and first[0].lower() == firstname[0].lower():
