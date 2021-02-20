@@ -49,7 +49,7 @@ HOME_SECTIONS = {
     "Members": "Members",
 }
 # URLs
-SITEURL = ""
+SITEURL = "https://aiforanesthesiology.netlify.app"
 IMGURL = SITEURL
 EDIT_CONTENT_URL = (
     "https://github.com/AIforAnesthesiology/website-content/edit/master/{file_path}"
