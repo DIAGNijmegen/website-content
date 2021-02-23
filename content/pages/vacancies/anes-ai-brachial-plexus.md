@@ -30,6 +30,6 @@ In this project, the focus is on ultrasound images of the brachial plexus. The t
 
 ## Information
 
-- Project duration: 6 months
+- Project duration: 3 months
 - Location: Radboud University Medical Center
 - For more information, please contact [member/rob-tolboom]
