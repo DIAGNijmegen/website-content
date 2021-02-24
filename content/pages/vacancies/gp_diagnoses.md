@@ -20,7 +20,7 @@ The AI challenge is to use machine learning (eg Bayesian network approach and ot
 ## Data
 We will use data from the research network FaMeNet (www.famenet.nl) covering over 300.000 patient years, and over 1 million patient contacts. Structured data on contextual factors are available for more than 50% of the adult population. Contextual factors include chronic comorbidity, sex, age, ethnicity, educational level, and all symptoms and diagnoses in the two years preceding the diagnosis.
 
-The  data are stored in a data warehouse at the department of Primary and Community care of the Radboud University Nijmegen Medical Centre (Radbou Technology Center Health Data). 
+The data are stored in a data warehouse at the department of Primary and Community care of the Radboud University Nijmegen Medical Center (Radboud Technology Center Health Data). 
 
 ## Approach
 Students will be supervised by a group of GP-researchers and data managers from the Radboud Technology Center Health data. The student will get familiarized with the data structure of the datawarehouse. Depending on discussions with the group, a machine learning method will be used to analyse the data. The goal is to create prediction models for diagnoses in general practice. The deliverable will be used in a consultation tool for GPs in everyday practice.
