@@ -44,9 +44,8 @@ NAV_SECTIONS = [
 # Whether to show breadcrumbs on the page
 ENABLE_BREADCRUMBS = True
 
-# What sections to show on homepage (current options that you customizable: {section_name: custom_name})
+# What sections to show on homepage (current options that you customizable: {section_name: custom_name})#"Services and expertise": "Services and expertise",
 HOME_SECTIONS = {
-    "Services and expertise": "Services and expertise",
     "Projects": "Projects",
     "Software": "Infrastructure & Software",
     "Members": "Members",
