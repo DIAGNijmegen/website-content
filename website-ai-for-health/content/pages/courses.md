@@ -50,16 +50,8 @@ If you are interested, please send the following information to aiforhealth@radb
 - Support letter head of department ([see format here](https://www.radboudumc.nl/intranet/getmedia/722df5b9-18e5-473e-978f-fd8bb4636564/Concept-akkoord-Afdelingshoofd-deelname-cursus-februari-2021.aspx))
 
 ## Second edition
+The second edition of the AI for Health course started September 18, 2020. A group of 20 Radboudumc employees and 2 employees of the Jeroen Bosch hospital followed the course, consisting of 14 days of lectures and practical assignments at the RadboudUMC and JADS. At the end of the course the participants formed five teams that spend 4 days to develop an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final-presentation-second-ai-for-health-course/).
 
-An overview of the remaining course days for the current edition can be seen below.
-
-| Date  |  Topic  | Location |
-| ----- | ------- | ------- |
-| 08-01-2021 | Project Day 3 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
-| 15-01-2021 | Bioinformatics |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)|
-| 22-01-2021 | Text Mining | JADS |
-| 29-01-2021 | Project Day 4 |  Radboudumc <br> Route 309 - Ruimte 02, begane grond (Tandheelkunde)||
-| 12-02-2021 | Final Presentations |  Radboudumc |
 
 ## First edition
 The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, consisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that have developed an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final-presentation-first-ai-for-health-course/).
