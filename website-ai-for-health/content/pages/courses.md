@@ -50,7 +50,7 @@ If you are interested, please send the following information to aiforhealth@radb
 - Support letter head of department ([see format here](https://www.radboudumc.nl/intranet/getmedia/722df5b9-18e5-473e-978f-fd8bb4636564/Concept-akkoord-Afdelingshoofd-deelname-cursus-februari-2021.aspx))
 
 ## Second edition
-The second edition of the AI for Health course started September 18, 2020. A group of 20 Radboudumc employees and 2 employees of the Jeroen Bosch hospital followed the course, consisting of 14 days of lectures and practical assignments at the RadboudUMC and JADS. At the end of the course the participants formed five teams that spend 4 days to develop an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final-presentation-second-ai-for-health-course/).
+The second edition of the AI for Health course started September 18, 2020. A group of 20 Radboudumc employees and 2 employees of the Jeroen Bosch hospital followed the course, consisting of 14 days of lectures and practical assignments at the Radboudumc and JADS. At the end of the course the participants formed five teams that spend 4 days to develop an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final-presentation-second-ai-for-health-course/).
 
 
 ## First edition
