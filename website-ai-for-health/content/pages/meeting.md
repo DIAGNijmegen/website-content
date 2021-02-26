@@ -14,9 +14,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  11-02-2021  | **No meeting** |    |
-|  18-02-2021  | **No meeting** |  **Spring vacation**  |
-|  25-02-2021  | Anna Gansen | [Bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/) <br> **MSc defense**|
+
 |  04-03-2021  | Gijs Smit | [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/) <br> **MSc defense**|
 |  11-03-2021  | **Guest speaker** <br> Sijm Noteboom | Prediction of intracranial pressure after neurotrauma |
 |  18-03-2021  | **Guest speaker** <br> Tom Claassen | TBA |
@@ -27,6 +25,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  25-02-2021  | Anna Gansen | [Bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/)|
 |  04-02-2021  | Roel Hacking | [Improving detection of COVID-19 classification with CT scans.](https://drive.google.com/file/d/1LggV-nrFww-2G4uxSkiMq3DazNy3wvED/view?usp=sharing)|
 |  28-01-2021  | Ismail Güclü | [Programmatically Generating Annotations for Clinical Data](https://drive.google.com/file/d/1xVeutEUfWzX_LvGpfAyiLSCZH6KH1XxD/view?usp=sharing)|
 |  10-12-2020  | Nolan Cardozo <br><br> Gijs Smit  | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) <br><br>  [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/)|
