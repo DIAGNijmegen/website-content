@@ -25,7 +25,7 @@ Each of the participants performed a keyboard test composed of 3 tasks:
 * MN-test: Alternate between tapping the keys "m" and "n" as fast as possible
 * QP-test: Alternate between tapping the keys "q" and "p" (distance approximately 15cm) as fast as possible
 
-![KeyboardTests]({{ IMGURL }}/images/projects/KeyboardTests.png)
+![KeyboardTests]({{ IMGURL }}/images/projects/KeyboardTests.jpg)
 
 Each of those tasks was performed for 60 seconds with each hand and all keystroke times recorded. Using the keystroke times, we extracted: (1) the dwell times (DT) - time a key is pressed, (2) the flight times (FT) - time the finger is above the key, and (3) possible errors. Flight and dwell time outliers (>2SD) are rejected. All features were extracted for the flight times and dwell times for all three tests separately. 
 
