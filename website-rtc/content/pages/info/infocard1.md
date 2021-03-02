@@ -3,6 +3,15 @@ description: RTC Deep Learning can provide expert guidance and services for big 
 groups: rtc
 picture: projects/ai_for_health.png
 
+##Services
+
+### Consultation regarding the use of deep learning for specific research questions
+We offer advice for RadboudUMC employees to show the potential benefit deep learning techniques can have for your research. Many types of data gathered in the RadboudUMC, such as images, time series, etc. lend themselves to be automatically interpreted by deep learning algorithms. This can save researchers time, eliminates any subjectivity and can provide researchers valuable insights that could otherwise be missed. Are you interested in the potential of deep learning for your research? Contact us.
+
+### Assistance with data preparation and annotation.
+A crucial ingredient for deep learning techniques to work, is a well prepared data set. Most deep learning algorithms learn by example. This means that your data set should annotated with the labels that you want your deep learning algorithm to learn.
+
+
 <ul>
   <li>Consultation regarding the use of deep learning for specific research questions</li>
   <li>Assistance with data preparation and annotation</li>
