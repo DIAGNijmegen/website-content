@@ -34,4 +34,4 @@ Duration: 1st of January 2021 – 31st of December 2024
 <br>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement n°101016851.
 </div>
 </div>
-<a href=www.pancaim.eu><h2 class="text-center">pancaim.eu</h2></a>
+<a href="https://www.pancaim.eu"><h2 class="text-center">pancaim.eu</h2></a>
