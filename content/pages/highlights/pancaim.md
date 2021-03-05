@@ -12,7 +12,7 @@ PANCAIM will optimize and integrate genomics and imaging phenomics using artific
 
 PANCAIM builds on four key concepts of AI in Healthcare: clinical expertise and high amounts of carefully documented data, AI experts, and MedTech companies to collect the data and bring AI to healthcare. Six top-expert clinical partners provide eleven Pan European repositories of almost 6000 patients open to ongoing accrual. These clinical centers treat more than 2,000 PDAC cases each year. SME Collective Minds builds a trusted,  GDPR-compliant platform connecting to clinical centers and hosting the research AI. SME TheHyve builds tooling to connect to worldwide genomic repositories (EOSC Health) and help scientifically explore the data. Three partners provide expertise in AI healthcare across all the clinical modalities involved. Finally, Siemens Healthineers provides their AI expertise and clinical tooling to bring PANCAIM solutions into healthcare. These tools will be clinical validation and ready for swift clinical integration in 3000 health care institutes
 
-## Project consortium: 
+## Project consortium
 
 <img alt="PANCAIM" src="{{ IMGURL }}/images/news/pancaim_consortium.png" style="max-width: 100%">
 
