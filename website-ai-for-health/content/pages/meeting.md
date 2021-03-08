@@ -18,7 +18,9 @@ The slides for past presentations are available by clicking on the links in the 
 |  18-03-2021  | **Guest speaker** <br> Tom Claassen | TBA |
 |  25-03-2021  | Gelana Khazeeva | TBA |
 |  01-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
-
+|  08-04-2021  | Jeroen Verboom | [Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs.](https://www.ai-for-health.nl/projects/fracture-detection/) |
+|  22-04-2021  | Michel Botros | [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) |
+|  06-05-2021  | **Guest speaker** <br> Guido de Jong | TBA |
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
