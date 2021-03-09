@@ -22,6 +22,10 @@ The slides for past presentations are available by clicking on the links in the 
 |  15-04-2021  | Niels van Nistelrooij | [Three dimensional oral and maxillofacial surgical outcome prediction.](https://www.ai-for-health.nl/projects/surgical_outcome_prediction/) |
 |  22-04-2021  | Michel Botros | [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) |
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | TBA |
+|  13-05-2021  | TBA | TBA |
+|  20-05-2021  | TBA | TBA |
+|  27-05-2021  | Nolan Cardozo | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/)<br> **MSc defence** |
+
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
