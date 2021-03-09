@@ -1,7 +1,7 @@
 title: Douwe van Erp
 name: Douwe van Erp
 template: people-single
-picture: people/Person.png
+picture: people/Douwe_van_Erp.jpg
 position: Master Student
 active: yes
 groups: diag
