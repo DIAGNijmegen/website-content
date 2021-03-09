@@ -687,3 +687,10 @@ people:
     url: https://www.radboudumc.nl/personen/henk-schers
     picture: people/external/Henk_Schers.jpg
     email: Henk.Schers@radboudumc.nl
+  - name: Niels van Nistelrooij
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/niels-van-nistelrooij-60466a1b3/
+    picture: people/external/Niels_van_Nistelrooij.jpg
+    email: Niels.vanNistelrooij@radboudumc.nl
+
