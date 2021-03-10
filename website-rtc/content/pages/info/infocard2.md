@@ -12,3 +12,5 @@ Deep learning is thus a technique that is highly successful in learning from lar
 
 ### Applications of deep learning
 Deep learning has initially been very successfull in interpreting image data, but has by now become the most important tool for the interpretation of text, audio, video, time signals, genetics and many more types of data. The types of tasks deep learning algorithms can perform on these data types is very extensive. Some of the more common tasks on image data include: classification of images, like recognizing if a disease is present or not, segmentation of images for example in different anatomical parts or object detection, like the detection of lesions.
+
+![Common tasks]({{ IMGURL }}/images/projects/examples.png)
