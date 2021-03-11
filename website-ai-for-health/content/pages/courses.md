@@ -70,7 +70,7 @@ _Do you want to acquire knowledge about the data science and AI, or do you alrea
 
 ***
 
-More information and instructions how to apply can be found on [this internal Radboudumc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/how-can-we-help-you/projects/radboudaiforhealth/cursus-ai-voor-medewerkers). 
+More information and instructions how to apply can be found on [this internal Radboudumc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/news-events-and-more/projects/radboudaiforhealth/cursus-ai-voor-medewerkers). 
 
 
  <!-- We plan to have 7 obligatory session and 3 that can be selected from a larger list --> 
