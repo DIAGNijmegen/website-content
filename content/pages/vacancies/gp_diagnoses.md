@@ -1,6 +1,6 @@
 title: Using big data to improve diagnosis in general practice
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/gp_diagnoses.png
 template: vacancy-single
