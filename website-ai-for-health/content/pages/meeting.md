@@ -14,8 +14,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  11-03-2021  | **Guest speaker** <br> Sijm Noteboom | Prediction of intracranial pressure after neurotrauma |
-|  18-03-2021  | **Guest speaker** <br> Tom Claassen | TBA |
+|  18-03-2021  | **Guest speaker** <br> Tom Claassen | Causal discovery in real-world applications: closing the gap between theory and practice |
 |  25-03-2021  | Gelana Khazeeva | TBA |
 |  01-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 |  08-04-2021  | Jeroen Verboom | [Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs.](https://www.ai-for-health.nl/projects/fracture-detection/) |
@@ -30,6 +29,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  11-03-2021  | **Guest speaker** <br> Sijm Noteboom | Prediction of intracranial pressure after neurotrauma |
 |  04-03-2021  | Gijs Smit | [Artifact detection in digitized histopathology images.](https://www.ai-for-health.nl/projects/artifact_detection/)|
 |  25-02-2021  | Anna Gansen | [Bradykinesia assessment in Parkinson’s disease.](https://www.ai-for-health.nl/projects/bradykinesia/)|
 |  04-02-2021  | Roel Hacking | [Improving detection of COVID-19 classification with CT scans.](https://drive.google.com/file/d/1LggV-nrFww-2G4uxSkiMq3DazNy3wvED/view?usp=sharing)|
