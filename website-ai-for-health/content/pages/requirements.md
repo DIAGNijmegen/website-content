@@ -8,6 +8,8 @@ For AI for Health MSc projects, students are eligible to receive a monthly reimb
 
 - Each student will present during the weekly meeting in the first half of their project. This will give others a good overview of the project and any preliminary results. It is an excellent opportunity to receive valuable feedback and advice from other AI for Health members.
 
+- Students are required to write a short intermediate report and attend an evaluation meeting to discuss project progress.
+
 - Students are required to give a final defense presentation during the weekly meeting. They must plan this in advance and make sure all supervisors are in attendance to grade the project and presentation.
 
 - At the end of the project, students must finalize their project webpage and include links to a GitHub repository containing the project code and any web application they have created. Students are encouraged to create a video that explains or demonstrates the final product of their project. A link to the final MSc thesis must also be included on the webpage.
