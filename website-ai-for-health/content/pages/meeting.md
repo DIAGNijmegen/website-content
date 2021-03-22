@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-
 |  25-03-2021  | Gelana Khazeeva | [DeNovoCNN: A deep learning based tool for de novo variant calling.](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) |
 |  01-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 |  08-04-2021  | Jeroen Verboom | [Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs.](https://www.ai-for-health.nl/projects/fracture-detection/) |
