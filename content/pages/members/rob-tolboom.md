@@ -4,8 +4,8 @@ template: people-single
 picture: people/Rob_Tolboom.jpeg
 position: Researcher
 active: yes
-groups: umcn
-default_group: umcn
+groups: radboudumc
+default_group: radboudumc
 email: Rob.Tolboom@radboudumc.nl
 office: Route 710
 type: faculty

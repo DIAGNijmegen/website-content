@@ -11,7 +11,7 @@ AUTHOR = "AI for Anesthesiology"
 SITENAME = "AI for Anesthesiology"
 SITENAME_SHORT = "UMCN"
 SITE_REPO = "website-radboudumc"
-SITE_GROUP = "umcn"
+SITE_GROUP = "radboudumc"
 
 # Home page and social settings
 SITELEAD = """
