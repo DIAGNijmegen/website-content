@@ -14,18 +14,21 @@ SITE_REPO = "website-ai4a"
 SITE_GROUP = "ai4a"
 
 # Home page and social settings
+SITETITLE = "AI for Anesthesiology"
 SITELEAD = """
 AI4A - The AI for Anesthesiology research group is a newly founded research group that primarily focusses on developing and implementation of AI solutions for the anesthesiologists of the future.<br><br>
 It's our aim to develop better prediction tools to predict adverse outcomes when providing anesthesia to patients and algoritms to improve patient safety.
 """
 SITE_PICTURE = "images/general/AI4A.jpeg"
-HOME_IMAGE = "images/general/AI4A.jpeg"
-# HOME_IMAGE_CAPTION = 'Automated tumor detection'
+
+HOME_IMAGE = None #"images/general/AI4A.jpeg"
+HOME_IMAGE_CAPTION = 'AI for Anesthesiology'
+
 TWITTER_URL = None
-FOOTER_TEXT = 'AI for Anesthesiology is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
-TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
+FOOTER_TEXT = ""
+TOP_DOMAIN = '<a href="https://anesthesiologie.nl">NVA</a>'
 PARENT_DOMAIN = (
-    '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-pijn-en-palliatieve-geneeskunde">Anesthesiology</a>'
+    ''
 )
 
 # What sections to show in the nav bar
