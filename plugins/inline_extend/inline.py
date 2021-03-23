@@ -12,7 +12,7 @@ group_websites = {
     "rtc": "https://rtc.diagnijmegen.nl",
     "diag": "https://www.diagnijmegen.nl",
     "ai4a": "https://aiforanesthesiology.nl",
-    "umcn": "https://radboudumc.aiforanesthesiology.nl",
+    "radboudumc": "https://radboudumc.aiforanesthesiology.nl",
 }
 
 # Matches: [member/wouter-bulten, group: pathology]

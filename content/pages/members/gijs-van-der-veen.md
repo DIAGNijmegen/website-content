@@ -4,8 +4,8 @@ template: people-single
 picture: people/Gijs_van_der_Veen.jpeg
 position: Researcher
 active: yes
-groups: ai4a, umcn
-default_group: umcn
+groups: ai4a, radboudumc
+default_group: radboudumc
 email: Gijs.vanderVeen@radboudumc.nl
 office: Route 710
 type: phd
