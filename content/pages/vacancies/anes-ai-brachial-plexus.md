@@ -1,5 +1,5 @@
 title: Brachial plexus segmentation on ultrasound imaging
-groups: ai4a, umcn
+groups: ai4a, radboudumc
 closed: false
 type: student
 picture: projects/brachial-plexus.png
