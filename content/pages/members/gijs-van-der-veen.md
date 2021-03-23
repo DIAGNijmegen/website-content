@@ -4,7 +4,7 @@ template: people-single
 picture: people/Gijs_van_der_Veen.jpeg
 position: Researcher
 active: yes
-groups: ai4a, radboudumc
+groups: radboudumc
 default_group: radboudumc
 email: Gijs.vanderVeen@radboudumc.nl
 office: Route 710
