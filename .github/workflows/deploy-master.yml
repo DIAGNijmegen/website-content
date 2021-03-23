@@ -21,8 +21,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-anes-ai
-            site-id: NETLIFY_SITEID_AI4A
+          - name: website-radboudumc
+            site-id: NETLIFY_SITEID_RADBOUDUMC
 
     steps:
       - uses: actions/checkout@v2
