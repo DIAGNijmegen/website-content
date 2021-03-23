@@ -1,7 +1,7 @@
 title: Brachial plexus segmentation on ultrasound imaging with a deep learning model
 picture: projects/brachial-plexus.png
-groups: anes-ai
-default_group: anes-ai
+groups: ai4a, umcn
+default_group: umcn
 finished: false
 type: general
 template: project-single

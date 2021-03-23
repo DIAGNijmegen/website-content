@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://www.aiforanesthesiology.nl'
+SITEURL = 'https://radboudumc.aiforanesthesiology.nl'
 IMGURL = 'https://assets.aiforanesthesiology.nl'
 RELATIVE_URLS = False
 

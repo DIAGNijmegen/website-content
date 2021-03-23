@@ -10,8 +10,8 @@ from datetime import date
 AUTHOR = "AI for Anesthesiology"
 SITENAME = "AI for Anesthesiology"
 SITENAME_SHORT = "AI4A"
-SITE_REPO = "website-anes-ai"
-SITE_GROUP = "anes-ai"
+SITE_REPO = "website-ai4a"
+SITE_GROUP = "ai4a"
 
 # Home page and social settings
 SITELEAD = """
@@ -50,7 +50,7 @@ HOME_SECTIONS = {
     "Members": "Members",
 }
 # URLs
-SITEURL = "https://www.aiforanesthesiology.nl"
+SITEURL = "https://aiforanesthesiology.nl"
 IMGURL = SITEURL
 EDIT_CONTENT_URL = (
     "https://github.com/AIforAnesthesiology/website-content/edit/master/{file_path}"
