@@ -32,12 +32,16 @@ PARENT_DOMAIN = (
 )
 HOME_JUMBOTRON_LAYOUT = "neural-bg"
 
+# Whether to show email buttons on every person circle
+SHOW_EMAIL_GROUP_MEMBERS_INLINE = False
+
 # What sections to show in the nav bar
 NAV_SECTIONS = [
+    {"name": "About", "url": "about", "icon": "info", "text_class": "d-lg-block"}
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "projects", "icon": "folder"},
-    {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
+    #{"name": "Members", "url": "members", "icon": "users"},
+    #{"name": "Projects", "url": "projects", "icon": "folder"},
+    #{"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
     #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
     #{"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 95},
