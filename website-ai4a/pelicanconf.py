@@ -37,7 +37,7 @@ SHOW_EMAIL_GROUP_MEMBERS_INLINE = False
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "About", "url": "about", "icon_mobile": "info", "text_class": "d-lg-block"}
+    {"name": "About", "url": "about", "icon_mobile": "info", "text_class": "d-lg-block"},
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     #{"name": "Members", "url": "members", "icon": "users"},
     #{"name": "Projects", "url": "projects", "icon": "folder"},
