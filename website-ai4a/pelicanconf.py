@@ -30,6 +30,7 @@ TOP_DOMAIN = '<a href="https://anesthesiologie.nl">NVA</a>'
 PARENT_DOMAIN = (
     ''
 )
+HOME_JUMBOTRON_LAYOUT = "neural-bg"
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
