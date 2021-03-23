@@ -4,7 +4,7 @@ template: people-single
 picture: people/Rob_Tolboom.jpeg
 position: Researcher
 active: yes
-groups: radboudumc
+groups: radboudumc, ai4a
 default_group: radboudumc
 email: Rob.Tolboom@radboudumc.nl
 office: Route 710
