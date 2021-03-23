@@ -21,10 +21,10 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-radboudumc
-            site-id: NETLIFY_SITEID_RADBOUDUMC
-          #- name: website-ai4a
-          #  site-id: NETLIFY_SITEID_AI4A
+          #- name: website-radboudumc
+          #  site-id: NETLIFY_SITEID_RADBOUDUMC
+          - name: website-ai4a
+            site-id: NETLIFY_SITEID_AI4A
 
     steps:
       - uses: actions/checkout@v2
