@@ -16,8 +16,8 @@ SITE_GROUP = "ai4a"
 # Home page and social settings
 SITETITLE = "AI for Anesthesiology"
 SITELEAD = """
-AI4A - The AI for Anesthesiology research group is a newly founded research group that primarily focusses on developing and implementation of AI solutions for the anesthesiologists of the future.<br><br>
-It's our aim to develop better prediction tools to predict adverse outcomes when providing anesthesia to patients and algoritms to improve patient safety.
+The AI for Anesthesiology research group is a newly founded nationwide research collaboration that primarily focusses on the development and implementation of AI solutions for the anesthesiologists of the future.<br><br>
+We offer a platform for research collaboration, MSc student projects and PhD projects.
 """
 SITE_PICTURE = "images/general/AI4A.jpeg"
 
