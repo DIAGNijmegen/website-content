@@ -37,14 +37,14 @@ SHOW_EMAIL_GROUP_MEMBERS_INLINE = False
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "About", "url": "about", "icon": "info", "text_class": "d-lg-block"}
+    {"name": "About", "url": "about", "icon_mobile": "info", "text_class": "d-lg-block"}
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     #{"name": "Members", "url": "members", "icon": "users"},
     #{"name": "Projects", "url": "projects", "icon": "folder"},
     #{"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
     #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
-    #{"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 95},
+    {"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
 ]
 
 # Whether to show breadcrumbs on the page
@@ -52,11 +52,9 @@ ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
-    "Highlights": "Highlights",
-    "Vacancies": "Vacancies",
-    "Projects": "Projects",
-    "Members": "Members",
+    "News": "News",
 }
+
 # URLs
 SITEURL = "https://aiforanesthesiology.nl"
 IMGURL = SITEURL
@@ -97,8 +95,9 @@ PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 SLUGIFY_SOURCE = "basename"
 
-ARTICLE_URL = "highlights/{slug}/"
-ARTICLE_SAVE_AS = "highlights/{slug}/index.html"
+ARTICLE_URL = "news/{slug}/"
+ARTICLE_SAVE_AS = "news/{slug}/index.html"
+ARTICLE_TYPE = "News"
 
 TAGS_SAVE_AS = ""
 TAG_SAVE_AS = ""
@@ -107,14 +106,12 @@ CATEGORY_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
 
 ARCHIVES_SAVE_AS = ""
-
 SITEMAP_SAVE_AS = "sitemap.xml"
-INDEX_SAVE_AS = "highlights/index.html"
-ARTICLE_TYPE = "Highlights"
+INDEX_SAVE_AS = "news/index.html"
 
 # Theme settings
 THEME = "../radboudumc-template"
-DIRECT_TEMPLATES = ["index", "archives", "sitemap"]
+DIRECT_TEMPLATES = ["index", "sitemap"]
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
