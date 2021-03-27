@@ -93,13 +93,13 @@ Further questions regarding the Gleason grading system can be addressed to [memb
 function loadDzi() {
   var viewer = OpenSeadragon({
     id: "openseadragon1",
-    prefixUrl: "https://assets.diagnijmegen.nl/dzi/images/",
-    tileSources: "https://assets.diagnijmegen.nl/dzi/gleason_example_1_1024.dzi"
+    prefixUrl: "https://assets.aiforanesthesiology.nl/dzi/images/",
+    tileSources: "https://assets.aiforanesthesiology.nl/dzi/gleason_example_1_1024.dzi"
   });
   var viewer2 = OpenSeadragon({
     id: "openseadragon2",
-    prefixUrl: "https://assets.diagnijmegen.nl/dzi/images/",
-    tileSources: "https://assets.diagnijmegen.nl/dzi/gleason_example_2_1024.dzi"
+    prefixUrl: "https://assets.aiforanesthesiology.nl/dzi/images/",
+    tileSources: "https://assets.aiforanesthesiology.nl/dzi/gleason_example_2_1024.dzi"
   });
 }
 </script>
