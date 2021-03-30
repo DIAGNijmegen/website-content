@@ -1,6 +1,6 @@
 title: PhD defense Anton Schreuder
 date: 2021-03-30
-description: Anton Schreuder will defend his PhD thesis with the title 'Lung cancer screening: use the scan to decide who to scan when' on 6th of April at 12.30.
+description: Anton Schreuder will defend his PhD thesis with the title 'Lung cancer screening: use the scan to decide who to scan when' on the 6th of April at 12.30.
 picture: news/anton-schreuder-thesis.png
 groups: diag
 
