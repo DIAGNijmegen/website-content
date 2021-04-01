@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/gp_diagnoses.png
 template: project-single
-people: Richard Li, Noud Emonts, Kees van Boven, Michael Ricking, Hans Peters, Tim Olde Hartman, Hilde Luijks, Annemarie Uijen, Henk Schers
+people: Richard Li, Noud Emonts, Kees van Boven, Michael Ricking, Hans Peters, Tim Olde Hartman, Hilde Luijks, Annemarie Uijen, Henk Schers, Tom Heskes
 description: Development of a model to determine probable diagnoses for common reasons to visit a General Practitioner.
 
 ** Start date: 22-03-2021 ** <br>
