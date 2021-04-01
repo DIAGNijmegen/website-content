@@ -693,4 +693,16 @@ people:
     url: https://www.linkedin.com/in/niels-van-nistelrooij-60466a1b3/
     picture: people/external/Niels_van_Nistelrooij.jpg
     email: Niels.vanNistelrooij@radboudumc.nl
+  - name: Noud Emonts
+    position: Master Student
+    affiliation: Data Science, Radboud University
+    url:
+    picture:
+    email: Noud.Emonts@radboudumc.nl
+  - name: Richard Li
+    position: Master Student
+    affiliation: Data Science, Radboud University
+    url: https://www.linkedin.com/in/richard-li-59a13419a/
+    picture:
+    email: Richard.Li@radboudumc.nl
 
