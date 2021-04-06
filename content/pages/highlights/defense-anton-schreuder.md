@@ -1,4 +1,4 @@
-title: PhD defense Anton Schreuder: cum laude!
+title: Successful PhD defense Anton Schreuder: cum laude!
 date: 2021-04-06
 description: Anton Schreuder successfully defended his PhD thesis titled 'Lung cancer screening: use the scan to decide who to scan when' on the 6th of April and was awarded the PhD doctorate cum laude. 
 picture: news/anton-schreuder-thesis2.jpg
