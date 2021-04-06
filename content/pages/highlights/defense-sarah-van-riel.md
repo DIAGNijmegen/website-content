@@ -1,4 +1,4 @@
-title: PhD defense Sarah van Riel
+title: Successful PhD defense Sarah van Riel
 date: 2020-12-09
 description: Sarah van Riel successfully defended her PhD thesis titled 'Malignancy risk estimation of screen-detected pulmonary nodules: validation of current management recommendations' on the 9th of December. 
 picture: news/defense-sarah-van-riel.jpg
