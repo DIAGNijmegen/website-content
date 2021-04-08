@@ -8,7 +8,7 @@
     {{- BIB_ITEMS[bibkey]['pubinfo'] -}}.
     {%- endif -%}
     <small>
-        {% if 'file' in BIB_ITEMS[bibkey] %}
+        {% if ENABLE_PUBLICATION_PDF_REQUEST and 'file' in BIB_ITEMS[bibkey]  %}
         <a class="badge badge-light" href="{{- '/publications/%s'%bibkey -}}">Abstract/PDF</a>
         {% else %}
         <a class="badge badge-light" href="{{- '/publications/%s'%bibkey -}}">Abstract</a>
