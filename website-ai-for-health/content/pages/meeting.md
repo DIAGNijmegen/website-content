@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  08-04-2021  | Jeroen Verboom | [Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs.](https://www.ai-for-health.nl/projects/fracture-detection/) |
 |  15-04-2021  | Niels van Nistelrooij | [Three dimensional oral and maxillofacial surgical outcome prediction.](https://www.ai-for-health.nl/projects/surgical_outcome_prediction/) |
 |  22-04-2021  | Michel Botros | [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) |
 |  29-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
@@ -27,6 +26,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  08-04-2021  | Jeroen Verboom | [Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs.](https://www.ai-for-health.nl/projects/fracture-detection/) |
 |  25-03-2021  | Gelana Khazeeva | [DeNovoCNN: A deep learning based tool for de novo variant calling.](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) |
 |  18-03-2021  | **Guest speaker** <br> Tom Claassen | Causal discovery in real-world applications: closing the gap between theory and practice. |
 |  11-03-2021  | **Guest speaker** <br> Sijm Noteboom | [Prediction of intracranial pressure after neurotrauma.](https://drive.google.com/file/d/1g_ntneYYKpvrau7__pQihksgzOvt9fmc/view?usp=sharing) |
