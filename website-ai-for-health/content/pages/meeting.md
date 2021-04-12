@@ -18,8 +18,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  22-04-2021  | Michel Botros <br> Eugenia Martynova| [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) <br> TBA|
 |  29-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | TBA |
-|  13-05-2021  | TBA | TBA |
-|  20-05-2021  | TBA | TBA |
+|  20-05-2021  | Douwe van Erp | TBA |
 |  27-05-2021  | Nolan Cardozo | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/)<br> **MSc defence** |
 
 ## Past meetings
