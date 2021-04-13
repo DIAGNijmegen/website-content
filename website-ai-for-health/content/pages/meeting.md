@@ -19,7 +19,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  29-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | TBA |
 |  20-05-2021  | Douwe van Erp | TBA |
-|  27-05-2021  | Nolan Cardozo | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/)<br> **MSc defence** |
+|  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> TBA |
 
 ## Past meetings
 
