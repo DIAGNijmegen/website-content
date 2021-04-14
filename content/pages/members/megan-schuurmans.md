@@ -1,7 +1,7 @@
 title: Megan Schuurmans
 name: Megan Schuurmans
 template: people-single
-picture: people/Megan_Schuurmans.png
+picture: people/Megan_Schuurmans.jpg
 position: PhD Candidate
 active: yes
 groups: diag
