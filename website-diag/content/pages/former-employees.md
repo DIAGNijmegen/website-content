@@ -31,6 +31,7 @@ title: Former employees
 - [Bianca Lassen](https://www.linkedin.com/in/bianca-lassen-schmidt-3872b9153/)
 - [Bart Liefers](https://www.linkedin.com/in/bart-liefers-2aa4041a5/)
 - [Pragnya Maduskar](https://nl.linkedin.com/in/pragnya-maduskar-675a408)
+- [Rashindra Manniesing](https://www.linkedin.com/in/rashindra/)
 - [Jaime Melendez](https://nl.linkedin.com/pub/jaime-melendez/b6/3b/690)
 - [Midas Meijs](https://www.linkedin.com/in/midas-meijs/)
 - [Christian Mol](http://nl.linkedin.com/pub/christian-mol/3/357/a21)
