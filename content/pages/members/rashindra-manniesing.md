@@ -3,7 +3,7 @@ name: Rashindra Manniesing
 template: people-single
 picture: people/Rashindra_Manniesing.jpg
 position: Assistant Professor
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: rashindra.manniesing@radboudumc.nl
