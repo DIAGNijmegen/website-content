@@ -14,8 +14,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  15-04-2021  | Niels van Nistelrooij | [Three dimensional oral and maxillofacial surgical outcome prediction.](https://www.ai-for-health.nl/projects/surgical_outcome_prediction/) |
-|  22-04-2021  | Michel Botros <br> Eugenia Martynova| [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) <br> TBA|
+|  22-04-2021  | Michel Botros <br> Eugenia Martynova| [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) <br> [Artificial intelligence-assisted detection of adhesions on cine MRI.](https://www.ai-for-health.nl/projects/ai-for-adhesions-msc/)|
 |  29-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | TBA |
 |  20-05-2021  | Douwe van Erp | TBA |
@@ -25,6 +24,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  15-04-2021  | Niels van Nistelrooij | [Three dimensional oral and maxillofacial surgical outcome prediction.](https://www.ai-for-health.nl/projects/surgical_outcome_prediction/) |
 |  08-04-2021  | Jeroen Verboom | [Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs.](https://www.ai-for-health.nl/projects/fracture-detection/) |
 |  25-03-2021  | Gelana Khazeeva | [DeNovoCNN: A deep learning based tool for de novo variant calling.](https://www.ai-for-health.nl/projects/genetic-diagnosis-rare-diseases/) |
 |  18-03-2021  | **Guest speaker** <br> Tom Claassen | Causal discovery in real-world applications: closing the gap between theory and practice. |
