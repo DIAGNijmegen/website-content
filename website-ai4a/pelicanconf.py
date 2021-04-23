@@ -45,7 +45,7 @@ NAV_SECTIONS = [
     #{"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
     #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
-    {"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
+    #{"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
 ]
 
 # Whether to show breadcrumbs on the page
