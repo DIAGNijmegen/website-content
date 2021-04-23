@@ -2,6 +2,7 @@ title: Brachial plexus nerve segmentation
 picture: projects/brachial-plexus.png
 template: research-single
 groups: radboudumc, ai4a
+default_group: radboudumc
 people: Rob Tolboom
 description: Automated nerve segementation on ultrasound imaging.
 projects: ai-brachial-plexus-segmentation, ai-brachial-plexus-segmentation-2
