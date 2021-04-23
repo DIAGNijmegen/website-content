@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = "AI for Anesthesiology"
-SITENAME = "AI for Anesthesiology"
+SITENAME = "Radboudumc"
 SITENAME_SHORT = "UMCN"
 SITE_REPO = "website-radboudumc"
 SITE_GROUP = "radboudumc"
@@ -23,9 +23,9 @@ HOME_IMAGE = "images/general/AI4A.jpeg"
 # HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = None
 FOOTER_TEXT = 'AI for Anesthesiology is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
-TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
+TOP_DOMAIN = '<a href="https://anesthesiologie.nl">NVA</a>'
 PARENT_DOMAIN = (
-    '<a href="https://www.radboudumc.nl/afdelingen/anesthesiologie-pijn-en-palliatieve-geneeskunde">Anesthesiology</a>'
+    '<a href="https://www.aiforanesthesiology.nl">AI for Anesthesiology</a>'
 )
 
 # What sections to show in the nav bar
