@@ -15,6 +15,7 @@ In the Netherlands, several pioneers spearheaded research in novel AI solutions 
 
 ## Aims
 The AI for Anesthesiology group seeks to stimulate the development and implementation of AI solutions in our anesthesiologic daily practise by:
+
 * Offering an online platform where all research groups can present their projects and list their vacancies.
 * Organising regular meetings where new developments, project proposals, and collaboration can be discussed.
 * Organising a session dedicated to AI on the annual Dutch Anesthesiology days in May.
