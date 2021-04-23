@@ -25,9 +25,7 @@ The main research fields in anesthesiolgy are in deep learning and supervised ma
 
 
 ## Board of directors
-| Function | Name |
-| - | ---- |
-| Founder | [member/rob-tolboom] |
+* [member/rob-tolboom], Radboudumc, Nijmegen
 
 ## Industry collaborations
 The AI for Anesthesiology currently has no ungoing/past collaborations with industry partners.
