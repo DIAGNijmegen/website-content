@@ -1,6 +1,13 @@
 title: Participating research groups 
 description: List of all participating research groups.
 
+
+
+
+
+
+
+
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 
 
 The weekly meeting is held, until further notice, via Zoom (and no longer in person in the Innovation Space (route 441) of the Radboudumc) every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. PhD candidates are expected to give an update on their project twice a year. MSc students are required to present their work at the beginning and end of their project. The research project supervisors are expected to be present during the presentations of their MSc student. The attendance of research project supervisors during other meetings is optional, but highly appreciated. 

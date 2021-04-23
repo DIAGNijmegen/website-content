@@ -31,4 +31,4 @@ The main research fields in anesthesiolgy are in deep learning and supervised ma
 * [member/rob-tolboom], Radboudumc, Nijmegen
 
 ## Industry collaborations
-The AI for Anesthesiology group currently has no ungoing/past collaborations with industry partners.
+The AI for Anesthesiology group currently has no ongoing/past collaborations with industry partners.

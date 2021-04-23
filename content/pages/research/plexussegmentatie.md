@@ -1,7 +1,7 @@
 title: Brachial plexus nerve segmentation
 picture: projects/brachial-plexus.png
 template: research-single
-groups: radboudumc
+groups: radboudumc, ai4a
 people: Rob Tolboom
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: ai-brachial-plexus-segmentation
