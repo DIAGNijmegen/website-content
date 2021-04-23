@@ -1,4 +1,4 @@
-title: About AI4A
+title: About AI for Anesthesiology
 
 The AI for Anesthesiology group was founded in early 2021. This page provides a background, our current aims, main research topics, and collaborations.
 
