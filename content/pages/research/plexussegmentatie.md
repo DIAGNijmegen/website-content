@@ -3,9 +3,17 @@ picture: projects/brachial-plexus.png
 template: research-single
 groups: radboudumc, ai4a
 people: Rob Tolboom
-description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
+description: Automatic nerve segementation on ultrasound imaging.
 projects: ai-brachial-plexus-segmentation
 
-Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. The World Health Organization (WHO) has estimated that there were 2.09 million cases of lung cancer and 1.76 million deaths due to lung cancer in 2018. Tobacco smoking remains the main risk factor for lung cancer. Imaging is crucial for early detection, diagnosis, treatment planning and monitoring of lung cancer. It plays an important role in the multidisciplinary management of lung cancer patients.
+Regional nerve block is a common anaesthesia technique used for surgery on the extremities. A successful block requires excellent anaesthesia experience including the ability to identify the appropriate nerves and surrounding tissues on ultrasound and good skills with a needle.
 
-In this research line, we aim to develop, validate and deploy algorithms that assist in the interpretation of radiological imaging for lung cancer. This research line is led by [member/colin-jacobs]. Click on the cards below to learn about the various projects in lung cancer image analysis.
+Previous studies have primarily focussed on the usage of ultrasound which has shown that ultrasound increases the success rate of regional nerve blocks. Some studies, however, have found that even with ultrasound assistance, a relatively high failure rate persists. This failure rate has largely been attributed to operators with limited experience and insufficient ultrasound skills.
+
+A failed nerve block not only results in a bad experience for the patient, it might even lead to damage to the patients’ health and in some cases complications could even threaten life.
+
+It’s essential to recognise ultrasound anatomy when performing nerve blocks, however this may sometimes be hampered by patients’ habitus. 
+
+In this research line, we aim to develop, validate and deploy algorithms that assist in the interpretation of ultrasound imaging for brachial plexus blockade. This research line is led by [member/rob-tolboom]. 
+
+Click on the cards below to learn more about the various projects.
