@@ -14,3 +14,20 @@ Artificial intelligence can be used to support clinical decisions and improve he
 In the Netherlands, several pioneers spearheaded research in novel AI solutions to better our anesthesiologic practise. In order to better coordinate research efforts, this research group was founded.
 
 ## Aims
+The AI for Anesthesiology group seeks to stimulate the development and implementation of AI solutions in our anesthesiologic daily practise by:
+* Offering an online platform where all research groups can present their projects and list their vacancies.
+* Organising regular meetings where new developments, project proposals, and collaboration can be discussed.
+* Organising a session dedicated to AI on the annual Dutch Anesthesiology days in May.
+* Sending a triannual newsletter containing AI news, recent publications and upcoming meetings/events.
+
+## Main research topics
+The main research fields in anesthesiolgy are in deep learning and supervised machine learning. Supervised machine learning can be used to create novel prediction models with better precision compared to regression models. Deep learning is most often used for image analysis, e.g. ultrasound images.
+
+
+## Board of directors
+| Function | Name |
+| ---- | ---- |
+| Founder | [member/rob-tolboom] |
+
+## Industry collaborations
+The AI for Anesthesiology currently has no ungoing/past collaborations with industry partners.
