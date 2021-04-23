@@ -16,6 +16,7 @@ A failed nerve block not only results in a bad experience for the patient, it mi
 
 It’s essential to recognise ultrasound anatomy when performing nerve blocks, however this may sometimes be hampered by patients’ habitus. 
 
+## Aim
 In this research line, we aim to develop, validate and deploy algorithms that assist in the interpretation of ultrasound imaging for brachial plexus blockade. This research line is led by [member/rob-tolboom]. 
 
 Click on the cards below to learn more about the various projects.
