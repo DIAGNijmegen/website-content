@@ -1,5 +1,5 @@
-title: Participating centers 
-description: List of all participating centers and research groups.
+title: Participating research groups 
+description: List of all participating research groups.
 
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 
 
