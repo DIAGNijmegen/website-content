@@ -22,8 +22,10 @@ The AI for Anesthesiology group seeks to stimulate the development and implement
 * Sending a triannual newsletter containing AI news, recent publications and upcoming meetings/events.
 
 ## Main research topics
-The main research fields in anesthesiolgy are in deep learning and supervised machine learning. Supervised machine learning can be used to create novel prediction models with better precision compared to regression models. Deep learning is most often used for image analysis, e.g. ultrasound images.
+The main research fields in anesthesiolgy are in deep learning and supervised machine learning:
 
+* Supervised machine learning can be used to create novel prediction models with better precision compared to regression models. 
+* Deep learning is most often used for image analysis, e.g. ultrasound images.
 
 ## Board of directors
 * [member/rob-tolboom], Radboudumc, Nijmegen
