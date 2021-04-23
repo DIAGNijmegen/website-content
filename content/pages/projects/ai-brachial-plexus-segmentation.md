@@ -23,4 +23,5 @@ It’s essential to recognise ultrasound anatomy when performing nerve blocks, h
 In this project we will attempt to create a dataset of ultrasound images depicting the brachial plexus and manually annotate the brachial plexus for later use.
 
 Primary objective:
- 1. Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
+
+1. Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
