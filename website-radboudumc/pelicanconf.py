@@ -32,7 +32,7 @@ PARENT_DOMAIN = (
 NAV_SECTIONS = [
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Projects", "url": "research", "icon": "folder"},
+    {"name": "Reserarch", "url": "research", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
     #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
@@ -40,7 +40,7 @@ NAV_SECTIONS = [
 ]
 
 # Whether to show breadcrumbs on the page
-ENABLE_BREADCRUMBS = True
+ENABLE_BREADCRUMBS = False
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
