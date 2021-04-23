@@ -49,7 +49,7 @@ NAV_SECTIONS = [
 ]
 
 # Whether to show breadcrumbs on the page
-ENABLE_BREADCRUMBS = True
+ENABLE_BREADCRUMBS = False
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
