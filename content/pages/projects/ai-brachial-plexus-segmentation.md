@@ -1,4 +1,4 @@
-title: Brachial plexus segmentation on ultrasound imaging with a deep learning model
+title: Dataset creation with manual segmentation
 picture: projects/brachial-plexus.png
 groups: ai4a, radboudumc
 default_group: radboudumc
@@ -6,7 +6,7 @@ finished: false
 type: general
 template: project-single
 people: Rob Tolboom
-description: The goal of this study is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and then train a deep learning model to segment the ultrasound images.
+description: The goal of this project is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and manually annotate the brachial plexus.
 
 
 ## Background
@@ -20,10 +20,7 @@ It’s essential to recognise ultrasound anatomy when performing nerve blocks, h
 
 
 ## Aim
-In this study we will attempt to create a dataset of ultrasound images depicting the brachial plexus and use this dataset to train an U-net model in order to identify the region of interest in these images, which may potentially be used in clinical practise.
+In this project we will attempt to create a dataset of ultrasound images depicting the brachial plexus and manually annotate the brachial plexus for later use.
 
 Primary objective:  
 1. Construct a dataset of ultrasound images depicting the brachial plexus with manual image segmentation
-
-Secondary objective(s):  
-1. Train an U-net deep learning model using the dataset and teach it to properly identify the brachial plexus

@@ -1,10 +1,12 @@
-title: Brachial plexus nerve segmentation
+title: Training U-net model
 picture: projects/brachial-plexus.png
-template: research-single
-groups: radboudumc, ai4a
+groups: ai4a, radboudumc
+default_group: radboudumc
+finished: false
+type: general
+template: project-single
 people: Rob Tolboom
-description: Automated nerve segementation on ultrasound imaging.
-projects: ai-brachial-plexus-segmentation, ai-brachial-plexus-segmentation-2
+description: The goal of this project is to use the dataset with manual segmentation masks to train an U-net model.
 
 ## Background
 Regional nerve block is a common anaesthesia technique used for surgery on the extremities. A successful block requires excellent anaesthesia experience including the ability to identify the appropriate nerves and surrounding tissues on ultrasound and good skills with a needle.
@@ -15,6 +17,9 @@ A failed nerve block not only results in a bad experience for the patient, it mi
 
 It’s essential to recognise ultrasound anatomy when performing nerve blocks, however this may sometimes be hampered by patients’ habitus. 
 
-In this research line, we aim to develop, validate and deploy algorithms that assist in the interpretation of ultrasound imaging for brachial plexus blockade. This research line is led by [member/rob-tolboom]. 
 
-Click on the cards below to learn more about the various projects.
+## Aim
+In this study we will attempt to use the dataset of ultrasound images depicting the brachial plexus to train an U-net model in order to identify the region of interest in these images, which may potentially be used in clinical practise.
+
+Primary objective:  
+1. Train an U-net deep learning model using the dataset and teach it to properly identify the brachial plexus
