@@ -2,8 +2,15 @@ title: About AI4A
 
 The AI for Anesthesiology group was founded in early 2021. This page provides a background, our current aims, main research topics, and collaborations.
 
-# Titel
-Test
+## Background
+These past few years, artificial intelligence (AI) has unknowingly evolved to be a vital part of our current daily life. For instance, it's hard to remember that just a few years ago when you Googled a search term such as 'puppy', Google would just provide a list of websites containing the word. 
 
-## Andere titel
-Test 2
+Nowadays it analyses the user's history and utilises AI to help you search the information you want. For instance one would only have to start typing 'pu' and Google would use AI to suggest 'puppy' and after hitting the space bar would even suggest 'puppy training', 'puppy buy', etc. A researcher, however, would probably see 'PubMed' as primary suggestion following just those first two letters. 
+
+The medical world prides itself on the many cutting edge medical technologies used to diagnose and treat patients. Unfortunately, the introduction of AI solutions is slow. Only a few studies regarding AI solutions for the anesthesiologic practise have been published these past few years.
+
+Artificial intelligence can be used to support clinical decisions and improve healthcare in numerous ways. It can be used to extract useful information from clinical data, can predict outcomes, or assist in text or image analysis. 
+
+In the Netherlands, several pioneers spearheaded research in novel AI solutions to better our anesthesiologic practise. In order to better coordinate research efforts, this research group was founded.
+
+## Aims
