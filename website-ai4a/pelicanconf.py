@@ -43,7 +43,7 @@ NAV_SECTIONS = [
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     #{"name": "Members", "url": "members", "icon": "users"},
     #{"name": "Projects", "url": "projects", "icon": "folder"},
-    #{"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
+    {"name": "Vacancies", "url": "vacancies", "icon_mobile": "vacancies"},
     #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
     #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
     #{"name": "Contact", "url": "contact", "icon_mobile": "envelope-o", "text_class": "d-lg-block"},
