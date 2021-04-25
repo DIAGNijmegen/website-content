@@ -39,7 +39,7 @@ SHOW_EMAIL_GROUP_MEMBERS_INLINE = False
 NAV_SECTIONS = [
     {"name": "About", "url": "about", "icon_mobile": "info", "text_class": "d-lg-block"},
     {"name": "Members", "url": "centers", "icon_mobile": "users", "text_class": "d-lg-block"},
-    {"name": "Reserarch", "url": "research", "icon_mobile": "folder"},
+    {"name": "Research", "url": "research", "icon_mobile": "folder"},
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     #{"name": "Members", "url": "members", "icon": "users"},
     #{"name": "Projects", "url": "projects", "icon": "folder"},
