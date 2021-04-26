@@ -55,6 +55,13 @@
 
   <div class="page-content">
     {{ page.content }}
+
+    {% if 'vimeo' in BIB_ITEMS[page.bibkey] %}
+    <div class="video-container">
+      <iframe src="https://player.vimeo.com/video/{{ BIB_ITEMS[page.bibkey]['vimeo'] }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
   </div>
 
   {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
