@@ -3,8 +3,8 @@
 1. All publications and theses are collected from the diag.bib (https://github.com/DIAGNijmegen/diag-literature) that is *automatically* copied into website-content/content/.
 2. The allowed entry types are: InProceedings, Conference, Article, PhdThesis, Mastersthesis, Patent, Book
 3. Personal publications are based on the last names from the member's pages in combination with the bibentry.
-4. Besides the standard keyword in the bibfile the following extra keywords can be used: gsid, gscites, code, github, algorithm.   
-5. The (personal) publication page and theses gallery of the group should be filled correctly automatically.
+4. Besides the standard keyword in the bibfile the following extra keywords can be used: gsid, gscites, code, github, algorithm, vimeo.
+6. The (personal) publication page and theses gallery of the group should be filled correctly automatically.
 7. If (2,3,4,5) doesn't work (correctly), please write an issue for us in DIAGNijmegen/website-content/issues
 8. The cover of the theses (minimal 400px wide) need to be uploaded in website-content/content/images/theses.
 
