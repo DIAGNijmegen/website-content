@@ -43,4 +43,12 @@
         <a class="badge badge-light" href="{{ BIB_ITEMS[bibkey]['algorithm'] }}">Algorithm</a>
         {% endif %}
 
+        {% if 'algorithm' in BIB_ITEMS[bibkey] %}
+        <a class="badge badge-light" href="{{ BIB_ITEMS[bibkey]['algorithm'] }}">Algorithm</a>
+        {% endif %}
+
+        {% if 'vimeo' in BIB_ITEMS[bibkey] %}
+        <a class="badge badge-light" href="https://vimeo.com/{{ BIB_ITEMS[bibkey]['vimeo'] }}">Vimeo</a>
+        {% endif %}
+
     </small></li>
