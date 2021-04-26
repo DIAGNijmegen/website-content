@@ -7,50 +7,70 @@
 
     <div class="container">
 
-    {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
-        <img src="{{ IMGURL }}/images/theses/{{ page.coverpng | resize_image('large') }}">
-    {% endif %}
-
-    <h1 class="page-title">{{ page.title }}</h1>
-
-    <p class="lead">
-        {% for author in page.authors %}
-            {{ author }}
-        {% endfor %}
-    </p>
-
-
-    {% if page.promotor %}
-        <b>Promotor: {{ page.promotor }}</b><br>
-    {% endif %}
-
-    {% if page.copromotor %}
-        <b>Copromotor: {{ page.copromotor }}</b><br>
-    {% endif %}
-
-    {% if page.school %}
-        <b>{{ page.school }}</b><br>
-    {% endif %}
-
-    {% if page.optmonth or page.year %}
-        <b>
-            {% if page.optmonth %}
-                {{page.optmonth.replace(',', '')}}<br>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-title">{{ page.title }}</h1> 
+            </div>
+        </div>
+    
+        
+        <div class="row">
+            {% if BIB_ITEMS[page.bibkey]['cover_exists'] == 'True' %}
+            <div class="col-md-4">
+                <div class="mt-4 ml-1">
+                    <div class="mt-4">
+                        <img class="img-thumbnail" src="{{ IMGURL }}/images/theses/{{ page.coverpng | resize_image('medium') }}">
+                    </div>
+                    {% if page.urlweb %}
+                        <div class="mt-4">
+                        <a href="{{ page.urlweb }}" class="btn btn-primary btn-sm">Download thesis</a>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
             {% endif %}
-            {% if page.year %}
-                {{ page.year }}<br>
-            {% endif %}
-        </b><br>
-    {% endif %}
+    
+            <div class="{% if BIB_ITEMS[page.bibkey]['cover_exists'] != 'True' %}col-md-12{% else %}col-md-8{% endif %}">
+                <h2>
+                {% for author in page.authors %}
+                    {{ author }}
+                {% endfor %}
+                </h2>
+                <ul class="list-unstyled">
+                <li>
+                {% if page.promotor %}
+                    <b>Promotor:</b> {{ page.promotor }}
+                {% endif %}
+                </li>
+                <li>
+                {% if page.copromotor %}
+                    <b>Copromotor:</b> {{ page.copromotor }}
+                {% endif %}
+                </li>
+                {% if page.year %}
+                    <li>
+                    <b>Graduation year:</b> {{ page.year }}
+                    </li>
+                {% endif %}
+       
+                {% if page.school %}
+                <li>
+                    <b>{{ page.school }}</b>
+                </li>
+                {% endif %}
 
-    {{ page.pub_details }}<br>
+                {% if BIB_ITEMS[page.bibkey]['cover_exists'] != 'True' %}
+                <li>
+                    <a href="{{ page.urlweb }}" class="btn btn-primary btn-sm">Download thesis</a>
+                </li>
+                {% endif %}
 
-    {% if page.urlweb %}
-        <a href="{{ page.urlweb }}" class="btn btn-primary">URL</a><br>
-    {% endif %}
+                </ul>
 
-    <h2>Abstract</h2>
-    {{ page.content }}
+                <h2>Abstract</h2>
+                {{ page.content }}
+            </div>
+        </div>
 
 
     {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}
