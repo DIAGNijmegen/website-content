@@ -2,7 +2,7 @@ title: Dataset creation with manual segmentation
 picture: projects/brachial-plexus.png
 groups: radboudumc, ai4a
 default_group: radboudumc
-finished: true
+finished: false
 type: general
 template: project-single
 people: Rob Tolboom
