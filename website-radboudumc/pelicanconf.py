@@ -15,8 +15,7 @@ SITE_GROUP = "radboudumc"
 
 # Home page and social settings
 SITELEAD = """
-Research into automated ultrasound image segmentation is the current focus of the department of Anesthesiology, Pain and Palliative Medicine at Radboudumc.
-
+Research into automated ultrasound image segmentation is the current focus of the department of Anesthesiology, Pain and Palliative Medicine at Radboudumc.<br><br>
 We aim to develop tools to enhance the anesthesiologist's ability to provide safer locoregional blocks by live nerve segmentation on ultrasound imaging.
 """
 SITE_PICTURE = "images/radboudumc_logo_english.png"
