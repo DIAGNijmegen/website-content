@@ -1,6 +1,6 @@
 title: Training U-net model
 picture: projects/u-net-architecture.png
-groups: ai4a, radboudumc
+groups: radboudumc, ai4a
 default_group: radboudumc
 finished: false
 type: general
