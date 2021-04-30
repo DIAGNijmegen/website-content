@@ -15,14 +15,13 @@ SITE_GROUP = "radboudumc"
 
 # Home page and social settings
 SITELEAD = """
-RADBOUDUMC - The AI for Anesthesiology research group is a newly founded research group that primarily focusses on developing and implementation of AI solutions for the anesthesiologists of the future.<br><br>
-It's our aim to develop better prediction tools to predict adverse outcomes when providing anesthesia to patients and algoritms to improve patient safety.
+At our anesthesia department we're currently focussing our AI research on automated ultrasound image segementation to enable automatic nerve detection.
 """
 SITE_PICTURE = "images/radboudumc_logo_english.png"
 HOME_IMAGE = "images/radboudumc_logo_english.png"
-# HOME_IMAGE_CAPTION = 'Automated tumor detection'
+# HOME_IMAGE_CAPTION = ''
 TWITTER_URL = None
-FOOTER_TEXT = 'AI for Anesthesiology is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
+FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://anesthesiologie.nl">NVA</a>'
 PARENT_DOMAIN = (
     '<a href="https://www.aiforanesthesiology.nl">AI for Anesthesiology</a>'
@@ -47,8 +46,6 @@ HOME_SECTIONS = {
     "Highlights": "Highlights",
     "Vacancies": "Vacancies",
     "Projects": "Projects",
-    "Research": "Research",
-    "Members": "Members",
 }
 # URLs
 SITEURL = "https://radboudumc.aiforanesthesiology.nl"
