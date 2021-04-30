@@ -1,5 +1,5 @@
 title: Training U-net model
-picture: projects/brachial-plexus.png
+picture: projects/u-net-architecture.png
 groups: ai4a, radboudumc
 default_group: radboudumc
 finished: false
