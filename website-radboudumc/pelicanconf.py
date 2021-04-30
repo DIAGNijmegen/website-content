@@ -15,7 +15,9 @@ SITE_GROUP = "radboudumc"
 
 # Home page and social settings
 SITELEAD = """
-At our anesthesia department we're currently focussing our AI research on automated ultrasound image segementation to enable automatic nerve detection.
+Research into automated ultrasound image segmentation is the current focus of the department of Anesthesiology, Pain and Palliative Medicine at Radboudumc.
+
+We aim to develop tools to enhance the anesthesiologist's ability to provide safer locoregional blocks by live nerve segmentation on ultrasound imaging.
 """
 SITE_PICTURE = "images/radboudumc_logo_english.png"
 HOME_IMAGE = "images/radboudumc_logo_english.png"

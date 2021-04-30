@@ -2,7 +2,7 @@ title: Brachial plexus segmentation on ultrasound imaging
 groups: ai4a, radboudumc
 closed: false
 type: student
-picture: projects/brachial-plexus.png
+picture: projects/u-net-architecture.png
 template: vacancy-single
 people: Rob Tolboom
 description: Develop a Deep Learning (DL) model to segment the brachial plexus on ultrasound images.
