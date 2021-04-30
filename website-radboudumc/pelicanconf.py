@@ -19,7 +19,7 @@ RADBOUDUMC - The AI for Anesthesiology research group is a newly founded researc
 It's our aim to develop better prediction tools to predict adverse outcomes when providing anesthesia to patients and algoritms to improve patient safety.
 """
 SITE_PICTURE = "images/radboudumc_logo_english.png"
-HOME_IMAGE = "images/general/AI4A.jpeg"
+HOME_IMAGE = "images/radboudumc_logo_english.png"
 # HOME_IMAGE_CAPTION = 'Automated tumor detection'
 TWITTER_URL = None
 FOOTER_TEXT = 'AI for Anesthesiology is part of the department of Anesthesiology, Pain and Palliative Medicine of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
@@ -32,7 +32,7 @@ PARENT_DOMAIN = (
 NAV_SECTIONS = [
     #{"name": "Highlights", "url": "highlights", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Reserarch", "url": "research", "icon": "folder"},
+    {"name": "Research", "url": "research", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     #{"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 95},
     #{"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
@@ -47,7 +47,7 @@ HOME_SECTIONS = {
     "Highlights": "Highlights",
     "Vacancies": "Vacancies",
     "Projects": "Projects",
-    "Reserarch": "Reserarch",
+    "Research": "Research",
     "Members": "Members",
 }
 # URLs
