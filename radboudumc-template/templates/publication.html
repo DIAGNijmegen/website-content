@@ -62,6 +62,12 @@
     </div>
     {% endif %}
 
+    {% if 'youtube' in BIB_ITEMS[page.bibkey] %}
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/{{ BIB_ITEMS[page.bibkey]['youtube'] }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
   </div>
 
   {% if ENABLE_PUBLICATION_PDF_REQUEST and page.has_pdf == 'True' %}

@@ -47,4 +47,8 @@
         <a class="badge badge-light" href="https://vimeo.com/{{ BIB_ITEMS[bibkey]['vimeo'] }}">Vimeo</a>
         {% endif %}
 
+        {% if 'youtube' in BIB_ITEMS[bibkey] %}
+        <a class="badge badge-light" href="https://youtube.com/watch?v={{ BIB_ITEMS[bibkey]['youtube'] }}">YouTube</a>
+        {% endif %}
+
     </small></li>
