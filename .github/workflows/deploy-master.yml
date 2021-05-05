@@ -42,11 +42,11 @@ jobs:
         with:
           python-version: 3.9
 
-      - uses: actions/cache@v2
-        id: cache
-        with:
-          path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+      # - uses: actions/cache@v2
+      #   id: cache
+      #   with:
+      #     path: ${{ env.pythonLocation }}
+      #     key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
