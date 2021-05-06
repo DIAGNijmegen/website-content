@@ -21,3 +21,5 @@ An independent page is created via 2 steps:
     ```
     if ARTICLE_EXCLUDES, TEMPLATE_PAGES already exists in pelicanconf.py, you only need to add your new custom page to TEMPLATE_PAGES dictionary
 
+ 
+If you have made an independent custom page, you may also want some custom content. You can create custom content by adding it the content website-folder itself.
