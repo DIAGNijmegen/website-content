@@ -1,36 +1,12 @@
-title: Third edition
-description: A collaboration between Radboud University and Radboudumc aimed at developing innovations based on artificial intelligence that solve clinical problems.
+title: How to apply?
+description: Would you like to join the next edition of the AI for Health course? Here you can find more information on how to apply.
 groups: ai-for-health
-picture: news/XMG_20200925_142130.jpg
+picture: projects/ai_for_health.png
 
-## What you need to know for the third edition of the course:
-- The course will be held on 14 Fridays, with different topics per day, starting in September 2021.
-- The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice.
-- The program for the 14 Fridays will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.
-- In addition there will be 4 project days, also on Fridays, in the Radboudumc where you will work in a team on a Radboudumc project.
-- We expect participants to spend on average 4 hours per week on homework and self study.
-- There will be an online training environment with support documentation, discussion forum and blended learning.
-- The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded.
+**How to apply**:<br>
+If you are interested, please send the following information to aiforhealth@radboudumc.nl:
 
-An overview of the course schedule can be seen below.
+- Motivation letter (max 1 A4)
+- CV (max 1 A4)
+- Support letter head of department ([see format here](https://www.radboudumc.nl/intranet/getmedia/722df5b9-18e5-473e-978f-fd8bb4636564/Concept-akkoord-Afdelingshoofd-deelname-cursus-februari-2021.aspx))
 
-| Date  |  Topic  |
-| ----- | ------- |
-| TBD | Introduction / Final Presentations Course 2 | 
-| TBD | Machine Learning 1 / Python 1 |
-| TBD |	Machine Learning 2 / Python 2 |
-| TBD | Machine Learning 3 |
-| TBD | Machine Learning 4 |
-| TBD |	Deep Learning 1 |
-| TBD |	Deep Learning 2 |
-| TBD |	Data Engineering / Ethics / Privacy |
-| TBD |	Project Day 1 |
-| TBD |	Machine Learning 5 |
-| TBD |	Text Mining |
-| TBD |	Project Day 2 |
-| TBD |	Bioinformatics |
-| TBD |	Visualization |
-| TBD |	Project Day 3 |
-| TBD |	Deployment | 
-| TBD | Project Day 4 |
-| TBD |	Final Presentations  |
