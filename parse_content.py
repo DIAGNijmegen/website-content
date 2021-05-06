@@ -3,27 +3,20 @@ import glob
 import shutil
 import sys
 
-default_directories = ['members', 'highlights', 'presentations', 'projects', 'software', 'vacancies', 'calendar', 'publications', 'research']
-optional_directories = ['courses']
+directories = ['members', 'highlights', 'presentations', 'projects', 'software', 'vacancies', 'calendar', 'publications', 'research']
 
-directories = default_directories + optional_directories
 site = sys.argv[1]
 group_name = site[8:]
 
 print(f"Copying content for {site} (group: {group_name})")
 
-for dir in default_directories:
+for dir in directories:
     output_dir = os.path.join(site, dir)
     print(output_dir)
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
 
 for dir in directories:
-    output_dir_ = os.path.join(site, dir)
-    print(output_dir_)
-    if not os.path.isdir(output_dir_):
-        print('huh')
-        continue
 
     files = glob.glob(os.path.join('content', 'pages', dir, '*.md'))
 

@@ -18,7 +18,7 @@ SITETITLE = "AI for Health"
 SITELEAD = "Radboud AI for Health is an ICAI lab where Radboud University and Radboudumc collaborate to create AI innovations in healthcare. We offer courses for professionals, MSc student projects and PhD projects."
 SITE_PICTURE = "images/social/missing_picture_social.png"
 
-HOME_IMAGE = None  #'images/general/AIforHealth.png'
+HOME_IMAGE = 'images/general/AIforHealth.png'
 HOME_IMAGE_CAPTION = "AI for Health"
 
 TWITTER_URL = None
@@ -134,6 +134,11 @@ INDEX_SAVE_AS = "news/index.html"
 # Theme settings
 THEME = "../radboudumc-template"
 DIRECT_TEMPLATES = ["index", "sitemap"]
+
+ARTICLE_EXCLUDES = ['templates']
+TEMPLATE_PAGES = {
+    'templates/courses.html': 'test_courses.html',
+}
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
