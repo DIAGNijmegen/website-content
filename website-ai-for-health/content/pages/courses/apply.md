@@ -1,11 +1,15 @@
-title: How to apply
-description: A collaboration between Radboud University and Radboudumc aimed at developing innovations based on artificial intelligence that solve clinical problems.
+title: Previous courses
+description: There have been two previous editions of the AI for Health course. Here you can find more information about them.
 groups: ai-for-health
-picture: projects/ai_for_health.png
+picture: courses/certificates.png
 
-**How to apply**:<br>
-If you are interested, please send the following information to aiforhealth@radboudumc.nl:
+## Second edition
+The second edition of the AI for Health course started September 18, 2020. A group of 20 Radboudumc employees and 2 employees of the Jeroen Bosch hospital followed the course, consisting of 14 days of lectures and practical assignments at the Radboudumc and JADS. At the end of the course the participants formed five teams that spend 4 days to develop an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final_presentations_second_ai_for_health_course/).
 
-- Motivation letter (max 1 A4)
-- CV (max 1 A4)
-- Support letter head of department ([see format here](https://www.radboudumc.nl/intranet/getmedia/722df5b9-18e5-473e-978f-fd8bb4636564/Concept-akkoord-Afdelingshoofd-deelname-cursus-februari-2021.aspx))
+
+## First edition
+The first edition of the AI for Health course started November 2, 2019. A group of 25 Radboudumc employees followed the course, consisting of 11 days of lectures and practical assignments at JADS. The participants formed six teams that have developed an AI solution to a challenging clinical problem. You can read about their final presentations [here](https://www.ai-for-health.nl/news/final-presentation-first-ai-for-health-course/).
+
+An introductory presentation by Egge van der Poel was given on September 16, 2019. The slides of this presentation can be found [here](https://drive.google.com/open?id=1nnYpNSdr10E3Zm7IiV78UFj239eIV4Yx). 
+
+
