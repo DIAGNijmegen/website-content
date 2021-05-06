@@ -1,7 +1,7 @@
 title: Third edition
 description: The third edition of the AI for Health course will start in September 2021. Here you can find more information.
 groups: ai-for-health
-picture: news/XMG_20200925_142130.jpg
+picture: courses/XMG_20200925_142130.jpg
 
 ## What you need to know for the third edition of the course:
 - The course will be held on 14 Fridays, with different topics per day, starting in September 2021.
