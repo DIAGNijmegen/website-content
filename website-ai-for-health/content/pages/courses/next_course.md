@@ -1,7 +1,7 @@
 title: Third edition
 description: A collaboration between Radboud University and Radboudumc aimed at developing innovations based on artificial intelligence that solve clinical problems.
 groups: ai-for-health
-picture: projects/ai_for_health.png
+picture: news/XMG_20200925_142130.jpg
 
 ## What you need to know for the third edition of the course:
 - The course will be held on 14 Fridays, with different topics per day, starting in September 2021.
