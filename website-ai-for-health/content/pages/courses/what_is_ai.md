@@ -1,5 +1,5 @@
-title: What is AI?
-description: A collaboration between Radboud University and Radboudumc aimed at developing innovations based on artificial intelligence that solve clinical problems.
+title: AI in healthcare
+description: There are already many ways in which AI plays a role in healthcare and new developments emerge continuously. Here you can find more information about the role of AI in healthcare.
 groups: ai-for-health
 picture: projects/ai_for_health.png
 
