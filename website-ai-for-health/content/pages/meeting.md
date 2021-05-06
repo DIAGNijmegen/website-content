@@ -17,6 +17,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | WondGezond – Towards a post-operative surgical site monitoring platform |
 |  20-05-2021  | Douwe van Erp | TBA |
 |  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> TBA |
+|  10-06-2021  | Richard Li <br> Noud Emonts | TBA |
 
 ## Past meetings
 
