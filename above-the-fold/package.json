@@ -9,7 +9,7 @@
   },
   "author": "Wouter Bulten",
   "dependencies": {
-    "critical": "^1.3.4",
+    "critical": "^3.0.1",
     "gulp": "^4.0.2",
     "penthouse": "^2.2.0"
   }
