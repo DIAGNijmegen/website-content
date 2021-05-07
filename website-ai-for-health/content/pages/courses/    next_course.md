@@ -16,24 +16,24 @@ An overview of the course schedule can be seen below.
 
 | Date  |  Topic  |
 | ----- | ------- |
-| TBD | Introduction / Final Presentations Course 2 | 
-| TBD | Machine Learning 1 / Python 1 |
-| TBD |	Machine Learning 2 / Python 2 |
-| TBD | Machine Learning 3 |
-| TBD | Machine Learning 4 |
-| TBD |	Deep Learning 1 |
-| TBD |	Deep Learning 2 |
-| TBD |	Data Engineering / Ethics / Privacy |
-| TBD |	Project Day 1 |
-| TBD |	Machine Learning 5 |
-| TBD |	Text Mining |
-| TBD |	Project Day 2 |
-| TBD |	Bioinformatics |
-| TBD |	Visualization |
-| TBD |	Project Day 3 |
-| TBD |	Deployment | 
-| TBD | Project Day 4 |
-| TBD |	Final Presentations  |
+| 10-09-2021 | Introduction / Symposium | 
+| 17-09-2021 | Machine Learning 1 / Python 1 |
+| 24-09-2021 |	Machine Learning 2 / Python 2 |
+| 01-10-2021 | Machine Learning 3 |
+| 08-10-2021 | Machine Learning 4 |
+| 15-10-2021 |	Deep Learning 1 |
+| 22-10-2021 |	Deep Learning 2 |
+| 05-11-2021 |	Data Engineering / Ethics / Privacy |
+| 12-11-2021 |	Project Day 1 |
+| 19-11-2021 |	Machine Learning 5 |
+| 26-11-2021 |	Text Mining |
+| 03-12-2021 |	Project Day 2 |
+| 10-12-2021 |	Bioinformatics |
+| 17-12-2021 |	Visualization |
+| 14-01-2021 |	Project Day 3 |
+| 21-01-2021 |	Deployment | 
+| 28-01-2021 | Project Day 4 |
+| 11-02-2021 |	Final Presentations  |
 
 **How to apply**:<br>
 If you are interested, please send the following information to aiforhealth@radboudumc.nl:
