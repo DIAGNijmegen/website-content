@@ -18,3 +18,4 @@ The human genome is made up of an incredible amount of genes. The smallest defec
 On the ICU, large amounts of data are continuously recorded. Heart rate, blood pressure, oxygen saturation, all these parameters can contain important information about a patients condition, but continuously interpreting them is unfeasable. AI algorithms, however, can continuously monitor these vital signals and give warning signals when abnormalities occur, enabling early detection of patient deterioration. 
 
 During the course we will cover the most important areas of healthcare where AI applications are currently being implemented. This provides participants a dive into AI in their own medical domain, but also an overview of how AI is being used in other medical domains.
+
