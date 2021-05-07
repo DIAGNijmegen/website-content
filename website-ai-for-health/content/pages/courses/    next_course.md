@@ -1,5 +1,5 @@
 title: Next course
-description: The third edition of the AI for Health course will start in September 2021 and is open for applications! Here you can find more information.
+description: The third edition of the AI for Health course will start in September 2021 and is open for applications!
 groups: ai-for-health
 picture: courses/XMG_20200925_142130.jpg
 
