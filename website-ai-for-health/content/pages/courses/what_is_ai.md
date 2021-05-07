@@ -6,7 +6,7 @@ picture: courses/Front_image2.png
 
 Artificial intelligence is intelligence that is not of biological origin, but demonstrated by artificial machines and algorithms. In practice it encompasses a large collection of methods that give rise to some form of intelligent behavior. The recent surge in interest in AI is mainly caused by the success that different self learning algorithms have shown on various tasks that human typically perform, such as recognizing objects. 
 
-<img align="right" src="images/what_is_AI.jpg" width=200>
+<img align="right" src="courses/what_is_AI.jpg" width=200>
 
 Machine learning is the collective name of these learning based methods and drives most of the AI applications in use today. A machine learning algorithms typically receives some data as input (for example an image), then performs some internal computations and provides on output (for example a class to which the image belongs). By getting feedback about whether the image was classifief correctly the algorithm will learn and become better at the task. Eventually an algorithm can become so good at a task that it even outperforms humans. 
 
