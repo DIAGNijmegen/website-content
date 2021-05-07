@@ -1,7 +1,7 @@
 title: How to apply?
 description: Would you like to join the next edition of the AI for Health course? Here you can find more information on how to apply.
 groups: ai-for-health
-picture: projects/ai_for_health.png
+picture: courses/application-3695107_960_720.jpg
 
 **How to apply**:<br>
 If you are interested, please send the following information to aiforhealth@radboudumc.nl:
