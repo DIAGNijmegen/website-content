@@ -11,9 +11,15 @@
 
     <h2 style="margin: 2em 0 1em 0;">Project Vacancies</h2>
     <div class="row">
-        {% set vacancies_show_closed = 'false' %}
-	{% set show_vacancy_types = ['student'] %}
-        {% include "blocks/vacancy-blocks.html" %}
+        {% for card in pages %}
+            {% if card.category == 'vacancies' %}
+                {% if card.closed == 'false' %}
+		            {% if card.type == 'student' %}
+		                {% include "blocks/card.html" %}
+		            {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
     </div>
 
     <hr style="margin-top: 6em !important;">
