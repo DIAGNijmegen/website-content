@@ -3,7 +3,7 @@ import glob
 import shutil
 import sys
 
-directories = ['members', 'highlights', 'presentations', 'projects', 'software', 'vacancies', 'calendar', 'publications', 'research']
+directories = ['members', 'news', 'presentations', 'projects', 'software', 'vacancies', 'calendar', 'publications', 'research']
 
 site = sys.argv[1]
 group_name = site[8:]
@@ -31,7 +31,7 @@ for dir in directories:
 
                             # Check if the content belongs to the current website
                             if group_name in groups:
-                                if dir == 'highlights':
+                                if dir == 'news':
                                     # Write hightlights to directory out of pages dir
                                     out_dir = os.path.join(site, 'content', dir)
                                 else:
