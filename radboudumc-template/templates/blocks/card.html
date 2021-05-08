@@ -1,10 +1,10 @@
 <div class="col-md-4">
-    <div class="card image-card lazyload" data-bg="{{ IMGURL }}/images/{{ card.picture }}">
+    <div class="card image-card lazyload">
 
-        {%if CARD_IMG_GRADIENTS %}
-        <div class="card-gradient"></div>
-        {% endif %}
-
+        <a href="{{ SITEURL }}/{{ card.url }}">
+            <img alt="" src="{{ IMGURL }}/images/{{ card.picture }}" width="100%" height="100%">
+        </a>
+        
         <div class="card-body">
             <h5 class="card-title"><a href="{{ SITEURL }}/{{ card.url }}">{{ card.title }}</a></h5>
             <p class="card-text">{{ card.description }}</p>
