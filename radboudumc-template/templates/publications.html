@@ -17,18 +17,18 @@
         {% set custom = 'true' %}
         {% for bibkey in page.bibkeys.split(',') %}
             {% set bibkey = bibkey.strip().lower() %}
-            {% set year = BIB_ITEMS[bibkey]['year'] %}
-
-            {% if year not in years %}
-                {% set _dummy =  years.append(year) %} 
+            {% if bibkey in BIB_ITEMS %}
+                {% set year = BIB_ITEMS[bibkey]['year'] %}
+                {% if year not in years %}
+                    {% set _dummy =  years.append(year) %} 
+                {% endif %}
+                
+                {% if year|string() in bibkeys_per_year %}
+                    {% set _dummy = bibkeys_per_year.update({ year|string(): bibkeys_per_year[year|string()] + [bibkey]  })  %}
+                {% else %}
+                    {% set _dummy = bibkeys_per_year.update({ year|string(): [bibkey] }) %}
+                {% endif %}
             {% endif %}
-            
-            {% if year|string() in bibkeys_per_year %}
-                {% set _dummy = bibkeys_per_year.update({ year|string(): bibkeys_per_year[year|string()] + [bibkey]  })  %}
-            {% else %}
-                {% set _dummy = bibkeys_per_year.update({ year|string(): [bibkey] }) %}
-            {% endif %}
-
         {% endfor %}
 
         {% set bib_years = years %}
