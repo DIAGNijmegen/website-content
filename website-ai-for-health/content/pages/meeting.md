@@ -14,7 +14,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  20-05-2021  | Douwe van Erp | TBA |
+|  20-05-2021  | Douwe van Erp | The AAA Checker - Automatically detecting abdominal aortic aneurysms |
 |  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> TBA |
 |  10-06-2021  | Richard Li <br> Noud Emonts | TBA |
 
