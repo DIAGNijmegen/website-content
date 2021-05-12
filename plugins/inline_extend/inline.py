@@ -16,7 +16,7 @@ group_websites = {
 # Matches: [member/wouter-bulten, group: pathology]
 # group is optional
 regex_member = re.compile(
-    r"\[(?P<type>member|project|software|highlight|presentation|vacancy)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]"
+    r"\[(?P<type>member|project|software|highlight|presentation|vacancy|publication)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]"
 )
 
 # Matches: [youtube: video_id]
@@ -48,6 +48,13 @@ def parse_content_tag(text, context):
     group = text.group("group")
     type = text.group("type")
 
+    if type == 'publication' and "SITE_GROUP" in context:
+        if "BIB_ITEMS" in context and identifier.lower() in context["BIB_ITEMS"]:
+            return f'<a href="{group_websites[context["SITE_GROUP"]]}/publications/{identifier.lower()}">{context["BIB_ITEMS"][identifier.lower()]["title"]}</a>'
+        else: 
+            print(f'publication {identifier} not found')
+            return identifier
+    
     # Retrieve data from the Pelican context
     data = context[content_varnames[type]]
 
