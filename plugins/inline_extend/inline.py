@@ -48,11 +48,18 @@ def parse_content_tag(text, context):
     group = text.group("group")
     type = text.group("type")
 
-    if type == 'publication' and "SITE_GROUP" in context:
-        if "BIB_ITEMS" in context and identifier.lower() in context["BIB_ITEMS"]:
-            return f'<a href="{group_websites[context["SITE_GROUP"]]}/publications/{identifier.lower()}">{context["BIB_ITEMS"][identifier.lower()]["title"]}</a>'
+    if type == 'publication':
+        
+        site_group = None
+        if group and group in group_websites[group]:
+            site_group = group_websites[group]
+        elif "SITE_GROUP" in context and context['SITE_GROUP']:
+            site_group = group_websites[context['SITE_GROUP']]
+
+        if site_group and "BIB_ITEMS" in context and identifier.lower() in context["BIB_ITEMS"]:
+            return f'<a href="{site_group}/publications/{identifier.lower()}">{context["BIB_ITEMS"][identifier.lower()]["title"]}</a>'
         else: 
-            print(f'publication {identifier} not found')
+            print(f'publication {identifier} not found in {site_group}')
             return identifier
     
     # Retrieve data from the Pelican context
