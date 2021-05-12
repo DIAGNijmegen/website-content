@@ -8,7 +8,17 @@
     input:hover + label {
         font-weight: bold;
         text-decoration: none;
-        cursor: pointer
+        cursor: pointer;
     }
 
 } 
+
+.badge-publication {
+
+    color: #464646!important;
+    background-color: #dfdede!important;
+  }
+  
+.badge-publication:hover {
+    background-color: #b4b4b4!important;
+}
