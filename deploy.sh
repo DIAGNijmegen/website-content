@@ -18,7 +18,7 @@ if [ "$DEVELOPMENT" = "1" ]; then
   cp robots_dev.txt output/robots.txt
 else
   # Build pelican website for deployment
-  pelican content -D -s publishconf.py
+  pelican content -s publishconf.py
 fi
 
 # Copy files for github
