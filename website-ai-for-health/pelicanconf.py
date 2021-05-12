@@ -143,6 +143,8 @@ TEMPLATE_PAGES = {
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
 PLUGINS = [
+    "bibtex",
+    "bibtex_loader",
     "edit_url",
     "hierarchy",
     "fileutil",
