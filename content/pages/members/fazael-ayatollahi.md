@@ -2,14 +2,13 @@ title: Fazael Ayatollahi
 name: Fazael Ayatollahi
 template: people-single
 picture: people/Fazael_Ayatollahi.jpg
-position: PhD candidate
+position: Postdoctoral Researcher
 active: yes
-groups: diag, aiimnijmegen
-default_group: aiimnijmegen
+groups: diag, pathology
+default_group: pathology
+office: Route 812, room 2.39
 email: fazael.ayatollahi@radboudumc.nl
-type: phd
+type: postdoc
+scholar: https://scholar.google.com/citations?user=L9JlQ_YAAAAJ&hl=en
 
-Fazael Ayatollahi received his BSc and MSc degrees in Electrical Engineering from Amirkabir University of Technology.
-He is PhD candidate at Electrical Engineering Department of Iran University of Science and Technology.
-He joined the Diagnostic Image Analysis Group of the Radboud university medical center, Nijmegen as a guest researcher in February 2019. 
-His research is focused on computer-aided detection and diagnosis of breast lesions in MRI, under supervision of Nico Karssemeijer and Jonas Teuwen.
+Fazael Ayatollahi received his BSc and MSc degrees in Electrical Engineering from [Amirkabir University of Technology](http://www.aut.ac.ir/). His research focused on computer-aided detection and diagnosis of lesions in breast MRI during his PhD at Electrical Engineering Department of [Iran University of Science and Technology](http://www.iust.ac.ir/en). He joined the Diagnostic Image Analysis Group [(DIAG)](http://diagnijmegen.nl) of the [Radboud University Medical Center](https://www.radboudumc.nl/Research/) as a researcher in February 2019 and worked on automatic breast lesion detection in ultrafast DCE-MRI by using deep learning. He is currently working on applying deep learning algorithm in digital gastrointestinal pathology under the supervision of [member/jeroen-van-der-laak] and [Iris Nagtegaal](https://www.radboudumc.nl/en/people/iris-nagtegaal).

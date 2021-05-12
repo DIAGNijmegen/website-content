@@ -2,10 +2,10 @@ title: Midas Meijs
 name: Midas Meijs 
 template: people-single 
 picture: people/Midas_Meijs.jpg 
-position: PhD student 
-active: yes 
-groups: diag, neuro
-default_group: neuro
+position: PhD Candidate 
+active: no 
+groups: diag
+default_group: diag
 email: midas.meijs@radboudumc.nl 
 office: Route 767, Room 23 
 telephone: +31 24 3655973 

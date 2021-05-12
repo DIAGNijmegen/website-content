@@ -4,8 +4,8 @@ finished: false
 picture: software/cirrus.png
 template: project-single
 description: CIRRUS is the workstation platform for DIAG
-groups: rse, diag
-people: Haimasree Bhattacharya, Paul Konstantin Gerke, Colin Jacobs, James Meakin
+groups: rse, diag, rtc
+people: Marco Marra, Paul Konstantin Gerke, Colin Jacobs, James Meakin
 bibkeys: 
 
 DIAG develops algorithms for the analysis of medical images. We put a lot of focus on facilitating the application of these algorithms in clinical practice and clinical research. For this, we are developing a workstation platform that can be used throughout DIAG, called CIRRUS. Based on this platform, different workstations are being developed for, such as CIRRUS Lung Screening and CIRRUS Oncology.

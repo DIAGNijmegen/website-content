@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block description %}{{ page.description }}{% endblock %}
-{% block page_picture %}{{ SITEURL }}/images/{{ page.picture }}{% endblock %}
+{% block page_picture %}{{ IMGURL }}/images/{{ page.picture }}{% endblock %}
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
 
@@ -17,7 +17,7 @@
     {% endif %}
  -->
     {% if page.picture %}
-    <img src="{{ SITEURL }}/images/{{ page.picture }}" alt="{{page.title}}" class="img-fluid">
+    <img src="{{ IMGURL }}/images/{{ page.picture }}" alt="{{page.title}}" class="img-fluid">
     {% endif %}
 
     <p></p>

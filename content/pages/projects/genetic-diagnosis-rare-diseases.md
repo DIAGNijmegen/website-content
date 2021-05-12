@@ -2,7 +2,7 @@ title: AI-driven genetic diagnosis for rare-diseases
 finished: false 
 type: general 
 picture: vacancies/genetic-diagnosis-rare-diseases.jpg
-people: Gelena Khazeeva, Christian Gilissen, Marcel van Gerven, Max Hinne, Helger Yntema
+people: Gelana Khazeeva, Christian Gilissen, Marcel van Gerven, Max Hinne, Helger Yntema
 description: The aim of this project is to develop an AI system to automatically diagnose patients with genetic diseases based on their exome and whole genome sequencing data. 
 template: project-single 
 groups: ai-for-health

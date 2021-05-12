@@ -2,13 +2,19 @@ title: Michel Kok
 name: Michel Kok
 template: people-single
 picture: people/Michel_Kok.jpg
-position: Master student
-active: no
-groups: diag, pathology
-default_group: pathology
+position: PhD Candidate
+active: yes
+groups: diag
+default_group: diag
 email: michel.kok@radboudumc.nl
-office: Route 812, room 2.39
-type: student
+office: Route 767, room 32.1
+type: phd
+scholar: https://scholar.google.com/citations?user=8U3FDaQAAAAJ&hl=en
+publons: https://publons.com/researcher/3541453/michel-kok/
+orcid: https://orcid.org/0000-0003-4100-916X
+researcherid: http://www.researcherid.com/rid/AAC-7227-2021
+linkedin: https://www.linkedin.com/in/mkok
 
+Michel Kok is a PhD candidate at the [Radboud University Medical Center](https://www.radboudumc.nl/research) in Nijmegen. He joined the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) in April 2020. His research is focused on bone metastases detection and quantification in CT images ([project/oncology] project), under the supervision of [member/nikolas-lessmann].
 
-Michel Kok is a master’s student Computing Science at the Radboud University Nijmegen. He is performed his final research project at the Computational Pathology group of the Department of Pathology of the Radboud University Medical Center in Nijmegen. He worked on detection of lymph node metastases in women with breast cancer using deep learning algorithms based on the CAMELYON16 challenge. Michel was supervised by Geert Litjens and Péter Bándi.
+Michel Kok studied [Computing Science](https://www.ru.nl/english/education/bachelors/computing-science/) at the [Radboud University Nijmegen](https://www.ru.nl/) for which he received his Master’s degree in 2020. At the same time, he obtained a Bachelor’s degree in [Philosophy](https://www.ru.nl/opleidingen/bachelor/filosofie/verkorte-opleidingstrajecten-filosofie/verkorte-bachelor-filosofie/). During his master’s he specialized in [Data Science](https://www.ru.nl/english/education/masters/data-science/) and performed his final research project at the [Computational Pathology group](https://www.computationalpathologygroup.eu/) of the [Department of Pathology](https://www.radboudumc.nl/en/research/departments/pathology). During this project he worked on [metastases detection in lymph nodes using transfer learning](/publications/kok19). 

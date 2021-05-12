@@ -2,7 +2,7 @@ title: Elke Loskamp-Huntink
 name: Elke Loskamp-Huntink
 template: people-single
 picture: people/Elke_Loskamp-Huntink.jpg
-position: Study manager
+position: Study Manager
 active: yes
 groups: diag, pathology
 default_group: pathology

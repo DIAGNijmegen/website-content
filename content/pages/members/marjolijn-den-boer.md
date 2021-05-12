@@ -2,7 +2,7 @@ title: Marjolijn den Boer
 name: Marjolijn den Boer
 template: people-single
 picture: people/Marjolijn_den_Boer.jpg
-position: Master student
+position: Master Student
 active: no
 groups: diag, pathology
 default_group: pathology

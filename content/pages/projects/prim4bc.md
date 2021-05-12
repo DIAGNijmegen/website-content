@@ -6,7 +6,9 @@ picture: projects/PRIMB4C_1.jpg
 description: Detecting biomarkers for improved prognosis for triple negative breast cancer by combining histopathology, multiplex immunohistochemistry and Deep Learning.
 template: project-single
 groups: pathology
+default_group: pathology
 people: Maschenka Balkenhol, David Tellez, Jeroen van der Laak, Francesco Ciompi, Peter Bult
+
 
 
 ## Background
@@ -32,7 +34,7 @@ count was found to yield prognostic information. To date, assessment of these
 biomarkers lack standardisation, resulting in large variations in published
 results and hampering clinical implementation.
 
-![Automated Mitotic Count]({static}/images/projects/mitosis_comb.png)
+![Automated Mitotic Count]({{ IMGURL }}/images/projects/mitosis_comb.png)
  
 ## Aim
 

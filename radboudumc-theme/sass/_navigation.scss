@@ -96,7 +96,7 @@ Sets basic styles required for the navbar
 
     // Hide on small to medium devices
     @include media-breakpoint-between(md, lg) {
-      width: 0;
+      display: none;
     }
 
     @include media-breakpoint-up(md) {

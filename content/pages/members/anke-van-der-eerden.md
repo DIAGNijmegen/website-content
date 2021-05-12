@@ -2,10 +2,10 @@ title: Anke van der Eerden
 name: Anke van der Eerden
 template: people-single
 picture: people/Anke_van_der_Eerden_bw.jpg
-position: PhD student
-active: yes
-groups: diag, neuro
-default_group: neuro
+position: PhD Candidate
+active: no
+groups: diag
+default_group: diag
 email: anke.vandereerden@radboudumc.nl
 office: Route 767
 type: phd

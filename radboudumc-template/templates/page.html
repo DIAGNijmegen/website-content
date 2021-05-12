@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
-{% block page_picture %}{% if page.picture %}{{ SITEURL}}/images/{{ page.picture }}{% endif %}{% endblock %}
+{% block page_picture %}{% if page.picture %}{{ IMGURL }}/images/{{ page.picture }}{% endif %}{% endblock %}
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
 

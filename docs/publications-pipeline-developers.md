@@ -1,5 +1,6 @@
 # Publications pipeline for developers
 
+
 The publications pipeline processes the `diag.bib` to generate the list of publications of the members of a team/website. The pipeline is composed by:
 - **Bib parsing** (developed by Bart): The Bibtex plugin processes the `diag.bib` to obtain the full list of publications and authors found in `diag.bib`. This plugin is located on `plugins\bibtex\`
 - **Post-processing** (developed by Gabriel): A website should show only publications of their members. All the post-processing is done on `plugins\bib_writer.py` by `PublicationsGenerator` class. This script stores metadata in `$WEBISTE/content/dict_pubs.json` and is subdivided in small tasks:

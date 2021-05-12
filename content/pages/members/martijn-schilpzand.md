@@ -2,8 +2,8 @@ title: Martijn Schilpzand
 name: Martijn Schilpzand
 template: people-single
 picture: people/Person.png
-position: Master student
-active: yes
+position: Master Student
+active: no
 groups: diag
 default_group: diag
 email: martijn.schilpzand@radboudumc.nl

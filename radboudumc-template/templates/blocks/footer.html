@@ -3,21 +3,37 @@
         <div class="row">
             <div class="col-md-11 py-3 footer-content">
                 <p>
+                    <a href="https://github.com/diagnijmegen" title="Our GitHub repository">
+                        <svg class="nav-icon svg-icon svg-icon-github">
+                            <use xlink:href="#icon-github"></use>
+                        </svg></a>&nbsp;
+
+                    {% if TWITTER_URL %}
+                    <a href="{{ TWITTER_URL }}" title="Twitter">
+                        <svg class="nav-icon svg-icon">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg></a>&nbsp;
+                    {% endif %}
+                    
                     {% if page %}
-                    <a href="{{ page.edit_url }}">&copy;</a>
+                    <a href="{{ page.edit_url }}" title="Edit on Github">
+                        <svg class="nav-icon svg-icon">
+                            <use xlink:href="#icon-write"></use>
+                        </svg></a>&nbsp;
                     {% elif article %}
-                    <a href="{{ article.edit_url }}">&copy;</a>
-                    {% else %}
-                    &copy;
+                    <a href="{{ article.edit_url }}" title="Edit on Github">
+                        <svg class="nav-icon svg-icon">
+                            <use xlink:href="#icon-write"></use>
+                        </svg></a>&nbsp;
                     {% endif %}
 
-                    {{SITENAME}} {{ CURRENTYEAR }}. <a href="{{SITEURL}}/colofon">Colofon</a>.
+                    &copy; {{SITENAME}} {{ CURRENTYEAR }}. <a href="{{SITEURL}}/colofon">Colofon</a>.
                 </p>
                 <p>{{FOOTER_TEXT}}</p>
             </div>
 
             <div class="col-md-1 footer-ribbon">
-                <img alt="Radboudumc logo" src="{{ SITEURL }}/images/umc_logo.png">
+                <img alt="Radboudumc logo" src="{{ IMGURL }}/images/umc_logo.png">
             </div>
         </div>
     </div>

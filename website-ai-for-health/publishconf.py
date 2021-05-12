@@ -11,6 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://www.ai-for-health.nl'
+IMGURL = 'https://assets.diagnijmegen.nl'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
@@ -21,3 +22,5 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
+
+GOOGLE_ANALYTICS = "UA-177238438-1"

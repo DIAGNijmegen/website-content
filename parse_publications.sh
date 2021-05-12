@@ -1,6 +1,15 @@
 # #!/usr/bin/env bash
 
-curl -o content/diag.bib -u ${BIB_TOKEN} ${DIAG_BIB_REPO}diag.bib >/dev/null 2>&1
-curl -o content/fullstrings.bib -u ${BIB_TOKEN} ${DIAG_BIB_REPO}fullstrings.bib >/dev/null 2>&1
+set -e
+
+curl -H "Authorization: token ${GH_BIB_TOKEN}" \
+    -o content/diag.bib \
+    -s \
+    -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/diag.bib
+
+curl -H "Authorization: token ${GH_BIB_TOKEN}" \
+    -o content/fullstrings.bib \
+    -s \
+    -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/fullstrings.bib
 
 python ./bibliography/bibparser.py

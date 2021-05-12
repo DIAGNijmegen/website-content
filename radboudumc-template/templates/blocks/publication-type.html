@@ -1,0 +1,17 @@
+<p>
+{% if pub_type == 'article' %}
+ <h2>{{ 'Papers in international journals' }}</h2>
+{% elif pub_type == 'preprint' %}
+<h2>{{ 'Preprints' }}</h2>
+{% elif pub_type == 'inproceedings' %}
+<h2>{{ 'Papers in conference proceedings' }}</h2>
+{% elif pub_type == 'conference' %}
+<h2>{{ 'Abstracts' }}</h2>
+{% elif pub_type == 'phdthesis' %}
+<h2>{{ 'PhD theses' }}</h2>
+{% elif pub_type in ['mscthesis', 'mastersthesis'] %}
+<h2>{{ 'Master theses' }}</h2>
+{% elif pub_type in ['book', 'other'] %}
+<h2>{{ 'Other publications' }}</h2>
+{% endif%}
+</p>

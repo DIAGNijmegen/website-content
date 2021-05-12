@@ -1,5 +1,5 @@
 title: PhD candidate to assess the value of Artificial Intelligence for Breast Cancer Screening
-groups: aiimnijmegen, diag
+groups: diag
 closed: true
 type: general
 picture: vacancies/marble_phd_ai_validation.png

@@ -2,72 +2,103 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
-import sys
-import importlib
 
-# Load configs from all other websites
-sys.path.insert(0, '../')
-DIAG_WEBSITES_CONFIG = {}
-DIAG_WEBSITE_URLS = {}
-for website in ['website-pathology', 'website-retina', 'website-bodyct', 'website-aiimnijmegen', 'website-neuro', 'website-rse', 'website-rtc']:
-    DIAG_WEBSITES_CONFIG[website[8:]] = importlib.import_module(f'{website}.pelicanconf')
-    DIAG_WEBSITE_URLS[website[8:]] = importlib.import_module(f'{website}.publishconf').SITEURL
+CURRENTYEAR = date.today().year
+
 
 #
 # Site specific variables
 # Please update these to customize the website.
 #
-AUTHOR = u'WebteamDIAG'
-SITENAME = u'Diagnostic Image Analysis Group'
-SITENAME_SHORT = 'DIAG'
-SITE_REPO = 'website-diag'
-SITE_GROUP = 'diag'
+AUTHOR = "WebteamDIAG"
+SITENAME = "Diagnostic Image Analysis Group"
+SITENAME_SHORT = "DIAG"
+SITE_REPO = "website-diag"
+SITE_GROUP = "diag"
 
-# Home page and social settings
-SITELEAD = 'The Diagnostic Image Analysis Group is part of the Departments of Radiology and Nuclear Medicine, Pathology, and Ophthalmology of Radboud University Medical Center. We develop computer algorithms to aid clinicians in the interpretation of medical images and thereby improve the diagnostic process.'
-SITE_PICTURE = 'images/social/missing_picture_social.png'
-HOME_IMAGE = 'highlight'
-HOME_IMAGE_CAPTION = 'Different applications of deep learning.'
-TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
-FOOTER_TEXT = 'The Diagnostic Image Analysis Group is part of the Department of Radiology and Nuclear Medicine at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
+# Home page, layout and social settings
+SITELEAD = "The Diagnostic Image Analysis Group is part of the Departments of Imaging, Pathology, Ophthalmology, and Radiation Oncology of Radboud University Medical Center. We develop computer algorithms to interpret and process medical images."
+SITE_PICTURE = "images/social/missing_picture_social.png"
+HOME_IMAGE = "highlight"
+HOME_IMAGE_CAPTION = "Different applications of deep learning."
+TWITTER_URL = None
+FOOTER_TEXT = 'The Diagnostic Image Analysis Group is part of the <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
-HOME_JUMBOTRON_LAYOUT = 'dense'
+HOME_JUMBOTRON_LAYOUT = "dense"
+CSS_THEME = "diag-theme"
 
 # What sections to show in the nav bar
+# For diag the text is shown in viewports lg and up, below that only the icon is shown
+# d-lg-block is used to force to show the text on lg viewports, for other websites there is not
+# enought room to show the text.
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "highlights", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Research", "url": "research", "icon": "folder"},
-    {"name": "Vacancies", "url": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
-    {"name": "Thesis Gallery", "url": "thesis-gallery", "icon": "book", "hidden": 95},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
+    {
+        "name": "About",
+        "url": "about",
+        "icon_mobile": "info",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "People",
+        "url": "people",
+        "icon_mobile": "users",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Research",
+        "url": "research",
+        "icon_mobile": "folder",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Publications",
+        "url": f"publications/{CURRENTYEAR}",
+        "icon_mobile": "file-text-o",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Vacancies",
+        "url": "vacancies",
+        "icon_mobile": "vacancies",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Contact",
+        "url": "contact",
+        "icon_mobile": "envelope-o",
+        "text_class": "d-lg-block",
+    },
 ]
 
-# What sections to show on homepage (current options that you customizable: ["Projects", "Software"])
-HOME_SECTIONS = ["Highlights", "Vacancies", "Calendar"]
+# What sections to show on homepage (current options that you customizable: {section_name: custom_name})
+HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies"}
+
+# Whether to show breadcrumbs on the page
+ENABLE_BREADCRUMBS = False
 
 # Show membership of people on their page
 SHOW_GROUP_MEMBERSHIP = True
 
 # URLs
-SITEURL = ''
-EDIT_CONTENT_URL = 'https://github.com/diagnijmegen/website-content/edit/master/{file_path}'
+SITEURL = ""
+IMGURL = SITEURL
+EDIT_CONTENT_URL = (
+    "https://github.com/diagnijmegen/website-content/edit/master/{file_path}"
+)
 
 # Show pdf request on publication pages
-ENABLE_PUBLICATION_PDF_REQUEST = True
+ENABLE_PUBLICATION_PDF_REQUEST = False
 
 #
 # Non-content variables
 # In general these values do not have to be changed.
 #
-PATH = 'content'
+PATH = "content"
 RELATIVE_URLS = False
 
-TIMEZONE = 'Europe/Amsterdam'
-DEFAULT_LANG = 'EN'
+TIMEZONE = "Europe/Amsterdam"
+DEFAULT_LANG = "EN"
 ARTICLE_TRANSLATION_ID = None
 PAGE_TRANSLATION_ID = None
 
@@ -84,29 +115,41 @@ LINKS = ()
 DEFAULT_PAGINATION = 10
 
 # URL settings
-BIBKEYS_SRC = 'content/dict_pubs.json'
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = '{slug}/index.html'
-SLUGIFY_SOURCE = 'basename'
+BIBKEYS_SRC = "content/dict_pubs.json"
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
+PAGE_MEMBERS_SAVE_AS = "people/{slug}/index.html"
+PAGE_MEMBERS_URL = "people/{slug}/"
+SLUGIFY_SOURCE = "basename"
 
-ARTICLE_URL = 'highlights/{slug}/'
-ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
-ARTICLE_TYPE = 'Highlights'
+ARTICLE_URL = "news/{slug}/"
+ARTICLE_SAVE_AS = "news/{slug}/index.html"
+ARTICLE_TYPE = "News"
 
-TAGS_SAVE_AS = ''
-TAG_SAVE_AS = ''
-CATEGORY_URL = ''
-CATEGORY_SAVE_AS = ''
-CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ""
+TAG_SAVE_AS = ""
+CATEGORY_URL = ""
+CATEGORY_SAVE_AS = ""
+CATEGORIES_SAVE_AS = ""
 
-ARCHIVES_SAVE_AS = ''
-SITEMAP_SAVE_AS = 'sitemap.xml'
-INDEX_SAVE_AS = 'highlights/index.html'
+ARCHIVES_SAVE_AS = ""
+SITEMAP_SAVE_AS = "sitemap.xml"
+INDEX_SAVE_AS = "news/index.html"
 
 # Theme settings
 THEME = "../radboudumc-template"
-DIRECT_TEMPLATES = ['index', 'archives', 'sitemap']
+DIRECT_TEMPLATES = ["index", "archives", "sitemap"]
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "bootstrapify", "imgutil", "inline_extend", "content_aggregator"]
+PLUGINS = [
+    "bibtex",
+    "bibtex_loader",
+    "edit_url",
+    "hierarchy",
+    "fileutil",
+    "bootstrapify",
+    "imgutil",
+    "inline_extend",
+    "content_aggregator",
+]

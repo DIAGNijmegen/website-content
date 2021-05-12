@@ -17,12 +17,30 @@ body {
 // Default settings for headers
 h1,h2,h3,h4,h5,h6 {
   color: $primary;
+  font-weight: 500;
 }
-h1,h2,h3 {
-  font-weight: 300;
+
+h1 {
+  font-size: 2rem;
 }
-h4,h5,h6 {
-  font-weight: 400;
+
+// Sub-titles
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  margin-top: 1.5rem;
+}
+
+.content-home h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+
+  margin-top: 0rem;
+}
+
+h2.entry-title {
+  margin-top: 0rem;
 }
 
 // Main titles (for example on home page)
@@ -33,11 +51,81 @@ h1.display-title {
   margin-bottom: 1em;
 }
 
-
 // First header on each page
 .page-title {
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 600;
 
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
+}
+
+p a { 
+  font-weight: 600;
+}
+
+h3 a {
+  font-weight: 400;
+}
+
+div.container > p,
+div.page-content > p {
+  margin-bottom: 0.75em;
+}
+
+@include media-breakpoint-up(md) {
+  div.container > p,
+  div.container > ol,
+  div.container > ul,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul,
+  div.col-md-12.news-item > p {
+    padding-right: 5em;
+  }
+  div.col-md-12.news-item img {
+    max-width: 700px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  div.container > p,
+  div.container > ol,
+  div.container > ul,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul,
+  div.col-md-12.news-item > p {
+    padding-right: 10em;
+  }
+  div.col-md-12.news-item img {
+    max-width: 900px;
+  }
+}
+@include media-breakpoint-up(xl) {
+  div.container > p,
+  div.container > ol,
+  div.container > ul,
+  div.page-content > p,
+  div.page-content > ol,
+  div.page-content > ul,
+  div.col-md-12.news-item > p {
+    padding-right: 20em;
+  }
+  div.col-md-12.news-item img {
+    max-width: 1000px;
+  }
+}
+
+// A bit more whitespace for lists
+ul, ol {
+  margin-top: 0.25rem;
+  padding-left: 1.5em;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+dt {
+  font-weight: 600;
 }

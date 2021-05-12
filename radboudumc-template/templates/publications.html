@@ -5,32 +5,63 @@
 {% block content %}
     {% include 'blocks/breadcrumbs.html' %}
     <div class="container">
+    <h1 class="page-title">{{ page.main_title }} </h1>
 
 
-    <h1>{{ page.title  }} </h1>
+    <!-- if bibkeys are  custom set-->
+    {% set custom = 'false' %}
+    {% if page.bibkeys and page.slug != 'most-cited' %}
+        {% set years = [] %} 
+        {% set bibkeys_per_year = dict() %}
+        {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %} 
+        {% set custom = 'true' %}
+        {% for bibkey in page.bibkeys.split(',') %}
+            {% set bibkey = bibkey.strip().lower() %}
+            {% if bibkey in BIB_ITEMS %}
+                {% set year = BIB_ITEMS[bibkey]['year'] %}
+                {% if year not in years %}
+                    {% set _dummy =  years.append(year) %} 
+                {% endif %}
+                
+                {% if year|string() in bibkeys_per_year %}
+                    {% set _dummy = bibkeys_per_year.update({ year|string(): bibkeys_per_year[year|string()] + [bibkey]  })  %}
+                {% else %}
+                    {% set _dummy = bibkeys_per_year.update({ year|string(): [bibkey] }) %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
 
-    {% set list_pub_type = ['article', 'preprint', 'inproceedings', 'conference', 'phdthesis', 'mastersthesis', 'book', 'other'] %}
-    {% set years = [] %}    
-    {% set bib_keys = [] %}
-    {% for person in pages|reverse %}
-	{% if person.parent.url == 'members/' %}
-	   {% set person_key = person.name.replace(' ', '-') %}  
-	   {% if person_key in AUTHOR_KEYS %}
-	   	{% for bibkey in AUTHOR_KEYS[person_key]  %}
-			{% if bibkey not in bib_keys %}
-			    {% set _ = bib_keys.append(bibkey) %}
-			{% endif %}
-		{% endfor %}
-	   {% endif %}
-	{% endif %}
-    {% endfor %}
+        {% set bib_years = years %}
+        {% set next_url = 'publications/' %}
+        {% include 'blocks/publication_list.html' %}
 
+    <!-- use site group bib keys -->
+    {% elif SITE_GROUP in GROUP_KEYS  %}
+        {% if SHOW_PUBLICATION_YEARS is not defined %}
+            {% set show_years = True %}
+        {% else %}
+            {% set show_years = SHOW_PUBLICATION_YEARS %}
+        {% endif %}
 
-    {% for bibkey in bib_keys if BIB_ITEMS[bibkey]['year'] not in years %}
-      {% set _ = years.append(BIB_ITEMS[bibkey]['year']) %}
-    {% endfor %}
+        {% set years = GROUP_KEYS[SITE_GROUP]['__years__'] %}   
 
-    {% include 'blocks/publication_list.html' %}
+        {% if page.slug == 'publications' or page.slug == 'all-years' or page.slug == 'most-cited' %}
+            {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__'] %}
+        {% elif page.slug == '2012-and-before' %}
+            {% set bib_years = GROUP_KEYS[SITE_GROUP]['__years__']|select("lessthan", 2013) %}
+        {% else %}
+            {% set bib_years = [page.slug] %}
+        {% endif %}
+
+        {% set bibkeys_per_year = GROUP_KEYS[SITE_GROUP] %} 
+        {% set list_pub_type = GROUP_KEYS[SITE_GROUP]['__types__'] %}   
+        
+        {% set next_url = 'publications/' %}
+
+        {% include 'blocks/publication_list.html' %}
+
+    {% endif %}
+    </div>
 
 
 {% endblock %}

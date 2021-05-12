@@ -1,6 +1,6 @@
 title: Deep Learning for the differentiation of STIC lesions
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/master_student_stic.jpg
 template: vacancy-single

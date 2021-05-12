@@ -3,7 +3,7 @@ name: Eva van Rikxoort
 template: people-single
 picture: people/Eva_van_Rikxoort.jpg
 position: Assistant Professor
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: evavanrikxoort@thirona.eu

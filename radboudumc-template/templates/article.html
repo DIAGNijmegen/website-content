@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }}{% endblock title %}
-{% block page_picture %}{{ SITEURL }}/images/{{ article.picture }}{% endblock %}
+{% block page_picture %}{{ IMGURL }}/images/{{ article.picture }}{% endblock %}
 {% block description %}{% if article.description %}{{ article.description }}{% else %}{{ article.summary | striptags | truncate(200)}}{% endif %}{% endblock description %}
 {% block content %}
 <div class="container">
@@ -21,16 +21,18 @@
     </div>
 
     <div class="row">
+        {% if not article.full_width %}
         <div class="col-md-4">
             {% if article.picture %}
-            <img class="img-thumbnail" src="{{ SITEURL }}/images/{{ article.picture }}">
+            <img class="img-thumbnail" src="{{ IMGURL }}/images/{{ article.picture }}">
             {% endif %}
             <p class="mt-4 ml-1">
                 <small class="text-muted"><time class="published" datetime="{{ article.date.isoformat() }}">Published {{ article.locale_date }} </time></small>
             </p>
         </div>
+        {% endif %}
 
-        <div class="col-md-8">
+        <div class="{% if article.full_width %}col-md-12{% else %}col-md-8{% endif %} news-item">
             {{ article.content }}
 
 	    <a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}" class="mt-5">&larr; Back to overview</a>

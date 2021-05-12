@@ -1,12 +1,14 @@
 title: Tumor budding
 finished: false
 type: general
-picture: projects/TB_small.jpg
+picture: projects/TB2-1.jpg
 template: project-single
-groups: pathology
+groups: pathology, diag
+default_group: pathology
 people: John-Melle Bokhorst, Francesco Ciompi,Jeroen van der Laak, Tariq Haddad, Femke Doubrava-Simmer, Iris Nagtegaal
 description: In this project, we will develop and validate digital image analysis algorithms for quantification of tumor budding from scanned whole slide images.
 bibkeys: Bokh19,Bokh18a
+
 
 Personalised treatment of cancer patients starts with an extensive evaluation of the cancer that should be treated. Public attention is drawn to next generation sequencing as the ultimate selection tool for treatment. However, fortunately most patients with colorectal cancer (CRC) do not need targeted therapies. The introduction of CRC population screening in The Netherlands, together with improvements in local treatment prevent the development of metastatic disease in the majority of patients.
 

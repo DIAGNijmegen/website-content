@@ -2,9 +2,9 @@ title: Bart Liefers
 name: Bart Liefers
 template: people-single
 picture: people/Bart_Liefers.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
-groups: diag, retina
+groups: retina
 default_group: retina
 email: bart.liefers@radboudumc.nl
 office: Route 767, Room 32

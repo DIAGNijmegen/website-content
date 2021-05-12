@@ -10,11 +10,13 @@ Please follow the guides below to update or write new content for one of the web
 - [Edit contact page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/edit-contact-page.md)
 - [Special content tags](https://github.com/DIAGNijmegen/website-content/blob/master/docs/special-content-tags.md)
 - [Creating redirects](https://github.com/DIAGNijmegen/website-content/blob/master/docs/redirects.md)
+- [Creating custom pages](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-custom-page.md)
 
 ### Members
 
-- [Create new member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-a-new-member-page.md)
+- [Create new member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-new-member-page.md)
 - [Add picture to member page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/add-picture-to-member-page.md)
+- To add people without a member page, add name, url and link to picture in the file https://github.com/DIAGNijmegen/website-content/blob/master/content/external-people.yaml
 
 ### Projects
 
@@ -27,6 +29,10 @@ Please follow the guides below to update or write new content for one of the web
 ### Presentations
 
 - [Add poster to presentation page](https://github.com/DIAGNijmegen/website-content/blob/master/docs/add-poster-to-presentation-page.md)
+
+### Calendar
+
+- [Add a new calendar item](https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-calendar-item.md)
 
 ### Vacancies & Student projects
 
@@ -46,5 +52,6 @@ Please follow the guides below to update or write new content for one of the web
 Documentation regarding technical aspects of the website.
 
 - [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
+- [Website configuration](https://github.com/DIAGNijmegen/website-content/blob/master/docs/website-configuration.md)
 - [Publications pipeline for developers](https://github.com/DIAGNijmegen/website-content/blob/master/docs/publications-pipeline-developers.md)
 - [Critical CSS](https://github.com/DIAGNijmegen/website-content/blob/master/docs/critical-above-the-fold-css.md)

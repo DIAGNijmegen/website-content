@@ -17,7 +17,7 @@ const readFile = promisify(fs.readFile);
 const removeFile = promisify(fs.unlink);
 
 const sourceBasePath = '../content/images';
-const outputPath = "./optimized_images";
+const outputPath = "../assets/images";
 const outputSizes = [160, 320, 480, 768, 1024];
 
 /**
@@ -38,6 +38,7 @@ async function resizeImage(path, target, sizes) {
   });
 
   const availableSizes = outputSizes.filter(s => s <= metadata.width);
+  
   const resizedFiles = availableSizes.map(async size => {
     let resizedTarget;
     if(size == Math.max(...availableSizes)) {
@@ -55,6 +56,15 @@ async function resizeImage(path, target, sizes) {
 
     return resizedTarget;
   });
+
+  // If the source image is smaller than the smallest output size, copy the original file
+  // to the output directory.
+  if(availableSizes.length == 0) {
+    console.log(`Image file ${path} has a width < 160px and will not be optimized.`);
+    resizedFiles.push(new Promise(resolve => {
+      return fs.copyFile(path, target, () => resolve(target));
+    }));
+  }
 
   return Promise.all([baseFile, ...resizedFiles]);
 }

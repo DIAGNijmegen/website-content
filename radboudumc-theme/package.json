@@ -4,20 +4,20 @@
   "description": "Theme for pathology website",
   "main": "index.js",
   "scripts": {
-    "minify": "node-sass --output-style compressed ./sass/theme.scss ./build/theme.min.css",
-    "postcss": "postcss ./build/theme.min.css --no-map --map --use autoprefixer -o ./build/theme.min.css",
+    "minify": "node-sass --output-style compressed ./sass/ -o ./build/",
+    "postcss": "postcss  --replace ./build/*.css --no-map --map --use autoprefixer",
     "watch": "node-sass-chokidar ./sass -o ./build --watch --source-map-embed ",
     "deploy": "npm run minify && npm run postcss && cp -r ./build/. ./../radboudumc-template/static/css/ && node increase-version.js",
-    "deploy-watch": "node-sass-chokidar --watch --source-map-embed ./sass/theme.scss ./../website-pathology/output/theme/css/theme.min.css"
+    "deploy-watch": "node-sass-chokidar --watch --source-map-embed ./sass/diag-theme.scss ./../website-diag/output/theme/css/diag-theme.css"
   },
   "author": "Wouter Bulten",
   "license": "Copyright",
   "devDependencies": {
-    "autoprefixer": "^9.6.0",
-    "bootstrap": "^4.3.1",
-    "browser-sync": "^2.26.7",
-    "node-sass": "^4.12.0",
-    "node-sass-chokidar": "^1.3.5",
-    "postcss-cli": "^6.1.2"
+    "autoprefixer": "^9.8.2",
+    "bootstrap": "^4.5.0",
+    "browser-sync": "^2.26.14",
+    "node-sass": "^5.0.0",
+    "node-sass-chokidar": "^1.5.0",
+    "postcss-cli": "^7.1.1"
   }
 }

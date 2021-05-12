@@ -1,5 +1,5 @@
 title: Deep Learning to predict recurrence in triple negative breast cancer (TNBC)
-groups: pathology, diag
+groups: pathology
 closed: false
 type: student
 picture: vacancies/TNBC-student.png

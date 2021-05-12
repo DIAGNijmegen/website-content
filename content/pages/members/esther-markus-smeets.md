@@ -2,7 +2,7 @@ title: Esther Markus-Smeets
 name: Esther Markus-Smeets
 template: people-single
 picture: people/Esther_Markus-Smeets.jpg
-position: PhD student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology

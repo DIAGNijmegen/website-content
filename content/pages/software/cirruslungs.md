@@ -3,11 +3,9 @@ title_long: CIRRUS Lung Screening
 finished: false
 picture: software/cirruslungs_workstation.png
 template: project-single
-groups: rse, diag
-people: Haimasree Bhattacharya, Sil van de Leemput, Paul Konstantin Gerke, Colin Jacobs, Mathias Prokop, Bram van Ginneken
+groups: rse, diag, rtc
+people: Marco Marra, Sil van de Leemput, Paul Konstantin Gerke, Colin Jacobs, Mathias Prokop, Bram van Ginneken
 description: This workstation is a highly optimized reading platform that allows fast and standardized reading of lung screening CT scans.
-disable_gradient: true
-bibkeys:
 
 ## Aim
 This software is aimed to facilitate research collaborations between a
@@ -35,7 +33,7 @@ prior scans. All nodules from the prior scans are propagated
 automatically to the new scan. Finally, the prior findings and the CAD
 marks are merged. This software also provides a functionality to
 propagate a newly found nodule retroactively through the previous scans.
-![Workstation]({static}/images/software/cirruslungs_workstation.png)
+![Workstation]({{ IMGURL }}/images/software/cirruslungs_workstation.png)
 *CIRRUSLungS workstation*
 
 After a user has finished reading, a structured report is automatically
@@ -45,7 +43,7 @@ optionally provides follow-up recommendations according to the
 BTS/Fleischner/LungRADS guidelines. The suggested follow up and other
 case comments can be added to the report. Finally, the user signs off
 the case and proceeds with the next one.
-![Workstation]({static}/images/software/cirruslungs_report.png)
+![Workstation]({{ IMGURL }}/images/software/cirruslungs_report.png)
 *CIRRUSLungS report*
 
 ## Usage

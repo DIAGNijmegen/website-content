@@ -3,10 +3,10 @@ title_long: Grand Challenges in Biomedical Image Analysis
 finished: false
 picture: software/grand-challenge.png
 template: project-single
-groups: rse, diag
-people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Bram van Ginneken, Sil van de Leemput, Mike Overkamp, Miriam Groeneveld, Anne Mickan, Chris van Run 
+groups: rse, diag, rtc
+people: James Meakin, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Bram van Ginneken, Sil van de Leemput, Mike Overkamp, Miriam Groeneveld, Anne Mickan, Chris van Run
 description: The home of challenges in biomedical imaging.
-disable_gradient: true
+
 bibkeys:
 github: https://github.com/comic/grand-challenge.org
 

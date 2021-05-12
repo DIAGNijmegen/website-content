@@ -2,7 +2,7 @@ title: Unraveling mechanisms of vascular function and regulation with causal dis
 finished: false 
 type: general 
 picture: vacancies/vascular-function.jpg 
-people: Gabriel Bucur, Jurgen Claassen, Tom Claassen, Tom Heskes, Jerrald Rector
+people: Mirthe van Diepen, Gabriel Bucur, Jurgen Claassen, Tom Claassen, Tom Heskes, Jerrald Rector
 description: The aim of this project is to predict vascular function of the brain from short, non-invasive ten-minute recordings of blood pressure, heart rate, and cerebral perfusion.
 template: project-single 
 groups: ai-for-health

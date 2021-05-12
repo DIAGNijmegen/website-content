@@ -8,14 +8,18 @@
 
     {% if page and page.template == 'home' %}
     <link rel="canonical" href="{{ SITEURL }}">
-    {% elif page and page.parent.url == 'members/' and page.name in MEMBER_DATA_PER_NAME %}
+    {% elif page and page.category == 'members' and page.name in MEMBER_DATA_PER_NAME %}
     <link rel="canonical" href="{{ MEMBER_DATA_PER_NAME[page.name].url }}">
+    {% elif page and page.category == 'projects' and page.slug in PROJECT_DATA %}
+    <link rel="canonical" href="{{ PROJECT_DATA[page.slug].url }}">
     {% elif page %}
     <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
-    {% elif article %}
-    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
+    {% elif article and article.slug in HIGHLIGHT_DATA and 'news' in ARTICLE_URL %}
+    <link rel="canonical" href="{{ HIGHLIGHT_DATA[article.slug].url }}">
     {% elif page_name == 'highlights/index' %}
     <link rel="canonical" href="{{ SITEURL }}/hightlights/">
+    {% elif page_name == 'news/index' %}
+    <link rel="canonical" href="{{ SITEURL }}/news/">
     {% endif %}
 
     {% if page and page.redirect %}
@@ -61,7 +65,7 @@
         {% elif article %}
             /* above the fold for article */
             {% include "critical_css/article.css"  %}
-        {% elif page_name == 'highlights/index' %}
+        {% elif page_name == 'highlights/index' or page_name == 'news/index' %}
             /* above the fold for hightlights */
             {% include "critical_css/index.css"  %}
         {% else %}
@@ -70,12 +74,12 @@
     </style>
 
     <!-- Async load css -->
-    <link href="{{SITEURL}}/theme/css/theme.min.css?v={% include 'blocks/css.version' %}" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="{{SITEURL}}/theme/css/theme.min.css?v={% include 'blocks/css.version' %}" rel="stylesheet"></noscript>
+    <link href="{{SITEURL}}/theme/css/{{ CSS_THEME if CSS_THEME else 'default-theme' }}.css?v={% include 'blocks/css.version' %}" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="{{SITEURL}}/theme/css/{{ CSS_THEME if CSS_THEME else 'default-theme' }}.css?v={% include 'blocks/css.version' %}" rel="stylesheet"></noscript>
     <script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
 
     <!-- lazyloader for images -->
-    <script src="{{SITEURL}}/theme/js/lazysizes.min.js" async=""></script>
+    <script src="{{ SITEURL }}/theme/js/lazysizes.min.js" async=""></script>
     <!-- Add support for lazy loading backround images -->
     <script>
     document.addEventListener('lazybeforeunveil', function(e){
@@ -112,7 +116,7 @@
     {% include "blocks/footer.html" %}
 
     {% if page and page.openseadragon %}
-    <script type="text/javascript" src="/dzi/openseadragon.min.js" async onload="window.loadDzi();"></script>
+    <script type="text/javascript" src="https://assets.diagnijmegen.nl/dzi/openseadragon.min.js" async onload="window.loadDzi();"></script>
     {% endif %}
 </body>
 </html>

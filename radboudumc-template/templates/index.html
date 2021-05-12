@@ -3,50 +3,58 @@
 {% block description %}{{ ARTICLE_TYPE }} of {{ SITENAME }}.{% endblock %}
 {% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
 {% block content %}
-<div class="container">
+  <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ SITEURL }}/">Home</a></li>
+        <li class="breadcrumb-item">
+          <a href="{{ SITEURL }}/">Home</a>
+        </li>
         <li class="breadcrumb-item">{{ ARTICLE_TYPE }}</li>
       </ol>
     </nav>
-</div>
+  </div>
 
-<div class="container">
+  <div class="container">
     <h1 class="page-title">{{ ARTICLE_TYPE }}</h1>
 
     {% for article in articles_page.object_list %}
-    <article class="row article-summary">
+      <article class="row article-summary">
 
         <div class="col-md-3 article-image">
-            {% if article.picture %}
-            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ SITEURL }}/{{ ('images/' + article.picture) | resize_image('small')}}">
-            {% endif %}
+          {% if article.picture %}
+            <img class="img-thumbnail lazyload" alt="{{ article.title|striptags }}" src="{{ IMGURL }}/{{ ('images/' + article.picture) | resize_image('small')}}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-sizes="auto" data-srcset="{{ ('images/' + article.picture) | srcset_image(IMGURL)}}">
+          {% endif %}
         </div>
 
         <div class="col-md-9 article-text">
-            <header>
-                <small><time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }} </time></small>
-                <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
-            </header>
+          <header>
+            <small>
+              <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}
+              </time>
+            </small>
+            <h2 class="entry-title">
+              <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+            </h2>
+          </header>
 
-            <p>
-                {% if article.description %}
-                    {{ article.description }}
-                {% else %}
-                {{ article.summary | striptags }}
-                {% endif %}
-            </p>
+          <p>
+            {% if article.description %}
+              {{ article.description }}
+            {% else %}
+              {{ article.summary | striptags }}
+            {% endif %}
+          </p>
 
-            <p><a href="{{ SITEURL }}/{{ article.url }}">Read more &rarr;</a>
-        </div>
-    </article>
-    {% endfor %}
+          <p>
+            <a href="{{ SITEURL }}/{{ article.url }}">Read more &rarr;</a>
+          </div>
+        </article>
+      {% endfor %}
 
-    <div class="row">
+      <div class="row">
         {% if articles_page.has_other_pages() %}
-            {% include 'blocks/pagination.html' %}
+          {% include 'blocks/pagination.html' %}
         {% endif %}
+      </div>
     </div>
-</div>
-{% endblock content %}
+  {% endblock content %}

@@ -1,5 +1,5 @@
 title: Predicting and explaining the effect of pelvic floor surgeries
-groups: ai-for-health 
+groups: 
 finished: false
 type: student
 picture: projects/pelvic-floor-surgery.jpg

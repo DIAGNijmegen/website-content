@@ -1,11 +1,13 @@
 title: Automated detection of cranial arteriovenous shunts in 4D-CTA
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/avf-detection.jpg
 template: vacancy-single
-people: Anton Meijer, Rashindra Manniesing
+people: Anton Meijer, Ajay Patel, Bram van Ginneken
 description: Development of a deep learning algorithm for the detection of arteriovenous shunts.
+
+**This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements/).**
 
 ## Background
 In the diagnostic work-up of patients presenting with an intracranial hemorrhage or pulsatile tinnitus, it can be difficult to detect a possible underlying arteriovenous fistula (AVF). An AVF is an abnormal connection between an artery and a vein. Until recently, an AVF could only be detected with confidence based on invasive conventional angiography. Drawbacks of conventional angiography are the relatively time-consuming procedure, high cost, radiation exposure for both patient and operator, and a risk of transient or permanent neurologic complications. Dynamic CTA, also referred to as 4D-CTA, is a new imaging modality which enables the noninvasive evaluation of intracranial vasculature hemodynamics by multiple subsequent CT acquisitions over a period of time. However, the high spatial and temporal resolution of 4D-CTA yields large amounts of data resulting in laborious and time-consuming diagnostic evaluation and hampers direct interpretation, even for experienced observers. Computer aided diagnosis would therefore be beneficial for the detection and evaluation of cranial AVFs. The aim of this project is to develop AI for labeling of the intracranial vessel segments including AVFs on 4D-CTA. Labeling is not only important for the automated detection of AVFs and potentially other abnormalities such as vascular occlusions, but also facilitates human interpretation of the results that are found by the computer.

@@ -16,10 +16,20 @@
                 <div class="col-md-6">
                     <figure>
                         {% if HOME_IMAGE == 'highlight' %}
-                        <img alt="{{ articles[0].title }}" class="figure-img" src="{{ SITEURL }}/{{ ('images/' + articles[0].picture) | resize_image('large')}}">
+                        <img alt="{{ articles[0].title }}" class="figure-img lazyload" 
+                            sizes="(min-width: 768px) 20vw; 90vw"
+                            data-srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}"
+                            src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('small')}}"
+                            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        >
                         <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
                         {% else %}
-                        <img alt="Automated tumor detection" class="figure-img" src="{{ SITEURL }}/{{HOME_IMAGE}}">
+                        <img alt="{{ HOME_IMAGE_CAPTION }}" class="figure-img lazyload" 
+                            data-sizes="(min-width: 768px) 20vw; 90vw"    
+                            data-srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}"
+                            src="{{ IMGURL }}/{{HOME_IMAGE}}"
+                            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        >
                         <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
                         {% endif %}
                     </figure>
@@ -57,10 +67,18 @@
                 <div class="col-md-6">
                     <figure class="figure">
                       {% if HOME_IMAGE == 'highlight' %}
-                      <img alt="{{ articles[0].title }}" class="figure-img" src="{{ SITEURL }}/{{ ('images/' + articles[0].picture) | resize_image('large')}}">
+                      <img alt="{{ articles[0].title }}" class="figure-img lazyload" 
+                        data-sizes="(min-width: 768px) 20vw; 90vw"
+                        data-srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}"
+                        src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('small')}}"
+                        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                       <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
                       {% else %}
-                      <img alt="Automated tumor detection" class="figure-img" src="{{ SITEURL }}/{{HOME_IMAGE}}">
+                      <img alt="Automated tumor detection" class="figure-img lazyload
+                        data-sizes="(min-width: 768px) 20vw; 90vw"
+                        data-srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}"
+                        src="{{ IMGURL }}/{{HOME_IMAGE}}"
+                        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                       <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
                       {% endif %}
                     </figure>
@@ -108,18 +126,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-4">
-                    <h1>Calendar</h1>
+                    <h1>{{ HOME_SECTIONS["Calendar"] }}</h1>
                 </div>
             </div>
             <dl class="row calendar">
-              {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.parent.url == 'calendar/' %}
+              {% for event in pages | selectattr('date') | sort(attribute='date', reverse=True) if event.category == 'calendar' %}
                 {% if loop.index <= 5 %}
                   <dt class="col-md-2">{{ event.date.strftime('%B %-d, %Y')  }}</dt>
                   <dd class="col-md-10">
                     {% if event.content_after and event.date.date() < TODAY %}
-                        {{ event.content_after }}
+                        {{ event.content_after | parse_custom_tags}}
                     {% elif event.content_before and event.date.date() > TODAY %}
-                        {{ event.content_before }}
+                        {{ event.content_before | parse_custom_tags }}
                     {% else %}
                         {{ event.content }}
                     {% endif %}
@@ -138,13 +156,13 @@
     {% if "Vacancies" in HOME_SECTIONS %}
       {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
-      {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.parent.url == 'vacancies/' and vacancy.closed == 'false'  %}
+      {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.category == 'vacancies' and vacancy.closed == 'false'  %}
         {% if not ns.has_vacancy %}
           {% set ns.has_vacancy = True %}
           <div class="block {{ row_class.next() }}">
             <div class="container">
               <div class="row">
-                <div class="col-md-12 mb-4"><h1>Vacancies &amp; Student projects</h1></div>
+                <div class="col-md-12 mb-4"><h1>{{ HOME_SECTIONS["Vacancies"] }} &amp; Student projects</h1></div>
               </div>
               {% endif %}
 
@@ -153,9 +171,9 @@
               <div class="row vacancy">
                 <div class="col-md-4">
                   {% if vacancy.picture %}
-                  <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{ ('images/' + vacancy.picture) | resize_image('medium')}}">
+                  <img class="img-thumbnail lazyload" data-src="{{ IMGURL }}/{{ ('images/' + vacancy.picture) | resize_image('small')}}">
                   {% else %}
-                  <img class="img-thumbnail lazyload" data-src="{{ SITEURL }}/{{SITE_PICTURE}}">
+                  <img class="img-thumbnail lazyload" data-src="{{ IMGURL }}/{{SITE_PICTURE}}">
                   {% endif %}
                 </div>
 
@@ -192,14 +210,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-4">
-                    <h1>Projects</h1>
+                    <h1>{{ HOME_SECTIONS["Projects"] }}</h1>
+                    {% for card in pages %}
+                        {% if card.category == 'pages' %}
+                            {% if card.template == 'projects' %}
+                                {% if card.description %} 
+                                    {{ card.description }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
                         {% for card in pages %}
-                            {% if card.parent.url == 'projects/' %}
+                            {% if card.category == 'projects' %}
                                 {% if card.finished == 'false' %}
                                  {% include "blocks/card.html" %}
                                 {% endif %}
@@ -217,14 +244,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-4">
-                    <h1>Software</h1>
+                    <h1>{{ HOME_SECTIONS["Software"] }}</h1>
+                    {% for card in pages %}
+                        {% if card.category == 'pages' %}
+                            {% if card.template == 'software' %}
+                                {% if card.description %} 
+                                    {{ card.description }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
                         {% for card in pages %}
-                            {% if card.parent.url == 'software/' %}
+                            {% if card.category == 'software' %}
                                 {% if card.finished != 'true' %}
                                  {% include "blocks/card.html" %}
                                 {% endif %}
@@ -244,7 +280,7 @@
         {% for card in pages %}
           {% if card.type == 'card' %}
           <div class="col-md-4">
-            <div class="card image-card lazyload" data-bg="{{ SITEURL}}/images/{{ card.picture }}">
+            <div class="card image-card lazyload" data-bg="{{ IMGURL }}/images/{{ card.picture }}">
               {%if not card.disable_gradient %}
                 <div class="card-gradient"></div>
               {% endif %}
@@ -268,13 +304,13 @@
       <div class="container">
           <div class="row">
               <div class="col-md-12 mb-4">
-                  <h1>Members</h1>
+                  <h1>{{ HOME_SECTIONS["Members"] }}</h1>
               </div>
           </div>
 
           <div class="row people-grid">
           {% for person in pages %}
-              {% if person.active == 'yes' and person.parent.url == 'members/' %}
+              {% if person.active == 'yes' and person.category == 'members' %}
                   {% include "blocks/person-circle.html" %}
               {% endif %}
           {% endfor %}

@@ -1,0 +1,60 @@
+name: "Build and Deploy"
+
+description: "build and deploy"
+
+inputs:
+  website-dir:
+    description: "Website to build"
+    required: true
+    default: ""
+  website-api:
+    description: "Website API"
+    required: true
+    default: ""
+  netlify_key:
+    description: "Netlify Key"
+    required: true
+    default: ""
+  development:
+    description: "development"
+    required: false
+    default: 0
+  github_token:
+    description: "github token"
+    required: true
+    default: ""
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies
+      shell: bash
+      run: |
+        pip install -r ./requirements.txt
+
+    - name: Parse Publications
+      shell: bash
+      run: bash parse_publications.sh
+      env:
+        GH_BIB_TOKEN: ${{ inputs.github_token }}
+
+    - name: Copy Content
+      shell: bash
+      run: bash copy_content.sh
+      env:
+        WEBSITE: ${{ inputs.website-dir }}
+
+    - name: Build Pelican Website ${{ inputs.website-dir }}
+      shell: bash
+      run: bash deploy.sh
+      env:
+        WEBSITE: ${{ inputs.website-dir }}
+        DEVELOPMENT: ${{ inputs.development }}
+
+    - name: Netlify deploy
+      shell: bash
+      run: |
+        "$(yarn global bin)/netlify" deploy --dir=${{ inputs.website-dir }}/output --prod
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ inputs.netlify_key }}
+        NETLIFY_SITE_ID: ${{ inputs.website-api }}

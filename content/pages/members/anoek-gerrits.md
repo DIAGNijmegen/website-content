@@ -2,8 +2,8 @@ title: Anoek Gerrits
 name: Anoek Gerrits
 template: people-single
 picture: people/Person.png
-position: Bachelor student
-active: yes
+position: Bachelor Student
+active: no
 groups: diag, pathology
 default_group: pathology
 email: anoek.gerrits@radboudumc.nl

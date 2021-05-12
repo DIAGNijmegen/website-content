@@ -1,8 +1,9 @@
 # DIAG Website content
 
-This repository stores all the content and source code for the diag websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
+This repository stores all the content and source code for the DIAG websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
 
-[![Build Status](https://travis-ci.org/DIAGNijmegen/website-content.svg?branch=master)](https://travis-ci.org/DIAGNijmegen/website-content)
+[![Build and Deploy](https://github.com/DIAGNijmegen/website-content/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/DIAGNijmegen/website-content/actions)
+
 
 ## Websites
 
@@ -12,18 +13,12 @@ Live websites:
 - Retina: https://www.a-eyeresearch.nl
 - RSE: https://rse.diagnijmegen.nl
 - AI for Health: https://www.ai-for-health.nl
-- AIIM: https://www.aiimnijmegen.nl
 - RTC: https://rtc.diagnijmegen.nl
-
-Websites in development
-
-- Bodyct: https://bodyct.diagnijmegen.nl
-- Neuro: https://diagnijmegen.github.io/website-neuro/ (temporary)
-- DIAG: https://beta.diagnijmegen.nl (temporary)
+- DIAG (main website): https://www.diagnijmegen.nl
 
 ## Updating the content
 
-Please see the [documentation](https://github.com/DIAGNijmegen/website-content/tree/master/docs) for guides on updating the websites.
+Please see the [documentation](https://github.com/DIAGNijmegen/website-content/tree/master/docs) for guides on updating the sites.
 
 ## Building the website locally
 

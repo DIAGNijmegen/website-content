@@ -1,11 +1,12 @@
 title: AI steered interventional MRI
-groups: diag, ai-for-health
-finished: false
+groups: ai-for-health
+finished: true
 type: student
 picture: projects/mri_intervention.jpg
 template: project-single
 people: Tristan de Boer, Henkjan Huisman, Patrick Brand, Elena Marchiori
 description: Develop Artificial Intelligence (AI) to track tumor targets in interventional MRI.
+publications: boer2020
 
 ## Clinical problem
 The field of minimally invasive image guided interventions (MIIGI) is emerging. MIIGI, for example using an MRI, allows minimally invasive treatment of cancer and other diseases. Currently, connecting MIIGI to real-time Artificial Intelligence is unexplored. In this research, we assess the feasibility of deep learning based tracking for real-time MIIGI, by developing a deep learning based pipeline for automated guidewire tracking.
@@ -31,18 +32,18 @@ Using the trained network and an API, we created a deep learning based pipeline 
 
 Finally, we evaluated the method by measuring the actual distance between the actual and the predicted position.
 
-![Pipeline]({static}/images/projects/interventional_mri_pipeline.png)
+![Pipeline]({{ IMGURL }}/images/projects/interventional_mri_pipeline.png)
 
 ## Results
 We first trained a network on previously acquired images, which then is inserted into a pipline shown in the figure above. We then conducted a slice repositioning experiment on an phantom of an anthropomorphic blood vessel. We can see the movement in the video below. In this video, we see guidewire markers, which then are detected and indicated with green bounding boxes. Using these predictions, we move the sagittal plane, as indicated with the red line. The sagittal plane is creating artefacts. Using these artefacts, we can see that the sagittal plane is following the red line. 
 
-![Detection video]({static}/images/projects/interventional_mri_video.gif)
+![Detection video]({{ IMGURL }}/images/projects/interventional_mri_video.gif)
 
 We showed tracking of a guidewire displacement of 140mm in real-time (121ms) within, on average, a 7mm margin (σ = 4). 
 
 A setup of the system can be seen below, where we can see the physician moving the guidewire in combination with the laptop running the pipeline.
 
-![Hardware setup]({static}/images/projects/interventional_mri_setup.png)
+![Hardware setup]({{ IMGURL }}/images/projects/interventional_mri_setup.png)
 
 ## Conclusion
 Deep learning assisted image guided interventions is feasible, though not yet ready for clinical practice. We show a mean displacement error of 7 mm (σ = 4). 

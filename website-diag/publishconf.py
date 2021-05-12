@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://beta.diagnijmegen.nl'
+SITEURL = 'https://www.diagnijmegen.nl'
+IMGURL = 'https://assets.diagnijmegen.nl'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
@@ -22,3 +23,4 @@ AUTHOR_FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = [".git"]
+GOOGLE_ANALYTICS = 'UA-106053666-1'

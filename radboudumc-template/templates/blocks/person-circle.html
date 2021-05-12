@@ -12,9 +12,9 @@
     {% endif %}
 
     {% if person.picture %}
-    <a href="{{ person_url }}"><img data-src="{{SITEURL}}/{{ ('images/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    <a href="{{ person_url }}"><img data-src="{{ IMGURL}}/{{ ('images/' + person.picture) | resize_image('tiny') }}" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% else %}
-    <a href="{{ person_url }}"><img data-src="{{SITEURL}}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
+    <a href="{{ person_url }}"><img data-src="{{ IMGURL }}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% endif %}
 
     <h3 class="person-name"><a href="{{ person_url }}">
@@ -24,9 +24,13 @@
       {% endif %}
     </a></h3>
 
-    <h4 class="person-title"><small>{{ person.position }}</small></h4>
+    <h4 class="person-title"><small>{{ person.position if person.position is string else person.position | join(', ')  }}</small></h4>
 
     {% if person.default_group != SITE_GROUP and person.group_name %}
       <p class='text-muted'>{{ person.group_name }}</p>
+    {% endif %}
+
+    {% if SHOW_EMAIL_GROUP_MEMBERS_INLINE and person.email %}
+    <p class='text-muted'><a href="mailto:{{ person.email }}"><svg class="svg-icon svg-icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg></a></p>
     {% endif %}
 </div>
