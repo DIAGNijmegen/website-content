@@ -13,7 +13,7 @@
   "author": "Wouter Bulten",
   "license": "Copyright",
   "devDependencies": {
-    "autoprefixer": "^9.8.2",
+    "autoprefixer": "^10.2.5",
     "bootstrap": "^4.5.0",
     "browser-sync": "^2.26.14",
     "node-sass": "^5.0.0",
