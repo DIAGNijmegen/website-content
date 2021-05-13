@@ -1,0 +1,11 @@
+title: Artificial Intelligence detects scaphoid fractures on x-rays
+date: 2021-05-13
+description: Nils Hendrix et al developed an Artificial Intelligence system that can automatically detect scaphoid fractures on x-rays. Their work was published by the journal Radiology: Artificial Intelligence.
+picture: news/overview_scaphoid_fracture_detection_pipeline.png
+groups: diag
+
+[Nils Hendrix](https://www.diagnijmegen.nl/people/nils-hendrix/) and his colleagues developed an Artificial Intelligence (AI) system that can automatically detect a common type of wrist fracture on x-rays, namely scaphoid fractures. Scaphoid fractures often occur when people fall on an outstretched hand and make up 7% of all skeletal fractures encountered at the clinic. It is important to diagnose them at an early stage, as the scaphoid may not heal properly if left untreated. A fractured scaphoid can damage the surrounding wrist bones and may ultimately lead to functional loss.  
+
+The proposed AI system employs two convolutional neural networks (CNNs) consecutively: one CNN (trained with 1039 x-rays) first localizes the scaphoid and then passes the relevant region to another CNN (trained with 3000 x-rays) for fracture detection. In an observer study, the performance of the system was evaluated using 190 x-rays that were read by 11 radiologists. The system detected scaphoid fractures just as well as the radiologists, achieving a comparable area under the receiver operating characteristic curve (0.87 vs 0.83 [average of all radiologists]; P = .09). These results suggest that the system may be able to help radiologists reaching an early and definitive diagnosis.
+
+The study was published in the American journal [Radiology: Artificial Intelligence](https://pubs.rsna.org/doi/10.1148/ryai.2021200260) on the 28th of April. A press release can be found [here](https://www.rsna.org/news/2021/april/AI For Wrist Fractures). The AI system is freely available on the platform [Grand Challenge](https://grand-challenge.org/algorithms/scaphoid-fracture-detection/), where it can be run in a web browser in real-time. 
