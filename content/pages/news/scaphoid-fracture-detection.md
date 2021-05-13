@@ -1,7 +1,7 @@
 title: Artificial Intelligence detects scaphoid fractures on x-rays
 date: 2021-05-13
 description: Nils Hendrix et al developed an Artificial Intelligence system that can automatically detect scaphoid fractures on x-rays. Their work was published by the journal Radiology: Artificial Intelligence.
-picture: news/overview_scaphoid_fracture_detection_pipeline.png
+picture: news/scaphoid_fracture_detector_gc_cover.png
 groups: diag
 
 [Nils Hendrix](https://www.diagnijmegen.nl/people/nils-hendrix/) and his colleagues developed an Artificial Intelligence (AI) system that can automatically detect a common type of wrist fracture on x-rays, namely scaphoid fractures. Scaphoid fractures often occur when people fall on an outstretched hand and make up 7% of all skeletal fractures encountered at the clinic. It is important to diagnose them at an early stage, as the scaphoid may not heal properly if left untreated. A fractured scaphoid can damage the surrounding wrist bones and may ultimately lead to functional loss.  
