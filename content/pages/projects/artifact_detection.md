@@ -38,7 +38,7 @@ We trained the artifact segmentation network on 142 slides, coming from various 
 ## Conclusion
 We developed an AI system consisting of an artifact segmentation network to make other algorithms more robust against artifacts and a quality assessment network to speed up the process of manual inspection. The generalization of both networks may be improved with more annotations. The average inference time per slide is ~6 minutes and can be done in parallel to reduce inference time. The system shows potential to be used in the AI-assisted future of the workflow in clinical practice. A possible next step of this project would be to implement the system in the daily workflow of pathologists and technicians.
 
-Corresponding [MIDL short paper](https://openreview.net/forum?id=7EZ4JOtlRl) is now available.
+Final report can be found here: [MIDL short paper.](https://openreview.net/pdf?id=7EZ4JOtlRl).
 
 An interactive demo is accessible via Grand-Challenge:
 [https://grand-challenge.org/artifact-segmentation](https://grand-challenge.org/artifact-segmentation)
