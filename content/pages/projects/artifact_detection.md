@@ -10,13 +10,12 @@ description: Development of a deep learning algorithm that can classify the diff
 *Start date: 15-08-2020* <br>
 *End date: 15-02-2021*
 
-![pathology-artifact-detection](https://github.com/DIAGNijmegen/pathology-artifact-detection-private/blob/master/images/header.PNG?raw=true)
+![pathology-artifact-detection](https://github.com/DIAGNijmegen/pathology-artifact-detection-private/blob/master/images/header.png?raw=true)
 
 ## Clinical problem
 Whole slide imaging technology allowed the digitization of conventional glass slides, which led to several new opportunities in the Pathology field, such as the integration of computational systems, most notably artificial intelligence (AI). However, the digitization process also brought along new challenges for the automated analysis of digitized images. One of the most important challenges arises from the presence of image artifacts. The image below shows examples of common types of artifacts found in whole slide images; (a) out-of-focus, (b) tissue folds, (c) ink, (d) dust, (e) pen mark, and (f) air bubbles.
 
 ![pathology-artifact-detection](https://github.com/DIAGNijmegen/pathology-artifact-detection-private/blob/master/images/artifact_examples.PNG?raw=true)
-master/images/artifact_examples.PNG
 
 Depending on the severity of artifacts that are present, tissue regions that are important for diagnosis could be unclear, unusable, or even be completely missing. As a result, an AI system can fail to make a correct diagnosis in those regions. A quality control mechanism is needed to ensure that whole slide images are of good enough quality to be further analyzed by pathologists. Additionally, the quality system could provide recommendations, such as rescanning the whole slide image or leaving out defect regions of the slide when making diagnoses. Here is an example image with artifacts causing an AI algorithm to make incorrect predictions;
 
