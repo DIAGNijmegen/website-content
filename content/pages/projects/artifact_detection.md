@@ -19,7 +19,7 @@ Whole slide imaging technology allowed the digitization of conventional glass sl
 
 Depending on the severity of artifacts that are present, tissue regions that are important for diagnosis could be unclear, unusable, or even be completely missing. As a result, an AI system can fail to make a correct diagnosis in those regions. A quality control mechanism is needed to ensure that whole slide images are of good enough quality to be further analyzed by pathologists. Additionally, the quality system could provide recommendations, such as rescanning the whole slide image or leaving out defect regions of the slide when making diagnoses. Here is an example image with artifacts causing an AI algorithm to make incorrect predictions;
 
-![pathology-artifact-detection](https://github.com/DIAGNijmegen/pathology-artifact-detection-private/blob/master/images/header.PNG?raw=true)
+![pathology-artifact-detection](https://github.com/DIAGNijmegen/pathology-artifact-detection-private/blob/master/images/failure_example.PNG?raw=true)
 
 In the Pathology department of Radboudumc, every scanned whole slide image is manually inspected on its quality by technicians. Approximately 1.7% of 950 scanned slides are rescanned daily due to having too poor quality. The high volume of the slides and the sheer size of the scanned images (reaching up to 100,000 x 200,000 pixels) make manual control and supervision a highly time-consuming task for technicians. 
 
