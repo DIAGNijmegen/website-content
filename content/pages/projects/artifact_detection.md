@@ -41,7 +41,7 @@ We developed an AI system consisting of an artifact segmentation network to make
 Final report can be retrieved from here: [MIDL short paper](https://openreview.net/pdf?id=7EZ4JOtlRl).
 
 An interactive demo is accessible via Grand-Challenge:
-[https://grand-challenge.org/artifact-segmentation](https://grand-challenge.org/artifact-segmentation)
+[https://grand-challenge.org/algorithms/quality-assessment-of-whole-slide-images-through-a/](https://grand-challenge.org/artifact-segmentation)
 
 The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/pathology-artifact-detection).
 
