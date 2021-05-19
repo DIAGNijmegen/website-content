@@ -4,11 +4,11 @@ finished: false
 type: student
 picture: projects/aaa-detection.png
 template: project-single
-people: Douwe van Erp, Thomas van den Heuvel, Chris de Korte, Bram van Ginneken
+people: Douwe van Erp, Thomas van den Heuvel, Chris de Korte, Bram van Ginneken, Tom Heskes
 description: Project aimed at development of deep learning algorithms for automated detection of AAA.
 
 **Start date: 08-03-2021** <br>
-**End date: 08-10-2021**
+**End date: 17-12-2021**
 
 ## Clinical problem
 An abdominal aortic aneurysm (AAA) is a local enlargement of the abdominal artery. Patients with a AAA have an increased risk of rupture, often leading to death. It is therefore vital to early detect and closely monitor these patients. Detection and surveillance of AAA are currently performed by a specialist in the hospital, who measures the diameter of the AAA using ultrasound. 
