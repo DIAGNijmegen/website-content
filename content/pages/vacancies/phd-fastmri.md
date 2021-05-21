@@ -5,7 +5,7 @@ type: general
 picture: vacancies/phd-fastmri.jpg
 people: Henkjan Huisman
 template: vacancy-single
-description: We are offering two PhD positions to apply machine learning to develop novel diagnostic reconstruction and steering technology.
+description: We are offering two PhD positions to develop novel diagnostic reconstruction and steering technology.
 
 
 ## Background and job description
