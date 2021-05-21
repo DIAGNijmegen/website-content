@@ -1,6 +1,6 @@
 title: Fetal heart rate detection in twin pregnancies
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/fhr_twin_pregnancies.png
 template: vacancy-single
