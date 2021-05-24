@@ -2,7 +2,7 @@ title: Stephan Dooper
 name: Stephan Dooper
 template: people-single
 picture: people/Stephan_Dooper.jpg
-position: PhD Student
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology
