@@ -1,13 +1,13 @@
 title: AI predicts lung cancer risk
 date: 2021-05-18
-description: Kiran Vaidhya Venkadesh and team developed an AI tool for estimating malignancy risk of pulmonary nodules detected on low-dose CT images. This work appeared in _Radiology_.
+description: Kiran Vaidhya Venkadesh and team developed an AI tool for predicting the malignancy risk of lung nodules. This work appeared in _Radiology_.
 picture: news/lung-nodule-malignancy-risk-cnn.png
 groups: diag, bodyct
 status: draft
 
 Lung cancer is the leading cause of cancer death worldwide, with an estimated 1.8 million deaths in 2020, according to the World Health Organization. Low-dose chest CT is used to screen people at a high risk of lung cancer, such as longtime smokers. It has been shown to significantly reduce lung cancer mortality, primarily by helping to detect cancers at an early stage when they are easier to treat successfully. 
 
-While lung cancer typically shows up as pulmonary nodules on CT images, most nodules are benign and do not require further clinical workup. Accurately distinguishing between benign and malignant nodules is therefore crucial to catch cancers early.
+While lung cancer typically shows up as lung nodules on CT images, most nodules are benign and do not require further clinical workup. Accurately distinguishing between benign and malignant nodules is therefore crucial to catch cancers early.
 
 [Kiran Vaidhya Venkadesh](member/kiran-vaidhya-venkadesh) and colleagues from Radboudumc and the Danish Lung Cancer Screening Trial team built an AI tool that accurately predicts the risk that lung nodules detected on screening CT will become cancerous.
 
