@@ -1,6 +1,6 @@
 title: AI predicts lung cancer risk
 date: 2021-05-18
-description: Kiran Vaidhya Venkadesh and team developed a deep learning algorithm for estimating malignancy risk of pulmonary nodules detected on low-dose CT images. This work appeared in _Radiology_.
+description: Kiran Vaidhya Venkadesh and team developed an AI tool for estimating malignancy risk of pulmonary nodules detected on low-dose CT images. This work appeared in _Radiology_.
 picture: news/lung-nodule-malignancy-risk-cnn.png
 groups: diag, bodyct
 status: draft
