@@ -14,7 +14,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  20-05-2021  | Douwe van Erp | The AAA Checker - Automatically detecting abdominal aortic aneurysms |
 |  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> TBA |
 |  10-06-2021  | Richard Li <br> Noud Emonts | TBA |
 
@@ -22,6 +21,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  20-05-2021  | Douwe van Erp | [The AAA Checker - Automatically detecting abdominal aortic aneurysms.](https://www.ai-for-health.nl/projects/aaa-detection/) |
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | WondGezond – Towards a post-operative surgical site monitoring platform |
 |  29-04-2021  | **Guest speaker** <br> Tamar Sharon | AI discrimination risks in health and medicine |
 |  22-04-2021  | Michel Botros <br> Eugenia Martynova| [Detecting and characterizing vertebral fractures in CT scans.](https://www.ai-for-health.nl/projects/vertebral-fractures/) <br> [Artificial intelligence-assisted detection of adhesions on cine MRI.](https://www.ai-for-health.nl/projects/ai-for-adhesions-msc/)|
