@@ -18,4 +18,4 @@ The study was published in [Radiology](https://pubs.rsna.org/doi/10.1148/radiol.
 
 The team at Radboudumc, led by [member/colin-jacobs], plans to continue improving the algorithm by incorporating clinical parameters like age, sex, and smoking history.
 They are also working on a deep learning algorithm that takes multiple CT examinations as input. The current algorithm is highly suitable for analyzing nodules at the initial, or baseline, screening, but for nodules detected at subsequent screenings, growth and appearance in comparison to the previous CT are important. The team has also developed other algorithms to reliably extract imaging features from the chest CT related to chronic obstructive pulmonary diseases and cardiovascular diseases. They will be investigating how to effectively integrate these imaging features into the current algorithm.
-For more information about this research line, please visit [research/lung-cancer-image-analysis].
+For more information about this research line, please visit [this page](https://www.diagnijmegen.nl/research/lung-cancer-image-analysis/).
