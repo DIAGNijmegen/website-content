@@ -1,5 +1,5 @@
 title: AI predicts lung cancer risk
-date: 2021-05-18
+date: 2021-05-26
 description: Kiran Vaidhya Venkadesh and team developed an AI algorithm for predicting the malignancy risk of lung nodules. This work appeared in _Radiology_.
 picture: news/lung-nodule-malignancy-risk-cnn.png
 groups: diag
