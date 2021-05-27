@@ -79,7 +79,9 @@ These class activation maps show an increase in pneumothorax localization (red o
 ### Clinical validation
 
 Finally, in part III we evaluate the complete pipeline including our _iterative self-training_ method on a local private dataset of 28.207 images (RadboudCXR) and verify that iterative self-training successfully adapts to an unseen local dataset (AUC 0.87 -> 0.92). We integrate the final algorithm using the grand-challenge platform and is publicly
-accessible for testing: [https://grand-challenge.org/algorithms/cxr-pneumothorax-detection/](https://grand-challenge.org/algorithms/cxr-pneumothorax-detection/)
+accessible for testing:
+
+<a href="https://grand-challenge.org/algorithms/cxr-pneumothorax-detection/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
 #### Example 
 
