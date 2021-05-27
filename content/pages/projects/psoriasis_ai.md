@@ -37,6 +37,8 @@ Detailed results are currently withheld since the study is being published.
 Deep learning based CNNs have the potential to automatically and objectively perform image-based PASI scoring. The CNN<sub>CORAL</sub> outperformed PASI-trained physicians on image-based PASI scoring for the area subscore, while having similar performance on the erythema, desquamation and induration subscores. Automated PASI scoring could potentially enable objective and efficient PASI scoring in clinical practice and clinical research.
 
 An interactive demo is accessible via Grand-Challenge:
+<a href="https://grand-challenge.org/algorithms/psoriaisis-severity-grading-from-skin-images/"><img src="https://grand-challenge-public.s3.amazonaws.com/logos/algorithm/b13631d6-579e-419f-bf1a-f7e5cc2a0918/Logo.x20.jpeg" alt="GC" style="width:150px;height:150px;"></a>
+
 [Image-based PASI scoring using deep learning](https://grand-challenge.org/algorithms/psoriaisis-severity-grading-from-skin-images/)
 
 The code for this project can be found in this [GitHub repository](https://github.com/nolancardozo13/pasi_scoring_using_deep_learning)
