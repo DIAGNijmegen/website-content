@@ -34,6 +34,9 @@ At the same time, we found that the U-net model produced the best visual segment
 
 In conclusion, in this project, we have developed a first prototype to address the problem of automated PD-L1 quantification of positive and negative tumor and immune cells in lung cancer histopathology images. While the results are not ready for clinical application of the algorithm, this work represents a starting point for future work and a baseline approach to use in comparison with other methods. 
 
-The web application developed in this project based on grand-challenge can be found [here](https://grand-challenge.org/algorithms/pd-l1-scoring/). 
+The web application developed in this project based on grand-challenge can be found here:
+
+<a href="https://grand-challenge.org/algorithms/pd-l1-scoring/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
+
 The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/pathology-lung-pdl1).
 The final report for this project can be found [here](https://www.computationalpathologygroup.eu/publications/paye20/).
