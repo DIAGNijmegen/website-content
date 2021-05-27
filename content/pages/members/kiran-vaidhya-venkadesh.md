@@ -12,6 +12,8 @@ type: phd
 linkedin: http://www.linkedin.com/in/kiran-vaidhya-2bb63aa8/
 scholar: https://scholar.google.com/citations?user=jIwy5iAAAAAJ&hl=en
 researcherid: http://www.researcherid.com/rid/AAD-3087-2020
+publons: https://publons.com/researcher/3198824/kiran-vaidhya-venkadesh/
+orcid: https://orcid.org/0000-0002-4846-9049
 
 Kiran is a Ph.D. candidate at Radboudumc. He started working at the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) in November 2019. He is working on early lung cancer detection with an emphasis on temporal analysis on chest CT scans using deep learning. He is supervised by [member/bram-van-ginneken], [Mathias Prokop](https://www.radboudumc.nl/en/people/mathias-prokop) and [member/colin-jacobs] under [project/lung-cancer-screening] at DIAG.
 
