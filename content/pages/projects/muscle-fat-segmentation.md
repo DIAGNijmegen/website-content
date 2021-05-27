@@ -46,6 +46,10 @@ The mean percentage differences between the predicted area quantification and gr
 ![Example segmentation]({{ IMGURL }}/images/projects/muscle-fat-seg-segmentations.png)<br>
 *Representative example of abdominal segmentation of muscle and fat. A-C: axial slices at L1, L3, and L5. D, E: sagittal slices through the middle and to the left of the body. F: coronal slice through the center of the abdomen.*
 
+An interactive demo is accessible via Grand-Challenge:
+
+<a href="https://grand-challenge.org/algorithms/3d-abdominal-ct-segmentation/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
+
 The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/msk-fat-muscle-quantification).
 
 The final report for this project can be found [here](https://drive.google.com/file/d/1crvG6jbaj0dnw9I4ller4K__l4XVBp1z/view?usp=sharing).
