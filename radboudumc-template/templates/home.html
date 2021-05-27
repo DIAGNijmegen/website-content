@@ -102,7 +102,7 @@
                 </div>
                 <div class="row">
                     <div class="{% if TWITTER_URL %}col-md-8 col-lg-9{% else %}col-md-12{% endif %}">
-                        {% for article in articles[0:2] %}
+                        {% for article in articles[0:4] %}
                             {% include 'blocks/article-summary.html' %}
                         {% endfor %}
                         <p><a href="{{ SITEURL }}/{{ ARTICLE_TYPE.lower() }}" class="btn btn-primary">All {{ ARTICLE_TYPE.lower() }}</a></p>
