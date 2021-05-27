@@ -28,9 +28,11 @@
     {% if 'pmid' in BIB_ITEMS[page.bibkey] %}
     <a class="badge badge-publication" href={{ BIB_ITEMS[page.bibkey]['pmid'] }}>PMID</a>
     {% endif %}
-
-    {% if 'url' in BIB_ITEMS[page.bibkey] and 'doi' not in BIB_ITEMS[page.bibkey] %}
-    <a class="badge badge-publication" href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
+    
+    {% if 'url' in BIB_ITEMS[page.bibkey] %}
+      {% if 'doi' not in BIB_ITEMS[page.bibkey] or BIB_ITEMS[page.bibkey]['url_type'] == 'arXiv' %}
+      <a class="badge badge-publication" href={{ BIB_ITEMS[page.bibkey]['url'] }}> {{ BIB_ITEMS[page.bibkey]['url_type'] }} </a>
+      {% endif %}
     {% endif %}
 
     {% if 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
