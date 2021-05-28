@@ -6,7 +6,7 @@ closed: false
 
 type: student 
 
-picture: vacancies/NLP_lesion_detection.png 
+picture: vacancies/bradykinesia.jpg
 
  
 
