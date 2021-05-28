@@ -37,7 +37,7 @@ A database of 250,000 Dutch radiology reports from CT studies where the thorax, 
 
 Students will be supervised by two PhD students from the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) with experience in NLP and image processing using deep learning approaches. We provide access to a [large GPU computation cluster](https://rtc.diagnijmegen.nl/software/sol/).  
 
-The final deliverable is a code repository on GitHub, a publicly available algorithm on the platform Grand Challenge, a report and validation study and preferably a scientific publication. 
+The final deliverable is a code repository on GitHub, a publicly available algorithm on the platform [Grand Challenge](https://grand-challenge.org), a report and validation study and preferably a scientific publication. 
 
  
 
