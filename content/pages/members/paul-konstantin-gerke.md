@@ -7,7 +7,7 @@ active: yes
 groups: diag, rse, rtc
 default_group: rse
 email: paul.gerke@radboudumc.nl
-office: Route 767, Room 2.25
+office: Route 767, Room 27
 telephone:
 type: tech
 

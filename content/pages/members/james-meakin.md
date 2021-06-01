@@ -7,7 +7,7 @@ active: yes
 groups: diag, rse, rtc
 default_group: rse
 email: james.meakin@radboudumc.nl
-office: Route 767, Room 2.27
+office: Route 767, Room 31
 telephone:
 type: faculty
 
