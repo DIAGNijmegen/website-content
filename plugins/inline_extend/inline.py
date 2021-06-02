@@ -2,6 +2,10 @@ import os
 import re
 
 from pelican import signals
+import requests
+
+
+
 
 # Group base urls
 group_websites = {
@@ -17,6 +21,17 @@ group_websites = {
 # group is optional
 regex_member = re.compile(
     r"\[(?P<type>member|project|software|highlight|presentation|vacancy|publication)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]"
+)
+
+# regex_gc = re.compile(
+#     r"\[(?P<type>grand-challenge|gc)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*slug: (?P<slug>[a-zA-Z]+))?\]"
+# )
+
+
+# Matches: [youtube: video_id]
+
+regex_gc = re.compile(
+    r"\[(?P<type>grandchallenge)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*slug: (?P<slug>.*))?\]"
 )
 
 # Matches: [youtube: video_id]
@@ -42,14 +57,65 @@ content_varnames = {
 }
 
 
+def create_gc_card(info):
+    # return "<h1> Hello Mart </h1>"
+
+    a = f"""
+        <div class="col-md-4"> 
+        <div class="card image-card lazyload">
+
+            <a href="{info['url']}">
+                <img alt="" src="{info['logo']}" width="100%" height="100%">
+            </a>
+
+            <div class="card-body">
+                <h5 class="card-title"><a href="{info['url']}">{info['title']}</a></h5>
+                <p class="card-text">{info['description']}</p>
+            </div>
+            <div class="card-footer">
+            <a href="{info['url']}">Go to Grand Challenge →</a>
+            </div>
+        </div>
+        </div>
+    """
+    return a
+
+def create_gc_card_not_found(indentifier, slug):
+    a = f"""
+        <div class="col-md-4"> 
+        <div class="card image-card lazyload">
+            <h1> Content not found </h1>
+            <p> {slug} was not found in the public {indentifier} on grand challenge </p> 
+        </div>
+        </div>
+    """
+    return a
+
+
+def parse_grand_challenge_tag(text):
+    type = text.group("type")
+    identifier = text.group("identifier")
+    slug = text.group("slug")
+
+    if type == 'grandchallenge':
+        try:   
+            info = requests.get(f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
+            info = info.json()
+            html = create_gc_card(info['results'][0])
+        except:
+            html = create_gc_card_not_found(identifier, slug)
+        return html
+
+
 def parse_content_tag(text, context):
+
     """Replaces tags that link to internal content  """
     identifier = text.group("identifier")
     group = text.group("group")
     type = text.group("type")
 
     if type == 'publication':
-        
+
         site_group = None
         if group and group in group_websites[group]:
             site_group = group_websites[group]
@@ -113,6 +179,8 @@ def parse_tags(content, context):
     """Function parses content and searches for tags to replace"""
 
     content = regex_member.sub(lambda m: parse_content_tag(m, context), content)
+
+    content = regex_gc.sub(lambda m: parse_grand_challenge_tag(m), content)
 
     if "[youtube:" in content:
         content = regex_youtube.sub(lambda m: parse_youtube_tag(m), content)
