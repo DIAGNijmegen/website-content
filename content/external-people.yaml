@@ -1,4 +1,22 @@
 people:
+  - name: Jasper Twilt
+    position: PhD Candidate
+    affiliation: Radboud University Medical Center
+    url: https://www.linkedin.com/in/jasper-twilt-619aa2205/
+    picture: people/external/jasper-twilt.jpg
+    email: jasper.twilt@radboudumc.nl
+  - name: Jurgen Fütterer
+    position: Interventional Radiologist & Professor
+    affiliation: Radboud University Medical Center
+    url: http://magic.radboudimaging.nl/index.php/Person?name=Jurgen_F%C3%BCtterer
+    picture: people/external/jurgen-futterer.jpg
+    email: jurgen.futterer@radboudumc.nl
+  - name: Maarten de Rooij
+    position: Radiologist
+    affiliation: Radboud University Medical Center
+    url: https://www.radboudumc.nl/en/people/maarten-de-rooij
+    picture: people/external/maarten-de-rooij.jpg
+    email: maarten.derooij@radboudumc.nl
   - name: Katrien Grünberg
     position: Professor
     affiliation: Pathology, Radboud University Medical Center
