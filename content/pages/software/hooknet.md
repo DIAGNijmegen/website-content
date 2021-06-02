@@ -5,7 +5,7 @@ description: HookNet: multi-resolution convolutional neural networks for semanti
 github: https://github.com/DIAGNijmegen/pathology-hooknet
 groups: pathology
 people: Mart van Rijthoven, Maschenka Balkenhol, Jeroen van der Laak, Francesco Ciompi
-bibkeys: Rijt21
+bibkeys: Rijt21a
 openseadragon: true
 
 HookNet algorithm for the segmentation of histopathology breast tissue including ductal carcinoma in situ, invasive ductal carcinoma, invasive lobular carcinoma, non-malignant epithelium, fat and other breast tissue. 
@@ -17,6 +17,9 @@ HookNet algorithm for the segmentation of histopathology breast tissue including
   <img data-src="{{ IMGURL }}/images/software/concept_hooknet2.png" class="figure-img img-fluid lazyload" alt="HookNet">
   <figcaption class="figure-caption">Overview of the network architecture</figcaption>
 </figure>
+
+
+[member/mart-van-rijthoven, group: diag]
 
 <a name="examples"></a>
 ## Online examples
@@ -54,14 +57,20 @@ The examples below show the output of HookNet, overlayed on the processed WSIs. 
 
 <a name="info"></a>
 
-## Info
 
-- You can try out the algorithm for [Breast Tissue](https://grand-challenge.org/algorithms/hooknet-breast) or 
-[Lung Tissue](https://grand-challenge.org/algorithms/hooknet-lung) on the [Grand Challenge](https://grand-challenge.org/) Platform.
+<h3> Algorithm </h3>
+We have made the pretrained networks available via algorithms on the [Grand Challenge](https://grand-challenge.org/) Platform.
+You can try out the following algorithms:
+<div class=row>
+[grandchallenge/algorithms, slug: hooknet-lung]
+[grandchallenge/algorithms, slug: hooknet-breast]
+</div>
 
-- You can find the tensorflow implementation on our [GitHub repository](https://github.com/DIAGNijmegen/pathology-hooknet)
+<h3> Code </h3>
+You can find the tensorflow implementation on our [GitHub repository](https://github.com/DIAGNijmegen/pathology-hooknet)
 
-- Further questions regarding HookNet can be addressed to: [member/mart-van-rijthoven].  
+<h3> Contact </h3>
+Further questions regarding HookNet can be addressed to: [member/mart-van-rijthoven].  
 
 
 <script type="text/javascript">
