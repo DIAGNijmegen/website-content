@@ -5,8 +5,6 @@ from pelican import signals
 import requests
 
 
-
-
 # Group base urls
 group_websites = {
     "diag": "https://www.diagnijmegen.nl",
@@ -23,13 +21,7 @@ regex_member = re.compile(
     r"\[(?P<type>member|project|software|highlight|presentation|vacancy|publication)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*group: (?P<group>[a-zA-Z]+))?\]"
 )
 
-# regex_gc = re.compile(
-#     r"\[(?P<type>grand-challenge|gc)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*slug: (?P<slug>[a-zA-Z]+))?\]"
-# )
-
-
-# Matches: [youtube: video_id]
-
+# Matches: [grandchallenge: identifier, slug: slug]
 regex_gc = re.compile(
     r"\[(?P<type>grandchallenge)\/(?P<identifier>[a-zA-Z0-9-]+)\s*(,\s*slug: (?P<slug>.*))?\]"
 )
