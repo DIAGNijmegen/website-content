@@ -33,3 +33,21 @@ Creates a link to the member page of that user on the correct website.
 Example `[member/wouter-bulten, group: pathology]`
 
 Creates a link to a page on a specific website.
+
+## Linking to Grand-Challenge
+
+`[grandchallenge/identifier, slug: slug]`
+
+Examples:
+
+- `[grandchallende/archives, slug: luna16]`
+- `[grandchallende/algorithms, slug: gleason-grading-of-prostate-biopsies]`
+
+Creates a card with image and description matched to grand challenge. Note only public access can linked
+To create a row of cards, surround multiple special grand challenge tags in a row div, e.g.,:
+```
+    <div class=row>
+    [grandchallenge/archives, slug: luna16]
+    [grandchallende/algorithms, slug: gleason-grading-of-prostate-biopsies]
+    </div>
+```
