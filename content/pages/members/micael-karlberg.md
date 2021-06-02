@@ -7,7 +7,7 @@ active: yes
 groups: diag, pathology
 default_group: pathology
 email: micael.karlberg@liu.se
-office: Center for Medical Image Science and Visualization, Linköping University
+office: CMIV, Linköping University
 type: phd
 linkedin: https://www.linkedin.com/in/micaelkarlberg/?originalSubdomain=uk
 
