@@ -4,7 +4,6 @@ groups: ai-for-health
 picture: courses/certificates.png
 
 ## Electronic nose device: detection of colorectal cancer through exhaled breath using a non-invasive screening tool
-![Electronic nose presentation]({{ IMGURL }}/images/news/XMG_20200925_142737.jpg)
 Esmee Bakker and Yonne Peters worked on **Electronic nose device: detection of colorectal cancer through exhaled breath using a non-invasive screening tool**. Electronic noses analyze volatile organic compounds in air, in this case, air breathed out by people suspected of colorectal cancer. These e-noses are becoming cheaper and are equipped with more sophisticated sensors. Esmee and Yonne applied different machine learning approaches to the e-nose measurements but concluded that the performance was not yet good enough to consider integrating this in the colorectal cancer screening in The Netherlands.  
 
 ## Predicting re-intubation in critically ill patients
@@ -27,15 +26,21 @@ Amon Heijne, Daan de Jong, Daphne Everaerd and Laurens Verscheijden made an algo
 ## Automated clinical scoring in psoriasis
 Lex Dingemans, Tom Loonen, Anouk van der Schot and Mirjam Schaap addressed **Automated clinical scoring in psoriasis**. The severity of disease in psoriasis patients is often quantified with the PASI score. The team presented the first steps towards automatically assessing one aspect of this score from photographs using deep convolutional neural networks. Mirjam Schaap also recently received a [Radboud AI Voucher](https://www.ru.nl/ai/news-events/news/vm-eigen-news/five-winners-first-round-radboud-ai-innovation/) to continue this research.
 
+## Prediction of steatosis and fibrosis from liver ultrasound using deep learning
+
+Gert Weijers, Jonne Doorduin, Anton Meijer and Jan-Willem Wasmann worked on the **Prediction of steatosis and fibrosis from liver ultrasound using deep learning**. Liver biopsies are currently necessary in selected patients to identify liver fibrosis, leading to risk of bleeding associated complications. The team created a deep learning algorithm to recognize the steatosis and fibrosis from ultrasound images. The algorithm learned to reliably detect steatosis, but fibrosis was more challenging to identify. More data from fibrosis patients will hopefully improve this in the future.
+![Liver presentation]({{ IMGURL }}/images/news/liver.png)
+
 ## Classifying patient with inborn errors of metabolism using machine learning
 
 Arjen de Boer, Michael Ricking, Purva Kulkarni and Rob Tolboom worked on **Classifying patient with inborn errors of metabolism using machine learning**. Mass-spectrometry data is notoriously high dimensional, making it difficult to identify biomarkers for inborn errors. Using dimensionality reduction techniques the team identified several potential biomarkers for inborn errors. Further validation on future data will teach us how valuable these biomarkers are for predicting inborn errors.
 
-![Landmarks presentation]({{ IMGURL }}/images/news/landmarks.png)
+
 
 ## Automatically detect orthodontic landmarks on lateral headplates
 
 Frits Rangel, Charlotte Ijsbrandy, Stan Wijn, Ward de Witte and Stani Sparreboom-Kalaykova created an algorithm to **Automatically detect orthodontic landmarks on lateral headplates**. Such landmarks provide an orthodontist with important measurements before an intervention, but identifying them takes up valuable time from the orthodontist. Their results showed good performance on a subset of the landmarks, showing potential to fully automate this process. 
+![Landmarks presentation]({{ IMGURL }}/images/news/landmarks.png)
 
 ## Predict who might not benefit from mindfulness based cognitive therapy
 
@@ -44,8 +49,5 @@ Fiona Zegwaard, Gijs van de Veen and Dirk Geurts worked on a machine learning ap
 ## Predict the length of stay for ICU patients
 Maarten Arends, Roberto Garcia van der Westen, Chris Peters, Ingrid van Weerdenburg and Berti Moonen made an algorithm to **Predict the length of stay for ICU patients**. The planning of operations depends strongly on the predicted length of stay for patients after operation. Currently the length of stay is predicted purely on the type of operation that a patient undergoes. The team tried to improve these predictions by adding more patient data and using a machine learning approach. A slight improvement in predictions was achieved, but further work is necessary to make it a valuable tool on the ICU.
 
-## Prediction of steatosis and fibrosis from liver ultrasound using deep learning
-![Liver presentation]({{ IMGURL }}/images/news/liver.png)
 
-Gert Weijers, Jonne Doorduin, Anton Meijer and Jan-Willem Wasmann worked on the **Prediction of steatosis and fibrosis from liver ultrasound using deep learning**. Liver biopsies are currently necessary in selected patients to identify liver fibrosis, leading to risk of bleeding associated complications. The team created a deep learning algorithm to recognize the steatosis and fibrosis from ultrasound images. The algorithm learned to reliably detect steatosis, but fibrosis was more challenging to identify. More data from fibrosis patients will hopefully improve this in the future.
 
