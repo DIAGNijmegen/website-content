@@ -1,4 +1,4 @@
-title: faq
+title: FAQ
 description: Do you have any questions about the course? Please have a look at our FAQ.
 groups: ai-for-health
 picture: courses/certificates.png
