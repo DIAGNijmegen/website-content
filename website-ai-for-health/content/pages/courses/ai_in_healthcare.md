@@ -3,6 +3,18 @@ description: There are already many ways in which AI plays a role in healthcare 
 groups: ai-for-health
 picture: projects/ai_for_health.png
 
+## What is AI?
+Artificial intelligence is intelligence that is not of biological origin, but demonstrated by artificial machines and algorithms. In practice it encompasses a large collection of methods that give rise to some form of intelligent behavior. The recent surge in interest in AI is mainly caused by the success that different self learning algorithms have shown on various tasks that humans typically perform, such as recognizing objects. 
+
+<img align="right" src="https://assets.diagnijmegen.nl/images/courses/what_is_AI.jpg" width=200>
+
+Machine learning is the collective name of these learning based methods and drives most of the AI applications in use today. A machine learning algorithms typically receives some data as input (for example an image), then performs some internal computations and provides on output (for example a class to which the image belongs). By getting feedback about whether the image was classified correctly the algorithm will learn and become better at the task. Eventually an algorithm can become so good at a task that it even outperforms humans. 
+
+Deep learning is a subset of these learning based algorithms that makes use of multiple 'layers' of computations, hence the adjective 'deep'. These deep learning algorithms are also called 'neural networks', referring to their similarity to how biological brains work. These algorithms are particularly successfull on highly structured data such as images, text, audio, etc.
+
+During the course we will explain the similarities and differences between machine learning and deep learning and how to choose which one you need for your application. You will get an overview of the most common machine learning and deep learning methods that are being used and how to determine which method is best suited for a particular data set and a certain task. Furthermore you will get an understanding of the basic principles underlying these methods and learn how to actually train an algorithm during the practicals.
+
+
 Large amounts of data play an increasingly important role in healthcare. Medical images, health records, DNA sequences, ICU recordings, all these data streams form an increasing challenge for medical professionals to accurately interpret and extract relevant information from and new technologies to record data from patients keep emerging. Artificial intelligence can support healthcare professionals in interpreting all this data and help them provide the best care for their patients. There are several areas in healthcare where AI applications start to play a role.
 
 ## Medical imaging
