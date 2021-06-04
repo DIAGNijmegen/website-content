@@ -3,14 +3,17 @@ description: There have been two previous editions of the AI for Health course. 
 groups: ai-for-health
 picture: courses/certificates.png
 
+During the course you will work on an AI project together with a team for 4 project days. During these days you will go through all the steps that have to be taken to successfully deploy your AI application: context understanding, data understanding, data preparation, modelling, evaluation and deployment. Below you can find example project from previous editions of the course.
+
 ## Electronic nose device: detection of colorectal cancer through exhaled breath using a non-invasive screening tool
 Esmee Bakker and Yonne Peters worked on **Electronic nose device: detection of colorectal cancer through exhaled breath using a non-invasive screening tool**. Electronic noses analyze volatile organic compounds in air, in this case, air breathed out by people suspected of colorectal cancer. These e-noses are becoming cheaper and are equipped with more sophisticated sensors. Esmee and Yonne applied different machine learning approaches to the e-nose measurements but concluded that the performance was not yet good enough to consider integrating this in the colorectal cancer screening in The Netherlands.  
 
 ## Predicting re-intubation in critically ill patients
 
-![Predicting re-intubation presentation]({{ IMGURL }}/images/news/XMG_20200925_144456.jpg)
 
 Sabine van den Akker, Tessel Galesloot, Luc Evers, Ruud van Kaam and Tim Frenzel worked on a machine learning approach for **Predicting re-intubation in critically ill patients**. Many patients in ICU where the tube has been removed need to be re-intubated at a later point in time. A model that accurately computes the probability that re-intubation will be needed could improve patient management. The team showed that data collection at the ICU is challenging, and careful data cleaning is required before machine learning can be applied. 
+
+![Predicting re-intubation presentation]({{ IMGURL }}/images/news/XMG_20200925_144456.jpg)
 
 ## AI for classification of breast cancer in 3D ultrasound data
 
@@ -29,6 +32,7 @@ Lex Dingemans, Tom Loonen, Anouk van der Schot and Mirjam Schaap addressed **Aut
 ## Prediction of steatosis and fibrosis from liver ultrasound using deep learning
 
 Gert Weijers, Jonne Doorduin, Anton Meijer and Jan-Willem Wasmann worked on the **Prediction of steatosis and fibrosis from liver ultrasound using deep learning**. Liver biopsies are currently necessary in selected patients to identify liver fibrosis, leading to risk of bleeding associated complications. The team created a deep learning algorithm to recognize the steatosis and fibrosis from ultrasound images. The algorithm learned to reliably detect steatosis, but fibrosis was more challenging to identify. More data from fibrosis patients will hopefully improve this in the future.
+
 ![Liver presentation]({{ IMGURL }}/images/news/liver.png)
 
 ## Classifying patient with inborn errors of metabolism using machine learning
@@ -39,7 +43,8 @@ Arjen de Boer, Michael Ricking, Purva Kulkarni and Rob Tolboom worked on **Class
 
 ## Automatically detect orthodontic landmarks on lateral headplates
 
-Frits Rangel, Charlotte Ijsbrandy, Stan Wijn, Ward de Witte and Stani Sparreboom-Kalaykova created an algorithm to **Automatically detect orthodontic landmarks on lateral headplates**. Such landmarks provide an orthodontist with important measurements before an intervention, but identifying them takes up valuable time from the orthodontist. Their results showed good performance on a subset of the landmarks, showing potential to fully automate this process. 
+Frits Rangel, Charlotte Ijsbrandy, Stan Wijn, Ward de Witte and Stani Sparreboom-Kalaykova created an algorithm to **Automatically detect orthodontic landmarks on lateral headplates**. Such landmarks provide an orthodontist with important measurements before an intervention, but identifying them takes up valuable time from the orthodontist. Their results showed good performance on a subset of the landmarks, showing potential to fully automate this process.
+
 ![Landmarks presentation]({{ IMGURL }}/images/news/landmarks.png)
 
 ## Predict who might not benefit from mindfulness based cognitive therapy
