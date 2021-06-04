@@ -1,5 +1,5 @@
 title: AI in healthcare
-description: There are already many ways in which AI plays a role in healthcare and new developments emerge continuously. Here you can find more information about the role of AI in healthcare.
+description: Artificial intelligence is a hot topic in recent years and plays an ever greater role in healthcare. But what is AI exactly? And how does it play a role in healthcare?
 groups: ai-for-health
 picture: projects/ai_for_health.png
 
