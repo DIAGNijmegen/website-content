@@ -1,7 +1,7 @@
 title: AI in healthcare
 description: Artificial intelligence is a hot topic in recent years and plays an ever greater role in healthcare. But what is AI exactly? And how does it play a role in healthcare?
 groups: ai-for-health
-picture: projects/ai_for_health.png
+picture: courses/ai_for_health.png
 
 ## What is AI?
 Artificial intelligence is intelligence that is not of biological origin, but demonstrated by artificial machines and algorithms. In practice it encompasses a large collection of methods that give rise to some form of intelligent behavior. The recent surge in interest in AI is mainly caused by the success that different self learning algorithms have shown on various tasks that humans typically perform, such as recognizing objects. 
