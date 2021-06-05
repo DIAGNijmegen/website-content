@@ -1,7 +1,7 @@
 title: FAQ
 description: Do you have any questions about the course? Please have a look at our FAQ.
 groups: ai-for-health
-picture: courses/certificates.png
+picture: courses/search-1756278_960_720.jpg
 
 Below you can find any frequently asked questions that we receive. Do you have a question that is not covered below? Don't hesitate to contact us by sending a mail to aiforhealth@radboudumc.nl.
 
