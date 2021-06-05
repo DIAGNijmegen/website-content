@@ -3,6 +3,7 @@ description: Would you like to join the next edition of the AI for Health course
 groups: ai-for-health
 picture: courses/application-3695107_960_720.jpg
 
+
 **How to apply**:<br>
 If you are interested, please send the following information to aiforhealth@radboudumc.nl:
 
