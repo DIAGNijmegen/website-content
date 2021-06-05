@@ -5,7 +5,7 @@ picture: courses/certificates.png
 
 During the course you will work on an AI project together with a team for 4 project days. During these days you will go through all the steps that have to be taken to successfully deploy your AI application: context understanding, data understanding, data preparation, modelling, evaluation and deployment. Below you can find example project from previous editions of the course.
 
-## Electronic nose device: detection of colorectal cancer through exhaled breath using a non-invasive screening tool
+## Electronic nose device: detection of colorectal cancer through exhaled breath
 Esmee Bakker and Yonne Peters worked on **Electronic nose device: detection of colorectal cancer through exhaled breath using a non-invasive screening tool**. Electronic noses analyze volatile organic compounds in air, in this case, air breathed out by people suspected of colorectal cancer. These e-noses are becoming cheaper and are equipped with more sophisticated sensors. Esmee and Yonne applied different machine learning approaches to the e-nose measurements but concluded that the performance was not yet good enough to consider integrating this in the colorectal cancer screening in The Netherlands.  
 
 ## Predicting re-intubation in critically ill patients
