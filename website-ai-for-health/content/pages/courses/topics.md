@@ -14,7 +14,7 @@ All AI systems are written in programming languages. Python is the most commonly
 ***
 
 ##Machine learning
-During the machine learning lectures and practicals we discuss the fundamentals of any AI system. Machine learning models are useful in situations where you have to predict or make decisions based on data existing of many variables with unknown relation to the prediction or decision to make. To understand how this works we cover topics such as understanding and preparing your data, the training and validation of models according to different performance metrics and the various machine learning methods that exist. Many of these fundamentals apply also to deep learning models, which are covered next in the course.
+During the machine learning lectures and practicals <a href="https://www.trimbos.nl/over-trimbos/medewerkers/profiel/joran-lokkerbol">Joran Lokkerbol</a>, Data Scientist at the Trimbos Institute, discusses the fundamentals of any AI system. Machine learning models are useful in situations where you have to predict or make decisions based on data existing of many variables with unknown relation to the prediction or decision to make. To understand how this works we cover topics such as understanding and preparing your data, the training and validation of models according to different performance metrics and the various machine learning methods that exist. Many of these fundamentals apply also to deep learning models, which are covered next in the course.
 
 ***
 
