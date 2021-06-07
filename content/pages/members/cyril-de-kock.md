@@ -1,7 +1,7 @@
 title: Cyril de Kock 
 name: Cyril de Kock 
 template: people-single 
-picture: people/Cyril_de_Kock.jpg 
+picture: people/Cyril_de_Kock.jpeg 
 position: Master Student 
 active: yes 
 groups: diag, pathology
