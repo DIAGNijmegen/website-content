@@ -19,22 +19,22 @@ During the machine learning lectures and practicals we discuss the fundamentals 
 ***
 
 ##Deep learning
-The deep learning lectures and practicals will look into a subset of the machine learning methods that use multiple ‘layers’ of computations, allowing them to learn more complex tasks. These models are very successful on tasks that were previously deemed impossible for computers, such as recognizing images or language. During these lectures and practicals you will learn how these models work, to what tasks these can be applied and what different methods there are. Within the Radboudumc we have great expertise on applying deep learning to medical images of all kinds of modalities. 
+The deep learning lectures and practicals will look into a subset of the machine learning methods that use multiple ‘layers’ of computations, allowing them to learn more complex tasks. These models are very successful on tasks that were previously deemed impossible for computers, such as recognizing images or language. Within the Radboudumc we have great expertise on applying deep learning to medical images of all kinds of modalities. <a href="https://www.diagnijmegen.nl/people/bram-van-ginneken/">Bram van Ginneken</a>, head of the Diagnostig Image Analysis Group, will provide lectures and practicals where you will learn how these models work, to what tasks these can be applied and what different methods there are. 
 
 ***
 
 ##Data engineering
-All machine learning and deep learning models depend on a well prepared data set. This aspect of building a successful AI system is often marginalized, while in practice it takes up most of the time. To streamline this process we cover topics such as data collection and preparation. Together with the RTC Data stewardship we will cover the basics of data storage and usage according to the FAIR principles and introduce you to the Digital Research Environment of the Radboudumc. Rules regarding patient privacy will be covered by the privacy officers of the Radboudumc and ethical concerns will be discussed by ….
+All machine learning and deep learning models depend on a well prepared data set. This aspect of building a successful AI system is often marginalized, while in practice it takes up most of the time. To streamline this process we cover topics such as data collection and preparation. Together with the RTC Data stewardship we will cover the basics of data storage and usage according to the FAIR principles and introduce you to the Digital Research Environment of the Radboudumc. Rules regarding patient privacy will be covered by the privacy officers of the Radboudumc and ethical concerns will be discussed by Marianne Boenink, professor of ethics at the Radboudumc.
 
 ***
 
 ##Visualisation
-When dealing with large amounts of data it can be difficult to get a grasp of the most prominent features of your data. Visual representations can help you to quickly gain insight in your data and enables you to make appropriate decisions for the AI system you would like to create. …. Will cover useful tools and tricks to visualize your data as clearly as possible based on scientific insights in how our brain processes information.
+When dealing with large amounts of data it can be difficult to get a grasp of the most prominent features of your data. Visual representations can help you to quickly gain insight in your data and enables you to make appropriate decisions for the AI system you would like to create. <a href="https://www.thedatavisionlab.nl/#over-mij">Sara Sprinkhuizen</a> will cover useful tools and tricks to visualize your data as clearly as possible based on scientific insights in how our brain processes information.
 
 ***
 
 ##Deployment
-Once you have build a successful AI algorithm it still has to be implemented in practice. We will cover the deployment of AI systems together with … from PacMed, a company developing AI tools for hospitals. By taking us through their product pipeline, topics such as adjusting your AI system to your users, processing feedback and getting the right certifications are covered. AI systems fall under the Medical Device Regulation (MDR), which has recently been updated. … will cover the current regulation and what that means for using AI systems within the Radboudumc.
+Once you have build a successful AI algorithm it still has to be implemented in practice. We will cover the deployment of AI systems together with <a href="https://www.pacmed.ai/nl">PACMED</a>, a company developing AI tools for hospitals. By taking us through their product pipeline, topics such as adjusting your AI system to your users, processing feedback and getting the right certifications are covered. AI systems fall under the Medical Device Regulation (MDR), which has recently been updated. Erik Gelderblom will cover the current regulation and what that means for using AI systems within the Radboudumc.
 
 ***
 
