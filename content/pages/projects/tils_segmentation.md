@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: projects/perspectief.jpg 
 template: project-single
-people: Cyril de Kock, Francesco Ciompi, Tom Heskes, Mart Rijthoven, Witali Aswolinskiy
+people: Cyril de Kock, Francesco Ciompi, Tom Heskes, Mart van Rijthoven, Witali Aswolinskiy
 description: Developing an algorithmn that can automatically detect and segment tumor-infiltrating lymphocytes in breast cancer.
 
 ** Start date: 01-05-2021 ** <br>
