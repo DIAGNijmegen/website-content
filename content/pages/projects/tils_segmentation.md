@@ -1,5 +1,5 @@
 title: Segmentation of tumor-infiltrating Lymphocytes
-groups: ai-for-health
+groups: pathology, diag, ai-for-health
 finished: false 
 type: student
 picture: projects/perspectief.jpg 
