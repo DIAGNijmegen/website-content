@@ -11,3 +11,10 @@ If you are interested, please send the following information to aiforhealth@radb
 - CV (max 1 A4)
 - Support letter head of department ([see format here](https://www.radboudumc.nl/intranet/getmedia/722df5b9-18e5-473e-978f-fd8bb4636564/Concept-akkoord-Afdelingshoofd-deelname-cursus-februari-2021.aspx))
 
+***
+
+##Testimonials
+
+"The AI4health course was a great success. It provides a thorough introduction to machine learning, but perhaps even more instructive is that you learn how to use machine learning to bring about changes in practice. In that respect, you learn that machine learning is relatively simple and data science — extracting value for practice from your data — (more) difficult. All in all, as a medical specialist, deputy educator and post-doc researcher, it has given me the opportunity to add new methodology to my research arsenal, to have a better understanding of where opportunities lie for data science using machine learning ( and where not and/or what is needed) and it made me think again from a different perspective about our profession. I have currently written two grant applications that include machine learning and have already had great discussions with colleagues about its application.
+ 
+Moreover, it was also a really fun course, because you work on projects with colleagues from all over the hospital. And important to mention: a solid background in statistics makes it easier, but is really not necessary. You can focus just as well on valorizing the results of the analyzes as on analyzing the data." according to Dirk Geurts, medical specialist, deputy educator and post-doc researcher, Department of Psychiatry at the Radboudumc.
