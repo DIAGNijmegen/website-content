@@ -1,4 +1,4 @@
-title: Using big data to improve diagnosis in general practice
+title: Exploring Multi-task Learning for Improving Diagnosis in General Practice
 groups: ai-for-health
 finished: false
 type: student
