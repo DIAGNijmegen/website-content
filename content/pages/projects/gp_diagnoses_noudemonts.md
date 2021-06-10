@@ -1,4 +1,4 @@
-title: Using big data to improve diagnosis in general practice
+title: Exploring Multi-task Learning for Improving Diagnosis in General Practice
 groups: ai-for-health
 finished: false
 type: student
@@ -31,7 +31,7 @@ For the purpose of this research we will only consider the top 15 most common RF
 ## Approach
 To be able to model the patient history, we will use the BERT architecture which is based on the Transformer architecture which is widely adopted in NLP applications. This network is already used once in the same domain for a similar problem, where it was renamed BEHRT: Transformer for Electronic Health Records. The method is visualized in the image below.
 
-TODO: INSERT IMAGE
+![Model architecture]({{ IMGURL }}/images/projects/gp_diagnoses_ne_model.png)
 
 First off, we need to pre-train BEHRT, which is done by applying Masked Language Modeling (MLM). This approach is pretty straightforward, in that we replace a percentage of the input tokens with '<MASK>' tokens and we task the network with recovering the masked tokens. The intuition behind this is similar to the 'fill in the gaps' questions we got in school: *In Autumn the ... fall from the trees*. Most likely you instinctively know that the word we are missing is *leaves*. In a similar fashion by using MLM with BEHRT in the medical domain, we are forcing the network to learn some inherent understanding of the medical tokens.
 
