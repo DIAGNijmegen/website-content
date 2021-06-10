@@ -15,7 +15,8 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
 |  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> [Programmatically generating annotations for de-identification of clinical data](https://www.ai-for-health.nl/projects/programmatic-annotation/) **MSc defence** |
-|  10-06-2021  | Richard Li <br> Noud Emonts | TBA |
+|  10-06-2021  | Richard Li <br> Noud Emonts | [Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs](https://www.ai-for-health.nl/projects/gp_diagnoses_richardli/) <br> [Exploring Multi-task Learning for Improving Diagnosis in General Practice](https://www.ai-for-health.nl/projects/gp_diagnoses_noudemonts/) |
+|  17-06-2021  | Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
 
 ## Past meetings
 
