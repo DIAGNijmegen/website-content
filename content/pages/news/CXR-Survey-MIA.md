@@ -1,5 +1,5 @@
 title: Survey on Chest X-ray analysis published in Medical Image Analysis
-date: 2021-06-21
+date: 2021-06-11
 description: Ecem Sogancioglu, Erdi Calli, and the team review all studies in deep-learning for chest X-ray images and discuss the state-of-the-art, datasets, commercial products, and clinical needs.
 picture: news/cxr_survey_mia.jpg
 groups: diag
