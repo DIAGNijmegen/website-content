@@ -1,8 +1,8 @@
-title: Segmentation of tumor-infiltrating Lymphocytes
+title: Automated Quantification of Tumor-Infiltrating Lymphocytes
 groups: pathology, diag, ai-for-health
 finished: false 
 type: student
-picture: projects/perspectief.jpg 
+picture: projects/nucls.jpg 
 template: project-single
 people: Cyril de Kock, Francesco Ciompi, Tom Heskes, Mart van Rijthoven, Witali Aswolinskiy
 description: Developing an algorithmn that can automatically detect and segment tumor-infiltrating lymphocytes in breast cancer.
@@ -16,9 +16,10 @@ Recent studies have developed our knowledge regarding the tumor microenvironment
 
 A patient's TIL score is assessed by estimating the proportion of TILs present in the tumor stroma.  As per the guidelines of the International TILs working group , the TIL score is assigned by the following procedure:
 1. Define the tumor area in which TILs are to be evaluated
-2.Segment the stromal areas.
+2. Segment the stromal areas.
 3. Only evaluate mono-nuclear TILs
 4. Asses the percentage of TILs as the fraction of stromal tissue covered by them
+
     
 Scoring the percentage of TILs in a slide typically requires a trained pathologist to perform the evaluation. As such, manual TIL evaluation from slides is a slow process that can only be performed by a limited set of people. Automatically calculating the TIL score as well as producing detection and segmentation maps of stromal areas and their respective lymphocytes could be of great benefit to TIL research as well as facilitate the implementation of TIL scoring in clinical practice. This thesis aims to develop a system which segments the stromal area, detects and segments the TILs present within this area and subsequently uses this map to calculate a TIL score per slide.
 
