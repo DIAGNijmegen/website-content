@@ -14,13 +14,13 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  10-06-2021  | Richard Li <br> Noud Emonts | [Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs](https://www.ai-for-health.nl/projects/gp_diagnoses_richardli/) <br> [Exploring Multi-task Learning for Improving Diagnosis in General Practice](https://www.ai-for-health.nl/projects/gp_diagnoses_noudemonts/) |
 |  17-06-2021  | **Guest speaker** <br> Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  10-06-2021  | Richard Li <br> Noud Emonts | [Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs](https://www.ai-for-health.nl/projects/gp_diagnoses_richardli/) <br> [Exploring Multi-task Learning for Improving Diagnosis in General Practice](https://www.ai-for-health.nl/projects/gp_diagnoses_noudemonts/) |
 |  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> [Programmatically generating annotations for de-identification of clinical data](https://www.ai-for-health.nl/projects/programmatic-annotation/) **MSc defence** |
 |  20-05-2021  | Douwe van Erp | [The AAA Checker - Automatically detecting abdominal aortic aneurysms.](https://www.ai-for-health.nl/projects/aaa-detection/) |
 |  06-05-2021  | **Guest speaker** <br> Guido de Jong | WondGezond – Towards a post-operative surgical site monitoring platform |
