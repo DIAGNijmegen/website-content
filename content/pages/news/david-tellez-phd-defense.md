@@ -1,7 +1,7 @@
 title: PhD defense David Tellez
 date: 2021-06-17
 description: David Tellez will defend his PhD thesis with the title 'Advancing computational pathology with deep learning: from patches to gigapixel image-level classification' on the 18th of June at 10.30.
-picture: news/thesis_david_tellez.png
+picture: news/thesis_david_tellez_horizontal.png
 groups: pathology, diag
 
 **David Tellez will defend his PhD thesis with the title 'Advancing computational pathology with deep learning: from patches to gigapixel image-level classification' on the 18th of June at 10.30. in the Auditorium of Radboud University**
