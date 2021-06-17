@@ -15,6 +15,7 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
 |  17-06-2021  | **Guest speaker** <br> Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
+|  24-06-2021  | Silvan Quax | Streamlit: a fast way to build and share data apps |
 
 ## Past meetings
 
