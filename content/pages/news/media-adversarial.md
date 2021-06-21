@@ -1,6 +1,6 @@
 title: Study on adversarial attack vulnerability of medical image analysis systems published in Medical Image Analysis
 date: 2021-06-21
-description: Cristina González Gonzalo (Radboudumc), Gerda Bortsova (Erasmus MC) and Suzanne Wetstein (TU Eindhoven) study previously unexplored factors affecting adversarial attack vulnerability of deep learning medical image analysis systems in three medical domains: ophthalmology, radiology, and pathology.
+description: Cristina González Gonzalo (Radboudumc/UvA), Gerda Bortsova (Erasmus MC) and Suzanne Wetstein (TU Eindhoven) study previously unexplored factors affecting adversarial attack vulnerability of deep learning medical image analysis systems in three medical domains: ophthalmology, radiology, and pathology.
 picture: news/media-adversarial.png
 groups: diag
 
