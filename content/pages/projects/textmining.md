@@ -30,5 +30,5 @@ Predominant diseases have an F1 score of ±0.8, whereas rare diseases have an F1
 With an overall mean F1 score of ±0.4, the classifiers are not sufficient in supporting nephrologists in their decision making process when classifying pathology reports. However, for predominant glomerular diseases, the classifiers could serve as a supporting factor. It is recommended to conduct further research into setting up a categorization system with pre-defined values for better results in classifying pathology reports. At the moment, we are extending the categorization system, with all the characteristics on which a pathology report is scored in order to determine one or more glomerular disease(s). With this new information, we are capable 
 to extract which features are important in order to determine the diagnosis of pathology reports.
 
-<iframe src="https://share.streamlit.io/j91roen/streamlit_demo/main/main.py" title="Streamlit demo" width="800" height="400">
+<iframe src="https://share.streamlit.io/j91roen/streamlit_demo/main/main.py" title="Streamlit demo" width="800" height="600">
 </iframe>
