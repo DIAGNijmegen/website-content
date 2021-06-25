@@ -19,6 +19,7 @@ SITE_GROUP = "diag"
 # Home page, layout and social settings
 SITELEAD = "The Diagnostic Image Analysis Group is part of the Departments of Imaging, Pathology, Ophthalmology, and Radiation Oncology of Radboud University Medical Center. We develop computer algorithms to interpret and process medical images."
 SITE_PICTURE = "images/social/missing_picture_social.png"
+NUM_NEWS_HOME_PAGE = 4
 HOME_IMAGE = "highlight"
 HOME_IMAGE_CAPTION = "Different applications of deep learning."
 TWITTER_URL = None

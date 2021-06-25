@@ -20,6 +20,7 @@ SITE_PICTURE = "images/social/missing_picture_social.png"
 
 HOME_IMAGE = 'images/general/AIforHealth.png'
 HOME_IMAGE_CAPTION = "AI for Health"
+NUM_NEWS_HOME_PAGE = 4
 
 TWITTER_URL = None
 FOOTER_TEXT = ""

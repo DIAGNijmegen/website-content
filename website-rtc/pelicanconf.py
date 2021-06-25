@@ -18,6 +18,7 @@ SITELEAD = "We use machine learning, specifically deep learning, to analyze medi
 SITE_PICTURE = "images/social/missing_picture_social.png"
 HOME_IMAGE = "images/general/rtc-2.jpg"
 HOME_IMAGE_CAPTION = ""
+NUM_NEWS_HOME_PAGE = 4
 TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
 FOOTER_TEXT = ""
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'

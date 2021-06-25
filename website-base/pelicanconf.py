@@ -18,6 +18,7 @@ SITELEAD = 'Some introduction text that is placed on the home page.'
 SITE_PICTURE = 'images/social/missing_picture_social.png'
 HOME_IMAGE = 'images/general/ApplicationsOfDeepLearning.png'
 HOME_IMAGE_CAPTION = 'Automated tumor detection'
+NUM_NEWS_HOME_PAGE = 4
 TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
