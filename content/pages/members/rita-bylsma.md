@@ -3,7 +3,7 @@ name: Rita Bylsma
 template: people-single
 picture: people/Rita_Bijlsma.jpg
 position: System Administrator
-active: yes
+active: no
 groups: diag, rse, rtc
 default_group: rtc
 email: Rita.Bijlsma@radboudumc.nl
