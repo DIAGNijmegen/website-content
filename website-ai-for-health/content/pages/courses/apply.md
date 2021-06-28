@@ -11,6 +11,8 @@ If you are interested, please send the following information to aiforhealth@radb
 - CV (max 1 A4)
 - Support letter head of department ([see format here](https://drive.google.com/file/d/15oanC6ADJR_8RQ4lKVHlwIUgl4zIy4f2/view?usp=sharing)). &rarr; A letter from your head of department or supervisor about their support and permission to let you follow the course.
 
+More information and instructions how to apply can be found on [this internal Radboudumc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/news-events-and-more/projects/radboudaiforhealth/cursus-ai-voor-medewerkers). 
+
 The application deadline for the course starting in September 2021 is the 1st of August 2021.
 
 ***
