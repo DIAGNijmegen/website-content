@@ -1,5 +1,6 @@
 title: Former employees
 
+- [Rita Bijlsma](https://www.xing.com/profile/Rita_Bylsma)
 - [Max Argus](https://www.linkedin.com/in/max-argus-5810636)
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
 - [Haimasree Bhattacharya](https://www.linkedin.com/in/haimasreebhattacharya/)
