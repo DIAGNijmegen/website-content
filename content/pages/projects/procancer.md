@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Jasper Twilt, Anindo Saha, Maarten de Rooij, Henkjan Huisman, Jurgen Fütterer
 description: Investigation of AI for automated, reliable and accurate diagnosis of clinically significant prostate cancer in MRI.
-bibkeys: 
+bibkeys: Saha21a, Twil21, Saha20b
 
 ## Background
 
