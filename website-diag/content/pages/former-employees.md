@@ -27,6 +27,7 @@ title: Former employees
 - [Saurabh Jain](https://www.linkedin.com/in/saurabhjain86/)
 - [Michiel Kallenberg](https://www.linkedin.com/pub/michiel-kallenberg/12/541/611)
 - [Joep Kamps](https://www.linkedin.com/in/joep-kamps-5ba48313b/)
+- [Michel Kok](https://www.linkedin.com/in/mkok)
 - [Thijs Kooi](https://www.linkedin.com/pub/thijs-kooi/26/2b1/a7)
 - [Sven Lafebre](https://www.linkedin.com/in/svenlafebre)
 - [Bianca Lassen](https://www.linkedin.com/in/bianca-lassen-schmidt-3872b9153/)
