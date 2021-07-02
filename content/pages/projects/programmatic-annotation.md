@@ -1,6 +1,6 @@
 title: Programmatically Generating Annotations for De-identification of Clinical Data 
 groups: ai-for-health
-finished: false 
+finished: true 
 type: student
 picture: projects/project-programmatic-picture.png
 template: project-single
