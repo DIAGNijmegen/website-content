@@ -4,7 +4,7 @@ closed: false
 type: student 
 picture: vacancies/MD_drug_repurposing.png
 template: vacancy-single
-people: Peter-Bram 't Hoen, Tom Heskes
+people: Peter-Bram t Hoen, Tom Heskes
 description: Develop a method to identify of drug repurposing candidates for myotonic dystrophy by Graph Convolutional Networks
 
  
