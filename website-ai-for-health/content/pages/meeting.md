@@ -14,13 +14,15 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  17-06-2021  | **Guest speaker** <br> Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
-|  24-06-2021  | Silvan Quax | Streamlit: a fast way to build and share data apps |
+|  17-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
+
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  24-06-2021  | Silvan Quax | Streamlit: a fast way to build and share data apps |
+|  17-06-2021  | **Guest speaker** <br> Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
 |  10-06-2021  | Richard Li <br> Noud Emonts | [Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs](https://www.ai-for-health.nl/projects/gp_diagnoses_richardli/) <br> [Exploring Multi-task Learning for Improving Diagnosis in General Practice](https://www.ai-for-health.nl/projects/gp_diagnoses_noudemonts/) |
 |  27-05-2021  | Nolan Cardozo <br> Ismail Güclü | [Automated clinical scoring in psoriasis based on RGB images.](https://www.ai-for-health.nl/projects/psoriasis_ai/) **MSc defence** <br> [Programmatically generating annotations for de-identification of clinical data](https://www.ai-for-health.nl/projects/programmatic-annotation/) **MSc defence** |
 |  20-05-2021  | Douwe van Erp | [The AAA Checker - Automatically detecting abdominal aortic aneurysms.](https://www.ai-for-health.nl/projects/aaa-detection/) |
