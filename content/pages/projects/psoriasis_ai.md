@@ -1,6 +1,6 @@
 title: Automated clinical scoring in psoriasis
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/psoriasis_AI.jpg
 template: project-single
