@@ -17,6 +17,6 @@ The Computational Pathology group is located at the Radboud University Medical C
 <br>6500 HB Nijmegen
 <br>the Netherlands
 
-<i>Contact</i>
+<i>Email</i>
 <br>digitale.pa@radboudumc.nl
 
