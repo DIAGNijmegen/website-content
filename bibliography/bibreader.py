@@ -218,6 +218,7 @@ def parse_bibtex_file(filename, full_strings_bib):
 
             if "year" not in bib_item:
                 print("no year found in bibitem. skipping bibitem:", bib_item)
+                continue
       
             bib_item["pubinfo"] = bib_item["year"].strip()
 
