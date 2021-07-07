@@ -206,6 +206,7 @@ def parse_bibtex_file(filename, full_strings_bib):
                     bib_item["url_type"] = "medRxiv"
                 else:
                     bib_item["url_type"] = "Url"
+                    
             elif bib_item["type"] == "preprint":
                 if bib_item["journal"] and "arxiv" in bib_item["journal"].lower():
                     bib_item["url"] = get_arxiv_id_from_title(bib_item["journal"])
@@ -217,8 +218,7 @@ def parse_bibtex_file(filename, full_strings_bib):
 
             if "year" not in bib_item:
                 print("no year found in bibitem. skipping bibitem:", bib_item)
-                continue
-
+      
             bib_item["pubinfo"] = bib_item["year"].strip()
 
             bib_item["year"] = int(bib_item["year"])
@@ -236,7 +236,16 @@ def parse_bibtex_file(filename, full_strings_bib):
                     "--", "-"
                 )
 
+            if "code" in bib_item:
+                pass
+
+            if "github" in bib_item:
+                pass
+
             if "algorithm" in bib_item:
+                pass
+
+            if "vimeo" in bib_item:
                 pass
 
             if "gsid" in bib_item and "gscites" in bib_item:

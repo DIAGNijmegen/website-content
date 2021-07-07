@@ -52,7 +52,6 @@ def create_group_md_files(_bib_items, bib_items_per_group_per_date, rest_year=20
             save_md_file(md_file_name, '\n'.join(md_content.values()))
             
             md_content['title'] = 'title: All Years'
-            print('ALL years')
             md_file_name = os.path.join(f'./website-{group}/content/pages/publications/all-years.md')
             save_md_file(md_file_name, '\n'.join(md_content.values()))
 
