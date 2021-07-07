@@ -11,3 +11,7 @@ The field of pathology is undergoing a major digital revolution, from analog mic
 Dr. David Tellez' research explores a specific type of AI called deep learning or artificial neural networks that simulates how neurons in the brain learn and communicate to each other. These artificial neural networks are the most successful form of AI currently, and are destined to improve the quality of clinical diagnostics while decreasing the costs of healthcare. Some of the algorithms developed in this thesis are currently been validated for their application in breast cancer grading.
 
 More information can be found in the [Radboud University](https://www.ru.nl/nieuws-agenda/agenda/promoties/@1296001/betere-klinische-diagnostiek-pathologie-behulp/) website.
+
+![Defense David Tellez Martin I]({{ IMGURL }}/images/news/Defense_Tellez_1.JPG)
+
+![Defense David Tellez Martin II]({{ IMGURL }}/images/news/Defense_Tellez_2.JPG)
