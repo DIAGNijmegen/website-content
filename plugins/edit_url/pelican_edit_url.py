@@ -42,6 +42,7 @@ def add_edit_url(instance):
             instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/content/news', '/content/pages/news')
         else:
             rel_file_path = WEBSITE + '/' + instance.source_path[len(PATH):].lstrip(os.path.sep)
+            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path)
 
 def register():
     signals.content_object_init.connect(add_edit_url)
