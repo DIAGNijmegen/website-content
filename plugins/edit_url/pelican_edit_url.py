@@ -21,7 +21,7 @@ def add_edit_url(instance):
     # assume the parent of content dir is project dir
     PATH = os.path.dirname(instance.settings['PATH'])
 
-    shared_dirs = ['highlights', 'members', 'projects', 'presentations', 'software', 'vacancies', 'research']
+    shared_dirs = ['news', 'members', 'projects', 'presentations', 'software', 'vacancies', 'research']
     generated_pages = ['presentations.md', 'members.md', 'people.md', 'projects.md', 'software.md', 'publications.md', 'thesis-gallery.md', 'vacancies.md']
     default_pages = ['colofon.md', '404.md', 'home.md']
 
@@ -39,10 +39,9 @@ def add_edit_url(instance):
         elif any([dir in dirs for dir in shared_dirs]):
             rel_file_path = instance.source_path[len(PATH):].lstrip(os.path.sep)
             # Add replace for highlight (blog items)
-            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/content/highlights', '/content/pages/highlights')
+            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path).replace('/content/news', '/content/pages/news')
         else:
             rel_file_path = WEBSITE + '/' + instance.source_path[len(PATH):].lstrip(os.path.sep)
-            instance.edit_url = EDIT_CONTENT_URL.format(file_path=rel_file_path)
 
 def register():
     signals.content_object_init.connect(add_edit_url)
