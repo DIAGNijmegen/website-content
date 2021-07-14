@@ -14,6 +14,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
+|  02-09-2021  | Michel Botros | Detecting and characterizing vertebral fractures in CT scans |
 |  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
 
 
