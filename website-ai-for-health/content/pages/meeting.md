@@ -14,7 +14,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  17-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
+|  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
 
 
 ## Past meetings
