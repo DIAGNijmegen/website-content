@@ -1,5 +1,5 @@
-title: Study on End-to-end Automated 3D Prostate Cancer Detection in MRI published in Medical Image Analysis
-date: 2021-07-04
+title: Geert Litjens receives VIDI grant to build an AI bridge between pathology and radiology
+date: 2021-07-14
 description: Geert Litjens has been awarded a Vidi grant worth 800,000 euros by the Dutch Research Council. He will investigate AI solutions for prostate cancer by combining radiology and pathology images.
 picture: news/vidi-geert-litjens.png
 groups: diag
