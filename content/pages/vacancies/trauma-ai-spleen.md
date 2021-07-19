@@ -2,7 +2,7 @@ title: Machine Learning in Acute Care: Spleen
 groups: ai-for-health, diag 
 closed: true 
 type: student 
-picture: vacancies/ xxxxxxxx.png
+picture: vacancies/trauma-ai-spleen.jpg
 template: vacancy-single
 people: Vincent Stirler, Erik Hermans, Monique Brink, Stan Buckens, Jacky de Rooy, Matthieu Rutten, Bram van Ginneken, Ajay Patel, Silvan Quax, Amin Mohseni, Ashley Remi, Rozemarie van den Bergh
 description: Will deep learning-based algorithms become the new members of the trauma team?  
