@@ -1,8 +1,8 @@
 title: Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC)
 groups: ai-for-health, diag 
-closed: true 
+closed: false 
 type: student 
-picture: vacancies/ xxxxxxxx.png
+picture: vacancies/NISPA.jpg
 template: vacancy-single
 people: Dirk Geurts, Arnt Schellekens
 description: Development of a method for the identification of patient-related predictors of treatment outcome.
