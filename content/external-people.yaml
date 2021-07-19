@@ -727,7 +727,35 @@ people:
     position: Professor
     affiliation: Bioinformatics, Radboudumc
     url: https://www.radboudumc.nl/en/people/peter-bram-t-hoen
-    picture:
+    picture: people/external/Peter_Bram_t_Hoen.jpg
     email: peter-bram.thoen@radboudumc.nl
-
-
+  - name: Vincent Stirler 
+    position: Trauma surgeon
+    affiliation: Surgery, Radboudumc
+    url: https://www.radboudumc.nl/personen/vincent-stirler
+    picture: people/external/Vincent_Stirler.jpg
+    email: Vincent.Stirler@radboudumc.nl
+  - name: Erik Hermans
+    position: Trauma surgeon
+    affiliation: Surgery, Radboudumc
+    url: https://www.linkedin.com/in/erik-hermans-13b8752b/
+    picture: people/external/Erik_Hermans.jpg
+    email: Erik.Hermans@radboudumc.nl
+  - name: Jacky de Rooy
+    position: Radiologist
+    affiliation: Radiology, Radboudumc
+    url: linkedin.com/in/jacky-de-rooy-9437231b
+    picture: people/external/Jacky_de_Rooy.jpg
+    email: jacky.derooy@radboudumc.nl
+  - name: Dirk Geurts
+    position: Psychiatrist
+    affiliation: Psychiatry, Radboudumc
+    url: https://radboudcentrumvoormindfulness.nl/medewerkers-centrum/dirk-geurts/
+    picture: people/external/Dirk_Geurts.jpg
+    email: Dirk.Geurts@radboudumc.nl
+  - name: Arnt Schellekens
+    position: Psychiatrist
+    affiliation: Psychiatry, Radboudumc
+    url: https://www.radboudumc.nl/personen/arnt-schellekens
+    picture: people/external/Arnt_Schellekens.jpg
+    email: Arnt.Schellekens@radboudumc.nl
