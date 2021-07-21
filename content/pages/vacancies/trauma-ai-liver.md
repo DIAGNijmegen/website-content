@@ -4,7 +4,7 @@ closed: false
 type: student 
 picture: vacancies/trauma-ai-liver.jpg
 template: vacancy-single
-people: Vincent Stirler, Erik Hermans, Monique Brink, Stan Buckens, Jacky de Rooy, Matthieu Rutten, Bram van Ginneken, Ajay Patel, Silvan Quax, Amin Mohseni, Ashley Remi, Rozemarie van den Bergh
+people: Vincent Stirler, Erik Hermans, Monique Brink, Stan Buckens, Matthieu Rutten, Bram van Ginneken, Ajay Patel, Silvan Quax, Amin Mohseni, Ashley Remi, Rozemarie van den Bergh
 description: Will deep learning-based algorithms become the new members of the trauma team?  
 
 ## Clinical Problem 
@@ -23,7 +23,7 @@ In this project we focus on traumatic injuries to the liver.
 
 ## Solution 
 
-A deep learning-based model should be developed for the automatic segmentation of anatomy and pathology on abdominal CT images. Furthermore, the model should be able to classify the type of injury and its features, and predict the probability of rebleeding within the first couple of days following surgery.
+A deep learning-based model should be developed for the automatic segmentation of anatomy and pathology on abdominal CT images. Furthermore, the model should be able to classify the type of injury and its features, and predict the probability of rebleeding within the first couple of days following trauma.
 
 ## Data 
 
