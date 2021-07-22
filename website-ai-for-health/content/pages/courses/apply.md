@@ -13,8 +13,6 @@ If you are interested, please send the following information to aiforhealth@radb
 
 More information and instructions how to apply can be found on [this internal Radboudumc page](https://www.radboudumc.nl/en/intranet/information-for-researchers/news-events-and-more/projects/radboudaiforhealth/cursus-ai-voor-medewerkers). 
 
-The application deadline for the course starting in September 2021 is the 1st of August 2021.
-
 ***
 
 ##Testimonials
