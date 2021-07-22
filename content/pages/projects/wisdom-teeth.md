@@ -28,5 +28,12 @@ A deep-learning approach based on U-net was applied on the reference data to tra
 Publication:
 https://doi.org/10.1038/s41598-019-45487-3
 
+### Classification of caries in third molars on panoramic radiographs using deep learning
+
+The objective of this study is to assess the classification accuracy of dental caries on panoramic radiographs using deep-learning algorithms. A convolutional neural network (CNN) was trained on a reference data set consisted of 400 cropped panoramic images in the classification of carious lesions in mandibular and maxillary third molars, based on the CNN MobileNet V2. For this pilot study, the trained MobileNet V2 was applied on a test set consisting of 100 cropped PR(s). The classification accuracy and the area-under-the-curve (AUC) were calculated. The proposed method achieved an accuracy of 0.87, a sensitivity of 0.86, a specificity of 0.88 and an AUC of 0.90 for the classification of carious lesions of third molars on PR(s). A high accuracy was achieved in caries classification in third molars based on the MobileNet V2 algorithm as presented. This is beneficial for the further development of a deep-learning based automated third molar removal assessment in future.
+
+Publication:
+https://doi.org/10.1038/s41598-021-92121-2
+
 ## Funding
 * [Radboud AI for Health](https://www.ai-for-health.nl/)
