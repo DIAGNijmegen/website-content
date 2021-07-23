@@ -5,7 +5,7 @@ type: student
 picture: vacancies/msc_patho_unmix_multiplex.jpg
 template: vacancy-single
 people: Witali Aswolinskiy, Francesco Ciompi
-description: Develop DL-based system to unmix IHC stainings with multiple colors
+description: Development of a deep learning system to unmix IHC stainings with multiple colors
 
 
 ## Background
