@@ -2,7 +2,7 @@ title: Geert Litjens receives VIDI grant to build an AI bridge between pathology
 date: 2021-07-14
 description: Geert Litjens has been awarded a Vidi grant worth 800,000 euros by the Dutch Research Council. He will investigate AI solutions for prostate cancer by combining radiology and pathology images.
 picture: news/vidi-geert-litjens.png
-groups: diag
+groups: diag,pathology
 
 The [Dutch Research Council](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2020) has awarded [member/geert-litjens] a Vidi grant worth 800,000 euros for a project entitled *AI-built bridges for prostate cancer patients*. 
 
