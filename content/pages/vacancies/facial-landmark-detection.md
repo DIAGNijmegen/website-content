@@ -2,7 +2,7 @@ title: Automated landmark detection on lateral headplates for orthodontic diagno
 groups: ai-for-health, diag
 closed: false
 type: student
-picture: projects/facial-landmarks.png
+picture: vacancies/facial-landmarks.png
 template: vacancy-single
 people: Frits Rangel, Silvan Quax
 description: Development of a method for automatic facial landmark detection in cephalograms.
