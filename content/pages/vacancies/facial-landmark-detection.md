@@ -1,6 +1,6 @@
 title: Automated landmark detection on lateral headplates for orthodontic diagnosis
 groups: ai-for-health, diag
-closed: true
+closed: false
 type: student
 picture: projects/facial-landmarks.png
 template: vacancy-single
