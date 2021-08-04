@@ -3,7 +3,7 @@ name: Jeroen Vermazeren
 template: people-single
 picture: people/Jeroen_Vermazeren.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: jeroen.vermazeren@radboudumc.nl
