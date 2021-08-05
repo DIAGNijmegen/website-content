@@ -1,5 +1,5 @@
 title: Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC)
-groups: ai-for-health, diag 
+groups: ai-for-health 
 closed: false 
 type: student 
 picture: vacancies/NISPA.jpg
