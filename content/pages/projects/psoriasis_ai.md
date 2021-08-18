@@ -40,4 +40,4 @@ An interactive demo is accessible via Grand-Challenge:
 
 <a href="https://grand-challenge.org/algorithms/psoriaisis-severity-grading-from-skin-images/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
-The code for this project can be found in this [GitHub repository](https://github.com/nolancardozo13/pasi_scoring_using_deep_learning)
+The code for this project can be found in this [GitHub repository](https://github.com/nolancardozo13/pasi_scoring_using_deep_learning).
