@@ -7,6 +7,11 @@ template: vacancy-single
 people: Dirk Geurts, Arnt Schellekens
 description: Development of a method for the identification of patient-related predictors of treatment outcome.
 
+**This is an AI for Health MSc project. Students are
+elgible to receive a monthly reimbursement of €500,- for
+a period of six months. For more information please read the
+[requirements](https://www.ai-for-health.nl/requirements/).**
+
 ## Clinical Problem
 Substance use disorders (SUD) are among the most common psychiatric disorders, with the highest mortality. Current evidence-based treatments are moderately effective, with one-year relapse rates of about 50%. Studies show considerable clinical heterogeneity in SUD patients and their response to treatment. More fruitful than developing new treatments with again moderate effectiveness is to make better use of existing evidence-based treatments.
 
