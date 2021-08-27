@@ -7,7 +7,10 @@ template: vacancy-single
 people: Peter-Bram t Hoen, Tom Heskes
 description: Develop a method to identify of drug repurposing candidates for myotonic dystrophy by Graph Convolutional Networks
 
- 
+**This is an AI for Health MSc project. Students are
+elgible to receive a monthly reimbursement of €500,- for
+a period of six months. For more information please read the
+[requirements](https://www.ai-for-health.nl/requirements/).** 
 
 ## Clinical Problem 
 
