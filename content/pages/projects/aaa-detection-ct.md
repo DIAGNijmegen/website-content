@@ -1,6 +1,6 @@
 title: Automated AAA detection on CT scans
-groups: ai-for-health 
-finished: false
+groups: ai-for-health, diag
+closed: false
 type: student
 picture: projects/aaa.jpg
 template: project-single
