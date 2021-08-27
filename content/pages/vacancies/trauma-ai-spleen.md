@@ -7,6 +7,11 @@ template: vacancy-single
 people: Vincent Stirler, Erik Hermans, Monique Brink, Stan Buckens, Matthieu Rutten, Bram van Ginneken, Ajay Patel, Silvan Quax, Amin Mohseni, Ashley Remi, Rozemarie van den Bergh
 description: Will deep learning-based algorithms become the new members of the trauma team?  
 
+**This is an AI for Health MSc project. Students are
+elgible to receive a monthly reimbursement of €500,- for
+a period of six months. For more information please read the
+[requirements](https://www.ai-for-health.nl/requirements/).**
+
 ## Clinical Problem 
 
 Initial trauma assessment of severely injured patients is a fast-paced and challenging activity that is unlike most other clinical activities. A multidisciplinary team of varying composition is responsible for primary survey and resuscitation.[1] It performs multiple evaluations and procedures simultaneously and will focus on teamwork and effective communication day and night. The timely diagnosis of injuries is mandatory to initiate appropriate treatments and to prevent further harm at a later point in time.
