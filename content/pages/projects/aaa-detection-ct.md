@@ -29,3 +29,8 @@ Using our large research database of CT scans acquired in Radboudumc, it may be 
 
 ## Results
 The algorithm you will develop should be made available as a Docker container on https://grand-challenge.org/algorithms/. It can then be applied to CT scans from hospitals that use the grand-challenge infrastructure.
+
+## Requirements 
+- Students Artificial Intelligence, Data Science, Computer Science or similar in the final stages of their Master education 
+- You should be proficient in Python programming and have a theoretical understanding of deep learning architectures
+- Basic biological/biomedical knowledge is preferred.
