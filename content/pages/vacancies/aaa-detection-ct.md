@@ -28,7 +28,7 @@ Our group already has developed several algorithms for the segmentation of aorta
 Using our large research database of CT scans acquired in Radboudumc, it may be possible to improve the existing algorithm to accurately segment and measure the aorta also in abnormal CTs and develop a robust solution to this problem. We also would like to see if a computer algorithm can detect small changes over time because many patients get multiple CT scans and it is known that aortas can become enlarged with time at a mean rate that is initially slow and then suddenly starts to increase rapidly. Radiologist now do not routinely measure the aortic diameter at corresponding places and may miss such growth patterns. 
 
 ## Results
-The algorithm you will develop should be made available as a Docker container on https://grand-challenge.org/algorithms/. It can then be applied to CT scans from hospitals that use the grand-challenge infrastructure.
+The algorithm you will develop should be made available as a Docker container on [https://grand-challenge.org/algorithms/](https://grand-challenge.org/algorithms/). It can then be applied to CT scans from hospitals that use the grand-challenge infrastructure.
 
 ## Requirements 
 - Students Artificial Intelligence, Data Science, Computer Science or similar in the final stages of their Master education 
