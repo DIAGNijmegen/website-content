@@ -3,7 +3,7 @@ groups: ai-for-health, diag
 closed: false
 type: student
 picture: projects/aaa.jpg
-template: project-single
+template: vacancy-single
 people: Bram van Ginneken
 description: Project aimed at development of deep learning algorithms for automated detection of AAA.
 
