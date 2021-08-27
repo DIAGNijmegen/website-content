@@ -1,6 +1,6 @@
 title: Deep learning diagnostic and interventional prostate MRI reconstruction and steering
 groups: diag
-closed: false
+closed: true
 type: general 
 picture: vacancies/phd-fastmri.jpg
 people: Henkjan Huisman
