@@ -6,9 +6,11 @@ description: AI for Health organizes a weekly meeting that allows the PhD candid
 
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 
 
-The weekly meeting is held, until further notice, via Zoom (and no longer in person in the Innovation Space (route 441) of the Radboudumc) every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. PhD candidates are expected to give an update on their project twice a year. MSc students are required to present their work at the beginning and end of their project. The research project supervisors are expected to be present during the presentations of their MSc student. The attendance of research project supervisors during other meetings is optional, but highly appreciated. 
+The weekly meeting is held, until further notice, via Zoom every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. Please join our [Meetup page](https://www.meetup.com/radboud-ai-for-health/) to receive the announcements of our weekly meetings. 
 
-The slides for past presentations are available by clicking on the links in the titles below. To reserve a presentation slot for a future meeting, or to be added to the mailing list to reserve a Zoom link for the meetings, please send an email to [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl). 
+PhD candidates are expected to give an update on their project twice a year. MSc students are required to present their work at the beginning and end of their project. The research project supervisors are expected to be present during the presentations of their MSc student. The attendance of research project supervisors during other meetings is optional, but highly appreciated. To reserve a presentation slot for a future meeting, please send an email to [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl). 
+
+The slides for past presentations are available by clicking on the links in the titles below. 
 
 ## Upcoming meetings
 
