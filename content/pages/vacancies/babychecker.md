@@ -42,7 +42,7 @@ DIAG is an internationally renowned group on deep learning for medical imaging. 
 Radboud UMC is a leading Dutch academic center for medical science, education, and healthcare with over 8,500 staff and 3,000 students, located in Nijmegen. Nijmegen is the oldest city in The Netherlands. It has a rich history and one of the liveliest city centers in the country. Radboud University and Radboudumc are located on a compact green campus with over 17,000 students. 
 
 ## Applications
-A link to apply online will be posted here shortly. Until the link is available, you can apply directly by  sending an e-mail to Bram van Ginneken. Your application must include a motivation letter that clearly explains your match to all aspects of the requested profile. Your letter is supplemented by a complete CV, summary grades, and links to your code and your publications. 
+To apply, [click here](https://www.radboudumc.nl/en/vacancies/104161-phd-candidate-al-powered-handheld-ultrasound-for-prenatal-diagnosis). Your application must include a motivation letter that clearly explains your match to all aspects of the requested profile. Your letter is supplemented by a complete CV, summary grades, and links to your code and your publications. 
 
 ## Information
 Questions can be directed to [member/bram-van-ginneken] or [Chris de Korte](https://www.radboudumc.nl/en/people/chris-de-korte) by e-mail.
