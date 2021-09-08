@@ -2,7 +2,7 @@ title: Investigating the surge of commercial AI marketplaces for radiology
 groups: diag
 closed: false
 type: student
-picture: vacancies/ai-marketplaces-analysis.jpg
+picture: vacancies/ai-marketplaces-analysis.png
 template: vacancy-single
 people: Kicky van Leeuwen, Bram van Ginneken
 description: Dive into the world of AI marketplaces (read: the app-stores for radiology AI). What differentiates them? What impact will they have on the future of radiology?
