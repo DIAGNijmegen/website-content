@@ -105,5 +105,5 @@ In the future, the methods we developed can be used to improve how this kind of 
 ### Full thesis
 The full thesis can be found [here](https://drive.google.com/file/d/1GsJR9IXJgCOzBTdFs95tCp8DCv5Pjim_/view?usp=sharing). 
 
-## Code
-The code developed as part of this thesis can be found [here](). 
+### Code
+The code developed as part of this thesis can be found [here](https://github.com/rhacking/DIAGCovidcf). 
