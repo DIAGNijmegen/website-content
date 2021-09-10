@@ -58,7 +58,7 @@ The following table shows the performance of the various approaches we tried in 
 | SHAP zeroing optimized, GBDT | 0.868;  **0.874** | 0.939;  0.812 | 0.889;  **0.865** |
 | MI, GBDT       | 0.827;  0.806 | 0.760;  0.799 | 0.780;  0.770 |
 
-As you can see in this table, the GBDT models works quite well when provided only clinical features, outperforming CORADS-AI. When the model is provided visual features as well, the performance generally decreases. All of the approaches 
+As you can see in this table, the GBDT models works quite well when provided only clinical features, outperforming CORADS-AI. When the model is provided visual features as well, the performance generally decreases. All of the missingness mitigation approaches generally yielded worse performance, suggesting that missingness may be important in prediction COVID-19 for such GBDT models.
 
 We also evaluated all models for cross-hospital prediction. The following table shows the performance of the various approaches we tried in terms of AUC for cross-hospital prediction. Each column label is of the format "training data->test data". Each cell shows both the AUC achieved when using only clinical features, as well as when using a combination of clinical and visual features. Additionally, the top row shows the performance of CORADS-AI. For CORADS-AI, only one AUC is shown, as this model only operates on chest CT scans, and not clinical features. The best AUCs are shown in bold.
 
@@ -74,6 +74,8 @@ We also evaluated all models for cross-hospital prediction. The following table 
 | SHAP zeroing optimized, GBDT | **0.893**;  0.863 | **0.809**;  **0.867** | 0.525;  **0.889**   | 0.670;  0.760  |
 | MI, GBDT       | 0.874;  0.854 | 0.756;  0.840 | 0.643;  0.863   | 0.667;  **0.868**  |
 
+Performance is generally worse here than in non-cross-hospital prediction. When the model is provided visual features as well, the performance is generally improved in this case. The missingness mitigation approaches failed to yield reliably improved performance, suggesting that fitting on missingness is not the main factor leading to reduced performance in cross-hospital prediction. 
+
 We also trained models to predict COVID-19 based on missingness instead of the underlying feature values (i.e. only Booleans indicating whether a value was measured or not were provided to the classifier, but none of the data that was actually measured). The table below shows the results of that evaluation. Each cell shows both the AUC achieved when using only clinical features, as well as when using a combination of clinical and visual features. The best AUCs are shown in bold.
 
 | Model      | CWZ           | iCTCF         | RUMC          |
@@ -88,6 +90,8 @@ In order to evaluate the four different methods we used to mitigate fitting on m
 
 ![Missingness mitigation methods evaluated on randomly augmented toy data](https://github.com/rhacking/website-content/blob/master/content/images/projects/toy_data-1.png)
 
+As you can see in this boxplot, the base GBDT model performs very poorly on this task (worse-than-random), whereas the custom decision tree implementation and ensembled multiple imputation generally lead to better-than-random performance. This suggests that these two techniques are indeed effective at mitigating fitting on missingness. 
+
 
 ### Conclusions
 In this thesis, we investigated whether chest CT scans can be combined with clinical features to achieve better performance in predicting COVID-19 PCR outcomes and diagnoses than either modality on its own. Based on our experiments, this does indeed seem to be the case for most datasets and train/test splits, as long as both data modalities are of sufficient quality. 
@@ -97,3 +101,9 @@ Furthermore, we discovered that which values were measured in hospitals is often
 Regardless of these issues, we do believe that some of the models developed in this thesis could be clinically useful in detecting COVID-19, as well as being used for COVID-19 screening. Furthermore, the methodologies we employed could be employed for related clinical problems.
 
 In the future, the methods we developed can be used to improve how this kind of research is conducted and evaluated, resulting in more reliable clinical machine learning models. Additionally, the methodologies we presented here may be expanded upon further in a variety of ways, which could aid future clinical and non-clinical research alike. 
+
+### Full thesis
+The full thesis can be found [here](https://drive.google.com/file/d/1GsJR9IXJgCOzBTdFs95tCp8DCv5Pjim_/view?usp=sharing). 
+
+## Code
+The code developed as part of this thesis can be found [here](). 
