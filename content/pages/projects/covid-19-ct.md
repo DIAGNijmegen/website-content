@@ -30,3 +30,53 @@ We have access to several public and proprietary data sets of CT scans, clinical
 
 ## Approach
 Roel will be supervised by [DIAG](http://www.diagnijmegen.nl) researchers who contributed to CORADS-AI and he will have access to [Sol](https://rtc.diagnijmegen.nl/software/sol/), a high-performance deep learning cluster. There are several machine learning approaches that could be explored to differentiate between COVID-19 and other lung diseases with overlapping patterns and to combine CT scans with clinical features and blood values. 
+
+***
+
+## Project results
+### Methods
+This project looked at several methods to improve upon CORADS-AI, by incorporating additional information such as clinical values and sex and age of the patient. Specifically, we used CORADS-AI as a visual feature extractor by running it on each chest CT scan and extracting the activations in the last layer of the network. These visual features were then concatenated to the clinical features and the resulting vector was used to train gradient boosting decision tree (GBDT) models.
+
+In addition, we realized that missingness plays an important role in clinical feature datasets, and thus we developed methods to analyze and mitigate this effect to obtain fairer evaluations and increase model generalizability. Specifically, we trained models to predict COVID-19 based only on missingness information in order to determine the extent to which missingness is predictive for COVID-19. 
+
+We also implemented and designed several methods to mitigate fitting on missingness in clinical feature datasets. Firstly, we looked at imputation techniques. Specifically, we looked at mean, k-NN, and MiCE imputation. Secondly, we developed a technique based on SHAP values to remove the contributions of missing features on model output, which we called SHAP zeroing. Thirdly, we employed an ensembled multiple imputation approach which utilized random column-based sampling to impute data many times. Each of these datasets would then be used to train models and construct a voting ensemble. Finally, we developed a custom decision tree implementation designed to reduce fitting on missingness. 
+
+We evaluated all of these methods on three datasets; we looked at data from Radboud (henceforth referred to as RUMC), the integrative CT images and CFs for COVID-19 (iCTCF) dataset, as well as a dataset based on data from CWZ and Radboud (henceforth referred to as just CWZ). The latter two contain data from two hospitals (Union and Liyuan for iCTCF, and Radboudumc and CWZ for the CWZ dataset), and thus we also evaluated all models in a cross-hospital manner: training on data from one hospital and evaluating on data from the other.
+
+### Results
+The following table shows the performance of the various approaches we tried in terms of AUC for non-cross-hospital prediction. The models were ranked based on a one-sided DeLong test (with a threshold of `p < 0.01`). Each cell shows both the AUC achieved when using only clinical features, as well as when using a combination of clinical and visual features. Additionally, the top row shows the performance of CORADS-AI. For CORADS-AI, only one AUC is shown, as this model only operates on chest CT scans, and not clinical features. 
+
+|                              | CWZ           | iCTCF         | RUMC          | Rank   |
+|:-----------------------------|:--------------|:--------------|:--------------|:-------|
+| CORADS-AI                    | 0.800         | 0.761         | 0.464         | -      |
+| Imputation: MEAN, GBDT       | 0.862;  0.836 | 0.925;  0.895 | 0.794;  0.782 | 1      |
+| Base, GBDT                   | 0.870;  0.836 | 0.940;  0.899 | 0.859;  0.835 | 1      |
+| SHAP zeroing, GBDT           | 0.862;  0.841 | 0.908;  0.861 | 0.883;  0.843 | 2      |
+| Imputation: KNN5, GBDT       | 0.858;  0.844 | 0.823;  0.854 | 0.792;  0.732 | 3      |
+| Imputation: MICE, GBDT       | 0.870;  0.852 | 0.773;  0.836 | 0.754;  0.790 | 3      |
+| Optimized, GBDT              | 0.884;  0.849 | 0.961;  0.902 | 0.911;  0.859 | 3      |
+| SHAP zeroing optimized, GBDT | 0.868;  0.874 | 0.939;  0.812 | 0.889;  0.865 | 4      |
+| Test-time impute, GBDT       | 0.827;  0.806 | 0.760;  0.799 | 0.780;  0.770 | 4      |
+
+We also evaluated all models for cross-hospital prediction. The following table shows the performance of the various approaches we tried in terms of AUC for cross-hospital prediction. Each column label is of the format "training data->test data". The models were ranked based on a one-sided DeLong test (with a threshold of `p < 0.01`). Each cell shows both the AUC achieved when using only clinical features, as well as when using a combination of clinical and visual features. Additionally, the top row shows the performance of CORADS-AI. For CORADS-AI, only one AUC is shown, as this model only operates on chest CT scans, and not clinical features. 
+
+|                              | RUMC->CWZ     | CWZ->RUMC     | Union->Liyuan   | Liyuan->Union  | Rank   |
+|:-----------------------------|:--------------|:--------------|:----------------|:---------------|:-------|
+| CORADS-AI                    | 0.885         | 0.826         | 0.812           | 0.854          | -      |
+| Imputation: KNN5, GBDT       | 0.842;  0.846 | 0.743;  0.848 | 0.666;  0.842   | 0.613;  0.772  | 1      |
+| SHAP zeroing, GBDT           | 0.860;  0.846 | 0.776;  0.860 | 0.644;  0.849   | 0.711;  0.777  | 1      |
+| Imputation: MEAN, GBDT       | 0.862;  0.857 | 0.697;  0.845 | 0.713;  0.875   | 0.640;  0.787  | 2      |
+| Test-time impute, GBDT       | 0.874;  0.854 | 0.756;  0.840 | 0.643;  0.863   | 0.667;  0.868  | 2      |
+| Imputation: MICE, GBDT       | 0.873;  0.855 | 0.694;  0.826 | 0.519;  0.879   | 0.624;  0.726  | 3      |
+| Base, GBDT                   | 0.858;  0.840 | 0.725;  0.807 | 0.761;  0.864   | 0.717;  0.730  | 3      |
+| Optimized, GBDT              | 0.886;  0.838 | 0.751;  0.808 | 0.577;  0.848   | 0.680;  0.734  | 4      |
+| SHAP zeroing optimized, GBDT | 0.893;  0.863 | 0.809;  0.867 | 0.525;  0.889   | 0.670;  0.760  | 4      |
+
+We also trained models to predict COVID-19 based on missingness instead of the underlying feature values (i.e. only Booleans indicating whether a value was measured or not were provided to the classifier, but none of the data that was actually measured). The table below shows the results of that evaluation. Each cell shows both the AUC achieved when using only clinical features, as well as when using a combination of clinical and visual features. Additionally, the top row shows the performance of CORADS-AI (this is shown as a raference, CORADS-AI did not use missingness, but instead received the original data). For CORADS-AI, only one AUC is shown, as this model only operates on chest CT scans, and not clinical features. 
+
+| Model      | CWZ           | iCTCF         | RUMC          |
+|:-----------|:--------------|:--------------|:--------------|
+| BaggedGBDT | 0.667;  0.666 | 0.954;  0.955 | 0.879;  0.885 |
+| GBDT       | 0.702;  0.702 | 0.932;  0.942 | 0.863;  0.863 |
+| LR         | 0.634;  0.633 | 0.943;  0.944 | 0.853;  0.853 |
+| CORADS-AI  | 0.800         | 0.761         | 0.464         |
