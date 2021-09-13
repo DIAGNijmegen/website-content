@@ -1,6 +1,6 @@
 title: Three dimensional oral and maxillofacial surgical outcome prediction
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/soft_tissue.png
 template: project-single
@@ -9,9 +9,6 @@ description: Development of a deep learning method that can generate 3D facial p
 
 **Start date: 25-01-2021** <br>
 **End date: 24-08-2021**
-
-*Start date: 25-01-2021* <br>
-*End date: 24-08-2021*
 
 ## Clinical problem
 Orthognathic surgery cuts and reshapes the bones comprising the jaws. These jaw displacements are mainly performed for functional improvements, such as alleviating malocclusion or asymmetries. A virtual planning of the surgery is routinely used that pre-operatively separates and positions the jaw bones by manipulating hard tissue 3D models. These virtual plannings are shown to the patient to inform them of the procedure and to show the expected result.
