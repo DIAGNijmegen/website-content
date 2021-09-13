@@ -2,7 +2,7 @@ title: Machine Learning in Acute Care: Liver
 groups: ai-for-health, diag 
 closed: false 
 type: student 
-picture: vacancies/trauma-ai-liver.pdf
+picture: vacancies/trauma-ai-liver.jpg
 template: vacancy-single
 people: Vincent Stirler, Erik Hermans, Monique Brink, Stan Buckens, Matthieu Rutten, Bram van Ginneken, Ajay Patel, Silvan Quax, Amin Mohseni, Ashley Remi, Rozemarie van den Bergh
 description: Will deep learning-based algorithms become the new members of the trauma team?  
