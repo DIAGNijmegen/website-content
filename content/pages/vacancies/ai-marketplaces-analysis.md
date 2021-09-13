@@ -24,6 +24,7 @@ For this project, you will dive into the world of AI marketplaces for radiology.
 ## Conditions of employment
 * Project duration: 5-9 months 
 * Location: Radboud university medical center, with (partly) remote working possible
+* Starting date: flexible
 
 ## How to apply
 For more information or if you wish to apply, please contact [member/kicky-van-leeuwen].
