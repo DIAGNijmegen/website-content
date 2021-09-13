@@ -5,19 +5,43 @@ type: student
 picture: vacancies/soft_tissue.png
 template: project-single
 people: Niels van Nistelrooij, Guido de Jong, Shankeeth Vinayahalingam, Tom Loonen, Tong Xi, Thomas Maal
-description: Development of a model for accurate facial profile outcome prediction following oral and maxillofacial surgery.
+description: Development of a deep learning method that can generate 3D facial profiles of a patient after orthognathic surgery provided the planned surgical parameters.
 
 **Start date: 25-01-2021** <br>
 **End date: 24-08-2021**
 
-## Clinical Problem
-Oral and maxillofacial (O&M) surgery is the type of surgery that is focussed on the face, mouth and neck area. This involves surgery for the treatment of facial deformities, jaw malocclusion, pathologies, trauma, adjacent orthodontic treatment and others. Since the facial profile and appearance is often associated with self-identity it is important that the esthetical outcome is also taken in consideration besides the treatment itself. Most of the O&M surgeries affect the facial profile at least to some degree. During the surgical planning for these O&M surgery patients predictions of the facial profile are made for the informed decision making and, where possible, tweaking for different functional and esthetical outcomes. For the prediction a combination of (conebeam) CT-scans and 3D Photos are used. This is most often done by simulating the soft-tissue profile under the influence of changes to the bony tissue using mass tensor models (MTM). However there is a certain degree of inaccuracy in these MTM models that could lead to false predictions of the actual post-surgical facial profile. Accurate predictions are key in the informed decision making and the possibility of tweaking the surgical parameters for optimal treatment. We therefor have a great need for more accurate facial profile outcome prediction models in Oral and maxillofacial surgery.
+*Start date: 25-01-2021* <br>
+*End date: 24-08-2021*
 
-## Solution
-In order to overcome this issue we had a pilot study (under review) for one type of surgery using deep learning (DL) based models in the prediction of the facial profile which showed to be more accurate in most cases as compared to the MTM model. However, this was limited to only one type of surgery and still showed flaws in specific cases. Still, based upon our initial results we strongly believe that DL models can eventually achieve more accurate facial profile outcome prediction models for various types of O&M surgeries. We want to focus on three common O&M surgical forms with well-defined degrees of freedom for the DL prediction models. These are the Bilateral Sagittal Split Osteotomy (BSSO), the LeFort 1, and the BiMax.
+## Clinical problem
+Orthognathic surgery cuts and reshapes the bones comprising the jaws. These jaw displacements are mainly performed for functional improvements, such as alleviating malocclusion or asymmetries. A virtual planning of the surgery is routinely used that pre-operatively separates and positions the jaw bones by manipulating hard tissue 3D models. These virtual plannings are shown to the patient to inform them of the procedure and to show the expected result.
+// They are also used to print molds that increase the precision of the actual surgery compared to the planned surgery.
 
-## Data
-We have access to 120 cases for BSSO, 30 for the LeFort 1 and 200 for the BiMax. Of these cases we have the (conebeam) CT-scan, a pre-surgical 3D Photo and a post-surgical 3D Photo. Furthermore we have the bony tissue surgical parameters of each case.
+![omf-prediction]({{ IMGURL }}/images/projects/omf_prediction_planning.png)
 
-## Approach
-Niels will be supervised by a 3D Lab research member whose research is dedicated to 3D technology and machine learning techniques. We furthermore have a group of experts within 3D technology for additional supervision. Niels will get familiarized with the 3D data and an approach of choice in the prediction will be chosen. Depending on the chosen approach a combination of convolutional neural networks (CNNs) and/or feed-forward neural networks can be used with or without a combination with more conventional 3D processing algorithms. The goal is to create accurate facial profile outcome prediction models in Oral and maxillofacial surgery for BSSO, LeFort1 and BiMax surgeries. The final deliverable will be implemented within the 3D-Lab software suite called 3DMedX. Furthermore, this final deliverable will also be a publicly available algorithm on the platform Grand Challenge.
+The jaw displacements often lead to significant changes to the patient's facial profile. If the virtual planning would additionally take these changes into account, the surgery is more likely to provide aesthetical improvements as well. Furthermore, presenting the expected facial profile during pre-operative doctor-patient communication can alleviate anxiety in the patient and provides a more pragmatic account of the changes after the surgery. The goal of the project was thus to predict a patient's facial profile after orthognathic surgery given their pre-operative facial profile and the surgical parameters from the virtual planning.
+
+![omf-prediction]({{ IMGURL }}/images/projects/omf_prediction_example.png)
+
+## Methods
+A facial profile was represented as a mesh: a set of points in 3D space connected with triangles. A novel method discretized a mesh into a sparse grid where each grid cell contains features that characterize the triangles within the grid cell, so-called quadric error metrics (QEMs). Such a discretization could be transformed back to a mesh with a limited loss of quality.
+
+![omf-prediction]({{ IMGURL }}/images/projects/omf_prediction_qems.png)
+
+The AI method then introduced a neural network that encodes a discretized facial profile to a fixed number of features. The surgical parameters from the virtual planning were then appended to these features and the concatenation was decoded to produce the output sparse grid with QEMs. This predicted discretization was subsequently transformed back to a mesh to produce the final result.
+
+![omf-prediction]({{ IMGURL }}/images/projects/omf_prediction_model.png)
+
+## Results
+A database comprising 1190 control facial profiles and 256 pairs of pre- and post-operative patient facial profiles was availalble for training. To show how the model applies the jaw displacements, a facial profile with no jaw displacements and a post-operative facial profile with the planned jaw displacements were predicted. Clear jaw displacements between the outputs are visible, showing that the model outputs can be controlled by providing different surgical parameters. However, the identity of the patient is not well represented as the eyebrows and eyelids are missing. Quantitatively, the predicted facial profiles differed on average by 1.77 mm compared to the post-operative facial profiles, which is less effective than the state of the art.
+
+![omf-prediction]({{ IMGURL }}/images/projects/omf_prediction_results.png)
+
+## Conclusion
+An AI model has been developed that predicts a patient's facial profile after orthognathic surgery. The model's predictions can be controlled by specifying surgical parameters. Too few patient examples were available to fully utilize the novel method, so an alternative method is proposed that translates the points of the pre-operative mesh instead of generating the post-operative mesh from scratch.
+
+The developed method is one of a few recent accounts of directly using unstructured mesh data to solve clinical problems using deep learning. This trend will likely continue to attract attention and evolve clinical 3D deep learning as the application domain that enjoys the methodological innovations in AI first.
+
+Final report can be retrieved from here: [thesis](https://drive.google.com/file/d/1Vw_rxBvem9RVQPaJiujnsKZU67bLXLU_/view?usp=sharing).
+
+The code for this project will be available in this [GitHub repository](https://github.com/nnistelrooij/OMPrediction) latest February 2022.
