@@ -5,7 +5,7 @@ picture: vacancies/NLP_lesion_detection.png
 template: project-single
 groups: ai-for-health, diag 
 default_group: diag
-people: Koen Dercksen, Max de Grauw, Bram van Ginneken
+people: Koen Dercksen, Max de Grauw, Bram van Ginneken, Manuela Bergau
 description: Develop a method to automatically find statements in radiology reports on presence, size and type of lesions in CT scans. 
 type: student
 
