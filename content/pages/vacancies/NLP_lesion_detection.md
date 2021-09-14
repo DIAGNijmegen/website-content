@@ -1,6 +1,6 @@
 title: Natural language processing of radiology reports for lesion detection 
 groups: ai-for-health, diag 
-closed: false 
+finished: false 
 type: student 
 picture: vacancies/NLP_lesion_detection.png
 template: vacancy-single
