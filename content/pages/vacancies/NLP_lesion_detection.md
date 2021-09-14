@@ -1,6 +1,7 @@
 title: Natural language processing of radiology reports for lesion detection 
 groups: ai-for-health, diag 
 finished: false 
+closed: true
 type: student 
 picture: vacancies/NLP_lesion_detection.png
 template: vacancy-single
@@ -39,17 +40,7 @@ Students will be supervised by two PhD students from the [Diagnostic Image Analy
 
 The final deliverable is a code repository on GitHub, a publicly available algorithm on the platform [Grand Challenge](https://grand-challenge.org), a report and validation study and preferably a scientific publication. 
 
- 
 
-## Requirements 
-
-- Students with a major in data science, computer science, or artificial intelligence in the final stage of master level studies are invited to apply. 
-
-- Interest in natural language processing and machine learning. Affinity with image processing is also welcome. 
-
-- Affinity with programming in Python and with deep learning packages is required. 
-
- 
 
 ## Information 
 
