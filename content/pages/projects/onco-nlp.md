@@ -4,7 +4,7 @@ finished: false (change to 'true' to move the project from Current projects to F
 picture: vacancies/NLP_lesion_detection.png
 template: project-single
 groups: ai-for-health, diag 
-default_group: diag (the main group of this person, used for internal links. If not set, the first group from 'groups' is used.)
+default_group: diag
 people: Koen Dercksen, Max de Grauw, Bram van Ginneken
 description: Develop a method to automatically find statements in radiology reports on presence, size and type of lesions in CT scans. 
 type: student
