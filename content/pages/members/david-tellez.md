@@ -3,7 +3,7 @@ name: David Tellez
 template: people-single
 picture: people/David_Tellez.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: pathology, diag
 default_group: pathology
 email: david.tellez@radboudumc.nl
@@ -13,4 +13,4 @@ linkedin: https://www.linkedin.com/in/davidtellezm
 scholar: https://scholar.google.com/citations?user=O6dYqTEAAAAJ
 researcherid: http://www.researcherid.com/rid/V-7094-2017
 
-David Tellez graduated in Telecommunication Engineering at the University of Seville in 2014. During his Master's studies he was involved in the Robotics, Vision and Control Research Group as a Research Intern. His Master's Thesis entitled "EEG Signal Processing in Neuromarketing Research" was written involving two international partners: the Budapest University of Technology and Economics and Synetiq Ltd. In February 2016, David joined the Diagnostic Image Analysis Group under the supervision of Jeroen van der Laak and Francesco Ciompi as a PhD student. He is a recipient of the Junior Research Grant from Radboud Institute for Health Sciences in 2016 with the Thesis title "Deep learning for improved prognostics in breast cancer". This project aims to explore how deep neural networks can be applied to the field of Computational Pathology, with the specific goal of improving breast cancer prognosis.
+David Martin Tellez was a PhD student in the CP group until June 2021. He succesfully defended his PhD thesis titled ['Advancing computational pathology with deep learning: from patches to gigapixel image-level classification'](https://www.computationalpathologygroup.eu/publications/tell21a/).
