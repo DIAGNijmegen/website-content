@@ -1,13 +1,13 @@
-title: Natural language processing of radiology reports for lesion detection 
-groups: ai-for-health, diag 
-finished: false 
-type: student 
+title: Radiology Reports NLP
+title_long: Natural language processing of radiology reports for lesion detection 
+finished: false (change to 'true' to move the project from Current projects to Finished Projects)
 picture: vacancies/NLP_lesion_detection.png
 template: project-single
+groups: ai-for-health, diag 
+default_group: diag (the main group of this person, used for internal links. If not set, the first group from 'groups' is used.)
 people: Koen Dercksen, Max de Grauw, Bram van Ginneken
 description: Develop a method to automatically find statements in radiology reports on presence, size and type of lesions in CT scans. 
-
- 
+type: student
 
 ## Clinical Problem 
 
