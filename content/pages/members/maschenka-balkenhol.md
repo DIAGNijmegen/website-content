@@ -2,7 +2,7 @@ title: Maschenka Balkenhol
 name: Maschenka Balkenhol
 template: people-single
 picture: people/Maschenka_Balkenhol.jpg
-position: Pathology Resident and Researcher
+position: Pathology Resident and Postdoctoral Researcher
 active: yes
 groups: pathology
 default_group: pathology
