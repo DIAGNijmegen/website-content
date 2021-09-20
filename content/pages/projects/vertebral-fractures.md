@@ -1,5 +1,5 @@
 title: Detecting and characterizing vertebral fractures in CT scans
-groups: ai-for-health
+groups: ai-for-health, diag
 finished: false
 type: student
 picture: vacancies/msc-vertebral-fractures.jpg
