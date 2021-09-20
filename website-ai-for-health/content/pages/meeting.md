@@ -20,7 +20,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  09-09-2021  | Roel Hacking | Combining chest CT scans and clinical features for improved automated COVID-19 detection |
 |  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
 |  23-09-2021  | Niels van Nistelrooij | Predicting a patient's facial profile after orthognathic surgery |
-|  07-10-2021  | Richard Li  <br><br> Evgenia Martynova| TBA |
+|  07-10-2021  | Richard Li  <br> Evgenia Martynova| TBA |
 
 ## Past meetings
 
