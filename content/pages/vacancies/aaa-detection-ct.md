@@ -5,7 +5,7 @@ type: student
 picture: projects/aaa.jpg
 template: vacancy-single
 people: Bram van Ginneken
-description: We want to develo a robust deep learning algorithm for automated detection of abdominal aorta aneurysms in CT scans.
+description: We want to develop a robust deep learning algorithm for automated detection of abdominal aorta aneurysms in CT scans.
 
 **This is an AI for Health MSc project. Students are
 elgible to receive a monthly reimbursement of €500,- for
