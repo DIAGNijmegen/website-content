@@ -2,7 +2,7 @@ title: Micael Karlberg
 name: Micael Karlberg
 template: people-single
 picture: people/Micael_Karlberg.jpg
-position: PhD Candidate
+position: Postdoctoral Researcher
 active: yes
 groups: diag, pathology
 default_group: pathology
