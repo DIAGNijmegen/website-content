@@ -3,7 +3,7 @@ name: Jeffrey Hoven
 template: people-single
 picture: people/Jeffrey_Hoven.jpg
 position: Bachelor Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: jeffrey.hoven@radboudumc.nl
