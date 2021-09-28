@@ -54,6 +54,7 @@ title: Former employees
 - [Guido van Schie](http://nl.linkedin.com/in/guidovanschie)
 - [Arnaud Arindra Adiyoso Setio](https://www.linkedin.com/in/arnaudsetio)
 - [Carl Shneider](https://www.linkedin.com/in/carl-shneider/)
+- [Cheryl Sital](https://www.linkedin.com/in/cheryl-sital/)
 - [Ewoud Smit](https://www.linkedin.com/in/ewoud-smit/)
 - [Mark Stoutjesdijk](https://www.linkedin.com/in/stoutjesdijk/)
 - [Rianne Swart-Hupse](http://nl.linkedin.com/in/riannehupse)
