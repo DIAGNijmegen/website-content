@@ -26,17 +26,17 @@ We derived the weights of the calibrator using our NLST cohort comprising 1,249 
 
 ![histogram]({{ IMGURL }}/images/software/nodule_malignancy_risk_calibration_figure1.png)
 
-Figure 1. Visual assessment of the calibration of the deep learning (DL) algorithm for malignancy risk estimation of pulmonary nodules detected at screening CT through histogram density plots of outputs in the development cohort from the National Lung Screening Trial (NLST), left, and the full external validation cohort (DLCST), right, before (top) and after (bottom) calibration with Platt’s scaling.
+**Figure 1.** Visual assessment of the calibration of the deep learning (DL) algorithm for malignancy risk estimation of pulmonary nodules detected at screening CT through histogram density plots of outputs in the development cohort from the National Lung Screening Trial (NLST), left, and the full external validation cohort (DLCST), right, before (top) and after (bottom) calibration with Platt’s scaling.
 
 ![reliability]({{ IMGURL }}/images/software/nodule_malignancy_risk_calibration_figure2.png)
 
-Figure 2. Visual assessment of the calibration of the deep learning (DL) algorithm for malignancy risk estimation of pulmonary nodules through calibration plots (also called reliability diagrams) in the development cohort from the National Lung Screening Trial (NLST), left, and the full external validation cohort from the Danish Lung Cancer Screening Trial (DLCST), right. 
+**Figure 2.** Visual assessment of the calibration of the deep learning (DL) algorithm for malignancy risk estimation of pulmonary nodules through calibration plots (also called reliability diagrams) in the development cohort from the National Lung Screening Trial (NLST), left, and the full external validation cohort from the Danish Lung Cancer Screening Trial (DLCST), right. 
 
 Figure 3 shows the calibrated risk scores for the same nodules that were shown in [Figure 5 of our manuscript](https://pubs.rsna.org/doi/full/10.1148/radiol.2021204433). 
 
 ![nodules]({{ IMGURL }}/images/software/nodule_malignancy_risk_calibration_figure3.png)
 
-Figure 3. Examples of CT images in nodules from the Danish Lung Cancer Screening Trial (DLCST) with (A-D) high and (E-H) low agreement between the deep learning (DL) algorithm and the clinicians for malignancy risk estimation. The raw DL outputs are shown along with the calibrated DL risk scores for each nodule from Figure 5 of our publication.
+**Figure 3.** Examples of CT images in nodules from the Danish Lung Cancer Screening Trial (DLCST) with (A-D) high and (E-H) low agreement between the deep learning (DL) algorithm and the clinicians for malignancy risk estimation. The raw DL outputs are shown along with the calibrated DL risk scores for each nodule from Figure 5 of our publication.
 
 # Summary
 The previous version of our deep learning (DL) algorithm for malignancy risk estimation of pulmonary nodules produced uncalibrated malignancy risk scores. The algorithm produced overconfident and polarized outputs, with the malignancy risks close to either 0 or 1. In this article, we described how we used Platt’s scaling to calibrate the DL algorithm’s probabilities. Qualitative assessments through histogram density plots and reliability diagrams and quantitative assessments with the Brier score loss show that the algorithm has better calibration. We made both the uncalibrated outputs and the calibrated outputs available through the publicly available algorithm on [grand-challenge.org](https://grand-challenge.org/algorithms/pulmonary-nodule-malignancy-prediction/).
