@@ -27,4 +27,4 @@ For this project, you will dive into the world of AI marketplaces for radiology.
 * Starting date: flexible
 
 ## How to apply
-For more information or if you wish to apply, please contact [member/kicky-van-leeuwen].
+For more information, please contact [member/kicky-van-leeuwen]. If you wish to apply, please send a CV, letter and project availability (start-end time) to [kicky.vanleeuwen@radboudumc.nl](mailto:kicky.vanleeuwen@radboudumc.nl). Deadline is 10th of October. Interviews will be held in the week of 18 October.
