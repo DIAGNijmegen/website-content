@@ -4,7 +4,7 @@ closed: true
 type: student 
 picture: vacancies/MD_drug_repurposing.png
 template: vacancy-single
-people: Anindo Saha
+people: Anindya Shaha
 description: Develop a method for domain generalization for prostate cancer detection in MRI
 
 **This is an AI for Health MSc project. Students are
@@ -60,4 +60,4 @@ expert centers across medicine, academia and industry.
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- More information can be obtained from Anindo Saha (mailto: anindo.saha@radboudumc.nl)
+- More information can be obtained from Anindya Shaha (mailto: anindya.shaha@radboudumc.nl)
