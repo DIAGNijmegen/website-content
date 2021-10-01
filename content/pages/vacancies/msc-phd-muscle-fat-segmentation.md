@@ -8,19 +8,19 @@ people: Matthieu Rutten, Nikolas Lessmann, Alina Vrieling, Bram van Ginneken
 description: Develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT and MR images.
 
 ## Clinical problem
-The physical state of a patient is relevant to many areas of healthcare. A precise measure of a person's physical state is his or her body composition, which entails the measurement of muscle and fat mass in the body and has been shown to impact clinical outcomes. Body composition measures have been associated with cardiovascular disease, chronic kidney disease, COVID-19 outcome, osteoporosis, treatment response to chemotherapy and immunotherapy, and poor outcomes (such as overall survival, progression-free survival, postoperative complications, quality of life, and health care utilization) following surgery, trauma and cancer. As a result, there is increasing clinical interest in how body composition can be used to improve treatment and care.
+The composition of the body in terms of muscle and fat mass is a precise measure of the physical state of the patient. This information has many practical applications in clinical routine care, such as monitoring treatment response to chemotherapy and immunotherapy in patients with cancer, or predicting clinical outcomes in other patients. While every hospital routinely acquires hundreds of cross-sectional imaging studies (CT and MRI scans) every day that would be suitable for deriving precise body composition measurements, this potential currently remains unused. Measuring fat and muscle mass would require manually delineating tissues depicted in the scan, which is labor-intensive and time-consuming.
 
-Cross-sectional imaging studies (CT and MRI scans) from which body composition measurements can be extracted are routinely acquired every day in every modern hospital. However, deriving the body compositional information from these scans would require manually delineating the fat and muscle tissues depicted in the scan, which is labor-intensive and time-consuming. This limits the widespread use of precise body composition measurements in routine clinical practice.
+## Aim of the project
+Your task is to develop deep learning algorithms for automatic delineation of fat and muscle compartments in 3D CT and MRI scans. Next to semantic segmentation in medical images, this involves finding solutions for practical challenges, such as efficient data annotation, automatic recognition of suitable scans, and extrapolation in scans with incompletely depicted body parts.
 
-## Research question and tasks
-Develop, train and test a deep learning algorithm that automatically outlines different muscles and fat in 3D CT scans. An important
-aspect of this project is also the implementation as an easy to use web-app so that the software can be used by clinical researchers.
+In collaboration with [Siemens Healthineers](https://www.siemens-healthineers.com/) and the [Jeroen Bosch Ziekenhuis](https://www.jeroenboschziekenhuis.nl/), this project provides the opportunity to continue your research beyond a MSc thesis and also obtain a PhD degree. The project consists of a 6-months research project at the [Diagnostic Image Analysis Group](https://diagnijmegen.nl/) at Radboudumc, followed by a 6-months international internship at Siemens Healthineers' campus in Princeton in the United States. After defending your MSc thesis, you continue the project at Radboudumc as PhD candidate with the aim to obtain the PhD degree after 3 years.
 
 ## Requirements
-- Student in the final year of a Master study in computer science, artificial intelligence, biomedical engineering, or a related area.
+- Student in the final year of a Master study in biomedical engineering or technical medicine, computer science, data science, artificial intelligence or a related area.
 - Good programming skills are important
+- Experience with medical images is a plus
 
-## Information
-- Project duration: 6 months
-- Location: Radboud University Medical Center
-- For more information, please contact [Nikolas Lessmann](http://diagnijmegen.nl/index.php/Person?name=Nikolas_Lessmann) 
+## Applying for this project
+For more information, please contact [member/matthieu-rutten] or [member/nikolas-lessmann].
+
+To apply for this project, please include your CV and a short summary of your background and your interest in this project in your email.
