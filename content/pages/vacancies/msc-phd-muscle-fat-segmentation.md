@@ -13,6 +13,7 @@ The composition of the body in terms of muscle and fat mass is a precise measure
 ## Aim of the project
 Your task is to develop deep learning algorithms for automatic delineation of fat and muscle compartments in 3D CT and MRI scans. Next to semantic segmentation in medical images, this involves finding solutions for practical challenges, such as efficient data annotation, automatic recognition of suitable scans, and extrapolation in scans with incompletely depicted body parts.
 
+## Combining MSc and PhD degree
 In collaboration with [Siemens Healthineers](https://www.siemens-healthineers.com/) and the [Jeroen Bosch Ziekenhuis](https://www.jeroenboschziekenhuis.nl/), this project provides the opportunity to continue your research beyond a MSc thesis and also obtain a PhD degree. The project consists of a 6-months research project at the [Diagnostic Image Analysis Group](https://diagnijmegen.nl/) at Radboudumc, followed by a 6-months international internship at Siemens Healthineers' campus in Princeton in the United States. After defending your MSc thesis, you continue the project at Radboudumc as PhD candidate with the aim to obtain the PhD degree after 3 years.
 
 ## Requirements
