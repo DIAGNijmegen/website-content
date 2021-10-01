@@ -2,7 +2,7 @@ title: Predict neoadjuvant chemotherapy response in breast cancer histopathology
 groups: ai-for-health
 closed: true 
 type: student 
-picture: vacancies/MD_drug_repurposing.png
+picture: vacancies/predict-chemo-response.png
 template: vacancy-single
 people: Witali Aswolinskiy, Francesco Ciompi
 description: Develop a method to predict neoadjuvant chemotherapy response in breast cancer histopathology from a panel of immunohistochemical markers
