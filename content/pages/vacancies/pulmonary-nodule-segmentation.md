@@ -50,4 +50,4 @@ through the grand-challenge.org platform. Significant findings will result in a 
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- More information can be obtained from Kiran Vaidhya Venkadesh (mailto: kiran.vaidhya@radboudumc.nl)
+- More information can be obtained from Kiran Vaidhya Venkadesh (mailto: kiranvaidhya.venkadesh@radboudumc.nl)
