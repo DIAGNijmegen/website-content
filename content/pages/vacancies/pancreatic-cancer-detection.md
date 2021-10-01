@@ -2,7 +2,7 @@ title: Deep learning for automatic pancreatic cancer detection on magnetic reson
 groups: ai-for-health
 closed: true 
 type: student 
-picture: vacancies/MD_drug_repurposing.png
+picture: vacancies/pancreatic-cancer.png
 template: vacancy-single
 people: Natalia Alves
 description: Develop a method to automatically deetect pancreatic cancer on magnetic resonance images
