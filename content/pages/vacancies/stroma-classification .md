@@ -4,7 +4,7 @@ closed: true
 type: student 
 picture: vacancies/MD_drug_repurposing.png
 template: vacancy-single
-people: Pierpaolo Vendittelli
+people: Pierpaolo Vendittelli,Tom Perik, Geert Litjens, John Hermans
 description: Develop a method to automatically classify and quantify stroma in pancreatic H&E stained whole-slide-images
 
 **This is an AI for Health MSc project. Students are
