@@ -24,9 +24,10 @@ will discretize the color space accordingly. Subsequently, we will use GCNNs alo
 In this project we plan to use public, multi-institutional datasets such as Camelyon17, MIDOG or PANDA.
 
 ## Results
+The algorithm will be made publically available as a Docker container on https://grand-challenge.org/.
 
 ## Embedding 
-
+The student will be supervised by a research member of the Diagnostic Image Analysis Group and Computational Pathology Group whose research is dedicated to analyses of histopathological slides with deep learning techniques. We have a strong collaboration with pathology experts in the field of cancer grading. The student will have access to a large GPU cluster.
 
 ## Requirements 
 - Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics in the final stages of their Master education. 
