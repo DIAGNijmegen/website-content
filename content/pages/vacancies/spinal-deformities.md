@@ -21,6 +21,9 @@ The project aims to model spinal deformities and develop a simulation framework 
 ## Data 
 Public and private datasets with more than 400 CT scans and around 100 MR scans are available, together with reference segmentations and anatomical labels of the vertebrae. Additionally, at least 20 scans of patients with scoliotic spines are available and more will be collected from our PACS as part of the project.
 
+## Results
+The main result will be a model of spinal deformities, which can be used both to generate synthetic images with deformities but which can also be used in other spinal analysis projects to simulate different spine shapes. Practically, the project will also lead to an improved segmentation algorithm, in particular for scans of patients with scoliosis. Here, this algorithm can help plan surgical interventions and design patient-specific drilling templates. The algorithm will be available via grand-challenge.org
+
 ## Embedding 
 
 ## Requirements 
