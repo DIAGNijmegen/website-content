@@ -2,7 +2,7 @@ title: Improving efficiency and accuracy of skin cancer diagnostics through impl
 groups: ai-for-health
 closed: true 
 type: student 
-picture: vacancies/MD_drug_repurposing.png
+picture: vacancies/skin-cancer-diagnostics.jpg
 template: vacancy-single
 people: Daan Geijs, Geert Litjens, Avital Amir, Lisa Hillen
 description: Develop a method to improve the efficiency and accuracy of skin cancer diagnostics through implementation of ‘deep learning’-based tissue analysis
