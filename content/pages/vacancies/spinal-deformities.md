@@ -2,9 +2,9 @@ title: Automatic segmentation and identification of the vertebrae in CT scans of
 groups: ai-for-health
 closed: true 
 type: student 
-picture: vacancies/MD_drug_repurposing.png
+picture: vacancies/scoliosis_modeling.jpg
 template: vacancy-single
-people: Nikolas Lessmann
+people: Nikolas Lessmann, Dennis Janssen, Max Bakker, Sebastiaan van de Groes
 description: Develop a method to automatically segment and identify the vertebrae in CT scans of patients with spinal deformities
 
 **This is an AI for Health MSc project. Students are
@@ -22,9 +22,10 @@ The project aims to model spinal deformities and develop a simulation framework 
 Public and private datasets with more than 400 CT scans and around 100 MR scans are available, together with reference segmentations and anatomical labels of the vertebrae. Additionally, at least 20 scans of patients with scoliotic spines are available and more will be collected from our PACS as part of the project.
 
 ## Results
-The main result will be a model of spinal deformities, which can be used both to generate synthetic images with deformities but which can also be used in other spinal analysis projects to simulate different spine shapes. Practically, the project will also lead to an improved segmentation algorithm, in particular for scans of patients with scoliosis. Here, this algorithm can help plan surgical interventions and design patient-specific drilling templates. The algorithm will be available via grand-challenge.org
+The main result will be a model of spinal deformities, which can be used both to generate synthetic images with deformities but which can also be used in other spinal analysis projects to simulate different spine shapes. Practically, the project will also lead to an improved segmentation algorithm, in particular for scans of patients with scoliosis. Here, this algorithm can help plan surgical interventions and design patient-specific drilling templates. The final deliverable is a code repository on GitHub and a publicly available algorithm on the platform Grand Challenge.
 
 ## Embedding 
+The student will be supervised by a research scientist from the Diagnostic Image Analysis Group, with expertise in deep learning and in particular spine segmentation and analysis in medical images, and by a research scientist from the Department of Orthopedics, with expertise in musculoskeletal modeling. An orthopedic surgeon will provide clinical expertise. For model development, we provide access to a large GPU computation cluster and an existing database of spine scans and reference annotations.
 
 ## Requirements 
 - Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics in the final stages of their Master education. 
