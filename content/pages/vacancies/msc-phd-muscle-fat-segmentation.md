@@ -2,7 +2,7 @@ title: Body composition assessment in 3D CT and MR images
 groups: diag, ai-for-health
 closed: true
 type: student
-picture: vacancies/body-composition.jpg
+picture: vacancies/body-composition-3d.jpg
 template: vacancy-single
 people: Matthieu Rutten, Nikolas Lessmann, Alina Vrieling, Bram van Ginneken
 description: Develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT and MR images.
