@@ -7,8 +7,8 @@ template: project-single
 people: Evgenia Martynova, Bram de Wilde, Henkjan Huisman
 description: Development of an AI-assisted algorithm for automatic detection of adhesions on cine MRI
 
-**Start date: 25-01-2021** <br>
-**End date: 26-07-2021**
+**Start date: 08-02-2021** <br>
+**End date: 06-08-2021**
 
 ## Clinical problem 
 
