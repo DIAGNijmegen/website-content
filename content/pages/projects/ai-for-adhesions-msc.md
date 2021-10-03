@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: projects/ai4adhesion.jpg
 template: project-single
-people: Eugenia Martynova, Bram de Wilde, Henkjan Huisman
+people: Evgenia Martynova, Bram de Wilde, Henkjan Huisman
 description: Development of an AI-assisted algorithm for automatic detection of adhesions on cine MRI
 
 **Start date: 25-01-2021** <br>
@@ -61,20 +61,25 @@ on the registration results.
 
 ## Data 
 
-We hav access to 60 cine MRI studies
+We have access to 60 cine MRI studies
 with binary labels (adhesions or no adhesions) extracted from radiology
 reports and abdominal cavity segmentations. In 10 of these studies,
 adhesions are annotated with bounding boxes. Soon, this database
 will be extended to more than 500 cine MRI studies with labels from
 another hospital.
 
-## Approach 
+## Method
 
-Eugenia is supervised by a
-[DIAG](https://www.diagnijmegen.nl/) research member whose
-research is dedicated to adhesion detection with machine learning
-techniques. She will be guided
-to set up an automatic CNN-based system for detecting adhesions to the
-abdominal wall, in the lesser pelvis and between bowel loops. The final
-deliverable will be a publicly available algorithm on the platform
-[Grand Challenge](https://grand-challenge.org/algorithms/).
+
+{DESCRIBE THE APPROACH USED TO SOLVE THE CLINICAL PROBLEM}
+
+## Results
+
+The algorithm is published on the Grand Challenge platform. 
+
+<a href="https://grand-challenge.org/algorithms/visceral-slide-on-abdominal-cine-mri/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
+
+The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/abdomenmrus-cinemri-cavity-segmentation).
+
+TODO: note that private DIAG code is used in these repo. Can registration repo be made public?
+
