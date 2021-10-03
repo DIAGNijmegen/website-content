@@ -2,7 +2,7 @@ title: Muscle and fat segmentation in 3D CT images for body composition assessme
 groups: diag, ai-for-health
 closed: true
 type: student
-picture: vacancies/body-composition.jpg
+picture: vacancies/body-composition-3d.jpg
 template: vacancy-single
 people: Nikolas Lessmann, Alina Vrieling, Matthieu Rutten
 description: Develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT images.

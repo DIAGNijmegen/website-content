@@ -2,7 +2,7 @@ title: Segmenting CT images for body composition assessment
 groups: ai-for-health, diag
 finished: true
 type: student
-picture: projects/body-composition.jpg
+picture: projects/body-composition-3d.jpg
 template: project-single
 people: Thijs van den Hout, Nikolas Lessmann, Alina Vrieling, Matthieu Rutten
 description: We develop algorithms for segmentation of muscles and fat tissue in 3D CT images.
