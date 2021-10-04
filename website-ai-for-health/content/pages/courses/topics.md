@@ -19,7 +19,7 @@ During the machine learning lectures and practicals <a href="https://www.trimbos
 ***
 
 ##Deep learning
-The deep learning lectures and practicals will look into a subset of the machine learning methods that use multiple ‘layers’ of computations, allowing them to learn more complex tasks. These models are very successful on tasks that were previously deemed impossible for computers, such as recognizing images or language. Within the Radboudumc we have great expertise on applying deep learning to medical images of all kinds of modalities. <a href="https://www.diagnijmegen.nl/people/bram-van-ginneken/">Bram van Ginneken</a>, head of the Diagnostig Image Analysis Group, will provide lectures and practicals where you will learn how these models work, to what tasks these can be applied and what different methods there are. 
+The deep learning lectures and practicals will look into a subset of the machine learning methods that use multiple ‘layers’ of computations, allowing them to learn more complex tasks. These models are very successful on tasks that were previously deemed impossible for computers, such as recognizing images or language. Within the Radboudumc we have great expertise on applying deep learning to medical images of all kinds of modalities. <a href="https://www.diagnijmegen.nl/people/bram-van-ginneken/">Bram van Ginneken</a>, head of the Diagnostic Image Analysis Group, will provide lectures and practicals where you will learn how these models work, to what tasks these can be applied and what different methods there are. 
 
 ***
 
@@ -34,7 +34,7 @@ When dealing with large amounts of data it can be difficult to get a grasp of th
 ***
 
 ##Deployment
-Once you have build a successful AI algorithm it still has to be implemented in practice. We will cover the deployment of AI systems together with <a href="https://www.pacmed.ai/nl">PACMED</a>, a company developing AI tools for hospitals. By taking us through their product pipeline, topics such as adjusting your AI system to your users, processing feedback and getting the right certifications are covered. AI systems fall under the Medical Device Regulation (MDR), which has recently been updated. Erik Gelderblom will cover the current regulation and what that means for using AI systems within the Radboudumc.
+Once you have build a successful AI algorithm it still has to be implemented in practice. We will cover the deployment of AI systems together with <a href="https://www.pacmed.ai/nl">PACMED</a>, a company developing AI tools for hospitals. By taking us through their product pipeline, topics such as adjusting your AI system to your users, processing feedback and getting the right certifications are covered. AI systems fall under the Medical Device Regulation (MDR), which has recently been updated. Erik Gelderblom will cover the current regulation and what that means for using AI systems within Radboudumc.
 
 ***
 
