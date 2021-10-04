@@ -22,7 +22,7 @@ P(X) = 1 / (1 + e<sup>- (_A_ * logit(X) + _B_)</sup>)
 
 The [logit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.logit.html) function performs the inverse transformation to the sigmoid function and is defined by `logit(p) = log(p/(1-p))`; this was done to transform the probabilities back into the logits before applying calibration. The scalars _A_ and _B_ were derived from the development data as stated previously. Cross-validation is often used to prevent the calibrator from over-fitting during the calibration process. In this work, we derived the weights of the calibrator using 10-fold cross-validation. 
 
-We derived the weights of the calibrator using our NLST cohort comprising 1,249 malignant nodules and 14,828 benign nodules. This cohort was also used for the development of the DL algorithm as described in our manuscript. Figures 1 and 2 show the visual assessment of the calibration of the DL algorithm before and after Platt’s scaling through histogram density plots and reliability curves for the NLST and the DLCST cohorts. Table 1 shows the binary cross-entropy loss and the Brier score loss of the algorithm’s outputs on the NLST and DLCST cohorts.
+We derived the weights of the calibrator using our NLST cohort comprising 1,249 malignant nodules and 14,828 benign nodules. This cohort was also used for the development of the DL algorithm as described in our manuscript. Figures 1 and 2 show the visual assessment of the calibration of the DL algorithm before and after Platt’s scaling through histogram density plots and reliability curves for the NLST and the DLCST cohorts. Table 1 shows the binary cross-entropy loss and the Brier score loss of the algorithm’s outputs on the NLST and DLCST cohorts. Figure 3 shows the calibrated risk scores for the same nodules that were shown in [Figure 5 of our manuscript](https://pubs.rsna.org/doi/full/10.1148/radiol.2021204433). 
 
 ![histogram]({{ IMGURL }}/images/software/nodule_malignancy_risk_calibration_figure1.png)
 
@@ -32,7 +32,13 @@ We derived the weights of the calibrator using our NLST cohort comprising 1,249 
 
 **Figure 2.** Visual assessment of the calibration of the deep learning (DL) algorithm for malignancy risk estimation of pulmonary nodules through calibration plots (also called reliability diagrams) in the development cohort from the National Lung Screening Trial (NLST), left, and the full external validation cohort from the Danish Lung Cancer Screening Trial (DLCST), right. 
 
-Figure 3 shows the calibrated risk scores for the same nodules that were shown in [Figure 5 of our manuscript](https://pubs.rsna.org/doi/full/10.1148/radiol.2021204433). 
+**Table 1.** Brier score loss and binary cross-entropy for the DL algorithm on the NLST and DLCST cohorts before and after calibration with Platt’s scaling.
+
+|            Cohort           |            Brier score loss            |          Binary cross-entropy          |
+|:---------------------------:|:--------------------------------------:|:--------------------------------------:|
+|      NLST (development)     | Uncalibrated: 0.091; Calibrated: 0.049 | Uncalibrated: 0.308; Calibrated: 0.170 |
+| DLCST (external validation) | Uncalibrated: 0.055; Calibrated: 0.045 | Uncalibrated: 0.211; Calibrated: 0.155 |
+
 
 ![nodules]({{ IMGURL }}/images/software/nodule_malignancy_risk_calibration_figure3.png)
 
