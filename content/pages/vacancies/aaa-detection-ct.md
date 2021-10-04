@@ -2,7 +2,7 @@ title: Automated AAA detection on CT scans
 groups: ai-for-health, diag
 closed: false
 type: student
-picture: projects/aaa.jpg
+picture: vacancies/aaa21.jpg
 template: vacancy-single
 people: Bram van Ginneken
 description: We want to develop a robust deep learning algorithm for automated detection of abdominal aorta aneurysms in CT scans.
