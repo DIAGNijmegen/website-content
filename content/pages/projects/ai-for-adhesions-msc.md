@@ -34,12 +34,7 @@ One of the limitations of the method is the lack of segmentation automation. For
 
 ## Data 
 
-We have access to 60 cine MRI studies
-with binary labels (adhesions or no adhesions) extracted from radiology
-reports and abdominal cavity segmentations. In 10 of these studies,
-adhesions are annotated with bounding boxes. Soon, this database
-will be extended to more than 500 cine MRI studies with labels from
-another hospital.
+The entire dataset available for the project contains 563 cine-MRI scans for 526 patients. Each scan is provided with a report containing a radiologist’s diagnosis based on the assessment of a cine-MRI scan. From the conclusions in the report, binary study-level annotations were extracted. This dataset was used to sample training and test sets balanced by patient adhesion status as well as a healthy control group to calculate visceral slide statistics. To acquire bounding box annotations of adhesions, two reader studies were organised separately for training and test sets. The resulting training set consists of 59 cine-MRI scans with 83 adhesions annotations and 59 negative scans. The held-out test set contains 38 scans with 56 adhesions annotations and 47 negative scans. Finally, 36 negative scans are sampled for the healthy control group.
 
 ## Method
 
