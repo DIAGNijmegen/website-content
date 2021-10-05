@@ -42,7 +42,7 @@ We propose the first fully-automated multi-stage CAD method for adhesion detecti
 
 The full scheme of the method is visualised below:
 
-![Visceral slide scheme]({{ IMGURL }}/images/projects/ai4adhesion_method.png)
+![Method scheme]({{ IMGURL }}/images/projects/ai4adhesion_method.png)
 
 The main components of the methods are:
 
@@ -54,25 +54,47 @@ Implemented using nnU-Net [2], a state of the art model for medical image segmen
 
 A predicted segmentation mask of abdominal cavity is used to obtain a masked deformation field and compute visceral slide along the abdominal cavity contour based on the difference of deformation inside and outside the abdominal cavity. We used ANTS toolkit [3] to obtain a deformation field. The first method to quantify visceral slide uses only two most dissimilar frames, that correspond to the opposite phases of resiratory cycle, to approximate visceral slide that occurs on a scan. The picture below visualises the algorithm:
 
-![Visceral slide scheme]({{ IMGURL }}/images/projects/ai4adhesion_vs_pair.png)
+![Visceral slide pair]({{ IMGURL }}/images/projects/ai4adhesion_vs_pair.png)
 
 Another method we explored extracts cumulative visceral slide from a cine-MRI scan by adding visceral slide maps computed between each subsequent pair of frames with a specially designed summation procedure. We assumed that the latter method captures the complete motion recorded in a cine-MRI scan more accurately.
 
 ### Visceral slide normalisation 
 
+Despite receiving the same instructions during a cine-MRI scan acquisition, different patients move with different amplitude. Some patients exhibit high amplitude motion, whereas others show little motion. We mitigate motion differences between patients by normalising the computed visceral slide by the average motion that occurs on the scan. 
 
+Similar normalisation is necessary to account for normal motion amplitude in different parts of the abdomen. For instance, generally, the motion in pelvis is noticeably lower than motion along the abdominal cavity walls, which affect the computed visceral slide values in these areas. Suitable normalisation was performed with the visceral slide statistics in the healthy control group. Two normalisation options were tried: division of visceral slide by expectation and standardisation. The visceral slide expectation we obtained for different areas of abdominal cavity is visualised in the picture below:
+
+![Visceral slide expectation]({{ IMGURL }}/images/projects/ai4adhesion_vs_exp.png)
 
 ### Adhesion detection with region growing algorithm 
 
+Finally, the adhesions are predicted based on the visceral slide map with a custom region growing algorithm. The first step of the algorithm is the false positive reduction based on domain knowledge. This is done by filtering out the parts of the abdominal cavity contour where adhesions cannot form. Hence, only the bottom half of the front abdominal wall and pelvis area are considered during prediction. Each iteration, the algorithm starts searching for adhesion from the minimum value of the visceral slide. Then, a bounding box is grown until one of the stop criteria has been reached. The process is repeated until no points are left in the abdominal cavity contour. Each prediction is assigned a confidence score that can be used to filter prediction by thresholding. Three ways to output confidence have been tried: minimum value of visceral slide inside a bounding box, mean visceral slide value inside a bounding box and prediction of the logistic regression trained with 5-fold CV on the set of features extracted from bounding boxes.
+
+An example of the algotihm output is given below.
+
+![Prediction]({{ IMGURL }}/images/projects/ai4adhesion_rg_pred.png)
+
 ## Results
+
+To evaluate the adhesion detection task we used average precision (AP) and FROC analysis. Additionally, the ability of the method to distinguish healthy patients and patients with adhesions is accessed with slice-level ROC. We found that usage of cumulative visceral slide normalised with division by control group expectation yields the best performance. On the held-out test set, the method achieves detection sensitivity of 0.7 and 0.91 at 1 and 1.89 false positives per slice along with 0.78 slice-level AUC, which indicates the promising potential of the core idea of the method.
+
+The FROCs on the test set for cumulative visceral slide normalised with division by control group expectation. The methods are different with respect to the way to output confidence: `min` - minimum value of visceral slide inside a bounding box, `mean` - mean visceral slide value, `lr` - predicted with logistic regression.
+
+![FROCs]({{ IMGURL }}/images/projects/ai4adhesion_froc.png)
+
+The corresponding slice-level ROCs.
+
+![FROCs]({{ IMGURL }}/images/projects/ai4adhesion_roc.png)
+
+Since the performance of the method is insufficient to be proposed for usage in clinical practice, we decided to only deliver a visceral slide map as a tool to assist in adhesion diagnosis. The visceral slide map is visualised over one of the cine-MRI scan's frames.  
 
 The algorithm is published on the Grand Challenge platform. 
 
 <a href="https://grand-challenge.org/algorithms/visceral-slide-on-abdominal-cine-mri/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
-The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/abdomenmrus-cinemri-cavity-segmentation).
+The master's thesis that describes the metod and results in details can be found [here](https://github.com/DIAGNijmegen/adhesion_detection/blob/master/Masters%20Thesis.pdf).
 
-TODO: note that private DIAG code is used in these repo. Can registration repo be made public?
+The source code of the project including the complete method can be found in this [GitHub repository](https://github.com/DIAGNijmegen/adhesion_detection). Visceral slide computation is extracted into a separate repository [GitHub repository](https://github.com/DIAGNijmegen/adhesion_detection). Both repositories also use proprietary code that belongs to DIAG.
 
 [1] Randall, David. "Towards a non-invasive diagnostic aid for abdominal adhesions using dynamic MRI and image processing." PhD diss., University of Sheffield, 2017.
 
