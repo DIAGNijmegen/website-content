@@ -38,8 +38,31 @@ The entire dataset available for the project contains 563 cine-MRI scans for 526
 
 ## Method
 
+We propose the first fully-automated multi-stage CAD method for adhesion detection on cine-MRI designed based on Randall's semi-automated method. The automation comprises deep learning-based segmentation of the abdominal cavity and the region growing algorithm designed to predict adhesions using the value of quantified visceral slide as an input. In addition, multiple normalization options that account for motion difference between patients and in different areas of abdominal cavity contour were carefully designed and integrated. This enables the same interpretation of a particular visceral slide value regardless of the amplitude of motion that occurs on a cine-MRI slice and the position at which it is observed. Also, two  different  approaches  to  visceral  slide  quantification  were  explored. In the first one, only the two most dissimilar frames of a cine-MRI scan are used to sharpen the differences between regions of lower and higher motion and the second method exploits all time points in a cine-MRI slice to obtain a full picture of motion.
 
-{DESCRIBE THE APPROACH USED TO SOLVE THE CLINICAL PROBLEM}
+The full scheme of the method is visualised below:
+
+![Visceral slide scheme]({{ IMGURL }}/images/projects/ai4adhesion_method.png)
+
+The main components of the methods are:
+
+### Abdominal cavity segmentation
+
+Implemented using nnU-Net [2], a state of the art model for medical image segmentation.
+
+### Visceral slide computation
+
+A predicted segmentation mask of abdominal cavity is used to obtain a masked deformation field and compute visceral slide along the abdominal cavity contour based on the difference of deformation inside and outside the abdominal cavity. We used ANTS toolkit [3] to obtain a deformation field. The first method to quantify visceral slide uses only two most dissimilar frames, that correspond to the opposite phases of resiratory cycle, to approximate visceral slide that occurs on a scan. The picture below visualises the algorithm:
+
+![Visceral slide scheme]({{ IMGURL }}/images/projects/ai4adhesion_vs_pair.png)
+
+Another method we explored extracts cumulative visceral slide from a cine-MRI scan by adding visceral slide maps computed between each subsequent pair of frames with a specially designed summation procedure. We assumed that the latter method captures the complete motion recorded in a cine-MRI scan more accurately.
+
+### Visceral slide normalisation 
+
+
+
+### Adhesion detection with region growing algorithm 
 
 ## Results
 
@@ -52,3 +75,7 @@ The code for this project can be found in this [GitHub repository](https://githu
 TODO: note that private DIAG code is used in these repo. Can registration repo be made public?
 
 [1] Randall, David. "Towards a non-invasive diagnostic aid for abdominal adhesions using dynamic MRI and image processing." PhD diss., University of Sheffield, 2017.
+
+[2] Isensee, F., Jaeger, P.F., Kohl, S.A., Petersen, J. and Maier-Hein, K.H., 2021. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 18(2), pp.203-211.
+
+[3]Avants, B.B., Tustison, N.J., Song, G. and Gee, J.C., 2009. Ants: Open-source tools for normalization and neuroanatomy. HeanetIe, 10, pp.1-11.
