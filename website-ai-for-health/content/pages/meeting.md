@@ -20,7 +20,13 @@ The slides for past presentations are available by clicking on the links in the 
 |  09-09-2021  | Roel Hacking | Combining chest CT scans and clinical features for improved automated COVID-19 detection |
 |  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
 |  23-09-2021  | Niels van Nistelrooij | Predicting a patient's facial profile after orthognathic surgery |
-|  07-10-2021  | Richard Li  <br> Evgenia Martynova| TBA |
+|  07-10-2021  | Richard Li  <br> Evgenia Martynova| Diagnosis Prediction in General Practice with Electronic Patient Records <br> Artificial intelligence-assisted detection of adhesions on cine-MRI |
+|  14-10-2021  | Jasper van der Graaf | TBA |
+|  21-10-2021  | Koen Dercksen | TBA |
+|  28-10-2021  | Shankeeth Vinayahalingam | TBA |
+|  04-11-2021  | Mirthe van Diepen <br> Noud Emonts| TBA |
+|  11-11-2021  | Gelana Khazeeva | TBA |
+
 
 ## Past meetings
 
