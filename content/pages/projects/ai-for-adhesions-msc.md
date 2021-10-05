@@ -24,18 +24,13 @@ Automatic algorithms for adhesion detection can reduce the learning curve for ne
 
 ## Solution 
 
-We want to develop an automated system for adhesion
-detection, using deep learning segmentation and classification. We take
-an existing, semi-automated method as a starting point.  This existing
-method need a segmentation map of the abdominal cavity, to perform a
-masked image registration. This allows quantification of the amount
-and direction of movement of the abdomen and its contents.  The local
-difference in movement between the abdominal wall and its contents,
-called visceral slide, is indicative for adhesions. Little or no
-visceral slide indicates that an adhesion is present. This method
-can be fully automated using deep learning-based segmentation of the
-abdominal cavity and deep learning-based classification or detection
-on the registration results.
+The objective of the project is to design a fully-automated CAD method for adhesion detection. As a starting point we take the semi-automated method proposed by David Randall in his PhD thesis [1]. The method exploits the discontinuity of the abdominal motion during respiration. In healthy subjects, abdominal contents slide smoothly against the surroundings of the abdominal cavity (abdominal wall, back muscles, etc.). Simultaneously, the abdominal wall exhibits a different, anteroposterior mode of motion. This process is called _visceral slide_. The scheme of this motion pattern is given below.
+
+![Visceral slide scheme]({{ IMGURL }}/images/projects/ai4adhesion_vs_scheme.png)
+
+Reduction in visceral slide is a clinical criterion of underlying adhesions. The key idea of the method is that it is possible to quantify the degree of visceral slide captured on a cine-MRI scan. To do this, the method needs a segmentation map of the abdominal cavity, to perform masked image registration. The output of masked image registration is a deformation field that describes the amount and direction of movement of the abdomen and its contents. The deformation field and abdominal cavity segmentation can be used to quantify visceral slide along the abdominal cavity contour.
+
+One of the limitations of the method is the lack of segmentation automation. For the first cine-MRI frame a segmentation map has to be drawn by a medical specialist and then it is transferred to the subsequent frames. But manual correction is still required for each frame. Also, the method assumes the manual interpretation of the computed visceral slide by a radiologist. This method can be fully automated using deep learning-based segmentation of the abdominal cavity and an algorithm that predicts adhesions based on the low visceral slide value.
 
 ## Data 
 
@@ -61,3 +56,4 @@ The code for this project can be found in this [GitHub repository](https://githu
 
 TODO: note that private DIAG code is used in these repo. Can registration repo be made public?
 
+[1] Randall, David. "Towards a non-invasive diagnostic aid for abdominal adhesions using dynamic MRI and image processing." PhD diss., University of Sheffield, 2017.
