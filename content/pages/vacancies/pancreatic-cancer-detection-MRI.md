@@ -18,6 +18,8 @@ Pancreatic ductal adenocarcinoma (PDAC) has the worst prognosis of all cancer di
 ## Solution 
 The goal of this project is to explore deep learning for the automatic detection of PDAC in MR images, with a focus on small, early-stage lesions. The challenge is to leverage large amounts of MR data, in a semi-supervised approach using self-learning. In our team we already developed a framework for tumor detection on CT images and we want to see how the MR approach compares, specially in cases where the CT model fails such as for fatty pancreas and iso-attenuating tumors (see image). 
 
+![image]({{ IMGURL }}/images/vacancies/pancreatic-cancer.png)
+
 ## Results
 The algorithm will be made available as a Docker container on https://grand-challenge.org/. It can then be applied to MR scans from hospitals that use the grand-challenge infrastructure.  
 
