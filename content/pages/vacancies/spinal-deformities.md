@@ -35,4 +35,4 @@ The student will be supervised by a research scientist from the Diagnostic Image
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- For more information or to apply for this project, please contact Nikolas Lessmann (mailto: nikolas.lessmann@radboudumc.nl)
+- For more information or to apply for this project, please contact [member/nikolas-lessmann].
