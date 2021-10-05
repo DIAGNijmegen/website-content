@@ -12,37 +12,15 @@ description: Development of an AI-assisted algorithm for automatic detection of 
 
 ## Clinical problem 
 
-This project aims to improve outcomes in the
-30,000 patients per year in the Netherlands that develop chronic pain
-after abdominal surgery. This pain is often caused by adhesions,
-tough bands of tissue that form between structures and organs in
-the abdomen. Medical consumption in these patients is high, 70%
-is under treatment of a gastroenterologist and one in three is
-permanently taking pain suppressing medication. Adhesions can be
-detected both invasively and non-invasively. Invasive diagnosis
-(i.e. surgery) is controversial, because it can cause the formation
-of new adhesions. Non-invasively, adhesions are detected with either
-ultrasound or cine MRI. Ultrasound works well, but can only detect
-adhesions attached to the front abdominal wall. Cine MRI, on the
-other hand, can detect adhesions in the entire abdomen.  This type
-of imaging is used in the Radboudumc to make treatment decisions
-for patients with chronic abdominal pain. It helps doctors decide
-whether a patient should be treated conservatively with medication,
-or more progressively with surgery. Cine MRI is not widely used in
-other hospitals yet, because radiological reading is time-consuming
-and expertise-dependent.
+This project aims to improve outcomes in the 30,000 patients per year in the Netherlands that develop chronic pain after abdominal surgery. This pain is often caused by adhesions, tough bands of tissue that form between structures and organs in the abdomen. Medical consumption in these patients is high, 70% is under treatment of a gastroenterologist and one in three is permanently taking pain suppressing medication. 
 
-Automatic detection algorithms for adhesion detection can reduce
-the learning curve for new readers and reduce variability among
-radiologists.  By helping radiologists interpret the images, the
-algorithm may reduce the number of false positives and negatives. False
-positives can result in unnecessary surgery, whereas false negatives
-can block surgery for patients who may actually be helped by it.
-
-The gif below gives an impression of the type of data used in this
-project.
+Currently, accurate diagnosis of adhesions requires invasive tools such as diagnostic laparoscopy owing to a lack of effective noninvasive tests. These methods are controversial because they can lead to the formation of new adhesions. This is especially undesirable for the patients whose complaints are not due to adhesions.  Non-invasively adhesions can be diagnosed with either ultrasound or cine-MRI. Cine-MRI is more powerful than ultrasound because it can detect adhesions in the entire abdomen, whilst ultrasound can detect only adhesions attached to the front abdominal wall due to its limited depth penetration. Cine-MRI is a type of MRI in which a set of consecutive images of the area of interest is acquired at a fixed time interval. The captured images can be merged into a video in which the movements of a certain tissue over time are visible. This imaging modality can be used to visualise the abdominal motion during respiration and by interpreting the recorded motion patterns, radiologists can diagnose adhesions. The gif below shows the data and annotations available in the project. Adhesions are annotated with bounding boxes by an experienced radiologist.  
 
 ![Adhesion example]({{ IMGURL }}/images/projects/ai4adhesion-example.gif)
+
+Cine-MRI is used in the Radboudumc to make treatment decisions for patients with chronic abdominal pain. It helps doctors decide whether a patient should be treated conservatively with medication, or more progressively with surgery. Cine MRI is not widely used in other hospitals yet, because radiological reading is time-consuming and expertise-dependent.
+
+Automatic algorithms for adhesion detection can reduce the learning curve for new readers and reduce variability among radiologists.  By helping radiologists interpret the images, the algorithm may reduce the number of false positives and negatives. False positives can result in unnecessary surgery, whereas false negatives can block surgery for patients who may actually be helped by it.
 
 ## Solution 
 
