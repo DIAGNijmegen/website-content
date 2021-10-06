@@ -25,6 +25,9 @@ _Examples of heat maps produced by the AI system highlighting visual evidence th
 ## Conclusion
 We developed an AI system that can automatically detect distal radius and ulna fractures on conventional radiographs with state-of-the-art performance. Furthermore, we demonstrated that fractures can be successfully located using the ScoreCAM method. By teaming the AI system up with the radiologist, it may have great potential to improve the diagnostic performance, possibly preventing missed diagnoses and allowing for earlier treatment. In future research, an observer study could be conducted to investigate this hypothesis. 
 
+The master thesis can be found [here](https://github.com/RadboudAIforHealth/master-theses/blob/main/Master_thesis_Jeroen_Verboom.pdf).
+
 The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/DIAG_Jeroen_Verboom_radius-ulna_fracture_detection).
 
-The master thesis and algorithm will be made publicly available soon.
+The algorithm will be made publicly available on the platform Grand Challenge soon.
+
