@@ -6,7 +6,7 @@ position: Master Student
 active: yes
 groups: diag, ai-for-health
 default_group: diag
-email: manuela.bergaup@radboudumc.nl
+email: manuela.bergau@radboudumc.nl
 office: 
 type: student
 
