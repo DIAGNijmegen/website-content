@@ -1,4 +1,4 @@
-title: Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs
+title: Machine Learning with Electronic Patient Records for Diagnosis Prediction in General Practice
 groups: ai-for-health
 finished: false
 type: student
@@ -15,31 +15,46 @@ General practitioners (GPs) work with probabilities of diagnoses to head their d
 
 For common reasons to visit a doctor, context variables influence probabilities of diagnoses. Deepening of our understanding of how diversity, context, multimorbidity and symptoms influence probabilities of final diagnoses will help doctors to work more secure and evidence based. It will lead to the development of a diagnostic support tool to use in everyday practice. 
 
-## Solution
-We aim to analyze how GPs can be supported in early diagnosis through AI support. For all patients with new episodes (2010-2020) we want to define the predictive value of the RFE for diagnoses. More specifically we want to study which data influence predictive values. This knowledge is crucial to build ICT tools to support the GP.
-
-We will use machine learning to calculate probabilities of diagnoses based on the reason for encounter, modified for other personal and context variables, based on the data in our database. For 15 common reasons to visit the GP, we want to develop an algorithm that is able to show a physician realtime for any unique patient the probabilities of diagnoses.
-
 ## Data
-We will use data from the research network FaMeNet (www.famenet.nl) covering over 300.000 patient years, and over 1 million patient contacts. Structured data on contextual factors are available for more than 50% of the adult population. Contextual factors include chronic comorbidity, sex, age, ethnicity, educational level, and all symptoms and diagnoses in the two years preceding the diagnosis.
+In this project we used data from the research network [FaMeNet](www.famenet.nl). More specifically, TransHis was used, which is an Electronic Patient Record for primary care. The [International Classification of Primary Care](https://www.who.int/standards/classifications/other-classifications/international-classification-of-primary-care) (ICPC) is used in the EPR to encode various information such as the RFE, diagnoses, interventions, and referrals. The EPR promotes an Episode of Care structure, where episodes group patient visits that pertain to the same health problem according to the GP.
 
-The data are stored in a data warehouse at the department of Primary and Community care of the Radboud University Nijmegen Medical Center (Radboud Technology Center Health Data). 
+A dataset was created by extracting new episodes (2010-2020) starting with one of the top 15 RFEs for which we wanted to predict the final diagnosis of an episode. The dataset consists of records that describe the first visit of a new episode. The complete dataset contains 143,818 visits from 35,754 patients after preprocessing. Furthermore, historical patient visits (2005-2020) were available in the EPR to be used as contextual information.
 
-We will only consider patients that have had at least one episode starting with one of the top 15 RFEs. Our dataset consists of data points that describe the first contact in an episode (with a top 15 RFE). Each data point has the following information: RFE, age, sex, start date, and diagnosis. Importantly, we will augment each data point in the dataset with information from the patient's medical history up to the start date of the current episode to predict. In this way, we take into account the contextual factors, and in a sense can provide personalized care. Note that patients can appear multiple times in our dataset with different episodes, and because episodes usually start on different dates, the patient history can vary for the same patient although the histories of course partially overlap.
 
-## Approach
-The patient history will be a sequence of episodes, where each episode consists of a set of associated ICPC codes. We will learn a latent representation of the patient history through sequence learning with a recurrent neural network (RNN). An RNN is well-suited for sequence learning, and has already been extensively used on similar tasks with Electronic Health Records (EHRs). The model will have an encoder-decoder architecture, where the encoder will be an RNN and the decoder a multilayer perceptron (MLP). The patient history goes into the encoder and the encoder will output a latent patient representation. The latent patient representation together with the RFE, age, and sex will then go into the decoder, which will output the probabilities of diagnoses.
+## Methods
+Contextual variables were taken into account by incorporating information from the EPR. A patient's medical history was extracted from the EPR to serve as contextual information. We proposed to represent the patient history as a sequence of episodes, where episodes group related patient visits. A recurrent neural network (RNN) was used to handle the sequential patient history. The RNN encodes the patient history into a latent patient representation, which a classification network uses as a feature vector together with information from the current visit (sex, age, RFE) to predict the probabilities of diagnoses for the current visit.
 
 ![Model architecture]({{ IMGURL }}/images/projects/gp_diagnoses_rl_model.png)
 
-Additionally, we will investigate the importance of modelling time in the input and/or model. Of particular interest is irregular time, RNNs expect constant time or equally-spaced gaps between points in a sequence, however this does not hold in our patient history. Episodes happen irregularly in time, where some episodes happen only shortly after one another or otherwise can have long periods between them. We will experiment with four conditions based on varying levels of time assumptions:
+The RNN-based model was compared to a conditional probability baseline for which the conditional probabilities were computed by `P(diagnosis | sex, age, RFE)` from the data. The conditional probability baseline reflects the current situation in general practice the most in terms of a diagnostic support tool. The other three baselines were logistic regression (LR), XGBoost (XGB), and a multilayer perceptron (MLP), where the patient history is represented by a one-hot vector instead of a sequence.
 
-1. **None**: patient history is represented without retaining the order of episodes and the time between them.
-2. **Weak**: patient history is represented as an ordered sequence of episodes, but the time between them is unspecified.
-3. **Moderate**: patient history is represented as an ordered sequence of episodes, and each episode is provided with a time interval feature, which indicates the time since the previous episode.
-4. **Strong**: patient history is represented as an ordered sequence of episodes, and each episode is provided with a time interval feature, which indicates the time since the previous episode, and the encoder specifically handles irregular time in the sequence.
+We further investigated the relevance of time irregularity in the episodic patient history. We considered four conditions with different time assumptions:
+
+1. *None* (MLP): the patient history is represented without retaining the order of episodes and the time between them.
+2. *Weak* (LSTM): the patient history is represented as an ordered sequence of episodes, but the time between them is unspecified.
+3. *Moderate* (LSTM+∆t): the patient history is represented as an ordered sequence of episodes, and each episode is provided with a time interval feature, which indicates the time since the previous episode.
+4. *Strong* (T-LSTM): the patient history is represented as an ordered sequence of episodes, and each episode is provided with a time interval feature, which indicates the time since the previous episode, and the encoder specifically handles irregular time in the sequence.
+
+Condition 1 corresponds to the MLP baseline. Conditions 2 to 4 use the RNN-based model, but the encoder varies. Condition 2 and 3 use an LSTM encoder, whereas condition 4 uses a [time-aware LSTM](https://dl.acm.org/doi/10.1145/3097983.3097997)  or T-LSTM for short.
 
 
+## Results
 
+|                 | Micro F1   | Macro F1   | Weighted F1 | Acc@3      | Acc@10     | Brier Score | Log Loss   |
+|-----------------|------------|------------|-------------|------------|------------|-------------|------------|
+| CP              | 0.3917     | 0.0496     | 0.2888      | 0.6729     | 0.8761     | 0.7551      | 2.8868     |
+| LR              | 0.3835     | 0.0605     | 0.3172      | 0.6667     | 0.8678     | 0.7644      | 2.3278     |
+| XGB             | **0.3979** | **0.0645** | **0.3239**  | **0.6809** | 0.8815     | **0.7480**  | 2.1897     |
+| MLP             | 0.3902     | 0.0490     | 0.3020      | 0.6733     | 0.8801     | 0.7530      | 2.1969     |
+| LSTM            | 0.3940     | 0.0544     | 0.3082      | 0.6795     | **0.8821** | 0.7521      | **2.1790** |
+| LSTM+∆t         | 0.3974     | 0.0521     | 0.3098      | 0.6798     | 0.8813     | 0.7530      | 2.1833     |
+| T-LSTM          | 0.3917     | 0.0472     | 0.2880      | 0.6701     | 0.8794     | 0.7548      | 2.1878     |
 
+LSTM performed the best in probabilistic prediction as it achieved the best log loss. XGB performed the best overall in terms of F1-score and accuracy at *k*. Note that a lower log loss is not necessarily paired with an increase in F1-score or accuracy at *k*. 
+Accounting for time irregularity in the episodic patient history does not seem to matter much here as LSTM+∆t and T-LSTM either perform comparably to or worse than LSTM.
+All models performed very poorly on macro F1-score due to the large class imbalance of diagnoses.
 
+## Conclusion
+We developed a deep learning model that can perform probabilistic prediction of diagnoses for the top 15 most frequent RFEs. Including contextual information from EPRs resulted in improved probabilistic performance and accuracy. Although the increase in performance is rather modest, the superior performance does show that the EPR is beneficial for diagnosis prediction in combination with machine learning and warrants further research. Future work should also focus on how to provide better interpretability for these deep learning models to GPs, and how to properly integrate such models into a clinical decision support system.
+
+The final report can be found [here](https://drive.google.com/file/d/1BTd11MKYH4Ho5tPUMf5TIe2vAEfXCSkd/view?usp=sharing).
