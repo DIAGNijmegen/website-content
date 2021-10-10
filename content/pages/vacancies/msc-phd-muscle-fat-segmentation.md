@@ -26,4 +26,4 @@ In collaboration with [Siemens Healthineers](https://www.siemens-healthineers.co
 ## Applying for this project
 For more information, please contact [member/matthieu-rutten] or [member/nikolas-lessmann].
 
-To apply for this project, please e-mail your CV, list of grades, a motivation letter with a short summary of your background to [member/nikolas-lessmann]. We process applications immediately until the position is filled.
+To apply for this project, please e-mail your CV, list of grades, and a motivation letter with a short summary of your background to [member/nikolas-lessmann]. We process applications immediately until the position is filled.
