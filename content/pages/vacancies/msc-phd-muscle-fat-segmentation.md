@@ -1,4 +1,4 @@
-title: Body composition assessment in 3D CT and MR images
+title: MSc+PhD vacancy for body composition assessment in 3D CT and MR images
 groups: diag, ai-for-health
 closed: false
 type: student
