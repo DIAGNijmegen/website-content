@@ -5,7 +5,7 @@ type: student
 picture: vacancies/body-composition.jpg
 template: vacancy-single
 people: Matthieu Rutten, Nikolas Lessmann, Alina Vrieling, Bram van Ginneken
-description: Develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT and MR images.
+description: DIAG and Siemens Healthineers are looking for a master student who wants to do a 1-year MSc thesis research project or internship, directly followed by a three year PhD project. The goal is to develop deep learning algorithms for segmentation of muscles and fat tissue in 3D CT and MR images.
 
 ## Clinical problem
 The composition of the body in terms of muscle and fat mass is a precise measure of the physical state of the patient. This information has many practical applications in clinical routine care, such as monitoring treatment response to chemotherapy and immunotherapy in patients with cancer, or predicting clinical outcomes in other patients. While every hospital routinely acquires hundreds of cross-sectional imaging studies (CT and MRI scans) every day that would be suitable for deriving precise body composition measurements, this potential currently remains unused. Measuring fat and muscle mass would require manually delineating tissues depicted in the scan, which is labor-intensive and time-consuming.
@@ -26,4 +26,4 @@ In collaboration with [Siemens Healthineers](https://www.siemens-healthineers.co
 ## Applying for this project
 For more information, please contact [member/matthieu-rutten] or [member/nikolas-lessmann].
 
-To apply for this project, please include your CV and a short summary of your background and your interest in this project in your email.
+To apply for this project, please e-mail your CV, list of grades, a motivation letter with a short summary of your background to [member/nikolas-lessmann]. We process applications immediately until the position is filled.
