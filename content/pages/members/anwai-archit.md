@@ -3,7 +3,7 @@ name: Anwai Archit
 template: people-single
 picture: people/Anwai_Archit.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: anwai.archit@gmail.com
