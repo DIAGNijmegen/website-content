@@ -88,13 +88,13 @@ The corresponding slice-level ROCs:
 
 Since the performance of the method is insufficient to be proposed for usage in clinical practice, we decided to only deliver a visceral slide map as a tool to assist in adhesion diagnosis. The visceral slide map is visualised over one of the cine-MRI scan's frames.  
 
-The algorithm is published on the Grand Challenge platform. 
+The algorithm is published on the Grand Challenge platform. Visualisation of the output in a viewer is not supported now. To view the result, please click on the `image.mha` link in the "Result" column, go to "View Result Details" and download output files. Visualised visceral slide map is saved as a .tif file and can be opened with an image viewer.
 
 <a href="https://grand-challenge.org/algorithms/visceral-slide-on-abdominal-cine-mri/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
 The master's thesis that describes the metod and results in details can be found [here](https://github.com/DIAGNijmegen/adhesion_detection/blob/master/Masters%20Thesis.pdf).
 
-The source code of the project including the complete method can be found in this [GitHub repository](https://github.com/DIAGNijmegen/adhesion_detection). 
+The source code of the project including the complete method is published on [GitHub](https://github.com/DIAGNijmegen/adhesion_detection). 
 
 [1] Randall, David. "Towards a non-invasive diagnostic aid for abdominal adhesions using dynamic MRI and image processing." PhD diss., University of Sheffield, 2017.
 
