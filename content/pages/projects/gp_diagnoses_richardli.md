@@ -18,7 +18,7 @@ For common reasons to visit a doctor, context variables influence probabilities 
 
 
 ## Data
-In this project we used data from the research network [FaMeNet](https://www.famenet.nl). More specifically, TransHis was used, which is an Electronic Patient Record for primary care. The [International Classification of Primary Care](https://www.who.int/standards/classifications/other-classifications/international-classification-of-primary-care) (ICPC) is used in the EPR to encode various information such as the RFE, diagnoses, interventions, and referrals. The EPR promotes an Episode of Care structure, where episodes group patient visits that pertain to the same health problem according to the GP.
+In this project we used data from the research network [FaMeNet](https://www.famenet.nl). More specifically, TransHis was used, which is an Electronic Patient Record (EPR) for primary care. The [International Classification of Primary Care](https://www.who.int/standards/classifications/other-classifications/international-classification-of-primary-care) (ICPC) is used in the EPR to encode various information such as the RFE, diagnoses, interventions, and referrals. The EPR promotes an Episode of Care structure, where episodes group patient visits that pertain to the same health problem according to the GP.
 
 ![Episode of Care]({{ IMGURL }}/images/projects/gp_diagnoses_rl_episode.png)
 
