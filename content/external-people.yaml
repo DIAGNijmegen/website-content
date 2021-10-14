@@ -721,7 +721,7 @@ people:
     position: Master Student
     affiliation: Data Science, Radboud University
     url: https://www.linkedin.com/in/richard-li-59a13419a/
-    picture:
+    picture: people/external/Richard_Li.jpg
     email: Richard.Li@radboudumc.nl
   - name: Peter-Bram t Hoen
     position: Professor
