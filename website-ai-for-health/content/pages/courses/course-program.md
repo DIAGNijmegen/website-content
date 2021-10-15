@@ -12,6 +12,7 @@ picture: courses/XMG_20200925_142130.jpg
   <li> An in-depth track that requires programming and offers participants the ability to create their own AI solutions.</li>
   <li> A short track that requires no programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
 </ul>
+<li>The in depth course takes place on 17 Fridays, while the combined workload of the short version is 6 days.
 <li>The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice.</li>
 <li>The program will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.</li>
 <li>The course includes project days in the Radboudumc where you will work in a team on a Radboudumc project.</li>
