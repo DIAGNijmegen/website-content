@@ -2,7 +2,7 @@ title: Automatic segmentation of subsolid pulmonary nodules using deep learning
 groups: ai-for-health
 closed: true 
 type: student 
-picture: vacancies/MD_drug_repurposing.png
+picture: vacancies/subsolid-nodule-segmentation.png
 template: vacancy-single
 people: Kiran Vaidhya Venkadesh, Colin Jacobs, Bram van Ginneken
 description: Develop a method to automatically segment subsolid pulmonary nodules using deep learning
@@ -41,6 +41,10 @@ algorithm(s) that come out of this project will be made publicly available for r
 through the grand-challenge.org platform. Significant findings will result in a publication as well.
 
 ## Embedding 
+The student will be embedded in the Diagnostic Image Analysis Group and will be supervised by a research member whose research is dedicated to AI for lung cancer screening. We have a strong collaboration with both clinical and radiological experts in lung cancer screening. The student will also have access to a Deep Learning GPU Cluster (SOL) to run deep learning experiments.
+
+## Results
+The algorithm(s) that come out of this project will be made publicly available for research use as Docker containers through the grand-challenge.org platform. Significant findings will result in a publication.
 
 ## Requirements 
 - Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics in the final stages of their Master education. 
