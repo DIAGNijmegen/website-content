@@ -49,7 +49,7 @@ An overview of the course schedule can be seen below.
 | 20-05-2022 | Project Day 2 | |
 | 03-06-2022 | Bioinformatics | |
 | 10-06-2022 | Project Day 3 / Visualisation | |
-| 17-06-2022 | AI products; Deployment | Short track |
+| 17-06-2022 | AI products / Deployment | Short track |
 | 24-06-2022 | Project Day 4 | |
 | 01-07-2022 | Final Presentations | Short track |
 
