@@ -33,23 +33,23 @@ picture: courses/XMG_20200925_142130.jpg
 
 An overview of the course schedule can be seen below.
 
-| Date  |  Topic  |
-| ----- | ------- |
-| 11-02-2022 | Introduction | 
-| 18-02-2022 | Data Science & Machine Learning projects; Data Understanding |
-| 25-03-2022 | Basic Principles of Machine Learning ; Data Preparation |
-| 11-03-2022 | Supervised Machine Learning algorithms I; Performance Metrics |
-| 18-03-2022 | Supervised Machine Learning algorithms II; Evaluation |
-| 25-03-2022 | Deep Learning 1 |
-| 01-04-2022 | Deep Learning 2 |
-| 08-04-2022 | Data Engineering / Ethics / Privacy |
-| 22-04-2022 | Project Day 1 |
-| 29-04-2022 | Unsupervised Machine Learning; Summary |
-| 13-05-2022 | Text Mining |
-| 20-05-2022 | Project Day 2 |
-| 03-06-2022 | Bioinformatics |
-| 10-06-2022 | Visualisation; Project Day 3 |
-| 17-06-2022 | AI products; Deployment | 
-| 24-06-2022 | Project Day 4 |
-| 01-07-2022 | Final Presentations  |
+| Date  |  Topic  | Track |
+| ----- | ------- | ------|
+| 11-02-2022 | Introduction | Short track |
+| 18-02-2022 | Data Science & Machine Learning projects / Data Understanding | Short track |
+| 25-03-2022 | Basic Principles of Machine Learning / Data Preparation | Short track |
+| 11-03-2022 | Supervised Machine Learning algorithms I / Performance Metrics | |
+| 18-03-2022 | Supervised Machine Learning algorithms II / Evaluation | |
+| 25-03-2022 | Deep Learning 1 | Short track |
+| 01-04-2022 | Deep Learning 2 | Short track |
+| 08-04-2022 | Data Engineering / Ethics / Privacy | Short track |
+| 22-04-2022 | Project Day 1 | |
+| 29-04-2022 | Unsupervised Machine Learning / Summary | |
+| 13-05-2022 | Text Mining | |
+| 20-05-2022 | Project Day 2 | |
+| 03-06-2022 | Bioinformatics | |
+| 10-06-2022 | Project Day 3 / Visualisation | |
+| 17-06-2022 | AI products; Deployment | Short track |
+| 24-06-2022 | Project Day 4 | |
+| 01-07-2022 | Final Presentations | Short track |
 
