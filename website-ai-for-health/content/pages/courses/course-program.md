@@ -4,12 +4,13 @@ groups: ai-for-health
 picture: courses/XMG_20200925_142130.jpg
 
 ## What you need to know for the third edition of the course:
+
 <ul>
 <li>The next edition of the course will start 11-02-2022.</li>
 <li>There are 2 tracks to choose from: </li>
 <ul>
-  <li>the in-depth track that requires programming and offers participants the ability to create their own AI solutions.</li>
-  <li>the short track that requires no programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
+  <li> An in-depth track that requires programming and offers participants the ability to create their own AI solutions.</li>
+  <li> A short track that requires no programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
 </ul>
 <li>The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice.</li>
 <li>The program will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.</li>
@@ -18,6 +19,7 @@ picture: courses/XMG_20200925_142130.jpg
 <li>There will be an online training environment with support documentation, discussion forum and blended learning.</li>
 <li>The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded.</li>
 </ul>
+
 <!---
 
 - The course will be held on 18 Fridays, with different topics per day, starting in Q1 2022.
