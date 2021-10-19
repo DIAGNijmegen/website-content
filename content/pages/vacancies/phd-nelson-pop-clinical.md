@@ -15,8 +15,11 @@ If a population were invited for screening based on age and long-term smoking be
 
 ## Research direction
 We offer a fully-funded PhD position that focuses on improving the efficiency of lung cancer screening by using artificial intelligence (AI). This position is a PhD position within a larger consortium project: NELSON-POP. In this consortium, the unique expertise and data from the various NELSON sites and associated research groups are combined to leverage various unexplored data sources, in order to identify the factors most predictive of lung cancer. Using multi-source data, the consortium aims to maximize lung cancer screening efficiency, by developing prediction models to 1) optimize screenee selection, and 2) limit unnecessary nodule work-up.
+
 This PhD position focuses on the use of existing AI algorithms for lung cancer screening. AI algorithms based on deep learning have great potential to perform more reproducible and more objective pattern recognition and thereby may increase the accuracy and consistency of malignancy probability estimation of pulmonary nodules. This increased accuracy can be used to develop optimized follow-up protocols, leading to less unnecessary follow-up CTs and unnecessary referrals in lung cancer screening. Therefore, the aim of this PhD project is to accurately determine the probability of lung cancer of screen-detected pulmonary nodules using artificial intelligence in order to reduce the number of unnecessary repeat scans and unnecessary referrals, all contributing to reduction of radiation exposure, financial expenses, workload, invasive procedures, and screenee anxiety. 
+
 You will use existing AI algorithms developed and validated by the Radboudumc group. You will validate the accuracy of the AI algorithms on the NELSON cohort and investigate how these can be used to develop novel optimized nodule management guidelines. You will work in close collaboration with a team of technical PhD candidates, research software engineers, and radiologists. Your daily supervision will be performed by [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/). Your PhD supervision team will also involve supervisors from the other NELSON sites, to contribute to the synergy necessary to reach the goals of the consortium.
+
 The research should result in a Ph.D. thesis.
 
 ## Requirements
@@ -24,17 +27,17 @@ For this project at the department of Medical Imaging at Radboud University Medi
 
 ### Tasks and responsibilities
 Within this project you will:
-- Validate the predictive power of AI algorithms on the NELSON cohort
-- Compare the AI algorithms with a panel of expert radiologists and existing risk models for estimating lung cancer risk
-- Determine an optimized nodule management algorithm by including the AI risk score
-- Investigate how AI biomarkers can contribute to the final predictive model of the consortium, which also includes environmental factors, polygenic risk scores, and biomarkers for COPD, coronary artery disease, and emphysema to create a personalized risk of lung cancer
+* Validate the predictive power of AI algorithms on the NELSON cohort
+* Compare the AI algorithms with a panel of expert radiologists and existing risk models for estimating lung cancer risk
+* Determine an optimized nodule management algorithm by including the AI risk score
+* Investigate how AI biomarkers can contribute to the final predictive model of the consortium, which also includes environmental factors, polygenic risk scores, and biomarkers for COPD, coronary artery disease, and emphysema to create a personalized risk of lung cancer
 
 ### Profile
 You should be a creative and enthusiastic researcher with a MSc in a relevant field, such as medicine, technical medicine, clinical epidemiology, or similar.
 Interest in medical imaging, with a particular focus on oncologic (lung) imaging and artificial intelligence. Interest in and preferably experience with scientific research. 
 
 ## Organisation
-The [Diagnostic Image Analysis Group)](http://www.diagnijmegen.nl ) is a research group of the Department of Medical Imaging of the Radboud University Medical Center.  We develop, validate and deploy novel AI algorithms in healthcare. This PhD position falls with the [lung cancer image analysis research line](https://www.diagnijmegen.nl/research/lung-cancer-image-analysis/) led by [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/). We actively collaborate with many international players in the field of lung cancer screening, and have a strong focus on integration of our AI algorithms into clinical practice.
+The [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl ) is a research group of the Department of Medical Imaging of the Radboud University Medical Center.  We develop, validate and deploy novel AI algorithms in healthcare. This PhD position falls with the [lung cancer image analysis research line](https://www.diagnijmegen.nl/research/lung-cancer-image-analysis/) led by [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/). We actively collaborate with many international players in the field of lung cancer screening, and have a strong focus on integration of our AI algorithms into clinical practice.
 
 ## Terms of employment
 Starting date is preferably Dec 1, 2021.
