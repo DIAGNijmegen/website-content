@@ -27,6 +27,7 @@ For this project at the department of Medical Imaging at Radboud University Medi
 
 ## Tasks and responsibilities
 Within this project you will:
+
 * Validate the predictive power of AI algorithms on the NELSON cohort
 * Compare the AI algorithms with a panel of expert radiologists and existing risk models for estimating lung cancer risk
 * Determine an optimized nodule management algorithm by including the AI risk score
