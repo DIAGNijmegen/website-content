@@ -25,14 +25,14 @@ The research should result in a Ph.D. thesis.
 ## Requirements
 For this project at the department of Medical Imaging at Radboud University Medical Center, Nijmegen (The Netherlands), we are seeking an enthusiastic PhD student with a clear interest in the potential that AI techniques may have in the field of radiology. This is an excellent opportunity to assess the value of this cutting-edge technology and investigate its potential to more personalized lung cancer screening.
 
-### Tasks and responsibilities
+## Tasks and responsibilities
 Within this project you will:
 * Validate the predictive power of AI algorithms on the NELSON cohort
 * Compare the AI algorithms with a panel of expert radiologists and existing risk models for estimating lung cancer risk
 * Determine an optimized nodule management algorithm by including the AI risk score
 * Investigate how AI biomarkers can contribute to the final predictive model of the consortium, which also includes environmental factors, polygenic risk scores, and biomarkers for COPD, coronary artery disease, and emphysema to create a personalized risk of lung cancer
 
-### Profile
+## Profile
 You should be a creative and enthusiastic researcher with a MSc in a relevant field, such as medicine, technical medicine, clinical epidemiology, or similar.
 Interest in medical imaging, with a particular focus on oncologic (lung) imaging and artificial intelligence. Interest in and preferably experience with scientific research. 
 
