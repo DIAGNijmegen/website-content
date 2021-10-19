@@ -28,10 +28,10 @@ For this project at the department of Medical Imaging at Radboud University Medi
 ## Tasks and responsibilities
 Within this project you will:
 
-* Validate the predictive power of AI algorithms on the NELSON cohort
-* Compare the AI algorithms with a panel of expert radiologists and existing risk models for estimating lung cancer risk
-* Determine an optimized nodule management algorithm by including the AI risk score
-* Investigate how AI biomarkers can contribute to the final predictive model of the consortium, which also includes environmental factors, polygenic risk scores, and biomarkers for COPD, coronary artery disease, and emphysema to create a personalized risk of lung cancer
+* Validate the predictive power of AI algorithms on the NELSON cohort.
+* Compare the AI algorithms with a panel of expert radiologists and existing risk models for estimating lung cancer risk.
+* Determine an optimized nodule management algorithm by including the AI risk score.
+* Investigate how AI biomarkers can contribute to the final predictive model of the consortium, which also includes environmental factors, polygenic risk scores, and biomarkers for COPD, coronary artery disease and emphysema to estimate the personalized risk of lung cancer.
 
 ## Profile
 You should be a creative and enthusiastic researcher with a MSc in a relevant field, such as medicine, technical medicine, clinical epidemiology, or similar.
