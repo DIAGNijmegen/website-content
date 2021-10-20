@@ -765,3 +765,15 @@ people:
     url: https://www.linkedin.com/in/e-martynova
     picture: people/external/Evgenia_Martynova.jpg
     email: Evgenia.Martynova@radboudumc.nl
+  - name: Dennis Janssen
+    position: Assistant professor
+    affiliation: Orthopedics, Radboudumc
+    url: https://orthopaedicresearchlab.nl/scientific-staff/dennis-janssen-ph-d/
+    picture: people/external/Dennis_Janssen.jpg
+    email: Dennis.Janssen@radboudumc.nl
+  - name: Max Bakker
+    position: Research assistant
+    affiliation: Orthopedics, Radboudumc
+    url:
+    picture: people/external/Max_Bakker.jpg
+    email: Max.Bakker@radboudumc.nl
