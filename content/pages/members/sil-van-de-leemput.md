@@ -2,9 +2,9 @@ title: Sil van de Leemput
 name: Sil van de Leemput
 template: people-single
 picture: people/Sil_van_de_Leemput.jpg
-position: Research Software Engineer
+position: Research Scientist RTC Deep Learning
 active: yes
-groups: diag, rse, rtc
+groups: rtc, diag
 default_group: rtc
 email: sil.vandeleemput@radboudumc.nl
 office: Route 767, Room 2.25
