@@ -41,8 +41,8 @@ An overview of the in-depth track schedule can be seen below.
 | ----- | ------- | ------|
 | 11-02-2022 | 9-13h | Introduction |
 | 18-02-2022 | 9-17h | Data Science & Machine Learning projects / Data Understanding |
-| 25-03-2022 | 9-17h | Basic Principles of Machine Learning / Data Preparation |
-| 11-03-2022 | 9-17h | Supervised Machine Learning algorithms I / Performance Metrics |
+| 25-03-2022 | 9-17h | Basic Principles of Machine Learning / Performance Metrics |
+| 11-03-2022 | 9-17h | Supervised Machine Learning algorithms I / Data Preparation |
 | 18-03-2022 | 9-17h | Supervised Machine Learning algorithms II / Evaluation |
 | 25-03-2022 | 9-17h | Deep Learning 1 |
 | 01-04-2022 | 9-17h | Deep Learning 2 |
@@ -75,7 +75,7 @@ An overview of the short track schedule can be seen below.
 | ----- | ------- | ------|
 | 11-02-2022 | 9-13h | Introduction | 
 | 18-02-2022 | 9-13h | Data Science & Machine Learning projects / Data Understanding |
-| 25-03-2022 | 9-13h | Basic Principles of Machine Learning / Data Preparation | 
+| 25-03-2022 | 9-13h | Basic Principles of Machine Learning / Performance Metrics | 
 | 25-03-2022 | 9-13h | Deep Learning 1 |
 | 01-04-2022 | 9-13h | Deep Learning 2 | 
 | 08-04-2022 | 9-13h | Ethics / Privacy |
