@@ -35,7 +35,7 @@ picture: courses/XMG_20200925_142130.jpg
 - The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded.
 -->
 
-An overview of the course schedule can be seen below.
+An overview of the in-depth track schedule can be seen below.
 
 | Date  | Time |  Topic  |
 | ----- | ------- | ------|
@@ -58,15 +58,7 @@ An overview of the course schedule can be seen below.
 | 01-07-2022 | 9-13h | Final Presentations |
 
 ## Short track program
-<ul>
-  <li>The next edition of the course will start <b>11-02-2022</b>.</li>
-<li>There are 2 tracks to choose from: </li>
-<ul>
-  <li> An <b>in-depth track</b> that requires programming and offers participants the ability to create their own AI solutions.</li>
-  <li> A <b>short track</b> that requires no programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
-</ul>
-  
-## In-depth track program
+
 <ul>
 <li>The short track takes takes 10 Friday mornings/afternoons.
 <li>The course consists of lectures with a focus on Radboudumc practice.</li>
@@ -76,6 +68,8 @@ An overview of the course schedule can be seen below.
 <li>There will be an online training environment with support documentation, discussion forum and blended learning.</li>
 <li>The course will end with a graduation ceremony where project teams will present their project results and a certificate will be awarded.</li>
 </ul>
+
+An overview of the short track schedule can be seen below.
   
 | Date  | Time |  Topic  |
 | ----- | ------- | ------|
