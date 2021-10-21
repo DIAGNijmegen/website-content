@@ -16,7 +16,7 @@ picture: courses/XMG_20200925_142130.jpg
 ## In-depth track program
 <ul>
 <li>The in depth course takes place on 17 Fridays.
-<li>The course days consist of lectures in the morning and afternoon practicals with cases focused on Radboudumc practice.</li>
+<li>The course days consist of lectures in the morning and afternoon Python practicals with cases focused on Radboudumc practice.</li>
 <li>The program will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.</li>
 <li>The course includes project days in the Radboudumc where you will work in a team on a Radboudumc project.</li>
 <li>We expect participants to spend on average 2-3 hours per week on homework and self study.</li>
