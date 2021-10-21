@@ -78,7 +78,7 @@ An overview of the short track schedule can be seen below.
 | 25-03-2022 | 9-13h | Basic Principles of Machine Learning / Data Preparation | 
 | 25-03-2022 | 9-13h | Deep Learning 1 |
 | 01-04-2022 | 9-13h | Deep Learning 2 | 
-| 08-04-2022 | 13-17h | Data Engineering / Ethics / Privacy |
+| 08-04-2022 | 9-13h | Ethics / Privacy |
 | 13-05-2022 | 9-13h | Text Mining |
 | 03-06-2022 | 9-13h | Bioinformatics |
 | 17-06-2022 | 9-13h | AI products |
