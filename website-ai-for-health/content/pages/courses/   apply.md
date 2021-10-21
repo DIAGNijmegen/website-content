@@ -5,7 +5,7 @@ picture: courses/application-3695107_960_720.jpg
 
 
 **How to apply**:<br>
-If you are interested, please send the following information to aiforhealth@radboudumc.nl:
+If you are interested, please send the following information to <aiforhealth@radboudumc.nl>:
 
 - Motivation letter (max 1 A4).
 - CV (max 1 A4).
