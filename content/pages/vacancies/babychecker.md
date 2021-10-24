@@ -1,6 +1,6 @@
 title: Improving prenatal screening in developing countries with AI-powered handheld ultrasound
 groups: diag
-closed: false
+closed: true
 type: general 
 picture: vacancies/babychecker.jpg
 people: Bram van Ginneken, Chris de Korte
