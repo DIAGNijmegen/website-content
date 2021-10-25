@@ -19,7 +19,7 @@ Yes. This course is also important for support staff of the hospital. AI will ch
 The course is free if you are working for RadboudUMC. For external participants, the cost of participation is €7500.-
 
 ##I don’t have any programming experience, is that a problem?
-This is not a problem. If you want to develop your programming skills, you can make use of the subscription we provide to RealPython.com. If you do not have the ambition to learn how to program, but rather want to focus on understanding the principles behind machine learning, deep learning, etc, or develop yourself to being a linking pin between clinicians and data scientists, then this course is just as relevant to you.
+This is not a problem. If you want to develop your programming skills, we remommend the <b>in-depth track</b>. You can make use of the subscription we provide to RealPython.com to learn these programming skills. If you do not have the ambition to learn how to program, but rather want to focus on understanding the principles behind machine learning, deep learning, etc, or develop yourself to being a linking pin between clinicians and data scientists, then we recommend the <b>short track</b>.
 
 ##I don’t have any AI experience, is that a problem?
 That is not a problem. This course starts with the basic of AI and does not require any prior experience with AI. Those who have some prior experience with AI will soon find themselves challenged by the more advanced topics and practical exercises.
