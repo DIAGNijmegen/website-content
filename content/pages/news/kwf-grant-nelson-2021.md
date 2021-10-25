@@ -3,6 +3,7 @@ date: 2021-10-25
 description: In this project, we aim to maximize lung cancer screening efficiency by developing prediction models to 1) optimize screenee selection, and 2) limit unnecessary nodule work-up.
 picture: news/kwf-nelson.png
 groups: diag
+status: draft
 
 The [Dutch Cancer Society](https://www.kwf.nl/en/english) has awarded the consortium project ‘Multi-source data approach for Personalized Outcome Prediction in lung cancer screening (NELSON-POP)’ with a grant of 1,425,000 Euro. In this consortium, the unique expertise and data from the various NELSON sites and associated research groups are combined to leverage various unexplored data sources, in order to identify the factors most predictive of lung cancer. [Dr Colin Jacobs, Radboudumc](https://www.diagnijmegen.nl/people/colin-jacobs/) will lead a work package on using artificial intelligence to accurately determine the cancer probability of lung nodules, and subsequently develop optimized nodule management protocols.
 
