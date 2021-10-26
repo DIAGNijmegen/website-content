@@ -88,7 +88,7 @@ An overview of the short track schedule can be seen below.
 
 ***
 
-#Joren Lokkerbol
+###Joran Lokkerbol
 Joran studied econometrics at the University of Amsterdam and in the following years specialized as a consultant in making economic models. Joran obtained his PhD in 2015 with the thesis Rationalization of Innovation: The role of health economic evaluation in improving the efficiency of mental health care at VU University.
 
 Joran currently is Director of the Center for Economic Evaluation & Machine Learning and is also affiliated with the Methods & Statistics department at Utrecht University.
@@ -98,3 +98,7 @@ In the AI for Health course he organizes the Machine Learning lectures, supervis
 
 ***
 
+###Bram van Ginneken
+Bram van Ginneken is Professor of Medical Image Analysis at Radboud University Medical Center and chairs the Diagnostic Image Analysis Group. He also works for Fraunhofer MEVIS in Bremen, Germany, and is a founder of Thirona, a company that develops software and provides services for medical image analysis. He studied Physics at Eindhoven University of Technology and Utrecht University. In 2001, he obtained his PhD at the Image Sciences Institute on Computer-Aided Diagnosis in Chest Radiography. He has (co-)authored over 250 publications in international journals. He is member of the Editorial Board of Medical Image Analysis. He pioneered the concept of challenges in medical image analysis.
+
+For the AI for Health course he organizes the Deep Learning lectures, drawing from his broad experience in finding AI solutions for medical imaging problems.
