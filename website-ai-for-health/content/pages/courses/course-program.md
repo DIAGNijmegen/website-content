@@ -83,3 +83,18 @@ An overview of the short track schedule can be seen below.
 | 03-06-2022 | 9-13h | Bioinformatics |
 | 17-06-2022 | 9-13h | AI products |
 | 01-07-2022 | 9-13h | Final Presentations |
+
+## Teachers
+
+***
+
+#Joren Lokkerbol
+Joran studied econometrics at the University of Amsterdam and in the following years specialized as a consultant in making economic models. Joran obtained his PhD in 2015 with the thesis Rationalization of Innovation: The role of health economic evaluation in improving the efficiency of mental health care at VU University.
+
+Joran currently is Director of the Center for Economic Evaluation & Machine Learning and is also affiliated with the Methods & Statistics department at Utrecht University.
+In his work he focuses on evaluating the cost-effectiveness of interventions in mental health care, developing prognostic models to facilitate personalized care and supporting healthcare institutions to work more data-driven.
+
+In the AI for Health course he organizes the Machine Learning lectures, supervises the final projects and is coordinator of the course.
+
+***
+
