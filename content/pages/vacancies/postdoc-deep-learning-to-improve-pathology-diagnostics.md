@@ -1,6 +1,6 @@
 title: Postdoc 'Deep learning to improve pathology diagnostics'
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/postdoc-stic.png
 template: vacancy-single
@@ -48,4 +48,4 @@ Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl
 
 ## Application
 
-All additional information about the vacancy can be obtained from [Dr. Jeroen van der Laak](mailto:jeroen.vanderlaak@radboudumc.nl). Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/105841-postdoc-deep-learning-to-improve-pathology-diagnostics) to apply for this position. This vacancy closes on **October 26**.
+All additional information about the vacancy can be obtained from [Dr. Jeroen van der Laak](mailto:jeroen.vanderlaak@radboudumc.nl). Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/105841-postdoc-deep-learning-to-improve-pathology-diagnostics) to apply for this position. This vacancy closed on **October 26**.
