@@ -22,18 +22,20 @@ Please see the [documentation](https://github.com/DIAGNijmegen/website-content/t
 
 ## Building the website locally
 
-To build a website:
+Install requirements 
+1. pip install -r requirements.txt
 
-1. Run `./parse_publications.sh` to parse the .bib file.
-3. Run `WEBSITE=website-pathology ./copy_content.sh` to copy files for any website (pathology in this example).
-2. Run pelican in `website-pathology` (or any other website): `pelican --autoreload`
-3. Start the development server: `pelican --listen`
+To build a website: 
+1. Run: `WEBSITE=website-pathology ./copy_content.sh` to copy files for any website (pathology in this example).
+2. cd into a website folder (e.g., website-pathology or any other website): cd website-pathology
+3. Run pelican: `pelican --autoreload`
+4. Start the development server: `pelican --listen`
 
 (On Non-windows you can combine step 2 and 3 with `pelican --autoreload --listen`)
 
 To build the css:
-
-4. Run css build in `radboudumc-theme`: `npm run deploy-watch`
+1. Install npm==7.12.0 
+2. Run css build in `radboudumc-theme`: `npm run deploy-watch`
 
 ## Design resources
 
