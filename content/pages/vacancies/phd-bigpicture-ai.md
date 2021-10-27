@@ -3,7 +3,7 @@ groups: diag, pathology
 closed: false
 type: general
 picture: vacancies/KidneyDLpatho.jpg
-people: Geert Litjens, Francesco Ciompi, Jeroen van der Laak
+people: Francesco Ciompi, Geert Litjens, Jeroen van der Laak
 template: vacancy-single
 description: PhD position for developing novel, explainable machine learning algorithms for end-to-end learning with gigapixel pathology images in collaboration with the BigPicture consortium
 
