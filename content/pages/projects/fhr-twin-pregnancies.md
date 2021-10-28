@@ -7,8 +7,8 @@ template: project-single
 people: Rik Vullings, Joris van Drongelen, Wieteke Heidema, Tom Heskes
 description: Development of a model to determine the individual fetal heart rates in twin pregnancies.
 
-**Start date: 01-09-2021** <br>
-**End date: **
+**Start date: 30-08-2021** <br>
+**End date: 28-02-2022 **
 
 ## Clinical Problem
 The tendency of parents in Western countries to postpone parenthood is associated with increased needs of assisted reproductive technology (e.g. IVF) and resulting increased incidence rate of twin pregnancies.  Twin pregnancies have an elevated risk of complications that require monitoring of the fetal health during pregnancy and labor. Such pregnancy monitoring is typically done through the cardiotocogram (CTG), the simultaneous registration of fetal heart rate (FHR) and uterine activity. Before and during labor, the FHR is obtained by means of Doppler ultrasound technology. Here, a beam of ultrasound is transmitted into the body from the maternal abdominal surface. The Doppler shift in the ultrasound that is reflected from the heart rate is subsequently used to calculate the FHR. For twin pregnancies, this means that two ultrasound transducers are required. When the mother moves, or when the fetuses move, the ultrasound beams of these transducers might no longer be directed towards the fetal hearts, leading to loss of signal or worse, mix-up of the two fetal hearts. In the latter case, the two FHR patterns get confused leading to complicated, if not impossible, assessment of the fetal condition and consequently potentially dangerous situations.
