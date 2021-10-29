@@ -7,10 +7,8 @@ template: project-single
 people: Frits Rangel, Silvan Quax
 description: Development of a method for automatic facial landmark detection in cephalograms.
 
-**This is an AI for Health MSc project. Students are
-elgible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).**
+**Start date: 01-11-2021** <br>
+**End date: 30-04-2022**
 
 ## Clinical problem 
 
