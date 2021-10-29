@@ -2,7 +2,7 @@ title: Commercial AI marketplaces for radiology
 groups: ai-for-health
 finished: false
 type: student
-picture: vacancies/ai-marketplaces-analysis.png
+picture: projects/ai-marketplaces-analysis.png
 template: project-single
 people: Kicky van Leeuwen
 description: Investigating the surge of commercial AI marketplaces for radiology
