@@ -1,4 +1,4 @@
-title: AI systems from high-profile competition reach performance close to radiologists
+title: AI systems for lung cancer detection from high-profile competition reach performance close to radiologists
 date: 2021-10-29
 description: Colin Jacobs and team compared AI algorithms from public competition with a panel of 11 radiologists. This work appeared in Radiology: Artificial Intelligence.
 picture: news/kaggle_dsb_2017_paper_radiology_ai2.png
