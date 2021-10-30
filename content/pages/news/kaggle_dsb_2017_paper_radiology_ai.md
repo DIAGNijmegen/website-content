@@ -1,7 +1,7 @@
 title: AI systems from high-profile competition reach performance close to radiologists
 date: 2021-10-29
 description: Colin Jacobs and team compared AI algorithms from public competition with a panel of 11 radiologists. This work appeared in Radiology: Artificial Intelligence.
-picture: news/kaggle_dsb_2017_paper_radiology_ai.png
+picture: news/kaggle_dsb_2017_paper_radiology_ai2.png
 groups: diag
 
 In 2017, Arnaud Setio, [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/), and [Bram van Ginneken](https://www.diagnijmegen.nl/people/bram-van-ginneken/) co-organized a high-profile public competition on detecting lung cancer from CT - the [Kaggle Data Science Bowl 2017](https://www.kaggle.com/c/data-science-bowl-2017). With a data set of thousands of lung CT scans, and a total prize purse of 1 million US dollars provided by the Laura and John Arnold Foundation, this competition attracted a lot of attention. The top 10 teams in the final ranking of the competition received monetary prizes on the condition that they made the software they had written publicly available under an open-source license. 
