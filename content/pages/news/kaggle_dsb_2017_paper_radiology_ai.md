@@ -15,4 +15,4 @@ Our work was covered by [Auntminnie](https://www.auntminnie.com/index.aspx?sec=s
 Two of the three algorithms from the competition are freely available on our platform grand-challenge.org:
 
 * grt123: [link](https://grand-challenge.org/algorithms/dsb2017-grt123/)
-* Julian de Wit * Daniel Hammack: [link](https://grand-challenge.org/algorithms/lung-cancer-risk-estimation-on-thorax-ct-scans-dsb/)
+* Julian de Wit & Daniel Hammack: [link](https://grand-challenge.org/algorithms/lung-cancer-risk-estimation-on-thorax-ct-scans-dsb/)
