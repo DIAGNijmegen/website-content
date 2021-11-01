@@ -40,16 +40,16 @@ An overview of the in-depth track schedule can be seen below.
 | Date  | Time |  Topic  |
 | ----- | ------- | ------|
 | 11-02-2022 | 9-13h | Introduction |
-| 18-02-2022 | 9-17h | Data Science & Machine Learning projects / Data Understanding |
-| 25-03-2022 | 9-17h | Basic Principles of Machine Learning / Performance Metrics |
-| 11-03-2022 | 9-17h | Supervised Machine Learning algorithms I / Data Preparation |
-| 18-03-2022 | 9-17h | Supervised Machine Learning algorithms II / Evaluation |
-| 25-03-2022 | 9-17h | Deep Learning 1 |
-| 01-04-2022 | 9-17h | Deep Learning 2 |
+| 18-02-2022 | 9-17h | Machine Learning: How to run a AI project? Follow the CRIPS-DM model for Data Science projects and start with understanding your data |
+| 25-03-2022 | 9-17h | Machine Learning: Learn the Basic Principles of Machine Learning and how to measure the Performance of Machine Learning models |
+| 11-03-2022 | 9-17h | Machine Learning: A start is made to cover the most important supervised Machine Learning algorithms and you will learn how to prepare your data |
+| 18-03-2022 | 9-17h | Machine Learning: We will finish covering the most important supervised Machine Learning algorithms and learn how to Evaluate your models|
+| 25-03-2022 | 9-17h | Deep Learning: Understand how Convolutional Neural Networks can be used for Medical Image Analysis |
+| 01-04-2022 | 9-17h | Deep Learning: Learn how to combine Text, Images and Bio Medical data for better deep learning models |
 | 08-04-2022 | 9-17h | Data Engineering / Ethics / Privacy |
 | 22-04-2022 | 9-17h | Project Day 1 |
-| 29-04-2022 | 9-17h | Unsupervised Machine Learning / Summary |
-| 13-05-2022 | 9-17h | Text Mining |
+| 29-04-2022 | 9-17h | Machine Learning: You will learn about unsupervised Machine Learning models for data without any labels and get a summary of all machine learning topics |
+| 13-05-2022 | 9-17h | Text Mining|
 | 20-05-2022 | 9-17h | Project Day 2 |
 | 03-06-2022 | 9-17h | Bioinformatics |
 | 10-06-2022 | 9-17h | Project Day 3 / Visualisation |
