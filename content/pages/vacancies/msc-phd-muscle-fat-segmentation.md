@@ -1,6 +1,6 @@
 title: MSc+PhD vacancy for body composition assessment in 3D CT and MR images
 groups: diag, ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/body-composition.jpg
 template: vacancy-single
