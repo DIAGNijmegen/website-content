@@ -13,7 +13,7 @@ picture: courses/XMG_20200925_142130.jpg
   <li> A <b>short track</b> that requires no programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
 </ul>
 </ul>  
-## In-depth track program
+## Full track program
 <ul>
 <li>The in depth course takes place on 17 Fridays.
 <li>The course days consist of lectures in the morning and afternoon Python practicals with cases focused on Radboudumc practice.</li>
@@ -57,7 +57,7 @@ An overview of the in-depth track schedule can be seen below.
 | 24-06-2022 | 9-17h | Project Day 4 |
 | 01-07-2022 | 9-13h | Final Presentations |
 
-## Short track program
+## Light track program
 
 <ul>
 <li>The short track takes takes 10 Friday mornings/afternoons.
