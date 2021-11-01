@@ -40,7 +40,7 @@ NAV_SECTIONS = [
         "text_class": "d-lg-block",
     },
     {
-        "name": "Courses",
+        "name": "Course",
         "url": "courses",
         "icon_mobile": "vacancies",
         "text_class": "d-lg-block",
