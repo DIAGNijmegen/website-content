@@ -10,7 +10,7 @@ picture: courses/XMG_20200925_142130.jpg
 <li>There are 2 tracks to choose from: </li>
 <ul>
   <li> An <b>full track</b> that requires programming and offers participants the ability to create their own AI solutions.</li>
-  <li> A <b>light track</b> that requires no programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
+  <li> A <b>light track</b> that does not involve programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
 </ul>
 </ul>  
 ## Full track program
