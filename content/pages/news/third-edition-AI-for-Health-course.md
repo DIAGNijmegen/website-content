@@ -1,6 +1,6 @@
 title: Third edition AI for Health course
 date: 2021-11-02
-picture: general/RTC_deep_learning.png
+picture: general/AIforHealth.png
 groups: ai-for-health, diag
 
 Applications for The third edition of the **AI for Health course**, starting on the 11th of February 2022 are now open. Please apply before the **17th of December** to join the course.
