@@ -23,9 +23,11 @@ The slides for past presentations are available by clicking on the links in the 
 |  07-10-2021  | Richard Li  <br> Evgenia Martynova| Diagnosis Prediction in General Practice with Electronic Patient Records <br> Artificial intelligence-assisted detection of adhesions on cine-MRI |
 |  14-10-2021  | Jasper van der Graaf | MRI-based decision support tool for chronic low back pain |
 |  21-10-2021  | Koen Dercksen | Entity linking for patient-friendly radiology reports |
-|  28-10-2021  | Shankeeth Vinayahalingam | TBA |
-|  04-11-2021  | Mirthe van Diepen <br> Noud Emonts| TBA |
+|  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
+|  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
 |  11-11-2021  | Gelana Khazeeva | TBA |
+|  18-11-2021  | Ruud van Kaam | TBA |
+|  25-11-2021  | Mirthe van Diepen | TBA |
 
 
 ## Past meetings
