@@ -84,7 +84,7 @@ An overview of the short track schedule can be seen below.
 | 17-06-2022 | 9-13h | AI products | Learn how to choose a suitable AI product |
 | 01-07-2022 | 9-13h | Final Presentations | Project groups will present their final results |
 
-## Teachers
+<!-- ## Teachers
 
 ***
 
@@ -103,4 +103,4 @@ In the AI for Health course he organizes the Machine Learning lectures, supervis
 
 Bram van Ginneken is Professor of Medical Image Analysis at Radboud University Medical Center and chairs the Diagnostic Image Analysis Group. He also works for Fraunhofer MEVIS in Bremen, Germany, and is a founder of Thirona, a company that develops software and provides services for medical image analysis. He studied Physics at Eindhoven University of Technology and Utrecht University. In 2001, he obtained his PhD at the Image Sciences Institute on Computer-Aided Diagnosis in Chest Radiography. He has (co-)authored over 250 publications in international journals. He is member of the Editorial Board of Medical Image Analysis. He pioneered the concept of challenges in medical image analysis.
 
-For the AI for Health course he organizes the Deep Learning lectures, drawing from his broad experience in finding AI solutions for medical imaging problems.
+For the AI for Health course he organizes the Deep Learning lectures, drawing from his broad experience in finding AI solutions for medical imaging problems. -->
