@@ -10,7 +10,7 @@ description: Development of a deep learning algorithm that can classify the diff
 *Start date: 15-08-2020* <br>
 *End date: 15-02-2021*
 
-![pathology-artifact-detection]({{ IMGURL }}/images/projects/artifact_header.png)
+<!--![pathology-artifact-detection]({{ IMGURL }}/images/projects/artifact_header.png)-->
 
 ## Clinical problem
 Whole slide imaging technology allowed the digitization of conventional glass slides, which led to several new opportunities in the Pathology field, such as the integration of computational systems, most notably artificial intelligence (AI). However, the digitization process also brought along new challenges for the automated analysis of digitized images. One of the most important challenges arises from the presence of image artifacts. The image below shows examples of common types of artifacts found in whole slide images; (a) out-of-focus, (b) tissue folds, (c) ink, (d) dust, (e) pen mark, and (f) air bubbles.
