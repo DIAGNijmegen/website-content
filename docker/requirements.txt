@@ -1,0 +1,8 @@
+pip==19.3.1
+pelican==4.1.0
+markdown==3.2.2
+latexcodec==1.0.5
+beautifulsoup4==4.7.1
+pyyaml==5.4
+numpy==1.19.4
+requests==2.25.1
