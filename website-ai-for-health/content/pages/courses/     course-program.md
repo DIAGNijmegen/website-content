@@ -41,7 +41,7 @@ An overview of the in-depth track schedule can be seen below.
 | ----- | ------- | ------| ------ |
 | 11-02-2022 | 9-13h | Introduction | How is AI changing healthcare? |
 | 18-02-2022 | 9-17h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
-| 25-03-2022 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models |
+| 25-02-2022 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models |
 | 11-03-2022 | 9-17h | Machine Learning 3| A start is made to cover the most important supervised <br> machine learning algorithms and you will learn how to prepare your data |
 | 18-03-2022 | 9-17h | Machine Learning 4| We will finish covering the most important supervised <br> machine learning algorithms and learn how to Evaluate your models|
 | 25-03-2022 | 9-17h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
@@ -75,7 +75,7 @@ An overview of the short track schedule can be seen below.
 | ----- | ------- | ------| ------ |
 | 11-02-2022 | 9-13h | Introduction | How is AI changing healthcare? | 
 | 18-02-2022 | 9-13h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
-| 25-03-2022 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
+| 25-02-2022 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
 | 25-03-2022 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
 | 01-04-2022 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
 | 08-04-2022 | 9-13h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
