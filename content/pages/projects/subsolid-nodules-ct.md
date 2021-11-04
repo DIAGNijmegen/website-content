@@ -28,8 +28,8 @@ You will begin by taking the previously published [nodule type classifier](https
 ## Data
 DIAG has a scientific archive of over 100,000 chest CT examinations including data from several lung cancer screening trials. For this project, we have curated images and labels for:
 
-* Nodule type classifier: 1,352 nodules from [MILD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6637372/) for training and 453 nodules from [DLCST](https://pubmed.ncbi.nlm.nih.gov/26485620/) for externally validation, as previously described in a publication. 
-* Subsolid nodule segmentation: 200 screen-detected malignant nodules from [NLST](https://www.nature.com/articles/srep46479) with voxel-level labels for the solid-core and the subsolid regions for training, and 170 screen-detected nodules from the MILD trial for external validation. In addition, we have voxel-level labels for ~20,000 nodules from the NLST which may be used to increase the robustness of the segmentation algorithm.
+* Nodule type classifier: 1,352 nodules from [MILD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6637372/) for development and 453 nodules from [DLCST](https://pubmed.ncbi.nlm.nih.gov/26485620/) for external validation, as previously described in a publication. 
+* Subsolid nodule segmentation: 200 screen-detected malignant nodules from [NLST](https://www.nejm.org/doi/full/10.1056/nejmoa1102873) with voxel-level labels for the solid-core and the subsolid regions for development, and 170 screen-detected nodules from the MILD trial for external validation. In addition, we have voxel-level labels for ~20,000 nodules from the NLST which may be used to increase the robustness of the segmentation algorithm.
 	
 ## Results
 The algorithm(s) that come out of this project will be made publicly available for research use as Docker containers through the [grand-challenge.org](https://grand-challenge.org/algorithms/) platform, and be integrated with [CIRRUS Lung Screening](https://www.diagnijmegen.nl/software/cirruslungs/) (the research prototype version of Veolity). You are encouraged to write a scientific publication describing your results.
