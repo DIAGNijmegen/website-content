@@ -7,6 +7,8 @@ template: project-single
 people: Bram van Ginneken, Silvan Quax
 description: We want to develop a robust deep learning algorithm for automated detection of abdominal aorta aneurysms in CT scans.
 
+**Start date: 01-02-2022** <br>
+**End date: 31-07-2022**
 
 ## Clinical problem
 An abdominal aortic aneurysm (AAA) is a local enlargement of the abdominal aorta. AAAs cause 1 to 3% of all deaths among men aged 65–85 years in the Western world. People with an AAA usually have no symptoms until the catastrophic event of rupture. The mortality rate for patients with a ruptured abdominal aortic aneurysm is around 75% and about half of deaths attributed to rupture occur before the patient reaches the hospital for acute surgery. Large aneurysms can be repaired by open surgery or placing a stent in an endovascular procedure.
