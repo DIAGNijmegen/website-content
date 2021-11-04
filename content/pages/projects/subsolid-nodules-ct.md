@@ -19,6 +19,7 @@ The [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at Ra
 
 ## Solution
 You have two main tasks within this project:
+
 * Develop deep learning algorithm(s) to automatically classify and segment subsolid nodules.
 * Ensure the algorithm(s) are fast enough to process a single nodule within 0.5 seconds.
 
@@ -26,6 +27,7 @@ You will begin by taking the previously published [nodule type classifier](https
 
 ## Data
 DIAG has a scientific archive of over 100,000 chest CT examinations including data from several lung cancer screening trials. For this project, we have curated images and labels for:
+
 * Nodule type classifier: 1,352 nodules from [MILD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6637372/) for training and 453 nodules from [DLCST](https://pubmed.ncbi.nlm.nih.gov/26485620/) for externally validation, as previously described in a publication. 
 * Subsolid nodule segmentation: 200 screen-detected malignant nodules from [NLST](https://www.nature.com/articles/srep46479) with voxel-level labels for the solid-core and the subsolid regions for training, and 170 screen-detected nodules from the MILD trial for external validation. In addition, we have voxel-level labels for ~20,000 nodules from the NLST which may be used to increase the robustness of the segmentation algorithm.
 	
