@@ -3,7 +3,7 @@ name: Douwe van Erp
 template: people-single
 picture: people/Douwe_van_Erp.jpg
 position: Master Student
-active: no
+active: yes
 groups: diag
 default_group: diag
 email: douwe.vanerp@radboudumc.nl
