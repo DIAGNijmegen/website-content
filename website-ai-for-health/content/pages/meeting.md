@@ -28,6 +28,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  11-11-2021  | Gelana Khazeeva | TBA |
 |  18-11-2021  | Ruud van Kaam <br> Luca Carotenuto| TBA |
 |  25-11-2021  | Mirthe van Diepen | TBA |
+|  09-12-2021  | Douwe van Erp | TBA |
 |  20-01-2022  | Sanyog Vyawahare | TBA |
 
 ## Past meetings
