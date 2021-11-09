@@ -3,7 +3,7 @@ name: Evgenia Martynova
 template: people-single
 picture: people/Evgenia_Martynova.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: evgenia.martynova@radboudumc.nl
