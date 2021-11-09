@@ -26,7 +26,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
 |  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
 |  11-11-2021  | Gelana Khazeeva | TBA |
-|  18-11-2021  | Ruud van Kaam <br> Luca Carotenuto| TBA |
+|  18-11-2021  | Luca Carotenuto| TBA |
 |  25-11-2021  | Mirthe van Diepen | TBA |
 |  02-12-2021  | Ruud van Kaam | TBA |
 |  09-12-2021  | Douwe van Erp | TBA |
