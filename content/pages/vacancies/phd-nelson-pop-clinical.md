@@ -1,6 +1,6 @@
 title: PhD position on using artificial intelligence for improving the efficiency of lung cancer screening
 groups: diag
-closed: false
+closed: true
 type: general 
 picture: vacancies/lung-cancer-screening.png
 people: Colin Jacobs, Mathias Prokop, Cornelia Schaefer-Prokop
