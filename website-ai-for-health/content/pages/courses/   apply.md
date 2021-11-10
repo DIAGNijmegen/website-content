@@ -20,6 +20,7 @@ If you are interested, please send the following information to <aiforhealth@rad
 - CV (max 1 A4).
 - The track you would like to follow (short or in-depth track, see [course program](https://www.ai-for-health.nl/courses/course-program/) for details).
 
+For Radboudumc employees the course costs are paid by the Radboudumc and participation is thus **free**. For external participants, the cost of participation is **€7500**.
 ***
 
 ##Testimonials
