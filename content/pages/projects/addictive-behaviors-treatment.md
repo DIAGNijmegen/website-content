@@ -4,7 +4,7 @@ finished: false
 type: student 
 picture: vacancies/NISPA.jpg
 template: project-single
-people: Dirk Geurts, Arnt Schellekens
+people: Heleen Kerstholt, Dirk Geurts, Arnt Schellekens
 description: Development of a method for the identification of patient-related predictors of treatment outcome.
 
 **Start date: 01-11-2021** <br>
