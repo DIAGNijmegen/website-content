@@ -777,3 +777,40 @@ people:
     url:
     picture: people/external/Max_Bakker.jpg
     email: Max.Bakker@radboudumc.nl
+  - name: Thomas van den Broek
+    position: Master Student
+    affiliation: Artificial Intelligence, Radboud University
+    url:
+    picture:
+    email: thomas.vandenbroek@radboudumc.nl
+  - name: Kirina van der Bijl
+    position: Master Student
+    affiliation: Data Science, Radboud University
+    url:
+    picture:
+    email: kirina.vanderbijl@radboudumc.nl
+  - name: Luca Carotenuto
+    position: Master Student
+    affiliation: Data Science, Radboud University
+    url:
+    picture:
+    email: luca.carotenuto@radboudumc.nl
+  - name: Sanyog Vyawahare
+    position: Master Student
+    affiliation: Artificial Intelligence, Radboud University
+    url:
+    picture:
+    email: sanyog.vyawahare@radboudumc.nl
+  - name: Yassier Elawady
+    position: Master Student
+    affiliation: University of Twente
+    url:
+    picture:
+    email: yassier.elawady@radboudumc.nl
+  - name: Heleen Kerstholt
+    position: Master Student
+    affiliation: Artificial Intelligence, Radboud University
+    url:
+    picture:
+    email: heleen.kerstholt@radboudumc.nl
+
