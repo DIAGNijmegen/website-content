@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: projects/ai-marketplaces-analysis.png
 template: project-single
-people: Kicky van Leeuwen
+people: Yassier Elawady, Kicky van Leeuwen
 description: Investigating the surge of commercial AI marketplaces for radiology
 
 **Start date: 01-09-2021** <br>
