@@ -1,7 +1,7 @@
 title: Francesco Ciompi and Chella van der Post receive Hanarth Foundation grant to improve detection of diffuse gastric cancer
 date: 2021-11-11
 description: Francesco Ciompi and Chella van der Post have been awarded 400,000 euros for the execution of their project aimed to develop AI solutions for improving DGC diagnostics.  
-picture: news/hanarth.png
+picture: images/news/hanarth.png
 groups: pathology, diag
 
 [member/francesco-ciompi] and [Chella van der Post](https://www.radboudumc.nl/personen/chella-van-der-post) received a grant from the [Hanarth foundation](https://www.hanarthfonds.nl/) for their 4-year research project to improve histopathological detection of hereditary diffuse gastric cancer (HDGC) using artificial intelligence (AI). 
