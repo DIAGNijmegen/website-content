@@ -1,6 +1,6 @@
 title: Francesco Ciompi and Chella van der Post receive Hanarth Foundation grant to improve detection of diffuse gastric cancer
 date: 2021-11-11
-description: Hereditary diffuse gastric cancer (DGC) is easily missed in histopathology. Francesco Ciompi and Chella van der Post have been awarded 400,000 euros for the execution of a 4-year project which is aimed at the development of AI solutions for improving DGC diagnostics and the discovery of specific morphological DGC features.  
+description: Francesco Ciompi and Chella van der Post have been awarded 400,000 euros for the execution of a 4-year project which is aimed at the development of AI solutions for improving DGC diagnostics and the discovery of specific morphological DGC features.  
 picture: news/hanarth.png
 groups: pathology, diag
 
