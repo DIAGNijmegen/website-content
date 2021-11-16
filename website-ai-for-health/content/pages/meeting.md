@@ -16,17 +16,8 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  02-09-2021  | Michel Botros | Detecting and characterizing vertebral fractures in CT scans |
-|  09-09-2021  | Roel Hacking | Combining chest CT scans and clinical features for improved automated COVID-19 detection |
-|  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
-|  23-09-2021  | Niels van Nistelrooij | Predicting a patient's facial profile after orthognathic surgery |
-|  07-10-2021  | Richard Li  <br> Evgenia Martynova| Diagnosis Prediction in General Practice with Electronic Patient Records <br> Artificial intelligence-assisted detection of adhesions on cine-MRI |
-|  14-10-2021  | Jasper van der Graaf | MRI-based decision support tool for chronic low back pain |
-|  21-10-2021  | Koen Dercksen | Entity linking for patient-friendly radiology reports |
-|  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
-|  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
-|  11-11-2021  | Gelana Khazeeva | TBA |
-|  18-11-2021  | Luca Carotenuto| TBA |
+
+|  18-11-2021  | Luca Carotenuto| Three-dimensional facial landmark detection in 3D Photos |
 |  25-11-2021  | Mirthe van Diepen | TBA |
 |  02-12-2021  | Ruud van Kaam <br> Kirina van der Bijl| TBA |
 |  09-12-2021  | Douwe van Erp <br> Manuela Bergau | TBA |
@@ -36,6 +27,17 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+
+|  11-11-2021  | Gelana Khazeeva | AI-driven genetic diagnosis for rare-diseases |
+|  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
+|  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
+|  21-10-2021  | Koen Dercksen | Entity linking for patient-friendly radiology reports |
+|  14-10-2021  | Jasper van der Graaf | MRI-based decision support tool for chronic low back pain |
+|  07-10-2021  | Richard Li  <br> Evgenia Martynova| Diagnosis Prediction in General Practice with Electronic Patient Records <br> Artificial intelligence-assisted detection of adhesions on cine-MRI |
+|  23-09-2021  | Niels van Nistelrooij | Predicting a patient's facial profile after orthognathic surgery |
+|  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
+|  09-09-2021  | Roel Hacking | Combining chest CT scans and clinical features for improved automated COVID-19 detection |
+|  02-09-2021  | Michel Botros | Detecting and characterizing vertebral fractures in CT scans |
 |  24-06-2021  | Silvan Quax | Streamlit: a fast way to build and share data apps |
 |  17-06-2021  | **Guest speaker** <br> Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
 |  10-06-2021  | Richard Li <br> Noud Emonts | [Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs](https://www.ai-for-health.nl/projects/gp_diagnoses_richardli/) <br> [Exploring Multi-task Learning for Improving Diagnosis in General Practice](https://www.ai-for-health.nl/projects/gp_diagnoses_noudemonts/) |
