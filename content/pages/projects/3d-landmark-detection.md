@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/3d_landmark_detection.png
 template: project-single
-people: Guido de Jong, Timen ten Harkel, Tom Loonen, Thomas Maal
+people: Luca Carotenuto, Guido de Jong, Timen ten Harkel, Tom Loonen, Thomas Maal
 description: Development of a model for the automatic detection of clinically relevant landmarks in 3D imaging modalities.
 
 **Start date: 01-09-2021** <br>
