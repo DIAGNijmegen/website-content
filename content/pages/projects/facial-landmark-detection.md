@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/facial-landmarks.png
 template: project-single
-people: Frits Rangel, Silvan Quax
+people: Sanyog Vyawahare, Frits Rangel, Silvan Quax
 description: Development of a method for automatic facial landmark detection in cephalograms.
 
 **Start date: 01-11-2021** <br>
