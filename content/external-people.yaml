@@ -799,13 +799,13 @@ people:
     position: Master Student
     affiliation: Artificial Intelligence, Radboud University
     url:
-    picture:
+    picture: people/external/sanyog-vyawahare.jpeg
     email: sanyog.vyawahare@radboudumc.nl
   - name: Yassier Elawady
     position: Master Student
     affiliation: University of Twente
     url:
-    picture: people/external/sanyog-vyawahare.jpeg
+    picture: 
     email: yassier.elawady@radboudumc.nl
   - name: Heleen Kerstholt
     position: Master Student
