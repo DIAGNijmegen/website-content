@@ -1,12 +1,12 @@
 title: Dominik Grabarczyk 
-name: Dominik grabarczyk 
+name: Dominik Grabarczyk 
 template: people-single 
 picture: people/Dominik_Grabarczyk.jpg 
 position: Postgraduate 
 active: yes 
 groups: diag 
 default_group: diag 
-email:dominik.grabarczyk@radboudumc.nl 
+email: dominik.grabarczyk@radboudumc.nl 
 office: 
 type: student
 linkedin: https://www.linkedin.com/in/dominik-grabarczyk/
