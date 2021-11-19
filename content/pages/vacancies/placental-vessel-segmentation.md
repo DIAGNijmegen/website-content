@@ -7,6 +7,8 @@ template: vacancy-single
 people: Anouk van der Schot, Guido de Jong
 description: Development of a model for deep placental vessel segmentation and registration for fetal laser surgery
 
+**This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the requirements.**
+
 ## Clinical Problem
 Twin-to-twin transfusion syndrome (TTTS) is a severe and progressive disorder where there are imbalanced blood vessel connections in the shared placenta of monochorionic twins. Untreated, this syndrome is associated with a 90% mortality rate of the twins.
 Laser surgery has become the treatment of choice for TTTS[1]. During this procedure, a small diameter endoscope (fetoscope) is used to visualize the placental surface in the uterus. The surgeon scans the placenta to localize and coagulate blood vessel connections to dissolve the blood flow.[2]
