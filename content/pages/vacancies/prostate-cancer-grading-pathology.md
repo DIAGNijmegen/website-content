@@ -1,8 +1,8 @@
 title: Extending a prostate cancer grading algorithm to other surgical entities
 groups: ai-for-health
-closed: true 
+closed: false
 type: student 
-picture: vacancies/scoliosis_modeling.jpg
+picture: vacancies/prostate_pathology.png
 template: vacancy-single
 people: Khrystyna Faryna, Geert Litjens
 description: Develop a method to extend a prostate cancer grading algorithm to other surgical entities
