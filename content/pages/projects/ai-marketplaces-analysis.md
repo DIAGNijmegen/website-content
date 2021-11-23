@@ -7,8 +7,8 @@ template: project-single
 people: Yassier Elawady, Kicky van Leeuwen
 description: Investigating the surge of commercial AI marketplaces for radiology
 
-**Start date: 01-09-2021** <br>
-**End date: 28-02-2022**
+**Start date: 30-11-2021** <br>
+**End date: 30-05-2022**
 
 ## Clinical Problem
 The clinical implementation of Artificial Intelligence (AI) software in radiology is still in its early stages.
