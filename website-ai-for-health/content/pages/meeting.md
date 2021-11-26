@@ -21,7 +21,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  02-12-2021  | Ruud van Kaam <br> Kirina van der Bijl| TBA |
 |  09-12-2021  | Douwe van Erp <br> Manuela Bergau | TBA |
 |  20-01-2022  | Sanyog Vyawahare | TBA |
-
+|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | TBA |
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
