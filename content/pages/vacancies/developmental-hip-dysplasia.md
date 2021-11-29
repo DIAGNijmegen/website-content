@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: projects/developmental-hip-dysplasia.png
 template: vacancy-single
-people: Douwe van Erp, Thomas van den Heuvel, Chris de Korte, Bram van Ginneken, Tom Heskes
+people: Thomas van den Heuvel, Chris de Korte, Bram van Ginneken
 description: Project aimed at development of deep learning algorithms for automated detection developmental hip dysplasia.
 
 **This is an AI for Health MSc project. Students are
