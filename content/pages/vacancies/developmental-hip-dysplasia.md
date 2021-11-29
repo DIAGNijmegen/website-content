@@ -1,6 +1,6 @@
 title: Automated AAA detection
 groups: ai-for-health, diag, music
-finished: false
+closed: false
 type: student
 picture: projects/developmental-hip-dysplasia.png
 template: vacancy-single
