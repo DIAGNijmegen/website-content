@@ -1,5 +1,6 @@
 title: Former employees
 
+- [Anton Schreuder](https://www.linkedin.com/in/anton-schreuder-21978030/)
 - [Rita Bijlsma](https://www.xing.com/profile/Rita_Bylsma)
 - [Max Argus](https://www.linkedin.com/in/max-argus-5810636)
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
