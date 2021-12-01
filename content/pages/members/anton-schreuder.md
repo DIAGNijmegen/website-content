@@ -3,7 +3,7 @@ name: Anton Schreuder
 template: people-single
 picture: people/Anton_Schreuder.jpg
 position: Postdoctoral Researcher
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: anton.schreuder@radboudumc.nl
