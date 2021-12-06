@@ -817,11 +817,11 @@ people:
     position: PhD Candidate
     affiliation: Gynaecology, Radboudumc
     url:
-    picture:
+    picture: people/external/Anouk_van_der_Schot.png
     email: Anouk.vanderSchot@radboudumc.nl
   - name: Frits Rangel
     position: Orthodontist
     affiliation: Orthodontics, Radboudumc
     url:
-    picture: people/external/Anouk_van_der_Schot.png
+    picture: 
     email: Anouk.vanderSchot@radboudumc.nl
