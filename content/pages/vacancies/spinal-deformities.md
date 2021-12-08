@@ -1,6 +1,6 @@
 title: Automatic segmentation and identification of the vertebrae in CT scans of patients with spinal deformities
 groups: ai-for-health, diag
-closed: false 
+closed: true 
 type: student 
 picture: vacancies/scoliosis_modeling.jpg
 template: vacancy-single
