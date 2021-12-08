@@ -5,7 +5,7 @@ type: general
 picture: projects/incidental-lung-nodules.png
 template: project-single
 groups: diag
-people: Ward Hendrix, Matthieu Rutten, Ernst Scholten, Bram van Ginneken, Mathias Prokop, Colin Jacobs
+people: Ward Hendrix, Colin Jacobs, Ernst Scholten, Matthieu Rutten, Bram van Ginneken, Mathias Prokop
 description: AI solutions to optimize the detection and characterization of incidentally detected lung nodules. 
 bibkeys: Hend21
 
