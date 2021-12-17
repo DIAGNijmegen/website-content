@@ -4,7 +4,7 @@ description: The DKF awarded the grant to CPG’s Meyke Hermsen, Dominique van M
 picture: news/DKF_Kolff_I.jpg
 groups: diag, pathology
 
-The [Dutch Kidney Foundation]( https://nierstichting.nl/) has awarded [member/jeroen-van-der-laak] a Success Accelerator Grant for the project entitled *”DIAGGRAFT: leveraging artificial intelligence technology for accurate quantitative histological diagnostic assessment of transplant renal biopsies”*. 
+The [Dutch Kidney Foundation]( https://nierstichting.nl/) awarded [member/jeroen-van-der-laak] a Success Accelerator Grant for the project entitled *”DIAGGRAFT: leveraging artificial intelligence technology for accurate quantitative histological diagnostic assessment of transplant renal biopsies”*. 
 
 With a 2.5-fold increase in kidney transplantations over the past 25 years, preserving allografts is of utmost importance for both individual patients and the population at large. Therefore, early detection and treatment of processes detrimental for graft failure (e.g., rejection) is critical to maximize graft survival and patient wellbeing. Histopathologic assessment of biopsies remains the gold standard for diagnosing allograft rejection. However, the current diagnostic classification system possesses considerable observer variability, is mostly qualitative, and lacks granularity in key areas, therefore challenging biopsy assessment. 
 
