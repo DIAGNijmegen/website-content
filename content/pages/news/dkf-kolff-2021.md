@@ -1,6 +1,6 @@
 title: DKF Kolff+ Success Accelerator Grant for improved kidney transplant diagnostics using AI
 date: 2021-12-10
-description: The DKF awarded the grant to CPG’s Meyke Hermsen, Dominique van Midden and Jeroen van der Laak, for their proposal to use AI for improved histopathologic kidney biopsy assessment. 
+description: The DKF awarded the grant to CPG’s Meyke Hermsen, Dominique van Midden, and Jeroen van der Laak for their proposal to use AI for improved histopathologic kidney biopsy assessment. 
 picture: news/DKF_Kolff_I.jpg
 groups: diag, pathology
 
