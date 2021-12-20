@@ -16,16 +16,17 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  18-11-2021  | Luca Carotenuto| Three-dimensional facial landmark detection in 3D Photos |
-|  25-11-2021  | Mirthe van Diepen | TBA |
-|  02-12-2021  | Ruud van Kaam <br> Kirina van der Bijl| TBA |
-|  09-12-2021  | Douwe van Erp <br> Manuela Bergau | TBA |
 |  20-01-2022  | Sanyog Vyawahare | TBA |
-|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | TBA |
+|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Healthplus.ai |
+
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  09-12-2021  | Douwe van Erp <br> Manuela Bergau | Automatic AAA Detection from Ultrasound Imaging using Deep Learning <br> Natural language processing of radiology reports for lesion detection |
+|  02-12-2021  | Ruud van Kaam <br> Kirina van der Bijl| Prediction of intracranial hypertension in patients with traumatic brain injury <br> Fetal heart rate detection in twin pregnancies |
+|  25-11-2021  | Mirthe van Diepen | Causal discovery for mechanisms of vascular function and cognition decline |
+|  18-11-2021  | Luca Carotenuto| Three-dimensional facial landmark detection in 3D Photos |
 |  11-11-2021  | Gelana Khazeeva | AI-driven genetic diagnosis for rare-diseases |
 |  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
 |  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
