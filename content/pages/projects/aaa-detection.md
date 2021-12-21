@@ -19,11 +19,11 @@ Ultrasound devices have recently become cheaper and portable. These portable dev
 We present a method based on deep learning to automatically detect the abdominal aorta from ultrasound (US) imaging and to automatically measure the aortic diameter. The US acquisition can be made with a portable US device connected to a smartphone. Our algorithm runs on the smartphone, and perform automated detection of the abdominal aorta in real-time.
 
 The system consists of two parts. First, a segmentation model will detect the abdominal aorta and give a segmentation mask as output. Second, connected component labeling is used to select the segmented volume of the abdominal aorta. A direct least-squares ellipse fit is used to automatically extract the aortic diameter. 
-({{ IMGURL }}/images/projects/AAA_example_segmentation.png)
+![image]({{ IMGURL }}/images/projects/AAA_example_segmentation.png)
 ## Results
 
 The segmentation network was trained on 549 annotated US frames. The segmentation network achieved a median Dice score of 0.88 for the best achieving model, and a median Dice score of 0.83 for the model that could run on the smartphone. Additionally, the difference between the maximum CT and US diameters was computed. The CT-US maximum diameter differences had a median of 6.0 mm. 73.8% of these differences fell within the clinically acceptable limits of agreement of ±5 mm.
-({{ IMGURL }}/images/projects/AAA_2D_result_figure_example_client.png)
+![image]({{ IMGURL }}/images/projects/AAA_2D_result_figure_example_client.png)
 
 ## Conclusion
 We developed a deep-learning method to automatically detect and measure the abdominal aortic diameter from US imaging. This algorithm can be used for real-time detection on the smartphone. A limitation that emerged from this work was the difficulty for a layman to obtain US scans of sufficient quality. This approach shows promising results for automated aortic diameter measurement for laymen.
