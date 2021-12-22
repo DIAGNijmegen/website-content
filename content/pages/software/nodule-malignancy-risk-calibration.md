@@ -4,10 +4,11 @@ finished: false
 picture: software/nodule_malignancy_risk_calibration_logo.png
 template: project-single
 groups: diag
+people: Kiran Vaidhya Venkadesh, Bram van Ginneken, Mathias Prokop, Colin Jacobs
 description: Calibration of a deep learning algorithm’s outputs for malignancy risk estimation of pulmonary nodules detected at low-dose screening CT.
 bibkeys: Venk21
 
-Kiran Vaidhya Venkadesh, Bram van Ginneken, Mathias Prokop, Colin Jacobs
+
 
 # Introduction
 Accurately estimating the malignancy risk of pulmonary nodules is crucial for optimizing nodule management in lung cancer screening. We recently published a study in [Radiology](https://pubs.rsna.org/doi/full/10.1148/radiol.2021204433) describing a deep learning (DL) algorithm that estimates the malignancy risk of pulmonary nodules at a level comparable to that of thoracic radiologists. In addition, the algorithm outperformed the clinically established [PanCan model](https://www.nejm.org/doi/full/10.1056/nejmoa1214726). 
