@@ -1,6 +1,6 @@
 title: PhD candidate ‘Improving care for prostate cancer patient through AI-driven radiology/pathology fusion’
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/phd-path-rad-fusion.jpg
 people: Geert Litjens
