@@ -20,4 +20,4 @@ To make the deep learning algorithm also applicable in routine clinical practice
 We hypothesize that the final AI algorithm for nodule malignancy prediction and its integration in nodule management protocols will 1) accelerate the time to diagnosis of malignant nodules, and 2) limit unnecessary nodule work-up
 
 ## Funding
-This research project is funded by the [Dutch Cancer Society](https://www.kwf.nl/en/english). The project is led by [member/colin-jacobs] and is a collaboratoin with investigators from Radboudumc, University Medical Center Groningen, Erasmus MC, UMC Utrecht and MUMC+.
+This research project is funded by the [Dutch Cancer Society](https://www.kwf.nl/en/english). The project is led by [member/colin-jacobs] and is a collaboration with investigators from Radboudumc, University Medical Center Groningen, Erasmus MC, UMC Utrecht and MUMC+.
