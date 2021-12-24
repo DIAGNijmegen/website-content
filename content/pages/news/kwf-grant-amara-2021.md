@@ -1,7 +1,7 @@
 title: KWF grant for research on accurate malignancy risk estimation of pulmonary nodules using AI
 date: 2021-12-24
 description: In this project, we aim to improve the risk stratification of screen-detected and incidental lung nodules by using AI. 
-picture: news/kwf-amara.png
+picture: news/KWF_logo2021.png
 groups: diag
 
 The [Dutch Cancer Society](https://www.kwf.nl/en/english) awarded [member/colin-jacobs] with a grant for his research project entitled *”AMARA: Accurate MAlignancy Risk estimation of incidentally and screen-detected pulmonary nodules using Artificial intelligence”*. 
