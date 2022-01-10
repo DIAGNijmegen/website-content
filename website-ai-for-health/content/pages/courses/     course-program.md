@@ -74,7 +74,7 @@ An overview of the short track schedule can be seen below.
 | Date  | Time |  Topic  | Content |
 | ----- | ------- | ------| ------ |
 | 11-02-2022 | 9-13h | Introduction | How is AI changing healthcare? | 
-| 18-02-2022 | 9-13h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
+| 18-02-2022 | 13-17h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
 | 25-02-2022 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
 | 25-03-2022 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
 | 01-04-2022 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
