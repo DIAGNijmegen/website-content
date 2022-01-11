@@ -1,4 +1,4 @@
-title: ERC Starting Grant for research on accurate malignancy risk estimation of pulmonary nodules using AI
+title: ERC Starting Grant for Geert Litjens
 date: 2022-01-10
 description: The European Research Council awarded Geert Litjens with a grant for his project "AIS-CaP: Interpretable Artificial Intelligence across Scales for Next-Generation Cancer Prognostics". 
 picture: news/ERC_2021.png
