@@ -18,4 +18,4 @@ Early stage lung cancer is typically diagnosed after the detection of an inciden
 In this project, we aim to develop artificial intelligence (AI) algorithms for fast and highly reliable detection and assessment of nodules in chest CT, and to validate the novel AI-assisted nodule workflow at two Dutch hospitals.
 
 ## Funding
-This project has received and continues to receive funding from [Radboudumc](https://www.radboudumc.nl) and [Jeroen Bosch Ziekenhuis in 's-Hertogenbosch](https://www.jeroenboschziekenhuis.nl).
+This project is funded by a [Radboud Institute for Health Sciences](https://www.radboudumc.nl/en/radboud-institute-for-health-sciences) Junior Researcher grant, with funding coming from [Radboudumc](https://www.radboudumc.nl) and [Jeroen Bosch Ziekenhuis in 's-Hertogenbosch](https://www.jeroenboschziekenhuis.nl).
