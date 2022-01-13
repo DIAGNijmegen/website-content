@@ -2,7 +2,6 @@ title: Results of the PANDA challenge published in Nature Medicine
 date: 2022-01-13
 description: After two years of hard work, the final results of PANDA Challenge on AI for prostate cancer grading are published!
 picture: news/2022_nat_med_panda.png
-status: draft
 groups: diag, pathology
 
 Prostate cancer grading is a key component in making treatment decisions for patients. However, pathologists can often disagree on the severtiy of the disease, expressed using the Gleason Grade. In 2020, we already showed that AI can help pathologists ([publication/bult20] and [publication/bult20a]). In the same year, using different methods and datasets, researchers from the Karolinska Institute and Google Health showed similar results. This insentivized us to reach out to them, to try and pool our datasets and build even better AI solutions. And, as is the tradition in our group, not just by keeping everything closed and doing it ourselves, but by opening up the data and tools to the world via the [Prostate cANcer graDe Assessment (PANDA) Challenge](https://www.kaggle.com/c/prostate-cancer-grade-assessment).
