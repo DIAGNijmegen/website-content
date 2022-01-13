@@ -10,6 +10,7 @@ email: mart.vanrijthoven@radboudumc.nl
 office: Route 812, room 2.39
 scholar: https://scholar.google.nl/citations?user=VVBmpMQAAAAJ&hl=nl
 researcherid: http://www.researcherid.com/rid/V-1860-2018
+linkedin: https://www.linkedin.com/in/mart-van-rijthoven-72364b120/
 type: phd
 show_publication_years: no
 
