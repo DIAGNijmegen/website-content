@@ -1,5 +1,5 @@
 title: New publication on Deep Learning for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography
-date: 2022-01-15
+date: 2022-01-12
 description: The latest work by Natália Alves, titled “Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography”, has been published in Cancers' special issue on Pancreatic Cancer: Pathogenesis, Early Diagnosis, and Management for Improved Survival.  
 picture: news/PDAC_detection_CT.png
 groups: diag
