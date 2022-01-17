@@ -36,7 +36,8 @@ NAV_SECTIONS = [
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {
         "name": "Publications",
-        "url": f"publications/{CURRENTYEAR}",
+        # "url": f"publications/{CURRENTYEAR}",
+        "url": f"publications/{2021}",
         "icon": "file-text-o",
         "hidden": 85,
     },
