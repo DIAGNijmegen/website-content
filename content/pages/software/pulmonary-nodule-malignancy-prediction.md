@@ -1,7 +1,7 @@
 title: Pulmonary Nodule Malignancy Prediction
 title_long: Pulmonary Nodule Malignancy Risk Estimation
 finished: false
-picture: software/nodule_malignancy_risk_calibration_logo.png
+picture: software/pulmonary-nodule-malignancy-risk-estimation-logo.png
 template: project-single
 groups: diag
 people: Kiran Vaidhya Venkadesh, Bram van Ginneken, Mathias Prokop, Colin Jacobs
