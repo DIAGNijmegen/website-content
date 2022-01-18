@@ -25,4 +25,6 @@ We have made the algorithm freely accessible to the public for research purposes
 
 <a href="https://grand-challenge.org/algorithms/pulmonary-nodule-malignancy-prediction/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
-Some caveats: 1) The algorithm is highly suitable for nodules seen at baseline screening. But for nodules seen at subsequent screenings, the growth and appearance in comparison to the previous CT images are important. We did not calibrate the risk scores in this study. Therefore, the algorithm tends to be over-confident with its predictions - a known problem with deep learning algorithms. We are working on calibrating the output risk scores. Since July 2021, a calibrator has been added to the algorithm and the method behind the calibration is explained [here](https://www.diagnijmegen.nl/software/nodule-malignancy-risk-calibration/).
+Some caveats: the algorithm is highly suitable for nodules seen at baseline screening. But for nodules seen at subsequent screenings, the growth and appearance in comparison to the previous CT images are important. We did not calibrate the risk scores in this study. Therefore, the algorithm tends to be over-confident with its predictions - a known problem with deep learning algorithms. We are working on calibrating the output risk scores. 
+
+[UPDATE] Since July 2021, a calibrator has been added to the algorithm and the method behind the calibration is explained [here](https://www.diagnijmegen.nl/software/nodule-malignancy-risk-calibration/).
