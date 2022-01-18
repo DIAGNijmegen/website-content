@@ -4,10 +4,10 @@ finished: false
 picture: software/nodule_malignancy_risk_calibration_logo.png
 template: project-single
 groups: diag
-people: Kiran Vaidhya Venkadesh, Bram van Ginneken, Mathias Prokop, Colin Jacobs
 description: Calibration of a deep learning algorithm’s outputs for malignancy risk estimation of pulmonary nodules detected at low-dose screening CT.
 bibkeys: Venk21
 
+Kiran Vaidhya Venkadesh, Bram van Ginneken, Mathias Prokop, Colin Jacobs
 
 
 # Introduction
