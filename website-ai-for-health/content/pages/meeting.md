@@ -16,8 +16,9 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  20-01-2022  | Sanyog Vyawahare | TBA |
+|  20-01-2022  | Sanyog Vyawahare | Automated Cephalometric Analysis using Object Detection and Heatmaps |
 |  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Healthplus.ai |
+|  10-03-2022  | Luca Carotenuto | TBA |
 
 ## Past meetings
 
