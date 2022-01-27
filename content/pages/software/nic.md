@@ -4,7 +4,7 @@ picture: software/neural_image_compression.png
 description: Neural image compression for gigapixel histopathology image analysis.
 groups: pathology
 people: David Tellez, Geert Litjens, Jeroen van der Laak, Francesco Ciompi
-bibkeys: Tell19
+bibkeys: Tell21
 github: https://github.com/davidtellez/neural-image-compression
 
 <figure class="figure my-4">
