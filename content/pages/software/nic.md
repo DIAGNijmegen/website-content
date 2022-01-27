@@ -8,7 +8,7 @@ bibkeys: Tell21
 github: https://github.com/davidtellez/neural-image-compression
 
 <figure class="figure my-4">
-  <img data-src="/images/software/nic_pipeline.png" class="figure-img img-fluid lazyload" alt="Overview of the neural image compression pipeline.">
+  <img data-src="{{ IMGURL }}/images/software/nic_pipeline.png" class="figure-img img-fluid lazyload" alt="Overview of the neural image compression pipeline.">
   <figcaption class="figure-caption">Overview of the neural image compression pipeline</figcaption>
 </figure>
 
