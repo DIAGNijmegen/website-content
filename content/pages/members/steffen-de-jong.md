@@ -2,7 +2,7 @@ title: Steffen de Jong
 name: Steffen de Jong
 template: people-single
 picture: people/Steffen_de_Jong.jpg
-position: Master Student
+position: Bachelor Student
 active: yes
 groups: diag
 default_group: diag
