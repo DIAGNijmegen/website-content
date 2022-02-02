@@ -5,8 +5,8 @@ This website was built using the following packages/projects:
 - [Pelican](https://blog.getpelican.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Critical css](https://github.com/addyosmani/critical)
-- [Github pages](https://pages.github.com/)
-- [Travis CI](https://travis-ci.org/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Actions](https://github.com/features/actions)
 - [Latexcodec](https://latexcodec.readthedocs.io)
 
 Icons are from:
