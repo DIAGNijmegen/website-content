@@ -5,7 +5,7 @@ type: general
 template: project-single
 groups: pathology, diag
 default_group: diag
-people: Henkjan Huisman, John Hermans, Geert Litjens, Megan Schuurmans, Natália Alves, Pierpaolo Vendittelli 
+people: Henkjan Huisman, John Hermans, Geert Litjens, Megan Schuurmans, Natália Alves, Pierpaolo Vendittelli, Steffen de Jong
 description:Investigation of AI for pancreatic cancer in radiology, pathology, genomics.
 bibkeys: 
 
