@@ -7,8 +7,13 @@ template: project-single
 people: Koen Dercksen, Max de Grauw, Bram van Ginneken
 description: Develop a method to automatically find statements in radiology reports on presence, size and type of lesions in CT scans. 
 
+Manuela Bergau
+ **Start date: 10-01-2022** <br>
+ **End date: 10-07-2022**
+ 
+Thomas van den Broek
  **Start date: 11-10-2021** <br>
- **End date: 11-07-2022**
+ **End date: 11-04-2022**
 
 ## Clinical Problem 
 
