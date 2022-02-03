@@ -20,6 +20,7 @@ The slides for past presentations are available by clicking on the links in the 
 |  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Healthplus.ai |
 |  03-02-2022  | Thomas van der Broek | TBA |
 |  10-02-2022  | Heleen Kerstholt | TBA |
+|  03-03-2022  | Kirina van der Bijl | TBA |
 |  10-03-2022  | Luca Carotenuto | TBA |
 
 ## Past meetings
