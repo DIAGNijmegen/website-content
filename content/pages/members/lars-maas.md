@@ -2,7 +2,7 @@ title: Lars Maas
 name: Lars Maas
 template: people-single
 picture: people/Lars_Maas.jpg
-position: Bachelor student
+position: Bachelor Student
 active: yes
 groups: diag, pathology
 default_group: pathology
