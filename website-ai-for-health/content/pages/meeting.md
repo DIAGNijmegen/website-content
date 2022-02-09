@@ -17,9 +17,10 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
 |  20-01-2022  | Sanyog Vyawahare | Automated Cephalometric Analysis using Object Detection and Heatmaps |
-|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Healthplus.ai |
-|  03-02-2022  | Thomas van der Broek | TBA |
-|  10-02-2022  | Heleen Kerstholt | TBA |
+|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Towards proactive surgical infection management: Development and external validation of an AI-based prediction tooli |
+|  03-02-2022  | Thomas van der Broek | Natural language processing of radiology reports for lesion detection |
+|  10-02-2022  | Heleen Kerstholt | Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC) |
+|  17-02-2022  | Yassier Elawady | TBA |
 |  24-02-2022  | Kirina van der Bijl | TBA |
 |  10-03-2022  | Luca Carotenuto | TBA |
 
