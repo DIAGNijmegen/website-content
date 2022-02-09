@@ -2,7 +2,7 @@ title: Lars Leijten
 name: Lars Leijten
 template: people-single
 picture: people/Lars_Leijten.jpg
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag

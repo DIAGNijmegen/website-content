@@ -2,7 +2,7 @@ title: Thijs Gelton
 name: Thijs Gelton
 template: people-single
 picture: people/Thijs_Gelton.jpg
-position: Master student
+position: Master Student
 active: yes
 groups: diag, pathology
 default_group: pathology
