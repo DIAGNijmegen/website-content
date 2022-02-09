@@ -1,6 +1,6 @@
 title: Machine Learning with Electronic Patient Records for Diagnosis Prediction in General Practice
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/gp_diagnoses.png
 template: project-single
