@@ -40,14 +40,14 @@ Creates a link to a page on a specific website.
 
 Examples:
 
-- `[grandchallende/archives, slug: luna16]`
-- `[grandchallende/algorithms, slug: gleason-grading-of-prostate-biopsies]`
+- `[grandchallenge/archives, slug: luna16]`
+- `[grandchallenge/algorithms, slug: gleason-grading-of-prostate-biopsies]`
 
 Creates a card with image and description matched to grand challenge. Note only public access can linked
 To create a row of cards, surround multiple special grand challenge tags in a row div, e.g.,:
 ```
     <div class=row>
     [grandchallenge/archives, slug: luna16]
-    [grandchallende/algorithms, slug: gleason-grading-of-prostate-biopsies]
+    [grandchallenge/algorithms, slug: gleason-grading-of-prostate-biopsies]
     </div>
 ```
