@@ -20,12 +20,6 @@ Many critical decisions are made in during the initial trauma assessment. Fitzge
 
 In this project we focus on traumatic injuries to the liver. 
 
-1. Advanced Trauma Life Support (ATLS): The Ninth Edition. J Trauma Acute Care Surg. 2013;74(5)
-2. Fitzgerald et al. Trauma resuscitation errors and computer-assisted decision support. Arch Surg. 2011;146(2):218-225.
-3. Sevdalis et al. Diagnostic error in a national incident reporting system in the UK. J Eval Clin Pract. 2010;16(6):1276-1281
-4. Leape. Error in Medicine. JAMA J Am Med Assoc. 1994;272(23):1851
-5. Waite et al. Interpretive error in radiology. Am J Roentgenol. 2017;208(4):739-749
-
 ## Solution 
 
 A deep learning-based model should be developed for the automatic segmentation of anatomy and pathology on abdominal CT images. Furthermore, the model should be able to classify the type of injury and its features, and predict the probability of rebleeding within the first couple of days following trauma.
@@ -40,20 +34,8 @@ The student will work in a team together with a medical master student and radio
 
 The final deliverable is a code repository on GitHub, a publicly available algorithm on the platform [Grand Challenge](https://grand-challenge.org), a report and validation study and preferably a scientific publication. 
 
-
-## Requirements 
-
-- Students with a major in data science, computer science, or artificial intelligence in the final stage of master level studies are invited to apply. 
-
-- Interest in natural language processing and machine learning. Affinity with image processing is also welcome. 
-
-- Affinity with programming in Python and with deep learning packages is required. 
-
-
-## Information 
-
-- Project duration: 6 months 
-
-- Location: Radboud University Medical Center 
-
-- For more information, please contact [Vincent Stirler](mailto:vincent.stirler@radboudumc.nl) 
+1. Advanced Trauma Life Support (ATLS): The Ninth Edition. J Trauma Acute Care Surg. 2013;74(5)
+2. Fitzgerald et al. Trauma resuscitation errors and computer-assisted decision support. Arch Surg. 2011;146(2):218-225.
+3. Sevdalis et al. Diagnostic error in a national incident reporting system in the UK. J Eval Clin Pract. 2010;16(6):1276-1281
+4. Leape. Error in Medicine. JAMA J Am Med Assoc. 1994;272(23):1851
+5. Waite et al. Interpretive error in radiology. Am J Roentgenol. 2017;208(4):739-749
