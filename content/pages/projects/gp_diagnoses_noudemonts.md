@@ -1,6 +1,6 @@
 title: Exploring Multi-task Learning for Improving Diagnosis in General Practice
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/gp_diagnoses.png
 template: project-single
