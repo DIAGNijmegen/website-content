@@ -17,5 +17,9 @@ Musculoskeletal diseases are responsible for more years lived with disability th
 ## Algorithms
 
 <div class=row>
-[grandchallenge/algorithms, slug: vertebra-segmentation]
+  [grandchallenge/algorithms, slug: vertebra-segmentation]
+  [grandchallenge/algorithms, slug: femur-segmentation-in-ct]
+  [grandchallenge/algorithms, slug: hip-bone-segmentation-in-ct]
+  [grandchallenge/algorithms, slug: body-composition]
+  [grandchallenge/algorithms, slug: vertebral-abnormality-scoring]
 </div>
