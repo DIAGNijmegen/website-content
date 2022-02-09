@@ -13,3 +13,9 @@ Musculoskeletal diseases are responsible for more years lived with disability th
 * [Europees Fonds voor Regionale Ontwikkeling (EFRO)](http://www.op-oost.eu/)
 
 ![EFRO Oost-Nederland]({{ IMGURL }}/images/projects/op_oost_logo.png)
+
+## Algorithms
+
+<div class=row>
+[grandchallende/algorithms, slug: vertebra-segmentation]
+</div>
