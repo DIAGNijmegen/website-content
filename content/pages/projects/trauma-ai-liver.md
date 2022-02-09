@@ -1,6 +1,6 @@
 title: Machine Learning in Acute Care: Liver
 groups: ai-for-health, diag 
-finishe: false
+finished: false
 type: student 
 picture: vacancies/trauma-ai-liver.jpg
 template: project-single
