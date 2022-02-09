@@ -4,7 +4,7 @@ template: research-single
 groups: diag
 description: Musculoskeletal conditions are a major cause of disability. We develop image analysis algorithms to improve diagnosis and treatment.
 projects: lower-back-pain, vertebral-fractures, body-composition-assessment 
-people: Nikolas Lessmann, Matthieu Rutten, Jasper van der Graaf, Lena Philipp
+people: Nikolas Lessmann, Matthieu Rutten, Jasper van der Graaf, Lena Philipp, Lars Leijten
 
 Musculoskeletal diseases are responsible for more years lived with disability than any other kind of chronic condition. We develop image analysis algorithms that assist radiologists and orthopedic surgeons in recognizing musculoskeletal conditions early and in making well-informed treatment decisions based on quantitative imaging data. This research line is led by [member/nikolas-lessmann].
 
@@ -18,7 +18,6 @@ Musculoskeletal diseases are responsible for more years lived with disability th
 
 <div class="row mt-4">
   [grandchallenge/algorithms, slug: vertebra-segmentation]
-  [grandchallenge/algorithms, slug: vertebral-body-segmentation]
   [grandchallenge/algorithms, slug: vertebral-fracture-assessment]
   [grandchallenge/algorithms, slug: vertebral-abnormality-scoring]
   [grandchallenge/algorithms, slug: femur-segmentation-in-ct]
