@@ -7,10 +7,8 @@ template: project-single
 people: Djesse Dirckx, Lotte Willems, Peter-Bram t Hoen, Tom Heskes
 description: Develop a method to identify of drug repurposing candidates for myotonic dystrophy by Graph Convolutional Networks
 
-**This is an AI for Health MSc project. Students are
-elgible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).** 
+**Start date: 01-02-2022** 
+**End date: 31-07-2022** 
 
 ## Clinical Problem 
 Myotonic dystrophy type 1 (DM1) is a rare, inherited, progressive and multisystemic disorder. It is the most common adult form of muscular dystrophy, with an estimated prevalence of 1:8000. Typical signs and symptoms of the disease include progressive muscle weakness and wasting from distal to proximal, ptosis, weakness of facial, jaw and anterior neck muscles, myotonia, daytime sleepiness, fatigue and cataracts. DM1 is one of the most variable human diseases, has complex, multisystemic and progressively worsening clinical manifestations and leads to severe physical impairment, restricted social participation and premature death. DM1 is a neglected disease on various levels. No curative treatment exists, and treatment by gene or genetic therapies lies still far in the future. Since patients would benefit enormously from treatment of debilitating symptoms like muscle weakness, fatigue and aberrant sleeping behaviour, we propose a drug repurposing strategy that should speed up the clinical development of drugs for DM1, using drugs that have already been (FDA) approved for treatment of other disorders and have known safety and pharmacokinetic profiles. Metformin is an example of a repurposed drug with positive effects on DM1 clinical symptoms in a small clinical trial. To identify more of these drug repurposing candidates, we need to make optimal use of the existing knowledge of the clinical overlap between diseases, the molecular targets of FDA-approved drugs and the genes / proteins relevant for the disease. This knowledge can be represented by a drug repurposing knowledge graph. Advanced deep learning methods that use graphs as input (graph neural networks) can be exploited to learn about new relationships between drugs and diseases worth following up in preclinical and clinical research.
