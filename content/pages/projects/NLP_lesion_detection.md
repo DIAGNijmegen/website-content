@@ -4,7 +4,7 @@ finished: false
 type: student 
 picture: vacancies/NLP_lesion_detection.png
 template: project-single
-people: Koen Dercksen, Max de Grauw, Bram van Ginneken
+people: Manuela Bergau, Thomas van den Broek, Koen Dercksen, Max de Grauw, Bram van Ginneken
 description: Develop a method to automatically find statements in radiology reports on presence, size and type of lesions in CT scans. 
 
 Manuela Bergau
