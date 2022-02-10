@@ -5,7 +5,7 @@ type: student
 picture: projects/scoliosis_modeling.jpg
 template: project-single
 people: Lars Leijten, Nikolas Lessmann, Dennis Janssen, Max Bakker, Sebastiaan van de Groes
-description: Automatic quantification of muscle and fat tissue in 3D CT and MR images
+description: Modeling of deformities in adolescent idiopathic scoliosis to improve segmentation
 
 ## Clinical problem
 Artificial intelligence in medical imaging, is a rapidly innovating field which promises the opportunity of fast and objective analysis of medical images. Automatic processing and analysis of these scans could greatly reduce the costs and required man power in the field of Radiology. In orthopedic surgery, CT scans are often used in surgical planning and navigation, where its use results in increases surgical accuracy and reproducibility. Computerized analysis of these scans could increase the options within and the extent to which imaging is applied in orthopedic surgery of the spine. Automatic segmentation and anatomic labeling of the vertebrae is an important aspect of this analysis and it can help in the detection of osteoporosis, compression fractures, scoliosis or spinal abnormalities related to chronic back pain. Additionally, segmented spinal images can be used in planning and virtual practicing of the surgery, creating 3D-printed drilling guides that exactly fit the spine of the patient and aid the surgeon in accurate screw placement. 
