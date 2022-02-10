@@ -2,7 +2,7 @@ title: Scoliosis simulation for improving a segmentation and labelling algorithm
 groups: ai-for-health, diag
 finished: false
 type: student
-picture: projects/scoliosis-modeling.jpg
+picture: projects/scoliosis_modeling.jpg
 template: project-single
 people: Lars Leijten, Nikolas Lessmann, Dennis Janssen, Max Bakker, Sebastiaan van de Groes
 description: Automatic quantification of muscle and fat tissue in 3D CT and MR images
