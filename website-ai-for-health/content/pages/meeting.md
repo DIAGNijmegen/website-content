@@ -16,10 +16,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  20-01-2022  | Sanyog Vyawahare | Automated Cephalometric Analysis using Object Detection and Heatmaps |
-|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Towards proactive surgical infection management: Development and external validation of an AI-based prediction tooli |
-|  03-02-2022  | Thomas van der Broek | Natural language processing of radiology reports for lesion detection |
-|  10-02-2022  | Heleen Kerstholt | Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC) |
+
 |  17-02-2022  | Yassier Elawady | AI in radiology: the rise of AI marketplaces and the future in clinical setting |
 |  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
 |  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
@@ -28,6 +25,10 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  10-02-2022  | Heleen Kerstholt | Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC) |
+|  03-02-2022  | Thomas van der Broek | Natural language processing of radiology reports for lesion detection |
+|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Towards proactive surgical infection management: Development and external validation of an AI-based prediction tooli |
+|  20-01-2022  | Sanyog Vyawahare | Automated Cephalometric Analysis using Object Detection and Heatmaps |
 |  09-12-2021  | Douwe van Erp <br> Manuela Bergau | Automatic AAA Detection from Ultrasound Imaging using Deep Learning <br> Natural language processing of radiology reports for lesion detection |
 |  02-12-2021  | Ruud van Kaam <br> Kirina van der Bijl| Prediction of intracranial hypertension in patients with traumatic brain injury <br> Fetal heart rate detection in twin pregnancies |
 |  25-11-2021  | Mirthe van Diepen | Causal discovery for mechanisms of vascular function and cognition decline |
