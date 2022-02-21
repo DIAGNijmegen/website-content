@@ -18,6 +18,7 @@ The slides for past presentations are available by clicking on the links in the 
 | -------        |    ----  |          --- |
 |  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
 |  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
+|  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images |
 
 ## Past meetings
 
