@@ -1,6 +1,6 @@
 title: Investigating the surge of commercial AI marketplaces for radiology
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/ai-marketplaces-analysis.png
 template: vacancy-single

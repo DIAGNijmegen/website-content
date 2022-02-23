@@ -1,6 +1,6 @@
 title: PhD candidate ‘Development of explainable AI methods for end-to-end-learning with gigapixel images in the BigPicture consortium’
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/KidneyDLpatho.jpg
 people: Francesco Ciompi, Geert Litjens, Jeroen van der Laak

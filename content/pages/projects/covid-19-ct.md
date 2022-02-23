@@ -1,6 +1,6 @@
 title: Improving detection of COVID-19 classification with CT scans
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/corads-ai.jpg
 template: project-single
@@ -88,7 +88,7 @@ It seems that for both iCTCF and RUMC, missingness is very predictive of COVID-1
 
 In order to evaluate the four different methods we used to mitigate fitting on missingness, we employed a random data augmentation strategy. We performed 100 of such augmentations and computed accuracy scores for various (versions) of these missingness mitigation methods. The results of this are shown in the following boxplot:
 
-![Missingness mitigation methods evaluated on randomly augmented toy data](https://github.com/rhacking/website-content/blob/master/content/images/projects/toy_data-1.png)
+![Missingness mitigation methods evaluated on randomly augmented toy data]({{ IMGURL }}/images/projects/toy_data-1.png)
 
 As you can see in this boxplot, the base GBDT model performs very poorly on this task (worse-than-random), whereas the custom decision tree implementation and ensembled multiple imputation generally lead to better-than-random performance. This suggests that these two techniques are indeed effective at mitigating fitting on missingness. 
 

@@ -1,5 +1,6 @@
 title: Former employees
 
+- [Anton Schreuder](https://www.linkedin.com/in/anton-schreuder-21978030/)
 - [Rita Bijlsma](https://www.xing.com/profile/Rita_Bylsma)
 - [Max Argus](https://www.linkedin.com/in/max-argus-5810636)
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
@@ -34,6 +35,7 @@ title: Former employees
 - [Bart Liefers](https://www.linkedin.com/in/bart-liefers-2aa4041a5/)
 - [Pragnya Maduskar](https://nl.linkedin.com/in/pragnya-maduskar-675a408)
 - [Rashindra Manniesing](https://www.linkedin.com/in/rashindra/)
+- [Marco Marra](https://www.linkedin.com/in/marcoamarra/)
 - [Jaime Melendez](https://nl.linkedin.com/pub/jaime-melendez/b6/3b/690)
 - [Midas Meijs](https://www.linkedin.com/in/midas-meijs/)
 - [Caner Mercan](https://nl.linkedin.com/in/caner-mercan-03488389)

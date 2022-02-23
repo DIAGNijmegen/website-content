@@ -1,5 +1,5 @@
-title: Optimal treatment prediction for early stage lung cancer
-title_long: Advanced image analysis to personalize treatment in early stage non-small cell lung cancer
+title: GENERATOR: Optimal treatment prediction for early stage lung cancer
+title_long: GENERATOR: Advanced image analysis to personalize treatment in early stage non-small cell lung cancer
 finished: false
 type: general
 picture: projects/lung-cancer-early-stage-treatment.png

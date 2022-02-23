@@ -5,7 +5,7 @@ template: project-single
 groups: diag
 picture: projects/mammo.jpg
 bibkeys: Mori20, Ayat20, Sech20
-people: Jonas Teuwen, Ritse Mann, Riccardo Samperna, Nikita Moriakov, Nico Karssemeijer
+people: Ritse Mann, Riccardo Samperna, Nikita Moriakov, Nico Karssemeijer
 description: With deep learning, we analyze, improve the image quality, and improve the diagnostic process of mammography, breast tomosynthesis and breast MRI. 
 
 The Radiology department at Radboudumc has a long tradition in breast image analysis. Two projects are currently running in the Diagnostic Image analysis Group. MARBLE studies the use of deep learning to improve the screening of breast cancer with MRI, DBT and mammography. The IMAGINE study aims to find image features on mammograms that can distinguish aggressive breast tumours from those that would never threaten a woman’s life.

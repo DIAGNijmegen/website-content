@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/fhr_twin_pregnancies.png
 template: project-single
-people: Rik Vullings, Joris van Drongelen, Wieteke Heidema, Tom Heskes
+people: Kirina van der Bijl, Rik Vullings, Joris van Drongelen, Wieteke Heidema, Tom Heskes
 description: Development of a model to determine the individual fetal heart rates in twin pregnancies.
 
 **Start date: 30-08-2021** <br>

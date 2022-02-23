@@ -6,7 +6,7 @@ description: AI for Health organizes a weekly meeting that allows the PhD candid
 
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 
 
-The weekly meeting is held in the Skatecourt (r. 14) of the Experience Center of the Radboudumc, every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. The meetings can also be followed online via Zoom. Please join our [Meetup page](https://www.meetup.com/radboud-ai-for-health/) to receive the announcements of our weekly meetings. 
+The weekly meeting is held online, every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. The meetings can be followed online via Zoom. Please join our [Meetup page](https://www.meetup.com/radboud-ai-for-health/) to receive the announcements of our weekly meetings. 
 
 PhD candidates are expected to give an update on their project twice a year. MSc students are required to present their work at half way and end of their project. The research project supervisors are expected to be present during the presentations of their MSc student. The attendance of research project supervisors during other meetings is optional, but highly appreciated. To reserve a presentation slot for a future meeting, please send an email to [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl). 
 
@@ -16,24 +16,33 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | -------        |    ----  |          --- |
-|  02-09-2021  | Michel Botros | Detecting and characterizing vertebral fractures in CT scans |
-|  09-09-2021  | Roel Hacking | Combining chest CT scans and clinical features for improved automated COVID-19 detection |
-|  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
-|  23-09-2021  | Niels van Nistelrooij | Predicting a patient's facial profile after orthognathic surgery |
-|  07-10-2021  | Richard Li  <br> Evgenia Martynova| Diagnosis Prediction in General Practice with Electronic Patient Records <br> Artificial intelligence-assisted detection of adhesions on cine-MRI |
-|  14-10-2021  | Jasper van der Graaf | MRI-based decision support tool for chronic low back pain |
-|  21-10-2021  | Koen Dercksen | Entity linking for patient-friendly radiology reports |
-|  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
-|  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
-|  11-11-2021  | Gelana Khazeeva | TBA |
-|  18-11-2021  | Ruud van Kaam | TBA |
-|  25-11-2021  | Mirthe van Diepen | TBA |
-
+|  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
+|  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
+|  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  17-02-2022  | Yassier Elawady | AI in radiology: the rise of AI marketplaces and the future in clinical setting |
+|  10-02-2022  | Heleen Kerstholt | Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC) |
+|  03-02-2022  | Thomas van der Broek | Natural language processing of radiology reports for lesion detection |
+|  27-01-2022  | **Guest Speaker** <br> Bart Geerts | Towards proactive surgical infection management: Development and external validation of an AI-based prediction tooli |
+|  20-01-2022  | Sanyog Vyawahare | Automated Cephalometric Analysis using Object Detection and Heatmaps |
+|  09-12-2021  | Douwe van Erp <br> Manuela Bergau | Automatic AAA Detection from Ultrasound Imaging using Deep Learning <br> Natural language processing of radiology reports for lesion detection |
+|  02-12-2021  | Ruud van Kaam <br> Kirina van der Bijl| Prediction of intracranial hypertension in patients with traumatic brain injury <br> Fetal heart rate detection in twin pregnancies |
+|  25-11-2021  | Mirthe van Diepen | Causal discovery for mechanisms of vascular function and cognition decline |
+|  18-11-2021  | Luca Carotenuto| Three-dimensional facial landmark detection in 3D Photos |
+|  11-11-2021  | Gelana Khazeeva | AI-driven genetic diagnosis for rare-diseases |
+|  04-11-2021  | Noud Emonts| Multi-BEHRT: A Multi-Task Transformer for Diagnosis Prediction in General Practice |
+|  28-10-2021  | Shankeeth Vinayahalingam | Automated chart filing on panoramic radiographs using deep learning |
+|  21-10-2021  | Koen Dercksen | Entity linking for patient-friendly radiology reports |
+|  14-10-2021  | Jasper van der Graaf | MRI-based decision support tool for chronic low back pain |
+|  07-10-2021  | Richard Li  <br> Evgenia Martynova| Diagnosis Prediction in General Practice with Electronic Patient Records <br> Artificial intelligence-assisted detection of adhesions on cine-MRI |
+|  23-09-2021  | Niels van Nistelrooij | Predicting a patient's facial profile after orthognathic surgery |
+|  16-09-2021  | Cyril de Kock | Automated Quantification of Tumor-Infiltrating Lymphocytes |
+|  09-09-2021  | Roel Hacking | Combining chest CT scans and clinical features for improved automated COVID-19 detection |
+|  02-09-2021  | Michel Botros | Detecting and characterizing vertebral fractures in CT scans |
 |  24-06-2021  | Silvan Quax | Streamlit: a fast way to build and share data apps |
 |  17-06-2021  | **Guest speaker** <br> Kicky van Leeuwen | AI in Radiology: From research to commercialization and back |
 |  10-06-2021  | Richard Li <br> Noud Emonts | [Diagnosis Prediction in General Practice: The Importance of Temporality in EPRs](https://www.ai-for-health.nl/projects/gp_diagnoses_richardli/) <br> [Exploring Multi-task Learning for Improving Diagnosis in General Practice](https://www.ai-for-health.nl/projects/gp_diagnoses_noudemonts/) |

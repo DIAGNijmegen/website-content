@@ -1,6 +1,6 @@
 title: Detecting Fractures in the Radius, Ulna, and Metacarpal Bones on Conventional Radiographs
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/fracture_detection_radius_ulna_metacarpals_msc_project.jpg
 template: project-single

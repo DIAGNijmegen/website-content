@@ -3,6 +3,11 @@
 {% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
 {% block content %}
 
+<div class="col-md-12">
+    {{ page.content }}
+</div>
+
+
 <div class="container-home">
     {% if HOME_JUMBOTRON_LAYOUT == 'dense' %}
     <div class="jumbotron block-home block-home-dense {% if HOME_ALT_COLOR_SCHEME %}block-home-gray{% endif %}">
