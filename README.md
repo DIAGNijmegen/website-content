@@ -37,6 +37,8 @@ To build the css:
 1. Install npm==7.12.0 
 2. Run css build in `radboudumc-theme`: `npm run deploy-watch`
 
+To automatically build and host the website in a docker image, follow the instruction in the docker folder. 
+
 ## Design resources
 
 If you design an image/poster or similar for the website, please store the
