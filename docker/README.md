@@ -9,6 +9,3 @@ Or for the diag website:
 Go to port 8000 (which opens automatically) to view the website on your local machine when running the docker instance. The github repository is located in /home/user/source/website-content.
 
 You can always build and host a specific website manually, by leaving out the additional argument in the c-submit command. 
-
-Detailed example c-submit example command:
-~/c-submit --priority=high --require-mem=4G --gpu-count=0 --require-cpus=1 --node=dlc-ditto --interactive [username] [ticket-number] 4 doduo1.umcn.nl/webteam/website:latest ai-for-health

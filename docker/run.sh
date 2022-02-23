@@ -17,7 +17,7 @@ if [ -z "$1" ]
 
         # Start the SSH daemon and a Jupyter notebook.
         /usr/sbin/sshd
-        cd /home/user && sudo  --set-home --preserve-env --user=user  /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --NotebookApp.token='
+        cd /home/user && /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='
 
     else
         # Print the command for logging.
@@ -25,6 +25,8 @@ if [ -z "$1" ]
         echo
         
         cd /home/user/source/website-content
+        chmod 777 parse_publications.sh
+        ./parse_publications.sh
         WEBSITE=website-"${@}" sh ./copy_content.sh
         cd /home/user
 
@@ -32,5 +34,5 @@ if [ -z "$1" ]
 
         # Start the SSH daemon and a Jupyter notebook.
         /usr/sbin/sshd
-        cd /home/user && sudo  --set-home --preserve-env --user=user  /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --NotebookApp.token='
+        cd /home/user && /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='
 fi
