@@ -1,11 +1,11 @@
+## Build and deploy the website in a docker container
+
 Automticaly pulls the latest master branch from the website-content repository when starting a new docker instance. An additional argument can be given to automatically build and host a specific website. To do so: provide the name of the directory without the "website-" prefix. 
 
-For instance, to automatically build and run the ai-for-health website:
-./c-submit [put your c-submit arguments here] --interactive doduo1.umcn.nl/webteam/website:latest ai-for-health
+## Build and run the docker image locally
+To build the docker image, run: `docker build --tag website .`
+To use the docker image to auto build and host a website use: `docker run --publish=8000:8000 website:latest [website-name]`
+Example: `docker run --publish=8000:8000 website:latest diag` for the DIAG website.
 
-Or for the diag website: 
-./c-submit [put your c-submit arguments here] --interactive doduo1.umcn.nl/webteam/website:latest diag
-
-Go to port 8000 (which opens automatically) to view the website on your local machine when running the docker instance. The github repository is located in /home/user/source/website-content.
-
-You can always build and host a specific website manually, by leaving out the additional argument in the c-submit command. 
+## Build and run the docker image on the DIAG cluster
+The given docker image is maintained on the image registry of the DIAG cluster. Those with access to the DIAG cluster can simply submit an interactive job and refer to the image-registry-website/webteam/website:latest to run the docker image on the cluster (ports are automatically exposed).
