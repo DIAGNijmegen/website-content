@@ -3,7 +3,7 @@ groups: ai-for-health
 finished: false 
 type: student 
 picture: 
-template: vacancy-single
+template: project-single
 people: Adinila Sheikh, Anindo Saha, Henkjan Huisman
 description: Develop a method for domain generalization for prostate cancer detection in MRI
 
