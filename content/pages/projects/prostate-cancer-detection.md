@@ -4,7 +4,7 @@ finished: false
 type: student 
 picture: 
 template: project-single
-people: Adinila Sheikh, Anindo Saha, Henkjan Huisman
+people: Sheikh Adinila, Anindo Saha, Henkjan Huisman
 description: Develop a method for domain generalization for prostate cancer detection in MRI
 
 **Start date: 01-02-2021** <br>
