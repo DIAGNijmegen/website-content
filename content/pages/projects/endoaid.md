@@ -24,7 +24,7 @@ in reducing the workload of pathologists.
 ## Data
 
 In this project, we will include all Radboudumc archival endometrial pipelle biopsies processed between October 2013 and
-April 2021, resulting in a total of about 3900 cases (using a PALGA search to find cases). From this set, we will select
+April 2021, resulting in a total 3230 cases (using a PALGA search to find cases). From this set, we will select
 representative examples of the four main clinically relevant categories that will be addressed in this project, namely
 
 1) normal endometrium
