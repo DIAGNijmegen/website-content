@@ -3,7 +3,7 @@ groups: ai-for-health
 closed: false
 type: student
 picture: vacancies/subsolid-nodule-segmentation-ai4h-21.png
-template: vacancies-single
+template: vacancy-single
 people: Kiran Vaidhya Venkadesh, Bram van Ginneken, Colin Jacobs
 description: Development of deep learning algorithms for subsolid nodule analysis in CT.
 bibkeys: Char18, Ciom17a, Scho14d
@@ -50,4 +50,4 @@ You will be embedded in the Diagnostic Image Analysis Group and will be supervis
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- For more information or to apply for this project, please contact [member/kiran-vaidhya-venkadesh].
+- For more information or to apply for this project, please contact KiranVaidhya.Venkadesh@radboudumc.nl.
