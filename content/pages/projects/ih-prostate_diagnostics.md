@@ -2,7 +2,7 @@ title: Quantification of immunohistochemical markers for improved prostage cance
 groups: ai-for-health
 finished: false
 type: student
-picture: projects/ih-prostate_diagnostics.png
+picture: projects/ih-prostate-diagnostics.png
 template: project-single
 people: Sasha Peerdeman, Jolique van Ipenburg, Geert Litjens
 description: Development of a model for the quantification of immunohistochemical markers for improved prostage cancer prognostics
