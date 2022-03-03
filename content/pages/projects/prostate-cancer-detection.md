@@ -2,7 +2,7 @@ title: Domain Generalization for Prostate Cancer Detection in MRI
 groups: ai-for-health
 finished: false 
 type: student 
-picture: 
+picture: projects/domain_adapt.png
 template: project-single
 people: Sheikh Adilina, Anindo Saha, Henkjan Huisman
 description: Develop a method for domain generalization for prostate cancer detection in MRI
