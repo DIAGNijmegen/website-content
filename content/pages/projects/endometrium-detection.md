@@ -2,7 +2,7 @@ title: AI-assisted detection of endometrium (pre)malignancies in endometrium pip
 groups: ai-for-health
 finished: false
 type: student
-picture: 
+picture: projects/endoaid.png
 template: project-single
 people: Thijs Gelton, Sanne Vermorgen, Francesco Ciompi
 description: Development of a AI-assisted detection model of endometrium (pre)malignancies in endometrium pipelle biopsies
