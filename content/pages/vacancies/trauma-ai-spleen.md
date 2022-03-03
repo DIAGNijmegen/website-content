@@ -1,6 +1,6 @@
 title: Machine Learning in Acute Care: Spleen
 groups: ai-for-health, diag 
-closed: false 
+closed: true
 type: student 
 picture: vacancies/trauma-ai-spleen.jpg
 template: vacancy-single

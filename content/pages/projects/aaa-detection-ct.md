@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/aaa21.jpg
 template: project-single
-people: Bram van Ginneken, Silvan Quax
+people: Anwai Archit, Bram van Ginneken, Silvan Quax
 description: We want to develop a robust deep learning algorithm for automated detection of abdominal aorta aneurysms in CT scans.
 
 **Start date: 01-02-2022** <br>
