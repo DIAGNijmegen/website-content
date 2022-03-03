@@ -1,8 +1,11 @@
-title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies. groups: ai-for-health
-finished: false type: student picture: ![name of image link]({{ IMGURL }}/images/projects/endoaid.png template:
-project-single people: Sanne Vermorgen, Francescio Ciompi, Thijs Gelton description: The development of model to
-detect (pre)malignancies in highly fragmented pipelle sampled biopsies. With the majority being false negatives, it is
-of importance to yield a predictive model with 100% sensivity.
+title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies.
+groups: ai-for-health
+finished: false
+type: student
+picture: projects/endoaid.png
+template: project-single
+people: Thijs Gelton, Sanne Vermorgen, Francescio Ciompi
+description: The development of model to  detect (pre)malignancies in highly fragmented pipelle sampled biopsies. With the majority being false negatives, it is  of importance to yield a predictive model with 100% sensivity.
 
 **Start date: 01-02-2022** <br>
 **End date: 31-07-2022**
