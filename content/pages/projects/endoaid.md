@@ -1,4 +1,4 @@
-title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies. 
+title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies
 groups: ai-for-health
 finished: false 
 type: student 
