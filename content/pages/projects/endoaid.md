@@ -5,8 +5,7 @@ type: student
 picture: projects/endoaid.png 
 template: project-single 
 people: Thijs Gelton, Sanne Vermorgen, Francesco Ciompi 
-description: The development of model to detect (pre)malignancies in highly fragmented pipelle sampled biopsies. With the majority being false negatives, it is of importance to yield a predictive model with
-100% sensivity.
+description: The development of model to detect (pre)malignancies in highly fragmented pipelle sampled biopsies.
 
 **Start date: 01-02-2022** <br>
 **End date: 31-07-2022**
