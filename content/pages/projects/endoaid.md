@@ -1,11 +1,12 @@
-title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies.
+title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies. 
 groups: ai-for-health
-finished: false
-type: student
-picture: projects/endoaid.png
-template: project-single
-people: Thijs Gelton, Sanne Vermorgen, Francescio Ciompi
-description: The development of model to  detect (pre)malignancies in highly fragmented pipelle sampled biopsies. With the majority being false negatives, it is  of importance to yield a predictive model with 100% sensivity.
+finished: false 
+type: student 
+picture: projects/endoaid.png 
+template: project-single 
+people: Thijs Gelton, Sanne Vermorgen, Francesco Ciompi 
+description: The development of model to detect (pre)malignancies in highly fragmented pipelle sampled biopsies. With the majority being false negatives, it is of importance to yield a predictive model with
+100% sensivity.
 
 **Start date: 01-02-2022** <br>
 **End date: 31-07-2022**
@@ -30,10 +31,10 @@ In this project, we will include all Radboudumc archival endometrial pipelle bio
 April 2021, resulting in a total 3230 cases (using a PALGA search to find cases). From this set, we will select
 representative examples of the four main clinically relevant categories that will be addressed in this project, namely
 
-1) normal endometrium
-2) endometrial hyperplasia without atypia
-3) endometrial hyperplasia with atypia
-4) endometrial carcinoma.
+1. Normal endometrium
+2. Endometrial hyperplasia without atypia
+3. Endometrial hyperplasia with atypia
+4. Endometrial carcinoma.
 
 On this set, pathologists will make manual annotations of relevant regions, which will be used for training and
 validation of AI algorithms. For training purposes, about 100 cases will be annotated with manual dense annotations of
@@ -46,8 +47,8 @@ We will develop a segmentation model, trained using our novel Stratified Hard Ne
 most severe category will be used for slide-level diagnosis. This means that if malignant (the highest clinical
 importance) tissue is predicted to be present in the WSI, then this will determine the diagnosis. SHNM is a novel
 addition to Hard Negative Mining (HNM). Regular HNM will select false positives (FP) solely on a likelihood. This
-neglects the morphological value certain categories display. With SHNM the FP are first collected, including metadata (
-coordinates, low dimensional embedding, etc.). In the second stage, these FPs are clustered based on their encoded
+neglects the morphological value certain categories display. With SHNM the FP are first collected, including metadata
+(coordinates, low dimensional embedding, etc.). In the second stage, these FPs are clustered based on their encoded
 embeddings, which represent the morphologies of the cell tissue. This should aid the model in fine-tuning its ability to
 discriminate the difficult morphologies which are located on the boundaries between two categories.
 
