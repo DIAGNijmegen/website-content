@@ -50,4 +50,4 @@ You will be embedded in the Diagnostic Image Analysis Group and will be supervis
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- For more information or to apply for this project, please contact KiranVaidhya.Venkadesh@radboudumc.nl.
+- For more information or to apply for this project, please contact `kiranvaidhya.venkadesh@radboudumc.nl`
