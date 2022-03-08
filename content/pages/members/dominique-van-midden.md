@@ -2,7 +2,7 @@ title: Dominique van Midden
 name: Dominique van Midden
 template: people-single
 picture: people/Dominique_van_Midden.jpg
-position: Pathology Resident
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology
