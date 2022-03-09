@@ -26,7 +26,7 @@ Install requirements
 1. `pip install -r requirements.txt`
 
 To build a website: 
-1. Run: `./parse_publications.sh` to download diag.bib
+1. Run: `./parse_publications.sh` to download diag.bib, or place diag.bib and fullstrings.bib from [diag-literature](https://github.com/DIAGNijmegen/diag-literature) into the content folder and run `./parse_publications_local.sh`
 2. Run: `WEBSITE=website-pathology ./copy_content.sh` to copy files for any website (pathology in this example).
 3. cd into a website folder (e.g., website-pathology): `cd website-pathology`
 4. Run pelican: `pelican --autoreload --listen`
