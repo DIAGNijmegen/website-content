@@ -1,6 +1,6 @@
 title: Three dimensional facial landmark detection in 3D Photos
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: vacancies/3d_landmark_detection.png
 template: project-single
@@ -18,7 +18,7 @@ Therefore, this work attempts to automize facial landmarking by making use of ar
 ![12-landmarks]({{ IMGURL }}/images/projects/3d-landmark-det_landmarks.jpg)
 
 ## Methods
-This work leverages DiffusionNet for surface-learning on point clouds. DiffusionNet is a representation-independent and sampling robust network structure based on heat diffusion. This work presents a point-wise regression method that predicts regions around landmarks with increasing activation closer to the landmark point. The initial network predicts rough landmark positions based on the raw coordinates or the heat kernel signature. A refinement network is subsequently applied to more accurately locate the landmark based on its neighbourhood sampled in high resolution. 
+This work leverages DiffusionNet for surface-learning on point clouds. DiffusionNet is a representation-independent and sampling robust network structure based on heat diffusion. This work presents a point-wise regression method that predicts regions around landmarks with increasing activation closer to the landmark point. The initial network predicts rough landmark positions based on the coordinates with color features or the heat kernel signature. A refinement network is subsequently applied to more accurately locate the landmark based on its neighbourhood sampled in high resolution. 
 
 ![refinement-pipeline]({{ IMGURL }}/images/projects//3d-landmark-det_refinement_pipeline.png)
 
@@ -40,7 +40,7 @@ This work leverages DiffusionNet for surface-learning on point clouds. Diffusion
 | Cheilion (left)        | ch-l         | 2.83             |
 | mean                   |              | 2.217            |
 
-The refinement network appears effective as it improves the initial network’s detetion accuracy of 2.78mm to 2.22mm. Raw coordinate input shows good detection accuracy on faces and craniums that are consistently oriented in space. It was found that the isometry-invariant shape descriptor heat kernel signature yields more suitable input features for faces “in the wild”, where such assumptions cannot be made. 
+The refinement network appears effective as it improves the initial network’s detection accuracy of 2.78mm to 2.22mm. The initial network is trained on coordinate input with color features. Horizontal flipping is applied as data augmentation. Raw coordinate input shows good detection accuracy on faces and craniums that are consistently oriented in space. It was found that the isometry-invariant shape descriptor heat kernel signature yields more suitable input features for faces “in the wild”, where such assumptions cannot be made. 
 
 ## Conclusion
 With a mean error of 2.22mm, the landmark detector shows promising results and makes only slightly more inaccurate predictions than a human annotator does. However, the model is limited to consistent head orientations. If that requirement is not met, a model trained on HKS features can enable rotation invariance but shows inferior detection accuracies. 
