@@ -16,14 +16,15 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-|  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos | De Waalbrug B, route 7, Experience Center |
-|  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images | De Waalbrug B, route 7, Experience Center |
+|  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images | Online |
 |  24-03-2022  | Sasha Peerdeman | TBA | TBA |
+|  31-03-2022  | Manuela Bergau <br> Thomas van der Broek | TBA | TBA |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
 |  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
 |  17-02-2022  | Yassier Elawady | AI in radiology: the rise of AI marketplaces and the future in clinical setting |
 |  10-02-2022  | Heleen Kerstholt | Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC) |
