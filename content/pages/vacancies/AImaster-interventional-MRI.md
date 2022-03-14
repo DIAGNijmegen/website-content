@@ -32,4 +32,4 @@ In this pilot project, the focus is on simulated interventional MRI. The tasks a
 
 - Project duration: 6-9 months
 - Location: Radboud University Medical Center
-- For more information, please contact [Patrick Brand](http://diagnijmegen.nl/index.php/Person?name=Patrick_Brand)
+- For more information, please contact [member/patrick-brand]

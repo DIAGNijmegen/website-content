@@ -299,12 +299,6 @@ people:
     url: https://www.linkedin.com/in/quirine-manson-3157508a/?originalSubdomain=nl
     picture: people/external/Quirine_Manson.jpg
     email: 
-  - name: Tariq Haddad
-    position: PhD student
-    affiliation: Pathology, Radboudumc
-    url: http://diagnijmegen.nl/index.php/Person?name=Tariq_Haddad
-    picture: people/external/Tariq_Haddad.jpg
-    email: Tariq.Haddad@radboudumc.nl
   - name: Tristan de Boer
     position: Master student
     affiliation: Data Science, Radboud University

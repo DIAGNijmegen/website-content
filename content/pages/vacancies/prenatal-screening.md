@@ -30,4 +30,4 @@ When the algorithms have sufficient sensitivity and accuracy, and are able to ru
 ## Information
 -	Project duration: 6 months
 -	Location: Radboud University Medical Center
--	For more information, please contact [Thomas van den Heuvel](http://diagnijmegen.nl/index.php/Person?name=Thomas_van_den_Heuvel) 
+-	For more information, please contact [member/thomas-van-den-heuvel] 
