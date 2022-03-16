@@ -3,6 +3,8 @@ import glob
 import shutil
 import sys
 
+from pelican.settings import get_settings_from_file
+
 directories = ['members', 'news', 'presentations', 'projects', 'software', 'vacancies', 'calendar', 'publications', 'research']
 
 site = sys.argv[1]
@@ -48,7 +50,11 @@ for dir in directories:
                 print(f"Error parsing {file_path}.")
                 print(e)
 
-        
-
+# Copy only the default pages that are actually used
+settings = get_settings_from_file(os.path.join(site, 'pelicanconf.py'))
+for section in settings['NAV_SECTIONS']:
+    file_path = os.path.join('content', 'pages', 'defaults', section['url'] + '.md')
+    if os.path.exists(file_path):
+        shutil.copyfile(file_path, os.path.join(site, 'content', 'pages', section['url'] + '.md'))
 
 print(f'Copied pages to {site}.')
