@@ -7,7 +7,9 @@ set -e
 python parse_content.py $WEBSITE
 
 # Copy default base pages
-cp -r --no-clobber content/pages/defaults/. $WEBSITE/content/pages/
+cp --no-clobber content/pages/defaults/404.md $WEBSITE/content/pages/404.md
+cp --no-clobber content/pages/defaults/colofon.md $WEBSITE/content/pages/colofon.md
+cp --no-clobber content/pages/defaults/home.md $WEBSITE/content/pages/home.md
 
 # copy bib files
 cp content/bibitems.json $WEBSITE/content/bibitems.json
