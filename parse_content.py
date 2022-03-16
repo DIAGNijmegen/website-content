@@ -53,8 +53,9 @@ for dir in directories:
 # Copy only the default pages that are actually used
 settings = get_settings_from_file(os.path.join(site, 'pelicanconf.py'))
 for section in settings['NAV_SECTIONS']:
-    file_path = os.path.join('content', 'pages', 'defaults', section['url'] + '.md')
+    page = section['url'].split('/')[0] + '.md'
+    file_path = os.path.join('content', 'pages', 'defaults', page)
     if os.path.exists(file_path):
-        shutil.copyfile(file_path, os.path.join(site, 'content', 'pages', section['url'] + '.md'))
+        shutil.copyfile(file_path, os.path.join(site, 'content', 'pages', page))
 
 print(f'Copied pages to {site}.')
