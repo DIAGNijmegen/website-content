@@ -60,8 +60,9 @@ for dir in directories:
 settings = get_settings_from_file(os.path.join(site, "pelicanconf.py"))
 for section in settings["NAV_SECTIONS"]:
     page = section["url"].split("/")[0] + ".md"
-    file_path = os.path.join("content", "pages", "defaults", page)
-    if os.path.exists(file_path):
-        shutil.copyfile(file_path, os.path.join(site, "content", "pages", page))
+    src_path = os.path.join("content", "pages", "defaults", page)
+    dst_path = os.path.join(site, "content", "pages", page)
+    if os.path.exists(src_path) and not os.path.exists(dst_path):
+        shutil.copyfile(src_path, dst_path)
 
 print(f"Copied pages to {site}.")
