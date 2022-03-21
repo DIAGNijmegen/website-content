@@ -57,9 +57,22 @@ for dir in directories:
                 print(e)
 
 # Copy only the default pages that are actually used
+default_pages = set()
+
+# -> pages that are linked to in the navigation bar
 settings = get_settings_from_file(os.path.join(site, "pelicanconf.py"))
 for section in settings["NAV_SECTIONS"]:
     page = section["url"].split("/")[0] + ".md"
+    default_pages.add(page)
+
+# -> pages that have a sub-content, e.g., software pages exist = copy software.md
+for file_path in glob.glob(os.path.join("content", "pages", "defaults", "*.md")):
+    page = os.path.basename(file_path)
+    name = page[:-3]
+    if os.path.exists(os.path.join(site, "content", "pages", name)):
+        default_pages.add(page)
+
+for page in default_pages:
     src_path = os.path.join("content", "pages", "defaults", page)
     dst_path = os.path.join(site, "content", "pages", page)
     if os.path.exists(src_path) and not os.path.exists(dst_path):
