@@ -9,7 +9,9 @@ description: Are you an enthusiastic researcher with a MSc degree in Medicine, T
 
 ## Background
 Intrapulmonary lung nodules are focal abnormalities in the lungs that present potential early stage lung cancers. Computed tomography (CT) imaging is highly sensitive for the detection of lung nodules. The Dutch-Belgian NELSON trial among 15,000 participants followed for 10 years, recently showed that CT screening leads to 24% lung cancer mortality reduction in long-term male smokers. This positive result has sparked discussions on implementation of lung cancer screening in the Netherlands.
-Pulmonary nodules are very common in the target population for screening with a prevalence ranging from 22% to 74%, depending on the inclusion criteria, CT parameters, and minimal size cut-off [2-5]. The vast majority of these nodules are benign, but their presence may result in additional investigations to prove their benign nature. 
+
+Pulmonary nodules are very common in the target population for screening with a prevalence ranging from 22% to 74%, depending on the inclusion criteria, CT parameters, and minimal size cut-off. The vast majority of these nodules are benign, but their presence may result in additional investigations to prove their benign nature. 
+
 Pulmonary nodules are also frequently detected on routine chest CT imaging, so-called incidental lung nodules. In 2015, a large study across a large hospital network in Southern California reported that incidental pulmonary nodules are an increasingly common finding in routine medical care, with an incidence that is much greater than recognized previously. In a recent study, we analyzed the data on CT examinations and reported lung nodules at two Dutch hospitals between 2008 and 2017. We found that the number of patients who underwent chest CT examinations substantially increased over the past decade, the proportion of patients in whom a pulmonary nodule was found increased, as did the percentage receiving CT. These findings underline that more effective nodule management becomes an increasingly important public health issue.
 
 ## Problem description
@@ -43,7 +45,7 @@ You should be a creative and enthusiastic researcher with a MSc in a relevant fi
 Interest in medical imaging, with a particular focus on oncologic (lung) imaging and artificial intelligence. Interest in and preferably experience with scientific research. 
 
 ## Organisation
-The [Diagnostic Image Analysis Group)](http://www.diagnijmegen.nl ) is a research group of the Department of Medical Imaging of the Radboud University Medical Center.  We develop, validate and deploy novel AI algorithms in healthcare. This PhD position falls with the [lung cancer image analysis research line]( https://www.diagnijmegen.nl/research/lung-cancer-image-analysis/) led by Colin Jacobs. We actively collaborate with many international players in the field of lung cancer care, and have a strong focus on integration of our AI algorithms into clinical practice.
+The [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl) is a research group of the Department of Medical Imaging of the Radboud University Medical Center.  We develop, validate and deploy novel AI algorithms in healthcare. This PhD position falls with the [lung cancer image analysis research line]( https://www.diagnijmegen.nl/research/lung-cancer-image-analysis/) led by Colin Jacobs. We actively collaborate with many international players in the field of lung cancer care, and have a strong focus on integration of our AI algorithms into clinical practice.
 
 ## Terms of employment
 Starting date is preferably June 1, 2022.
