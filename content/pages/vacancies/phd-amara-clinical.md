@@ -48,7 +48,7 @@ The [Diagnostic Image Analysis Group)](http://www.diagnijmegen.nl ) is a researc
 ## Terms of employment
 Starting date is preferably June 1, 2022.
 The project will appoint a PhD candidate for 4 years in total. Your performance will be evaluated after 1 year. If the evaluation is positive, the contract will be extended by another 3 years.
-The gross monthly salary, depending on education will be scale 10A or scale 10 based on a full-time working week (excl. vacation bonus and 8,3% end of year payments). 
+The gross monthly salary, depending on education, will be scale 10A or scale 10 based on a full-time working week (excl. vacation bonus and 8,3% end of year payments). 
 Upon commencement of employment we require a certificate of conduct (Verklaring Omtrent het Gedrag, VOG) and there will be, depending on the type of job, a screening based on the provided cv. Radboud university medical center’s HR Department will apply for this certificate on your behalf.
 Read more about the [Radboudumc employment conditions](http://www.radboudumc.nl/en/working-at/terms-and-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
