@@ -7,6 +7,9 @@ import os
 TODAY = date.today()
 CURRENTYEAR = TODAY.year
 
+# Check if there are publications in CURRENTYEAR, if not show publications of previous year
+PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
+
 AUTHOR = "WebteamDIAG"
 SITENAME = "Computational Pathology Group"
 SITENAME_SHORT = "CPG"
@@ -28,9 +31,6 @@ PARENT_DOMAIN = (
     '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
 )
 HOME_JUMBOTRON_LAYOUT = "dense"
-
-# Check if there are publications in CURRENTYEAR, if not show publications of previous year
-PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"{SITE_REPO}/content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
