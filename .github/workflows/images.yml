@@ -40,14 +40,6 @@ jobs:
           node optimize.js
           cd ..
 
-      - name: Pull New Changes
-        run: git pull
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update optimized images
-          file_pattern: imgoptim/image-cache.json assets/images/*
-
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: |
@@ -83,3 +75,11 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_MEDIA }}
+
+      - name: Pull New Changes
+        run: git pull
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update optimized images
+          file_pattern: imgoptim/image-cache.json assets/images/*
