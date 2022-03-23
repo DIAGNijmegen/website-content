@@ -28,6 +28,9 @@ PARENT_DOMAIN = (
 )
 HOME_JUMBOTRON_LAYOUT = "dense"
 
+# Check if there are publications in CURRENTYEAR, if not show publications of previous year 
+PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"{SITE_REPO}/content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
+
 # What sections to show in the nav bar
 NAV_SECTIONS = [
     {"name": "News", "url": "news", "icon": "megaphone"},
@@ -37,7 +40,8 @@ NAV_SECTIONS = [
     {
         "name": "Publications",
         # "url": f"publications/{CURRENTYEAR}",
-        "url": f"publications/{2021}",
+        # "url": f"publications/{2021}",
+        "url": f"publications/{PUBLICATIONSYEAR}",
         "icon": "file-text-o",
         "hidden": 85,
     },

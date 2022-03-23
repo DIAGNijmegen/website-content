@@ -29,6 +29,9 @@ PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = "dense"
 CSS_THEME = "diag-theme"
 
+# Check if there are publications in CURRENTYEAR, if not show publications of previous year 
+PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"{SITE_REPO}/content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
+
 # What sections to show in the nav bar
 # For diag the text is shown in viewports lg and up, below that only the icon is shown
 # d-lg-block is used to force to show the text on lg viewports, for other websites there is not
@@ -54,7 +57,8 @@ NAV_SECTIONS = [
     },
     {
         "name": "Publications",
-        "url": f"publications/{CURRENTYEAR}",
+        # "url": f"publications/{CURRENTYEAR}",
+        "url": f"publications/{PUBLICATIONSYEAR}",
         "icon_mobile": "file-text-o",
         "text_class": "d-lg-block",
     },
