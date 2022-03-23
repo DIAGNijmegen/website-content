@@ -22,14 +22,17 @@ Please see the [documentation](https://github.com/DIAGNijmegen/website-content/t
 
 ## Building the website locally
 
-Install requirements: `pip install -r requirements.txt`
+Requirements: Linux environment (on Windows via WSL) and Python 3
 
-To build a website: 
-1. Run: `bash ./parse_publications.sh` to download diag.bib and fullstrings.bib. If that fails due to authentication issues, download these files manually from [diag-literature](https://github.com/DIAGNijmegen/diag-literature) into the content folder and run `python ./bibliography/bibparser.py`
-2. Run: `WEBSITE=website-pathology LOCAL=1 bash ./copy_content.sh` to copy files for any website (pathology in this example).
-3. cd into the website folder: `cd website-pathology`
-4. Run pelican: `pelican --autoreload --listen`
-5. Visit `http://localhost:8000`
+Preparations:
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run: `bash ./parse_publications.sh` to download diag.bib and fullstrings.bib. If that fails due to authentication issues, download these files manually from [diag-literature](https://github.com/DIAGNijmegen/diag-literature) into the content folder and run `python ./bibliography/bibparser.py` instead.
+3. Run: `WEBSITE=website-pathology LOCAL=1 bash ./copy_content.sh` to copy files for any website.
+
+Building the website:
+1. cd into the website folder: `cd website-pathology`
+2. Run pelican: `pelican --autoreload --listen`
+3. Visit `http://localhost:8000`
 
 To build the css:
 1. Install npm==7.12.0 
