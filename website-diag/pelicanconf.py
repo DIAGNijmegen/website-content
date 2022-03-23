@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 from datetime import date
 import os
 
-CURRENTYEAR = date.today().year
+TODAY = date.today()
+CURRENTYEAR = TODAY.year
 
 # Check if there are publications in CURRENTYEAR, if not show publications of previous year
 PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"{SITE_REPO}/content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
@@ -57,7 +58,6 @@ NAV_SECTIONS = [
     },
     {
         "name": "Publications",
-        # "url": f"publications/{CURRENTYEAR}",
         "url": f"publications/{PUBLICATIONSYEAR}",
         "icon_mobile": "file-text-o",
         "text_class": "d-lg-block",
@@ -114,8 +114,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-CURRENTYEAR = date.today().year
-TODAY = date.today()
 LINKS = ()
 DEFAULT_PAGINATION = 10
 
