@@ -78,7 +78,7 @@ An overview of the short track schedule can be seen below.
 | 25-02-2022 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
 | 25-03-2022 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
 | 01-04-2022 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
-| 08-04-2022 | 9-13h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
+| 08-04-2022 | 13-17h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
 | 22-04-2022 |  | Project Day 1 | Defining project goals and understanding your data |
 | 13-05-2022 | 9-13h | Text Mining | Learn how to get valuable insights from medical records |
 | 20-05-2022 |  | Project Day 2 | Data preparation and model development |
