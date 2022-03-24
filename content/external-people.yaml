@@ -1,4 +1,10 @@
 people:
+  - name: Eric Steenbergen
+    position: Pathologist
+    affiliation: Radboud University Medical Center
+    url: https://www.radboudumc.nl/personen/eric-steenbergen
+    picture: people/external/Eric_Steenbergen.jpg
+    email: eric.steenbergen@radboudumc.nl
   - name: Jasper Twilt
     position: PhD Candidate
     affiliation: Radboud University Medical Center
