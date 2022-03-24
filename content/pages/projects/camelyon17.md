@@ -1,5 +1,5 @@
 title: CAMELYON17
-finished: false
+finished: true
 type: general
 picture: projects/camelyon17_2_1.png
 template: project-single
