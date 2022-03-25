@@ -44,4 +44,4 @@ You will be embedded in the Department Medical Imaging, Anatomy at Radboudumc, a
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- For more information or to apply for this project, please contact [member/geert-litjens].
+- For more information or to apply for this project, please contact Geert.Litjens@radboudumc.nl.
