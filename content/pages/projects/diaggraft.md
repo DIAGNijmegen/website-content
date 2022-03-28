@@ -21,4 +21,4 @@ With this project, we aim to develop powerful deep learning-based tools for futu
 
 ## Funding
 
-[Kolff+ Success Accelerator Grant, Dutch Kidney Foundation](https://nierstichting.nl/voor-professionals/wetenschappelijk-onderzoek/calls-proposals/)
+[Kolff+ Success Accelerator Grant, Dutch Kidney Foundation](https://nierstichting.nl)
