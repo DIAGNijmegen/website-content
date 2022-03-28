@@ -16,11 +16,13 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 31-03-2022  | Manuela Bergau <br> Thomas van der Broek | TBA | Waalbrug C, route 7, Experience Center |
+| 31-03-2022  | Manuela Bergau <br> Thomas van der Broek | Leveraging radiology reports for automatic lesion detection in CT scans <br> Natural language processing of radiology reports for lesion detection | Waalbrug C, route 7, Experience Center |
 | 07-04-2022  | Cyril de Kock | TBA | TBA |
 | 14-04-2022 | PhD-only meeting | - | TBA |
 | 21-04-2022 | TBA | TBA | TBA |
 | 28-04-2022 | Lars Leijten | TBA | TBA |
+| 05-05-2022 | No meeting | - | - |
+| 12-05-2022 | Thijs Gelton | TBA | TBA |
 
 ## Past meetings
 
