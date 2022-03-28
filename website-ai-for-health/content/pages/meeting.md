@@ -16,15 +16,17 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-|  24-03-2022  | Sasha Peerdeman | Generalising model for detection and quantification of tumour infiltrating lymphocytes | Waalbrug C, route 7, Experience Center |
-|  31-03-2022  | Manuela Bergau <br> Thomas van der Broek | TBA | Waalbrug C, route 7, Experience Center |
-|  07-04-2022  | Cyril de Kock | TBA | TBA |
+| 31-03-2022  | Manuela Bergau <br> Thomas van der Broek | TBA | Waalbrug C, route 7, Experience Center |
+| 07-04-2022  | Cyril de Kock | TBA | TBA |
 | 14-04-2022 | PhD-only meeting | - | TBA |
+| 21-04-2022 | TBA | TBA | TBA |
+| 28-04-2022 | Lars Leijten | TBA | TBA |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  24-03-2022  | Sasha Peerdeman | Generalising model for detection and quantification of tumour infiltrating lymphocytes |
 |  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images |
 |  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
 |  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
