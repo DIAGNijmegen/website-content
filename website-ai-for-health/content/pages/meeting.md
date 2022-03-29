@@ -6,7 +6,7 @@ description: AI for Health organizes a weekly meeting that allows the PhD candid
 
 The interactive meeting provides an excellent opportunity for all members to learn about the course, ongoing research projects and the AI innovations for Health(care) that are being worked on. 
 
-The weekly meeting is held online, every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. The meetings can be followed online via Zoom. Please join our [Meetup page](https://www.meetup.com/radboud-ai-for-health/) to receive the announcements of our weekly meetings. 
+The weekly meeting is held in person as well as online, every Thursday afternoon from 15:00 - 16:00 PM, and is **mandatory for all PhD candidates and MSc students**. The meetings can be followed online via Zoom. Please join our [Meetup page](https://www.meetup.com/radboud-ai-for-health/) to receive the announcements of our weekly meetings. 
 
 PhD candidates are expected to give an update on their project twice a year. MSc students are required to present their work at half way and end of their project. The research project supervisors are expected to be present during the presentations of their MSc student. The attendance of research project supervisors during other meetings is optional, but highly appreciated. To reserve a presentation slot for a future meeting, please send an email to [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl). 
 
@@ -14,16 +14,24 @@ The slides for past presentations are available by clicking on the links in the 
 
 ## Upcoming meetings
 
-| Date    | Speaker           |   Title    |
-| -------        |    ----  |          --- |
-|  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
-|  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
-|  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images |
+| Date    | Speaker           |   Title    |   Location   |
+| -------        |    ----  |          --- | --- |
+| 31-03-2022  | Manuela Bergau <br> Thomas van der Broek | Leveraging radiology reports for automatic lesion detection in CT scans <br> Natural language processing of radiology reports for lesion detection | Waalbrug C, route 7, Experience Center |
+| 07-04-2022  | Cyril de Kock | TBA | Skatecourt, route 14, Experience Center |
+| 14-04-2022 | PhD-only meeting | - | Skatecourt, route 14, Experience Center |
+| 21-04-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 28-04-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
+| 05-05-2022 | No meeting | - | - |
+| 12-05-2022 | Thijs Gelton <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+|  24-03-2022  | Sasha Peerdeman | Generalising model for detection and quantification of tumour infiltrating lymphocytes |
+|  17-03-2022  | Lena Philipp | Body composition assessment in 3D CT and MR images |
+|  10-03-2022  | Luca Carotenuto | Three dimensional landmark detection in 3D CT-Scans and 3D Photos |
+|  24-02-2022  | Kirina van der Bijl | Fetal heart rate detection in twin pregnancies |
 |  17-02-2022  | Yassier Elawady | AI in radiology: the rise of AI marketplaces and the future in clinical setting |
 |  10-02-2022  | Heleen Kerstholt | Predicting treatment for Addictive Behaviors in Clinical practice (PreT-ABC) |
 |  03-02-2022  | Thomas van der Broek | Natural language processing of radiology reports for lesion detection |

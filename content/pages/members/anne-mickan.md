@@ -4,7 +4,7 @@ template: people-single
 picture: people/Anne_Mickan.jpg
 position: Research Software Engineer
 active: yes
-groups: diag, rse, radiology, rtc
+groups: diag, rse, rtc
 default_group: rse
 email: anne.mickan@radboudumc.nl
 office: 

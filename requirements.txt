@@ -1,8 +1,9 @@
 pip==21.1
-pelican==4.1.0
+pelican==4.5.0
 markdown==3.2.2
 latexcodec==1.0.5
 beautifulsoup4==4.7.1
 pyyaml==5.4
-numpy==1.19.4
+numpy==1.22.3
 requests==2.25.1
+jinja2==3.0.3

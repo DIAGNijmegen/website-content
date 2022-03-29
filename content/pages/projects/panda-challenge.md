@@ -1,5 +1,5 @@
 title: PANDA Challenge
-finished: false
+finished: true
 type: general
 picture: projects/panda_logo_1_2.png
 template: project-single

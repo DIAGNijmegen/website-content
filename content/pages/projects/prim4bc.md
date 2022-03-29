@@ -1,5 +1,5 @@
 title: PRIM4BC
-finished: false
+finished: true
 type: general
 bibkeys: Balk19,Balk19a,Tell18a,Tell18b
 picture: projects/PRIMB4C_1.jpg

@@ -4,7 +4,7 @@ description: Researchers of the Radboud University, the Radboud University Medic
 picture: news/marble_kickoff.png
 groups: diag
 
-The objective of the 4-year project [MARBLE](https://www.aiimnijmegen.nl/projects/marble/) is to develop and validate AI algorithms for breast cancer screening.
+The objective of the 4-year project MARBLE is to develop and validate AI algorithms for breast cancer screening.
 
 **MARBLE description**
 

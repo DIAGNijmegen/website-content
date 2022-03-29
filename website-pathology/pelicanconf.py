@@ -2,10 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
+import os
 
-
-CURRENTYEAR = date.today().year
 TODAY = date.today()
+CURRENTYEAR = TODAY.year
+
+# Check if there are publications in CURRENTYEAR, if not show publications of previous year
+PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
+
 AUTHOR = "WebteamDIAG"
 SITENAME = "Computational Pathology Group"
 SITENAME_SHORT = "CPG"
@@ -36,8 +40,7 @@ NAV_SECTIONS = [
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {
         "name": "Publications",
-        # "url": f"publications/{CURRENTYEAR}",
-        "url": f"publications/{2021}",
+        "url": f"publications/{PUBLICATIONSYEAR}",
         "icon": "file-text-o",
         "hidden": 85,
     },

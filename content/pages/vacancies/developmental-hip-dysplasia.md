@@ -1,5 +1,5 @@
 title: Automated Detection of Developmental Hip Dysplasia
-groups: ai-for-health, diag, music
+groups: ai-for-health, diag
 closed: false
 type: student
 picture: projects/developmental-hip-dysplasia.png

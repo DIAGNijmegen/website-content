@@ -28,4 +28,4 @@ aspect of this project is also the implementation as an easy to use web-app so t
 ## Information
 -	Project duration: 6 months
 -	Location: Radboud University Medical Center
--	For more information, please contact [Nikolas Lessmann](http://diagnijmegen.nl/index.php/Person?name=Nikolas_Lessmann) 
+-	For more information, please contact [member/nikolas-lessmann] 

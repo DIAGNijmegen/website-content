@@ -33,4 +33,4 @@ The goal is to integrate the algorithm in a set of chest x-ray analysis algorith
 ## Information
 - Project duration: 6 months
 - Location: Radboud University Medical Center
-- For more information, please contact [Keelin Murphy](http://diagnijmegen.nl/index.php/Person?name=Keelin_Murphy)
+- For more information, please contact [member/keelin-murphy]

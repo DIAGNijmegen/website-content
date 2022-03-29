@@ -4,7 +4,7 @@ template: people-single
 picture: people/Marco_Marra.jpg
 position: Research Software Engineer
 active: no
-groups: diag, rse, radiology, rtc
+groups: diag, rse, rtc
 default_group: rse
 email: marco.marra@radboudumc.nl
 office: Route 767

@@ -82,3 +82,15 @@ jobs:
           website-api: ${{ secrets[matrix.site-id] }}
           netlify_key: ${{ secrets.NETLIFY_DEV_AUTH }}
           github_token: ${{ secrets.GH_BIB_TOKEN }}
+
+  notify:
+    needs: deploy
+    if: ${{ failure() }}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Send notification
+        run: python -c "print('I should be sending a notification, but that is not implemented yet...')"
