@@ -2,7 +2,7 @@ title: Menno Hackmann
 name: Menno Hackmann
 template: people-single
 picture: people/Menno_Hackmann.jpg
-position: Research technician
+position: Bachelor student / Research technician
 active: yes
 groups: diag, pathology
 default_group: pathology
