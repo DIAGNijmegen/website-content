@@ -8,6 +8,13 @@ git clone https://github.com/DIAGNijmegen/website-content.git /home/user/source/
 chown --recursive user:user /home/user/source/website-content
 chmod 777 /home/user/source/website-content/copy_content.sh
 
+# Copy bib files
+cp bibfiles/diag.bib /home/user/source/website-content/content/diag.bib
+cp bibfiles/fullstrings.bib /home/user/source/website-content/content/fullstrings.bib
+
+# Copy images
+cp -r assets/images content/images
+
 # Check if extra arguments were given and execute it as a command.
 if [ -z "$1" ]
     then
@@ -17,7 +24,7 @@ if [ -z "$1" ]
 
         # Start the SSH daemon and a Jupyter notebook.
         /usr/sbin/sshd
-        cd /home/user && /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='
+        cd /home/user && sudo  --set-home --preserve-env --user=user  /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --NotebookApp.token='
 
     else
         # Print the command for logging.
@@ -25,8 +32,6 @@ if [ -z "$1" ]
         echo
         
         cd /home/user/source/website-content
-        chmod 777 parse_publications.sh
-        ./parse_publications.sh
         WEBSITE=website-"${@}" sh ./copy_content.sh
         cd /home/user
 
@@ -34,5 +39,5 @@ if [ -z "$1" ]
 
         # Start the SSH daemon and a Jupyter notebook.
         /usr/sbin/sshd
-        cd /home/user && /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='
+        cd /home/user && sudo  --set-home --preserve-env --user=user  /bin/bash -c '/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --NotebookApp.token='
 fi
