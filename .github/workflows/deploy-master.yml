@@ -85,8 +85,7 @@ jobs:
 
   notify:
     needs: deploy
-    #if: ${{ failure() }}
-    if: ${{ github.event_name == 'workflow_dispatch' }}
+    if: ${{ failure() && github.event_name != 'workflow_dispatch'}}
     runs-on: ubuntu-20.04
     steps:
       - name: Send message to Teams channel
