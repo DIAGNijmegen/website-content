@@ -83,3 +83,15 @@ jobs:
         with:
           commit_message: Update optimized images
           file_pattern: imgoptim/image-cache.json assets/images/*
+
+  notify:
+    needs: deploy
+    if: ${{ failure() && github.event_name != 'workflow_dispatch'}}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Send message to Teams channel
+        run: |
+          cat << EOF > message.json
+          {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Image optimization failed!","themeColor":"ff0000","title":"$GITHUB_REPOSITORY image optimization failed","sections":[{"facts":[{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Commit:","value":"$GITHUB_SHA"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}]}
+          EOF
+          curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json
