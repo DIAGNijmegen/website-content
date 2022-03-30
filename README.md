@@ -10,7 +10,6 @@ This repository stores all the content and source code for the DIAG websites. Fr
 Live websites:
 
 - Pathology: https://www.computationalpathologygroup.eu
-- Retina: https://www.a-eyeresearch.nl
 - RSE: https://rse.diagnijmegen.nl
 - AI for Health: https://www.ai-for-health.nl
 - RTC: https://rtc.diagnijmegen.nl
