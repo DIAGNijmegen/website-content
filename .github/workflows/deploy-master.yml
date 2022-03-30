@@ -85,12 +85,13 @@ jobs:
 
   notify:
     needs: deploy
-    if: ${{ failure() }}
+    #if: ${{ failure() }}
+    if: ${{ github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-20.04
     steps:
-      - name: Setup Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.9
-      - name: Send notification
-        run: python -c "print('I should be sending a notification, but that is not implemented yet...')"
+      - name: Send message to Teams channel
+        run: |
+          cat << EOF > message.json
+          {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Build failed!","themeColor":"ff0000","title":"$GITHUB_REPOSITORY deployment failed","sections":[{"facts":[{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Commit:","value":"$GITHUB_SHA"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}]}
+          EOF
+          curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json
