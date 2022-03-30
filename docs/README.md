@@ -51,7 +51,8 @@ Please follow the guides below to update or write new content for one of the web
 
 Documentation regarding technical aspects of the website.
 
-- [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/setting-up-a-new-website.md)
-- [Website configuration](https://github.com/DIAGNijmegen/website-content/blob/master/docs/website-configuration.md)
-- [Publications pipeline for developers](https://github.com/DIAGNijmegen/website-content/blob/master/docs/publications-pipeline-developers.md)
-- [Critical CSS](https://github.com/DIAGNijmegen/website-content/blob/master/docs/critical-above-the-fold-css.md)
+- [Overview](https://github.com/DIAGNijmegen/website-content/blob/master/docs/dev/README.md)
+- [Set up new website](https://github.com/DIAGNijmegen/website-content/blob/master/docs/dev/setting-up-a-new-website.md)
+- [Website configuration](https://github.com/DIAGNijmegen/website-content/blob/master/docs/dev/website-configuration.md)
+- [Publications pipeline for developers](https://github.com/DIAGNijmegen/website-content/blob/master/docs/dev/publications-pipeline-developers.md)
+- [Critical CSS](https://github.com/DIAGNijmegen/website-content/blob/master/docs/dev/critical-above-the-fold-css.md)
