@@ -14,6 +14,10 @@ Example: [vimeo: 326352382]
 
 Adds an embedded and responsive YouTube/vimeo frame to a page.
 
+The size of the embedded video can be customized if needed:
+
+`[youtube: <video id>, width: 400px, height: 200px]`
+
 ## Linking to content pages
 
 `[<content type>/<slug>]`

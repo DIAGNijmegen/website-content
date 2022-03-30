@@ -27,10 +27,14 @@ regex_gc = re.compile(
 )
 
 # Matches: [youtube: video_id]
-regex_youtube = re.compile(r"\[youtube:\s*(?P<video>[a-zA-Z0-9\-\_]+)\]")
+regex_youtube = re.compile(
+    r"\[youtube:\s*(?P<video>[a-zA-Z0-9\-_]+)\s*(,\s*width: (?P<width>[0-9]+([a-z]+|%)))?\s*(,\s*height: (?P<height>[0-9]+([a-z]+|%)))?\]"
+)
 
 # Matches: [vimeo: video_id]
-regex_vimeo = re.compile(r"\[vimeo:\s*(?P<video>[a-zA-Z0-9\-\_]+)\]")
+regex_vimeo = re.compile(
+    r"\[vimeo:\s*(?P<video>[a-zA-Z0-9\-\_]+)\s*(,\s*width: (?P<width>[0-9]+([a-z]+|%)))?\s*(,\s*height: (?P<height>[0-9]+([a-z]+|%)))?\]"
+)
 
 # Matches: [slideshare: slide_id]
 regex_slideshare = re.compile(r"\[slideshare:\s*(?P<slide>[a-zA-Z0-9\-\_]+)\]")
@@ -150,16 +154,32 @@ def parse_content_tag(text, context):
         return identifier
 
 
+def width_height_tags(text):
+    extra_html = []
+
+    width = text.group("width")
+    if width:
+        extra_html.append(f' width="{width}"')
+
+    height = text.group("height")
+    if height:
+            extra_html.append(f' height="{height}"')
+
+    return "".join(extra_html)
+
+
 def parse_youtube_tag(text):
     """Replaces [youtube: id] tags"""
     video_id = text.group("video")
-    return f'<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/{video_id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>'
+    extra_html = width_height_tags(text)
+    return f'<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/{video_id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen{extra_html}></iframe></div>'
 
 
 def parse_vimeo_tag(text):
     """Replaces [vimeo: id] tags"""
     video_id = text.group("video")
-    return f'<div class="video-container"><iframe src="https://player.vimeo.com/video/{video_id}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'
+    extra_html = width_height_tags(text)
+    return f'<div class="video-container"><iframe src="https://player.vimeo.com/video/{video_id}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen{extra_html}></iframe></div>'
 
 
 def parse_slideshare_tag(text):
