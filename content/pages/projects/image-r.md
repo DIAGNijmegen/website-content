@@ -1,10 +1,10 @@
 title: IMAGE-R
 title_long: IMAGE-R
-finished: false
+finished: true
 type: general
 picture: projects/image-r.jpg
 template: project-single
-groups: diag, retina
+groups: diag
 default_group: diag
 people: Coen de Vente, Clarisa Sánchez
 description: Project to develop an image analysis system for automated diagnosis and management of retinal diseases.

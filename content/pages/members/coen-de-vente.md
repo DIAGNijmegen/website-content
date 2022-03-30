@@ -3,8 +3,8 @@ name: Coen de Vente
 template: people-single
 picture: people/Coen_de_Vente.jpg
 position: PhD Candidate
-active: yes
-groups: diag, retina
+active: no
+groups: diag
 default_group: diag
 email: coen.devente@radboudumc.nl
 office: Route 767, Room 32

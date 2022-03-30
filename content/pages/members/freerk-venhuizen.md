@@ -4,7 +4,7 @@ template: people-single
 picture: people/Freerk_Venhuizen.jpg
 position: PhD Candidate
 active: no
-groups: diag, retina
+groups: diag
 default_group: diag
 type: phd
 linkedin: https://www.linkedin.com/in/freerkvenhuizen/
