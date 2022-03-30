@@ -5,7 +5,7 @@ picture: people/Cristina_Gonzalez_Gonzalo_2.jpg
 position: PhD Candidate
 active: yes
 groups: diag, retina
-default_group: retina
+default_group: diag
 email: cristina.gonzalezgonzalo@radboudumc.nl
 type: phd
 linkedin: https://www.linkedin.com/in/cristina-gonzalez-gonzalo-32756a151/

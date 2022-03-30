@@ -5,7 +5,7 @@ picture: people/Alessandro_Ardu.jpg
 position: PhD Candidate
 active: no
 groups: diag, retina
-default_group: retina
+default_group: diag
 email: alessandro.ardu@radboudumc.nl
 office: Route 767, Room 32
 type: phd

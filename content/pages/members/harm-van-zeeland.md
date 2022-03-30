@@ -5,7 +5,7 @@ picture: people/Harm_van_Zeeland.jpg
 position: Research Software Engineer
 active: yes
 groups: diag, rse, retina, rtc
-default_group: retina
+default_group: diag
 email: harm.vanzeeland@radboudumc.nl
 office: Route 767, Room 2.25
 telephone:
