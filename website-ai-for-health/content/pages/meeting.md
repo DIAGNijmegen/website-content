@@ -19,10 +19,11 @@ The slides for past presentations are available by clicking on the links in the 
 | 31-03-2022  | Manuela Bergau <br> Thomas van der Broek | Leveraging radiology reports for automatic lesion detection in CT scans <br> Natural language processing of radiology reports for lesion detection | Waalbrug C, route 7, Experience Center |
 | 07-04-2022  | Cyril de Kock | TBA | Skatecourt, route 14, Experience Center |
 | 14-04-2022 | PhD-only meeting | - | Skatecourt, route 14, Experience Center |
-| 21-04-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 21-04-2022 | Enrico Schmitz | TBA | Skatecourt, route 14, Experience Center |
 | 28-04-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
 | 05-05-2022 | No meeting | - | - |
 | 12-05-2022 | Thijs Gelton <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
+| 19-05-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
