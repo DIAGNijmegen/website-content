@@ -7,16 +7,15 @@ template: project-single
 people: Manuela Bergau, Thomas van den Broek, Koen Dercksen, Max de Grauw, Bram van Ginneken
 description: Develop a method to automatically find statements in radiology reports on the presence, size and type of lesions in CT scans. 
 
-Manuela Bergau
+Manuela Bergau <br>
  **Start date: 10-01-2022** <br>
  **End date: 10-07-2022**
  
-Thomas van den Broek
+Thomas van den Broek <br>
  **Start date: 11-10-2021** <br>
  **End date: 11-04-2022**
 
 ## Clinical Problem 
-
 The work of a radiologist is to describe relevant findings that can be seen in
 an imaging study in the form of a free text report. Although radiologists learn
 to report their findings in specific ways, following a certain writing style
@@ -72,9 +71,9 @@ relatively small amount of available labelled data points and only managed to
 obtain an F1 of 0.51. Regardless, the main purpose of the algorithm, i.e.,
 relation extraction was quite successful.
 
-The examples below serve to illustrate the functioning of the algorithm. The
+![nlp-radiology-reports]({{ IMGURL }}/images/projects/NLP_lesion_detection_RE.png)
+ 
+The examples above serve to illustrate the functioning of the algorithm. The
 words in red show which word was used as a target for the prediction, the words
 in yellow are the words that the algorithm predicted belong to said target
 word.
-
-![nlp-radiology-reports]({{ IMGURL }}/images/projects/NLP_lesion_detection_RE.png)
