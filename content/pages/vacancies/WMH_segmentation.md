@@ -34,7 +34,7 @@ An automatic classifier to assess WMH burden beyond the standard division of les
 Finally, by investigating changes in white matter and how these might differently impact pathology depending on the burden of WMH, we expect to elucidate which mechanisms play a role in later stages of disease, and ultimately lead to dementia. Altogether, we believe that the possibility of developing an automatic classifier for white matter changes from our HF MRI dataset can be beneficial for research, and to clinical practice from speeding up diagnostic procedures to help understand the progression of white matter lesions.
 
 ## Embedding 
-You will be embedded in the Department Medical Imaging, Anatomy at Radboudumc, and collaborate closely with the Computational Pathology Group Radboudumc. We provide access to several analysis PCs, direct supervision by PhD students and regular meetings with the supervisors of this project.
+You will be embedded in the Department Medical Imaging, Anatomy at Radboudumc, and collaborate closely with the Computational Pathology Group Radboud UMC. We provide access to several analysis PCs, direct supervision by PhD students and regular meetings with the supervisors of this project.
 
 ## Requirements 
 - Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics, or Biomedical Sciences in the final stages of their Master education.
