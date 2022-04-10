@@ -9,7 +9,7 @@ default_group: diag
 email: henkjan.huisman@radboudumc.nl
 office: Route 767, Room 30
 type: faculty
-telephone: +31 24 3617536 
+telephone: +31 6 30336546
 linkedin: http://www.linkedin.com/pub/henkjan-huisman/4b/7b3/28a
 scholar: http://scholar.google.com/citations?user=zkMmvCwAAAAJ
 
