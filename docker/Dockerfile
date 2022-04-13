@@ -1,26 +1,27 @@
-# This dockerfile configures a base docker image for the computational pathology group.
-#
-FROM doduo1.umcn.nl/uokbaseimage/diag:tf2.5-pt1.9-v1
+FROM ubuntu:20.04
 
-COPY .bashrc /home/user/.bashrc
+# Install python3.8
+RUN : \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends software-properties-common \
+    && add-apt-repository -y ppa:deadsnakes \
+    && apt-get install -y --no-install-recommends python3.8-venv \
+    && apt-get install libpython3.8-dev -y \
+    && apt-get clean \
+    && :
+    
+# Add env to PATH
+RUN python3.8 -m venv /venv
+ENV PATH=/venv/bin:$PATH
 
+# Website specific requirements
 COPY requirements.txt ./
+RUN apt-get install nodejs -y
+RUN apt-get install curl -y
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-RUN sudo apt-get update -y
-RUN sudo apt-get upgrade -y
-RUN sudo apt-get install nodejs -y
-RUN sudo curl -qL https://www.npmjs.com/install.sh | sh
-
-# Prioritize python3
-RUN sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
-
-RUN pip3 install --no-cache-dir -r requirements.txt
-
-# Install website  port.
-#
 EXPOSE 8000
 
 # Copy the entry point script and set the entry point.
-#
-COPY run.sh /root
+COPY docker/run.sh /root
 ENTRYPOINT ["/bin/bash", "/root/run.sh"]

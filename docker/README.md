@@ -1,14 +1,23 @@
-Automticaly pulls the latest master branch from the website-content repository when starting a new docker instance. An additional argument can be given to automatically build and host a specific website. To do so: provide the name of the directory without the "website-" prefix. 
+Docker used to automatically build and host a specific website. To do so, provide the name of the directory (without the "website-" prefix). 
 
-For instance, to automatically build and run the ai-for-health website:
-./c-submit [put your c-submit arguments here] --interactive doduo1.umcn.nl/webteam/website:latest ai-for-health
+## Building the docker
+To build the docker locally, run:
+```
+docker build . -f docker/Dockerfile --tag website
+```
+**The -f command points to the relative path of the Dockerfile, therefore make sure to run this command from the main folder of the repository.**
 
-Or for the diag website: 
-./c-submit [put your c-submit arguments here] --interactive doduo1.umcn.nl/webteam/website:latest diag
+## Running the docker
+Execute the following:
+```
+docker run --tty -p 8000:8000 -v </path/to/local/repository>:/home/user/website-content website:latest <website-name>
+```
+Replace `</path/to/local/repository>` with the correct path and replace `<website-name>` with one of the following: `ai-for-health, base, diag, pathology, rse, rtc`.
 
-Go to port 8000 (which opens automatically) to view the website on your local machine when running the docker instance. The github repository is located in /home/user/source/website-content.
+## Development Workflow
+1. Run the docker, example command: `docker run --tty -p 8000:8000 -v /home/user/documents/website-content:/home/user/website-content website:latest diag`
+2. Visit `0.0.0.0:8000` to see the locally hosted website. 
+3. Start developing locally, all changes in your local folder (in the example: /home/user/documents/website-content) will result in an automatic rebuild of the locally hosted website.
 
-You can always build and host a specific website manually, by leaving out the additional argument in the c-submit command. 
-
-## Bib files
-parse_publications.sh requires authentication, therefore these files are included in the bibfiles directory and copied upon execution of the docker image. If outdated, these files need to be updated manually. 
+## Bibfiles
+The bibfiles subdirectory contains a version of the required bibfiles. For the most up-to-date version, download the files from the corresponding repository.
