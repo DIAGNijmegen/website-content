@@ -1,6 +1,6 @@
 # Setting up a new website
 
-This file describe the steps to set up a new website.
+This file describes the steps to set up a new website.
 
 ## 1. Setting up the repository
 
