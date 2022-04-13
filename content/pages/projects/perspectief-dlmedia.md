@@ -1,10 +1,10 @@
 title: Dynamic retinal deep learning
-finished: false
+finished: true
 type: general
 picture: projects/perspectief.jpg
 template: project-single
-groups: diag, retina
-default_group: retina
+groups: diag
+default_group: diag
 people: Cristina González-Gonzalo, Clarisa Sánchez
 description: The goal of this project is to automate the screening workflow of eye diseases using innovative techniques based on artificial neural networks.
 bibkeys: Gonz18, Gonz19, Gonz19a, Gonz19b, Gonz20

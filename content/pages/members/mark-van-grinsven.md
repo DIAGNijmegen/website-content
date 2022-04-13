@@ -4,8 +4,8 @@ template: people-single
 picture: people/Mark_van_Grinsven.jpg
 position: PhD Candidate
 active: no
-groups: diag, retina
-default_group: retina
+groups: diag
+default_group: diag
 type: phd
 linkedin: https://www.linkedin.com/in/mark-van-grinsven/
 

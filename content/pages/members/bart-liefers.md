@@ -4,8 +4,8 @@ template: people-single
 picture: people/Bart_Liefers.jpg
 position: PhD Candidate
 active: yes
-groups: retina
-default_group: retina
+groups: diag
+default_group: diag
 email: bart.liefers@radboudumc.nl
 office: Route 767, Room 32
 type: phd
