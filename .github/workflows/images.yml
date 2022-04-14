@@ -35,7 +35,8 @@ jobs:
       - name: Pull in intermediate changes
         run: git pull
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - id: auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Crop thesis covers
           file_pattern: content/images/theses/*
