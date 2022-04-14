@@ -25,7 +25,7 @@ jobs:
           python-version: 3.9
 
       - name: Install dependencies
-        run: pip install -r ./requirements.txt
+        run: pip install imageio==2.16.2
 
       - name: Crop thesis covers
         run: python ./crop_thesis_covers.py
@@ -36,7 +36,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update cropped thesis covers [skip ci]
-          file_pattern: content/images/covers/*
+          file_pattern: content/images/theses/*
 
   images:
     needs: theses
