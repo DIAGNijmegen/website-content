@@ -9,6 +9,7 @@ on:
 
 jobs:
   cancel-running-jobs:
+    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs
@@ -16,7 +17,31 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
+  theses:
+    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: pip install -r ./requirements.txt
+
+      - name: Crop thesis covers
+        run: python ./crop_thesis_covers.py
+
+       - name: Pull in intermediate changes
+         run: git pull
+
+       - uses: stefanzweifel/git-auto-commit-action@v4
+         with:
+           commit_message: Update cropped thesis covers
+           file_pattern: assets/images/covers/*
+
   images:
+    needs: theses
     if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
@@ -76,7 +101,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_MEDIA }}
 
-      - name: Pull New Changes
+      - name: Pull in intermediate changes
         run: git pull
 
       - uses: stefanzweifel/git-auto-commit-action@v4
