@@ -9,7 +9,6 @@ on:
 
 jobs:
   cancel-running-jobs:
-    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs
@@ -18,7 +17,6 @@ jobs:
           access_token: ${{ github.token }}
 
   theses:
-    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -42,7 +40,6 @@ jobs:
 
   images:
     needs: theses
-    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
