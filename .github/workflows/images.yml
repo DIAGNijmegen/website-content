@@ -1,7 +1,6 @@
 name: Optimize Images
 on:
   workflow_dispatch:
-    branches: [master]    
   push:
     branches: [master]
     paths:
@@ -43,6 +42,7 @@ jobs:
 
   images:
     needs: theses
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
