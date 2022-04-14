@@ -18,6 +18,8 @@ jobs:
 
   theses:
     runs-on: ubuntu-latest
+    outputs:
+      changes: ${{ steps.auto-commit-action.outputs.changes_detected }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
@@ -35,7 +37,7 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Crop thesis covers [skip ci]
+          commit_message: Crop thesis covers
           file_pattern: content/images/theses/*
 
   images:
@@ -43,7 +45,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Pull in intermediate changes
+
+      - name: Pull in cropped thesis covers
+        if: needs.theses.outputs.changes == 'true'
         run: git pull && git checkout HEAD
 
       - uses: actions/setup-node@v1
@@ -112,7 +116,7 @@ jobs:
 
   notify:
     needs: images
-    if: ${{ failure() && github.event_name != 'workflow_dispatch'}}
+    if: ${{ failure() && github.event_name != 'workflow_dispatch' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Send message to Teams channel
