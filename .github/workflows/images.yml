@@ -32,13 +32,13 @@ jobs:
       - name: Crop thesis covers
         run: python ./crop_thesis_covers.py
 
-       - name: Pull in intermediate changes
-         run: git pull
+      - name: Pull in intermediate changes
+        run: git pull
 
-       - uses: stefanzweifel/git-auto-commit-action@v4
-         with:
-           commit_message: Update cropped thesis covers
-           file_pattern: assets/images/covers/*
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update cropped thesis covers
+          file_pattern: assets/images/covers/*
 
   images:
     needs: theses
