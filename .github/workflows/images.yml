@@ -37,7 +37,7 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update cropped thesis covers
+          commit_message: Update cropped thesis covers [skip ci]
           file_pattern: assets/images/covers/*
 
   images:
