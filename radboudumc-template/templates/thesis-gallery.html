@@ -13,7 +13,7 @@
     {% set list_pub_type = ['phdthesis'] %}
 
     <!-- Inpress keys should go here. To include "Accepted or to appear" section -->
-    <p>Below is an overview of PhD theses written or supervised by members of the Diagnostic Image Analysis Group.</p>
+    <p>Below is an overview of PhD theses written or supervised by members of the group.</p>
 
     <!-- Lists the publications per year and organized by publication type -->
     <div class="row">
@@ -47,7 +47,7 @@
     <!-- Thesis without cover -->
     <div class="row">
         <div class="col-md-12 mb-4">
-            <h3>Thesis (without cover)</h3>
+            <h3>Theses without cover</h3>
             <ul>
                 {% for bibkey in theses_without_cover %}
                 {% include "blocks/publication-item.html" %}
