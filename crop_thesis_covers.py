@@ -13,12 +13,12 @@ for imgfile in imgdir.glob("*.png"):
     # Crop image to match target aspect ratio
     if aspect_ratio > target_aspect_ratio:
         new_width = round(target_aspect_ratio * image.shape[0])
-        if new_width < image.shape[1]:
+        if image.shape[1] - new_width > 1:  # ignore 1 pixel differences
             offset = (image.shape[1] - new_width) // 2
             image = image[:, offset : offset + new_width]
     else:
         new_height = round(image.shape[1] / target_aspect_ratio)
-        if new_height < image.shape[0]:
+        if image.shape[0] - new_height > 1:
             offset = (image.shape[0] - new_height) // 2
             image = image[offset : offset + new_height, :]
 
