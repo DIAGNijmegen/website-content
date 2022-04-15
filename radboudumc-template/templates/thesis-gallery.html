@@ -43,7 +43,7 @@
         {% endfor %}
     </div>
 
-
+    {% if theses_without_cover|length > 0 %}
     <!-- Thesis without cover -->
     <div class="row">
         <div class="col-md-12 mb-4">
@@ -55,6 +55,8 @@
             </ul>
         </div>
     </div>
+    {% endif %}
+
     {% endif %}
 </div>
 {% endblock %}
