@@ -22,7 +22,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 12-05-2022 | Sanyog Vyawahare <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
 | 19-05-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
 | 26-05-2022 | No Meeting | - | - |
-| 02-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 02-06-2022 | Heleen Kerstholt | TBA | Skatecourt, route 14, Experience Center |
 | 09-06-2022 | Thijs Gelton | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
