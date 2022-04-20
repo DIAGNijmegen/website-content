@@ -1,10 +1,10 @@
 title: AI-based Diagnostic Decision Making in Primary Care
-groups: ai-for-health, diag
+groups: ai-for-health
 finished: false
 type: general
 picture: projects/AIPC_Project.jpg
 template: project-single
-people: Ron Kusters, Steeft Kurstjens, Matthieu Rutten, Bram van Ginneken 
+people: Anoeska Schipper, Ron Kusters, Steeft Kurstjens, Matthieu Rutten, Bram van Ginneken 
 description: This project focuses on the development and implementation of an AI-based diagnostic tool to assist GP’s in their interpretation of diagnostic data and clinical characteristics.
 
 ## Clinical problem
