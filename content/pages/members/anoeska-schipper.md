@@ -1,7 +1,7 @@
 title: Anoeska Schipper
 name: Anoeska Schipper
 template: people-single
-picture: people/Anoeska_Schipper.png
+picture: people/Anoeska_Schipper.jpg
 position: PhD Candidate
 active: yes
 groups: diag
