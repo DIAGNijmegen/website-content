@@ -16,7 +16,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 21-04-2022 | Enrico Schmitz | TBA | Skatecourt, route 14, Experience Center |
+| 21-04-2022 | Enrico Schmitz | Applications of deep learning on orthostatic hypotension detection | Skatecourt, route 14, Experience Center |
 | 28-04-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
 | 05-05-2022 | No meeting | - | - |
 | 12-05-2022 | Sanyog Vyawahare <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
