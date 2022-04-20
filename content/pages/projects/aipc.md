@@ -1,5 +1,5 @@
 title: AI-based Diagnostic Decision Making in Primary Care
-groups: ai-for-health
+groups: diag, ai-for-health
 finished: false
 type: general
 picture: projects/AIPC_Project.jpg
