@@ -16,7 +16,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 21-04-2022 | Enrico Schmitz | Applications of deep learning on orthostatic hypotension detection | Skatecourt, route 14, Experience Center |
 | 28-04-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
 | 05-05-2022 | No meeting | - | - |
 | 12-05-2022 | Sanyog Vyawahare <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
@@ -29,6 +28,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 21-04-2022 | Enrico Schmitz | Applications of deep learning on orthostatic hypotension detection |
 | 14-04-2022 | PhD-only meeting | - |
 | 07-04-2022  | Cyril de Kock | Automated quantification of tumor-infiltrating lymphocytes |
 | 31-03-2022  | Manuela Bergau <br> Thomas van der Broek | Leveraging radiology reports for automatic lesion detection in CT scans <br> Natural language processing of radiology reports for lesion detection |
