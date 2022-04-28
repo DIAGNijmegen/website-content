@@ -1,7 +1,7 @@
 title: Second-place honor for short-talk Mohs AI tool during PhD retreat
 date: 2022-04-22
 description: Daan Geijs' short-talk on the development of a Mohs surgery AI tool was reviewed as second-best during the annual PhD retreat of RIHS.
-picture: people/daan_geijs_phd_retreat_2022.jpeg
+picture: news/mini2_daan_geijs_phd_retreat_2022.jpg
 groups: diag, pathology
 
 This year on April 21 and April 22 a new edition of the [Radboud Institute for Health Sciences (RIHS)](https://www.radboudumc.nl/en/radboud-institute-for-health-sciences) PhD retreat was held at the Pathé cinema in Nijmegen. An event organized by and for PhD candidates of the RIHS.
