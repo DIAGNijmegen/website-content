@@ -41,6 +41,7 @@ title: Former employees
 - [Caner Mercan](https://nl.linkedin.com/in/caner-mercan-03488389)
 - [Christian Mol](http://nl.linkedin.com/pub/christian-mol/3/357/a21)
 - [Jan-Jurre Mordang](https://www.linkedin.com/in/jan-jurre-mordang-244a6741/)
+- Nikita Moriakov
 - [Charlotte Neger](https://www.linkedin.com/in/cneger/)
 - [Marcel Oei](https://www.linkedin.com/in/marcel-oei-bb2a3a10/)
 - [Nick Overdijk](https://www.linkedin.com/pub/nick-overdijk/9a/a81/273)
