@@ -1,6 +1,6 @@
 # Manage publications and theses gallery
 
-1. All publications and theses are collected from the diag.bib (https://github.com/DIAGNijmegen/diag-literature) that is *automatically* copied into website-content/content/.
+1. All publications and theses are collected from the diag.bib (https://github.com/DIAGNijmegen/Literature) that is *automatically* copied into website-content/content/.
 2. The allowed entry types are: InProceedings, Conference, Article, PhdThesis, Mastersthesis, Patent, Book
 3. Personal publications are based on the last names from the member's pages in combination with the bibentry.
 4. Besides the standard keyword in the bibfile the following extra keywords can be used: gsid, gscites, code, github, algorithm, vimeo.
