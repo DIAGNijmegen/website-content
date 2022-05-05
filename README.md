@@ -25,7 +25,7 @@ Requirements: Linux environment (on Windows via WSL) and Python 3
 
 Preparations:
 1. Install dependencies: `pip install -r requirements.txt`
-2. Download the files diag.bib and fullstrings.bib from [diag-literature](https://github.com/DIAGNijmegen/diag-literature) and place them into the content folder. Then run `LOCAL=1 bash ./parse_publications.sh` to parse these files.
+2. Run `bash ./parse_publications.sh` to download and parse the publication files.
 3. Run: `LOCAL=1 WEBSITE=website-pathology bash ./copy_content.sh` to copy files for any website.
 
 Building the website:
