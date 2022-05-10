@@ -9,6 +9,7 @@ default_group: diag
 email: noa.antonissen@radboudumc.nl
 office: 
 type: phd
+linkedin: https://www.linkedin.com/in/noaantonissen
 
 Noa Antonissen is currently a PhD candidate in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at the Medical Imaging Department of Radboudumc.
 She obtained her Bachelor’s and Master’s degree in Medicine at the Radboud University in 2021. During her studies she worked as a medical student at the Medical Imaging department and was involved in multiple AI-driven detection projects.
