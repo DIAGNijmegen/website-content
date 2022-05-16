@@ -16,9 +16,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 28-04-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
-| 05-05-2022 | No meeting | - | - |
-| 12-05-2022 | Sanyog Vyawahare <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
 | 19-05-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
 | 26-05-2022 | No Meeting | - | - |
 | 02-06-2022 | Heleen Kerstholt | TBA | Skatecourt, route 14, Experience Center |
@@ -28,6 +25,8 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 12-05-2022 | Sanyog Vyawahare <br> Laura Alvarez | Automated landmark detection on lateral headplates for orthodontic diagnosis <br> Automated abdominal trauma injury segmentation and AAST classification |
+| 28-04-2022 | Lars Leijten | Scoliosis simulation for improving segmentation and labeling of vertebrae |
 | 21-04-2022 | Enrico Schmitz | Applications of deep learning on orthostatic hypotension detection |
 | 14-04-2022 | PhD-only meeting | - |
 | 07-04-2022  | Cyril de Kock | Automated quantification of tumor-infiltrating lymphocytes |
