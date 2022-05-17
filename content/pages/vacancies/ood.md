@@ -2,7 +2,7 @@ title: Generic out-of-distribution detection for radiology AI systems
 groups: ai-for-health, diag
 closed: false
 type: student
-picture: vacancies/ood.png
+picture: vacancies/ood.jpg
 template: vacancy-single
 people: Bram van Ginneken, Keelin Murphy
 description: Develop a method for out-of-distribution detection to make AI more reliable and robust
