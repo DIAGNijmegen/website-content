@@ -8,7 +8,7 @@ people: Laura Álvarez, Vincent Stirler, Erik Hermans, Monique Brink, Stan Bucke
 description: Will deep learning-based algorithms become the new members of the trauma team?  
 
 **This is an AI for Health MSc project. Students are
-elgible to receive a monthly reimbursement of €500,- for
+eligible to receive a monthly reimbursement of €500,- for
 a period of six months. For more information please read the
 [requirements](https://www.ai-for-health.nl/requirements/).**
 
