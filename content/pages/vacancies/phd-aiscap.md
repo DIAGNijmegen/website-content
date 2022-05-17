@@ -1,6 +1,6 @@
 title: PhD candidate ‘AI-based grading of cancer for improved assessment of patient prognosis’
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/phd-aiscap.jpg
 people: Geert Litjens
