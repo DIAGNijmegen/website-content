@@ -4,8 +4,8 @@ template: people-single
 picture: people/Joep_Kamps.jpg
 position: Data Manager
 active: no
-groups: diag, rse, retina
-default_group: retina
+groups: diag, rse
+default_group: diag
 email:  joep.kamps@radboudumc.nl
 office: Route 767, Room 25
 type: tech

@@ -1,6 +1,6 @@
 title: Deep placental vessel segmentation and registration for fetal laser surgery
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/placental-vessel-segmentation.png
 template: vacancy-single

@@ -873,3 +873,21 @@ people:
     url:
     picture: 
     email: lena.philip@radboudumc.nl
+  - name: Ron Kusters
+    position: Professor, Head of Laboratory JBZ
+    affiliation: Health Technology & Services Research, University of Twente
+    url: https://people.utwente.nl/g.c.m.kusters?tab=about-me
+    picture: people/external/Ron_Kusters.jpg
+    email: r.kusters@jbz.nl
+  - name: Steef Kurstjens
+    position: Clinical Chemist, JBZ
+    affiliation: Physiology, Radboudumc
+    url: https://www.linkedin.com/in/steef-kurstjens/
+    picture: people/external/Steef_Kurstjens.jpg
+    email: s.kurstjens@jbz.nl
+  - name: Ritse Mann
+    position: Radiologist
+    affiliation: Radiology, Radboudumc
+    url:
+    picture: people/external/Ritse_Mann.jpg
+    email: ritse.mann@radboudumc.nl

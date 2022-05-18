@@ -2,7 +2,7 @@ For general instructions to create a new highlight/news item, please see:
 
 https://github.com/DIAGNijmegen/website-content/blob/master/docs/create-new-highlight.md
 
-Check if thesis, abstract and good quality cover are in diag.bib and literature repository: https://github.com/DIAGNijmegen/diag-literature
+Check if thesis, abstract and good quality cover are in diag.bib and literature repository: https://github.com/DIAGNijmegen/Literature
 
 **Defense Pre Announcement**
 - make a new highlight/news item

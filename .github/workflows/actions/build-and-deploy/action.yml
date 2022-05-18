@@ -15,10 +15,6 @@ inputs:
     description: "Netlify Key"
     required: true
     default: ""
-  development:
-    description: "development"
-    required: false
-    default: 0
   github_token:
     description: "github token"
     required: true
@@ -49,7 +45,6 @@ runs:
       run: bash deploy.sh
       env:
         WEBSITE: ${{ inputs.website-dir }}
-        DEVELOPMENT: ${{ inputs.development }}
 
     - name: Netlify deploy
       shell: bash

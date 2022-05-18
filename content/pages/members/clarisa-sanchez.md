@@ -4,9 +4,9 @@ pub_name: Clara I Sánchez
 template: people-single
 picture: people/Clarisa_Sánchez.jpg
 position: Associate Professor
-active: yes
-groups: retina
-default_group: retina
+active: no
+groups: diag
+default_group: diag
 email: clara.sanchezgutierrez@radboudumc.nl
 office: Route 767, Room 31
 telephone:

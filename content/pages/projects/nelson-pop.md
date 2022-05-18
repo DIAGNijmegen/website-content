@@ -5,7 +5,7 @@ type: general
 picture: projects/kwf-nelson2.png
 template: project-single
 groups: diag
-people: Ernst Scholten, Cornelia Schaefer-Prokop, Mathias Prokop, Colin Jacobs
+people: Noa Antonissen, Ernst Scholten, Rozemarijn Vliegenthart, Cornelia Schaefer-Prokop, Mathias Prokop, Colin Jacobs
 description: Accurate estimation of the probability of lung cancer of screen-detected pulmonary nodules using artificial intelligence
 bibkeys:
 

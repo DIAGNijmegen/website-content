@@ -63,6 +63,12 @@ NAV_SECTIONS = [
         "text_class": "d-lg-block",
     },
     {
+        "name": "Thesis Gallery",
+        "url": "thesis-gallery",
+        "icon_mobile": "book",
+        "text_class": "d-lg-block",
+    },
+    {
         "name": "Vacancies",
         "url": "vacancies",
         "icon_mobile": "vacancies",

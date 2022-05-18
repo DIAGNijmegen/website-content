@@ -1,7 +1,6 @@
 name: Optimize Images
 on:
   workflow_dispatch:
-    branches: [master]    
   push:
     branches: [master]
     paths:
@@ -16,14 +15,46 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
+  theses:
+    runs-on: ubuntu-latest
+    outputs:
+      changes: ${{ steps.auto-commit-action.outputs.changes_detected }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: pip install imageio==2.16.2
+
+      - name: Crop thesis covers
+        run: python ./crop_thesis_covers.py
+
+      - name: Pull in intermediate changes
+        run: git pull
+
+      - id: auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Crop thesis covers
+          file_pattern: content/images/theses/*
+
   images:
-    if: ${{ !contains(github.event.commits[0].message, '[skip ci]') }}
+    needs: theses
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Pull in cropped thesis covers
+        if: needs.theses.outputs.changes == 'true'
+        run: git pull && git checkout HEAD
+
       - uses: actions/setup-node@v1
         with:
           node-version: "10.17"
+
       - uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -76,7 +107,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_MEDIA }}
 
-      - name: Pull New Changes
+      - name: Pull in intermediate changes
         run: git pull
 
       - uses: stefanzweifel/git-auto-commit-action@v4
@@ -85,13 +116,45 @@ jobs:
           file_pattern: imgoptim/image-cache.json assets/images/*
 
   notify:
-    needs: deploy
-    if: ${{ failure() && github.event_name != 'workflow_dispatch'}}
+    needs: images
+    if: ${{ failure() && github.event_name != 'workflow_dispatch' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Send message to Teams channel
         run: |
           cat << EOF > message.json
-          {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Image optimization failed!","themeColor":"ff0000","title":"$GITHUB_REPOSITORY image optimization failed","sections":[{"facts":[{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Commit:","value":"$GITHUB_SHA"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}]}
+          {
+            "@type":"MessageCard",
+            "@context":"https://schema.org/extensions",
+            "summary":"Image optimization failed!",
+            "themeColor":"FF8E16",
+            "title":"$GITHUB_REPOSITORY image optimization failed",
+            "sections":[
+              {
+                "facts":[
+                  {
+                    "name":"Branch:",
+                    "value":"$GITHUB_REF_NAME"
+                  },
+                  {
+                    "name":"Commit:",
+                    "value":"$GITHUB_SHA"
+                  }
+                ]
+              }
+            ],
+            "potentialAction":[
+              {
+                "@type":"OpenUri",
+                "name":"View on GitHub",
+                "targets":[
+                  {
+                    "os":"default",
+                    "uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+                  }
+                ]
+              }
+            ]
+          }
           EOF
-          curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json
+          curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -f -S -d @message.json
