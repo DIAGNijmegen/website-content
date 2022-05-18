@@ -53,7 +53,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "10.17"
+          node-version: "16.15"
 
       - uses: actions/cache@v2
         with:
@@ -64,8 +64,6 @@ jobs:
 
       - name: Setup npm
         run: |
-          npm i -g npm@latest
-          npm i npm@latest
           npm install --prefix imgoptim --no-save
 
       - name: Optimize Images
