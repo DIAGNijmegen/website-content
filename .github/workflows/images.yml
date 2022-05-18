@@ -64,6 +64,7 @@ jobs:
 
       - name: Setup npm
         run: |
+          npm i node-fetch@2.6.1
           npm install --prefix imgoptim --no-save
 
       - name: Optimize Images
