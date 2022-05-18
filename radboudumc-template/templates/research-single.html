@@ -45,6 +45,16 @@
     </div>
     {% endif %}
 
+    {% if page.algorithms %}
+    <h2>Algorithms</h2>
+    <p>Several algorithms that this group has developed can be tried on the grand-challenge.org platform:</p>
+    <div class="row mt-4">
+        {% for slug in page.algorithms.split(',') %}
+            {{ slug | gc_algorithm_card }}
+        {% endfor %}
+    </div>
+    {% endif %}
+
     {% if page.software %}
     <h2>Software</h2>
     <div class="row mt-4">
