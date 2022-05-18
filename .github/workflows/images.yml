@@ -85,7 +85,7 @@ jobs:
           file_pattern: imgoptim/image-cache.json assets/images/*
 
   notify:
-    needs: deploy
+    needs: images
     if: ${{ failure() && github.event_name != 'workflow_dispatch'}}
     runs-on: ubuntu-20.04
     steps:
