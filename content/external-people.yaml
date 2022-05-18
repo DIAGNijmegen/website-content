@@ -1,4 +1,8 @@
 people:
+  - name: Enrico Schmitz
+    email: enricoschmitz@outlook.com
+    affiliation: Radboud University
+    position: Master student
   - name: Eric Steenbergen
     position: Pathologist
     affiliation: Radboud University Medical Center
