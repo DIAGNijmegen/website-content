@@ -54,8 +54,6 @@ content_varnames = {
 
 
 def create_gc_card(info):
-    # return "<h1> Hello Mart </h1>"
-
     a = f"""
         <div class="col-md-4"> 
         <div class="card image-card lazyload">
@@ -76,16 +74,28 @@ def create_gc_card(info):
     """
     return a
 
-def create_gc_card_not_found(indentifier, slug):
+def create_gc_card_not_found(identifier, slug):
     a = f"""
         <div class="col-md-4"> 
         <div class="card image-card lazyload">
             <h1> Content not found </h1>
-            <p> {slug} was not found in the public {indentifier} on grand challenge </p> 
+            <p> {slug} was not found in the public {identifier} on grand challenge </p>
         </div>
         </div>
     """
     return a
+
+
+def query_gc_api(identifier, slug):
+    slug = slug.strip()
+    try:
+        info = requests.get(f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
+        info = info.json()
+        html = create_gc_card(info['results'][0])
+    except Exception as e:
+        print(e)
+        html = create_gc_card_not_found(identifier, slug)
+    return html
 
 
 def parse_grand_challenge_tag(text):
@@ -94,13 +104,7 @@ def parse_grand_challenge_tag(text):
     slug = text.group("slug")
 
     if type == 'grandchallenge':
-        try:   
-            info = requests.get(f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
-            info = info.json()
-            html = create_gc_card(info['results'][0])
-        except:
-            html = create_gc_card_not_found(identifier, slug)
-        return html
+        return query_gc_api(identifier, slug)
 
 
 def parse_content_tag(text, context):
@@ -214,9 +218,10 @@ def parse_content(instance):
 
 def add_filter(pelican):
     """Add parse filter so that it can be used in places that are not part of the normal content object."""
-    pelican.env.filters.update(
-        {"parse_custom_tags": lambda c: parse_tags(c, pelican.context)}
-    )
+    pelican.env.filters.update({
+        "parse_custom_tags": lambda c: parse_tags(c, pelican.context),
+        "gc_algorithm_card": lambda c: query_gc_api(identifier="algorithms", slug=c)
+    })
 
 
 def register():
