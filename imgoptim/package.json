@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "glob": "^8.0.3",
-    "imagemin": "^8.0.1",
-    "imagemin-mozjpeg": "^10.0.0",
-    "imagemin-pngquant": "^9.0.2",
-    "md5": "^2.3.0",
-    "mkdirp": "^1.0.4",
-    "sharp": "^0.30.4"
+    "glob": "^7.1.4",
+    "imagemin": "^7.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "md5": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "sharp": "^0.23.0"
   }
 }
