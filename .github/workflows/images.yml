@@ -63,7 +63,10 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Setup npm
-        run: npm install --prefix imgoptim --no-save
+        run: |
+          npm i -g npm@latest
+          npm i npm@latest
+          npm install --prefix imgoptim --no-save
 
       - name: Optimize Images
         run: |
