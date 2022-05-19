@@ -1,6 +1,6 @@
 title: PhD position on developing artificial intelligence algorithms for accurate malignancy risk estimation of incidentally and screen-detected pulmonary nodules
 groups: diag
-closed: false
+closed: true
 type: general 
 picture: vacancies/amara-phd.png
 people: Colin Jacobs, Mathias Prokop, Cornelia Schaefer-Prokop
