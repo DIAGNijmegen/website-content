@@ -3,7 +3,7 @@ name: Mathias Prokop
 template: people-single
 picture: people/Mathias_Prokop.jpg
 position: Professor of Radiology
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: mathias.prokop@radboudumc.nl
