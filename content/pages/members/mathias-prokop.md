@@ -2,7 +2,7 @@ title: Mathias Prokop
 name: Mathias Prokop
 template: people-single
 picture: people/Mathias_Prokop.jpg
-position: Professor of Radiology
+position: Professor
 active: no
 groups: diag
 default_group: diag
