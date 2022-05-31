@@ -30,7 +30,13 @@ If this process can be automated by an AI model, this will save the orthodontist
 An object detection (OD) algorithm was built to find the anatomical landmarks by doing cephalometric analysis on lateral headplates.
 The algorithm predicts 31 bounding boxes from which landmark coordinates are extracted. 
 Additionally, the algorithm also calculates clinically relevant angles and distance measurements using those landmark points.
-There are in total 8 distance and 16 angle measurements to be calculated after the cephalometric analysis.
+There are in total 8 distance and 16 angle measurements to be calculated after the cephalometric analysis.  
+
+The algorithm predicts accurate annotations and the average inference time for the model is 13 seconds.
+The model results should be supervised by an expert orthodontist. The algorithms output can be visualised on the CIRRUS platform.
+The angle and distance measurements are stored in a PDF file and can be downloaded from the CIRRUS platform.
+
+Below you can see the architecture of the network.
 
 ![automated-cephalometric-analysis]({{ IMGURL }}/images/projects/automated-cephalometric-analysis-model.png)
 
@@ -45,13 +51,15 @@ In total 31 landmark annotations are present for each scan.
 The object detection network achieved a Mean Radial Error (MRE) of 1.14 with a Standard Deviation (SD) of 0.82. 
 The network had an average precision of 0.857 for IoU = 0.50:0.95 with a step size increase of 0.05 in the IoU. 
 The Success Detection Rate (SDR) of the network for 2mm error threshold was 85.62%. 
+The Detection Accuracy (DA) of the network was 99.84%. This is the only drawback of the network.
+Since, an orthodontist can always place all the 31 points on the image, whereas the network might fail to do some in some rare cases.
 
 ## Conclusion
 An object detection network was built to automate the cephalometric analysis process. 
-The network finds 31 landmark points along with 8 distance and 16 angle measures.
+The network predicts 31 landmark points and calculates 8 distance and 16 angle measures.
 The model can be improved by training on data from different machines and annotations from more orthodontist.
-This will help model generalize better and produce robust results. 
-A future work might involve addition of a heatmap regressor network on the output of the object detection model. 
+This will help model generalize better and produce robust results.
+A future work can involve the addition of a heatmap regressor network on the output of the object detection model. 
 
 An interactive demo is accessible via Grand-Challenge:
 <a href="https://grand-challenge.org/algorithms/orthodontic-landmark-detection/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
