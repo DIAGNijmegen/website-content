@@ -1,5 +1,5 @@
 title: Francesco Ciompi appointed Associate Professor of Computational Pathology
-date: 2022-02-01
+date: 2022-06-01
 description: From the 1rst of June 2022, Francesco Ciompi was appointed Associate Professor of Computational Pathology at the Radboud UMC.
 picture: people/Francesco_Ciompi.jpg
 groups: diag, pathology
