@@ -16,13 +16,11 @@ RUN python3.8 -m venv /venv
 ENV PATH=/venv/bin:$PATH
 
 # Website specific requirements
-COPY requirements.txt ./
 RUN apt-get install nodejs -y
 RUN apt-get install curl -y
-RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
 
 # Copy the entry point script and set the entry point.
-COPY docker/run.sh /root
+COPY run.sh /root
 ENTRYPOINT ["/bin/bash", "/root/run.sh"]

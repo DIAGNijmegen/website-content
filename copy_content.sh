@@ -19,11 +19,13 @@ cp content/groupkeys.json $WEBSITE/content/groupkeys.json
 # Copy images when deploying locally (for development)
 # Do not overwrite existing images to save time 
 if [ "$LOCAL" = "1" ]; then
-  mv $WEBSITE/output/images $WEBSITE/temp_dir
-  rm -rf $WEBSITE/output/
-  mkdir $WEBSITE/output
-  mv $WEBSITE/temp_dir $WEBSITE/output/images
-  rm -rf $WEBSITE/temp_dir
+  if [ -d $WEBSITE/output/images ]; then
+    mv $WEBSITE/output/images $WEBSITE/temp_dir
+    rm -rf $WEBSITE/output/
+    mkdir $WEBSITE/output
+    mv $WEBSITE/temp_dir $WEBSITE/output/images
+    rm -rf $WEBSITE/temp_dir
+  fi
   cp -r --no-clobber assets/images/. $WEBSITE/output/images
   cp -r --no-clobber content/images/. $WEBSITE/output/images
 fi
