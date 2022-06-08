@@ -6,6 +6,7 @@ RUN : \
     && apt-get install -y --no-install-recommends software-properties-common \
     && add-apt-repository -y ppa:deadsnakes \
     && apt-get install -y --no-install-recommends python3.8-venv \
+    && apt-get install -y --no-install-recommends git \
     && apt-get install libpython3.8-dev -y \
     && apt-get clean \
     && :
