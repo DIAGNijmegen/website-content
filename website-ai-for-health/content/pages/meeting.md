@@ -17,6 +17,11 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
 | 09-06-2022 | Thijs Gelton | TBA | Skatecourt, route 14, Experience Center |
+| 16-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 23-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 30-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 07-07-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 14-07-2022 | Hermen van Westen | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
