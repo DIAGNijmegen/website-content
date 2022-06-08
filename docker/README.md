@@ -28,6 +28,7 @@ Replace `</path/to/local/website-content>` with the correct path to your local r
 4. docker commit <image-id> /path/to/remote/repository/webteam/website:latest
 5. docker push /path/to/remote/repository/webteam/website:latest
 ```
+The docker image automatically clones the current version of the github repository (and the specified branch), so you only need to re-build the docker image when updating the Dockerfile. The latest version of this remote docker can be found on our remote repository website, username webteam and imagename website:latest.
 
 ## Host the website (for demo'ing purposes only) on the diag cluster.
 ```
