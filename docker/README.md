@@ -35,6 +35,6 @@ The docker image automatically clones the current version of the github reposito
 ~/c-submit <arguments for c-submit> /path/to/remote/repository/webteam/website:latest <website-name> <branch-name>
 ```
 
-Replace `</path/to/remote/repository>` with the correct path to our online repository, replace `<website-name>` with one of the following: `ai-for-health, base, diag, pathology, rse, rtc` and replace `<branch-name>` with any name of the branch you want to host, for instance use the main branch: "master".
+Replace `</path/to/remote/repository>` with the correct path to our online repository, replace `<website-name>` with one of the following: `ai-for-health, base, diag, pathology, rse, rtc` and replace `<branch-name>` with any name of the branch you want to host, for instance use the main branch: "master". This only works for interactive jobs, as you need to have access to port 8000 (opened automatically on interactive jobs). 
 
 **The website seems to index pages on startup. The results is a very slow and irresponsive website during the first 30 minutes or so during remote demo'ing. Therefore, please wait a bit before using it for a demo.**
