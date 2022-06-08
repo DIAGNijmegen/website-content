@@ -1,11 +1,11 @@
-title: Quantification of immunohistochemical markers for improved prostage cancer prognostics
+title: Quantification of immunohistochemical markers for improved prostate cancer prognostics
 groups: ai-for-health
 finished: false
 type: student
 picture: projects/ih-prostate-diagnostics.png
 template: project-single
 people: Sasha Peerdeman, Jolique van Ipenburg, Geert Litjens
-description: Development of a model for the quantification of immunohistochemical markers for improved prostage cancer prognostics
+description: Development of a model for the quantification of immunohistochemical markers for improved prostate cancer prognostics
 
 **Start date: 10-01-2021** <br>
 **End date: 10-07-2022**

@@ -2,16 +2,12 @@
 
 set -e
 
-if [ "$LOCAL" != "1" ]; then
-  curl -H "Authorization: token ${GH_BIB_TOKEN}" \
-       -o content/diag.bib \
-       -s -f -S \
-       -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/diag.bib
+curl -o content/diag.bib \
+     -s -f -S \
+     -L https://raw.githubusercontent.com/DIAGNijmegen/Literature/main/diag.bib
 
-  curl -H "Authorization: token ${GH_BIB_TOKEN}" \
-       -o content/fullstrings.bib \
-       -s -f -S \
-       -L https://raw.githubusercontent.com/DIAGNijmegen/diag-literature/master/fullstrings.bib
-fi
+curl -o content/fullstrings.bib \
+     -s -f -S \
+     -L https://raw.githubusercontent.com/DIAGNijmegen/Literature/main/fullstrings.bib
 
 python ./bibliography/bibparser.py

@@ -9,7 +9,7 @@ default_group: diag
 email: kiranvaidhya.venkadesh@radboudumc.nl
 office: Route 767, Room 32
 type: phd
-linkedin: http://www.linkedin.com/in/kiran-vaidhya-2bb63aa8/
+linkedin: https://www.linkedin.com/in/kiran-vaidhya-venkadesh-2bb63aa8/
 scholar: https://scholar.google.com/citations?user=jIwy5iAAAAAJ&hl=en
 researcherid: http://www.researcherid.com/rid/AAD-3087-2020
 publons: https://publons.com/researcher/3198824/kiran-vaidhya-venkadesh/
