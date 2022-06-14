@@ -16,17 +16,17 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 09-06-2022 | Thijs Gelton | TBA | Skatecourt, route 14, Experience Center |
-| 16-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 16-06-2022 | No meeting | - | - |
 | 23-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
 | 30-06-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
-| 07-07-2022 | TBA | TBA | Skatecourt, route 14, Experience Center |
+| 07-07-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
 | 14-07-2022 | Hermen van Westen | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 09-06-2022 | Thijs Gelton | AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies |
 | 02-06-2022 | Heleen Kerstholt | Predicting treatment outcomes for Addictive Behaviors in Clinical practice (PreT-ABC) |
 | 19-05-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 |
 | 12-05-2022 | Sanyog Vyawahare <br> Laura Alvarez | Automated landmark detection on lateral headplates for orthodontic diagnosis <br> Automated abdominal trauma injury segmentation and AAST classification |
