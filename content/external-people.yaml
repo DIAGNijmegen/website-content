@@ -901,3 +901,13 @@ people:
   - name: Julie Boisclair 
     position: Director Discovery and Investigative Pathology
     affiliation: Novartis
+  - name: Michiel Simons
+    position: Pathologist
+    affiliation: Radboudumc
+    picture: people/external/Michiel_Simons.jpg
+    email: michiel.simons@radboudumc.nl
+  - name: Joanne de Hullu
+    position: Gynecologist
+    affiliation: Radboudumc
+    picture: people/external/Joanne_deHullu.jpg
+    email: Joanne.deHullu@radboudumc.nl
