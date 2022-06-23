@@ -1,6 +1,6 @@
 title: Mathias Prokop receives Honorary Membership at ESTI
 date: 2022-06-23
-description: The European Society of Thoracic Imaging (ESTI) assigns the Honorary Membership to Mathias Prokop for his outstanding contributions in thoracic imaging
+description: The European Society of Thoracic Imaging (ESTI) assigns the Honorary Membership to Mathias Prokop for his outstanding contributions in thoracic imaging.
 picture: news/ESTI-2022-Oxford-866.jpg
 groups: diag
 
