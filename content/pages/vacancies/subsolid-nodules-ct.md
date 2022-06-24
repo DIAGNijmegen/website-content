@@ -1,6 +1,6 @@
 title: Automatic classification and segmentation of subsolid pulmonary nodules using deep learning
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/subsolid-nodule-segmentation-ai4h-21.png
 template: vacancy-single

@@ -72,3 +72,5 @@ Both need CT images as input and vertebral body segmentations, which can be obta
 <a href="https://grand-challenge.org/algorithms/vertebral-body-segmentation/" class="btn btn-primary btn-lg my-3">Get Vertebral Body Segmentation</a>
 
 The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/msk-compression-fracture-detection).
+
+A paper describing some of the results can be found in the proceedings of [MIDL 2022](https://openreview.net/pdf?id=g0L9efmf56G).
