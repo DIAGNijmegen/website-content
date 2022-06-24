@@ -148,7 +148,7 @@ columns = ['bibkey', 'url',
            'match_title', 'match_doi',
            'title_match_ratio', 'same_doi', 'search_string']
 
-for idx, bibkey in enumerate(bibkeys[72:]):
+for idx, bibkey in enumerate(bibkeys):
     if idx % 1 == 0:
         print(f'---[{idx}/{len(bibkeys)}]---')
     print(bibkey)
