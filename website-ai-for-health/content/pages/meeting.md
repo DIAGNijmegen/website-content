@@ -16,10 +16,10 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 23-06-2022 | No meeting | - | - |
-| 30-06-2022 | Sasha Peerdeman (ovb) <br> Daniil Lepikhov | TBA | Skatecourt, route 14, Experience Center |
+| 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data | Skatecourt, route 14, Experience Center <br> **NOTE: one hour earlier than usual! 14:00-15:00** |
 | 07-07-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
 | 14-07-2022 | Hermen van Westen <br> Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
+| 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
