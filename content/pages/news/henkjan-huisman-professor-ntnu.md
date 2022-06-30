@@ -1,7 +1,7 @@
 title: Henkjan Huisman appointed Professor of Medical Imaging AI 
 date: 2022-06-29
 description: From June 29, 2022, Henkjan Huisman is appointed Professor of Medical Imaging AI at the NTNU.
-picture: people/Henkjan_Huisman.jpg
+picture: news/henkjan_huisman.png
 groups: diag
 
 From June 29, 2022, [member/henkjan-huisman] is appointed Professor of Medical Imaging AI at the Norwegian University of Science and Technology ([NTNU](https://www.ntnu.edu/)).
