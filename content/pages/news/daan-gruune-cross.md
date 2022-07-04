@@ -1,7 +1,7 @@
 title: Fifty thousand euros raised for the fight against cancer, including the research of Daan Geijs
 date: 2022-07-01
 description: On the 1st of July 2022, nearly 100 people have committed themselves to cycling together to raise money for important cancer research, including the research of Daan Geijs.
-picture: daan-gruune-cross.JPG
+picture: news/daan-gruune-cross.JPG
 groups: diag, pathology
 
 The [‘Gruune Cross’](https://gruunecross.nl/) is a 60 kilometer long bike ride through the beautiful Achterhoek organized by Lions Doetinchem De Graafschap. 
