@@ -16,15 +16,15 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data | Skatecourt, route 14, Experience Center <br> **NOTE: one hour earlier than usual! 14:00-15:00** |
 | 07-07-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
-| 14-07-2022 | Hermen van Westen <br> Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
+| 14-07-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
 | 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data |
 | 09-06-2022 | Thijs Gelton | AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies |
 | 02-06-2022 | Heleen Kerstholt | Predicting treatment outcomes for Addictive Behaviors in Clinical practice (PreT-ABC) |
 | 19-05-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 |
