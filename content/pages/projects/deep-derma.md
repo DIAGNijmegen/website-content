@@ -14,9 +14,11 @@ With the threefold increase in skin cancer incidence in the past two decades, mo
 This form of skin cancer is not diagnostically challenging for a pathologist. However, because almost 40% of all cancer diagnostics is solely BCC, this puts a heavy burden on microscopic diagnostics. 
 
 ![Trend of three main groups of skin cancer]({{ IMGURL }}/images/projects/deep-derma-1.png) 
+
 <b>Fig. 1: </b> Trend of three main groups of skin cancer: Basal cell carcinoma (BCC), squamous cell carcinoma (PCC) and melanoma.|
 
 ![Distribution of most common tumors]({{ IMGURL }}/images/projects/deep-derma-2.png) 
+
 <b>Fig. 2: </b> Distribution of most common tumors. Of the most diagnosed cancers in 2017 is by far the largest part of skin cancer (including BCC).
 
 The rise of artificial intelligence offers solace by automating multiple diagnostic steps. Automation can free up more time for more complex diagnostics and reduce waiting times for patients.
@@ -24,6 +26,7 @@ There are multiple clinical tasks that can be automated for a pathologist. The m
 An example of a task is shown in the figure below. Here, the pathologist must determine whether there is no tumor at the cutting edges (the part where there is no epidermis at the border) after the operation. 
 
 ![Distribution of most common tumors]({{ IMGURL }}/images/projects/deep-derma-3.png)
+
 <b>Fig. 3: </b> Top: A microscopic image of skin cancer with the epidermis (outer layer of the skin) at the top. All basal cell carcinoma has been circled by a pathologist. Below: Prediction of a developed model where the epidermis is located (yellow) and where skin cancer is located (black). The model learned this by analyzing thousands of labeled examples.
 
 Within this project we are trying to explore as many of these tasks as possible and hopefully upon completion of this project we will have the world's first evaluated AI assisted pathologist workflow, in addition this project will provide a valuable expert labeled dataset of skin specimens on; both excellent goals for valorisation. Finally, it will extend the time of pathologists for complex diagnostics and reduce the waiting time for patients.
