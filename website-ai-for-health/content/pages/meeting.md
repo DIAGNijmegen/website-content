@@ -16,7 +16,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 07-07-2022 | Lotte Willems <br> Djesse Dirckx | TBA | Skatecourt, route 14, Experience Center |
+| 07-07-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 | Skatecourt, route 14, Experience Center |
 | 14-07-2022 | Lars Leijten | TBA | Skatecourt, route 14, Experience Center |
 | 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
 
