@@ -1,17 +1,13 @@
 title: Automatic classification and segmentation of subsolid pulmonary nodules using deep learning
 groups: ai-for-health
-closed: true
+finished: false 
 type: student
 picture: vacancies/subsolid-nodule-segmentation-ai4h-21.png
-template: vacancy-single
-people: Kiran Vaidhya Venkadesh, Bram van Ginneken, Colin Jacobs
+template: project-single
+people: Sanyog Vyawahare, Kiran Vaidhya Venkadesh, Bram van Ginneken, Colin Jacobs
 description: Development of deep learning algorithms for subsolid nodule analysis in CT.
 bibkeys: Char18, Ciom17a, Scho14d
 
-**This is an AI for Health MSc project. Students are
-eligible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).** 
 
 ## Clinical problem
 Lung cancer is the leading cause of cancer death among both men and women, accounting for nearly 25% of all cancer deaths. While lung cancer typically shows up as pulmonary nodules on CT examinations, most nodules are benign and do not require further clinical workup. However, radiologist workload is expected to drastically increase soon with the widespread implementation of lung cancer screening programs. Therefore, accurate detection and characterization of pulmonary nodules are crucial for optimizing screening. 
@@ -41,11 +37,6 @@ The algorithm(s) that come out of this project will be made publicly available f
 
 ## Embedding
 You will be embedded in the Diagnostic Image Analysis Group and will be supervised by a research member whose research is dedicated to [AI for lung cancer screening](https://www.diagnijmegen.nl/projects/lung-cancer-screening/). We have a strong collaboration with both clinical and radiological experts in lung cancer screening. You will also have access to a Deep Learning GPU Cluster ([SOL](https://www.diagnijmegen.nl/software/sol/)) to run deep learning experiments.
-
-## Requirements 
-- Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics, Biomedical Engineering or similar in the final stages of their Master education. 
-- You should be proficient in Python programming and have a theoretical understanding of deep learning architectures.
-- Experience with medical images is beneficial.
 
 ## Information 
 - Project duration: 6 months 
