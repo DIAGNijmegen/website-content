@@ -7,7 +7,7 @@ template: project-single
 people: Daniil Lepikhov, Li Xue
 description: Develop a method to identify cancer vaccine candidates using 3D Convolutional Networks
 
-**Start date: 01-02-2022** 
+**Start date: 01-02-2022** <br>
 **End date: 31-07-2022** 
 
 ## Clinical Problem 
