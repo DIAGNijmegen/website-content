@@ -3,7 +3,7 @@ name: Cristina González-Gonzalo
 template: people-single
 picture: people/Cristina_Gonzalez_Gonzalo_2.jpg
 position: PhD Candidate
-active: no
+active: yes
 groups: diag
 default_group: diag
 email: cristina.gonzalezgonzalo@radboudumc.nl
