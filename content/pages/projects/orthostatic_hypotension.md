@@ -3,6 +3,7 @@ groups: ai-for-health
 finished: false 
 type: student 
 template: project-single
+picture: projects/orthostatic_hypertension.png
 people: Enrico Schmitz
 description: Develop a method to predict orthostatic hypotension in realtime for early diagnosis
 
