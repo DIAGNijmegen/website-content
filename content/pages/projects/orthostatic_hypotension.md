@@ -50,6 +50,6 @@ Unfortunately, the results are not as equally promising as in the example. Some 
 
 ## Conclusion
 Although some of the predicted BP drop parameters allowed for a good reconstruction of the SBP and DBP, not all drops were successfully predicted. This is due to the low amount of data available and the prediction could be improved by training the algorithm on more data.
-With more training data this method might prove to be a good alternative to diagnose OH.
+With more training data this method might prove to be a good alternative to diagnosing OH.
 
 The code for this project can be found in this [GitHub repository](https://github.com/EnricoASchmitz/Orthostatic-Hypotension-detector)
