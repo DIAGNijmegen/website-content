@@ -6,7 +6,6 @@ position: Student assistant
 active: yes
 groups: pathology
 default_group: pathology 
-email: example@radboudumc.nl
 type: student-assistant 
 office: Route 812, room 3.42
 
