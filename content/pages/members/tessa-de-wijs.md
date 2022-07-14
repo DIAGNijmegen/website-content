@@ -3,7 +3,7 @@ name: Tessa de Wijs
 template: people-single
 picture: people/Tessa_de_Wijs.jpg 
 position: Student assistant
-active: yes (change to 'no' when this person is a former employee)
+active: yes
 groups: pathology
 default_group: pathology 
 email: example@radboudumc.nl
