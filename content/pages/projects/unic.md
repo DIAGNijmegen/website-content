@@ -1,7 +1,7 @@
 title: UNIC
 title_long: UNmasking the Invisible Cancer
-finished: false (change to 'true' to move the project from Current projects to Finished Projects)
-picture: projects/unic.png (This picture appears on the project home page and is collected from website-content/content/images/. Image should be landscape, ratio 2:1, minimum width 480 px)
+finished: false 
+picture: projects/unic.png
 template: project-single
 groups: pathology, diag
 default_group: pathology
