@@ -170,19 +170,35 @@
             {{ page.content }}
 
             <dl>
-                {% set all_related_pages = ['projects', 'software'] %}
-
+                {% if page.sections %}
+                    {% set all_related_pages = page.sections.split(',') %}
+                {% else %}
+                    {% set all_related_pages = ["projects", "software"] %}
+                {% endif %}
+                
                 {% for related_page in all_related_pages %}
+                    {% set related_page = related_page.strip() %} 
                     {% set ns = namespace(has_related_page=False) %}
                     {% for other_page in pages %}
                         {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
-                          {% if not ns.has_related_page %}
-                            {% set ns.has_related_page = True %}
-                        <dt> {{ related_page.capitalize() }}:</dt>
-                        <dd>
-                            <ul>
-                          {% endif %}
-                          <li><a href="{{ SITEURL }}/{{ other_page.url }}">{{ other_page.title }}</a></li>
+    
+                            {% if page.show_finished %}
+                                {% set show_finished =page.show_finished  %}
+                            {% else %}
+                                {% set show_finished = "true" %}
+                            {% endif %}
+
+                            {% if related_page != "projects" or other_page.finished == "false" or show_finished == "true" %}
+                                {% if not ns.has_related_page %}
+                                    {% set ns.has_related_page = True %}
+                                <dt> {{ related_page.capitalize() }}:</dt>
+                                <dd>
+                                    <ul>
+
+                                {% endif %}
+                        
+                            <li><a href="{{ SITEURL }}/{{ other_page.url }}">{{ other_page.title }}</a></li>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
 
