@@ -5,7 +5,7 @@ type: student
 picture: projects/hipoa.png
 template: vacancy-single
 people: Walter van der Weegen, Rintje Agricola, Bram van Ginneken, Matthieu Rutte, Silvan Quax
-description: We want to develop deep learning algorithms for detection and grading of hip osteoartritis
+description: We want to develop deep learning algorithms for detection and grading of hip osteoartritis.
 
 **This is an AI for Health MSc project. Students are
 eligible to receive a monthly reimbursement of €500,- for
