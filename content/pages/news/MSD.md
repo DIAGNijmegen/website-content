@@ -1,6 +1,7 @@
 title: Results of the Medical Segmentation Decathlon challenge published in Nature Communications
 date: 2022-07-15
 picture: news/MSD.png 
+description: The journal paper describing the Medical Segmentation Decathlon challenge has been published in Nature Communications. 
 groups: diag, pathology
 
 The journal paper describing the Medical Segmentation Decathlon has been published this week in Nature Communications and can be found [here](https://www.nature.com/articles/s41467-022-30695-9).
