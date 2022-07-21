@@ -1,8 +1,8 @@
 title: Developing deep learning algorithm for de novo variants detection in Pacbio long-read sequencing data
 groups: ai-for-health
-closed: true
+closed: false
 type: student
-picture: vacancies/3d_landmark_detection.png
+picture: vacancies/de-novo-variant-detection.jpeg
 template: vacancy-single
 people: Gelana Khazeeva, Christian Gilissen
 description: Developing deep learning algorithm for de novo variants detection in Pacbio long-read sequencing data
@@ -23,10 +23,11 @@ Long read sequencing is expected to replace SRS within the next 10 years. LRS is
 You will be embedded in the department of Human Genetics at Radboudumc. We provide access to a GPU machine and research cluster. 
 
 ## Requirements
-•	Proficiency in Python programming
-•	Understanding of machine learning basics and deep learning architectures.
-•	Knowledge of bioinformatics as a plus
-Information
-•	Project duration: 6 months 
-•	Location: Radboud University Medical Center 
-•	For more information or to apply for this project, please contact Gelana.Khazeeva@radboudumc.nl .
+-	Proficiency in Python programming
+-	Understanding of machine learning basics and deep learning architectures.
+-	Knowledge of bioinformatics as a plus
+
+## Information
+-	Project duration: 6 months 
+-	Location: Radboud University Medical Center 
+-	For more information or to apply for this project, please contact Gelana.Khazeeva@radboudumc.nl .
