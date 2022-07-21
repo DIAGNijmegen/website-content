@@ -7,7 +7,7 @@ template: project-single
 people: Djesse Dirckx, Lotte Willems, Peter-Bram t Hoen, Tom Heskes
 description: Develop a method to identify of drug repurposing candidates for myotonic dystrophy by Graph Convolutional Networks
 
-**Start date: 01-02-2022** 
+**Start date: 01-02-2022** <br>
 **End date: 31-07-2022** 
 
 ## Clinical Problem 
@@ -18,6 +18,3 @@ In your project you, and in collaboration with biomedical and bioinformatics stu
 
 ## Data 
 You will create a data repurposing knowledge graph based on public resources like [OpenTargets](https://www.opentargets.org) and [DisGeNet](https://www.disgenet.org). Lists of successfully repurposed drugs will be extracted from the [ReDo database](https://www.anticancerfund.org/en/redo-db) and published literature reviews. DM1 expression profiles have been processed and analysed in-house. 
-
-## Embedding 
-You will be embedded in the Center for Molecular and Biomolecular Informatics at Radboudumc, and collaborate closely with the Data Science department of the Institute for Computing and Information Systems. We provide access to CPU and GPU clusters, direct supervision by PhD students and regular meetings with the PIs of this project. 
