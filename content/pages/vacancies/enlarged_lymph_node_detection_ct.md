@@ -2,7 +2,7 @@ title: Deep learning for fully automated detection of enlarged lymph nodes in th
 groups: diag
 closed: false
 type: student
-picture: vacancies/lymph-node-staging1.png
+picture: vacancies/lymph_node_staging1.png
 template: vacancy-single
 people: Colin Jacobs, Roel Verhoeven, Erik van der Heijden
 description: Development of deep learning algorithms for detection of enlarged lymph nodes in CT.
