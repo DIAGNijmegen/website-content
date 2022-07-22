@@ -35,7 +35,7 @@ DIAG has a scientific archive of over 100,000 chest CT examinations including da
 The algorithm(s) that come out of this project will be made publicly available for research use as Docker containers through the [grand-challenge.org](https://grand-challenge.org/algorithms/) platform, and may be integrated with [CIRRUS Lung Screening](https://www.diagnijmegen.nl/software/cirruslungs/) (the research prototype version of Veolity). You are encouraged to write a scientific publication describing your results.
 
 ## Embedding
-You will be embedded in the Diagnostic Image Analysis Group and will be supervised by a research member whose research is dedicated to [AI for lung cancer screening](https://www.diagnijmegen.nl/projects/lung-cancer-screening/). We have a strong collaboration with both clinical and radiological experts in lung cancer screening. You will also have access to a Deep Learning GPU Cluster ([SOL](https://www.diagnijmegen.nl/software/sol/)) to run deep learning experiments.
+You will be embedded in the Diagnostic Image Analysis Group and will be supervised by a research member whose research is dedicated to [AI for lung cancer](https://www.diagnijmegen.nl/research/lung-cancer-image-analysis/). We have a strong collaboration with both clinical and radiological experts. You will also have access to a Deep Learning GPU Cluster ([SOL](https://www.diagnijmegen.nl/software/sol/)) to run deep learning experiments.
 
 ## Requirements 
 - Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics, Biomedical Engineering or similar in the final stages of their Master education. 
