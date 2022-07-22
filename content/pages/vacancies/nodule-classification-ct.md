@@ -2,9 +2,9 @@ title: Deep learning for fully automated classification of pulmonary nodules
 groups: diag
 closed: false
 type: student
-picture: vacancies/subsolid-nodule-segmentation-ai4h-21.png
+picture: vacancies/nodule-classification.png
 template: vacancy-single
-people: Kiran Vaidhya Venkadesh, Colin Jacobs
+people: Kiran Vaidhya Venkadesh, Ward Hendrix, Colin Jacobs
 description: Development of deep learning algorithms for nodule classification in CT.
 bibkeys: Ciom17a
 
@@ -13,7 +13,7 @@ Lung cancer is the leading cause of cancer death among both men and women, accou
 
 The [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at Radboudumc has brought [Veolity](https://www.veolity.com/) to the market with MeVis Medical Solutions (Bremen, Germany). Veolity is a dedicated software solution for efficient reading of chest CT examinations in lung cancer screening programs. This product is actively used by several sites in North America, Europe, Asia, and Australia. The software includes algorithms to detect, classify, and segment pulmonary nodules.
 
-In previous publications, we have analyzed the performance of a deep learning system for nodule classification on two screening datasets from Italy and Denmark ([paper](https://www.nature.com/articles/srep46479)). It is at present unclear how this deep-learning based classification system performs on heteregenuous CT data collected from routine clinical practice.
+In previous publications, we have analyzed the performance of a deep learning system for nodule classification on two screening datasets from Italy and Denmark ([paper](https://www.nature.com/articles/srep46479)). It is at present unclear how this deep-learning based classification system performs on heterogeneous CT data collected from routine clinical practice.
 
 ## Solution
 You have two main tasks within this project:
@@ -45,4 +45,4 @@ You will be embedded in the Diagnostic Image Analysis Group and will be supervis
 ## Information 
 - Project duration: 3, 6 or 9 months 
 - Location: Radboud University Medical Center 
-- For more information or to apply for this project, please contact `colin.jacobs@radboudumc.nl`
+- For more information or to apply for this project, please contact [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/)
