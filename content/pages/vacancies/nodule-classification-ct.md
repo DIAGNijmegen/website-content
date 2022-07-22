@@ -28,7 +28,7 @@ DIAG has a scientific archive of over 100,000 chest CT examinations including da
 
 * 1,352 nodules from [MILD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6637372/)
 * 453 nodules from [DLCST](https://pubmed.ncbi.nlm.nih.gov/26485620/)
-* A clinical set of nodules from 200 CT scans at Radboudumc, extensively annotated by 5 thoracic radiologists
+* A clinical set of nodules from 100 CT scans at Radboudumc and 100 CT scans from JBZ, extensively annotated by 5 thoracic radiologists
 * ~1200 nodules from [LIDC/IDRI](https://pubmed.ncbi.nlm.nih.gov/21452728/), extensively annotated by 4 radiologists
 	
 ## Results
