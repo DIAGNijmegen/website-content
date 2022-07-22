@@ -8,6 +8,8 @@ people: Colin Jacobs, Roel Verhoeven, Erik van der Heijden
 description: Development of deep learning algorithms for detection of enlarged lymph nodes in CT.
 bibkeys: 
 
+(Image courtesy of Radiology Assistant - radiologyassistant.nl )
+
 ## Clinical problem
 Lung cancer is still the deadliest cancer in the Netherlands. The advanced stage at diagnosis is to blame for the high mortality of the disease. We are therefore awaiting the initiation of the lung cancer screening in The Netherlands, which will result in a significant stage shift from advanced to early stage lung cancer upon diagnosis. Accurate lymph node staging is essential for adequate treatment planning and patient outcome. Undertreatment should be prevented at all cost. Current international guidelines require CT and FDG-PET imaging prior to treatment. And when suspicion of nodal involvement is present, endobronchial ultrasound guided fine needle aspirations (EBUS-TBNA) should be performed to obtain cytological proof of presence or absence of malignant disease. But even when these procedures are followed, reports from the national lung surgery database (DICA) show a ~20% upstaging after surgery compared to the pre-operative clinical staging.
 
