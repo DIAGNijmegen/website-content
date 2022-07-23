@@ -1,8 +1,8 @@
-title: BabyChecker: Artificial Intelligence for prenatal ultrasound examination in low-resource settings
+title: BabyChecker: AI for low-cost prenatal ultrasound
 title_long: BabyChecker: Artificial Intelligence for prenatal ultrasound examination in low-resource settings
 finished: false
 type: general
-picture: images/projects/babychecker.jpg
+picture: projects/babychecker.jpg
 template: project-single
 groups: diag
 people: Sofía Sappia, Thomas van den Heuvel, Keelin Murphy, Bram van Ginneken
