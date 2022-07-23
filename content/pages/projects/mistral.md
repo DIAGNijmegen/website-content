@@ -17,4 +17,4 @@ For mitigation strategies to be effective and efficient against COVID-19, they m
 
 
 ## Funding
-This research project is funded by the [Botnar Research Center for Child Health](https://www.fondationbotnar.org/project/botnar-research-center-for-child-health-brcch/). The project is organised by a consortium of partners from [Swiss Tropical and Public Health Institute](https://www.swisstph.ch/), [SolidarMed, Swiss NGO for Health in Africa](https://www.solidarmed.ch/en), [Radboud University Medical Center](https://www.radboudumc.nl/en/patient-care) and [FIND](https://www.finddx.org/) 
+This research project is funded by the [Botnar Research Center for Child Health](https://www.fondationbotnar.org/project/botnar-research-center-for-child-health-brcch/). The project is implemented by a consortium of partners from [Swiss Tropical and Public Health Institute](https://www.swisstph.ch/), [SolidarMed, Swiss NGO for Health in Africa](https://www.solidarmed.ch/en), [Radboud University Medical Center](https://www.radboudumc.nl/en/patient-care) and [FIND](https://www.finddx.org/) 
