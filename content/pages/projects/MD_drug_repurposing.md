@@ -5,28 +5,28 @@ type: student
 picture: vacancies/MD_drug_repurposing.png
 template: project-single
 people: Djesse Dirckx, Lotte Willems, Peter-Bram t Hoen, Tom Heskes
-description: Develop a method to identify of drug repurposing candidates for myotonic dystrophy and COVID-19 by Graph Convolutional Networks
+description: Develop a method to identify drug repurposing candidates for myotonic dystrophy and COVID-19 by Graph Convolutional Networks
 
 **Start date: 01-02-2022** <br>
 **End date: 31-07-2022** 
 
 ## Clinical Problem 
 The development of novel drugs is an expensive, time-consuming and risky process. Drug repurposing, where already tested and approved drugs are used for other indications than they were originally developed for, can be a possible solution to this problem. Drug repurposing can significantly shorten the development and testing process, decreasing developmental costs, duration and the risk of testing involved. This especially can be of great value for novel and rare diseases.
-This project presents a method that uses graph neural networks for link prediction on biomedical knowledge graphs in order to predict potential drug repurposing candidates. We focussed on the prediction of drug repurposing candidates for the novel COVID-19 disease and the rare disease Myotonic Dystrophy type 1 (DM1). The outbreak of COVID-19 lead to a global pandemic in 2019. The contagious disease is caused by the SARS-CoV-2 virus. Its common symptoms are e.g. fever, cough and fatigue. More severe symptoms such as breathing difficulties can lead to hospitalization. DM1 is a rare, genetic, muscular disease that affects at least 1 in 8,000 people. DM1 is highly variable in severity, type of symptoms and the age of onset. Its common symptoms are muscle weakness, muscle stiffness, daytime sleepiness and disturbance of the heart rhythm. For both diseases there is no effective treatment yet. Therefore, drug repurposing using graph neural networks can be of great value for these diseases.
+This project presents a method that uses graph neural networks for link prediction on biomedical knowledge graphs in order to predict potential drug repurposing candidates. We focussed on the prediction of drug repurposing candidates for the novel COVID-19 disease and the rare disease Myotonic Dystrophy type 1 (DM1). The outbreak of COVID-19 led to a global pandemic in 2019. The contagious disease is caused by the SARS-CoV-2 virus. Its common symptoms are e.g. fever, cough and fatigue. More severe symptoms such as breathing difficulties can lead to hospitalization. DM1 is a rare, genetic, muscular disease that affects at least 1 in 8,000 people. DM1 is highly variable in severity, type of symptoms and the age of onset. Its common symptoms are muscle weakness, muscle stiffness, daytime sleepiness and disturbance of the heart rhythm. For both diseases, there is no effective treatment yet. Therefore, drug repurposing using graph neural networks can be of great value for these diseases.
 
 ## Methods 
 In this study, the [drug repurposing knowledge graph (DRKG)](https://github.com/gnn4dr/DRKG) is used as the biomedical knowledge graph. This knowledge graph incorporates knowledge on many different diseases, including COVID-19 and DM1, represented in a triple format. For example, [*drug*, *treats*, *disease*].
 ![image]({{ IMGURL }}/images/projects/drkg.png)
 
-To find drug repurposing candidates, a [relational graph autoencoder (GAE)](https://github.com/pyg-team/pytorch_geometric/blob/master/examples/link_pred.py) is implemented to learn a low-dimensional representation (embedding) of the knowledge graph. The model is optimized using balanced batches (i.e., minority classes are oversampled to account for edge-type imbalance) with a binary cross-entropy loss. Each node embedding is learnt using the local structure of the neighborhood of a node. Potential drug repurposing candidates are computed by a link prediction task, where the similarity between two node embeddings of interest is computed. Nodes are likely to be connected when the node embeddings show a high similarity. We are therefore looking for drug and disease nodes with similar embeddings that are not yet connected in the original knowledge graph. The embeddings are evaluated using AUROC and AUPRC.
+To find drug repurposing candidates, a [relational graph autoencoder (GAE)](https://github.com/pyg-team/pytorch_geometric/blob/master/examples/link_pred.py) is implemented to learn a low-dimensional representation (embedding) of the knowledge graph. The model is optimized using balanced batches (i.e., minority classes are oversampled to account for edge-type imbalance) with a binary cross-entropy loss. Each node embedding is learnt using the local structure of the neighbourhood of a node. Potential drug repurposing candidates are computed by a link prediction task, where the similarity between two node embeddings of interest is computed. Nodes are likely to be connected when the node embeddings show high similarity. We are therefore looking for drug and disease nodes with similar embeddings that are not yet connected in the original knowledge graph. The embeddings are evaluated using AUROC and AUPRC.
 ![image]({{ IMGURL }}/images/projects/pipeline.png)
 
-We enriched the generic DRKG using experimental disease-specific information. For COVID-19, an analysis on transciptomic data of hospitalised patients was conducted to identify specific gene-gene relations that were added to the network. For DM1, an analysis on transciptomic data measured in the brain, blood and muscles was used to identify relevant genes and gene-gene relations. Additionally, we experimented with knowledge directly linked to the disease of interest. For COVID-19, we used novel knowledge obtained from the fast growing amount of research. For DM1, we used a dataset on symptoms and associated genes.
+We enriched the generic DRKG using experimental disease-specific information. For COVID-19, an analysis on transcriptomic data of hospitalised patients was conducted to identify specific gene-gene relations that were added to the network. For DM1, an analysis on transcriptomic data measured in the brain, blood and muscles was used to identify relevant genes and gene-gene relations. Additionally, we experimented with knowledge directly linked to the disease of interest. For COVID-19, we used novel knowledge obtained from the fast-growing amount of research. For DM1, we used a dataset on symptoms and associated genes.
 We investigated how the predictions of these enriched knowledge graphs differed from the predictions made using the generic knowledge graph and whether this leads to more relevant results.
 
 ## Results 
 
-As we investigated 2 diseases, the results will be described for both diseases below. A more indepth analysis can be found in the theses.
+As we investigated 2 diseases, the results will be described for both diseases below. A more in-depth analysis can be found in the theses.
 
 ## **COVID-19**
 ### Generic knowledge graph
@@ -48,7 +48,7 @@ The table below shows the top-10 ranked drug repurposing candidates for COVID-19
 
 ### Disease-specific gene-expression knowledge graph
 
-After adding the gene-expression data, the following top-10 is obtained. Again, we see mostly generic and irrelevant drugs. One interesting drug in this top-10 is **dexamethasone**. This is an anti-inflammatory that is FDA approved as COVID-19 treatment. It is found that this treatment reduces ventilation and oxygen need. However, there is some overlap with the top-10 obtained from the generic knowledge graph. Therefore, we looked at the differences between predicted probabilities of all drugs for both knowledge graphs, shown in the figure below.
+After adding the gene-expression data, the following top-10 is obtained. Again, we see mostly generic and irrelevant drugs. One interesting drug in this top-10 is **dexamethasone**. This is an anti-inflammatory that is FDA approved as a COVID-19 treatment. It is found that this treatment reduces ventilation and oxygen need. However, there is some overlap with the top-10 obtained from the generic knowledge graph. Therefore, we looked at the differences between predicted probabilities of all drugs for both knowledge graphs, shown in the figure below.
 
 |                   Drugname | Probability | Degree |
 |---------------------------:|------------:|-------:|
@@ -69,7 +69,7 @@ From this image, it can be observed that there is a small effect on some of the 
 
 ### New direct evidence knowledge graph
 
-From adding new direct evidence, the following top-10 drug repurposing candidates is obtained. As seen before, there are mostly generic and irrelevant drugs observed here. Again, cyclosporine is ranked as the best drug repurposing candidates. However, from the figure below, it can be observed that the drugs are substantially more affected from adding the new direct evidence. This implies that the effect of adding new evidence that is directly linked to the disease node has a bigger effect on the ranking. For a closer look into these affected drugs, we refer to the thesis.
+From adding new direct evidence, the following top-10 drug repurposing candidates are obtained. As seen before, there are mostly generic and irrelevant drugs observed here. Again, cyclosporine is ranked as the best drug repurposing candidate. However, from the figure below, it can be observed that the drugs are substantially more affected by adding the new direct evidence. This implies that the effect of adding new evidence that is directly linked to the disease node has a bigger effect on the ranking. For a closer look into these affected drugs, we refer to the thesis.
 
 |       Drugname | Probability | Degree |
 |---------------:|------------:|-------:|
@@ -90,7 +90,7 @@ The results above show that the biggest effect is observed when the generic know
 
 ### **DM1**
 
-In the table below, the top-10 predicted drugs using the generic DRKG can be found. **Norepinephrine**, **Epinephrine** & **Dopamine** at first seemed interested as they are linked to the treatment of symptoms related to DM1. However, in practice they are only used in severe cases which makes them unlikely drug repurposing candidates. All other drugs are likely to be irrelevant.
+In the table below, the top-10 predicted drugs using the generic DRKG can be found. **Norepinephrine**, **Epinephrine** & **Dopamine** at first seemed interested as they are linked to the treatment of symptoms related to DM1. However, in practice, they are only used in severe cases which makes them unlikely drug repurposing candidates. All other drugs are likely to be irrelevant.
 
 | Drug name      | Probability | Out-degree |
 |----------------|:-----------:|:----------:|
@@ -122,13 +122,13 @@ In the first series of experiments, DRKG was enriched with disease-specific gene
 | Nicotine             |    0.985    |    1444    |
 | Oxygen               |    0.984    |     967    |
 
-Below, the predicted probability for each drug in the generic ranking is plotted againt the probability predicted in this experiment. As can be seen, probabilities are more similar at the top and bottom than they are inbetween. These drugs are analysed in detail in the thesis.
+Below, the predicted probability for each drug in the generic ranking is plotted against the probability predicted in this experiment. As can be seen, probabilities are more similar at the top and bottom than they are in between. These drugs are analysed in detail in the thesis.
 
 ![image]({{ IMGURL }}/images/projects/blood-differences.png)
 
 ### Extending DRKG with DM1 related symptoms and associated genes
 
-In the second experiment, DRKG was extended with knowledge on DM1-related symptoms and associated genes. The ranking and probabilities per drug showed substantially more different to the generic ranking compared to the gene-expression experiments as also shown in the scatter plot below. 2 drugs are overlapping with the generic ranking. **Phenytoin** and **Colchicine** are interesting predictions. Phenytoin is used for the treatment of Myotonia, which is a symptom of DM1. Colchicine showed efficacy in [previous research](https://www.pnas.org/doi/abs/10.1073/pnas.1901893116). Again, for all other drugs no direct link to DM1 or one of its symptoms was found.
+In the second experiment, DRKG was extended with knowledge on DM1-related symptoms and associated genes. The ranking and probabilities per drug showed substantially more different from the generic ranking compared to the gene-expression experiments as also shown in the scatter plot below. 2 drugs are overlapping with the generic ranking. **Phenytoin** and **Colchicine** are interesting predictions. Phenytoin is used for the treatment of Myotonia, which is a symptom of DM1. Colchicine showed efficacy in [previous research](https://www.pnas.org/doi/abs/10.1073/pnas.1901893116). Again, for all other drugs, no direct link to DM1 or one of its symptoms was found.
 
 | Drug name            | Probability | Out-degree |
 |----------------------|:-----------:|:----------:|
@@ -150,4 +150,5 @@ The scatter plot below shows that the probabilities predicted for each drug diff
 Similar to the results on COVID-19, it can be seen that adding edges directly to the disease in the knowledge graph (knowledge on disease symptoms) results in a more different ranking. However, it did not lead to the prediction of drugs for which it is evident that they are useful for the treatment of DM1. Therefore, a more different ranking again does not necessarily mean a better ranking in terms of potential efficacy.
 
 ## Conclusion
-During this project we developed a pipeline for the prediction of drug repurposing candidates using graph neural networks. In comparison to published work, we tried to make a more disease-specific knowledge graph. Potentially resulting in more relevant drug repurposing candidates. The results show that there are differences between the predicted rankings for both the diseases that were investigated. However, at a first glance the top ranked drug repurposing candidates are mostly generic and irrelevant. Furthermore, the top of the ranking is influenced by highly connected nodes, which introduces a bias in our results towards these highly connected nodes, making the results less reliable. Future work should be aimed at mitigating this bias. The results show that there is a clearer difference in predicted probabilities when enhancing the generic knowledge graph with direct edges compared to indirect edges (i.e. the gene-gene edges). However, it is hard to validate the results as there is no ground truth available as there is no cure for the diseases we investigated.
+During this project, we developed a pipeline for the prediction of drug repurposing candidates using graph neural networks. In comparison to published work, we tried to make a more disease-specific knowledge graph. Potentially resulting in more relevant drug repurposing candidates. The results show that there are differences between the predicted rankings for both the diseases that were investigated. However, at a first glance, the top-ranked drug repurposing candidates are mostly generic and irrelevant. Furthermore, the top of the ranking is influenced by highly connected nodes, which introduces a bias in our results towards these highly connected nodes, making the results less reliable. Future work should be aimed at mitigating this bias. The results show that there is a clearer difference in predicted probabilities when enhancing the generic knowledge graph with direct edges compared to indirect edges (i.e. the gene-gene edges). However, it is hard to validate the results as there is no ground truth available as there is no cure for the diseases we investigated.
+
