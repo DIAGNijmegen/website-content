@@ -1,4 +1,4 @@
-title: PhD candidate ‘AI-based grading of cancer for improved assessment of patient prognosis’
+title: PhD candidate in 'AI-driven tumor detection in combined MRI-Radiotherapy’
 groups: diag
 closed: false
 type: general
