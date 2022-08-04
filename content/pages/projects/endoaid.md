@@ -1,14 +1,16 @@
-title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies
-groups: ai-for-health
-finished: false 
-type: student 
-picture: projects/endoaid.png 
-template: project-single 
-people: Thijs Gelton, Sanne Vermorgen, Francesco Ciompi 
-description: The development of model to detect (pre)malignancies in highly fragmented pipelle sampled biopsies.
+title: AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies groups: ai-for-health
+finished: false type: student picture: projects/endoaid.png template: project-single people: Thijs Gelton, Sanne
+Vermorgen, Francesco Ciompi description: The development of model to detect (pre)malignancies in highly fragmented
+pipelle sampled biopsies.
 
 **Start date: 01-02-2022** <br>
 **End date: 31-07-2022**
+
+- Uitleggen readerstudy en verandering problem statement
+- Solution beschrijven
+- Toelichten uitbreidingen in methods (hoe zijn we tot de solution gekomen)
+- Resultaten toelichten
+- Conlusie van het project (itereer nog een keer over problemen data)
 
 ## Clinical problem
 
@@ -21,35 +23,39 @@ mortality related to endometrial cancer. The histopathologic diagnosis of the pi
 further management of the patient. Pipelle sampling is a non-invasive method for biopsy, which is, therefore, often
 preferred in clinical screenings. The extracted cell tissue is, however, highly fragmented and pathologically less
 informative than, for example, a surgical resection. Additionally, a high percentage (90 - 95%) of the screenings yield
-benign tissue. A correct evaluation of the biopsy specimen, with 100% sensitivity, is therefore of paramount importance
-in reducing the workload of pathologists.
+benign or non-informative tissue. A correct evaluation of the biopsy specimen, with 100% sensitivity, is therefore of
+paramount importance in reducing the workload of pathologists.
 
 ## Data
 
-In this project, we will include all Radboudumc archival endometrial pipelle biopsies processed between October 2013 and
-April 2021, resulting in a total 3230 cases (using a PALGA search to find cases). From this set, we will select
-representative examples of the four main clinically relevant categories that will be addressed in this project, namely
+A total of 3002 pipelle biopsies performed between October 2013 and April 2021 were retrieved from the pathology archive
+of the Radboudumc. To retain a real-life situation, no preselection of cases was performed. H&E-stained slides were
+scanned using a 3DHistech P1000 scanner at 0,25 µm/pixel. Images were pseudonymized. A total of 91 whole slide images (
+WSI), randomly chosen with a predefined category-weighted key, were immediately set aside to be used in the
+interobserver variability study and to be used for evaluation of the algorithm. The remaining 2911 cases were used to
+train the algorithm.
 
-1. Normal endometrium
-2. Endometrial hyperplasia without atypia
-3. Endometrial hyperplasia with atypia
-4. Endometrial carcinoma.
-
-On this set, pathologists will make manual annotations of relevant regions, which will be used for training and
-validation of AI algorithms. For training purposes, about 100 cases will be annotated with manual dense annotations of
-tissue types, while the rest of cases will be annotated with weak annotations extracted from the pathology reports.
-Eventually, the validation of developed algorithms will be performed on > 3,000 cases.
+From the 2911 cases, 100 WSI (25 “normal”, 25 “hyperplasia without atypia”, 25 “hyperplasia with atypia”, 25
+“malignant”) were selected for manual annotation of pixels. An average of five regions of interest (ROI) of 500*500 µm
+were identified on each of the 100 WSI and dense annotations were made, labelling each pixel inside the ROI in 6 tissue
+classes: “epithelium benign” (normal glands), “epithelium hyperplasia” (hyperplastic glands without atypia), “epithelium
+atypia” (hyperplastic glands with atypia), “epithelium malignant” (malignant glands or cell groups), “stroma” (including
+stromal structures such as blood vessels) and “rest” (blood, mucus, luminal space inside the glands,…). The remaining
+2811 WSI were not annotated and only labeled with a category code, as described above. The use of strong- and weakly
+labeled samples allowed us to apply different modelling techniques.
 
 ## Solution
 
-We will develop a segmentation model, trained using our novel Stratified Hard Negative Mining (SHNM) approach, where the
-most severe category will be used for slide-level diagnosis. This means that if malignant (the highest clinical
-importance) tissue is predicted to be present in the WSI, then this will determine the diagnosis. SHNM is a novel
-addition to Hard Negative Mining (HNM). Regular HNM will select false positives (FP) solely on a likelihood. This
-neglects the morphological value certain categories display. With SHNM the FP are first collected, including metadata
-(coordinates, low dimensional embedding, etc.). In the second stage, these FPs are clustered based on their encoded
-embeddings, which represent the morphologies of the cell tissue. This should aid the model in fine-tuning its ability to
-discriminate the difficult morphologies which are located on the boundaries between two categories.
+An AI-system, based on the multiple instance learning algorithm CLAM[CITE], that learns to correlate visual patterns on
+patch-level to binary slide-level diagnosis, based on a single category per WSI. Figure ? illustrates the model taking a
+WSI as input, dividing this into patches (W: 512, H: 512, MMP: 0.5) based on a tissue mask and then encoding each patch
+into a vector of length 2048. The CNN used for encoding is a ResNet50 architecture pre-trained using 900.000
+histopathology images[CITE]. The vectors are weighted using an attention module and this attention score is used as a
+pseudo-label. High attention scores should correlate to positive samples and vice versa. These pseudo-labels are used in
+a clustering model, which could be a seen as a form of self-supervised learning and meant to improve the feature
+representation produced by the attention module. The same attention scores are eventually pooled into a slide-level
+diagnosis and simultaneously used in an interpretable heatmap visualisation. The final output of the modul is thus the
+likelihood that endometrium (pre)malignancy is present and what patches in the image attribute to this.
 
 ## Results
 
