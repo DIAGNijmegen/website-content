@@ -53,7 +53,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "12.20.0"
+          node-version: "16.15.0"
 
       - uses: actions/cache@v2
         with:
