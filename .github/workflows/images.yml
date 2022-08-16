@@ -95,8 +95,8 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install Netlify
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn global add netlify-cli@v10.14.0
+        # if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn global add netlify-cli
 
       - name: Deploy images to Netlify
         run: |
