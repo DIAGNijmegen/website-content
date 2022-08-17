@@ -28,10 +28,11 @@ signs of the development of endometrium cancer. Sometimes, precancerous tissue (
 early treatment of this premalignancy can prevent the ultimate development of cancer, thus preventing the morbidity and
 mortality related to endometrial cancer. The histopathologic diagnosis of the pipelle sampled endometrium tissue guides
 further management of the patient. Pipelle sampling is a non-invasive method for biopsy, which is, therefore, often
-preferred in clinical screenings. The extracted cell tissue is, however, highly fragmented and pathologically less
-informative than, for example, a surgical resection. Additionally, a high percentage (90 - 95%) of the screenings yield
-benign or non-informative tissue. A correct evaluation of the biopsy specimen, with 100% sensitivity, is therefore of
-paramount importance in reducing the workload of pathologists.
+preferred in clinical screenings. The biopsy is fixated into a glass paraffin and scanned using a high resolution
+scanner, so it can be viewed digitally (see schematic overview below). The extracted cell tissue is, however, highly
+fragmented and pathologically less informative than, for example, a surgical resection. Additionally, a high
+percentage (90 - 95%) of the screenings yield benign or non-informative tissue. A correct evaluation of the biopsy
+specimen, with 100% sensitivity, is therefore of paramount importance in reducing the workload of pathologists.
 
 ![endoaid_workflow.png]({{ IMGURL }}/images/projects/endoaid_workflow.png)
 
@@ -107,7 +108,10 @@ deep learning algorithm will be limited.
 
 Finally, the generalisability of the model should be tested using external cohorts, but the dataset used in this study
 is the only pipelle sampled endometrium biopsies dataset to date (2022-08-08). Therefore, we encourage medical experts
-to try the algorithm on grand-challenge (see below).
+to try the algorithm on grand-challenge by clicking the button below.
+
+<!-- <a href="https://grand-challenge.org/algorithms/endometrial-carcinoma-classification" class="btn btn-primary btn-lg my-3">
+Try out the algorithm</a> -->
 
 [grandchallenge/algorithms, slug: endometrial-carcinoma-classification]
 
