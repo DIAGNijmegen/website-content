@@ -5,7 +5,7 @@ type: student
 picture: vacancies/segmentation.jpg
 template: vacancy-single
 people: Bram van Ginneken, Silvan Quax
-description: Develop a 3D segmentation method that can learn a task from only a few segmented 2D slices
+description: Develop a 3D segmentation method that can learn a task from only a few segmented 2D slices.
 
 **This is an AI for Health MSc project. Students are
 eligible to receive a monthly reimbursement of €500,- for
