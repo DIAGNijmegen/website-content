@@ -4,8 +4,8 @@ closed: false
 type: student
 picture: vacancies/ood.jpg
 template: vacancy-single
-people: Bram van Ginneken, Keelin Murphy
-description: Develop a method for out-of-distribution detection to make AI more reliable and robust
+people: Bram van Ginneken
+description: Develop a method for out-of-distribution detection to make AI more reliable and robust.
 
 **This is an AI for Health MSc project. Students are
 eligible to receive a monthly reimbursement of €500,- for
