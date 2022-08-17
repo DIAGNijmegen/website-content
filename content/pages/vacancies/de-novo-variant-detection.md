@@ -5,7 +5,7 @@ type: student
 picture: vacancies/de-novo-variant-detection.jpeg
 template: vacancy-single
 people: Gelana Khazeeva, Christian Gilissen
-description: Developing deep learning algorithm for de novo variants detection in Pacbio long-read sequencing data
+description: Developing deep learning algorithm for de novo variants detection in Pacbio long-read sequencing data.
 
 ## Clinical problem
 Many developmental disorders, such as intellectual disability, autism spectrum disorder and multiple congenital anomalies are known to be caused by de novo mutations (DNMs). The reliable identification of DNMs is, therefore, of paramount importance both for genetic testing as well as research studies. Because of the genetic heterogeneity that exists for disorders where DNMs play a major role, the identification of DNMs is typically performed based on whole exome (WES) or whole-genome sequencing (WGS) data. In our recent study, we developed DeNovoCNN, a deep-learning-based tool that identifies de novo variants in WES and WGS short-read data more accurately than existing tools. However, the short-read sequencing approaches pose a limitation for the identification of variants in difficult regions. These limitations may significantly contribute to the diagnostic gap in patients who have undergone standard WES and WGS. The emerging long-read sequencing (LRS) technologies offer improvements in the characterization of genetic variation and regions that are difficult to assess. Therefore, this is considered the genetics technology of the future. Further development of the DeNovoCNN tool is necessary to use the advantages of the LRS technologies. 
