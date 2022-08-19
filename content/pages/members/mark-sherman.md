@@ -6,7 +6,7 @@ position: Consultant
 active: yes
 groups: diag, pathology
 default_group: pathology
-email: mark.sherman@radboudumc.nl, Sherman.Mark@mayo.edu
+email: Sherman.Mark@mayo.edu
 office: Route 812, room 2.18
 type: student
 scholar: https://scholar.google.com/citations?hl=nl&user=elFs3mIAAAAJ
