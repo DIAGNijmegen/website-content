@@ -24,12 +24,8 @@ For this project, you will be gathering and assessing the current scientific evi
 ## Conditions of employment
 * Project duration: 3 months, full-time
 * Location: Radboud university medical center and/or remote working.
-* Starting date: September 2022
+* Starting date: preferably September 2022
 * NB: for these short internships there is unfortunately no reimbursement available.
 
 ## How to apply
 If you wish to apply, please send a CV, motivation letter and project availability (start-end time) to [kicky.vanleeuwen@radboudumc.nl](mailto:kicky.vanleeuwen@radboudumc.nl).
-
-As Kicky is on holidays until the 18th of August, please contact [member/steven-schalekamp] if you would like to have more information or have any questions ([steven.schalekamp@radboudumc.nl](mailto:steven.schalekamp@radboudumc.nl)).
-
-Deadline for application is 18th of August. Interviews will be held at the end of August.
