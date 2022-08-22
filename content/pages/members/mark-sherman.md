@@ -2,7 +2,7 @@ title: Mark E. Sherman
 name: Mark E. Sherman
 template: people-single
 picture: people/Mark_Sherman.jpg
-position: Consultant
+position: Visiting Professor
 active: yes
 groups: diag, pathology
 default_group: pathology
