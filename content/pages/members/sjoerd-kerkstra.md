@@ -4,7 +4,7 @@ template: people-single
 picture: people/Sjoerd_Kerkstra.jpg
 position: Research Software Engineer
 active: yes
-groups: diag, rse
+groups: rse
 default_group: rse
 email: sjoerd.kerkstra@radboudumc.nl
 office: Route 767, Room 2.25

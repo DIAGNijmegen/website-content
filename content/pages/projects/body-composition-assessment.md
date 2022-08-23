@@ -7,6 +7,9 @@ template: project-single
 people: Lena Philipp, Nikolas Lessmann, Matthieu Rutten, Bram van Ginneken
 description: Automatic quantification of muscle and fat tissue in 3D CT and MR images
 
+**Start date: 10-12-2021** <br>
+**End date: 10-06-2022**
+
 ## Clinical problem
 The composition of the body in terms of muscle and fat mass is a precise measure of the physical state of the patient. This information has many practical applications in clinical routine care, such as monitoring treatment response to chemotherapy and immunotherapy in patients with cancer, or predicting clinical outcomes in other patients. While every hospital routinely acquires hundreds of cross-sectional imaging studies (CT and MRI scans) every day that would be suitable for deriving precise body composition measurements, this potential currently remains unused. Measuring fat and muscle mass would require manually delineating tissues depicted in the scan, which is labor-intensive and time-consuming.
 

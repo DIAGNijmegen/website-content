@@ -32,6 +32,7 @@ title: Former employees
 - [Thijs Kooi](https://www.linkedin.com/pub/thijs-kooi/26/2b1/a7)
 - [Sven Lafebre](https://www.linkedin.com/in/svenlafebre)
 - [Bianca Lassen](https://www.linkedin.com/in/bianca-lassen-schmidt-3872b9153/)
+- [Nikolas Lessmann](https://www.linkedin.com/in/nikolas-lessmann-231758105/)
 - [Bart Liefers](https://www.linkedin.com/in/bart-liefers-2aa4041a5/)
 - [Pragnya Maduskar](https://nl.linkedin.com/in/pragnya-maduskar-675a408)
 - [Rashindra Manniesing](https://www.linkedin.com/in/rashindra/)
