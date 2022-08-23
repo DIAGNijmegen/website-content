@@ -50,7 +50,7 @@ The two main tasks within this project:
 
 Using the previously published [nodule type classifier](https://www.nature.com/articles/srep46479) and retraining the system with more modern convolutional neural networks, preferably starting with the ResNet50 and I3D based nodule malignancy classifier described [here](https://pubs.rsna.org/doi/full/10.1148/radiol.2021204433). 
 Then working with [nnU-Net](https://www.nature.com/articles/s41592-020-01008-z) framework as the baseline for segmenting sub-solid nodules. External validation with unseen datasets will be performed once the development is frozen. 
-If time permits, experiments with a unified framework that can classify and segment a nodule in a single shot. Finally, overall care must be taken to minimize computational overhead and ensure that all processing happens within 0.5 seconds. 
+If time permits, experiments with a unified framework that can classify and segment a nodule in a single shot will be undertaken. Finally, overall care must be taken to minimize computational overhead and ensure that all processing happens within 0.5 seconds. 
 This will enable smooth integration with [CIRRUS Lung Screening](https://www.diagnijmegen.nl/software/cirruslungs/) (the research prototype version of Veolity).
 
 [comment]: <> (## Results)
