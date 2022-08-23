@@ -4,12 +4,12 @@ finished: false
 type: student
 picture: vacancies/subsolid-nodule-segmentation-ai4h-21.png
 template: project-single
-people: Sanyog Vyawahare, Kiran Venkadesh, Colin Jacobs, Bram van Ginneken  
+people: Sanyog Vyawahare, Kiran Vaidhya Venkadesh, Colin Jacobs, Bram van Ginneken  
 description: Development of deep learning algorithms for subsolid nodule analysis in CT.
 
 
-**Start date: {01-08-2022}** <br>
-**End date: {28-02-2023}**
+**Start date: 01-08-2022** <br>
+**End date: 28-02-2023**
 
 
 ## Clinical problem
