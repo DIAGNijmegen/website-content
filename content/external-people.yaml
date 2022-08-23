@@ -895,3 +895,54 @@ people:
     url:
     picture: people/external/Ritse_Mann.jpg
     email: ritse.mann@radboudumc.nl
+  - name: Anna-Lena Frisk
+    position: Scientific Director Pathology
+    affiliation: Janssen Pharmaceutica
+  - name: Julie Boisclair 
+    position: Director Discovery and Investigative Pathology
+    affiliation: Novartis
+  - name: Michiel Simons
+    position: Pathologist
+    affiliation: Radboudumc
+    picture: people/external/Michiel_Simons.jpg
+    email: michiel.simons@radboudumc.nl
+  - name: Joanne de Hullu
+    position: Gynecologist
+    affiliation: Radboudumc
+    picture: people/external/Joanne_deHullu.jpg
+    email: Joanne.deHullu@radboudumc.nl
+  - name: Avital Amir
+    position: Pathologist
+    affiliation: Radboudumc
+    picture: people/external/avital-amir.jpg
+    email: avital.amir@radboudumc.nl
+  - name: Chella van der Post
+    position: Pathologist
+    affiliation: Radboudumc
+    picture: people/external/chella_van_der_post.jpg
+    email: Chella.vanderPost@radboudumc.nl
+  - name: Esther Sikkel
+    position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/esther-sikkel
+    picture: people/external/Esther_Sikkel.jpg
+    email: Esther.Sikkel1@radboudumc.nl
+  - name: Marc Spaanderman
+    position: Professor Obstetrics
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/marc-spaanderman
+    picture: people/external/Marc_Spaanderman.jpg
+    email: marc.spaanderman@radboudumc.nl
+  - name: Enrico Munari
+    position: Pathologist
+    email: enrico.munari@unibs.it
+  - name: Shoko Vos
+    position: Pathologist
+    affiliation: Radboudumc
+    email: shoko.vos@radboudumc.nl
+    picture: people/external/shoko-vos.jpg
+  - name: Erik Aarntzen
+    position: Nuclear medicine physician
+    affiliation: Radboudumc
+    email: erik.aarntzen@radboudumc.nl
+    picture: people/external/erik-aarntzen.jpg

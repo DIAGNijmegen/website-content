@@ -5,7 +5,7 @@ type: general
 picture: news/KWF_logo2021.png
 template: project-single
 groups: diag
-people: Colin Jacobs, Cornelia Schaefer-Prokop, Mathias Prokop, Firdaus Mohamed Hoesein, Rozemarijn Vliegenthart, Hester Gietema, Erik van der Heijden, Robin Cornelissen
+people: Renate Dinnessen, Dré Peeters, Colin Jacobs, Cornelia Schaefer-Prokop, Mathias Prokop, Firdaus Mohamed Hoesein, Rozemarijn Vliegenthart, Hester Gietema, Erik van der Heijden, Robin Cornelissen
 description: Accurate malignancy risk estimation of pulmonary nodules using artificial intelligence
 bibkeys:
 

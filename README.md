@@ -1,8 +1,9 @@
 # DIAG Website content
 
-This repository stores all the content and source code for the DIAG websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
-
 [![Build and Deploy](https://github.com/DIAGNijmegen/website-content/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/DIAGNijmegen/website-content/actions)
+[![Optimize Images](https://github.com/DIAGNijmegen/website-content/actions/workflows/images.yml/badge.svg)](https://github.com/DIAGNijmegen/website-content/actions/workflows/images.yml)
+
+This repository stores all the content and source code for the DIAG websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
 
 
 ## Websites
@@ -36,6 +37,8 @@ Building the website:
 To build the css:
 1. Install npm==7.12.0 
 2. Run css build in `radboudumc-theme`: `npm run deploy-watch`
+
+To automatically build and host the website in a docker image, follow the instruction in the docker folder. 
 
 ## Design resources
 

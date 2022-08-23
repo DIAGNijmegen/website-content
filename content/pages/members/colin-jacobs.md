@@ -6,6 +6,7 @@ position: Assistant Professor
 active: yes
 groups: diag
 default_group: diag
+show_finished_projects: false
 email: colin.jacobs@radboudumc.nl
 office: Route 767, Room 2.30
 telephone: +31 24 3614766

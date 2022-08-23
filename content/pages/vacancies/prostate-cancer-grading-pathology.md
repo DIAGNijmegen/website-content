@@ -1,6 +1,6 @@
 title: Extending a prostate cancer grading algorithm to other surgical entities
 groups: ai-for-health
-closed: false
+closed: true
 type: student 
 picture: vacancies/prostate_pathology.png
 template: vacancy-single

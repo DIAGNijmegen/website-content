@@ -5,7 +5,7 @@ type: student
 picture: projects/developmental-hip-dysplasia.png
 template: vacancy-single
 people: Thomas van den Heuvel, Chris de Korte, Bram van Ginneken
-description: Project aimed at development of deep learning algorithms for automated detection developmental hip dysplasia.
+description: Project aimed at development of deep learning algorithms for automated detection developmental hip dysplasia. The algorithms should run on a phone with a  low-cost portable ultrasound probe attached.
 
 **This is an AI for Health MSc project. Students are
 eligible to receive a monthly reimbursement of €500,- for

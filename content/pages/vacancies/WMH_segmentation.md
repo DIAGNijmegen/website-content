@@ -1,6 +1,6 @@
 title: Progression of white matter hyperintensities in CSVD
 groups: ai-for-health, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/WMH_segmentation.png
 template: vacancy-single
