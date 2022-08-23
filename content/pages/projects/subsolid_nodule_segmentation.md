@@ -14,22 +14,19 @@ description: Development of deep learning algorithms for subsolid nodule analysi
 
 ## Clinical problem
 
-Lung cancer is the leading cause of cancer death among both men and women, accounting for nearly 25% of all cancer deaths. While lung cancer typically shows up as pulmonary nodules on CT examinations, most nodules are benign and do not require further clinical workup. However, radiologist workload is expected to drastically increase soon with the widespread implementation of lung cancer screening programs. 
+Lung cancer is the leading cause of cancer death among both men and women, accounting for nearly 25% of all cancer deaths. While early stage lung cancer typically shows up as pulmonary nodules on CT examinations, most nodules are benign and do not require further clinical workup. However, radiologist workload is expected to increase soon with the widespread implementation of lung cancer screening programs. 
 Therefore, accurate detection and characterization of pulmonary nodules are crucial for optimizing screening. 
 
 Among the different types of nodules, subsolid pulmonary nodules are routinely encountered in screening and carry a higher malignancy risk. [Clinical reporting guidelines](https://www.acr.org/Clinical-Resources/Reporting-and-Data-Systems/Lung-Rads) recommend different management strategies based on the radiological appearance and biological behaviour of nodules. 
-For subsolid nodules, the management decisions are dependent on accurate volumetric measurements and tracking the evolution of the solid cores of these nodules. 
+For subsolid nodules, the management decisions are dependent on accurate volumetric measurements and tracking the evolution of the solid core of these nodules. 
 
 ![Segmentation example]({{ IMGURL }}/images/projects/subsolid-nodule-segmentation-ai4h-21.png)
 
 The [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at Radboudumc has brought [Veolity](https://www.veolity.com/) to the market with MeVis Medical Solutions (Bremen, Germany). 
-Veolity is a dedicated software solution for efficient reading of chest CT examinations in lung cancer screening programs. 
-This product is actively used by several sites in North America, Europe, Asia, and Australia.
-The software includes algorithms to detect, classify, and segment pulmonary nodules. However, the algorithms behind nodule type classification and segmentation are either outdated or are based on traditional image processing methods. 
-Hence, there is a need to upgrade them into modern deep learning algorithms, which are becoming [increasingly prevalent](https://www.sciencedirect.com/science/article/pii/S1361841517301135?via%3Dihub) in medical image analysis.
+Veolity is a dedicated software solution for efficient reading of chest CT examinations in lung cancer screening programs and is in active use at sites in North America, Europe, Asia, and Australia.
+The software includes algorithms to detect, classify, and segment pulmonary nodules. In this project, we aim to improve the algorithms for nodule type classification and segmentation by exploring novel deep learning methods and frameworks.
 
-
-[comment]: <> (## Solution)
+[comment]: ## Solution
 
 [comment]: <> ({DESCRIBE THE MAIN RESULT OR INNOVATION OF THE PROJECT AND HOW IT WILL BE INTEGRATED IN RADBOUDUMC ROUTINE CARE})
 
@@ -50,8 +47,7 @@ The two main tasks within this project:
 
 Using the previously published [nodule type classifier](https://www.nature.com/articles/srep46479) and retraining the system with more modern convolutional neural networks, preferably starting with the ResNet50 and I3D based nodule malignancy classifier described [here](https://pubs.rsna.org/doi/full/10.1148/radiol.2021204433). 
 Then working with [nnU-Net](https://www.nature.com/articles/s41592-020-01008-z) framework as the baseline for segmenting sub-solid nodules. External validation with unseen datasets will be performed once the development is frozen. 
-If time permits, experiments with a unified framework that can classify and segment a nodule in a single shot will be undertaken. Finally, overall care must be taken to minimize computational overhead and ensure that all processing happens within 0.5 seconds. 
-This will enable smooth integration with [CIRRUS Lung Screening](https://www.diagnijmegen.nl/software/cirruslungs/) (the research prototype version of Veolity).
+If time permits, experiments with a unified framework that can classify and segment a nodule in a single shot will be undertaken.
 
 [comment]: <> (## Results)
 
