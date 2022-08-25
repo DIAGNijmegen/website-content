@@ -8,8 +8,7 @@ people: Witali Aswolinskiy, Jeroen van der Laak, Mark Sherman
 description: Development of a deep learning system to predict BC risk in H&E
 
 ## Reimbursement
-This is an AI for Health MSc project. Students are eligible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the requirements
-https://www.ai-for-health.nl/requirements/
+This is an AI for Health MSc project. Students are eligible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements).
 
 ## Clinical Problem
 
