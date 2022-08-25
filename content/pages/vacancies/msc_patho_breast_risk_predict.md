@@ -18,8 +18,8 @@ Millions of women undergo breast biopsies (i.e., tissue sampling) each year to d
 
 Convolutional neural networks to characterize tissue composition of biopsies and assess the morphology of normal breast lobules (which are the source of BBD) have been developed and reported in several publications (PMC9275035; PMC8770616; PMID: 35503494).
 The goals of this project include:
-1) characterization of morphologic features of the BBD biopsies
-2) establishing approaches for predicting BC risk.
+- characterization of morphologic features of the BBD biopsies
+- establishing approaches for predicting BC risk.
 
 ## Data
 Mayo Clinic (Rochester, US) has established a cohort of 5,499 women biopsied for BBD between 2002-2013, including 360 who developed an incident DCIS or invasive BC. Microscopic slides of all biopsies have been thoroughly reviewed and analyzed and digital images of a subset have been incorporated into a case-cohort, which includes all biopsies preceding BC and a random subset of biopsies (~900 total women).
