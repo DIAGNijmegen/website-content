@@ -1,5 +1,5 @@
 title: Identification of features in benign breast disease biopsies that predict breast cancer risk
-groups: pathology
+groups: pathology, ai-for-health
 closed: false
 type: student
 picture: vacancies/msc_patho_breast_risk_predict.jpg
