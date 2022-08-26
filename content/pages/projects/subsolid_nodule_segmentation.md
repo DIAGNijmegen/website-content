@@ -26,7 +26,7 @@ The [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at Ra
 Veolity is a dedicated software solution for efficient reading of chest CT examinations in lung cancer screening programs and is in active use at sites in North America, Europe, Asia, and Australia.
 The software includes algorithms to detect, classify, and segment pulmonary nodules. In this project, we aim to improve the algorithms for nodule type classification and segmentation by exploring novel deep learning methods and frameworks.
 
-[comment]: <> ## Solution
+[comment]: <> (## Solution)
 
 [comment]: <> ({DESCRIBE THE MAIN RESULT OR INNOVATION OF THE PROJECT AND HOW IT WILL BE INTEGRATED IN RADBOUDUMC ROUTINE CARE})
 
