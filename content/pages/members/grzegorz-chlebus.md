@@ -3,7 +3,7 @@ name: Grzegorz Chlebus
 template: people-single
 picture: people/external/Grzegorz_Chlebus.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: grzegorz.chlebus@mevis.fraunhofer.de
