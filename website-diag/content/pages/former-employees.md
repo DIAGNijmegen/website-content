@@ -1,12 +1,9 @@
 title: Former employees
 
-- [Anton Schreuder](https://www.linkedin.com/in/anton-schreuder-21978030/)
-- [Rita Bijlsma](https://www.xing.com/profile/Rita_Bylsma)
 - [Max Argus](https://www.linkedin.com/in/max-argus-5810636)
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
 - [Haimasree Bhattacharya](https://www.linkedin.com/in/haimasreebhattacharya/)
 - [Zijian Bian](https://www.linkedin.com/in/zijian-bian-1ba342106)
-- [Rieneke van den Boom](http://nl.linkedin.com/in/rienekevandenboom/en)
 - [Guido te Brake](http://nl.linkedin.com/in/guidotebrake/en)
 - [Joris Bukala](http://www.linkedin.com/in/joris-bukala-53ba58a8/en)
 - [Jean-Paul Charbonnier](http://www.linkedin.com/pub/jean-paul-charbonnier/26/929/b91)
@@ -58,6 +55,7 @@ title: Former employees
 - [Clarisa Sanchez](https://www.linkedin.com/in/clarisa-sanchez-0b3a2b3)
 - [Steven Schalekamp](https://nl.linkedin.com/pub/steven-schalekamp/b2/6a/223)
 - [Guido van Schie](http://nl.linkedin.com/in/guidovanschie)
+- [Anton Schreuder](https://www.linkedin.com/in/anton-schreuder-21978030/)
 - [Arnaud Arindra Adiyoso Setio](https://www.linkedin.com/in/arnaudsetio)
 - [Carl Shneider](https://www.linkedin.com/in/carl-shneider/)
 - [Cheryl Sital](https://www.linkedin.com/in/cheryl-sital/)
