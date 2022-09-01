@@ -4,6 +4,8 @@ title: Former employees
 - [Christiana Balta](https://www.linkedin.com/in/christianabalta/)
 - [Haimasree Bhattacharya](https://www.linkedin.com/in/haimasreebhattacharya/)
 - [Zijian Bian](https://www.linkedin.com/in/zijian-bian-1ba342106)
+- [Rita Bijlsma](https://www.linkedin.com/in/rita-bijlsma-5885862/)
+- [Rieneke van den Boom](http://nl.linkedin.com/in/rienekevandenboom/en)
 - [Guido te Brake](http://nl.linkedin.com/in/guidotebrake/en)
 - [Joris Bukala](http://www.linkedin.com/in/joris-bukala-53ba58a8/en)
 - [Jean-Paul Charbonnier](http://www.linkedin.com/pub/jean-paul-charbonnier/26/929/b91)
