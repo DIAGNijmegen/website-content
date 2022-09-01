@@ -10,6 +10,7 @@ title: Former employees
 - [Guido te Brake](http://nl.linkedin.com/in/guidotebrake/en)
 - [Joris Bukala](http://www.linkedin.com/in/joris-bukala-53ba58a8/en)
 - [Jean-Paul Charbonnier](http://www.linkedin.com/pub/jean-paul-charbonnier/26/929/b91)
+- [Grzegorz Chlebus](https://www.linkedin.com/in/gchlebus/)
 - [Kaman Chung](https://www.linkedin.com/in/kaman-chung-2700b32a/)
 - [Mehmet Dalmis](https://www.linkedin.com/in/mdalmis/)
 - [Anke van der Eerden](https://www.linkedin.com/in/ankevandereerden/)
