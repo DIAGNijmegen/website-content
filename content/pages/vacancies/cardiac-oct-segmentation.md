@@ -1,6 +1,6 @@
 title: Automated analysis of intracoronary optical coherence tomography (OCT) images obtained during cardiac catheterization in patients with acute myocardial infarction 
 groups: ai-for-health
-closed: true
+closed: false
 type: student
 picture: vacancies/cardiac-oct-segmentation.png
 template: vacancy-single
