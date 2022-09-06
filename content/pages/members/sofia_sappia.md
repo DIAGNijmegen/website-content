@@ -4,7 +4,7 @@ template: people-single
 picture: people/Sofia_Sappia.jpg 
 position: PhD Candidate 
 active: yes 
-email: sofisappia@gmail.com 
+email: mariasofia.sappia@radboudumc.nl 
 office: 
 type: phd 
 groups: diag 
