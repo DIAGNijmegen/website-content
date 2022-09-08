@@ -9,7 +9,7 @@ default_group: diag
 email: nathan.golden@radboudumc.nl
 office: Route, Room 
 telephone:
-type: phd
+type: student
 scholar: 
 publons: 
 orcid: 
