@@ -958,3 +958,27 @@ people:
     url: https://www.st-anna.nl/specialisten-en-professionals/rintje-agricola/
     email: 
     picture: people/external/Rintje_Agricola.jpg
+  - name: Jos Thannhauser
+    position: 
+    affiliation: Cardiology, Radboudumc
+    url: https://www.radboudumc.nl/personen/jos-thannhauser
+    email: Jos.Thannhauser@radboudumc.nl
+    picture: people/external/Jos_Thannhauser.jpg
+  - name: Jan-Quinten Mol
+    position: PhD candidate
+    affiliation: Cardiology, Radboudumc
+    url: 
+    email: Jan-Quinten.Mol@radboudumc.nl
+    picture: people/external/Jan_Quinten_Mol.jpg
+  - name: Rick Volleberg
+    position: PhD candidate
+    affiliation: Cardiology, Radboudumc
+    url: https://www.linkedin.com/in/rick-volleberg-068bab142/?originalSubdomain=nl
+    email: Rick.Volleberg@radboudumc.nl
+    picture: people/external/Rick_Volleberg.jpg
+  - name: Niels van Royen
+    position: Professor
+    affiliation: Cardiology, Radboudumc
+    url: 
+    email: Niels.vanRoyen@radboudumc.nl
+    picture: people/external/Niels_van_Royen.jpg
