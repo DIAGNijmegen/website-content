@@ -1,6 +1,6 @@
 title: Drug repurposing with graph neural networks for COVID-19 and Myotonic Dystrophy type 1
 groups: ai-for-health
-finished: false 
+finished: true 
 type: student 
 picture: vacancies/MD_drug_repurposing.png
 template: project-single
