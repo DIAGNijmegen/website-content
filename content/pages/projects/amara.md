@@ -5,9 +5,9 @@ type: general
 picture: news/KWF_logo2021.png
 template: project-single
 groups: diag
-people: Colin Jacobs, Cornelia Schaefer-Prokop, Mathias Prokop, Firdaus Mohamed Hoesein, Rozemarijn Vliegenthart, Hester Gietema, Erik van der Heijden, Robin Cornelissen
+people: Renate Dinnessen, Dré Peeters, Colin Jacobs, Cornelia Schaefer-Prokop, Mathias Prokop, Firdaus Mohamed Hoesein, Rozemarijn Vliegenthart, Hester Gietema, Erik van der Heijden, Robin Cornelissen
 description: Accurate malignancy risk estimation of pulmonary nodules using artificial intelligence
-bibkeys:
+bibkeys: Venk21
 
 ## Problem description:
 The Dutch-Belgian NELSON trial recently showed that CT screening leads to a 24% lung cancer mortality reduction in male long-term smokers. This has sparked discussions on how to implement lung cancer screening in the Netherlands. Screening using low-dose CT is highly sensitive for pulmonary nodule detection. The vast majority of these nodules are benign, but may result in extra investigations. Pulmonary nodules are also an increasingly common finding in routine medical care, with an incidence that is much greater than recognized previously. Thus, there is a critical need for improved nodule stratification and management.
