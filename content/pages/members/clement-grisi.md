@@ -1,15 +1,20 @@
-title: Daan Geijs
-name: Daan Geijs
+title: Clément Grisi 
+name: Clément Grisi
 template: people-single
-picture: people/Daan_Geijs.jpg
+picture: people/Clement_Grisi.png
 position: PhD Candidate
-active: yes 
+active: yes
 groups: diag, pathology
-default_group: pathology 
-email: daan.geijs@radboudumc.nl
-office: Route 812, Room 2.39
+default_group: pathology
+email: clement.grisi@radboudumc.nl
+office: Route, Room 
+telephone:
 type: phd
-linkedin: https://www.linkedin.com/in/daan-geijs-188009121/
-scholar: https://scholar.google.nl/citations?user=qj6BUocAAAAJ&hl=nl
+scholar: 
+publons: 
+orcid: 
+linkedin: https://www.linkedin.com/in/clement-grisi/
 
-Daan Geijs studied [Biomedical Engineering](https://www.utwente.nl/onderwijs/master/opleidingen/biomedical-engineering/) at the [University of Twente](https://www.utwente.nl/) and specialized in [Image and Diagnostics](https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/specialization/specialisatie-imaging-invitro-diagnostics/). Subsequently, he finished his [master thesis](/publications/geij19) segmenting tumor by applying deep learning on fluorescent multiplex breast cancer images in 2019. In the same period, he finished the master study [Science Education and Communication](https://www.utwente.nl/en/education/master/programmes/science-education-communication/) in Physics and worked as a secondary school Physics teacher. In March 2020 he started as PhD candidate in the [Computational Pathology Group](https://www.computationalpathologygroup.eu/) and [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) where he works under the supervision of [member/geert-litjens] implementing deep learning in the daily routine of pathologists assessing skin cancer.  
+Clément Grisi obtained his MSc in Applied Mathematics & Computer Vision from École des Ponts ParisTech and ENS Paris-Saclay (master MVA - Mathematics, Vision, Learning) in 2021. For his master thesis, he worked on the identification of novel breast cancer biomarkers in digital pathology slides at Paige, in New-York, under the supervision of Pr. Christopher Kanan.
+As of September 2022, he started as a PhD candidate in the Computational Pathology Group where he works under the supervision of Geert Litjens. His project aims at combining weakly-supervised learning with natural language processing to make predictive models more effective in medical applications and endow them with transparency and explainability.
+ 
