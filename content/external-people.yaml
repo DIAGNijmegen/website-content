@@ -949,10 +949,12 @@ people:
   - name: Walter van der Weegen
     position: Researcher
     affiliation: St. Anna Hospital
+    url: https://www.st-anna.nl/specialisten-en-professionals/walter-van-der-weegen/#
     email: 
     picture: people/external/Walter_van_der_Weegen.jpg
   - name: Rintje Agricola
     position: Orthopedic surgeon
     affiliation: St. Anna Hospital
+    url: https://www.st-anna.nl/specialisten-en-professionals/rintje-agricola/
     email: 
     picture: people/external/Rintje_Agricola.jpg
