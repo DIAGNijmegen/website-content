@@ -15,5 +15,5 @@ publons:
 orcid: 
 linkedin:
 
-Cas obtained his Bachelor degree in Bioinformatics at the HAN (Nijmegen). Currently, he is a Master student of data science at Radboud University.  At DIAG he is completing an internship, developing algorithms to automatically detect enlarged lymph nodes in CT scans to facilitate the diagnosis of lung cancer patients. His project is supervised by Colin Jacobs.
+Cas obtained his Bachelor degree in Bioinformatics at the HAN (Nijmegen). Currently, he is a Master student of data science at Radboud University.  At the [Diagnostic Image Analysis Group](http://diagnijmegen.nl), he is completing an internship, developing algorithms to automatically detect enlarged lymph nodes in CT scans to facilitate the diagnosis and staging of lung cancer patients. His project is supervised by [member/colin-jacobs].
 
