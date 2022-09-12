@@ -16,6 +16,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 29-09-2022 | Michelle Stegeman | TBA | Skatecourt, route 14, Experience Center |
 | 22-09-2022 | Thijs Gelton <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
