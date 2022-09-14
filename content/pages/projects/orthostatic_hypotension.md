@@ -7,6 +7,9 @@ picture: projects/orthostatic_hypertension.png
 people: Enrico Schmitz
 description: Develop a method to predict orthostatic hypotension in realtime for early diagnosis
 
+** Start date: 15-01-2022 ** <br>
+** End date: 15-06-2022 **
+
 ## Clinical problem
 Orthostatic hypotension (OH) is a common condition among elderly, and is related to a prolonged and/or deep blood pressure (BP) drop upon standing up.
 A BP drop is natural when standing up, caused by gravity-induced venous pooling in the legs. Feedback mechanisms in the body force BP to recover. But with patients diagnosed with OH this recovery is slow and can cause dizziness and light headedness which may cause falls.

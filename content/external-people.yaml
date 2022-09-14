@@ -784,8 +784,8 @@ people:
   - name: Thomas van den Broek
     position: Master Student
     affiliation: Artificial Intelligence, Radboud University
-    url:
-    picture:
+    url: https://www.linkedin.com/in/thomas-van-den-broek-015009171/
+    picture: people/external/Thomas_van_den_Broek.jpg
     email: thomas.vandenbroek@radboudumc.nl
   - name: Kirina van der Bijl
     position: Master Student
@@ -808,8 +808,8 @@ people:
   - name: Yassier Elawady
     position: Master Student
     affiliation: University of Twente
-    url:
-    picture: 
+    url: https://www.linkedin.com/in/yassier-elawady-35ba50227/
+    picture: people/external/Yassier_Elawady.jpg
     email: yassier.elawady@radboudumc.nl
   - name: Heleen Kerstholt
     position: Master Student
@@ -845,13 +845,13 @@ people:
     position: Master Student
     affiliation: CMBI, Radboudumc
     url:
-    picture: 
+    picture: people/external/djesse-square.jpg
     email: djesse.dirckx@radboudumc.nl
   - name: Lotte Willems
     position: Master Student
     affiliation: CMBI, Radboudumc
     url:
-    picture: 
+    picture: people/external/lotte.jpg
     email: lotte.j.willems@radboudumc.nl
   - name: Sasha Peerdeman
     position: Master Student
@@ -946,3 +946,57 @@ people:
     affiliation: Radboudumc
     email: erik.aarntzen@radboudumc.nl
     picture: people/external/erik-aarntzen.jpg
+  - name: Walter van der Weegen
+    position: Researcher
+    affiliation: St. Anna Hospital
+    url: https://www.st-anna.nl/specialisten-en-professionals/walter-van-der-weegen/#
+    email: 
+    picture: people/external/Walter_van_der_Weegen.jpg
+  - name: Rintje Agricola
+    position: Orthopedic surgeon
+    affiliation: St. Anna Hospital
+    url: https://www.st-anna.nl/specialisten-en-professionals/rintje-agricola/
+    email: 
+    picture: people/external/Rintje_Agricola.jpg
+  - name: Jos Thannhauser
+    position: 
+    affiliation: Cardiology, Radboudumc
+    url: https://www.radboudumc.nl/personen/jos-thannhauser
+    email: Jos.Thannhauser@radboudumc.nl
+    picture: people/external/Jos_Thannhauser.jpg
+  - name: Jan-Quinten Mol
+    position: PhD candidate
+    affiliation: Cardiology, Radboudumc
+    url: 
+    email: Jan-Quinten.Mol@radboudumc.nl
+    picture: people/external/Jan_Quinten_Mol.jpg
+  - name: Rick Volleberg
+    position: PhD candidate
+    affiliation: Cardiology, Radboudumc
+    url: https://www.linkedin.com/in/rick-volleberg-068bab142/?originalSubdomain=nl
+    email: Rick.Volleberg@radboudumc.nl
+    picture: people/external/Rick_Volleberg.jpg
+  - name: Niels van Royen
+    position: Professor
+    affiliation: Cardiology, Radboudumc
+    url: https://www.radboudumc.nl/personen/niels-van-royen
+    email: Niels.vanRoyen@radboudumc.nl
+    picture: people/external/Niels_van_Royen.jpg
+  - name: Jolique van Ipenburg
+    position: Pathologist
+    affiliation: Pathology, Radboudumc
+    url: https://www.radboudumc.nl/personen/jolique-van-ipenburg
+    email: Jolique.vanIpenburg@radboudumc.nl
+    picture: people/external/Jolique_van_Ipenburg.jpg
+  - name: Ruben Geurtjens
+    position: Master student
+    affiliation: Diagnostic Image Analysis Group
+    url: https://www.linkedin.com/in/ruben-geurtjens-81568614a/
+    email: Ruben.Geurtjens@radboudumc.nl
+    picture: people/external/Ruben_Geurtjens.jpg
+  - name: Enrico Schmitz
+    position: Master student
+    affiliation: CMBI
+    url: https://www.linkedin.com/in/enrico-schmitz-a31665134/
+    email: 
+    picture: people/external/Enrico_Schmitz.jpg

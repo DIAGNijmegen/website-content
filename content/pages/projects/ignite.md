@@ -5,7 +5,7 @@ picture: projects/ignite.png
 template: project-single
 groups: pathology, diag
 default_group: pathology 
-people: Leander van Eekelen, Joey Spronck, Francesco Ciompi, Shoko Vos, Erik Aarntzen, Enrico Munari
+people: Leander van Eekelen, Joey Spronck, Francesco Ciompi
 description: The goal of IGNITE is to use automatic biomarker extraction with deep learning to predict the response of non-small cell lung cancer patients to immunotherapy.
 bibkeys: 
 type: normal

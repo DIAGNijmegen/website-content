@@ -1,12 +1,12 @@
 title: Course program
-description: The third edition of the AI for Health course will start in Q1 2022. More information will follow soon!
+description: The third edition of the AI for Health course will start in Q1 2023. More information will follow soon!
 groups: ai-for-health
 picture: courses/XMG_20200925_142130.jpg
 
 ## What you need to know for the third edition of the course:
 
 <ul>
-  <li>The next edition of the course will start <b>11-02-2022</b>.</li>
+  <li>The next edition of the course will start <b>03-02-2023</b>.</li>
 <li>There are 2 tracks to choose from: </li>
 <ul>
   <li> A <b>full track</b> that offers participants the ability to create their own AI solutions. In this track you will follow, besides the lectures, also practical sessions where you can pick up the skills needed to implement your own AI applications.</li>
@@ -15,7 +15,7 @@ picture: courses/XMG_20200925_142130.jpg
 </ul>  
 ## Full track program
 <ul>
-<li>The in depth course takes place on 17 Fridays.
+<li>The in depth course takes place on 16 Fridays.
 <li>The course days consist of lectures in the morning and afternoon Python practicals with cases focused on Radboudumc practice.</li>
 <li>The program will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.</li>
 <li>The course includes project days in the Radboudumc where you will work in a team on a Radboudumc project.</li>
@@ -39,28 +39,27 @@ An overview of the in-depth track schedule can be seen below.
 
 | Date  | Time |  Topic  | Content |
 | ----- | ------- | ------| ------ |
-| 11-02-2022 | 9-13h | Introduction | How is AI changing healthcare? |
-| 18-02-2022 | 9-17h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
-| 25-02-2022 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models |
-| 11-03-2022 | 9-17h | Machine Learning 3| A start is made to cover the most important supervised <br> machine learning algorithms and you will learn how to prepare your data |
-| 18-03-2022 | 9-17h | Machine Learning 4| We will finish covering the most important supervised <br> machine learning algorithms and learn how to Evaluate your models|
-| 25-03-2022 | 9-17h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
-| 01-04-2022 | 9-17h | Deep Learning 2| Learn how to combine text, images and biomedical data for <br> better deep learning models |
-| 08-04-2022 | 9-17h | Data Engineering / Ethics & Privacy | The FAIR principles of data management <br> are covered and ethical and privacy concerns regarding the use of AI are discussed |
-| 22-04-2022 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
-| 29-04-2022 | 9-17h | Machine Learning 5| You will learn about unsupervised machine learning models <br>for data without any labels and get a summary of all machine learning topics |
-| 13-05-2022 | 9-17h | Text Mining | Learn how to get valuable insights from medical records |
-| 20-05-2022 | 9-17h | Project Day 2 | Data preparation and model development |
-| 03-06-2022 | 9-17h | Bioinformatics | Learn about applications of AI in genetics |
-| 10-06-2022 | 9-17h | Project Day 3 | Model optimization and result visualisation |
-| 17-06-2022 | 9-17h | AI products / Deployment | Learn how to choose a suitable AI product and how <br> to deploy your own AI product in practice |
-| 24-06-2022 | 9-17h | Project Day 4 | Evaluating model performance |
-| 01-07-2022 | 9-13h | Final Presentations | Project groups will present their final results |
+| 03-02-2023 | 9-13h | Introduction | How is AI changing healthcare? |
+| 10-02-2023 | 9-17h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
+| 17-02-2023 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models |
+| 03-03-2023 | 9-17h | Machine Learning 3| A start is made to cover the most important supervised <br> machine learning algorithms and you will learn how to prepare your data |
+| 10-03-2023 | 9-17h | Machine Learning 4| You will learn about unsupervised machine learning models <br>for data without any labels and learn how to Evaluate your models|
+| 17-03-2023 | 9-17h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
+| 24-03-2023 | 9-17h | Deep Learning 2| Learn how to combine text, images and biomedical data for <br> better deep learning models |
+| 31-03-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
+| 14-04-2023 | 9-17h | Data Engineering / Ethics & Privacy | The FAIR principles of data management <br> are covered and ethical and privacy concerns regarding the use of AI are discussed |
+| 21-04-2023 | 9-17h | Project Day 2 | Data preparation and model development |
+| 28-04-2023 | 9-17h | Text Mining & Bioinformatics | Learn how to get valuable insights from medical records <br> and about AI applications in genetics |
+| 12-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation |
+| 26-05-2023 | 9-17h | AI products / Deployment | Learn how to choose a suitable AI product and how <br> to deploy your own AI product in practice |
+| 02-06-2023 | 9-17h | Project Day 4 | Evaluating model performance |
+| 09-06-2023 | 9-17h | Project Day 5 | Evaluating model performance |
+| 16-06-2023 | 9-13h | Final Presentations | Project groups will present their final results |
 
 ## Light track program
 
 <ul>
-<li>The short track takes takes 10 Friday mornings/afternoons.
+<li>The short track takes takes 14 (half) Fridays.
 <li>The course consists of lectures with a focus on Radboudumc practice.</li>
 <li>The program will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.</li>
 <li>For the projects you can bring in your own clinical case and you will be involved by providing guidance and feedback to a team.</li>
@@ -73,20 +72,20 @@ An overview of the short track schedule can be seen below.
   
 | Date  | Time |  Topic  | Content |
 | ----- | ------- | ------| ------ |
-| 11-02-2022 | 9-13h | Introduction | How is AI changing healthcare? | 
-| 18-02-2022 | 13-17h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
-| 25-02-2022 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
-| 25-03-2022 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
-| 01-04-2022 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
-| 08-04-2022 | 13-17h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
-| 22-04-2022 |  | Project Day 1 | Defining project goals and understanding your data |
-| 13-05-2022 | 9-13h | Text Mining | Learn how to get valuable insights from medical records |
-| 20-05-2022 |  | Project Day 2 | Data preparation and model development |
-| 03-06-2022 | 9-13h | Bioinformatics |  Learn about applications of AI in genetics |
-| 10-06-2022 |  | Project Day 3 | Model optimization and result visualisation |
-| 17-06-2022 | 9-13h | AI products | Learn how to choose a suitable AI product |
-| 24-06-2022 |  | Project Day 4 | Evaluating model performance |
-| 01-07-2022 | 9-13h | Final Presentations | Project groups will present their final results |
+| 03-02-2023 | 9-13h | Introduction | How is AI changing healthcare? | 
+| 10-02-2023 | 9-13h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
+| 17-02-2023 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
+| 17-03-2023 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
+| 24-03-2023 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
+| 31-03-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
+| 14-04-2023 | 13-17h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
+| 21-04-2023 | 9-17h | Project Day 2 | Data preparation and model development |
+| 28-04-2023 | 9-17h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics |
+| 12-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation |
+| 26-05-2023 | 9-13h | AI products | Learn how to choose a suitable AI product |
+| 02-06-2023 | 9-17h | Project Day 4 | Evaluating model performance |
+| 09-06-2023 | 9-17h | Project Day 5 | Evaluating model performance |
+| 16-06-2023 | 9-13h | Final Presentations | Project groups will present their final results |
 
 <!-- ## Teachers
 

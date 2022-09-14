@@ -16,12 +16,14 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
+| 29-09-2022 | Michelle Stegeman | TBA | Skatecourt, route 14, Experience Center |
+| 22-09-2022 | Thijs Gelton <br> Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
 | 14-07-2022 | Lars Leijten | Scoliosis simulation for improving segmentation and labeling of vertebrae |
 | 07-07-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 |
 | 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data |

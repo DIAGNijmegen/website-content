@@ -1,6 +1,6 @@
 title: Deep learning for fully automated detection of enlarged lymph nodes in thoracic CT
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/lymph_node_staging1.png
 template: vacancy-single

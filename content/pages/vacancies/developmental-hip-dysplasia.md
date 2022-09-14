@@ -1,16 +1,14 @@
 title: Automated Detection of Developmental Hip Dysplasia
 groups: ai-for-health, diag
-closed: false
+finished: false
 type: student
 picture: projects/developmental-hip-dysplasia.png
-template: vacancy-single
-people: Thomas van den Heuvel, Chris de Korte, Bram van Ginneken
-description: Project aimed at development of deep learning algorithms for automated detection developmental hip dysplasia.
+template: project-single
+people: Douwe van Erp, Thomas van den Heuvel, Chris de Korte, Bram van Ginneken
+description: Project aimed at development of deep learning algorithms for automated detection developmental hip dysplasia. The algorithms should run on a phone with a  low-cost portable ultrasound probe attached.
 
-**This is an AI for Health MSc project. Students are
-eligible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).** 
+**Start date: 27-09-2022** <br>
+**End date: 27-03-2023**
 
 ## Clinical problem
 Developmental Hip Dysplasia (DDH) is the most common congenital defect in newborns which is a leading cause of early arthritis leading to total hip replacement. 3% of all newborns, until the age of 6 months, will develop DDH. Unfortunately, youth health clinicians are not able to use ultrasound, since it requires months of training. Instead, they perform an inaccurate physical examination and a questionnaire to decide which newborn needs to be referred for an ultrasound. As a consequence, 22.000 newborns are unnecessarily referred to the hospital every year in the Netherlands alone. 
