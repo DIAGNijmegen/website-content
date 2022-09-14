@@ -979,6 +979,12 @@ people:
   - name: Niels van Royen
     position: Professor
     affiliation: Cardiology, Radboudumc
-    url: 
+    url: https://www.radboudumc.nl/personen/niels-van-royen
     email: Niels.vanRoyen@radboudumc.nl
     picture: people/external/Niels_van_Royen.jpg
+  - name: Jolique van Ipenburg
+    position: Pathologist
+    affiliation: Pathology, Radboudumc
+    url: https://www.radboudumc.nl/personen/jolique-van-ipenburg
+    email: Jolique.vanIpenburg@radboudumc.nl
+    picture: people/external/Jolique_van_Ipenburg.jpg
