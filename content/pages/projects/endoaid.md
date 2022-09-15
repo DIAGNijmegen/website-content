@@ -74,6 +74,9 @@ WSI.
 ![endoaid_clam_schematic.png]({{ IMGURL }}/images/projects/endoaid_clam_schematic.png)
 </div>
 
+![endoaid_clam_schematic.png]({{ IMGURL }}/images/projects/endoaid_clam_schematic.png)
+
+
 Figure above illustrates the model taking a WSI as input, dividing this into patches (W: 512, H: 512, MMP: 0.5) based on
 a tissue mask and then encoding each patch into a vector of length 2048. The CNN used for encoding is a ResNet50
 architecture pre-trained using 900.000 histopathology images[[2]](#2). The vectors are weighted using an attention
