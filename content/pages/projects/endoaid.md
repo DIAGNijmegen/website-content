@@ -70,12 +70,7 @@ The developed solution is, therefore, an AI-system, based on the multiple instan
 that learns to correlate visual patterns on patch-level to binary slide-level diagnosis, based on a single category per
 WSI.
 
-<div style="display: flex; align-items: center">
 ![endoaid_clam_schematic.png]({{ IMGURL }}/images/projects/endoaid_clam_schematic.png)
-</div>
-
-![endoaid_clam_schematic.png]({{ IMGURL }}/images/projects/endoaid_clam_schematic.png)
-
 
 Figure above illustrates the model taking a WSI as input, dividing this into patches (W: 512, H: 512, MMP: 0.5) based on
 a tissue mask and then encoding each patch into a vector of length 2048. The CNN used for encoding is a ResNet50
