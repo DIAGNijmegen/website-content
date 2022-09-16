@@ -4,10 +4,10 @@ picture: news/Lief22.png
 description: Bart Liefers will defend his thesis containing work on deep learning algorithms for automated analysis of retinal images.
 groups: diag, pathology
 
-On Wednesday September 21, [member/bart-liefers] will defend his PhD thesis on Deep Learning algorithms for Age-related Macular Degeneration.
+On Wednesday September 21, [member/bart-liefers] will defend his PhD thesis on Deep Learning algorithms for Age-Related Macular Degeneration.
 
-his thesis is devoted to the applications of deep learning algorithms for automated analysis of retinal images.
-In contains chapters on:
+His thesis is devoted to the applications of deep learning algorithms for automated analysis of retinal images.
+It contains chapters on:
 
 1. Automatic detection of the foveal center in OCT scans (Chapter 2);
 2. Segmentation of retinal layers and geographic atrophy (Chapter 3);
