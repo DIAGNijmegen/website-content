@@ -1,11 +1,11 @@
-title: Three dimensional facial landmark detection in 3D Photos
+title: Three dimensional facial landmark detection in 3D photos
 groups: ai-for-health
 finished: true
 type: student
 picture: vacancies/3d_landmark_detection.png
 template: project-single
 people: Luca Carotenuto, Guido de Jong, Timen ten Harkel, Tom Loonen, Thomas Maal, Tom Heskes
-description: Development of a model for the automatic detection of clinically relevant facial landmarks in 3D Photos.
+description: Development of a model for the automatic detection of clinically relevant facial landmarks in 3D photos.
 
 **Start date: 01-09-2021** <br>
 **End date: 28-02-2022**
