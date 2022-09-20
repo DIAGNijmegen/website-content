@@ -4,13 +4,11 @@ closed: false
 type: student
 picture: projects/hipoa.png
 template: vacancy-single
-people: Walter van der Weegen, Rintje Agricola, Bram van Ginneken, Matthieu Rutten, Silvan Quax
+people: Mar Navarro, Walter van der Weegen, Rintje Agricola, Bram van Ginneken, Matthieu Rutten, Silvan Quax
 description: We want to develop deep learning algorithms for detection and grading of hip osteoartritis.
 
-**This is an AI for Health MSc project. Students are
-eligible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).** 
+**Start date: 01-01-2023** <br>
+**End date: 30-06-2023**
 
 ## Clinical problem
 Osteartritis (OA) of the hip joint is a common condition which can lead to severe health problems. According to the RIVM, around 1.5 million people in the Netherlands suffer from OA (500 million worldwide), which is diagnosed using plain radiographs. On the radiographs, radiologists recognize OA by noticing joint space narrowing, extra bone formation (called ‘osteofytes’) and increased bone density. In a clinical setting, the number of radiographs that need OA screening is very high, and the interobserver reliability in grading the severity of OA is low to moderate.
