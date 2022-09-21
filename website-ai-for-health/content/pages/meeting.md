@@ -16,15 +16,15 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 06-10-2022 | Laura Alvarez | TBA | Skatecourt, route 14, Experience Center |
-| 29-09-2022 | Michelle Stegeman <br> Yassier Elawady | TBA | Skatecourt, route 14, Experience Center |
-| 22-09-2022 | Thijs Gelton | TBA | Skatecourt, route 14, Experience Center |
+| 06-10-2022 | Laura Alvarez |  Machine Learning in Acute Care: Liver | Skatecourt, route 14, Experience Center |
+| 29-09-2022 | Michelle Stegeman <br> Yassier Elawady |  Extending a prostate cancer grading algorithm to other surgical entities <br> Commercial AI marketplaces for radiology | Skatecourt, route 14, Experience Center |
+| 22-09-2022 | Thijs Gelton | AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
-| 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
+| 21-07-2022 | Sasha Peerdeman | Quantification of immunohistochemical markers for improved prostate cancer prognostics | Skatecourt, route 14, Experience Center |
 | 14-07-2022 | Lars Leijten | Scoliosis simulation for improving segmentation and labeling of vertebrae |
 | 07-07-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 |
 | 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data |
