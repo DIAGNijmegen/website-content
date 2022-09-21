@@ -1,6 +1,6 @@
 title: Applications of deep learning on orthostatic hypotension detection
 groups: ai-for-health
-finished: false 
+finished: true 
 type: student 
 template: project-single
 picture: projects/orthostatic_hypertension.png
