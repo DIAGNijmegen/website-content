@@ -7,6 +7,14 @@ template: project-single
 people: Niels van Hoeffelen, Bob Sanders, Bram van Ginneken, Silvan Quax
 description: Develop a 3D segmentation method that can learn a task from only a few segmented 2D slices.
 
+**Niels van Hoeffelen**<br>
+**Start: **<br>
+**End: **
+
+**Bob Sanders**<br>
+**Start: Nov 14, 2022**<br>
+**End: May 14, 2023**
+
 ## Clinical problem
 Segmentation of anatomical structures and lesions in 3D scans is important for many AI radiology applications. Convolutional neural networks such as the [U-net](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/), an encoder-decoder architecture with skip connections, generally produce good results when trained with a few hundred scans in which the structures to be segmented have been manually outlined. But annotating a few hundred scans is very time consuming. Moreover, a trained segmentation network may fail if it is applied to new cases that are somewhat different from the data is was trained on, for example because the new case contains abnormalities that were not well represented in the training data.
 
