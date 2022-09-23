@@ -8,8 +8,8 @@ people: Niels van Hoeffelen, Bob Sanders, Bram van Ginneken, Silvan Quax
 description: Develop a 3D segmentation method that can learn a task from only a few segmented 2D slices.
 
 **Niels van Hoeffelen**<br>
-**Start: **<br>
-**End: **
+**Start: October, 2022**<br>
+**End: June, 2023**
 
 **Bob Sanders**<br>
 **Start: Nov 14, 2022**<br>
