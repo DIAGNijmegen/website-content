@@ -1,7 +1,7 @@
 title: Martijn Schilpzand
 name: Martijn Schilpzand
 template: people-single
-picture: external/people/Martijn_Schilpzand.jpg
+picture: people/external/Martijn_Schilpzand.jpg
 position: Master Student
 active: no
 groups: diag
