@@ -1,14 +1,14 @@
 title: Automated Quantification of Tumor-Infiltrating Lymphocytes
 groups: pathology, diag, ai-for-health
-finished: false 
+finished: true 
 type: student
 picture: projects/nucls.jpg
 template: project-single
 people: Cyril de Kock, Francesco Ciompi, Tom Heskes, Mart van Rijthoven, Witali Aswolinskiy
 description: Developing an algorithmn that can automatically detect and segment tumor-infiltrating lymphocytes in breast cancer.
 
-* Start date: 01-05-2021 * <br>
-* End date: 07-04-2022 *
+**Start date: 01-05-2021** <br>
+**End date: 07-04-2022** <br>
 
 ## Clinical problem
 
