@@ -4,7 +4,7 @@ finished: false
 type: student 
 picture: vacancies/prostate_pathology.png
 template: project-single
-people: Khrystyna Faryna, Geert Litjens
+people: Michelle Stegeman, Khrystyna Faryna, Geert Litjens
 description: Develop a method to extend a prostate cancer grading algorithm to other surgical entities
 
 **This is an AI for Health MSc project. Students are
