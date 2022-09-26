@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/placental-vessel-segmentation.png
 template: project-single
-people: Anouk van der Schot, Guido de Jong
+people: Isabel Burgos, Anouk van der Schot, Guido de Jong
 description: Development of a model for deep placental vessel segmentation and registration for fetal laser surgery
 
 **This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the requirements.**
