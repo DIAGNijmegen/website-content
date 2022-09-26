@@ -7,7 +7,8 @@ template: project-single
 people: Isabel Burgos, Anouk van der Schot, Guido de Jong
 description: Development of a model for deep placental vessel segmentation and registration for fetal laser surgery
 
-**This is an AI for Health MSc project. Students are elgible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the requirements.**
+**Start date: 01-04-2022** <br>
+**End date: 30-09-2022** <br>
 
 ## Clinical Problem
 Twin-to-twin transfusion syndrome (TTTS) is a severe and progressive disorder where there are imbalanced blood vessel connections in the shared placenta of monochorionic twins. Untreated, this syndrome is associated with a 90% mortality rate of the twins.
