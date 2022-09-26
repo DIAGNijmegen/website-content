@@ -1008,8 +1008,25 @@ people:
     picture: people/external/Li_Xue.jpg
   - name: Isabel Burgos
     position: Master student
-    affiliation: Gynaecology
+    affiliation: Radboud University
     url: https://www.linkedin.com/in/isabel-burgos/
     email: Isabel.Burgos@radboudumc.nl
     picture: people/external/Isabel_Burgos.jpg
-
+  - name: Bob Sanders
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/-bobsanders/
+    email:
+    picture: people/external/Bob_Sanders.jpg
+  - name: Daniil Lepikhov
+    position: Master student
+    affiliation: 
+    url: https://www.linkedin.com/in/daniil-lepikhov/
+    email:
+    picture: people/external/Daniil_Lepikhov.jpg
+  - name: Niels van Hoeffelen
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/niels-van-hoeffelen-b0554020a/
+    email:
+    picture: people/external/Niels_van_Hoeffelen.jpg
