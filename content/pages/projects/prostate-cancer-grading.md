@@ -7,10 +7,8 @@ template: project-single
 people: Michelle Stegeman, Khrystyna Faryna, Geert Litjens
 description: Develop a method to extend a prostate cancer grading algorithm to other surgical entities
 
-**This is an AI for Health MSc project. Students are
-elgible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).** 
+**Start date: 23-02-2022** <br>
+**End date: 23-11-2022** <br>
 
 ## Clinical Problem 
 In prostate disease, biopsies, small tissue specimens, play a prominent role in the early detection and staging of cancer. Radical prostatectomy, complete surgical removal of the prostate, is typically performed as a curative treatment following a biopsy positive for prostate cancer. Radical prostatectomies result in enormous amounts of tissue for the pathologist to analyse.
