@@ -65,5 +65,5 @@ An interactive demo is accessible via Grand-Challenge:
 <a href="https://grand-challenge.org/algorithms/orthodontic-landmark-detection/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
 The code for this project can be found in this [GitHub repository](https://github.com/RadboudAIforHealth/orthodontic_landmark_detection).
-
+The detailed report about the algorithm and the results can be viewed [here](https://drive.google.com/file/d/1UNE19BmlVIuQ6I2RCscyizPwIr-qHw5x/view?usp=sharing)
 
