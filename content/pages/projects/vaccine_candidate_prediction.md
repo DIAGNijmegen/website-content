@@ -4,7 +4,7 @@ finished: true
 type: student 
 picture: projects/vaccine_candidate_prediction.png 
 template: project-single 
-people: Daniil Lepikhov, Dario Marzella, Daniel Rademaker , Li Xue 
+people: Daniil Lepikhov, Dario Marzella, Daniel Rademaker, Li Xue 
 description: Develop an AI method to identify cancer vaccine candidates using 3D Convolutional Networks  - a proof of concept
  
 **Start date: 01-02-2022** 

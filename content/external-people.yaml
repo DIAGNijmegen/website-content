@@ -1,4 +1,9 @@
 people:
+  - name: Daniil Lepikhov
+    email: lepikhov.daniil@gmail.com
+    affiliation: Masters student, Universite Lille
+    position: Master student
+    picture: people/external/Daniil_Lepikhov.jpg
   - name: Enrico Schmitz
     email: enricoschmitz@outlook.com
     affiliation: Radboud University
