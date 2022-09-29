@@ -16,9 +16,9 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 13-10-2022 | Yassier Elawady | Commercial AI marketplaces for radiology | Skatecourt, route 14, Experience Center |
 | 06-10-2022 | Michelle Stegeman <br> Laura Alvarez | Extending a prostate cancer grading algorithm to other surgical entities <br> Machine Learning in Acute Care: Liver | Skatecourt, route 14, Experience Center |
-| 29-09-2022 | Thijs Gelton <br> Yassier Elawady |  AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies <br> Commercial AI marketplaces for radiology | Brakkestein, route 767, building D (use main building entrance) |
-| 22-09-2022 | ~~Thijs Gelton~~ <br> **CANCELLED, moved to next week** | - | - |
+| 29-09-2022 | Thijs Gelton |  AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies | Brakkestein, route 767, building D (use main building entrance) |
 
 ## Past meetings
 
