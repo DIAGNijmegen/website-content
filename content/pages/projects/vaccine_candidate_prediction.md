@@ -24,7 +24,7 @@ vaccine approaches
  
 ## Solution
 
-To serve as good cancer vaccine candidates, the tumor-specific peptides (i.e., short segments of tumor proteins) have to bind to the patient’s MHC (Major histocompatibility complex) molecule and form peptide:MHC protein complexes. The MHC molecule then ships the tumor peptides to the cell surface to be visible to the immune T cells to trigger immune attacks.  [please add a newline here  in the md file]
+To serve as good cancer vaccine candidates, the tumor-specific peptides (i.e., short segments of tumor proteins) have to bind to the patient’s MHC (Major histocompatibility complex) molecule and form peptide:MHC protein complexes. The MHC molecule then ships the tumor peptides to the cell surface to be visible to the immune T cells to trigger immune attacks.
  
 ![Peptide:MHC TCR interaction]({{ IMGURL }}/images/projects/TCR-MHC.png)
 
@@ -97,5 +97,6 @@ positives) and specificity (true negative rate). This gives the intuition that a
 approach is able to perform better on unseen sequence motifs compared to a sequence-
 based approach, thus generalizing better to unseen data. 
 
-Note that we worked on a set of fixed-length peptides and on a single MHC allele. This is to the advantage of sequence-based approaches. The advantages of our structure-based CNN are expected to be further visible when we train and test on peptides with variable lengths and with diverse MHC alleles in a much bigger dataset. 
+Note that we worked on a set of fixed-length peptides of 9 residues and on a single MHC allele. This is to the advantage of sequence-based approaches. The advantages of our structure-based CNN are expected to be further visible when we train and test on peptides with variable lengths and with diverse MHC alleles in a much bigger dataset. 
 
+Link to the report: https://drive.google.com/file/d/1Smiwr3NI03ZSLLiajWEZbPLlcoB63yjk/view?usp=sharing
