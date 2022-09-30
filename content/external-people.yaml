@@ -1026,3 +1026,15 @@ people:
     url: https://www.linkedin.com/in/niels-van-hoeffelen-b0554020a/
     email:
     picture: people/external/Niels_van_Hoeffelen.jpg
+  - name: Dario Marzella
+    position: PhD candidate
+    affiliation: RIMLS
+    url: https://www.radboudumc.nl/personen/dario-marzella
+    email: Dario.Marzella@radboudumc.nl
+    picture: people/external/Dario_Marzella.jpg
+  - name: Daniel Rademaker
+    position: PhD candidate
+    affiliation: CMBI
+    url: https://www.radboudumc.nl/personen/daniel-rademaker
+    email: Daniel.Rademaker@radboudumc.nl
+    picture: people/external/Daniel_Rademaker.jpg
