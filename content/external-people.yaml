@@ -1,13 +1,4 @@
 people:
-  - name: Daniil Lepikhov
-    email: lepikhov.daniil@gmail.com
-    affiliation: Masters student, Universite Lille
-    position: Master student
-    picture: people/external/Daniil_Lepikhov.jpg
-  - name: Enrico Schmitz
-    email: enricoschmitz@outlook.com
-    affiliation: Radboud University
-    position: Master student
   - name: Eric Steenbergen
     position: Pathologist
     affiliation: Radboud University Medical Center
@@ -1003,7 +994,7 @@ people:
     position: Master student
     affiliation: CMBI
     url: https://www.linkedin.com/in/enrico-schmitz-a31665134/
-    email: 
+    email: enricoschmitz@outlook.com
     picture: people/external/Enrico_Schmitz.jpg
   - name: Li Xue
     position: Assistant professor
@@ -1025,9 +1016,9 @@ people:
     picture: people/external/Bob_Sanders.jpg
   - name: Daniil Lepikhov
     position: Master student
-    affiliation: 
+    affiliation: Université Lille
     url: https://www.linkedin.com/in/daniil-lepikhov/
-    email:
+    email: lepikhov.daniil@gmail.com
     picture: people/external/Daniil_Lepikhov.jpg
   - name: Niels van Hoeffelen
     position: Master student
