@@ -7,8 +7,8 @@ template: project-single
 people: Daniil Lepikhov, Dario Marzella, Daniel Rademaker, Li Xue 
 description: Develop an AI method to identify cancer vaccine candidates using 3D Convolutional Networks  - a proof of concept
  
-**Start date: 01-02-2022** 
-**End date: 31-07-2022**
+**Start date: 01-02-2022** <br>
+**End date: 31-07-2022**  <br>
  
 ## Clinical Problem
 
@@ -35,8 +35,8 @@ To tackle these problems, in this project we explored the 3D structure-based pre
 Energy patterns at the atom level should be universally applicable to data that are not seen in the training set. MHC structures are highly conserved (i.e., different alleles have almost the same structures). So MHC structures should be able to drastically reduce the need for training data. Our 3D structure based approach can also naturally deal with peptides with different lengths, a challenge for typical machine learning algorithms that take fixed-length input.
 
 
-This will be done by using a 3D convolutional neural network algorithm (our DeepRank software https://www.nature.com/articles/s41467-021-27396-0) trained on
-3D models for peptide:MHC complexes generated with high-accuracy package (our PANDORA software https://www.frontiersin.org/articles/10.3389/fimmu.2022.878762/full). The solution provided allows to address the issue of predicting binding affinity between peptide and MHC with a new approach paving the way for further investigation concerning a structure based prediction on unseen data.
+This will be done by using a 3D convolutional neural network algorithm (our [DeepRank software](https://www.nature.com/articles/s41467-021-27396-0)) trained on
+3D models for peptide:MHC complexes generated with high-accuracy package (our [PANDORA software](https://www.frontiersin.org/articles/10.3389/fimmu.2022.878762/full)). The solution provided allows to address the issue of predicting binding affinity between peptide and MHC with a new approach paving the way for further investigation concerning a structure based prediction on unseen data.
 
 ## Data
 
@@ -99,4 +99,4 @@ based approach, thus generalizing better to unseen data.
 
 Note that we worked on a set of fixed-length peptides of 9 residues and on a single MHC allele. This is to the advantage of sequence-based approaches. The advantages of our structure-based CNN are expected to be further visible when we train and test on peptides with variable lengths and with diverse MHC alleles in a much bigger dataset. 
 
-Link to the report: https://drive.google.com/file/d/1Smiwr3NI03ZSLLiajWEZbPLlcoB63yjk/view?usp=sharing
+The final report can be found [here](https://drive.google.com/file/d/1Smiwr3NI03ZSLLiajWEZbPLlcoB63yjk/view?usp=sharing).
