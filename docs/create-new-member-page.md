@@ -7,6 +7,7 @@
 ```
 title: Firstname Lastname
 name: Firstname Lastname
+pub_name: publication name / pseudonym
 template: people-single
 picture: people/<image>.png (for adding a picture to a profile see: website-content/docs/adding-picture-to-profile.md. When no picture is availabe, use ```person.png```)
 position: Master Student/PhD Candidate/Associate Professor/Assistant Professor/Postdoctoral Researcher/ etc. (pay attention to formulation and capitalisation)
