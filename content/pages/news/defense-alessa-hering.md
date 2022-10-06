@@ -1,7 +1,6 @@
 title: Deep Learning-Based Image Registration And Tumor Follow-Up Analysis
 date: 2022-10-05
 picture: news/Heri22.png 
-status: draft
 description: Alessa Hering will defend her PhD thesis on deep learning for image registration.
 groups: diag, pathology
 
