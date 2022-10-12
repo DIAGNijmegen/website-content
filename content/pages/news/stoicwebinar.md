@@ -3,6 +3,8 @@ date: 2022-10-18
 picture: news/stoicwebinar.png 
 description: On October 18th at 15:00h, the winners of the STOIC2021 COVID-19 AI challenge will be announced and they will present their solutions.
 groups: diag
+status: draft
+
 On October 18th at 15:00h, the winners of the STOIC2021 COVID-19 AI challenge will be announced and they will present their solutions. For more information about this webinar and how to join, visit [https://grand-challenge.org/blogs/stoic2021-results-webinar/](https://grand-challenge.org/blogs/stoic2021-results-webinar/).
 
 Schedule:
