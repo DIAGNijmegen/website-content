@@ -16,15 +16,17 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 27-10-2022 | Luke van Leijenhorst (guest speaker) | Textual entailment for SOP implementation | Skatecourt, route 14, Experience Center |
 | 13-10-2022 | Yassier Elawady | Commercial AI marketplaces for radiology | Skatecourt, route 14, Experience Center |
-| 06-10-2022 | Michelle Stegeman <br> Laura Alvarez | Extending a prostate cancer grading algorithm to other surgical entities <br> Machine Learning in Acute Care: Liver | Skatecourt, route 14, Experience Center |
-| 29-09-2022 | Thijs Gelton |  AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies | Brakkestein, route 767, building D (use main building entrance) |
+
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
-| 21-07-2022 | Sasha Peerdeman | Quantification of immunohistochemical markers for improved prostate cancer prognostics | Skatecourt, route 14, Experience Center |
+| 06-10-2022 | Michelle Stegeman <br> Laura Alvarez | Extending a prostate cancer grading algorithm to other surgical entities <br> Machine Learning in Acute Care: Liver|
+| 29-09-2022 | Thijs Gelton |  AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies | 
+| 21-07-2022 | Sasha Peerdeman | Quantification of immunohistochemical markers for improved prostate cancer prognostics |
 | 14-07-2022 | Lars Leijten | Scoliosis simulation for improving segmentation and labeling of vertebrae |
 | 07-07-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 |
 | 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data |
