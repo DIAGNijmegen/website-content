@@ -39,22 +39,22 @@ An overview of the in-depth track schedule can be seen below.
 
 | Date  | Time |  Topic  | Content |
 | ----- | ------- | ------| ------ |
-| 03-02-2023 | 9-13h | Introduction | How is AI changing healthcare? |
-| 10-02-2023 | 9-17h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
+| 03-02-2023 | 9-17h | Introduction + Machine Learning 1| How is AI changing healthcare? How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data|
+| 10-02-2023 | 13-17h | Machine Learning 1| Machine learning in Python |
 | 17-02-2023 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models |
 | 03-03-2023 | 9-17h | Machine Learning 3| A start is made to cover the most important supervised <br> machine learning algorithms and you will learn how to prepare your data |
-| 10-03-2023 | 9-17h | Machine Learning 4| You will learn about unsupervised machine learning models <br>for data without any labels and learn how to Evaluate your models|
-| 17-03-2023 | 9-17h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
-| 24-03-2023 | 9-17h | Deep Learning 2| Learn how to combine text, images and biomedical data for <br> better deep learning models |
-| 31-03-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
-| 14-04-2023 | 9-17h | Data Engineering / Ethics & Privacy | The FAIR principles of data management <br> are covered and ethical and privacy concerns regarding the use of AI are discussed |
-| 21-04-2023 | 9-17h | Project Day 2 | Data preparation and model development |
-| 28-04-2023 | 9-17h | Text Mining & Bioinformatics | Learn how to get valuable insights from medical records <br> and about AI applications in genetics |
-| 12-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation |
-| 26-05-2023 | 9-17h | AI products / Deployment | Learn how to choose a suitable AI product and how <br> to deploy your own AI product in practice |
-| 02-06-2023 | 9-17h | Project Day 4 | Evaluating model performance |
-| 09-06-2023 | 9-17h | Project Day 5 | Evaluating model performance |
-| 16-06-2023 | 9-13h | Final Presentations | Project groups will present their final results |
+| 17-03-2023 | 9-17h | Machine Learning 4| You will learn about unsupervised machine learning models <br>for data without any labels and learn how to Evaluate your models|
+| 24-03-2023 | 9-17h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
+| 31-03-2023 | 9-17h | Deep Learning 2| Learn how to combine text, images and biomedical data for <br> better deep learning models |
+| 14-04-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
+| 21-04-2023 | 9-17h | Data Engineering / Ethics & Privacy | The FAIR principles of data management <br> are covered and ethical and privacy concerns regarding the use of AI are discussed |
+| 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development |
+| 12-05-2023 | 9-17h | Text Mining & Bioinformatics | Learn how to get valuable insights from medical records <br> and about AI applications in genetics |
+| 26-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation |
+| 02-06-2023 | 9-17h | AI products / Deployment | Learn how to choose a suitable AI product and how <br> to deploy your own AI product in practice |
+| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance |
+| 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance |
+| 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results |
 
 ## Light track program
 
@@ -72,20 +72,19 @@ An overview of the short track schedule can be seen below.
   
 | Date  | Time |  Topic  | Content |
 | ----- | ------- | ------| ------ |
-| 03-02-2023 | 9-13h | Introduction | How is AI changing healthcare? | 
-| 10-02-2023 | 9-13h | Machine Learning 1| How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data |
+| 03-02-2023 | 9-17h | Introduction + Machine Learning 1| How is AI changing healthcare? How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data|
 | 17-02-2023 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models | 
-| 17-03-2023 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
-| 24-03-2023 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
-| 31-03-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
-| 14-04-2023 | 13-17h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
-| 21-04-2023 | 9-17h | Project Day 2 | Data preparation and model development |
-| 28-04-2023 | 9-17h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics |
-| 12-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation |
-| 26-05-2023 | 9-13h | AI products | Learn how to choose a suitable AI product |
-| 02-06-2023 | 9-17h | Project Day 4 | Evaluating model performance |
-| 09-06-2023 | 9-17h | Project Day 5 | Evaluating model performance |
-| 16-06-2023 | 9-13h | Final Presentations | Project groups will present their final results |
+| 24-03-2023 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis |
+| 31-03-2023 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models |
+| 14-04-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data |
+| 21-04-2023 | 13-17h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed |
+| 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development |
+| 12-05-2023 | 9-17h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics |
+| 26-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation |
+| 02-06-2023 | 9-13h | AI products | Learn how to choose a suitable AI product |
+| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance |
+| 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance |
+| 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results |
 
 <!-- ## Teachers
 
