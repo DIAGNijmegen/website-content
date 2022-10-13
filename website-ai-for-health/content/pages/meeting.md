@@ -16,6 +16,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 03-11-2022 | [ICAI meetup](https://icai.ai/event/deep-dive-data-series-iii-medical-data/) | - | - |
 | 27-10-2022 | Luke van Leijenhorst (guest speaker) | Textual entailment for SOP implementation | Skatecourt, route 14, Experience Center |
 | 13-10-2022 | Yassier Elawady | Commercial AI marketplaces for radiology | Skatecourt, route 14, Experience Center |
 
