@@ -1,5 +1,5 @@
 title: DCIS
-finished: false
+finished: true
 type: general
 picture: projects/DCIS_2_1.png
 people: Thomas de Bel, Jeroen van der Laak, Geert Litjens
