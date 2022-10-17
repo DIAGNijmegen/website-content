@@ -1,7 +1,7 @@
 title: Alessa Hering
 name: Alessa Hering
 template: people-single
-picture: people/Alessa_Hering.png
+picture: people/Alessa_Hering.jpg
 position: Assistant Professor
 active: yes
 groups: diag
