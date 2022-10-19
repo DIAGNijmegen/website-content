@@ -2,7 +2,7 @@ title: Postdoc Computational Pathology research
 groups: pathology
 closed: false
 type: general
-picture: vacancies/postdoc-cpg.jpg (Image is collected from website-content/content/images/. Upload a rectangular image here)
+picture: vacancies/postdoc-cpg.jpg 
 template: vacancy-single
 people: Jeroen van der Laak, Geert Litjens
 description: The Computational Pathology Group (CPG) is currently seeking two postdoctoral researchers, for projects focusing on transplant kidney biopsy analysis, and prostate cancer grading. Will you join our ambitious team? 
@@ -54,4 +54,4 @@ Read more about our [application procedure](https://www.radboudumc.nl/error?aspx
 
 ## How to apply
 
-Will you make a difference for our patients? Please mention in your application which duration of the contract you prefer. We would like to receive your application **before 14 November 2022**. We will then contact you shortly. The first interview round takes place in week 47. We would appreciate it if you would take this into account. Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/105841-postdoc-deep-learning-to-improve-pathology-diagnostics) to apply for this position.
+Will you make a difference for our patients? Please mention in your application which duration of the contract you prefer. We would like to receive your application **before 14 November 2022**. We will then contact you shortly. The first interview round takes place in week 47. We would appreciate it if you would take this into account. Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/124962-postdoc-computational-pathology-research) to apply for this position.
