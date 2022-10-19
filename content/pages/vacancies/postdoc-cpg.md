@@ -21,13 +21,11 @@ This position may, depending on performance and an extensive evaluation procedur
 
 ## We offer
 
-We are looking for two postdoc's and we can offer two different contracts:
+We are looking for two postdoc's for projects focusing on transplant kidney biopsy analysis and prostate cancer grading. 
 
-* One contract for two years. In the first year you work an average of 36 hours a week and in the second year you work an average of 9 hours a week.
-* One contract for three years. In these three years you work an average of 36 hours a week. 
+Working at Radboud university medical center means that you are ahead of the curve and working together on the healthcare of the future. And there is more. Our secondary terms of employment are impressive. These are fully tailored to you thanks to our Employment Conditions Selection Model. At Radboud university medical center, you will be given trust, and you will take the responsibility to handle everything together. We offer:
 
-Working at Radboud university medical center means that you are ahead of the curve and working together on the healthcare of the future. And there is more. Our secondary terms of employment are impressive. These are fully tailored to you thanks to our Employment Conditions Selection Model. At Radboud university medical center, you will be given trust, and you will take the responsibility to handle everything together.
-
+* Two initial contracts for two or three years, working an average of 36 hours a week.
 * A gross monthly salary between € 3.047 and € 4.800 (scale 10) based on full-time employment. 
 * An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
 * If you work irregular hours, you will receive an allowance.
