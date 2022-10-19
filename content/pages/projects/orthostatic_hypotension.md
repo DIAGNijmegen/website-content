@@ -1,10 +1,10 @@
 title: Applications of deep learning on orthostatic hypotension detection
 groups: ai-for-health
-finished: false 
+finished: true 
 type: student 
 template: project-single
 picture: projects/orthostatic_hypertension.png
-people: Enrico Schmitz
+people: Enrico Schmitz, Mirthe van Diepen, Tom Claassen
 description: Develop a method to predict orthostatic hypotension in realtime for early diagnosis
 
 ** Start date: 15-01-2022 ** <br>

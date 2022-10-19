@@ -1,8 +1,4 @@
 people:
-  - name: Enrico Schmitz
-    email: enricoschmitz@outlook.com
-    affiliation: Radboud University
-    position: Master student
   - name: Eric Steenbergen
     position: Pathologist
     affiliation: Radboud University Medical Center
@@ -718,8 +714,8 @@ people:
   - name: Noud Emonts
     position: Master Student
     affiliation: Data Science, Radboud University
-    url:
-    picture:
+    url: https://www.linkedin.com/in/noud-emonts-48a638110
+    picture: people/external/Noud_Emonts.jpg
     email: Noud.Emonts@radboudumc.nl
   - name: Richard Li
     position: Master Student
@@ -790,8 +786,8 @@ people:
   - name: Kirina van der Bijl
     position: Master Student
     affiliation: Data Science, Radboud University
-    url:
-    picture:
+    url: https://www.linkedin.com/in/kirina-van-der-bijl-273091171
+    picture: people/external/Kirina_van_der_Bijl.jpg
     email: kirina.vanderbijl@radboudumc.nl
   - name: Luca Carotenuto
     position: Master Student
@@ -832,8 +828,8 @@ people:
   - name: Laura Álvarez
     position: Master Student
     affiliation: Trauma, Radboudumc
-    url:
-    picture: 
+    url: https://www.linkedin.com/in/laura-alvarez-florez
+    picture: people/external/Laura_Alvarez.jpg
     email: laura.alvarezflorez@radboudumc.nl
   - name: Manuela Bergau
     position: Master Student
@@ -998,5 +994,47 @@ people:
     position: Master student
     affiliation: CMBI
     url: https://www.linkedin.com/in/enrico-schmitz-a31665134/
-    email: 
+    email: enricoschmitz@outlook.com
     picture: people/external/Enrico_Schmitz.jpg
+  - name: Li Xue
+    position: Assistant professor
+    affiliation: CMBI
+    url: https://www.radboudumc.nl/personen/li-xue
+    email: Li.Xue@radboudumc.nl
+    picture: people/external/Li_Xue.jpg
+  - name: Isabel Burgos
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/isabel-burgos/
+    email: Isabel.Burgos@radboudumc.nl
+    picture: people/external/Isabel_Burgos.jpg
+  - name: Bob Sanders
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/-bobsanders/
+    email:
+    picture: people/external/Bob_Sanders.jpg
+  - name: Daniil Lepikhov
+    position: Master student
+    affiliation: Université Lille
+    url: https://www.linkedin.com/in/daniil-lepikhov/
+    email: lepikhov.daniil@gmail.com
+    picture: people/external/Daniil_Lepikhov.jpg
+  - name: Niels van Hoeffelen
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/niels-van-hoeffelen-b0554020a/
+    email:
+    picture: people/external/Niels_van_Hoeffelen.jpg
+  - name: Dario Marzella
+    position: PhD candidate
+    affiliation: RIMLS
+    url: https://www.radboudumc.nl/personen/dario-marzella
+    email: Dario.Marzella@radboudumc.nl
+    picture: people/external/Dario_Marzella.jpg
+  - name: Daniel Rademaker
+    position: PhD candidate
+    affiliation: CMBI
+    url: https://www.radboudumc.nl/personen/daniel-rademaker
+    email: Daniel.Rademaker@radboudumc.nl
+    picture: people/external/Daniel_Rademaker.jpg

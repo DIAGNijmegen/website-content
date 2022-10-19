@@ -1,6 +1,6 @@
 title: PhD candidate in 'AI-driven tumor detection in combined MRI-Radiotherapy’
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/phd-mrlinac-image.jpg
 people: Peter Koopmans, Bram van Ginneken
