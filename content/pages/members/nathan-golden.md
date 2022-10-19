@@ -15,5 +15,5 @@ publons:
 orcid: 
 linkedin:
 
-Nathan studied electrical engineering at the HAN university of applied science and obtained a Bachelor degree in 2021. He continued his studies by following the Data Science Master program at Radboud University. He is completing his Master internship at the DIAG group where he studies pseudo-label selection methods that can be used for improved performance in semi-supervised learning. His project is supervised by Natalia Alves and Bram de Wilde.  
+Nathan studied electrical engineering at the HAN university of applied science and obtained a Bachelor degree in 2021. He continued his studies by following the Data Science Master program at Radboud University. He started his Masters internship at DIAG in September 2022, where he studies pseudo-label selection methods that can be used for improved performance in semi-supervised learning. His project is supervised by [member/natalia-alves] and [member/bram-de-wilde].  
 
