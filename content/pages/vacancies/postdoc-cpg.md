@@ -1,5 +1,5 @@
 title: Postdoc Computational Pathology research
-groups: pathology
+groups: diag, pathology
 closed: false
 type: general
 picture: vacancies/postdoc-cpg.jpg 
