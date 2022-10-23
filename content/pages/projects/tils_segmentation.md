@@ -12,15 +12,13 @@ description: Developing an algorithmn that can automatically detect and segment 
 
 ## Clinical problem
 
-Recent studies have developed our knowledge regarding the tumor microenvironment to exploit tumor immunity in fighting breast cancer (BC). An important part of the immune system response to invase tumors is formed by tumor infiltrating lymphocytes (TILs), which are immune cells that infiltrate tumor tissue. Multiple studies have established a positive relationship between higher levels of TILs and survival outcomes in Triple Negative Breast Cancer and human epidermal growth factor receptor 2 positive. The amount of TILs can be quantified by estimating a TIL score, which is the percentage of the stromal area around the tumor that is covered TILs.
-
-A patient's TIL score is assessed by estimating the proportion of TILs present in the tumor stroma.  As per the guidelines of the International TILs working group , the TIL score is assigned by the following procedure:
+Recent studies have developed our knowledge regarding the tumor microenvironment to exploit tumor immunity in fighting breast cancer (BC). An important part of the immune system response to invase tumors is formed by tumor infiltrating lymphocytes (TILs), which are immune cells that infiltrate tumor tissue. Multiple studies have established a positive relationship between higher levels of TILs and survival outcomes in Triple Negative Breast Cancer (TNBC) and human epidermal growth factor receptor 2 positive (HER2+). To estimated the amount of TILs, the International TILs working group has established recommendations based on the following steps:
 1. Define the tumor area in which TILs are to be evaluated
-2. Segment the stromal areas.
+2. Identify the region of the slide containing tumor-associated stroma (i.e., connective tissue)
 3. Only evaluate mono-nuclear TILs
 4. Asses the percentage of TILs as the fraction of stromal tissue covered by them
     
-Scoring the percentage of TILs in a slide typically requires a trained pathologist to perform the evaluation. As such, manual TIL evaluation from slides is a slow process that can only be performed by a limited set of people. Automatically calculating the TIL score as well as producing detection and segmentation maps of stromal areas and their respective lymphocytes could be of great benefit to TIL research as well as facilitate the implementation of TIL scoring in clinical practice. This thesis aims to develop a system which segments the stromal area, detects and segments the TILs present within this area and subsequently uses this map to calculate a TIL score per slide.
+Scoring the percentage of TILs in a slide typically requires a trained pathologist to perform the evaluation. As such, manual TIL evaluation from slides is a slow process that can only be performed by a limited set of people. Automatically calculating the TIL score as well as producing detection and segmentation maps of stromal areas and their respective lymphocytes could be of great benefit to TIL research as well as facilitate the implementation of TIL scoring in clinical practice. This project aims to develop a system which segments the stromal area, detects and segments the TILs present within this area and subsequently uses this map to calculate a TIL score per slide.
 
 ## Solution
 
