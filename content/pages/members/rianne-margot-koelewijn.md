@@ -1,7 +1,7 @@
 title: Rianne-Margot Koelewijn
 name: Rianne-Margot Koelewijn
 template: people-single
-picture: people/Rianne-Margot_Koelewijn.jpg
+picture: people/Rianne_Margot_Koelewijn.jpg
 position: Master Student
 active: yes
 groups: diag, pathology
