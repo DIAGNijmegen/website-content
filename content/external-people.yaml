@@ -1,4 +1,10 @@
 people:
+  - name: Felix Hol
+    position: Assistant Professor
+    affiliation: Medical Microbiology, Radboud University Medical Center
+    url: https://www.radboudumc.nl/en/people/felix-hol
+    picture: people/external/Felix_Hol.jpg
+    email: felix.hol@radboudumc.nl
   - name: Eric Steenbergen
     position: Pathologist
     affiliation: Radboud University Medical Center
