@@ -15,6 +15,6 @@ publons:
 orcid: 
 linkedin:https://www.linkedin.com/in/niels-van-hoeffelen-b0554020a/
 
-Niels obtained a bachelor degree in Artificial Intelligence (AI) from Radboud University in 2021 and subsequently continued to the Master program in AI with specialization in Neurotechnology and Healthcare.  In October 2022 he began working on his Master thesis at the [Diagnostic Image Analysis Group](http://diagnijmegen.nl), focusing on the topic of [few-shot learning for medical image segmentation](https://www.ai-for-health.nl/projects/few-shot-segmentation/).  His project is supervised by [member/bram-van-ginneken] and [member/silvan-quax]. 
+Niels obtained a bachelor degree in Artificial Intelligence (AI) from Radboud University in 2021 and subsequently continued to the Master program in AI with specialization in Neurotechnology and Healthcare.  From October 2022 until June 2023, he will be working on his Master thesis at the [Diagnostic Image Analysis Group](http://diagnijmegen.nl), focusing on the topic of [few-shot learning for medical image segmentation](https://www.ai-for-health.nl/projects/few-shot-segmentation/).  His project is supervised by [member/bram-van-ginneken] and [member/silvan-quax]. 
 
 
