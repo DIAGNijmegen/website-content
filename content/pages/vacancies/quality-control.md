@@ -7,6 +7,9 @@ template: vacancy-single
 people: Marina D'Amato, Francesco Ciompi
 description: Development of a deep learning algorithm for automated whole-slide pathology image analysis and quality control
 
+## Reimbursement
+This is an AI for Health MSc project. Students are eligible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements).
+
 ## Clinical Problem
 In an AI-powered digital pathology workflow, the process of going from glass slide to digitization and analysis with artificial intelligence suffers from two main problems. 
 
@@ -14,13 +17,13 @@ First, the quality of the slide needs to be assessed right after, or even during
 
 Second, after scanning, to identify areas to be optionally flagged as non-relevant (e.g., adipose tissue) or that can substantially affect model performance (e.g., folded tissue, ink, crushed artifacts), which can be weighed during the analysis done by a downstream AI algorithm. 
 
-When analyzing whole slide images, identifying tissue areas and removing the background is a relevant step to prevent unnecessary processing of large parts of the WSI[1]. Moreover, the digitization process can lead to image artifacts, such as out-of-focus, tissue folds, ink, dust, pen marks and air bubbles. 
+When analyzing whole slide images, identifying tissue areas and removing the background is a relevant step to prevent unnecessary processing of large parts of the WSI<sup>[1]</sup>. Moreover, the digitization process can lead to image artifacts, such as out-of-focus, tissue folds, ink, dust, pen marks and air bubbles. 
 
 Artifacts can obstruct tissue parts and significantly affect model performance, which means that a quality control mechanism is required to rule out poor quality slides or defective tissue regions. 
 
-Preliminary work in our group has resulted in promising results, but model robustness across different stainings, especially immunohistochemical markers, needs to be improved[2]. Depending on the specific task, we may also wish to detect and exclude other regions of whole-slide images such as adipose tissue, small cores or control samples in IHC. One of the biggest challenges in digital pathology comes from having different stains, tissue thicknesses and scanners and the purpose of AI algorithms is to be robust enough to perform well with vastly different images.
+Preliminary work in our group has resulted in promising results, but model robustness across different stainings, especially immunohistochemical markers, needs to be improved<sup>[2]</sup>. Depending on the specific task, we may also wish to detect and exclude other regions of whole-slide images such as adipose tissue, small cores or control samples in IHC. One of the biggest challenges in digital pathology comes from having different stains, tissue thicknesses and scanners and the purpose of AI algorithms is to be robust enough to perform well with vastly different images.
 
-[1] Bándi et al, Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks 
+[1] Bándi et al, Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks <br>
 [2] Smit et al, Quality control of whole-slide images through multi-class semantic segmentation of artifacts
 
 ## Solution
