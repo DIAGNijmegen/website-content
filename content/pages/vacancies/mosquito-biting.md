@@ -15,7 +15,7 @@ Mosquitoes transmit an array of pathogens, making them one of the world’s most
 
 Using the biteOscope we have obtained a large dataset of Aedes aegypti mosquitoes (the principle vector of dengue virus) biting the transparent host mimic under various experimental conditions. By applying a range of deep learning tools to this video dataset we aim to investigate how pathogen infections change the biting behavior of mosquitoes. Accurate estimates of changes in e.g. the mosquito's attraction to humans, or its biting frequency will allow us to predict how pathogen-induced behavioral changes affect the pathogen's transmission in the real world.  
 
-References:
+References
 1. Hol, Felix JH, Louis Lambrechts, and Manu Prakash. "BiteOscope, an open platform to study mosquito biting behavior." Elife 9 (2020): e56829.
 
 2. Lauer, Jessy, et al. "Multi-animal pose estimation, identification and tracking with DeepLabCut." Nature Methods 19.4 (2022): 496-504.
