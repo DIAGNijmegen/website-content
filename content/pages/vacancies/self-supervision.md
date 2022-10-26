@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/self-supervision.png
 template: vacancy-single
-people: Marina Damato, Francesco Ciompi
+people: Marina D'Amato, Francesco Ciompi
 description: Development of self-supervised pretraining for digital pathology
 
 ## Clinical Problem
