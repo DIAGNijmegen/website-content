@@ -38,9 +38,9 @@ The student will be supervised by a research member of the Radboud Institute for
 
 ## Requirements
 The candidate should have: 
- - a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
- - affinity with programming in Python; 
- - interest in deep learning.
+- a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
+- affinity with programming in Python; 
+- interest in deep learning.
 
 
 ## Information
