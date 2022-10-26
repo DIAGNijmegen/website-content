@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/quality-control.png
 template: vacancy-single
-people: Marina D’Amato, Francesco Ciompi
+people: Marina D'Amato, Francesco Ciompi
 description: Development of a deep learning algorithm for automated whole-slide pathology image analysis and quality control
 
 ## Clinical Problem
