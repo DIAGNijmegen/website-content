@@ -36,7 +36,6 @@ We currently have a large database of videos of mosquitoes exhibiting blood feed
 The student will be supervised by a research member of the Radboud Institute for Molecular Lifesciences, within the medical microbiology department. The student will have access to a workstation with GPU (Nvidia Titan RTX). 
 
 ## Requirements
-The candidate should have: 
 * a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
 * affinity with programming in Python; 
 * interest in deep learning.
