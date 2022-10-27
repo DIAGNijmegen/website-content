@@ -3,7 +3,7 @@ name: Hermen van Westen
 template: people-single
 picture: people/Hermen_van_Westen.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: hermen.vanwesten@radboudumc.nl

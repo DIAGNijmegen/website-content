@@ -3,7 +3,7 @@ name: Steffen de Jong
 template: people-single
 picture: people/Steffen_de_Jong.jpg
 position: Bachelor Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: steffen.dejong@radboudumc.nl
