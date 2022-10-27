@@ -37,8 +37,7 @@ In this project we intend to combine external and inhouse dataset of whole-slide
 The student will be supervised by a research member of the Diagnostic Image Analysis Group and Computational Pathology Group whose research is dedicated to analyses of histopathological slides with deep learning techniques. The student will have access to a large GPU cluster.
 
 ## Requirements
-The candidate should have: 
--	a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
+-	Students with a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
 -	affinity with programming in Python; 
 -	interest in deep learning and medical image analysis.
 
