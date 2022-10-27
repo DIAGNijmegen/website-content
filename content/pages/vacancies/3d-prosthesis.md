@@ -22,12 +22,14 @@ A difficult, but very important step in the design process of the prosthesis is 
 The purpose of this proposal is to improve the AI Algorithm to empower people with limited knowledge of both prosthetics and IT to independently produce prostheses. In this way, the rate and amount of successful prosthetic fitting will increase in Low-, middle- and high-income
 
 ## Solution
-Using a 3D scan (or plaster cast) of an amputee’s stump it is possible to design a prothesis (negative mold). This design involved a combination of standard- and patient- (stump) specific alterations of the 3D scan to provide the best support for a patient. With the AI workflow we aim for automatically designing the prosthesis based upon manipulation of the 3D scan. Therefore, the AI challenge is predictive in nature. The tasks at hand consist of <br>
+Using a 3D scan (or plaster cast) of an amputee’s stump it is possible to design a prothesis (negative mold). This design involved a combination of standard- and patient- (stump) specific alterations of the 3D scan to provide the best support for a patient. With the AI workflow we aim for automatically designing the prosthesis based upon manipulation of the 3D scan. Therefore, the AI challenge is predictive in nature. The tasks at hand consist of:
+
 - A (scoping) literature study for relevant techniques for 3D mesh manipulation with AI
 - Choosing a relevant sampling/ data preprocessing method for your AI solution
 - Statistical analysis for a sanity check and (if relevant) standard adjustments
 - Training the chosen AI to apply the custom manipulations
 - Build the mesh of the 3D negative moldCompare results with our pilot AI solution
+
 As mentioned, we have a pilot AI solution which will be used in comparison to the solution provided in the Master project. Optionally the pilot AI solution can be used as inspiration for this project as well.
 
 ## Data
