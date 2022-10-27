@@ -1,4 +1,10 @@
 people:
+  - name: Merel van der Stelt
+    position: PhD Candidate
+    affiliation: 3D Lab, Radboud University Medical Center
+    url: www.linkedin.com/in/merel-van-der-stelt-1a509a178
+    picture: people/external/Merel_van_der_Stelt.jpg
+    email: Merel.vanderStelt@radboudumc.nl
   - name: Felix Hol
     position: Assistant Professor
     affiliation: Medical Microbiology, Radboud University Medical Center
