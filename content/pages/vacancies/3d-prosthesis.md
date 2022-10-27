@@ -41,14 +41,15 @@ The main result will be an AI algorithm that can utilize a 3D scan of a lower le
 The student will be embedded in the Radboudumc 3D-Lab and the [3D Sierra Leone group](https://www.3dsierraleone.com/). 
 
 ## Requirements
-The candidate should have: 
--	a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
--	affinity with programming in Python; 
--	interest in deep learning.
+The candidate should have
+- a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
+- affinity with programming in Python; 
+- interest in deep learning.
+- 
 It is preferred, but not required, to have experience with manipulation of 3D Meshes. Additionally, knowledge of point-cloud / mesh / graph based AI is also preferred but not required. Having knowledge in these domains can kick-start your master-project.
 
 ## Information
--	Project duration: 6 months
--	Location: Radboud University Medical Center
--	For more information, please contact [Merel van der Stelt ](mailto:Merel.vanderstelt@radboudumc.nl)
+- Project duration: 6 months
+- Location: Radboud University Medical Center
+- For more information, please contact [Merel van der Stelt ](mailto:Merel.vanderstelt@radboudumc.nl)
 
