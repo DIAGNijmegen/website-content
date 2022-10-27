@@ -22,7 +22,7 @@ A difficult, but very important step in the design process of the prosthesis is 
 The purpose of this proposal is to improve the AI Algorithm to empower people with limited knowledge of both prosthetics and IT to independently produce prostheses. In this way, the rate and amount of successful prosthetic fitting will increase in Low-, middle- and high-income
 
 ## Solution
-Using a 3D scan (or plaster cast) of an amputee’s stump it is possible to design a prothesis (negative mold). This design involved a combination of standard- and patient- (stump) specific alterations of the 3D scan to provide the best support for a patient. With the AI workflow we aim for automatically designing the prosthesis based upon manipulation of the 3D scan. Therefore, the AI challenge is predictive in nature. The tasks at hand consist of
+Using a 3D scan (or plaster cast) of an amputee’s stump it is possible to design a prothesis (negative mold). This design involved a combination of standard- and patient- (stump) specific alterations of the 3D scan to provide the best support for a patient. With the AI workflow we aim for automatically designing the prosthesis based upon manipulation of the 3D scan. Therefore, the AI challenge is predictive in nature. The tasks at hand consist of <br>
 - A (scoping) literature study for relevant techniques for 3D mesh manipulation with AI
 - Choosing a relevant sampling/ data preprocessing method for your AI solution
 - Statistical analysis for a sanity check and (if relevant) standard adjustments
@@ -41,11 +41,11 @@ The main result will be an AI algorithm that can utilize a 3D scan of a lower le
 The student will be embedded in the Radboudumc 3D-Lab and the [3D Sierra Leone group](https://www.3dsierraleone.com/). 
 
 ## Requirements
-The candidate should have
-- a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply; 
-- affinity with programming in Python; 
-- interest in deep learning.
- 
+The candidate should have <br>
+- a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply
+- affinity with programming in Python
+- interest in deep learning
+
 It is preferred, but not required, to have experience with manipulation of 3D Meshes. Additionally, knowledge of point-cloud / mesh / graph based AI is also preferred but not required. Having knowledge in these domains can kick-start your master-project.
 
 ## Information
