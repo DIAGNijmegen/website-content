@@ -27,9 +27,7 @@ Using a 3D scan (or plaster cast) of an amputee’s stump it is possible to desi
 - Choosing a relevant sampling/ data preprocessing method for your AI solution
 - Statistical analysis for a sanity check and (if relevant) standard adjustments
 - Training the chosen AI to apply the custom manipulations
-- Build the mesh of the 3D negative mold
-- Compare results with our pilot AI solution
-
+- Build the mesh of the 3D negative moldCompare results with our pilot AI solution
 As mentioned, we have a pilot AI solution which will be used in comparison to the solution provided in the Master project. Optionally the pilot AI solution can be used as inspiration for this project as well.
 
 ## Data
@@ -45,7 +43,6 @@ The candidate should have <br>
 - a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply
 - affinity with programming in Python
 - interest in deep learning
-
 It is preferred, but not required, to have experience with manipulation of 3D Meshes. Additionally, knowledge of point-cloud / mesh / graph based AI is also preferred but not required. Having knowledge in these domains can kick-start your master-project.
 
 ## Information
