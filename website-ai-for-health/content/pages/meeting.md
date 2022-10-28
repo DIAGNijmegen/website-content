@@ -18,7 +18,7 @@ The slides for past presentations are available by clicking on the links in the 
 | -------        |    ----  |          --- | --- |
 | 01-12-2022 | Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
 | 17-11-2022 | Matthijs Luijten | TBA | Skatecourt, route 14, Experience Center |
-| 10-11-2022 | Ole ten Hoeve | TBA | Skatecourt, route 14, Experience Center |
+| 10-11-2022 | Ole ten Hove | TBA | Skatecourt, route 14, Experience Center |
 | 03-11-2022 | [ICAI meetup](https://icai.ai/event/deep-dive-data-series-iii-medical-data/) | - | - |
 
 
