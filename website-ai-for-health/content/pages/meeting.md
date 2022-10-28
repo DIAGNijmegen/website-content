@@ -16,15 +16,18 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 01-12-2022 | Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
+| 17-11-2022 | Matthijs Luijten | TBA | Skatecourt, route 14, Experience Center |
+| 10-11-2022 | Ole ten Hoeve | TBA | Skatecourt, route 14, Experience Center |
 | 03-11-2022 | [ICAI meetup](https://icai.ai/event/deep-dive-data-series-iii-medical-data/) | - | - |
-| 27-10-2022 | Luke van Leijenhorst (guest speaker) | Textual entailment for SOP implementation | Skatecourt, route 14, Experience Center |
-| 13-10-2022 | Yassier Elawady | Commercial AI marketplaces for radiology | Skatecourt, route 14, Experience Center |
 
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 27-10-2022 | Luke van Leijenhorst (guest speaker) | Textual entailment for SOP implementation |
+| 13-10-2022 | Yassier Elawady | Commercial AI marketplaces for radiology |
 | 06-10-2022 | Michelle Stegeman <br> Laura Alvarez | Extending a prostate cancer grading algorithm to other surgical entities <br> Machine Learning in Acute Care: Liver|
 | 29-09-2022 | Thijs Gelton |  AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies | 
 | 21-07-2022 | Sasha Peerdeman | Quantification of immunohistochemical markers for improved prostate cancer prognostics |
