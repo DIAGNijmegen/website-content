@@ -3,7 +3,7 @@ name: Bart Liefers
 template: people-single
 picture: people/Bart_Liefers.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: bart.liefers@radboudumc.nl
