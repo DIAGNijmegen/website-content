@@ -76,3 +76,4 @@ title: Former employees
 - [Pieter Vos](http://nl.linkedin.com/pub/pieter-vos/3/7b1/ab5?trk=pub-pbmap)
 - [Suzan Vreemann](http://www.linkedin.com//pub/suzan-vreemann/50/776/468)
 - [Jan van Zelst](https://www.linkedin.com/in/jan-van-zelst-22942a17/)
+- [Bart Liefers](https://www.linkedin.com/in/bart-liefers-2aa4041a5/)
