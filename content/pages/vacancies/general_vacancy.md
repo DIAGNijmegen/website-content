@@ -1,8 +1,7 @@
 title: PhD position on artificial intelligence in healthcare
 groups: diag
 closed: false
-type: general
-picture: vacancies/oncology-ct.jpg
+type: general 
 people: Bram van Ginneken 
 template: vacancy-single
 description: We are offering a PhD position on artificial intelligence in healthcare
@@ -10,7 +9,9 @@ status: draft
 
 ## Background
 The Diagnostic Image Analysis Group develops computer algorithms to aid clinicians in the interpretation of medical images and further clinical data and thereby improving the diagnostic and treatment process.
+
 We live in a data-driven era where more and more data are being collected. This trend does not stop at the hospital. During the diagnosis and treatment of a patient, a variety of multimodal data is acquired and supplemented by reports, clinical notes, and data from patient visits. Consequently, combining and evaluating all this data is becoming an increasingly difficult task that can hardly be done manually. With yearly increases in, e.g., the number of imaging studies conducted, the workload for healthcare professionals increases. Therefore, there is an urgent need for systems that support clinicians during the diagnosis and treatment process. 
+
 This project aims to develop deep-learning algorithms in the field of radiology or pathology. 
 
 ## Profile
