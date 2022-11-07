@@ -13,7 +13,7 @@ description: Applying models trained with immunohistochemistry data on immunoflu
 
 
 ## Clinical problem
-Every day, hundreds to thousands of histopathology slides are made in our medical center. Most of them are stained with hematoxylin and eosin (H&E) to visualize tissue morphology, producing the typical “pink-purple-blue pathology slides”. In some cases, specific subtypes of cells are targeted with immunohistochemistry (IHC), where specific proteins can be stained using the specificity of antibodies. In this case, cell nuclei are usually stained in blue, and targeted cells are stained in brown, although other chromagens can be used.
+Every day, hundreds of histopathology slides are made in our medical center. Most of them are stained with hematoxylin and eosin (H&E) to visualize tissue morphology, producing the typical “pink-purple-blue pathology slides”. In some cases, specific subtypes of cells are targeted with immunohistochemistry (IHC), where specific proteins can be stained using the specificity of antibodies. In this case, cell nuclei are usually stained in blue, and targeted cells are stained in brown, although other chromagens can be used.
 
 Both H&E- and IHC-stained slides are standardly produced at large scale in pathology laboratories all around the world, usually scanned via bright-field microscopy. In recent years, a large corpus of deep learning algorithms has been proposed to automate quantification on H&E and IHC stained images, usually trained based on large-scale datasets with manual annotations created by several research groups, including ours. 
 
