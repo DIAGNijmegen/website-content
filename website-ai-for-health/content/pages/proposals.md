@@ -9,3 +9,5 @@ The AI for Health MSc projects aim to find innovative AI solutions to clinical p
 - Projects are aimed at creating practical clinical solutions and not for exploring fundamental research questions
 
 To propose a new project, please fill out this [form](https://drive.google.com/file/d/1qXZgWWkHQPRmLUq7ecfEKmnFq9oWVg7T/view?usp=sharing). We ask you to send the completed form to [aiforhealth@radboudumc.nl](mailto:aiforhealth@radboudumc.nl) and to make an appointment to discuss the project proposal during one of the consultation hours following the weekly AI for Health [meeting](https://www.ai-for-health.nl/meeting/) (every Thursday afternoon 16:00 - 17:00 PM).
+
+**The AI for Health lab managers will evaluate candidates based on their CV and arrange for the necessary contracts if the project is approved.**
