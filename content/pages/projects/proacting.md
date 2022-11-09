@@ -1,6 +1,6 @@
 title: PROACTING
 picture: projects/proacting.png
-finished: false
+finished: true
 type: general
 description: The aim of PROACTING is to predict neoadjuvant chemotherapy treatment response from a single pre-operative core-needle biopsy of breast cancer tissue.
 template: project-single
