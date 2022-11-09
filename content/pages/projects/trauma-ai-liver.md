@@ -1,6 +1,6 @@
 title: Machine Learning in Acute Care: Liver & Spleen
 groups: ai-for-health, diag 
-finished: false
+finished: true
 type: student 
 picture: vacancies/trauma-ai-liver.jpg
 template: project-single
