@@ -2,7 +2,7 @@ title: AI-based quantification of non-alcoholic steatohepatitis
 groups: ai-for-health, diag
 closed: false
 type: student
-picture: vacancies/msc_nash.png
+picture: vacancies/msc_nash.jpg
 template: vacancy-single
 people: Geert Litjens
 description: Develop a method to quantify non-alcoholic steatohepatitis in histopathology images
