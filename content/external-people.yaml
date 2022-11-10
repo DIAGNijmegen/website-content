@@ -1056,3 +1056,15 @@ people:
     url: https://www.linkedin.com/in/carlijnlems/
     picture: people/Carlijn_Lems.jpg
     email: carlijn.lems@hotmail.nl
+  - name: Amanda Kiliaan
+    position: Professor
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.ru.nl/personen/kiliaan-a
+    picture: people/external/Amanda_Kiliaan.jpg
+    email: amanda.kiliaan@radboudumc.nl
+  - name: Gemma Solé Guardia
+    position: PhD candidate
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.linkedin.com/in/gemmasoleguardia
+    picture: people/external/Gemma_Sole_Guardia.jpg
+    email: gemma.soleguardia@radboudumc.nl
