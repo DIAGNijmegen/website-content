@@ -13,7 +13,7 @@ The Diagnostic Image Analysis Group develops computer algorithms to aid clinicia
 We live in a data-driven era where more and more data are being collected. This trend does not stop at the hospital. During the diagnosis and treatment of a patient, a variety of multimodal data is acquired and supplemented by reports, clinical notes, and data from patient visits. Consequently, combining and evaluating all this data is becoming an increasingly difficult task that can hardly be done manually. With yearly increases in, e.g., the number of imaging studies conducted, the workload for healthcare professionals increases. Therefore, there is an urgent need for systems that support clinicians during the diagnosis and treatment process. 
 
 ## Job description
-We are looking for PhD students that will develop deep-learning algorithms that analyze images and additional in the field of radiology, oncology, cardiology or neurology. 
+We are looking for PhD students to develop deep-learning algorithms that analyse images and additional data with the aim that these algorithms will support clinicians in diagnosis and treatment process. The applications can range from radiology, oncology, cardiology, radiotherapy or neurology.
 
 ## Profile
 You should
