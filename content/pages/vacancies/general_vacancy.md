@@ -34,4 +34,4 @@ You will work in the Diagnostic Image Analysis Group (DIAG) DIAG is part of the 
 For more information please contact [member/bram-van-ginneken] by e-mail.
 
 ## Application
-Use the Apply button on this page to apply for this position. This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
+Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/126341-phd-candidate-artificial-intelligence-in-healthcare) to apply for this position. This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
