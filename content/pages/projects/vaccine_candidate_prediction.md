@@ -1,4 +1,4 @@
-###  Title: 3D Convolutional Network based cancer vaccine candidate predictions
+title: 3D Convolutional Network based cancer vaccine candidate predictions
 groups: ai-for-health 
 finished: true 
 type: student 
