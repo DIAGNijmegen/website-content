@@ -4,8 +4,8 @@ closed: false
 type: general 
 people: Bram van Ginneken 
 template: vacancy-single
+picture: vacancies/AIinHealthcare.jpg
 description: We are offering a PhD position on artificial intelligence in healthcare
-status: draft
 
 ## Background
 The Diagnostic Image Analysis Group develops computer algorithms to aid clinicians in the interpretation of medical images and further clinical data and thereby improving the diagnostic and treatment process.
