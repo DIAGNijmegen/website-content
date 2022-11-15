@@ -17,11 +17,11 @@ We are looking for PhD students to develop deep-learning algorithms that analyse
 
 ## Profile
 You should
-* be a creative and enthusiastic researcher with an MSc degree in Computer Science, Physics, Engineering or Biomedical Sciences or similar
-* have a clear interest to develop image analysis algorithms and an affinity with medical topics. 
-* have experience with deep learning, machine learning, and image analysis is a plus. 
-* have good communication and enjoy working in a multidisciplinary team
-* have expertise in software development, preferably in Python, are essential.
+- be a creative and enthusiastic researcher with an MSc degree in Computer Science, Physics, Engineering or Biomedical Sciences or similar
+- have a clear interest to develop image analysis algorithms and an affinity with medical topics. 
+- have experience with deep learning, machine learning, and image analysis is a plus. 
+- have good communication and enjoy working in a multidisciplinary team
+- have expertise in software development, preferably in Python, are essential.
 
 
 ## Terms of employment
