@@ -1080,3 +1080,10 @@ people:
     url: https://www.linkedin.com/in/rozemarijn-vliegenthart-0a478519/
     picture: people/external/Rozemarijn_Vliegenthart.png
     email: 
+  - name: Erik van der Heijden
+    position: Pulmonologist
+    affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/erik-van-der-heijden
+    picture: people/external/Erik_van_der_Heijden.png
+    email: 
+    
