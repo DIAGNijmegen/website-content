@@ -2,7 +2,7 @@ title: Individualised endometrial cancer risk stratification by Bayesian predict
 groups: ai-for-health
 closed: false
 type: student
-picture: vacancies/ENDORISK.jpeg
+picture: vacancies/ENDORISK.jpg
 template: vacancy-single
 people: Marike Lombaers, Hanny Pijnenborg, Peter Lucas
 description: Develop a Bayesian model for individualised endometrial cancer risk stratification
