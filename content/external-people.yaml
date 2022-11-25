@@ -1,4 +1,22 @@
 people:
+  - name: Marike Lombaers
+    position: PhD Candidate
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/marike-lombaers
+    picture: people/external/Marike_Lombaers.jpg
+    email: Marike.Lombaers@radboudumc.nl
+  - name: Hanny Pijnenborg
+    position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/hanny-pijnenborg
+    picture: people/external/Hanny_Pijnenborg.jpg
+    email: Hanny.MA.Pijnenborg@radboudumc.nl
+  - name: Peter Lucas
+    position: Professor
+    affiliation: University of Twente
+    url: https://www.linkedin.com/in/peter-lucas-67176b4/?originalSubdomain=nl
+    picture: people/external/Peter_Lucas.jpg
+    email: peterl@cs.ru.nl
   - name: Merel van der Stelt
     position: PhD Candidate
     affiliation: 3D Lab, Radboudumc
