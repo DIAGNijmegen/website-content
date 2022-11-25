@@ -7,7 +7,6 @@ template: project-single
 people:  Matthijs Luijten, Gemma Solé Guardia, Amanda Kiliaan, Geert Litjens
 description: Development of a segmentation model for WML in ex vivo brain MRI
 
-Matthijs Luijten <br>
 **Start date: 05-09-2022** <br>
 **End date: 28-02-2023**
 
