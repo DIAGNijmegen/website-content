@@ -1,10 +1,10 @@
 title: Automated analysis of intracoronary OCT images for patients with acute myocardial infarction 
 groups: ai-for-health
-finished: true
+finished: false
 type: student
 picture: vacancies/cardiac-oct-segmentation.png
 template: project-single
-people: Jos Thannhauser, Rick Volleberg, Silvan Quax,  Niels van Royen, Bram van Ginneken
+people: Gonzalo Rodriguez Esteban, Jos Thannhauser, Rick Volleberg, Silvan Quax,  Niels van Royen, Bram van Ginneken
 description: Development of a model for the automatic analysis of intracoronary optical coherence tomography (OCT) images obtained during cardiac catheterization in patients with acute myocardial infarction 
 
 ## Clinical Problem
