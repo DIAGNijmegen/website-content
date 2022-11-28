@@ -1,6 +1,6 @@
 title: Automated analysis of intracoronary OCT images for patients with acute myocardial infarction 
 groups: ai-for-health
-running: true
+finished: true
 type: student
 picture: vacancies/cardiac-oct-segmentation.png
 template: project-single
