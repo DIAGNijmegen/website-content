@@ -26,3 +26,4 @@ To extend current ability of OCT-integrated AI systems to detect luminal border,
 
 ## Data
 We will use OCT data from the PECTUS-obs study (https://pubmed.ncbi.nlm.nih.gov/34233996/) to develop and internally validate the algorithm. In total, this database includes 498 intracoronary OCT pullbacks obtained from patients with an acute myocardial infarction and multi-vessel disease. Each pullback consists of 540 frames, adding up to a total of 268,920 individual frames. Currently, the annotation procedure if as follows. All OCT-frames are divided into a training and validation set (ratio 9:1). Manual annotation is performed on every 40th sample of the training set, and supplemented with frames on which “schoolbook examples” of specific structures are visible. Of the training set, 108/498 pullbacks are currently annotated. External validation will be performed on several other prospective databases including high-risk and low-risk populations.
+
