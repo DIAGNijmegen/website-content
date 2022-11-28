@@ -1,7 +1,7 @@
 title: Gonzalo Rodriguez Esteban 
 name: Gonzalo Rodriguez Esteban 
 template: people-single 
-picture: people/gonzalo-rodriguez-esteban.jpg 
+picture: people/gonzalo-rodriguez-esteban.jpeg 
 position: Master Student 
 active: yes 
 groups: diag 
