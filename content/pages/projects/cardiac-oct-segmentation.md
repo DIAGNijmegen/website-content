@@ -7,6 +7,9 @@ template: project-single
 people: Gonzalo Rodriguez Esteban, Jos Thannhauser, Rick Volleberg, Silvan Quax,  Niels van Royen, Bram van Ginneken
 description: Development of a model for the automatic analysis of intracoronary optical coherence tomography (OCT) images obtained during cardiac catheterization in patients with acute myocardial infarction 
 
+ **Start date: 28-11-2022** <br>
+ **End date: 28-05-2022**
+ 
 ## Clinical Problem
 Acute myocardial infarction (MI), also known as a “heart attack”, is a life threatening condition that occurs when blood supply to the heart is decreased or stopped, usually as a result of narrowing / blockage of a coronary artery due to atherosclerotic disease. In patients with MI, coronary angiography (CAG) is usually performed to localize the occluded artery, known as the culprit lesion, and to treat this artery by placing a stent (Dotter procedure). In some cases, more than one lesion is found during CAG. As of yet, it remains largely unknown whether it is beneficial to treat these non-culprit lesions in patients with so-called multi-vessel disease. To date, we cannot accurately predict which atherosclerotic plaques are vulnerable and have a high risk of causing an MI in the future, and which plaques are relatively safe.
 
@@ -23,16 +26,3 @@ To extend current ability of OCT-integrated AI systems to detect luminal border,
 
 ## Data
 We will use OCT data from the PECTUS-obs study (https://pubmed.ncbi.nlm.nih.gov/34233996/) to develop and internally validate the algorithm. In total, this database includes 498 intracoronary OCT pullbacks obtained from patients with an acute myocardial infarction and multi-vessel disease. Each pullback consists of 540 frames, adding up to a total of 268,920 individual frames. Currently, the annotation procedure if as follows. All OCT-frames are divided into a training and validation set (ratio 9:1). Manual annotation is performed on every 40th sample of the training set, and supplemented with frames on which “schoolbook examples” of specific structures are visible. Of the training set, 108/498 pullbacks are currently annotated. External validation will be performed on several other prospective databases including high-risk and low-risk populations.
-
-## Approach
-Students will be supervised by a team with cardiology and deep learning expertise. For model development, we provide access to our deep learning GPU cluster Sol.
-
-## Requirements
-- Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics, Biomedical Engineering or similar in the final stages of their Master education.
-- You should be proficient in Python programming and have a theoretical understanding of deep learning architectures.
-- Experience with medical images is beneficial.
-
-## Information
-- Project duration: 6 months
-- Location: Radboud University Medical Center
-- For more information, please contact [Jos Thannhauser](mailto:Jos.Thannhauser@Radboudumc.nl)
