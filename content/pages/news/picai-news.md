@@ -4,7 +4,7 @@ picture: news/pi-cai.png
 groups: diag
 description: The December issue of Computer Vision News featured an article about the PI-CAI challenge organized by a team at DIAG.
 
-The December issue of Computer Vision News featured an [article](https://www.rsipvision.com/ComputerVisionNews-2022December/48/) about the PI-CAI challenge organized by a team at DIAG.
+The December issue of Computer Vision News featured an [article](https://www.rsipvision.com/ComputerVisionNews-2022December/48/) about the [PI-CAI challenge](https://pi-cai.grand-challenge.org/) organized by a team at DIAG.
 
 The PI-CAI Grand Challenge targets clinically significant prostate cancer detection and diagnosis in MRI.
 
