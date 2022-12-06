@@ -1123,5 +1123,10 @@ people:
     url: https://www.linkedin.com/in/robin-cornelissen-8663671b2/
     picture: people/external/Robin_Cornelissen.png
     email:
-    
+  - name: Erik van der Bijl
+    position: Medical Physicist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/erikvanderbijl
+    picture: people/external/erik_vanderbijl.jpg
+    email:
     
