@@ -46,3 +46,9 @@ If you design an image/poster or similar for the website, please store the
 design files (if not too big) in the directoy `content/src/` in the apropriate
 subtree. This allows others to update media more easily should they ever become
 outdated.
+
+
+## Pipeline
+![pipeline](./pipeline.png)
+
+
