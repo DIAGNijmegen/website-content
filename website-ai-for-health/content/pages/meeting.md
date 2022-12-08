@@ -16,6 +16,7 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 22-12-2022 | Manuela Bergau <br> Lena Philipp | TBA | Skatecourt, route 14, Experience Center |
 | 15-12-2022 | Ruben Geurtjens | TBA | Skatecourt, route 14, Experience Center |
 
 
