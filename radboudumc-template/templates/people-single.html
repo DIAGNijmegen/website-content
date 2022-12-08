@@ -199,16 +199,24 @@
                 
                 {% if current|length > 0 %}
                     <dt>Current research projects: </dt>
+                    <dd>
+                        <ul>
                     {% for url, project in current %}
                         <li><a href="{{ SITEURL }}/{{ url }}">{{ project }}</a></li>
                     {% endfor %}
+                    </ul>
+                    </dd>
                 {% endif %}
 
                 {% if finished|length > 0 %}
-                    <dt>Finished research projects: </dt>
+                    <dt>Finished research projects!!: </dt>
+                    <dd>
+                        <ul>
                     {% for url, project in finished %}
                         <li><a href="{{ SITEURL }}/{{ url }}">{{ project }}</a></li>
                     {% endfor %}
+                    </ul>
+                </dd>
                 {% endif %}
 
                 {% for related_page in ["software"] %}
