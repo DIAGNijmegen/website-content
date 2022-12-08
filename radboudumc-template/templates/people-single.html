@@ -174,8 +174,6 @@
                 {% else %}
                     {% set all_related_pages = ["projects", "software"] %}
                 {% endif %}
-                
-                {{ page.show_finished_projects }}
 
                 {% set current = [] %}
                 {% set finished = [] %}
@@ -189,7 +187,7 @@
                             {% else %}
                                 {% set show_finished_projects = "true" %}
                             {% endif %}
-                            {% if other_page.finished == "true" and show_finished_projects %}
+                            {% if other_page.finished == "true" and show_finished_projects == "true" %}
                                 {% set _ = finished.append((other_page.url, other_page.title)) %}
                             {% endif %}
                             {% if other_page.finished == "false" %}
