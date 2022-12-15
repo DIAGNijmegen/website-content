@@ -16,22 +16,22 @@ During your PhD trajectory, you will develop and validate AI algorithms for auto
 
 ## Profile
 We are looking for:
-* A creative and enthusiastic researcher (to be) with a master degree in a relevant field, such as artificial intelligence, computer vision, machine learning, data science.
-* A person with a clear interest to work with AI algorithms and that has an affinity with medical topics.
-* Someone with good communication skills.
+- A creative and enthusiastic researcher (to be) with a master degree in a relevant field, such as artificial intelligence, computer vision, machine learning, data science.
+- A person with a clear interest to work with AI algorithms and that has an affinity with medical topics.
+- Someone with good communication skills.
 
 ## We offer
-* An exciting position in one of Europe's largest research groups in Computational Pathology.
-* An international work environment with an informal atmosphere.
-* 4-year contract of 36 hours per week (full time).
-* Salary scale 10A.
-* An annual vacation allowance of 8% and you will receive an end-of-year bonus of 8.3%.
-* 168 vacation hours (over 23 days) per year.
-* 70% coverage of the pension premium by Radboudumc. You pay the rest of the premium with your gross salary.
-* A discount on health insurance.
+- An exciting position in one of Europe's largest research groups in Computational Pathology.
+- An international work environment with an informal atmosphere.
+- 4-year contract of 36 hours per week (full time).
+- Salary scale 10A.
+- An annual vacation allowance of 8% and you will receive an end-of-year bonus of 8.3%.
+- 168 vacation hours (over 23 days) per year.
+- 70% coverage of the pension premium by Radboudumc. You pay the rest of the premium with your gross salary.
+- A discount on health insurance.
 
 ## Organisation
-The [Computational Pathology Group](https://www.computationalpathologygroup.eu/) is a research group of the department of Pathology of the [Radboud University Medical Center (Radboudumc)](https://www.radboudumc.nl). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl) at Radboudumc, with researchers in the departments of Radiology and Nuclear Medicine, Pathology and Ophthalmology.
+The [Computational Pathology Group](https://www.computationalpathologygroup.eu/) is a research group of the department of Pathology of the [Radboud University Medical Center (Radboudumc)](https://www.radboudumc.nl). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl) at Radboudumc, with researchers in the departments of [Radiology and Nuclear Medicine](https://www.radboudumc.nl/afdelingen/radiologie-en-nucleaire-geneeskunde), [Pathology](https://www.radboudumc.nl/afdelingen/pathologie) and [Ophthalmology](https://www.radboudumc.nl/afdelingen/oogheelkunde).
 
 We develop, validate and deploy novel medical image analysis methods, usually based on the newest advances in machine learning with a focus on computer-aided diagnosis (CAD). Application areas include diagnostics and prognostics of breast, colon, prostate and lung cancer. Our group is among the international front runners in the field, witnessed for instance by the highly successful [Camelyon](https://camelyon16.grand-challenge.org/) and [Panda](https://panda.grand-challenge.org/) grand challenges which we organized.
 
