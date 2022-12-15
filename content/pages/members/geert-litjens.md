@@ -9,6 +9,7 @@ default_group: pathology
 email: geert.litjens@radboudumc.nl
 office: Route 812, Room 2.18
 telephone:
+show_finished_projects: false
 type: faculty
 website: https://geertlitjens.nl/
 linkedin: https://www.linkedin.com/in/geert-litjens
