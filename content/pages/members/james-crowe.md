@@ -4,7 +4,7 @@ template: people-single
 picture: people/James_Crowe.png
 position: Research Software Engineer 
 active: yes 
-groups: diag, rse 
+groups: diag, rse, rtc
 default_group: rse 
 email: James.Crowe@radboudumc.nl 
 office: 
