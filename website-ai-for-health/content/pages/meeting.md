@@ -16,15 +16,14 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 22-12-2022 | Manuela Bergau <br> Lena Philipp | TBA | Skatecourt, route 14, Experience Center |
-| 15-12-2022 | Ruben Geurtjens | Generic out-of-distribution detection for radiology AI systems | Online |
-
-
+| 19-01-2023 | Lena Philipp | TBA | Skatecourt, route 14, Experience Center |
+| 22-12-2022 | Manuela Bergau | TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 15-12-2022 | Ruben Geurtjens | Generic out-of-distribution detection for radiology AI systems |
 | 01-12-2022 | Sanyog Vyawahare | TBA | 
 | 17-11-2022 | Matthijs Luijten <br> Isabel Burgos | TBA |
 | 10-11-2022 | Ole ten Hove | TBA | 
