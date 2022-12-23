@@ -2,7 +2,7 @@ title: SOLACE: Strengthening the screening Of Lung cAnCer in Europe
 title_long: SOLACE: Strengthening the screening Of Lung cAnCer in Europe
 finished: false
 type: general
-picture: projects/solace.png
+picture: projects/solace2.png
 template: project-single
 groups: diag
 people: Colin Jacobs, Mathias Prokop
