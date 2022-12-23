@@ -2,7 +2,7 @@ title: AMARA: Accurate malignancy risk estimation of pulmonary nodules using AI
 title_long: AMARA: Accurate MAlignancy Risk estimation of incidentally and screen-detected pulmonary nodules using Artificial intelligence
 finished: false
 type: general
-picture: news/KWF_logo2021.png
+picture: projects/amara.png
 template: project-single
 groups: diag
 people: Renate Dinnessen, Dré Peeters, Cornelia Schaefer-Prokop, Mathias Prokop, Erik van der Heijden, Firdaus Mohamed Hoesein,  Pim de Jong, Rozemarijn Vliegenthart, Hester Gietema, Robin Cornelissen, Colin Jacobs
