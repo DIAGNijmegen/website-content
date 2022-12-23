@@ -13,4 +13,4 @@ The SOLACE vision is to ensure the implementation and optimization of effective,
 
 
 ## Funding
-This research project is funded by the EU4Health program of the [European Commission](https://commission.europa.eu/index_en). The project is coordinated by EIBIR.
+This research project is funded by the EU4Health program of the [European Commission](https://commission.europa.eu/index_en). The project is coordinated by [EIBIR](https://www.eibir.org/).
