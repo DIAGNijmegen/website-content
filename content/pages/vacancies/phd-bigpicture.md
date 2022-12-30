@@ -43,4 +43,4 @@ Upon commencement of employment we require a certificate of conduct (Verklaring 
 Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl/en/working-at/what-do-we-offer/terms-and-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
 ## Application
-For application or more information about this position, please contact [member/jeroen-van-der-laak], [member/francesco-ciompi] or [member/geert-litjens].
+For more information about this position, please contact [member/jeroen-van-der-laak], [member/francesco-ciompi] or [member/geert-litjens]. Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/128241-phd-candidate-bigpicture-project) to apply for this position.
