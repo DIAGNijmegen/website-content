@@ -1,7 +1,7 @@
 title: Aniek Wigman
 name: Aniek Wigman
 template: people-single
-picture: people/Aniek_Wigman.jpg
+picture: people/Aniek_Wigman.jpeg
 position: Student assistant
 active: yes
 groups: pathology
