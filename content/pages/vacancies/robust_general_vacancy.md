@@ -18,19 +18,23 @@ Radboudumc is one of the 17 knowledge institutes participating in ROBUST and wil
 ## MERAI Lab
 MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions. MERAI Lab aims to create AI solutions in the lung oncology field that will improve the accuracy, optimize the reading workflow and reduce the time needed to report the increasing amount of CT scans of the chest.
 MERAI lab has the mission to create world-leading AI-supported software solutions for healthcare.  We aim to create AI solutions in the lung oncology field that will improve the accuracy in the interpretation of the increasing amount of imaging that is performed for screening, optimal treatment selection and treatment monitoring, and reduce the time needed to report these scans. Both combined will improve the cost-effectiveness of our healthcare system. For responsible use of the developed AI algorithms, it is essential that we guarantee robust and trustworthy AI solutions that reach performance close to human experts.
+
 Contact: [member/colin-jacobs]
 
 ## Healthy AI Lab
 HEALTHY-AI is a collaboration between Radboudumc, Rijksuniversiteit Groningen, Universiteit Twente en Siemens Healthineers. HEALTHY-AI develops reliable and robust artificial intelligence (AI) technology with a specific focus on MRI-guided prostate cancer diagnosis and treatment. A team of five PhDs will be working on projects related to annotation efficiency, pathway risk predictors, AI quality control, follow-up comparison, and MRI automation. In the next five years, HEALTHY-AI aims to improve AI by optimizing data annotation processes, improving the ability to predict treatment outcomes, and continuously learning under quality control. This will result in improved cancer detection and follow-up, and the automation of MRI will enhance image quality and dynamic protocols for prostate cancer.
+
 Contact: [member/henkjan-huisman]
 
 ## AI for Parkinson Lab
 TBD
-Contact: [member/luc-evers]
+
+Contact: Luc Evers, luc.evers@radboudumc.nl
 
 ## CARA Lab
 TBD
-Contact: [member/jos-thannhauser] 
+
+Contact: Jos Thannhauser, jos.thannhauser@radboudumc.nl
 
 
 ## Job description
