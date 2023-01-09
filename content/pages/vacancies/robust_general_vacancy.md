@@ -56,4 +56,9 @@ You will be appointed for four years as a PhD student with the standard salary a
 You will work in one of the four new AI labs, situated within the Diagnostic Image Analysis Group (DIAG). DIAG is at the core of AI research at Radboudumc. We develop computer algorithms to interpret and process medical images. The group currently consists of around 70 researchers. Radboud University Medical Center and Radboud University are located in Nijmegen, the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. Radboud University has over 17,000 students. Radboud UMC is a leading academic center for medical science, education and health care with over 8,500 staff and 3,000 students.
 
 ## Information
-For more information please contact one of the lab managers mentioned above by e-mail. 
+For more information please contact one of the lab managers by e-mail:
+
+* MERAI Lab: [member/colin-jacobs]
+* Healthy AI Lab: [member/henkjan-huisman]
+* CARA LAB: Jos Thannhauser, jos.thannhauser@radboudumc.nl
+* AI for Parkinson Lab: Luc Evers, luc.evers@radboudumc.nl
