@@ -41,12 +41,13 @@ Contact: Jos Thannhauser, jos.thannhauser@radboudumc.nl
 We are looking for enthusiastic PhD candidates to develop deep-learning algorithms for the different aims of the new AI labs. The developed algorithms will support clinicians in diagnosis and treatment process. As described, the applications in the new AI labs cover primarily radiology, cardiology, or neurology.
 
 ## Profile
-You should
-- be a creative and enthusiastic researcher with an MSc degree in Computer Science, Physics, Engineering or Biomedical Sciences or similar
-- have a clear interest to develop image analysis algorithms and an affinity with medical topics. 
-- have experience with deep learning, machine learning, and image analysis is a plus. 
-- have good communication and enjoy working in a multidisciplinary team
-- have expertise in software development, preferably in Python, are essential.
+You should:
+
+* be a creative and enthusiastic researcher with an MSc degree in Computer Science, Physics, Engineering or Biomedical Sciences or similar
+* have a clear interest to develop image analysis algorithms and an affinity with medical topics. 
+* have experience with deep learning, machine learning, and image analysis is a plus. 
+* have good communication and enjoy working in a multidisciplinary team
+* have expertise in software development, preferably in Python, are essential.
 
 ## Terms of employment
 You will be appointed for four years as a PhD student with the standard salary and secondary conditions for PhD students in the Netherlands. The research should result in a PhD thesis.
