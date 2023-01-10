@@ -62,3 +62,6 @@ For more information please contact one of the lab managers by e-mail:
 * Healthy AI Lab: [member/henkjan-huisman]
 * CARA LAB: Jos Thannhauser, jos.thannhauser@radboudumc.nl
 * AI for Parkinson Lab: Luc Evers, luc.evers@radboudumc.nl
+
+## Application
+Application links for the PhD positions will follow soon. You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
