@@ -52,7 +52,7 @@ You should:
 You will be appointed for four years as a PhD student with the standard salary and secondary conditions for PhD students in the Netherlands. The research should result in a PhD thesis.
 
 ## Organization
-You will work in one of the four new AI labs, situated within the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). DIAG is at the core of AI research at Radboudumc. We develop computer algorithms to interpret and process medical images. The group currently consists of around 70 researchers. Radboud University Medical Center and Radboud University are located in Nijmegen, the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. Radboud University has over 17,000 students. Radboud UMC is a leading academic center for medical science, education and health care with over 8,500 staff and 3,000 students.
+You will work in one of the four new AI labs, closely linked to the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). DIAG develops computer algorithms to interpret and process medical images. The group currently consists of around 70 researchers. Radboud University Medical Center and Radboud University are located in Nijmegen, the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. Radboud University has over 17,000 students. Radboud UMC is a leading academic center for medical science, education and health care with over 8,500 staff and 3,000 students.
 
 ## Information
 For more information please contact one of the lab managers by e-mail:
