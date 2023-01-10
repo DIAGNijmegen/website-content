@@ -4,7 +4,7 @@ template: research-single
 groups: diag
 people: Colin Jacobs, Kiran Vaidhya Venkadesh, Ward Hendrix, Noa Antonissen, Dré Peeters, Renate Dinnessen, Ernst Scholten, Sil van de Leemput, Sanyog Vyawahare, Robert van Lente, Cas van Rijbroek, Ruben Geurtjens
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
-projects: lung-cancer-screening, nelson-pop, solace, amara, incidental-lung-nodules, lung-cancer-early-stage-treatment, imagio
+projects: lung-cancer-screening, nelson-pop, solace, merai, amara, incidental-lung-nodules, lung-cancer-early-stage-treatment, imagio
 algorithms: pulmonary-nodule-malignancy-prediction, pulmonary-lobe-segmentation, lung-cancer-risk-estimation-on-thorax-ct-scans-dsb, dsb2017-grt123
 
 Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. The World Health Organization (WHO) has estimated that there were 2.09 million cases of lung cancer and 1.76 million deaths due to lung cancer in 2018. Tobacco smoking remains the main risk factor for lung cancer. Imaging is crucial for early detection, diagnosis, treatment planning and monitoring of lung cancer. It plays an important role in the multidisciplinary management of lung cancer patients.
