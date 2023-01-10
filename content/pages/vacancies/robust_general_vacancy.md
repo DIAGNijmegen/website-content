@@ -16,8 +16,8 @@ Seventeen new public-private labs will be set up under the ROBUST umbrella and f
 Radboudumc is one of the 17 knowledge institutes participating in ROBUST and will host four new healthcare AI labs: MERAI Lab, AI for Parkinson Lab, CARA Lab, and Healthy AI Lab.
 
 ## MERAI Lab
-MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions. MERAI Lab aims to create AI solutions in the lung oncology field that will improve the accuracy, optimize the reading workflow and reduce the time needed to report the increasing amount of CT scans of the chest.
-MERAI lab has the mission to create world-leading AI-supported software solutions for healthcare.  We aim to create AI solutions in the lung oncology field that will improve the accuracy in the interpretation of the increasing amount of imaging that is performed for screening, optimal treatment selection and treatment monitoring, and reduce the time needed to report these scans. Both combined will improve the cost-effectiveness of our healthcare system. For responsible use of the developed AI algorithms, it is essential that we guarantee robust and trustworthy AI solutions that reach performance close to human experts.
+Healthcare costs are globally rising. The workload of radiology departments has substantially increased and is still increasing, and, as a result, radiologists are under large pressure and risk of burn-out. The
+imminent implementation of lung cancer screening and the rapid increase in the availability of novel cancer treatments such as immunotherapy will result in a continued increase of imaging. MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions with the mission to create world-leading AI-supported software solutions for healthcare.  We aim to create AI solutions in the lung oncology field that will improve the accuracy in the interpretation of the increasing amount of imaging that is performed for screening, optimal treatment selection and treatment monitoring, and reduce the time needed to report these scans. Both combined will improve the cost-effectiveness of our healthcare system. For responsible use of the developed AI algorithms, it is essential that we guarantee robust and trustworthy AI solutions that reach performance close to human experts.
 
 Contact: [member/colin-jacobs]
 
@@ -27,7 +27,7 @@ HEALTHY-AI is a collaboration between Radboudumc, Rijksuniversiteit Groningen, U
 Contact: [member/henkjan-huisman]
 
 ## AI for Parkinson Lab
-TBD
+The paradigm of how we quantify Parkinson’s disease is shifting from short, in-clinic evaluations to objective, frequent measures obtained at home. At the AI for Parkinson lab, Radboudumc and Verily Life Sciences are jointly developing novel digital biomarkers based on automated analysis of wearable sensor en video recordings. Over the past years, we have conducted multiple unique cohort studies, monitoring large groups of people with Parkinson’s disease during daily life using a multi-sensor smartwatch, in addition to elaborate assessments, including in-clinic and at-home video recordings, clinical scales, fMRI, ECG and biosamples. Our multidisciplinary lab develops AI-based tools to derive reliable and sensitive digital biomarkers, transforming clinical trials and care for people living with Parkinson’s. 
 
 Contact: Luc Evers, luc.evers@radboudumc.nl
 
