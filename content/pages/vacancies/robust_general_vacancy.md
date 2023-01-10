@@ -21,7 +21,7 @@ Healthcare costs are globally rising. The workload of radiology departments has 
 Contact: [member/colin-jacobs]
 
 ## Healthy AI Lab
-HEALTHY-AI is a collaboration between Radboudumc, Rijksuniversiteit Groningen, Universiteit Twente en Siemens Healthineers. HEALTHY-AI develops reliable and robust artificial intelligence (AI) technology with a specific focus on MRI-guided prostate cancer diagnosis and treatment. A team of five PhDs will be working on projects related to annotation efficiency, pathway risk predictors, AI quality control, follow-up comparison, and MRI automation. In the next five years, HEALTHY-AI aims to improve AI by optimizing data annotation processes, improving the ability to predict treatment outcomes, and continuously learning under quality control. This will result in improved cancer detection and follow-up, and the automation of MRI will enhance image quality and dynamic protocols for prostate cancer.
+HEALTHY-AI is a collaboration between Radboudumc, Rijksuniversiteit Groningen, Universiteit Twente and Siemens Healthineers. HEALTHY-AI develops reliable and robust artificial intelligence (AI) technology with a specific focus on MRI-guided prostate cancer diagnosis and treatment. A team of five PhDs will be working on projects related to annotation efficiency, pathway risk predictors, AI quality control, follow-up comparison, and MRI automation. In the next five years, HEALTHY-AI aims to improve AI by optimizing data annotation processes, improving the ability to predict treatment outcomes, and continuously learning under quality control. This will result in improved cancer detection and follow-up, and the automation of MRI will enhance image quality and dynamic protocols for prostate cancer.
 
 Contact: [member/henkjan-huisman]
 
@@ -37,16 +37,16 @@ Contact: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
 
 ## Job description
-We are looking for enthusiastic PhD candidates to develop deep-learning algorithms for the different aims of the new AI labs. The developed algorithms will support clinicians in diagnosis and treatment process. As described, the applications in the new AI labs cover primarily radiology, cardiology, or neurology.
+We are looking for enthusiastic PhD candidates to develop deep-learning algorithms for the different aims of the new AI labs. The developed algorithms will support clinicians in diagnosis and treatment process. As described, the applications in the new AI labs cover primarily radiology, neurology, or cardiology.
 
 ## Profile
 You should:
 
 * be a creative and enthusiastic researcher with an MSc degree in Computer Science, Physics, Engineering or Biomedical Sciences or similar
 * have a clear interest to develop image analysis algorithms and an affinity with medical topics. 
-* have experience with deep learning, machine learning, and image analysis is a plus. 
-* have good communication and enjoy working in a multidisciplinary team
-* have expertise in software development, preferably in Python, are essential.
+* have good communication skills and enjoy working in a multidisciplinary team
+* have expertise in software development, preferably in Python
+* having experience with deep learning, machine learning, and image analysis is a plus. 
 
 ## Terms of employment
 You will be appointed for four years as a PhD student with the standard salary and secondary conditions for PhD students in the Netherlands. The research should result in a PhD thesis.
@@ -59,8 +59,8 @@ For more information please contact one of the lab managers by e-mail:
 
 * MERAI Lab: [member/colin-jacobs]
 * Healthy AI Lab: [member/henkjan-huisman]
-* CARA LAB: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 * AI for Parkinson Lab: [Luc Evers](mailto:luc.evers@radboudumc.nl)
+* CARA Lab: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
 ## Application
 Application links for the PhD positions will follow soon. You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 

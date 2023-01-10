@@ -552,9 +552,9 @@ people:
     picture: people/external/Thijs_van_den_Hout.jpg
     email: Thijs.vandenHout@radboudumc.nl
   - name: Luc Evers
-    position: PhD student
+    position: Scientific Researcher
     affiliation: Neurology, Radboudumc
-    url: https://www.linkedin.com/in/lucevers/?originalSubdomain=nl
+    url: https://www.linkedin.com/in/lucevers/
     picture: people/external/Luc_Evers.jpg
     email: Luc.Evers@radboudumc.nl
   - name: Lieneke van den Heuvel
@@ -986,7 +986,7 @@ people:
     email: 
     picture: people/external/Rintje_Agricola.jpg
   - name: Jos Thannhauser
-    position: 
+    position: Postdoctoral Researcher
     affiliation: Cardiology, Radboudumc
     url: https://www.radboudumc.nl/personen/jos-thannhauser
     email: Jos.Thannhauser@radboudumc.nl
