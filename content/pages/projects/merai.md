@@ -2,7 +2,7 @@ title: MERAI Lab
 title_long: MERAI Lab
 finished: false
 type: general
-picture: projects/merai.png
+picture: projects/merai2.png
 template: project-single
 groups: diag
 people: Colin Jacobs, Mathias Prokop, Erik Aarntzen, Marianne Boenink, Bram van Ginneken, Erik van der Heijden, Cornelia Schaefer-Prokop 
