@@ -31,7 +31,7 @@ The paradigm of how we quantify Parkinson’s disease is shifting from short, in
 Contact: [Luc Evers](mailto:luc.evers@radboudumc.nl)
 
 ## CARA Lab
-TBD
+Cardiovascular disease remains the world’s leading cause of mortality and morbidity. Atherosclerotic disease of the coronary arteries can lead to myocardial infarction, a life-threatening condition with an estimated annual incidence of >70,000 patients in the Netherlands only. Whether or not to decide for a percutaneous coronary intervention (PCI) procedure remains one of the biggest clinical challenges in current daily practice. To help in this decision process, promising intravascular imaging techniques have recently been developed that offer the opportunity to assess plaques ‘at risk’ for future events. Among these is optical coherence tomography (OCT), a near-infrared light based imaging technique with a high spatial resolution. OCT enables precise characterization of the vessel wall and atherosclerotic disease. In the CARA lab we aim to develop and test AI-based algorithms to provide real-time analysis of OCT images, in order to improve the use and interpretation of these images, ultimately leading to improved clinical decision making. CARA is a unique collaboration between the Radboudumc, Amsterdam UMC and Abbott, an international leading medical devices and health care company.
 
 Contact: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
