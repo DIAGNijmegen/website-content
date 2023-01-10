@@ -29,12 +29,12 @@ Contact: [member/henkjan-huisman]
 ## AI for Parkinson Lab
 The paradigm of how we quantify Parkinson’s disease is shifting from short, in-clinic evaluations to objective, frequent measures obtained at home. At the AI for Parkinson lab, Radboudumc and Verily Life Sciences are jointly developing novel digital biomarkers based on automated analysis of wearable sensor en video recordings. Over the past years, we have conducted multiple unique cohort studies, monitoring large groups of people with Parkinson’s disease during daily life using a multi-sensor smartwatch, in addition to elaborate assessments, including in-clinic and at-home video recordings, clinical scales, fMRI, ECG and biosamples. Our multidisciplinary lab develops AI-based tools to derive reliable and sensitive digital biomarkers, transforming clinical trials and care for people living with Parkinson’s. 
 
-Contact: Luc Evers, luc.evers@radboudumc.nl
+Contact: [Luc Evers](mailto:luc.evers@radboudumc.nl)
 
 ## CARA Lab
 TBD
 
-Contact: Jos Thannhauser, jos.thannhauser@radboudumc.nl
+Contact: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
 
 ## Job description
@@ -60,8 +60,8 @@ For more information please contact one of the lab managers by e-mail:
 
 * MERAI Lab: [member/colin-jacobs]
 * Healthy AI Lab: [member/henkjan-huisman]
-* CARA LAB: Jos Thannhauser, jos.thannhauser@radboudumc.nl
-* AI for Parkinson Lab: Luc Evers, luc.evers@radboudumc.nl
+* CARA LAB: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
+* AI for Parkinson Lab: [Luc Evers](mailto:luc.evers@radboudumc.nl)
 
 ## Application
 Application links for the PhD positions will follow soon. You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
