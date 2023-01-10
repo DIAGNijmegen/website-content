@@ -15,4 +15,4 @@ Healthcare costs are globally rising. The workload of radiology departments has 
 Please also see the [MERAI Lab website](https://icai.ai/icai-labs/merai/).
 
 ## Funding
-MERAI Lab is part of the [ROBUST AI programme](https://icai.ai/ltp-robust/) and receives funding from the [Dutch Research Council (NWO)](https://www.nwo.nl/en/), the Dutch Ministry of Economics and Climate and [MeVis Medical Solutions AG](https://www.mevis.de/en/) via 
+MERAI Lab is part of the [ROBUST AI programme](https://icai.ai/ltp-robust/) and receives funding from the [Dutch Research Council (NWO)](https://www.nwo.nl/en/), the Dutch Ministry of Economics and Climate and [MeVis Medical Solutions AG](https://www.mevis.de/en/).
