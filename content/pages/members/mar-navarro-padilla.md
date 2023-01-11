@@ -1,7 +1,7 @@
 title: Mar Navarro Padilla
 name: Mar Navarro Padilla
 template: people-single
-picture: people/Mar_Navarro_PadillaLars.jpg
+picture: people/Mar_Navarro_Padilla.jpg
 position: Master Student
 active: yes
 groups: diag
