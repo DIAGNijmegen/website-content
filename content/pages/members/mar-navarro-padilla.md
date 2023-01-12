@@ -6,7 +6,7 @@ position: Master Student
 active: yes
 groups: diag
 default_group: diag
-email: mar.navarropadilla@radboudumc.nl
+email: mar.navarro@radboudumc.nl
 office: 
 type: student
 
