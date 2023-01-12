@@ -1,6 +1,6 @@
 title: Identification of drug repurposing candidates for myotonic dystrophy by Graph Convolutional Networks
 groups: ai-for-health
-closed: true
+closed: false
 type: student 
 picture: vacancies/MD_drug_repurposing.png
 template: vacancy-single
