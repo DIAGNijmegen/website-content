@@ -37,4 +37,4 @@ You will be embedded in the Center for Molecular and Biomolecular Informatics at
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
-- More information can be obtained from Peter-Bram ‘t Hoen (mailto: peter-bram.thoen@radboudumc.nl), Jelle Piepenbrock (mailto: jellepiepenbrock@gmail.com) and Tom Heskes (mailto: tom.heskes@cs.ru.nl) 
+- More information can be obtained from Peter-Bram ‘t Hoen (mailto: peter-bram.thoen@radboudumc.nl), Jelle Piepenbrock (mailto: jellepiepenbrock@gmail.com) and Tom Heskes (mailto: tom.heskes@cs.ru.nl)
