@@ -16,7 +16,8 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 26-06-2023 | Michelle Stegeman | TBA | Skatecourt, route 14, Experience Center |
+| 02-02-2023 | Rianne-Margot Koelewijn | Identifying morphological features in benign breast disease biopsies that predict breast cancer risk | Skatecourt, route 14, Experience Center |
+| 26-01-2023 | Michelle Stegeman | TBA | Skatecourt, route 14, Experience Center |
 | 19-01-2023 | Lena Philipp | Body composition assessment in 3D CT images | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
