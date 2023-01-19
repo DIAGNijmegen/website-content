@@ -1,6 +1,6 @@
 title: The PI-CAI Challenge at RSNA 2022
 date: 2022-12-02
-picture: news/pi-cai.png
+picture: news/pi-cai_challenge.png
 groups: diag
 description: Findings from the PI-CAI challenge presented at RSNA 2022 and featured on RSIP Computer Vision News.
 
