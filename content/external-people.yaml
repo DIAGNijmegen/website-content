@@ -1106,13 +1106,13 @@ people:
     picture: people/external/Erik_van_der_Heijden.png
     email: 
   - name: Firdaus Mohamed Hoesein
-    position: Pulmonologist
+    position: Radiologist
     affiliation: UMC Utrecht
     url: https://www.linkedin.com/in/firdaus-mohamed-hoesein-aa87063a/
     picture: people/external/Firdaus_Mohamed_Hoesein.png
     email:
   - name: Pim de Jong
-    position: Pulmonologist
+    position: Radiologist
     affiliation: UMC Utrecht
     url: https://www.linkedin.com/in/pim-de-jong-82a367193/
     picture: people/external/Pim_de_Jong.png
@@ -1129,3 +1129,9 @@ people:
     url: https://www.linkedin.com/in/erikvanderbijl
     picture: people/external/Erik_van_der_Bijl.jpg 
     email:   
+  - name: Marianne Boenink
+    position: Professor
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/marianne-boenink-31462a205/
+    picture: people/external/Marianne_Boenink.png 
+    email: 
