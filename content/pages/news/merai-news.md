@@ -8,4 +8,4 @@ MERAI Lab, one of the four new ICAI labs that will be started in Radboudumc as p
 
 [MERAI Lab](https://icai.ai/icai-labs/merai/) will be led by [member/colin-jacobs] and is a collaboration between Radboudumc and MeVis Medical Solutions with the mission to create world-leading AI-supported software solutions for healthcare.
 
-For upcoming vacancies, keep an eye on our [Vacancies page](https://www.diagnijmegen.nl/vacancies/)
+For upcoming vacancies, keep an eye on our [Vacancies page](https://www.diagnijmegen.nl/vacancies/).
