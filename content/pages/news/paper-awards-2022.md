@@ -3,7 +3,6 @@ date: 2022-12-20
 picture: news/2022-paper-awards.jpeg
 groups: diag
 description: Kiran was awarded for his publication on utilizing deep learning algorithms for estimating lung cancer risk from CT images.
-draft: true
 
 [Kiran Vaidhya Venkadesh](member/kiran-vaidhya-venkadesh), a fourth year PhD candidate at the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/), was awarded the first prize at the 2022 Paper Awards hosted by the Department of Medical Imaging. The award ceremony was held on December 20th at the Carl Figdor room in [Radboudumc](https://www.radboudumc.nl).
 
