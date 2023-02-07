@@ -1,6 +1,6 @@
 title: PhD position on artificial intelligence in healthcare
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Bram van Ginneken 
 template: vacancy-single

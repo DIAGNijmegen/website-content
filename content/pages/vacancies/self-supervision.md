@@ -1,6 +1,6 @@
 title: Self-supervised pretraining for digital pathology
 groups: ai-for-health, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/self-supervision.png
 template: vacancy-single

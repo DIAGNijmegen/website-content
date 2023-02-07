@@ -1,8 +1,8 @@
 title: The PI-CAI Challenge at RSNA 2022
 date: 2022-12-02
-picture: news/pi-cai.png
+picture: news/pi-cai_challenge.png
 groups: diag
-description: Findings from [the PI-CAI challenge](https://pi-cai.grand-challenge.org/) presented at RSNA 2022 and featured on RSIP Computer Vision News.
+description: Findings from the PI-CAI challenge presented at RSNA 2022 and featured on RSIP Computer Vision News.
 
 With 10,000 carefully-curated patient exams, [the PI-CAI challenge](https://pi-cai.grand-challenge.org/) aims to develop and validate modern AI algorithms at clinically significant prostate cancer detection and diagnosis in MRI. Since the launch of the challenge in May 2022, over the past 7 months, there has been widespread engagement from AI developers and radiologists around the world. Notably, over 314 AI algorithm submissions have been made from developers across academia and industry (e.g. Siemens Healthineers, Avenda Health, Guerbet). Meanwhile, 79 radiologists (55 centers, 22 countries) have enlisted in the PI-CAI: Reader Study.
 
