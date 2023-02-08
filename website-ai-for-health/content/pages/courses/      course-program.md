@@ -40,7 +40,7 @@ An overview of the in-depth track schedule can be seen below.
 | Date  | Time |  Topic  | Content | Location |
 | ----- | ------- | ------| ------ | ------ |
 | 03-02-2023 | 9-17h | Introduction + Machine Learning 1| How is AI changing healthcare? How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data| George Padberg, route 924 |
-| 10-02-2023 | 13-17h | Machine Learning 1| Machine learning in Python | George Padberg, route 924 |
+| 10-02-2023 | 13:30-17h | Machine Learning 1| Machine learning in Python | George Padberg, route 924 |
 | 17-02-2023 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models | George Padberg, route 924 |
 | 03-03-2023 | 9-17h | Machine Learning 3| A start is made to cover the most important supervised <br> machine learning algorithms and you will learn how to prepare your data | George Padberg, route 924 |
 | 17-03-2023 | 9-17h | Machine Learning 4| You will learn about unsupervised machine learning models <br>for data without any labels and learn how to Evaluate your models| George Padberg, route 924 |
