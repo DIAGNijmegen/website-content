@@ -30,9 +30,7 @@ jobs:
             site-id: NETLIFY_SITEID_RTC
           - name: website-ai-for-health
             site-id: NETLIFY_SITEID_AIFORHEALTH
-          - name: website-new
-            site-id: NETLIFY_SITEID_NEWWEBSITE
-
+            
     steps:
       - uses: actions/checkout@v2
 
