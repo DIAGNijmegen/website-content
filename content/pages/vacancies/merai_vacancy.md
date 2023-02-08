@@ -1,4 +1,4 @@
-title: PhD candidate in Artificial intelligence for analysis of lung cancer screening CT scans
+title: PhD candidate in MERAI Lab - Artificial intelligence for analysis of lung cancer screening CT scans
 groups: diag
 closed: false
 type: general 
