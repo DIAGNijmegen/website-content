@@ -17,22 +17,14 @@ The [ROBUST AI programme](https://icai.ai/ltp-robust/), a new initiative by the 
 ## MERAI Lab
 Healthcare costs are globally rising. The workload of radiology departments has substantially increased and is still increasing, and, as a result, radiologists are under large pressure and risk of burn-out. The imminent implementation of lung cancer screening and the rapid increase in the availability of novel cancer treatments such as immunotherapy will result in a continued increase of imaging. [MERAI Lab](https://icai.ai/icai-labs/merai/) is a collaboration between Radboudumc and MeVis Medical Solutions with the mission to create world-leading AI-supported software solutions for healthcare.  We aim to create AI solutions in the lung oncology field that will improve the accuracy in the interpretation of the increasing amount of imaging that is performed for screening, optimal treatment selection and treatment monitoring, and reduce the time needed to report these scans. Both combined will improve the cost-effectiveness of our healthcare system. For responsible use of the developed AI algorithms, it is essential that we guarantee robust and trustworthy AI solutions that reach performance close to human experts.
 
-Contact: [member/colin-jacobs]
-
 ## Healthy AI Lab
 [HEALTHY-AI](https://icai.ai/icai-labs/healthyai/) is a collaboration between Radboudumc, University Medical Center Groningen, University of Twente and Siemens Healthineers. HEALTHY-AI develops reliable and robust artificial intelligence (AI) technology with a specific focus on MRI-guided prostate cancer diagnosis and treatment. A team of five PhDs will be working on projects related to annotation efficiency, pathway risk predictors, AI quality control, follow-up comparison, and MRI automation. In the next five years, HEALTHY-AI aims to improve AI by optimizing data annotation processes, improving the ability to predict treatment outcomes, and continuously learning under quality control. This will result in improved cancer detection and follow-up, and the automation of MRI will enhance image quality and dynamic protocols for prostate cancer.
-
-Contact: [member/henkjan-huisman]
 
 ## AI for Parkinson Lab
 The paradigm of how we quantify Parkinson’s disease is shifting from short, in-clinic evaluations to objective, frequent measures obtained at home. At the [AI for Parkinson lab](https://icai.ai/icai-labs/ai-for-parkinson/), Radboudumc and Verily Life Sciences are jointly developing novel digital biomarkers based on automated analysis of wearable sensor en video recordings. Over the past years, we have conducted multiple unique cohort studies, monitoring large groups of people with Parkinson’s disease during daily life using a multi-sensor smartwatch, in addition to elaborate assessments, including in-clinic and at-home video recordings, clinical scales, fMRI, ECG and biosamples. Our multidisciplinary lab develops AI-based tools to derive reliable and sensitive digital biomarkers, transforming clinical trials and care for people living with Parkinson’s. 
 
-Contact: [Luc Evers](mailto:luc.evers@radboudumc.nl)
-
 ## CARA Lab
 Cardiovascular disease remains the world’s leading cause of mortality and morbidity. Atherosclerotic disease of the coronary arteries can lead to myocardial infarction, a life-threatening condition with an estimated annual incidence of >70,000 patients in the Netherlands only. Whether or not to decide for a percutaneous coronary intervention (PCI) procedure remains one of the biggest clinical challenges in current daily practice. To help in this decision process, promising intravascular imaging techniques have recently been developed that offer the opportunity to assess plaques ‘at risk’ for future events. Among these is optical coherence tomography (OCT), a near-infrared light based imaging technique with a high spatial resolution. OCT enables precise characterization of the vessel wall and atherosclerotic disease. In the [CARA lab](https://icai.ai/icai-labs/cara/) we aim to develop and test AI-based algorithms to provide real-time analysis of OCT images, in order to improve the use and interpretation of these images, ultimately leading to improved clinical decision making. CARA is a unique collaboration between the Radboudumc, Amsterdam UMC and Abbott, an international leading medical devices and health care company.
-
-Contact: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
 
 ## Job description
@@ -62,4 +54,6 @@ For more information please contact one of the lab managers by e-mail:
 * CARA Lab: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
 ## Application
-Application links for the PhD positions will follow soon. You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
+For MERAI Lab, please apply [here](https://www.diagnijmegen.nl/vacancies/merai_vacancy/). Application links for the PhD positions in Healthy AI Lab, AI for Parkinson Lab, and CARA Lab will follow soon. 
+
+You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. Applications are processed immediately upon receipt. 
