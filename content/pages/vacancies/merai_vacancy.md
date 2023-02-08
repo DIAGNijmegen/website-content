@@ -4,7 +4,7 @@ closed: false
 type: general 
 people: Colin Jacobs
 template: vacancy-single
-picture: vacancies/icai_robust_nijmegen.png
+picture: news/lung-cancer-image-analysis.png
 description: We are looking for 3 highly motivated and talented individuals to join our team as a PhD candidate. You will be part of one of the 17 new ICAI labs, named MERAI Lab, consisting of 5 PhD students, who will collaborate on creating AI solutions for the lung oncology field. 
 
 ## Job description
