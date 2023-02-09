@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/aifh_msc_prenatalultrasound2.png
 template: vacancy-single
-people: Keelin Murphy, Bram van Ginneken
+people: Keelin Murphy, Bram van Ginneken, Tessa Meuleman, Marc Spaanderman
 description: Detection and analysis of 2D planes of interest in 3D ultrasound images
 
 ** Start date: 01-03-2023 ** <br>
