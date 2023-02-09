@@ -2,7 +2,7 @@ title: 2D Plane Detection in 3D prenatal ultrasound
 groups: ai-for-health, diag
 closed: false
 type: student
-picture: vacancies/aifh_msc_prenatalultrasound.png
+picture: vacancies/aifh_msc_prenatalultrasound2.png
 template: vacancy-single
 people: Keelin Murphy, Bram van Ginneken
 description: Detection and analysis of 2D planes of interest in 3D ultrasound images
