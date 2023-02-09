@@ -3,7 +3,7 @@ name: Manuela Bergau
 template: people-single
 picture: people/manuela_bergau.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, ai-for-health
 default_group: diag
 email: manuela.bergau@radboudumc.nl
