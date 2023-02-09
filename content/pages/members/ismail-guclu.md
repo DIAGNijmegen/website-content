@@ -3,7 +3,7 @@ name: Ismail Guclu
 template: people-single
 picture: people/Ismail_Guclu.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, ai-for-health
 default_group: diag
 email: i1.guclu@student.ru.nl
