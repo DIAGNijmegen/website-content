@@ -3,7 +3,7 @@ name: Robert van Lente
 template: people-single
 picture: people/Robert_van_Lente.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: robert.vanlente@radboudumc.nl
@@ -13,7 +13,9 @@ type: student
 scholar: 
 publons: 
 orcid: 
-linkedin:www.linkedin.com/in/rvlente
+linkedin: www.linkedin.com/in/rvlente
 
-Robert obtained his bachelor’s degree in Computer Science from the Technische Universiteit Eindhoven in 2019. After working as a software developer for several years, he started a master’s degree in Data Science at Radboud University in 2021. After developing an interest in the application of machine learning in the medical field, he joined the [Diagnostic Image Analysis Group](http://diagnijmegen.nl) in September 2022 to do his research internship, working on improving pulmonary nodule classification algorithms until January 2023. He is supervised by [member/colin-jacobs] and [member/kiran-vaidhya-venkadesh].
+Robert was a Data Science MSc student from Radboud University visiting DIAG for a research internship in 2022. 
+
+Robert obtained his bachelor’s degree in Computer Science from the Technische Universiteit Eindhoven in 2019. After working as a software developer for several years, he started a master’s degree in Data Science at Radboud University in 2021. After developing an interest in the application of machine learning in the medical field, he joined the [Diagnostic Image Analysis Group](http://diagnijmegen.nl) in September 2022 to do his research internship, working on improving pulmonary nodule classification algorithms until January 2023. He was supervised by [member/colin-jacobs] and [member/kiran-vaidhya-venkadesh].
 
