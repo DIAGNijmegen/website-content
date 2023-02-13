@@ -1,6 +1,6 @@
 title: Interventional reconstruction AI for real-time needle tracking in MRI
 groups: ai-for-health
-finished: true
+finished: false
 type: student
 picture: vacancies/fast-mri.png
 template: project-single
