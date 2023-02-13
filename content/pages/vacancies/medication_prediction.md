@@ -2,7 +2,7 @@ title: Predicting successful statin medication treatment
 groups: ai-for-health
 closed: false
 type: student
-picture: vacancies/prosthesis.jpg
+picture: vacancies/statine-voorspelling.png
 template: vacancy-single
 people: Jeroen Vermazeren, Henk Schers, Floris van der Laar, Michael Ricking, Eline Allard
 description: Development of a prediction tool for successful statin medication treatment 
