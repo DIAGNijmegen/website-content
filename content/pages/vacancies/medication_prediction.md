@@ -71,5 +71,5 @@ reduce the cardiovascular risks.
 ## Information
 - Project duration: 6 months
 - Location: Radboud University Medical Center
-- For more information, please contact Jeroen Vermazeren](mailto:jeroen.vermazeren@radboudumc.nl)
+- For more information, please contact [Jeroen Vermazeren](mailto:jeroen.vermazeren@radboudumc.nl)
 
