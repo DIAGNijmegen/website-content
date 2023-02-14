@@ -729,12 +729,24 @@ people:
     url:
     picture: people/external/Annemarie_Uijen.jpg
     email:
-  - name: Henk Schers
-    position:
-    affiliation:
+  - name: Prof. dr. Henk Schers
+    position: Professor
+    affiliation: Primary Care, Radboudumc
     url: https://www.radboudumc.nl/personen/henk-schers
     picture: people/external/Henk_Schers.jpg
     email: Henk.Schers@radboudumc.nl
+  - name: Floris van der Laar
+    position: Arts docent
+    affiliation: Radboud University
+    url: https://www.radboudumc.nl/personen/floris-van-de-laar
+    picture: 
+    email: 
+  - name: Eline Allard
+    position: AIOTHO
+    affiliation: Radboud University
+    url: Eline Allard - Arts in opleiding tot huisarts en onderzoeker (AIOTHO) - SBOH | LinkedIn
+    picture: 
+    email: 
   - name: Niels van Nistelrooij
     position: Master student
     affiliation: Radboud University
