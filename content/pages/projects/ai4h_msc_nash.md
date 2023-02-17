@@ -4,13 +4,11 @@ finished: false
 type: student
 picture: vacancies/msc_nash.jpg
 template: project-single
-people: Geert Litjens
+people: Thijs Schoppema, Geert Litjens
 description: Develop a method to quantify non-alcoholic steatohepatitis in histopathology images
 
-**This is an AI for Health MSc project. Students are
-eligible to receive a monthly reimbursement of €500,- for
-a period of six months. For more information please read the
-[requirements](https://www.ai-for-health.nl/requirements/).** 
+**Start date: 06-02-2023** <br>
+**End date: 05-08-2023**
 
 ## Clinical problem
 Non-alcoholic fatty liver disease (NAFLD) is an enormous global burden with an estimated prevalence of 20-30% worldwide. NAFLD, defined as excessive hepatic lipid accumulation in absence of alcohol use, can progress into non-alcoholic steatohepatitis (NASH), a disease characterized by hepatic inflammation and fibrosis (‘scarring’). Although only recently acknowledged, NASH can have severe consequences, such as a twofold increased risk of cardiovascular diseases, the development of liver cirrhosis with liver failure, and liver cancer.
