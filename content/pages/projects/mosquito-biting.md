@@ -7,8 +7,8 @@ template: project-single
 people: Ali Shahbaaz Khan, Felix Hol
 description: Development of a deep learning algorithm for phenotyping of mosquito biting behavior in video
 
-## Reimbursement
-This is an AI for Health MSc project. Students are eligible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements).
+**Start date: 01-02-2023** <br>
+**End date: 31-07-2023**
 
 ## Clinical Problem
 Mosquitoes transmit an array of pathogens, making them one of the world’s most deadly animals. A mosquito's thirst for blood is central to understanding mosquito-borne pathogen transmission. Yet despite the strong relevance for pathogen transmission, we lack a thorough understanding of the internal and external drivers of blood feeding behavior. It is for instance unclear how pathogen infections affect biting behavior, nor is it known how contact-dependent sensing of the composition of the skin shapes biting dynamics. To explore these questions, we recently developed the  biteOscope - an open-source platform that attracts mosquitoes to a host mimic which they bite to obtain an artificial blood meal. The host mimic is transparent, allowing high-resolution imaging of the feeding mosquito. Coupling this imaging platform to a computational pipeline enables the automated extraction of detailed behavioral characteristics allowing the dissection of the micro-behaviors that together lead to the successful completion of a blood meal, and create the possibility for pathogen transmission.
