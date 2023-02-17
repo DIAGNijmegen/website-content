@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/fast-mri.png
 template: project-single
-people: Stan Noordman
+people: Steffan Borgers, Stan Noordman
 description: Development of an interventional reconstruction algorithm for real-time needle tracking in MRI
 
 
