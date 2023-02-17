@@ -7,9 +7,6 @@ template: vacancy-single
 people: Peter Koopmans, Erik van der Bijl, Bram van Ginneken
 description: Prediction of organ repositioning due to bladder filling to timely adjust radiation therapy
 
-** Start date: 01-01-2023 ** <br>
-** End date: 31-06-2023 **
-
 **This is an AI for Health MSc project. Students are eligible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements/).** 
 
 ## Clinical problem
