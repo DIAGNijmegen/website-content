@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/mosquito-biting.png
 template: project-single
-people: Felix Hol
+people: Ali Shahbaaz Khan, Felix Hol
 description: Development of a deep learning algorithm for phenotyping of mosquito biting behavior in video
 
 ## Reimbursement
