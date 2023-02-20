@@ -16,10 +16,11 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 04-05-2023 | Carlijm Lems | TBA | Skatecourt, route 14, Experience Center |
 | 30-03-2023 | Ruben Geurtjens | TBA | Skatecourt, route 14, Experience Center |
 | 09-03-2023 | Ole ten Hove | TBA | Skatecourt, route 14, Experience Center |
 | 02-03-2023 | Matthijs Luijten | TBA | Skatecourt, route 14, Experience Center |
-| 23-02-2023 | Mar Navarro | TBA | Skatecourt, route 14, Experience Center |
+| 23-02-2023 | Mar Navarro | Automated Detection and Grading of Hip Osteoarthritis | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
