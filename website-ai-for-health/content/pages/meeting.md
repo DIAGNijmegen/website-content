@@ -17,6 +17,7 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
 | 04-05-2023 | Carlijn Lems | TBA | Skatecourt, route 14, Experience Center |
+| 27-04-2023 | Oscar Esteban Bajo | TBA | Skatecourt, route 14, Experience Center |
 | 30-03-2023 | Ruben Geurtjens | TBA | Skatecourt, route 14, Experience Center |
 | 09-03-2023 | Ole ten Hove | TBA | Skatecourt, route 14, Experience Center |
 | 02-03-2023 | Matthijs Luijten | TBA | Skatecourt, route 14, Experience Center |
