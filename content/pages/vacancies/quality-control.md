@@ -1,5 +1,5 @@
 title: Automated whole-slide image analysis and quality control
-groups: ai-for-health, pathology
+groups: ai-for-health, pathology, diag
 closed: false
 type: student
 picture: vacancies/quality-control.png
