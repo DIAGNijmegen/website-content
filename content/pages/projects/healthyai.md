@@ -46,14 +46,14 @@ diagnostic accuracy, in other words, it will not be able to learn from its encou
 human intelligence it needs to be dynamic or “living”. The hypothesis is that AI can be embedded in a continuous
 feedback framework with scientific oversight that strives to improve performance and trust. The research questions
 are:
-● What are the legal consequences? This new framework will deviate from the conventional CE/FDA certification process that regulates validity for clinical use. Can it be seen as an extreme form of post-
+* What are the legal consequences? This new framework will deviate from the conventional CE/FDA certification process that regulates validity for clinical use. Can it be seen as an extreme form of post-
 marketing surveillance?
-● How to set up such a framework? This involves novel techniques for the continuous collection of new
+* How to set up such a framework? This involves novel techniques for the continuous collection of new
 cases, AI predictions, and outcome data. Moreover, it involves a scientific board that compares and
 interprets AI deficiencies.
-● What constitutes an AI deficiency? Similar to aviation, it makes sense to not just look at collisions only,
+* What constitutes an AI deficiency? Similar to aviation, it makes sense to not just look at collisions only,
 but also include near misses.
-● What does AI need to report to help identify deficiencies and build trust? Novel technological AI
+* What does AI need to report to help identify deficiencies and build trust? Novel technological AI
 developments include the prediction of uncertainty, calibrated probability, image quality, and the rarity of a
 case. These novel AI outcome features can help build trust by providing direct clinical feedback about AI
 validity, but impose novel challenges as to the use for detecting deficiencies and even to the assessment
@@ -74,4 +74,4 @@ breath-hold capability, implant status, the presence or absence of motion, and p
 recommendations patient-tailored strategies.
 
 ## Funding
-* https://icai.ai/icai-labs/healthyai/
+* Part of the ROBUST ICAI lab funded by NWO and RVO: https://icai.ai/icai-labs/healthyai/
