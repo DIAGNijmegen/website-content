@@ -1,6 +1,6 @@
 title: Domain Generalization for Prostate Cancer Detection in MRI
 groups: ai-for-health
-finished: false 
+finished: true 
 type: student 
 picture: projects/domain_adapt.png
 template: project-single
