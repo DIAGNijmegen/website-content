@@ -2,7 +2,7 @@ title: HealthyAI
 title_long: HealhtyAI
 finished: false
 type: general
-picture: projects/healthyai.jpg
+picture: projects/prostate.jpg
 template: project-single
 groups: diag
 people: Henkjan Huisman, Derya Yakar
