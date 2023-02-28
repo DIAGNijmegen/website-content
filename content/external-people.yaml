@@ -739,19 +739,19 @@ people:
     position: Developer
     affiliation: Primary Care, Radboudumc
     url: https://www.linkedin.com/in/jeroen-vermazeren/?originalSubdomain=nl
-    picture: 
+    picture: people/Jeroen_Vermazeren.jpg
     email:
   - name: Floris van der Laar
     position: Arts docent
     affiliation: Radboud University
     url: https://www.radboudumc.nl/personen/floris-van-de-laar
-    picture: 
+    picture: people/external/Floris_Laar.jpg
     email: 
   - name: Eline Allard
     position: AIOTHO
     affiliation: Radboud University
     url: https://www.linkedin.com/in/eline-allard-208a01103/?originalSubdomain=nl
-    picture: 
+    picture: people/external/Eline_Allard.jpg
     email: 
   - name: Niels van Nistelrooij
     position: Master student
