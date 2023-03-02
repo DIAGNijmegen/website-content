@@ -21,13 +21,13 @@ The slides for past presentations are available by clicking on the links in the 
 | 20-04-2023 | Nohemi Sofia Leon Contreras | Self-supervised pretraining for histopathology images | Skatecourt, route 14, Experience Center |
 | 30-03-2023 | Ruben Geurtjens | TBA | Skatecourt, route 14, Experience Center |
 | 09-03-2023 | Ole ten Hove | TBA | Skatecourt, route 14, Experience Center |
-| 02-03-2023 | Matthijs Luijten | TBA | Skatecourt, route 14, Experience Center |
-| 23-02-2023 | Mar Navarro | Automated Detection and Grading of Hip Osteoarthritis | Skatecourt, route 14, Experience Center |
+| 02-03-2023 | Matthijs Luijten | Automated detection of progression of white matter hyperintensities in cerebral small vessel disease using machine learning | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 23-02-2023 | Mar Navarro | Automated Detection and Grading of Hip Osteoarthritis |
 | 09-02-2023 | Bob Sanders <br> Niels van Hoeffelen | Few-shot learning in medical imaging |
 | 02-02-2023 | Rianne-Margot Koelewijn | Identifying morphological features in benign breast disease biopsies that predict breast cancer risk |
 | 26-01-2023 | Michelle Stegeman | Extending a prostate cancer grading algorithm to other surgical entities |
