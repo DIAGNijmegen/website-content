@@ -79,7 +79,7 @@ An overview of the short track schedule can be seen below.
 | 14-04-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data | George Padberg, route 924 |
 | 21-04-2023 | 13-17h | AI products | Learn how to choose a suitable AI product | George Padberg, route 924 |
 | 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 |
-| 12-05-2023 | 9-17h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 |
+| 12-05-2023 | 9-13h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 |
 | 26-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation | George Padberg, route 924 |
 | 02-06-2023 | 9-13h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed | George Padberg, route 924 |
 | 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance | George Padberg, route 924 |
