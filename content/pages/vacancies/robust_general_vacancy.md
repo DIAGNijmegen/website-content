@@ -54,6 +54,6 @@ For more information please contact one of the lab managers by e-mail:
 * CARA Lab: [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl)
 
 ## Application
-For MERAI Lab, please apply [here](https://www.diagnijmegen.nl/vacancies/merai_vacancy/). Application links for the PhD positions in Healthy AI Lab, AI for Parkinson Lab, and CARA Lab will follow soon. 
+Application links for the PhD positions in MERAI Lab, Healthy AI Lab, AI for Parkinson Lab, and CARA Lab will follow soon. 
 
-You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. Applications are processed immediately upon receipt. 
+For the moment, applications can be emailed to the respective lab managers. You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. Applications are processed immediately upon receipt. 
