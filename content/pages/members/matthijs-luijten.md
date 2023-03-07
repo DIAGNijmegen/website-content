@@ -7,6 +7,7 @@ active: yes
 groups: diag, pathology
 default_group: pathology
 email: 
+linkedin: https://www.linkedin.com/in/matthijsluijten/
 office: 
 type: student
 
