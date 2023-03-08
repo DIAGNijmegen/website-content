@@ -5,7 +5,7 @@ type: student
 picture: vacancies/WMH_segmentation.png
 template: project-single
 people:  Matthijs Luijten, Gemma Solé Guardia, Amanda Kiliaan, Geert Litjens
-description: Development of a segmentation model for WML in ex vivo brain MRI
+description: Development of a segmentation model for WMH in in vivo and post-mortem brain MRI and detection of WMH progression. 
 
 **Start date: 05-09-2022** <br>
 **End date: 28-02-2023**
