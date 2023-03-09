@@ -1,7 +1,7 @@
-title: Elias Bauwmann
-name: Elias Bauwmann
+title: Elias Baumann
+name: Elias Baumann
 template: people-single
-picture: people/Elias_Bauwmann.png
+picture: people/Elias_Baumann.png
 position: PhD Candidate
 active: yes
 groups: diag, pathology
