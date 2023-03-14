@@ -1,0 +1,45 @@
+title: PhD position on biomedical image registration
+groups: diag
+closed: false
+type: general 
+status: draft
+people: Alessa Hering
+template: vacancy-single
+picture: vacancies/AIinHealthcare.jpg
+description: We are offering a PhD position on biomedical image registration
+
+## Background
+Image registration is the process of aligning two or more images to achieve pointwise spatial correspondence. This is a fundamental step for many tasks in medical image analysis as it links previously unrelated data and enables joint processing of those data. For example, image registration is used for follow-up assessment of cancer patients. It aligns anatomical structures of multiple images by establishing spatial correspondences and is used to automatically quantify findings in subsequent imaging examinations and hereby reduces the reading time of a radiologist immensely. 
+
+
+
+## Job description
+We are looking for PhD students to develop deep-learning algorithms that analyse images and additional data with the aim that these algorithms will support clinicians in diagnosis and treatment process. The applications can range from radiology, oncology, cardiology, radiotherapy or neurology.
+
+## Profile
+You should
+* be a creative and enthusiastic researcher with an MSc degree in Computer Science, Mathematics, Physics, Engineering or similar
+* have a clear interest to develop artificial intelligence algorithms and an affinity with healthcare 
+* have good communication skills and enjoy working in a multidisciplinary team
+* have expertise in software development, preferably in Python
+* having experience with deep learning, machine learning, and image analysis or time series analysis is a plus.
+
+
+
+## Terms of employment
+You will be appointed for four years as a PhD student with the standard salary and secondary conditions for PhD students in the Netherlands. The research should result in a PhD thesis.
+
+## Organization
+You will work in the Diagnostic Image Analysis Group (DIAG) DIAG is part of the Departments of Imaging, Pathology, Ophthalmology, and Radiation Oncology of Radboud University Medical Center. We develop computer algorithms to interpret and process medical images. The group currently consists of around 70 researchers. Radboud University Medical Center and Radboud University are located in Nijmegen, the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. Radboud University has over 17,000 students. Radboud UMC is a leading academic center for medical science, education and health care with over 8,500 staff and 3,000 students.
+
+## Information
+For more information please contact [member/alessa-hering] by e-mail.
+
+## Application
+Use the Apply button on [this page]() to apply for this position. You should supply
+* motivation letter
+* your CV including links to a Google Scholar profile 
+* list of grades and courses you have followed including online courses on deep learning and similar topics, 
+* links to any publications you have written
+* Any code you have written and is publicly accessible, e.g., on a GitHub account. 
+This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
