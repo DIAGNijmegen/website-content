@@ -1,12 +1,12 @@
 title: Course program
-description: The third edition of the AI for Health course will start in Q1 2023. More information will follow soon!
+description: The fourth edition of the AI for Health course will start in Q3 2023. More information will follow soon!
 groups: ai-for-health
 picture: courses/XMG_20200925_142130.jpg
 
-## What you need to know for the third edition of the course:
+## What you need to know for the fourth edition of the course:
 
 <ul>
-  <li>The next edition of the course will start <b>03-02-2023</b>.</li>
+  <li>The next edition of the course will start <b>08-09-2023</b>.</li>
 <li>There are 2 tracks to choose from: </li>
 <ul>
   <li> A <b>full track</b> that offers participants the ability to create their own AI solutions. In this track you will follow, besides the lectures, also practical sessions where you can pick up the skills needed to implement your own AI applications.</li>
@@ -35,7 +35,7 @@ picture: courses/XMG_20200925_142130.jpg
 - The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded.
 -->
 
-An overview of the in-depth track schedule can be seen below.
+An overview of the in-depth track schedule of the current edition can be seen below.
 
 | Date  | Time |  Topic  | Content | Location |
 | ----- | ------- | ------| ------ | ------ |
@@ -68,7 +68,7 @@ An overview of the in-depth track schedule can be seen below.
 <li>The course will end with a graduation ceremony where project teams will present their project results and a certificate will be awarded.</li>
 </ul>
 
-An overview of the short track schedule can be seen below.
+An overview of the short track schedule of the current edition can be seen below.
   
 | Date  | Time |  Topic  | Content | Location |
 | ----- | ------- | ------| ------ | ------ |
