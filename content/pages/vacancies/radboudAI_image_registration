@@ -9,12 +9,20 @@ picture: vacancies/AIinHealthcare.jpg
 description: We are offering a PhD position on biomedical image registration
 
 ## Background
-Image registration is the process of aligning two or more images to achieve pointwise spatial correspondence. This is a fundamental step for many tasks in medical image analysis as it links previously unrelated data and enables joint processing of those data. For example, image registration is used for follow-up assessment of cancer patients. It aligns anatomical structures of multiple images by establishing spatial correspondences and is used to automatically quantify findings in subsequent imaging examinations and hereby reduces the reading time of a radiologist immensely. 
-
+Image registration is an essential process that involves aligning two or more images to achieve spatial correspondence at every point. This step is crucial in medical image analysis as it enables the integration of previously unrelated data, allowing for joint processing of the information. One significant application of image registration is in the follow-up assessment of cancer patients. By establishing spatial correspondences between multiple images, it aligns anatomical structures and facilitates the automatic quantification of findings in subsequent imaging examinations. This saves radiologists a significant amount of time while ensuring accurate and efficient patient care.
 
 
 ## Job description
-We are looking for PhD students to develop deep-learning algorithms that analyse images and additional data with the aim that these algorithms will support clinicians in diagnosis and treatment process. The applications can range from radiology, oncology, cardiology, radiotherapy or neurology.
+The PhD project aims to develop a generic image registration framework that is capable of automatically configuring itself to be applied to several tasks. The main focus of the PhD is on the technical development of appropriate methods and requires a certain mathematical understanding. However, the methods developed are to be applied in the field of medical image processing and in particular in the field of oncological treatment assessment.  
+
+## Tasks and responsibilites
+
+* Conduct research in the development of image registration methods 
+* Collaborate with a multidisciplinary team to translate cutting-edge technology into clinical practice
+* Publish research findings in peer-reviewed journals and present at international conferences
+* Mentor junior team members and contribute to the development of the lab's research direction
+* Co-organize the international Learn2Reg image registration challenge and be active in the research community 
+
 
 ## Profile
 You should
