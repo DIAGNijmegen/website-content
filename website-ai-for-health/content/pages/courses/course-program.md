@@ -59,7 +59,7 @@ An overview of the in-depth track schedule of the current edition can be seen be
 ## Light track program
 
 <ul>
-<li>The short track takes takes 14 (half) Fridays.
+<li>The short track takes place on 8 (half) Fridays, excluding 5 optional project days.
 <li>The course consists of lectures with a focus on Radboudumc practice.</li>
 <li>The program will mostly be held at Radboudumc in Nijmegen.</li>
 <li>For the projects you can bring in your own clinical case and you will be involved by providing guidance and feedback to a team.</li>
