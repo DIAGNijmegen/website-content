@@ -61,7 +61,7 @@ An overview of the in-depth track schedule of the current edition can be seen be
 <ul>
 <li>The short track takes takes 14 (half) Fridays.
 <li>The course consists of lectures with a focus on Radboudumc practice.</li>
-<li>The program will mostly be held at Radboudumc in Nijmegen and a few times at JADS in Den Bosch.</li>
+<li>The program will mostly be held at Radboudumc in Nijmegen.</li>
 <li>For the projects you can bring in your own clinical case and you will be involved by providing guidance and feedback to a team.</li>
 <li>We expect participants to spend on average 2-3 hours per week on homework and self study.</li>
 <li>There will be an online training environment with support documentation, discussion forum and blended learning.</li>
