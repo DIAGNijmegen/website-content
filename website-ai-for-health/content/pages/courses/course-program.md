@@ -15,7 +15,7 @@ picture: courses/XMG_20200925_142130.jpg
 </ul>  
 ## Full track program
 <ul>
-<li>The in depth course takes place on 16 Fridays.
+<li>The in depth course takes place on 16 Fridays: 8 Sep, 15 Sep, 22 Sep, 29 Sep, 6 Oct, 13 Oct, 27 Oct, 3 Nov, 10 Nov, 17 Nov, 24 Nov, 1 Dec, 8 Dec, 15 Dec, 22 Dec, 12 Jan. The full program will follow soon.
 <li>The course days consist of lectures in the morning and afternoon Python practicals with cases focused on Radboudumc practice.</li>
 <li>The program will be held at Radboudumc in Nijmegen.</li>
 <li>The course includes project days in the Radboudumc where you will work in a team on a Radboudumc project.</li>
