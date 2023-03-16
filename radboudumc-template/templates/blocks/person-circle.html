@@ -1,6 +1,6 @@
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
 
-    {% if 'http' not in person.url %}
+    {% if person.url and 'http' not in person.url %}
       {% set person_url = SITEURL + '/' + person.url %}
     {% else %}
       {% set person_url = person.url %}
@@ -14,7 +14,7 @@
 
     <h3 class="person-name"><a href="{{ person_url }}">
       {{ person.name }}
-      {% if person.default_group != SITE_GROUP and 'http' in person.url %}
+      {% if person.default_group != SITE_GROUP and person.url and 'http' in person.url %}
       <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
       {% endif %}
     </a></h3>
