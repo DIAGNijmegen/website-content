@@ -5,7 +5,7 @@ type: general
 picture: projects/solace2.png
 template: project-single
 groups: diag
-people: Colin Jacobs, Mathias Prokop
+people: Colin Jacobs, Steven Schalekamp, Mathias Prokop
 description: Strengthening the screening of lung cancer in Europe
 
 ## SOLACE vision and general objectives
