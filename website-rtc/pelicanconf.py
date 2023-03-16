@@ -24,6 +24,7 @@ FOOTER_TEXT = ""
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = "neural-bg"
+FOOTER_IMAGE = 'umc_logo.png'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
