@@ -22,6 +22,7 @@ healthcare costs, and reallocate time for routine decision-making to human-centr
 HEALTHY-AI brings together the clinical knowledge institutes Radboudumc, UMCG, and the University
 of Twente with industrial partner Siemens Healthineers. Its mission is to explore novel AI technology
 and ethical challenges to achieve trustworthy AI.
+![HealthyAI]({{ IMGURL }}/images/projects/prostate.jpg)
 
 ## Aim
 
