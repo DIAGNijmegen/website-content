@@ -19,7 +19,19 @@ In recent years, over 200 AI products for radiology have come on the market. The
 The computer vision literature reports many different methods for out-of- distribution detection. We recently tested several approaches and found several to perform poorly on chest radiographs, but one method achieved very promising results: the approach by [Dan Hendricks et al.](https://arxiv.org/abs/1906.12340) that employs self-supervision, a popular recent trend in deep learning. In this project we would like to use this method, and possibly extend it or compare it to other methods, on a variety of radiological image classification and detection tasks. Our hypothesis is that a generic approach to out-of-distribution detection, trained with self-supervision, will be able to enhance a wide variety of products for AI in radiology.
 
 ## Data 
-We have different sets of data available from previous projects in the analysis of x-rays, ultrasound images and color fundus images. In all cases out-of-distribution datasets can be defined as well.
+For this thesis 2 groups of data have been used. The first group contains 3 datasets containg low-dose lung CT scans:
+* **NLST:** 10.183 screening scans 
+* **DLCST:** 602 screening scans
+* **Chung:** 436 clincal scans
+
+For all experiments NLST was used as training data. DLCST was used as validation set and Chung for testing. Since Chung contains clinical data it is expected that it also contains OOD data. There are, however, no ID and OOD labels available. 
+
+The second group of data contains 2 datasets of x-rays scans:
+
+* **Node21:** 4882 chest x-ray images
+* **RadboudXR:** 21.576 x-rays. 
+
+Node21 was considered ID and used for training. RadboudXR, however, contains a lot of labeled OOD data and was used for testing.  
 
 ## Approach
 TBD
