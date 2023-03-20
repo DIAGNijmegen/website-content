@@ -118,7 +118,8 @@
         {% endif %}
 
         {% if page.former_people_page %}
-        <p>We also maintain a list of <a href="{{ SITEURL }}/{{ page.former_people_page }}" title="Former Employees">Former Employees</a>.</p>
+            <p>We also maintain a list of <a href="list_previous" title="Former Employees">Former Employees</a>.</p>
+            
         {% else %}
             {% for person in members if (person.active == 'yes' and SITE_GROUP in person.previous_groups) or person.active == 'no' %}
                 {% if not ns.has_former %}

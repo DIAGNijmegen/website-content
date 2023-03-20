@@ -82,7 +82,10 @@ NAV_SECTIONS = [
         "text_class": "d-lg-block",
     },
 ]
-
+ARTICLE_EXCLUDES = ['templates']
+TEMPLATE_PAGES = {
+    'templates/list_previous.html': 'list_previous.html',
+}
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies"}
 
