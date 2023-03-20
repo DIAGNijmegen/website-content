@@ -3,7 +3,7 @@ name: Gabriel Humpire Mamani
 template: people-single
 picture: people/Gabriel_Humpire_Mamani.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: g.humpiremamani@radboudumc.nl
