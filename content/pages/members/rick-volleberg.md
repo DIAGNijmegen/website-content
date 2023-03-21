@@ -1,7 +1,7 @@
 title: Rick Volleberg
 name: Rick Volleberg
 template: people-single
-picture: Rick_Volleberg.jpg
+picture: people/Rick_Volleberg.jpg
 position: PhD Candidate 
 active: yes
 groups: diag
