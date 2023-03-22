@@ -2,21 +2,21 @@ title: Fourth edition
 description: Course program of the fourth edition of the AI for Health course
 groups: ai-for-health
 
-| Date  |  Topic  | Lecturer(s) |
-| ----- | ------ | ------ |
-| 03-02-2023 | Introduction + Machine Learning 1| Joran Lokkerbol, Egge van der Poel, Bram van Ginneken |
-| 10-02-2023 | Machine Learning 1 | Joran Lokkerbol |
-| 17-02-2023 | Machine Learning 2 | Joran Lokkerbol |
-| 03-03-2023 | Machine Learning 3 | Joran Lokkerbol |
-| 17-03-2023 | Machine Learning 4 | Joran Lokkerbol |
-| 24-03-2023 | Deep Learning 1 | Bram van Ginneken |
-| 31-03-2023 | Deep Learning 2 | Bram van Ginneken |
-| 14-04-2023 | Project Day 1 | ----- |
-| 21-04-2023 | Data Engineering / AI Products | RTC Data Stewardship, Kicky van Leeuwen |
-| 28-04-2023 | Project Day 2 | ----- |
-| 12-05-2023 | Text Mining & Bioinformatics | RTC Bioinformatics, Djoerd Hiemstra, Koen Dercksen |
-| 26-05-2023 | Project Day 3 / Visualization | Lonneke Opsteegh |
-| 02-06-2023 | Ethics & Privacy / Deployment | Marianne Boenink, Leon Haszing, Bram van Ginneken, Erik Gelderblom|
-| 09-06-2023 | Project Day 4 | ----- |
-| 16-06-2023 | Project Day 5 | ----- |
-| 23-06-2023 | Final Presentations | ----- |
+| Date  | Time |  Topic  | Content | Location | Lecturer(s) |
+| ----- | ------- | ------| ------ | ------ | ------ |
+| 03-02-2023 | 9-17h | Introduction + Machine Learning 1| How is AI changing healthcare? How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data| George Padberg, route 924 | Joran Lokkerbol |
+| 10-02-2023 | 13:30-17h | Machine Learning 1| Machine learning in Python | George Padberg, route 924 | Joran Lokkerbol |
+| 17-02-2023 | 9-17h | Machine Learning 2| Learn the basic principles of machine Learning and <br> how to measure the Performance of machine learning models | George Padberg, route 924 | Joran Lokkerbol |
+| 03-03-2023 | 9-17h | Machine Learning 3| A start is made to cover the most important supervised <br> machine learning algorithms and you will learn how to prepare your data | George Padberg, route 924 | Joran Lokkerbol |
+| 17-03-2023 | 9-17h | Machine Learning 4| You will learn about unsupervised machine learning models <br>for data without any labels and learn how to Evaluate your models| George Padberg, route 924 | Joran Lokkerbol |
+| 24-03-2023 | 9-17h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis | George Padberg, route 924 |Bram van Ginneken |
+| 31-03-2023 | 9-17h | Deep Learning 2| Learn how to combine text, images and biomedical data for <br> better deep learning models | George Padberg, route 924 |Bram van Ginneken |
+| 14-04-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data | George Padberg, route 924 | ----- |
+| 21-04-2023 | 9-17h | Data Engineering / AI Products | The FAIR principles of data management <br> are covered and learn how to choose a suitable AI producte | George Padberg, route 924 | RTC Data Stewardship, Kicky van Leeuwen |
+| 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 | ----- |
+| 12-05-2023 | 9-17h | Text Mining & Bioinformatics | Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 | RTC Bioinformatics, Djoerd Hiemstra, Koen Dercksen |
+| 26-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation | George Padberg, route 924 | Lonneke Opsteegh |
+| 02-06-2023 | 9-17h | Ethics & Privacy / Deployment | Ethical and privacy concerns regarding the use of AI are discussed and learn how to deploy your own AI product in practice | George Padberg, route 924 | Marianne Boenink, Leon Haszing, Bram van Ginneken, Erik Gelderblom |
+| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance | George Padberg, route 924 | ----- |
+| 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 | ----- |
+| 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 | ----- |
