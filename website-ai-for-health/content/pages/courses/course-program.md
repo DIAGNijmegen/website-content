@@ -1,9 +1,12 @@
 title: Course program
-description: The fourth edition of the AI for Health course will start in Q3 2023. More information will follow soon!
+description: The fifth edition of the AI for Health course will start in Q3 2023. More information will follow soon!
 groups: ai-for-health
 picture: courses/XMG_20200925_142130.jpg
 
-## What you need to know for the fourth edition of the course:
+## Previous editions
+Here you can find the course programs of the <a href="https://www.ai-for-health.nl/courses/first_edition/">first edition</a>, <a href="https://www.ai-for-health.nl/courses/second_edition/">second edition</a>, <a href="https://www.ai-for-health.nl/courses/third_edition/">third edition</a> and <a href="https://www.ai-for-health.nl/courses/fourth_edition/">current fourth edition</a> of the course.
+
+## What you need to know for the fifth edition of the course:
 
 <ul>
   <li>The next edition of the course will start <b>08-09-2023</b>.</li>
@@ -12,7 +15,8 @@ picture: courses/XMG_20200925_142130.jpg
   <li> A <b>full track</b> that offers participants the ability to create their own AI solutions. In this track you will follow, besides the lectures, also practical sessions where you can pick up the skills needed to implement your own AI applications.</li>
   <li> A <b>light track</b> that does not involve programming and offers participants a good understanding of what AI is and how it can benefit your work.</li>
 </ul>
-</ul>  
+</ul> 
+
 ## Full track program
 <ul>
 <li>The in depth course takes place on 16 Fridays: <b>8 Sep, 15 Sep, 22 Sep, 29 Sep, 6 Oct, 13 Oct, 27 Oct, 3 Nov, 10 Nov, 17 Nov, 24 Nov, 1 Dec, 8 Dec, 15 Dec, 22 Dec, 12 Jan.</b> The full program will follow soon.
@@ -33,7 +37,7 @@ picture: courses/XMG_20200925_142130.jpg
 - We expect participants to spend on average 2-3 hours per week on homework and self study.
 - There will be an online training environment with support documentation, discussion forum and blended learning.
 - The course will end with a graduation ceremony where teams will present their project results and a certificate will be awarded.
--->
+
 
 An overview of the in-depth track schedule of the current edition can be seen below.
 
@@ -55,7 +59,7 @@ An overview of the in-depth track schedule of the current edition can be seen be
 | 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance | George Padberg, route 924 |
 | 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 |
 | 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 |
-
+-->
 ## Light track program
 
 <ul>
@@ -67,7 +71,7 @@ An overview of the in-depth track schedule of the current edition can be seen be
 <li>There will be an online training environment with support documentation, discussion forum and blended learning.</li>
 <li>The course will end with a graduation ceremony where project teams will present their project results and a certificate will be awarded.</li>
 </ul>
-
+<!---
 An overview of the short track schedule of the current edition can be seen below.
   
 | Date  | Time |  Topic  | Content | Location |
@@ -85,7 +89,7 @@ An overview of the short track schedule of the current edition can be seen below
 | 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance | George Padberg, route 924 |
 | 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 |
 | 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 |
-
+-->
 <!-- ## Teachers
 
 ***
