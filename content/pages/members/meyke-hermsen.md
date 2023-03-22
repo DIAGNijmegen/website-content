@@ -2,7 +2,7 @@ title: Meyke Hermsen
 name: Meyke Hermsen
 template: people-single
 picture: people/Meyke_Hermsen.jpg
-position: PhD Candidate / Study manager
+position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology
