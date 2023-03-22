@@ -4,4 +4,4 @@ description: On March 3, 2023, Jeroen van der Laak gave his inaugural lecture as
 picture: news/jeroen_oratie.jpg
 groups: diag, pathology
 
-On March 3, 2023, Jeroen van der Laak gave his inaugural lecture as full professor of computational pathology. In the lecture, titled ‘Artificial Intelligence in pathology: teaming up with Virchow’, Jeroen briefly described the backgrounds of pathology and AI. Next, he showed the potential advantages of using AI in pathology diagnostics, ranging from relatively simple diagnostic aids to state-of-the-art novel biomarkers that may support personalized treatment.
+On March 3, 2023, [member/jeroen-van-der-laak] gave his inaugural lecture as full professor of computational pathology. In the lecture, titled ‘Artificial Intelligence in pathology: teaming up with Virchow’, Jeroen briefly described the backgrounds of pathology and AI. Next, he showed the potential advantages of using AI in pathology diagnostics, ranging from relatively simple diagnostic aids to state-of-the-art novel biomarkers that may support personalized treatment.
