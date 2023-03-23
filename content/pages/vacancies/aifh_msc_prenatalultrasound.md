@@ -1,6 +1,6 @@
 title: 2D Plane Detection in 3D prenatal ultrasound
 groups: ai-for-health, diag
-closed: false
+closed: True
 type: student
 picture: vacancies/paradigm_3D_screenshot_2x1.png
 template: vacancy-single
