@@ -2,7 +2,7 @@ title: PhD position on biomedical image registration
 groups: diag
 closed: false
 type: general 
-people: Alessa Hering
+people: Alessa Hering, Bram van Ginneken
 template: vacancy-single
 picture: vacancies/imageRegistration-min.jpg
 description: We are offering a PhD position on biomedical image registration
