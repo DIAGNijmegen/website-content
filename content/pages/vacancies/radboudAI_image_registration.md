@@ -16,20 +16,20 @@ The PhD project aims to develop a generic image registration framework that is c
 
 ## Tasks and responsibilites
 
-* Conduct research in the development of image registration methods 
-* Collaborate with a multidisciplinary team to translate cutting-edge technology into clinical practice
-* Publish research findings in peer-reviewed journals and present at international conferences
-* Mentor junior team members and contribute to the development of the lab's research direction
-* Co-organize the international Learn2Reg image registration challenge and be active in the research community 
+- Conduct research in the development of image registration methods 
+- Collaborate with a multidisciplinary team to translate cutting-edge technology into clinical practice
+- Publish research findings in peer-reviewed journals and present at international conferences
+- Mentor junior team members and contribute to the development of the lab's research direction
+- Co-organize the international Learn2Reg image registration challenge and be active in the research community 
 
 
 ## Profile
 You should
-* be a creative and enthusiastic researcher with an MSc degree in Computer Science, Mathematics, Physics, Engineering or similar
-* have a clear interest to develop artificial intelligence algorithms and an affinity with healthcare 
-* have good communication skills and enjoy working in a multidisciplinary team
-* have expertise in software development, preferably in Python
-* having experience with deep learning, machine learning, and image analysis or time series analysis is a plus.
+- be a creative and enthusiastic researcher with an MSc degree in Computer Science, Mathematics, Physics, Engineering or similar
+- have a clear interest to develop artificial intelligence algorithms and an affinity with healthcare 
+- have good communication skills and enjoy working in a multidisciplinary team
+- have expertise in software development, preferably in Python
+- having experience with deep learning, machine learning, and image analysis or time series analysis is a plus.
 
 
 
@@ -44,9 +44,9 @@ For more information please contact [member/alessa-hering] by e-mail.
 
 ## Application
 Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/133041-phd-candidate-biomedical-image-registration) to apply for this position. You should supply
-* motivation letter
-* your CV including links to a Google Scholar profile 
-* list of grades and courses you have followed including online courses on deep learning and similar topics, 
-* links to any publications you have written
-* Any code you have written and is publicly accessible, e.g., on a GitHub account. 
+- motivation letter
+- your CV including links to a Google Scholar profile 
+- list of grades and courses you have followed including online courses on deep learning and similar topics, 
+- links to any publications you have written
+- Any code you have written and is publicly accessible, e.g., on a GitHub account. 
 This application will remain open until the position has been filled. Applications are processed immediately upon receipt. 
