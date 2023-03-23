@@ -8,7 +8,9 @@ picture: vacancies/imageRegistration-min.jpg
 description: We are offering a PhD position on biomedical image registration
 
 ## Background
-Image registration is an essential process that involves aligning two or more images to achieve spatial correspondence at every point. This step is crucial in medical image analysis as it enables the integration of previously unrelated data, allowing for joint processing of the information. One significant application of image registration is in the follow-up assessment of cancer patients. By establishing spatial correspondences between multiple images, it aligns anatomical structures and facilitates the automatic quantification of findings in subsequent imaging examinations. This saves radiologists a significant amount of time while ensuring accurate and efficient patient care. 
+Image registration is the process of aligning two or more images to achieve pointwise spatial correspondence. This is a crucial step in many medical image analysis application as it enables the integration of previously unrelated data, allowing for joint processing of the information. By aligning images from
+different modalities, complementary information can be fused or propagated from one modality to another. For example, morphological information from a CT image can
+be fused with functional information from a PET image. Furthermore, image registration can be used to track the progression of the disease overtime such as it is done for follow-up assessment of cancer patients. By establishing spatial correspondences between multiple images, it aligns anatomical structures and facilitates the automatic quantification of findings in subsequent imaging examinations. This saves radiologists a significant amount of time while ensuring accurate and efficient patient care. 
  
 
 ## Job description
