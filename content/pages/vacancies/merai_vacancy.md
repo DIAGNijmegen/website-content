@@ -1,6 +1,6 @@
 title: PhD candidate in MERAI Lab - Artificial intelligence for analysis of lung cancer screening CT scans
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Colin Jacobs
 template: vacancy-single

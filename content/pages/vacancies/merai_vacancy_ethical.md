@@ -1,6 +1,6 @@
 title: PhD candidate in Ethical, legal & societal aspects of automated screening of lung CT scans
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Marianne Boenink, Colin Jacobs
 template: vacancy-single
