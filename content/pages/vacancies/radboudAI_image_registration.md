@@ -26,14 +26,13 @@ The PhD project aims to develop a generic image registration framework that is c
 
 
 ## Profile
+
 You should
 - be a creative and enthusiastic researcher with an MSc degree in Computer Science, Mathematics, Physics, Engineering or similar
 - have a clear interest to develop artificial intelligence algorithms and an affinity with healthcare 
 - have good communication skills and enjoy working in a multidisciplinary team
 - have expertise in software development, preferably in Python
 - having experience with deep learning, machine learning, and image analysis or time series analysis is a plus.
-
-
 
 ## Terms of employment
 You will be appointed for four years as a PhD student with the standard salary and secondary conditions for PhD students in the Netherlands. The research should result in a PhD thesis.
