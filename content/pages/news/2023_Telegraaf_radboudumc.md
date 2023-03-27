@@ -4,7 +4,7 @@ picture: news/2023-AI-for-improved-diagnosis-Telegraaf.png
 groups: diag, pathology
 description: On March 23, 2023, the Telegraaf (largest newspaper in the Netherlands) published a article about the works of Jeroen van der Laak and Thomas van den Heuvel.
 
-[membmer/thomas-van-den-heuvel], postdoctoral researcher at Radboudumc, found a method to improve the procedure of diagnosing hip dysplasia in children using Artificial Intelligence (AI).
+[member/thomas-van-den-heuvel], postdoctoral researcher at Radboudumc, found a method to improve the procedure of diagnosing hip dysplasia in children using Artificial Intelligence (AI).
 Hip dysplasia is diagnosed using an ultrasound examination but pediatricians often lack the knowledge on how to perform such procedure.
 By combining ultrasound with AI support, Thomas was able to train pediatricians to make a diagnosis in one hour and therefore preventing a lot of unnecessary care.
 
