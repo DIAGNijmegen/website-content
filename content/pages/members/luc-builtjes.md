@@ -7,7 +7,7 @@ active: yes
 groups: diag
 default_group: diag
 email: luc.builtjes@radboudumc.nl
-office: Route 767, Room 23
+office: Route 767, Room 25
 type: phd
 linkedin:https://www.linkedin.com/in/luc-builtjes-83689b224/
 scholar:
