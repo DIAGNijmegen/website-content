@@ -4,7 +4,7 @@ template: people-single
 picture: people/Ruben_vd_Waerden.jpg 
 position: PhD Candidate 
 active: yes 
-groups: diag 
+groups: diag, cara-lab
 default_group: diag 
 email: Ruben.vanderWaerden@radboudumc.nl 
 office: Route 612, CARA Lab 

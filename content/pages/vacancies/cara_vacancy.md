@@ -1,6 +1,6 @@
 title: PhD candidate 'Automated analysis OCT-images during cardiac procedures'
 groups: cara-lab
-closed: false
+closed: true
 type: general 
 people: Jos Thannhauser
 template: vacancy-single

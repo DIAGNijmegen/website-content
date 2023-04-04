@@ -4,7 +4,7 @@ template: people-single
 picture: people/gonzalo-rodriguez-esteban.jpeg 
 position: Master Student 
 active: yes 
-groups: diag 
+groups: diag, cara-lab
 default_group: diag
 type: student
 

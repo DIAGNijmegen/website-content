@@ -4,7 +4,7 @@ template: people-single
 picture: people/Rick_Volleberg.jpg
 position: PhD Candidate 
 active: yes
-groups: diag
+groups: diag, cara-lab
 default_group: diag
 email: Rick.Volleberg@radboudumc.nl
 office: Route 612, CARA Lab
