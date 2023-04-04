@@ -3,6 +3,7 @@ name: Ruben van der Waerden
 template: people-single 
 picture: people/Ruben_vd_Waerden.jpg 
 position: PhD Candidate 
+lab_position: PhD Candidate
 active: yes 
 groups: diag, cara-lab
 default_group: diag 

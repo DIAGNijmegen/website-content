@@ -1,5 +1,5 @@
 title: About us
-
+![CARA Lab]({{ IMGURL }}/images/general/cara-lab.png) 
 ## What is the CARA Lab about?
 CARA Lab aims to address two challenges that are common in many real-world AI applications: (1) developing accurate AI models that can analyze high-resolution data streams in real-time and (2) deriving accurate and safe models from these data streams that can make long-term predictions with a limited number of training samples. Our focus is on using optical coherence tomography (OCT) pullbacks, which are high-resolution data streams that are critical for decision-making during cardiac interventions. Our goal is to identify patients at risk for future cardiac events so that preventative treatment and enhanced monitoring can be applied to those individuals. We aim to substantially enhance the usability, reliability, and applicability of intravascular OCT in interventional cardiology through the use of trustworthy AI.
 

@@ -3,6 +3,7 @@ name: Rick Volleberg
 template: people-single
 picture: people/Rick_Volleberg.jpg
 position: PhD Candidate 
+lab_position: PhD Candidate
 active: yes
 groups: diag, cara-lab
 default_group: diag
