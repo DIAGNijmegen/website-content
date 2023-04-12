@@ -10,10 +10,10 @@
     {{ page.content }}
 
     <div class="container">
-        {% set ns = namespace(has_faculty = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
+        {% set ns = namespace(has_faculty = False, has_student = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
         {% set members = pages | selectattr('category', 'equalto', 'members') | sort_slug_by_last %}
         {% if "lab" in SITE_GROUP %} 
-            {% for person in members %}
+            {% for person in members if person.lab_type == 'staff' and person.active == 'yes' and SITE_GROUP in person.groups %}
                 {% if not ns.has_staff %}
                     <h1 class="text-muted">Staff</h1>
                     <div class="row people-grid">
@@ -24,6 +24,32 @@
             {% if ns.has_staff %}
                     </div>
             {% endif %}
+
+            {% for person in members if (person.lab_type == 'phd' or person.lab_type == 'postdoc') and person.active == 'yes' and SITE_GROUP in person.groups %}
+                {% if not ns.has_science %}
+                    <h1 class="text-muted">Researchers</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_science = True %}
+                {% endif %}
+                {% include "blocks/person-circle.html" %}
+            {% endfor %}
+            {% if ns.has_science %}
+                    </div>
+            {% endif %}
+            
+            {% for person in members if person.lab_type == 'student' and person.active == 'yes' and SITE_GROUP in person.groups %}
+                {% if not ns.has_student %}
+                    <h1 class="text-muted">Students</h1>
+                    <div class="row people-grid">
+                    {% set ns.has_student = True %}
+                {% endif %}
+                {% include "blocks/person-circle.html" %}
+            {% endfor %}
+            {% if ns.has_student %}
+                    </div>
+            {% endif %}
+
+
         {% else %}
 
         {% for person in pages if person.type == 'chair' and person.active == 'yes' and SITE_GROUP in person.groups %}

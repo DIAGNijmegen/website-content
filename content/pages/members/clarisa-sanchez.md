@@ -12,6 +12,7 @@ email: clara.sanchezgutierrez@radboudumc.nl
 office: Route 767, Room 31
 telephone:
 type: faculty
+lab_type: staff
 lab_position: Scientific Co-Director
 linkedin: https://www.linkedin.com/in/clarisa-sanchez-0b3a2b3/
 scholar: https://scholar.google.com/citations?user=YxMfdYEAAAAJ

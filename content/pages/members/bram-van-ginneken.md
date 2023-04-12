@@ -11,6 +11,7 @@ office: Route 767, Room 29
 telephone:
 type: chair
 lab_position: Scientific Co-Director
+lab_type: staff
 scholar: http://scholar.google.com/citations?user=O1j6_MsAAAAJ
 publons: https://publons.com/researcher/2761863/bram-van-ginneken/
 orcid: https://orcid.org/0000-0003-2028-8972

@@ -7,5 +7,5 @@ active: yes
 groups: cara-lab
 default_group: cara-lab
 linkedin: https://www.linkedin.com/in/niels-van-royen-56ba1193/
-type: faculty
+lab_type: staff
 email: Niels.vanRoyen@radboudumc.nl
