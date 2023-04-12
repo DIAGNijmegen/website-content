@@ -15,9 +15,9 @@ SITE_GROUP = "cara-lab"
 
 # Home page and social settings
 SITETITLE = "CARA Lab"
-SITELEAD = 'Here goes some introduction text that is placed on the home page.'
+SITELEAD = 'Towards robust and trustworthy AI-systems for real-time analysis of optical coherence tomography (OCT) images at the cardiac catheterization lab.'
 SITE_PICTURE = 'images/social/missing_picture_social.png'
-HOME_IMAGE = 'images/general/home-page-cara.png'
+HOME_IMAGE = 'images/general/missing_picture_social.png'
 HOME_IMAGE_CAPTION = 'CARA Lab'
 NUM_NEWS_HOME_PAGE = 4
 TWITTER_URL = None
@@ -27,6 +27,7 @@ PARENT_DOMAIN = '<a href="https://www.amc.nl/web/home.htm">Amsterdam UMC</a>'
 THIRD_DOMAIN = '<a href="https://www.abbott.com/">Abbott</a>'
 CSS_THEME = "cara-theme"
 FOOTER_IMAGE = 'cara_logo_new.png'
+HOME_JUMBOTRON_LAYOUT = "dense"
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
