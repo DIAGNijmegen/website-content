@@ -16,7 +16,8 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 27-04-2023 | Oscar Esteban Bajo <br> Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
+| 04-05-2023 | Oscar Esteban Bajo | TBA | Skatecourt, route 14, Experience Center |
+| 27-04-2023 | Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
 | 20-04-2023 | Nohemi Sofia Leon Contreras <br> Carlijn Lems | Self-supervised pretraining for histopathology images <br> TBA | Skatecourt, route 14, Experience Center |
 | 06-04-2023 | Ole ten Hove | TBA | Skatecourt, route 14, Experience Center |
 | 30-03-2023 | Ruben Geurtjens | TBA | Skatecourt, route 14, Experience Center |
