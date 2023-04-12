@@ -18,7 +18,7 @@ While cancer survival has significantly improved over time through innovations i
 IMAGIO will leverage IO in the clinical setting to improve the cancer survival outcomes, through minimally invasive, efficient, and affordable care pathways for three disease states: liver cancer, lung cancer and sarcoma. In IMAGIO, top innovators in MedTech and Pharma will mature the next-generation IO imaging across the full spectrum, from pre-clinical developments to impact validation in clinical trials. IO and immunotherapy expertise will be leveraged from top MedTech and Pharma partners covering the full value chain of oncological care – to provide cancer patients access to safe, fast, and effective care.
 
 ## Our contribution
-We will contribute to the project by developing AI/ML-based early detection, patient stratification and individualized treatment planning algorithms.
+We will contribute to the project by developing AI/ML-based early detection, patient stratification and individualized treatment planning algorithms for lung cancer.
 
 ## Funding
 This research project is funded by the [Innovative Health Initiative](https://www.ihi.europa.eu/).
