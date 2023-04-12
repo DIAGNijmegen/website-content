@@ -1159,3 +1159,15 @@ people:
     url: https://www.linkedin.com/in/marianne-boenink-31462a205/
     picture: people/external/Marianne_Boenink.png 
     email: 
+  - name: Roel Verhoeven
+    position: Technical Physician
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/roel-verhoeven-377050a6/
+    picture: people/external/Roel_Verhoeven.jpg 
+    email: 
+  - name: Tim Govers
+    position: Senior Scientist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/tim-govers/
+    picture: people/external/Tim_Govers.jpg
+    email: 
