@@ -16,18 +16,16 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 04-05-2023 | Oscar Esteban Bajo | TBA | Skatecourt, route 14, Experience Center |
-| 27-04-2023 | Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
+| 04-05-2023 | Oscar Esteban Bajo <br> Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
 | 20-04-2023 | Nohemi Sofia Leon Contreras <br> Carlijn Lems | Self-supervised pretraining for histopathology images <br> TBA | Skatecourt, route 14, Experience Center |
-| 06-04-2023 | Ole ten Hove | TBA | Skatecourt, route 14, Experience Center |
-| 30-03-2023 | Ruben Geurtjens | TBA | Skatecourt, route 14, Experience Center |
-| 23-03-2023 | Gonzalo Rodríguez Esteban | TBA | Skatecourt, route 14, Experience Center |
-
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 06-04-2023 | Ole ten Hove | DeNovoCNN for long-read sequencing |
+| 30-03-2023 | Ruben Geurtjens | Self-supervised Out-of-Distribution detection for medical imaging |
+| 23-03-2023 | Gonzalo Rodríguez Esteban | Automated analysis of intracoronary OCT images of acute myocardial infarction |
 | 02-03-2023 | Matthijs Luijten | Automated detection of progression of white matter hyperintensities in cerebral small vessel disease using machine learning |
 | 23-02-2023 | Mar Navarro | Automated Detection and Grading of Hip Osteoarthritis |
 | 09-02-2023 | Bob Sanders <br> Niels van Hoeffelen | Few-shot learning in medical imaging |
