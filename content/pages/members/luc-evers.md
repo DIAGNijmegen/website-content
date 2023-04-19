@@ -2,7 +2,7 @@ title: Luc Evers
 name: Luc Evers
 template: people-single
 picture: people/Luc_Evers.jpg
-position: Postdoctoral researcher
+position: Scientific Researcher
 active: yes
 groups: diag
 default_group: diag
