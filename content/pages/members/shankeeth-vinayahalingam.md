@@ -1,5 +1,5 @@
 title: Shankeeth Vinayahalingam
-name: Shankeeth-Vinayahalingam
+name: Shankeeth Vinayahalingam
 template: people-single
 picture: people/shank.jpg
 position: PhD Candidate

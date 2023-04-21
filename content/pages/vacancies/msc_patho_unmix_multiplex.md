@@ -1,6 +1,6 @@
 title: Unmix multiplex immunohistochemistry with deep learning
 groups: pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/msc_patho_unmix_multiplex.jpg
 template: vacancy-single

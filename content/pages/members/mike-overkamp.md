@@ -3,7 +3,7 @@ name: Mike Overkamp
 template: people-single
 picture: people/Mike_Overkamp.jpg
 position: Research Software Engineer
-active: yes
+active: no
 groups: diag, rse, rtc
 default_group: rse
 email: mike.overkamp@radboudumc.nl

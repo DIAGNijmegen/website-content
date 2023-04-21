@@ -37,7 +37,6 @@ for dir in directories:
                 for line in file:
                     if "groups:" in line:
                         groups = line.split(":")[1].replace(" ", "").rstrip().split(",")
-
                         # Check if the content belongs to the current website
                         if group_name in groups:
                             if dir == "news":
@@ -48,10 +47,12 @@ for dir in directories:
 
                             if not os.path.exists(out_dir):
                                 os.makedirs(out_dir)
+                            if dir == "members":
+                                print(os.path.join(out_dir, filename))
                             shutil.copyfile(file_path, os.path.join(out_dir, filename))
 
                         # Stop parsing file
-                        break
+                        #break
             except Exception as e:
                 print(f"Error parsing {file_path}.")
                 print(e)

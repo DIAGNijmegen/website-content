@@ -52,6 +52,10 @@
     <a class="badge badge-publication" href={{ BIB_ITEMS[page.bibkey]['algorithm'] }}>Algorithm</a>
     {% endif %}
 
+    {% if 'taverne_url' in BIB_ITEMS[page.bibkey] %}
+    <a class="badge badge-publication" href={{ BIB_ITEMS[page.bibkey]['taverne_url'] }}>Download</a>
+    {% endif %}
+    
   </p>
 
 

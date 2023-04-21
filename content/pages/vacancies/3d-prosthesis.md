@@ -1,6 +1,6 @@
 title: AI-Designed 3D prothesis for 3D Printing in third world countries
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/prosthesis.jpg
 template: vacancy-single

@@ -1,6 +1,6 @@
 title: Developing deep learning algorithm for de novo variants detection in Pacbio long-read sequencing data
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/de-novo-variant-detection.jpeg
 template: vacancy-single

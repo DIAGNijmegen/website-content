@@ -23,10 +23,11 @@ TWITTER_URL = 'https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw'
 FOOTER_TEXT = 'Some footer text'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+FOOTER_IMAGE = 'umc_logo.png'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
+    {"name": "News", "url": "news", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
     {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Vacancies", "url": "vacancies"},
@@ -40,7 +41,7 @@ NAV_SECTIONS = [
 ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
-HOME_SECTIONS = {"Highlights": 'Highlights', "Vacancies": "Vacancies", "Projects": "Projects", "Members": 'Members'}
+HOME_SECTIONS = {"News": 'News', "Vacancies": "Vacancies", "Projects": "Projects", "Members": 'Members'}
 
 # URLs
 SITEURL = ''
@@ -77,9 +78,9 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 SLUGIFY_SOURCE = 'basename'
 
-ARTICLE_URL = 'highlights/{slug}/'
-ARTICLE_SAVE_AS = 'highlights/{slug}/index.html'
-ARTICLE_TYPE = 'Highlights'
+ARTICLE_URL = 'news/{slug}/'
+ARTICLE_SAVE_AS = 'news/{slug}/index.html'
+ARTICLE_TYPE = 'News'
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
@@ -88,7 +89,7 @@ CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
-INDEX_SAVE_AS = 'highlights/index.html'
+INDEX_SAVE_AS = 'news/index.html'
 
 # Theme settings
 THEME = "../radboudumc-template"

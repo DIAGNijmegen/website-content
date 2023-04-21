@@ -1,6 +1,6 @@
 title: Scientific evidence of commercial artificial intelligence based software for radiology
 groups: diag, ai-for-health
-closed: false
+closed: True
 type: student
 picture: vacancies/aiforradiology-logo-12kb.jpg
 template: vacancy-single

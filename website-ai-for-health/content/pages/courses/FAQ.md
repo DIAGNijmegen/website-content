@@ -28,7 +28,7 @@ That is not a problem. This course starts with the basic of AI and does not requ
 This is not needed. The course has been tailored such that all important concepts can be understood without much math expertise. 
 
 ##How much time should I invest? 
-The course consists of 17 full Fridays and one Friday where project results are presented during a graduation ceremony (approximately 2 hours). We expect participants to spend about 2-3 hours a week to prepare for classes and/or work on the group project.
+The course consists of 15 full Fridays and one Friday where project results are presented during a graduation ceremony (approximately 2 hours). We expect participants to spend about 2-3 hours a week to prepare for classes and/or work on the group project.
 
 ##Do I have to bring my own project?
 We encourage participants to bring their own project, but this is not mandatory. During the first weeks of the course, we select a few projects such that you can work on a project together with four other participants. Group projects are mentored by AI experts.

@@ -3,7 +3,7 @@ name: Cristian Tommasino
 template: people-single
 picture: people/Cristian_Tommasino.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: cristian.tommasino@unina.it

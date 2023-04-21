@@ -1,4 +1,22 @@
 people:
+  - name: Marike Lombaers
+    position: PhD Candidate
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/marike-lombaers
+    picture: people/external/Marike_Lombaers.jpg
+    email: Marike.Lombaers@radboudumc.nl
+  - name: Hanny Pijnenborg
+    position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/hanny-pijnenborg
+    picture: people/external/Hanny_Pijnenborg.jpg
+    email: Hanny.MA.Pijnenborg@radboudumc.nl
+  - name: Peter Lucas
+    position: Professor
+    affiliation: University of Twente
+    url: https://www.linkedin.com/in/peter-lucas-67176b4/?originalSubdomain=nl
+    picture: people/external/Peter_Lucas.jpg
+    email: peterl@cs.ru.nl
   - name: Merel van der Stelt
     position: PhD Candidate
     affiliation: 3D Lab, Radboudumc
@@ -534,9 +552,9 @@ people:
     picture: people/external/Thijs_van_den_Hout.jpg
     email: Thijs.vandenHout@radboudumc.nl
   - name: Luc Evers
-    position: PhD student
+    position: Scientific Researcher
     affiliation: Neurology, Radboudumc
-    url: https://www.linkedin.com/in/lucevers/?originalSubdomain=nl
+    url: https://www.linkedin.com/in/lucevers/
     picture: people/external/Luc_Evers.jpg
     email: Luc.Evers@radboudumc.nl
   - name: Lieneke van den Heuvel
@@ -712,11 +730,29 @@ people:
     picture: people/external/Annemarie_Uijen.jpg
     email:
   - name: Henk Schers
-    position:
-    affiliation:
+    position: Professor
+    affiliation: Primary Care, Radboudumc
     url: https://www.radboudumc.nl/personen/henk-schers
     picture: people/external/Henk_Schers.jpg
     email: Henk.Schers@radboudumc.nl
+  - name: Jeroen Vermazeren
+    position: Developer
+    affiliation: Primary Care, Radboudumc
+    url: https://www.linkedin.com/in/jeroen-vermazeren/?originalSubdomain=nl
+    picture: people/Jeroen_Vermazeren.jpg
+    email:
+  - name: Floris van der Laar
+    position: Arts docent
+    affiliation: Radboud University
+    url: https://www.radboudumc.nl/personen/floris-van-de-laar
+    picture: people/external/Floris_Laar.jpg
+    email: 
+  - name: Eline Allard
+    position: AIOTHO
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/eline-allard-208a01103/?originalSubdomain=nl
+    picture: people/external/Eline_Allard.jpg
+    email: 
   - name: Niels van Nistelrooij
     position: Master student
     affiliation: Radboud University
@@ -941,6 +977,12 @@ people:
     url: https://www.radboudumc.nl/personen/marc-spaanderman
     picture: people/external/Marc_Spaanderman.jpg
     email: marc.spaanderman@radboudumc.nl
+  - name: Tessa Meuleman
+    position: Sonographer
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/tessa-meuleman
+    picture: people/external/Tessa_Meuleman.jpg
+    email: tessa.meuleman@radboudumc.nl
   - name: Enrico Munari
     position: Pathologist
     email: enrico.munari@unibs.it
@@ -952,6 +994,7 @@ people:
   - name: Erik Aarntzen
     position: Nuclear medicine physician
     affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/erik-aarntzen
     email: erik.aarntzen@radboudumc.nl
     picture: people/external/erik-aarntzen.jpg
   - name: Walter van der Weegen
@@ -967,7 +1010,7 @@ people:
     email: 
     picture: people/external/Rintje_Agricola.jpg
   - name: Jos Thannhauser
-    position: 
+    position: Postdoctoral Researcher
     affiliation: Cardiology, Radboudumc
     url: https://www.radboudumc.nl/personen/jos-thannhauser
     email: Jos.Thannhauser@radboudumc.nl
@@ -1056,3 +1099,75 @@ people:
     url: https://www.linkedin.com/in/carlijnlems/
     picture: people/Carlijn_Lems.jpg
     email: carlijn.lems@hotmail.nl
+  - name: Amanda Kiliaan
+    position: Professor
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.ru.nl/personen/kiliaan-a
+    picture: people/external/Amanda_Kiliaan.jpg
+    email: amanda.kiliaan@radboudumc.nl
+  - name: Gemma Solé Guardia
+    position: PhD candidate
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.linkedin.com/in/gemmasoleguardia
+    picture: people/external/Gemma_Sole_Guardia.jpg
+    email: gemma.soleguardia@radboudumc.nl
+  - name: Hester Gietema
+    position: Radiologist
+    affiliation: Maastricht UMC+
+    url: https://www.linkedin.com/in/hester-van-piggelen-gietema-2839839/
+    picture: people/external/Hester_Gietema.png
+    email: 
+  - name: Rozemarijn Vliegenthart
+    position: Radiologist
+    affiliation: University Medical Center Groningen
+    url: https://www.linkedin.com/in/rozemarijn-vliegenthart-0a478519/
+    picture: people/external/Rozemarijn_Vliegenthart.png
+    email: 
+  - name: Erik van der Heijden
+    position: Pulmonologist
+    affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/erik-van-der-heijden
+    picture: people/external/Erik_van_der_Heijden.png
+    email: 
+  - name: Firdaus Mohamed Hoesein
+    position: Radiologist
+    affiliation: UMC Utrecht
+    url: https://www.linkedin.com/in/firdaus-mohamed-hoesein-aa87063a/
+    picture: people/external/Firdaus_Mohamed_Hoesein.png
+    email:
+  - name: Pim de Jong
+    position: Radiologist
+    affiliation: UMC Utrecht
+    url: https://www.linkedin.com/in/pim-de-jong-82a367193/
+    picture: people/external/Pim_de_Jong.png
+    email:
+  - name: Robin Cornelissen
+    position: Pulmonologist
+    affiliation: Erasmus Medical Center
+    url: https://www.linkedin.com/in/robin-cornelissen-8663671b2/
+    picture: people/external/Robin_Cornelissen.png
+    email:
+  - name: Erik van der Bijl
+    position: Medical Physicist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/erikvanderbijl
+    picture: people/external/Erik_van_der_Bijl.jpg 
+    email:   
+  - name: Marianne Boenink
+    position: Professor
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/marianne-boenink-31462a205/
+    picture: people/external/Marianne_Boenink.png 
+    email: 
+  - name: Roel Verhoeven
+    position: Technical Physician
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/roel-verhoeven-377050a6/
+    picture: people/external/Roel_Verhoeven.jpg 
+    email: 
+  - name: Tim Govers
+    position: Senior Scientist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/tim-govers/
+    picture: people/external/Tim_Govers.jpg
+    email: 

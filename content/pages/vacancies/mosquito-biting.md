@@ -1,6 +1,6 @@
 title: Deep behavioral phenotyping of mosquito biting behavior
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/mosquito-biting.png
 template: vacancy-single
