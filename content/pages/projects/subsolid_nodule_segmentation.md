@@ -8,7 +8,7 @@ people: Sanyog Vyawahare, Kiran Vaidhya Venkadesh, Colin Jacobs, Bram van Ginnek
 description: Development of deep learning algorithms for subsolid nodule analysis in CT.
 
 **Start date: 01-08-2022** <br>
-**End date: 31-03-2023**
+**End date: 30-04-2023**
 
 ## Clinical problem
 
@@ -98,6 +98,11 @@ inaccurate segmentation.
 Class imbalance issue needs to be addressed since solid nodule will be more frequent when dealing with all nodule type.
 nnUNet cannot handle extreme class imbalance and would not produce good results when the dataset for all nodule type
 will be merged.
+
+The final [thesis](https://drive.google.com/file/d/1hME7WopZpHm_Cu5srWs_IyWGGBtoro0B/view?usp=sharing) report has more details about the project and experiments performed.
+
+An interactive demo is accessible via Grand-Challenge:
+<a href="https://grand-challenge.org/algorithms/subsolid-nodule-segmentation/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
 The code for the project repository can be
 found [GitHub Repository](https://github.com/DIAGNijmegen/bodyct-subsolid-nodule-segm)
