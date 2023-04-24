@@ -14,3 +14,4 @@ scholar:
 publons: 
 orcid: 
 linkedin:
+type:
