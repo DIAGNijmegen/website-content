@@ -3,7 +3,6 @@ name: Gonzalo Rodriguez Esteban
 template: people-single 
 picture: people/gonzalo-rodriguez-esteban.jpeg 
 position: Master Student 
-lab_position: Master Student
 active: yes 
 groups: diag, cara-lab
 default_group: diag

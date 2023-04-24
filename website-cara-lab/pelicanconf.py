@@ -109,4 +109,4 @@ DIRECT_TEMPLATES = ['index', 'archives', 'sitemap']
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "bootstrapify", "imgutil", "inline_extend", "content_aggregator"]
+PLUGINS = ["bibtex",  "bibtex_loader", "edit_url", "hierarchy", "fileutil", "grouputil", "bootstrapify", "imgutil", "inline_extend", "content_aggregator"]

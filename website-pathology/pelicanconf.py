@@ -136,6 +136,7 @@ PLUGINS = [
     "imgutil",
     "inline_extend",
     "content_aggregator",
+    "grouputil",
 ]
 
 # Other

@@ -18,12 +18,8 @@
       <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
       {% endif %}
     </a></h3>
-
-    {% if "lab" in SITE_GROUP %}
-      <h4 class="person-title"><small>{{ person.lab_position if person.lab_position is string else person.lab_position | join(', ')  }}</small></h4>
-    {% else %}
-      <h4 class="person-title"><small>{{ person.position if person.position is string else person.position | join(', ')  }}</small></h4>
-    {% endif %}
+    
+    <h4 class="person-title"><small>{{ person.position if person.position is string else person.position | join(', ')  }}</small></h4>
 
     {% if person.default_group != SITE_GROUP and person.group_name %}
       <p class='text-muted'>{{ person.group_name }}</p>
