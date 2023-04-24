@@ -2,12 +2,12 @@ title: Michelle Stegeman
 name: Michelle Stegeman
 template: people-single
 picture: people/Michelle_Stegeman.jpg
-position: Master Student
+position: PhD Candidate
 active: yes
-groups: diag, pathology, ai-for-health
+groups: diag, pathology
 default_group: pathology
 email: michelle.stegeman@radboudumc.nl
-office: 
-type: student
+office: Route 812, room 2.39
+type: phd
 
-Michelle Stegeman is a master's student in Data Science at the Radboud University, Nijmegen. She received her bachelor degree in Bioinformatics at the Hogeschool van Arnhem en Nijmegen. From May 2022 until November 2022 she will join the [Computational Pathology Group](https://computationalpathologygroup.eu/) to work on her thesis, her research is part of the [Radboud AI for Health lab](https://www.ai-for-health.nl) and focuses on extending a prostate cancer grading algorithm to other surgical entities. She will be supervised by [member/geert-litjens] and [member/khrystyna-faryna].
+Michelle Stegeman obtained her BSc in Bioinformatics at the Hogeschool van Arnhem en Nijmegen, and received her MSc in Data Science at the [Radboud University](https://www.ru.nl/english/education/masters/data-science/) in 2023. In April 2023, she started as a PhD candidate in the [Computational Pathology Group](https://computationalpathologygroup.eu/) where she works under the supervision of [member/francesco-ciompi] and [member/jeroen-van-der-laak] on tissue agnostic algorithms as part of the [BIGPICTURE project](https://www.computationalpathologygroup.eu/news/start-bigpicture/). 

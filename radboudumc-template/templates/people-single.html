@@ -12,7 +12,11 @@
                 <img class="rounded-circle" src="{{ IMGURL}}/{{ ('images/' + page.picture) | resize_image('medium') }}">
                 <h1>{{ page.title }}</h1>
                 {% if page.active == 'yes' %}
-                <h2 class="text-muted">{{ page.position }}</h2>
+                    {% if "lab" in SITE_GROUP %}
+                        <h2 class="text-muted">{{ page.lab_position }}</h2>
+                    {% else %}
+                        <h2 class="text-muted">{{ page.position }}</h2>
+                    {% endif %}
                 {% endif %}
             </div>
             <div class="person-links mb-4">
@@ -168,7 +172,6 @@
 
         <div class="col-md-8">
             {{ page.content }}
-
             <dl>
                 {% if page.sections %}
                     {% set all_related_pages = page.sections.split(',') %}
@@ -176,29 +179,64 @@
                     {% set all_related_pages = ["projects", "software"] %}
                 {% endif %}
 
-                {% for related_page in all_related_pages %}
+                {% set current = [] %}
+                {% set finished = [] %}
+                {% for related_page in ["projects"] %}
+                    {% set related_page = related_page.strip() %}
+                    {% set ns = namespace(has_related_page=False) %}
+                    {% for other_page in pages %}
+                        {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
+                            {% if page.show_finished_projects %}
+                                {% set show_finished_projects = page.show_finished_projects %}
+                            {% else %}
+                                {% set show_finished_projects = "true" %}
+                            {% endif %}
+                            {% if other_page.finished == "true" and show_finished_projects == "true" %}
+                                {% set _ = finished.append((other_page.url, other_page.title)) %}
+                            {% endif %}
+                            {% if other_page.finished == "false" %}
+                                {% set _ = current.append((other_page.url, other_page.title)) %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                
+                {% if current|length > 0 %}
+                    <dt>Current research projects: </dt>
+                    <dd>
+                        <ul>
+                    {% for url, project in current %}
+                        <li><a href="{{ SITEURL }}/{{ url }}">{{ project }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    </dd>
+                {% endif %}
+
+                {% if finished|length > 0 %}
+                    <dt>Finished research projects: </dt>
+                    <dd>
+                        <ul>
+                    {% for url, project in finished %}
+                        <li><a href="{{ SITEURL }}/{{ url }}">{{ project }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </dd>
+                {% endif %}
+
+                {% for related_page in ["software"] %}
                     {% set related_page = related_page.strip() %} 
                     {% set ns = namespace(has_related_page=False) %}
                     {% for other_page in pages %}
                         {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
-    
-                            {% if page.show_finished_projects %}
-                                {% set show_finished_projects = page.show_finished_projects  %}
-                            {% else %}
-                                {% set show_finished_projects = "true" %}
+                            {% if not ns.has_related_page %}
+                                {% set ns.has_related_page = True %}
+                            <dt> {{ related_page.capitalize() }}:</dt>
+                            <dd>
+                                <ul>
+
                             {% endif %}
-
-                            {% if related_page != "projects" or other_page.finished == "false" or show_finished_projects == "true" %}
-                                {% if not ns.has_related_page %}
-                                    {% set ns.has_related_page = True %}
-                                <dt> {{ related_page.capitalize() }}:</dt>
-                                <dd>
-                                    <ul>
-
-                                {% endif %}
                         
                             <li><a href="{{ SITEURL }}/{{ other_page.url }}">{{ other_page.title }}</a></li>
-                            {% endif %}
                         {% endif %}
                     {% endfor %}
 

@@ -7,7 +7,7 @@ groups: diag
 description: Calibration of a deep learning algorithm’s outputs for malignancy risk estimation of pulmonary nodules detected at low-dose screening CT.
 bibkeys: Venk21
 
-Kiran Vaidhya Venkadesh, Bram van Ginneken, Mathias Prokop, Colin Jacobs
+Kiran Vaidhya Venkadesh, Jasper Linmans, Bram van Ginneken, Mathias Prokop, Colin Jacobs
 
 
 # Introduction

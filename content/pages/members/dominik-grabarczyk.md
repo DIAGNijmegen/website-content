@@ -3,7 +3,7 @@ name: Dominik Grabarczyk
 template: people-single 
 picture: people/Dominik_Grabarczyk.jpg 
 position: Postgraduate 
-active: yes 
+active: no 
 groups: diag 
 default_group: diag 
 email: dominik.grabarczyk@radboudumc.nl 

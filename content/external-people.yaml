@@ -1,8 +1,34 @@
 people:
-  - name: Enrico Schmitz
-    email: enricoschmitz@outlook.com
-    affiliation: Radboud University
-    position: Master student
+  - name: Marike Lombaers
+    position: PhD Candidate
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/marike-lombaers
+    picture: people/external/Marike_Lombaers.jpg
+    email: Marike.Lombaers@radboudumc.nl
+  - name: Hanny Pijnenborg
+    position: Gynaecologist
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/en/people/hanny-pijnenborg
+    picture: people/external/Hanny_Pijnenborg.jpg
+    email: Hanny.MA.Pijnenborg@radboudumc.nl
+  - name: Peter Lucas
+    position: Professor
+    affiliation: University of Twente
+    url: https://www.linkedin.com/in/peter-lucas-67176b4/?originalSubdomain=nl
+    picture: people/external/Peter_Lucas.jpg
+    email: peterl@cs.ru.nl
+  - name: Merel van der Stelt
+    position: PhD Candidate
+    affiliation: 3D Lab, Radboudumc
+    url: www.linkedin.com/in/merel-van-der-stelt-1a509a178
+    picture: people/external/Merel_van_der_Stelt.jpg
+    email: Merel.vanderStelt@radboudumc.nl
+  - name: Felix Hol
+    position: Assistant Professor
+    affiliation: Medical Microbiology, Radboud University Medical Center
+    url: https://www.radboudumc.nl/en/people/felix-hol
+    picture: people/external/Felix_Hol.jpg
+    email: felix.hol@radboudumc.nl
   - name: Eric Steenbergen
     position: Pathologist
     affiliation: Radboud University Medical Center
@@ -526,9 +552,9 @@ people:
     picture: people/external/Thijs_van_den_Hout.jpg
     email: Thijs.vandenHout@radboudumc.nl
   - name: Luc Evers
-    position: PhD student
+    position: Scientific Researcher
     affiliation: Neurology, Radboudumc
-    url: https://www.linkedin.com/in/lucevers/?originalSubdomain=nl
+    url: https://www.linkedin.com/in/lucevers/
     picture: people/external/Luc_Evers.jpg
     email: Luc.Evers@radboudumc.nl
   - name: Lieneke van den Heuvel
@@ -704,11 +730,29 @@ people:
     picture: people/external/Annemarie_Uijen.jpg
     email:
   - name: Henk Schers
-    position:
-    affiliation:
+    position: Professor
+    affiliation: Primary Care, Radboudumc
     url: https://www.radboudumc.nl/personen/henk-schers
     picture: people/external/Henk_Schers.jpg
     email: Henk.Schers@radboudumc.nl
+  - name: Jeroen Vermazeren
+    position: Developer
+    affiliation: Primary Care, Radboudumc
+    url: https://www.linkedin.com/in/jeroen-vermazeren/?originalSubdomain=nl
+    picture: people/Jeroen_Vermazeren.jpg
+    email:
+  - name: Floris van der Laar
+    position: Arts docent
+    affiliation: Radboud University
+    url: https://www.radboudumc.nl/personen/floris-van-de-laar
+    picture: people/external/Floris_Laar.jpg
+    email: 
+  - name: Eline Allard
+    position: AIOTHO
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/eline-allard-208a01103/?originalSubdomain=nl
+    picture: people/external/Eline_Allard.jpg
+    email: 
   - name: Niels van Nistelrooij
     position: Master student
     affiliation: Radboud University
@@ -718,8 +762,8 @@ people:
   - name: Noud Emonts
     position: Master Student
     affiliation: Data Science, Radboud University
-    url:
-    picture:
+    url: https://www.linkedin.com/in/noud-emonts-48a638110
+    picture: people/external/Noud_Emonts.jpg
     email: Noud.Emonts@radboudumc.nl
   - name: Richard Li
     position: Master Student
@@ -784,14 +828,14 @@ people:
   - name: Thomas van den Broek
     position: Master Student
     affiliation: Artificial Intelligence, Radboud University
-    url:
-    picture:
+    url: https://www.linkedin.com/in/thomas-van-den-broek-015009171/
+    picture: people/external/Thomas_van_den_Broek.jpg
     email: thomas.vandenbroek@radboudumc.nl
   - name: Kirina van der Bijl
     position: Master Student
     affiliation: Data Science, Radboud University
-    url:
-    picture:
+    url: https://www.linkedin.com/in/kirina-van-der-bijl-273091171
+    picture: people/external/Kirina_van_der_Bijl.jpg
     email: kirina.vanderbijl@radboudumc.nl
   - name: Luca Carotenuto
     position: Master Student
@@ -808,8 +852,8 @@ people:
   - name: Yassier Elawady
     position: Master Student
     affiliation: University of Twente
-    url:
-    picture: 
+    url: https://www.linkedin.com/in/yassier-elawady-35ba50227/
+    picture: people/external/Yassier_Elawady.jpg
     email: yassier.elawady@radboudumc.nl
   - name: Heleen Kerstholt
     position: Master Student
@@ -832,8 +876,8 @@ people:
   - name: Laura Álvarez
     position: Master Student
     affiliation: Trauma, Radboudumc
-    url:
-    picture: 
+    url: https://www.linkedin.com/in/laura-alvarez-florez
+    picture: people/external/Laura_Alvarez.jpg
     email: laura.alvarezflorez@radboudumc.nl
   - name: Manuela Bergau
     position: Master Student
@@ -845,13 +889,13 @@ people:
     position: Master Student
     affiliation: CMBI, Radboudumc
     url:
-    picture: 
+    picture: people/external/djesse-square.jpg
     email: djesse.dirckx@radboudumc.nl
   - name: Lotte Willems
     position: Master Student
     affiliation: CMBI, Radboudumc
     url:
-    picture: 
+    picture: people/external/lotte.jpg
     email: lotte.j.willems@radboudumc.nl
   - name: Sasha Peerdeman
     position: Master Student
@@ -933,6 +977,12 @@ people:
     url: https://www.radboudumc.nl/personen/marc-spaanderman
     picture: people/external/Marc_Spaanderman.jpg
     email: marc.spaanderman@radboudumc.nl
+  - name: Tessa Meuleman
+    position: Sonographer
+    affiliation: Gynaecology, Radboudumc
+    url: https://www.radboudumc.nl/personen/tessa-meuleman
+    picture: people/external/Tessa_Meuleman.jpg
+    email: tessa.meuleman@radboudumc.nl
   - name: Enrico Munari
     position: Pathologist
     email: enrico.munari@unibs.it
@@ -944,5 +994,180 @@ people:
   - name: Erik Aarntzen
     position: Nuclear medicine physician
     affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/erik-aarntzen
     email: erik.aarntzen@radboudumc.nl
     picture: people/external/erik-aarntzen.jpg
+  - name: Walter van der Weegen
+    position: Researcher
+    affiliation: St. Anna Hospital
+    url: https://www.st-anna.nl/specialisten-en-professionals/walter-van-der-weegen/#
+    email: 
+    picture: people/external/Walter_van_der_Weegen.jpg
+  - name: Rintje Agricola
+    position: Orthopedic surgeon
+    affiliation: St. Anna Hospital
+    url: https://www.st-anna.nl/specialisten-en-professionals/rintje-agricola/
+    email: 
+    picture: people/external/Rintje_Agricola.jpg
+  - name: Jos Thannhauser
+    position: Postdoctoral Researcher
+    affiliation: Cardiology, Radboudumc
+    url: https://www.radboudumc.nl/personen/jos-thannhauser
+    email: Jos.Thannhauser@radboudumc.nl
+    picture: people/external/Jos_Thannhauser.jpg
+  - name: Jan-Quinten Mol
+    position: PhD candidate
+    affiliation: Cardiology, Radboudumc
+    url: 
+    email: Jan-Quinten.Mol@radboudumc.nl
+    picture: people/external/Jan_Quinten_Mol.jpg
+  - name: Rick Volleberg
+    position: PhD candidate
+    affiliation: Cardiology, Radboudumc
+    url: https://www.linkedin.com/in/rick-volleberg-068bab142/?originalSubdomain=nl
+    email: Rick.Volleberg@radboudumc.nl
+    picture: people/external/Rick_Volleberg.jpg
+  - name: Niels van Royen
+    position: Professor
+    affiliation: Cardiology, Radboudumc
+    url: https://www.radboudumc.nl/personen/niels-van-royen
+    email: Niels.vanRoyen@radboudumc.nl
+    picture: people/external/Niels_van_Royen.jpg
+  - name: Jolique van Ipenburg
+    position: Pathologist
+    affiliation: Pathology, Radboudumc
+    url: https://www.radboudumc.nl/personen/jolique-van-ipenburg
+    email: Jolique.vanIpenburg@radboudumc.nl
+    picture: people/external/Jolique_van_Ipenburg.jpg
+  - name: Ruben Geurtjens
+    position: Master student
+    affiliation: Diagnostic Image Analysis Group
+    url: https://www.linkedin.com/in/ruben-geurtjens-81568614a/
+    email: Ruben.Geurtjens@radboudumc.nl
+    picture: people/external/Ruben_Geurtjens.jpg
+  - name: Enrico Schmitz
+    position: Master student
+    affiliation: CMBI
+    url: https://www.linkedin.com/in/enrico-schmitz-a31665134/
+    email: enricoschmitz@outlook.com
+    picture: people/external/Enrico_Schmitz.jpg
+  - name: Li Xue
+    position: Assistant professor
+    affiliation: CMBI
+    url: https://www.radboudumc.nl/personen/li-xue
+    email: Li.Xue@radboudumc.nl
+    picture: people/external/Li_Xue.jpg
+  - name: Isabel Burgos
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/isabel-burgos/
+    email: Isabel.Burgos@radboudumc.nl
+    picture: people/external/Isabel_Burgos.jpg
+  - name: Bob Sanders
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/-bobsanders/
+    email:
+    picture: people/external/Bob_Sanders.jpg
+  - name: Daniil Lepikhov
+    position: Master student
+    affiliation: Université Lille
+    url: https://www.linkedin.com/in/daniil-lepikhov/
+    email: lepikhov.daniil@gmail.com
+    picture: people/external/Daniil_Lepikhov.jpg
+  - name: Niels van Hoeffelen
+    position: Master student
+    affiliation: Radboud University
+    url: https://www.linkedin.com/in/niels-van-hoeffelen-b0554020a/
+    email:
+    picture: people/external/Niels_van_Hoeffelen.jpg
+  - name: Dario Marzella
+    position: PhD candidate
+    affiliation: RIMLS
+    url: https://www.radboudumc.nl/personen/dario-marzella
+    email: Dario.Marzella@radboudumc.nl
+    picture: people/external/Dario_Marzella.jpg
+  - name: Daniel Rademaker
+    position: PhD candidate
+    affiliation: CMBI
+    url: https://www.radboudumc.nl/personen/daniel-rademaker
+    email: Daniel.Rademaker@radboudumc.nl
+    picture: people/external/Daniel_Rademaker.jpg
+  - name: Carlijn Lems
+    position: Master student
+    affiliation: Bio-Pharmaceutical Sciences, Leiden University
+    url: https://www.linkedin.com/in/carlijnlems/
+    picture: people/Carlijn_Lems.jpg
+    email: carlijn.lems@hotmail.nl
+  - name: Amanda Kiliaan
+    position: Professor
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.ru.nl/personen/kiliaan-a
+    picture: people/external/Amanda_Kiliaan.jpg
+    email: amanda.kiliaan@radboudumc.nl
+  - name: Gemma Solé Guardia
+    position: PhD candidate
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.linkedin.com/in/gemmasoleguardia
+    picture: people/external/Gemma_Sole_Guardia.jpg
+    email: gemma.soleguardia@radboudumc.nl
+  - name: Hester Gietema
+    position: Radiologist
+    affiliation: Maastricht UMC+
+    url: https://www.linkedin.com/in/hester-van-piggelen-gietema-2839839/
+    picture: people/external/Hester_Gietema.png
+    email: 
+  - name: Rozemarijn Vliegenthart
+    position: Radiologist
+    affiliation: University Medical Center Groningen
+    url: https://www.linkedin.com/in/rozemarijn-vliegenthart-0a478519/
+    picture: people/external/Rozemarijn_Vliegenthart.png
+    email: 
+  - name: Erik van der Heijden
+    position: Pulmonologist
+    affiliation: Radboudumc
+    url: https://www.radboudumc.nl/en/people/erik-van-der-heijden
+    picture: people/external/Erik_van_der_Heijden.png
+    email: 
+  - name: Firdaus Mohamed Hoesein
+    position: Radiologist
+    affiliation: UMC Utrecht
+    url: https://www.linkedin.com/in/firdaus-mohamed-hoesein-aa87063a/
+    picture: people/external/Firdaus_Mohamed_Hoesein.png
+    email:
+  - name: Pim de Jong
+    position: Radiologist
+    affiliation: UMC Utrecht
+    url: https://www.linkedin.com/in/pim-de-jong-82a367193/
+    picture: people/external/Pim_de_Jong.png
+    email:
+  - name: Robin Cornelissen
+    position: Pulmonologist
+    affiliation: Erasmus Medical Center
+    url: https://www.linkedin.com/in/robin-cornelissen-8663671b2/
+    picture: people/external/Robin_Cornelissen.png
+    email:
+  - name: Erik van der Bijl
+    position: Medical Physicist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/erikvanderbijl
+    picture: people/external/Erik_van_der_Bijl.jpg 
+    email:   
+  - name: Marianne Boenink
+    position: Professor
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/marianne-boenink-31462a205/
+    picture: people/external/Marianne_Boenink.png 
+    email: 
+  - name: Roel Verhoeven
+    position: Technical Physician
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/roel-verhoeven-377050a6/
+    picture: people/external/Roel_Verhoeven.jpg 
+    email: 
+  - name: Tim Govers
+    position: Senior Scientist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/tim-govers/
+    picture: people/external/Tim_Govers.jpg
+    email: 

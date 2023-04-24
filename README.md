@@ -22,7 +22,7 @@ Please see the [documentation](https://github.com/DIAGNijmegen/website-content/t
 
 ## Building the website locally
 
-Requirements: Linux environment (on Windows via WSL) and Python 3
+Requirements: Linux environment (on Windows via WSL) and Python 3  (we use Ubuntu with conda/miniconda istalled and a conda environment)
 
 Preparations:
 1. Install dependencies: `pip install -r requirements.txt`
@@ -46,3 +46,9 @@ If you design an image/poster or similar for the website, please store the
 design files (if not too big) in the directoy `content/src/` in the apropriate
 subtree. This allows others to update media more easily should they ever become
 outdated.
+
+
+## Pipeline
+![pipeline](./pipeline.png)
+
+

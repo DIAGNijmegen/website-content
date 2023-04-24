@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Sofía Sappia, Thomas van den Heuvel, Keelin Murphy, Bram van Ginneken, Chris de Korte, Jeroen van Dillen, Esther Sikkel
 description: Artificial Intelligence for obtaining and analyzing prenatal ultrasound in low-resource settings. 
-bibkeys:Heuv17a, Heuv18, Heuv18a, Heuv19a
+bibkeys:Heuv17a, Heuv18, Heuv18a, Heuv19a, Heuv18b, Schi20
 
 ## Problem description:
 Approximately 99% of maternal deaths - those related to pregnancy or birth complications - occur in low-resource settings where the ability to diagnose and manage pregnancy complications is limited. Prenatal ultrasound screening is used routinely in wealthier countries around the world and is recommended by the World Health Organization.  However, the cost of ultrasound equipment and trained sonographers is prohibitive in many regions of the world. 

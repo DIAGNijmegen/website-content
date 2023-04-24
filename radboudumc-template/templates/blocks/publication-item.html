@@ -49,6 +49,10 @@
         <a class="badge badge-publication" href="{{ BIB_ITEMS[bibkey]['algorithm'] }}">Algorithm</a>
       {% endif %}
 
+      {% if 'taverne_url' in BIB_ITEMS[bibkey] %}
+        <a class="badge badge-publication" href="{{ BIB_ITEMS[bibkey]['taverne_url'] }}">Download</a>
+      {% endif %}
+
       {% if 'vimeo' in BIB_ITEMS[bibkey] %}
         <a class="badge badge-publication" href="https://vimeo.com/{{ BIB_ITEMS[bibkey]['vimeo'] }}">Vimeo</a>
       {% endif %}

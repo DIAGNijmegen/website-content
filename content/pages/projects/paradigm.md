@@ -5,7 +5,7 @@ type: general
 picture: projects/paradigm.jpg
 template: project-single
 groups: diag
-people: Keelin Murphy, Bram van Ginneken, Esther Sikkel, Marc Spaanderman
+people: Keelin Murphy, Bram van Ginneken, Tessa Meuleman, Marc Spaanderman
 description: Determining the diagnostic potential of 3D ultrasound images acquired in the first trimester of pregnancy and analyzed with Artificial Intelligence
 bibkeys:
 

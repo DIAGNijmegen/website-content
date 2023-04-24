@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/msc_patho_breast_pcr_ihc_predict.png
 template: vacancy-single
-people: Witali Aswolinskiy, Francesco Ciompi
+people: Francesco Ciompi
 description: Development of AI-biomarkers to predict neoaduvant chemotherapy response in breast cancer.
 
 
@@ -33,4 +33,4 @@ Develop biomarkers based on the joint analysis of multiple digital pathology who
 
 - Project duration: 6 months
 - Location: Radboud University Nijmegen Medical Center
-- For more information please contact [Witali Aswolinskiy](https://www.computationalpathologygroup.eu/members/witali-aswolinskiy/) or [Francesco Ciompi](https://www.computationalpathologygroup.eu/members/francesco-ciompi)
+- For more information please contact [Francesco Ciompi](https://www.computationalpathologygroup.eu/members/francesco-ciompi)

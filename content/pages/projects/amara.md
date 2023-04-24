@@ -2,12 +2,12 @@ title: AMARA: Accurate malignancy risk estimation of pulmonary nodules using AI
 title_long: AMARA: Accurate MAlignancy Risk estimation of incidentally and screen-detected pulmonary nodules using Artificial intelligence
 finished: false
 type: general
-picture: news/KWF_logo2021.png
+picture: projects/amara.png
 template: project-single
 groups: diag
-people: Renate Dinnessen, Dré Peeters, Colin Jacobs, Cornelia Schaefer-Prokop, Mathias Prokop, Firdaus Mohamed Hoesein, Rozemarijn Vliegenthart, Hester Gietema, Erik van der Heijden, Robin Cornelissen
+people: Renate Dinnessen, Dré Peeters, Cornelia Schaefer-Prokop, Mathias Prokop, Erik van der Heijden, Firdaus Mohamed Hoesein,  Pim de Jong, Rozemarijn Vliegenthart, Hester Gietema, Robin Cornelissen, Colin Jacobs
 description: Accurate malignancy risk estimation of pulmonary nodules using artificial intelligence
-bibkeys:
+bibkeys: Peet23, Venk21
 
 ## Problem description:
 The Dutch-Belgian NELSON trial recently showed that CT screening leads to a 24% lung cancer mortality reduction in male long-term smokers. This has sparked discussions on how to implement lung cancer screening in the Netherlands. Screening using low-dose CT is highly sensitive for pulmonary nodule detection. The vast majority of these nodules are benign, but may result in extra investigations. Pulmonary nodules are also an increasingly common finding in routine medical care, with an incidence that is much greater than recognized previously. Thus, there is a critical need for improved nodule stratification and management.

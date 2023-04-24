@@ -7,6 +7,7 @@
 ```
 title: Firstname Lastname
 name: Firstname Lastname
+pub_name: publication name / pseudonym
 template: people-single
 picture: people/<image>.png (for adding a picture to a profile see: website-content/docs/adding-picture-to-profile.md. When no picture is availabe, use ```person.png```)
 position: Master Student/PhD Candidate/Associate Professor/Assistant Professor/Postdoctoral Researcher/ etc. (pay attention to formulation and capitalisation)
@@ -39,6 +40,7 @@ Internal link to project: [project/projectname], e.g. [project/panda-challenge]}
 * Make sure you mention the project you work on as a link.
 * Make sure you mention who supervises you, and make this a link, with "[member/bram-van-ginneken]" you create a link to a people page. You can make links by putting the link text between square brackets [ and ] immediately followed by the url between normal parentheses, ( and ). You can refer to publications with "/publications/kars92" as the url text.
 * Do not write a title like Prof. or Professor or Dr. before the name of a colleague.
+* When you are working temporarily at the group (master students, visiting researchers), state when you will start and how long you will work with us. PhD students should write when they started.
 
 # Editing a member page
 

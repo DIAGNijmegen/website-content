@@ -16,12 +16,35 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 21-07-2022 | Sasha Peerdeman | TBA | Skatecourt, route 14, Experience Center |
+| 25-05-2023 | Steffan Borgers | Interventional reconstruction AI for real-time needle tracking in MRI | TBA |
+| 11-05-2023 | Hermen van Westen | TBA | Skatecourt, route 14, Experience Center |
+| 04-05-2023 | Oscar Esteban Bajo <br> Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
+| 20-04-2023 | Nohemi Sofia Leon Contreras <br> Carlijn Lems | Self-supervised pretraining for histopathology images <br> TBA | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 06-04-2023 | Ole ten Hove | DeNovoCNN for long-read sequencing |
+| 30-03-2023 | Ruben Geurtjens | Self-supervised Out-of-Distribution detection for medical imaging |
+| 23-03-2023 | Gonzalo Rodríguez Esteban | Automated analysis of intracoronary OCT images of acute myocardial infarction |
+| 02-03-2023 | Matthijs Luijten | Automated detection of progression of white matter hyperintensities in cerebral small vessel disease using machine learning |
+| 23-02-2023 | Mar Navarro | Automated Detection and Grading of Hip Osteoarthritis |
+| 09-02-2023 | Bob Sanders <br> Niels van Hoeffelen | Few-shot learning in medical imaging |
+| 02-02-2023 | Rianne-Margot Koelewijn | Identifying morphological features in benign breast disease biopsies that predict breast cancer risk |
+| 26-01-2023 | Michelle Stegeman | Extending a prostate cancer grading algorithm to other surgical entities |
+| 19-01-2023 | Lena Philipp | Body composition assessment in 3D CT images |
+| 22-12-2022 | Manuela Bergau | Leveraging radiology reports for lesion detection in CT scans |
+| 15-12-2022 | Ruben Geurtjens | Generic out-of-distribution detection for radiology AI systems |
+| 01-12-2022 | Sanyog Vyawahare | TBA | 
+| 17-11-2022 | Matthijs Luijten <br> Isabel Burgos | TBA |
+| 10-11-2022 | Ole ten Hove | TBA | 
+| 03-11-2022 | [ICAI meetup](https://icai.ai/event/deep-dive-data-series-iii-medical-data/) | - |
+| 27-10-2022 | Luke van Leijenhorst (guest speaker) | Textual entailment for SOP implementation |
+| 13-10-2022 | Yassier Elawady | Commercial AI marketplaces for radiology |
+| 06-10-2022 | Michelle Stegeman <br> Laura Alvarez | Extending a prostate cancer grading algorithm to other surgical entities <br> Machine Learning in Acute Care: Liver|
+| 29-09-2022 | Thijs Gelton |  AI-assisted detection of endometrium (pre)malignancies in endometrium pipelle biopsies | 
+| 21-07-2022 | Sasha Peerdeman | Quantification of immunohistochemical markers for improved prostate cancer prognostics |
 | 14-07-2022 | Lars Leijten | Scoliosis simulation for improving segmentation and labeling of vertebrae |
 | 07-07-2022 | Lotte Willems <br> Djesse Dirckx | Drug repurposing using graph neural networks for COVID-19 and DM1 |
 | 30-06-2022 | Daniil Lepikhov | Can 3D CNN help predicting p:MHC binding affinity using structural data |

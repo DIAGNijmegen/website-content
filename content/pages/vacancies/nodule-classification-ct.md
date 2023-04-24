@@ -1,6 +1,6 @@
 title: Deep learning for fully automated classification of pulmonary nodules
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/nodule-classification.png
 template: vacancy-single
