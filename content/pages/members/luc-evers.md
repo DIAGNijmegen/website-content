@@ -11,8 +11,6 @@ office: Radboudumc Center of Expertise for Parkinson & Movement Disorders, route
 linkedin: https://www.linkedin.com/in/lucevers/
 scholar: https://scholar.google.com/citations?user=bl3ZeUQAAAAJ&hl=nl&oi=ao
 type: faculty
-lab_position: Lab Contact
-lab_type: staff
 
 Luc Evers is a scientific researcher at the Radboudumc Center of Expertise for Parkinson & Movement Disorders and the Diagnostic Image Analysis Group (DIAG). Since 2023, Luc leads the AI for Parkinson lab (https://icai.ai/icai-labs/ai-for-parkinson), a multidisciplinary research group combining neurology and AI research to create remote monitoring tools for people with Parkinson’s disease. The AI for Parkinson Lab is a public-private collaboration between Radboudumc, Verily and Radboud University, and part of the Innovation Center for Artificial Intelligence (ICAI) network. 
 
