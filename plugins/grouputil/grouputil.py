@@ -11,7 +11,7 @@ def update_person(person, group_name):
     fields = [updated_person.active, updated_person.type, updated_person.position]
     new_values = []
     for values in fields:
-        values = values.split(',')
+        values = values.split(',') if isinstance(values, str) else values
         if len(values) > 1:
             new_value = values[indx].strip()
         else:
