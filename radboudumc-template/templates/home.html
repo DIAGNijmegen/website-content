@@ -160,8 +160,8 @@
 
     {% if "Vacancies" in HOME_SECTIONS %}
       {% set ns = namespace(has_vacancy=False, vacancies=0) %}
-
-      {% for vacancy in pages | selectattr('type') | sort(attribute='type', reverse=False) if vacancy.category == 'vacancies' and vacancy.closed == 'false'  %}
+    
+      {% for vacancy in pages if vacancy.category == 'vacancies' and vacancy.closed == 'false' | selectattr('type') | sort(attribute='type', reverse=False)  %}
         {% if not ns.has_vacancy %}
           {% set ns.has_vacancy = True %}
           <div class="block {{ row_class.next() }}">
