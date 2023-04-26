@@ -6,8 +6,7 @@ from pelican import signals
 def update_members(members, group_name):
     new_members = []
     
-    for person in members:
-        updated_person = deepcopy(person)
+    for updated_person in members:
         groups = updated_person.groups
         groups = groups.replace(" ", "").split(',')
         indx = groups.index(group_name)
@@ -26,8 +25,7 @@ def update_members(members, group_name):
         new_members.append(updated_person)
     return new_members
 
-def update_person(person, group_name):
-    updated_person = deepcopy(person)
+def update_person(updated_person, group_name):
     groups = updated_person.groups
     groups = groups.replace(" ", "").split(',')
     indx = groups.index(group_name)
