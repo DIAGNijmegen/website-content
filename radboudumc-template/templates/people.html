@@ -12,8 +12,9 @@
     <div class="container">
         {% set ns = namespace(has_faculty = False, has_student = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
         {% set members = pages | selectattr('category', 'equalto', 'members') | sort_slug_by_last %}
+        {% set members = members | update_members(SITE_GROUP) %}
+
         {% for person in members %}
-            {% set person = person | update_person(SITE_GROUP) %}
             {% if person.type == 'staff' and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_staff %}
                 <h1 class="text-muted">Staff</h1>
@@ -28,7 +29,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %}
             {% if person.type == 'chair' and person.active == 'yes' and SITE_GROUP in person.groups %}
             
             {% if not ns.has_chair %}
@@ -44,7 +44,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %}
             {% if person.type == 'faculty' and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_faculty %}
                 <h1 class="text-muted">Faculty</h1>
@@ -59,7 +58,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %} 
             {% if (person.type == 'postdoc' or person.type == 'phd') and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_science %}
                 <h1 class="text-muted">Scientific staff</h1>
@@ -74,7 +72,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %}  
             {% if person.type == 'tech' and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_tech %}
                 <h1 class="text-muted">Technical staff</h1>
@@ -89,7 +86,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %} 
             {% if person.type == 'administrative' and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_admin %}
                 <h1 class="text-muted">Administrative Staff</h1>
@@ -104,7 +100,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %}  
             {% if person.type == 'student-assistant' and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_studentassistant %}
                 <h1 class="text-muted">Student assistants</h1>
@@ -119,7 +114,6 @@
         {% endif %}
 
         {% for person in members %} 
-            {% set person = person | update_person(SITE_GROUP) %}   
             {% if (person.type == 'student' or person.type == 'visiting') and person.active == 'yes' and SITE_GROUP in person.groups %}
             {% if not ns.has_visiting %}
                 <h1 class="text-muted">Visiting researchers</h1>
@@ -138,7 +132,6 @@
             
         {% else %}
             {% for person in members %} 
-                {% set person = person | update_person(SITE_GROUP) %}   
                 {% if person.active == 'no' %}       
                 {% if not ns.has_former %}
                     <h1 class="text-muted">Former members</h1>
