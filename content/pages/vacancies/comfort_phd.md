@@ -1,7 +1,6 @@
 title: PhD position on multimodal AI for urologic cancer
 groups: diag
 closed: false
-status: draft
 type: general 
 people: Alessa Hering, Bram van Ginneken
 template: vacancy-single
@@ -49,7 +48,7 @@ You will work in the Diagnostic Image Analysis Group (DIAG) DIAG is part of the 
 For more information please contact [member/alessa-hering] by e-mail.
 
 ## Application
-Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/133041-phd-candidate-biomedical-image-registration) to apply for this position. You should supply
+Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/135362-phd-candidate-multimodal-ai-for-urologic-cancer) to apply for this position. You should supply
 - motivation letter
 - your CV including links to a Google Scholar profile 
 - list of grades and courses you have followed including online courses on deep learning and similar topics, 
