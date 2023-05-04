@@ -27,7 +27,7 @@ Currently, two positions are available in Radboudumc.
 * The first position is focused on Reinforcement Learning (RL) and aims to design, train, and evaluate an "ethical AI" roadmap, which will render RL suitable for use in clinical routines. We aim to render RL suitable for use in clinical routines, by exploring AI algorithms that are transparent and explainable. The sequences of clinical decisions for individual patients should improve long-term health outcomes. Clinical data is available in an open-source database of pathway data, such as MIMIC IV, and the continuously collected clinical pathway data at Radboudumc and UMCG.
 * The second position focuses on AI to assist the MRI operator in making timely decisions for better results, e.g., by automatically detecting a patient's breath-hold capability, implant status, the presence or absence of motion, and providing the operator with recommendations for patient-tailored strategies. We aim to integrate AI to render MRI smarter and more efficient.
 
-### Tasks and Responsibilities
+## Tasks and Responsibilities
 * Investigate AI algorithms and collect data that support the continuous interpretation of healthcare data and MRI, in particular.            
 * Collaborate with a multidisciplinary team to translate cutting-edge technology into sustainable, quality-managed clinical practice.
 * Publish research findings in peer-reviewed journals and present at international conferences.
