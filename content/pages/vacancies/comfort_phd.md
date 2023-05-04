@@ -30,8 +30,6 @@ The goal of this PhD project is to create AI-based models for PCa and KC which i
 
 
 ## Profile
-
-You should
 - be a creative and enthusiastic researcher with an MSc degree in Computer Science, Mathematics, Physics, Engineering or similar
 - have a clear interest to develop artificial intelligence algorithms and an affinity with healthcare 
 - have good communication skills and enjoy working in a multidisciplinary team
