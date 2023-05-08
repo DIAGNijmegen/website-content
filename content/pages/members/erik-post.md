@@ -3,14 +3,12 @@ name: Erik Post
 template: people-single 
 picture: people/Erik_Post.jpg 
 position: PhD Candidate 
-lab_position: PhD Candidate
 active: yes 
 groups: diag
 default_group: diag 
 email: Erik.Post@radboudumc.nl 
 office: Radboudumc Center of Expertise for Parkinson & Movement Disorders, Route 914
 type: phd 
-lab_type: phd
 linkedin: https://www.linkedin.com/in/erikpost6/
 scholar: https://scholar.google.com/citations?user=uH0PGEAAAAAJ&hl=nl&oi=ao
 

@@ -3,17 +3,14 @@ name: Clarisa Sánchez
 pub_name: Clara I Sánchez
 template: people-single
 picture: people/Clarisa_Sánchez.jpg
-position: Associate Professor
-active: yes
-groups: cara-lab
+position: Associate Professor, Scientific Co-Director
+active: no, yes
+groups: diag, cara-lab
 default_group: cara-lab
-previous_groups: diag
 email: clara.sanchezgutierrez@radboudumc.nl
 office: Route 767, Room 31
 telephone:
-type: faculty
-lab_type: staff
-lab_position: Scientific Co-Director
+type: faculty, staff
 linkedin: https://www.linkedin.com/in/clarisa-sanchez-0b3a2b3/
 scholar: https://scholar.google.com/citations?user=YxMfdYEAAAAJ
 

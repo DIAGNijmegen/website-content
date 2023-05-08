@@ -15,9 +15,9 @@ groups: ai-for-health
 | 21-04-2023 | 9-17h | Data Engineering / AI Products | The FAIR principles of data management <br> are covered and learn how to choose a suitable AI producte | George Padberg, route 924 | <a href="https://www.radboudumc.nl/en/research/radboud-technology-centers/data-stewardship">RTC Data Stewardship</a>, <a href="https://www.diagnijmegen.nl/people/kicky-van-leeuwen/">Kicky van Leeuwen</a> |
 | 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 | ----- |
 | 12-05-2023 | 9-17h | Text Mining & Bioinformatics | Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 | <a href="https://www.radboudumc.nl/en/research/radboud-technology-centers/bioinformatics">RTC Bioinformatics</a>, <a href="https://www.ru.nl/personen/hiemstra-d">Djoerd Hiemstra</a>, <a href="https://www.diagnijmegen.nl/people/koen-dercksen/">Koen Dercksen</a> |
-| 26-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation | George Padberg, route 924 | <a href="https://www.statstories.nl/">Lonneke Opsteegh</a> |
+| 26-05-2023 | 9-17h | Project Day 3 | Model optimization | George Padberg, route 924 | <a href="https://www.statstories.nl/">Lonneke Opsteegh</a> |
 | 02-06-2023 | 9-17h | Ethics & Privacy / Deployment | Ethical and privacy concerns regarding the use of AI are discussed and learn how to deploy your own AI product in practice | George Padberg, route 924 | <a href="https://www.iqhealthcare.nl/nl/over-ons/onze-mensen/staf/profdr-marianne-boenink/">Marianne Boenink</a>, <a href="https://nl.linkedin.com/in/leonhaszing">Leon Haszing</a>, <a href="https://www.diagnijmegen.nl/people/bram-van-ginneken/">Bram van Ginneken</a>, <a href="https://nl.linkedin.com/in/egelderblom">Erik Gelderblom</a> |
-| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance | George Padberg, route 924 | ----- |
+| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance and result visualisation | George Padberg, route 924 | ----- |
 | 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 | ----- |
 | 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 | ----- |
 
@@ -33,8 +33,8 @@ An overview of the short track schedule of the current edition can be seen below
 | 21-04-2023 | 13-17h | AI products | Learn how to choose a suitable AI product | George Padberg, route 924 |
 | 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 |
 | 12-05-2023 | 9-13h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 |
-| 26-05-2023 | 9-17h | Project Day 3 | Model optimization and result visualisation | George Padberg, route 924 |
+| 26-05-2023 | 9-17h | Project Day 3 | Model optimization | George Padberg, route 924 |
 | 02-06-2023 | 9-13h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed | George Padberg, route 924 |
-| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance | George Padberg, route 924 |
+| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance and result visualisation | George Padberg, route 924 |
 | 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 |
 | 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 |

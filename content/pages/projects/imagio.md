@@ -5,7 +5,7 @@ type: general
 picture: projects/imagio.png
 template: project-single
 groups: diag
-people: Roel Verhoeven, Erik van der Heijden, Tim Govers, Colin Jacobs
+people: Lars Leijten, Roel Verhoeven, Erik van der Heijden, Tim Govers, Colin Jacobs
 description: IMAGIO will leverage Interventional Oncology in the clinical setting to improve the cancer survival outcomes, through minimally invasive, efficient, and affordable care pathways for three disease states: liver cancer, lung cancer and sarcoma.
 
 ## Project summary

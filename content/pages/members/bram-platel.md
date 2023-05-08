@@ -5,5 +5,6 @@ active: no
 groups: diag
 default_group: diag
 position: Research Scientist
+type: scientist
 picture: people/bram-platel.jpg
 linkedin: https://www.linkedin.com/in/bramplatel/

@@ -3,14 +3,12 @@ name: Kars Veldkamp
 template: people-single 
 picture: people/Kars_Veldkamp.jpg 
 position: PhD Candidate 
-lab_position: PhD Candidate
 active: yes 
 groups: diag
 default_group: diag 
 email: Kars.Veldkamp@radboudumc.nl 
 office: Radboudumc Center of Expertise for Parkinson & Movement Disorders, Route 914
 type: phd 
-lab_type: phd
 linkedin: https://www.linkedin.com/in/kars-veldkamp/
 scholar: https://scholar.google.com/citations?hl=nl&user=DSNsnRsAAAAJ 
 

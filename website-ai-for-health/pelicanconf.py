@@ -152,6 +152,7 @@ PLUGINS = [
     "fileutil",
     "bootstrapify",
     "imgutil",
+    "grouputil",
     "inline_extend",
     "content_aggregator",
 ]

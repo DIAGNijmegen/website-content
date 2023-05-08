@@ -2,16 +2,14 @@ title: Bram van Ginneken
 name: Bram van Ginneken
 template: people-single
 picture: people/Bram_van_Ginneken.jpg
-position: Professor
+position: Professor, Professor, Scientific Co-Director
 active: yes
 groups: diag, rtc, cara-lab
 default_group: diag
 email: bram.vanginneken@radboudumc.nl
 office: Route 767, Room 29
 telephone:
-type: chair
-lab_position: Scientific Co-Director
-lab_type: staff
+type: chair, chair, staff
 scholar: http://scholar.google.com/citations?user=O1j6_MsAAAAJ
 publons: https://publons.com/researcher/2761863/bram-van-ginneken/
 orcid: https://orcid.org/0000-0003-2028-8972
