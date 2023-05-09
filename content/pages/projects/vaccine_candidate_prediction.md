@@ -11,7 +11,6 @@ description: Develop an AI method to identify cancer vaccine candidates using 3D
 **End date: 31-07-2022**
  
 ## Clinical Problem
-
 Deeper understanding of the immune system’s intricacies has led to clinical breakthroughs of personalized cancer vaccines in eliminating tumors in advanced-stage
 cancer patients. Formulated with patient’s tumor DNA fragments, cancer vaccines train a patient’s own immune system to recognize a patient’s mutated cancer
 proteins as ‘foreign’ and wage a lethal attack against tumors. The major puzzle in this field is: which of a patient’s hundreds of tumor mutations can trigger the immune system to attack tumors? Complementary to costly and time consuming wet-lab screenings (e.g., Sipuleucel-T was priced at $93,000), predictive algorithms that can quickly pinpoint neoantigens from a patient’s tumor-specific proteins are urgently needed, if personalized cancer vaccines are to be applied on a large scale. We aim to predict cancer vaccine candidates in this project. Our overall goal is to improve the efficacy, safety and development time of existing T cell based cancer vaccine approaches.
@@ -21,13 +20,11 @@ To serve as good cancer vaccine candidates, the tumor-specific peptides (i.e., s
 ![TCR-peptide:MHC complex]({{IMGURL}}/images/projects/TCR-MHC.png)
 
 ## Solution
-
 Today, state of the art predictive algorithms predict MHC-binding peptides based on the 1D sequences of MHC and peptides. They are used on a daily basis in laboratories to facilitate vaccine candidate discovery. Common residue patterns in the peptides’ sequence are elucidated by going over big datasets of experimental binding affinity values of peptide:MHC complexes, by using different computational approaches (e.g., fully connected neural networks, recurrent neural networks, hidden Markov models, etc). However, existing methods have limited performance. This may be caused by several factors. First, from a biological standpoint, the binding affinity depends on atomic features such as the hydrophobicity, Van der Waals interaction, solvent accessibility and other parameters. Sequence-based approaches can only indirectly capture the physico-chemical parameters that really determine the binding affinity of a similar complex. Second, the existing methods are data-driven ML methods. They rely heavily on the training data. This makes the existing methods to have limited accuracy on rare peptides that are not well-represented in the training data, for example,peptides coming from frameshift mutated proteins.
 
 To tackle these problems, in this project we explored the 3D structure-based prediction approach and its generability to rare peptides. Our strategy is to train 3D-CNN on 3D peptide:MHC structures to learn interaction patterns in the space of energies, shapes and sequences. Our assumption is that energy and physico-chemical patterns dictating binding affinity learned by the trained model should be universally applicable and contain rich structural information. Specifically, the 3D CNN is trained on 3D models for peptide:MHC complexes generated with high-accuracy [package](https://www.frontiersin.org/articles/10.3389/fimmu.2022.878762/full) (our PANDORA software). This will be done by using our 3D convolutional neural network framework, [DeepRank](https://www.nature.com/articles/s41467-021-27396-0). The solution provided allows to address the issue of predicting binding affinity between peptide and MHC with a novel structure-based approach, paving the way for further investigation concerning a structure based prediction on unseen peptide sequence data.
 
 ## Data
-
 The data used for this work comes from binding affinity assays. Several types of
 experiments are available to quantitatively assess how strongly one peptide can bind to
 the MHC groove. Experiments include measurements of half maximal inhibitory
