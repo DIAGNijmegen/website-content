@@ -3,7 +3,7 @@ groups: diag, ai-for-health
 finished: false
 type: general
 picture: projects/msk_lbp.jpg
-people: Jasper van der Graaf, Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
+people: Jasper van der Graaf, Matthieu Rutten, Nikolas Lessmann, Miranda van Hooff, Bram van Ginneken, Marinus de Kleuver 
 template: project-single
 description: We develop AI-based MRI analysis software for treatment decision support in patients with chronic degenerative low back pain.
 

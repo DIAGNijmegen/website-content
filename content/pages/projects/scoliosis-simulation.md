@@ -1,6 +1,6 @@
 title: Scoliosis simulation for improving a segmentation and labelling algorithm
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: projects/scoliosis_modeling.jpg
 template: project-single

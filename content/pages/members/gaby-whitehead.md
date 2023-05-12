@@ -3,7 +3,7 @@ name: Gaby Whitehead
 template: people-single
 picture: people/Gaby_Whitehead.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: gaby.whitehead@radboudumc.nl
