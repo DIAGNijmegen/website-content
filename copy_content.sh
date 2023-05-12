@@ -5,16 +5,20 @@ set -e
 
 # Distribute the content pages
 python parse_content.py $WEBSITE
-
 # Copy default base pages
 cp --no-clobber content/pages/defaults/404.md $WEBSITE/content/pages/404.md
 cp --no-clobber content/pages/defaults/colofon.md $WEBSITE/content/pages/colofon.md
 cp --no-clobber content/pages/defaults/home.md $WEBSITE/content/pages/home.md
 
-# Copy bib files
-cp content/bibitems.json $WEBSITE/content/bibitems.json
-cp content/authorkeys.json $WEBSITE/content/authorkeys.json
-cp content/groupkeys.json $WEBSITE/content/groupkeys.json
+if [ "$WEBSITE" = "website-cara-lab" ]; then
+  cp content/bibitems_cara.json $WEBSITE/content/bibitems_cara.json
+  cp content/authorkeys_cara.json $WEBSITE/content/authorkeys_cara.json
+  cp content/groupkeys_cara.json $WEBSITE/content/groupkeys_cara.json
+else
+  cp content/bibitems_diag.json $WEBSITE/content/bibitems_diag.json
+  cp content/authorkeys_diag.json $WEBSITE/content/authorkeys_diag.json
+  cp content/groupkeys_diag.json $WEBSITE/content/groupkeys_diag.json
+fi
 
 # Copy images when deploying locally (for development)
 # Do not overwrite existing images to save time 

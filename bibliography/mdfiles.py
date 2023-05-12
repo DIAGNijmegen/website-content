@@ -6,6 +6,9 @@ MD files
 
 """
 
+diag_bib = ['diag', 'pathology']
+cara_bib = ['cara-lab']
+
 def save_md_file(output_path, md_content):
     '''
     save md cont to output path
@@ -63,12 +66,12 @@ def create_group_md_files(_bib_items, bib_items_per_group_per_date, rest_year=20
             save_md_file(md_file_name, '\n'.join(md_content.values()))
     
 
-def create_author_md_files(bib_items_per_author_per_date, list_researchers, rest_year=2012):
+def create_author_md_files(bibfile, bib_items_per_author_per_date, list_researchers, rest_year=2012):
     '''
     Creates md file for every author in: './content/pages/publications/' 
     '''
     for name, bib_keys_per_date in bib_items_per_author_per_date.items():
-
+        
         all_bib_keys = []
         rest_bib_keys = []
         md_content = {}
@@ -78,36 +81,39 @@ def create_author_md_files(bib_items_per_author_per_date, list_researchers, rest
         md_content['author_name'] = 'author_name: ' + list_researchers[name][3]
         groups = list_researchers[name][1]
         md_content['groups'] = 'groups: ' + ','.join(groups)
-        
+ 
         for group in groups:
-            dir_name = os.path.join(f'./website-{group}/content/pages/publications/',  name.lower())
-            if not os.path.exists(dir_name):
-                os.makedirs(dir_name, exist_ok=True)
+            if (group == 'cara-lab' and bibfile == 'cara') or (group != 'cara-lab' and bibfile == 'diag'):
+                dir_name = os.path.join(f'./website-{group}/content/pages/publications/',  name.lower())
+                print(dir_name)
+                if not os.path.exists(dir_name):
+                    os.makedirs(dir_name, exist_ok=True)
 
-            for year, bib_keys in bib_keys_per_date.items():
-                if not isinstance(year, int):
-                    continue
-                all_bib_keys.extend(bib_keys)
-                if int(year) <= rest_year:
-                    rest_bib_keys.extend(bib_keys)
-                else:
-                    # save publications of author per year
-                    md_content['title'] = f'title: {str(year)}'
-                    md_file_name = os.path.join(dir_name, str(year) + '.md')
+                for year, bib_keys in bib_keys_per_date.items():
+                    
+                    if not isinstance(year, int):
+                        continue
+                    all_bib_keys.extend(bib_keys)
+                    if int(year) <= rest_year:
+                        rest_bib_keys.extend(bib_keys)
+                    else:
+                        # save publications of author per year
+                        md_content['title'] = f'title: {str(year)}'
+                        md_file_name = os.path.join(dir_name, str(year) + '.md')
+                        save_md_file(md_file_name, '\n'.join(md_content.values()))
+                    
+                if rest_bib_keys:
+                    md_content['title'] =f'title: {rest_year} and before'
+                    md_file_name = os.path.join(dir_name, f'{rest_year}-and-before.md')
                     save_md_file(md_file_name, '\n'.join(md_content.values()))
                 
-            if rest_bib_keys:
-                md_content['title'] =f'title: {rest_year} and before'
-                md_file_name = os.path.join(dir_name, f'{rest_year}-and-before.md')
+                md_content['title'] = 'title: Publications of ' + list_researchers[name][3]
+                md_file_name = dir_name + '.md'
                 save_md_file(md_file_name, '\n'.join(md_content.values()))
-            
-            md_content['title'] = 'title: Publications of ' + list_researchers[name][3]
-            md_file_name = dir_name + '.md'
-            save_md_file(md_file_name, '\n'.join(md_content.values()))
-            
-            md_content['title'] = 'title: All Years'
-            md_file_name = os.path.join(dir_name, 'all-years.md')
-            save_md_file(md_file_name, '\n'.join(md_content.values()))
+                
+                md_content['title'] = 'title: All Years'
+                md_file_name = os.path.join(dir_name, 'all-years.md')
+                save_md_file(md_file_name, '\n'.join(md_content.values()))
 
         # save_md_file(md_file_name, standard_md_string)
 
@@ -118,11 +124,12 @@ def create_author_md_files(bib_items_per_author_per_date, list_researchers, rest
 
         # per year
 
-def create_publication_md(bib_items, bib_items_per_author_per_date, list_researchers):
+def create_publication_md(bibfile, bib_items, bib_items_per_author_per_date, list_researchers):
     '''
     Create md file for every publication in: './content/pages/publications/'
     '''
     for bib_key, bib_item in bib_items.items():
+
         diag_authors = []
         groups = set()
         for name, bib_keys_per_date in bib_items_per_author_per_date.items():
@@ -131,7 +138,8 @@ def create_publication_md(bib_items, bib_items_per_author_per_date, list_researc
                     if bib_key == bkey:
                         diag_authors.append(name)
                         for group in list_researchers[name][1]:
-                            groups.add(group)
+                            if (group == 'cara-lab' and bibfile == 'cara') or (group != 'cara-lab' and bibfile == 'diag'):
+                                groups.add(group)
 
                         md_string = 'title: ' + bib_item['title'] + '\n'
                         md_string += 'authors: ' + bib_item['authors'] + '\n'
