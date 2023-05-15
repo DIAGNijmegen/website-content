@@ -30,6 +30,8 @@ jobs:
             site-id: NETLIFY_SITEID_RTC
           - name: website-ai-for-health
             site-id: NETLIFY_SITEID_AIFORHEALTH
+          - name: website-cara-lab
+            site-id: NETLIFY_SITEID_CARALAB
             
     steps:
       - uses: actions/checkout@v2
