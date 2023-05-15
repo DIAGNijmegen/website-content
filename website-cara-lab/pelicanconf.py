@@ -10,7 +10,7 @@ from datetime import date
 AUTHOR = "WebteamDIAG"
 SITENAME = "CARA Lab"
 SITENAME_SHORT = "CARALAB"
-SITE_REPO = "website-cara"
+SITE_REPO = "website-cara-lab"
 SITE_GROUP = "cara-lab"
 
 # Home page and social settings
