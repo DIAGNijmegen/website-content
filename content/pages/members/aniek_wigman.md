@@ -4,7 +4,7 @@ template: people-single
 picture: people/Aniek_Wigman.jpeg
 position: Student assistant
 active: yes
-groups: pathology
+groups: pathology, diag
 default_group: pathology
 email: 
 office: Route 812, room 3.42
