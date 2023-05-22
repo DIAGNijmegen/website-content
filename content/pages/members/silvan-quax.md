@@ -8,7 +8,7 @@ groups: rtc, diag, cara-lab
 default_group: rtc
 email: silvan.quax@radboudumc.nl
 office: Route 767, Room 27
-type: tech, tech, staff
+type: tech, tech, phd
 telephone: +31 24 3614548
 linkedin: https://www.linkedin.com/in/silvan-quax/
 scholar: https://scholar.google.nl/citations?user=MnWGlxYAAAAJ&hl=en&oi=ao
