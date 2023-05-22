@@ -8,4 +8,4 @@ groups: cara-lab
 default_group: cara-lab
 linkedin: https://www.linkedin.com/in/ivanaisgum/
 email: i.isgum@amsterdamumc.nl
-type: staff
+type: director

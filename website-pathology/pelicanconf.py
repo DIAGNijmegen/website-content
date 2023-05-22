@@ -61,9 +61,6 @@ ENABLE_BREADCRUMBS = True
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
     "News": "News",
-    "Vacancies": "Vacancies",
-    "Projects": "Projects",
-    "Members": "Members",
 }
 
 PATH = "content"

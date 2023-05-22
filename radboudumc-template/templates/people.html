@@ -10,9 +10,23 @@
     {{ page.content }}
 
     <div class="container">
-        {% set ns = namespace(has_faculty = False, has_student = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
+        {% set ns = namespace(has_faculty = False, has_director = False, has_student = False, has_science = False, has_tech = False, has_visiting = False, has_former = False, has_chair = False, has_admin = False, has_studentassistant = False) %}
         {% set members = pages | selectattr('category', 'equalto', 'members') | sort_slug_by_last %}
         {% set members = members | update_members(SITE_GROUP) %}
+        
+        {% for person in members %}
+            {% if person.type == 'director' and person.active == 'yes' and SITE_GROUP in person.groups %}
+            {% if not ns.has_director %}
+                <h1 class="text-muted">Directors</h1>
+                <div class="row people-grid">
+                {% set ns.has_director = True %}
+            {% endif %}
+            {% include "blocks/person-circle.html" %}
+            {% endif %}
+        {% endfor %}
+        {% if ns.has_director %}
+                </div>
+        {% endif %}
 
         {% for person in members %}
             {% if person.type == 'staff' and person.active == 'yes' and SITE_GROUP in person.groups %}

@@ -44,13 +44,10 @@ NAV_SECTIONS = [
     {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
 ]
 
-HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies", "Members": "Members"}
+HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies",}
 
 # Whether to show breadcrumbs on the page
 ENABLE_BREADCRUMBS = True
-
-# What sections to show on homepage (current options that you customizable: {section_name: custom_name})
-HOME_SECTIONS = {"News": 'News', "Vacancies": "Vacancies", "Projects": "Projects", "Members": 'Members'}
 
 # URLs
 SITEURL = ''

@@ -42,7 +42,7 @@ NAV_SECTIONS = [
 ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
-HOME_SECTIONS = {"Vacancies": "Vacancies", "Software": "Software", "Members": "Members"}
+HOME_SECTIONS = {"Vacancies": "Vacancies", "Software": "Software"}
 
 # URLs
 SITEURL = ""

@@ -29,7 +29,7 @@ FOOTER_IMAGE = 'umc_logo.png'
 # What sections to show in the nav bar
 NAV_SECTIONS = [
     #     {"name": "Highlights", "url": "higlights", "icon": "megaphone"},
-    #     {"name": "Members", "url": "members", "icon": "users"},
+    {"name": "Members", "url": "members", "icon": "users"},
     #     {"name": "Projects", "url": "projects", "icon": "folder"},
     #     {"name": "Vacancies", "url": "vacancies"},
     {
@@ -51,7 +51,6 @@ HOME_SECTIONS = {
     "Services and expertise": "Services and expertise",
     "Projects": "Projects",
     "Software": "Infrastructure & Software",
-    "Members": "Members",
 }
 
 # URLs
