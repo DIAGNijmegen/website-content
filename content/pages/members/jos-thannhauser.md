@@ -7,7 +7,7 @@ active: yes
 groups: diag, cara-lab
 default_group: diag
 email: jos.thannhauser@radboudumc.nl
-office: 
+office: Route 767, Room 31
 linkedin: https://www.linkedin.com/in/jos-thannhauser-99b4434a/
 scholar: https://scholar.google.com/citations?user=vNbTaXsAAAAJ&hl=en&oi=ao
 type: faculty, staff
