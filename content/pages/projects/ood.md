@@ -1,6 +1,6 @@
 title: Generic out-of-distribution detection for radiology AI systems
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: projects/ood.jpg
 template: project-single
