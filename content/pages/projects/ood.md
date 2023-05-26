@@ -20,6 +20,7 @@ The computer vision literature reports many different methods for out-of- distri
 
 ## Data 
 For this thesis 2 groups of data have been used. The first group contains 3 datasets containing low-dose lung CT scans:
+
 * **NLST:** 10.183 screening scans 
 * **DLCST:** 602 screening scans
 * **Radboud clinical:** 436 clinical scans
