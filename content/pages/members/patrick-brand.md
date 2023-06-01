@@ -3,7 +3,7 @@ name: Patrick Brand
 template: people-single
 picture: people/Patrick_Brand.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: patrick.brand@radboudumc.nl
