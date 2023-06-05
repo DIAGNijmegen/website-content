@@ -2,13 +2,13 @@ title: Cornelia Schaefer-Prokop
 name: Cornelia Schaefer-Prokop
 template: people-single
 picture: people/Cornelia_Schaefer_Prokop.jpg
-position: Radiologist
+position: Senior Researcher
 active: yes
 groups: diag
 default_group: diag
 email: cornelia.schaefer-prokop@radboudumc.nl
 office:
-type: faculty
+type: phd
 telephone:
 linkedin: https://www.linkedin.com/in/cornelia-schaefer-prokop-36167719/?locale=nl_NL
 scholar:
