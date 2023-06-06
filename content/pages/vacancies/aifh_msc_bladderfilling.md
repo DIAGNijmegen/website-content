@@ -1,6 +1,6 @@
 title: Prediction of bladder filling during radiotherapy treatment
 groups: ai-for-health, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/aifh_msc_bladderfilling.png
 template: vacancy-single
