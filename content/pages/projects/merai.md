@@ -1,5 +1,5 @@
-title: MERAI Lab
-title_long: MERAI Lab
+title: MERAI Lab: MeVis and Radboudumc ICAI Lab
+title_long: MERAI Lab: MeVis and Radboudumc ICAI Lab
 finished: false
 type: general
 picture: projects/merai3.png
