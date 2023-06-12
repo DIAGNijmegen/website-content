@@ -100,6 +100,7 @@ def query_gc_api(identifier, slug):
         info = info.json()
     except Exception as e:
         print("To JSON error")
+        print('request:', f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
         print('requests version:', requests.__version__)
         print(e)
         return create_gc_card_not_found(identifier, slug)
