@@ -16,13 +16,16 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 25-05-2023 | Steffan Borgers <br> Hermen van Westen | Interventional reconstruction AI for real-time needle tracking in MRI <br> Quality assessment of ultrasound images for diagnosis of developmental hip dysplasia | TBA |
-| 04-05-2023 | Oscar Esteban Bajo <br> Sanyog Vyawahare | TBA | Skatecourt, route 14, Experience Center |
+| 27-07-2023 | Thijs Schoppema | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
+| 20-07-2023 | Bob Sanders | Few-shot learning in medical image segmentation | Skatecourt, route 14, Experience Center |
+| 22-06-2023 | Thijs Schoppema | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 25-05-2023 | Steffan Borgers <br> Hermen van Westen | Interventional reconstruction AI for real-time needle tracking in MRI <br> Quality assessment of ultrasound images for diagnosis of developmental hip dysplasia |
+| 04-05-2023 | Oscar Esteban Bajo <br> Sanyog Vyawahare | TBA |
 | 20-04-2023 | Nohemi Sofia Leon Contreras <br> Carlijn Lems | Self-supervised pretraining for histopathology images <br> TBA |
 | 06-04-2023 | Ole ten Hove | DeNovoCNN for long-read sequencing |
 | 30-03-2023 | Ruben Geurtjens | Self-supervised Out-of-Distribution detection for medical imaging |
