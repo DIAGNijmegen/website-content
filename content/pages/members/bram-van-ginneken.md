@@ -2,7 +2,7 @@ title: Bram van Ginneken
 name: Bram van Ginneken
 template: people-single
 picture: people/Bram_van_Ginneken.jpg
-position: Professor, Professor, Scientific Co-Director
+position: Professor, Scientific Co-Director
 active: yes
 groups: diag, cara-lab
 default_group: diag
