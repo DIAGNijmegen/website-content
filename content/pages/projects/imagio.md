@@ -2,7 +2,7 @@ title: IMAGIO: Imaging and Advanced Guidance for Workflow Optimization in Interv
 title_long: IMAGIO: Imaging and Advanced Guidance for Workflow Optimization in Interventional Oncology
 finished: false
 type: general
-picture: projects/imagio.png
+picture: projects/imagio-logo.png
 template: project-single
 groups: diag
 people: Lars Leijten, Roel Verhoeven, Erik van der Heijden, Tim Govers, Erik Aarntzen, Colin Jacobs
