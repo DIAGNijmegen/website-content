@@ -7,6 +7,7 @@ template: vacancy-single
 people: Li Xue, Jolanda de Vries
 description: Developping a  dynamic graph network simulator for peptide-MHC-I structures 
 
+
 **This is an AI for Health MSc project. Students are
 elgible to receive a monthly reimbursement of €500,- for
 a period of six months. For more information please read the
