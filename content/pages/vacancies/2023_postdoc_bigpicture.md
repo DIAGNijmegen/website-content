@@ -35,7 +35,7 @@ You should be a creative and enthusiastic researcher with a PhD degree in a rele
 - A discount on health insurance.
 
 ## Organisation
-The [Computational Pathology Group](https://www.computationalpathologygroup.eu/) is a research group of the department of Pathology of the [Radboud University Medical Center (Radboudumc)](https://www.radboudumc.nl). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl) at Radboudumc, with researchers in the departments of [Radiology and Nuclear Medicine](https://www.radboudumc.nl/afdelingen/radiologie-en-nucleaire-geneeskunde), [Pathology](https://www.radboudumc.nl/afdelingen/pathologie) and [Ophthalmology](https://www.radboudumc.nl/afdelingen/oogheelkunde).
+The [Computational Pathology Group](https://www.computationalpathologygroup.eu/) is a research group of the department of Pathology of the [Radboud University Medical Center (Radboudumc)](https://www.radboudumc.nl). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl) at Radboudumc, with researchers in other departments, such as [Radiology and Nuclear Medicine](https://www.radboudumc.nl/afdelingen/radiologie-en-nucleaire-geneeskunde), [Pathology](https://www.radboudumc.nl/afdelingen/pathologie).
 
 We develop, validate and deploy novel medical image analysis methods, usually based on the newest advances in machine learning with a focus on computer-aided diagnosis (CAD). Application areas include diagnostics and prognostics of breast, colon, prostate and lung cancer. Our group is among the international front runners in the field, witnessed for instance by the highly successful [Camelyon](https://camelyon16.grand-challenge.org/) and [Panda](https://panda.grand-challenge.org/) grand challenges which we organized.
 
@@ -44,8 +44,8 @@ Radboudumc strives to be a leading developer of sustainable, innovative and affo
 ## Employment conditions
 Working at Radboud university medical center means that you are ahead of the curve and working together on the healthcare of the future. And there is more. Our secondary terms of employment are impressive. These are fully tailored to you thanks to our Employment Conditions Selection Model. At Radboud university medical center, you will be given trust, and you will take the responsibility to handle everything together.
 
-We offer:
-- A gross monthly salary between € 3.230 and € 5.088 (scale 10) based on full-time employment. 
+We offer
+- A gross monthly salary between € 3.230 and € 5.088 (scale 10) based on full-time employment.
 - From 1 November 2023 the wages will increase by 4%.
 - An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
 - As a full-time employee (36 hours per week), you are entitled to approximately 168 vacation hours (over 23 days) per year.
@@ -53,7 +53,8 @@ We offer:
 - You get a discount on health insurance as well: you can take advantage of two group health insurance plans. UMC Zorgverzekering and CZ collectief.
 - We provide annual courses, both professional and personal.
 - In addition to our terms of employment, we also offer employees various other attractive facilities, such as childcare and sports facilities. Want to learn more? Take a look at the CAO UMC.
+
 Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl/en/working-at/what-do-we-offer/terms-and-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
 ## Application
-If you are interested, please apply via the following link: https://www.radboudumc.nl/en/vacancies/137202-postdoc-artificial-intelligence-for-improving-toxicological-pathology
+If you are interested, please apply via the following [link](https://www.radboudumc.nl/en/vacancies/137202-postdoc-artificial-intelligence-for-improving-toxicological-pathology)
