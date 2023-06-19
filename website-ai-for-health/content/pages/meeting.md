@@ -17,8 +17,7 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
 | 27-07-2023 | Thijs Schoppema | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
-| 20-07-2023 | Bob Sanders | Few-shot learning in medical image segmentation | Skatecourt, route 14, Experience Center |
-| 13-07-2023 | Niels van Hoeffelen | Few-shot learning for medical image segmentation | Skatecourt, route 14, Experience Center |
+| 13-07-2023 | Niels van Hoeffelen <br> Bob Sanders | Few-shot learning for medical image segmentation | Skatecourt, route 14, Experience Center |
 | 29-06-2023 | Celena Jordaan | AI-designed 3D prothesis for 3D printing in third world countries | Skatecourt, route 14, Experience Center |
 | 22-06-2023 | Thijs Schoppema <br> Anton Ligterink | AI-based Histopathological Analysis of NAFLD <br> Spying on parasites: using deep learning to quantify the interactions between malaria parasites and human liver cells | Skatecourt, route 14, Experience Center |
 
