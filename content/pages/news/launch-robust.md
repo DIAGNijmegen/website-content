@@ -11,5 +11,5 @@ The [ROBUST AI programme](https://icai.ai/ltp-robust/) aims to strengthen the Du
 
 [Radboudumc](https://www.radboudumc.nl/) is one of the 17 knowledge institutes participating in ROBUST and will host four new healthcare ICAI labs: [MERAI Lab](https://icai.ai/icai-labs/merai/), [HEALTHY-AI Lab](https://icai.ai/icai-labs/healthyai/), [AI for Parkinson lab](https://icai.ai/icai-labs/ai-for-parkinson/), and [CARA lab](https://icai.ai/icai-labs/cara/).
 
-MERAI Lab will be led by [member/colin-jacobs], Healthy AI Lab will be led by [member/henkjan-huisman], AI for Parkinson Lab will be led by [Luc Evers](mailto:luc.evers@radboudumc.nl) and CARA Lab will be led by [Jos Thannhauser](mailto:jos.thannhauser@radboudumc.nl).
+MERAI Lab will be led by [member/colin-jacobs], Healthy AI Lab will be led by [member/henkjan-huisman], AI for Parkinson Lab will be led by [Luc Evers](mailto:luc.evers@radboudumc.nl) and CARA Lab will be led by [member/jos-thannhauser]).
 
