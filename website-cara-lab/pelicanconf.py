@@ -101,8 +101,7 @@ INDEX_SAVE_AS = 'news/index.html'
 THEME = "../radboudumc-template"
 DIRECT_TEMPLATES = ['index', 'archives', 'sitemap']
 
-
-
+NO_CRITICAL_CSS = True
 
 # Plugins
 PLUGIN_PATHS = ["../plugins"]
