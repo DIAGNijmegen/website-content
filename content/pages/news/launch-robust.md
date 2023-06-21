@@ -9,7 +9,7 @@ The [ROBUST AI programme](https://icai.ai/ltp-robust/) aims to strengthen the Du
 
 [Seventeen new public-private ICAI labs](https://icai.ai/labs-robust/) will be set up under the ROBUST umbrella and form part of the Innovation Center for Artificial Intelligence (ICAI), thus bringing its lab total to 46. ICAI focuses on AI talent and knowledge development in the Netherlands.
 
-[Radboudumc](https://www.radboudumc.nl/) is one of the 17 knowledge institutes participating in ROBUST and will host four new healthcare ICAI labs: [MERAI Lab](https://icai.ai/icai-labs/merai/), [HEALTHY-AI Lab](https://icai.ai/icai-labs/healthyai/), [AI for Parkinson lab](https://icai.ai/icai-labs/ai-for-parkinson/), and [CARA lab](https://icai.ai/icai-labs/cara/).
+[Radboudumc](https://www.radboudumc.nl/) is one of the 17 knowledge institutes participating in ROBUST and will host four new healthcare ICAI labs: [MERAI Lab](https://icai.ai/icai-labs/merai/), [HEALTHY-AI Lab](https://icai.ai/icai-labs/healthyai/), [AI for Parkinson lab](https://icai.ai/icai-labs/ai-for-parkinson/), and [CARA lab](https://www.cara-ai-lab.nl).
 
-MERAI Lab will be led by [member/colin-jacobs], Healthy AI Lab will be led by [member/henkjan-huisman], AI for Parkinson Lab will be led by [Luc Evers](mailto:luc.evers@radboudumc.nl) and CARA Lab will be led by [member/jos-thannhauser]).
+MERAI Lab will be led by [member/colin-jacobs], Healthy AI Lab will be led by [member/henkjan-huisman], AI for Parkinson Lab will be led by [Luc Evers](mailto:luc.evers@radboudumc.nl) and CARA Lab will be led by [member/jos-thannhauser].
 
