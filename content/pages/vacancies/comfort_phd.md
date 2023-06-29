@@ -1,6 +1,6 @@
 title: PhD position on multimodal AI for urologic cancer
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Alessa Hering, Bram van Ginneken
 template: vacancy-single
