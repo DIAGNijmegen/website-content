@@ -16,16 +16,18 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
+| 07-09-2023 | Carlijn Lems | TBA | Skatecourt, route 14, Experience Center |
+| 17-08-2023 | Hermen van Westen | TBA | Skatecourt, route 14, Experience Center |
 | 27-07-2023 | Thijs Schoppema | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
 | 20-07-2023 | Ali Khan <br> Lex Bosch | TBA | Skatecourt, route 14, Experience Center |
 | 13-07-2023 | Niels van Hoeffelen & Bob Sanders <br> Mar Navarro Padilla | Few-shot learning for medical image segmentation <br> Hip osteoarthritis| Skatecourt, route 14, Experience Center |
-| 29-06-2023 | Celena Jordaan | AI-designed 3D prothesis for 3D printing in third world countries | Skatecourt, route 14, Experience Center |
-| 22-06-2023 | Thijs Schoppema <br> Anton Ligterink | AI-based Histopathological Analysis of NAFLD <br> Spying on parasites: using deep learning to quantify the interactions between malaria parasites and human liver cells | Skatecourt, route 14, Experience Center |
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 29-06-2023 | Celena Jordaan | AI-designed 3D prothesis for 3D printing in third world countries |
+| 22-06-2023 | Thijs Schoppema <br> Anton Ligterink | AI-based Histopathological Analysis of NAFLD <br> Spying on parasites: using deep learning to quantify the interactions between malaria parasites and human liver cells |
 | 25-05-2023 | Steffan Borgers <br> Hermen van Westen | Interventional reconstruction AI for real-time needle tracking in MRI <br> Quality assessment of ultrasound images for diagnosis of developmental hip dysplasia |
 | 04-05-2023 | Oscar Esteban Bajo <br> Sanyog Vyawahare | TBA |
 | 20-04-2023 | Nohemi Sofia Leon Contreras <br> Carlijn Lems | Self-supervised pretraining for histopathology images <br> TBA |
