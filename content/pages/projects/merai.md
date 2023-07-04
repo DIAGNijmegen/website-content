@@ -5,7 +5,7 @@ type: general
 picture: projects/merai3.png
 template: project-single
 groups: diag
-people: Bogdan Obreja, Fennie van der Graaf, Colin Jacobs, Mathias Prokop, Erik Aarntzen, Marianne Boenink, Bram van Ginneken, Erik van der Heijden, Cornelia Schaefer-Prokop 
+people: Bogdan Obreja, Fennie van der Graaf, Colin Jacobs, Mathias Prokop, Erik Aarntzen, Marianne Boenink, Erik van der Heijden, Cornelia Schaefer-Prokop 
 description: MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions AG with the aim to create AI solutions in the lung oncology field. 
 bibkeys: 
 
