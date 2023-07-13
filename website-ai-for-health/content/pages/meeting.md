@@ -19,7 +19,7 @@ The slides for past presentations are available by clicking on the links in the 
 | 07-09-2023 | Carlijn Lems | TBA | Skatecourt, route 14, Experience Center |
 | 24-08-2023 | Steffan Borgers | TBA | Skatecourt, route 14, Experience Center |
 | 17-08-2023 | Hermen van Westen | TBA | Skatecourt, route 14, Experience Center |
-| 27-07-2023 | Thijs Schoppema | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
+| 27-07-2023 | Thijs Schoppema <br> Nohemi Sofia Leon Contreras | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
 | 20-07-2023 | Ali Khan <br> Lex Bosch | TBA | Skatecourt, route 14, Experience Center |
 | 13-07-2023 | Niels van Hoeffelen & Bob Sanders <br> Mar Navarro Padilla | Few-shot learning for medical image segmentation <br> Hip osteoarthritis| Skatecourt, route 14, Experience Center |
 
