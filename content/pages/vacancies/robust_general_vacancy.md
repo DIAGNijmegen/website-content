@@ -1,6 +1,6 @@
 title: PhD positions in four new AI labs for artificial intelligence in healthcare
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Colin Jacobs, Henkjan Huisman, Jos Thannhauser, Luc Evers, Bram van Ginneken
 template: vacancy-single
