@@ -8,7 +8,7 @@ groups: diag, pathology
 default_group: pathology
 email: linda.studer@radboudumc.nl
 office: Route 812, room 2.39
-type: student
+type: postdoc
 linkedin: https://www.linkedin.com/in/linda-studer/?locale=en_US
 scholar: https://scholar.google.ch/citations?user=ukQskJgAAAAJ&hl=de
 

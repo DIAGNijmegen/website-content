@@ -3,7 +3,7 @@ name: Witali Aswolinskiy
 template: people-single
 picture: people/Witali_Aswolinskiy.jpg
 position: Postdoctoral Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: witali.aswolinskiy@radboudumc.nl
