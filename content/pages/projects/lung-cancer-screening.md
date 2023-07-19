@@ -5,7 +5,7 @@ type: general
 picture: projects/lung-cancer-screening.png
 template: project-single
 groups: diag
-people: Kiran Vaidhya Venkadesh, Colin Jacobs, Sil van de Leemput, Ernst Scholten, Bram van Ginneken, Cornelia Schaefer-Prokop, Mathias Prokop
+people: Kiran Vaidhya Venkadesh, Colin Jacobs, Ernst Scholten, Bram van Ginneken, Cornelia Schaefer-Prokop, Mathias Prokop
 description: We aim to improve the efficiency of lung cancer screening by using artificial intelligence. 
 bibkeys: Venk22, Venk21a, Jaco21a, Jaco21, Schr21d, Venk21, Schr21b, Schr21, Schr20a, Venk20, Silv20, Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
