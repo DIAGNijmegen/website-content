@@ -1,7 +1,7 @@
 title: Mohammad Imran Hossain
 name: Mohammad Imran Hossain
 template: people-single
-picture: people/Mohammad_Imran_Hossain
+picture: people/Mohammad_Imran_Hossain.png
 position: Master Student
 active: yes
 groups: diag
