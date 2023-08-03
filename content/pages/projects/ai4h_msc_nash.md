@@ -17,14 +17,17 @@ The first major problem is an enormous interobserver variability. The severity t
 Second, a major problem and practical inevitability in the assessment of NASH histopathology by humans, is the categorical nature of severity score systems. When a histopathological slide contains 32% steatosis it is appraised one point, but when it is estimated to be 34%, the biopsy gets appraised two severity points. Therefore, this categorical nature implies a certain inaccurateness in the determination of the severity of the disease, and thereby has major consequences for both patients and the research field. 
 
 ## Solution
+In this project, we have investigated the possibilities for an AI-assisted histopathological analysis of NASH. Specifically, we have created a segmentation method for two features of NASH, inflammation, and steatosis. Furthermore, we’ve applied an end-to-end classification method to directly assess the presence of NASH and its features. While limited by a small dataset and lack of expert annotation of multiple pathologists. Our results suggest that the segmentation and end-to-end classification models can assess the features and severity of NASH. These results show promising results for the possibilities of deep learning-based detection methods for NASH.
+
+## Data
+For this project, a total of 48 WSI in H&E and PSR staining were available with the histopathological scores. Of the 48 WSIs a total of 10 have been manually annotated for steatosis, inflammation, and portal regions. For the segmentation and end-to-end classification models, a train-validation-test split of 6-2-2 has been used.
+
+## Approach
 The goal of this project was to investigate how Artificial Intelligence can be used to support the pathologist in the histopathological assessment of NASH. For this, a segmentation pipeline and end-to-end classification method have been deployed. 
 
 The segmentation pipeline consists of two U-net segmentation models with EfficientNet-B4 backbones. The first segmentation model detects steatosis and inflammation in a H&E stained whole slide image (WSI), on a spacing of 0,5. The second model detects the portal regions in the WSI, on a spacing of 4,0. The portal regions are on a low level similar to inflammation, but are more easily distinguishable with more context. By predicting the portal regions we are able to combine the masks and remove wrongly detected inflammation spots near these regions. Afterwards, the background of the prediction mask will be corrected and a final post-processing containing several morphological operations will be done in order to remove small errors.
 
 The Clustering-constrained Attention Multiple Instance Learning (CLAM) pipeline has been used for the end-to-end classification. A total of 3 models have been made with the CLAM pipeline. The first model predicts the steatosis score of a WSI. However, steatosis 0 has been excluded due to a lack of samples. The second model predicts the absence and presence of ballooning. The final model predicts the presence of NASH based on the interpreted NAFLD activity score (NAS). Meaning that a score of 0 is not diagnostic of NASH, a score of 2 is diagnostic of NASH and a score of 1 is equally divided between not diagnostic, borderline and diagnostic of NASH.
-
-## Data
-For this project, a total of 48 WSI in H&E and PSR staining were available with the histopathological scores. Of the 48 WSIs a total of 10 have been manually annotated for steatosis, inflammation, and portal regions. For the segmentation and end-to-end classification models, a train-validation-test split of 6-2-2 has been used.
 
 ## Results
 ### Segmentation
