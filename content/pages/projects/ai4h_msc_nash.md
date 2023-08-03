@@ -28,7 +28,7 @@ For this project, a total of 48 WSI in H&E and PSR staining were available with 
 
 ## Results
 ### Segmentation
-To evaluate the segmentation models the DICE and IOU scores have been used. The table below shows the performance of both models after post-processing. The results for each relevant feature has been shown with the overall score. The metrics have been calculated on 2 different annotated WSIs.
+To evaluate the segmentation models the DICE and IOU scores have been used. The table below shows the performance of both models after post-processing. The results for each relevant feature have been shown with the overall score. The metrics have been calculated on 2 different annotated WSIs.
 
 | | Steatosis | Inflammation | Portal Area's | Liver tissue | Overall |
 |-----|-----|-----|-----|-----|-----|
