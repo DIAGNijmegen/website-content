@@ -39,7 +39,7 @@ To evaluate the segmentation models the DICE and IOU scores have been used. The 
 | IOU | 0,677 | 0,653 | 0,623 | 0,849 | 0,790 |
 
 ### end-to-end classification
-To evaluate the end-to-end classification models a 4-fold cross-validation with 10 samples in each fold has been used. The used metrics for evaluation are the F1 score, Precision, Recall, and Accuracy.
+To evaluate the end-to-end classification models a 4-fold cross-validation with 10 samples in each fold has been used. The used metrics for evaluation are the F1 score, Precision, Recall, and Accuracy. The tables below show the results of each feature, with the deviation over the 4 folds denoted in the brackets.
 
 | Steatosis | 1 | 2 | 3 | Average |
 |-----|-----|-----|-----|-----|
