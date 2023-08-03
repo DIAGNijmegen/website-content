@@ -23,7 +23,7 @@ The segmentation pipeline consists of two U-net segmentation models with Efficie
 
 The Clustering-constrained Attention Multiple Instance Learning (CLAM) pipeline has been used for the end-to-end classification. A total of 3 models have been made with the CLAM pipeline. The first model predicts the steatosis score of a WSI. However, steatosis 0 has been excluded due to a lack of samples. The second model predicts the absence and presence of ballooning. The final model predicts the presence of NASH based on the interpreted NAFLD activity score (NAS). Meaning that a score of 0 is not diagnostic of NASH, a score of 2 is diagnostic of NASH and a score of 1 is equally divided between not diagnostic, borderline and diagnostic of NASH.
 
-### Data
+## Data
 For this project, a total of 48 WSI in H&E and PSR staining were available with the histopathological scores. Of the 48 WSIs a total of 10 have been manually annotated for steatosis, inflammation, and portal regions. For the segmentation and end-to-end classification models, a train-validation-test split of 6-2-2 has been used.
 
 ## Results
