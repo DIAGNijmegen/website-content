@@ -38,6 +38,25 @@ To evaluate the segmentation models the DICE and IOU scores have been used. The 
 ### end-to-end classification
 To evaluate the end-to-end classification models a 4-fold cross-validation with 10 samples in each fold has been used. The used metrics for evaluation are the F1 score, Precision, Recall, and Accuracy.
 
+| Steatosis | 1 | 2 | 3 | Average |
+|-----|-----|-----|-----|-----|
+| Precision | 0,750 (0,000) | 0,754 (0,152) | 0,875 (0,217) | 0,793 (0,031) |
+| Recall | 0,750 (0,000) | 0,667 (0,102) | 0,917 (0,144) | 0,778 (0,044) |
+| F1 | 0,750 (0,000) | 0,688 (0,036) | 0,867 (0,141) | 0,785 (0,036) |
+| Accuracy | | | | 0,751 (0,040) | 
 
+| Ballooning | 0 | 1 | Average |
+|-----|-----|-----|-----|
+| Precision | 0,875 (0,072) | 0,929 (0,124) | 0,902 (0,026) |
+| Recall | 0,900 (0,173) | 0,850 (0,087) | 0,875 (0,043) |
+| F1 | 0,869 (0,069) | 0,875 (0,024) | 0,888 (0,035) |
+| Accuracy | | | 0,875 (0,043) |
 
-Students will be supervised by a team of NAFLD-NASH experts from the Amsterdam UMC (dr. Onno Holleboom, and drs. Quinten Augustijn) and a team of experts in the field of deep learning in histopathology from the Radboud University (dr. ir. Geert Litjens and prof. dr. Jeroen van der Laak). Primarily based in Nijmegen, the student will develop a deep learning model for the assessment of NAFLD-NASH. The student will be trained by a liver pathologist in the assessment of NAFLD-NASH. Thereafter the student will build a supervised model upon the histopathological slides of 60-100 patients. When successful, the model will further be validated in larger cohorts. We expect that the thesis will results in a significant scientific publication.
+| INAS | 0 | 1 | 2 | average |
+|-----|-----|-----|-----|-----|
+| Precision | 0,608 (0,068) | 0,708 (0,298) | 0,750 (0,144) | 0,689 (0,153) |
+| Recall | 0,813 (0,207) | 0,313 (0,108) | 1,000 (0,000) | 0,708 (0,093) |
+| F1 | 0,692 (0,123) | 0,421 (0,147) | 0,850 (0,087) | 0,697 (0,124) |
+| Accuracy | | | | 0,650 (0,112) |
+
+[//]: # " Students will be supervised by a team of NAFLD-NASH experts from the Amsterdam UMC (dr. Onno Holleboom, and drs. Quinten Augustijn) and a team of experts in the field of deep learning in histopathology from the Radboud University (dr. ir. Geert Litjens and prof. dr. Jeroen van der Laak). Primarily based in Nijmegen, the student will develop a deep learning model for the assessment of NAFLD-NASH. The student will be trained by a liver pathologist in the assessment of NAFLD-NASH. Thereafter the student will build a supervised model upon the histopathological slides of 60-100 patients. When successful, the model will further be validated in larger cohorts. We expect that the thesis will results in a significant scientific publication. "
