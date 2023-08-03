@@ -1,6 +1,6 @@
 title: AI-based quantification of non-alcoholic steatohepatitis
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: vacancies/msc_nash.jpg
 template: project-single
@@ -16,11 +16,14 @@ To date, the gold standard to diagnose and stage severity of NAFLD-NASH is a liv
 The first major problem is an enormous interobserver variability. The severity that two independent pathologists ascribe to a histopathological slide differs in more than 50% of cases. As one can imagine, this severely influences a patient’s health, treatment and prognosis. In addition, the lack of consistency also seriously influences the research in NAFLD-NASH, where improvements due to novel therapies can be masked by interobserver variability.
 Second, a major problem and practical inevitability in the assessment of NASH histopathology by humans, is the categorical nature of severity score systems. When a histopathological slide contains 32% steatosis it is appraised one point, but when it is estimated to be 34%, the biopsy gets appraised two severity points. Therefore, this categorical nature implies a certain inaccurateness in the determination of the severity of the disease, and thereby has major consequences for both patients and the research field. 
 
-## Solution
-Although, the NAFLD-NASH research field cries out for the implementation of artificial intelligence (AI) in histopathology, this is still in early stages. Yet through the development and validation of a deep learning model, we can develop a standardized histopathological assessment with a continuous scale. Furthermore, AI models encompass the future of histopathological examination, and the developed models in the NAFLD-NASH domain can probably be extrapolated to the histopathological assessment of other diseases. 
-
 ## Data
 Currently, we have a growing cohort of patients with NAFLD-NASH, complete with medical records, imaging details, and scanned histopathological slides. In total, this database contains 60+ individuals with NAFLD-NASH. In addition, we have access to a cohort of ± 250 participants with liver biopsies, which can be used for further validation of the model. 
 
-## Approach
+## Methodology
+The goal of this project was to investigate how Artificial Intelligence can be used to support the pathologist in the histopathological assessment of NASH. For this, a segmentation pipeline and end-to-end classification method have been deployed. 
+The segmentation pipeline consists of two U-net segmentation models with EfficientNet-B4 backbones. The first segmentation model detects steatosis and inflammation in a H&E stained whole slide image (WSI), on a spacing of 0,5. The second model detects the portal regions in the WSI, on a spacing of 4,0. The portal regions are on a low level similar to inflammation, but are more easily distinguishable with more context. By predicting the portal regions we are able to combine the masks and remove wrongly detected inflammation spots near these regions. Afterwards, the background of the prediction mask will be corrected and a final post-processing containing several morphological operations will be done in order to remove small errors.
+
+The Clustering-constrained Attention Multiple Instance Learning (CLAM) pipeline has been used for the end-to-end classification. A total of 3 models have been made with the CLAM pipeline. The first model predicts the steatosis score of a WSI. However, steatosis 0 has been excluded due to a lack of samples. The second model predicts the absence and presence of ballooning. The final model predicts the presence of NASH based on the interpreted NAFLD activity score (NAS). Meaning that a score of 0 is not diagnostic of NASH, a score of 2 is diagnostic of NASH and a score of 1 is equally divided between not diagnostic, borderline and diagnostic of NASH.
+
+## Results
 Students will be supervised by a team of NAFLD-NASH experts from the Amsterdam UMC (dr. Onno Holleboom, and drs. Quinten Augustijn) and a team of experts in the field of deep learning in histopathology from the Radboud University (dr. ir. Geert Litjens and prof. dr. Jeroen van der Laak). Primarily based in Nijmegen, the student will develop a deep learning model for the assessment of NAFLD-NASH. The student will be trained by a liver pathologist in the assessment of NAFLD-NASH. Thereafter the student will build a supervised model upon the histopathological slides of 60-100 patients. When successful, the model will further be validated in larger cohorts. We expect that the thesis will results in a significant scientific publication.
