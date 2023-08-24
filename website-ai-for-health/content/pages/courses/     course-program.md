@@ -4,7 +4,7 @@ groups: ai-for-health
 picture: courses/XMG_20200925_142130.jpg
 
 ## Previous editions
-Here you can find the course programs of the <a href="https://www.ai-for-health.nl/courses/programs/first_edition/">first edition</a>, <a href="https://www.ai-for-health.nl/courses/programs/second_edition/">second edition</a>, <a href="https://www.ai-for-health.nl/courses/programs/third_edition/">third edition</a> and <a href="https://www.ai-for-health.nl/courses/programs/fourth_edition/">current fourth edition</a> of the course.
+Here you can find the course programs of the <a href="https://www.ai-for-health.nl/courses/programs/first_edition/">first edition</a>, <a href="https://www.ai-for-health.nl/courses/programs/second_edition/">second edition</a>, <a href="https://www.ai-for-health.nl/courses/programs/third_edition/">third edition</a> and <a href="https://www.ai-for-health.nl/courses/programs/fourth_edition/"> fourth edition</a> of the course. A detailed program of the 5th edition starting on September 8th 2023 will follow soon.
 
 ## What you need to know for the fifth edition of the course:
 
