@@ -1,6 +1,6 @@
 title: Extending a prostate cancer grading algorithm to other surgical entities
 groups: ai-for-health
-finished: false
+finished: true
 type: student 
 picture: vacancies/prostate_pathology.png
 template: project-single
@@ -23,19 +23,7 @@ In this project we combined data from public datasets PANDA (~6.000 annotated bi
 ![Screenshot from 2023-03-06 13-41-21](https://user-images.githubusercontent.com/22368424/223113608-a483e6ba-c282-449b-84f7-472a61efc623.png)
 
 ## Results
-The algorithm 
-will be made publically available as a Docker container on https://grand-challenge.org/.
+For an interactive demo we advise to use the baseline algorithm avaiable via Grand-Challenge: <a href="https://grand-challenge.org/algorithms/gleason-grading-of-prostate-biopsies/" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
 
 ## Conclusion
-Overall the evaluation of several strategies to extend a biopsy Gleason grading algorithm
-to radical prostatectomy slides revealed that the models are prone to fit on confounding
-features such as staining, leading to decreased performance compared to the baseline.
-To overcome this issue proper stain normalization is needed, and combined with the use
-of biopsy slides during training and the selection of regions that caused false positives
-in the baseline model this can help to improve the performance. The future work on
-this project can include improvements such as cycleGAN normalization and pixel level
-Gleason masks for prostatectomy samples. The results of the preliminary results indicate
-that fine-tuning a pre-trained biopsy algorithm can effectively reduce amount of false
-positive Gleason predictions while preserving good performance on accurately grading
-biopsy slides and tumor regions in prostatectomy slides. This will potentially lead to an
-overall improvement in the accurate grading of radical prostatectomy slides.
+Overall the evaluation of several strategies to extend a biopsy Gleason grading algorithm to radical prostatectomy slides revealed that the models are prone to fit on confounding features such as staining, leading to decreased performance compared to the baseline. To overcome this issue proper stain normalization is needed, and combined with the use of biopsy slides during training and the selection of regions that caused false positives in the baseline model this can help to improve the performance. The future work on this project can include improvements such as cycleGAN normalization and pixel level Gleason masks for prostatectomy samples. The results of the preliminary results indicate that fine-tuning a pre-trained biopsy algorithm can effectively reduce amount of false positive Gleason predictions while preserving good performance on accurately grading biopsy slides and tumor regions in prostatectomy slides. This will potentially lead to an overall improvement in the accurate grading of radical prostatectomy slides.
