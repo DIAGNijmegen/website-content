@@ -2,7 +2,7 @@ title: Color deconvolution for color-agnostic and cross-modality analysis of imm
 groups: ai-for-health
 finished: true
 type: student
-picture: projects/lymphocytes_ihc_mif.jpg
+picture: projects/lymphocyte_multimodality.png
 template: project-single
 people: Carlijn Lems, Leander van Eekelen, Francesco Ciompi 
 description: Applying models trained on immunohistochemistry data to differently-stained and multiplex immunofluorescence data
@@ -27,6 +27,8 @@ In this project, we developed an approach for making AI models for automated qua
 
 The core principle of our approach is to replace the RGB input typically used to train deep learning algorithms with a combination of relevant density channels extracted from the image itself, such as the intensity of nuclei and the intensity of the chromogen attached to the targeted protein in IHC. For 'unmixing' RGB images into stain density channels, our approach leverages color deconvolution based on initial work developed in our group (Geijs _et al._ 2018, 10.1117/12.2293734).
 
+![lymphocyte-multimodality]({{ IMGURL }}/images/projects/lymphocyte_multimodality_approach.png)
+
 Since the input of the deep learning model is no longer an RGB image but instead pure density channels, the algorithm can be applied to IHC data stained with a different chromogen without the need to train on all possible chromogen variations. Moreover, the same algorithm can be _de facto_ applied to other imaging modalities such as mIF by taking combinations of intensity channels like DAPI for nuclei and specific antibody channels for targeted cells. Without the need for collecting, curating, and annotating new training data for deep learning in mIF, our approach allows the reusing of large-scale digitalized archival material and corresponding annotations to bring deep learning-based quantification to the field of spatial biology and biomarker discovery in mIF.
 
 ## Data
@@ -49,6 +51,8 @@ We applied our approach to a modified version of a published U-Net (Swiderska-Ch
 | | | Unmixed | 0.62 &plusmn; 0.02 | 0.46 &plusmn; 0.02 | 0.96 &plusmn; 0.02 |
 | MSKCC | mIF | RGB<sub>artificial-IHC</sub> | 0.44 &plusmn; 0.17 | 0.74 &plusmn; 0.31 | 0.32 &plusmn; 0.11 |
 | | | Unmixed | 0.72 &plusmn; 0.02 | 0.73 &plusmn; 0.04 | 0.72 &plusmn; 0.05 |
+
+![lymphocyte-multimodality]({{ IMGURL }}/images/projects/lymphocyte_multimodality_results.png)
 
 Both networks achieved a similar lymphocyte detection performance on the LYON19 dataset (avg. F1-scores of 0.78-0.79), indicating that our approach is on par with standard RGB when training and testing on single-stained IHC data with the same chromogen. In addition, the performance of the unmixed-trained network on the differently-stained CRC dataset (avg. F1-score of 0.74) shows that our method makes IHC-trained algorithms color-agnostic, although it did not outperform the artificial simplex IHC approach (avg. F1-score of 0.82). Lastly, the detection performance of the unmixed-trained network on the PIN and MSKCC datasets (avg. F1-scores of 0.62 and 0.72) demonstrates that our method makes algorithms applicable to mIF imaging, even more so than the artificial bright-field IHC approach (avg. F1-scores of 0.50 and 0.44). In conclusion, we developed an approach for making bright-field IHC deep learning models in digital pathology color-agnostic and applicable to mIF imaging.
 
