@@ -3,7 +3,7 @@ name: Giulia Nicoletti
 template: people-single
 picture: people/Giulia_Nicoletti.png
 position: PhD Candidate
-active: no
+active: yes
 groups: diag, pathology
 default_group: pathology
 email: giulia.nicoletti@polito.it
