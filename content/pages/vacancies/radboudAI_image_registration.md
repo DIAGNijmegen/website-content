@@ -1,4 +1,4 @@
-![image](https://github.com/DIAGNijmegen/website-content/assets/50983849/7fb66c10-16f6-44a0-bb46-bfc0b6c25a49)title: PhD position on deep-learning-based image registration
+title: PhD position on deep-learning-based image registration
 groups: diag
 closed: false
 type: general 
