@@ -1,7 +1,6 @@
 title: Weiyi Xie successfully defends PhD thesis
 date: 2023-08-29
 picture: news/defense_weiyi_xie_16_9_ratio.jpg
-status: draft
 description: Weiyi Xie successfully defends his PhD thesis on deep learning for treatment planning in chronic obstructive pulmonary diseases.
 groups: diag
 
