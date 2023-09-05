@@ -21,7 +21,7 @@ At the same time, it is possible to target multiple types of cells on the same t
 
 ## Solution
 
-In this project, we developed an approach for making AI models for automated quantification in digital pathology applicable across three domains: standard immunohistochemistry in bright-field microscopy, immunohistochemistry using different chromogens, and multiplex immunofluorescence.
+In this project, we developed an approach for making AI models for automated quantification in digital pathology applicable across two domains: standard immunohistochemistry in bright-field microscopy using different chromogens, and multiplex immunofluorescence.
 
 ## Approach
 
@@ -39,7 +39,7 @@ For application to mIF data, we used two datasets with markers for both nuclei a
 
 ## Results
 
-We applied our approach to a modified version of a published U-Net (Swiderska-Chadaj _et al._ 2019, 10.1016/j.media.2019.101547) and compared it with an RGB-trained baseline on all four datasets. For a fair comparison, we applied the RGB-trained network to artificially generated (bright-field) simplex IHC versions of the mIHC and mIF datasets. The table below presents the F1-score, precision, and recall (average &plusmn; standard deviation over five experiments) of the RGB- and unmixed-trained networks, and the figure shows the network predictions together with the annotations for one patch of each test set.
+We applied our approach to a modified version of a published U-Net (Swiderska-Chadaj _et al._ 2019, 10.1016/j.media.2019.101547) and compared it with an RGB-trained baseline on all four datasets. For a fair comparison, we applied the RGB-trained network to artificially generated bright-field simplex IHC versions of the mIHC and mIF datasets. The table below presents the F1-score, precision, and recall (average &plusmn; standard deviation over five experiments) of the RGB- and unmixed-trained networks, and the figure shows the network predictions together with the annotations for one patch of each test set.
 
 | Dataset | Type | Method | F1-score | Precision | Recall |
 |----------|----------|----------|----------|----------|----------|
@@ -56,6 +56,4 @@ We applied our approach to a modified version of a published U-Net (Swiderska-Ch
 
 Both networks achieved a similar lymphocyte detection performance on the LYON19 dataset (avg. F1-scores of 0.78-0.79), indicating that our approach is on par with standard RGB when training and testing on single-stained IHC data with the same chromogen. In addition, the performance of the unmixed-trained network on the differently-stained CRC dataset (avg. F1-score of 0.74) shows that our method makes IHC-trained algorithms color-agnostic, although it did not outperform the artificial simplex IHC approach (avg. F1-score of 0.82). Lastly, the detection performance of the unmixed-trained network on the PIN and MSKCC datasets (avg. F1-scores of 0.62 and 0.72) demonstrates that our method makes algorithms applicable to mIF imaging, even more so than the artificial bright-field IHC approach (avg. F1-scores of 0.50 and 0.44). In conclusion, we developed an approach for making bright-field IHC deep learning models in digital pathology color-agnostic and applicable to mIF imaging.
 
-The final report is going to be submitted as a conference paper to the International Symposium on Biomedical Imaging (ISBI) and will hence be added later. The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/pathology-stain-agnostic-training). The algorithm is publicly available on Grand-Challenge:
-
-<a href="https://grand-challenge.org/algorithms/TBD" class="btn btn-primary btn-lg my-3">Try out the algorithm</a>
+The final report is going to be submitted as a conference paper to the International Symposium on Biomedical Imaging (ISBI) 2024 and will hence be added later. The code for this project can be found in this [GitHub repository](https://github.com/DIAGNijmegen/pathology-stain-agnostic-training).
