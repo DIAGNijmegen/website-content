@@ -1,7 +1,7 @@
 title: Michel Vitale
 name: Michel Vitale
 template: people-single
-picture: people/Michel_Vitale.jpg
+picture: people/Michel_Vitale.jpeg
 position: PhD Candidate
 active: yes
 groups: diag
