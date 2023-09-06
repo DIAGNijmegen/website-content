@@ -1,5 +1,5 @@
 title: Podcast on the use of AI in population screening for lung cancer
-date: 2023-08-29
+date: 2023-09-06
 picture: news/podcast_ai_for_life.jpg
 description: The AI for Life podcast discusses the use of AI in population screening for lung cancer
 groups: diag
