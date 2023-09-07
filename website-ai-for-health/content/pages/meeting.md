@@ -17,16 +17,17 @@ The slides for past presentations are available by clicking on the links in the 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
 | 07-09-2023 | Carlijn Lems | TBA | Skatecourt, route 14, Experience Center |
-| 24-08-2023 | Steffan Borgers | TBA | Skatecourt, route 14, Experience Center |
-| 17-08-2023 | Hermen van Westen <br> Rianne-Margot Koelewijn | TBA | Skatecourt, route 14, Experience Center |
-| 27-07-2023 | Thijs Schoppema <br> Nohemi Sofia Leon Contreras | AI-based Histopathological Analysis of NAFLD | Skatecourt, route 14, Experience Center |
-| 20-07-2023 | Ali Khan <br> Lex Bosch | TBA | Skatecourt, route 14, Experience Center |
-| 13-07-2023 | Niels van Hoeffelen & Bob Sanders <br> Mar Navarro Padilla | Few-shot learning for medical image segmentation <br> Hip osteoarthritis| Skatecourt, route 14, Experience Center |
+
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 24-08-2023 | Steffan Borgers | TBA |
+| 17-08-2023 | Hermen van Westen <br> Rianne-Margot Koelewijn | TBA |
+| 27-07-2023 | Thijs Schoppema <br> Nohemi Sofia Leon Contreras | AI-based Histopathological Analysis of NAFLD |
+| 20-07-2023 | Ali Khan <br> Lex Bosch | TBA | 
+| 13-07-2023 | Niels van Hoeffelen & Bob Sanders <br> Mar Navarro Padilla | Few-shot learning for medical image segmentation <br> Hip osteoarthritis|
 | 29-06-2023 | Celena Jordaan | AI-designed 3D prothesis for 3D printing in third world countries |
 | 22-06-2023 | Thijs Schoppema <br> Anton Ligterink | AI-based Histopathological Analysis of NAFLD <br> Spying on parasites: using deep learning to quantify the interactions between malaria parasites and human liver cells |
 | 25-05-2023 | Steffan Borgers <br> Hermen van Westen | Interventional reconstruction AI for real-time needle tracking in MRI <br> Quality assessment of ultrasound images for diagnosis of developmental hip dysplasia |
