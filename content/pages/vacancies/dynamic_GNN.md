@@ -1,6 +1,6 @@
 title:  Dynamic graph network simulator for peptide-MHC-I structures 
 groups: ai-for-health
-closed: false
+closed: True
 type: student 
 picture: vacancies/dynamic_GNN.png
 template: vacancy-single
