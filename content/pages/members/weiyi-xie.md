@@ -3,7 +3,7 @@ name: Weiyi Xie
 template: people-single
 picture: people/Xie_Weiyi.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: weiyi.xie@radboudumc.nl
