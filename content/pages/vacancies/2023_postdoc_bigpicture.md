@@ -1,6 +1,6 @@
 title: Postdoc Artificial Intelligence for Improving Toxicological Pathology
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/KidneyDLpatho.jpg
 people: Francesco Ciompi, Geert Litjens, Jeroen van der Laak
