@@ -3,7 +3,7 @@ name: Solène-Florence Kammerer-Jacquet
 template: people-single
 picture: people/Solene_Florence_Kammerer_Jacquet.jpg
 position: Visiting Professor
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: solene-florence.jacquet-kammerer@radboudumc.nl
