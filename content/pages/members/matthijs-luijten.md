@@ -3,7 +3,7 @@ name: Matthijs Luijten
 template: people-single
 picture: people/Matthijs_Luijten.png
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: 
