@@ -8,7 +8,7 @@ people: Gonzalo Rodriguez Esteban, Jos Thannhauser, Rick Volleberg, Silvan Quax,
 description: Development of a model for the automatic analysis of intracoronary optical coherence tomography (OCT) images obtained during cardiac catheterization in patients with acute myocardial infarction 
 
  **Start date: 28-11-2022** <br>
- **End date: 28-05-2022**
+ **End date: 28-09-2022**
  
 ## Clinical Problem
 Acute myocardial infarction (MI), also known as a “heart attack”, is a life threatening condition that occurs when blood supply to the heart is decreased or stopped, usually as a result of narrowing / blockage of a coronary artery due to atherosclerotic disease. In patients with MI, coronary angiography (CAG) is usually performed to localize the occluded artery, known as the culprit lesion, and to treat this artery by placing a stent (Dotter procedure). In some cases, more than one lesion is found during CAG. As of yet, it remains largely unknown whether it is beneficial to treat these non-culprit lesions in patients with so-called multi-vessel disease. To date, we cannot accurately predict which atherosclerotic plaques are vulnerable and have a high risk of causing an MI in the future, and which plaques are relatively safe.
