@@ -19,15 +19,17 @@ Currently, however, the use of OCT in daily clinical practice is limited due to 
 
 ## Solution
 A semantic segmentation algorithm based on the no-new U-Net (nnU-Net) architecture was developed that segments 12 different targets (lumen, guidewire, intima, lipid, calcium, media, catheter, sidebranch, red and white thrombus, dissection and plaque rupture) in intracoronary OCT scans. A total of 4 models were trained: one of them was trained on 2D OCT frames, and the other three were trained on pseudo 3D input, in which k frames before and after the frame with the ground truth annotation are also included as input. Thus, we trained these three models using k = 1, k = 2 and k = 3 frames before and after. As preprocessing steps, a circular mask and resizing interpolator are employed to create a curated dataset suitable for training. The figure below shows the preprocessing and training framework, considering the 2D and pseudo 3D with k = 3 cases
+
+ ![nnunet-framework]({{ IMGURL }}/images/projects/nnunet_framework_cardiac_oct.png)
  
-({{ IMGURL }}/images/projects/nnunet_framework_cardiac_oct.png) 
 _Preprocessing and training frameworks, for the 2D case and the k = 3 case for the pseudo 3D model._
 
 
 After the model training, a post-processing framework based on automatic lipid and calcium measurements is designed, based on the predicted segmentations. This automated analysis measures the Fibrous Cap Thickness (FCT) and lipid arc for lipid, assesing for Thin-Cap Fibroatheroma (TCFA) detection, and the calcium arc, thickness and depth for calcium. A threshold for lipid and calcium size is estimated by computing the ROC curves and finding the mimumum nº of pixels that a lipid or calcium region must contain in order to consider it as such. A final analysis addresses for the "black-box" problem that many DL models suffer. This is done by retrieving the features maps after each convolutional layer for Explainable AI (XAI). For uncertainty estimation, the reliability curves and the total Expected Calibration Error (ECE), including the ECE for lipid and calcium, for the test set are obtained. Further uncertainty analysis on the final probability maps are performed in order to validate these maps as a measure for uncertainty, focusing into lipid and calcium regions. The entropy per pixel is also obtained in order to perform correlation analysis between the entropy on lipid and calcium regions with the DICE score. The figure below shows this post-processing framework for a predicted segmentation.
 
 
-({{ IMGURL }}/images/projects/oct_post_proc_framework.png)
+![post-proc-framework]({{ IMGURL }}/images/projects/oct_post_proc_framework.png)
+
 _Post-processing framework, from the automated measurements on lipid calcium, to XAI and uncertainty estimation analysis._
 
 ## Data
