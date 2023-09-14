@@ -17,8 +17,6 @@ Optical coherence tomography (OCT) is a relatively new imaging modality within i
 
 Currently, however, the use of OCT in daily clinical practice is limited due to a lack of training for assessment and analysis of OCT-acquired pullbacks. In the current project, we aim at easing the use of OCT by means of artificial intelligence (AI), thereby increasing the availability of AI-based OCT algorithms for clinical decision making, and eventually improving patients’ health.
 
-![image]({{ IMGURL }}/images/projects/cardiac-oct.png)
-
 ## Solution
 
 A semantic segmentation algorithm based on the no-new U-Net (nnU-Net) architecture was developed that segments 12 different targets (lumen, guidewire, intima, lipid, calcium, media, catheter, sidebranch, red and white thrombus, dissection and plaque rupture) in intracoronary OCT scans. A total of 4 models were trained: one of them was trained on 2D OCT frames, and the other three were trained on pseudo 3D input, in which k frames before and after the frame with the ground truth annotation are also included as input. Thus, we trained these three models using k = 1, k = 2 and k = 3 frames before and after. As preprocessing steps, a circular mask and resizing interpolator are employed to create a curated dataset suitable for training. Figure 1 shows the preprocessing and training framework.
