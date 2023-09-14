@@ -3,7 +3,7 @@ name: Thijs Schoppema
 template: people-single
 picture: people/Thijs_Schoppema.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology, ai-for-health
 default_group: pathology
 email: thijs.schoppema@ru.nl
