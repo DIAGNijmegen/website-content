@@ -77,3 +77,5 @@ title: Former employees
 - [Suzan Vreemann](http://www.linkedin.com//pub/suzan-vreemann/50/776/468)
 - [Jan van Zelst](https://www.linkedin.com/in/jan-van-zelst-22942a17/)
 - [Bart Liefers](https://www.linkedin.com/in/bart-liefers-2aa4041a5/)
+- [Nico Karssemeijer](https://www.linkedin.com/in/nico-karssemeijer-34685590/)
+- [Riccardo Samperna](https://www.linkedin.com/in/riccardosamperna/)

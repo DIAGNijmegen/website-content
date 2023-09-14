@@ -26,6 +26,7 @@ TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
 FOOTER_TEXT = ""
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
+FOOTER_IMAGE = 'umc_logo.png'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
@@ -41,7 +42,7 @@ NAV_SECTIONS = [
 ENABLE_BREADCRUMBS = True
 
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
-HOME_SECTIONS = {"Vacancies": "Vacancies", "Software": "Software", "Members": "Members"}
+HOME_SECTIONS = {"Vacancies": "Vacancies", "Software": "Software"}
 
 # URLs
 SITEURL = ""
@@ -114,4 +115,5 @@ PLUGINS = [
     "imgutil",
     "inline_extend",
     "content_aggregator",
+    "grouputil",
 ]

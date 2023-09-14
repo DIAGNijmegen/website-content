@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block description %}{{ SITE_GROUP }}{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+{% include 'blocks/breadcrumbs.html' %}
+<div class="container">
+    {% set members = pages | selectattr('category', 'equalto', 'members') | sort_slug_by_last %}
+    <h1 class="text-muted">Former members</h1>
+    {% for person in members if (person.active == 'yes' and SITE_GROUP in person.previous_groups) or person.active == 'no' %}
+            {% if person.linkedin %}
+                <li><a href="{{ person.linkedin }}">{{ person.name }}</a></li>
+            {% else %}
+                <li>{{ person.name }}</li>
+            {% endif %}
+    {% endfor %}
+{% endblock %}

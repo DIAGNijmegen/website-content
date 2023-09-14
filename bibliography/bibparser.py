@@ -5,6 +5,7 @@ import codecs
 import glob
 import os
 import numpy as np
+import sys
 
 from mdfiles import create_author_md_files, create_publication_md, create_group_md_files
 from authors import get_list_researchers, get_publications_by_author
@@ -80,7 +81,7 @@ def sort_bib_keys_author(author_bib_keys, bib_items):
     return bib_items_per_author_per_date
 
 
-def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
+def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers, bibfile):
     _types = [
         "article",
         "preprint",
@@ -105,43 +106,43 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers):
 
     # compute all years per group
     for group in groups:
-        group_keys_sorted = sorted(
-            group_keys[group],
-            key=lambda item: bib_items[item]["pmidnumber"],
-        )[::-1]
+        if (group == 'cara-lab' and bibfile == 'cara') or (group != 'cara-lab' and bibfile == 'diag'):
+            group_keys_sorted = sorted(
+                group_keys[group],
+                key=lambda item: bib_items[item]["pmidnumber"],
+            )[::-1]
 
-        for key in group_keys_sorted:
-            bib_items_per_group_per_date[group].setdefault(
-                bib_items[key]["year"], []
-            ).append(key)
-            bib_items_per_group_per_date[group].setdefault("__types__", []).append(
-                bib_items[key]["type"]
-            )
+            for key in group_keys_sorted:
+                bib_items_per_group_per_date[group].setdefault(
+                    bib_items[key]["year"], []
+                ).append(key)
+                bib_items_per_group_per_date[group].setdefault("__types__", []).append(
+                    bib_items[key]["type"]
+                )
 
-        bib_items_per_group_per_date[group]["__years__"] = sorted(
-            set(
-                [
-                    y
-                    for y in bib_items_per_group_per_date[group].keys()
-                    if isinstance(y, int)
-                ]
-            )
-        )[::-1]
-        bib_items_per_group_per_date[group]["__types__"] = [
-            t for t in _types if t in bib_items_per_group_per_date[group]["__types__"]
-        ]
-        # TODO sort by month
+            bib_items_per_group_per_date[group]["__years__"] = sorted(
+                set(
+                    [
+                        y
+                        for y in bib_items_per_group_per_date[group].keys()
+                        if isinstance(y, int)
+                    ]
+                )
+            )[::-1]
+            bib_items_per_group_per_date[group]["__types__"] = [
+                t for t in _types if t in bib_items_per_group_per_date[group]["__types__"]
+            ]
+            # TODO sort by month
     return bib_items_per_group_per_date
 
 
 @timeit
 def parse_bib_file():
     print("parsing bib file...")
-    bib_items = parse_bibtex_file("./content/diag.bib", "./content/fullstrings.bib")
+    bib_items = parse_bibtex_file("./content/{}.bib".format(sys.argv[1]), "./content/fullstrings.bib")
 
     print("retreiving list of diag members")
     list_researchers = get_list_researchers("./content/pages/members/")
-
     print("mapping bib keys to authors")
     author_bib_keys = get_publications_by_author(bib_items, list_researchers)
 
@@ -149,16 +150,16 @@ def parse_bib_file():
     print("sorting...")
     bib_items_per_author_per_date = sort_bib_keys_author(author_bib_keys, bib_items)
     bib_items_per_group_per_date = sort_bib_keys_group(
-        author_bib_keys, bib_items, list_researchers
+        author_bib_keys, bib_items, list_researchers, sys.argv[1]
     )
 
     # saving
     print("saving bibitems.json")
-    save_dict2json("./content/bibitems.json", bib_items)
+    save_dict2json("./content/bibitems_{}.json".format(sys.argv[1]), bib_items)
     print("saving authorbibkeys.json")
-    save_dict2json("./content/authorkeys.json", bib_items_per_author_per_date)
+    save_dict2json("./content/authorkeys_{}.json".format(sys.argv[1]), bib_items_per_author_per_date)
     print("saving groupbibkeys.json")
-    save_dict2json("./content/groupkeys.json", bib_items_per_group_per_date)
+    save_dict2json("./content/groupkeys_{}.json".format(sys.argv[1]), bib_items_per_group_per_date)
 
     return (
         bib_items,
@@ -177,10 +178,10 @@ if __name__ == "__main__":
     ) = parse_bib_file()
 
     print("creating author md files")
-    create_author_md_files(bib_items_per_author_per_date, list_researchers)
+    create_author_md_files(sys.argv[1], bib_items_per_author_per_date, list_researchers)
 
     print("creating group md files")
     create_group_md_files(bib_items, bib_items_per_group_per_date)
 
     print("creating publication md files")
-    create_publication_md(bib_items, bib_items_per_author_per_date, list_researchers)
+    create_publication_md(sys.argv[1], bib_items, bib_items_per_author_per_date, list_researchers)

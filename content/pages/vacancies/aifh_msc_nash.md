@@ -1,6 +1,6 @@
 title: AI-based quantification of non-alcoholic steatohepatitis
 groups: ai-for-health, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/msc_nash.jpg
 template: vacancy-single

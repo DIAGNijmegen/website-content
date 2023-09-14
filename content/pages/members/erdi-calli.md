@@ -3,7 +3,7 @@ name: Erdi Calli
 template: people-single
 picture: people/Erdi_Calli.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: erdi.calli@radboudumc.nl

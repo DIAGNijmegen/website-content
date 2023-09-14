@@ -1,7 +1,7 @@
 title: Leander van Eekelen
 name: Leander van Eekelen
 template: people-single
-picture: people/Leander_van_Eekelen.jpg
+picture: people/Leander_van_Eekelen_2023.jpeg
 position: PhD Candidate
 active: yes
 groups: diag, pathology

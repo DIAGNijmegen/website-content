@@ -1,6 +1,6 @@
 title: Individualised endometrial cancer risk stratification by Bayesian prediction model (ENDORISK), optimizing the model for clinical implementation
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/ENDORISK.jpg
 template: vacancy-single

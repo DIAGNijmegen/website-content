@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: projects/hipoa.png
 template: project-single
-people: Mar Navarro, Walter van der Weegen, Rintje Agricola, Bram van Ginneken, Matthieu Rutten, Silvan Quax
+people: Mar Navarro Padilla, Walter van der Weegen, Rintje Agricola, Bram van Ginneken, Matthieu Rutten, Silvan Quax
 description: We want to develop deep learning algorithms for detection and grading of hip osteoartritis.
 
 **Start date: 01-01-2023** <br>
@@ -21,16 +21,3 @@ The World COACH consortium, a worldwide collaboration of 8 prospective cohorts o
 
 ## Results
 When the algorithm has sufficient sensitivity and specificity it will be evaluated in practice.
-
-## Embedding 
-The student will be supervised by a team with expertise in deep learning and musculoskeletal radiology and orthopedics at Radboudumc. For model development, we provide access to our deep learning GPU cluster Sol.
-
-## Requirements 
-- Students Artificial Intelligence, Data Science, Computer Science, Bioinformatics, Biomedical Engineering or similar in the final stages of their Master education. 
-- You should be proficient in Python programming and have a theoretical understanding of deep learning architectures.
-- Experience with medical images is beneficial.
-
-## Information 
-- Project duration: 6 months 
-- Location: Radboud University Medical Center 
-- For more information or to apply for this project, please contact [member/bram-van-ginneken].

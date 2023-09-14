@@ -1,6 +1,6 @@
 title: Scoliosis simulation for improving a segmentation and labelling algorithm
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: projects/scoliosis_modeling.jpg
 template: project-single
@@ -15,9 +15,26 @@ Artificial intelligence in medical imaging, is a rapidly innovating field which 
 
 Automatic segmentation and labeling can be performed using convolutional neural networks. These offer the ability to sequentially segment and label vertebrae in different images. These convolutional neural networks are trained in an iterative process where the algorithm is corrected based one a pre-labeled database. To increase the accuracy of the network while avoiding overfitting, a large training set is needed. Existing training data mostly exists of relatively normal spine curvatures, limiting the accuracy of the image analysis algorithm. To increase the robustness of the network, the training data should be extended with a large number of images from deformed spines. A suitable database of labeled and segmented deformed spines is not available and manual labeling and segmentation is enormously time consuming. A possible solution is to generate this data by adapting images of regular spines. 
 
-## Aim of the project
-This project aims to generate deformed spinal images from images of regular spines. Normal spine shapes are used to develop a parametric graph model of the spine. These can then be deformed based on values from the literature into e.g. realistic scoliotic curvatures. 
+<!--![scoliosis-simulation]({{ IMGURL }}/images/projects/scoliosis_simulation_clinical_problem.png)-->
 
-The first step in this project would be to identify realistic curvatures from deformed spines and describe them in functions. With these functions, we can model synthetic spinal shapes and deform pre-segmented and pre-labeled CT and MR images to generate training data in MATLAB. 400 CT scans and 100 MR scans are available for adaptation. This additional training is then added to the overall dataset to train the segmentation and labeling algorithm. Finally, testing of the adapted algorithm will prove if the additional training data increased the robustness of the model and improved segmentation and labeling in a test dataset of at least 20 real scoliotic spines. 
+## Methods
+CT scans were transformed according to a scan-specific 3D spinal model that was deformed to resemble a scoliosis curve. For an individual CT scan, a 3-dimensional model was created, which was deformed according to a 2-dimensional model, representing a clinical scoliosis curve. After the deformation of the 3-dimensional model and interpolation of the displacement vectors per voxel, the entire image and segmentation mask were deformed into a simulated scoliosis.
 
-The segmentation accuracy will be evaluated with the most commonly used metrics of the available dataset: The Dice coefficient to measure the volume overlap and the average Absolute Symmetric Surface Distance (ASSD) to measure the accuracy of the segmentation of the surface of the vertebrae. These metrics will be calculated for each vertebrae and will be averaged across all scans.  The identification accuracy will be evaluated by the percentage of vertebrae that were assigned correct anatomical label. The magnitude of the mistakes is measured using the kappa coefficient, which attributes a larger error to larger labeling mistakes (distant different vertebrae). The complete accuracy will be measured with the classification accuracy and the average number of false positives and false negatives per scan. A false positive is characterized as a vertebra which was classified as completely visible by the algorithm, which was not completely visible in the scan. A false negative is a completely visible vertebra on the scan which was classified as not completely visible. 
+<!--![scoliosis-simulation]({{ IMGURL }}/images/projects/scoliosis_simulation_method.png)-->
+
+With the described method, 54 simulated scoliosis cases were created, which were split 42:12 between a training set and a test set. The 42 cases were used to retrain a segmentation and labelling algorithm. The results of this retrained algorithm were quantitatively compared against the results of the original algorithm on the 12 test cases. A reader study qualitatively evaluated both algorithms on 30 cases of clinical scoliosis.
+
+<!--![scoliosis-simulation]({{ IMGURL }}/images/projects/scoliosis_simulation_method_2.png)-->
+
+## Results
+In the simulated test cases of scoliosis, segmentation performance increased from a Dice coefficient of 61.5% to 93.6% (p<0.001), and labelling accuracy increased from 71.8% to 100% (p<0.001 ) after retraining of the model. Qualitative evaluation of clinical cases showed a significant reduction of vertebrae with small segmentation errors (from 14.3% to 7.6%, p = 0.02) and vertebrae with severe segmentation errors (from 12.7% to 3.3%, p<0.001). Segmentation and labelling performance in normal cases was similar for both algorithms. As the example in the image below demonstrates, the retrained algorithm performed more accurately and robustly on clinical scoliosis cases. 
+
+<!--![scoliosis-simulation]({{ IMGURL }}/images/projects/scoliosis_simulation_results.png)-->
+
+## Conclusion
+Scoliosis simulation proved to be an effective method for smart data augmentation to improve the robustness of the segmentation and labelling algorithm in scoliosis cases. Our improved model can be used to automatically generate additional training cases or could aid in corrective surgical planning and execution. 
+
+A demo of the retrained algorithm is accessible via [Grand-Challenge](https://grand-challenge.org/algorithms/vertebra-segmentation/):
+
+The report of this project can be found [here](https://drive.google.com/file/d/1GUXhtXsTOu9n1nwQmMxxOuUiJspaDq5k/view?usp=sharing).
+

@@ -16,7 +16,7 @@ Yes. This course enables researchers to get much more out of their data by using
 Yes. This course is also important for support staff of the hospital. AI will change the way we work in the hospital and hence what is asked in terms of supporting facilities. Storing, accessing and sharing data is becoming increasingly important, while privacy and ethical concerns regarding AI systems should be addressed. This course enables support staff to understand what is behind the new technologies being introduced in the hospital and help facilitate their implementation in a safe and responsible way.
 
 ##What are the costs of the course?
-The course is free if you are working for RadboudUMC. For external participants, the cost of participation is €7500.-
+The course is free if you are working for RadboudUMC. For external participants, the cost of participation is <b>€7500.- for the full track</b> and <b>€5500.- for the light track</b>.
 
 ##I don’t have any programming experience, is that a problem?
 This is not a problem. If you want to develop your programming skills to implement AI applications yourself, we remommend the <b>full track</b>. You can make use of the subscription we provide to RealPython.com to learn these programming skills. If you do not have the ambition to learn how to program, but rather want to focus on understanding the principles behind machine learning, deep learning, etc, or develop yourself to being a linking pin between clinicians and data scientists, then we recommend the <b>light track</b>.
@@ -28,7 +28,7 @@ That is not a problem. This course starts with the basic of AI and does not requ
 This is not needed. The course has been tailored such that all important concepts can be understood without much math expertise. 
 
 ##How much time should I invest? 
-The course consists of 17 full Fridays and one Friday where project results are presented during a graduation ceremony (approximately 2 hours). We expect participants to spend about 2-3 hours a week to prepare for classes and/or work on the group project.
+The course consists of 15 full Fridays and one Friday where project results are presented during a graduation ceremony (approximately 2 hours). We expect participants to spend about 2-3 hours a week to prepare for classes and/or work on the group project.
 
 ##Do I have to bring my own project?
 We encourage participants to bring their own project, but this is not mandatory. During the first weeks of the course, we select a few projects such that you can work on a project together with four other participants. Group projects are mentored by AI experts.

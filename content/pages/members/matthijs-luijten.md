@@ -3,10 +3,11 @@ name: Matthijs Luijten
 template: people-single
 picture: people/Matthijs_Luijten.png
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: 
+linkedin: https://www.linkedin.com/in/matthijsluijten/
 office: 
 type: student
 

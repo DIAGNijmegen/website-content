@@ -3,7 +3,7 @@ name: Jianpeng An
 template: people-single
 picture: people/Jianpeng_An.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: anjianpeng@tju.edu.cn

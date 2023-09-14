@@ -31,6 +31,7 @@ PARENT_DOMAIN = (
     '<a href="http://www.diagnijmegen.nl">Diagnostic Image Analysis Group</a>'
 )
 HOME_JUMBOTRON_LAYOUT = "dense"
+FOOTER_IMAGE = 'umc_logo.png'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
@@ -60,9 +61,6 @@ ENABLE_BREADCRUMBS = True
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {
     "News": "News",
-    "Vacancies": "Vacancies",
-    "Projects": "Projects",
-    "Members": "Members",
 }
 
 PATH = "content"
@@ -135,6 +133,7 @@ PLUGINS = [
     "imgutil",
     "inline_extend",
     "content_aggregator",
+    "grouputil",
 ]
 
 # Other

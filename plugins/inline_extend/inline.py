@@ -88,14 +88,30 @@ def create_gc_card_not_found(identifier, slug):
 
 def query_gc_api(identifier, slug):
     slug = slug.strip()
+
     try:
         info = requests.get(f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
-        info = info.json()
-        html = create_gc_card(info['results'][0])
     except Exception as e:
+        print('Request error', f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
+        print('requests version:', requests.__version__)
         print(e)
-        html = create_gc_card_not_found(identifier, slug)
-    return html
+        return create_gc_card_not_found(identifier, slug)
+    try:
+        info = info.json()
+    except Exception as e:
+        print("To JSON error")
+        print('request:', f"https://grand-challenge.org/api/v1/{identifier}/?slug={slug}")
+        print('requests version:', requests.__version__)
+        print(e)
+        return create_gc_card_not_found(identifier, slug)
+   
+    try:
+        return create_gc_card(info['results'][0])
+    except Exception as e:
+        print('Create gc card error')
+        print(e)
+        return create_gc_card_not_found(identifier, slug)
+
 
 
 def parse_grand_challenge_tag(text):

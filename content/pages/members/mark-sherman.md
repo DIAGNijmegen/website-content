@@ -3,7 +3,7 @@ name: Mark E. Sherman
 template: people-single
 picture: people/Mark_Sherman.jpg
 position: Visiting Professor
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Sherman.Mark@mayo.edu

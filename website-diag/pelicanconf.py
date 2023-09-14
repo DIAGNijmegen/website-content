@@ -21,7 +21,7 @@ SITE_REPO = "website-diag"
 SITE_GROUP = "diag"
 
 # Home page, layout and social settings
-SITELEAD = "The Diagnostic Image Analysis Group is part of the Departments of Imaging, Pathology, Ophthalmology, and Radiation Oncology of Radboud University Medical Center. We develop computer algorithms to interpret and process medical images."
+SITELEAD = "The Diagnostic Image Analysis Group is part of the Departments of Imaging, Pathology, Radiation Oncology, Cardiology, and Neurology of Radboud University Medical Center. We develop computer algorithms to interpret and process medical images."
 SITE_PICTURE = "images/social/missing_picture_social.png"
 NUM_NEWS_HOME_PAGE = 4
 HOME_IMAGE = "highlight"
@@ -32,6 +32,7 @@ TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 HOME_JUMBOTRON_LAYOUT = "dense"
 CSS_THEME = "diag-theme"
+FOOTER_IMAGE = 'umc_logo.png'
 
 # What sections to show in the nav bar
 # For diag the text is shown in viewports lg and up, below that only the icon is shown
@@ -81,7 +82,10 @@ NAV_SECTIONS = [
         "text_class": "d-lg-block",
     },
 ]
-
+ARTICLE_EXCLUDES = ['templates']
+TEMPLATE_PAGES = {
+    'templates/list_previous.html': 'list_previous.html',
+}
 # What sections to show on homepage (current options that you customizable: {section_name: custom_name})
 HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies"}
 
@@ -161,4 +165,5 @@ PLUGINS = [
     "imgutil",
     "inline_extend",
     "content_aggregator",
+    "grouputil",
 ]

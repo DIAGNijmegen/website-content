@@ -2,17 +2,16 @@ title: Bram van Ginneken
 name: Bram van Ginneken
 template: people-single
 picture: people/Bram_van_Ginneken.jpg
-position: Professor
+position: Professor, Scientific Co-Director
 active: yes
-groups: diag, rtc
+groups: diag, cara-lab
 default_group: diag
 email: bram.vanginneken@radboudumc.nl
 office: Route 767, Room 29
 telephone:
-type: chair
+type: faculty, staff
 scholar: http://scholar.google.com/citations?user=O1j6_MsAAAAJ
-publons: https://publons.com/researcher/2761863/bram-van-ginneken/
 orcid: https://orcid.org/0000-0003-2028-8972
 linkedin: http://www.linkedin.com/in/bramvanginneken/
 
-Bram van Ginneken is Professor of Medical Image Analysis at Radboud University Medical Center and chairs the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/). He also works for [Fraunhofer MEVIS](https://www.mevis.fraunhofer.de/) in Bremen, Germany, and is a founder of [Thirona](https://thirona.eu/), a company that develops software and provides services for medical image analysis. He studied Physics at Eindhoven University of Technology and Utrecht University. In 2001, he obtained his [PhD](/publications/ginn01a) at the [Image Sciences Institute](https://www.isi.uu.nl/) on Computer-Aided Diagnosis in Chest Radiography. He has (co-)authored over 250 publications in international journals. He is member of the Editorial Board of Medical Image Analysis. He pioneered the concept of [challenges in medical image analysis](https://grand-challenge.org/).
+Bram van Ginneken was born in Nuenen in 1970. He studied Physics at Eindhoven University of Technology and Utrecht University. In 2001, he obtained his [PhD](/publications/ginn01a) at the [Image Sciences Institute](https://www.isi.uu.nl/) on Computer-Aided Diagnosis in Chest Radiography, where he continued to work and set up a research group on medical image analysis. His PhD research on automated detection of tuberculosis resulted in medical device software called [CAD4TB](https://www.delft.care/cad4tb/). With installations in over 70 countries worldwide, CAD4TB is the most widely used autonomous AI solution for the interpretation of medical images. In 2010, he moved to Radboud University Medical Center where he set up the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) and was appointed full professor in 2012. He [(co-)authored](https://www.diagnijmegen.nl/publications/bram-van-ginneken/) over 300 publications in international journals. Since 2010, he also works for the [Fraunhofer Institute for Digital Medicine MEVIS](https://www.mevis.fraunhofer.de/) in Bremen, Germany. In 2014, he founded [Thirona](https://thirona.eu/), a company that develops software and services for medical image analysis. He pioneered the concept of challenges in medical image analysis and created [grand-challenge.org](https://grand-challenge.org/).

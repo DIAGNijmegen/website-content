@@ -59,17 +59,21 @@
     {% endif %}
 
     <style>
-        {% if page %}
-            /* above the fold for {{ page.template }} */
-            {% include ["critical_css/" + page.template + ".css", "critical_css/home.css"] %}
-        {% elif article %}
-            /* above the fold for article */
-            {% include "critical_css/article.css"  %}
-        {% elif page_name == 'highlights/index' or page_name == 'news/index' %}
-            /* above the fold for hightlights */
-            {% include "critical_css/index.css"  %}
+        {% if NO_CRITICAL_CSS is defined and NO_CRITICAL_CSS == True %}
+            {# Do nothing, effectively a pass #}
         {% else %}
-            /* no above the fold css for {{ page_name}} */
+                {% if page %}
+                    /* above the fold for {{ page.template }} */
+                    {% include ["critical_css/" + page.template + ".css", "critical_css/home.css"] %}
+                {% elif article %}
+                    /* above the fold for article */
+                    {% include "critical_css/article.css"  %}
+                {% elif page_name == 'highlights/index' or page_name == 'news/index' %}
+                    /* above the fold for hightlights */
+                    {% include "critical_css/index.css"  %}
+                {% else %}
+                    /* no above the fold css for {{ page_name}} */
+                {% endif %}
         {% endif %}
     </style>
 
@@ -104,6 +108,7 @@
 </head>
 
 <body>
+
 
     {% include "blocks/svg-definitions.html" %}
     {% include "blocks/nav-top.html" %}

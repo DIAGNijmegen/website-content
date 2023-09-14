@@ -53,7 +53,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "16.15.0"
+          node-version: "16.16.0"
 
       - uses: actions/cache@v2
         with:
@@ -96,7 +96,7 @@ jobs:
 
       - name: Install Netlify
         # if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn global add netlify-cli
+        run: yarn global add netlify-cli@16.0.3
 
       - name: Deploy images to Netlify
         run: |

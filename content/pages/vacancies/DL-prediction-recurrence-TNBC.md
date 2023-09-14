@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/TNBC-student.png
 template: vacancy-single
-people: Maschenka Balkenhol
+people: Francesco Ciompi
 description: Aim of the presently proposed ‘proof of concept‘ study is to develop digital pattern recognition algorithms (more specifically: deep neural networks) for the extraction of morphological features from scanned H&E stained tissue sections from TNBC which are indicative for the risk of recurrence.
 
 
@@ -37,4 +37,4 @@ Approximately 1 in 4 TNBC patients develop a recurrence within 3 years, after wh
 
 - Location: Radboud University Nijmegen Medical Centre
 
-- For more information please contact [Maschenka Balkenhol](https://www.computationalpathologygroup.eu/members/maschenka-balkenhol/)
+- For more information please contact [Francesco Ciompi](https://www.computationalpathologygroup.eu/members/francesco-ciompi/)

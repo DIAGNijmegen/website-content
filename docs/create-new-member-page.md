@@ -32,6 +32,14 @@ Internal link to person: [member/firstname-lastname], e.g.: [member/geert-litjen
 Internal link to project: [project/projectname], e.g. [project/panda-challenge]}  
 ```
 
+If a person belongs to more than one group (i.e. diag, pathology), the _active_, _type_ and _position_ fields may have different values according to the corresponding group. You can specify a list of values, one for each group. For example, member A belongs to diag and pathology, he/she is active in DIAG and no longer active in pathology and was a student in DIAG and a PhD student in pathology. Then we would have:
+```
+groups: diag, pathology
+active: no, yes
+type: student, phd
+position: Master Student, PhD candidate
+```
+
 4. After editing, select 'Commit changes' at the bottom of the page.
 
 ## Guidelines

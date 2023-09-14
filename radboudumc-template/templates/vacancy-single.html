@@ -16,13 +16,13 @@
     <p class="alert alert-info">This is a student project vacancy.</p>
     {% endif %}
  -->
-    {% if page.picture %}
-    <img src="{{ IMGURL }}/images/{{ page.picture }}" alt="{{page.title}}" class="img-fluid">
-    {% endif %}
-
+    
     <p></p>
     <div class="page-content">
-        {{ page.content }}
+      {% if page.picture %}
+        <p><img src="{{ IMGURL }}/images/{{ page.picture }}" alt="{{page.title}}" class="img-fluid"></p>
+      {% endif %}
+      {{ page.content }}
     </div>
 
     {% if page.people %}

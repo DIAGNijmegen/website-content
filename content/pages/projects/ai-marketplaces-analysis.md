@@ -1,6 +1,6 @@
 title: Commercial AI marketplaces for radiology
 groups: ai-for-health
-finished: false
+finished: true
 type: student
 picture: projects/ai-marketplaces-analysis.png
 template: project-single

@@ -2,12 +2,14 @@ title: Lars Leijten
 name: Lars Leijten
 template: people-single
 picture: people/Lars_Leijten.jpg
-position: Master Student
+position: PhD Candidate
 active: yes
 groups: diag
 default_group: diag
 email: lars.leijten@radboudumc.nl
-office: 
-type: student
+office: Route 767
+type: phd
 
-As a Master student of Biomedical Sciences at Radboud University Nijmegen, Lars Leijten is working as an intern at the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl). He has finished his Bachelor's degree in Biomedical Sciences in 2019 at Radboud University. In his Master's degree, Lars has pursued a field where modern technology is implemented in medical practice, which he found in an internship at DIAG. The internship is part of the [AI for Health project](https://www.ai-for-health.nl) and focuses on generating a database of labelled and segmented CT scans of spines with realistic scoliotic curvatures. Using this database, a machine learning algorithm could improve the robustness in which scoliotic spines are automatically segmented and labelled for further medical applications. Lars has started his internship at DIAG in February 2022 and will remain part of the team up to and including July 2022. He is supervised by [member/nikolas-lessmann] and Dennis Janssen (Department of Orthopedics).
+Lars Leijten is a PhD Candidate at the Medical Imaging department of Radboudumc, where he works in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). Lars is focused on developing AI solutions for Intervention Oncology as part of the [IMAGIO](https://www.diagnijmegen.nl/projects/imagio/) project. Specifically, he is working on developing an automatic malignancy risk estimation tool for lung nodules using CT and FDG-PET/CT imaging. His research is supervised by a team consisting of [member/colin-jacobs], [Roel Verhoeven](https://www.linkedin.com/in/roel-verhoeven-377050a6/), [Erik Aarntzen](https://www.radboudumc.nl/personen/erik-aarntzen), and [Erik van der Heijden](https://www.radboudumc.nl/en/people/erik-van-der-heijden).
+
+Lars holds a Bachelor's and Master's degree in Biomedical Sciences from Radboud University, where he completed projects in Medical Deep Learning and Health Technology Assessment. His work involved simulating scoliosis CT data and conducting a prospective cost-effectiveness analysis of Minimally Invasive Cervical Esophagectomy.
