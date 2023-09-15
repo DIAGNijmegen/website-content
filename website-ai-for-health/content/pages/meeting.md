@@ -16,13 +16,14 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 07-09-2023 | Carlijn Lems | TBA | Skatecourt, route 14, Experience Center |
+| 05-10-2023 | Gonzalo Rodriguez Esteban | TBA (defence) | Skatecourt, route 14, Experience Center |
 
 
 ## Past meetings
 
 | Date    | Speaker           |   Title    |
 | --------        |    ----  |          --- |
+| 07-09-2023 | Carlijn Lems | TBA | 
 | 24-08-2023 | Steffan Borgers | TBA |
 | 17-08-2023 | Hermen van Westen <br> Rianne-Margot Koelewijn | TBA |
 | 27-07-2023 | Thijs Schoppema <br> Nohemi Sofia Leon Contreras | AI-based Histopathological Analysis of NAFLD |
