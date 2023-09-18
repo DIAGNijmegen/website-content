@@ -23,5 +23,5 @@ MERAI Lab is part of the [ROBUST AI programme](https://icai.ai/ltp-robust/) and 
 ## News
 
 * RN7, a regional news channel, published an [article](https://www.rn7.nl/37638-heeft-radboudumc-over-tien-jaar-oplossing-voor-toename-longkankerdiagnoses-) and [video](https://www.youtube.com/watch?v=wmsmLh10MrI) on MERAI Lab.
-* The aims and goals of MERAI Lab were [covered in regional newspaper De Gelderlander](https://www.gelderlander.nl/nijmegen/een-computer-die-je-longscans-beoordeelt-vervangt-ai-straks-de-radioloog~a7f849c9)
-* We recorded a podcast on the use of AI in lung cancer screening. You can listen to the episode [here](https://podcasters.spotify.com/pod/show/briskr/episodes/Population-screening-for-lung-cancer-the-use-of-AI-in-mass-screening-e28or4a/a-aaa5959)
+* The aims and goals of MERAI Lab were [covered in regional newspaper De Gelderlander](https://www.gelderlander.nl/nijmegen/een-computer-die-je-longscans-beoordeelt-vervangt-ai-straks-de-radioloog~a7f849c9).
+* We recorded a podcast on the use of AI in lung cancer screening. You can listen to the episode [here](https://podcasters.spotify.com/pod/show/briskr/episodes/Population-screening-for-lung-cancer-the-use-of-AI-in-mass-screening-e28or4a/a-aaa5959).
