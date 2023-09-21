@@ -1,11 +1,11 @@
 title: HealthyAI
-title_long: HealhtyAI
+title_long: HealthyAI
 finished: false
 type: general
 picture: projects/prostate.jpg
 template: project-single
 groups: diag
-people: Henkjan Huisman, Derya Yakar
+people: Vilma Bozgo, Romain Andre, Tiago Coelho, Henkjan Huisman, Derya Yakar, Christoph Brune
 description: 
 bibkeys: 
 
