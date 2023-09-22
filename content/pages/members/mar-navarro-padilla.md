@@ -3,7 +3,7 @@ name: Mar Navarro Padilla
 template: people-single
 picture: people/Mar_Navarro_Padilla.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: mar.navarro@radboudumc.nl

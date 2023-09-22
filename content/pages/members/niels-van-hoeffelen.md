@@ -3,7 +3,7 @@ name: Niels van Hoeffelen
 template: people-single
 picture: people/Niels_van_Hoeffelen.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: niels.vanhoeffelen@radboudumc.nl
