@@ -28,11 +28,11 @@ If you are passionate about these disciplines and want to grow in a stimulating 
 During your PhD trajectory, you will develop and validate multimodal AI models based on neural networks to analyze digital pathology, genomics and microbiomics data of the gut and brain data. Particular focus will be on multimodal AI models for gut diseases, such as IBD and spirochetosis, and brain diseases, such as ADHD and psychiatric disorders. Most developed models will be made available through the web-based platform developed within the project. For this, you will use functionalities provided by the [grand-challenge.org](www.grand-challenge.org) platform, an open-source project developed and maintained by the [Research Software Engineering (RSE)](https://rse.diagnijmegen.nl) team at Radboudumc.  
 
 ## Profile
-We are looking for: 
-- A creative and enthusiastic researcher with a master degree in a relevant field, such as artificial intelligence, computer vision, machine learning, data science. 
-- A person with a clear interest to work with AI algorithms and that has an affinity with medical topics. Experience with laboratory work (histology/immunohistochemistry) and/or genetic data is a plus. 
-- Someone with good oral and written communication skills (in English). 
-
+We are looking for:
+- A creative and enthusiastic researcher with a master degree in a relevant field, such as artificial intelligence, computer vision, machine learning, data science.
+- A person with a clear interest to work with AI algorithms and that has an affinity with medical topics. Experience with laboratory work (histology/immunohistochemistry) and/or genetic data is a plus.
+- Someone with good oral and written communication skills (in English).
+  
 ## We offer
 - An exciting position in one of Europe's largest research groups in [Computational Pathology](https://www.computationalpathologygroup.eu/), at the crossroads with the [Cancer Microbiology Group](http://boleij-lab.org) embedded within the [department of Pathology](https://www.radboudumc.nl/en/research/departments/pathology) of the Radboudumc and collaborating with the [Cognitive Neuroscience Department](https://www.radboudumc.nl/en/research/departments/cognitive-neuroscience) of the Radboudumc and the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/). 
 - An international work environment with an informal atmosphere.
