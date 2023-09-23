@@ -25,7 +25,7 @@ We are  looking for a PhD candidate to work within an EU-funded project, aiming 
 
 If you are passionate about these disciplines and want to grow in a stimulating international academic environment, you might be our new colleague! 
 
-During your PhD trajectory, you will develop and validate multimodal AI models based on neural networks to analyze digital pathology, genomics and microbiomics data of the gut and brain data. Particular focus will be on multimodal AI models for gut diseases, such as IBD and spirochetosis, and brain diseases, such as ADHD and psychiatric disorders. Most developed models will be made available through the web-based platform developed within the project. For this, you will use functionalities provided by the [grand-challenge.org](www.grand-challenge.org) platform, an open-source project developed and maintained by the [Research Software Engineering (RSE)](https://rse.diagnijmegen.nl) team at Radboudumc.  
+During your PhD trajectory, you will develop and validate multimodal AI models based on neural networks to analyze digital pathology, genomics and microbiomics data of the gut and brain data. Particular focus will be on multimodal AI models for gut diseases, such as IBD and spirochetosis, and brain diseases, such as ADHD and psychiatric disorders. Most developed models will be made available through the web-based platform developed within the project. For this, you will use functionalities provided by the [grand-challenge.org](https://grand-challenge.org) platform, an open-source project developed and maintained by the [Research Software Engineering (RSE)](https://rse.diagnijmegen.nl) team at Radboudumc.  
 
 ## Profile
 We are looking for:
