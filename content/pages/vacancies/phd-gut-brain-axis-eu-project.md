@@ -1,4 +1,4 @@
-title: PhD candidate for artificial intelligence to exploring the intersection of digital pathology and genetics in the gut microbiome
+title: PhD position on artificial intelligence for digital pathology and genetics in the gut microbiome
 groups: diag, pathology
 closed: false
 type: general
