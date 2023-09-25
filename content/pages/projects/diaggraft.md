@@ -6,7 +6,7 @@ template: project-single
 groups: pathology, diag 
 default_group: pathology
 picture: projects/kidney_pas.png 
-people: Dominique van Midden, Meyke Hermsen, Jeroen van der Laak, Luuk Hilbrands, Eric Steenbergen
+people: Linda Studer, Dominique van Midden, Meyke Hermsen, Jeroen van der Laak, Luuk Hilbrands, Eric Steenbergen
 description: Investigation of AI for kidney transplant pathology. 
 bibkeys:
 
