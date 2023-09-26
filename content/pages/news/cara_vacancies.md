@@ -1,7 +1,7 @@
 title: Join our research team! Exciting PhD opportunities at AmsterdamUMC and Radboudumc
 date: 2023-09-26
 description: We are looking for two motivated PhD Candidates to join the CARA lab! 
-picture: news/cara_vacancies.jpg
+picture: vacancies/general_vacancy.jpg
 groups: cara-lab
 
 Are you passionate about advancing the fields of medical imaging and artificial intelligence? We have two exciting opportunities for you to join our research team and make a significant impact:
