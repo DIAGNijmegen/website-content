@@ -38,7 +38,7 @@ Preferred starting date is Q4 2023. The salary depends on education. Scale 10 wi
 Working at Radboud university medical center means that you are ahead of the curve and working together on the healthcare of the future. And there is more. Our secondary terms of employment are impressive. These are fully tailored to you thanks to our Employment Conditions Selection Model. At Radboud university medical center, you will be given trust, and you will take the responsibility to handle everything together. We provide annual courses, both professional and personal.
 
 *A gross monthly salary between € 2.789 and € 3.536 (scale 10A) or between € 3.230 and € 5.088 (scale 10) based on full-time employment.  
-From 1 November 2023 the wages will increase by 4%.
+*From 1 November 2023 the wages will increase by 4%.
 *An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
 *If you work irregular hours, you will receive an allowance.
 *As a full-time employee (36 hours per week), you are entitled to approximately 168 vacation hours (over 23 days) per year.
