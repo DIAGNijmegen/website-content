@@ -1,4 +1,4 @@
-title: DIAG Day Marks Successful Kick-off of CARA Lab
+title: DIAG Day marks successful kick-off of CARA Lab
 date: 2023-05-31
 description: On May 31, the Diagnostic Image Analysis Group (DIAG) organized a successful DIAG Day, celebrating the launch of the CARA Lab. The event featured a mini symposium on OCT analysis and a stimulating artifact detection challenge.
 picture: news/cara_diag_day.jpg
