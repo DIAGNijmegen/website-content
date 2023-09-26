@@ -1,8 +1,8 @@
-Title: Join Our Research Team! Exciting PhD-Opportunities at Amsterdam UMC and Radboudumc.
-Date: 2023-09-26
-Description: We are looking for two new PhD Candidates to join the CARA lab! 
-Picture: news/cara_vacancies.jpg
-Groups: cara-lab
+title: Join Our Research Team! Exciting PhD-Opportunities at Amsterdam UMC and Radboudumc.
+date: 2023-09-26
+description: We are looking for two new PhD Candidates to join the CARA lab! 
+picture: news/cara_vacancies.jpg
+groups: cara-lab
 
 Are you passionate about advancing the fields of medical imaging and artificial intelligence? We have two exciting opportunities for you to join our research team and make a significant impact:
 
@@ -12,7 +12,7 @@ We are seeking a talented PhD candidate to work in our multidisciplinary team, o
 Link: [Vacancy Amsterdam UMC](https://werkenbij.amsterdamumc.org/en/vacatures/research/phd-in-automated-analysis-of-coronary-oct-images-)
 
 ## PhD Candidate 'Promoting Responsible AI',  Radboudumc:
-Radboudumc invites applications for a PhD candidate position focusing on 'Promoting responsible AI: Bridging AI and clinical practice for real-time image analysis during cardiac procedures.' This role blends the worlds of AI and clinical practice to work towards implementaton of real-time image analysis in cardiac procedures.
+Radboudumc invites applications for a PhD candidate position focusing on 'Promoting responsible AI: Bridging AI and clinical practice for real-time image analysis during cardiac procedures.' This role blends the worlds of artificial intelligence and clinical practice. We will work together towards implementaton of automated, real-time analysis of OCT images at the cardiac catheterization lab.
 
 Link: [Vacancy Radboudumc](https://www.radboudumc.nl/en/vacancies/138103-phd-candidate-promoting-responsible-ai-bridging-ai-and-clinical-practice-for-real-time-image)
 
