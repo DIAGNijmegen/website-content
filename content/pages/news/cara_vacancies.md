@@ -13,6 +13,7 @@ Link: [Vacancy Amsterdam UMC](https://werkenbij.amsterdamumc.org/en/vacatures/re
 
 ## PhD Candidate 'Promoting Responsible AI',  Radboudumc:
 Radboudumc invites applications for a PhD candidate position focusing on 'Promoting responsible AI: Bridging AI and clinical practice for real-time image analysis during cardiac procedures.' This role blends the worlds of AI and clinical practice to work towards implementaton of real-time image analysis in cardiac procedures.
+
 Link: [Vacancy Radboudumc](https://www.radboudumc.nl/en/vacancies/138103-phd-candidate-promoting-responsible-ai-bridging-ai-and-clinical-practice-for-real-time-image)
 
 These vacancies represent an excellent opportunity to contribute to groundbreaking research. If you are ready to embark on a journey of discovery and innovation, we encourage you to apply.
