@@ -1,5 +1,5 @@
 title: PhD candidate 'Promoting responsible AI: Bridging AI and clinical practice for real-time image analysis during cardiac procedures'
-groups: cara-lab
+groups: diag, cara-lab
 closed: false
 type: general 
 people: Jos Thannhauser
@@ -20,10 +20,15 @@ You will work closely within a multidisciplinary team of clinicians, social scie
 As a PhD you will:
 
 -Engage in research within a multidisciplinary group dedicated to developing AI algorithms for real-time analysis and interpretation of optical coherence tomography (OCT) images during cardiac procedures.
+
 -Translate state-of-the-art technology into clinical practice, contributing to the successful implementation and output of the developed algorithms.
+
 -Conduct qualitative research to gain insights into the perspectives of patients and operators, fostering a deeper understanding of their vision and incorporating it into the research outcomes.
+
 -Design of a randomized trial focused on AI-based clinical decision-making on the cardiac catheterization lab, working on its setup and implementation.
+
 -Disseminate research findings by publishing in esteemed peer-reviewed journals and presenting at international conferences.
+
 -Provide mentorship to junior team members, actively contributing to their professional growth, while also playing a role in shaping the lab's research direction.
 
 ## Profile
@@ -39,10 +44,15 @@ Working at Radboud university medical center means that you are ahead of the cur
 
 -A gross monthly salary between € 2.789 and € 3.536 (scale 10A) or between € 3.230 and € 5.088 (scale 10) based on full-time employment.  
 From 1 November 2023 the wages will increase by 4%.
+
 -An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
+
 -If you work irregular hours, you will receive an allowance.
+
 -As a full-time employee (36 hours per week), you are entitled to approximately 168 vacation hours (over 23 days) per year.
+
 -Radboud university medical center pays 70% of the pension premium. You pay the rest of the premium with your gross salary.
+
 -You get a discount on health insurance as well: you can take advantage of two group health insurance plans. UMC Zorgverzekering and CZ collectief.
 
 In addition to our [terms of employment](https://www.radboudumc.nl/werken-bij/wat-bieden-wij/arbeidsvoorwaarden), we also offer employees various other [attractive facilities](https://www.radboudumc.nl/werken-bij/wat-bieden-wij/faciliteiten), such as childcare and sports facilities. Want to learn more? Take a look at the [Cao UMC](https://www.nfu.nl/voor-umc-medewerkers/cao-universitair-medische-centra).
