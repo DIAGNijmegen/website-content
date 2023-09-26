@@ -1,11 +1,11 @@
-title: PhD candidate 'Automated analysis of coronary OCT images' (Amsterdam UMC)
+title: PhD candidate 'Automated analysis of coronary OCT images'
 groups: cara-lab
 closed: false
 type: general 
 people: Ivana Isgum, Jos Thannhauser
 template: vacancy-single
 picture: vacancies/general_vacancy.jpg
-description: We are seeking a highly motivated and talented individual to join our new team as a PhD-candidate at the CARA Lab, a multi-disciplinary and multi-institutional collaboration between Radboudumc and Amsterdam UMC.
+description: The CARA Lab is looking for a motivated PhD Candidate to work on state-of-the art deep learning algorithms for the analyis of intravascular cardiac imaging (location: Amsterdam UMC).
 
 ## Job description
 
