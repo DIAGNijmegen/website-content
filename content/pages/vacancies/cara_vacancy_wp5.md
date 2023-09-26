@@ -19,17 +19,12 @@ You will work closely within a multidisciplinary team of clinicians, social scie
 
 As a PhD you will:
 
--Engage in research within a multidisciplinary group dedicated to developing AI algorithms for real-time analysis and interpretation of optical coherence tomography (OCT) images during cardiac procedures.
-
--Translate state-of-the-art technology into clinical practice, contributing to the successful implementation and output of the developed algorithms.
-
--Conduct qualitative research to gain insights into the perspectives of patients and operators, fostering a deeper understanding of their vision and incorporating it into the research outcomes.
-
--Design of a randomized trial focused on AI-based clinical decision-making on the cardiac catheterization lab, working on its setup and implementation.
-
--Disseminate research findings by publishing in esteemed peer-reviewed journals and presenting at international conferences.
-
--Provide mentorship to junior team members, actively contributing to their professional growth, while also playing a role in shaping the lab's research direction.
+*Engage in research within a multidisciplinary group dedicated to developing AI algorithms for real-time analysis and interpretation of optical coherence tomography (OCT) images during cardiac procedures.
+*Translate state-of-the-art technology into clinical practice, contributing to the successful implementation and output of the developed algorithms.
+*Conduct qualitative research to gain insights into the perspectives of patients and operators, fostering a deeper understanding of their vision and incorporating it into the research outcomes.
+*Design of a randomized trial focused on AI-based clinical decision-making on the cardiac catheterization lab, working on its setup and implementation.
+*Disseminate research findings by publishing in esteemed peer-reviewed journals and presenting at international conferences.
+*Provide mentorship to junior team members, actively contributing to their professional growth, while also playing a role in shaping the lab's research direction.
 
 ## Profile
 
@@ -42,23 +37,18 @@ Preferred starting date is Q4 2023. The salary depends on education. Scale 10 wi
 
 Working at Radboud university medical center means that you are ahead of the curve and working together on the healthcare of the future. And there is more. Our secondary terms of employment are impressive. These are fully tailored to you thanks to our Employment Conditions Selection Model. At Radboud university medical center, you will be given trust, and you will take the responsibility to handle everything together. We provide annual courses, both professional and personal.
 
--A gross monthly salary between € 2.789 and € 3.536 (scale 10A) or between € 3.230 and € 5.088 (scale 10) based on full-time employment.  
+*A gross monthly salary between € 2.789 and € 3.536 (scale 10A) or between € 3.230 and € 5.088 (scale 10) based on full-time employment.  
 From 1 November 2023 the wages will increase by 4%.
-
--An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
-
--If you work irregular hours, you will receive an allowance.
-
--As a full-time employee (36 hours per week), you are entitled to approximately 168 vacation hours (over 23 days) per year.
-
--Radboud university medical center pays 70% of the pension premium. You pay the rest of the premium with your gross salary.
-
--You get a discount on health insurance as well: you can take advantage of two group health insurance plans. UMC Zorgverzekering and CZ collectief.
+*An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
+*If you work irregular hours, you will receive an allowance.
+*As a full-time employee (36 hours per week), you are entitled to approximately 168 vacation hours (over 23 days) per year.
+*Radboud university medical center pays 70% of the pension premium. You pay the rest of the premium with your gross salary.
+*You get a discount on health insurance as well: you can take advantage of two group health insurance plans. UMC Zorgverzekering and CZ collectief.
 
 In addition to our [terms of employment](https://www.radboudumc.nl/werken-bij/wat-bieden-wij/arbeidsvoorwaarden), we also offer employees various other [attractive facilities](https://www.radboudumc.nl/werken-bij/wat-bieden-wij/faciliteiten), such as childcare and sports facilities. Want to learn more? Take a look at the [Cao UMC](https://www.nfu.nl/voor-umc-medewerkers/cao-universitair-medische-centra).
 
 ## Organization
-You will work in the Diagnostic Image Analysis Group (DIAG). DIAG develops computer algorithms to interpret and process medical images. The group currently consists of around 70 researchers. Radboud University Medical Center and Radboud University are located in Nijmegen, the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. 
+You will work in the Diagnostic Image Analysis Group ([DIAG](https://www.diagnijmegen.nl/)). DIAG develops computer algorithms to interpret and process medical images. The group currently consists of around 70 researchers. Radboud University Medical Center and Radboud University are located in Nijmegen, the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. 
 
 ## Application
 Please apply [here](https://www.radboudumc.nl/en/vacancies/138103-phd-candidate-promoting-responsible-ai-bridging-ai-and-clinical-practice-for-real-time-image). You should supply a motivation letter, your CV, links to a Google Scholar profile, a list of grades and courses you have followed including online courses on deep learning and similar topics, and links to any publications you have written plus any code you have written and is publicly accessible, e.g., on a GitHub account. Applications are processed immediately upon receipt. 
