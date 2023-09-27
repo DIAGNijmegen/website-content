@@ -3,7 +3,7 @@ date: 2023-08-29
 picture: news/kicky_defense.jpg
 description: Kicky van Leeuwen is awarded her doctoral degree cum laude
 groups: diag
-status: draft
+
 
 
 On Monday September 25th at 4.30pm, [Kicky van Leeuwen](https://www.linkedin.com/in/kickyvanleeuwen/) defended her PhD thesis on "Validation and implementation of commercial artificial intelligence software for radiology" in the Aula of the Radboud University.  After a very successful defense ceremony, Kicky was awarded her doctoral degree cum laude - a great honour indicating her thesis to be in the top five percent in the field! We extend our congratulations to Kicky and wish her all the best in her future career where she will continue to maintain [www.AIforRadiology.com](https://grand-challenge.org/aiforradiology/) among other exciting plans.
