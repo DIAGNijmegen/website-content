@@ -7,9 +7,6 @@ template: vacancy-single
 people: Marina D'Amato, Francesco Ciompi
 description: Development of a deep learning algorithm for automated whole-slide pathology image analysis and quality control
 
-## Reimbursement
-This is an AI for Health MSc project. Students are eligible to receive a monthly reimbursement of €500,- for a period of six months. For more information please read the [requirements](https://www.ai-for-health.nl/requirements).
-
 ## Clinical Problem
 In an AI-powered digital pathology workflow, the process of going from glass slide to digitization and analysis with artificial intelligence suffers from two main problems. 
 
