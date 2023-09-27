@@ -1,5 +1,5 @@
 title: Kicky van Leeuwen is awarded her doctoral degree cum laude
-date: 2023-08-29
+date: 2023-09-27
 picture: news/kicky_defense.jpg
 description: Kicky van Leeuwen is awarded her doctoral degree cum laude
 groups: diag
