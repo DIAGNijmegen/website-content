@@ -16,7 +16,6 @@ The slides for past presentations are available by clicking on the links in the 
 
 | Date    | Speaker           |   Title    |   Location   |
 | -------        |    ----  |          --- | --- |
-| 05-10-2023 | Gonzalo Rodriguez Esteban | TBA (defence) | Skatecourt, route 14, Experience Center |
 
 
 ## Past meetings
