@@ -3,7 +3,7 @@ name: Kicky van Leeuwen
 template: people-single
 picture: people/Kicky_van_Leeuwen.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: kicky.vanleeuwen@radboudumc.nl
