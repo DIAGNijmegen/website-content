@@ -2,7 +2,7 @@ title: Improving PD-l1 digital pathology image analysis
 groups: pathology, diag
 closed: false
 type: student
-picture: vacancies/pdl1-context.png
+picture: vacancies/pdl1-project.png
 template: vacancy-single
 people: Francesco Ciompi, Leander van Eekelen
 description: The characterization of PD-L1 positive cells in lung cancer immunohistochemistry with artificial intelligence for automatic biomarker extraction
