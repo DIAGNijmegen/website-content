@@ -1,4 +1,4 @@
-title: Improving PD-l1 digital pathology image analysis
+title: Improving PD-L1 digital pathology image analysis
 groups: pathology, diag
 closed: false
 type: student
