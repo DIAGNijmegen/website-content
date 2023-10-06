@@ -5,7 +5,7 @@ type: student
 picture: vacancies/tils-tls-nsclc.png
 template: vacancy-single
 people: Francesco Ciompi
-description: Tumor-Infiltrating Lymphocytes (TILs) meet Tertiary Lymphoid Structures (TLS) in Non-Small Cell Lung Cancer using Artificial Intelligence
+description: Development of deep learning methods to combine Tumor-Infiltrating Lymphocytes (TILs) and Tertiary Lymphoid Structures (TLS) in Non-Small Cell Lung Cancer histopathology images
 
 ## Clinical Problem
 Every day, oncologists must decide how cancer patients should be treated. The increasing amount of available treatment options, ranging from chemotherapy, radiotherapy, immunotherapy, targeted therapies, and surgery, does not make this choice an easy one, and there is no one-size-fits-all solution because every patient is different. 
