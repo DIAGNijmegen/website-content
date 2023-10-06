@@ -1,4 +1,4 @@
-title: Automated whole-slide image analysis and quality control
+title: Automated detection of DRESS syndrome
 groups: pathology, diag
 closed: false
 type: student
