@@ -5,7 +5,7 @@ type: student
 picture: vacancies/pdl1-project.png
 template: vacancy-single
 people: Francesco Ciompi, Leander van Eekelen
-description: The characterization of PD-L1 positive cells in lung cancer immunohistochemistry with artificial intelligence for automatic biomarker extraction
+description: Development of deep learning methods to characterize PD-L1 positive cells in lung cancer immunohistochemistry for automatic biomarker extraction
 
 ## Clinical Problem
 Immunotherapy is increasingly becoming the standard of care for late-stage non-small cell lung cancer (NSCLC) patients, utilizing an approach that harnesses the body’s own immune system to combat cancer. However, not all NSCLC patients have an equal response to immunotherapy; only approximately 30-40 percent of patients derive clinical benefit. The current patient selection criterion in the clinic is based on the quantification of the expression of PD-L1, a protein targeted by most immunotherapy drugs. This expression is quantified by pathologists in immunohistochemistry (IHC) of histology slides, who have to estimate the proportion of PD-L1 positive tumor cells over all tumor cells (so-called “tumor proportion score”, TPS). Studies have shown that the TPS has only a modest predictive value (AUC=0.65, Lu et al., 10.1001/jamaoncol.2019.1549), but still, it is the only one that is available in the clinic and used every day to select patient for immunotherapy treatment. Because of this, the scientific community is in constant search for improved predictive biomarkers. 
