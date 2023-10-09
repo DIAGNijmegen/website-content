@@ -1,6 +1,6 @@
 title: PhD position on deep-learning-based image registration
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Alessa Hering, Bram van Ginneken
 template: vacancy-single
