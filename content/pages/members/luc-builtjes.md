@@ -1,7 +1,7 @@
 title: Luc Builtjes
 name: Luc Builtjes
 template: people-single
-picture: people/Luc_Builtjes.png
+picture: people/Luc_Builtjes.jpg
 position: PhD Candidate
 active: yes
 groups: diag
