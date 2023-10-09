@@ -15,19 +15,14 @@ While automatic lesion detection models have been studied before, only few studi
 
 By reducing the need for exhaustive manual annotations and expert intervention, this approach could pave the way for a new era in medical imaging where clinicians are aided by intelligent systems, making diagnostic procedures faster and more precise. 
 ## Approach
-Primary goal: Image-based Metastasis Detection 
+**Primary goal: Image-based Metastasis Detection** 
+- Development: Build a baseline detection model to detect metastasis in CT images, using a mixture of fully and partially annotated training data.  
+- Evaluation: Evaluate the model using metrics like accuracy, sensitivity, specificity, and the area under the ROC curve. 
 
-Development: Build a baseline detection model to detect metastasis in CT images, using a mixture of fully and partially annotated training data.  
-
-Evaluation: Evaluate the model using metrics like accuracy, sensitivity, specificity, and the area under the ROC curve. 
-
-Secondary goal: Incorporating Radiology Reports 
-
-Self-supervised Learning: Use information extracted from radiology reports (such as lesion type, location, size) to guide the training of the image-based model, providing it with context and helping it focus on regions of interest. 
-
-Extension & Integration: Extend the baseline model to incorporate insights gained from the diagnostic reports. 
-
-Evaluation: Assess the integrated model on a separate test set to ensure its generalizability and compare it to the performance of the purely image-based model.
+**Secondary goal: Incorporating Radiology Reports**
+- Self-supervised Learning: Use information extracted from radiology reports (such as lesion type, location, size) to guide the training of the image-based model, providing it with context and helping it focus on regions of interest. 
+- Extension & Integration: Extend the baseline model to incorporate insights gained from the diagnostic reports. 
+- Evaluation: Assess the integrated model on a separate test set to ensure its generalizability and compare it to the performance of the purely image-based model.
 
 ## Data
 For this project we will have three dataset available, one from Radboudumc, while the other two publicly available. Those resulting into 42,128  lesions from 8,770 patients.
