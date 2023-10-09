@@ -10,4 +10,4 @@ email: Karlijn.Rutten@radboudumc.nl
 type: student-assistant
 linkedin: https://www.linkedin.com/in/karlijn-rutten-073905185/
 
-Karlijn Rutten joined DIAG as a student assistant in March 2020. She assists various projects with annotation efforts. Karlijn is a medicine student at the University of Amsterdam.
+Karlijn Rutten joined DIAG as a student assistant in March 2020. She assists various projects with annotation efforts. Karlijn is a medicine student at the University of Amsterdam. Karlijn is supervised by [member/colin-jacobs].
