@@ -1,6 +1,6 @@
 title: Predicting successful statin medication treatment 
 groups: ai-for-health
-closed: false
+closed: true
 type: student
 picture: vacancies/statine-voorspelling.png
 template: vacancy-single
