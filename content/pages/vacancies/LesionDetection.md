@@ -2,9 +2,9 @@ title: Leveraging Weak Annotations in AI-based Metastasis Detection from CT Imag
 groups: diag
 closed: false
 type: student
-picture: vacancies/imageRegistration-min.jpg
+picture: vacancies/lesionBodyCT.png
 template: vacancy-single
-people: Alessa Hering, Max de Grauw
+people: Max de Grauw, Alessa Hering
 description: 
 
 ## Clinical Problem
