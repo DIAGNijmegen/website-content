@@ -1,6 +1,6 @@
 title: Predict neoadjuvant chemotherapy response in breast cancer histopathology from a panel of immunohistochemical markers
 groups: diag, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/msc_patho_breast_pcr_ihc_predict.png
 template: vacancy-single
