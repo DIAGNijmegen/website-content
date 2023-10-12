@@ -1,6 +1,6 @@
 title: ICAI symposium on AI and Healthcare on Nov 1 in Nijmegen
 date: 2023-10-12
-description: On Nov 1, [member/henkjan-huisman], [member/colin-jacobs], [member/jos-thannhauser], and [member/luc-evers] are organizing the next [ICAI](www.icai.ai) Day on AI and Healthcare in Nijmegen.
+description: On Nov 1, Henkjan Huisman, Colin Jacobs, Jos Thannhauser, and Luc Evers are organizing the next ICAI Day on AI and Healthcare in Nijmegen.
 picture: news/icai_day_nov2023.jpg
 groups: diag
 
