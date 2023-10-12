@@ -3,7 +3,7 @@ name: Liron Brundel
 template: people-single
 picture: people/Liron_Brundel.jpeg
 position: Master Student
-active: no
+active: yes
 groups: diag
 default_group: diag
 email: liron.brundel@radboudumc.nl
