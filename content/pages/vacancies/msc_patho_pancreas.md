@@ -1,6 +1,6 @@
 title: Combining pathological features to predict pancreatic ductal adenocarcinoma survival 
 groups: diag, pathology
-closed: true
+closed: false
 type: student
 picture: vacancies/phd-pancaim.png
 template: vacancy-single
