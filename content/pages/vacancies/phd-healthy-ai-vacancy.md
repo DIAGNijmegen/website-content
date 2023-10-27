@@ -1,6 +1,6 @@
 title: Two PhD positions for artificial intelligence for analysis of prostate MRI
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Henkjan Huisman
 template: vacancy-single
