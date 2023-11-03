@@ -1,6 +1,6 @@
 title: PhD candidate 'Automated analysis of coronary OCT images'
 groups: cara-lab
-closed: false
+closed: true
 type: general 
 people: Ivana Isgum, Jos Thannhauser
 template: vacancy-single
