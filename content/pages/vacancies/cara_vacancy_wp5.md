@@ -1,6 +1,6 @@
 title: PhD candidate 'Promoting responsible AI: Bridging AI and clinical practice for real-time image analysis during cardiac procedures'
 groups: diag, cara-lab
-closed: false
+closed: true
 type: general 
 people: Jos Thannhauser
 template: vacancy-single
