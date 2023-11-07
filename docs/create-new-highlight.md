@@ -15,7 +15,7 @@ groups: diag/retina/pathology, etc. This determines on which website the highlig
 external links: [Text](link)
 internal links: [member/firstname-lastname] 
 ```
-4. To add an image to the text, upload an image of choice to website-content/content/images/projects/ and type `![name of image link]({{ IMGURL }}/images/projects/<image>.png)`. The first `{{ IMGURL }}` is text, don't type the actual filename there. `IMGURL` makes sure the image is always loaded from the correct domain (in case of using a CDN).
+4. To add an image to the text, upload an image of choice to website-content/content/images/news/ and type `![name of image link]({{ IMGURL }}/images/news/<image>.png)`. The first `{{ IMGURL }}` is text, don't type the actual filename there. `IMGURL` makes sure the image is always loaded from the correct domain (in case of using a CDN).
 
 5. Commit changes at bottom of the page to submit.
 
