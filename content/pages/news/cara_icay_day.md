@@ -1,7 +1,7 @@
 title: ICAI Day explores AI's impact on healthcare
 date: 2023-11-01
 description: On Nov 01, the Innovation Center for Artificial Intelligence (ICAI) organized the Autumn Edition of the ICAI Day in Nijmegen, themed "Healthcare and AI". The CARA Lab co-hosted this day and presented the first results of the lab!
-picture: news/cara_icai_day.jpeg
+picture: news/cara_icai_day.jpg
 groups: cara-lab
 
 On November 1, 2023, the Radboud University in Nijmegen hosted the [https://icai.ai/event/icai-day-november-2023/](ICAI Day Autumn Edition), delving into the fusion of artificial intelligence and healthcare. This hybrid event provided a comprehensive look at AI's technical role in modern medicine, featuring interesting presentations, on-site round table discussions led by experts, and poster showcases from ICAI Labs across the Netherlands.
