@@ -5,7 +5,7 @@ picture: projects/bigpicture.png
 template: project-single
 groups: pathology, diag
 default_group: pathology 
-people: Jeroen van der Laak, Katrien Grünberg, Anna-Lena Frisk, Julie Boisclair, Francesco Ciompi, Geert Litjens, Stephan Dooper, Marina D'Amato, Estelle Chanudet-van den Brink
+people: Jeroen van der Laak, Katrien Grünberg, Anna-Lena Frisk, Julie Boisclair, Francesco Ciompi, Geert Litjens, Stephan Dooper, Marina D'Amato, Estelle Chanudet-van den Brink, Michelle Stegeman
 description: The goal of Bigpicture is to accelerate the development of AI in pathology by providing a large repository of high-quality annotated pathology data, accessible in a responsible, inclusive and sustainable way.
 bibkeys: Laak21, Pinc20
 type: normal
