@@ -22,12 +22,13 @@ Please see the [documentation](https://github.com/DIAGNijmegen/website-content/t
 
 ## Building the website locally
 
-Requirements: Linux environment (on Windows via WSL) and Python 3  (we use Ubuntu with conda/miniconda istalled and a conda environment)
+Requirements: Linux environment (on Windows via WSL) and Python 3  (we use Ubuntu with conda/miniconda istalled and a conda environment with PYTHON=3.9)
 
 Preparations:
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run `bash ./parse_publications.sh` to download and parse the publication files.
-3. Run: `LOCAL=1 WEBSITE=website-pathology bash ./copy_content.sh` to copy files for any website.
+1. Clone website content (if on windows, do this from WSL/ubuntu commandline). cd into website-content
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run `bash ./parse_publications.sh` to download and parse the publication files.
+5. Run: `LOCAL=1 WEBSITE=website-pathology bash ./copy_content.sh` to copy files for any website. If you get an error `cp: cannot create directory 'website-pathology/output/images': No such file or directory`, then you should make this folder: `mkdir -p website-pathology/output/images` and try again
 
 Building the website:
 1. cd into the website folder: `cd website-pathology`
