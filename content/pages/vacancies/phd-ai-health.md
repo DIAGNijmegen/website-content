@@ -3,7 +3,7 @@ groups: diag
 closed: false
 type: general
 picture: vacancies/aiforradiology.png
-people: Maarten de Rooij, Steven Schalekamp, Matthieu Rutten, Bram van Ginneken Kicky van Leeuwen
+people: Maarten de Rooij, Steven Schalekamp, Matthieu Rutten, Bram van Ginneken, Kicky van Leeuwen
 template: vacancy-single
 description: PhD position for research and teaching on validation and implementation of commercially available Artificial Intelligence solutions in healthcare
 
@@ -34,4 +34,4 @@ Nijmegen is the oldest Dutch city with a rich history and one of the liveliest c
 You will be appointed as a researcher at the Radboud University Medical Center, Department of Medical Imaging, with the standard salary and secondary conditions for clinical PhD students in the Netherlands. Your appointment is for three years. Your work is expected to lead to the thesis.
 
 ## Application
-To apply for this PhD vacancy, follow the official application procedure. Apply before December 10, 2023. For further information, please contact Maarten de Rooij or Steven Schalekamp.
+To apply for this PhD vacancy, follow the official application procedure. Applications will be processed immediately upon receipt and the positions will be filled as soon as a suitable candidate has been found. The hiring process will be close on December 10, 2023. For further information, please contact Maarten de Rooij or Steven Schalekamp.
