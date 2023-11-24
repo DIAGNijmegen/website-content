@@ -2,7 +2,7 @@ title: ICAI Day explores AI's impact on Healthcare
 date: 2023-11-21
 description: Colin Jacobs, Henkjan Huisman, Jos Thannhauser, and Luc Evers organized the ICAI Day on AI and Healthcare in Nijmegen.
 picture: news/icai-day-nov-2023-2.png
-groups: diag
+groups: diag cara-lab
 
 On the 1st of November 2023, the ICAI Day Autumn Edition took place at Radboud University and Radboud University Medical Center in Nijmegen, organized by DIAG's [member/colin-jacobs], [member/henkjan-huisman], [member/jos-thannhauser], and [member/luc-evers]. The event attracted more than 100 participants and delved into the intersection of Artificial Intelligence (AI) and healthcare, offering a comprehensive exploration of AI's influence on the medical landscape. Bringing together experts, researchers, and enthusiasts, the event featured a diverse agenda that delved into the technical intricacies and broader implications of AI applications in medicine.
 
