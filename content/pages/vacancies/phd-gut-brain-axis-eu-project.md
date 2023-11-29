@@ -1,6 +1,6 @@
 title: PhD position on artificial intelligence for digital pathology and genetics in the gut microbiome
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/gut-brain-axis.png
 people: Francesco Ciompi, Annemarie Boleij, Nils Kohn

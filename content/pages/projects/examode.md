@@ -1,6 +1,6 @@
 title: ExaMode
 picture: projects/ExaMode.png
-finished: false
+finished: true
 type: general
 description: The aim of ExaMode is to collect training data with limited human interaction for the processing of exascale volumes of healthcare data.
 template: project-single
