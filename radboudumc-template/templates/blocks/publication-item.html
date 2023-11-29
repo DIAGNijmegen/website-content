@@ -32,10 +32,6 @@
           </a>
         {% endif %}
       {% endif %}
-     
-      {% if 'gsid' in BIB_ITEMS[bibkey] and 'gscites' in BIB_ITEMS[bibkey] %}
-        <a class="badge badge-publication" href="{{ BIB_ITEMS[bibkey]['gsid'] }}">Cited by ~{{ BIB_ITEMS[bibkey]['gscites'] }}</a>
-      {% endif %}
 
       {% if 'code' in BIB_ITEMS[bibkey] %}
         <a class="badge badge-publication" href="{{ BIB_ITEMS[bibkey]['code'] }}">Code</a>
@@ -59,6 +55,10 @@
 
       {% if 'youtube' in BIB_ITEMS[bibkey] %}
         <a class="badge badge-publication" href="https://youtube.com/watch?v={{ BIB_ITEMS[bibkey]['youtube'] }}">YouTube</a>
+      {% endif %}
+
+      {% if 'gsid' in BIB_ITEMS[bibkey] and 'gscites' in BIB_ITEMS[bibkey] %}
+        <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['gscites'] }}</a>
       {% endif %}
 
     </small>
