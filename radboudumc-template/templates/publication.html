@@ -53,6 +53,10 @@
     {% if 'citation-count' in BIB_ITEMS[page.bibkey] %}
       <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[page.bibkey]['citation-count'] }}</a>
     {% endif %}
+
+    {% if 'citation-count' not in BIB_ITEMS[page.bibkey] and 'gsid' in BIB_ITEMS[page.bibkey] and 'gscites' in BIB_ITEMS[page.bibkey] %}
+      <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[page.bibkey]['gscites'] }}</a>
+    {% endif %}
     
   </p>
 
