@@ -15,7 +15,7 @@ The [‘AI for Radiology’ platform](https://aiforradiology.com), developed by 
 ## Job description
 We are seeking an ambitious PhD student to work on this three-year project, which should result in a PhD thesis. The goal of this PhD project is to bring more transparency in the field of commercially available AI solutions in healthcare. You will use our developed Project AIR framework to validate and compare more commercially AI products to provide insights into the performance of the products. 
 
-Another important part of the project is to develop and coordinate a national course aimed at healthcare professionals on AI for healthcare, as aprt of the [ICAI Academy](https://icai.ai/academy/), how it works, what products are available, and what to keep in mind when evaluating and implementing AI products in healthcare. The course will consist of an online part and full-day workshops that will be held four times per year. 
+Another important part of the project is to develop and coordinate a national course aimed at healthcare professionals on AI for healthcare, part of the [ICAI Academy](https://icai.ai/academy/). The course will explain how AI works, what the role of AI in healthcare is, what products are currently available, and what to keep in mind when evaluating and implementing AI products in healthcare. The course will consist of an online part and full-day workshops that will be held four times per year. 
 
 Furthermore, you will have the opportunity to explore the AI market beyond the field of radiology and expand the overview of commercially available products to other areas in healthcare. 
  
@@ -26,6 +26,7 @@ The Diagnostic Image Analysis Group is at the forefront of developments in AI fo
 *	MSc degree (or equivalent) in (Technical) Medicine
 *	Strong interest in Artificial Intelligence in Healthcare
 *	Excellent communication skills in English and the ability and willingness to work in an interdisciplinary research team
+*	Interest in teaching and educating healthcare professionals on the role of AI in healthcare
 
 ## Radboud University Nijmegen Medical Center
 Nijmegen is the oldest Dutch city with a rich history and one of the liveliest city centers in the Netherlands. Radboud University has over 17,000 students. Radboud University Medical Center is a leading academic center for medical science, education, and health care with over 8,500 staff and 3,000 students.
