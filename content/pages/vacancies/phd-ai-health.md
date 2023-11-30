@@ -15,7 +15,7 @@ The [‘AI for Radiology’ platform](https://aiforradiology.com), developed by 
 ## Job description
 We are seeking an ambitious PhD student to work on this three-year project, which should result in a PhD thesis. The goal of this PhD project is to bring more transparency in the field of commercially available AI solutions in healthcare. You will use our developed Project AIR framework to validate and compare more commercially AI products to provide insights into the performance of the products. 
 
-Another important part of the project is to develop and coordinate a national course aimed at healthcare professionals on AI for healthcare, how it works, what products are available, and what to keep in mind when evaluating and implementing AI products in healthcare. The course will consist of an online part and full-day workshops that will be held four times per year. 
+Another important part of the project is to develop and coordinate a national course aimed at healthcare professionals on AI for healthcare, as aprt of the [ICAI Academy](https://icai.ai/academy/), how it works, what products are available, and what to keep in mind when evaluating and implementing AI products in healthcare. The course will consist of an online part and full-day workshops that will be held four times per year. 
 
 Furthermore, you will have the opportunity to explore the AI market beyond the field of radiology and expand the overview of commercially available products to other areas in healthcare. 
  
