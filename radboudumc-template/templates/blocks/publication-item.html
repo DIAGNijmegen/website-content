@@ -58,7 +58,7 @@
       {% endif %}
 
       {% if 'gscites' in BIB_ITEMS[bibkey] %}
-        {% if BIB_ITEMS[bibkey]['gscites'] != 0 %}
+        {% if BIB_ITEMS[bibkey]['gscites'] != '0' %}
           <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['gscites'] }}</a>
         {% endif %}
       {% endif %}
