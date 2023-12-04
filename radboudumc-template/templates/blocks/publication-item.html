@@ -58,11 +58,16 @@
       {% endif %}
 
       {% if 'citation-count' in BIB_ITEMS[bibkey] %}
-        <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['citation-count'] }}</a>
+        {% if BIB_ITEMS[bibkey]['citation-count'] != '0' %}
+          {{ BIB_ITEMS[bibkey]['citation-count'] }}
+          <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['citation-count'] }}</a>
+        {% endif %}
       {% endif %}
 
       {% if 'citation-count' not in BIB_ITEMS[bibkey] and 'gsid' in BIB_ITEMS[bibkey] and 'gscites' in BIB_ITEMS[bibkey] %}
-        <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['gscites'] }}</a>
+        {% if BIB_ITEMS[bibkey]['gscites'] != 0 %}
+          <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['gscites'] }}</a>
+        {% endif %}
       {% endif %}
 
     </small>
