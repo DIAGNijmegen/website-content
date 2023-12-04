@@ -59,7 +59,6 @@
 
       {% if 'citation-count' in BIB_ITEMS[bibkey] %}
         {% if BIB_ITEMS[bibkey]['citation-count'] != '0' %}
-          {{ BIB_ITEMS[bibkey]['citation-count'] }}
           <a class="badge badge-publication" style="background-color: #FCFCFC !important; margin-left: 10px;">Cited by ~{{ BIB_ITEMS[bibkey]['citation-count'] }}</a>
         {% endif %}
       {% endif %}
