@@ -2,13 +2,13 @@ title: Silvan Quax
 name: Silvan Quax
 template: people-single
 picture: people/Silvan_Quax.jpg
-position: Research Scientist RTC Deep Learning, Research Scientist RTC Deep Learning, AI scientist
+position: Coordinator RTC Deep Learning
 active: yes
 groups: rtc, diag, cara-lab
 default_group: rtc
 email: silvan.quax@radboudumc.nl
 office: Route 767, Room 27
-type: tech, tech, phd
+type: faculty
 telephone: +31 24 3614548
 linkedin: https://www.linkedin.com/in/silvan-quax/
 scholar: https://scholar.google.nl/citations?user=MnWGlxYAAAAJ&hl=en&oi=ao
