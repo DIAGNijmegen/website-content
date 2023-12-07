@@ -1,5 +1,5 @@
 title: Stan Noordman
-name: Stan Constant Richard Noordman
+name: Stan Noordman
 template: people-single
 picture: people/Stan_Noordman.png
 position: PhD Candidate
