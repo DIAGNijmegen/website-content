@@ -2,13 +2,13 @@ title: Ajay Patel
 name: Ajay Patel
 template: people-single
 picture: people/Ajay_Patel.jpg
-position: Coordinator RTC Deep Learning
+position: RTC Deep Learning
 active: yes
 groups: diag, rtc
 default_group: rtc
 email: ajay.patel@radboudumc.nl
 office: Route 767, Room 27
-type: faculty
+type: tech
 telephone: +31 24 3614548
 linkedin: https://www.linkedin.com/in/ajay-patel-a609027a/
 researcherid: http://www.researcherid.com/rid/O-9215-2015
