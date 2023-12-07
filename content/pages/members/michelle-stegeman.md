@@ -1,5 +1,5 @@
 title: Michelle Stegeman
-name: michelle Stegeman
+name: Michelle Stegeman
 template: people-single
 picture: people/Michelle_Stegeman.jpg
 position: PhD Candidate
