@@ -2,7 +2,7 @@ title: Silvan Quax
 name: Silvan Quax
 template: people-single
 picture: people/Silvan_Quax.jpg
-position: Coordinator RTC Deep Learning
+position: Head RTC Deep Learning
 active: yes
 groups: rtc, diag, cara-lab
 default_group: rtc
