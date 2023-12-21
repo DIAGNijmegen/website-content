@@ -1,5 +1,5 @@
-title: Milda Pocevičiūtė
-name: Milda Pocevičiūtė
+title: Milda Poceviciute
+name: Milda Poceviciute
 template: people-single
 picture: people/Milda_Poceviciute.jpg
 position: Postdoctoral Researcher
