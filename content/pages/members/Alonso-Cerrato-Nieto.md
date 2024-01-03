@@ -1,7 +1,7 @@
 title: Alonso Cerrato Nieto
 name: Alonso Cerrato Nieto
 template: people-single
-picture: people/Alonso_Cerrato_Nieto.JPG
+picture: people/Alonso_Cerrato_Nieto.jpg
 position: PhD Candidate
 active: yes
 groups: diag
