@@ -2,7 +2,7 @@ title: Lung cancer image analysis
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
-people: Colin Jacobs, Cornelia Schaefer-Prokop, Ernst Scholten, Ward Hendrix, Kiran Vaidhya Venkadesh, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Tijmen de Haas, Jen Dusseljee, Karlijn Rutten, Sarah van Rooden
+people: Colin Jacobs, Cornelia Schaefer-Prokop, Ernst Scholten, Ward Hendrix, Kiran Vaidhya Venkadesh, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Tijmen de Haas, Jen Dusseljee, Karlijn Rutten, Sarah van Rooden
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: lung-cancer-screening, nelson-pop, solace, merai, amara, incidental-lung-nodules, lung-cancer-early-stage-treatment, imagio
 algorithms: lung-nodule-detector-for-ct, pulmonary-nodule-malignancy-prediction, temporal-nodule-analysis, pulmonary-lobe-segmentation
