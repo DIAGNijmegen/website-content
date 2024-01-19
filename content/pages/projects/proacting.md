@@ -7,7 +7,7 @@ template: project-single
 groups: diag, pathology
 default_group: pathology
 people: Francesco Ciompi, Jeroen van der Laak, Witali Aswolinskiy, Esther Lips, Jelle Wesseling
-bibkeys:
+bibkeys: Aswo23
 
 
 ## Background
