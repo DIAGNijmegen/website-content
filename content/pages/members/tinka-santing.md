@@ -3,7 +3,7 @@ name: Tinka Santing
 template: people-single
 picture: people/Tinka_Santing.jpg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: tinka.santing@radboudumc.nl

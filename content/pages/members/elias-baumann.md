@@ -3,7 +3,7 @@ name: Elias Baumann
 template: people-single
 picture: people/Elias_Baumann.png
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: elias.baumann@unibe.ch

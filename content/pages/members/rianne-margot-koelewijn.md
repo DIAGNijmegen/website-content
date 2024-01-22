@@ -3,7 +3,7 @@ name: Rianne-Margot Koelewijn
 template: people-single
 picture: people/Rianne_Margot_Koelewijn.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: mwhmkoelewijn@gmail.com

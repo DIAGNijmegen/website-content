@@ -3,7 +3,7 @@ name: Myrthe van de Ven
 template: people-single
 picture: people/Myrthe_van_de_Ven.jpg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: myrthe.vandeven@radboudumc.nl

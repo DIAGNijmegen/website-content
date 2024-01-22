@@ -3,7 +3,7 @@ name: Carlijn Lems
 template: people-single
 picture: people/Carlijn_Lems.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: carlijn.lems@radboudumc.nl

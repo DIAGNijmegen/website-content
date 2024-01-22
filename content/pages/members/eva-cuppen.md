@@ -3,7 +3,7 @@ name: Eva Cuppen
 template: people-single
 picture: people/Eva_Cuppen.jpg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: Eva.Cuppen@radboudumc.nl

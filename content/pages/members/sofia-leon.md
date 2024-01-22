@@ -3,7 +3,7 @@ name: Sofía León
 template: people-single
 picture: people/Sofia_Leon.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: nohemisofia.leoncontreras@radboudumc.nl
