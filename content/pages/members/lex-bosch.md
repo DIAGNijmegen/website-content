@@ -3,7 +3,7 @@ name: Lex Bosch
 template: people-single
 picture: people/Lex_Bosch.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: lex.bosch@radboudumc.nl
