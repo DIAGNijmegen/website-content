@@ -2,13 +2,13 @@ title: Fazael Ayatollahi
 name: Fazael Ayatollahi
 template: people-single
 picture: people/Fazael_Ayatollahi.jpg
-position: Postdoctoral Researcher
+position: Scientific Researcher
 active: yes
 groups: diag, pathology
 default_group: pathology
 office: Route 812, room 2.39
 email: fazael.ayatollahi@radboudumc.nl
-type: scientific reaearcher
+type: postdoc
 linkedin: https://www.linkedin.com/in/fazael-ayatollahi-052039236/
 scholar: https://scholar.google.com/citations?user=L9JlQ_YAAAAJ&hl=en
 
