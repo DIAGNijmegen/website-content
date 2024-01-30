@@ -7,7 +7,7 @@ groups: pathology, diag
 default_group: pathology
 people: Chella van der Post, Francesco Ciompi, Iris Nagtegaal, Jeroen van der Laak, Robin Lomans
 description: The aim of UNIC is to develop artificial intelligence methods to refine diffuse-type gastric cancer (DGC) diagnostics. 
-bibkeys: 
+bibkeys: Loma23, Loma23a
 type: normal
 
 Within this project we will develop artificial intelligence (AI) methods to refine diffuse-type gastric cancer (DGC) diagnostics. Since DGC may be easily missed or hard to find on biopsies and prophylactic hereditary gastrectomy specimens, AI will aid the pathologist in the diagnostic work-up, improving the detection of relevant cell types among a very large set of slides, with high potential to improve cancer diagnostics. Furthermore, the automation in cell detection provided by AI algorithms will allow to quantitatively and objectively assess DGC patterns in large series of slides, potentially giving new insights in specific morphological features of DGC, such as patterns of spatial cell distributions. 
