@@ -3,7 +3,7 @@ name: Susu Sun
 template: people-single
 picture: people/Susu_Sun.png
 position: Visiting Researcher
-active: no
+active: yes
 groups: diag, pathology
 default_group: pathology
 email: susu.sun@uni-tuebingen.de
