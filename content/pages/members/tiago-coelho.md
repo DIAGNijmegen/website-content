@@ -4,8 +4,8 @@ template: people-single
 picture: people/Tiago_Coelho.jpg
 position: PhD Candidate
 active: yes
-groups: diag, pathology
-default_group: pathology
+groups: diag
+default_group: diag
 email: tiago.coelho@radboudumc.nl
 office:
 type: phd
