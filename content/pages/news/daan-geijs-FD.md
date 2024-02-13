@@ -8,4 +8,4 @@ groups: diag, pathology
 
 Daan was recognized for his research on AI for skin cancer assessment. In particular, he has managed to collect the largest dataset to date for AI in the diagnosis of basal cell carcinoma (BCC). Daan aims to automate BCC detection, thereby alleviating the increasing workload of pathologists.
 
-In the article, Daan also takes the opportunity to address some of the hurdles of implementing AI in healthcare, such as outdated IT systems and resistance to change. The full FD Young Talent Special 2024 is available [online](https://specials.fd.nl/talenten).
+In the article, Daan also takes the opportunity to address some of the hurdles of implementing AI in healthcare, such as outdated IT systems and resistance to change. The full FD Young Talent Special 2024 is available [online](https://specials.fd.nl/talenten). We are happy to congratulate Daan on this great accomplishment!
