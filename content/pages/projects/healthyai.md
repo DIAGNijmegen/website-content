@@ -5,7 +5,7 @@ type: general
 picture: projects/prostate.jpg
 template: project-single
 groups: diag
-people: Vilma Bozgo, Romain André, Henkjan Huisman, Derya Yakar, Christoph Brune
+people: Vilma Bozgo, Romain André, Henkjan Huisman, Derya Yakar, Christoph Brune, Tiago Coelho
 description: 
 bibkeys: 
 

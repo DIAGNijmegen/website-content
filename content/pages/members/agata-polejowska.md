@@ -6,7 +6,7 @@ position: PhD Candidate
 active: yes
 groups: diag, pathology
 default_group: pathology
-email: polejowska.agata@gmail.com
+email: Agata.Polejowska@radboudumc.nl
 office: 
 type: phd
 linkedin: https://www.linkedin.com/in/agatapolejowska/
