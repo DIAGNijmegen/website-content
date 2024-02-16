@@ -3,7 +3,7 @@ name: Aniek Wigman
 template: people-single
 picture: people/Aniek_Wigman.jpeg
 position: Student assistant
-active: yes
+active: no
 groups: pathology, diag
 default_group: pathology
 email: 
