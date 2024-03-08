@@ -3,7 +3,7 @@ name: Steffan Borgers
 template: people-single
 picture: people/Steffan_Borgers.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: steffan.borgers@radboudumc.nl

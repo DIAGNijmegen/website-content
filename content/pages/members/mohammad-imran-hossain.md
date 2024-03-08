@@ -3,7 +3,7 @@ name: Mohammad Imran Hossain
 template: people-single
 picture: people/Mohammad_Imran_Hossain.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: mdimran.hossain@radboudumc.nl

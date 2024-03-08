@@ -3,7 +3,7 @@ name: Nathan Golden
 template: people-single
 picture: people/Nathan_Golden.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: nathan.golden@radboudumc.nl

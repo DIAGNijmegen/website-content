@@ -3,7 +3,7 @@ name: Giulia Saccomano
 template: people-single
 picture: people/Giulia_Saccomano.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Giulia.Saccomano@radboudumc.nl
