@@ -1,6 +1,6 @@
 title: PhD candidate AI-IMAGINE 'AI for first-time right treatment liver tumors'
 groups: diag
-closed: true
+closed: false
 type: general
 picture: vacancies/phd-ai-imagine.jpg
 people: Henkjan Huisman, Kristian Overduin
