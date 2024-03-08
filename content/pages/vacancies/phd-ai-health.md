@@ -1,6 +1,6 @@
 title: PhD student: Validation and Implementation of Commercially Available Artificial Intelligence Solutions in Healthcare
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/aiforradiology.png
 people: Maarten de Rooij, Steven Schalekamp, Matthieu Rutten, Bram van Ginneken, Kicky van Leeuwen
