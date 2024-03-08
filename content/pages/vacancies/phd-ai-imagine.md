@@ -3,7 +3,7 @@ groups: diag
 closed: true
 type: general
 picture: vacancies/phd-ai-imagine.jpg
-people: Henkjan Huisman
+people: Henkjan Huisman, Kristian Overduin
 template: vacancy-single
 description: PhD position for developing innovative AI methods for intra-operative evaluation and prediction of treatment success in thermal ablation treatment of liver tumors with the AI-IMAGINE project
 
@@ -18,6 +18,7 @@ You will work from bench-to-bedside, covering the whole spectrum from data selec
 You are an enthusiastic, highly motivated PhD candidate with a curious attitude, pro-active personality and a drive to make impact through clinical use of AI.
 
 Moreover you have:
+
 - A background in Computer Science, Mathematics, Physics, Technical Medicine or similar.
 - Affinity with medical imaging AI. 
 - Expertise in software development, preferably Python. 
@@ -41,7 +42,6 @@ The DIAG group is internationally renowned for its research on deep learning AI 
 ## Employment conditions
 At Radboud university medical center, you build on your future. We are committed to providing the best care, education, and research. And we are true to our word, because we help you develop and seize opportunities and give you the room to grow. As an employer, we believe that employees should feel vital and happy at work in all stages of life. We are also committed to creating a healthy and safe working environment. Our employment conditions contribute to that. What we offer: 
 
-We offer
 - A gross monthly salary between € 2.901 and € 3.6877 (scale 10A) based on full-time employment.
 - An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
 - As a full-time employee (36 hours per week), you are entitled to approximately 168 vacation hours (over 23 days) per year.
@@ -53,9 +53,10 @@ We offer
 Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl/en/working-at/what-do-we-offer/terms-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
 ## Application
-Are you ready to think further for our patients and our care? We would like to receive your application before 25 March 2024 via the following [link](https://www.radboudumc.nl/en/vacancies/141121-phd-candidate-ai-imagine-ai-for-first-time-right-treatment-liver-tumors). We will then contact you shortly.
+Are you ready to think further for our patients and our care? We would like to receive your application before 25 March 2024 via the following [link](https://www.radboudumc.nl/en/vacancies/141121-phd-candidate-ai-imagine-ai-for-first-time-right-treatment-liver-tumors). We will then contact you shortly. For further information, please contact [Kristian Overduin](mailto:Kristian.overduin@radboudumc.nl)
 
 Good to know
+
 - This position requires a Certificate of Conduct (VOG).
 - You can find more information about our application procedure and frequently asked questions on our website.
-- Will you be our new colleague? Then you will be given the time and space to get to know your role, your - workplace, and your colleagues. An induction day for all new colleagues is an integral part of your onboarding program. 
+- Will you be our new colleague? Then you will be given the time and space to get to know your role, your - workplace, and your colleagues. An induction day for all new colleagues is an integral part of your onboarding program.
