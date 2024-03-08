@@ -54,9 +54,3 @@ Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl
 
 ## Application
 Are you ready to think further for our patients and our care? We would like to receive your application before 25 March 2024 via the following [link](https://www.radboudumc.nl/en/vacancies/141121-phd-candidate-ai-imagine-ai-for-first-time-right-treatment-liver-tumors). We will then contact you shortly. For further information, please contact [Kristian Overduin](mailto:Kristian.overduin@radboudumc.nl)
-
-Good to know
-
-- This position requires a Certificate of Conduct (VOG).
-- You can find more information about our application procedure and frequently asked questions on our website.
-- Will you be our new colleague? Then you will be given the time and space to get to know your role, your - workplace, and your colleagues. An induction day for all new colleagues is an integral part of your onboarding program.
