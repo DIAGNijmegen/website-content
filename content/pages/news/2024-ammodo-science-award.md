@@ -1,6 +1,6 @@
 title: Computational Pathology Group is awarded the 2024 Ammodo Science Award for groundbreaking research
 date: 2024-03-05
-picture: news/Ammodo_award_2024.jpg
+picture: news/Ammodo_award_2024_resized.jpg
 groups: diag, pathology
 description: On March 5, 2024, The Computational Pathology Group received the 2024 Ammodo Science Award for groundbreaking research
 
