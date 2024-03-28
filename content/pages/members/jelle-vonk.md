@@ -3,7 +3,7 @@ name: Jelle Vonk
 template: people-single
 picture: people/Jelle_Vonk.jpeg
 position: Technical Data Manager
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: jelle.vonk@radboudumc.nl
