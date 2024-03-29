@@ -5,7 +5,7 @@ type: student
 picture: vacancies/msc_ptc.png
 template: vacancy-single
 people: Linda Studer, Dominique van Midden, Jeroen van der Laak 
-description: Develop a method to extend a prostate cancer grading algorithm to other surgical entities
+description: Automatically segmentation of peritubular capillaries
 
 ## Clinical Problem 
 Peritubular capillaritis (ptc) refers to inflammation of the peritubular capillaries (PTCs), which are the tiny blood vessels surrounding the renal tubules (which contain the urine) in the kidneys. They ensure efficient reabsorption and secretion of substances between the bloodstream and tubules. Inflammation of peritubular capillaires is a sign of microvascular damage. 
@@ -22,14 +22,12 @@ So far, we have collected a dataset of 69 Whole Slide Images (WSI) of kidney tra
 - Interest in image analysis and machine learning.
 - Affinity with programming in Python, specifically in the PyTorch framework
 
-
 ## Information 
 - Project duration: 6 months 
 - Location: Radboud University Medical Center 
 - You will be part of the Diagnostic Image Analysis Group (DIAG) and Computational Pathology Group, whose research focus is the analysis of histopathological slides with deep learning techniques. 
 - You will have access to and work with a large GPU cluster.
 - For more information, please contact [member/linda-studer]
-
 
 ## References
     [1] Jacq, Amélie, et al. "Automated evaluation with deep learning of total interstitial inflammation and peritubular capillaritis on kidney biopsies." Nephrology Dialysis Transplantation 38.12 (2023): 2786-2798.

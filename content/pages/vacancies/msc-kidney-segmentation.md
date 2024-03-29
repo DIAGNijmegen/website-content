@@ -5,7 +5,7 @@ type: student
 picture: vacancies/msc_kidney_segmentation.jpg
 template: vacancy-single
 people: Linda Studer, Dominique van Midden, Jeroen van der Laak 
-description: Develop a method to extend a prostate cancer grading algorithm to other surgical entities
+description: Automatically segmentation of different tissue compartments in kidney
 
 ## Clinical Problem 
 Inflammation and chronic changes in the different tissue compartments (e.g. glomeruli, tubulo-interstitium, vasculature) are important prognostic features for kidney (transplant) function and guide treatment decision. Quantitative scoring of these features is therefore very important for transplant diagnostics and kidney research. However, visual scoring by pathologists is poorly reproducible and labor-intensive. Within the [DIAGGRAFT project](https://www.computationalpathologygroup.eu/projects/diaggraft/) (funded by the Dutch kidney foundation), we aim to automatically quantify inflammation in different tissue compartments. This is only possible if we have a reliable tissue segmentation.
