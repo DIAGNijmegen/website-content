@@ -1,4 +1,4 @@
-title: Extending a prostate cancer grading algorithm to other surgical entities
+title: Peritubular Capillary Segmentation in Kidney Transplant Biopsies
 groups: diag, pathology
 closed: true
 type: student 
