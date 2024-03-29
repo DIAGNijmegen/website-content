@@ -14,8 +14,8 @@ Inflammation and chronic changes in the different tissue compartments (e.g. glom
 Hermsen et al.<sup>[1]</sup> have proposed a first approach to the task of tissue segmentation using a U-net architecture. This approach, however, did not include peritubular capillaries (PTC), for which we have since collected annotations.
 The goal of this project is to extend the tissue segmentation model to include this additional class and to investigate current state-of-the-art segmentation model(s) to improve the performance.
 
-[1] Hermsen, Meyke, et al. "Convolutional neural networks for the evaluation of chronic and inflammatory lesions in kidney transplant biopsies." The American Journal of Pathology 192.10 (2022): 1418-1432.
-
+[1] Hermsen, Meyke, et al. "Convolutional neural networks for the evaluation of chronic and inflammatory lesions in kidney transplant biopsies." The American Journal of Pathology 192.10 (2022): 1418-1432. <br>
+[2] Jayapandian, Catherine P., et al. "Development and evaluation of deep learning–based segmentation of histologic structures in the kidney cortex with multiple histologic stains." Kidney international 99.1 (2021): 86-101.
 
 ## Data 
 The dataset used in<sup>[1]</sup> contains 125 whole slide images (WSI) annotated for 10 different tissue types (glomeruli, sclerotic glomeruli, empty Bowman capsules, proximal tubuli, distal tubuli, atrophic tubuli, capsule, arteries/arterioles, interstitium, and border). Additionally, there is a dataset of 69 WSI with annotations for peritubular capillaries. If needed, more images are available, and a resident pathologist is involved in the project to help interpret results and provide new annotations.
