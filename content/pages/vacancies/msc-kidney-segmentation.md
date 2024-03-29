@@ -1,6 +1,6 @@
 title: Tissue Segmentation in Kidney Transplant Biopsies
 groups: diag, pathology
-closed: true
+closed: false
 type: student 
 picture: vacancies/msc_kidney_segmentation_highquality.jpg
 template: vacancy-single
