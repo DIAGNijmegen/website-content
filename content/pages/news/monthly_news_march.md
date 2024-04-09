@@ -30,7 +30,7 @@ We are excited to share some of our recent publications!
  
 We are thrilled to welcome the following new members to DIAG:
  
-[member/joske_van_der_zande]
+[member/joske-van-der-zande]
  
 [member/carlijn-lems]
  
