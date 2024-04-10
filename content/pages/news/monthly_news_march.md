@@ -8,7 +8,7 @@ description: Welcome to the first edition of the Diagnostic Image Analysis Group
  
 - [member/jeroen-van-der-laak], [member/geert-litjens], and [member/francesco-ciompi] were awarded the **2024 Ammodo Science Award** for groundbreaking research. Read more about this achievement in [this news item](https://www.diagnijmegen.nl/news/2024-ammodo-science-award/).
  
-- [member/francesco-ciompi] , alongside Marloes Groot and Jan Willem Duitman, has also secured a grant through the Open Technology Programme from the [NWO domain of Applied and Technical Sciences](https://vu.nl/en/news/2024/nwo-open-technology-program-grant-for-dopredict). This funding supports their collaborative research project "DoPredict: Dynamic 3D Biopsy Based Response to Treatment Prediction." The project aims to develop a system for predicting treatment outcomes in lung diseases by testing various medications on small tissue samples from patients.
+- [member/francesco-ciompi], alongside Marloes Groot and Jan Willem Duitman, has also secured a grant through the Open Technology Programme from the [NWO domain of Applied and Technical Sciences](https://vu.nl/en/news/2024/nwo-open-technology-program-grant-for-dopredict). This funding supports their collaborative research project "DoPredict: Dynamic 3D Biopsy Based Response to Treatment Prediction." The project aims to develop a system for predicting treatment outcomes in lung diseases by testing various medications on small tissue samples from patients.
  
 ## Highlighted publications:
  
@@ -20,7 +20,7 @@ We are excited to share some of our recent publications!
  
 > **"Combining Public Datasets for Automated Tooth Assessment in Panoramic Radiographs"**- N. van Nistelrooij, K. Ghoul, T. Xi, A. Saha, S. Kempers, M. Cenci, B. Loomans, T. Flügge, B. van Ginneken, S. Vinayahalingam; BMC Oral Health, 2024;24.  
  
-> **"Comparing Deep Learning and Pathologist Quantification of PD-L1 Expression in Non-Small Cell Lung Cancer Whole-Slide Images"** - L. van Eekelen, J. Spronck, M. Looijen-Salamon, S. Vos, E. Munari, I. Girolami, A. Eccher, B. Acs, C. Boyaci, G. de Souza, M. Demirel-Andishmand, L. Meesters, D. Zegers, L. van der Woude, W. Theelen, M. van den Heuvel, K. Grünberg, B. van Ginneken, J. van der Laak, F. Ciompi; cientific Reports, 2024;14.
+> **"Comparing Deep Learning and Pathologist Quantification of PD-L1 Expression in Non-Small Cell Lung Cancer Whole-Slide Images"** - L. van Eekelen, J. Spronck, M. Looijen-Salamon, S. Vos, E. Munari, I. Girolami, A. Eccher, B. Acs, C. Boyaci, G. de Souza, M. Demirel-Andishmand, L. Meesters, D. Zegers, L. van der Woude, W. Theelen, M. van den Heuvel, K. Grünberg, B. van Ginneken, J. van der Laak, F. Ciompi; Scientific Reports, 2024;14.
  
 > **"Artificial Intelligence in Medicine: Mitigating Risks and Maximizing Benefits via Quality Assurance, Quality Control, and Acceptance Testing"** - U. Mahmood, A. Shukla-Dave, H. Chan, K. Drukker, R. Samala, Q. Chen, D. Vergara, H. Greenspan, N. Petrick, B. Sahiner, Z. Huo, R. Summers, K. Cha, G. Tourassi, T. Deserno, K. Grizzard, J. Näppi, H. Yoshida, D. Regge, R. Mazurchuk, K. Suzuki, L. Morra, H. Huisman, S. Armato, L. Hadjiiski; BJR|Artificial Intelligence, 2024;1.  
  
