@@ -1,6 +1,6 @@
 title: Inaugural Edition: Monthly Newsletter DIAG - March
 date: 2023-04-01
-picture: news/monthly_news_2.png
+picture: news/monthly_news2.png
 groups: diag
 description: Welcome to the first edition of the Diagnostic Image Analysis Group monthly news update!
  
