@@ -1,6 +1,6 @@
 title: Leveraging Weak Annotations in AI-based Metastasis Detection from CT Images 
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/lesionBodyCT.png
 template: vacancy-single
