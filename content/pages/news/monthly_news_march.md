@@ -1,5 +1,5 @@
 title: Inaugural Edition: Monthly DIAG News - March
-date: 2023-03-31
+date: 2024-03-31
 picture: news/monthly_news2.png
 groups: diag
 description: Welcome to the first edition of the Diagnostic Image Analysis Group monthly news update!
@@ -8,9 +8,9 @@ description: Welcome to the first edition of the Diagnostic Image Analysis Group
  
 - [member/jeroen-van-der-laak], [member/geert-litjens], and [member/francesco-ciompi] were awarded the **2024 Ammodo Science Award** for groundbreaking research. Read more about this achievement in [this news item](https://www.diagnijmegen.nl/news/2024-ammodo-science-award/).
  
-- [member/francesco-ciompi], alongside Marloes Groot and Jan Willem Duitman, has also secured a grant through the Open Technology Programme from the [NWO domain of Applied and Technical Sciences](https://vu.nl/en/news/2024/nwo-open-technology-program-grant-for-dopredict). This funding supports their collaborative research project "DoPredict: Dynamic 3D Biopsy Based Response to Treatment Prediction." The project aims to develop a system for predicting treatment outcomes in lung diseases by testing various medications on small tissue samples from patients.
+- [member/francesco-ciompi], alongside Marloes Groot and Jan Willem Duitman, has also secured a grant through the Open Technology Programme from the **NWO domain of Applied and Technical Sciences**. This funding supports their collaborative research project ["DoPredict: Dynamic 3D Biopsy Based Response to Treatment Prediction."](https://vu.nl/en/news/2024/nwo-open-technology-program-grant-for-dopredict) The project aims to develop a system for predicting treatment outcomes in lung diseases by testing various medications on small tissue samples from patients.
  
-## Highlighted publications:
+## Highlighted publications
  
 We are excited to share some of our recent publications!  
  
@@ -26,7 +26,7 @@ We are excited to share some of our recent publications!
  
 > **"Lumbar Spine Segmentation in MR Images: A Dataset and a Public Benchmark"** - J. van der Graaf, M. van Hooff, C. Buckens, M. Rutten, J. van Susante, R. Kroeze, M. de Kleuver, B. van Ginneken, N. Lessmann; Scientific Data, 2024;11(1):264.
  
-## New DIAG members:
+## New DIAG members
  
 We are thrilled to welcome the following new members to DIAG:
  
@@ -38,7 +38,7 @@ We are thrilled to welcome the following new members to DIAG:
 - [member/Karlijn-Bok]
 - [member/sandrine-nugteren]
  
-## Upcoming events:
+## Upcoming events
  
 Stay tuned for upcoming events where our team will be presenting our research findings and engaging with the broader medical imaging community. Here are some events to mark on your calendar:
  
