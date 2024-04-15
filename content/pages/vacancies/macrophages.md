@@ -1,6 +1,6 @@
 title: Advancing Macrophage Biomarkers for Improved Immunotherapy Response Prediction
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/macrophages.png
 template: vacancy-single
