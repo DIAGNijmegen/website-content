@@ -1,7 +1,7 @@
 title: Karlijn Bok
 name: Karlijn Bok
 template: people-single
-picture: Karlijn_Bok.png
+picture: people/Karlijn_Bok.png
 position: Master Student
 active: yes
 groups: diag
