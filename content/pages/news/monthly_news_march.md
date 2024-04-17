@@ -3,13 +3,35 @@ date: 2024-03-31
 picture: news/monthly_news2.png
 groups: diag
 description: Welcome to the first edition of the Diagnostic Image Analysis Group monthly news update!
+
+## New DIAG members
+ 
+We are thrilled to welcome the following new members to DIAG:
+
+- [member/carlijn-lems] 
+- [member/hartmut-haentze]
+- [member/joske-van-der-zande]
+- [member/judith-grolleman]
+- [member/Karlijn-Bok]
+- [member/roland-nemeth]
+- [member/sandrine-nugteren]
  
 ## Awards and grants
  
 - [member/jeroen-van-der-laak], [member/geert-litjens], and [member/francesco-ciompi] were awarded the **2024 Ammodo Science Award** for groundbreaking research. Read more about this achievement in [this news item](https://www.diagnijmegen.nl/news/2024-ammodo-science-award/).
  
 - [member/francesco-ciompi], alongside Marloes Groot and Jan Willem Duitman, has also secured a grant through the Open Technology Programme from the **NWO domain of Applied and Technical Sciences**. This funding supports their collaborative research project ["DoPredict: Dynamic 3D Biopsy Based Response to Treatment Prediction"](https://vu.nl/en/news/2024/nwo-open-technology-program-grant-for-dopredict), led by Prof. Marloes Groot. The project aims to develop a system for predicting treatment outcomes in lung diseases by testing various medications on small tissue samples from patients.
+
+## Upcoming events
  
+Stay tuned for upcoming events where our team will be presenting our research findings and engaging with the broader medical imaging community. Here are some events to mark on your calendar:
+ 
+- **The inaugural lecture by Professor Geert Litjens:** [member/geert-litjens] will deliver his inaugural lecture  on Thursday, April 4th, at 3:45 PM. He will speak about AI for medical image analysis in pathology and radiology during his lecture, which is titled: "Van tweede viool naar eenmansband: de toekomst van medische AI”.
+ 
+- **DIAG Day:** The 5-weekly DIAG Day for all DIAG members will take place on April 10th (Update: this DIAG day is cancelled).
+ 
+Stay tuned for more exciting updates in the months ahead!
+
 ## Highlighted publications
  
 We are excited to share some of our recent publications!  
@@ -26,24 +48,3 @@ We are excited to share some of our recent publications!
  
 > **"Lumbar Spine Segmentation in MR Images: A Dataset and a Public Benchmark"** - J. van der Graaf, M. van Hooff, C. Buckens, M. Rutten, J. van Susante, R. Kroeze, M. de Kleuver, B. van Ginneken, N. Lessmann; Scientific Data, 2024;11(1):264.
  
-## New DIAG members
- 
-We are thrilled to welcome the following new members to DIAG:
- 
-- [member/joske-van-der-zande] 
-- [member/carlijn-lems] 
-- [member/judith-grolleman]
-- [member/hartmut-haentze]
-- [member/roland-nemeth]
-- [member/Karlijn-Bok]
-- [member/sandrine-nugteren]
- 
-## Upcoming events
- 
-Stay tuned for upcoming events where our team will be presenting our research findings and engaging with the broader medical imaging community. Here are some events to mark on your calendar:
- 
-- **The inaugural lecture by Professor Geert Litjens:** [member/geert-litjens] will deliver his inaugural lecture  on Thursday, April 4th, at 3:45 PM. He will speak about AI for medical image analysis in pathology and radiology during his lecture, which is titled: "Van tweede viool naar eenmansband: de toekomst van medische AI”.
- 
-- **DIAG Day:** The 5-weekly DIAG Day for all DIAG members will take place on April 10th (Update: this DIAG day is cancelled).
- 
-Stay tuned for more exciting updates in the months ahead!
