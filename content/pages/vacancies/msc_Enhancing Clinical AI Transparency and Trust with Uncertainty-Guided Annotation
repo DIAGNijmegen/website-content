@@ -1,0 +1,28 @@
+MANDATORY
+title: Enhancing Clinical AI Transparency and Trust with Uncertainty-Guided Annotation 
+groups: pathology/retina/rse, etc (determines on which website the vacancy or student project appears)
+closed: false (September 2024)
+type: student
+picture: vacancies/<uncertainty>.png (Image is collected from website-content/content/images/. Upload a rectangular image here)
+template: vacancy-single
+people: Nadieh Khalili, Geert Litjens
+description: This project has the potential to receive financial support through ELLIS fellowship, with the deadline set for June 1st. https://www.ru.nl/en/departments/interdisciplinair/ellis-unit
+## Job description
+
+ {Research Question/Goal: Description: Deep learning algorithms, pivotal in modern medical imaging, often lack the necessary transparency for trusted clinical use due to their 'black box' nature. This challenge is magnified when deploying such models in local hospitals, where they encounter out-of-domain distributions arising from diverse imaging techniques and unique patient pathologies. To address this, the Uncertainty-Guided Annotation (UGA) framework utilizes a human-in-the-loop approach to enhance model reliability. By quantifying uncertainty at the pixel level, UGA not only reveals the model's limitations but also fosters clinician-guided corrections, serving as an automated quality control mechanism. This thesis will explore the extension of UGA across multiple datasets, assessing its scalability and effectiveness in improving clinical AI applications.}
+
+## Requirements
+
+{Experience with / interest in: Python, machine learning, deep learning, medical imaging}
+
+## Conditions of employment
+
+{text}
+
+##Reference
+
+{Khalili, Nadieh, Joey Spronck, Francesco Ciompi, Jeroen van der Laak, and Geert Litjens. "Uncertainty-guided annotation enhances segmentation with the human-in-the-loop." arXiv preprint arXiv:2404.07208 (2024).}
+
+## How to apply
+
+{nadieh.khalili@radboudumc.nl}
