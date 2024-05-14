@@ -4,7 +4,7 @@ finished: false
 type: student
 picture: vacancies/msc_patho_breast_risk_predict.jpg
 template: project-single
-people: Rianna-Margot Koelewijn, Witali Aswolinskiy, Jeroen van der Laak, Mark Sherman
+people: Rianne-Margot Koelewijn, Witali Aswolinskiy, Jeroen van der Laak, Mark Sherman
 description: Development of a deep learning system to predict BC risk in H&E
 
 **Start date: 01-11-2022** <br>
