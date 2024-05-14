@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.6.0
+        uses: styfle/cancel-workflow-action@0.12.1
         with:
           access_token: ${{ github.token }}
 
@@ -20,8 +20,8 @@ jobs:
     outputs:
       changes: ${{ steps.auto-commit-action.outputs.changes_detected }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.9
 
@@ -35,7 +35,7 @@ jobs:
         run: git pull
 
       - id: auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Crop thesis covers
           file_pattern: content/images/theses/*
@@ -51,11 +51,11 @@ jobs:
         if: needs.theses.outputs.changes == 'true'
         run: git pull && git checkout HEAD
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v4
         with:
-          node-version: "18.0.0"
+          node-version: "20.0.0"
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -80,7 +80,7 @@ jobs:
           yarn config set global-folder $(yarn cache dir)
 
       - name: Cache Yarn
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-version: v1
         id: yarn-cache
