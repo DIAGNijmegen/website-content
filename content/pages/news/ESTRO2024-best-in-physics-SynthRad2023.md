@@ -6,5 +6,5 @@ groups: diag
 
 The SynthRad2023 Challenge received the Best in Physics award during the [European Society for Radiotherapy and Oncology (ESTRO) 2024 conference](https://www.estro.org/Congresses/ESTRO-2024) in Glasgow.
 [SynthRad2023](https://synthrad2023.grand-challenge.org/), hosted on Grand-Challenge, focused on AI algorithms that can synthesize CT images from Cone-Beam CTs or from MRIs.
-The challenge was partly organized by [members/peter-koopmans] and was a collaboration between Nijmegen, Utrecht, Groningen, Eindhoven, Maastricht, Amsterdam, Delft, and Wageningen.
+The challenge was partly organized by [member/peter-koopmans] and was a collaboration between Nijmegen, Utrecht, Groningen, Eindhoven, Maastricht, Amsterdam, Delft, and Wageningen.
 Read more about this award in [this LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7192919378797973505/) from the challenge's main organizer Matteo Maspero.
