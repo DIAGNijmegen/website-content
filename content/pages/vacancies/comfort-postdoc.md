@@ -1,6 +1,6 @@
 title: PostDoc position on multimodal AI for urologic cancer
 groups: diag
-closed: true
+closed: false
 type: general 
 people: Alessa Hering, Sarah de Boer
 template: vacancy-single
