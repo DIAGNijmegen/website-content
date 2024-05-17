@@ -1,29 +1,26 @@
-title: PhD position on multimodal AI for urologic cancer
+title: PhD position on Multi-modal AI for detection and segmentation of metastatic cancer
 groups: diag
-closed: true
+closed: false
 type: general 
-people: Alessa Hering, Bram van Ginneken
+people: Alessa Hering
 template: vacancy-single
-picture: vacancies/comfort_logo.PNG
-description: We are offering a PhD position on multimodal AI for urologic cancer
+picture: vacancies/LesionDetection_Liver.jpg
+description: We are offering a PhD position on multi-modal AI for detection and segmentation of metastatic cancer
 
-This PhD project is part of the European project [“Computational Models for patient stratification in urologic cancers – Creating robust and trustworthy multimodal AI for health care – COMFORT”](https://www.comfort-ai.eu/) which aims to develop and prospectively validate multimodal, AI-based decision support tools to improve detection, diagnosis and prognosis of patients with prostate cancer (PCa) and kidney cancer (KC).
 
 ## Background
 
-Prostate cancer (PCa) and kidney cancer (KC) are among the most prevalent cancers. Europe sees some of the highest incidence rates of KC for both men and women in the world, whereas PCa accounted for approximately 23 % of all new cancer cases diagnosed in men in European Union countries in 2020. These cancers have a significant impact on the health and quality of life of those affected and place an increasing burden on our healthcare system, with costs exceeding EUR 12 billion each year.
+Cancer continues to be a major public health and economic burden, with 19.3 million new cases and 10 million deaths worldwide in 2020. As the global population ages, the incidence and mortality from cancer are expected to rise by 47% to 28.4 million new cases by 2040. Medical imaging, including CT and MRI scans, is critical in the management of nearly all types of cancer. These technologies are integral from the initial detection and diagnosis to staging, treatment planning, monitoring responses, and long-term follow-up. There is a significant opportunity to enhance these processes through Artificial Intelligence (AI), which promises to improve both the efficiency and quality of image-based medical diagnostics.
 
-Modern medicine generates a tremendous amount of structured and unstructured data (such as electronic health records, biomarkers, and complex medical imaging) that surpasses human analytical abilities, resulting in inaccurate diagnoses and ineffective treatments. Efficiently leveraging health data can reduce these burdens, but current clinical methods fall short in utilising the wealth of available data.
-
-To address these challenges, the newly launched COMFORT research project is developing a cutting-edge decision support system. The innovative tool will use artificial intelligence (AI) and data-driven insights to assist medical professionals in delivering improved care for people affected by PCa or KC.
 
 ## Job description
-The goal of this PhD project is to create AI-based models for PCa and KC which incorporate multi-modal complex health data from multiple sources such as image data, laboratory examinations, and unstructured medical reports.
+The goal of this PhD project is to develop an AI-based model for automatic detection and precise segmentation of metastasis in CT images. To achieve this, the project will leverage multi-modal AI technologies, integrating a diverse array of data sources, including radiological text data, primary tumor locations, and essential clinical patient information such as age and tumor markers. 
 
+This project is a collaborative effort between the fields of radiology and AI research, ensuring you receive expert guidance from leading scientists in both disciplines. Moreover, due to our integration with the Department of Imaging, you will have access to an extensive collection of annotated CT scans and radiological reports, providing a rich dataset for research.
 
 ## Tasks and responsibilites
 
-- Conduct research in the development of multimodal AI for urologic cancer
+- Conduct research in the development of multi-modal AI for metastatic cancer
 - Collaborate with a multidisciplinary team to translate cutting-edge technology into clinical practice
 - Publish research findings in peer-reviewed journals and present at international conferences
 - Mentor junior team members and contribute to the development of the lab's research direction
