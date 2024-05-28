@@ -3,7 +3,7 @@ name: Tariq Haddad
 template: people-single
 picture: people/Tariq_Haddad.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: tariq.haddad@radboudumc.nl
