@@ -27,4 +27,4 @@ OUTPUT_RETENTION = [".git"]
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-GOOGLE_ANALYTICS = "UA-106053666-2"
+#GOOGLE_ANALYTICS = "UA-106053666-2"
