@@ -1,7 +1,7 @@
 title: Nils Hendrix successfully defends PhD thesis
 date: 2024-05-17
 picture: news/defense-nils-hendrix.jpg
-description: Nils Hendrix successfully defended his PhD thesis on AI for computer-aided diagnosis of scaphoid fractures and associated instability on conventional radiography.
+description: Nils Hendrix successfully defended his [PhD thesis](https://research.tilburguniversity.edu/en/publications/artificial-intelligence-for-computer-aided-diagnosis-of-scaphoid-) on AI for computer-aided diagnosis of scaphoid fractures and associated instability on conventional radiography.
 groups: diag
 
 On Friday May 17th at 13:30, [member/nils-hendrix] successfully defended his PhD thesis at Tilburg University. 
