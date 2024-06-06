@@ -3,7 +3,7 @@ name: John-Melle Bokhorst
 template: people-single
 picture: people/John-Melle_Bokhorst.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: john-melle.bokhorst@radboudumc.nl

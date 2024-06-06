@@ -3,7 +3,7 @@ name: Matin Hosseinzadeh
 template: people-single
 picture: people/Matin_Hosseinzadeh.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: matin.hosseinzadeh@radboudumc.nl
