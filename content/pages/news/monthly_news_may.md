@@ -13,7 +13,9 @@ description: Welcome to the May edition of the Diagnostic Image Analysis Group m
 Stay tuned for upcoming events where our team will be presenting our research findings and engaging with the broader medical imaging community. Here are some events to mark on your calendar:
 
 - **DIAG Day June 19th – Low-cost prenatal ultrasound in low-resource settings:** A DIAG day focused on the possibilities and limitations of low-cost prenatal ultrasound in resource-limited settings. This day will start at 9:30h. Don’t forget to sign up!
-- **Radboud AI Meetup June 5th (14:30 – 17:00) - Breaking Boundaries with Large Language Models**  
+  
+- **Radboud AI Meetup June 5th (14:30 – 17:00) - Breaking Boundaries with Large Language Models**
+  
 - **This DIAG member will soon be defending his thesis:**
     - [member/gabriel-humpire-mamani]: July 1st, 10:30h, Aula of Radboud University | [Deep learning for localization and segmentation in thorax abdomen CT](https://www.ru.nl/over-ons/agenda/deep-learning-for-localization-and-segmentation-in-thorax-abdomen-ct)
 
