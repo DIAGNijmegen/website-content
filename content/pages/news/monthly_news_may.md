@@ -4,6 +4,13 @@ picture: news/monthly_news2.png
 groups: diag
 description: Welcome to the May edition of the Diagnostic Image Analysis Group monthly news update!
 
+## New DIAG members
+ 
+We are thrilled to welcome the following new members to DIAG:
+
+- [member/marissa-van-lente]
+- [member/tahereh-zarrat-ehsan] 
+
 ## Awards and grants
 
 - [member/noa-antonissen] received the **ESTI2024 Cum Laude award** by ESTI - European Society of Thoracic Imaging. Read more about this achievement in [this news item](https://www.diagnijmegen.nl/news/2024-esti-noaantonissen/).
