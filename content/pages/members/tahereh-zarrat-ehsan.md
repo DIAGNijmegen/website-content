@@ -1,7 +1,7 @@
 title: Tahereh Zarrat Ehsan
 name: Tahereh Zarrat Ehsan 
 template: people-single 
-picture: people/tahereh-zarrat-ehsan.jpg
+picture: people/Tahereh_Zarrat_Ehsan.jpg
 position: PhD Candidate 
 active: yes 
 groups: diag
