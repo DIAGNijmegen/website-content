@@ -2,7 +2,7 @@ title: Nadieh Khalili
 name: Nadieh Khalili
 template: people-single
 picture: people/Nadieh_Khalili.jpg
-position: Postdoc in tenure track
+position: Assistant Professor
 active: yes
 groups: diag, pathology
 default_group: pathology
