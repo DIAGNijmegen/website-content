@@ -1,7 +1,7 @@
 title: Marlie Besouw
 name: Marlie Besouw
 template: people-single
-picture: people/Marlie_Besouw.png 
+picture: people/Marlie_Besouw.jpg 
 position: PhD Candidate
 active: yes 
 groups: diag
