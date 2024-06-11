@@ -1,6 +1,6 @@
 title: Improving PD-L1 digital pathology image analysis
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/pdl1-project.png
 template: vacancy-single
