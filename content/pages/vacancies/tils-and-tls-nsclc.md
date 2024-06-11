@@ -1,6 +1,6 @@
 title: T&T: When TILs meet TLS in NSCLC
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/tils-tls-nsclc.png
 template: vacancy-single
