@@ -1,5 +1,5 @@
 title: Computational Pathology Group receives 2024 Ammodo Science Award at the award ceremony
-date: 2024-04-06
+date: 2024-06-04
 picture: news/Ammodo_Award.jpg
 groups: pathology
 description: On June 4, 2024, the award ceremony for the Ammodo Science Award for groundbreaking research took place.
