@@ -17,31 +17,30 @@ As a researcher/PhD candidate on the PhD track "Improving assessment of adverse 
 The PhD track is supervised by promotor Prof. dr. ir. Geert Litjens from Radboudumc and co-promotor Dr. Jean-Paul van Basten, Urologist at CWZ and manager of Prosper Clinics. At CWZ, you will work in the Urology department, a dynamic department where care and science come together in an environment that pays great attention to education. You will also receive guidance from the CWZ Academy, including training sessions and planned consultation moments with other PhD candidates. Additionally, you will also be able to follow courses at Radboudumc and be part of the Radboud Institute for Medical Innovation Research School. 
 
 ## Profile
-•	A degree in Technical Medicine, Biomedical Technology, or a similar background.
-•	Affinity with imaging and artificial intelligence.
-•	Logistical skills, good planning, and the ability to work independently.
-•	The ability to work flexibly within our team, with work locations at two sites.
-•	Proficiency in both Dutch and English is a plus.
-•	Some proven experience with scientific research and/or publishing.
-•	Availability for a continuous period of four years.
-•	Willingness to travel (inter)nationally.
+- A degree in Technical Medicine, Biomedical Technology, or a similar background.
+- Affinity with imaging and artificial intelligence.
+- Logistical skills, good planning, and the ability to work independently.
+- The ability to work flexibly within our team, with work locations at two sites.
+- Proficiency in both Dutch and English is a plus.
+- Some proven experience with scientific research and/or publishing.
+- Availability for a continuous period of four years.
+- Willingness to travel (inter)nationally.
 
 ## What Do We Offer?
-•	A contract with CWZ for four years, with an evaluation and potential extension after one year.
-•	Embedding in a challenging scientific working environment that is rapidly developing and offers ample opportunities for personal growth.
-•	Workplaces at both CWZ and Radboudumc.
-•	PhD promotion at Radboud University.
-•	Participation in courses to further develop a wide range of scientific skills.
-•	The opportunity to present your results at (inter)national conferences.
-•	Being part of a research team with other PhD candidates.
-•	A salary according to the Cao Hospitals with good working conditions.
-•	In addition to your regular salary, a holiday allowance and a year-end bonus of 8.33%.
-•	144 vacation hours and 57 PLB hours (freely deployable) based on a 36-hour workweek.
-•	A good pension plan with the Pension Fund for Healthcare and Welfare, with the employer contributing half.
-•	Favorable insurance policies and an attractive tax advantage for purchasing items such as a bicycle, laptop, or gym subscription.
-•	As a top clinical hospital, there is space and attention for development and training opportunities.
-•	A friendly and informal workplace where we inspire and challenge each other daily.
-
+- A contract with CWZ for four years, with an evaluation and potential extension after one year.
+- Embedding in a challenging scientific working environment that is rapidly developing and offers ample opportunities for personal growth.
+- Workplaces at both CWZ and Radboudumc.
+- PhD promotion at Radboud University.
+- Participation in courses to further develop a wide range of scientific skills.
+- The opportunity to present your results at (inter)national conferences.
+- Being part of a research team with other PhD candidates.
+- A salary according to the Cao Hospitals with good working conditions.
+- In addition to your regular salary, a holiday allowance and a year-end bonus of 8.33%.
+- 144 vacation hours and 57 PLB hours (freely deployable) based on a 36-hour workweek.
+- A good pension plan with the Pension Fund for Healthcare and Welfare, with the employer contributing half.
+- Favorable insurance policies and an attractive tax advantage for purchasing items such as a bicycle, laptop, or gym subscription.
+- As a top clinical hospital, there is space and attention for development and training opportunities.
+- A friendly and informal workplace where we inspire and challenge each other daily.
 
 ## Organization
 ### CWZ and Prosper
@@ -58,4 +57,4 @@ We develop, validate and deploy novel medical image analysis methods, usually ba
 Read more about our strategy and what working at Radboud university medical center means. Our colleagues would be happy to tell you about it. #weareradboudumc
 
 ## Application
-[Please apply before Jul 1st, 2024 via [this link](https://www.radboudumc.nl/en/vacancies/106821-phd-candidate-improving-care-for-prostate-cancer-patient-through-ai-driven-radiology-patholog). Here you can also find more information on the application process and what needs to be included in your application.](https://www.werkenbijcwz.nl/aanmaken-sollicitatie-incl-autorisatie-prs/standaard?VcSn=197. Note that the application page is in Dutch, but English-speaking candidates are encouraged to apply. If you have any questions about the position, do not hesitate to reach out to Geert Litjens (geert.litjens@radboudumc.nl) or Jean-Paul van Basten (024 365 8832). Note that this vacancy closes on July 1st. )
+Please apply before Jul 1st, 2024 via [this link](https://www.werkenbijcwz.nl/aanmaken-sollicitatie-incl-autorisatie-prs/standaard?VcSn=197). Note that the application page is in Dutch, but English-speaking candidates are encouraged to apply. If you have any questions about the position, do not hesitate to contact Geert Litjens (geert.litjens@radboudumc.nl) or Jean-Paul van Basten (024 365 8832). Note that this vacancy closes on July 1st.
