@@ -3,7 +3,7 @@ groups: diag, pathology
 closed: false
 type: general
 picture: vacancies/phd-path-rad-fusion.jpg
-people: Geert Litjens
+people: Nadieh Khalili, Geert Litjens
 template: vacancy-single
 description: PhD Candidate for "Improving assessment of adverse histopathology on multi-parametric prostate MRI using AI and radiology-pathology fusion" at CWZ and Radboudumc
 
