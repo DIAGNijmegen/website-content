@@ -1,6 +1,6 @@
 title: Few-shot learning for medical image segmentation
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: vacancies/segmentation.jpg
 template: project-single

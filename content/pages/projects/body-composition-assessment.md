@@ -1,6 +1,6 @@
 title: Body composition assessment in 3D CT and MR images
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: projects/body-composition.jpg
 template: project-single

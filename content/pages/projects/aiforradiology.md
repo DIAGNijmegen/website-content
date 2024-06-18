@@ -1,6 +1,6 @@
 title: AI for Radiology
 title_long: AI for Radiology
-finished: false
+finished: true
 type: general
 picture: projects/aiforradiology.jpg
 template: project-single
