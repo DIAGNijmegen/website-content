@@ -1,7 +1,7 @@
 title: Nadieh Khalili
 name: Nadieh Khalili
 template: people-single
-picture: people/Nadieh_Khalili.jpg
+picture: people/nadieh.PNG
 position: Assistant Professor
 active: yes
 groups: diag, pathology
