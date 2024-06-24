@@ -2,6 +2,7 @@ import glob
 import codecs
 import re
 import os
+from name_mapping import name_mapping
 
 """
 
@@ -301,10 +302,15 @@ def authors_to_string(names):
         first, von, last, jr = name
 
         if first:
-            first = first[0].capitalize() + "."
+            if first in name_mapping:
+                first = name_mapping[first]
+            else:
+                first = first[0].capitalize() + "."
         if idx == len(names) - 2:
             d = " and "
         if idx == len(names) - 1:
             d = ""
+
         string_authors += " ".join(part for part in [first, von, last, jr] if part) + d
     return string_authors
+
