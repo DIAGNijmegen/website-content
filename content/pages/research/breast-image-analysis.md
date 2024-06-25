@@ -1,5 +1,5 @@
 title: Breast image analysis
-finished: false
+finished: true
 type: general
 template: project-single
 groups: diag
