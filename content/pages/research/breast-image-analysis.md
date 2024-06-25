@@ -2,7 +2,7 @@ title: Breast image analysis
 finished: true
 type: general
 template: project-single
-groups: diag
+groups:
 picture: projects/mammo.jpg
 bibkeys: Mori20, Ayat20, Sech20
 people: Ritse Mann, Riccardo Samperna
