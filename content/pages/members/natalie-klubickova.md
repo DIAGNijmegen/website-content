@@ -3,7 +3,7 @@ name: Natalie Klubickova
 template: people-single
 picture: people/Natalie_Klubickova.jpg
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 type: student
