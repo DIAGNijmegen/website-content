@@ -1,5 +1,5 @@
 title: Agata Polejowska Recognized Among TOP 100 Women in Data Science in Poland
-date: 2024-05-01
+date: 2024-06-11
 picture: news/agata_top100.jpeg
 groups: diag, pathology
 description: Agata Polejowska was nominated for TOP woman in Data Science by the Perspektywy Education Foundation
