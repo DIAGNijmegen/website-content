@@ -1,10 +1,10 @@
 title: Agata Polejowska Recognized Among TOP 100 Women in Data Science in Poland
 date: 2024-05-01
-picture: news/agata_top100.jpg
+picture: news/agata_top100.jpeg
 groups: diag, pathology
 description: Agata Polejowska was nominated for TOP woman in Data Science by the Perspektywy Education Foundation
 
-[member/agata_polejowska], who works in the computational pathology unit, has been recognized among the TOP 100 Women in Data Science in Poland. 
+[member/agata-polejowska], who works in the computational pathology unit, has been recognized among the TOP 100 Women in Data Science in Poland. 
 She has been nominated in the Data Science Rising Star category for her work in the HEREDITARY project, which explores the gut-brain axis and the microbiome's impact on mental health. 
 
 Her research integrates data from genomics, clinical records, brain imaging, and pathological images.
@@ -16,7 +16,7 @@ This program honors women making significant strides in data science and aims to
 
 We congratulate Agata on this nomination.
 
-Read more about Agata Polejowska nomination and the Summit [here]( WomenInDataScience (womenintechsummit.pl))
+Read more about Agata Polejowska nomination and the Summit [here](https://womenintechsummit.pl/top-100-women-in-data-science).
 
 
 
