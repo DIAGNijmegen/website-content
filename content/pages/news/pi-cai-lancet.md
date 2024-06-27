@@ -1,14 +1,17 @@
-title: AI better detects prostate cancer on MRI than radiologists - results of the PI-CAI challenge
+title: Primary outcomes of the PI-CAI challenge published in The Lancet Oncology
 date: 2024-06-11
-description: The primary results of the PI-CAI challenge have been published in The Lancet Oncology.
+description: After two years of hard work, the primary outcomes of the PI-CAI challenge are published!
 picture: news/pi-cai_logo.jpeg 
 groups: diag
 
-On June 11th, the primary outcomes of the PI-CAI (Prostate Imaging: Cancer AI) challenge were published in The Lancet Oncology.
-The [PI-CAI challenge](https://pi-cai.grand-challenge.org/) aimed to validate modern AI algorithms and estimate radiologists' performance at the detection and diagnosis of clinically significant prostate cancer in biparametric MRI.
-It was hosted on the [Grand-Challenge platform](https://grand-challenge.org/) and comprised over 10,000 carefully-curated prostate MRI exams.
-The article, titled 'Artificial intelligence and radiologists in prostate cancer detection on MRI (PI-CAI): an international, paired, non-inferiority, confirmatory study', shows that AI is better than radiologists in finding prostate cancer with fewer false positives.
+On June 11th, the primary outcomes of [the PI-CAI challenge](https://pi-cai.grand-challenge.org/) were published in The Lancet Oncology in an article titled, ["Artificial Intelligence and Radiologists in Prostate Cancer Detection on MRI (PI-CAI): An International, Paired, Non-inferiority, Confirmatory Study"](https://bit.ly/pi-cai-). An [editorial](https://lnkd.in/duW2-evJ) has been presented by [Dr. Martin Eklund](https://scholar.google.se/citations?user=QX91uSgAAAAJ&hl=en).
 
-We congratulate [member/anindo-saha], [member/joeran-bosma], Jasper Twilt, Maarten de Rooij, [member/henkjan-huisman], and the rest of the PI-CAI team for publishing their work!
-If you want to know more, you can read the [full paper](https://bit.ly/pi-cai-) and the [editorial](https://lnkd.in/duW2-evJ) by Dr. Martin Eklund.
-Alternatively, you can listen to the (Dutch) [interview](https://www.nporadio1.nl/fragmenten/nos-radio-1-journaal/9c4431e6-74c0-4838-af90-2137d86eeb22/2024-06-12-wat-is-een-betrouwbaar-ai-model-dat-kan-helpen-bij-het-opsporen-van-prostaatkanker) with [member/henkjan-huisman] featured on the 'NOS Radio 1 Journaal'.
+𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 + 𝗖𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝗼𝗻 👩‍⚕️🧑‍💻 Over the past two years, PI-CAI served as a global community-wide initiative that was able to mobilize and engage 129 radiologists, AI developers and researchers in prostate oncology, towards the common goals of a single large-scale confirmatory study —and one that was conducted under the oversight of 17 multidisciplinary scientific experts in this domain, with endorsements from the [European Association of Urology](https://uroweb.org/), the [European Society of Urogenital Radiology](https://www.esur.org/), the [MICCAI Society](https://miccai.org/), and the [MIDL Foundation](https://www.midl.io/).
+
+𝗢𝗽𝗲𝗻 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 ⚛️ Source code for statistical analysis, the trained AI system developed in this study, a subset of 1500 multi-center, multi-vendor cases from the training dataset (with the means to access the full training dataset of 9107 cases) and the means for independent researchers to benchmark their AI systems across the hidden tuning and testing cohorts of 1100 cases in a fully blinded, standardized manner have been publicly released —to promote reproducibility, transparency and facilitate future research.
+
+𝗖𝗹𝗶𝗻𝗶𝗰𝗮𝗹 𝗙𝗶𝗻𝗱𝗶𝗻𝗴𝘀 🩻 Level 2b evidence was provided, supporting that an AI system (developed in parts by five teams based in France, United States, China, Australia and Turkey), was statistically superior to a pool of 62 radiologists (45 centers, 20 countries) in an international reader study, and comparable to the standard of care in routine practice (where multidisciplinary patient history and peer consultation were available) at detecting MRI examinations with clinically significant prostate cancers. A clinical trial is now required to determine if such a system translates to improvements in workflow efficiency, healthcare equity and patient outcomes.
+
+The study was sponsored by [Amazon Web Services](http://aws.amazon.com/) and the overall project has been funded, in parts, by the [European Commission Horizon 2020: ProCAncer-I project](https://cordis.europa.eu/project/id/952159/results) and [Health~Holland](https://www.health-holland.com/).
+
+We congratulate [member/anindo-saha], [member/joeran-bosma], [Jasper Twilt](https://magicnijmegen.nl/people/jasper-twilt), [Jurgen Fütterer](https://magicnijmegen.nl/people/jurgen-futterer), [Maarten de Rooij](https://www.radboudumc.nl/en/people/maarten-de-rooij), [member/henkjan-huisman], and the rest of the PI-CAI consortium for their work! For more, you can listen to the (Dutch) [interview](https://www.nporadio1.nl/fragmenten/nos-radio-1-journaal/9c4431e6-74c0-4838-af90-2137d86eeb22/2024-06-12-wat-is-een-betrouwbaar-ai-model-dat-kan-helpen-bij-het-opsporen-van-prostaatkanker) with [member/henkjan-huisman] featured on the 'NOS Radio 1 Journaal'.
