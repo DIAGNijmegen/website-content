@@ -15,4 +15,8 @@ To be able to detect lung cancer in an early stage, screening of high-risk subje
 AI holds great potential to assist in many of the detection and characterization tasks that have to be performed by a radiologist, and may be able to play an important role in reducing costs and improving the efficiency of screening.
 
 ## Aim
-In this project, we aim to develop algorithms that will improve the accuracy and cost-effectiveness of lung cancer screening.
+In this project, we developed algorithms that aimed to improve the accuracy and cost-effectiveness of lung cancer screening.
+
+## Results
+The results of this project are described in [the PhD thesis of Kiran Vaidhya Venkadesh](https://www.diagnijmegen.nl/publications/venk24/)
+
