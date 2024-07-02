@@ -5,7 +5,7 @@ type: general
 picture: projects/oncology.jpg
 template: project-single
 groups: diag
-people: Bram van Ginneken, Mathias Prokop, Matthieu Rutten, Luuk Boulogne, Alessa Hering, Gabriel Humpire Mamani, Ernst Scholten
+people: Bram van Ginneken, Mathias Prokop, Matthieu Rutten, Luuk Boulogne, Alessa Hering, Ernst Scholten
 description: Oncology patients receive many CT scans and reporting those scans is time-consuming and difficult. We develop tools to speed up and improve this process.
 bibkeys: Hump18, Hump20
 
