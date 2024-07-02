@@ -5,7 +5,7 @@ type: general
 picture: projects/oncology.jpg
 template: project-single
 groups: diag
-people: Bram van Ginneken, Alessa Hering, Mathias Prokop, Matthieu Rutten, Kiran Vaidhya Venkadesh, Lena Philipp, Luc Builtjes, Sarah de Boer, Luuk Boulogne, Max de Grauw, Gabriel Humpire Mamani, Ernst Scholten 
+people: Bram van Ginneken, Alessa Hering, Mathias Prokop, Matthieu Rutten, Kiran Vaidhya Venkadesh, Lena Philipp, Luc Builtjes, Sarah de Boer, Luuk Boulogne, Max de Grauw, Ernst Scholten 
 description: Oncology patients receive many CT scans and reporting those scans is time-consuming and difficult. We develop tools to speed up and improve this process.
 projects: ami
 bibkeys: Jaco23, Hend23a, Phil23, Venk23, Grau22a, Grau22b, Venk21, Heri21, Xie20, Less19a, Hump18, Hump20, Altu20, Chle18
