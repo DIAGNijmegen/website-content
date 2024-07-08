@@ -1,4 +1,4 @@
-title: Monthly DIAG News - JUne
+title: Monthly DIAG News - June
 date: 2024-07-31
 picture: news/monthly_news2.png
 groups: diag
