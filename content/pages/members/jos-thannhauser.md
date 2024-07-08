@@ -2,7 +2,7 @@ title: Jos Thannhauser
 name: Jos Thannhauser
 template: people-single
 picture: people/Jos_Thannhauser.jpg
-position: Assistant Professor, Lab Contact
+position: Assistant Professor, Lab Manager
 active: yes
 groups: diag, cara-lab
 default_group: diag
