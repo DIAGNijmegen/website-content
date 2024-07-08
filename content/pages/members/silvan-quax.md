@@ -3,7 +3,7 @@ name: Silvan Quax
 template: people-single
 picture: people/Silvan_Quax.jpg
 position: Head RTC Deep Learning
-active: yes
+active: yes, yes, no
 groups: rtc, diag, cara-lab
 default_group: rtc
 email: silvan.quax@radboudumc.nl
