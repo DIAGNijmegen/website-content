@@ -1,7 +1,7 @@
 title: Simone Saitta
 name: Simone Saitta
 template: people-single 
-picture: people/Simone_Saitta.png 
+picture: people/Simone_Saitta.jpg
 groups: diag, cara-lab 
 position: Visiting Researcher, Lab Manager
 type: student, staff
