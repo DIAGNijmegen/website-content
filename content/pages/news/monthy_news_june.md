@@ -1,5 +1,5 @@
 title: Monthly DIAG News - June
-date: 2024-07-31
+date: 2024-07-01
 picture: news/monthly_news2.png
 groups: diag
 description: Welcome to the June edition of the Diagnostic Image Analysis Group monthly news update!
