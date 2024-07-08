@@ -5,7 +5,7 @@ groups: diag
 description: Welcome to the June edition of the Diagnostic Image Analysis Group monthly news update!
 
 ## Awards and grants
-- [member/agata-polejowska] has been nominated as one of the TOP 100 Women in Data Science in Poland in the category Data Science Rising Star for her work in the HEREDITARY project, read more about it [here](https://www.diagnijmegen.nl/news/agata_top100_2024/).
+- [member/agata-polejowska] was nominated as one of the TOP 100 Women in Data Science in Poland in the category Data Science Rising Star for her work in the HEREDITARY project, read more about it [here](https://www.diagnijmegen.nl/news/agata_top100_2024/).
 
 ## Highlighted publications
 Last month the following paper was published!
