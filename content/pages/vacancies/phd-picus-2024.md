@@ -2,7 +2,7 @@ title: PhD position on AI-assisted Prostate Ultrasound
 groups: diag
 closed: false
 type: general
-#picture: vacancies/phd-picus-2024.png
+picture: vacancies/phd-picus-2024.png
 people: Stan Noordman, Henkjan Huisman
 template: vacancy-single
 description: PhD Prostate Cancer Ultrasound Artificial Intelligence
