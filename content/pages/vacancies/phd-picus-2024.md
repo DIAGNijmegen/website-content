@@ -37,7 +37,6 @@ Radboudumc strives to be a leading developer of sustainable, innovative, and aff
 ## Employment conditions
 Working at Radboud University Medical Center means that you are ahead of the curve and working together on the healthcare of the future. And there is more. Our secondary terms of employment are impressive. These are fully tailored to you thanks to our Employment Conditions Selection Model. At Radboud University Medical Center, you will be given trust, and you will take responsibility for handling everything together.
 
-We offer
 - A gross monthly salary between € 3.017 and € 3.824 (scale 10A) based on full-time employment.
 - An annual vacation allowance of 8% and an end-of-year bonus of 8.3%.
 - As a full-time employee (36 hours per week), you are entitled to 176 vacation hours (over 24 days) per year.
