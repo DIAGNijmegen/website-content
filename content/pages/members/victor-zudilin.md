@@ -3,7 +3,7 @@ name: Victor Zudilin
 template: people-single
 picture: people/Victor_Zudilin.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: victor.zudilin@ru.nl

@@ -2,7 +2,7 @@ title: Ziad Al-Haj Hemidi
 name: Ziad Al-Haj Hemidi
 template: people-single
 picture: people/Ziad_Al-Haj_Hemidi.png
-position: PhD Candidate
+position: Visiting Researcher
 active: yes
 groups: diag
 default_group: diag
