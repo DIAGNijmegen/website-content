@@ -8,7 +8,7 @@ groups: diag
 default_group: diag
 email: Ziad.Al-HajHemidi@radboudumc.nl
 office: 
-type: phd
+type: student
 linkedin: https://www.linkedin.com/in/ziad-al-haj-hemidi-a699b822a/
 
 Ziad Al-Haj Hemidi is a researcher with a Bachelor's and Master's degree in Medical Informatics from the University of Lübeck in Germany. He is currently pursuing a PhD in Medical Deep Learning at the University of Lübeck under the supervision of Mattias Heinrich. His research focuses on applying deep learning techniques to accelerate MRI acquisition and correct motion artifacts.
