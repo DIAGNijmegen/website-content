@@ -1,6 +1,6 @@
 title: Automated whole-slide image analysis and quality control
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/quality-control.png
 template: vacancy-single
