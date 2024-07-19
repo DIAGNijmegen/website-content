@@ -1,6 +1,6 @@
 title: PhD position on Multi-modal AI for detection and segmentation of metastatic cancer
 groups: diag
-closed: false
+closed: true
 type: general 
 people: Alessa Hering
 template: vacancy-single
