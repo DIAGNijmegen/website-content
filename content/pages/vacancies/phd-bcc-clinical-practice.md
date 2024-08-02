@@ -1,6 +1,6 @@
 title: PhD candidate ‘Bridging the gap between AI development and clinical practice for histopathological skin cancer diagnostics’
 groups: diag, pathology
-closed: true
+closed: false
 type: general
 picture: vacancies/skin-cancer-diagnostics.jpg
 people: Avital Amir, Geert Litjens
@@ -37,4 +37,4 @@ We develop, validate and deploy novel medical image analysis methods, usually ba
 Read more about our strategy and what working at Radboud University Medical Center means. Our colleagues would be happy to tell you about it. #weareradboudumc
 
 ## Application
-Please apply before August 1st, 2024 via . Here, you can also find more information on the application process and what needs to be included.
+Please apply before August 29th, 2024 [here](https://www.radboudumc.nl/en/vacancies/145464-phd-candicate-towards-clinical-implementation-of-ai-for-oncological-dermatopathology) . Here, you can also find more information on the application process and what needs to be included.
