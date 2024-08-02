@@ -1,6 +1,6 @@
 title: PhD Candidate for AI-based prostate cancer assessment at CWZ and Radboudumc
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/phd-path-rad-fusion.jpg
 people: Nadieh Khalili, Geert Litjens
