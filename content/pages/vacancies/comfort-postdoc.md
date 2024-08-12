@@ -55,7 +55,7 @@ You will work in the Diagnostic Image Analysis Group (DIAG) DIAG is part of the 
 For more information please contact [member/alessa-hering] by e-mail.
 
 ## Application
-Use the Apply button on [this page]([https://www.radboudumc.nl/en/vacancies/143282-postdoc-multimodal-ai-for-urologic-cancer](https://www.radboudumc.nl/en/vacancies/143282-postdoc-multimodal-ai-for-urologic-cancer)) to apply for this position. You should supply
+Use the Apply button on [this page](https://www.radboudumc.nl/en/vacancies/143282-postdoc-multimodal-ai-for-urologic-cancer) to apply for this position. You should supply
 - motivation letter
 - your CV including links to a Google Scholar profile 
 - list of grades and courses you have followed including online courses on deep learning and similar topics, 
