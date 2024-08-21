@@ -1183,4 +1183,69 @@ people:
     url: https://www.linkedin.com/in/kristianoverduin/
     picture: people/external/Kristian_Overduin.jpg
     email: Kristian.overduin@radboudumc.nl
-
+  - name: Leonard Nürnberg
+    position: PhD Student
+    affiliation: Harvard AIM | Maastricht University
+    url: https://www.linkedin.com/in/leonard-nürnberg-412476100/
+    picture: people/external/Leonard_Nürnberg.jpg
+    email: lnuernberg@bwh.harvard.edu
+  - name: Dennis Bontempi
+    position: Postdoctoral Researcher
+    affiliation: University of Lausanne
+    url: https://www.linkedin.com/in/denbonte/
+    picture: people/external/Dennis_Bontempi.jpg
+    email: dennis.bontempi@unil.ch
+  - name: Hugo Aerts
+    position: Director
+    affiliation: Harvard AIM
+    url: https://www.linkedin.com/in/hugoaerts/
+    picture: people/external/Hugo_Aerts.jpg
+    email: haerts@bwh.harvard.edu
+  - name: Andrey Fedorov
+    position: Lead Scientist | Associate Professor in Radiology
+    affiliation: Brigham and Women's Hospital | Harvard Medical School
+    url: https://www.linkedin.com/in/andreyfedorov/
+    picture: people/external/Andrey_Fedorov.jpg
+    email: fedorov@bwh.harvard.edu
+  - name: Alex Scott
+    position: Research Medical Officer
+    affiliation: UCT Lung Institute
+    url: https://www.linkedin.com/in/alex-j-scott/
+    picture: people/external/Alex_J_Scott.jpg
+    email: alex.scott@uct.ac.za
+  - name: Aliasgar Esmail
+    position: Head Clinical Trials Unit, Specialist Physician and Pulmonologist
+    affiliation: UCT Lung Institute
+    url: https://www.linkedin.com/in/aliasgar-esmail-a02334179/
+    picture: people/external/Aliasgar_Esmail.jpg
+    email: ali.esmail@uct.ac.za
+  - name: Thalia Perumal
+    position: Medical doctor
+    affiliation: UCT Lung Institute
+    url:
+    picture:
+    email:
+  - name: Keyvan Farahani
+    position: Senior Data Science, Imaging, and AI Program Director
+    affiliation: National Heart, Lung, and Blood Institute, NIH
+    url: https://www.linkedin.com/in/keyvan-farahani-b145b023/
+    picture: people/external/Keyvan_Farahani.jpg
+    email:
+  - name: Granger Sutton
+    position: Data Scientist, NCI
+    affiliation: The National Institutes of Health, NIH
+    url: https://www.linkedin.com/in/granger-sutton-7844b81/
+    picture: people/external/Granger_Sutton.jpg
+    email:
+  - name: Ulrike Wagner
+    position:
+    affiliation:
+    url:
+    picture:
+    email:
+  - name: Linmin Pei
+    position:
+    affiliation:
+    url:
+    picture:
+    email:
