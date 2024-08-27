@@ -16,13 +16,16 @@ With a well prepared data set, the RTC Deep Learning can develop and train deep 
 ## Development of web-based applications for data processing and viewing
 The algorithms we build can be easily accessed through our web-based platform www.grand-chellenge.org. Here you can easily upload a sample of your data, which will be automatically processed, resulting in an output that can be viewed through our CIRRUS Core web viewer.
 
-## GPU computing solutions
-Training deep learning algorithms requires a lot of GPU compute power. Our RTC Deep Learning has state-of-the-art hardware with the best GPU's currently available. Recently a new [NVIDIA DGX™ A100](https://www.nvidia.com/en-us/data-center/dgx-a100/) was added to boost our computing power. This is the largest and most advanced available AI hardware system on the market. We are the only research facility in the Netherlands to have direct access to such a machine. We offer the usage of our GPU's through [SOL](https://rtc.diagnijmegen.nl/software/sol/) to other researchers within the Radboudumc. Contact us for more information about using our hardware for your research.
+## Support for AI grant applications
+The RTC Deep Learning can assist with AI expertise when applying for research grants. There is a strong interaction with AI researchers from the DIAG group, that have extensive experience in writing successfull AI grant applications. If you are considering a grant application with a strong AI focus, feel free to contact us for assistance.
+
+<!-- ## GPU computing solutions
+Training deep learning algorithms requires a lot of GPU compute power. Our RTC Deep Learning has state-of-the-art hardware with the best GPU's currently available. Recently a new [NVIDIA DGX™ A100](https://www.nvidia.com/en-us/data-center/dgx-a100/) was added to boost our computing power. This is the largest and most advanced available AI hardware system on the market. We are the only research facility in the Netherlands to have direct access to such a machine. We offer the usage of our GPU's through [SOL](https://rtc.diagnijmegen.nl/software/sol/) to other researchers within the Radboudumc. Contact us for more information about using our hardware for your research. -->
 
 ## Courses
 To share our knowledge and expertise on artificial intelligence and spefically deep learning for healthcare we organize workshops and courses regularly. We contribute to the [Intelligent Systems in Medical Imaging course](https://www.ru.nl/courseguides/socsci/courses-osiris/ai/nwi-imc037-intelligent-systems-medical-imaging/) for students. Co-organize the [AI for Health course](https://www.ai-for-health.nl/courses/) which offers employees of the Radboudumc a deep dive in the healthcare applications of AI. Finally, we offer workshops and training opportunities for researchers in the Radboudumc that would like to make use of our software or hardware solutions.
 
-## Support MSc students and visiting researchers
-Msc students and visiting researchers that are using AI in their research can receive support from the RTC Deep Learning. This can offered by usage of our hardware, access to our code base and through expert advice on how to tackle a specific AI problem.
+<!--## Support MSc students and visiting researchers
+Msc students and visiting researchers that are using AI in their research can receive support from the RTC Deep Learning. This can offered by usage of our hardware, access to our code base and through expert advice on how to tackle a specific AI problem. -->
 
 
