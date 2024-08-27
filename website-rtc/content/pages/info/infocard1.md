@@ -1,7 +1,7 @@
 title: Services
 description: RTC Deep Learning can provide expert guidance and services for big data analysis and deep learning, specifically in the field of image analysis, but also on predictive analytics in general.
 groups: rtc
-picture: projects/ai_for_health.png
+picture: projects/services.png
 
 
 ## Consultation regarding the use of deep learning for specific research questions
