@@ -10,7 +10,7 @@ We offer advice for Radboudumc employees to show the potential benefit deep lear
 ## Assistance with data preparation and annotation
 A crucial ingredient for deep learning techniques to work, is a well prepared data set. Most deep learning algorithms learn by example. This means that your data set should be annotated with the labels that you want your deep learning algorithm to learn. The RTC Deep Learning can annotate data for you, or assist you in making good annotations yourself. Another important aspect is to standardize your data, such that all samples are in the same format, value range etc. The RTC Deep Learning has broad expertise in the best ways to achieve such standardization. 
 
-## Development and training of deep learning algorithms for detection, classification and segmentation problems
+## Development and training of deep learning algorithms
 With a well prepared data set, the RTC Deep Learning can develop and train deep learning algorithms for tasks such as detection, classification and segmentation of pathologies or anatomical structures. For examples of the diverse range of tasks we can automate using deep learning algorithms, have a look at our ['Projects'](https://rtc.diagnijmegen.nl/) section. 
 
 ## Development of web-based applications for data processing and viewing
