@@ -7,10 +7,10 @@ description: Welcome to the July and August edition of the Diagnostic Image Anal
 ## New DIAG members
 We are thrilled to welcome the following new members to DIAG:
 - [member/bart-sturm]
-- [member/fazeal-ayatollahi] 
+- [member/fazael-ayatollahi] 
 
 ## Awards and grants
-- [member/alessa-haring] received a **Veni grant from NWO**. Read more about this in [this news item](https://www.diagnijmegen.nl/news/nwo_grant_alessa/).
+- [member/alessa-hering] received a **Veni grant from NWO**. Read more about this in [this news item](https://www.diagnijmegen.nl/news/nwo_grant_alessa/).
 
 ## Upcoming events
 - **DIAG Day October 2nd** – The DIAG Day will be returning after a summer break! 
