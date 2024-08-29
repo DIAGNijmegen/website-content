@@ -1,5 +1,5 @@
 title: Monthly DIAG News – July and August
-date: 2024-07-31
+date: 2024-08-28
 picture: news/monthly_news2.png
 groups: diag
 description: Welcome to the July and August edition of the Diagnostic Image Analysis Group monthly news update!
