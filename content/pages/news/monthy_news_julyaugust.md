@@ -6,8 +6,12 @@ description: Welcome to the July and August edition of the Diagnostic Image Anal
 
 ## New DIAG members
 We are thrilled to welcome the following new members to DIAG:
-- [member/bart-sturm]
-- [member/fazael-ayatollahi] 
+- [member/sebastiaan-ram]
+- [member/joel-kayser]
+- [member/lisa-hensens]
+- [member/xiaojin-gu]
+- [member/yijun-cui]
+- [member/simone-saitta]
 
 ## Awards and grants
 - [member/alessa-hering] received a **Veni grant from NWO**. Read more about this in [this news item](https://www.diagnijmegen.nl/news/nwo_grant_alessa/).
