@@ -6,6 +6,7 @@ description: Welcome to the July and August edition of the Diagnostic Image Anal
 
 ## New DIAG members
 We are thrilled to welcome the following new members to DIAG:
+
 - [member/sebastiaan-ram]
 - [member/joel-kayser]
 - [member/lisa-hensens]
