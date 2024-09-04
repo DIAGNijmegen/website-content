@@ -12,6 +12,7 @@ We are thrilled to welcome the following new members to DIAG:
 - [member/xiaojin-gu]
 - [member/yijun-cui]
 - [member/simone-saitta]
+- [member/shaurya-gaur]
 
 ## Awards and grants
 - [member/alessa-hering] received a **Veni grant from NWO**. Read more about this in [this news item](https://www.diagnijmegen.nl/news/nwo_grant_alessa/).
