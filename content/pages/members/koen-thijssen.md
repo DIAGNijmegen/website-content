@@ -3,7 +3,7 @@ name: Koen Thijssen
 template: people-single
 picture: people/Koen_Thijssen.PNG
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email:
