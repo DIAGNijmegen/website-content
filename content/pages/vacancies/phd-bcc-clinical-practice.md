@@ -1,6 +1,6 @@
 title: PhD candidate ‘Bridging the gap between AI development and clinical practice for histopathological skin cancer diagnostics’
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/skin-cancer-diagnostics.jpg
 people: Avital Amir, Geert Litjens
