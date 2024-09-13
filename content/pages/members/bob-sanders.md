@@ -3,7 +3,7 @@ name: Bob Sanders
 template: people-single
 picture: people/Bob_Sanders.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: bob.sanders@radboudumc.nl
