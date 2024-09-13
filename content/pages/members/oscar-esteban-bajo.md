@@ -3,7 +3,7 @@ name: Oscar Esteban Bajo
 template: people-single
 picture: people/Oscar_Esteban_Bajo.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: oscar.estebanbajo@radboudumc.nl
