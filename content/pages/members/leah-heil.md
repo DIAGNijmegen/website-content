@@ -1,7 +1,7 @@
 title: Leah Heil
 name: Leah Heil
 template: people-single 
-picture: people/Leah_Heil.jpg
+picture: people/Leah_Heil.png
 groups: diag, cara-lab 
 position: MSc Student, MSc Student
 type: student, student
