@@ -3,7 +3,7 @@ description: Would you like to join the next edition of the AI for Health course
 groups: ai-for-health
 picture: courses/application-3695107_960_720.jpg
 
-You can enroll in the AI for Health course in the [Online Learning Environment](https://radboudumc.capp12.nl/) of the Radboudumc.
+You can apply for the AI for Health course in the [Online Learning Environment](https://radboudumc.capp12.nl/) of the Radboudumc.
 
 There you can choose to enroll in the full track or light track.
 
