@@ -3,7 +3,7 @@ name: Gido Verheijen
 template: people-single
 picture: people/Gido_Verheijen.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: gidoverheijen5@gmail.com
