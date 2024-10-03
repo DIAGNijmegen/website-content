@@ -1,5 +1,5 @@
-title: Daan Schouten
-name: Daan Schouten
+title: Robert Spaans
+name: Robert Spaans
 template: people-single
 picture: people/Robert_Spaans.jpg
 position: PhD Candidate
