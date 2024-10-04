@@ -1,4 +1,4 @@
-title: Automated AI developement in Prostate Cancer
+title: Automated AI development in Prostate Cancer
 groups: diag, radiology
 closed: false
 type: student 
@@ -17,7 +17,7 @@ This master's project involves working on various aspects of this automated AI d
 - Develop and validate a pipeline for automated development of AI.
 
 ## Requirements 
-- Master students with a major in computer science, mathematics, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply.
+Master students with a major in computer science, mathematics, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master's studies are invited to apply.
 - Experience with programming in Python.
 - Experience/interest in deep learning, medical imaging, and medical image analysis.
 
