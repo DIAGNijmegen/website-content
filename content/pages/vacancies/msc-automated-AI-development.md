@@ -2,7 +2,7 @@ title: Automated AI development in Prostate Cancer
 groups: diag, radiology
 closed: false
 type: student 
-picture: 
+picture: vacancies/msc-automated-AI-development.png
 template: vacancy-single
 people: Henkjan Huisman, Tiago Coelho
 description: Development of methods to automate the creation of prostate cancer AI
