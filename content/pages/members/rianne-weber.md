@@ -1,7 +1,7 @@
 title: Rianne Weber
 name: Rianne Weber
 template: people-single
-picture: people/Rianne_Weber.jpeg
+picture: people/Rianne_Weber.jpg
 position: PhD Candidate
 active: yes
 groups: diag
