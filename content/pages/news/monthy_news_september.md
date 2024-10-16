@@ -16,7 +16,7 @@ We are excited to welcome the following new members to DIAG:
 - [member/natalia-perez]
 
 ## Awards and grants
-- Recently, Elsevier published an updated dataset featuring the most-cited researchers worldwide across various disciplines. We are excited to share that several of our DIAG members have earned a place in this list, highlighting their dedication and expertise. (August 2024 data-update for "Updated science-wide author databases of standardized citation indicators" - Elsevier BV (digitalcommonsdata.com)
+- Recently, Elsevier published an updated dataset featuring the most-cited researchers worldwide across various disciplines. We are excited to share that several of our DIAG members have earned a place in this list, highlighting their dedication and expertise. (August 2024 data-update for "Updated science-wide author databases of standardized citation indicators" - Elsevier BV (digitalcommonsdata.com))
 
 ## Highlighted publications
 Last month the following paper was published!
