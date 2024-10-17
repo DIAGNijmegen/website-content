@@ -39,14 +39,14 @@
                             >
                             <figcaption class="figure-caption text-right">{{ articles[1].title }}. <a href="{{ articles[1].url }}">Read more &rarr;</a></figcaption>
                         {% elif HOME_IMAGE == 'specific_highlight' %}
-                            {% set article_index = HIGHLIGHTED_ARTICLE_INDEX if HIGHLIGHTED_ARTICLE_INDEX is defined else 0 %}
-                            <img alt="{{ articles[article_index].title }}" class="figure-img lazyload" 
-                                    sizes="(min-width: 768px) 20vw; 90vw"
-                                    data-srcset="{{ ('images/' + articles[article_index].picture) | srcset_image(IMGURL) }}"
-                                    src="{{ IMGURL }}/{{ ('images/' + articles[article_index].picture) | resize_image('small')}}"
-                                    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                >
-                            <figcaption class="figure-caption text-right">{{ articles[article_index].title }}. <a href="{{ articles[article_index].url }}">Read more &rarr;</a></figcaption>
+                            {% set highlighted_article = articles | selectattr('title', 'equalto', HIGHLIGHTED_ARTICLE_TITLE) | first %}
+                            <img alt="{{ highlighted_article.title }}" class="figure-img lazyload" 
+                                sizes="(min-width: 768px) 20vw; 90vw"
+                                data-srcset="{{ ('images/' + highlighted_article.picture) | srcset_image(IMGURL) }}"
+                                src="{{ IMGURL }}/{{ ('images/' + highlighted_article.picture) | resize_image('small') }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            >
+                            <figcaption class="figure-caption text-right">{{ highlighted_article.title }}. <a href="{{ highlighted_article.url }}">Read more &rarr;</a></figcaption>
                         {% else %}
                             <img alt="{{ HOME_IMAGE_CAPTION }}" class="figure-img lazyload" 
                                 data-sizes="(min-width: 768px) 20vw; 90vw"    
