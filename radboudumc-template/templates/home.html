@@ -20,22 +20,41 @@
                 {% if HOME_IMAGE %}
                 <div class="col-md-6">
                     <figure>
-                        {% if HOME_IMAGE == 'highlight' %}
-                        <img alt="{{ articles[0].title }}" class="figure-img lazyload" 
-                            sizes="(min-width: 768px) 20vw; 90vw"
-                            data-srcset="{{ ('images/' + articles[0].picture) | srcset_image(IMGURL) }}"
-                            src="{{ IMGURL }}/{{ ('images/' + articles[0].picture) | resize_image('small')}}"
-                            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        >
-                        <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ articles[0].url }}">Read more &rarr;</a></figcaption>
+                        {% set latest_article = articles[0] %}
+                        {% set is_latest_monthly_news = latest_article.title.startswith("Monthly DIAG News") %}
+                        {% if HOME_IMAGE == 'highlight' and not is_latest_monthly_news %}
+                            <img alt="{{ latest_article.title }}" class="figure-img lazyload" 
+                                sizes="(min-width: 768px) 20vw; 90vw"
+                                data-srcset="{{ ('images/' + latest_article.picture) | srcset_image(IMGURL) }}"
+                                src="{{ IMGURL }}/{{ ('images/' + latest_article.picture) | resize_image('small')}}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            >
+                            <figcaption class="figure-caption text-right">{{ articles[0].title }}. <a href="{{ latest_article.url }}">Read more &rarr;</a></figcaption>
+                        {% elif HOME_IMAGE == 'highlight' and is_latest_monthly_news %}
+                            <img alt="{{ articles[1].title }}" class="figure-img lazyload" 
+                                sizes="(min-width: 768px) 20vw; 90vw"
+                                data-srcset="{{ ('images/' + articles[1].picture) | srcset_image(IMGURL) }}"
+                                src="{{ IMGURL }}/{{ ('images/' + articles[1].picture) | resize_image('small')}}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            >
+                            <figcaption class="figure-caption text-right">{{ articles[1].title }}. <a href="{{ articles[1].url }}">Read more &rarr;</a></figcaption>
+                        {% elif HOME_IMAGE == 'specific_highlight' %}
+                            {% set article_index = HIGHLIGHTED_ARTICLE_INDEX if HIGHLIGHTED_ARTICLE_INDEX is defined else 0 %}
+                            <img alt="{{ articles[article_index].title }}" class="figure-img lazyload" 
+                                    sizes="(min-width: 768px) 20vw; 90vw"
+                                    data-srcset="{{ ('images/' + articles[article_index].picture) | srcset_image(IMGURL) }}"
+                                    src="{{ IMGURL }}/{{ ('images/' + articles[article_index].picture) | resize_image('small')}}"
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                >
+                            <figcaption class="figure-caption text-right">{{ articles[article_index].title }}. <a href="{{ articles[article_index].url }}">Read more &rarr;</a></figcaption>
                         {% else %}
-                        <img alt="{{ HOME_IMAGE_CAPTION }}" class="figure-img lazyload" 
-                            data-sizes="(min-width: 768px) 20vw; 90vw"    
-                            data-srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}"
-                            src="{{ IMGURL }}/{{HOME_IMAGE}}"
-                            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        >
-                        <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
+                            <img alt="{{ HOME_IMAGE_CAPTION }}" class="figure-img lazyload" 
+                                data-sizes="(min-width: 768px) 20vw; 90vw"    
+                                data-srcset="{{ HOME_IMAGE | srcset_image(IMGURL) }}"
+                                src="{{ IMGURL }}/{{HOME_IMAGE}}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            >
+                            <figcaption class="figure-caption text-right">{{ HOME_IMAGE_CAPTION }}</figcaption>
                         {% endif %}
                     </figure>
                 </div>
