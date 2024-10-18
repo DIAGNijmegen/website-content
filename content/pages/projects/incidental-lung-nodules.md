@@ -1,6 +1,6 @@
 title: AI-driven incidental lung nodule analysis
 title_long: AI-driven detection and characterization of incidental lung nodules
-finished: false
+finished: true
 type: general
 picture: projects/incidental-lung-nodules.png
 template: project-single
@@ -15,7 +15,10 @@ Lung cancer is often diagnosed in a late stage, and as a result, the 5-year surv
 Early stage lung cancer is typically diagnosed after the detection of an incidental lung nodule on CT imaging of the thorax that was ordered for other medical reasons. For this reason, accurate detection and characterization of incidentally detected lung nodules is of great importance.
 
 ## Aim
-In this project, we aim to develop artificial intelligence (AI) algorithms for fast and highly reliable detection and assessment of nodules in chest CT, and to validate the novel AI-assisted nodule workflow at two Dutch hospitals.
+In this project, we aim to develop artificial intelligence (AI) algorithms for opportunistic screening for lung cancer in routine CT images. We aim to develop fast and highly reliable detection and risk stratification algorithms for incidentally detected nodules in chest CT, and to validate a novel AI-assisted nodule workflow at two Dutch hospitals.
 
 ## Funding
 This project is funded by a [Radboud Institute for Health Sciences](https://www.radboudumc.nl/en/radboud-institute-for-health-sciences) Junior Researcher grant, with funding coming from [Radboudumc](https://www.radboudumc.nl) and [Jeroen Bosch Ziekenhuis in 's-Hertogenbosch](https://www.jeroenboschziekenhuis.nl).
+
+## Results
+The results of this project are described in [the PhD thesis of Ward Hendrix](https://www.diagnijmegen.nl/publications/hend24/)

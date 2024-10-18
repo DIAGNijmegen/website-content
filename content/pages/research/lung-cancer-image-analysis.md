@@ -2,9 +2,9 @@ title: Lung cancer image analysis
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
-people: Colin Jacobs, Cornelia Schaefer-Prokop, Ernst Scholten, Ward Hendrix, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Shaurya Gaur, Sarah van Rooden
+people: Colin Jacobs, Cornelia Schaefer-Prokop, Ernst Scholten, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Shaurya Gaur, Sarah van Rooden
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
-projects: incidental-lung-nodules, nelson-pop, solace, merai, amara, imagio
+projects: nelson-pop, solace, merai, amara, imagio
 algorithms: lung-nodule-detector-for-ct, pulmonary-nodule-malignancy-prediction, temporal-nodule-analysis, pulmonary-lobe-segmentation
 bibkeys: Hend23b, Venk23, Jaco23, Hend23a, Anto23, Peet23, Sido23, Hend23a, Venk22, Venk21a, Venk21, Hend21, Jaco21a, Jaco21, Schr21d, Schr21b, Schr21, Schr20a, Venk20, Silv20, Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
