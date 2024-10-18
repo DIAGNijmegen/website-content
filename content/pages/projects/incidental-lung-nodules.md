@@ -21,4 +21,4 @@ In this project, we aim to develop artificial intelligence (AI) algorithms for o
 This project is funded by a [Radboud Institute for Health Sciences](https://www.radboudumc.nl/en/radboud-institute-for-health-sciences) Junior Researcher grant, with funding coming from [Radboudumc](https://www.radboudumc.nl) and [Jeroen Bosch Ziekenhuis in 's-Hertogenbosch](https://www.jeroenboschziekenhuis.nl).
 
 ## Results
-The results of this project are described in [the PhD thesis of Ward Hendrix](https://www.diagnijmegen.nl/publications/hend24/)
+The results of this project are described in the [PhD thesis of Ward Hendrix](https://www.diagnijmegen.nl/publications/hend24b/).
