@@ -17,5 +17,3 @@ The innovation lab will be located at UMC Utrecht, and 1.5 million euros will go
 The other half will go to the research group [early health technology assessment](https://www.radboudumc.nl/en/research/research-groups/early-health-technology-assessment) of the recently appointed professor Janneke Grutters.
 
 Read more about the grant in [this news item on the website of UMC Utrecht](https://www.umcutrecht.nl/nieuws/imagine-van-start?lang=en), [this LinkedIn announcement of UMC Utrecht](https://www.linkedin.com/posts/cancerresearchumcu_cancerresearch-mrlinac-radiotherapy-activity-7239926468389007362-jsVr/), or [this NWO announcement](https://www.nwo.nl/en/news/research-and-collaboration-to-tackle-cancer-patient-care).
-
-# Denk hierbij bijvoorbeeld aan het ontwikkelen van nieuwe technieken waar zoveel mogelijk ‘handwerk’ wordt uitgevoerd door A.I. om het groeiende personeelstekort het hoofd te bieden. Verder kijken we naar de klinische introductie van huidige en toekomstige technieken, en de gehele organisatie om het breed uitrollen heen, inclusief de economische aspecten en het opleiden van personeel voor de beoogde dag-behandelingsklinieken van de toekomst.
