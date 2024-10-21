@@ -4,8 +4,8 @@ template: people-single
 picture: people/Ivan_Slootweg.jpg
 position: PhD Candidate
 active: yes
-groups: diag
-default_group: diag
+groups: diag, pathology
+default_group: pathology
 email: Ivan.Slootweg@radboudumc.nl
 telephone:
 type: phd
