@@ -18,5 +18,5 @@ AI holds great potential to assist in many of the detection and characterization
 In this project, we developed algorithms that aimed to improve the accuracy and cost-effectiveness of lung cancer screening.
 
 ## Results
-The results of this project are described in [the PhD thesis of Kiran Vaidhya Venkadesh](https://www.diagnijmegen.nl/publications/venk24/)
+The results of this project are described in the [PhD thesis of Kiran Vaidhya Venkadesh](https://www.diagnijmegen.nl/publications/venk24/)
 

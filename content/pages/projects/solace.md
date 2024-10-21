@@ -18,8 +18,8 @@ For more information, please visit the [SOLACE project website](http://www.solac
 
 
 ## Funding
-This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No. 101101187.
+Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Health and Digital Executive Agency (HADEA). Neither the European Union nor the granting authority can be held responsible for them.
 
-Co-funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HADEA). Neither the European Union nor the granting authority can be held responsible for them.
+This project is co-funded under the EU4Health Programme 2021–2027 under grant agreement no. 101101187.
 
 ![EU]({{ IMGURL }}/images/projects/eu-co-funded-296x300.jpg)

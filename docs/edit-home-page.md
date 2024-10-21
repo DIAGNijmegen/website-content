@@ -25,6 +25,13 @@ HOME_IMAGE_CAPTION = 'Caption under top image home page'
 
 Write `HOME_IMAGE = 'highlight'` in the subgroup's pelicanconf.py. The home page image will now automatically switch to the last Highlight
 
+### Specific Highlight
+
+To specify a particular article as the highlight:
+
+1. Set `HOME_IMAGE = 'specific_highlight` in the subgroup's pelicanconf.py.
+2. Add a new argument: `HIGHLIGHTED_ARTICLE_TITLE = '<Title of the Article>'`, replacing `<Title of the Article>` with the exact title of the article you want to highlight.
+
 # Edit links header and footers
 
 Edit ```FOOTER_TEXT = 'The .... Group is part of the Department of ... at <a href="link">text</a>.'```

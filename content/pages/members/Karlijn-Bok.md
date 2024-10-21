@@ -3,7 +3,7 @@ name: Karlijn Bok
 template: people-single
 picture: people/Karlijn_Bok.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: karlijn.bok@radboudumc.nl

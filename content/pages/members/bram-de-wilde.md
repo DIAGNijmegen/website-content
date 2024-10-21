@@ -3,7 +3,7 @@ name: Bram de Wilde
 template: people-single
 picture: people/Bram_de_Wilde.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: bram.dewilde@radboudumc.nl

@@ -3,7 +3,7 @@ name: Sandrine Nugteren
 template: people-single
 picture: people/Sandrine_Nugteren.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 type: student

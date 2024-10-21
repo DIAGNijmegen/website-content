@@ -1,6 +1,6 @@
 title: PhD position on AI-assisted Prostate Ultrasound
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/phd-picus-2024.png
 people: Stan Noordman, Henkjan Huisman
