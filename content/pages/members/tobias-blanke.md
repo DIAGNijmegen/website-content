@@ -2,7 +2,7 @@ title: Tobias Blanke
 name: Tobias Blanke
 position: External Supervisor
 template: people-single
-picture: people/external/Tobias_Blanke.jpg
+picture: content/pages/members/tobias-blanke.jpg
 active: yes
 groups: cara-lab
 default_group: cara-lab
