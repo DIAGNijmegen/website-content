@@ -2,7 +2,7 @@ title: Estelle Chanudet-van den Brink
 name: Estelle Chanudet-van den Brink
 template: people-single
 picture: people/Estelle_Chanudet-van_den_Brink.jpg
-position: Study Manager
+position: Project Leader
 active: yes
 groups: diag, pathology
 default_group: pathology
