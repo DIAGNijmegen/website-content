@@ -7,7 +7,7 @@ You can apply for the AI for Health course in the [Online Learning Environment](
 
 There you can choose to enroll in the full track or light track.
 
-For Radboudumc employees the course costs are **€295**.
+For Radboudumc employees the course is offered for the reduced fee of **€295**. For external participants the costs of the full track are **€5000** and of the light track are **€3500**.
 ***
 
 ##Testimonials
