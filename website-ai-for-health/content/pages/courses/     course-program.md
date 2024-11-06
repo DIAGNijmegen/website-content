@@ -60,15 +60,10 @@ An overview of the short track schedule of the current edition can be seen below
 | 31-01-2025 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis and learn about best practices for developing AI | George Padberg, route 924 | Nadieh Khalili, Colin Jacobs, Henkjan Huisman |
 | 07-02-2025 | 9-13h | Deep Learning 2| Learn how to combine text, images and biomedical data for <br> better deep learning models and learn about Transformer models, ChatGPT | George Padberg, route 924 | Nadieh Khalili, Sarah de Boer, Michele Stegeman, Clément Grisi |
 | 14-02-2025 | 9-17h | Data Management /Ethics & Privacy | The FAIR principles of data management <br> are covered and ethical and privacy concerns regarding the use of AI are discussed and learn about the regulations regarding the deployment of AI in practice | George Padberg, route 924 | Andrea Freiling, Marianne Boenink, Leon Haszing, Erik Gelderblom |
-
-Optional:
-
-| Date  | Time |  Topic  | Content | Location | Lecturer(s) |
-| ----- | ------- | ------| ------ | ------ | ------ |
-| 21-02-2025 | 9-17h | Project Day 1| Defining project goals and understanding your data | George Padberg, route 924 | ----- |
-| 07-03-2025 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 | ----- |
-| 14-03-2025 | 9-17h | Project Day 3 | Model optimization | George Padberg, route 924 |-----|
-| 21-03-2023 | 9-17h | Project Day 4 | Evaluating model performance and result visualisation | George Padberg, route 924 | ----- |
+| 21-02-2025 | 9-17h | Project Day 1 (Optional) | Defining project goals and understanding your data | George Padberg, route 924 | ----- |
+| 07-03-2025 | 9-17h | Project Day 2 (Optional) | Data preparation and model development | George Padberg, route 924 | ----- |
+| 14-03-2025 | 9-17h | Project Day 3 (Optional) | Model optimization | George Padberg, route 924 |-----|
+| 21-03-2023 | 9-17h | Project Day 4 (Optional) | Evaluating model performance and result visualisation | George Padberg, route 924 | ----- |
 | 28-03-2024 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 | ----- |
 
 
