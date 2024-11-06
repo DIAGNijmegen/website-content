@@ -62,6 +62,8 @@ An overview of the short track schedule of the current edition can be seen below
 | 14-02-2025 | 9-17h | Data Management /Ethics & Privacy | The FAIR principles of data management <br> are covered and ethical and privacy concerns regarding the use of AI are discussed and learn about the regulations regarding the deployment of AI in practice | George Padberg, route 924 | Andrea Freiling, Marianne Boenink, Leon Haszing, Erik Gelderblom |
 
 Optional:
+| Date  | Time |  Topic  | Content | Location | Lecturer(s) |
+| ----- | ------- | ------| ------ | ------ | ------ |
 | 21-02-2025 | 9-17h | Project Day 1| Defining project goals and understanding your data | George Padberg, route 924 | ----- |
 | 07-03-2025 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 | ----- |
 | 14-03-2025 | 9-17h | Project Day 3 | Model optimization | George Padberg, route 924 |-----|
