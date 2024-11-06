@@ -25,16 +25,16 @@ An overview of the short track schedule of the current edition can be seen below
   
 | Date  | Time |  Topic  | Content | Location |
 | ----- | ------- | ------| ------ | ------ |
-| 03-02-2023 | 9-17h | Introduction + Machine Learning 1| How is AI changing healthcare? How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data| George Padberg, route 924 |
-| 17-02-2023 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models |  George Padberg, route 924 |
-| 24-03-2023 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis | George Padberg, route 924 |
-| 31-03-2023 | 9-13h | Deep Learning 2| Learn how to combine text, images and niomedical data for <br> better deep learning models | George Padberg, route 924 |
-| 14-04-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data | George Padberg, route 924 |
-| 21-04-2023 | 13-17h | AI products | Learn how to choose a suitable AI product | George Padberg, route 924 |
-| 28-04-2023 | 9-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 |
-| 12-05-2023 | 9-13h | Text Miniing and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 |
-| 26-05-2023 | 9-17h | Project Day 3 | Model optimization | George Padberg, route 924 |
-| 02-06-2023 | 9-13h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed | George Padberg, route 924 |
-| 09-06-2023 | 9-17h | Project Day 4 | Evaluating model performance and result visualisation | George Padberg, route 924 |
-| 16-06-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 |
-| 23-06-2023 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 |
+| 08-09-2023 | 10-17h | Introduction + Machine Learning 1| How is AI changing healthcare? How to run an AI project? Follow the CRIPS-DM model <br> for data science projects and start with understanding your data| George Padberg, route 924 |
+| 22-09-2023 | 9-13h | Machine Learning 2| Learn the basic principles of machine learning and <br> how to measure the Performance of machine learning models |  George Padberg, route 924 |
+| 06-10-2023 | 9-13h | Deep Learning 1| Understand how convolutional neural networks can be used <br> for medical image analysis | George Padberg, route 924 |
+| 27-10-2023 | 9-17h | Deep Learning 2/3| Learn how to combine text, images and biomedical data for <br> better deep learning models and learn about Transformer models, ChatGPT | George Padberg, route 924 | <a href="https://www.diagnijmegen.nl/people/bram-van-ginneken/">Bram van Ginneken</a> |
+| 03-11-2023 | 9-17h | Project Day 1 | Defining project goals and understanding your data | George Padberg, route 924 |
+| 10-11-2023 | 13-17h | Project Day 2 | Data preparation and model development | George Padberg, route 924 |
+| 17-11-2023 | 9-17h | AI products / Project Day 2 | Learn how to choose a suitable AI product and data preparation and model development | George Padberg, route 924 |
+| 24-11-2023 | 9-13h | Text Mining and Bioinformatics |  Learn how to get valuable insights from medical records <br> and about AI applications in genetics | George Padberg, route 924 |
+| 01-12-2023 | 9-17h | Project Day 3 | Model optimization | George Padberg, route 924 |
+| 08-12-2023 | 9-17h | Project Day 4 | Evaluating model performance and result visualisation | George Padberg, route 924 |
+| 15-12-2023 | 9-13h | Ethics & Privacy | Ethical and privacy concerns regarding the use of AI are discussed | George Padberg, route 924 |
+| 22-12-2023 | 9-17h | Project Day 5 | Evaluating model performance | George Padberg, route 924 |
+| 12-01-2024 | 9-13h | Final Presentations | Project groups will present their final results | George Padberg, route 924 |
