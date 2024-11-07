@@ -1,7 +1,7 @@
 title: Fabian Hoitsma
 name: Fabian Hoitsma
 template: people-single
-picture: people/Fabian_Hoitsma.png
+picture: people/Fabian_Hoitsma.jpg
 position: PhD Candidate
 active: yes
 groups: diag
