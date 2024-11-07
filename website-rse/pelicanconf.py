@@ -16,23 +16,20 @@ SITE_GROUP = "rse"
 # Home page and social settings
 SITELEAD = """
 The Research Software Engineering Team is part of the Diagnostic Image Analysis Group at Radboud University Medical Center in Nijmegen, The Netherlands.<br><br>
-We use industry best practices to develop software that enables researchers to rapidly develop novel machine learning algorithms that we can integrate into research workstations for clinical validation.
+We develop cloud-based solutions to facilitate researchers in all facets of AI model development in biomedical imaging and beyond.
 """
 SITE_PICTURE = "images/social/missing_picture_social.png"
 HOME_IMAGE = "images/general/ApplicationsOfDeepLearning.png"
 HOME_IMAGE_CAPTION = ""
 NUM_NEWS_HOME_PAGE = 4
-TWITTER_URL = "https://twitter.com/diagnijmegen?ref_src=twsrc%5Etfw"
-FOOTER_TEXT = ""
+FOOTER_TEXT = 'The Research Software Engineering team is part of the Diagnostic Image Analysis Group at <a href="https://www.radboudumc.nl">Radboud University Medical Center</a>.'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="http://www.radboudimaging.nl">Radboud Imaging</a>'
 FOOTER_IMAGE = 'umc_logo.png'
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
-    # {"name": "Highlights", "icon": "megaphone"},
     {"name": "People", "url": "members", "icon": "users"},
-    # {"name": "Projects", "url": "projects", "icon": "folder"},
     {"name": "Software", "url": "software", "icon": "code"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {"name": "Contact", "url": "contact", "icon": "envelope-o"},
