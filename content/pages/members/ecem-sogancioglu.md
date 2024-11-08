@@ -3,7 +3,7 @@ name: Ecem Sogancioglu
 template: people-single
 picture: people/Ecem_Lago.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: ecem.sogancioglu@radboudumc.nl
