@@ -3,7 +3,7 @@ name: Joep Bogaerts
 template: people-single
 picture: people/Joep_Bogaerts.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: joep.bogaerts@radboudumc.nl
