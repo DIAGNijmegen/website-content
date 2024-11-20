@@ -3,7 +3,7 @@ name: Péter Bándi
 template: people-single
 picture: people/Péter_Bándi.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: pathology, diag
 default_group: pathology
 email: peter.bandi@radboudumc.nl
