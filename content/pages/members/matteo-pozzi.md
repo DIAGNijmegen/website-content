@@ -3,7 +3,7 @@ name: Matteo Pozzi
 template: people-single
 picture: people/Matteo_Pozzi.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: mat.poz96@gmail.com
