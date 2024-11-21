@@ -3,7 +3,7 @@ name: Marjolein de Koning
 template: people-single
 picture: people/Marjolein_de_Koning.jpg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: marjolein.r.dekoning@radboudumc.nl
