@@ -8,4 +8,4 @@ description: Frédérique Meeuwsen receives Hanarth Fonds fellowship for her pro
 
 The combination of leading research at Radboudumc, internships at internationally renowned laboratories, and education will help acquire all the necessary knowledge and practical tools to become a pathologist of the future and bridge the gap between technology and clinical practice.
 
-Read more about the grant in this news item on the website of [RadboudUMC](https://www.radboudumc.nl/nieuws/2024/subsidies-voor-ai-bij-opsporen-alvleesklierkanker-en-pathologie), or this [Hanarth Fonds announcement](https://www.hanarthfonds.nl/en-2024-call).
+Read more about the grant in this news item on the website of [Radboudumc](https://www.radboudumc.nl/nieuws/2024/subsidies-voor-ai-bij-opsporen-alvleesklierkanker-en-pathologie), or this [Hanarth Fonds announcement](https://www.hanarthfonds.nl/en-2024-call).
