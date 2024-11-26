@@ -1,5 +1,5 @@
 title: Frédérique Meeuwsen is awarded a Hanarth Fonds fellowship for AI in pathology
-date: 2023-11-26
+date: 2024-11-26
 picture: news/hanarth_frederique.png
 groups: diag, pathology
 description: Frédérique Meeuwsen receives Hanarth Fonds fellowship for her project 'Towards becoming a pathologist of the future'.
