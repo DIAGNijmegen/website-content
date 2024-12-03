@@ -6,6 +6,7 @@ description: Welcome to the November edition of the Diagnostic Image Analysis Gr
 
 ## New DIAG members
 We are thrilled to introduce and extend a warm welcome to the newest members joining DIAG!:
+
 - [member/frederique-meeuwsen]
 - [member/kristina-avramova]
 - [member/amirhosein-kalhor]
