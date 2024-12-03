@@ -3,7 +3,7 @@ name: Meyke Hermsen
 template: people-single
 picture: people/Meyke_Hermsen.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: meyke.hermsen@radboudumc.nl
