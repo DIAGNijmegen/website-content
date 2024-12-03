@@ -13,7 +13,7 @@ Live websites:
 
 Live subsites:
 
-- Anesthesiology: https://xxx.nl
+- Anesthesiology: [https://umcg-anes.netlify.app/](https://umcg-anes.netlify.app/)
 - Emergency Medicine: https://xxx.nl
 - Intensive Care: https://xxx.nl
 
