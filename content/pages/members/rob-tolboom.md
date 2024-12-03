@@ -13,7 +13,6 @@ type: faculty
 linkedin: https://nl.linkedin.com/in/robtolboom
 scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
 researcherid: https://www.webofscience.com/wos/author/record/JAN-9026-2023
-publons: https://publons.com/researcher/2830600/robert-c-tolboom/
 orcid: https://orcid.org/0000-0002-3460-1934
 show_publication_years: yes
 
