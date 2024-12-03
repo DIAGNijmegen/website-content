@@ -11,7 +11,7 @@ We are thrilled to introduce and extend a warm welcome to the newest members joi
 - [member/amirhosein-kalhor]
 
 ## Awards and grants
-- [member/Frederique-meeuwsen] has been awarded a Hanarth Fonds fellowship for her project, 'Towards becoming a pathologist of the future', read more about it [here]( https://www.diagnijmegen.nl/news/frederique-meeuwsen-hanarth/).
+- [member/frederique-meeuwsen] has been awarded a Hanarth Fonds fellowship for her project, 'Towards becoming a pathologist of the future', read more about it [here]( https://www.diagnijmegen.nl/news/frederique-meeuwsen-hanarth/).
 
 ## Upcoming events
 -	DIAG DAY December 11th - AI for Neurology! 
