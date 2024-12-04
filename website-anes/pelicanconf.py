@@ -69,14 +69,14 @@ NAV_SECTIONS = [
     {
         "name": "Vacancies", 
         "url": "vacancies", 
-        "icon_mobile": "vacancies"
-        "text_class": "d-lg-block"
+        "icon_mobile": "vacancies",
+        "text_class": "d-lg-block",
     },
     {
         "name": "Contact", 
         "url": "contact", 
-        "icon_mobile": "envelope-o"
-        "text_class": "d-lg-block"
+        "icon_mobile": "envelope-o",
+        "text_class": "d-lg-block",
     },
 ]
 
