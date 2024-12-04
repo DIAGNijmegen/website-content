@@ -1,11 +1,11 @@
 title: AI-Based Bounding Box Prediction of Lung Tumors in CT imaging
 groups: diag
-closed: false (change to true when vacanct is closed)
+closed: false
 type: student
 picture: vacancies/ai-lung-tumor-detection.png
 template: vacancy-single
 people: Alonso Cerrato Nieto, Colin Jacobs
-description: A short description of +/- 300 words that will appear on the vacancy/student project home page
+description: Development of AI model for lung tumor detection
 
 
 ## Clinical Problem
