@@ -38,6 +38,12 @@ NAV_SECTIONS = [
     },
     {"name": "News", "url": "news", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
+    {
+        "name": "Research",
+        "url": "research",
+        "icon_mobile": "folder",
+        "text_class": "d-lg-block",
+    },
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
     {"name": "Presentations", "url": "presentations", "hidden": 95},
