@@ -1,8 +1,7 @@
 title: Research agenda of the Department of Anesthesiology
 
+* * * 
 # Context
-
-* * *
 
 ## Community
 Healthcare and society face several major challenges in the coming decades. This year, more than a quarter of the total government expenditure will go to healthcare. The Scientific Council for Government Policy has calculated that if we do not act now, healthcare costs will triple between now and 2060, which is, of course, completely unaffordable. Secondly, there is a double challenge due to the increasing aging population on one hand and staff shortages on the other. We are living with more elderly people compared to the working population, often with chronic illnesses or multiple conditions. Currently, 1 in 6 people in the Netherlands works in healthcare, and this will rise to 1 in 4 if we do nothing, which is not feasible. Moreover, due to high workloads, administrative burdens, and lack of autonomy, absenteeism is only increasing, and more people are leaving healthcare. Thirdly, there is increasing social inequality and, consequently, health disparities. Recently, it became clear that in the Netherlands, people with lower education and income levels live, on average, 15 years less in good health, influenced by various factors such as living conditions, knowledge, and skills. All this already leads, and will certainly lead further in the future, to an increasingly severe healthcare bottleneck if we do not structurally reorganize or, better said, transform the healthcare system.
