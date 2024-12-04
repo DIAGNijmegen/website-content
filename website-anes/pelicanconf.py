@@ -2,6 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
+import os
+
+TODAY = date.today()
+CURRENTYEAR = TODAY.year
+
+# Check if there are publications in CURRENTYEAR, if not show publications of previous year
+PUBLICATIONSYEAR = CURRENTYEAR if os.path.isfile(f"content/pages/publications/{CURRENTYEAR}.md") else CURRENTYEAR - 1
 
 #
 # Site specific variables
