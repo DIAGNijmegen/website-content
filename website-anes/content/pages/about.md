@@ -91,8 +91,10 @@ These domains are not confined silos but complement and strengthen each other.
 ![Research domains within the Department of Anesthesiology.]({{ IMGURL }}/images/general/domeinen.png) 
 Figure 2. Research domains within the Department of Anesthesiology.
 
+* * *
+
 ![Our research agenda is integrated into our care process and education.]({{ IMGURL }}/images/general/cirkel.png) 
-Figure 2. Our research agenda is integrated into our care process and education.
+Figure 3. Our research agenda is integrated into our care process and education.
 
 ***Monitoring, Technology, and Personalized Care*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), data and biomaterial can be collected. This data originates from health apps, wearable sensors, electronic health records, and other platforms. We use this data to develop decision models and (further) advance (monitoring) technology supported by artificial intelligence. We then implement these developments back into the care process in collaboration with the patient and other healthcare providers within the perioperative care network.*
 
