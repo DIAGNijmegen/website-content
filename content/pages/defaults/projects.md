@@ -1,4 +1,4 @@
-title: Projects & Software
+title: Projects
 template: projects
 
 <!---
