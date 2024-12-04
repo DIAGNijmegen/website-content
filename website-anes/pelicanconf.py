@@ -34,20 +34,50 @@ NAV_SECTIONS = [
     {
         "name": "About",
         "url": "about",
-        "icon": "info",
+        "icon_mobile": "info",
+        "text_class": "d-lg-block",
     },
-    {"name": "News", "url": "news", "icon_mobile": "megaphone", "text_class": "d-lg-block",},
-    {"name": "Members", "url": "members", "icon_mobile": "users", "text_class": "d-lg-block",},
+    {   
+        "name": "News", 
+        "url": "news", 
+        "icon_mobile": "megaphone", 
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Members", 
+        "url": "members", 
+        "icon_mobile": "users", 
+        "text_class": "d-lg-block",},
     {
         "name": "Research",
         "url": "research",
         "icon_mobile": "folder",
         "text_class": "d-lg-block",
     },
-    {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
-    {"name": "Publications", "url": "publications", "icon": "file-text-o", "hidden": 85},
-    {"name": "Presentations", "url": "presentations", "hidden": 95},
-    {"name": "Contact", "url": "contact", "icon": "envelope-o", "hidden": 60},
+    {
+        "name": "Publications", 
+        "url": f"publications/{PUBLICATIONSYEAR}", 
+        "icon_mobile": "file-text-o",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Thesis Gallery",
+        "url": "thesis-gallery",
+        "icon_mobile": "book",
+        "text_class": "d-lg-block",
+    },
+    {
+        "name": "Vacancies", 
+        "url": "vacancies", 
+        "icon_mobile": "vacancies"
+        "text_class": "d-lg-block"
+    },
+    {
+        "name": "Contact", 
+        "url": "contact", 
+        "icon_mobile": "envelope-o"
+        "text_class": "d-lg-block"
+    },
 ]
 
 HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies",}
