@@ -9,4 +9,4 @@ We have research lines in radiology that focus on chest imaging with CT and x-ra
 To perform world-leading machine learning research and translate the results of our projects from the lab to the patient, we need a team of research software engineers and state-of-the-art hardware facilities. We have grouped our infrastructure and research support in the [Radboud Technology Center Deep Learning](http://rtc.diagnijmegen.nl/), one of [19 research facilities in Radboudumc](https://www.radboudumc.nl/en/research/technology-centers). The [RTC Deep learning](http://rtc.diagnijmegen.nl/) consists of a growing team of experts on deep learning experimentation and research software engineering that maintains our GPU compute cluster [Sol](https://rtc.diagnijmegen.nl/software/sol/), maintains and develops our biomedical software platform [grand-challenge.org](https://grand-challenge.org/), and supports the [Radboud AI for Health](https://www.ai-for-health.nl/) lab.
 
 ## Research lines
-Click on any of the cards below to learn more about the research lines in DIAG.
+Click on any of the cards below to learn more about the research lines.
