@@ -25,7 +25,7 @@ FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.umcg.nl">UMCG</a>'
 PARENT_DOMAIN = '<a href="https://www.umcg.nl/">Sector ... (niet werkzame link)</a>'
 THIRD_DOMAIN = ''
-CSS_THEME = "anes-theme"
+CSS_THEME = "cara-theme"
 FOOTER_IMAGE = 'cara_logo_new.png'
 HOME_JUMBOTRON_LAYOUT = "dense"
 
