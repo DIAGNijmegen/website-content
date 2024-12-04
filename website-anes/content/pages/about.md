@@ -9,24 +9,25 @@ In the northern provinces, there are additional specific challenges. Due to the 
 The above challenges were among the reasons for drafting the Integrated Care Agreement (IZA), a joint multi-year plan describing a major transition in healthcare and its organization. The cornerstone of the IZA is appropriate care: value-driven, centered around and with the patient, at the right place, physically when necessary, and digitally when possible. Appropriate care focuses on health instead of illness and emphasizes prevention.
 
 Additionally, the Ministry of Health, Welfare, and Sport outlined several missions in the 2024-2027 mission document, which will guide the (organization of) healthcare in the coming years. These are:
-- **Central Mission**: By 2040, all people in the Netherlands will live at least five years longer in good health, and the health disparities between the lowest and highest socioeconomic groups will have decreased by 30%.
-- **Mission 1**: By 2040, the disease burden caused by unhealthy lifestyles and unhealthy environments will have decreased by 30%.
-- **Mission 2**: By 2030, healthcare will be organized 50% more (or more often) in people’s own living environments, together with their (social) network.
-- **Mission 3**: By 2030, the proportion of people with chronic illnesses or lifelong disabilities who can participate in society to their desired extent and ability will have increased by 25%.
-- **Mission 4**: By 2030, the quality of life for people with dementia will have improved by 25%.
-- **Mission 5**: By 2035, the population will be better protected against socially disruptive health threats.
+ - **Central Mission**: By 2040, all people in the Netherlands will live at least five years longer in good health, and the health disparities between the lowest and highest socioeconomic groups will have decreased by 30%.
+ - **Mission 1**: By 2040, the disease burden caused by unhealthy lifestyles and unhealthy environments will have decreased by 30%.
+ - **Mission 2**: By 2030, healthcare will be organized 50% more (or more often) in people’s own living environments, together with their (social) network.
+ - **Mission 3**: By 2030, the proportion of people with chronic illnesses or lifelong disabilities who can participate in society to their desired extent and ability will have increased by 25%.
+ - **Mission 4**: By 2030, the quality of life for people with dementia will have improved by 25%.
+ - **Mission 5**: By 2035, the population will be better protected against socially disruptive health threats.
 
 ![Missions, outlined by the Ministry of Health, Welfare, and Sport]({{ IMGURL }}/images/general/missies.png) 
+Figure 1. Missions, outlined by the Ministry of Health, Welfare, and Sport.
 
 ## UMCG: Koers25-Koers30
 Within the UMCG, the aforementioned challenges have been among the driving forces behind the development of **Koers25** and soon **Koers30**, with the mission: *Together, we push boundaries for a sustainable future of health*. The UMCG is a high-tech, specialized knowledge institution with deep roots in society and a strong connection to the University of Groningen. It serves as a unique engine of innovation in the fields of prevention, care, research, education, and training. Our work is meaningful to patients, citizens, partners in government and business, health insurers, students, and researchers worldwide. This gives the UMCG a special position and responsibility at the regional, national, and international levels.
 
 The vision of the UMCG is to provide groundbreaking and high-quality complex care for and by people in an integrated healthcare landscape. Moreover, in all our core tasks, we aim to act as an engine of innovation regionally, nationally, and internationally. The three priorities – **Healthy Ageing**, **a people-centered and value-driven approach**, and **data-informed working** – guide our actions in all our core activities. In everything we do, at every level of the organization, we keep these priorities in focus. We achieve this through five pillars:
-1. **Integrated networks for prevention, care, research, and education**
-2. **Discovering and innovating diagnostics and treatments**
-3. **Future-oriented education and training**
-4. **The UMCG as a sustainable and inspiring employer**
-5. **Being an agile and results-driven organization**
+ 1. **Integrated networks for prevention, care, research, and education**
+ 2. **Discovering and innovating diagnostics and treatments**
+ 3. **Future-oriented education and training**
+ 4. **The UMCG as a sustainable and inspiring employer**
+ 5. **Being an agile and results-driven organization**
 
 ## Department of Anesthesiology
 Anesthesiological care encompasses comprehensive care for patients in the pre-hospital and perioperative phases, as well as (ambulatory) pain management. The focus is on safety, pain management, and maintaining physiological stability. The field integrates knowledge of anatomy, physiology, pharmacology, and psychology for the administration and management of anesthetics and other medications, addressing both acute and chronic pain.
@@ -50,5 +51,30 @@ Improving perioperative health and pain care through **insight**, **innovation**
 
 This requires a multidisciplinary approach and the expertise of various professionals. Our research team includes clinical care professionals in Anesthesiology (anesthesiologists, anesthesia assistants, physician assistants, nurses) as well as pharmacologists, engineers, medical technologists, health scientists, paramedics, and data scientists, and where relevant, collaborates with other healthcare providers and experts outside the field of Anesthesiology.
 
-# Strategy
-......
+# Strategy: Redefinition of research lines; the 4 domains
+Currently, the Department of Anesthesiology at the UMCG has defined 5 research lines and appointed 5 professors in the areas of pharmacology, neuroscience, hemodynamics and monitoring, pain, and educational innovation.
+
+To further increase our impact in the region and the scientific field, and to fully utilize our broad expertise, these strong substantive lines will be firmly anchored in a research agenda that aligns with societal and professional challenges for the coming decades. This agenda compels us to further develop our field, reduce silos, and stimulate collaboration. The proposal is to work towards the following complementary domains in 2024:
+
+ 1. Monitoring, Technology, and Personalized Care
+  * Developing and implementing technology for continuous monitoring of vital functions and physiological processes to maintain accessible and high-quality care.
+  * Enhancing decision-making through the use of data to remotely monitor and treat patients’ (vital) functions, enabling personalized care choices both in and out of the hospital, and developing new care pathways, prevention interventions, (AI) algorithms, smart applications, and individual alerts in collaboration with other research groups and public-private partnerships.
+  * Continuously integrating knowledge from these projects into our decision models and care processes.
+  * Building transmural networks and investigating how to establish effective care chains for the right care in the right place, from prevention to aftercare or palliative care.
+ 2. (Perioperative) Organ Damage, Inflammation, and Recovery
+  * From molecule/cell to society: Conducting research to gain new knowledge on the personalized (patho)physiology of organ damage and recovery at the molecular/cellular, organ, and system levels—both experimental, translational, and clinical. Contributing to damage limitation, optimal patient recovery, and improved quality of life.
+  * Investigating both short- and long-term outcome parameters and understanding what matters to individual patients.
+  * Optimizing (post-intervention) pain management to prevent the development of or progression to chronic pain and the associated loss of function and quality of life.
+
+3. (Perioperative) (Pharmacological) Therapeutic Interventions
+
+a. Developing new forms of (personalized) interventions, both in and outside the hospital, that enhance perioperative/peri-intervention health. Central to this is the consideration of whether interventions are delivered at home, near the patient, or in the hospital.
+b. Investigating which interventions do not contribute to improved perioperative/peri-interventional health and de-implementing them.
+c. Pharmacological optimization: Studying the pharmacology of existing and new drugs necessary to restore and maintain the patient’s homeostasis during the perioperative process. This involves applying pharmacometric principles, artificial intelligence, and advanced drug delivery technology to achieve a personalized pharmacological therapeutic strategy.
+
+4. Innovation in Education
+
+a. Passion and talent in transition: Researching the dynamics of transitions and social capital as well as mechanisms to nurture passion, talent, and professional identity development. Integrating these insights into our educational programs to foster a supportive and sustainable learning environment.
+b. Curiosity: Researching and developing education that stimulates curiosity. This includes creating personalized education in areas such as e-learning, peer-assisted learning, interprofessional education, and incorporating technology and theater into skills education. Aiming for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.
+c. Stress and well-being: Investigating the perception, impact, and response to stress, promoting well-being, and building resilience. This includes diagnostic qualitative and quantitative research into areas such as ‘speaking up,’ self-awareness, and the impact of new technologies. The focus extends to organizational and systemic improvement with the goal of ensuring sustainability for the future.
+d. Education as the driving force for change: Driving necessary changes to bring our results, innovations, and advancements into daily practice. Sharing insights with others and collaborating with various knowledge institutes in the region. Education is a domain interwoven with the other domains.
