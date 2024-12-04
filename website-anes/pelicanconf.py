@@ -44,12 +44,12 @@ NAV_SECTIONS = [
         "icon_mobile": "info",
         "text_class": "d-lg-block",
     },
-    {   
-        "name": "News", 
-        "url": "news", 
-        "icon_mobile": "megaphone", 
-        "text_class": "d-lg-block",
-    },
+#    {   
+#        "name": "News", 
+#        "url": "news", 
+#        "icon_mobile": "megaphone", 
+#        "text_class": "d-lg-block",
+#    },
     {
         "name": "Members", 
         "url": "members", 
