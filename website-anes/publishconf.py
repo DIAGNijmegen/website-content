@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://umcg-anes.netlify.app/'
-IMGURL = 'https://umcg-media.netlify.app'
+IMGURL = 'https://umcg-media.netlify.app/'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
