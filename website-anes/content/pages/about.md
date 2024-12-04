@@ -1,8 +1,7 @@
-title: Research agenda
-# Research agenda of the Department of Anesthesiology
+title: Research agenda of the Department of Anesthesiology
 
-## Context
-### Community
+# Context
+## Community
 Healthcare and society face several major challenges in the coming decades. This year, more than a quarter of the total government expenditure will go to healthcare. The Scientific Council for Government Policy has calculated that if we do not act now, healthcare costs will triple between now and 2060, which is, of course, completely unaffordable. Secondly, there is a double challenge due to the increasing aging population on one hand and staff shortages on the other. We are living with more elderly people compared to the working population, often with chronic illnesses or multiple conditions. Currently, 1 in 6 people in the Netherlands works in healthcare, and this will rise to 1 in 4 if we do nothing, which is not feasible. Moreover, due to high workloads, administrative burdens, and lack of autonomy, absenteeism is only increasing, and more people are leaving healthcare. Thirdly, there is increasing social inequality and, consequently, health disparities. Recently, it became clear that in the Netherlands, people with lower education and income levels live, on average, 15 years less in good health, influenced by various factors such as living conditions, knowledge, and skills. All this already leads, and will certainly lead further in the future, to an increasingly severe healthcare bottleneck if we do not structurally reorganize or, better said, transform the healthcare system.
 
 In the northern provinces, there are additional specific challenges. Due to the migration of youth from rural areas, aging will increase further, but the potential for informal care will also decrease, thereby increasing pressure on the healthcare system. Residents in rural areas, including Groningen, Friesland, and Drenthe, often have a lower socioeconomic status, poorer health, higher healthcare consumption, and less trust in government policy compared to urban areas. There is a relatively high level of physically demanding labor, which can lead to musculoskeletal complaints, including osteoarthritis.
@@ -19,7 +18,7 @@ Additionally, the Ministry of Health, Welfare, and Sport outlined several missio
 
 ![Missions, outlined by the Ministry of Health, Welfare, and Sport]({{ IMGURL }}/images/general/missies.png) 
 
-### UMCG: Koers25-Koers30
+## UMCG: Koers25-Koers30
 Within the UMCG, the aforementioned challenges have been among the driving forces behind the development of **Koers25** and soon **Koers30**, with the mission: *Together, we push boundaries for a sustainable future of health*. The UMCG is a high-tech, specialized knowledge institution with deep roots in society and a strong connection to the University of Groningen. It serves as a unique engine of innovation in the fields of prevention, care, research, education, and training. Our work is meaningful to patients, citizens, partners in government and business, health insurers, students, and researchers worldwide. This gives the UMCG a special position and responsibility at the regional, national, and international levels.
 
 The vision of the UMCG is to provide groundbreaking and high-quality complex care for and by people in an integrated healthcare landscape. Moreover, in all our core tasks, we aim to act as an engine of innovation regionally, nationally, and internationally. The three priorities – **Healthy Ageing**, **a people-centered and value-driven approach**, and **data-informed working** – guide our actions in all our core activities. In everything we do, at every level of the organization, we keep these priorities in focus. We achieve this through five pillars:
@@ -29,27 +28,27 @@ The vision of the UMCG is to provide groundbreaking and high-quality complex car
 4. **The UMCG as a sustainable and inspiring employer**
 5. **Being an agile and results-driven organization**
 
-### Department of Anesthesiology
+## Department of Anesthesiology
 Anesthesiological care encompasses comprehensive care for patients in the pre-hospital and perioperative phases, as well as (ambulatory) pain management. The focus is on safety, pain management, and maintaining physiological stability. The field integrates knowledge of anatomy, physiology, pharmacology, and psychology for the administration and management of anesthetics and other medications, addressing both acute and chronic pain.
 
 Anesthesiology is characterized by interprofessional and interdisciplinary collaboration and plays a crucial role throughout the healthcare chain, from pre-hospital and perioperative (acute) care to pain management and monitoring, both in-hospital and outpatient.
 
 The Department of Anesthesiology contributes to the ambitions of Koers25/Koers30 and the needs of society, both now and in the future, through research and innovation.
 
-## Mission
+# Mission
 Improving perioperative health and pain care through **insight**, **innovation**, and **connection**.
 
-## Vision
-- We are a (inter)nationally leading research group focused on **restoring, preserving, and improving homeostasis** in our patients, aiming to prevent/reduce tissue and organ damage that leads to diminished postoperative and post-intervention quality of life and function.
-- We **develop and implement new technologies** for research, prediction, diagnostics, treatment, education, evaluation, and monitoring throughout the (perioperative) care process.
-- We **design and implement**, where possible, **personalized (pharmacological) interventions** to optimize patients’ health status and prevent and/or treat damage/complications. This is not only quantitatively but also qualitatively oriented toward quality of life and patient satisfaction. We **de-implement interventions that add no value** for the patient.
-- We work **value- and data-driven, multi- and interdisciplinary, and transmurally, connecting with patients** throughout their entire care journey and focusing on effective prevention.
-- Our research is **sustainable** and aims to reduce the burden/environmental footprint for people, society, and the climate.
-- We **disseminate knowledge** in (inter)nationally leading journals within an **open science** culture.
-- We patent knowledge **in collaboration with private partners**, ensuring that scientific results are rapidly translated into tangible care for patients.
-- We hold an **inspiring** and **leading role** in care, research, education, and innovation, **connecting stakeholders across (Northern) Netherlands**.
+# Vision
+ - We are a (inter)nationally leading research group focused on **restoring, preserving, and improving homeostasis** in our patients, aiming to prevent/reduce tissue and organ damage that leads to diminished postoperative and post-intervention quality of life and function.
+ - We **develop and implement new technologies** for research, prediction, diagnostics, treatment, education, evaluation, and monitoring throughout the (perioperative) care process.
+ - We **design and implement**, where possible, **personalized (pharmacological) interventions** to optimize patients’ health status and prevent and/or treat damage/complications. This is not only quantitatively but also qualitatively oriented toward quality of life and patient satisfaction. We **de-implement interventions that add no value** for the patient.
+ - We work **value- and data-driven, multi- and interdisciplinary, and transmurally, connecting with patients** throughout their entire care journey and focusing on effective prevention.
+ - Our research is **sustainable** and aims to reduce the burden/environmental footprint for people, society, and the climate.
+ - We **disseminate knowledge** in (inter)nationally leading journals within an **open science** culture.
+ - We patent knowledge **in collaboration with private partners**, ensuring that scientific results are rapidly translated into tangible care for patients.
+ - We hold an **inspiring** and **leading role** in care, research, education, and innovation, **connecting stakeholders across (Northern) Netherlands**.
 
 This requires a multidisciplinary approach and the expertise of various professionals. Our research team includes clinical care professionals in Anesthesiology (anesthesiologists, anesthesia assistants, physician assistants, nurses) as well as pharmacologists, engineers, medical technologists, health scientists, paramedics, and data scientists, and where relevant, collaborates with other healthcare providers and experts outside the field of Anesthesiology.
 
-## Strategy
+# Strategy
 ......
