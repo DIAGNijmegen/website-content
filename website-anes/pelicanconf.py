@@ -23,7 +23,7 @@ NUM_NEWS_HOME_PAGE = 4
 TWITTER_URL = None
 FOOTER_TEXT = ''
 TOP_DOMAIN = '<a href="https://www.umcg.nl">UMCG</a>'
-PARENT_DOMAIN = '<a href="https://www.umcg.nl/">Sector ... (niet werkzame link)</a>'
+PARENT_DOMAIN = '<a href="https://www.umcg.nl/">Cluster Acute, Perioperative and Intensicve Care Medicine</a>'
 THIRD_DOMAIN = ''
 CSS_THEME = "anes-theme"
 FOOTER_IMAGE = 'umcg.png'
