@@ -36,8 +36,8 @@ NAV_SECTIONS = [
         "url": "about",
         "icon": "info",
     },
-    {"name": "News", "url": "news", "icon": "megaphone"},
-    {"name": "Members", "url": "members", "icon": "users"},
+    {"name": "News", "url": "news", "icon_mobile": "megaphone", "text_class": "d-lg-block",},
+    {"name": "Members", "url": "members", "icon_mobile": "users", "text_class": "d-lg-block",},
     {
         "name": "Research",
         "url": "research",
