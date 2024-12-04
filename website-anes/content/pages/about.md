@@ -9,6 +9,7 @@ In the northern provinces, there are additional specific challenges. Due to the 
 The above challenges were among the reasons for drafting the Integrated Care Agreement (IZA), a joint multi-year plan describing a major transition in healthcare and its organization. The cornerstone of the IZA is appropriate care: value-driven, centered around and with the patient, at the right place, physically when necessary, and digitally when possible. Appropriate care focuses on health instead of illness and emphasizes prevention.
 
 Additionally, the Ministry of Health, Welfare, and Sport outlined several missions in the 2024-2027 mission document, which will guide the (organization of) healthcare in the coming years. These are:
+
  - **Central Mission**: By 2040, all people in the Netherlands will live at least five years longer in good health, and the health disparities between the lowest and highest socioeconomic groups will have decreased by 30%.
  - **Mission 1**: By 2040, the disease burden caused by unhealthy lifestyles and unhealthy environments will have decreased by 30%.
  - **Mission 2**: By 2030, healthcare will be organized 50% more (or more often) in people’s own living environments, together with their (social) network.
@@ -52,31 +53,61 @@ Improving perioperative health and pain care through **insight**, **innovation**
 
 This requires a multidisciplinary approach and the expertise of various professionals. Our research team includes clinical care professionals in Anesthesiology (anesthesiologists, anesthesia assistants, physician assistants, nurses) as well as pharmacologists, engineers, medical technologists, health scientists, paramedics, and data scientists, and where relevant, collaborates with other healthcare providers and experts outside the field of Anesthesiology.
 
+* * *
+
 # Strategy: Redefinition of research lines; the 4 domains
 Currently, the Department of Anesthesiology at the UMCG has defined 5 research lines and appointed 5 professors in the areas of pharmacology, neuroscience, hemodynamics and monitoring, pain, and educational innovation.
 
 To further increase our impact in the region and the scientific field, and to fully utilize our broad expertise, these strong substantive lines will be firmly anchored in a research agenda that aligns with societal and professional challenges for the coming decades. This agenda compels us to further develop our field, reduce silos, and stimulate collaboration. The proposal is to work towards the following complementary domains in 2024:
 
- 1. Monitoring, Technology, and Personalized Care
- 	* Developing and implementing technology for continuous monitoring of vital functions and physiological processes to maintain accessible and high-quality care.
-	* Enhancing decision-making through the use of data to remotely monitor and treat patients’ (vital) functions, enabling personalized care choices both in and out of the hospital, and developing new care pathways, prevention interventions, (AI) algorithms, smart applications, and individual alerts in collaboration with other research groups and public-private partnerships.
-	* Continuously integrating knowledge from these projects into our decision models and care processes.
-	* Building transmural networks and investigating how to establish effective care chains for the right care in the right place, from prevention to aftercare or palliative care.
- 2. (Perioperative) Organ Damage, Inflammation, and Recovery
-  * From molecule/cell to society: Conducting research to gain new knowledge on the personalized (patho)physiology of organ damage and recovery at the molecular/cellular, organ, and system levels—both experimental, translational, and clinical. Contributing to damage limitation, optimal patient recovery, and improved quality of life.
-  * Investigating both short- and long-term outcome parameters and understanding what matters to individual patients.
-  * Optimizing (post-intervention) pain management to prevent the development of or progression to chronic pain and the associated loss of function and quality of life.
- 3. (Perioperative) (Pharmacological) Therapeutic Interventions
-  * Developing new forms of (personalized) interventions, both in and outside the hospital, that enhance perioperative/peri-intervention health. Central to this is the consideration of whether interventions are delivered at home, near the patient, or in the hospital.
-  * Investigating which interventions do not contribute to improved perioperative/peri-interventional health and de-implementing them.
-  * Pharmacological optimization: Studying the pharmacology of existing and new drugs necessary to restore and maintain the patient’s homeostasis during the perioperative process. This involves applying pharmacometric principles, artificial intelligence, and advanced drug delivery technology to achieve a personalized pharmacological therapeutic strategy.
- 4. Innovation in Education
-  * Passion and talent in transition: Researching the dynamics of transitions and social capital as well as mechanisms to nurture passion, talent, and professional identity development. Integrating these insights into our educational programs to foster a supportive and sustainable learning environment.
-  * Curiosity: Researching and developing education that stimulates curiosity. This includes creating personalized education in areas such as e-learning, peer-assisted learning, interprofessional education, and incorporating technology and theater into skills education. Aiming for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.
-  * Stress and well-being: Investigating the perception, impact, and response to stress, promoting well-being, and building resilience. This includes diagnostic qualitative and quantitative research into areas such as ‘speaking up,’ self-awareness, and the impact of new technologies. The focus extends to organizational and systemic improvement with the goal of ensuring sustainability for the future.
-  * Education as the driving force for change: Driving necessary changes to bring our results, innovations, and advancements into daily practice. Sharing insights with others and collaborating with various knowledge institutes in the region. Education is a domain interwoven with the other domains.
+ 1. **Monitoring, Technology, and Personalized Care**
+ 	* **Developing and implementing technology** for continuous monitoring of vital functions and physiological processes to maintain accessible and high-quality care.
+	* **Enhancing decision-making** through the use of data to remotely monitor and treat patients’ (vital) functions, enabling personalized care choices both in and out of the hospital, and developing new care pathways, prevention interventions, (AI) algorithms, smart applications, and individual alerts in collaboration with other research groups and public-private partnerships.
+	* **Continuously integrating knowledge** from these projects into our decision models and care processes.
+	* **Building transmural networks** and investigating how to establish effective care chains for the right care in the right place, from prevention to aftercare or palliative care.
+ 2. **(Perioperative) Organ Damage, Inflammation, and Recovery**
+	* **From molecule/cell to society**: Conducting research to gain new knowledge on the personalized (patho)physiology of organ damage and recovery at the molecular/cellular, organ, and system levels—both experimental, translational, and clinical. Contributing to damage limitation, optimal patient recovery, and improved quality of life.
+	* Investigating both **short- and long-term outcome** parameters and understanding what matters to individual patients.
+	* Optimizing (post-intervention) pain management to **prevent the development of or progression to chronic pain** and the associated loss of function and quality of life.
+ 3. **(Perioperative) (Pharmacological) Therapeutic Interventions**
+	* Developing new forms of **(personalized) interventions**, both in and outside the hospital, that enhance perioperative/peri-intervention health. Central to this is the consideration of whether interventions are delivered at home, near the patient, or in the hospital.
+	* Investigating which interventions do not contribute to improved perioperative/peri-interventional health and **de-implementing** them.
+	* Pharmacological optimization: Studying the pharmacology of existing and new drugs necessary to restore and maintain the patient’s homeostasis during the perioperative process. This involves applying pharmacometric principles, **artificial intelligence**, and **advanced drug delivery technology** to achieve a personalized pharmacological therapeutic strategy.
+ 4. **Innovation in Education**
+	* **Passion and talent in transition**: Researching the dynamics of transitions and social capital as well as mechanisms to nurture passion, talent, and professional identity development. Integrating these insights into our educational programs to foster a supportive and sustainable learning environment.
+	* **Curiosity**: Researching and developing education that stimulates curiosity. This includes creating personalized education in areas such as e-learning, peer-assisted learning, interprofessional education, and incorporating technology and theater into skills education. Aiming for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.
+	* **Stress and well-being**: Investigating the perception, impact, and response to stress, promoting well-being, and building resilience. This includes diagnostic qualitative and quantitative research into areas such as ‘speaking up,’ self-awareness, and the impact of new technologies. The focus extends to organizational and systemic improvement with the goal of ensuring sustainability for the future.
+	* **Education as the driving force for change**: Driving necessary changes to bring our results, innovations, and advancements into daily practice. Sharing insights with others and collaborating with various knowledge institutes in the region. Education is a domain interwoven with the other domains.
 
 These domains are not confined silos but complement and strengthen each other.
 
-![Missions, outlined by the Ministry of Health, Welfare, and Sport]({{ IMGURL }}/images/general/domeinen.png) 
+![Research domains within the Department of Anesthesiology.]({{ IMGURL }}/images/general/domeinen.png) 
 Figure 2. Research domains within the Department of Anesthesiology.
+
+![Missions, outlined by the Ministry of Health, Welfare, and Sport]({{ IMGURL }}/images/general/cirkel.png) 
+Figure 2. Our research agenda is integrated into our care process and education.
+
+**Monitoring, Technology, and Personalized Care** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), data and biomaterial can be collected. This data originates from health apps, wearable sensors, electronic health records, and other platforms. We use this data to develop decision models and (further) advance (monitoring) technology supported by artificial intelligence. We then implement these developments back into the care process in collaboration with the patient and other healthcare providers within the perioperative care network.*
+
+**Perioperative Organ Damage, Inflammation, and Recovery** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we collect biomaterial and data to study personalized underlying (patho)physiological mechanisms of organ damage and recovery. This knowledge flows back into our decision models and therapeutic interventions.*
+
+**(Perioperative) (Pharmacological) Therapeutic Interventions** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we develop and study new forms of (personalized) interventions and pharmacological optimization.*
+
+**Innovation in Education** *We invest in our social capital by researching professional identity development, the perception, impact, and response to stress, promoting well-being, and building resilience. We aim for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.*
+
+# Prerequisites
+To be successful and sustainable, several prerequisites are set concerning staffing, funding, research organization, and job satisfaction.
+
+ 1.	**Staffing**: Each domain has a designated domain lead. The aim is to build a healthy, future-proof academic structure consisting of professors, associate professors, assistant professors, postdocs, and PhD candidates to ensure sufficient impact. Since we do not work in silos, this ambition is collectively managed, and staffing is flexibly deployable.
+ 2.	**Funding**: Funding is essential for research. Each domain will seek appropriate external funding to remain viable. For social innovation, programs such as the IZA (Integrated Care Agreement) and TAZ (Future-Proof Labor Market in Healthcare and Welfare) offer opportunities. Organizations like InvestNL also provide options. These projects are mission-driven, working toward a pre-defined vision for the future. Subsidy bodies such as NWO, NWA, ZonMw, Interreg-EU, SNN, and Top Sectors will also be utilized. Efforts will focus on forming and maintaining consortia to enhance the department’s visibility and increase success in securing research funding.
+ 3.	**Organization of Research**: Setting up and conducting research requires time and money, both of which are limited. Therefore, a business-like perspective is essential. In addition to centrally organized research support, we aim for project-based embedding of necessary research support within our research office, ensuring projects are financially viable. The research office will further professionalize and align with the API cluster. Since research is a fundamental task of our academic department, all staff members can be involved in research. The deployment of the research office aligns with the entire research group, with priority given to funded studies with execution obligations.
+ 4.	**Job Satisfaction**: Collaboration is essential to enhance the impact of research. By working together, we can not only achieve more success in designing and conducting research but also help each other and individuals excel. Trust is crucial for successful collaboration. By celebrating each other’s successes, we can achieve more together. The following principles guide us:
+	* We talk with each other, not about each other.
+	* We are transparent about our projects so that it is clear who is working on what.
+	* There is formal and informal space for connection and brainstorming.
+	* We are open about ambitions and (career) opportunities.
+	* We actively promote (talent) development. Experienced researchers mentor younger researchers.
+	* We help each other, leveraging our specific knowledge/expertise for tasks such as writing grant applications or statistical analysis.
+	* We care about each other’s well-being and employability.
+	* We inspire, inform, and involve the entire department regarding our research projects.
+	* We actively collaborate with partners within and outside the UMCG and introduce each other to valuable contacts in our personal networks.
