@@ -1,4 +1,4 @@
-title: New website for the deparment launched!
+title: New website for the department launched!
 date: 2024-12-01
 description: On December 1, 2024, the new website for the department of Anesthesiology was launched.
 picture: news/champagne.jpg
