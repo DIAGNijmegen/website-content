@@ -15,10 +15,10 @@ SITE_GROUP = "anes"
 
 # Home page and social settings
 SITETITLE = "Anesthesiology"
-SITELEAD = 'Overview of all science and innovation projects at our department of Anesthesiology.'
+SITELEAD = 'Overview of all current and past science and innovation projects at our department of Anesthesiology.'
 SITE_PICTURE = 'images/social/missing_picture_social.png'
-HOME_IMAGE = 'images/general/home-page-cara.png'
-HOME_IMAGE_CAPTION = 'CARA Lab'
+HOME_IMAGE = 'images/general/UMCG.jpg'
+HOME_IMAGE_CAPTION = ''
 NUM_NEWS_HOME_PAGE = 4
 TWITTER_URL = None
 FOOTER_TEXT = ''
@@ -27,7 +27,7 @@ PARENT_DOMAIN = '<a href="https://www.umcg.nl/">Sector ... (niet werkzame link)<
 THIRD_DOMAIN = ''
 CSS_THEME = "anes-theme"
 FOOTER_IMAGE = 'umcg.png'
-HOME_JUMBOTRON_LAYOUT = "dense"
+HOME_JUMBOTRON_LAYOUT = "neural-bg"
 
 # What sections to show in the nav bar
 NAV_SECTIONS = [
