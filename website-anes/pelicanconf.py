@@ -26,7 +26,7 @@ TOP_DOMAIN = '<a href="https://www.umcg.nl">UMCG</a>'
 PARENT_DOMAIN = '<a href="https://www.umcg.nl/">Sector ... (niet werkzame link)</a>'
 THIRD_DOMAIN = ''
 CSS_THEME = "anes-theme"
-FOOTER_IMAGE = 'cara_logo_new.png'
+FOOTER_IMAGE = 'umcg.png'
 HOME_JUMBOTRON_LAYOUT = "dense"
 
 # What sections to show in the nav bar
