@@ -140,7 +140,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ba1f28;
+  color: #003183;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -1443,8 +1443,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ba1f28;
-  border-color: #ba1f28; }
+  background-color: #003183;
+  border-color: #003183; }
   .btn-primary:hover {
     color: #fff;
     background-color: #991a21;
@@ -1456,8 +1456,8 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(196, 65, 72, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #ba1f28;
-    border-color: #ba1f28; }
+    background-color: #003183;
+    border-color: #003183; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -1650,22 +1650,22 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
 
 .btn-outline-primary {
-  color: #ba1f28;
-  border-color: #ba1f28; }
+  color: #003183;
+  border-color: #003183; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #ba1f28;
-    border-color: #ba1f28; }
+    background-color: #003183;
+    border-color: #003183; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(186, 31, 40, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #ba1f28;
+    color: #003183;
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #ba1f28;
-    border-color: #ba1f28; }
+    background-color: #003183;
+    border-color: #003183; }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(186, 31, 40, 0.5); }
@@ -1819,7 +1819,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ba1f28;
+  color: #003183;
   text-decoration: none; }
   .btn-link:hover {
     color: #78141a;
@@ -2007,7 +2007,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ba1f28; }
+  background-color: #003183; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -2489,7 +2489,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #ba1f28;
+  color: #003183;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
@@ -2515,8 +2515,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #ba1f28;
-  border-color: #ba1f28; }
+  background-color: #003183;
+  border-color: #003183; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -2581,7 +2581,7 @@ input[type="button"].btn-block {
 
 .badge-primary {
   color: #fff;
-  background-color: #ba1f28; }
+  background-color: #003183; }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #fff;
     background-color: #8e181f; }
@@ -2806,8 +2806,8 @@ input[type="button"].btn-block {
   .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #ba1f28;
-    border-color: #ba1f28; }
+    background-color: #003183;
+    border-color: #003183; }
   .list-group-item + .list-group-item {
     border-top-width: 0; }
     .list-group-item + .list-group-item.active {
@@ -3017,7 +3017,7 @@ input[type="button"].btn-block {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #ba1f28 !important; }
+  background-color: #003183 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -3117,7 +3117,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #ba1f28 !important; }
+  border-color: #003183 !important; }
 
 .border-secondary {
   border-color: #6c757d !important; }
@@ -5353,7 +5353,7 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #ba1f28 !important; }
+  color: #003183 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #78141a !important; }
@@ -5528,7 +5528,7 @@ main {
     text-align: center;
     margin-top: -1px;
     padding: 1em 1em 1.5em 1em;
-    background-color: #ba1f28;
+    background-color: #003183;
     color: #fff; }
     .footer .footer-ribbon h3 {
       color: #fff;
@@ -5557,9 +5557,9 @@ Sets basic styles required for the navbar
 
 /* Main navbar */
 .navbar.navbar-expand-md {
-  border-bottom: 1px solid #ba1f28; }
+  border-bottom: 1px solid #003183; }
   .navbar.navbar-expand-md .navbar-brand {
-    color: #ba1f28; }
+    color: #003183; }
     .navbar.navbar-expand-md .navbar-brand .external-links {
       display: none;
       color: #6c757d;
@@ -5591,9 +5591,9 @@ Sets basic styles required for the navbar
         padding-left: 0.7rem;
         padding-right: 0.7rem; } }
     .navbar.navbar-expand-md .nav-link:hover {
-      color: #ba1f28; }
+      color: #003183; }
       .navbar.navbar-expand-md .nav-link:hover .nav-icon {
-        color: #ba1f28; }
+        color: #003183; }
       @media (min-width: 992px) {
         .navbar.navbar-expand-md .nav-link:hover .nav-icon-text.nav-icon-text-hidden.w-95 {
           width: 95px; }
@@ -5645,7 +5645,7 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ba1f28;
+  color: #003183;
   font-weight: 500; }
 
 h1 {
@@ -5749,7 +5749,7 @@ Styles of the home page.
   margin-top: -3px;
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #ba1f28;
+  background-color: #003183;
   color: #fff;
   padding-bottom: 34px;
   /* Default padding, substracted with size of figcaption */ }
@@ -5849,7 +5849,7 @@ Styles for all the elements related to group members.
   text-align: center; }
 
 .people-grid .person-name {
-  color: #ba1f28;
+  color: #003183;
   font-weight: 400;
   padding-top: 0.65em;
   margin-bottom: 0px; }
