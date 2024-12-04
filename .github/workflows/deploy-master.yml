@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: website-ai-for-health
+          - name: website-anes
             site-id: NETLIFY_SITEID_ANES
             
     steps:
