@@ -1,6 +1,9 @@
 title: Research agenda of the Department of Anesthesiology
 
 # Context
+
+* * *
+
 ## Community
 Healthcare and society face several major challenges in the coming decades. This year, more than a quarter of the total government expenditure will go to healthcare. The Scientific Council for Government Policy has calculated that if we do not act now, healthcare costs will triple between now and 2060, which is, of course, completely unaffordable. Secondly, there is a double challenge due to the increasing aging population on one hand and staff shortages on the other. We are living with more elderly people compared to the working population, often with chronic illnesses or multiple conditions. Currently, 1 in 6 people in the Netherlands works in healthcare, and this will rise to 1 in 4 if we do nothing, which is not feasible. Moreover, due to high workloads, administrative burdens, and lack of autonomy, absenteeism is only increasing, and more people are leaving healthcare. Thirdly, there is increasing social inequality and, consequently, health disparities. Recently, it became clear that in the Netherlands, people with lower education and income levels live, on average, 15 years less in good health, influenced by various factors such as living conditions, knowledge, and skills. All this already leads, and will certainly lead further in the future, to an increasingly severe healthcare bottleneck if we do not structurally reorganize or, better said, transform the healthcare system.
 
@@ -20,7 +23,7 @@ Additionally, the Ministry of Health, Welfare, and Sport outlined several missio
 ![Missions, outlined by the Ministry of Health, Welfare, and Sport]({{ IMGURL }}/images/general/missies.png) 
 Figure 1. Missions, outlined by the Ministry of Health, Welfare, and Sport.
 
-## UMCG: Koers25-Koers30
+## UMCG: Koers25 & Koers30
 Within the UMCG, the aforementioned challenges have been among the driving forces behind the development of **Koers25** and soon **Koers30**, with the mission: *Together, we push boundaries for a sustainable future of health*. The UMCG is a high-tech, specialized knowledge institution with deep roots in society and a strong connection to the University of Groningen. It serves as a unique engine of innovation in the fields of prevention, care, research, education, and training. Our work is meaningful to patients, citizens, partners in government and business, health insurers, students, and researchers worldwide. This gives the UMCG a special position and responsibility at the regional, national, and international levels.
 
 The vision of the UMCG is to provide groundbreaking and high-quality complex care for and by people in an integrated healthcare landscape. Moreover, in all our core tasks, we aim to act as an engine of innovation regionally, nationally, and internationally. The three priorities – **Healthy Ageing**, **a people-centered and value-driven approach**, and **data-informed working** – guide our actions in all our core activities. In everything we do, at every level of the organization, we keep these priorities in focus. We achieve this through five pillars:
@@ -38,8 +41,12 @@ Anesthesiology is characterized by interprofessional and interdisciplinary colla
 
 The Department of Anesthesiology contributes to the ambitions of Koers25/Koers30 and the needs of society, both now and in the future, through research and innovation.
 
+* * *
+
 # Mission
 Improving perioperative health and pain care through **insight**, **innovation**, and **connection**.
+
+* * *
 
 # Vision
  - We are a (inter)nationally leading research group focused on **restoring, preserving, and improving homeostasis** in our patients, aiming to prevent/reduce tissue and organ damage that leads to diminished postoperative and post-intervention quality of life and function.
@@ -84,16 +91,18 @@ These domains are not confined silos but complement and strengthen each other.
 ![Research domains within the Department of Anesthesiology.]({{ IMGURL }}/images/general/domeinen.png) 
 Figure 2. Research domains within the Department of Anesthesiology.
 
-![Missions, outlined by the Ministry of Health, Welfare, and Sport]({{ IMGURL }}/images/general/cirkel.png) 
+![Our research agenda is integrated into our care process and education.]({{ IMGURL }}/images/general/cirkel.png) 
 Figure 2. Our research agenda is integrated into our care process and education.
 
-**Monitoring, Technology, and Personalized Care** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), data and biomaterial can be collected. This data originates from health apps, wearable sensors, electronic health records, and other platforms. We use this data to develop decision models and (further) advance (monitoring) technology supported by artificial intelligence. We then implement these developments back into the care process in collaboration with the patient and other healthcare providers within the perioperative care network.*
+***Monitoring, Technology, and Personalized Care*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), data and biomaterial can be collected. This data originates from health apps, wearable sensors, electronic health records, and other platforms. We use this data to develop decision models and (further) advance (monitoring) technology supported by artificial intelligence. We then implement these developments back into the care process in collaboration with the patient and other healthcare providers within the perioperative care network.*
 
-**Perioperative Organ Damage, Inflammation, and Recovery** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we collect biomaterial and data to study personalized underlying (patho)physiological mechanisms of organ damage and recovery. This knowledge flows back into our decision models and therapeutic interventions.*
+***Perioperative Organ Damage, Inflammation, and Recovery*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we collect biomaterial and data to study personalized underlying (patho)physiological mechanisms of organ damage and recovery. This knowledge flows back into our decision models and therapeutic interventions.*
 
-**(Perioperative) (Pharmacological) Therapeutic Interventions** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we develop and study new forms of (personalized) interventions and pharmacological optimization.*
+***(Perioperative) (Pharmacological) Therapeutic Interventions*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we develop and study new forms of (personalized) interventions and pharmacological optimization.*
 
-**Innovation in Education** *We invest in our social capital by researching professional identity development, the perception, impact, and response to stress, promoting well-being, and building resilience. We aim for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.*
+***Innovation in Education*** *We invest in our social capital by researching professional identity development, the perception, impact, and response to stress, promoting well-being, and building resilience. We aim for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.*
+
+* * *
 
 # Prerequisites
 To be successful and sustainable, several prerequisites are set concerning staffing, funding, research organization, and job satisfaction.
