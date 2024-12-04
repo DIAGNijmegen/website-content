@@ -8,7 +8,7 @@ from datetime import date
 # Please update these to customize the website.
 
 AUTHOR = "Rob Tolboom"
-SITENAME = "Department of Anesthesiology"
+SITENAME = "UMCG, Department of Anesthesiology"
 SITENAME_SHORT = "ANES"
 SITE_REPO = "website-anes"
 SITE_GROUP = "anes"
