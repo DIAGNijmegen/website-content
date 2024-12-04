@@ -95,13 +95,13 @@ Figure 2. Research domains within the Department of Anesthesiology.
 ![Our research agenda is integrated into our care process and education.]({{ IMGURL }}/images/general/cirkel.png) 
 Figure 3. Our research agenda is integrated into our care process and education.
 
-***Monitoring, Technology, and Personalized Care*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), data and biomaterial can be collected. This data originates from health apps, wearable sensors, electronic health records, and other platforms. We use this data to develop decision models and (further) advance (monitoring) technology supported by artificial intelligence. We then implement these developments back into the care process in collaboration with the patient and other healthcare providers within the perioperative care network.*
+***Monitoring, Technology, and Personalized Care***: *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), data and biomaterial can be collected. This data originates from health apps, wearable sensors, electronic health records, and other platforms. We use this data to develop decision models and (further) advance (monitoring) technology supported by artificial intelligence. We then implement these developments back into the care process in collaboration with the patient and other healthcare providers within the perioperative care network.*
 
-***Perioperative Organ Damage, Inflammation, and Recovery*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we collect biomaterial and data to study personalized underlying (patho)physiological mechanisms of organ damage and recovery. This knowledge flows back into our decision models and therapeutic interventions.*
+***Perioperative Organ Damage, Inflammation, and Recovery***: *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we collect biomaterial and data to study personalized underlying (patho)physiological mechanisms of organ damage and recovery. This knowledge flows back into our decision models and therapeutic interventions.*
 
-***(Perioperative) (Pharmacological) Therapeutic Interventions*** *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we develop and study new forms of (personalized) interventions and pharmacological optimization.*
+***(Perioperative) (Pharmacological) Therapeutic Interventions***: *During the various phases of the patient journey (pre-hospital, outpatient clinic, surgery, postoperative, long-term), we develop and study new forms of (personalized) interventions and pharmacological optimization.*
 
-***Innovation in Education*** *We invest in our social capital by researching professional identity development, the perception, impact, and response to stress, promoting well-being, and building resilience. We aim for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.*
+***Innovation in Education***: *We invest in our social capital by researching professional identity development, the perception, impact, and response to stress, promoting well-being, and building resilience. We aim for a facilitative, inclusive, and connective education system for a future-proof professional in a changing healthcare landscape.*
 
 * * *
 
