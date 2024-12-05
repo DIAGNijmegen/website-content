@@ -3,6 +3,7 @@ groups: anes
 closed: false
 type: student
 picture: vacancies/msc_nash.jpg
+category: vacancies
 template: vacancy-single
 people: Rob Tolboom
 description: Develop a method to quantify non-alcoholic steatohepatitis in histopathology images
