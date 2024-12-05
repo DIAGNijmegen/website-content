@@ -87,7 +87,7 @@ NAV_SECTIONS = [
     },
 ]
 
-HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies",}
+HOME_SECTIONS = {"News": "News", "Vacancies": "Vacancies", "Projects": "Projects",}
 
 # Whether to show breadcrumbs on the page
 ENABLE_BREADCRUMBS = True
