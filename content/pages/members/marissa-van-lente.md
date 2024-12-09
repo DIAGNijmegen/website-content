@@ -1,7 +1,7 @@
 title: Marissa van Lente
 name: Marissa van Lente
 template: people-single 
-picture: people/Marissa_van_Lente.JPG
+picture: people/Marissa_van_Lente_v2.JPG
 position: PhD Candidate 
 active: yes 
 groups: diag
