@@ -15,9 +15,9 @@ In this project, we will investigate the molecular profile of SRCC using histopa
 
 ## Data 
 We will use 40 SRCC from the colon and 40 SRCC from the stomach, selected from the pathology archive of the Radboudumc. From the tumor tissue we will use:
-* Digital pathology whole-slide images (WSI) and tissue microarray (TMA) cores stained with hematoxylin and eosin (H&E)
-* TSO500 mutational analysis
-* NanoString GeoMx spatial transcriptomics of tumor and stroma
+- Digital pathology whole-slide images (WSI) and tissue microarray (TMA) cores stained with hematoxylin and eosin (H&E)
+- TSO500 mutational analysis
+- [NanoString GeoMx spatial transcriptomics](https://nanostring.com/research-focus/spatial-transcriptomics/) of tumor and stroma
 
 
 ## References
