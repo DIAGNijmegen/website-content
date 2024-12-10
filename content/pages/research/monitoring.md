@@ -1,9 +1,9 @@
-title: Breast image analysis
+title: Monitoring, technology and personalised care
 finished: false
 type: general
 template: project-single
 groups: anes
-picture: projects/mammo.jpg
+picture: research/monitoring.jpg
 bibkeys: Mori20, Ayat20, Sech20
 people: Rob Tolboom
 description: With deep learning, we analyze, improve the image quality, and improve the diagnostic process of mammography, breast tomosynthesis and breast MRI. 
