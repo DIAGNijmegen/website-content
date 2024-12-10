@@ -9,6 +9,8 @@ people: Rob Tolboom
 description: Developing and implementing technology for continuous monitoring of vital functions to enable personalised care.
 projects: 
 
+![Monitoring, technology and personalised care.]({{ IMGURL }}/images/research/monitoring.jpg) 
+
 In an era of rapidly evolving healthcare challenges, this research domain focuses on revolutionizing patient care through cutting-edge technological innovations and personalized monitoring approaches. We are committed to transforming how healthcare is delivered by leveraging advanced technologies that enable continuous, precise, and adaptive patient care.
 
 ## Technological Monitoring for High-Quality Care
