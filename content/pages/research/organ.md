@@ -9,6 +9,9 @@ people: Rob Tolboom
 description: Controlling inflammation and reducing organ damage to enhance patient recovery.
 projects: 
 
+![Perioperative organ damage, inflammation and recovery.]({{ IMGURL }}/images/research/organ-damage.jpg) 
+
+
 In the complex landscape of surgical interventions and medical treatments, this research domain is dedicated to understanding and mitigating the intricate processes of organ damage, inflammation, and recovery. We take a holistic approach that spans from the most fundamental molecular level to the broader societal implications of patient health.
 
 ## A Comprehensive Approach to Understanding Organ Damage
