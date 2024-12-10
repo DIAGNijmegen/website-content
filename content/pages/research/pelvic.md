@@ -1,7 +1,7 @@
 title: Pelvic Image Analysis
 picture: projects/pelvic.jpg
 template: research-single
-groups: diag, anes
+groups: diag
 description: Pelvic image analysis explores the use of imaging AI to support and improve diagnosis and intervention
 projects: ai4adhesion, ai4imageguidedintervention, prostateradiology, procancer, healthyai, pancaim
 people: Henkjan Huisman, Matin Hosseinzadeh, Patrick Brand, Bram de Wilde, Anindo Saha, Joeran Bosma, Romain Andre, Vilma Bozgo
