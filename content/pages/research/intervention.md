@@ -9,8 +9,6 @@ people: Rob Tolboom
 description: Novel therapeutic (pharmacological) interventions for personalised anesthesia
 projects: healthyai
 
-# (Perioperative) (Pharmacological) Therapeutic Interventions
-
 In the dynamic world of medical care, this research domain is revolutionizing how we approach therapeutic interventions, with a laser focus on personalization, optimization, and patient-centered care. We are reimagining medical treatments to ensure they are not just effective, but precisely tailored to individual patient needs.
 
 ## Personalized Interventions Beyond Hospital Walls

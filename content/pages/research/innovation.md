@@ -9,8 +9,6 @@ people: Rob Tolboom
 description: Shaping the medical professionals of the future
 projects: healthyai
 
-# Innovation in Education
-
 In the rapidly evolving landscape of healthcare, education is not just about transferring knowledge—it's about transforming professionals, nurturing potential, and driving systemic change. Our research domain of Innovation in Education is committed to reimagining how healthcare professionals are developed, supported, and empowered.
 
 ## Passion and Talent: Navigating Professional Transitions

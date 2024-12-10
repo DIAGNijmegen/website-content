@@ -1,4 +1,4 @@
-title: (Perioperative) organ damage, inflammation and recovery
+title: Perioperative organ damage, inflammation and recovery
 finished: false
 type: general
 template: project-single
@@ -8,8 +8,6 @@ bibkeys: Mori20, Ayat20, Sech20
 people: Rob Tolboom
 description: Controlling inflammation and reducing organ damage to enhance patient recovery
 projects: healthyai
-
-# (Perioperative) Organ Damage, Inflammation, and Recovery
 
 In the complex landscape of surgical interventions and medical treatments, this research domain is dedicated to understanding and mitigating the intricate processes of organ damage, inflammation, and recovery. We take a holistic approach that spans from the most fundamental molecular level to the broader societal implications of patient health.
 
