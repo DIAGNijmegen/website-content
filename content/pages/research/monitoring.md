@@ -4,7 +4,7 @@ type: general
 template: project-single
 groups: anes
 picture: research/monitoring.jpg
-bibkeys: Mori20, Ayat20, Sech20
+bibkeys: 
 people: Rob Tolboom
 description: Developing and implementing technology for continuous monitoring of vital functions to enable personalised care.
 projects: healthyai

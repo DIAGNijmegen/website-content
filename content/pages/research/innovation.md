@@ -4,9 +4,9 @@ type: general
 template: project-single
 groups: anes
 picture: research/education.jpg
-bibkeys: Mori20, Ayat20, Sech20
+bibkeys: 
 people: Rob Tolboom
-description: Shaping the medical professionals of the future
+description: Shaping the medical professionals of the future.
 projects: healthyai
 
 In the rapidly evolving landscape of healthcare, education is not just about transferring knowledge—it's about transforming professionals, nurturing potential, and driving systemic change. Our research domain of Innovation in Education is committed to reimagining how healthcare professionals are developed, supported, and empowered.
