@@ -7,7 +7,7 @@ picture: research/organ-damage.jpg
 bibkeys: 
 people: Rob Tolboom
 description: Controlling inflammation and reducing organ damage to enhance patient recovery.
-projects: healthyai
+projects: 
 
 In the complex landscape of surgical interventions and medical treatments, this research domain is dedicated to understanding and mitigating the intricate processes of organ damage, inflammation, and recovery. We take a holistic approach that spans from the most fundamental molecular level to the broader societal implications of patient health.
 
