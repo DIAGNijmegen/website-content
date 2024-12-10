@@ -1,7 +1,7 @@
 title: Monitoring, technology and personalised care
 finished: false
 type: general
-template: project-single
+template: research-single
 groups: anes
 picture: research/monitoring.jpg
 bibkeys: 

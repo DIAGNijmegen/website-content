@@ -1,7 +1,7 @@
 title: Perioperative (pharmacological) therapeutic interventions
 finished: false
 type: general
-template: project-single
+template: research-single
 groups: anes
 picture: research/interventions.jpg
 bibkeys: 

@@ -1,7 +1,7 @@
 title: Innovation in Education
 finished: false
 type: general
-template: project-single
+template: research-single
 groups: anes
 picture: research/education.jpg
 bibkeys: 

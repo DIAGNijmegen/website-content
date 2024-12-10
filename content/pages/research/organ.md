@@ -1,7 +1,7 @@
 title: Perioperative organ damage, inflammation and recovery
 finished: false
 type: general
-template: project-single
+template: research-single
 groups: anes
 picture: research/organ-damage.jpg
 bibkeys: 
