@@ -39,6 +39,6 @@ Our approach considers the entire patient journey, breaking down traditional hea
 
 ## Future Vision
 
-The "Monitoring, Technology, and Personalized Care" domain represents our commitment to transforming healthcare through innovation. We envision a future where healthcare is predictive, personalized, and proactive—a future where technology empowers both patients and healthcare providers to achieve optimal health outcomes.
+The "Monitoring, Technology, and Personalized Care" domain represents our commitment to transforming healthcare through innovation. We envision a future where healthcare is predictive, personalized, and proactive — a future where technology empowers both patients and healthcare providers to achieve optimal health outcomes.
 
-By combining advanced technological monitoring, data-driven insights, continuous learning, and comprehensive care networks, we are not just researching the future of healthcare—we are actively creating it.
+By combining advanced technological monitoring, data-driven insights, continuous learning, and comprehensive care networks, we are not just researching the future of healthcare — we are actively creating it.

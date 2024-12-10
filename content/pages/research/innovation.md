@@ -56,7 +56,7 @@ Key focus areas include:
 
 ## Education as a Catalyst for Change
 
-Education is more than knowledge transfer—it's a powerful mechanism for systemic transformation. We are committed to:
+Education is more than knowledge transfer — it's a powerful mechanism for systemic transformation. We are committed to:
 
 - Translating research results into practical educational innovations
 - Bringing cutting-edge advancements directly into daily practice
@@ -74,6 +74,7 @@ We view education not as a standalone domain, but as a fundamental thread weavin
 ## Future Vision
 
 The "Innovation in Education" domain represents our commitment to developing healthcare professionals who are not just technically competent, but:
+
 - Deeply curious
 - Resilient
 - Adaptable

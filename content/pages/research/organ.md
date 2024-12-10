@@ -53,7 +53,7 @@ We recognize that each patient's journey is unique. Our research develops person
 
 ## Future Vision
 
-The "(Perioperative) Organ Damage, Inflammation, and Recovery" domain represents our commitment to understanding the human body's most intricate healing processes. We are not just studying damage and recovery—we are actively developing strategies to minimize harm and maximize patient well-being.
+The "(Perioperative) Organ Damage, Inflammation, and Recovery" domain represents our commitment to understanding the human body's most intricate healing processes. We are not just studying damage and recovery — we are actively developing strategies to minimize harm and maximize patient well-being.
 
 By bridging molecular insights with clinical applications and patient-centered care, we are reshaping our understanding of medical intervention, recovery, and healing.
 

@@ -60,7 +60,7 @@ Our ultimate goal is to create a truly personalized approach to pharmacological 
 
 ## Future Vision
 
-The "(Perioperative) (Pharmacological) Therapeutic Interventions" domain represents our commitment to transforming medical treatments. We are not just developing new drugs or interventions—we are creating a fundamentally new approach to therapeutic care.
+The "(Perioperative) (Pharmacological) Therapeutic Interventions" domain represents our commitment to transforming medical treatments. We are not just developing new drugs or interventions — we are creating a fundamentally new approach to therapeutic care.
 
 By combining personalized interventions, rigorous evaluation, advanced pharmacological research, and cutting-edge technologies, we are building a future of medicine that is more precise, effective, and patient-centered than ever before.
 
