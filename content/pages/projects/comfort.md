@@ -5,8 +5,8 @@ type: general
 picture: projects/comfort.jpg
 template: project-single
 groups: diag
-people: Sarah de Boer, Kiran Vaidhya Venkadesh, Alessa Hering
-description: We aim to improve the efficiency of lung cancer screening by using artificial intelligence. 
+people: Sarah de Boer, Alessa Hering
+description: We aim to improve the efficiency of kidney and prostate cancer screening by using artificial intelligence. 
 
 ## Background
 

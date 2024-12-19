@@ -1,6 +1,6 @@
 title: PhD candidate 'Towards a virtual pathologist via multi-modal foundation models for computational pathology'
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/ammodo-phd.png
 people: Francesco Ciompi, Geert Litjens, Jeroen van der Laak
