@@ -13,12 +13,16 @@ bibkeys: Vita24, Graa24c, Obre24, Graa24b
 Healthcare costs are globally rising. The workload of radiology departments has substantially increased and is still increasing, and, as a result, radiologists are under large pressure and risk of burn-out. The imminent implementation of lung cancer screening and the rapid increase in the availability of novel cancer treatments such as immunotherapy will result in a continued increase of imaging. 
 
 ## Mission and aims
-[MERAI Lab](https://icai.ai/icai-labs/merai/) is a collaboration between Radboudumc and MeVis Medical Solutions with the mission to create world-leading AI-supported software solutions for healthcare.  We aim to create AI solutions in the lung oncology field that will improve the accuracy in the interpretation of the increasing amount of imaging that is performed for screening, optimal treatment selection and treatment monitoring, and reduce the time needed to report these scans. Both combined will improve the cost-effectiveness of our healthcare system. For responsible use of the developed AI algorithms, it is essential that we guarantee robust and trustworthy AI solutions that reach performance close to human experts.
+[MERAI Lab](https://www.icai.ai/labs/merai-lab) is a collaboration between Radboudumc and MeVis Medical Solutions with the mission to create world-leading AI-supported software solutions for healthcare.  We aim to create AI solutions in the lung oncology field that will improve the accuracy in the interpretation of the increasing amount of imaging that is performed for screening, optimal treatment selection and treatment monitoring, and reduce the time needed to report these scans. Both combined will improve the cost-effectiveness of our healthcare system. For responsible use of the developed AI algorithms, it is essential that we guarantee robust and trustworthy AI solutions that reach performance close to human experts.
 
-Please also see the [MERAI Lab website](https://icai.ai/icai-labs/merai/).
+The aims of MERAI Lab are covered in the video below:
+
+[youtube: wmsmLh10MrI]
+
+Please also see the [MERAI Lab website](https://www.icai.ai/labs/merai-lab).
 
 ## Funding
-MERAI Lab is part of the [ROBUST AI programme](https://icai.ai/ltp-robust/) and receives funding from the [Dutch Research Council (NWO)](https://www.nwo.nl/en/), the Dutch Ministry of Economics and Climate and [MeVis Medical Solutions AG](https://www.mevis.de/en/).
+MERAI Lab is part of the ROBUST AI programme, a ten-year [Long Term Program (LTP)](https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant/long-term-programmes-kic-2020-2023) that brings together knowledge institutes, industry, governmental organizations, and societal partners to develop AI-based methods and tools designed to create social impact and promote sustainable growth. MERAI Lab receives funding from the [Dutch Research Council (NWO)](https://www.nwo.nl/en/), the Dutch Ministry of Economics and Climate and [MeVis Medical Solutions AG](https://www.mevis.de/en/).
 
 ## News
 
