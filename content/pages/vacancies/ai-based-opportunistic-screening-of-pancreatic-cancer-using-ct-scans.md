@@ -1,16 +1,17 @@
 MANDATORY
 title: PhD Position: AI-Based Opportunistic Screening of Pancreatic Cancer Using CT Scans
-groups: radiology, etc (determines on which website the vacancy or student project appears)
-closed: false (change to true when vacanct is closed)
-type: student (currently the following types are supported: general, student, student-aihealth)
-picture: vacancies/ai-based-opportunistic-screening-of-pancreatic-cancer-using-ct-scans.jpg (Image is collected from website-content/content/images/. Upload a rectangular image here)
+groups: radiology
+closed: false
+type: student
+picture: vacancies/ai-based-opportunistic-screening-of-pancreatic-cancer-using-ct-scans.jpg
 template: vacancy-single
-people: Natália Alves, Megan Schuurmans.
+people: Natália Alves, Megan Schuurmans
 description: Pancreatic cancer remains the deadliest cancer globally, primarily due to its late diagnosis when curative treatments are no longer feasible. Survival rates are devastatingly low, often less than 5% at five years. This PhD project addresses this critical challenge by developing advanced artificial intelligence (AI) tools to detect pancreatic cancer earlier, significantly improving the chances of timely treatment and increasing survival rates. 
 The focus is on opportunistic screening, which leverages routine CT scans already performed for other medical reasons to identify early signs of pancreatic cancer without requiring additional invasive tests. The candidate will work with an extensive database of over 100,000 CT scans and data from the PANORAMA challenge, which has set the foundation for AI-driven pancreatic cancer detection. 
 The responsibilities will involve developing and validating AI models for early detection and designing real-world solutions tailored to clinical scenarios. Collaboration with clinicians and researchers will be a key aspect of ensuring that the solutions are impactful and clinically relevant. The ideal candidate will have a strong technical background, programming skills in Python, and a keen interest in deep learning, medical imaging, and healthcare.
 This project provides access to state-of-the-art computational resources and a world-class research team. It also offers opportunities to publish in high-impact journals and present findings at leading conferences. This PhD position is a unique chance to tackle a high-impact problem at the intersection of AI and healthcare. Join us in transforming pancreatic cancer detection and giving patients a fighting chance at improved outcomes.
 
+FREE TEXT
 
 ## Clinical Problem
 
@@ -22,7 +23,7 @@ But what if we could detect pancreatic cancer earlier, before symptoms appear? E
 
 This research project will develop advanced AI tools that analyze routine CT scans to identify the earliest signs of pancreatic cancer, even in patients who may not yet show symptoms. By using AI to screen CT scans that are already being taken for other medical reasons, this approach—known as opportunistic screening—has the potential to detect cancer earlier without requiring additional invasive tests.
 
-The candidate will work with an extensive database of over 100,000 CT scans, as well as data from the PANORAMA challenge—the first international grand challenge for pancreatic cancer detection using CT scans—which provided 2,238 cases for training and over 1,000 cases for tuning and testing. Leveraging these resources, you will explore novel AI solutions tailored for opportunistic screening scenarios, pushing the boundaries of AI's capabilities in medical imaging.
+The candidate will work with an extensive database of over 100,000 CT scans, as well as data from [the PANORAMA challenge](https://panorama.grand-challenge.org/)—the first international grand challenge for pancreatic cancer detection using CT scans—which provided 2,238 cases for training and over 1,000 cases for tuning and testing. Leveraging these resources, you will explore novel AI solutions tailored for opportunistic screening scenarios, pushing the boundaries of AI's capabilities in medical imaging.
 
 ## Tasks
 
@@ -55,4 +56,4 @@ Interested candidates are invited to submit:
 2. **Curriculum Vitae (CV)**: Detail your academic background, research experience, and technical skills.
 3. **References**: Provide contact information for academic or professional references.
 
-For more information, contact (Natalia Alves)[natalia.alves@radboudumc.nl] or (Megan Schuurmans)[megan.schuurmans@radboudumc.nl].
+For more information, contact [Natalia Alves](mailto:natalia.alves@radboudumc.nl) or [Megan Schuurmans](mailto:megan.schuurmans@radboudumc.nl).
