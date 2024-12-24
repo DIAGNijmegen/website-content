@@ -1,7 +1,7 @@
 title: PhD Position: AI-Based Opportunistic Screening of Pancreatic Cancer Using CT Scans
 groups: diag
 closed: false
-type: student
+type: general
 picture: vacancies/ai-based-opportunistic-screening-of-pancreatic-cancer-using-ct-scans.jpg
 template: vacancy-single
 people: Natália Alves, Megan Schuurmans
