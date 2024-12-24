@@ -1,4 +1,3 @@
-MANDATORY
 title: PhD Position: AI-Based Opportunistic Screening of Pancreatic Cancer Using CT Scans
 groups: radiology
 closed: false
@@ -11,7 +10,6 @@ The focus is on opportunistic screening, which leverages routine CT scans alread
 The responsibilities will involve developing and validating AI models for early detection and designing real-world solutions tailored to clinical scenarios. Collaboration with clinicians and researchers will be a key aspect of ensuring that the solutions are impactful and clinically relevant. The ideal candidate will have a strong technical background, programming skills in Python, and a keen interest in deep learning, medical imaging, and healthcare.
 This project provides access to state-of-the-art computational resources and a world-class research team. It also offers opportunities to publish in high-impact journals and present findings at leading conferences. This PhD position is a unique chance to tackle a high-impact problem at the intersection of AI and healthcare. Join us in transforming pancreatic cancer detection and giving patients a fighting chance at improved outcomes.
 
-FREE TEXT
 
 ## Clinical Problem
 
