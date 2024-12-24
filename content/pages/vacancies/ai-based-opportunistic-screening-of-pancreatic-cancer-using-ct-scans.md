@@ -1,14 +1,11 @@
 title: PhD Position: AI-Based Opportunistic Screening of Pancreatic Cancer Using CT Scans
-groups: radiology
+groups: diag
 closed: false
 type: student
 picture: vacancies/ai-based-opportunistic-screening-of-pancreatic-cancer-using-ct-scans.jpg
 template: vacancy-single
 people: Natália Alves, Megan Schuurmans
-description: Pancreatic cancer remains the deadliest cancer globally, primarily due to its late diagnosis when curative treatments are no longer feasible. Survival rates are devastatingly low, often less than 5% at five years. This PhD project addresses this critical challenge by developing advanced artificial intelligence (AI) tools to detect pancreatic cancer earlier, significantly improving the chances of timely treatment and increasing survival rates. 
-The focus is on opportunistic screening, which leverages routine CT scans already performed for other medical reasons to identify early signs of pancreatic cancer without requiring additional invasive tests. The candidate will work with an extensive database of over 100,000 CT scans and data from the PANORAMA challenge, which has set the foundation for AI-driven pancreatic cancer detection. 
-The responsibilities will involve developing and validating AI models for early detection and designing real-world solutions tailored to clinical scenarios. Collaboration with clinicians and researchers will be a key aspect of ensuring that the solutions are impactful and clinically relevant. The ideal candidate will have a strong technical background, programming skills in Python, and a keen interest in deep learning, medical imaging, and healthcare.
-This project provides access to state-of-the-art computational resources and a world-class research team. It also offers opportunities to publish in high-impact journals and present findings at leading conferences. This PhD position is a unique chance to tackle a high-impact problem at the intersection of AI and healthcare. Join us in transforming pancreatic cancer detection and giving patients a fighting chance at improved outcomes.
+description: Development and validation of AI models for pancreatic cancer
 
 
 ## Clinical Problem
