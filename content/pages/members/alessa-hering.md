@@ -7,7 +7,7 @@ active: yes
 groups: diag
 default_group: diag
 email: alessa.hering@radboudumc.nl
-office: 
+office: Route 767, Room 31
 linkedin: https://www.linkedin.com/in/alessa-hering-930557197/
 scholar: https://scholar.google.com/citations?user=xFdAEu4AAAAJ
 type: faculty
