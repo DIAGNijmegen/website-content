@@ -19,13 +19,13 @@ We will train the AI model using images acquired using a smartphone camera attac
 We will use >1,000 cytology samples collected in the navigation bronchoscopy registry from the archive of Radboud University Medical Center, for which the final diagnosis is known. We will digitize each case using the selected adapter and a smartphone and use images for training and validation of the AI developed in this project.
 
 ## References
-[1] https://www.sciencedirect.com/science/article/pii/S2213294521000521
-[2] https://pmc.ncbi.nlm.nih.gov/articles/PMC5846691/
-[3] https://www.nature.com/articles/s41746-024-01159-9
-[4] https://www.nature.com/articles/s41467-023-38104-5
-[5] https://www.medrxiv.org/content/10.1101/2024.09.19.24313954v1.full.pdf
-[6] https://link.springer.com/article/10.1007/s00216-023-04978-z
-[7] https://skopedmicro.com
+* [1] https://www.sciencedirect.com/science/article/pii/S2213294521000521
+* [2] https://pmc.ncbi.nlm.nih.gov/articles/PMC5846691/
+* [3] https://www.nature.com/articles/s41746-024-01159-9
+* [4] https://www.nature.com/articles/s41467-023-38104-5
+* [5] https://www.medrxiv.org/content/10.1101/2024.09.19.24313954v1.full.pdf
+* [6] https://link.springer.com/article/10.1007/s00216-023-04978-z
+* [7] https://skopedmicro.com
 
 ## Requirements 
 Students with a major in computer science, biomedical engineering, artificial intelligence, or a related area in the final stage of master level studies are invited to apply. Knowledge of the Python programming language is needed. Experience with development in iOS (Swift) or Android is a plus.
