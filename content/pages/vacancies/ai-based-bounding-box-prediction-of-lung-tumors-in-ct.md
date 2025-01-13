@@ -1,6 +1,6 @@
 title: AI-Based Bounding Box Prediction of Lung Tumors in CT imaging
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/ai-lung-tumor-detection.png
 template: vacancy-single
