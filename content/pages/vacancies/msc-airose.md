@@ -1,4 +1,4 @@
-title: AiROSE: Artificial Intelligence for Rapid On-Site Evaluation of cytology during navigation bronchoscopy for lung cancer suspicion
+title: AiROSE: Artificial Intelligence for Rapid On-Site Evaluation during navigation bronchoscopy
 groups: diag, pathology
 closed: false
 type: student 
@@ -15,10 +15,8 @@ While being an essential part of the lung cancer diagnostic chain, ROSE has seve
 In this project, we address all these problems by developing an efficient AI model to detect and diagnose lung cancer by processing digital cytology images acquired during ROSE. For this, we will rely on a smartphone, a technology that is increasingly being used for research and development in medicine [3-6], connect to an analog microscope via an adapter, and use it to acquire high-quality images of cytology ROSE samples.
 We will train the AI model using images acquired using a smartphone camera attached to a microscope, a low-cost and easily adoptable approach to a) enable digital cytology for everyone, and b) allow data collection from multiple centers. We will first test different commercially available smartphone adapters [7] for microscopes and then select the most suitable one to acquire data for this project. We will train models using weakly supervised learning approaches, using slide-level labels obtained via cytological analysis, with particular focus on lightweight yet effective models that can run on a mobile (or cloud-based) platform. 
 
-
 ## Data 
-We will use >1,000 cytology samples collected in the navigation bronchoscopy registry  from the archive of Radboud University Medical Center, for which the final diagnosis is known. We will digitize each case using the selected adapter and a smartphone and use images for training and validation of the AI developed in this project.
-
+We will use >1,000 cytology samples collected in the navigation bronchoscopy registry from the archive of Radboud University Medical Center, for which the final diagnosis is known. We will digitize each case using the selected adapter and a smartphone and use images for training and validation of the AI developed in this project.
 
 ## References
 [1] https://www.sciencedirect.com/science/article/pii/S2213294521000521
@@ -28,7 +26,6 @@ We will use >1,000 cytology samples collected in the navigation bronchoscopy reg
 [5] https://www.medrxiv.org/content/10.1101/2024.09.19.24313954v1.full.pdf
 [6] https://link.springer.com/article/10.1007/s00216-023-04978-z
 [7] https://skopedmicro.com
-
 
 ## Requirements 
 Students with a major in computer science, biomedical engineering, artificial intelligence, or a related area in the final stage of master level studies are invited to apply. Knowledge of the Python programming language is needed. Experience with development in iOS (Swift) or Android is a plus.
