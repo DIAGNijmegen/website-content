@@ -5,7 +5,7 @@ type: general
 picture: projects/cxr.jpg
 template: project-single
 groups: diag
-people: Bram van Ginneken, Keelin Murphy, Ecem Sogancioglu
+people: Bram van Ginneken, Keelin Murphy
 description: Chest radiography is ubiquitous in radiology. We develop tools to interpret these exams automatically.
 bibkeys: Murp20a, Habi20, Maho20, Murp20, Ginn18, Phil19a, Mele18, Koes18, Mele17, Mele16a, Stei15, Phil15b, Muyo14, Madu13c, Breu14, Hoge17, Mele16, Madu16, Phil15, Hoge15, Mele14a, Madu14, Hoge13, Hoge13, Hoge12, Hoge10a, Arzh09, Arzh07, Ginn06b, Ginn02a, Phil19, Madu15a, Mele15, Hoge13b, Ginn01a
 
