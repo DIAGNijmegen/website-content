@@ -1,6 +1,6 @@
 title: PhD Position: AI-Based Opportunistic Screening of Pancreatic Cancer Using CT Scans
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/ai-based-opportunistic-screening-of-pancreatic-cancer-using-ct-scans.jpg
 template: vacancy-single
