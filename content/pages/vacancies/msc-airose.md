@@ -1,11 +1,11 @@
-title: AiROSE: Artificial Intelligence for Rapid On-Site Evaluation during navigation bronchoscopy
+title: Automation of cytology-to-diagnosis using a smartphone
 groups: diag, pathology
 closed: false
 type: student 
 picture: vacancies/msc-airose.png
 template: vacancy-single
 people: Francesco Ciompi, Siem de Jong, Roel Verhoeven, Erik van der Heijden
-description: Efficient artificial intelligence to automate cytology-to-diagnosis using a smartphone
+description: Efficient artificial intelligence for rapid on-site evaluation during navigation bronchoscopy 
 
 ## Background
 Every day, lung cancer is diagnosed on the base of lung biopsies, tiny samples of lung tissue that needs to be examined under the microscope. In most cases, lung biopsies are acquired in the operating room (OR) via a navigational bronchoscopy and endobronchial ultrasound (EBUS) procedure. The biopsied tissue is then inspected onsite via cytology, a procedure consisting of smearing the sample on a glass slide during the procedure, staining it with chemical components to make cells visible, and inspecting it under the microscope, commonly placed in or next to the OR. Such a procedure is called Rapid On-Site Evaluation (ROSE), and it usually takes 1-2 minutes from sample smearing to final diagnosis.
