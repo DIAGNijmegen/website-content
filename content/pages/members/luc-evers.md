@@ -3,7 +3,7 @@ name: Luc Evers
 template: people-single
 picture: people/Luc_Evers.jpg
 position: Scientific Researcher
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: luc.evers@radboudumc.nl

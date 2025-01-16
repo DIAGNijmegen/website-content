@@ -3,7 +3,7 @@ name: Debbie de Graaf
 template: people-single 
 picture: people/Debbie_de_Graaf.jpg 
 position: PhD Candidate 
-active: yes 
+active: no 
 groups: diag
 default_group: diag 
 email: Debbie.deGraaf@radboudumc.nl 

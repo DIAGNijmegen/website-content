@@ -3,7 +3,7 @@ name: Erik Post
 template: people-single 
 picture: people/Erik_Post.jpg 
 position: PhD Candidate 
-active: yes 
+active: no 
 groups: diag
 default_group: diag 
 email: Erik.Post@radboudumc.nl 

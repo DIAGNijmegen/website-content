@@ -3,7 +3,7 @@ name: Tahereh Zarrat Ehsan
 template: people-single 
 picture: people/Tahereh_Zarrat_Ehsan.jpg
 position: PhD Candidate 
-active: yes 
+active: no 
 groups: diag
 default_group: diag 
 email: tahereh.zarratehsan@radboudumc.nl

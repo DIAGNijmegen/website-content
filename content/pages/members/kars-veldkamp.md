@@ -3,7 +3,7 @@ name: Kars Veldkamp
 template: people-single 
 picture: people/Kars_Veldkamp.jpg 
 position: PhD Candidate 
-active: yes 
+active: no 
 groups: diag
 default_group: diag 
 email: Kars.Veldkamp@radboudumc.nl 
