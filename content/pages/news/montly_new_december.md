@@ -15,7 +15,8 @@ We’re excited to announce the newest additions to the DIAG family! Let’s giv
 
 ## Awards and grants
 
-- [member/milda-poceviute] has been awarded a KWF grant for AI for vulvar premalignancies, read more about it [here](https://www.diagnijmegen.nl/news/2024_alive_milda/).
+- [member/milda-poceviciute] has been awarded a KWF grant for AI for vulvar premalignancies, read more about it [here](https://www.diagnijmegen.nl/news/2024_alive_milda/).
+
 
 ## Upcoming events
 -	International DIAG DAY February 5th! 
