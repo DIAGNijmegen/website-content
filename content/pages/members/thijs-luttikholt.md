@@ -7,7 +7,7 @@ active: yes
 groups: diag, cara-lab
 default_group: diag 
 email: Thijs.Luttikholt@radboudumc.nl 
-office: Route 612, CARA Lab 
+office: Route 616, CARA Lab 
 type: phd 
 linkedin: https://www.linkedin.com/in/thijs-luttikholt-b768aa20b/
 
