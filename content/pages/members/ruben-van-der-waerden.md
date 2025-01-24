@@ -7,7 +7,7 @@ active: yes
 groups: diag, cara-lab
 default_group: diag 
 email: Ruben.vanderWaerden@radboudumc.nl 
-office: Route 612, CARA Lab 
+office: Route 61'6, CARA Lab 
 type: phd 
 linkedin: https://www.linkedin.com/in/rubenwaerden/
 
