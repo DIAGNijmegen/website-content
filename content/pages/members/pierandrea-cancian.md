@@ -7,7 +7,7 @@ active: yes
 groups: diag, cara-lab
 default_group: diag
 email: p.cancian@amsterdamumc.nl
-office: Route 612, CARA Lab
+office: Route 616, CARA Lab
 scholar: https://scholar.google.it/citations?user=dstG_egAAAAJ&hl=en
 type: phd
 
