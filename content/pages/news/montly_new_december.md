@@ -11,7 +11,7 @@ We’re excited to announce the newest additions to the DIAG family! Let’s giv
 - [member/jan-tagscherer]
 - [member/julian-roddeman]
 - [member/thomas-mulder]
-- [member/floor-van-leeuwen]
+- [member/Floor-van-Leeuwen]
 
 ## Awards and grants
 
@@ -23,5 +23,7 @@ We’re excited to announce the newest additions to the DIAG family! Let’s giv
 ## Highlighted publications
 
 > **“ Machine-learning based prediction of appendicitis for patients presenting with acute abdominal pain at the emergency department”** - A. Schipper, P. Belgers, R. O’Connor, K. Jie, R. Dooijes, J. Bosma, S. Kurstjens, R. Kusters, B. van Ginneken and M. Rutten; World Journal of Emergency Surgery, 2024.
+
 > **“ Deep Learning for Automated Segmentation of Basal Cell Carcinoma on Mohs Micrographic Surgery Frozen Section Slides”** - V. Varra, K. Shahwan, K. Johnson, R. Kirven, T. Walker, D. Geijs, G. Litjens and D. Carr; World Journal of Emergency Surgery, 2024.
+
 > **“ Segmenting the Inferior Alveolar Canal in CBCTs Volumes: the ToothFairy Challenge”** - F. Bolelli, L. Lumetti, S. Vinayahalingam, M. Di Bartolomeo, A. Pellacani and K. Marchesini; IEEE Transactions on Medical Imaging.
