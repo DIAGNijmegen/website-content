@@ -7,7 +7,7 @@ active: yes
 groups: diag, cara-lab
 default_group: diag 
 email: Joske.VanDerZande@Radboudumc.nl 
-office: Route 612, CARA Lab 
+office: Route 616, CARA Lab 
 type: phd 
 scholar: https://scholar.google.com/citations?hl=en&user=Y0OQ2jgAAAAJ
 
