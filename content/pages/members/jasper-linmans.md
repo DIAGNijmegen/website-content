@@ -3,7 +3,7 @@ name: Jasper Linmans
 template: people-single
 picture: people/Jasper_Linmans.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: jasper.linmans@radboudumc.nl
