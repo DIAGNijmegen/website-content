@@ -3,7 +3,7 @@ name: Milda Pocevičiūtė
 template: people-single
 picture: people/Milda_Poceviciute.jpg
 position: Postdoctoral Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 type: postdoc
