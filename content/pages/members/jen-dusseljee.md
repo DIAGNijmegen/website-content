@@ -2,7 +2,7 @@ title: Jen Dusseljee
 name: Jen Dusseljee
 template: people-single
 picture: people/Jen_Dusseljee.jpeg
-position: Master student
+position: Master Student
 active: yes
 groups: diag
 default_group: diag
