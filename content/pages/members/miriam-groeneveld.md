@@ -2,7 +2,7 @@ title: Miriam Groeneveld
 name: Miriam Groeneveld
 template: people-single
 picture: people/Miriam_Groeneveld.jpg
-position: Product Owner grand-challenge.org
+position: Research Software Engineer
 active: yes
 groups: diag, pathology, rse, rtc
 default_group: pathology
