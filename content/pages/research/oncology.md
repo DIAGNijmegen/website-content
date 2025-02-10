@@ -3,7 +3,7 @@ title_long: Oncological reporting of radiology exams
 finished: false
 type: general
 picture: projects/oncology.jpg
-template: project-single
+template: research-single
 groups: diag
 people: Sarah de Boer, Luc Builtjes, Max de Grauw, Hartmut Häntze, Xuan Loc Pham, Lena Philipp, Niels Rocholl, Jan Tagscherer, Rianne Weber, Bram van Ginneken, Mathias Prokop, Alessa Hering
 description: Oncology patients receive many CT scans and reporting those scans is time-consuming and difficult. We develop tools to speed up and improve this process.
