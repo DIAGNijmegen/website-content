@@ -5,7 +5,7 @@ picture: people/Miriam_Groeneveld.jpg
 position: Product Owner
 active: yes
 groups: diag, radiology, rse, rtc
-default_group: pathology
+default_group: rse
 email: Miriam.Groeneveld@radboudumc.nl
 linkedin: https://www.linkedin.com/in/miriam-groeneveld-96664242/
 office: Route 767, Room 25
