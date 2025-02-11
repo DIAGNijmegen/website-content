@@ -2,7 +2,7 @@ title: COMFORT
 title_long: Computational Models FOR patienT stratification in urologic cancers – Creating robust and trustworthy multimodal AI for health care
 finished: false
 type: general
-picture: projects/comfort.jpg
+picture: projects/comfort_logo.jpg
 template: project-single
 groups: diag
 people: Sarah de Boer, Alessa Hering
