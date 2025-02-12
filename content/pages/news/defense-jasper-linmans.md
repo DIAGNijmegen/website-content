@@ -1,4 +1,4 @@
-title: Jasper Linmans successfully defends PhD thesis
+title: Jasper Linmans is awarded his doctoral degree
 date: 2025-01-31
 picture: news/defense-jasper-linmans.jpg
 description: Jasper Linmans successfully defended his PhD thesis on uncertainty estimation in digital pathology.
