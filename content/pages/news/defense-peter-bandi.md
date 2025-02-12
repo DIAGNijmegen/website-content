@@ -1,6 +1,6 @@
 title: Péter Bándi successfully defends PhD thesis
 date: 2024-11-18
-picture: people/Péter_Bándi.jpg 
+picture: news/defense-peter-bandi.jpeg
 description: Péter Bándi successfully defended his PhD thesis on automated analysis of sentinel lymph nodes using AI.
 groups: diag, pathology
 

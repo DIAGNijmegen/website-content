@@ -1,6 +1,6 @@
 title: Meyke Hermsen successfully defends PhD thesis
 date: 2024-11-25
-picture: people/Meyke_Hermsen.jpg
+picture: news/defense-meyke-hermsen.jpeg
 description: Meyke Hermsen successfully defended her PhD thesis on AI-driven computational analysis of kidney transplant tissue.
 groups: diag, pathology
 
