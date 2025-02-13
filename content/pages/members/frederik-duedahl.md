@@ -1,7 +1,7 @@
 title: Frederik Duedahl
 name: Frederik Duedahl
 template: people-single
-picture: people/frederik_duedahl.png
+picture: people/Frederik_Duedahl.jpg
 position: Visiting Researcher
 active: yes
 groups: diag
