@@ -1,14 +1,14 @@
 title: Tijmen de Haas
 name: Tijmen de Haas
 template: people-single
-picture: people/Tijmen_de_Haas.JPG
-position: Master Student
-active: no
+picture: people/tijmen_dehaas.jpg
+position: PhD Candidate
+active: yes
 groups: diag
 default_group: diag
 email: tijmen.dehaas@radboudumc.nl
-office: Route, Room 
-telephone:
-type: student
+office: 
+linkedin: https://www.linkedin.com/in/tijmen-de-haas-84182a208/?originalSubdomain=nl
+type: phd
 
-Tijmen de Haas was a MSc student in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) between In October 2023 and July 2024. Tijmen performed his MSc thesis project in DIAG. During his time at DIAG, he developed an algorithm for lung cancer risk estimation under the guidance of [member/bogdan-obreja] and [member/colin-jacobs]. Tijmen was a master student in the master in Artificial Intelligence: Intelligent Technology at the [Radboud university](https://www.ru.nl/), after having finished his bachelor on the same topic. In his studies he has specialized in AI in healthcare and neurotechnology.
+Tijmen de Haas is a PhD candidate working on artificial intelligence for opportunistic screening of pancreatic cancer in medical images as part of [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). He is supervised by [John Hermans](http://radboudimaging.nl/index.php/Person?name=John_Hermans) and [member/henkjan-huisman]. Tijmen holds a BSc and MSc in Artificial Intelligence from Radboud University Nijmegen, specializing in healthcare and neurotechnology. For his MSc thesis, he worked under the guidance of [member/bogdan-obreja] and [member/colin-jacobs] on lung cancer detection. Specifically, he developed an algorithm to investigate the relevance of using full lung CT scans in deep learning for classifying nodule malignancy in lung cancer screening.

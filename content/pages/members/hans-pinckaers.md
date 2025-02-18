@@ -3,7 +3,7 @@ name: Hans Pinckaers
 template: people-single
 picture: people/Hans_Pinckaers.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: hans.pinckaers@radboudumc.nl

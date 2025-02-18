@@ -5,11 +5,11 @@ picture: people/Miriam_Groeneveld.jpg
 position: Product Owner
 active: yes
 groups: diag, radiology, rse, rtc
-default_group: pathology
+default_group: rse
 email: Miriam.Groeneveld@radboudumc.nl
 linkedin: https://www.linkedin.com/in/miriam-groeneveld-96664242/
 office: Route 767, Room 25
-type: tech
+type: faculty
 
 Miriam Groeneveld is Product Owner for [Grand Challenge](https://grand-challenge.org/) in the [Diagnostic Image Analysis Group](http://diagnijmegen.nl/index.php/Home) at [Radboudumc](https://www.radboudumc.nl/en/research). Grand Challenge is a platform for end-to-end development of machine learning solutions in biomedical imaging, developed by the [RSE-team](https://rse.diagnijmegen.nl/) at Radboudumc. It is designed to support researchers, both from Radboudumc and beyond, in developing and benchmarking algorithms, particularly in the field of medical imaging. 
 

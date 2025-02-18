@@ -7,7 +7,7 @@ position: Visiting Researcher, Lab Manager
 type: student, staff
 active: yes 
 default_group: diag 
-office: Route 612, CARA Lab
+office: Route 616, CARA Lab
 scholar: https://scholar.google.co.uk/citations?user=RnJGH34AAAAJ&hl=en
 email: s.saitta@amsterdamumc.nl
 

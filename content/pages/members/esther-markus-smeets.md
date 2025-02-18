@@ -3,7 +3,7 @@ name: Esther Markus-Smeets
 template: people-single
 picture: people/Esther_Markus-Smeets.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: esther.smeets@radboudumc.nl

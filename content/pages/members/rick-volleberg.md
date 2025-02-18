@@ -7,7 +7,7 @@ active: yes
 groups: diag, cara-lab
 default_group: diag
 email: Rick.Volleberg@radboudumc.nl
-office: Route 612, CARA Lab
+office: Route 616, CARA Lab
 type: phd
 linkedin: https://www.linkedin.com/in/rick-volleberg-068bab142/?originalSubdomain=nl
 
