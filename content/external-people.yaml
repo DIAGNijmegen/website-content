@@ -334,13 +334,7 @@ people:
     affiliation: Surgery, Alrijne Ziekenhuis
     url: https://www.linkedin.com/in/quirine-manson-3157508a/?originalSubdomain=nl
     picture: people/external/Quirine_Manson.jpg
-    email: 
-  - name: Tristan de Boer
-    position: Master student
-    affiliation: Data Science, Radboud University
-    url: https://www.linkedin.com/in/tristandeboer
-    picture:
-    email: Tristan.deBoer@radboudumc.nl
+    email:
   - name: Tristan Payer
     position: Master student
     affiliation: Artificial Intelligence, Radboud University
