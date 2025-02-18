@@ -1,8 +1,8 @@
 title: Misja Zippelius
 name: Misja Zippelius
 template: people-single
-picture: people/misjazippelius.jpeg
-position: Master student
+picture: people/misja_zippelius.jpg
+position: Master Student
 active: yes
 groups: diag
 default_group: diag
