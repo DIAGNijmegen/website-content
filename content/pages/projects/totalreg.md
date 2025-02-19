@@ -5,7 +5,7 @@ type: general
 picture: 
 template: project-single
 groups: diag
-people: Loc Pham, Alessa Hering
+people: Xuan Loc Pham, Alessa Hering
 description: 
 bibkeys: 
 
