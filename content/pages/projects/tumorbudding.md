@@ -1,5 +1,5 @@
 title: Tumor budding
-finished: false
+finished: true
 type: general
 picture: projects/TB2-1.jpg
 template: project-single
