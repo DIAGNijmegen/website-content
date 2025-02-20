@@ -1,6 +1,6 @@
 title: UNESCO
 title_long: Uncertainty Estimation for Computational Pathology
-finished: false 
+finished: true 
 picture: projects/unesco.png
 template: project-single
 groups: pathology, diag
