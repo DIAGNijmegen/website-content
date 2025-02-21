@@ -28,4 +28,4 @@ Lastly, the impact of AI-driven OCT on the guidance of percutaneous revasculariz
 ## Testing and Validation
 We utilize the [Grand Challenge](https://grand-challenge.org/) platform to rigorously test and validate our algorithms. Our current software features a multiclass segmentation model capable of predicting critical structures, including  lumen, intima, media, lipid-rich, and calcified plaques. Additionally, we have integrated an artifact detection algorithm that assesses the quality of each OCT frame, ensuring more reliable results.
 
-If you're interested in collaborating or learning more about our algorithms, please feel free to reach out to our lab contact [members/jos-thannhauser]. Together, we can work towards bringing our AI solutions for intracoronary OCT into clinical practice!
+If you are interested in collaborating or learning more about our algorithms, please feel free to reach out to our [Lab Contact](https://www.diagnijmegen.nl/people/jos-thannhauser/). Together, we can work towards bringing our AI solutions for intracoronary OCT into clinical practice!
