@@ -6,19 +6,20 @@ description: Welcome to the first 2025 edition of the Diagnostic Image Analysis 
 
 ## New DIAG members
 This month we welcome a large number of new members to DIAG:
-- [member/jonas-laroche]
-- [member/Mikki-Hendriks]
-- [member/joel-jacob-tomson]
-- [member/lotte-van-zwol]
-- [member/alon-vigdorovits]
-- [member/michel_dore]
-- [member/thijs-de-jong]
-- [member/sander-moonemans]
-- [member/jen-dusseljee]
-- [member/myrthe-buser]
+
+	- [member/jonas-laroche]
+	- [member/Mikki-Hendriks]
+	- [member/joel-jacob-tomson]
+	- [member/lotte-van-zwol]
+	- [member/alon-vigdorovits]
+	- [member/thijs-de-jong]
+	- [member/sander-moonemans]
+	- [member/jen-dusseljee]
+	- [member/myrthe-buser]
 
 ## PhD defense
 This month, we celebrate the remarkable achievements of three colleagues who have successfully earned their PhDs. Please join us in congratulating:
+
 - [Hans Pinckaers](https://www.diagnijmegen.nl/news/defense-hans-pinckaers/)
 
 - [Jasper Linmans](https://www.diagnijmegen.nl/news/defense-jasper-linmans/)
