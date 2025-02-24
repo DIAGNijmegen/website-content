@@ -20,7 +20,9 @@ This month we welcome a large number of new members to DIAG:
 ## PhD defense
 This month, we celebrate the remarkable achievements of three colleagues who have successfully earned their PhDs. Please join us in congratulating:
 - [Hans Pinckaers](https://www.diagnijmegen.nl/news/defense-hans-pinckaers/)
+
 - [Jasper Linmans](https://www.diagnijmegen.nl/news/defense-jasper-linmans/)
+
 - [Esther Markus-Smeets](https://www.diagnijmegen.nl/news/defense-esther-markus-smeets/)
 
 ## Highlighted publications
