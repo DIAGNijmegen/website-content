@@ -6,9 +6,12 @@ position: Pathologist and Postdoctoral Researcher
 active: yes
 groups: diag, pathology
 default_group: pathology
+linkedin: https://www.linkedin.com/in/fr%C3%A9d%C3%A9rique-meeuwsen-a295425b/
+scholar: https://scholar.google.com/citations?hl=en&pli=1&user=Ww2r4N8AAAAJ
 email: Frederique.Meeuwsen@radboudumc.nl
 type: phd
 
-Frédérique Meeuwsen is a visiting pathology resident from Erasmus MC in Rotterdam. 
-She studied Medicine at Erasmus University in Rotterdam. After graduation in 2014, she obtained a PhD in Biomechanical Engineering at the University of Technology in Delft, mainly focusing on monitoring medical devices to improve efficiency and workflow in the operating room. In 2019 she entered the Pathology residency program in Rotterdam and in 2024 she joined the Computational Pathology Group in Nijmegen.
-During a 6-month differentiation internship, she will focus on deep learning, and the morphology and genetic classification of diffuse gliomas. Supervision by [member/jeroen-van-der-laak] and Max Kros (neuropathologist at Erasmus MC).
+Frédérique Meeuwsen obtained her medical degree from Erasmus University (Rotterdam) in 2014. After graduation, she obtained a PhD in Biomechanical Engineering at the University of Technology in Delft, mainly focusing on monitoring medical devices to improve efficiency and workflow in the operating room. In 2024 she successfully completed the Pathology residency program at Erasmus MC (Rotterdam), after a 12-month specialization internship at the Computational Pathology Group in Nijmegen.
+Currently, Frédérique is a pathologist and full-time researcher in the group. She was awarded a Hanarth Fonds Fellowship to become ‘a pathologist of the future’. During this two-year project she will work on the actual implementation of AI algorithms in clinical practice, the development of new AI (e.g. for glioma classification), and try to bridge the gap between medicine and technology. Supervision by [member/jeroen-van-der-laak].
+ 
+She has an advisory role in the [COMMITMENT project](https://www.computationalpathologygroup.eu/projects/commitment/), and the [DALPHIN benchmark project](https://www.compayl.com/dalphin)
