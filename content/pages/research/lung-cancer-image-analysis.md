@@ -6,7 +6,7 @@ people: Colin Jacobs, Cornelia Schaefer-Prokop, Ernst Scholten, Noa Antonissen, 
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: nelson-pop, solace, merai, amara, imagio
 algorithms: lung-nodule-detector-for-ct, pulmonary-nodule-malignancy-prediction, temporal-nodule-analysis, pulmonary-lobe-segmentation
-bibkeys: Peet25a, Peet25, Peet24a, Peet24, Hend23b, Venk23, Jaco23, Hend23a, Anto23, Peet23, Sido23, Hend23a, Venk22, Venk21a, Venk21, Hend21, Jaco21a, Jaco21, Schr21d, Schr21b, Schr21, Schr20a, Venk20, Silv20, Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
+bibkeys: Hend25, Peet25a, Peet25, Peet24a, Peet24, Hend23b, Venk23, Jaco23, Hend23a, Anto23, Peet23, Sido23, Hend23a, Venk22, Venk21a, Venk21, Hend21, Jaco21a, Jaco21, Schr21d, Schr21b, Schr21, Schr20a, Venk20, Silv20, Kauc20, Jaco19, Riel19, Schr19, Ares19, Tamm18, Char18, Chun18, Schr18, Schr18b, Silv18a, Silv18, Chun17, Chun17a, Ciom17a, Riel17, Seti17, Jaco15a, Ritc16, Jaco15, Lass15, Riel15, Jaco14
 
 Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. The World Health Organization (WHO) has estimated that there were 2.21 million cases of lung cancer and 1.80 million deaths due to lung cancer in 2020. Tobacco smoking remains the main risk factor for lung cancer. Imaging is crucial for early detection, diagnosis, treatment planning and monitoring of lung cancer. It plays an important role in the multidisciplinary management of lung cancer patients.
 
