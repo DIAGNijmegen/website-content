@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Ward Hendrix, Colin Jacobs, Matthieu Rutten, Bram van Ginneken, Mathias Prokop
 description: AI solutions to optimize the detection and characterization of incidentally detected lung nodules. 
-bibkeys: Hend23b, Hend23a, Hend21
+bibkeys: Hend25, Hend23b, Hend23a, Hend21
 
 ## Background
 Lung cancer is often diagnosed in a late stage, and as a result, the 5-year survival rate for lung cancer is only 18%. If lung cancer is detected in an early stage, the prognosis is much better. Therefore, improving early detection is the most promising strategy to reduce lung cancer mortality.
