@@ -1,7 +1,9 @@
 title: Radboud AI for Health
+finished: true
+type: general
 picture: projects/ai-for-health.jpg
 template: research-single
-groups: diag
+groups: 
 description: Radboud AI for Health develops novel artificial intelligence applications in healthcare. 
 projects: wisdom-teeth, mihracle, lower-back-pain
 

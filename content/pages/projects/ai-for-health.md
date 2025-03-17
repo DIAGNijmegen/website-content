@@ -1,5 +1,5 @@
 title: AI for health
-finished: false
+finished: true
 type: general
 description: A collaboration between Radboud University and Radboudumc aimed at developing innovations based on artificial intelligence that solve clinical problems.
 template: project-single
