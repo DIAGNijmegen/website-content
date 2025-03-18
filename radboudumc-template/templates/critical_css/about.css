@@ -174,3 +174,29 @@
     object-fit: cover;
     max-height: 180px;
 }
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+
+/* PI Image */
+.pi-image {
+    width: 90px;  /* Adjust size */
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    left: 50%;
+    top: 92%;  /* Reduce overlap */
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Remove white background */
+    z-index: 3; /* Keep it on top */
+}
+
+/* Ensure enough space below PI image */
+.about-image-card .card-body {
+    margin-top: 20px; /* Push text further down */
+    padding-top: 20px;
+    text-align: center;
+}
