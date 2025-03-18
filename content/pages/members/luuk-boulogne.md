@@ -3,7 +3,7 @@ name: Luuk Boulogne
 template: people-single
 picture: people/Luuk_Boulogne.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: luuk.boulogne@radboudumc.nl
