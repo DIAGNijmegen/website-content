@@ -11,4 +11,4 @@ description: Welcome to the February 2025 edition of the Diagnostic Image Analys
 - The AMARA project, led by [member/colin-jacobs] was one of the project featured in the fundraiser “Samen sneller”', read more about it [here](https://www.kwf.nl/doneren/steun-met-een-grote-gift).
 
 ## Highlighted publications
-> **“ Divide to conquer: a field decomposition approach for multi-organ whole-body CT image registration”** - X. Pham, M. Prokop, B. van Ginneken and A. Hering; Medical Imaging 2025: Image Processing 2025:48..
+> **“ Divide to conquer: a field decomposition approach for multi-organ whole-body CT image registration”** - X. Pham, M. Prokop, B. van Ginneken and A. Hering; Medical Imaging 2025: Image Processing 2025:48.
