@@ -7,8 +7,7 @@ template: project-single
 groups: diag
 people: Sarah de Boer, Hartmut Häntze, Myrthe Buser, Jen Dusseljee, Alessa Hering
 description: We aim to improve the efficiency of kidney and prostate cancer screening by using artificial intelligence. 
-
-## Background
+bibkeys: Hänt24
 
 ## Aim
 The COMFORT project (Computational Models FOR patienT stratification in urologic cancers – Creating robust and trustworthy multimodal AI for health care) aims to assist medical professionals in delivering improved care for people affected by prostate cancer or kidney cancer. The multidisciplinary research teams are developing a cutting-edge decision support system that uses artificial intelligence (AI) and data-driven insights.
