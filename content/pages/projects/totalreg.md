@@ -1,4 +1,4 @@
-title: TotalReg: A foundation model for CT image registration
+title: TotalReg
 title_long: TotalReg: A foundation model for CT image registration
 finished: false
 type: general
@@ -6,7 +6,7 @@ picture: projects/TotalReg_img.png
 template: project-single
 groups: diag
 people: Xuan Loc Pham, Alessa Hering
-description: 
+description: A foundation model for CT image registration
 bibkeys: 
 
 ## Background
