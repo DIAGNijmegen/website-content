@@ -5,7 +5,7 @@ type: general
 picture: projects/comfort_logo.jpg
 template: project-single
 groups: diag
-people: Sarah de Boer, Alessa Hering
+people: Sarah de Boer, Hartmut Häntze, Alessa Hering
 description: We aim to improve the efficiency of kidney and prostate cancer screening by using artificial intelligence. 
 
 ## Background
