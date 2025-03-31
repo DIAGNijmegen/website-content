@@ -3,7 +3,7 @@ name: Ammar Ammar
 template: people-single 
 picture: people/Ammar_Ammar.jpeg
 position: Research Software Engineer 
-active: yes 
+active: no 
 groups: diag, rse, rtc
 default_group: rse 
 email: ammar.ammar@radboudumc.nl 
