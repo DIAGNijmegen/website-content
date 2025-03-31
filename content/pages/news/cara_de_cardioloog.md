@@ -1,7 +1,7 @@
 title: Interview with CARA Lab in "De Cardioloog" 
 date: 2024-05-17 
 description: Prof. Dr. Niels van Royen and Dr. Jos Thannhauser gave an interview in "De Cardioloog" journal. Read it by following this link!
-picture: news/cara_cardioloog.jpg
+picture: news/cara_cardioloog.png
 groups: cara-lab
 
 In the latest issue of the Dutch journal for cardiologists, "De Cardioloog", Prof. Dr. Niels van Royen, interventional cardiologist and Director of the CARA lab, and Dr. Jos Thannhauser, clinical technician and lab manager of the CARA lab, share insights from their research at the CARA lab. 
