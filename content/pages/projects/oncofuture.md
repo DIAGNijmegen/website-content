@@ -6,7 +6,7 @@ picture: projects/oncology.jpg
 template: project-single
 groups: diag
 people: Niels Rocholl, Jan Tagscherer, Rianne Weber, Alessa Hering, Mathias Prokop
-description: 
+description: Improving tumor follow-up assessment
 bibkeys: 
 
 ## General overview
