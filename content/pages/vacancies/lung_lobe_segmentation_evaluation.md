@@ -17,10 +17,10 @@ This project will provide valuable insights into the effectiveness of state-of-t
 
 ## Objectives / Aims / Goals
 
-- **Primary Objective**:  
+**Primary Objective**:  
 Evaluate the performance of recent open-source algorithms for lung lobe segmentation (e.g., TotalSegmentator, dedicated narrow AIs) and compare them to our in-house lobe segmentation algorithm.
 
-- **Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):
+**Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):
   - Develop a dataset for evaluation of the models
   - Develop an improved lung lobe segmentation algorithm
   - (Re)train models on diverse and/or more challenging datasets
