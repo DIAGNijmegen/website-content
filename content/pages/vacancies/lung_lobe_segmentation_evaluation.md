@@ -2,7 +2,7 @@ title: Lung Lobe Segmentation in CT imaging
 groups: diag
 closed: false
 type: student
-picture: vacancies/LungLobeSegmentation.PNGs
+picture: vacancies/LungLobeSegmentation.png
 template: vacancy-single
 people: Lisa Klok, Colin Jacobs
 description: Evaluation of Lung Lobe Segmentation models in Thoracic CT scans
