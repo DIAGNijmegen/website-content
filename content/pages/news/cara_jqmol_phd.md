@@ -1,4 +1,4 @@
-title: Jan-Quinten Mol successfully defende PhD thesis
+title: Jan-Quinten Mol successfully defends PhD thesis
 date: 2025-03-14
 description: On March 14, Jan-Quinten Mol successfully defended his PhD thesis titled "Identifying novel risk factors for recurrent myocardial infarction." 
 picture: news/cara_jqmol_phd.jpg
