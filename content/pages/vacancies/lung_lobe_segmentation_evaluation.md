@@ -20,14 +20,14 @@ This project will provide valuable insights into the effectiveness of state-of-t
 **Primary Objective**:  
 Evaluate the performance of recent open-source algorithms for lung lobe segmentation (e.g., TotalSegmentator, dedicated narrow AIs) and compare them to our in-house lobe segmentation algorithm.
 
-**Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):
-  - Develop a dataset for evaluation of the models
-  - Develop an improved lung lobe segmentation algorithm
-  - (Re)train models on diverse and/or more challenging datasets
-  - Analyze the impact of pathologies (e.g., emphysema, ILD) and structural changes (e.g., lobectomy) on segmentation performance
-  - Conduct subgroup analyses to assess segmentation performance across different patient populations
-  - Ensure all model outputs can be integrated into our AI pipelines
-  - Evaluate the impact of segmentation quality on downstream AI applications (e.g., emphysema quantification, lung functioning on lobe level (Luuk Boulogne), lung nodule localization, and other lung AI tasks)
+**Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):<br>
+- Develop a dataset for evaluation of the models<br>
+- Develop an improved lung lobe segmentation algorithm<br>
+- (Re)train models on diverse and/or more challenging datasets<br>
+- Analyze the impact of pathologies (e.g., emphysema, ILD) and structural changes (e.g., lobectomy) on segmentation performance<br>
+- Conduct subgroup analyses to assess segmentation performance across different patient populations<br>
+- Ensure all model outputs can be integrated into our AI pipelines<br>
+- Evaluate the impact of segmentation quality on downstream AI applications (e.g., emphysema quantification, lung functioning on lobe level (Luuk Boulogne), lung nodule localization, and other lung AI tasks)<br>
 
 ## Tasks
 
