@@ -5,7 +5,7 @@ picture: projects/pathrad_fusion.jpg
 template: project-single
 groups: pathology, diag
 default_group: pathology
-people: Daan Schouten, Nadieh Khalili, Geert Litjens, Jeroen van der Laak
+people: Daan Schouten, Robert Spaans, Nadieh Khalili, Geert Litjens, Jeroen van der Laak
 description: The aim of this project is to integrate histopathological and radiological images to improve our understanding of disease diagnosis and progression in prostate cancer.
 bibkeys: 
 type: normal
