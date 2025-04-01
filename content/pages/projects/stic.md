@@ -1,6 +1,6 @@
 title: STIC
 title_long: Deep learning for improved detection of premalignant lesions in the Fallopian tube 
-finished: false 
+finished: true 
 picture: projects/STIC.png
 template: project-single
 groups: pathology, diag
