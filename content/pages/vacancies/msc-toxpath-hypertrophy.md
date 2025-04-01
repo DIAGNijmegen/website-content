@@ -50,7 +50,7 @@ A local copy of this repository is available.
 
 - Students with a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply.
 - Affinity with programming in Python, specifically in the PyTorch framework.
-- Interest in deep learning and medical image analysis.
+- Interest in deep learning and medical image analysis. 
 
 ## Information 
 
