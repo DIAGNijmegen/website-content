@@ -3,7 +3,7 @@ name: Alon Vigdorovits
 template: people-single
 picture: people/Alon_Vigdorovits.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 type: student
