@@ -5,7 +5,7 @@ picture: projects/deep-derma-logo.png
 template: project-single
 groups: pathology, diag 
 default_group: pathology
-people: Daan Geijs,	Avital Amir, Geert Litjens
+people: Ivan Slootweg, Daan Geijs, Avital Amir, Geert Litjens
 description: The aim of this project is to apply artificial intelligence to detect basal cell carcinoma. 
 bibkeys: 
 type: normal
