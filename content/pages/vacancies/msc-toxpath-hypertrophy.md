@@ -2,7 +2,7 @@ title: Artificial Intelligence-Based Liver Hypertrophy Detection in Drug Safety 
 groups: diag, pathology
 closed: false
 type: student 
-picture: vacancies/msc-toxpath-hypertrophy.png
+picture: vacancies/msc-toxpath-hypertrophy-50um.png
 template: vacancy-single
 people: Salma Dammak, Geert Litjens
 description: Slide-level classification using foundation models and exploration of a novel architecture to incorporate control slide information
