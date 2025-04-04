@@ -1,5 +1,5 @@
 title: Vessel segmentation for intracoronary OCT images
-groups: diag, cara
+groups: diag, cara-lab
 closed: false
 type: student
 picture: projects/cara_lab_model_segmentation.png
