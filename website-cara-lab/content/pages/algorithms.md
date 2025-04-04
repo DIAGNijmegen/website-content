@@ -6,7 +6,7 @@ At CARA Lab, we focus on developing advanced AI-driven methods for intracoronary
 
 ## Segmentation
 
-Our segmentation model, OCT-AID, is led by [member/ruben-van-der-waerden] and is designed to precisely delineate key structures within intracoronary OCT images, aiding in the identification of vessel boundaries, plaque types, and other relevant features. By leveraging deep learning techniques, our model enhances automated interpretation and assists clinicians in decision-making. 
+Our segmentation model, [OCT-AID](https://academic.oup.com/ehjdh/advance-article/doi/10.1093/ehjdh/ztaf021/8078941), is led by [member/ruben-van-der-waerden] and is designed to precisely delineate key structures within intracoronary OCT images, aiding in the identification of vessel boundaries, plaque types, and other relevant features. By leveraging deep learning techniques, our model enhances automated interpretation and assists clinicians in decision-making. 
 
 ![Multiclass segmentation model]({{ IMGURL }}/images/projects/cara_lab_model_segmentation.png) 
 
