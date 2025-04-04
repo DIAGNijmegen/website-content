@@ -42,6 +42,4 @@ To enhance the current multiclass segmentation model by integrating new classes 
 
 ## Suggested Reading
 
-- - Volleberg R, Waerden van der R, et al., "Comprehensive full-vessel segmentation and volumetric plaque quantification for intracoronary optical coherence tomography using deep learning", Mar 2025. doi: [https://doi.org/10.1093/ehjdh/ztaf021]
-
-- - 
+- Volleberg R, Waerden van der R, et al., "Comprehensive full-vessel segmentation and volumetric plaque quantification for intracoronary optical coherence tomography using deep learning", Mar 2025. doi: [https://doi.org/10.1093/ehjdh/ztaf021]
