@@ -6,13 +6,13 @@ At CARA Lab, we focus on developing advanced AI-driven methods for intracoronary
 
 ## Segmentation
 
-Our segmentation model, OCT-AID, is designed to precisely delineate key structures within intracoronary OCT images, aiding in the identification of vessel boundaries, plaques, and other relevant features. By leveraging deep learning techniques, our model enhances automated interpretation and assists clinicians in decision-making.
+Our segmentation model, OCT-AID, is led by [member/ruben-van-der-waerden] and is designed to precisely delineate key structures within intracoronary OCT images, aiding in the identification of vessel boundaries, plaque types, and other relevant features. By leveraging deep learning techniques, our model enhances automated interpretation and assists clinicians in decision-making. 
 
 ![Multiclass segmentation model]({{ IMGURL }}/images/projects/cara_lab_model_segmentation.png) 
 
 ## Artifact Detection
 
-Our artifact detection algorithm focuses on identifying attenuation artifacts within OCT scans. It employs an A-line-based approach to distinguish between valid imaging data and regions affected by signal loss, ensuring more accurate assessments of vessel structures and pathology.
+Our artifact detection algorithm, led by [member/pierandrea-cancian] focuses on identifying attenuation artifacts within OCT recordings. It employs an A-line-based approach to distinguish between valid imaging data and regions affected by signal loss due to blood and gas bubbles, ensuring more accurate assessments of vessel structures and pathology.
 
 ![Artifact detection model]({{ IMGURL }}/images/projects/cara_lab_model_artifact.png) 
 
