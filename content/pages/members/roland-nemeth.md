@@ -3,7 +3,7 @@ name: Roland Nemeth
 template: people-single
 picture: people/Roland_Nemeth.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: roland.nemeth@ru.nl
