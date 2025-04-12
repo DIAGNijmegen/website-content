@@ -16,7 +16,7 @@ scholar: https://scholar.google.com/citations?user=DOErev8AAAAJ&hl=en
 researcherid: https://publons.com/researcher/2329337/francesco-ciompi/
 
 
-Francesco Ciompi is Associate Professor in Computational Pathology and Research Group Leader in AI for Precision Medicine at the [Department of Pathology](https://www.radboudumc.nl/en/research/departments/pathology) of [Radboud University Medical Center](https://www.radboudumc.nl/patientenzorg) in Nijmegen, the Netherlands.
+Francesco Ciompi is Associate Professor and Research Group Leader in AI for Precision Medicine at the [Department of Pathology](https://www.radboudumc.nl/en/research/departments/pathology) of [Radboud University Medical Center](https://www.radboudumc.nl/patientenzorg) in Nijmegen, the Netherlands.
 
 His main research focus is artificial intelligence for precision medicine in the area of pathology, with applications to discovery and implementation of predictive and prognostic biomarkers in immuno oncology, and computer aided diagnosis for large-scale digital pathology and multi-modal data. 
 As a guest lecturer at [Radboud University](https://www.ru.nl/en), he has been the creator, main teacher and coordinator of the Master's course Intelligent Systems in Medical Imaging.
