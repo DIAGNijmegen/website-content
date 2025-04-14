@@ -38,7 +38,7 @@ NAV_SECTIONS = [
     },
     {"name": "News", "url": "news", "icon": "megaphone"},
     {"name": "Members", "url": "members", "icon": "users"},
-    {"name": "Algorithms", "url": "algorithms", "icon": "book"},
+    {"name": "Algorithms", "url": "algorithms", "icon": "code"},
     {"name": "Vacancies", "url": "vacancies", "icon": "vacancies"},
     {"name": "Publications", "url": "publications", "icon": "file-text-o"},
     {"name": "Presentations", "url": "presentations", "hidden": 95},
