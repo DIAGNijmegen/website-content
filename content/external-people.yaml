@@ -1,4 +1,16 @@
 people:
+  - name: Marloes Groot
+    position: Professor
+    affiliation: VU University Amsterdam
+    url: https://www.linkedin.com/in/marloes-groot-7445851a/
+    picture: people/external/Marloes_Groot.jpeg
+    email: m.l.groot@vu.nl
+  - name: Annick van der Kroef
+    position: PhD Candidate
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/annick-van-der-kroef/
+    picture: people/external/Annick_van_der_Kroef.jpeg
+    email: Annick.vanderKroef@radboudumc.nl
   - name: Marike Lombaers
     position: PhD Candidate
     affiliation: Gynaecology, Radboudumc
