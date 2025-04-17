@@ -18,3 +18,9 @@
   from = "/highlights/"
   to = "/news/"
   status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.computationalpathologygroup.eu/:splat"
+  status = 302
+  force = true
