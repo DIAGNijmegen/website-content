@@ -16,3 +16,5 @@ Radiology departments already generate vast amounts of CT scans of the abdomen a
 
 In this research line, we aim to develop, validate, and deploy AI algorithms for cancer patients capable of combing data from multiple timepoints and integrate patients' history into the decision-making process. This research line is led by [member/alessa-hering]. 
 
+![Oncology AI group]({{ IMGURL }}/images/research/oncologyaigroup.jpg)
+
