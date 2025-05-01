@@ -1255,3 +1255,9 @@ people:
     url:
     picture:
     email:
+  - name: Merel Huisman
+    position: Radiologist, clinical epidemiologist
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/merelhuisman1/
+    picture: people/external/Merel_Huisman.jpeg
+    email: merel.huisman@radboudumc.nl
