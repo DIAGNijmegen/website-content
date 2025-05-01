@@ -27,7 +27,7 @@ Evaluate the performance and stability of our in-house AI algorithms for lung no
 
 **Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):<br>
 - Simulate a post-market surveillance scenario to systematically assess the AI performance<br>
-- Investigate how a nodule detection and malignancy risk estimation pipeline would perform in a real-world clinical scenario<br>
+- Investigate how a nodule detection and malignancy risk estimation pipeline would perform in a clinical scenario<br>
 - Perform clinical and technical subgroup analyses to assess which conditions are resulting in unexpected changes in for example nodule detection rates, and number of malignant cases<br>
 
 
