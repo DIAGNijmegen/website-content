@@ -5,7 +5,7 @@ type: general
 picture: projects/ai4adhesion.jpg
 template: project-single
 groups: diag
-people: Bram de Wilde, Henkjan Huisman, Richard ten Broek, Harry van Goor, Bram van Ginneken
+people: Bram de Wilde, Henkjan Huisman, Richard ten Broek, Harry van Goor
 description: We investigate whether AI can detect abdominal adhesions on cine MRI.
 bibkeys: 
 
