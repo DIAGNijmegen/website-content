@@ -1,10 +1,10 @@
 title: Automated Detection and Grading of Hip Osteoartritis
 groups: ai-for-health, diag
-finished: false
+finished: true
 type: student
 picture: projects/hipoa.png
 template: project-single
-people: Mar Navarro Padilla, Walter van der Weegen, Rintje Agricola, Bram van Ginneken, Matthieu Rutten, Silvan Quax
+people: Mar Navarro Padilla, Walter van der Weegen, Rintje Agricola, Matthieu Rutten, Silvan Quax
 description: We want to develop deep learning algorithms for detection and grading of hip osteoartritis.
 
 **Start date: 01-01-2023** <br>
