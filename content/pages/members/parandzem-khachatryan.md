@@ -3,7 +3,7 @@ name: Parandzem Khachatryan
 template: people-single
 picture: people/Parandzem_Khachatryan.jpg
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Parandzem.Khachatryan@radboudumc.nl
