@@ -3,7 +3,7 @@ name: Adam Kowalewski
 template: people-single
 picture: people/Adam_Kowalewski.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: diag
 type: student
