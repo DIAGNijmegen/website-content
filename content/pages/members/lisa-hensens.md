@@ -3,7 +3,7 @@ name: Lisa Hensens
 template: people-single
 picture: people/Lisa_Hensens.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: lisahensens@gmail.com
