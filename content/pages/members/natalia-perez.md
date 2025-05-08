@@ -3,7 +3,7 @@ name: Natalia Pérez
 template: people-single
 picture: people/Natalia_Perez.jpg
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: napegar@htech.upv.es
