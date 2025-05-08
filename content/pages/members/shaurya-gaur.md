@@ -3,7 +3,7 @@ name: Shaurya Gaur
 template: people-single
 picture: people/Shaurya_Gaur.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: shaurya.gaur@ru.nl
