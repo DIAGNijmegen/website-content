@@ -111,3 +111,14 @@ Styles for all the elements related to group members.
     }
   }
 }
+
+// Banner for inactive members
+.banner.inactive-member {
+  background-color: #fff3cd;
+  color: #856404;
+  border-left: 6px solid #ffeeba;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
