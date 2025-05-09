@@ -39,10 +39,11 @@
                         <a href="https://www.radboudumc.nl/en/patient-care/getting-there">{{ page.office }}</a>
                     </div>
                 </div>
-                {% else %}
-                <div class="banner inactive-member">
-                    This member is no longer working with the group.
-                </div>
+                {% endif %}
+                {% if page.active != 'yes' %}
+                    <div class="banner inactive-member">
+                        This member is no longer working with the group.
+                    </div>
                 {% endif %}
                 {% if page.telephone %}
                 <div class="row">
