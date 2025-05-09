@@ -28,10 +28,6 @@
                         <a href="mailto:{{ page.email }}">{{ page.email }}</a>
                     </div>
                 </div>
-                {% else %}
-                    <div class="banner inactive-member">
-                        This member is no longer active in the DIAG group.
-                    </div>
                 {% if page.office %}
                 <div class="row">
                     <div class="col-1">
@@ -42,6 +38,10 @@
                     <div class="col">
                         <a href="https://www.radboudumc.nl/en/patient-care/getting-there">{{ page.office }}</a>
                     </div>
+                </div>
+                {% else %}
+                <div class="banner inactive-member">
+                    This member is no longer working with the group.
                 </div>
                 {% endif %}
                 {% if page.telephone %}
