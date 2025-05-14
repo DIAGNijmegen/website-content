@@ -6,7 +6,7 @@ description: Developing the new generation of computational pathology algorithms
 template: project-single
 groups: diag, pathology
 default_group: pathology
-people: Clement Grisi, Judith Lefkes, Khrystyna Faryna, Geert Litjens
+people: Clément Grisi, Judith Lefkes, Khrystyna Faryna, Geert Litjens
 bibkeys: Gris23, Gris24, Lefk25
 
 ## Background
