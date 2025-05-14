@@ -2,7 +2,7 @@ title: Nadieh Khalili
 name: Nadieh Khalili
 template: people-single
 picture: people/nadieh.PNG
-position: Workgroup Lead
+position: Researcher in Talent Track
 active: yes
 groups: diag, pathology
 default_group: pathology
