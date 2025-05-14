@@ -7,7 +7,7 @@ template: project-single
 groups: diag, pathology
 default_group: pathology
 people: Clément Grisi, Judith Lefkes, Khrystyna Faryna, Geert Litjens
-bibkeys: Gris23, Gris24, Lefk25
+bibkeys: Gris23, Gris24, Lefk25, Lefk25a
 
 ## Background
 Cancer is a very complex disease. Deep understanding of the mechanisms that underpin its development might be beyond the capacity of human analysis. The application of imaging analysis coupled with artificial intelligence to digital pathology slides could break cancer complexity by integrating 'sub-visual' image features that elude the naked eye of pathologists. This could lead to a finer understanding of cancer appearance mechanisms, ultimately improving the prediction of patient outcomes and response to treatment.
