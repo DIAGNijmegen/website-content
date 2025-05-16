@@ -20,7 +20,7 @@ The arsenal of medical treatments such as immune and targeted therapies is rapid
 ## Tasks and responsibilities
 Position 1:
 - Work in closely collaboration with PhD candidates working at Radboudumc, the VU and AmsterdamUMC to develop artificial intelligence for advanced analysis of HHG images and use it to characterize the tumor-immune microenvironment (TIME) in lung tissue.
-- Develop AI to automatically detect, segment, classify and track cells in HHG 3D+T images, also using recent approaches based on foundation models. 
+- Develop AI to automatically detect, segment, classify and track cells in HHG 3D+T images, also using recent approaches based on foundation models.
 - Develop temporal cell tracking algorithms to automatically determine the 3D trajectory of cells over time.
 - Develop methods to assess treatment response by turning morphological and temporal information into quantifiable biomarkers that can be correlated with response to treatment, also using approached based on graphical models.
 
