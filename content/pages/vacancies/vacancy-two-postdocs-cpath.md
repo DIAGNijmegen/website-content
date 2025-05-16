@@ -30,16 +30,6 @@ Position 2:
 ## Profile
 You should be a creative and enthusiastic researcher with a PhD degree in a relevant field, such as medical image analysis, computer vision, or machine learning. You should have a clear interest to develop image analysis algorithms and an affinity with oncology or medical topics. Good communication skills and expertise in software development, preferably in Python, are essential. Previous experience with (co-)supervision of junior researchers such as PhD students, as well as experience with graph neural networks and foundation models is a plus.
 
-## We offer
-- An exciting position in one of Europe's largest research groups in Computational Pathology.
-- An international work environment with an informal atmosphere.
-- 4-year contract of 36 hours per week (full time).
-- Salary scale 10A.
-- An annual vacation allowance of 8% and you will receive an end-of-year bonus of 8.3%.
-- 168 vacation hours (over 23 days) per year.
-- 70% coverage of the pension premium by Radboudumc. You pay the rest of the premium with your gross salary.
-- A discount on health insurance.
-
 ## Organisation
 The [Computational Pathology Group](https://www.computationalpathologygroup.eu/) is a research group of the department of Pathology of the [Radboud University Medical Center (Radboudumc)](https://www.radboudumc.nl). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl) at Radboudumc, with researchers in other departments, such as [Radiology and Nuclear Medicine](https://www.radboudumc.nl/afdelingen/radiologie-en-nucleaire-geneeskunde), [Cardiology](), [Radiotherapy]() and [Pathology](https://www.radboudumc.nl/afdelingen/pathologie).
 
