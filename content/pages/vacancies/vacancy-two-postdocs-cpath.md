@@ -7,7 +7,6 @@ people: Francesco Ciompi, Jeroen van der Laak
 template: vacancy-single
 description: Postdoctoral position for developing and validating AI algorithms for personalized treatment of lung and breast cancer
 
-
 ## Background
 Our Computational Pathology Group at Radboud University Medical Center in Nijmegen (Netherlands) is looking for postdoctoral researchers in two projects on computational pathology.
 The arsenal of medical treatments such as immune and targeted therapies is rapidly expanding, but most drugs only benefit a fraction of patients. One of the goals of our research is the development and validation of artificial intelligence techniques which serve as prognostic or predictive biomarkers to identify which particular patient or tumor type will respond to a specific treatment. In two projects, we are looking for a postdoctoral researcher to support this research.
@@ -15,7 +14,6 @@ The arsenal of medical treatments such as immune and targeted therapies is rapid
 - Project 1 (NWO-funded) we investigate “Dynamic 3D Biopsy Based Response to Treatment Prediction” (DoPredict), by analyzing the effect of multiple applied drugs on cultured biopsies of an individual patient. Cultured cells of acute biopsies of lung cancer are imaged with label-free higher harmonic generation (HHG) microscopy, monitoring the tissue in 3D during culturing. This innovative approach will generate data describing the temporal dynamics of cells in the tumor-immune microenvironment in 3D, possibly identifying the optimal treatment for individual patients within 5-7 days.
 
 - Project 2 (KWF-funded) we investigate the use of AI to identify sub-groups of breast cancer patients that are candidates for therapy escalation or de-escalation. The project focuses on commonly available pathology slides, in order to yield solutions that can readily be implemented in routine clinical practice. The project is mostly translational, focusing on providing evidence on biomarkers as well as on implementation.
-
 
 ## Tasks and responsibilities
 Position 1:
@@ -26,8 +24,7 @@ Position 1:
 
 Position 2:
 - Work in closely collaboration with the breast cancer research group working at Radboudumc, to develop artificial intelligence for analysis of breast cancer tissue sections.
-- (Co-)supervise PhD students on the project. 
-
+- (Co-)supervise PhD students on the project.
 
 ## Profile
 You should be a creative and enthusiastic researcher with a PhD degree in a relevant field, such as medical image analysis, computer vision, or machine learning. You should have a clear interest to develop image analysis algorithms and an affinity with oncology or medical topics. Good communication skills and expertise in software development, preferably in Python, are essential. Previous experience with (co-)supervision of junior researchers such as PhD students, as well as experience with graph neural networks and foundation models is a plus.
