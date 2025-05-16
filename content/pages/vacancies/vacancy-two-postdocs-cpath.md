@@ -43,6 +43,7 @@ Radboudumc strives to be a leading developer of sustainable, innovative and affo
 ## Employment conditions
 At Radboud university medical center, you build on your future. We are committed to providing the best care, education, and research. And we are true to our word, because we help you develop and seize opportunities and give you the room to grow. As an employer, we believe that employees should feel vital and happy at work in all stages of life. We are also committed to creating a healthy and safe working environment. Our employment conditions contribute to that. What we offer:
 
+- Two-year full-time contract (36 hours per week)
 - A gross monthly salary between € 3.493 and € 5.504 (scale 10) for full-time employment (36 hours per week). You will also receive an 8% holiday allowance, an 8.3% end-of-year bonus, and, depending on the position, an allowance of 47% to 72% for working irregular hours.
 - From 1 July 2025 an increase in salary with 3%.
 - 176 vacation hours per year based on a 36-hour working week. 
@@ -69,4 +70,6 @@ And there is more..
 - An allowance for your commuting costs of € 0.18 per km up to a maximum of 40 km one way. If you use public transport to commute, we will fully reimburse the public transport costs (2nd class). If you regularly work from home, you will receive a working from home allowance of € 2.40 per day.
 
 ## Application
-If you are interested, please apply via the following [link](https://www.radboudumc.nl/en/vacancies/156242-postdoctoral-researchers-in-two-projects-on-computational-pathology)
+If you are interested, please apply before 5 June 2025 via the following [link](https://www.radboudumc.nl/en/vacancies/156242-postdoctoral-researchers-in-two-projects-on-computational-pathology).
+Tentative aate first interview: In week 24 (9-13 June 2025)
+
