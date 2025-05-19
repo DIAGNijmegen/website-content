@@ -1,5 +1,5 @@
 title: Interpretable Artificial Intelligence across Scales for Next-Generation Cancer Prognostics
-picture: projects/aiscap.png
+picture: projects/aiscap.jpeg
 finished: false
 type: general
 description: Developing the new generation of computational pathology algorithms capable of extracting interpretable pan-cancer and cancer-specific biomarkers with prognostic potential significantly beyond current manual grading systems.
