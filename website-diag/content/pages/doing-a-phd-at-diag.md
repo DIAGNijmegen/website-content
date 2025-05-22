@@ -38,9 +38,7 @@ Visiting and participating in conferences and other research groups, sometimes f
 
 ## Four years and a thesis
 
-A PhD trajectory typically takes four years at DIAG. Some people have a three-year project. The main output is your thesis, which consists of several chapters. Most chapters are identical to journal publications that you have written as the first author during your four or three years. The minimum number of first-author articles in international journals is three, and two of these must have been accepted before you submit your thesis to the manuscript committee. Note that conference contributions, even if they are published in proceedings that appear on, e.g., PubMed (for example, MICCAI papers), do not count as journal publications.
-
-To get an idea of the theses written by PhD students at DIAG, you can download any thesis from our [thesis gallery](/thesis-gallery).
+A PhD trajectory typically takes four years at DIAG. Some people have a three-year project. The main output is your thesis, which consists of several chapters. Most chapters are identical to journal publications that you have written as the first author during your four or three years. The minimum number of first-author articles in international journals is three, and two of these must have been accepted before you submit your thesis to the manuscript committee. Note that conference contributions, even if they are published in proceedings that appear on, e.g., PubMed (for example, MICCAI papers), do not count as journal publications. To get an idea of the theses written by PhD students at DIAG, you can download any thesis from our [thesis gallery](/thesis-gallery).
 
 ## Salary
 
