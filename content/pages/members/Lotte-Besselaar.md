@@ -4,7 +4,7 @@ template: people-single
 picture: people/Lotte_Besselaar.jpg
 position: Student assistant
 active: yes
-groups: diagAdd commentMore actions
+groups: diag
 default_group: diag
 email: Lotte.Besselaar@radboudumc.nl
 type: student-assistant
