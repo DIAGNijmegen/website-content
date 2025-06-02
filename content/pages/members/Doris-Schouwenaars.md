@@ -4,7 +4,7 @@ template: people-single
 picture: people/Doris_Schouwenaars.jpg
 position: Student assistant
 active: yes
-groups: diagAdd commentMore actions
+groups: diag
 default_group: diag
 email: Doris.Schouwenaars@radboudumc.nl
 type: student-assistant
