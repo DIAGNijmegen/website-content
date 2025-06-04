@@ -1,7 +1,7 @@
 title: Alessa Hering awarded Fraunhofer ICT Dissertation Award 
 date: 2025-06-04 
 description: Congratulations to Alessa Hering for having been awarded the Fraunhofer ICT Dissertation Award 2024 for her PhD thesis "Deep-Learning-based Image Registration and Tumor Follow-Up Analysis."
-picture: people/Alessa_Hering.jpg
+picture: news/2024_nwo_grant_alessa.jpg
 groups: diag
 
 Congratulations to [member/alessa-hering] for having been awarded the Fraunhofer ICT Dissertation Award 2024 for her PhD thesis "Deep-Learning-based Image Registration and Tumor Follow-Up Analysis."
