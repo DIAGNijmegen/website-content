@@ -6,7 +6,7 @@ groups: diag
 
 An international multi-reader, multi-case observer study investigating "AI-Assisted vs Unassisted Identification of Prostate Cancer in Magnetic Resonance Images" from [the PI-CAI consortium](https://pi-cai.grand-challenge.org/) has been published in JAMA Network Open.
 
-👉 Read the full publication here (open-access): [https://lnkd.in/e5AdhMrF](https://lnkd.in/e5AdhMrF)
+👉 Read the full publication here (open-access): [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2835296](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2835296)
 
 𝗦𝘁𝘂𝗱𝘆 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄 🧪
 This large-scale international observer study involved 61 radiologists (34 experts and 27 non-experts) from 53 centers across 17 countries. A total of 360 prostate MRI examinations (three Dutch centers and one Norwegian center, disease prevalence of 34%) were reviewed both with and without AI assistance using the AI system developed within PI-CAI.
