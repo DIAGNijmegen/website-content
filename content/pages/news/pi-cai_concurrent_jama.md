@@ -1,6 +1,6 @@
-title: "AI-Assisted vs Unassisted Identification of Prostate Cancer on MRI" —in JAMA Network Open
+title: "AI-Assisted vs Unassisted Identification of Prostate Cancer in MRI" —in JAMA Network Open
 date: 2025-06-16
-description: Outcomes of an international observer study with 61 radiologists (34 experts, 27 nonexperts from 53 centers in 17 countries) on AI-assisted vs unassisted identification of prostate cancer on MRI are now published!
+description: Outcomes of an international observer study with 61 radiologists (34 experts, 27 nonexperts from 53 centers in 17 countries) on AI-assisted vs unassisted identification of prostate cancer in MRI are now published!
 picture: news/pi-cai_concurrent_jama.jpeg 
 groups: diag
 
