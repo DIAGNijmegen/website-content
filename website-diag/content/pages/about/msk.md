@@ -4,4 +4,4 @@ pi_picture: people/Nikolas_Lessmann.jpg
 category: about
 section: research_groups
 show_in_overview: true
-description: Develop AI for Musculoskeletal diseases.
+description: Musculoskeletal conditions are a major cause of disability. We develop image analysis algorithms to improve diagnosis and treatment.

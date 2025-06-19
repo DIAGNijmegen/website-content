@@ -4,4 +4,4 @@ pi_picture: people/Geert_Litjens.jpg
 category: about
 section: research_groups
 show_in_overview: true
-description: Develop AI for Pathology.
+description: The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology.
