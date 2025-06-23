@@ -1,6 +1,6 @@
 title: Postdoctoral researchers in two projects on computational pathology
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/postdoc-vacancies-lung-breast.png
 people: Francesco Ciompi, Jeroen van der Laak
