@@ -3,7 +3,7 @@ name: Femke Aminetzah
 template: people-single
 picture: people/femke_aminetzah.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: femke.aminetzah@radboudumc.nl
