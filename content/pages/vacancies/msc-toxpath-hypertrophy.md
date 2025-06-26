@@ -1,6 +1,6 @@
 title: Artificial Intelligence-Based Liver Hypertrophy Detection in Drug Safety Studies
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc-toxpath-hypertrophy-50um.png
 template: vacancy-single
