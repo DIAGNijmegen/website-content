@@ -2,7 +2,7 @@ title: Automating the R.E.N.A.L. score in patients with a renal cell carcinoma
 groups: diag
 closed: false
 type: student
-picture: vacancies/RCCKidney.png
+picture: vacancies/RCCKidney.jpg
 template: vacancy-single
 people: Myrthe Buser, Alessa Hering
 description: Automating the R.E.N.A.L. score in patients with a renal cell carcinoma
