@@ -21,6 +21,7 @@ Recent advances in deep learning for medical image analysis now enable the autom
 Develop and evaluate an enhanced version of the RENAL scoring system using AI-driven image analysis.
 
 **Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):
+
 - Automate and compare the RENAL scoring system to other scoring systems (e.g., C-score or PADUA)
 - Add explainability to the scoring system (for example by visualizing the different distance based measures).
 
@@ -31,8 +32,11 @@ Develop and evaluate an enhanced version of the RENAL scoring system using AI-dr
 
 ## Practical Information
 **Project Duration**: Variable (6 months for MSc thesis), starting September 2025. 
+
 **Location**: Department of Medical Imaging, Radboud University Medical Center, Nijmegen
+
 **For more information**, please contact Myrthe Buser or Alessa Hering. 
+
 **Application**: Please send your CV, grade list and motivation letter (maximum of 1 A4 page) to myrthe.buser@radboudumc.nl and Alessa.Hering@radboudumc.nl .
 
 ## Suggested Reading
