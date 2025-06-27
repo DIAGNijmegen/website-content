@@ -9,7 +9,7 @@ description: Automating the R.E.N.A.L. score in patients with a renal cell carci
 
 ## Clinical Motivation
 Renal cell carcinoma (RCC) is the most common form of kidney cancer in adults. Treatment for RCC often involves surgery, either by removing the entire kidney (total nephrectomy) or preserving part of the kidney while removing the tumor (nephron sparing surgery). The choice of surgery is dependent on multiple factors like patient overall health and experience of the treating surgeon, but the main factor is the anatomical complexity of the tumor. 
-To assist surgical decision-making, the RENAL score was introduced [1] as a radiological tool to quantify tumor complexity. The RENAL score consists of 5 different components:
+To assist surgical decision-making, the RENAL score was introduced [1] as a radiological tool to quantify tumor complexity. The RENAL score consists of 5 different components, all focused on different aspects of the tumor (anatomy).
  
 Although the RENAL scoring system has been suggested in literature to be useful in surgical planning, the clinical use is limited, mainly because of the time investment of radiologists to obtain all components of the RENAL score and the inter-observer variability between observers. Several efforts have been made to automate the RENAL score, but these methods rely on simplification of the anatomical situation or other heuristics [2], [3]. 
 
