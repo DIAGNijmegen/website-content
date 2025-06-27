@@ -13,7 +13,7 @@ To assist surgical decision-making, the RENAL score was introduced [1] as a radi
  
 Although the RENAL scoring system has been suggested in literature to be useful in surgical planning, the clinical use is limited, mainly because of the time investment of radiologists to obtain all components of the RENAL score and the inter-observer variability between observers. Several efforts have been made to automate the RENAL score, but these methods rely on simplification of the anatomical situation or other heuristics [2], [3]. 
 
-### Research Opportunity
+## Research Opportunity
 Recent advances in deep learning for medical image analysis now enable the automation of complex anatomical assessments directly from CT scans. At our research group, we develop a suite of AI models that automatically segment relevant structures (e.g., tumors, kidneys, collecting system) and compute features required for the RENAL scoring system. These models, covering all components of the RENAL score, will be available at the start of the project. They provide a strong foundation for further development, refinement, and validation of a more nuanced, continuous, and interpretable version of the RENAL score.
 
 ## Objectives / Aims / Goals
