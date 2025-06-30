@@ -13,7 +13,7 @@ Intracoronary optical coherence tomography (OCT) is a powerful imaging technique
 
 To enable automated and standardized plaque characterization, the CARA lab (https://www.cara-ai-lab.nl) is developing deep learning-based models for accurate segmentation of these structures. The current model, OCT-AID, is designed to segment important vessel wall structures and various plaque types, but there is room for improvement to enhance its diagnostic and prognostic capabilities.
 
-The goal of this project is to improve the existing algorithm package, by expanding the current segmentation model and include additional structures, not only focusing on plaque types but also on inflammatory features such as macrophages and cholesterol crystals. By doing so, we aim to increase the diagnostic and prognostic value of OCT images, facilitating better clinical decision-making. Additionally, we aim to validate our models on external datasets, ensuring that the model is more generalizable and ready for real-world clinical use.
+The goal of this project is to improve the existing algorithm package, by expanding the current segmentation model and include additional structures, not only focusing on plaque types but also on inflammatory features such as macrophages and cholesterol crystals. Other aims are testing state-of-the-art AI architectures to improve model accuracy and predictions speed. By doing so, we aim to increase the diagnostic and prognostic value of OCT images, facilitating better clinical decision-making. Additionally, we aim to validate our models on external datasets, ensuring that the model is more generalizable and ready for real-world clinical use.
 
 ## Objectives / Aims / Goals
 
