@@ -63,7 +63,7 @@ The estimated workload of this project is 6 months (30 EC). We prefer a student 
 | Writing report and presenting results        | 18 – 20          |
 
 ## Response
-If you are interested in this intership or want more information, please contact [member/Lars-Leijten] at [larsleijten@radboudumc.nl](mailto:larsleijten@radboudumc.nl).
+If you are interested in this intership or want more information, please contact [member/Lars-Leijten] at [lars.leijten@radboudumc.nl](mailto:lars.leijten@radboudumc.nl).
 
 ## About DIAG
 The Diagnostic Image Analysis Group (DIAG) at Radboudumc Nijmegen develops advanced, clinically driven AI tools to interpret medical images across multiple specialties—including radiology, pathology, cardiology, neurology, and oncology. 
