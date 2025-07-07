@@ -3,7 +3,7 @@ name: Ajay Patel
 template: people-single
 picture: people/Ajay_Patel.jpg
 position: RTC Deep Learning
-active: yes
+active: no
 groups: diag, rtc
 default_group: rtc
 email: ajay.patel@radboudumc.nl
