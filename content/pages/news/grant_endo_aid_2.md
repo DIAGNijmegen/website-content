@@ -2,7 +2,7 @@ title: Francesco Ciompi is awarded Academic Medical Network grant for ENDO-AID 2
 date: 2025-07-03
 picture: news/grant_endo_aid_2.png
 groups: diag, pathology
-description: Francesco Ciompi, in collaboration with JBZ, receives grant for ENDO-AID 2.0: Enhancing ENDOmetrial biopsy Artificial Intelligence assisted Diagnosis
+description: Francesco Ciompi, in collaboration with JBZ, receives grant for ENDO-AID 2.0: Enhancing ENDOmetrial biopsy Artificial Intelligence assisted Diagnosis.
 
 [member/francesco-ciompi] has been awarded a grant for a Junior Researcher position by the Radboudumc Academic Medical Network. The grant supports the project 'ENDO-AID 2.0: Enhancing ENDOmetrial biopsy Artificial Intelligence assisted Diagnosis', a collaboration between Radboudumc and Jeroen Bosch Hospital (JBZ) aimed at developing AI models for automated detection, diagnosis, and grading of endometrial pathology biopsies.
 
