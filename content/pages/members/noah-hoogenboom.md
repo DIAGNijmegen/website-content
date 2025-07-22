@@ -5,7 +5,7 @@ picture: people/Noah_Hoogenboom.png
 groups: diag, cara-lab 
 position: MSc Student, MSc Student
 type: student, student
-active: yes 
+active: no
 default_group: diag 
 office: Route 616, CARA Lab
 email: noah.hoogenboom@radboudumc.nl
