@@ -2,7 +2,7 @@ title: Universal lesion tracking in whole-body longitudinal CT imaging
 groups: diag
 closed: false
 type: student
-picture: vacancies/lesion_tracking.png
+picture: vacancies/lesion_tracking.jpg
 template: vacancy-single
 people: Xuan Loc Pham, Alessa Hering
 description: Evaluation of multi-organ CT registration models for lesion tracking across timepoints
@@ -14,10 +14,12 @@ This project will explore the application of image registration for universal le
 
 ## Objectives / Aims / Goals
 **Primary objective**:
+
 - Evaluate the performance of recent open-source algorithms for universal image registration, together with unsupervised learning single-organ registration models, and compare them to our in-house multi-organ registration model
 - Apply on a longitudinal whole-body CT dataset for universal lesions tracking
 
 **Further goals** (depending on project scope, student interests, literature findings, and initial conclusions):
+
 - Integrate the tracking results into our in-house universal lesions segmentation pipeline
 - Develop an improved version of the in-house registration model, focusing more on the diffeomorphism 
 
