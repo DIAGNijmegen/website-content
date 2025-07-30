@@ -1,6 +1,6 @@
 title: Retrospective Evaluation of AI Stability for Lung Cancer Detection
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/ai-lung-tumor-detection.png
 template: vacancy-single

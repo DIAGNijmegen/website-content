@@ -3,7 +3,7 @@ name: Daan Zegers
 template: people-single
 picture: people/Daan_Zegers.jpg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: daan.zegers@radboudumc.nl

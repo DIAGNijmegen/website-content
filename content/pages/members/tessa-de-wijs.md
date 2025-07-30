@@ -3,7 +3,7 @@ name: Tessa de Wijs
 template: people-single
 picture: people/Tessa_de_Wijs.jpg 
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology 
 type: student-assistant 

@@ -1,4 +1,28 @@
 people:
+  - name: Annemarie Boleij
+    position: Assistant Professor
+    affiliation: Pathology, Radboudumc
+    url: https://www.linkedin.com/in/annemarie-boleij-66a2162b/
+    picture: people/external/Annemarie_Boleij.jpeg
+    email: Annemarie.Boleij@radboudumc.nl
+  - name: Nils Kohn
+    position: Associate Professor
+    affiliation: Human Cognitive Neuroimaging, Radboudumc
+    url: https://www.linkedin.com/in/nils-kohn-48967066/
+    picture: people/external/Nils_Kohn.jpeg
+    email: Nils.Kohn@radboudumc.nl
+  - name: Alem Gusinac
+    position: Bioinformatics Data Analyst
+    affiliation: Pathology, Radboudumc
+    url: https://www.linkedin.com/in/alem-gusinac/
+    picture: people/external/Alem_Gusinac.jpeg
+    email: Alem.Gusinac@radboudumc.nl
+  - name: Jeshua Tromp
+    position: Postdoctoral researcher
+    affiliation: Donders Institute for Brain, Cognition and Behaviour
+    url: https://www.linkedin.com/in/jeshua-tromp-769552157/
+    picture: people/external/Jeshua_Tromp.jpeg
+    email: j.tromp@donders.ru.nl
   - name: Marloes Groot
     position: Professor
     affiliation: VU University Amsterdam

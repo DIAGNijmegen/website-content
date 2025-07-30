@@ -3,7 +3,7 @@ name: Estelle Chanudet-van den Brink
 template: people-single
 picture: people/Estelle_Chanudet-van_den_Brink.jpg
 position: Project Leader
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: estelle.chanudet-vandenbrink@radboudumc.nl

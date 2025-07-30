@@ -5,7 +5,7 @@ type: general
 picture: projects/paradigm.jpg
 template: project-single
 groups: diag, rtc
-people: Keelin Murphy, Bram van Ginneken, Tessa Meuleman, Marc Spaanderman, Ajay Patel, Ward Hendrix
+people: Keelin Murphy, Bram van Ginneken, Tessa Meuleman, Marc Spaanderman, Ward Hendrix
 description: Determining the diagnostic potential of 3D ultrasound images acquired in the first trimester of pregnancy and analyzed with Artificial Intelligence
 bibkeys:
 
