@@ -21,6 +21,11 @@ This project will explore the application of image registration for universal le
 - Integrate the tracking results into our in-house universal lesions segmentation pipeline
 - Develop an improved version of the in-house registration model, focusing more on the diffeomorphism 
 
+## Dataset
+- This study is based on two large-scale longitudinal whole-body CT datasets
+- The internal dataset includes 591 pairs for training and 104 pairs for evaluation. The test set already contains labels for 14 anatomical structures verified by medical experts 
+- The public dataset can be downloaded from the AutoPET challenge, which includes keypoints for multiple lesions at different time points 
+
 ## Requirements
 - Master students with a major in computer science, artificial intelligence, mathematics, biomedical engineering, technical medicine, physics, or a related area in the final stage of master's studies
 - Experience with programming in Python
