@@ -1,6 +1,6 @@
 title: Automatic nodal staging in lung cancer patients with PET/CT imaging
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/NodalStaging.png
 template: vacancy-single
@@ -71,3 +71,4 @@ The Diagnostic Image Analysis Group (DIAG) at Radboudumc Nijmegen develops adv
 Currently, over 70 PhD candidates and postdoctoral researchers are working at DIAG, developing and validating an assortment of AI algorithms used for medical image analysis. As a research group, DIAG offers access to a range of curated datasets, a self-hosted high-performance compute cluster and a range of experienced an motivated colleagues. Joining this team for you internship offers hands-on experience in clinical AI research, collaboration across disciplines and exposure to scientific innovation with clinical impact.
 
 Visit our [website](https://www.diagnijmegen.nl/) for more information. 
+
