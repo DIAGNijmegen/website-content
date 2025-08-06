@@ -1,6 +1,6 @@
 title: Peritubular Capillary Segmentation in Kidney Transplant Biopsies
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc_ptc_highquality.png
 template: vacancy-single
