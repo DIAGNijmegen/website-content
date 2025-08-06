@@ -6,6 +6,7 @@ picture: vacancies/lesion_tracking.jpg
 template: vacancy-single
 people: Xuan Loc Pham, Alessa Hering
 description: Evaluation of multi-organ CT registration models for lesion tracking across timepoints
+date: 2025-08-06
 
 ## Clinical Motivation
 Image registration is the process of aligning two or more images to achieve pointwise spatial correspondence. By establishing spatial correspondences between multiple images, it aligns anatomical structures and facilitates the automatic quantification of findings in subsequent imaging examinations. This saves radiologists a significant amount of time while ensuring accurate and efficient patient care. 
