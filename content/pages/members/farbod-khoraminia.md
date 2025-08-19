@@ -3,7 +3,7 @@ name: Farbod Khoraminia
 template: people-single
 picture: people/Farbod_Khoraminia_Sophia.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: f.khoraminia@erasmusmc.nl
