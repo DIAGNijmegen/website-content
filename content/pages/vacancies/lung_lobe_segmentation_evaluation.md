@@ -1,6 +1,6 @@
 title: Lung Lobe Segmentation in CT imaging
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/LungLobeSegmentation.png
 template: vacancy-single
@@ -50,3 +50,4 @@ Evaluate recent open-source algorithms for lobe segmentation (i.e., TotalSegment
 - W. Xie, C. Jacobs, J.-P. Charbonnier and B. van Ginneken, "Relational Modeling for Robust and Efficient Pulmonary Lobe Segmentation in CT Scans," *IEEE Transactions on Medical Imaging*, vol. 39, no. 8, pp. 2664–2675, Aug. 2020. doi: [10.1109/TMI.2020.2995108](https://doi.org/10.1109/TMI.2020.2995108)
 
 - Doel, T., Gavaghan, D. J., & Grau, V. (2015). Review of automatic pulmonary lobe segmentation methods from CT. *Computerized Medical Imaging and Graphics*, 40, 13–29. https://doi.org/10.1016/j.compmedimag.2014.10.008
+
