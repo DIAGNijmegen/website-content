@@ -1,5 +1,5 @@
-title: Lena Pacnerová
-name: Lena Pacnerová
+title: Lenka Pacnerová
+name: Lenka Pacnerová
 template: people-single
 picture: people/Lenka_pacnerova.jpg
 position: PhD Candidate
