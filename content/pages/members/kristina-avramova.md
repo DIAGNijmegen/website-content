@@ -3,7 +3,7 @@ name: Kristina Avramova
 template: people-single
 picture: people/Kristina_Avramova.jpeg
 position: Bachelor Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: Kristina.Avramova@radboudumc.nl

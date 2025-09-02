@@ -3,7 +3,7 @@ name: Jente van Werven
 template: people-single
 picture: people/Jente_van_Werven.jpeg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Jente.vanWerven@radboudumc.nl

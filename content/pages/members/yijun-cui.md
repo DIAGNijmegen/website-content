@@ -3,7 +3,7 @@ name: Yijun Cui
 template: people-single
 picture: people/Yijun_Cui.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: y.cui2@student.vu.nl

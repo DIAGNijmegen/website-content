@@ -1,6 +1,6 @@
 title: Automating the R.E.N.A.L. score in patients with a renal cell carcinoma
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/RCCKidney.jpg
 template: vacancy-single
@@ -44,4 +44,5 @@ Develop and evaluate an enhanced version of the RENAL scoring system using AI-dr
 1.	A. Kutikov and R. G. Uzzo, “The R.E.N.A.L. nephrometry score: a comprehensive standardized system for quantitating renal tumor size, location and depth,” J. _Urol._, vol. 182, no. 3, pp. 844–853, Sep. 2009, doi: 10.1016/j.juro.2009.05.035.
 2.	N. Abdallah _et al._, “AI-generated R.E.N.A.L.+ score surpasses human-generated score in predicting renal oncologic outcomes.,” _Urology_, vol. 180, pp. 160–167, Oct. 2023, doi: 10.1016/j.urology.2023.07.017.
 3.	N. Heller _et al._, “Computer Generated R.E.N.A.L. Nephrometry Scores Yield Comparable Predictive Results to that of Human-Expert Scores in predicting oncologic and perioperative outcomes,” J. _Urol._, vol. 207, no. 5, pp. 1105–1115, May 2022, doi: 10.1097/JU.0000000000002390.
+
 

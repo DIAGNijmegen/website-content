@@ -1,5 +1,5 @@
 title: AMARA: Accurate malignancy risk estimation of pulmonary nodules using AI
-title\_long: AMARA: Accurate MAlignancy Risk estimation of incidentally and screen-detected pulmonary nodules using Artificial intelligence
+title_long: AMARA: Accurate MAlignancy Risk estimation of incidentally and screen-detected pulmonary nodules using Artificial intelligence
 finished: false
 type: general
 picture: projects/amara.png
@@ -30,4 +30,5 @@ We hypothesize that the final AI algorithm for nodule malignancy prediction and 
 ## Funding
 
 This research project is funded by the [Dutch Cancer Society](https://www.kwf.nl/en/english). The project is led by \[member/colin-jacobs] and is a collaboration with investigators from Radboudumc, University Medical Center Groningen, Erasmus MC, UMC Utrecht and MUMC+.
+
 

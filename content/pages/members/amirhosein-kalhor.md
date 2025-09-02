@@ -3,7 +3,7 @@ name: Amirhosein Kalhor
 template: people-single
 picture: people/Amirhosein_Kalhor.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: amirhosein.kalhor@studenti.unipd.it
