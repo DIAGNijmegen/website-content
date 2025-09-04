@@ -11,7 +11,7 @@
   {%- endif -%}
   <div>
     <small>
-      {% if 'abstract' in BIB_ITEMS[bibkey] and BIB_ITEMS[bibkey]['abstract']|lower != 'abstract unavailable' %}
+      {% if 'abstract' in BIB_ITEMS[bibkey] and 'abstract unavailable' not in BIB_ITEMS[bibkey]['abstract']|lower %}
         {% if ENABLE_PUBLICATION_PDF_REQUEST and 'file' in BIB_ITEMS[bibkey] %}
           <a class="badge badge-publication" href="{{- '/publications/%s'%bibkey -}}">Abstract/PDF</a>
         {% else %}
