@@ -3,7 +3,7 @@ name: Maschenka Balkenhol
 template: people-single
 picture: people/Maschenka_Balkenhol.jpg
 position: Pathologist and Postdoctoral Researcher
-active: yes
+active: no
 groups: pathology, diag
 default_group: pathology
 email: maschenka.balkenhol@radboudumc.nl
