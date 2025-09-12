@@ -1,6 +1,6 @@
 title: Prostate Radiology
 title_long: Prostate Radiology
-finished: false
+finished: true
 type: general
 picture: projects/prostate.jpg
 template: project-single
