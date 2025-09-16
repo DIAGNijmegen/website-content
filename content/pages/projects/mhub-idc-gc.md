@@ -1,5 +1,5 @@
 title: MHub/IDC/Grand Challenge algorithm exchange
-finished: true
+finished: false
 type: general
 description: A collaboration between Radboudumc, MHub, and Imaging Data Commons (IDC), aimed at exchanging algorithms and investigating interoperability regarding exchange of data and algorithms.  
 template: project-single
