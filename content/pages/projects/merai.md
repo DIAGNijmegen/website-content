@@ -1,12 +1,12 @@
 title: MERAI Lab: MeVis and Radboudumc ICAI Lab
-title_long: MERAI Lab: MeVis and Radboudumc ICAI Lab
+title\_long: MERAI Lab: MeVis and Radboudumc ICAI Lab
 finished: false
 type: general
-picture: projects/MERAI_lab_new_logo.png
+picture: projects/MERAI\_lab\_new\_logo.png
 template: project-single
 groups: diag
-people: Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Colin Jacobs, Mathias Prokop, Marianne Boenink, Mira Vegter
-description: MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions AG with the aim to create AI solutions in the lung oncology field. 
+people: Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Edwin John, Colin Jacobs, Mathias Prokop, Marianne Boenink, Mira Vegter
+description: MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions AG with the aim to create AI solutions in the lung oncology field.
 bibkeys: Obre25, Vita24, Graa24c, Obre24, Graa24b
 
 ## Background
@@ -19,7 +19,7 @@ Healthcare costs are globally rising. The workload of radiology departments has 
 
 The aims of MERAI Lab are covered in the video below:
 
-[youtube: wmsmLh10MrI]
+\[youtube: wmsmLh10MrI]
 
 Please also see the [MERAI Lab website](https://www.icai.ai/labs/merai-lab).
 
