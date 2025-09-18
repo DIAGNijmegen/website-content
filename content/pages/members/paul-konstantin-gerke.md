@@ -10,6 +10,7 @@ email: paul.gerke@radboudumc.nl
 office: Route 767, Room 27
 telephone:
 type: tech
+orcid: https://orcid.org/0000-0003-1473-5705
 
 Paul Konstantin Gerke is a Research Software Engineer in the [Diagnostic Image Analysis Group](http://diagnijmegen.nl/index.php/Home) at [Radboudumc](https://www.radboudumc.nl/en/research) in Nijmegen. He studied Artificial Intelligence at [Radboud University](http://www.ru.nl/english/) from 2006 to 2013 and specialized in the area of pattern recognition, computer vision, and robotics. He also has expertise in the area of 3D image synthesis and low-level programming (e.g. for microcontrollers).
 
