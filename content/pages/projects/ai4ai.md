@@ -26,9 +26,11 @@ The AI4AI project is harnessing artificial intelligence to make medical imaging 
 
 By enabling general practitioners, sonographers, and specialist nurses to use imaging tools effectively, we aim to reduce reliance on highly specialized experts. This shift brings diagnostics closer to patients, shortens waiting times, reduces unnecessary hospital visits, and ensures more targeted referrals.
 
-At DIAG, we specifically focus on developing robust AI solutions for ultrasound in pulmonary examinations.
+At DIAG, we work on use case G: Urgent Care Referral, specifically focusing on developing robust AI solutions for ultrasound in pulmonary examinations.
 Beyond technology development, we are also studying the global state of AI integration in healthcare systems, with a particular focus on low- and middle-income countries. 
 Our aim is to identify challenges, highlight opportunities, and present actionable recommendations for stakeholders at all levels; helping to maximize patient outcomes and ensure equitable access to the benefits of AI-driven healthcare.
+
+This project is being undertaken in collaboration with [Delft Imaging](https://delft.care/)
 
 # Funding
 AI4AI receives funding from the [Dutch Research Council (NWO)](https://www.nwo.nl/en/).
