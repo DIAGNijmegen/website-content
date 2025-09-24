@@ -1,7 +1,7 @@
 title: Edwin John
 name: Edwin John
 template: people-single
-picture: people/Edwin_John.png
+picture: people/Edwin_John.jpg
 position: Master Student
 active: yes
 groups: diag
