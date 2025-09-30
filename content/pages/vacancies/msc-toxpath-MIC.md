@@ -45,7 +45,8 @@ NR = Not Reported
 
 The research question is: 
 **Can AI-based segmentation models reliably detect and segment MIC clusters in rat liver slides from drug safety studies?**
-Which will be addressed through the following objectives: 
+Which will be addressed through the following objectives:
+
 - Benchmark existing nuclei segmentation and detection approaches on preclinical slides
 - Develop or adapt a model for MIC cluster segmentation
 - Validate performance against expert annotations using appropriate segmentation metrics (e.g., Dice, precision, recall)
