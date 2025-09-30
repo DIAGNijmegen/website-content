@@ -56,7 +56,7 @@ Examples of off-the-shelf approaches to start with include [Pathology-nnUnet](ht
 ## Data 
 
 We currently have segmentations of MIC clusters in 86 H&E-stained pathology slides and expect another 43 within a few weeks. Obtaining exhaustive manual contours for this problem is highly time-consuming, so we opted to get contours within subregions of the slides as shown in A. For each slide, the pathologists selected six 1 mm x 1 mm subregions, and in each searched exhaustively for MICs. As MICs tend to group in clusters, they created an annotation that contained the entire cluster as shown in B. Additionally, if a look-alike cell or cell cluster was identified, it was also annotated as a counter example. 
-![image](vacancies/msc-toxpath-MIC-2.png)
+![image]({{ IMGURL }}/images/vacancies/msc-toxpath-MIC-2.png)
 
 ## References
 
