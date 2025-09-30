@@ -29,7 +29,7 @@ This would directly accelerate drug development, improve patient safety, and con
 Inflammatory cell detection is an active research area in clinical pathology, particularly with AI models developed for the [TIGER challenge](https://tiger.grand-challenge.org/).
 In contrast, inflammation is under-explored in preclinical research.
 As summarized in the table below, a few studies have addressed automatic detection of inflammation and immune infiltration in preclinical pathology, but most stop at coarse-level analysis such as slide- or patch-level classification.
-The goal of this project is therefore to adapt clinical pathology approaches to create a **pixel-level MIC segmentation algorithm for preclinical pathology**.
+The goal of this project is therefore to adapt clinical pathology approaches to create a *pixel-level* MIC segmentation algorithm for *preclinical* pathology.
 
 |         Paper         |     Num    WSIs                             |     Animal    |              Organ           |     Target classes                             |     Performance                                           |
 |-----------------------|---------------------------------------------|---------------|------------------------------|------------------------------------------------|-----------------------------------------------------------|
@@ -44,7 +44,8 @@ NR = Not Reported
 ## Approach
 
 The research question is: 
-**Can AI-based segmentation models reliably detect and segment MIC clusters in rat liver slides from drug safety studies?**
+***Can AI-based segmentation models reliably detect and segment MIC clusters in rat liver slides from drug safety studies?***
+
 Which will be addressed through the following objectives:
 
 - Benchmark existing nuclei segmentation and detection approaches on preclinical slides
