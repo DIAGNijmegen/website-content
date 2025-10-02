@@ -1,6 +1,7 @@
 title: Rashindra Manniesing
 name: Rashindra Manniesing
 template: people-single
+picture: people/Rashindra_Manniesing.jpg
 position: Assistant Professor
 active: no
 groups: diag
