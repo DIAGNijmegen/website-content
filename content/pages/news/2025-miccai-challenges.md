@@ -15,12 +15,13 @@ Grand Challenge (GC) played a central role at the challenges organized at MICCAI
 Four challenges were successfully organized by DIAG members and collaborators:
 
 - [LUNA25 Challenge ](https://luna25.grand-challenge.org/) – organized by [member/dre-peeters], [member/bogdan-obreja], [member/noa-antonissen] and [member/colin-jacobs]
-- [UNICORN Lighthouse Challenge](https://unicorn.grand-challenge.org/) – [member/alessa-hering], [member/francesco-ciompi], [member/marina-damato], [member/joeran-bosma], [member/clement-grisi], [member/lena-philip],[member/judith-lefkes], [member/rianne-weber], [member/fennie-van-der-graaf], [member/luc-builtjes], and [member/michelle-stegeman]
-- [PANTHER Challenge](https://panther.grand-challenge.org/) – [member/amparo-betancourt_tarifa] and [member/peter-koopmans]
-- [CHIMERA Challenge](https://chimera.grand-challenge.org/) – [member/robert-spaans], [member/geert-litjens], [member/nadieh-khalili]. Co-organized by [member/catherine-chia], [member/farbod-khoraminia], [member/maryam-mohammadlou], Tahlita Zuiverloon, Jean-Paul van Basten, and Sita Vermeulen
+- [UNICORN Lighthouse Challenge](https://unicorn.grand-challenge.org/) – [member/alessa-hering], [member/francesco-ciompi], [member/marina-damato], [member/joeran-bosma], [member/clement-grisi], [member/lena-philipp], [member/judith-lefkes], [member/rianne-weber], [member/fennie-van-der-graaf], [member/luc-builtjes], and [member/michelle-stegeman]
+- [PANTHER Challenge](https://panther.grand-challenge.org/) – [member/amparo-betancourt-tarifa] and [member/peter-koopmans]
+- [CHIMERA Challenge](https://chimera.grand-challenge.org/) – organized by [member/robert-spaans], [member/geert-litjens], and [member/nadieh-khalili]. Co-organized by [member/catherine-chia], [member/farbod-khoraminia], [member/maryam-mohammadlou], Tahlita Zuiverloon, Jean-Paul van Basten, and Sita Vermeulen
 
 ## Successful DIAG challenge participation
 In addition, DIAG members contributed to other initiatives
+
 - Second-place place in _Task 2: Longitudinal CT screening_ of the [autoPET Challenge](https://autopet-iv.grand-challenge.org/timeline/) won by [member/niels-rocholl], [member/ewoud-smit], [member/rianne-weber], and [member/alessa-hering]
 - First-place on _Task 2: TrEATMENT RESPONSE PreDICTION_ in the [MAMA-MIA Challenge](https://www.ub.edu/mama-mia/challenge/) by [member/daan-schouten] 
 - First-place place on the [TrackRAD challenge](https://trackrad2025.grand-challenge.org/) by [member/amparo-betancourt_tarifa]
