@@ -25,6 +25,7 @@ Since May, we’ve had the pleasure of welcoming a number of new colleagues to D
  
  
 ## Big Achievements
+
 - We are proud to celebrate several outstanding achievements within DIAG over the past months:
 - Alessa Hering received the Fraunhofer ICT Dissertation Award 2024 for her PhD thesis on deep-learning-based image registration and tumor follow-up analysis.
 - A team of five DIAG/CPG members, Nefise Uysal, Clément Grisi, Geert Litjens, Catherine Chia, and Nadieh Khalili, successfully completed the Alpe d’HuZes challenge, together contributing to the €19 million raised for the Dutch Cancer Society.
