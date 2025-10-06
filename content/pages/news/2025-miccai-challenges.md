@@ -15,8 +15,8 @@ Grand Challenge (GC) played a central role at the challenges organized at MICCAI
 Four challenges were successfully organized by DIAG members and collaborators:
 
 - [LUNA25 Challenge ](https://luna25.grand-challenge.org/) – organized by [member/dre-peeters], [member/bogdan-obreja], [member/noa-antonissen] and [member/colin-jacobs]
-- [UNICORN Lighthouse Challenge](https://unicorn.grand-challenge.org/) – [member/alessa-hering], [member/francesco-ciompi], [member/marina-damato], [member/joeran-bosma], [member/clement-grisi], [member/lena-philipp], [member/judith-lefkes], [member/rianne-weber], [member/fennie-van-der-graaf], [member/luc-builtjes], and [member/michelle-stegeman]
-- [PANTHER Challenge](https://panther.grand-challenge.org/) – [member/amparo-betancourt-tarifa] and [member/peter-koopmans]
+- [UNICORN Lighthouse Challenge](https://unicorn.grand-challenge.org/) – organized by [member/alessa-hering], [member/francesco-ciompi], [member/marina-damato], [member/joeran-bosma], [member/clement-grisi], [member/lena-philipp], [member/judith-lefkes], [member/rianne-weber], [member/fennie-van-der-graaf], [member/luc-builtjes], and [member/michelle-stegeman]
+- [PANTHER Challenge](https://panther.grand-challenge.org/) – organized by [member/amparo-betancourt-tarifa] and [member/peter-koopmans]
 - [CHIMERA Challenge](https://chimera.grand-challenge.org/) – organized by [member/robert-spaans], [member/geert-litjens], and [member/nadieh-khalili]. Co-organized by [member/catherine-chia], [member/farbod-khoraminia], [member/maryam-mohammadlou], Tahlita Zuiverloon, Jean-Paul van Basten, and Sita Vermeulen
 
 ## Successful DIAG challenge participation
