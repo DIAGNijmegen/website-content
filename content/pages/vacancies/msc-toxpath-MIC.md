@@ -1,6 +1,4 @@
-title: Artificial Intelligence-Based Segmentation of Mononuclear Cell Infiltrates
-in Preclinical Toxicologic Pathology
-
+title: Artificial Intelligence-Based Segmentation of Mononuclear Cell Infiltrates in Preclinical Toxicologic Pathology
 groups: diag, pathology
 closed: false
 type: student
@@ -31,7 +29,7 @@ This would directly accelerate drug development, improve patient safety, and con
 Inflammatory cell detection is an active research area in clinical pathology, particularly with AI models developed for the [TIGER challenge](https://tiger.grand-challenge.org/).
 In contrast, inflammation is under-explored in preclinical research.
 As summarized in the table below, a few studies have addressed automatic detection of inflammation and immune infiltration in preclinical pathology, but most stop at coarse-level analysis such as slide- or patch-level classification.
-The goal of this project is therefore to adapt clinical pathology approaches to create a **pixel-level MIC segmentation algorithm for preclinical pathology**.
+The goal of this project is therefore to adapt clinical pathology approaches to create a *pixel-level* MIC segmentation algorithm for *preclinical* pathology.
 
 |         Paper         |     Num    WSIs                             |     Animal    |              Organ           |     Target classes                             |     Performance                                           |
 |-----------------------|---------------------------------------------|---------------|------------------------------|------------------------------------------------|-----------------------------------------------------------|
@@ -46,8 +44,10 @@ NR = Not Reported
 ## Approach
 
 The research question is: 
-**Can AI-based segmentation models reliably detect and segment MIC clusters in rat liver slides from drug safety studies?**
-Which will be addressed through the following objectives: 
+***Can AI-based segmentation models reliably detect and segment MIC clusters in rat liver slides from drug safety studies?***
+
+Which will be addressed through the following objectives:
+
 - Benchmark existing nuclei segmentation and detection approaches on preclinical slides
 - Develop or adapt a model for MIC cluster segmentation
 - Validate performance against expert annotations using appropriate segmentation metrics (e.g., Dice, precision, recall)
@@ -58,7 +58,7 @@ Examples of off-the-shelf approaches to start with include [Pathology-nnUnet](ht
 ## Data 
 
 We currently have segmentations of MIC clusters in 86 H&E-stained pathology slides and expect another 43 within a few weeks. Obtaining exhaustive manual contours for this problem is highly time-consuming, so we opted to get contours within subregions of the slides as shown in A. For each slide, the pathologists selected six 1 mm x 1 mm subregions, and in each searched exhaustively for MICs. As MICs tend to group in clusters, they created an annotation that contained the entire cluster as shown in B. Additionally, if a look-alike cell or cell cluster was identified, it was also annotated as a counter example. 
-![image](vacancies/msc-toxpath-MIC-2.png)
+![image]({{ IMGURL }}/images/vacancies/msc-toxpath-MIC-2.png)
 
 ## References
 

@@ -1,6 +1,6 @@
 title: Automatic quantification of traumatic brain injuries
 title_long: Automatic quantification of traumatic brain injuries
-finished: false
+finished: true
 type: general
 picture: projects/tbi.jpg
 template: project-single
