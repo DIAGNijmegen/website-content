@@ -2,10 +2,14 @@ title: Monthly DIAG News – We are back - September
 date: 2025-10-01
 picture: news/monthly_news2.png
 groups: diag
-description: After a short summer break, we’re back with a fresh edition of the DIAG newsletter! In this issue, we’re excited to walk you through the highlights of the past weeks: welcoming many new members to our group, celebrating recent PhD defenses, and sharing our latest scientific publications. Most importantly, we’re happy to reconnect and keep you up to date with everything happening at DIAG.
+description: Welcome to the after-summer edition of the Diagnostic Image Analysis Group's monthly news update!
  
+
+After a short summer break, we’re back with a fresh edition of the DIAG newsletter! In this issue, we’re excited to walk you through the highlights of the past weeks: welcoming many new members to our group, celebrating recent PhD defenses, and sharing our latest scientific publications. Most importantly, we’re happy to reconnect and keep you up to date with everything happening at DIAG.
+
 ## New DIAG members
 Since May, we’ve had the pleasure of welcoming a number of new colleagues to DIAG.
+
 - [member/paul-zimmer]
 - [member/edwin-john]
 - [member/filip-winzell]
@@ -21,11 +25,11 @@ Since May, we’ve had the pleasure of welcoming a number of new colleagues to D
  
  
 ## Big Achievements
-We are proud to celebrate several outstanding achievements within DIAG over the past months:
-Alessa Hering received the Fraunhofer ICT Dissertation Award 2024 for her PhD thesis on deep-learning-based image registration and tumor follow-up analysis.
-A team of five DIAG/CPG members, Nefise Uysal, Clément Grisi, Geert Litjens, Catherine Chia, and Nadieh Khalili, successfully completed the Alpe d’HuZes challenge, together contributing to the €19 million raised for the Dutch Cancer Society.
-Francesco Ciompi was awarded an Academic Medical Network grant to support the ENDO-AID 2.0 project, advancing AI-assisted diagnosis of endometrial pathology.
-Henkjan Huisman was appointed Full Professor of AI Guided Imaging at Radboudumc, recognizing his leadership in developing trustworthy AI for healthcare.
+- We are proud to celebrate several outstanding achievements within DIAG over the past months:
+- Alessa Hering received the Fraunhofer ICT Dissertation Award 2024 for her PhD thesis on deep-learning-based image registration and tumor follow-up analysis.
+- A team of five DIAG/CPG members, Nefise Uysal, Clément Grisi, Geert Litjens, Catherine Chia, and Nadieh Khalili, successfully completed the Alpe d’HuZes challenge, together contributing to the €19 million raised for the Dutch Cancer Society.
+- Francesco Ciompi was awarded an Academic Medical Network grant to support the ENDO-AID 2.0 project, advancing AI-assisted diagnosis of endometrial pathology.
+- Henkjan Huisman was appointed Full Professor of AI Guided Imaging at Radboudumc, recognizing his leadership in developing trustworthy AI for healthcare.
  
 ## Highlighted publications
 Last months the following papers were published!
