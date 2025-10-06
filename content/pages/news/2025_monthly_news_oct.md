@@ -6,19 +6,18 @@ description: After a short summer break, we’re back with a fresh edition of th
  
 ## New DIAG members
 Since May, we’ve had the pleasure of welcoming a number of new colleagues to DIAG.
-[member/paul-zimmer]
-[member/Edwin_John]
-[member/filip-winzell]
-[member/einab-rahmanifard]
-[member/janneke-lukkezen]
-[member/lenka-pacnerova]
-[member/adam-farrag]
-[member/manon-leijser]
-[member/mika-klepper]
-[member/ivana-rovers]
-[member/pedro-mateus]
-[member/tongjie-wang]
-[member/felix-pettai]
+- [member/paul-zimmer]
+- [member/edwin-john]
+- [member/filip-winzell]
+- [member/janneke-lukkezen]
+- [member/lenka-pacnerova]
+- [member/adam-farrag]
+- [member/manon-leijser]
+- [member/mika-klepper]
+- [member/ivana-rovers]
+- [member/pedro-mateus]
+- [member/tongjie-wang]
+- [member/felix-pettai]
  
  
 ## Big Achievements
