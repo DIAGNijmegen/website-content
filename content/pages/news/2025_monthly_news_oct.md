@@ -46,4 +46,5 @@ Last months the following papers were published!
 > **"External Test of a Deep Learning Algorithm for Pulmonary Nodule Malignancy Risk Stratification Using European Screening Data."** - N. Antonissen, K.V. Venkadesh, R. Dinnessen, E. Scholten, Z. Saghir, M. Silva, U. Pastorino, G. Sidorenkov, M. Heuvelmans, G. H. de Bock, F. M. Mohamed Hoesein, P. D. de Jong, H. Groen, R. Vliegenthart, H. Gietema, M. Prokop, Cornelia M Schaefer-Prokop, C. Jacobs; Radiology
 
 > **"Artificial intelligence-based identification of thin-cap fibroatheromas and clinical outcomes: the PECTUS-AI study."** - R. Volleberg, T.J. Luttikholt, R.G.A. van der Waerden, P. Cancian, J.L. van der Zande, X. Gu, J. Mol, T. Roleder, M. Prokop, C.I. Sánchez, B. van Ginneken, I. Išgum, S. Saitta, J. Thannhauser, N. van Royen; European heart journal
+
 > **"Post-mortem 11.7 T DTI validation of myeloarchitectural changes in glioblastoma infiltration: Correlation with histology and PLI."** - R. van den Elshout, J. Schoenmakers, A. Veltien, L. Boer, B. Küsters, G. Litjens, F.A. Meijer, A. van der Kolk, T. Scheenen, M. Wiesmann, D. Henssen; Brain research bulletin
