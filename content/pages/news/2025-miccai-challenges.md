@@ -20,11 +20,11 @@ Four challenges were successfully organized by DIAG members and collaborators:
 - [CHIMERA Challenge](https://chimera.grand-challenge.org/) – organized by [member/robert-spaans], [member/geert-litjens], and [member/nadieh-khalili]. Co-organized by [member/catherine-chia], [member/farbod-khoraminia], [member/maryam-mohammadlou], Tahlita Zuiverloon, Jean-Paul van Basten, and Sita Vermeulen
 
 ## Successful DIAG challenge participation
-In addition, DIAG members contributed to other initiatives
+In addition, DIAG members contributed to other initiatives:
 
-- Second-place place in _Task 2: Longitudinal CT screening_ of the [autoPET Challenge](https://autopet-iv.grand-challenge.org/timeline/) won by [member/niels-rocholl], [member/ewoud-smit], [member/rianne-weber], and [member/alessa-hering]
-- First-place on _Task 2: TrEATMENT RESPONSE PreDICTION_ in the [MAMA-MIA Challenge](https://www.ub.edu/mama-mia/challenge/) by [member/daan-schouten] 
-- First-place place on the [TrackRAD challenge](https://trackrad2025.grand-challenge.org/) by [member/amparo-betancourt-tarifa]
+- Second-place in _Task 2: Longitudinal CT screening_ of the [autoPET Challenge](https://autopet-iv.grand-challenge.org/timeline/) won by [member/niels-rocholl], [member/ewoud-smit], [member/rianne-weber], and [member/alessa-hering]
+- First-place in _Task 2: TrEATMENT RESPONSE PreDICTION_ in the [MAMA-MIA Challenge](https://www.ub.edu/mama-mia/challenge/) by [member/daan-schouten] 
+- First-place in the [TrackRAD challenge](https://trackrad2025.grand-challenge.org/) by [member/amparo-betancourt-tarifa]
 
 
 ![MICCAI]({{ IMGURL }}/images/news/miccai2025_challenge_winners.jpg)
