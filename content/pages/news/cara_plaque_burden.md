@@ -1,8 +1,8 @@
-Title: New study shows that OCT-AID can assess plaque burden on OCT
-Date: 2025-10-16
-Description: A new CARA Lab study demonstrates that OCT-AID can accurately quantify plaque burden from intracoronary OCT images, showing strong agreement with IVUS measurements.
-Picture: news/cara_plaque_burden.png
-Groups: cara-lab
+title: New study shows that OCT-AID can assess plaque burden on OCT
+date: 2025-10-16
+description: A new CARA Lab study demonstrates that OCT-AID can accurately quantify plaque burden from intracoronary OCT images, showing strong agreement with IVUS measurements.
+picture: news/cara_plaque_burden.png
+groups: cara-lab
 
 A recent study, led by [member/rick-volleberg] conducted in collaboration with the OPCI core laboratory and St. Francis Hospital & Heart Center, demonstrates that [OCT-AID](https://academic.oup.com/ehjdh/article/6/3/404/8078941), our AI-based algorithm for automated OCT vessel segmentation, can accurately assess plaque burden from intracoronary OCT images.
 
