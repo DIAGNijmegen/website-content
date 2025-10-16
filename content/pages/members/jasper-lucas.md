@@ -5,7 +5,7 @@ picture: people/Jasper_Lucas.png
 groups: diag, cara-lab 
 position: MSc Student, MSc Student
 type: student, student
-active: no
+active: yes
 default_group: diag 
 office: Route 616, CARA Lab
 email: jasper.lucas@radboudumc.nl
