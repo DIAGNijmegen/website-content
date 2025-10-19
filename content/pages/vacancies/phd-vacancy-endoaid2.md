@@ -58,7 +58,7 @@ Upon commencement of employment we require a certificate of conduct (Verklaring 
 Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl/en/working-at/what-do-we-offer/terms-and-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
 ## Application
-The vacancy is not offically open yet and we expect it to be opened before October 30. If you are interested, please send an email with title "ENDOAID2-PhD-vacancy" to francesco.ciompi@radboudumc and l.v.d.putten@jbz.nl attaching your CV and motivation letter.
+The vacancy is not offically open yet and we expect it to be opened before October 30. If you are interested, please send an email with title "ENDOAID2-PhD-vacancy" to francesco.ciompi@radboudumc.nl and l.v.d.putten@jbz.nl attaching your CV and motivation letter.
 We will update this page as soon as the official vacancy is available.
 Job interviews will be done in November - early December 2025.
 We aim at starting the project in January 2026.
