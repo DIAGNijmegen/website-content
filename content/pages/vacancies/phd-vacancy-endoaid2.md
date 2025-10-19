@@ -14,15 +14,7 @@ Currently, over 2,000 endometrial biopsies are evaluated annually at the Radboud
 When tumor is detected, it requires assessment of tumor grade, histological type and classification at molecular level, which are required for risk stratification and treatment planning. Some of these techniques are expensive and often not beneficial in low-risk EC.
 Recently, we developed ENDOmetrial biopsy Artificial Intelligence assisted Diagnosis (ENDO-AID), a proof-of-concept artificial intelligence algorithm that differentiates between benign and (pre)malignant histology, to aid pathologists and gynecologists in endometrial pathology diagnosis and treatment. 
 
-You will join a multidisciplinary team of AI experts, pathologists and gynecologists working across JBZ and Radboudumc, in a research project funded by the [Junior Researcher Grant](https://www.radboudumc.nl/en/research/news/news-items-by-our-research-institute/2025/three-grants-for-junior-researchers-radboudumc-academic-medical-network) joint initiative to address the aforementioned gaps. In this project, you will build novel AI models for automated detection, diagnosis and grading of endometrial pathology biopsies, focusing on the following objectives:
-* Build and curate a large multi-centric (digital) collection of endometrial biopsies, including clinical, molecular and follow-up data.
-* Build ENDO-AID 2.0 to:
-  - Differentiate between benign and (pre)malignant histology when trained with larger multi-centric data, compared to the previous ENDO-AID model.
-  - Recognize tumor grade and histological type
-  - Predict oncological outcome such as patient survival.
-  - Predict molecular subtype.
-  - Validate the updated model in external international cohorts.
-
+You will join a multidisciplinary team of AI experts, pathologists and gynecologists working across JBZ and Radboudumc, in a research project funded by the [Junior Researcher Grant](https://www.radboudumc.nl/en/research/news/news-items-by-our-research-institute/2025/three-grants-for-junior-researchers-radboudumc-academic-medical-network) joint initiative to address the aforementioned gaps. In this project, you will build novel AI models for automated detection, diagnosis and grading of endometrial pathology biopsies, focusing on the following objectives: 1) Build and curate a large multi-centric (digital) collection of endometrial biopsies, including clinical, molecular and follow-up data. 2) Build ENDO-AID 2.0 to: a) Differentiate between benign and (pre)malignant histology when trained with larger multi-centric data, compared to the previous ENDO-AID model. b) Recognize tumor grade and histological type. c) Predict oncological outcome such as patient survival. d) Predict molecular subtype. e) Validate the updated model in external international cohorts.
 
 ## Tasks and responsibilities
 * Work with weakly- and self-supervised learning techniques to build AI models for detection and classification of endometrial biopsies with large-scale training data. 
@@ -33,19 +25,8 @@ You will join a multidisciplinary team of AI experts, pathologists and gynecolog
 * Collaborate with pathologists and (inter)national researchers to validate your developed algorithms in large cohorts. 
 * Have fun interactions with colleagues, present at local and (inter)national conferences, and develop yourself as an independent researcher. 
 
-
 ## Profile
 You are a creative and ambitious researcher with an MSc degree in Technical Medicine, Biomedical Sciences, Data Sciences or similar, with a clear interest in artificial intelligence and medical image analysis. Good communication and organizational skills are essential. Experience with deep learning and programming, preferably in Python, should be evident from the (online) courses you have followed, your publications, GitHub account, etc. Experience with histopathology and proficiency in Dutch language are a plus.
-  
-## We offer
-- An exciting position across two Dutch Medical Centers (JBZ and Radboudumc). At Radboudumc, you will be part of one of Europe's largest research groups in [Computational Pathology](https://www.computationalpathologygroup.eu/).
-- An international work environment with an informal atmosphere.
-- 4-year contract of 36 hours per week (full time).
-- Salary scale 10A.
-- An annual vacation allowance of 8% and you will receive an end-of-year bonus of 8.3%.
-- 176 vacation hours (over 23 days) per year.
-- 70% coverage of the pension premium by Radboudumc. You pay the rest of the premium with your gross salary.
-- A discount on health insurance.
 
 ## Organisation
 The Jeroen Bosch Hospital is a topclinical hospital with 648 beds and over 4.500 employees. We stand for Positive Health, and our care is aimed at improving health and well-being of the people living in our region. This of course includes our employees. You can read more about our strategy in the [JBZ magazine](https://magazine.jeroenboschziekenhuis.nl/zorg-voor-jou/). At the department of Gynecology & Obstetrics we specialize in a wide variety of conditions, caring for women in every stage of life. We have expertise in all subspecialties (oncology, obstetrics, fertility, urogynecology and general gynecology) and collaborate with many different health providers, like pathologists, surgeons, urologists, (intervention) radiologists, physiotherapists, and dieticians. 
