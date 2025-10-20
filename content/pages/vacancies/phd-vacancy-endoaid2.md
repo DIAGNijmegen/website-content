@@ -8,13 +8,11 @@ template: vacancy-single
 description: PhD position for developing AI-based detection and grading of endometrial carcinoma
 
 ## Background
-Abnormal and postmenopausal uterine bleeding are a frequently occurring symptom in daily clinical practice. Around 10% of these patients have an endometrial (pre)malignancy. 
-On indication, an endometrial biopsy is taken to undergo microscopic assessment of histological tissue sections by pathologists. This is one of the cornerstones of diagnostics and of treatment decision making for patients: every day, pathologists detect and classify tissue patterns, estimate the proportion of certain types of patterns to derive biomarkers, and produce a textual report of their findings and their final diagnosis. 
-Currently, over 2,000 endometrial biopsies are evaluated annually at the Radboud University Medical Center (Radboudumc) and the Jeronimus Bosch Ziekenhuis (JBZ) pathology laboratories, causing substantial workload. Moreover, low tissue yield of biopsies results in interobserver variability when assessing premalignancies.
-When tumor is detected, it requires assessment of tumor grade, histological type and classification at molecular level, which are required for risk stratification and treatment planning. Some of these techniques are expensive and often not beneficial in low-risk EC.
-Recently, we developed ENDOmetrial biopsy Artificial Intelligence assisted Diagnosis (ENDO-AID), a proof-of-concept artificial intelligence algorithm that differentiates between benign and (pre)malignant histology, to aid pathologists and gynecologists in endometrial pathology diagnosis and treatment. 
+Abnormal and postmenopausal uterine bleeding are common symptoms; about 10% of these patients have endometrial (pre)malignancy. Pathologists diagnose this by microscopically assessing endometrial biopsies, a cornerstone of treatment planning. This involves detecting patterns, estimating proportions, and reporting.
+Currently, high workloads (over 2,000 biopsies annually at Radboud University Medical Center (Radboudumc) and the Jeronimus Bosch Ziekenhuis (JBZ)) and interobserver variability due to low tissue yield are significant challenges. When tumors are found, assessment requires grading, typing, and molecular classification, which can be expensive and often not beneficial for low-risk EC.
+We recently developed ENDOmetrial biopsy Artificial Intelligence assisted Diagnosis (ENDO-AID), an AI algorithm proof-of-concept that differentiates benign from (pre)malignant histology, to aid pathologists and gynecologists in diagnosis and treatment. In this project, we will advance ENDOI-AID to its next level.
 
-You will join a multidisciplinary team of AI experts, pathologists and gynecologists working across JBZ and Radboudumc, in a research project funded by the [Junior Researcher Grant](https://www.radboudumc.nl/en/research/news/news-items-by-our-research-institute/2025/three-grants-for-junior-researchers-radboudumc-academic-medical-network) joint initiative to address the aforementioned gaps. In this project, you will build novel AI models for automated detection, diagnosis and grading of endometrial pathology biopsies, focusing on the following objectives: 1) Build and curate a large multi-centric (digital) collection of endometrial biopsies, including clinical, molecular and follow-up data. 2) Build ENDO-AID 2.0 to: a) Differentiate between benign and (pre)malignant histology when trained with larger multi-centric data, compared to the previous ENDO-AID model. b) Recognize tumor grade and histological type. c) Predict oncological outcome such as patient survival. d) Predict molecular subtype. e) Validate the updated model in external international cohorts.
+You will join a multidisciplinary team of AI experts, pathologists and gynecologists working across JBZ and Radboudumc. In this project, you will primarily be located in the Radboudumc Computational Pathology Group to build novel AI models for automated detection, diagnosis and grading of endometrial pathology biopsies, focusing on the following objectives: 1) Build and curate a large multi-centric (digital) collection of endometrial biopsies, including clinical, molecular and follow-up data. 2) Build ENDO-AID 2.0 to: a) Differentiate between benign and (pre)malignant histology when trained with larger multi-centric data, compared to the previous ENDO-AID model. b) Recognize tumor grade and histological type. c) Predict oncological outcome such as patient survival. d) Predict molecular subtype. e) Validate the updated model in external international cohorts.
 
 ## Tasks and responsibilities
 * Work with weakly- and self-supervised learning techniques to build AI models for detection and classification of endometrial biopsies with large-scale training data. 
@@ -43,7 +41,3 @@ The vacancy is not offically open yet and we expect it to be opened before Octob
 We will update this page as soon as the official vacancy is available.
 Job interviews will be done in November - early December 2025.
 We aim at starting the project in January 2026.
-
-
-
-
