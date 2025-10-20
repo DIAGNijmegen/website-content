@@ -1,5 +1,5 @@
 title: DIAG Workshops at MICCAI 2025
-date: 2020-10-20
+date: 2025-10-07
 description: Highlights at MICCAI 2025 in Daejeon, South Korea
 picture: news/2025-miccai-workshops.jpg
 groups: diag
