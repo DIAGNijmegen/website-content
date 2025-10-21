@@ -114,7 +114,6 @@ DIRECT_TEMPLATES = ["index", "archives", "sitemap"]
 ARTICLE_EXCLUDES = ['templates']
 TEMPLATE_PAGES = {
     'templates/homepage.html': 'index.html',
-    'templates/courses.html': 'courses.html',
 }
 
 # Plugins
