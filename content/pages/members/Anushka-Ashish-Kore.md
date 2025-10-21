@@ -1,6 +1,6 @@
-title: 
+title: Anushka Ashish Kore
 name: Anushka Ashish Kore
-template: Anushka Ashish Kore
+template: people-single
 picture: people/Anushka_Ashish_Kore.jpg
 position: Research Scientist RTC AI
 active: yes
