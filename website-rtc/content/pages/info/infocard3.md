@@ -28,5 +28,5 @@ This course is a must for:
 -  Anyone believing there is more potential in healthcare data than is currently being exploited.
 - Anyone interested in understanding the possibilities and limitations of using artificial intelligence to improve healthcare.
    
-More information can be found below.
+More information can be found in the [Online Learning Environment](https://radboudumc.capp12.nl/recourses/1515/).
 
