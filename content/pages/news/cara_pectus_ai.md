@@ -4,7 +4,7 @@ description: On Monday, September 1st 2025, Rick Volleberg presented our latest 
 picture: news/cara_pectus_ai.png 
 groups: cara-lab
 
-The PECTUS-AI study, led by [member/rick-volleberg] and [member/thijs-luttikholt], we performed a secondary analysis of the prospective observational PECTUS-obs trial, investigated whether artificial intelligence (AI) can be used to identify thin-cap fibroatheromas (TCFA)—a high-risk plaque feature linked to adverse outcomes. Traditionally, TCFA detection with OCT requires expert readers and is time-consuming, limiting its clinical applicability.
+In the PECTUS-AI study, led by [member/rick-volleberg] and [member/thijs-luttikholt], we performed a secondary analysis of the prospective observational PECTUS-obs trial, and investigated whether artificial intelligence (AI) can be used to identify thin-cap fibroatheromas (TCFA)—a high-risk plaque feature linked to adverse outcomes. Traditionally, TCFA detection with OCT requires expert readers and is time-consuming, limiting its clinical applicability.
 
 In this study, OCT images from 413 patients with myocardial infarction were analyzed using both an independent core laboratory (CL-TCFA) and OCT-AID, our validated AI segmentation algorithm (AI-TCFA). At two years follow-up, AI-TCFA in target lesions was significantly associated with the composite primary outcome of death, non-fatal myocardial infarction, or unplanned revascularization. Importantly, AI-based assessment of the complete OCT pullback showed an even stronger prognostic value, with a negative predictive value of nearly 98%.
 
