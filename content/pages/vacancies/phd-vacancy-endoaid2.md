@@ -44,7 +44,7 @@ Upon commencement of employment we require a certificate of conduct (Verklaring 
 Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl/en/working-at/what-do-we-offer/terms-and-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
 ## Application
-TYou can apply for this position via the JBZ website at this link, before November 10, 2025.
+You can apply for this position via the JBZ website at [this link](https://vacatures.jeroenboschziekenhuis.nl/ad/promotieonderzoek-artificial-intelligence-to-improve-detection-and-treatment-of/szsahl/nl), before November 10, 2025.
 Would like to know more about the poisition? Please contact francesco.ciompi@radboudumc.nl and l.v.d.putten@jbz.nl.
 Job interviews will be done in November - early December 2025.
 We aim at starting the project in January 2026.
