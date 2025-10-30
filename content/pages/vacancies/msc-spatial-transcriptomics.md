@@ -1,6 +1,6 @@
 title: Artificial intelligence to integrate histopathological images and transcriptomics
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc-spatial-transcriptomics.png
 template: vacancy-single
