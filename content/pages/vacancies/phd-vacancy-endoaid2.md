@@ -24,7 +24,14 @@ You will join a multidisciplinary team of AI experts, pathologists and gynecolog
 * Have fun interactions with colleagues, present at local and (inter)national conferences, and develop yourself as an independent researcher. 
 
 ## Profile
-You are a creative and ambitious researcher with an MSc degree in Technical Medicine, Biomedical Sciences, Data Sciences or similar, with a clear interest in artificial intelligence and medical image analysis. Good communication and organizational skills are essential. Experience with deep learning and programming, preferably in Python, should be evident from the (online) courses you have followed, your publications, GitHub account, etc. Experience with histopathology and proficiency in Dutch language are a plus.
+You are a creative and ambitious researcher with an MSc degree in Technical Medicine, Biomedical Sciences, Data Sciences or similar, with a clear interest in artificial intelligence and medical image analysis. We also welcome applications from individuals with a medical degree and (demonstrable) experience with programming and/or AI. Good communication and organizational skills are essential. Experience with deep learning and programming, preferably in Python, should be evident from the (online) courses you have followed, your publications, GitHub account, etc. Experience with histopathology and proficiency in Dutch language are a plus.
+
+## What do we offer?
+* A challenging work environment at two major hospitals and one of the largest European research groups in Computational Pathology.
+* A four-year contract for 36 hours per week.
+* Grading in job category 50 with a salary between €3,329 and €4,723 (based on a 36-hour workweek).
+* Year-end bonus and 8.33% holiday allowance.
+* Travel allowance.
 
 ## Organisation
 The Jeroen Bosch Hospital is a topclinical hospital with 648 beds and over 4.500 employees. We stand for Positive Health, and our care is aimed at improving health and well-being of the people living in our region. This of course includes our employees. You can read more about our strategy in the [JBZ magazine](https://magazine.jeroenboschziekenhuis.nl/zorg-voor-jou/). At the department of Gynecology & Obstetrics we specialize in a wide variety of conditions, caring for women in every stage of life. We have expertise in all subspecialties (oncology, obstetrics, fertility, urogynecology and general gynecology) and collaborate with many different health providers, like pathologists, surgeons, urologists, (intervention) radiologists, physiotherapists, and dieticians. 
@@ -37,7 +44,7 @@ Upon commencement of employment we require a certificate of conduct (Verklaring 
 Read more about the [Radboudumc employment conditions](https://www.radboudumc.nl/en/working-at/what-do-we-offer/terms-and-conditions) and what our [International Office](https://www.radboudumc.nl/en/working-at/international-office) can do for you when moving to the Netherlands.
 
 ## Application
-The vacancy is not offically open yet and we expect it to be opened before October 30. If you are interested, please send an email with title "ENDOAID2-PhD-vacancy" to francesco.ciompi@radboudumc.nl and l.v.d.putten@jbz.nl attaching your CV and motivation letter.
-We will update this page as soon as the official vacancy is available.
+TYou can apply for this position via the JBZ website at this link, before November 10, 2025.
+Would like to know more about the poisition? Please contact francesco.ciompi@radboudumc.nl and l.v.d.putten@jbz.nl.
 Job interviews will be done in November - early December 2025.
 We aim at starting the project in January 2026.
