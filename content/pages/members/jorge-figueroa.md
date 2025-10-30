@@ -3,7 +3,7 @@ name: Jorge Figueroa
 template: people-single
 picture: people/Jorge_Figueroa.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: jorge.figueroa.triana@gmail.com
