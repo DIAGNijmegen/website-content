@@ -33,4 +33,4 @@ To be eligible, proposed projects must meet the following criteria:
 
 ## Questions?
 For inquiries about project suitability or proposal preparation, please contact:  
-**RTC AI** – rtcai@radboudumc.nl
+**RTC AI** – [rtcai@radboudumc.nl](mailto:rtcai@radboudumc.nl)
