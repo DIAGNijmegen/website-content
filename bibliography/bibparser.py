@@ -81,7 +81,7 @@ def sort_bib_keys_author(author_bib_keys, bib_items):
     return bib_items_per_author_per_date
 
 
-def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers, bibfile):
+def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers, bibfile, include_all_publications=True):
     _types = [
         "article",
         "preprint",
@@ -96,6 +96,8 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers, bibfile):
     groups = []
     publication_types = set()
     group_keys = {}
+
+    # First, collect publications from researchers (member-authored publications)
     for researcher, keys in author_bib_keys.items():
         # set group if not set
         for group in list_researchers[researcher][1]:
@@ -103,6 +105,32 @@ def sort_bib_keys_group(author_bib_keys, bib_items, list_researchers, bibfile):
                 groups.append(group)
             bib_items_per_group_per_date.setdefault(group, {})
             group_keys.setdefault(group, set()).update(keys)
+
+    # If include_all_publications is True, add ALL publications to the appropriate groups
+    if include_all_publications:
+        # Determine which groups should get all publications based on bibfile
+        target_groups = []
+        if bibfile == 'cara':
+            target_groups = [g for g in groups if g == 'cara-lab']
+        else:  # diag
+            target_groups = [g for g in groups if g != 'cara-lab']
+
+        # If no target groups found, use a default based on bibfile
+        if not target_groups:
+            if bibfile == 'cara':
+                target_groups = ['cara-lab']
+            else:
+                target_groups = ['diag', 'pathology', 'anes']
+
+        # Add all publications to target groups
+        for group in target_groups:
+            if group not in groups:
+                groups.append(group)
+            bib_items_per_group_per_date.setdefault(group, {})
+            group_keys.setdefault(group, set())
+            # Add all publication keys
+            for bib_key in bib_items.keys():
+                group_keys[group].add(bib_key)
 
     # compute all years per group
     for group in groups:

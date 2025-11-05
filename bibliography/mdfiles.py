@@ -127,50 +127,62 @@ def create_author_md_files(bibfile, bib_items_per_author_per_date, list_research
 def create_publication_md(bibfile, bib_items, bib_items_per_author_per_date, list_researchers):
     '''
     Create md file for every publication in: './content/pages/publications/'
+    Now creates files for ALL publications, not just those with member authors
     '''
     for bib_key, bib_item in bib_items.items():
 
         diag_authors = []
         groups = set()
+
+        # Check if this publication has any member authors
+        has_member_author = False
         for name, bib_keys_per_date in bib_items_per_author_per_date.items():
             for year, bib_keys in bib_keys_per_date.items():
-                for bkey in bib_keys:
-                    if bib_key == bkey:
-                        diag_authors.append(name)
-                        for group in list_researchers[name][1]:
-                            if (group == 'cara-lab' and bibfile == 'cara') or (group != 'cara-lab' and bibfile == 'diag'):
-                                groups.add(group)
+                if isinstance(year, int) and bib_key in bib_keys:
+                    has_member_author = True
+                    diag_authors.append(name)
+                    for group in list_researchers[name][1]:
+                        if (group == 'cara-lab' and bibfile == 'cara') or (group != 'cara-lab' and bibfile == 'diag'):
+                            groups.add(group)
 
-                        md_string = 'title: ' + bib_item['title'] + '\n'
-                        md_string += 'authors: ' + bib_item['authors'] + '\n'
-                        md_string += 'has_pdf: True \n' if 'file' in bib_item else 'has_pdf: False \n'
-                        md_string += 'bibkey: ' + bib_key + '\n'
-                        md_string += 'groups: ' + ','.join(groups) + '\n'
-                        md_string += 'booktitle: NA \n' if 'booktitle' not in bib_item else 'booktitle: ' + \
-                            bib_item['booktitle'] + '\n'
-                        md_string += 'year: NA \n' if 'year' not in bib_item else 'year: ' + \
-                            str(bib_item['year']) + '\n'
-                        md_string += 'doi: NA \n' if 'doi' not in bib_item else 'doi: ' + \
-                            bib_item['doi'] + '\n'
+        # If no member authors found, assign to default groups based on bibfile
+        if not groups:
+            if bibfile == 'cara':
+                groups.add('cara-lab')
+            else:
+                # For diag bibfile, add to relevant groups
+                groups.update(['diag', 'pathology', 'anes'])
 
-                        if bib_item['type'] == 'phdthesis':
-                            md_string += 'template: publication-thesis\n'
-                            # TODO this is a hardcode capital first letter of bibkey
-                            cover_path = bib_key[0].title() + bib_key[1:] + '.png'
-                            md_string += 'coverpng: ' + cover_path + '\n'
-                            for k in 'promotor', 'copromotor', 'school', 'optmonth':
-                                if k in bib_item:
+        # Create markdown string for publication
+        md_string = 'title: ' + bib_item['title'] + '\n'
+        md_string += 'authors: ' + bib_item['authors'] + '\n'
+        md_string += 'has_pdf: True \n' if 'file' in bib_item else 'has_pdf: False \n'
+        md_string += 'bibkey: ' + bib_key + '\n'
+        md_string += 'groups: ' + ','.join(groups) + '\n'
+        md_string += 'booktitle: NA \n' if 'booktitle' not in bib_item else 'booktitle: ' + \
+            bib_item['booktitle'] + '\n'
+        md_string += 'year: NA \n' if 'year' not in bib_item else 'year: ' + \
+            str(bib_item['year']) + '\n'
+        md_string += 'doi: NA \n' if 'doi' not in bib_item else 'doi: ' + \
+            bib_item['doi'] + '\n'
 
-                                    md_string += k + ': ' + bib_item[k] + '\n'
-                            if 'url' in bib_item:
-                                md_string += 'urlweb: ' + bib_item['url'] + '\n'
-                        else:
-                            md_string += 'template: publication\n'
-                            md_string += 'diag_authors: ' + \
-                                ','.join(diag_authors) + '\n'   
-                            md_string += 'journal: NA \n' if 'journal' not in bib_item else 'journal: ' + \
-                                bib_item['journal'] + '\n'
+        if bib_item['type'] == 'phdthesis':
+            md_string += 'template: publication-thesis\n'
+            # TODO this is a hardcode capital first letter of bibkey
+            cover_path = bib_key[0].title() + bib_key[1:] + '.png'
+            md_string += 'coverpng: ' + cover_path + '\n'
+            for k in 'promotor', 'copromotor', 'school', 'optmonth':
+                if k in bib_item:
+                    md_string += k + ': ' + bib_item[k] + '\n'
+            if 'url' in bib_item:
+                md_string += 'urlweb: ' + bib_item['url'] + '\n'
+        else:
+            md_string += 'template: publication\n'
+            md_string += 'diag_authors: ' + \
+                ','.join(diag_authors) + '\n'
+            md_string += 'journal: NA \n' if 'journal' not in bib_item else 'journal: ' + \
+                bib_item['journal'] + '\n'
 
-                        md_string += '' if 'abstract' not in bib_item else bib_item['abstract']
-                        md_file_name = './content/pages/publications/' + bib_key + '.md'
-                        save_md_file(md_file_name, md_string)
+        md_string += '' if 'abstract' not in bib_item else bib_item['abstract']
+        md_file_name = './content/pages/publications/' + bib_key + '.md'
+        save_md_file(md_file_name, md_string)
