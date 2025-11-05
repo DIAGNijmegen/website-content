@@ -26,7 +26,7 @@ To be eligible, proposed projects must meet the following criteria:
 
 
 ## Submission Details
-- **Deadline:** 10-12-2025  
+- **Deadline:** 19-12-2025  
 - **Submission form:** Please fill out this [form](https://drive.google.com/file/d/1ZauHWiowqvzFVWdWccOHRvxdfmYNAeoi/view?usp=sharing)
 - **Selection criteria:** Clinical relevance, clarity of defined problem, feasibility within 6 months and data readiness
 
