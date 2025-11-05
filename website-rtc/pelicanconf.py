@@ -8,13 +8,13 @@ from datetime import date
 # Please update these to customize the website.
 #
 AUTHOR = "RTC"
-SITENAME = "RTC Deep Learning"
+SITENAME = "RTC Artificial Intelligence"
 SITENAME_SHORT = "RTC"
 SITE_REPO = "website-rtc"
 SITE_GROUP = "rtc"
 
 # Home page and social settings
-SITELEAD = "We use Artificial Intelligence, specifically Deep Learning, to analyze medical images and other medical data. We have set up a high-performance GPU cluster on which deep learning systems can be trained and deployed. We provide advise and develop algorithms and web-based image analysis and data analytics software."
+SITELEAD = "We use Artificial Intelligence, to analyze medical images and other medical data. We have set up a high-performance GPU cluster on which deep learning systems can be trained and deployed. We provide advise and develop algorithms and web-based image analysis and data analytics software."
 SITE_PICTURE = "images/social/missing_picture_social.png"
 HOME_IMAGE = "images/general/rtc-2.jpg"
 HOME_IMAGE_CAPTION = ""
