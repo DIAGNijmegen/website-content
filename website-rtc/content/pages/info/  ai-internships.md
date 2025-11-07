@@ -3,7 +3,7 @@ description: Do you have an idea for an AI innovation? Submit a project proposal
 groups: rtc
 picture: courses/Front_image2.png
 
-![Common tasks]({{ IMGURL }} courses/Front_image2.png)
+![AI internships]({{ IMGURL }} /images/general/RTC_deep_learning.png)
 
 ## Call for internship proposals
 Artificial Intelligence (AI) holds tremendous potential to transform healthcare — from improving diagnostics and treatment planning to optimizing workflows and enabling more personalized patient care. To help turn this potential into practical impact, the Radboud Technology Center (RTC) AI invites project proposals for AI internships focused on real-world healthcare applications at Radboudumc.
