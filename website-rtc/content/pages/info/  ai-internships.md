@@ -8,7 +8,7 @@ picture: courses/Front_image2.png
 ## Call for internship proposals
 Artificial Intelligence (AI) holds tremendous potential to transform healthcare — from improving diagnostics and treatment planning to optimizing workflows and enabling more personalized patient care. To help turn this potential into practical impact, the Radboud Technology Center (RTC) AI invites project proposals for AI internships focused on real-world healthcare applications at Radboudumc.
 
-These internships are intended for AI Master’s students who will work on clinically relevant problems under the joint supervision of RTC AI experts and clinical researchers. Clinicians and researchers without prior AI expertise are especially encouraged to apply, as the technical supervision will be provided by RTC AI specialists.
+These internships are intended for AI Master’s students who will work on clinically relevant problems under the joint supervision of RTC AI experts and clinical researchers. Clinicians and researchers without prior AI expertise are especially encouraged to apply, as the RTC AI will provide the technical supervision and assist with finding suitable AI students.
 
 ## Project proposal requirements
 To be eligible, proposed projects must meet the following criteria:
