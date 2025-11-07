@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/msc-bone-histopathology.png
 template: vacancy-single
-people: Gerry Koons
+people: Gerry Koons, Geert Litjens
 description: Develop an AI-driven spatial analysis toolkit that quantifies how cells are organized within bone tissue
 
 ## Problem 
