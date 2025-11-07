@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/msc-bone-histopathology.png
 template: vacancy-single
-people: Gerry Koons
+people: Gerry Koons, Geert Litjens
 description: Train AI models to predict patient sex and age directly from whole-slide images of human bone
 
 ## Problem 
