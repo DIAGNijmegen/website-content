@@ -3,7 +3,7 @@ picture: projects/Prostate3_2_1.png
 template: research-single
 groups: diag
 description: The Computational Pathology Group develops, validates and deploys novel medical image analysis methods based on deep learning technology.
-projects: airat, aiscap, antoni, big-picture, commitment, dalphin, deep-derma, diaggraft, ignite, imagio-hhgm, pancaim, pathrad-fusion, unic
+projects: airat, aiscap, antoni, big-picture, commitment, dalphin, deep-derma, diaggraft, ignite, imagio-hhgm, osteovision, pancaim, pathrad-fusion, unic
 
 A large part of DIAG focuses on the analysis of pathology images and is embedded in the [Department of Pathology](https://www.radboudumc.nl/en/research/departments/pathology) of Radboudumc and has a strong translational focus. The history of the group reaches back to the early 1980s, and in 2013 the group joined DIAG and started to grow rapidly, facilitated by the simultaneous advents of digital pathology and deep learning. 
 
