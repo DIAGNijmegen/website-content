@@ -12,7 +12,7 @@ Lung cancer is the leading cause of cancer-related death worldwide, for which th
 
 In the AI for Thoracic Imaging research group, we aim to develop, validate and deploy algorithms that assist in the interpretation of radiological imaging for lung cancer. This research group is led by \[member/colin-jacobs].
 
-!\[Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
+![Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
 
 Click on the cards below to learn about the various projects in this research group.
 
