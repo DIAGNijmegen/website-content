@@ -1,8 +1,8 @@
 title: MERAI Lab: MeVis and Radboudumc ICAI Lab
-title\_long: MERAI Lab: MeVis and Radboudumc ICAI Lab
+title_long: MERAI Lab: MeVis and Radboudumc ICAI Lab
 finished: false
 type: general
-picture: projects/MERAI\_lab\_new\_logo.png
+picture: projects/MERAI_lab_new_logo.png
 template: project-single
 groups: diag
 people: Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Edwin John, Colin Jacobs, Mathias Prokop, Marianne Boenink, Mira Vegter
