@@ -17,6 +17,7 @@ To be eligible, proposed projects must meet the following criteria:
 - Each project must include a clinical supervisor who will provide domain-specific guidance.
 - All required data (including labels and annotations) must already be collected and accessible at the time of proposal submission.
 - The proposal must describe a specific, well-defined clinical or healthcare problem to be addressed using AI methods.
+- The internships will have to take place in 2026.
 
 
 ## Examples of Suitable Projects
