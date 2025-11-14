@@ -1,7 +1,7 @@
 title: Famke van Ewijk
 name: Famke van Ewijk
 template: people-single
-picture: people/Famke_van_Ewijk.png
+picture: people/Famke_van_Ewijk.jpg
 position: Master Student
 active: yes
 groups: diag
