@@ -5,10 +5,10 @@ type: general
 picture: projects/oncology.jpg
 template: research-single
 groups: diag
-people: Alessa Hering, Mathias Prokop, Bram van Ginneken, Myrthe Buser, Max de Grauw, Luc Builtjes, Lena Philipp, Sarah de Boer, Hartmut Häntze, Xuan Loc Pham, Rianne Weber, Niels Rocholl, Jan Tagscherer, Jen Dusseljee
+people: Alessa Hering, Mathias Prokop, Bram van Ginneken, Myrthe Buser, Max de Grauw, Luc Builtjes, Lena Philipp, Sarah de Boer, Hartmut Häntze, Xuan Loc Pham, Rianne Weber, Niels Rocholl, Jan Tagscherer, Famke van Ewijk, Paul Zimmer
 description: Oncology patients receive many CT scans and reporting those scans is time-consuming and difficult. We develop tools to speed up and improve this process.
 projects: comfort, uls, totalreg, oncofuture
-bibkeys: Grau22a, Grau22b, Heri21,
+bibkeys: Grau22a, Grau22b, Heri21, Heri23, Heri24, Heri24a, Buil25, Boer25, Roch25, Pham25a
 
 With global cancer incidence projected to rise by 47% by 2040, the demand for medical imaging in cancer care will increase substantially. This will worsen the existing shortage of diagnostic staff, making efficiency improvements crucial to maintaining accessible healthcare. 
 
