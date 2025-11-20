@@ -3,7 +3,7 @@ name: Heng Zhang
 template: people-single
 picture: people/Heng_Zhang.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Heng.Zhang@radboudumc.nl
