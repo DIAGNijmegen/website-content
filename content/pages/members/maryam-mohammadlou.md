@@ -3,7 +3,7 @@ name: Maryam Mohammadlou
 template: people-single
 picture: people/Maryam_Mohammadlou.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: maryam.mohammadlou@tuni.fi
