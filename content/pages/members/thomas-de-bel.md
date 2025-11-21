@@ -3,7 +3,7 @@ name: Thomas de Bel
 template: people-single
 picture: people/Thomas_de_Bel.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: thomas.debel@radboudumc.nl
