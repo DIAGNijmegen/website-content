@@ -3,7 +3,7 @@ name: Bart Sturm
 template: people-single
 picture: people/Bart_Sturm.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: Bart.Sturm@radboudumc.nl
