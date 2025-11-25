@@ -1,4 +1,4 @@
-pip==21.1
+pip==25.3
 pelican==4.5.0
 markdown==3.2.2
 latexcodec==1.0.5
