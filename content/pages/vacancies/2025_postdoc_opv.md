@@ -1,6 +1,6 @@
 title: Postdoctoral Researcher in Computational Pathology
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/postdoc_opv.jpg
 people: Jeroen van der Laak
