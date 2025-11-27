@@ -1,6 +1,6 @@
 title: Contact
 
-If you have any questions and would like to get in touch, you can send an e-mail to the RTC Deep Learning representatives: [Ajay Patel](mailto:Ajay.Patel@radboudumc.nl) or [Silvan Quax](mailto:Silvan.Quax@radboudumc.nl).
+If you have any questions and would like to get in touch, you can send an e-mail to the RTC AI representatives: [Ajay Patel](mailto:Ajay.Patel@radboudumc.nl) or [Silvan Quax](mailto:Silvan.Quax@radboudumc.nl).
 <br>
 <br>
 

@@ -11,7 +11,7 @@ linkedin: https://www.xing.com/profile/Rita_Bylsma
 office: Route 767, Room 25
 type: tech
 
-Rita Bylsma (officially Bijlsma) is a member of the [RTC Deep Learning](rtc.diagnijmegen.nl) under supervision of [member/ajay-patel] at the <a href="https://www.radboudumc.nl/en/research">Radboudumc </a>in Nijmegen.
+Rita Bylsma (officially Bijlsma) is a member of the [RTC AI](rtc.diagnijmegen.nl) under supervision of [member/ajay-patel] at the <a href="https://www.radboudumc.nl/en/research">Radboudumc </a>in Nijmegen.
 
 She does Linux system administration, especially for [Sol][software/sol]. Previously, she worked for the groups of <a href="http://molbio.science.ru.nl/">Molecular Biology and Molecular Development Biology</a> at the <a href="http://www.ru.nl/english/">Radboud University</a>.
 

@@ -19,7 +19,7 @@ Joran Lokkerbol, director of the Centre of Economic Evaluation & Machine Learnin
 Marianne Boenink, Professor of Ethics of Healthcare at Radboudumc;
 Sander Bervoets, Head of the RTC Bioinformatics at Radboudumc;
 Egge van der Poel, Clinical Data Scientist at Erasmus MC;
-Contributions from the RTC Deep Learning and RTC Data Stewardship.
+Contributions from the RTC AI and RTC Data Stewardship.
 
 For more information about the course please see: https://www.ai-for-health.nl/courses.
 

@@ -14,4 +14,4 @@ Data challenges, in the form of an open competition, enable a community of data 
 In the context of the “Nationale Wetenschapsagenda” ([NWA]( https://wetenschapsagenda.nl/)) roadmap for Value Creation through Responsible Access to and use of Big Data ([VWdata]( https://commit2data.nl/vwdata)) a scientific challenge is being created. The scientific challenge contains, among others, a medical challenge. The medical challenge is to classify clinically acquired brain MRI scans as normal or abnormal. This is a highly important clinical task in neuroradiology. At Radboudumc alone, over 2.000 exams are performed annually to resolve this question for patients with a wide variety of non-specific complaints. 
 <br>
 
-The RTC Deep Learning is collecting data and setting up a challenge for the classification of 3D brain MRI scans.
+The RTC AI is collecting data and setting up a challenge for the classification of 3D brain MRI scans.

@@ -14,7 +14,7 @@ A [national study](https://13wekenecho.org/) is currently taking place in the Ne
 
 
 ## Project summary
-Modern ultrasound equipment is capable of acquiring 3D volumetric images in an instant, using a specialized probe. Since the positioning of the fetus in these images is not fixed it is however, not trivial for a viewer to find the 2D planes of interest within this volume.  The PARADIGM project focuses on the development of AI tools for analysis of 3D ultrasound images in collaboration with the [RTC Deep Learning](https://rtc.diagnijmegen.nl/). The project will focus on comparison with the current state-of-the-art by automatic extraction of the 2D planes of interest and provision of the images and measurements of interest.  In the longer term the advantages of volumetric imaging could be exploited for improved analysis and accuracy. 
+Modern ultrasound equipment is capable of acquiring 3D volumetric images in an instant, using a specialized probe. Since the positioning of the fetus in these images is not fixed it is however, not trivial for a viewer to find the 2D planes of interest within this volume.  The PARADIGM project focuses on the development of AI tools for analysis of 3D ultrasound images in collaboration with the [RTC AI](https://rtc.diagnijmegen.nl/). The project will focus on comparison with the current state-of-the-art by automatic extraction of the 2D planes of interest and provision of the images and measurements of interest.  In the longer term the advantages of volumetric imaging could be exploited for improved analysis and accuracy. 
 
 
 ## Funding

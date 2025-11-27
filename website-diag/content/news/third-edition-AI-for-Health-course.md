@@ -21,7 +21,7 @@ Sander Bervoets, Head of the RTC Bioinformatics at Radboudumc;
 Egge van der Poel, Clinical Data Scientist at Erasmus MC;
 Arnoud van der Maas, Chief Science Information Officer at Radboudumc; 
 Guido van den Broek, Chief Medical Information Officer at Radboudumc; 
-Contributions from the RTC Deep Learning and RTC Data Stewardship.
+Contributions from the RTC AI and RTC Data Stewardship.
 
 For more information about the course please see: https://www.ai-for-health.nl/courses.
 

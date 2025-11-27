@@ -5,7 +5,7 @@ picture: software/sol-logo.jpg
 template: project-single
 groups: rse, diag, rtc
 people: Rita Bijlsma, Paul Konstantin Gerke, Sil van de Leemput, Thomas de Bel, Matin Hosseinzadeh, Xie Weiyi, Patrick Brand
-description: RTC Deep Learning's cluster for training and applying automated image analysis tools.
+description: RTC AI's cluster for training and applying automated image analysis tools.
 bibkeys: 
 
 The Diagnostic Image Analysis Group's goal is to improve image analysis tools
@@ -15,7 +15,7 @@ on developed image classification techniques. In order to create high quality
 deep-learning based algorithms for clinical practice, AI researchers 
 require the use of high-power general-purpose graphic processing units (GPGPUs).
 
-SOL is the RTC Deep Learning's infrastructure. It offers researchers access to 
+SOL is the RTC AI's infrastructure. It offers researchers access to 
 a centralized pool of GPGPUs. It is used to create state-of-the-art tools
 for detecting and classifying illnesses and quantify extent and identify possible
 treatment options for diseases.
