@@ -36,8 +36,6 @@ You are a passionate Data Manager with a strong technical background. You are mo
     - PostgreSQL in particular (a plus).
 
 ## Place of work
-The Computational Pathology Group is a research group of the department of [Pathology](https://www.radboudumc.nl/en/departments/pathology) of the Radboud University Medical Center (Radboudumc). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at Radboudumc. We develop, validate and deploy novel medical image analysis methods, usually based on the newest advances in machine learning with a focus on computer-aided diagnosis (CAD). Application areas include diagnostics and prognostics of breast, colon, prostate and lung cancer.
-
 You will work at the Computational Pathology Group ([CPG](https://www.radboudumc.nl/en/research/research-groups/computational-pathology)) of the [Department of Pathology](https://www.radboudumc.nl/en/departments/pathology) of the Radboud University Medical Center Nijmegen. CPG currently has ~40 researchers focused on various topics in the use of AI for pathology. Our focus is the development and validation of novel methods in a broad range of computational pathology applications. We focus on automated grading of breast and prostate cancer, prediction of therapy outcome for lung cancer, assessment of kidney biopsies and many other applications.
 
 Key to the success of the group is close cooperation with clinicians. A team of scientific programmers is supporting our deep learning research for large-scale experimentation. It's an exciting and supportive place to work, and we are proud to say we have a diverse team and an open culture. 
