@@ -3,7 +3,7 @@ name: Raul Mihalca
 template: people-single
 picture: people/raul_mihalca.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: raul.mihalca@radboudumc.nl
