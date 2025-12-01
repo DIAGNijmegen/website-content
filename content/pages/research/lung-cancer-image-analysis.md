@@ -2,7 +2,7 @@ title: AI for Thoracic Oncology
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
-people: Colin Jacobs, Mathias Prokop, Cornelia Schaefer-Prokop, Steven Schalekamp, Ernst Scholten, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Adam Farrag, Zeinab Rahmanifard, Edwin John, Sarah van Rooden, Jonas Laroche, Doris Schouwenaars, Lotte Besselaar, Scott Korman
+people: Colin Jacobs, Mathias Prokop, Cornelia Schaefer-Prokop, Steven Schalekamp, Ernst Scholten, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Adam Farrag, Zeinab Rahmanifard, Edwin John, Sarah van Rooden, Doris Schouwenaars, Lotte Besselaar, Scott Korman
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: nelson-pop, solace, merai, amara, imagio
 algorithms: lung-nodule-detector-for-ct, airway-nodule-detection-for-routine-clinical-ct-sc, pulmonary-nodule-malignancy-prediction, temporal-nodule-analysis
@@ -12,7 +12,7 @@ Lung cancer is the leading cause of cancer-related death worldwide, for which th
 
 In the AI for Thoracic Imaging research group, we aim to develop, validate and deploy algorithms that assist in the interpretation of radiological imaging for lung cancer. This research group is led by \[member/colin-jacobs].
 
-![Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
+!\[Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
 
 Click on the cards below to learn about the various projects in this research group.
 
