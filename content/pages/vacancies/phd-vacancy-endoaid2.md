@@ -1,6 +1,6 @@
 title: PhD candidate 'Artificial Intelligence to improve detection and treatment of endometrial cancer via computational pathology'
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/endoaid2-phd.png
 people: Francesco Ciompi, Louis van der Putten, Michiel Simons, Hanny Pijnenborg, Jeroen van der Laak
