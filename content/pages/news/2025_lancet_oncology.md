@@ -15,4 +15,4 @@ The leading AI systems outperformed the average radiologist, achieving 92% accur
 
 Researchers are now developing new models using broader abdominal imaging datasets, supported by the [Hanarth Fund](https://www.radboudumc.nl/en/news-items/2024/funding-for-ai-in-detecting-pancreatic-cancer-and-pathology).
 
-Congratulations to [member/natalia-alves], [member/megan-schuurmans], [member/anindo-saha], [member/pierpaolo-vendetti], [member/geert-litjens], John J. Hermans, [member/henkjan-huisman], and the entire PANORAMA consortium for their outstanding work!
+Congratulations to [member/natalia-alves], [member/megan-schuurmans], [member/anindo-saha], [member/pierpaolo-vendittelli], [member/geert-litjens], John J. Hermans, [member/henkjan-huisman], and the entire PANORAMA consortium for their outstanding work!
