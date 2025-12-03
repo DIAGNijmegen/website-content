@@ -10,9 +10,9 @@ bibkeys: Hend25, Peet25a, Peet25, Peet24a, Peet24, Hend23b, Venk23, Jaco23, Hend
 
 Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. The World Health Organization (WHO) has estimated that there were 2.21 million cases of lung cancer and 1.80 million deaths due to lung cancer in 2020. Tobacco smoking remains the main risk factor for lung cancer. Imaging is crucial for early detection, diagnosis, treatment planning and monitoring of lung cancer. It plays an important role in the multidisciplinary management of lung cancer patients.
 
-In the AI for Thoracic Imaging research group, we aim to develop, validate and deploy algorithms that assist in the interpretation of radiological imaging for lung cancer. This research group is led by \[member/colin-jacobs].
+In the AI for Thoracic Imaging research group, we aim to develop, validate and deploy algorithms that assist in the interpretation of radiological imaging for lung cancer. This research group is led by [member/colin-jacobs].
 
-!\[Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
+![Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
 
 Click on the cards below to learn about the various projects in this research group.
 
