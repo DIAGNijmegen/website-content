@@ -5,9 +5,9 @@ picture: projects/picus.png
 template: project-single
 groups: diag
 default_group: diag
-people: Fabian Hoitsma, Henkjan Huisman, Michiel Sedelaar
+people: Fabian Hoitsma, Kevin van den Tillaart, Henkjan Huisman, Michiel Sedelaar
 description: PICUS aims to develop AI for multiparametric ultrasound to predict the presence, location and aggressiveness of prostate cancer.
-bibkeys: 
+bibkeys:
 type: normal
 
 ## Background
@@ -22,8 +22,7 @@ The aim of the PICUS project at Radboudumc in terms of AI development is three-f
 
 - Expanding mpMRI in its ability to characterize prostate lesions in order to improve specificity.
 - Improving prostate biopsy targeting by fusing mpUS and mpMRI.
-- Enable mpUS to act as a standalone method for detection of prostate cancer as a cost-effective alternative to mpMRI. 
-
+- Enable mpUS to act as a standalone method for detection of prostate cancer as a cost-effective alternative to mpMRI.
 
 ## Funding
 The PICUS project is funded by [NWO](https://www.nwo.nl/en/projects/20441). 
