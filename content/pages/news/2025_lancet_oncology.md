@@ -1,10 +1,10 @@
-title: PANORAMA paper published in The Lancet Oncology
-date: 2021-12-03
+title: PANORAMA study published in The Lancet Oncology
+date: 2025-12-03
 description: Diagnostics for pancreatic cancer improve when excellent artificial intelligence (AI) is used
 picture: news/panorama_lancet.JPG
 groups: diag
 
-The international PANORAMA study demonstrates that high-performing artificial intelligence (AI) can improve the detection of pancreatic cancer on CT scans compared to the average radiologist. The study was led by Radboud university medical center (Radboudumc) and is now published in the Lancet Oncology.
+The international PANORAMA study demonstrates that high-performing artificial intelligence (AI) can improve the detection of pancreatic cancer on CT scans compared to the average radiologist. Led by Radboud University Medical Center (Radboudumc), and now published in the Lancet Oncology, it is one of the largest reader studies every performed, involving 68 radiologists from 40 institutions and 12 countries.
 
 The researchers created a robust benchmark using a confidential dataset of nearly 400 CT scans, evaluated by a large group of international experts. Developers worldwide submitted over 250 AI models, which were systematically compared against radiologist performance.
 
