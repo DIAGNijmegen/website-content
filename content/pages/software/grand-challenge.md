@@ -8,7 +8,7 @@ people: James Meakin, Henkjan Huisman, Sjoerd Kerkstra, Paul Konstantin Gerke, H
 description: The home of challenges in biomedical imaging.
 
 bibkeys:
-github: hhttps://github.com/DIAGNijmegen/grand-challenge
+github: https://github.com/DIAGNijmegen/grand-challenge
 
 We develop and maintain [grand-challenge.org](https://grand-challenge.org), an open-source, Django-based platform for hosting biomedical imaging challenges, collecting expert annotations, and making deep learning models accessible to clinicians and researchers worldwide.
 
