@@ -17,7 +17,7 @@ We develop and maintain [grand-challenge.org](https://grand-challenge.org), an o
 
 The growing reliance on medical imaging for clinical decision-making, combined with an ageing population, has led to unprecedented demand for trained specialists to interpret medical images. As this demand cannot be fully met, physician workloads continue to increase, raising the risk of interpretation errors. Computer-aided detection and diagnosis systems, including deep learning algorithms, have been developed to help reduce this burden and support more reliable clinical decisions.
 
-Biomedical image analysis challenges have proven highly successful in accelerating the development and validation of such algorithms. Since 2012, we have developed and maintained an open-source framework for hosting these challenges and operate a flagship instance at [grand-challenge.org](https://grand-challenge.org).
+Biomedical image analysis challenges have proven highly successful in accelerating the development and validation of such algorithms. Since 2012, we have developed and maintained an open-source framework for hosting these challenges and operate an instance at [grand-challenge.org](https://grand-challenge.org).
 
 The platform has hosted leading challenges across a wide range of medical domains, including:
 
