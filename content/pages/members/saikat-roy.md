@@ -3,7 +3,8 @@ name: Saikat Roy
 template: people-single
 picture: people/Saikat_Roy.jpg
 position: Visiting Researcher
-active: yes groups: diag
+active: yes 
+groups: diag
 default_group: diag
 email: saikat.roy@radboudumc.nl
 office:
