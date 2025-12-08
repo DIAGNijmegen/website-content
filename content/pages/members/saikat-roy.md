@@ -7,7 +7,7 @@ active: yes groups: diag
 default_group: diag
 email: saikat.roy@radboudumc.nl
 office:
-type: phd
+type: student
 linkedin: https://www.linkedin.com/in/mrsaikatroy/
 scholar: https://scholar.google.com/citations?user=vZ3mCXwAAAAJ&hl=en
 
