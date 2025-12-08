@@ -8,7 +8,7 @@ groups: diag
 default_group: diag
 email: balint.kovacs@radboudumc.nl
 office: 
-type: phd
+type: student
 linkedin: https://www.linkedin.com/in/b%C3%A1lint-kov%C3%A1cs-8304348b/
 scholar: https://scholar.google.hu/citations?user=vY8gggMAAAAJ&hl=en
 
