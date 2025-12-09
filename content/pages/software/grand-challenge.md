@@ -10,7 +10,7 @@ description: The home of challenges in biomedical imaging.
 bibkeys:
 github: https://github.com/DIAGNijmegen/grand-challenge
 
-We develop and maintain [grand-challenge.org](https://grand-challenge.org), an open-source, Django-based platform for hosting challenges in the biomedical imaging, collecting expert annotations, and making deep learning models accessible to clinicians and researchers worldwide.
+We develop and maintain [grand-challenge.org](https://grand-challenge.org), an open-source platform for hosting challenges in the biomedical imaging, collecting expert annotations, and making deep learning models accessible to clinicians and researchers worldwide.
 
 
 ## Introduction
