@@ -1,0 +1,202 @@
+:root{--blue: #007bff;--indigo: #6610f2;--purple: #6f42c1;--pink: #e83e8c;--red: #dc3545;--orange: #fd7e14;--yellow: #ffc107;--green: #28a745;--teal: #20c997;--cyan: #17a2b8;--white: #fff;--gray: #6c757d;--gray-dark: #343a40;--primary: #00afdc;--secondary: #6c757d;--success: #28a745;--info: #17a2b8;--warning: #ffc107;--danger: #dc3545;--light: #f8f9fa;--dark: #343a40;--breakpoint-xs: 0;--breakpoint-sm: 576px;--breakpoint-md: 768px;--breakpoint-lg: 992px;--breakpoint-xl: 1200px;--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%}main,nav{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#323232;text-align:left;background-color:#FCFCFC}h1,h2,h5{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}a{color:#00afdc;text-decoration:none;background-color:transparent}img{vertical-align:middle;border-style:none}svg{overflow:hidden;vertical-align:middle}label{display:inline-block;margin-bottom:.5rem}input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}input{overflow:visible}input[type="checkbox"]{box-sizing:border-box;padding:0}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h2,h5{margin-bottom:.5rem;font-weight:500;line-height:1.2}h1{font-size:2.5rem}h2{font-size:2rem}h5{font-size:1.25rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-md-4{position:relative;width:100%;padding-right:15px;padding-left:15px}@media (min-width:768px){.col-md-4{flex:0 0 33.33333%;max-width:33.33333%}}.collapse:not(.show){display:none}.nav-link{display:block;padding:.5rem 1rem}.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:.5rem 1rem}.navbar .container{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}.navbar-nav{display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-collapse{flex-basis:100%;flex-grow:1;align-items:center}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem}.navbar-toggler-icon{display:inline-block;width:1.5em;height:1.5em;vertical-align:middle;content:"";background:no-repeat center center;background-size:100% 100%}@media (max-width:767.98px){.navbar-expand-md>.container{padding-right:0;padding-left:0}}@media (min-width:768px){.navbar-expand-md{flex-flow:row nowrap;justify-content:flex-start}.navbar-expand-md .navbar-nav{flex-direction:row}.navbar-expand-md .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-md>.container{flex-wrap:nowrap}.navbar-expand-md .navbar-collapse{display:flex!important;flex-basis:auto}.navbar-expand-md .navbar-toggler{display:none}}.navbar-light .navbar-brand{color:rgba(0,0,0,0.9)}.navbar-light .navbar-nav .nav-link{color:rgba(0,0,0,0.5)}.navbar-light .navbar-toggler{color:rgba(0,0,0,0.5);border-color:rgba(0,0,0,0.1)}.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}.card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,0.125);border-radius:.25rem}.card-body{flex:1 1 auto;min-height:1px;padding:1.25rem}.card-title{margin-bottom:.75rem}.bg-white{background-color:#fff!important}@media (min-width:992px){.d-lg-none{display:none!important}.d-lg-block{display:block!important}}.fixed-top{position:fixed;top:0;right:0;left:0;z-index:1030}.mt-4{margin-top:1.5rem!important}.ml-auto{margin-left:auto!important}html{position:relative;min-height:100%}body{min-height:100%;min-height:100vh;display:flex;flex-flow:column}main{padding-top:40px;padding-bottom:60px;flex:1 1 auto}@media (min-width:768px){main{padding-top:80px}}main>.container{padding-top:2.5em}#navbar-toggle-cbox{display:none}.navbar.navbar-expand-md{border-bottom:1px solid #00afdc}.navbar.navbar-expand-md .navbar-brand{color:#00afdc}.navbar.navbar-expand-md .navbar-brand .external-links{display:none;color:#6c757d;font-size:0.65em}.navbar.navbar-expand-md .navbar-brand .external-links a{color:#6c757d}@media (min-width:768px){.navbar.navbar-expand-md .navbar-brand .external-links{display:block}}.navbar.navbar-expand-md .navbar-brand .name-full{font-size:1.15em}.navbar.navbar-expand-md .name-full{display:none}@media (min-width:768px){.navbar.navbar-expand-md .name-short{display:none}.navbar.navbar-expand-md .name-full{display:inline}}.navbar.navbar-expand-md .navbar-nav{overflow-x:hidden}.navbar.navbar-expand-md .nav-link{color:#323232;overflow:hidden}@media (min-width:768px){.navbar.navbar-expand-md .nav-link{padding-left:0.7rem;padding-right:0.7rem}}.navbar.navbar-expand-md .nav-icon-text{display:inline-block;overflow-x:hidden;float:right;text-align:right;white-space:nowrap}@media (min-width:768px) and (max-width:1199.98px){.navbar.navbar-expand-md .nav-icon-text{display:none}}@media (max-width:767.98px){.navbar.navbar-expand-md .nav-icon-text{float:left}}.navbar.navbar-expand-md .nav-icon{color:#323232;font-size:1.3em;display:inline-block;margin:2px 0 0 5px;float:right}@media (max-width:767.98px){.navbar.navbar-expand-md .nav-icon{float:left;margin-right:10px}}.navbar.navbar-expand-md .nav-icon.svg-icon-file-text-o{font-size:1.2em}body{text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased}h1,h2,h5{color:#00afdc;font-weight:500}h1{font-size:2rem}h2{font-size:1.25rem;font-weight:600;margin-top:1.5rem}.page-title{font-size:2rem;font-weight:600;margin-bottom:1.5rem}p a{font-weight:600}div.container>p{margin-bottom:0.75em}@media (min-width:768px){div.container>p{padding-right:5em}}@media (min-width:992px){div.container>p{padding-right:10em}}@media (min-width:1200px){div.container>p{padding-right:20em}}ul{margin-top:0.25rem;padding-left:1.5em}ul li{margin-bottom:0.25rem}.image-card{background-repeat:no-repeat;background-size:100%;background-clip:content-box;background-position:1px 1px;position:relative;margin-bottom:1.5rem;height:95%;height:calc(100% - 1.5rem)}.image-card .card-title{font-weight:500;font-size:1.4em}.image-card .card-body{z-index:2}.svg-icon{display:inline-block;width:1em;height:1em;stroke-width:0;stroke:currentColor;fill:currentColor}.svg-icon-folder{width:0.9287109375em}.svg-icon-file-text-o{width:0.857421875em}
+/* ===============================
+   Research Carousel
+================================= */
+
+/* Ensure carousel items are correctly aligned */
+.carousel-inner .row {
+    display: flex;
+    flex-wrap: nowrap;  /* Prevent cards from stacking */
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+/* Fix card width inside the carousel */
+.carousel-item .col-lg-4 {
+    flex: 1;  /* Ensures equal width distribution */
+    max-width: 33%; /* Each card takes up 1/3 of the row */
+    padding: 10px; /* Adjust spacing between cards */
+}
+
+/* Ensure cards fill the carousel width */
+.about-image-card {
+    width: 100% !important;  /* Forces full width */
+    flex-grow: 1;  /* Ensures it stretches */
+    display: flex;
+    flex-direction: column; /* Maintain structure */
+}
+
+/* Ensure images fit correctly */
+.about-card-img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Reduce spacing between cards */
+.carousel .col-lg-4 {
+    padding: 0 15px; /* Adjust spacing between cards */
+}
+
+/* Adjust the height of carousel items */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Limit the size of the carousel control buttons */
+#researchCarousel .carousel-control-prev,
+#researchCarousel .carousel-control-next {
+    width: 5%;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none !important;
+}
+
+/* Style carousel control icons */
+#researchCarousel .carousel-control-prev-icon,
+#researchCarousel .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Ensure carousel stays within its section */
+#researchCarousel .carousel {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/* Ensure cards take equal space and have a consistent size */
+#researchCarousel .carousel .card {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fix image sizing inside carousel cards */
+#researchCarousel .carousel .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 180px;
+}
+
+/* ===============================
+   Spin-Off Carousel
+================================= */
+
+#spinOffCarousel .carousel-control-prev,
+#spinOffCarousel .carousel-control-next {
+    width: 5%;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none !important;
+}
+
+#spinOffCarousel .carousel-control-prev-icon,
+#spinOffCarousel .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#spinOffCarousel .carousel {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#spinOffCarousel .carousel .card {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spinOffCarousel .carousel .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 180px;
+}
+
+/* ===============================
+   Industry Carousel
+================================= */
+
+#industryCarousel .carousel-control-prev,
+#industryCarousel .carousel-control-next {
+    width: 5%;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none !important;
+}
+
+#industryCarousel .carousel-control-prev-icon,
+#industryCarousel .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#industryCarousel .carousel {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#industryCarousel .carousel .card {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#industryCarousel .carousel .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 180px;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+
+/* PI Image */
+.pi-image {
+    width: 90px;  /* Adjust size */
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    left: 50%;
+    top: 92%;  /* Reduce overlap */
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Remove white background */
+    z-index: 3; /* Keep it on top */
+}
+
+/* Ensure enough space below PI image */
+.about-image-card .card-body {
+    margin-top: 20px; /* Push text further down */
+    padding-top: 20px;
+    text-align: center;
+}

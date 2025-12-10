@@ -1,0 +1,112 @@
+name: Build and Deploy (Dev)
+on:
+  workflow_dispatch:
+  push:
+    branches: [dev]
+
+jobs:
+  cancel-running-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.1
+        with:
+          access_token: ${{ github.token }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/dev'
+
+    strategy:
+      matrix:
+        include:
+          - name: website-diag
+            site-id: NETLIFY_SITEID_DIAG_DEV
+            
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.9
+          cache: 'pip'
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: |
+          echo "::set-output name=dir::$(yarn cache dir)"
+          yarn config set prefix $(yarn cache dir)
+          echo $(yarn global bin) >> $GITHUB_PATH
+          yarn config set global-folder $(yarn cache dir)
+
+      - name: Cache Yarn
+        uses: actions/cache@v4
+        env:
+          cache-version: v1
+        id: yarn-cache
+        with:
+          path: |
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            **/node_modules
+          key: ${{ runner.os }}-yarn-${{ env.cache-version }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-${{ env.cache-version }}-
+            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-
+
+      - name: Install Netlify
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn global add netlify-cli
+
+      - name: Build and Deploy
+        uses: ./.github/workflows/actions/build-and-deploy
+        with:
+          website-dir: ${{ matrix.name }}
+          website-api: ${{ secrets[matrix.site-id] }}
+          netlify_key: ${{ secrets.NETLIFY_DEV_AUTH }}
+          github_token: ${{ secrets.GH_BIB_TOKEN }}
+
+  notify:
+    needs: deploy
+    if: ${{ failure() && github.event_name != 'workflow_dispatch'}}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Send message to Teams channel
+        run: |
+          cat << EOF > message.json
+          {
+            "@type":"MessageCard",
+            "@context":"https://schema.org/extensions",
+            "summary":"Build failed!",
+            "themeColor":"E4340E",
+            "title":"$GITHUB_REPOSITORY deployment failed",
+            "sections":[
+              {
+                "facts":[
+                  {
+                    "name":"Branch:",
+                    "value":"$GITHUB_REF_NAME"
+                  },
+                  {
+                    "name":"Commit:",
+                    "value":"$GITHUB_SHA"
+                  }
+                ]
+              }
+            ],
+            "potentialAction":[
+              {
+                "@type":"OpenUri",
+                "name":"View on GitHub",
+                "targets":[
+                  {
+                    "os":"default",
+                    "uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+                  }
+                ]
+              }
+            ]
+          }
+          EOF
+          curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -f -S -d @message.json

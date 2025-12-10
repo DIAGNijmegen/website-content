@@ -1,0 +1,35 @@
+<div class="card about-image-card lazyload w-100">
+    <div class="image-container">
+        {% if card.section == "research_groups" %}
+        <a href="/research/{{ card.url | replace('about/', '') }}">
+            <img alt="" src="{{ IMGURL }}/images/{{ card.picture }}" class="about-card-img">
+        </a>
+        {% else %}
+        <a href="{{ card.external_url }}">
+            <img alt="" src="{{ IMGURL }}/images/{{ card.picture }}" class="about-card-img">
+        </a>
+        {% endif %}
+        
+        {% if card.pi_picture %}
+        <div class="pi-overlay">
+            <img src="{{ IMGURL }}/images/{{ card.pi_picture }}" class="pi-image" alt="PI Image">
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="card-body text-center">
+        <h5 class="card-title">
+            {% if card.section == "research_groups" %}
+            <a href="{{ card.read_more_url }}">{{ card.title }}</a>
+            {% else %}
+            <a href="{{ card.external_url }}">{{ card.title }}</a>
+            {% endif %}
+        </h5>
+        <p class="card-text">{{ card.description }}</p>
+        {% if card.section == "research_groups" %}
+        <a href="{{ card.read_more_url }}">Read more →</a>
+        {% else %}
+        <a href="{{ card.external_url }}">Read more →</a>
+        {% endif %}
+    </div>
+</div>
