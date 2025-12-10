@@ -2,6 +2,7 @@ title: Computational Pathology
 picture: projects/proacting.png
 pi_picture: people/Jeroen_van_der_Laak.jpg 
 category: about
+groups: diag
 section: research_groups
 show_in_overview: true
 read_more_url: /research/pathology/

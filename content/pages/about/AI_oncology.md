@@ -2,6 +2,7 @@ title: AI for Oncology
 picture: projects/oncology.jpg
 pi_picture: people/Alessa_Hering.jpg 
 category: about
+groups: diag
 section: research_groups
 show_in_overview: true
 read_more_url: /research/oncology/

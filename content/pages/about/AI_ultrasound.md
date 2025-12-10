@@ -2,6 +2,7 @@ title: AI for Ultrasound Imaging
 picture: projects/pocusai.jpg
 pi_picture: people/Keelin_Murphy-480.jpg 
 category: about
+groups: diag
 section: research_groups
 show_in_overview: true
 read_more_url: /research/pocus-ai/

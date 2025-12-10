@@ -2,6 +2,7 @@ title: AI for Cardiology
 picture: projects/cardiac-oct.jpg
 pi_picture: people/Jos_Thannhauser.jpg
 category: about
+groups: diag
 section: research_groups
 show_in_overview: true
 read_more_url: /research/caralab/

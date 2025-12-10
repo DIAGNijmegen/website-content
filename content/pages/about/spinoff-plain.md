@@ -1,6 +1,7 @@
 title: Plain Medical
 picture: general/plain-medical.png
 category: about
+groups: diag
 section: spin_offs
 show_in_overview: true
 external_url: https://plain-medical.com/

@@ -2,6 +2,7 @@ title: AI for Precision Medicine
 picture: projects/ignite.png
 pi_picture: people/Francesco_Ciompi.jpg
 category: about
+groups: diag
 section: research_groups
 show_in_overview: true
 read_more_url: /research/pathology/

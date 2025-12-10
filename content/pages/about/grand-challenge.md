@@ -1,6 +1,7 @@
 title: Grand-Challenge
 picture: general/ApplicationsOfDeepLearning.png
 category: about
+groups: diag
 section: research_support
 external_url: https://grand-challenge.org/
 show_in_overview: true
