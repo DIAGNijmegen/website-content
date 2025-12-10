@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://www.diagnijmegen.nl'
-IMGURL = 'https://assets.diagnijmegen.nl'
+SITEURL = 'https://spiffy-duckanoo-c7fa75.netlify.app/' #'https://www.diagnijmegen.nl'
+IMGURL =  'https://assets.spiffy-duckanoo-c7fa75.netlify.app/'#'https://assets.diagnijmegen.nl'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
