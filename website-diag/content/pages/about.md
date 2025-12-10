@@ -6,7 +6,25 @@ support_description: To perform world-leading machine learning research and tran
 spinoff_description: Several innovations from our research have led to successful spin-off companies that bring cutting-edge AI solutions into clinical practice. These companies translate our scientific discoveries into real-world applications, enhancing patient care and supporting healthcare professionals worldwide.<br><br>
 industry_description: DIAG actively collaborates with industry partners to accelerate the development, validation, and implementation of AI technologies in medical imaging. These partnerships help bridge the gap between academic research and clinical deployment, ensuring our innovations have real-world impact.<br><br>
 
-The Diagnostic Image Analysis Group (DIAG) was founded in January 2010 and has since evolved into a leading center for AI-driven medical image analysis. We develop cutting-edge tools to enhance radiological and pathological diagnostics through deep learning.
+The Diagnostic Image Analysis Group (DIAG) at Radboud university medical center is an international research group dedicated to advancing medical image analysis through artificial intelligence. Founded in 2010 by Prof. Nico Karssemeijer and Prof. Bram van Ginneken, DIAG builds on decades of pioneering work in computer-aided diagnosis. Today, the group brings together experts in radiology, pathology, computer science, and biomedical engineering to develop AI systems that improve the detection, diagnosis, and treatment of disease.
+
+Our research spans a broad range of medical imaging modalities — from breast and prostate imaging, chest radiography and CT, to digital pathology, retinal imaging, and neuro and musculoskeletal analysis. DIAG bridges methodological innovation and clinical application: algorithms developed in our lab often form the foundation of medical imaging products used worldwide.
+
+DIAG closely collaborates with the Department of Medical Imaging, the Computational Pathology Group, and the AI for Health initiative at Radboudumc, as well as with industrial and academic partners worldwide. The group is also the driving force behind grand-challenge.org, a global platform that enables collaborative development, validation, and deployment of AI solutions in medical imaging.
 
 ## Our Mission
-Some text here about the mission of DIAG.
+Our mission is to make medical image analysis intelligent, interpretable, and clinically impactful. We aim to:
+
+- Develop robust AI systems that match and extend human expert performance in diagnostic imaging.
+- Enable trustworthy and transparent integration of AI into clinical workflows.
+- Accelerate the translation of research innovations into clinical and industrial applications that improve patient outcomes.
+- Foster open science and global collaboration through platforms such as grand-challenge.org and our partnerships with academic and industrial stakeholders.
+- Train the next generation of scientists and clinicians at the intersection of AI, imaging, and healthcare.
+
+Ultimately, DIAG strives to bridge the gap between algorithms and clinicians — turning data into insight, and insight into better care for every patient.
+
+<!---
+
+This page is further generated automatically. Please do not change the content of this page.
+
+--->

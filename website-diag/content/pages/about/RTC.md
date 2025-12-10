@@ -1,6 +1,5 @@
 title: Radboud Technology Center (RTC)
-picture: projects/rtc.jpg
-pi_picture: people/Silvan_Quax.jpg 
+picture: courses/Front_image2.png
 category: about
 section: research_support
 external_url: https://www.radboudumc.nl/en/research/technology-centers/deep-learning 

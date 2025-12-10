@@ -1,0 +1,7 @@
+title: Philips
+picture: projects/philips.png
+category: about
+section: industry
+show_in_overview: true
+external_link: https://www.philips.nl/healthcare
+description: Partnering in AI-driven medical imaging solutions.

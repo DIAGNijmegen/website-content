@@ -1,6 +1,5 @@
 title: Grand-Challenge
 picture: general/ApplicationsOfDeepLearning.png
-pi_picture: people/James_Meakin.jpg 
 category: about
 section: research_support
 external_url: https://grand-challenge.org/

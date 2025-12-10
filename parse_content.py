@@ -6,6 +6,7 @@ import sys
 from pelican.settings import get_settings_from_file
 
 directories = [
+    "about",
     "members",
     "news",
     "presentations",
