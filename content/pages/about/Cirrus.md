@@ -5,4 +5,4 @@ groups: diag
 section: research_support
 external_url: https://www.ai-for-health.nl/
 show_in_overview: true
-description: Cirrus dicom viewer software
+description: CIRRUS is a set of MeVisLab modules that help with developing workstations for medical imaging.
