@@ -5,4 +5,5 @@ category: about
 groups: diag
 section: research_groups
 show_in_overview: true
+read_more_url: /research/pathology/
 description: Develops AI that focuses on the application of modern machine-learning methods to oncological pathology and radiology.

@@ -1,0 +1,160 @@
+name: Optimize Images
+on:
+  workflow_dispatch:
+  push:
+    branches: [dev]
+    paths:
+      - "content/images/**"
+
+jobs:
+  cancel-running-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.1
+        with:
+          access_token: ${{ github.token }}
+
+  theses:
+    runs-on: ubuntu-latest
+    outputs:
+      changes: ${{ steps.auto-commit-action.outputs.changes_detected }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: pip install imageio==2.16.2
+
+      - name: Crop thesis covers
+        run: python ./crop_thesis_covers.py
+
+      - name: Pull in intermediate changes
+        run: git pull
+
+      - id: auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Crop thesis covers
+          file_pattern: content/images/theses/*
+
+  images:
+    needs: theses
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull in cropped thesis covers
+        if: needs.theses.outputs.changes == 'true'
+        run: git pull && git checkout HEAD
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.0.0"
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Setup npm
+        run: npm install --prefix imgoptim --no-save
+
+      - name: Optimize Images
+        run: |
+          cd imgoptim
+          node optimize.js
+          cd ..
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: |
+          echo "::set-output name=dir::$(yarn cache dir)"
+          yarn config set prefix $(yarn cache dir)
+          echo $(yarn global bin) >> $GITHUB_PATH
+          yarn config set global-folder $(yarn cache dir)
+
+      - name: Cache Yarn
+        uses: actions/cache@v4
+        env:
+          cache-version: v1
+        id: yarn-cache
+        with:
+          path: |
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            **/node_modules
+          key: ${{ runner.os }}-yarn-${{ env.cache-version }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-${{ env.cache-version }}-
+            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-
+
+      - name: Install Netlify
+        # if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn global add netlify-cli@v16.9.2
+
+      - name: Deploy images to Netlify
+        run: |
+          cp -r --no-clobber ./content/images/. assets/images
+          "$(yarn global bin)/netlify" deploy --dir=assets --prod
+        shell: bash
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEV_AUTH }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITEID_MEDIA }}
+
+      - name: Pull in intermediate changes
+        run: git pull
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update optimized images
+          file_pattern: imgoptim/image-cache.json assets/images/*
+
+  notify:
+    needs: images
+    if: ${{ failure() && github.event_name != 'workflow_dispatch' }}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Send message to Teams channel
+        run: |
+          cat << EOF > message.json
+          {
+            "@type":"MessageCard",
+            "@context":"https://schema.org/extensions",
+            "summary":"Image optimization failed!",
+            "themeColor":"FF8E16",
+            "title":"$GITHUB_REPOSITORY image optimization failed",
+            "sections":[
+              {
+                "facts":[
+                  {
+                    "name":"Branch:",
+                    "value":"$GITHUB_REF_NAME"
+                  },
+                  {
+                    "name":"Commit:",
+                    "value":"$GITHUB_SHA"
+                  }
+                ]
+              }
+            ],
+            "potentialAction":[
+              {
+                "@type":"OpenUri",
+                "name":"View on GitHub",
+                "targets":[
+                  {
+                    "os":"default",
+                    "uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+                  }
+                ]
+              }
+            ]
+          }
+          EOF
+          curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -f -S -d @message.json
