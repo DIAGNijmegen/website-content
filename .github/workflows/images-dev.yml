@@ -1,4 +1,4 @@
-name: Optimize Images
+name: Optimize Images - Dev
 on:
   workflow_dispatch:
   push:
