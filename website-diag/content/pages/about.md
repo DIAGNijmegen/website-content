@@ -1,6 +1,14 @@
 title: About DIAG
 template: about
 description: The Diagnostic Image Analysis Group (DIAG) was founded in January 2010 and has since evolved into a leading center for AI-driven medical image analysis. We develop cutting-edge tools to enhance radiological and pathological diagnostics through deep learning.
+about_diag: The Diagnostic Image Analysis Group (DIAG) at Radboud university medical center is an international research group dedicated to advancing medical image analysis through artificial intelligence. Founded in 2010 by Prof. Nico Karssemeijer and Prof. Bram van Ginneken, DIAG builds on decades of pioneering work in computer-aided diagnosis. Today, the group brings together experts in radiology, pathology, computer science, and biomedical engineering to develop AI systems that improve the detection, diagnosis, and treatment of disease.<br><br>Our research spans a broad range of medical imaging modalities — from breast and prostate imaging, chest radiography and CT, to digital pathology, retinal imaging, and neuro and musculoskeletal analysis. DIAG bridges methodological innovation and clinical application: algorithms developed in our lab often form the foundation of medical imaging products used worldwide.<br><br>DIAG closely collaborates with the Department of Medical Imaging, the Computational Pathology Group, and the AI for Health initiative at Radboudumc, as well as with industrial and academic partners worldwide. The group is also the driving force behind grand-challenge.org, a global platform that enables collaborative development, validation, and deployment of AI solutions in medical imaging.
+diag_mission:Our mission is to make medical image analysis intelligent, interpretable, and clinically impactful. We aim to:<br><br>
+- Develop robust AI systems that match and extend human expert performance in diagnostic imaging.<br>
+- Enable trustworthy and transparent integration of AI into clinical workflows.<br>
+- Accelerate the translation of research innovations into clinical and industrial applications that improve patient outcomes.<br>
+- Foster open science and global collaboration through platforms such as grand-challenge.org and our partnerships with academic and industrial stakeholders.<br>
+- Train the next generation of scientists and clinicians at the intersection of AI, imaging, and healthcare.<br><br>
+Ultimately, DIAG strives to bridge the gap between algorithms and clinicians — turning data into insight, and insight into better care for every patient.
 groups_description: Imaging is a cornerstone of modern medicine. The amount of imaging that is performed is growing, the number of modalities is growing, and the resolution and dimensionality of the scans is increasing. Our research focuses on creating software to let computers help physicians in the image interpretation process. Thanks to deep learning, we are increasingly able to rapidly build AI applications that rival or surpass the capabilities of human doctors. We expect this will have a profound impact on healthcare.<br><br>We have research lines in radiology that focus on chest imaging with CT and x-ray, on pelvic imaging with MRI, and on musculoskeletal imaging, in pathology that address current diagnostic processes and the development of new image-based biomarkers that predict patient outcome and therapy response. We also work in radiotherapy and ophthalmology. We have widened our focus further in the Radboud AI for Health lab that also addresses text analysis, applications in dentistry and research on implementation and validation of AI.<br><br>
 support_description: To perform world-leading machine learning research and translate the results of our projects from the lab to the patient, we need a team of research software engineers and state-of-the-art hardware facilities. We have grouped our infrastructure and research support in the Radboud Technology Center Deep Learning, one of 19 research facilities in Radboudumc. The RTC Deep learning consists of a growing team of experts on deep learning experimentation and research software engineering that maintains our GPU compute cluster Sol, maintains and develops our biomedical software platform grand-challenge.org, and supports the Radboud AI for Health lab.<br><br>
 spinoff_description: Several innovations from our research have led to successful spin-off companies that bring cutting-edge AI solutions into clinical practice. These companies translate our scientific discoveries into real-world applications, enhancing patient care and supporting healthcare professionals worldwide.<br><br>
@@ -12,7 +20,7 @@ Our research spans a broad range of medical imaging modalities — from breast a
 
 DIAG closely collaborates with the Department of Medical Imaging, the Computational Pathology Group, and the AI for Health initiative at Radboudumc, as well as with industrial and academic partners worldwide. The group is also the driving force behind grand-challenge.org, a global platform that enables collaborative development, validation, and deployment of AI solutions in medical imaging.
 
-## Our Mission
+<!-- ## Our Mission
 Our mission is to make medical image analysis intelligent, interpretable, and clinically impactful. We aim to:
 
 - Develop robust AI systems that match and extend human expert performance in diagnostic imaging.
@@ -21,7 +29,7 @@ Our mission is to make medical image analysis intelligent, interpretable, and cl
 - Foster open science and global collaboration through platforms such as grand-challenge.org and our partnerships with academic and industrial stakeholders.
 - Train the next generation of scientists and clinicians at the intersection of AI, imaging, and healthcare.
 
-Ultimately, DIAG strives to bridge the gap between algorithms and clinicians — turning data into insight, and insight into better care for every patient.
+Ultimately, DIAG strives to bridge the gap between algorithms and clinicians — turning data into insight, and insight into better care for every patient. -->
 
 <!---
 
