@@ -126,12 +126,12 @@
     align-items: center;
 }
 
-#spinOffCarousel .carousel .card img {
+/* #spinOffCarousel .carousel .card img {
     width: 100%;
     height: auto;
     object-fit: cover;
     max-height: 180px;
-}
+} */
 
 /* ===============================
    Industry Carousel
@@ -168,12 +168,12 @@
     align-items: center;
 }
 
-#industryCarousel .carousel .card img {
+/* #industryCarousel .carousel .card img {
     width: 100%;
     height: auto;
     object-fit: cover;
     max-height: 180px;
-}
+} */
 .image-container {
     position: relative;
     text-align: center;
