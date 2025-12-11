@@ -1,5 +1,5 @@
 title: Thirona
-picture: about/thirona.png
+picture: about/thirona-320.png
 category: about
 groups: diag
 section: spin_offs

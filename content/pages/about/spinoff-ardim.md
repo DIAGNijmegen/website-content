@@ -1,5 +1,5 @@
 title: Ardim
-picture: about/ardim.jpg
+picture: about/ardim-160.jpg
 category: about
 groups: diag
 section: spin_offs

@@ -1,5 +1,5 @@
 title: Philips
-picture: about/philips.png
+picture: about/philips-320.png
 category: about
 groups: diag
 section: industry
