@@ -1,5 +1,5 @@
 title: Sectra
-picture: projects/sectra.png
+picture: about/sectra.png
 category: about
 groups: diag
 section: industry

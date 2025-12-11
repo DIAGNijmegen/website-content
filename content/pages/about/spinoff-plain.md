@@ -1,5 +1,5 @@
 title: Plain Medical
-picture: general/plain-medical.png
+picture: about/plain-medical.png
 category: about
 groups: diag
 section: spin_offs

@@ -1,5 +1,5 @@
 title: Aiosyn
-picture: projects/aiosyn.png
+picture: about/aiosyn.png
 category: about
 groups: diag
 section: spin_offs

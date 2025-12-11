@@ -1,6 +1,6 @@
 title: MeVis
 category: about
-picture: projects/mevis.png
+picture: about/mevis.png
 section: industry
 groups: diag
 show_in_overview: true
