@@ -12,3 +12,5 @@ Both theses are the result of a closely intertwined PhD journey and a strong col
 Their defenses took place just hours apart and followed a jointly organized symposium, 'Precision oncology and AI - Lessons from pancreatic cancer and beyond', which brought together patients, researchers, clinicians, and industry. Attendees gained insights into where AI already delivers value in oncology workflows, the current limitations that still need to be addressed, and how methodological advances can be translated into clinically usable tools through effective collaboration. The symposium also highlighted why pancreatic cancer is a strong testbed for AI approaches that can generalize across healthcare.
 
 We congratulate Megan and Natália on this outstanding achievement and wish them every success in their roles as Data Scientist at Sogeti (Megan) and Postdoctoral Researcher AI and medical video processing at Johnson & Johnson Innovative Medicine (Natália)!
+
+_Photo by [member/tiago-coelho]._
