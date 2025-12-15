@@ -1,6 +1,6 @@
 title: Megan Schuurmans and Natália Alves are awarded their doctoral degrees cum laude
 date: 2025-12-12
-picture: news/megan_natalia_defense.jpg
+picture: news/megan_natalia_defenses.jpg
 description: Megan Schuurmans and Natália Alves successfully defended their PhD theses on AI for pancreatic cancer.
 groups: diag, pathology
 
