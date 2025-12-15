@@ -3,7 +3,7 @@ name: Megan Schuurmans
 template: people-single
 picture: people/Megan_Schuurmans.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: megan.schuurmans@radboudumc.nl
