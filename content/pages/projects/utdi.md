@@ -2,7 +2,7 @@ title: Unstructured Textual Data Integration for Radiology Image Analysis (UTDI)
 title_long: Unstructured Textual Data Integration for Radiology Image Analysis (UTDI)
 finished: false
 type: general
-picture: projects/UTDI.png
+picture: projects/UTDI.jpg
 template: project-single
 groups: diag
 people: Luc Builtjes, Alessa Hering
@@ -18,3 +18,4 @@ The increasing adoption of advanced radiology image analysis tools highlights th
 This project explores the use of large language models (LLMs) to address these challenges by processing and integrating textual data in radiology. LLMs are applied to tasks such as summarizing detailed reports, extracting structured data from narrative content, and anonymizing sensitive information. By combining these textual insights with image analysis, the research aims to create tools that support radiologists, enhance efficiency, and unlock new opportunities for leveraging radiology data in clinical practice and research. 
 
 As part of this project, the Python package [**llm_extractinator**](https://github.com/DIAGNijmegen/llm_extractinator) was developed to support structured information extraction from unstructured radiology reports using large language models. The package provides configurable pipelines for mapping free-text reports to structured outputs based on user-defined schemas and prompts. It is intended to facilitate tasks such as report summarization, information extraction, and de-identification, and to support downstream analysis and integration with imaging-derived data.
+
