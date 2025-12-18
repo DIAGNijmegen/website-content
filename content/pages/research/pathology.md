@@ -1,4 +1,5 @@
 title: Pathology
+finished: false
 picture: projects/Prostate3_2_1.png
 template: research-single
 groups: diag

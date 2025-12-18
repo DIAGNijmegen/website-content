@@ -1,4 +1,5 @@
 title: Musculoskeletal image analysis
+finished: true
 picture: projects/msk.jpg
 template: research-single
 groups: diag

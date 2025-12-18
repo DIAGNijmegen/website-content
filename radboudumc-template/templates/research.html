@@ -12,7 +12,7 @@
 
     <div class="row mt-4">
         {% for card in pages %}
-            {% if card.category == 'research' and card.show_in_overview != 'false' %}
+            {% if card.category == 'research' and card.show_in_overview != 'false' and card.finished == 'false' %}
                 {% include "blocks/card.html" %}
             {% endif %}
         {% endfor %}
