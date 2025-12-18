@@ -1,4 +1,5 @@
 title: Retina
+finished: true
 picture: projects/perspectief.jpg
 template: research-single
 groups: 

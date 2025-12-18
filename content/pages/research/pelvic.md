@@ -1,4 +1,5 @@
 title: Pelvic Image Analysis
+finished: false
 picture: projects/pelvic.jpg
 template: research-single
 groups: diag

@@ -1,4 +1,5 @@
 title: CARA Lab
+finished: false
 picture: projects/cara_lab_model_segmentation.png
 template: research-single
 groups: diag
