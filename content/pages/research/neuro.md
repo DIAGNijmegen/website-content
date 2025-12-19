@@ -1,4 +1,5 @@
 title: Neuroimaging AI
+finished: true
 picture: projects/neuro.jpg
 template: research-single
 groups: diag

@@ -1,4 +1,5 @@
 title: AI for Thoracic Oncology
+finished: false
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag

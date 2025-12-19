@@ -3,7 +3,7 @@ name: Natália Alves
 template: people-single
 picture: people/Natalia_Alves.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: natalia.alves@radboudumc.nl
