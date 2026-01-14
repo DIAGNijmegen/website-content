@@ -1,7 +1,7 @@
 title: Lars Leijten
 name: Lars Leijten
 template: people-single
-picture: people/Lars_Leijten.jpg
+picture: people/Lars_Leijten_2.jpg
 position: PhD Candidate
 active: yes
 groups: diag
