@@ -3,7 +3,7 @@ name: Linda Studer
 template: people-single
 picture: people/Linda_Studer.jpg
 position: Postdoctoral Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: linda.studer@radboudumc.nl
