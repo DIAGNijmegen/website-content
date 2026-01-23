@@ -6,7 +6,7 @@ description: The aim of DALPHIN is to develop a multicentric open benchmark for 
 template: project-single
 groups: diag, pathology
 default_group: pathology
-people: Francesco Ciompi, Nadieh Khalili, Carlijn Lems, Frédérique Meeuwsen, Milda Pocevičiūtė, Natalie Klubickova, Alon Vigdorovits
+people: Francesco Ciompi, Nadieh Khalili, Carlijn Lems, Frédérique Meeuwsen, Sander Moonemans, Milda Pocevičiūtė, Natalie Klubickova, Alon Vigdorovits
 
 ## Background
 Artificial Intelligence in the form of chatbots is an emerging reality. Equipped with vision-language capabilities, models like GPT-4o or PathChat can process both images and text, representing a possibility of multimodal virtual assistants in healthcare. While there is an urgent need and growing expectation to adopt digital assistants to support clinical diagnostics, clinicians and researchers must question chatbots’ capability to answer diagnostic questions.
