@@ -1,9 +1,8 @@
 title: 2nd and 3rd place for Agata Polejowska
-date: 2026-01-26
+date: 2025-12-07
 description: Agata Polejowska was awarded 2nd place and 3rd place in the NeurIPS CURE-Bench Competition
-
 picture: news/Agata_price.png
-groups: diag
+groups: diag, pathology
 
 Agata Polejowska was awarded 2nd place and 3rd place in the [NeurIPS CURE-Bench Competition](https://curebench.ai/) organized by the Harvard, MIT, and Milken Institutes. This impressive achievement was crowned by a travel grant, providing the opportunity to participate in the CURE-Bench workshop at the NeurIPS 2025 conference in San Diego. 
 
