@@ -1,6 +1,6 @@
 title: 2nd and 3rd place for Agata Polejowska
 date: 2026-01-26
-description: Agata Polejowska was awarded 2nd place and 3rd place in the NeurIPS CURE-Bench CompetitionDiagnostics for pancreatic cancer improve when excellent artificial intelligence (AI) is used
+description: Agata Polejowska was awarded 2nd place and 3rd place in the NeurIPS CURE-Bench Competition
 
 picture: news/Agata_price.png
 groups: diag
