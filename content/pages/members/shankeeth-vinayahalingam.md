@@ -3,7 +3,7 @@ name: Shankeeth Vinayahalingam
 template: people-single
 picture: people/shank.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, ai-for-health
 default_group: diag
 email: shankeeth.vinayahalingam@radboudumc.nl
