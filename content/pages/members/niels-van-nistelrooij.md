@@ -3,7 +3,7 @@ name: Niels van Nistelrooij
 template: people-single
 picture: people/Niels_van_Nistelrooij.png
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: niels.vannistelrooij@radboudumc.nl
