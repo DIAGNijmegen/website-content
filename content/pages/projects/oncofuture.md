@@ -10,7 +10,7 @@ description: Improving tumor follow-up assessment
 bibkeys: 
 
 ## General overview
-The aim of OncoFuture is improve the efficiency of tumor follow-up assessment in whole body CT imaging. This is done through the creation of cutting-edge AI algorithms capable of combining data from multiple timepoints that can both detect and segment tumor metastases. This project is divided into multiple subprojects, which are explained in more detail below. All these subprojects are supervised by [member/alessa-hering] and Ewoud Smit. 
+The aim of OncoFuture is to improve the efficiency of tumor follow-up assessment in whole body CT imaging. This is done through the creation of cutting-edge AI algorithms capable of combining data from multiple timepoints that can both detect and segment tumor metastases. This project is divided into multiple subprojects, which are explained in more detail below. All these subprojects are supervised by [member/alessa-hering] and Ewoud Smit. 
 
 ## Detection
 This research is conducted by [member/jan-tagscherer]. Finding abnormalities such as primary tumors and metastases as well as other lesions in CT images is a common radiological task that can guide treatment decisions and can be used for treatment evaluation in oncology. However, it is time-consuming for human readers to find lesions in these scans, and radiologists might miss lesions. This study aims to help with this task by detecting lesions automatically. 
@@ -23,3 +23,4 @@ Finally, uncertainty quantification will equip models with the ability to commun
 
 ## Clinical validation
 This research is conducted by [member/rianne-weber]. While technical validation of AI models is crucial, clinical validation of these models is equally important to determine the effect of the use of such models in a real-life setting. This project focuses on clinically validating the algorithms developed within the OncoFuture project. This is done through reader studies, where radiologists from within and outside the Radboudumc are asked to interact with the algorithms. These studies will allow us to determine what impact the models have on multiple clinically relevant factors, such as time spent on evaluating the scans, quality of the diagnosis, and inter-reader variability.
+
