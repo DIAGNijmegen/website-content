@@ -6,11 +6,11 @@ picture: vacancies/AIFH_books.png
 template: student-vacancies
 description: AI projects for university Master students.
 
-We offer AI internships in the Radboudumc for motivated Master students that are interested in solving healthcare problems. Projects have a duration of 6 months. An overview of open vacancies can be found below. 
+We offer AI internships in the Radboudumc for motivated Master students that are interested in solving healthcare problems. Master thesis projects typically have a duration of 6 months. An overview of open vacancies can be found below. 
 
 ##How to apply:##
 
- - Send your CV with a list of grades and a short motivation letter to aiforhealth@radboudumc.nl.
+- Send your CV with a list of grades and a short motivation letter to aiforhealth@radboudumc.nl.
 
 - Indicate for which project(s) you apply. 
 
