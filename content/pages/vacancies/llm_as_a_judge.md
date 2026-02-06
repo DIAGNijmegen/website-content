@@ -2,7 +2,7 @@ title: LLM-as-a-Judge as a validation framework for clinical Generative AI tools
 groups: rtc
 closed: false
 type: student
-picture: vacancies/mosquito-biting.png
+picture: vacancies/ehr_llm.jpeg
 template: vacancy-single
 people: Julie Swillens, Tim Frenzel, Arjen de Vries
 description: Designing an LLM-as-a-Judge framework to validate clinical generative AI tools integrated in the EHR at Radboudumc
