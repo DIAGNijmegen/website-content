@@ -2,7 +2,7 @@ title: Early prediction of multi-drug resistant Klebsiella species using machine
 groups: rtc
 closed: false
 type: student
-picture: vacancies/mosquito-biting.png
+picture: vacancies/bacteria.jpeg
 template: vacancy-single
 people: Michael Rodgers, Evert den Drijver
 description: Machine learning on antibiotic susceptibility testing data to predict MDR Klebsiella (ESBL/CPE) one day earlier than current laboratory workflows
