@@ -5,6 +5,10 @@ picture: courses/Front_image2.png
 
 ![AI internships]({{ IMGURL }}/images/courses/Front_image2.png)
 
+
+##Update
+The call for proposals is closed. Selected internship projects are now open for applications from Master students with a strong AI background and can be found [here](https://rtc.diagnijmegen.nl/student_projects/).
+
 ## Call for internship proposals
 Artificial Intelligence (AI) holds tremendous potential to transform healthcare — from improving diagnostics and treatment planning to optimizing workflows and enabling more personalized patient care. To help turn this potential into practical impact, the Radboud Technology Center (RTC) AI invites project proposals for AI internships focused on real-world healthcare applications at Radboudumc.
 
