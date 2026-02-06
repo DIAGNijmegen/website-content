@@ -2,7 +2,7 @@ title: AI-enhanced segmentation and registration of wrist bones in fractured and
 groups: rtc
 closed: false
 type: student
-picture: vacancies/mosquito-biting.png
+picture: vacancies/ct_wrist.jpeg
 template: vacancy-single
 people: Erin Teule, Brigitte van der Heijden
 description: Deep learning for robust segmentation and registration of wrist bones in pathological 3D and 4D CT scans with fractures and metal implants
