@@ -36,8 +36,6 @@ The reference standard consists of the results of confirmatory MDR tests current
 
 For a subset of isolates, whole-genome sequencing data are available, which represent the gold standard for identifying resistance mechanisms and may be incorporated into the analysis.
 
-Data can be extracted from the laboratory information system into structured formats (e.g. CSV). All data are anonymized at the bacterial isolate level; no patient-identifiable information is required for this project.
-
 ## References
 
 [1] NethMap 2024. Consumption of antimicrobial agents and antimicrobial resistance among medically important bacteria in the Netherlands.  
