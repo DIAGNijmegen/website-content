@@ -69,12 +69,3 @@ The student will be embedded within the Department of Plastic Surgery and the Ad
 
 For more information, please contact Erin Teule (erin.teule@radboudumc.nl).
 
-## People
-
-**Erin Teule**  
-Researcher  
-Department of Plastic Surgery, Radboudumc
-
-**Brigitte van der Heijden**  
-Professor, Hand and Wrist Surgery  
-Department of Plastic Surgery, Radboudumc
