@@ -61,12 +61,3 @@ The student will be embedded within the Department of Medical Microbiology. A se
 
 For more information, please contact Michael Rodgers (michael.rodgers@radboudumc.nl).
 
-## People
-
-**Michael Rodgers**  
-Medical Microbiologist  
-Department of Medical Microbiology, Radboudumc
-
-**Evert den Drijver**  
-Medical Microbiologist  
-Department of Medical Microbiology, Radboudumc
