@@ -29,10 +29,6 @@ The project will focus on developing interpretable and clinically usable outputs
 
 The dataset consists of approximately 5,000 IVF cycles recorded between 2016 and the present at Radboudumc, covering IVF, ICSI, and ICSI-TESE treatments. The data include both baseline patient characteristics and longitudinal treatment variables, such as medication use, hormonal measurements, ultrasound findings, number and quality of retrieved oocytes, embryo quality, and pregnancy outcomes.
 
-For initial model development and validation, a reference cohort will be defined, including patients with regular cycles, normal BMI, age below 36 years, and use of standard agonist or antagonist protocols. This homogeneous subset will reduce confounding effects during early modeling stages.
-
-All data are stored in the LFSD application and can be exported for preprocessing and analysis. Data can be anonymized for model development. Model predictions will first be validated retrospectively and subsequently tested prospectively in clinical practice under supervision.
-
 ## References
 
 [1] Innocenti F, Cermisoni GC, Taggi M, et al. Optimizing IVF lab workflows through data-driven insights: associations between lab management, procedural timings, and workload with blastulation rates. *Human Reproduction.* 2025;40(11):2101–2114.
