@@ -53,12 +53,4 @@ The student will be embedded within the Department of Obstetrics and Gynaecology
 
 For more information, please contact Jasper Weeteling (Jasper.Weeteling@radboudumc.nl).
 
-## People
 
-**Jasper Weeteling**  
-Researcher  
-Department of Obstetrics and Gynaecology – Reproductive Medicine, Radboudumc
-
-**Liliana Ramos**  
-Clinical Supervisor  
-Department of Obstetrics and Gynaecology – Reproductive Medicine, Radboudumc
