@@ -62,12 +62,3 @@ The student will be embedded within the Medical Microbiology department, vector 
 
 For more information, please contact Felix Hol (felix.hol@radboudumc.nl).
 
-## People
-
-**Felix Hol**  
-Researcher  
-Department of Medical Microbiology, Radboudumc
-
-**Théo Maire**  
-Researcher  
-Radboud Institute for Molecular Life Sciences / Medical Microbiology
