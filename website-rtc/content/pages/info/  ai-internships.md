@@ -7,9 +7,9 @@ picture: courses/Front_image2.png
 
 
 #Update
-The call for proposals is closed. Selected internship projects are now open for applications from Master students with a strong AI background and can be found [here](https://rtc.diagnijmegen.nl/student_projects/).
+We offer AI internships in the Radboudumc for motivated Master students that are interested in solving healthcare problems. Projects have a duration of 6 months. Selected internship projects are now open for applications from Master students with a strong AI background and can be found [here](https://rtc.diagnijmegen.nl/student_projects/).
 
-## Call for internship proposals
+## Call for internship proposals - **Closed**
 Artificial Intelligence (AI) holds tremendous potential to transform healthcare — from improving diagnostics and treatment planning to optimizing workflows and enabling more personalized patient care. To help turn this potential into practical impact, the Radboud Technology Center (RTC) AI invites project proposals for AI internships focused on real-world healthcare applications at Radboudumc.
 
 These internships are intended for AI Master’s students who will work on clinically relevant problems under the joint supervision of RTC AI experts and clinical researchers. Clinicians and researchers without prior AI expertise are especially encouraged to apply, as the RTC AI will provide the technical supervision and assist with finding suitable AI students.
