@@ -35,10 +35,6 @@ The project will use extracted data from real clinical EHR workflows at Radboudu
 
 Where available, clinician outputs will serve as a reference standard.
 
-Human annotations for validation are partially available and can be extended during the project. Alternatively, the student may focus on intrinsic evaluation of LLM-as-a-Judge reliability through controlled experiments using different models and prompt configurations.
-
-Data are handled within approved institutional frameworks, and the project has been classified as non-WMO by the Medical Ethics Committee.
-
 ## References
 
 [1] Hu, D., Guo, Y., Zhou, Y., Flores, L., & Zheng, K. (2025). A systematic review of early evidence on generative AI for drafting responses to patient messages. *npj Health Systems*, 2(1), 27.  
