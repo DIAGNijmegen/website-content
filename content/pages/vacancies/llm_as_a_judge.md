@@ -60,16 +60,3 @@ The student will be embedded in the Implementation, (De-)Implementation and Beha
 
 For more information, please contact Julie Swillens (Julie.Swillens@radboudumc.nl).
 
-## People
-
-**Julie Swillens**  
-Researcher  
-IQ Health Science Department, Radboudumc
-
-**Tim Frenzel**  
-Anesthesiologist-Intensivist  
-Department of Intensive Care Medicine, Radboudumc
-
-**Arjen de Vries**  
-Professor  
-Institute for Computing and Information Science, Radboud University
