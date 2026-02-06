@@ -2,7 +2,7 @@ title: Towards an improved planning model for patient-centered IVF treatment usi
 groups: rtc
 closed: false
 type: student
-picture: vacancies/mosquito-biting.png
+picture: vacancies/ivf_treatment.jpeg
 template: vacancy-single
 people: Jasper Weeteling, Liliana Ramos
 description: AI-based prediction of ovum pick-up timing to improve patient-centered planning and IVF laboratory workflow
