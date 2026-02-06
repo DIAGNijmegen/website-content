@@ -38,8 +38,6 @@ Additional datasets include CT scans of wrists with scaphoid fractures, scaphoid
 - Standard 3D CT scans (JBZ dataset, n=174, unilateral)
 - Dynamic 4D-CT scans acquired at Radboudumc (n=20, bilateral)
 
-All data are fully anonymized and stored on secured institutional servers.
-
 The expected outcome is accurate segmentation of both affected and unaffected wrist bones in pathological scans, as well as reliable registration matrices describing bone motion across time frames.
 
 ## References
