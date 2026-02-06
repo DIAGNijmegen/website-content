@@ -1,4 +1,34 @@
 people:
+  - name: Tahlita Zuiverloon
+    position: Associate Professor, Urologist
+    affiliation: Pathology, Erasmus University Medical Centre
+    url: https://www.linkedin.com/in/tahlita-zuiverloon-45a245a/
+    picture: people/external/Tahlita_Zuiverloon.jpeg
+    email: 
+  - name: Sita Vermeulen
+    position: Associate Professor
+    affiliation: Genetic Epidemiology, Radboudumc
+    url: https://nl.linkedin.com/in/sita-vermeulen-b2430047
+    picture: people/external/Sita_Vermeulen.jpg
+    email: Sita.Vermeulen@radboudumc.nl
+  - name: Jean-Paul van Basten
+    position: Urologist
+    affiliation: Urology, Canisius Wilhelmina Hospital
+    url: https://nl.linkedin.com/in/jean-paul-van-basten-md-phd-32580918
+    picture: people/external/Jean_Paul_van_Basten.jpg
+    email: 
+  - name: Domingos Oliveira
+    position: Anatomic Pathology Specialist
+    affiliation: IMP Diagnostics
+    url: https://pt.linkedin.com/in/domingos-oliveira-65a914205
+    picture: people/external/Domingos_Oliveira.jpg
+    email: 
+  - name: Alberto Nakauma Gonzalez
+    position: Bioinformatician
+    affiliation: Urology, Erasmus University Medical Centre
+    url: https://nl.linkedin.com/in/albertonakauma
+    picture: people/external/Alberto_Nakauma_Gonzalez.jpg
+    email: 
   - name: Annemarie Boleij
     position: Assistant Professor
     affiliation: Pathology, Radboudumc
