@@ -1,7 +1,7 @@
 title: About us
 ![CARA Lab]({{ IMGURL }}/images/general/cara-lab.png) 
 ## What is the CARA Lab about?
-The CARA lab is a collaborative lab between Radboudumc, Amsterdam UMC and Abbott. Our main goal is to develop AI solutions for intracoronary optical coherence tomoography (OCT). 
+The CARA lab is a collaborative lab between Radboudumc and Amsterdam UMC. Our main goal is to develop AI solutions for intracoronary optical coherence tomoography (OCT). 
 
 CARA Lab aims to address two challenges that are common in many real-world AI applications: (1) developing accurate AI models that can analyze high-resolution data streams in real-time and (2) deriving accurate and safe models from these data streams that can make long-term predictions with a limited number of training samples. Our focus is on using OCT pullbacks, which are high-resolution data streams that are critical for decision-making during cardiac interventions. Our goal is to lower the threshold for clinicians to use OCT by making AI software that helps with interpretation of the OCT images. Moreover, we aim to identify patients at risk for future cardiac events so that preventative treatment and enhanced monitoring can be applied to those individuals. Eventuelly, we aim to substantially enhance the usability, reliability, and applicability of intravascular OCT in interventional cardiology through the use of trustworthy AI.
 
