@@ -10,7 +10,7 @@ We offer AI internships in the Radboudumc for motivated Master students that are
 
 ##How to apply:##
 
-- Send your CV with a list of grades and a short motivation letter to aiforhealth@radboudumc.nl.
+- Send your CV with a list of grades and a short motivation letter to rtcai@radboudumc.nl.
 
 - Indicate for which project(s) you apply. 
 
