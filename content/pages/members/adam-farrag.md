@@ -3,7 +3,7 @@ name: Adam Farrag
 template: people-single
 picture: people/Adam_Farrag.png
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 type: student
