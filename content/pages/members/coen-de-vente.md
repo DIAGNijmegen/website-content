@@ -3,7 +3,7 @@ name: Coen de Vente
 template: people-single
 picture: people/Coen_de_Vente.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: coen.devente@radboudumc.nl
