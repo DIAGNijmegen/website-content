@@ -9,4 +9,11 @@ body .block-home h1,body .block-home h2,
 body .block-home h3,body .block-home h4,
 body .block-home h5,body .block-home h6,
 body .block-home a{color:#fff}
+body .btn{color:#323232;background-color:transparent;border:1px solid transparent}
+body .btn-primary{color:#fff;background-color:#00afdc;border-color:#00afdc}
+body .btn-primary:hover{color:#fff;background-color:#0091b6;border-color:#0086a9}
+body .btn-primary:disabled,
+body .btn-primary.disabled{color:#fff;background-color:#00afdc;border-color:#00afdc}
+body .btn-outline-primary{color:#00afdc;border-color:#00afdc;background-color:transparent}
+body .btn-outline-primary:hover{color:#fff;background-color:#00afdc;border-color:#00afdc}
 /*# sourceMappingURL=diag-theme.css.map */
