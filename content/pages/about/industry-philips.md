@@ -5,4 +5,4 @@ groups: diag
 section: industry
 show_in_overview: true
 external_link: https://www.philips.nl/healthcare
-description: Partnering in AI-driven medical imaging solutions.
+description: Partners with DIAG in the area of lung cancer interventions and prostate MRI analysis

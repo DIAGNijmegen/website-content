@@ -5,4 +5,4 @@ groups: diag
 section: industry
 show_in_overview: true
 external_link: https://aws.amazon.com/
-description: Partnering in AI-driven medical imaging solutions.
+description: Provided support for our work on grand-challenge.org
