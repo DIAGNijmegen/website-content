@@ -52,7 +52,7 @@
 
     {{ page.spinoff_description }}
 
-    <div id="spinOffCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="spinOffCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             {% set spin_off_cards = pages | selectattr("category", "equalto", "about") 
                                         | selectattr("section", "equalto", "spin_offs") 
@@ -73,11 +73,11 @@
         </div>
 
         <!-- Carousel Controls -->
-        <button class="carousel-control-prev bg-dark opacity-75" type="button" data-bs-target="#spinOffCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev bg-dark opacity-75" type="button" data-target="#spinOffCarousel" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next bg-dark opacity-75" type="button" data-bs-target="#spinOffCarousel" data-bs-slide="next">
+        <button class="carousel-control-next bg-dark opacity-75" type="button" data-target="#spinOffCarousel" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -88,7 +88,7 @@
 
     {{ page.industry_description }}
 
-    <div id="industryCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="industryCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             {% set industry_cards = pages | selectattr("category", "equalto", "about") 
                                         | selectattr("section", "equalto", "industry") 
@@ -109,11 +109,11 @@
         </div>
 
         <!-- Carousel Controls -->
-        <button class="carousel-control-prev bg-dark opacity-75" type="button" data-bs-target="#industryCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev bg-dark opacity-75" type="button" data-target="#industryCarousel" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next bg-dark opacity-75" type="button" data-bs-target="#industryCarousel" data-bs-slide="next">
+        <button class="carousel-control-next bg-dark opacity-75" type="button" data-target="#industryCarousel" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
