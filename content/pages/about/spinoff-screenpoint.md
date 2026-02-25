@@ -1,5 +1,5 @@
 title: ScreenPoint
-picture: about/screenpoint-320.jpg
+picture: about/screenpoint.png
 category: about
 groups: diag
 section: spin_offs
