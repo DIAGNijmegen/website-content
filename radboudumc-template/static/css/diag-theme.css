@@ -3,4 +3,10 @@
 body a{color:#00afdc}
 body a:hover{color:#007290;text-decoration:underline}
 body h1,body h2,body h3,body h4,body h5,body h6{color:#00afdc}
+body .block-home,
+body .footer .footer-ribbon{background-color:#00afdc}
+body .block-home h1,body .block-home h2,
+body .block-home h3,body .block-home h4,
+body .block-home h5,body .block-home h6,
+body .block-home a{color:#fff}
 /*# sourceMappingURL=diag-theme.css.map */
