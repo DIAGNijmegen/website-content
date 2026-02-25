@@ -1,5 +1,5 @@
 title: Amazon Web Services
-picture: about/aws-320.png
+picture: about/aws.png
 category: about
 groups: diag
 section: industry

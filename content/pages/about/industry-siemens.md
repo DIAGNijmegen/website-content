@@ -1,5 +1,5 @@
 title: Siemens Healthineers
-picture: about/siemens-320.png
+picture: about/siemens.png
 category: about
 groups: diag
 section: industry
