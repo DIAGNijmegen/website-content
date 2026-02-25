@@ -36,9 +36,9 @@
     {{ page.support_description }}
 
     <div class="row">
-        {% set research_cards = pages | selectattr("category", "equalto", "about") 
-                                    | selectattr("section", "equalto", "research_support") 
-                                    | selectattr("show_in_overview", "ne", "false") | list %}
+        {% set research_cards = pages | selectattr("category", "equalto", "about")
+                                     | selectattr("section", "equalto", "research_support")
+                                     | selectattr("show_in_overview", "ne", "false") | list %}
         {% for card in research_cards %}
             <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
                 {% include "blocks/about_card.html" %}
@@ -46,78 +46,37 @@
         {% endfor %}
     </div>
 
-
     <!-- Spin-Off Companies Section -->
     <h2 class="mt-4">Spin-Off Companies</h2>
 
     {{ page.spinoff_description }}
 
-    <div id="spinOffCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            {% set spin_off_cards = pages | selectattr("category", "equalto", "about") 
-                                        | selectattr("section", "equalto", "spin_offs") 
-                                        | selectattr("show_in_overview", "ne", "false") | list %}
-            {% set items_per_slide = 3 %}
-
-            {% for batch in spin_off_cards | batch(items_per_slide, fill_with=None) %}
-                <div class="carousel-item {% if loop.first %}active{% endif %}">
-                    <div class="row w-100">
-                        {% for card in batch if card is not none %}
-                            <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-                                {% include "blocks/about_card.html" %}
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev bg-dark opacity-75" type="button" data-target="#spinOffCarousel" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next bg-dark opacity-75" type="button" data-target="#spinOffCarousel" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </button>
-    </div> <!-- ✅ Closing div for spin-offs carousel -->
+    <div class="row">
+        {% set spin_off_cards = pages | selectattr("category", "equalto", "about")
+                                      | selectattr("section", "equalto", "spin_offs")
+                                      | selectattr("show_in_overview", "ne", "false") | list %}
+        {% for card in spin_off_cards %}
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
+                {% include "blocks/about_card.html" %}
+            </div>
+        {% endfor %}
+    </div>
 
     <!-- Industry Collaborations Section -->
     <h2 class="mt-4">Industry Collaborations</h2>
 
     {{ page.industry_description }}
 
-    <div id="industryCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            {% set industry_cards = pages | selectattr("category", "equalto", "about") 
-                                        | selectattr("section", "equalto", "industry") 
-                                        | selectattr("show_in_overview", "ne", "false") | list %}
-            {% set items_per_slide = 3 %}
-
-            {% for batch in industry_cards | batch(items_per_slide, fill_with=None) %}
-                <div class="carousel-item {% if loop.first %}active{% endif %}">
-                    <div class="row w-100">
-                        {% for card in batch if card is not none %}
-                            <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-                                {% include "blocks/about_card.html" %}
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev bg-dark opacity-75" type="button" data-target="#industryCarousel" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next bg-dark opacity-75" type="button" data-target="#industryCarousel" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </button>
-    </div> <!-- ✅ Closing div for industry carousel -->
+    <div class="row">
+        {% set industry_cards = pages | selectattr("category", "equalto", "about")
+                                      | selectattr("section", "equalto", "industry")
+                                      | selectattr("show_in_overview", "ne", "false") | list %}
+        {% for card in industry_cards %}
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
+                {% include "blocks/about_card.html" %}
+            </div>
+        {% endfor %}
+    </div>
 
 </div>
 {% endblock %}
