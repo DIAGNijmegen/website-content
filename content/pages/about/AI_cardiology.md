@@ -1,5 +1,5 @@
 title: AI for Cardiology
-picture: projects/cardiac-oct.jpg
+picture: projects/cara_lab.png
 pi_picture: people/Jos_Thannhauser.jpg
 category: about
 groups: diag
