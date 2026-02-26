@@ -1,5 +1,5 @@
 title: Fracture detection in hand radiographs
-finished: false
+finished: true
 type: general
 picture: projects/fracturedetection.jpg
 people: Nils Hendrix, Matthieu Rutten, Eric Postma, Bram van Ginneken
