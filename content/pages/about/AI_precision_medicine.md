@@ -6,4 +6,4 @@ groups: diag
 section: research_groups
 show_in_overview: true
 read_more_url: /research/pathology/
-description: Develop AI-based computational biomarkers and computer aided diagnosis tools to help clinicians make the right diagnosis to select the right treatment for each patient every time.
+description: Develops AI-based computational biomarkers and computer aided diagnosis tools to help clinicians make the right diagnosis to select the right treatment for each patient every time.
