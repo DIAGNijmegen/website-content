@@ -1,6 +1,6 @@
 title: Oncology
 title_long: Oncological reporting of thorax-abdomen CT scans
-finished: false
+finished: yes
 type: general
 picture: projects/oncology.jpg
 template: project-single

@@ -3,7 +3,7 @@ name: Manon Leijser
 template: people-single
 picture: people/Manon_Leijser.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Manon.Leijser@radboudumc.nl

@@ -8,7 +8,7 @@ groups: diag
 default_group: diag
 email: cornelia.schaefer-prokop@radboudumc.nl
 office:
-type: phd
+type: postdoc
 telephone:
 linkedin: https://www.linkedin.com/in/cornelia-schaefer-prokop-36167719/?locale=nl_NL
 scholar:

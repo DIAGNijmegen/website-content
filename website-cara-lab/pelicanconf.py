@@ -21,10 +21,10 @@ HOME_IMAGE = 'images/general/cara_lab_home2.png'
 HOME_IMAGE_CAPTION = 'CARA Lab'
 NUM_NEWS_HOME_PAGE = 4
 TWITTER_URL = None
-FOOTER_TEXT = 'CARA Lab -- Cardiology Lab with Abbott, Radboudumc, and AmsterdamUMC'
+FOOTER_TEXT = 'CARA Lab -- Cardiology Lab Radboudumc Amsterdam UMC'
 TOP_DOMAIN = '<a href="https://www.radboudumc.nl">Radboudumc</a>'
 PARENT_DOMAIN = '<a href="https://www.amc.nl/web/home.htm">Amsterdam UMC</a>'
-THIRD_DOMAIN = '<a href="https://www.abbott.com/">Abbott</a>'
+
 CSS_THEME = "cara-theme"
 FOOTER_IMAGE = 'cara_logo_new.png'
 HOME_JUMBOTRON_LAYOUT = "dense"

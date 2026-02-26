@@ -1,6 +1,6 @@
 title: Automated detection of DRESS syndrome
 groups: pathology, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/dress_syndrome.jpg
 template: vacancy-single

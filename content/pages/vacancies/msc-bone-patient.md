@@ -1,6 +1,6 @@
 title: Artificial Intelligence-Based Analysis of Patient-Specific Characteristics in Human Bone Histology
 groups: diag, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/msc-bone-histopathology.png
 template: vacancy-single

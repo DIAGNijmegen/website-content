@@ -3,7 +3,7 @@ name: Peter Koopmans
 template: people-single
 picture: people/Peter_Koopmans.jpg
 position: Assistant Professor
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: peter.koopmans@radboudumc.nl

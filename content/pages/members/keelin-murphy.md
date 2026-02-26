@@ -9,7 +9,7 @@ default_group: diag
 email: keelin.murphy@radboudumc.nl
 office: 
 telephone: +353 876292652
-type: faculty
+type: postdoc
 linkedin: https://www.linkedin.com/in/keelin-murphy-87745492/
 scholar: https://scholar.google.com/citations?user=f0Ydw-YAAAAJ
 researcherid: http://www.researcherid.com/rid/AAX-6473-2020

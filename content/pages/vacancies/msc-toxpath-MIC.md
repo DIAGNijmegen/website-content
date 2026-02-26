@@ -1,6 +1,6 @@
 title: Artificial Intelligence-Based Segmentation of Mononuclear Cell Infiltrates in Preclinical Toxicologic Pathology
 groups: diag, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/msc-toxpath-MIC-1.png
 template: vacancy-single

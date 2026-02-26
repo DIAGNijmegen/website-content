@@ -1,6 +1,6 @@
 title: Automation of cytology-to-diagnosis using a smartphone
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc-airose.png
 template: vacancy-single

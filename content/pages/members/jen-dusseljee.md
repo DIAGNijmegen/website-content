@@ -2,13 +2,13 @@ title: Jen Dusseljee
 name: Jen Dusseljee
 template: people-single
 picture: people/Jen_Dusseljee.jpeg
-position: Master Student
-active: no
-groups: diag
-default_group: diag
-type: student
+position: PhD Candidate
+active: yes
+groups: diag, pathology
+default_group: pathology
+type: phd
 email: jen.dusseljee@radboudumc.nl
 
-Jen Dusseljee obtained his Bachelor's degree in Computing Science at Radboud University. He did his Bachelor thesis at DIAG under the supervision of [member/lars-leijten] and [member/colin-jacobs], where he investigated methods of improving lung cancer detection by oversampling on malignant nodules.
-Currently, Jen is completing his Master in Data Science. For his thesis he is investigating unsupervised methods for detecting kidney lesions in CT scans. His project is supervised by [member/sarah-de-boer] and [member/alessa-hering], and is part of the [COMFORT project](https://www.diagnijmegen.nl/projects/comfort/).
-
+Jen Dusseljee received his BSc in Computing Science and MSc in Data Science from Radboud University. He completed his BSc thesis at DIAG on improving lung cancer detection on low-dose CT scans under the supervision of [member/lars-leijten] and [member/colin-jacobs]. He later went on to also complete his MSc thesis at DIAG, supervised by [member/sarah-de-boer] and [member/alessa-hering]. The topic of his MSc thesis was the use of latent diffusion models for weakly-supervised kidney lesion detection on CT images.
+ 
+In February 2026, Jen Dusseljee started as a PhD candidate at the Computational Pathology Group. His research, which is part of the PERSIMMON project, revolves around the use of AI to predict the risk of kidney transplant rejection and select appropriate treatment. He is supervised by [member/jeroen-van-der-laak] and Luuk Hilbrands.

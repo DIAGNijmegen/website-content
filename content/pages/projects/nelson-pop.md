@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Noa Antonissen, Ernst Scholten, Hester Gietema, Rozemarijn Vliegenthart, Cornelia Schaefer-Prokop, Mathias Prokop, Colin Jacobs
 description: Accurate estimation of the probability of lung cancer of screen-detected pulmonary nodules using artificial intelligence
-bibkeys: Anto25, Zhon24, Anto24a, Anto23a, Anto23, Sido23
+bibkeys: Anto25d, Anto25b, Peet25a, Anto25, Zhon24, Anto24a, Anto23a, Anto23, Sido23
 
 ## Background
 Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. Tobacco smoking remains the main risk factor for lung cancer. Although there is a decreasing prevalence of smokers in most countries, tobacco control is not the only measure for decreasing lung cancer mortality. In 2011, the National Lung Screening Trial (NLST) was the first multicenter randomized controlled trial (RCT) to demonstrate that three rounds of annual screening of a high-risk population using low-dose chest computed tomography (CT) lead to 20% fewer lung cancer deaths after seven years of follow-up, compared to annual screening with chest radiography. Over 53,000 participants were included in this landmark study. The Dutch-Belgian NELSON trial – the second largest RCT with 15,789 participants – recently published their results and showed a 24% mortality reduction in a high-risk population of men compared to no screening.
