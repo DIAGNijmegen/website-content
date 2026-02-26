@@ -1,7 +1,7 @@
 <div class="card about-image-card lazyload w-100">
     <div class="image-container">
         {% if card.section == "research_groups" %}
-        <a href="/research/{{ card.url | replace('about/', '') }}">
+        <a href="{{ card.read_more_url }}">
             <img alt="" src="{{ IMGURL }}/images/{{ card.picture }}" class="about-card-img">
         </a>
         {% else %}
