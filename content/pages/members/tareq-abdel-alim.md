@@ -11,5 +11,8 @@ office: Route 812, room 2.39
 type: postdoc
 linkedin:
 
-Tareq is a visiting postdoctoral researcher at the Computational Pathology Group. He earned his PhD at the Biomedical Imaging Group Rotterdam (BIGR) at Erasmus University Medical Center. His dissertation focused on developing computational models to assess how congenital dysmorphologies (and their treatments) impact craniofacial shape and development, with a particular emphasis on non-invasive 3D photogrammetry data.
+Tareq is a visiting postdoctoral researcher at the Computational Pathology Group. He earned his PhD (cum laude) at the Biomedical Imaging Group Rotterdam (BIGR) at Erasmus University Medical Center. His dissertation focused on developing computational models to assess how congenital dysmorphologies (and their treatments) impact craniofacial shape and development, with a particular emphasis on non-invasive 3D photogrammetry data.
+
 In March 2025, Tareq joined the Diagnostic Image Analysis Group (DIAG) to contribute to the Glioma Virtual Biopsy project under the supervision of [member/geert-litjens], alongside Marion Smits and Stefan Klein from Erasmus MC. His research focuses on the development of integrated Radiopathomics models to map relationships between histopathological markers and MRI features in glioma.
+
+Within his research, he is interested in consistently addressing global health and social justice questions and supporting translation of science and healthcare innovations to underserved communities and low-resource settings. This includes the development and deployment of accessible and computationally efficient methods and tools. 
