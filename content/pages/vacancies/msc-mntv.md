@@ -2,9 +2,9 @@ title: Weakly supervised learning for automated scoring of the Monkey Neurovirul
 groups: diag, pathology
 closed: false
 type: student
-picture: vacancies/msc_mntv_grade0.png
+picture: vacancies/msc_mntv.png
 template: vacancy-single
-people: Maria Cristina Ferrández, Salma Dammak, Geert Litjens
+people: Maria Cristina Ferrández, Salma Dammak, Jeroen van der Laak
 description: Weakly supervised learning for automated scoring of the Monkey Neurovirulence Test (MNVT) in polio vaccine development
 
 ## Clinical problem 
