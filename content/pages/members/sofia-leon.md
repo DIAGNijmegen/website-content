@@ -7,7 +7,7 @@ active: no
 groups: diag, pathology
 default_group: pathology
 email: nohemisofia.leoncontreras@radboudumc.nl
-linkedin:https://www.linkedin.com/in/nohemisofialeoncontreras-157a2217a/
+linkedin: https://www.linkedin.com/in/nohemisofialeoncontreras-157a2217a/
 office: 
 type: student
 

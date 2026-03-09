@@ -1,4 +1,4 @@
-title: Lex Bosch	
+title: Lex Bosch
 name: Lex Bosch
 template: people-single
 picture: people/Lex_Bosch.jpeg
