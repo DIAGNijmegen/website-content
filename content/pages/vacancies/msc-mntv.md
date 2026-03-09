@@ -1,6 +1,6 @@
 title: Weakly supervised learning for automated scoring of the Monkey Neurovirulence Test (MNVT) in polio vaccine development
 groups: diag, pathology
-closed: true
+closed: false
 type: student
 picture: vacancies/msc_mntv_WSI_example2.png
 template: vacancy-single
