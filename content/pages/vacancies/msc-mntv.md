@@ -4,16 +4,11 @@ closed: false
 type: student
 picture: vacancies/msc_mntv_grade0.png
 template: vacancy-single
-people: Maria Cristina Ferrandez, Salma Dammak, Geert Litjens
+people: Maria Cristina Ferrández, Salma Dammak, Geert Litjens
 description: Weakly supervised learning for automated scoring of the Monkey Neurovirulence Test (MNVT) in polio vaccine development
 
 ## Clinical problem 
 The Monkey Neurovirulence Test (MNVT) is used to assess the risk of virulence of the oral polio vaccine by scoring the severity of lesions found in brain and spinal cord tissue sections. The scoring is performed using a grading system which establishes lesion severity in a scale of 0 to 4. Currently, two different pathologists visually assess multiple sections of tissue and need to agree on a score which indicates the safety of the corresponding vaccine batch. This can be challenging as lesion identification and grading can be subjective, affecting inter-reader consistency and reproducibility. In this project we aim to develop a weakly supervised model that predicts a score directly from tissue sections, providing pathologists with a decision-support tool to improve their workflow.
-
-![Example of WSI: Cortex region](content/pages/vacancies/msc_mntv_WSI_example2.png)
-![Grade 0](pages/vacancies/msc_mntv_grade0.png)
-![Grade 2](vacancies/msc_mntv_grade2.png)
-![Grade 4](msc_mntv_grade4.png)
 
 ## Goals
 Primary goal: develop a weakly supervised learning model for scoring of MNVT tissue sections.
