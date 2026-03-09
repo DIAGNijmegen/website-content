@@ -2,7 +2,7 @@ title: Maria Cristina Ferrández
 name: Maria Cristina Ferrández
 pub_name: Maria Cristina Ferrández
 template: people-single
-picture: people/maria_cristina_ferrandez.jpg
+picture: people/maria_cristina_ferrandez.png
 position: Postdoctoral Researcher
 active: yes
 groups: diag, pathology
