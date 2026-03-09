@@ -30,6 +30,7 @@ if [ "$LOCAL" = "1" ]; then
     mv $WEBSITE/temp_dir $WEBSITE/output/images
     rm -rf $WEBSITE/temp_dir
   fi
+  mkdir -p $WEBSITE/output/images
   cp -r --no-clobber assets/images/. $WEBSITE/output/images
   cp -r --no-clobber content/images/. $WEBSITE/output/images
 fi
