@@ -5,7 +5,7 @@ type: general
 picture: projects/solace-logo.png
 template: project-single
 groups: diag
-people: Colin Jacobs, Steven Schalekamp, Mathias Prokop
+people: Colin Jacobs, Steven Schalekamp, Noa Antonissen, Mathias Prokop
 description: Strengthening the screening of lung cancer in Europe
 
 ![SOLACE]({{ IMGURL }}/images/projects/solace-logo.png)
