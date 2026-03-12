@@ -1,4 +1,4 @@
-title: AI for Oncology
+title: AI for Longitudinal and Multimodal Oncology Imaging
 picture: projects/oncology.jpg
 pi_picture: people/Alessa_Hering.jpg 
 category: about
