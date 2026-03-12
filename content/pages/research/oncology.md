@@ -1,5 +1,5 @@
 title: OncoAI
-title_long: AI-assisted cancer image analysis
+title_long: AI for Longitudinal and Multimodal Oncology Imaging
 finished: false
 type: general
 picture: projects/oncology.jpg
