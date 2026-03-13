@@ -1,4 +1,22 @@
 people:
+  - name: Jan Willem Duitman
+    position: Assistant Professor
+    affiliation: Amsterdam UMC
+    url: https://www.linkedin.com/in/janwillem-duitman-27b93198/
+    picture: people/external/Jan_Willem_Duitman.jpg
+    email: 
+  - name: Annemiek Dijkhuis
+    position: Support Staff
+    affiliation: Amsterdam UMC
+    url: https://pure.amsterdamumc.nl/en/persons/annemiek-dijkhuis/
+    picture: people/external/Annemiek_Dijkhuis.jpg
+    email: 
+  - name: Naomi Duits
+    position: PhD Candidate
+    affiliation: VU Amsterdam
+    url: https://www.linkedin.com/in/naomi-duits-b17a48205/
+    picture: people/external/Naomi_Duits.jpeg
+    email: 
   - name: Tahlita Zuiverloon
     position: Associate Professor, Urologist
     affiliation: Pathology, Erasmus University Medical Centre
