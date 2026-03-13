@@ -1,7 +1,7 @@
 title: Judith Lefkes receives Christine Mohrmann Stipend
 date: 2026-03-10
 picture: news/stipend-judith-lefkes.png
-description: Judith Lefkes receives a Christine Mohrmann Stipend for her research on generalizable AI models and automated pathology reporting.
+description: Judith Lefkes received a Christine Mohrmann Stipend for her research on generalizable AI models and automated pathology reporting.
 groups: diag, pathology
 
 [member/judith-lefkes] has been awarded a Christine Mohrmann Stipend from Radboud University. The stipend is awarded annually to promising female PhD candidates and encourages them to continue their academic careers after completing their PhD.
