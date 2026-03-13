@@ -1,6 +1,6 @@
 title: Automated AI development in Prostate Cancer
 groups: diag, radiology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc-automated-AI-development.png
 template: vacancy-single
