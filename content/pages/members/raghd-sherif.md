@@ -1,7 +1,7 @@
 title: Raghd Sherif
 name: Raghd Sherif
 template: people-single
-picture: people/Raghd_Sherif.jpeg
+picture: people/Raghd_Sherif.jpg
 position: Student assistant
 active: yes
 groups: pathology
