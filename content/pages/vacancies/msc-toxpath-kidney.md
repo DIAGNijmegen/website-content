@@ -2,7 +2,7 @@ title: An AI model to detect kidney abnormalities from drug safety testing
 groups: diag, pathology
 closed: false
 type: student 
-picture: vacancies/msc_toxpath_kidney_3.png
+picture: vacancies/msc_toxpath_kidney_1.png
 template: vacancy-single
 people: Salma Dammak, Geert Litjens
 description: Development of an AI model to detect kidney abnormalities from drug safety testing
@@ -14,8 +14,6 @@ Toxicologic pathology is the study of the effects of compounds on biological bei
 ## Approach
 
 Previous work for kidney abnormality detection has shown that this is possible with an AUC of 0.74 when using a weakly supervised learning approach based on the UNI foundation model [1] for feature extraction and the CLAM approach [2] for classification. This is considerably lower than the performance we see in liver, which may be due to architectural complexity of kidney histology compared to the liver (Fig 1).
-
-![image]({{ IMGURL }}/images/vacancies/msc_toxpath_kidney_1.png)
 
 The first goal of this project is to evaluate whether newer and more powerful foundation models can achieve better performance through a benchmarking study on a subset of the data, which will establish a baseline for performance using off-the shelf methods.
  
