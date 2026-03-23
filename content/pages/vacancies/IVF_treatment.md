@@ -1,5 +1,5 @@
 title: Towards an improved planning model for patient-centered IVF treatment using AI
-groups: rtc
+groups: rtc, diag
 closed: false
 type: student
 picture: vacancies/ivf_treatment.jpeg
