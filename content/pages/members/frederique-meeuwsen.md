@@ -1,7 +1,7 @@
 title: Frédérique Meeuwsen
 name: Frédérique Meeuwsen
 template: people-single
-picture: people/Frederique_Meeuwsen.png
+picture: people/Frederique_Meeuwsen.jpeg
 position: Pathologist and Postdoctoral Researcher
 active: yes
 groups: diag, pathology
