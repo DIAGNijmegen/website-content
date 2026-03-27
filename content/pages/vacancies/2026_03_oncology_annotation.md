@@ -1,6 +1,6 @@
 title: Universal lesion annotation in whole-body longitudinal CT imaging
 groups: diag
-closed: false
+closed: true
 type: student
 picture: vacancies/oncology.jpg
 template: vacancy-single
