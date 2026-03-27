@@ -1,11 +1,11 @@
-title: Universal lesion annotation in whole-body longitudinal CT imaging
+title: Student assistant universal lesion annotation in whole-body longitudinal CT imaging
 groups: diag
-closed: true
-type: student
+closed: false
+type: general
 picture: vacancies/oncology.jpg
 template: vacancy-single
 people: Niels Rocholl, Jan Tagscherer, Rianne Weber, Alessa Hering
-description: Evaluation of multi-organ CT registration models for lesion tracking across timepoints
+description: Annotation of whole-body lesions in CT across multiple timepoints
 date: 2026-03-27
 
 ## Clinical Motivation and Objective
