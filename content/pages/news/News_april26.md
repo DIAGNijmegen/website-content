@@ -8,13 +8,13 @@ description: The sun is shining (a bit more), the first flowers can be seen: it 
 
 At the beginning of March, a large group of DIAG members has been present at the European Congress of Radiology in Vienna. Besides presentations and posters by several DIAG members, the beautiful city of Vienna was explored. Furthermore, the Research Presentation Award was awarded for "Validation of AI-Assisted RECIST Lesion Measurements in Follow-Up CT: A Multi-Center Reader Study" M. J. J. De Grauw, R. Weber, M. Westphal, T.Lossau, J. H. Moltz, B. Van Ginneken, M. Prokop, E. J. Smit, A. Hering !
 
-![[shared image.jpeg]]
+![ECR_2026]({{ IMGURL }}/images/news/content/images/news/ECR_2026.jpg.jpg)
 
 Later that month, the group of [member/alessa-hering] attended the German Conference on Medical Image Computing in Lübeck and combined the meeting with a group retreat. Two oral presentations were given by DIAG members: [member/jan-tagschere] presented _EvalBlocks_, a modular pipeline for rapid evaluation of foundation models in medical imaging, and [member/luc-builtjes] presented the _llm_extractinator_ framework for clinical information extraction with open-source large language models in resource-constrained settings. In addition, many group members contributed to the poster sessions.
 
 Both frameworks are publicly available through the DIAG GitHub, reflecting the group’s commitment to open and reproducible research.
 
-![[Pasted image 20260326090803.png]]
+![ECR_2026]({{ IMGURL }}content/images/news/BVM_2026.png)
 
 ## New DIAG members
 We welcomed the following new members in March:
