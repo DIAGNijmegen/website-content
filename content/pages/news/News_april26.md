@@ -8,19 +8,23 @@ description: The sun is shining (a bit more), the first flowers can be seen: it 
 
 At the beginning of March, a large group of DIAG members has been present at the European Congress of Radiology in Vienna. Besides presentations and posters by several DIAG members, the beautiful city of Vienna was explored. Furthermore, the Research Presentation Award was awarded for "Validation of AI-Assisted RECIST Lesion Measurements in Follow-Up CT: A Multi-Center Reader Study" M. J. J. De Grauw, R. Weber, M. Westphal, T.Lossau, J. H. Moltz, B. Van Ginneken, M. Prokop, E. J. Smit, A. Hering !
 
-![BVM]({{ IMGURL }}content/images/news/ECR_2026.jpg)
+![BVM]({{ IMGURL }}/content/images/news/ECR_2026.jpg)
 
 Later that month, the group of [member/alessa-hering] attended the German Conference on Medical Image Computing in Lübeck and combined the meeting with a group retreat. Two oral presentations were given by DIAG members: [member/jan-tagschere] presented _EvalBlocks_, a modular pipeline for rapid evaluation of foundation models in medical imaging, and [member/luc-builtjes] presented the _llm_extractinator_ framework for clinical information extraction with open-source large language models in resource-constrained settings. In addition, many group members contributed to the poster sessions.
 
 Both frameworks are publicly available through the DIAG GitHub, reflecting the group’s commitment to open and reproducible research.
 
-![ECR_2026]({{ IMGURL }}content/images/news/BVM_2026.png)
+![ECR_2026]({{ IMGURL }}/content/images/news/BVM_2026.png)
 
 ## New DIAG members
 We welcomed the following new members in March:
+
 - [member/maria-cristina-ferrandez]
+  
 - [member/mattia-sarno]
+  
 - [member/raghd-sherif]
+
 ## Highlighted publications
 - S. Scharm, C. Schaefer-Prokop, A. Schreuder, J. Ehmig, A. Hunkemöller, J. Fuge, B. Seeliger, J. Schupp, F. Wacker and H. Shin, "Extent of alveolar collapse in expiratory CT as a prognostic marker in idiopathic pulmonary fibrosis", _PLOS One,_ 2026;21:e0345308.
     
