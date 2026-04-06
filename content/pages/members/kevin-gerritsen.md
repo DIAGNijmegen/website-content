@@ -1,7 +1,7 @@
 title: 
 name: Kevin Gerritsen
 template: people-single 
-picture: people/Kevin_Gerritsen.png
+picture: people/Kevin_Gerritsen.jpeg
 groups: diag, cara-lab 
 position: MSc Student, MSc Student
 type: student, student
