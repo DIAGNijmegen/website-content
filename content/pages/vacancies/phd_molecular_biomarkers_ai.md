@@ -23,12 +23,12 @@ Furthermore, clinical adoption of AI requires transparency. A major focus of you
 You are a creative, highly motivated, and ambitious researcher with an MSc degree in Computer Science, Artificial Intelligence, Data Science, Biomedical Engineering, Technical Medicine, or a related field. You possess a clear interest in applying artificial intelligence to medical image analysis to improve patient care. Solid programming skills (preferably in Python) and practical experience with deep learning frameworks (e.g., PyTorch) are essential and should be evident from your prior projects, publications, or GitHub account. Experience with computer vision, foundation models, weakly-supervised learning, or computational pathology is considered a strong plus. Good communication and organizational skills are crucial, as you will be working in a dynamic, multidisciplinary team.
 
 ## Organization
-### Computational Pathology Group
+# Computational Pathology Group
 The [Computational Pathology Group](https://www.computationalpathologygroup.eu/) is a research group of the department of Pathology of the [Radboud University Medical Center (Radboudumc)](https://www.radboudumc.nl). We are also part of the cross-departmental [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl) at Radboudumc, with researchers in the departments of Radiology and Nuclear Medicine, Pathology and Cardiology.
 
 We develop, validate and deploy novel medical image analysis methods, usually based on deep learning technology and focusing on computer-aided diagnosis (CAD). Application areas include diagnostics and prognostics of breast, colon, prostate and lung cancer, among others. Our group is among the international front runners in the field, evidenced for instance by the highly successful CAMELYON and PANDA Grand Challenges which we organized and published in JAMA and Nature Medicine.
 
-### Radboudumc
+# Radboudumc
 [Radboud university medical center](www.radboudumc.nl) is a university medical center for patient care, scientific research, and education in Nijmegen. Radboud university medical center strives to be at the forefront of shaping the healthcare of the future. We do this in a person-centered and innovative way, and in close collaboration with our network. We want to have a significant impact on healthcare. We want to improve with each passing day, continuously working towards better healthcare, research, and education. And gaining a better understanding of how diseases arise and how we can prevent, treat, and cure them, day in and day out. This way, every patient always receives the best healthcare, now and in the future. Because that is why we do what we do.
 
 Read more about our strategy and what working at Radboud university medical center means. Our colleagues would be happy to tell you about it. #weareradboudumc
