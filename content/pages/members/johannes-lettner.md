@@ -1,7 +1,7 @@
 title: Johannes Lettner
 name: Johannes Lettner
 template: people-single
-picture: people/johannes-lettner.jpg
+picture: people/Johannes_Lettner.jpg
 position: Visiting Researcher
 active: yes
 groups: diag, pathology
