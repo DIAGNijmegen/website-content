@@ -1,4 +1,4 @@
-title: Weakly supervised learning for automated scoring of the Monkey Neurovirulence Test (MNVT) in polio vaccine development
+title: Using AI to improve vaccine safety assessment
 groups: diag, pathology
 closed: false
 type: student
@@ -8,20 +8,30 @@ people: Maria Cristina Ferrández, Salma Dammak, Jeroen van der Laak
 description: Weakly supervised learning for automated scoring of the Monkey Neurovirulence Test (MNVT) in polio vaccine development
 
 ## Clinical problem 
-The Monkey Neurovirulence Test (MNVT) is used to assess the risk of virulence of the oral polio vaccine by scoring the severity of lesions found in brain and spinal cord tissue sections. The scoring is performed using a grading system which establishes lesion severity in a scale of 0 to 4. Currently, two different pathologists visually assess multiple sections of tissue and need to agree on a score which indicates the safety of the corresponding vaccine batch. This can be challenging as lesion identification and grading can be subjective, affecting inter-reader consistency and reproducibility. In this project we aim to develop a weakly supervised model that predicts a score directly from tissue sections, providing pathologists with a decision-support tool to improve their workflow.
+Vaccines must undergo rigorous safety testing before they can be used in humans. Part of this process involves carefully examining tissue samples to detect potential harmful effects.
+In one such test used during polio vaccine development, experts analyze brain and spinal cord tissue under a microscope and assign a score that reflects the severity of observed damage. This scoring directly influences whether a vaccine batch is considered safe.
+However, this process is time-consuming and subjective. Different experts may interpret the same tissue differently, making it challenging to achieve consistent and reproducible results, especially at scale.
+An AI-based solution could support experts by providing objective, consistent, and scalable assessments, ultimately improving both efficiency and reliability in vaccine development.
 
-## Goals
-Primary goal: develop a weakly supervised learning model for scoring of MNVT tissue sections.
-
-Further goals:
-
-- Establishing preprocessing and data curation pipeline for the histopathology slides
-- Validation of model performance and generalizability across different tissue sections and batches
-- Evaluation of model scalability as the dataset grows
-
+## Approach
+In this project, you will develop a deep learning model that can automatically assess tissue samples and predict safety-related scores.
+A key challenge is that detailed annotations are not available. Instead, you will use weakly supervised learning, where the model learns directly from whole-slide data and overall scores.
+The project will include:
+- Developing a model that predicts severity scores from histopathology slides 
+- Building a preprocessing and data curation pipeline 
+- valuating performance across different tissue regions and experimental batches 
+- Investigating how the model improves as more data becomes available
 
 ## Data
-A dataset of more than 1000 histopathology slides is available for training and validation of the model. The dataset spans 10 distinct anatomical regions of the brain and spinal cord. The industry partner performs the MNVT as part of their vaccine quality control pipeline.
+You will work with a dataset of more than 1000 high-resolution histopathology slides, covering multiple regions of animal central nervous system.
+The data is provided by an industry partner and is part of a real-world vaccine safety evaluation pipeline, making this project highly relevant for practical applications.
+
+## Why this matters
+Improving the consistency and efficiency of safety testing can:
+- Accelerate vaccine development 
+- Reduce subjectivity in critical decisions 
+- Support experts in handling large-scale studies 
+- Contribute to safer and more reliable vaccines worldwide
 
 ## Requirements
 - Students with a major in computer science, biomedical engineering, artificial intelligence, physics, or a related area in the final stage of master level studies are invited to apply.
