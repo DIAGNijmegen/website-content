@@ -1,7 +1,7 @@
 title: Sepideh Bahri
 name: Sepideh Bahri
 template: people-single
-picture: people/sepideh-bahri.jpg
+picture: people/Sepideh_Bahri.jpg
 position: PhD Candidate
 active: yes
 groups: diag, pathology
