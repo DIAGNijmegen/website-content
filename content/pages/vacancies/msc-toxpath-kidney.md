@@ -1,6 +1,6 @@
 title: An AI model to detect kidney abnormalities from drug safety testing
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc_toxpath_kidney_1.png
 template: vacancy-single
