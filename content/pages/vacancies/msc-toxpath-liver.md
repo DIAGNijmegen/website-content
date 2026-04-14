@@ -1,6 +1,6 @@
 title: A comparative multi-modal AI model for liver hypertrophy detection in drug safety slides
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc_toxpath_liver_1.png
 template: vacancy-single
