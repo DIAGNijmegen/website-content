@@ -22,9 +22,7 @@ Basal cell carcinoma (BCC) is the most common cancer worldwide, with 4.0 million
 
 The good news is that BCC grows very slowly. The median annual increase in tumor diameter is only 1 to 4 mm, metastasis is extremely rare, and spontaneous regression has been described in 10 to 20% of cases. Most BCCs cause no complaints, and when they do, symptoms are usually mild. On the other hand, 15% of BCCs turn out to progress into more severe tumors. Current guidelines offer limited guidance on whether active treatment is truly needed or whether active surveillance, meaning close monitoring without immediate treatment, is the more appropriate strategy. This is especially relevant for older patients who may not live long enough to develop bothersome symptoms, while treatment itself can cause a significant burden.
 
-A recent observational cohort study at our center followed patients with BCC under active surveillance. We observed substantial heterogeneity in tumor behavior, and the factors driving this variability remain largely unexplained. Being able to predict which tumors will progress and
-
-which will remain stable would directly support prioritizing treatment for high-risk patients, especially given that waiting times for specialized care can be as long as six months.
+A recent observational cohort study at our center followed patients with BCC under active surveillance. We observed substantial heterogeneity in tumor behavior, and the factors driving this variability remain largely unexplained. Being able to predict which tumors will progress and which will remain stable would directly support prioritizing treatment for high-risk patients, especially given that waiting times for specialized care can be as long as six months.
 
 ![Basal cell carcinoma]({{ IMGURL }}/images/vacancies/basal_cell_carcinoma_microscopic.png)
 
@@ -72,4 +70,4 @@ A motivated master student in Artificial Intelligence, Data Science, Biomedical 
 
 ## People
 
-Supervisors: Ivan Slootweg (Computational Pathology), Satish Lubeek (Dermatology), Avital Amir (Pathology), Geert Litjens (Computational Pathology)
+Supervisors: Ivan Slootweg (Computational Pathology), Satish Lubeek (Dermatology), Avital Amir (Pathology), Geert Litjens (Computational Pathology).
