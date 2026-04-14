@@ -5,7 +5,7 @@ type: student
 picture: vacancies/basal_cell_carcinoma_microscopic.png
 template: vacancy-single
 people: Ivan Slootweg, Geert Litjens 
-description: Predicting Basal Cell Carcinoma Progression from Histopathology Using Artificial Intelligence
+description: Predicting basal cell carcinoma progression from histopathology using Artificial Intelligence
 date: 2026-04-15
 
 **Department**: Dermatology & Pathology, Radboud University Medical Center, Nijmegen
