@@ -16,7 +16,7 @@ Basal cell carcinoma (BCC) is the most common cancer worldwide, with 4.0 million
 
 ![Incidence Basal cell carcinoma]({{ IMGURL }}/images/vacancies/Incidence_basal_cell_carcinoma.png)
 
-**Fig. 1:**  Incidence trends for the most common type of tumors per organ. (left) Basal cell carcinoma cases are registered since 2017. (right) In 2025, basal cell carcinoma was responsible for 1 third of all tumors overall and for 70% of all tumors of the skin. Source: IKNL
+**Fig. 1:** Incidence for the most common type of tumors per organ. (left) Basal cell carcinoma cases are registered since 2017 and shows a strong upward trend. (right) In 2025, basal cell carcinoma was responsible for 1 third of all tumors overall and for 70% of all tumors of the skin. Source: IKNL
 
 ## Problem
 
@@ -24,23 +24,15 @@ The good news is that BCC grows very slowly. The median annual increase in tumor
 
 A recent observational cohort study at our center followed patients with BCC under active surveillance. We observed substantial heterogeneity in tumor behavior, and the factors driving this variability remain largely unexplained. Being able to predict which tumors will progress and which will remain stable would directly support prioritizing treatment for high-risk patients, especially given that waiting times for specialized care can be as long as six months.
 
-![Basal cell carcinoma]({{ IMGURL }}/images/vacancies/basal_cell_carcinoma_microscopic.png)
-
-**Fig. 2:**  A microscopic image of basal cell carcinoma with the epidermis at the bottom. The heatmap overlay are detected cancer regions of a developed model.
+Scientific literature proposes many markers associated with BCC aggressiveness and progression. Some are clinical variables such as tumor location, tumor size, the presence of ulceration, recurrent versus primary status, patient age and sex. However, many of the biomarkers markers are traditionally assessed by immunohistochemistry (IHC). IHC can be costly, but a substantial number of markers have morphological correlates that are potentially detectable on standard H&E.
 
 ## Project aim
 
-Scientific literature proposes many biomarkers associated with BCC aggressiveness and progression. Many of these markers are traditionally assessed by immunohistochemistry (IHC), but a substantial number have morphological correlates that are visible or potentially detectable on H&E. On top of that, clinical variables such as tumor location, tumor size, patient age, sex, recurrent versus primary status, and the presence of ulceration can be combined with the imaging features.
-
 The aim of this project is to develop and evaluate an AI model that predicts BCC tumor progression using routinely available data: H&E-stained histopathology images from diagnostic punch biopsies, combined with clinical and demographic variables. The central question is whether morphological features visible on standard H&E slides, without the need for additional IHC staining, contain enough prognostic information to distinguish progressive from stable BCC.
-
-## Approach
-
-The project will use data from an existing observational cohort of patients with BCC managed by active surveillance at the Radboud University Medical Center.
 
 As a student you will:
 
-**Prepare and curate the dataset.** This involves working with digitized baseline H&E-stained punch biopsies and translating patient variables into meaningful inputs for a computational model. You may even use AI models to extract more image-derived features.
+**Prepare and curate the dataset.** This involves working with digitized H&E-stained punch biopsies and translating patient variables into meaningful inputs for a computational model. You may even use AI models to extract more image-derived features.
 
 **Develop an AI prediction model.** You will train and evaluate weakly-supervised learning models on whole slide images to predict tumor progression. This may involve patch-level feature extraction, and integration of clinical variables.
 
@@ -58,7 +50,9 @@ A motivated master student in Artificial Intelligence, Data Science, Biomedical 
 
 - The work you do has direct clinical relevance: it contributes to improving shared decision making in skin cancer management.
 
-- We provide access to a unique and well characterized cohort of BCC patients under active surveillance with longitudinal tumor measurements. You will learn to work with digitized histopathology slides that are gigapixel in size.
+- We provide access to a unique and well characterized an existing observational cohort of patients with BCC under active surveillance at Radboud University Medical Center.
+
+- You will learn to work with digitized histopathology slides that are gigapixel in size.
 
 - There are existing AI frameworks developed in our group that you can build on.
 
