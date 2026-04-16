@@ -4,7 +4,7 @@ closed: false
 type: student
 picture: vacancies/basal_cell_carcinoma_microscopic.png
 template: vacancy-single
-people: Ivan Slootweg, Geert Litjens 
+people: Ivan Slootweg, Satish Lubeek, Avital Amir, Geert Litjens 
 description: Predicting basal cell carcinoma progression from histopathology using Artificial Intelligence
 date: 2026-04-15
 
@@ -61,7 +61,3 @@ A motivated master student in Artificial Intelligence, Data Science, Biomedical 
 - Start: Flexible
 
 - For more information please contact Ivan Slootweg
-
-## People
-
-Supervisors: Ivan Slootweg (Computational Pathology), Satish Lubeek (Dermatology), Avital Amir (Pathology), Geert Litjens (Computational Pathology).
