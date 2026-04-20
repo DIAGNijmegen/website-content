@@ -1,4 +1,10 @@
 people:
+  - name: Satish Lubeek
+    position: Dermatologist
+    affiliation: Dermatology, Radboudumc
+    picture: people/external/Satish_Lubeek.jpg
+    url: https://www.radboudumc.nl/personen/satish-lubeek
+    email: Satish.Lubeek@radboudumc.nl
   - name: Jan Willem Duitman
     position: Assistant Professor
     affiliation: Amsterdam UMC
