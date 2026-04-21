@@ -3,7 +3,7 @@ name: Kevin van den Tillaart
 template: people-single
 picture: people/Kevin_vandenTillaart.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: Kevin.vandenTillaart@radboudumc.nl
