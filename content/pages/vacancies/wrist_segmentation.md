@@ -1,6 +1,6 @@
 title: AI-enhanced segmentation and registration of wrist bones in fractured and implant-containing wrists
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/ct_wrist.jpeg
 template: vacancy-single
