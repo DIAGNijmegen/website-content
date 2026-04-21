@@ -2,7 +2,7 @@ title: Joel Käyser
 name: Joel Käyser
 template: people-single
 picture: people/Joel_Kayser.jpg
-position: Bachelor Student
+position: Student assistant
 active: yes
 groups: diag, pathology
 default_group: pathology
