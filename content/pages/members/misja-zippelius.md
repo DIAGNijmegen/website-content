@@ -3,7 +3,7 @@ name: Misja Zippelius
 template: people-single
 picture: people/misja_zippelius.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: misja.zippelius@radboudumc.nl
