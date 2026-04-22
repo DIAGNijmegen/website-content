@@ -3,7 +3,7 @@ name: Merlijn Hilberink
 template: people-single
 picture: people/Merlijn_Hilberink.jpeg
 position: Bachelor Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: Merlijn.Hilberink@radboudumc.nl
