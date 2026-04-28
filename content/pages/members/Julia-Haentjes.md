@@ -1,7 +1,7 @@
 title: Julia Haentjes
 name: Julia Haentjes
 template: people-single
-picture: JuliaHaentjes.jpeg
+picture: people/JuliaHaentjes.jpeg
 position: Master Student
 active: yes
 groups: diag
