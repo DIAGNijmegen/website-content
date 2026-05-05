@@ -1,4 +1,4 @@
-title: PhD candidate 'PhD Position in AI for Cardiovascular Imaging – Generative AI & Digital Twins'
+title: PhD Position in AI for Cardiovascular Imaging – Generative AI & Digital Twins
 groups: diag
 closed: false
 type: general
@@ -30,7 +30,7 @@ At the department of Medical Imaging, you work on diagnostics, interventions, ed
 ## Your profile
 The ideal candidate is an intellectually independent, highly intrinsically motivated researcher with a strong interest in bridging AI development and clinical evidence generation. Success in this position requires the ability to translate technical AI methods into clinically meaningful evaluation frameworks, while working effectively in a multidisciplinary and international environment. A flexible, resourceful, and proactive mindset is essential, with strong ownership of work, the ability to structure and drive projects independently, and to thrive in a setting with high autonomy and trust.
 
-### Education
+## Education
 
 You have a MSc degree in a relevant field such as Technical Medicine, Biomedical Engineering, Medical Image Analysis, Medical Informatics, Statistics, Computer Science, or a related discipline.
 
