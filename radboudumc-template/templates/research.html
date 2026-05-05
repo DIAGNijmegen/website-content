@@ -10,11 +10,65 @@
 
     {{ page.content }}
 
-    <div class="row mt-4">
-        {% for card in pages %}
-            {% if card.category == 'research' and card.show_in_overview != 'false' and card.finished == 'false' %}
-                {% include "blocks/card.html" %}
-            {% endif %}
+    <!-- Research Groups Section -->
+    <h2 class="mt-4">Research Groups</h2>
+    {{ page.groups_description }}
+
+    <div class="row">
+        {% set research_cards = pages | selectattr("category", "equalto", "about")
+                                    | selectattr("section", "equalto", "research_groups")
+                                    | selectattr("show_in_overview", "ne", "false") | list %}
+        {% for card in research_cards %}
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
+                {% include "blocks/about_card.html" %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Research Infrastructure and Support Section -->
+    <h2 class="mt-4">Research Infrastructure and Support </h2>
+    {{ page.support_description }}
+
+    <div class="row">
+        {% set research_cards = pages | selectattr("category", "equalto", "about")
+                                     | selectattr("section", "equalto", "research_support")
+                                     | selectattr("show_in_overview", "ne", "false") | list %}
+        {% for card in research_cards %}
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
+                {% include "blocks/about_card.html" %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Spin-Off Companies Section -->
+    <h2 class="mt-4">Spin-Off Companies</h2>
+
+    {{ page.spinoff_description }}
+
+    <div class="row">
+        {% set spin_off_cards = pages | selectattr("category", "equalto", "about")
+                                      | selectattr("section", "equalto", "spin_offs")
+                                      | selectattr("show_in_overview", "ne", "false") | list %}
+        {% for card in spin_off_cards %}
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
+                {% include "blocks/about_card.html" %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Industry Collaborations Section -->
+    <h2 class="mt-4">Industry Collaborations</h2>
+
+    {{ page.industry_description }}
+
+    <div class="row">
+        {% set industry_cards = pages | selectattr("category", "equalto", "about")
+                                      | selectattr("section", "equalto", "industry")
+                                      | selectattr("show_in_overview", "ne", "false") | list %}
+        {% for card in industry_cards %}
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
+                {% include "blocks/about_card.html" %}
+            </div>
         {% endfor %}
     </div>
 

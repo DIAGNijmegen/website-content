@@ -14,69 +14,7 @@
     <h2 class="mt-4">Our Mission</h2>
     {{ page.metadata['diag_mission'] }}
 
-    <!-- Research Groups Section -->
-    <h2 class="mt-4">Research Groups</h2>
-
-     {{ page.metadata['groups_description'] }}
-   
-    <div class="row">
-        {% set research_cards = pages | selectattr("category", "equalto", "about") 
-                                    | selectattr("section", "equalto", "research_groups") 
-                                    | selectattr("show_in_overview", "ne", "false") | list %}
-        {% for card in research_cards %}
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
-                {% include "blocks/about_card.html" %}
-            </div>
-        {% endfor %}
-    </div>
-
-    <!-- Research Support Section -->
-    <h2 class="mt-4">Research Support</h2>
-
-    {{ page.support_description }}
-
-    <div class="row">
-        {% set research_cards = pages | selectattr("category", "equalto", "about")
-                                     | selectattr("section", "equalto", "research_support")
-                                     | selectattr("show_in_overview", "ne", "false") | list %}
-        {% for card in research_cards %}
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
-                {% include "blocks/about_card.html" %}
-            </div>
-        {% endfor %}
-    </div>
-
-    <!-- Spin-Off Companies Section -->
-    <h2 class="mt-4">Spin-Off Companies</h2>
-
-    {{ page.spinoff_description }}
-
-    <div class="row">
-        {% set spin_off_cards = pages | selectattr("category", "equalto", "about")
-                                      | selectattr("section", "equalto", "spin_offs")
-                                      | selectattr("show_in_overview", "ne", "false") | list %}
-        {% for card in spin_off_cards %}
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
-                {% include "blocks/about_card.html" %}
-            </div>
-        {% endfor %}
-    </div>
-
-    <!-- Industry Collaborations Section -->
-    <h2 class="mt-4">Industry Collaborations</h2>
-
-    {{ page.industry_description }}
-
-    <div class="row">
-        {% set industry_cards = pages | selectattr("category", "equalto", "about")
-                                      | selectattr("section", "equalto", "industry")
-                                      | selectattr("show_in_overview", "ne", "false") | list %}
-        {% for card in industry_cards %}
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mb-4">
-                {% include "blocks/about_card.html" %}
-            </div>
-        {% endfor %}
-    </div>
+    <img alt="Group photo of DIAG members" class="img-fluid w-100" src="{{ IMGURL}}/{{SITE_PICTURE}}"/>
 
 </div>
 {% endblock %}
