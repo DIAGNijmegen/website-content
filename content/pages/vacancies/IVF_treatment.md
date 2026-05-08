@@ -51,6 +51,6 @@ Affinity with clinical data, reproductive medicine, or healthcare workflow optim
 
 The student will be embedded within the Department of Obstetrics and Gynaecology (Reproductive Medicine). Secure access to clinical data will be provided via departmental systems. Computing resources for model development will need to be arranged.
 
-For more information, please contact Jasper Weeteling (Jasper.Weeteling@radboudumc.nl).
+If you are interested in applying for this Master student project, please send an email to: rtcai@radboudumc.nl.
 
 
