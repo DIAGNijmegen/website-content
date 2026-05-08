@@ -1,7 +1,7 @@
 ---
 title: Multi-scale phenotyping of mosquito host-seeking behavior using machine learning and computer vision
 groups: rtc
-closed: false
+closed: true
 type: student
 picture: vacancies/mosquito-biting.png
 template: vacancy-single
