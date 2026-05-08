@@ -58,5 +58,6 @@ Affinity with clinical AI validation, LLMs, or healthcare data is a strong plus.
 
 The student will be embedded in the Implementation, (De-)Implementation and Behavioural Change group of the IQ Health department and collaborate closely with clinical, AI, and IT stakeholders. Access to GPU resources will be arranged through existing institutional infrastructures.
 
-If you are interested in applying for this project, please send an email to: rtcai@radboudumc.nl.
+If you are interested in applying for this Master student project, please send an email to: rtcai@radboudumc.nl.
+
 
