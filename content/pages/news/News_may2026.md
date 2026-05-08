@@ -1,6 +1,6 @@
 title: Monthly DIAG News – May 2026
 date: 2026-05-01
-picture: TO DO
+picture: news/monthly_news2.png
 groups: diag
 description: It is time for the DIAG newsletter of May!
 
