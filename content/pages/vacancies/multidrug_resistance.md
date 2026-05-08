@@ -59,5 +59,5 @@ Affinity with microbiology, infectious diseases, or antimicrobial resistance is 
 
 The student will be embedded within the Department of Medical Microbiology. A secure Digital Research Environment (DRE) and standard computing facilities are available for data analysis.
 
-For more information, please contact Michael Rodgers (michael.rodgers@radboudumc.nl).
+If you are interested in applying for this project, please send an email to: rtcai@radboudumc.nl.
 
