@@ -7,6 +7,7 @@ template: project-single
 groups: diag
 people: Lars Leijten, Roel Verhoeven, Erik van der Heijden, Erik Aarntzen, Colin Jacobs
 description: IMAGIO will leverage Interventional Oncology in the clinical setting to improve the cancer survival outcomes, through minimally invasive, efficient, and affordable care pathways for three disease states: liver cancer, lung cancer and sarcoma.
+bibkeys: Leij26
 
 ## Project summary
 Cancer is a leading cause of death worldwide, accounting for nearly 10 million deaths in 2020, or nearly one in six deaths. Lung and liver cancers were among the top three leading causes of cancer death in 2020 with 1.8 million and 830.000 deaths, respectively. On the other hand, soft tissue sarcomas are relatively uncommon cancers diagnosed in about 1% of all adults, but much more common in children and young adults, accounting for 7–10% of paediatric malignancies; they are an important cause of death in the 14–29 years age group.

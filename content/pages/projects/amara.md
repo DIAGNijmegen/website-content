@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Renate Dinnessen, Dré Peeters, Cornelia Schaefer-Prokop, Mathias Prokop, Erik van der Heijden, Firdaus Mohamed Hoesein,  Pim de Jong, Rozemarijn Vliegenthart, Hester Gietema, Robin Cornelissen, Colin Jacobs
 description: Accurate malignancy risk estimation of pulmonary nodules using artificial intelligence
-bibkeys: Dinn25a, Dinn25, Peet25a, Peet25, Peet24a, Peet24, Dinn24, Peet23
+bibkeys: Dinn26, Dinn25a, Dinn25, Peet25a, Peet25, Peet24a, Peet24, Dinn24, Peet23
 
 ## Problem description:
 

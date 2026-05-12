@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Edwin John, Colin Jacobs, Mathias Prokop, Marianne Boenink, Mira Vegter
 description: MERAI Lab is a collaboration between Radboudumc and MeVis Medical Solutions AG with the aim to create AI solutions in the lung oncology field.
-bibkeys: Obre25, Vita24, Graa24c, Obre24, Graa24b
+bibkeys: Niet26, Vita26, Vita26a, Obre26, Steg26, Gaur25, Obre25, Vita24, Graa24c, Obre24, Graa24b
 
 ## Background
 
