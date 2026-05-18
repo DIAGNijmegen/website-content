@@ -3,7 +3,7 @@ name: Mika Klepper
 template: people-single
 picture: people/Mika_Klepper.png
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Mika.Klepper@radboudumc.nl
