@@ -3,7 +3,7 @@ name: Merijn van Erp
 template: people-single
 picture: people/Merijn_van_Erp.jpg
 position: Scientific Programmer
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: merijn.vanerp@radboudumc.nl
