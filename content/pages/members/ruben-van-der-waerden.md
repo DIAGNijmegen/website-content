@@ -10,6 +10,8 @@ email: Ruben.vanderWaerden@radboudumc.nl
 office: Route 616, CARA Lab 
 type: phd 
 linkedin: https://www.linkedin.com/in/rubenwaerden/
+check_staff: Jos Thannhauser
+check_date: 2027-02-28
 
 Ruben van der Waerden (1997) is a PhD candidate at the CARA Lab as part of the Diagnostic Image Analysis Group. Ruben completed both his Bachelor Degree in Biomedical Engineering and Master Degree in Medical Engineering at the Technical University of Eindhoven. During his master, more knowledge and interest was gained on AI-applications within the medical scene. The focus of his master thesis was on the derivation of blood pressure out of the non-invasive photoplethysmogram (PPG) using deep learning models.
 

@@ -9,6 +9,8 @@ default_group: pathology
 office: 
 email: Jose.Teixeira@radboudumc.nl
 type: phd
+check_staff: Geert Litjens
+check_date: 2026-05-01
 
 José Teixeira joined the Computational Pathology Group as a research assistant on the 3rd of November 2025. José is supervised by [member/geert-litjens] and works in close collaboration with [member/salma-dammak] within the [project/big-picture] project on developing AI tools for toxicological pathology, with the aim of supporting pre-clinical slide analysis and contributing to more efficient drug development.
  

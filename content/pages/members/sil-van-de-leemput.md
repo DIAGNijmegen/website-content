@@ -12,6 +12,8 @@ type: tech
 researcherid: http://www.researcherid.com/rid/D-9701-2016
 linkedin: http://www.linkedin.com/in/sil-van-de-leemput-803a08a1
 scholar: http://scholar.google.com/citations?user=cmYUcpgAAAAJ
+check_staff: Silvan Quax
+check_date: 2026-05-01
 
 Sil van de Leemput is a Research Scientist RTC AI at the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/). Starting from August 2023 he started working as part of the RTC AI team and has been working on various deep learning and medical imaging related projects.
 

@@ -11,6 +11,8 @@ scholar: https://scholar.google.com/citations?user=Ve1DcokAAAAJ&hl=en
 office: 
 linkedin: https://www.linkedin.com/in/anindo-saha/
 type: postdoc
+check_staff: Henkjan Huisman
+check_date: 2025-03-31
 
 Anindo Saha is a Postdoctoral Researcher working on artificial intelligence (AI) systems for oncology and infectious diseases within the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl), under the supervision of [member/henkjan-huisman]. As of 2026, he serves as a member of the [American College of Radiology: PI-RADS AI Subcommittee](https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/PI-RADS) and supervises the Ph.D. of [Joel Jacob Tomson](https://www.diagnijmegen.nl/people/joel-jacob-tomson/) within the [AI4AI](https://www.nwo.nl/en/researchprogrammes/perspectief/perspectief-grants/ai4ai-artificial-intelligence-for-accessible-medical-imaging) consortium. 
 

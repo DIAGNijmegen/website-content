@@ -9,6 +9,8 @@ default_group: pathology
 email: Elianne.Heuer@radboudumc.nl
 office: 
 type: student
+check_staff: Geert Litjens
+check_date: 2026-08-01
 
 Elianne Heuer is a master's student in Data Science and Information Sciences at the Radboud University Nijmegen. She also previously finished her bachelor's degrees at the Radboud University, specializing in Data Science and Software Science, as well as following a Science minor and a Business Administration minor. During her studies she worked parttime as a programmer, and for her master's program she interned at Chainpoint in Arnhem, where she worked on integrating automatic document reading and processing.
  

@@ -9,6 +9,8 @@ default_group: pathology
 email: Meta.Tax@radboudumc.nl
 office: 
 type: administrative
+check_staff: Jeroen van der Laak
+check_date: 2026-05-01
 
 Meta Tax joined the [Computational Pathology Group](https://www.computationalpathologygroup.eu/) as a project manager in December 2024. She brings over fourteen years of experience in Higher Education, with a focus on international collaboration, coordination, and process and project management. Meta holds a Master’s degree in Multilingual Communication and recently completed training in Organizational Change.
  

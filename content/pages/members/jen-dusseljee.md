@@ -8,6 +8,8 @@ groups: diag, pathology
 default_group: pathology
 type: phd
 email: jen.dusseljee@radboudumc.nl
+check_staff: Jeroen van der Laak
+check_date: 2030-02-15
 
 Jen Dusseljee received his BSc in Computing Science and MSc in Data Science from Radboud University. He completed his BSc thesis at DIAG on improving lung cancer detection on low-dose CT scans under the supervision of [member/lars-leijten] and [member/colin-jacobs]. He later went on to also complete his MSc thesis at DIAG, supervised by [member/sarah-de-boer] and [member/alessa-hering]. The topic of his MSc thesis was the use of latent diffusion models for weakly-supervised kidney lesion detection on CT images.
  

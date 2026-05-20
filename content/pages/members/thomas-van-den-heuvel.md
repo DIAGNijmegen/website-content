@@ -11,6 +11,8 @@ groups: diag
 default_group: diag
 linkedin: http://www.linkedin.com/in/thomas-van-den-heuvel-76a97a5a
 scholar: http://scholar.google.com/citations?user=tcPB7ogAAAAJ&hl
+check_staff: Alessa Hering
+check_date: 2026-05-01
 
 Thomas van den Heuvel is a postdoc in the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl) and the [Medical Ultrasound Imaging Centre](http://music.radboudimaging.nl/index.php/Home). His work is part of the [POCUS-AI]( https://www.diagnijmegen.nl/research/pocus-ai/) research line in which he combines Point-of-care ultrasound (POCUS) with artificial intelligence. His main focus is development of software for automated detection of maternal risk factors in resource-limited settings. He is supervised by Chris de Korte and [member/bram-van-ginneken].
 

@@ -9,5 +9,7 @@ default_group: pathology
 email: joelkayser@hotmail.com
 office: 
 type: student-assistant
+check_staff: Valerie Dechering
+check_date: 2026-05-01
 
 Joel Käyser is currently in his last year of the (Medical) Biology bachelor at the Radboud University. Afterwards, he intends to pursue a master’s degree in Human Biology, with a particular interest in regenerative medicine. He joined the Computational Pathology group in July 2024 to work as a student assistant and assists PhD students and postdocs in various projects.

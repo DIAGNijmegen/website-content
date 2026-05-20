@@ -9,5 +9,7 @@ default_group: diag
 type: tech
 email: michel.dore@radboudumc.nl
 office:
+check_staff: Francesco Ciompi
+check_date: 2026-05-01
 
 Michel Doré is a Technical Data Manager in the Computational Pathology group. He obtained his Bachelor's degree in Artificial Intelligence and a Master's degree in Applied Data Science from Utrecht University. With a background in web and software development, Michel started with the CPG in February 2025. His role focuses on data organization, storage, and accessibility, under the supervision of [member/francesco-ciompi].

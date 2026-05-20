@@ -11,6 +11,8 @@ office: Route 767
 telephone:
 type: phd
 linkedin: www.linkedin.com/in/michel-vitale-ai
+check_staff: Colin Jacobs
+check_date: 2027-09-01
 
 Michel Vitale is a PhD Candidate in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at the Medical Imaging Department and at the Scientific Center for Quality of Healthcare (IQ Healthcare) of Radboud University Medical Center. In September 2023, he joined [MERAI lab](https://www.diagnijmegen.nl/projects/merai/), an ICAI Lab between the partners Radboudumc and [MeVis Medical Solutions](https://www.mevis.de), working under the guidance of [Marianne Boenink](https://www.iqhealthcare.nl/nl/over-ons/onze-mensen/staf/profdr-marianne-boenink/), [Mathias Prokop](https://www.diagnijmegen.nl/people/mathias-prokop/), and [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/). His research focuses on investigating the ethical, legal, and societal implications of AI-enabled low-dose CT lung cancer screening.
 

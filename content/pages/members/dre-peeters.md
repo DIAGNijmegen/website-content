@@ -12,5 +12,7 @@ telephone:
 type: phd
 website: https://www.drepeeters.nl
 linkedin: https://www.linkedin.com/in/dre-peeters-bba467162/
+check_staff: Colin Jacobs
+check_date: 2026-07-31
 
 Dré Peeters is a PhD Candidate in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) of the Radboud University Medical Center in Nijmegen. He finished the Master’s program Biomedical Sciences at Maastricht University in 2021, in which he specialized in biomedical imaging in combination with artificial intelligence. His master thesis involved the use of deep learning to determine the quality of phantom images in the quality control procedures of mammographic devices used in the Dutch breast cancer screening program. Currently, he works on the [project/amara] project under supervision of [member/colin-jacobs]. The goal of this project is to develop a deep learning-based algorithm for lung nodule malignancy prediction that will accelerate the time to diagnosis and limit unnecessary nodule work-up. 

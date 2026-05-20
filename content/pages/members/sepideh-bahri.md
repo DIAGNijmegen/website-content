@@ -12,6 +12,8 @@ type: phd
 linkedin: 
 scholar: 
 website: 
+check_staff: Nadieh Khalili
+check_date: 2030-02-01
 
 Sepideh joined Erasmus MC as a PhD candidate in February 2026. She is co-supervised by Dr. Tahlita Zuiverloon (Erasmus MC) and [member/nadieh-khalili] (CPG/DIAG) within the AI-PRECISE project. Her work focuses on applying artificial intelligence to histopathology data, aiming to improve molecular subtyping and risk prediction in high-risk non-muscle-invasive bladder cancer.
 

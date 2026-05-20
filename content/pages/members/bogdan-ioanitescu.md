@@ -10,6 +10,8 @@ default_group: diag
 email: Andrei.Ioanitescu@radboudumc.nl
 type: student
 show_publication_years: no
+check_staff: Henkjan Huisman
+check_date: 2026-06-05
 
 Bogdan Ioanitescu is a Master’s student in Biomedical Engineering, specialized in Medical Image Analysis. Since December 5, 2025, he has been part of the Diagnostic Image Analysis Group, where he works under the supervision of [member/stan-noordman] and [member/henkjan-huisman].
 

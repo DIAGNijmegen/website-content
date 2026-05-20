@@ -11,6 +11,8 @@ office: Route 767, Room 25
 type: phd
 linkedin: https://www.linkedin.com/in/luc-builtjes-83689b224/
 scholar:
+check_staff: Alessa Hering
+check_date: 2026-12-26
 
 
 Luc obtained both his Bachelor degree in Physics and Astronomy and subsequently an MSc in Particle and Astrophysics at Radboud University Nijmegen, finishing the latter in August of 2022. During his Master program he specialized in Machine Learning with a minor in Computational and Data Science.

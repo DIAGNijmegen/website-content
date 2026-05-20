@@ -9,6 +9,8 @@ default_group: diag
 email: lars.leijten@radboudumc.nl
 office: Route 767
 type: phd
+check_staff: Colin Jacobs
+check_date: 2027-05-01
 
 Lars Leijten is a PhD Candidate at the Medical Imaging department of Radboudumc, where he works in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). Lars is focused on developing AI solutions for Intervention Oncology as part of the [IMAGIO](https://www.diagnijmegen.nl/projects/imagio/) project. Specifically, he is working on developing an automatic malignancy risk estimation tool for lung nodules using CT and FDG-PET/CT imaging. His research is supervised by a team consisting of [member/colin-jacobs], [Roel Verhoeven](https://www.linkedin.com/in/roel-verhoeven-377050a6/), [Erik Aarntzen](https://www.radboudumc.nl/personen/erik-aarntzen), and [Erik van der Heijden](https://www.radboudumc.nl/en/people/erik-van-der-heijden).
 

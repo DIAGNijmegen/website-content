@@ -9,5 +9,7 @@ default_group: pathology
 email: Thijmen.vandeCrommert@radboudumc.nl
 office: 
 type: student
+check_staff: Jeroen van der Laak
+check_date: 2026-08-02
 
 Thijmen van de Crommert is an HLO student who is doing an internship for six months at the Computional Pathology Group under the supervision of [member/boris-de-graaf] and [member/frederique-meeuwsen]. The internship will start at 02-02-2026. The main focus of the internship is to investigate to what extent pre-analytical variations affect the stability of AI-derived features, grade scores, and risk classification in breast cancer H&E slides. 

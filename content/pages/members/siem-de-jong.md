@@ -10,5 +10,7 @@ email: siem.dejong@radboudumc.nl
 office: 
 type: phd
 linkedin: https://www.linkedin.com/in/siemdejong/
+check_staff: Francesco Ciompi
+check_date: 2027-09-01
 
 Siem de Jong is a PhD candidate in the Computational Pathology group since September 2023 and is supervised by [member/francesco-ciompi]. As part of the [IMAGIO project](https://imagioproject.eu/), Siem is developing AI algorithms to annotate higher harmonic generation (HHG) images of lung tumor in biopsies, resections, and metastases in lymph nodes for intraoperative decision-making. Siem obtained his Master’s degree (cum laude) in [Biophysics and Biophotonics](https://www.uva.nl/shared-content/programmas/en/masters/physics-and-astronomy-biophysics-and-biophotonics/biophysics-and-biophotonics.html) at the [University of Amsterdam](https://www.uva.nl/en) and [VU Amsterdam](https://vu.nl/en) where he applied deep learning to HHG images of human skin tissue for stress-strain curve regression, and pediatric brain tissue for tumor classification.

@@ -9,6 +9,8 @@ default_group: diag
 email: fennie.vandergraaf@radboudumc.nl
 office: Route 767
 type: phd
+check_staff: Colin Jacobs
+check_date: 2027-07-01
 
 Fennie is a PhD Candidate in the Diagnostic Image Analysis Group [DIAG](https://www.diagnijmegen.nl/) at the Medical Imaging department of Radboud University Medical Center. In July 2023, she joined [MERAI lab](https://www.diagnijmegen.nl/projects/merai/), an ICAI Lab between the partners Radboudumc and [MeVis Medical Solutions](https://www.mevis.de/) working under the guidance of [member/mathias-prokop] and [member/colin-jacobs]. Her research focuses on the development of deep learning models that can be used to automatically detect incidental findings in low dose lung CT scans.
 

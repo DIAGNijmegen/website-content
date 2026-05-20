@@ -10,6 +10,8 @@ email: Joske.VanDerZande@Radboudumc.nl
 office: Route 616, CARA Lab 
 type: phd 
 scholar: https://scholar.google.com/citations?hl=en&user=Y0OQ2jgAAAAJ
+check_staff: Jos Thannhauser
+check_date: 2027-12-01
 
 Joske van der Zande (1998) commenced her role as a PhD candidate in December 2023 within the [CARA Lab](https://www.cara-ai-lab.nl/) — a multidisciplinary and multi-institutional collaboration between Radboudumc, Amsterdam UMC, and Abbott. She earned her Master's degree in Technical Medicine from the University of Twente, specializing in Medical Sensing and Stimulation. Her thesis focused on the assessment of commercial single-lead ECGs for cardiac screening. This research served as a follow-up to her second Master's degree obtained in 2021 at the Lyric Institute in Bordeaux, in collaboration with the University of Bordeaux, with a focus on Cardiac EP - Electromechanical Heart Diseases.
 

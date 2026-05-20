@@ -10,6 +10,8 @@ scholar: https://scholar.google.com/citations?hl=en&pli=1&user=Ww2r4N8AAAAJ
 default_group: pathology
 email: Frederique.Meeuwsen@radboudumc.nl
 type: phd
+check_staff: Jeroen van der Laak
+check_date: 2026-05-01
 
 Frédérique Meeuwsen obtained her medical degree from Erasmus University (Rotterdam) in 2014. After graduation, she obtained a PhD in Biomechanical Engineering at the University of Technology in Delft, mainly focusing on monitoring medical devices to improve efficiency and workflow in the operating room. In 2024 she successfully completed the Pathology residency program at Erasmus MC (Rotterdam), after a 12-month specialization internship at the Computational Pathology Group in Nijmegen.
 

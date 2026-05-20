@@ -11,6 +11,8 @@ office:
 telephone:
 type: phd
 linkedin: https://nl.linkedin.com/in/janneke-lukkezen-946632128/nl
+check_staff: Matthieu Rutten
+check_date: 2026-05-01
 
 Janneke Lukkezen is a PhD candidate in the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/) at the [Department Imaging](https://www.radboudumc.nl/en/research/at-departmental-level/imaging) and in the diabetes research group at the [Department Internal Medicine](https://www.radboudumc.nl/en/research/at-departmental-level/internal-medicine). She obtained her Bachelor’s degree in Biomedical Engineering and continued her studies with a Master’s in Medical Engineering at the Eindhoven University of Technology (TU/e).
 

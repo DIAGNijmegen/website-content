@@ -12,5 +12,7 @@ scholar: https://scholar.google.com/citations?user=CJyratgAAAAJ
 office: 
 linkedin: https://www.linkedin.com/in/crnoordman/
 type: phd
+check_staff: Henkjan Huisman
+check_date: 2026-05-01
 
 Stan Noordman is a PhD candidate working on deep-learning based prostate MRI reconstruction for diagnosis and intervention (part of the FastMRI project) at the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl/), under supervision of [member/henkjan-huisman] and [Jurgen Fütterer](http://magic.radboudimaging.nl/index.php/Person?name=Jurgen_F%C3%BCtterer). He obtained a Msc in Artificial Intelligence and in Medical Imaging from Utrecht University.
