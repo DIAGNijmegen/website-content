@@ -3,7 +3,7 @@ name: Ivana Rovers
 template: people-single
 picture: people/Ivana_Rovers.JPG
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Ivana.Rovers@radboudumc.nl
