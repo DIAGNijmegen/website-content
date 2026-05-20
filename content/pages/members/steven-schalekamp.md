@@ -11,5 +11,7 @@ office:
 type: phd
 linkedin: http://www.linkedin.com/in/steven-schalekamp-22306ab2/
 researcherid: http://www.researcherid.com/rid/Y-2572-2018
+check_staff: Colin Jacobs
+check_date: 2026-05-01
 
 Steven Schalekamp obtained his medical degree at the Vrije Universiteit Amsterdam at 2011. Afterwards he joined the Diagnostic Image Analysis Group and in 2015 he completed his PhD entitled: Advanced processing in chest radiography: impact on observer performance. In 2019 he finished his radiology residency at the Radboudumc, and is currently working as a fellow chest radiology in Meander Medical Center in Amersfoort. As a part-time researcher his focus is on validation and implementation of AI in radiology.

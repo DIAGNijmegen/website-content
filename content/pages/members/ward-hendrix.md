@@ -13,6 +13,8 @@ linkedin: http://www.linkedin.com/in/wardhendrix
 scholar: https://scholar.google.nl/citations?user=PM0pEXwAAAAJ&hl=nl&oi=ao
 orcid: https://orcid.org/0000-0002-3357-2959
 researcherid: https://publons.com/researcher/3036894/ward-hendrix/
+check_staff: Silvan Quax
+check_date: 2026-05-01
 
 Ward Hendrix is a Research Scientist in the [RTC AI](https://rtc.diagnijmegen.nl/) team at the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) (DIAG). RTC AI provides guidance and services for (image) data analysis and deep learning in the Radboudumc. 
 

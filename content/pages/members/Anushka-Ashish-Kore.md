@@ -12,6 +12,8 @@ type: tech
 linkedin: https://www.linkedin.com/in/anushka-kore/
 scholar: https://scholar.google.com/citations?hl=en&user=y_8RjDwAAAAJ
 orcid: https://orcid.org/0009-0003-5434-1396
+check_staff: Silvan Quax
+check_date: 2026-05-01
 
 Anushka Kore is an AI Researcher at [RTC AI](https://rtc.diagnijmegen.nl/) within the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) (DIAG). Since October 2025, she has been part of the RTC AI team, working on a project in collaboration with the Prevention Hub at the Department of Primary Care, focusing on extracting and classifying lifestyle information from unstructured clinical notes to support prevention-related research. Her work involves validating and optimizing BERT-based natural language processing models, for lifestyle factors such as smoking, alcohol, and drug use. The project aims to enable large-scale, privacy-preserving use of lifestyle data from Radboudumc and the RTC Health Data GP database, improving how such information can be leveraged for public health and prevention research.
  

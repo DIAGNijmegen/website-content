@@ -9,6 +9,8 @@ active: yes
 default_group: diag 
 office: Route 614, CARA Lab
 email: leah.heil@radboudumc.nl
+check_staff: Jos Thannhauser
+check_date: 2029-01-05
 
 Leah Heil is a PhD student at the [CARA Lab](https://www.cara-ai-lab.nl/). She obtained her bachelor’s degree in Computing Science and continued her studies with a master’s in Data Science at Radboud University, focusing on AI and machine learning in healthcare. Leah completed her master's thesis in the CARA Lab under the supervision of [member/ruben-van-der-waerden] and [member/jos-thannhauser], supported by an ELLIS Excellence Fellowship. Her thesis focused on the segmentation of intracoronary OCT images.
 

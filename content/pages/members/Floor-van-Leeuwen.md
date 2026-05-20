@@ -9,5 +9,7 @@ default_group: diag
 email: floor.vanleeuwen@radboudumc.nl
 type: student-assistant
 linkedin: https://www.linkedin.com/in/floor-van-leeuwen-75100a236/
+check_staff: Henkjan Huisman
+check_date: 2026-05-01
 
 Floor van Leeuwen joined DIAG as a student assistant in November 2024. She assists in the research project HealthyAI as a student annotator for MRI surveillance of prostate cancer. In August 2024, she obtained her BSc degree in Biomedical Sciences at Radboud University Nijmegen. Currently, she is doing her MSc studies in Biomedical Sciences in Nijmegen as well. Floor is supervised by [member/vilma-bozgo] and [member/henkjan-huisman].

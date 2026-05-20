@@ -10,6 +10,8 @@ email: Tareq.AbdelAlim@radboudumc.nl
 office: Route 812, room 2.39
 type: postdoc
 linkedin:
+check_staff: Geert Litjens
+check_date: 2026-05-01
 
 Tareq is a visiting postdoctoral researcher at the Computational Pathology Group. He earned his PhD (cum laude) at the Biomedical Imaging Group Rotterdam (BIGR) at Erasmus University Medical Center. His dissertation focused on developing computational models to assess how congenital dysmorphologies (and their treatments) impact craniofacial shape and development, with a particular emphasis on non-invasive 3D photogrammetry data.
 

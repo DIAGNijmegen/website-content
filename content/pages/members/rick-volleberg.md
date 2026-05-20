@@ -10,6 +10,8 @@ email: Rick.Volleberg@radboudumc.nl
 office: Route 616, CARA Lab
 type: phd
 linkedin: https://www.linkedin.com/in/rick-volleberg-068bab142/?originalSubdomain=nl
+check_staff: Jos Thannhauser
+check_date: 2025-01-01
 
 Rick Volleberg (1996) is a medical doctor and PhD candidate in the Department of Cardiology at the Radboudumc. He obtained his Bachelor’s and Master’s degree in Medicine with distinction at the Radboud University. Rick has been actively involved in several research projects conducted by the cardiology department throughout his study.
 

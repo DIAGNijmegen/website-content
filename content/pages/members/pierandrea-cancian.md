@@ -10,6 +10,8 @@ email: p.cancian@amsterdamumc.nl
 office: Route 616, CARA Lab
 scholar: https://scholar.google.it/citations?user=dstG_egAAAAJ&hl=en
 type: phd
+check_staff: Jos Thannhauser
+check_date: 2027-06-01
 
 Pierandrea Cancian (1994) is a Biomedical Engineer and PhD candidate at the [CARA Lab](https://www.cara-ai-lab.nl/) and [qurAI](https://qurai.amsterdam/) group. He earned both his Bachelor and Master degree at the Politecnico di Milano. Prior to joining the CARA Lab, Pierandrea gained valuable experience working in both industry and research, where his primary focus was on Machine Learning and Computer Vision. His involvement in various projects ranged from the segmentation of histopathological images to the detection of external damages in vehicles following car accidents.
 

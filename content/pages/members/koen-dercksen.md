@@ -12,6 +12,8 @@ type: phd
 linkedin: http://www.linkedin.com/in/koen-dercksen-083a835b/%E2%80%8B
 scholar: https://scholar.google.com/citations?user=SVRCUlEAAAAJ&hl=en
 website: https://koendercksen.com
+check_staff: Alessa Hering
+check_date: 2026-05-01
 
 Koen Dercksen is a PhD candidate at the Radboud University, working in the AI
 for Health lab. He studied Data Science at the Radboud University, obtaining

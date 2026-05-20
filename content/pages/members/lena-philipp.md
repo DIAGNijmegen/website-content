@@ -9,6 +9,8 @@ default_group: diag
 email: lena.philip@radboudumc.nl
 office: Route 767, Room 25
 type: phd
+check_staff: Alessa Hering
+check_date: 2026-03-26
 
 
 Lena Philipp joined the [Diagnostic Image Analysis Group](https://www.diagnijmegen.nl) as a PhD candidate in April 2023. She works on identifying organs/regions in CT scans that exhibit no signs of disease or unexpected variations. She is supervised by [member/alessa-hering] and [member/bram-van-ginneken]. 

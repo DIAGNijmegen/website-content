@@ -9,6 +9,8 @@ default_group: pathology
 email: Odilia.Geertsema@radboudumc.nl
 office: Route 812, room 2.39
 type: phd
+check_staff: Jeroen van der Laak
+check_date: 2030-02-08
 
 Odilia Geertsema joined the Computational Pathology Group of Radboud University Medical Center as a PhD Candidate in February 2026. The focus of her research is the use of computational pathology to improve the detection and treatment of endometrial cancer, for which she is supervised by [member/jeroen-van-der-laak].
 

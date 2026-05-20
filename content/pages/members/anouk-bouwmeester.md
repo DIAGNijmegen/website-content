@@ -12,6 +12,8 @@ type: phd
 linkedin: 
 scholar: 
 website: 
+check_staff: Jeroen van der Laak
+check_date: 2030-04-01
 
 Anouk Bouwmeester is a PhD candidate in the Computational Pathology group of the Department of Pathology of the Radboud University Medical Center in Nijmegen. She studied medicine at the LUMC in Leiden and graduated in 2023. Immediately afterwards she started her pathology residency in the Radboud University Medical Center and joined the computational pathology group in 2024 where she will continue the work of [member/joep-bogaerts] on deep learning for improved detection of premalignant lesions in the Fallopion tube under the supervision of [member/jeroen-van-der-laak], Michiel Simons, Miranda Steenbeek and Joanne de Hullu.
 

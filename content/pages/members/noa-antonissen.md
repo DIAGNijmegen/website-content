@@ -10,6 +10,8 @@ email: noa.antonissen@radboudumc.nl
 office: 
 type: postdoc
 linkedin: https://www.linkedin.com/in/noaantonissen
+check_staff: Colin Jacobs
+check_date: 2026-05-01
 
 Noa Antonissen is a postdoctoral researcher in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) and a radiology resident at the Department of Medical Imaging of Radboudumc.
 

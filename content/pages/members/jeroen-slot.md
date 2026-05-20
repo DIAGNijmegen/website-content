@@ -9,6 +9,8 @@ default_group: diag
 type: tech
 email: Jeroen.Slot@radboudumc.nl
 office:
+check_staff: Francesco Ciompi
+check_date: 2026-05-01
 
 Jeroen is a Technical Data Manager in the Computational Pathology Group. He holds a BSc and MSc in Theoretical Mathematics from Radboud University, with a specialization in Computer Science. After completing his studies, he joined the Nederlandse Spoorwegen as a Software Developer, where he steadily expanded his expertise in software development and data engineering. 
 

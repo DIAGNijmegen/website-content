@@ -9,6 +9,8 @@ default_group: pathology
 email: Laura.Wagenaar@radboudumc.nl
 office: 
 type: administrative
+check_staff: Jeroen van der Laak
+check_date: 2026-05-01
 
 Laura Wagenaar holds a Master’s degree in Nutrition and Health from Wageningen University, and in 2019 earned her PhD from Utrecht University with a focus on nutrition-based immunotherapy for food allergies. Her doctoral research was conducted in collaboration with UMC Utrecht, TNO, and Danone Nutricia Research. Professionally, Laura has coordinated complex regulatory and scientific processes in both public and academic sectors. Since 2020, she has worked at the Dutch Board for the Authorisation of Plant Protection Products and Biocides (Ctgb), where she led the full coordination and process monitoring of regulatory applications. Her role included optimizing procedures, implementing improvements, and serving as a bridge between policy and execution. 
 

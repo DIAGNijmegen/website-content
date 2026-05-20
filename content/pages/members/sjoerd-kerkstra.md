@@ -10,6 +10,8 @@ email: sjoerd.kerkstra@radboudumc.nl
 office: Route 767, Room 2.25
 telephone:
 type: tech
+check_staff: James Meakin
+check_date: 2026-05-01
 
 Sjoerd Kerkstra studied Artificial Intelligence in Groningen and Amsterdam. He obtained an MSc degree in Artificial Intelligence in Amsterdam. His thesis was about the evolutionary behaviour of genetic networks. The thesis was supervised by [Remco Scha](https://en.wikipedia.org/wiki/Remko_Scha) (Linguistics) and [Jaap Kaandorp](http://staff.science.uva.nl/~jaapk/) (Computational Biology).
 

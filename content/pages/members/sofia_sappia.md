@@ -11,6 +11,8 @@ groups: diag
 default_group: diag 
 linkedin: https://www.linkedin.com/in/maria-sofia-sappia/ 
 scholar: https://scholar.google.com/citations?user=V2uX8uQAAAAJ&hl=en
+check_staff: Keelin Murphy
+check_date: 2026-02-01
 
 Sofía Sappia is a PhD candidate in the Medical Imaging department at Radboud UMC. She studied Biomedical Engineering at the National University of Cordoba, 
 in Argentina, and graduated in 2018. From 2019 until 2021, she worked as an Early-Stage Researcher in functional Near Infrared Spectroscopy. In February 2022, 

@@ -9,5 +9,7 @@ default_group: diag
 email: mikki.hendriks@radboudumc.nl
 type: student-assistant
 linkedin: www.linkedin.com/in/mikki-hendriks-5aa179211
+check_staff: Henkjan Huisman
+check_date: 2026-05-01
 
 Mikki Hendriks completed her bachelor's degree in medicine at the Radboud university in 2023 and is currently a medicine student at Radboud University. Mikki joined DIAG as a student annotator in January 2025 as part of the HealthyAI lab of the Radboudumc in Nijmegen. Mikki is supervised by [member/vilma-bozgo] and [member/henkjan-huisman].

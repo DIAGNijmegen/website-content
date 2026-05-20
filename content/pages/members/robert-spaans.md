@@ -9,6 +9,8 @@ default_group: pathology
 email: robert.spaans@radboudumc.nl
 office: 
 type: phd
+check_staff: Geert Litjens
+check_date: 2028-09-30
 
 Robert Spaans is a PhD candidate at the Computational Pathology Group (CPG) at Radboud University Medical Center, working under the supervision of [member/geert-litjens] and [member/nadieh-khalili]. Robert earned his master’s degree in Technical Medicine from the University of Twente in September 2024, specializing in medical imaging and interventions. During his graduation thesis, he investigated the applicability of three-dimensional technology for robotic surgery of renal cancer at the Urology Department of St. Antonius Hospital, Nieuwegein, integrating three-dimensional models of urological anatomy for preoperative planning of robot-assisted partial nephrectomy and renal cell carcinoma complexity quantification.
 

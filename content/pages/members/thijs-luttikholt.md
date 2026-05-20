@@ -10,6 +10,8 @@ email: Thijs.Luttikholt@radboudumc.nl
 office: Route 616, CARA Lab 
 type: phd 
 linkedin: https://www.linkedin.com/in/thijs-luttikholt-b768aa20b/
+check_staff: Jos Thannhauser
+check_date: 2027-07-31
 
 Thijs Luttikholt (1999) is a PhD candidate at the [CARA Lab](https://www.cara-ai-lab.nl/), working at the Radboudumc as part of the Diagnostic Image Analysis Group (DIAG). Prior to this position, Thijs completed both his Bachelor’s degree and Master’s degree in Artificial Intelligence (AI) at the Radboud University. During these studies, experience was gained in using AI applications in various fields, including image analysis. The focus of his master thesis was the simulation and classification of EEG measurements that could be obtained using an experimental paradigm that focused on the c-VEP response.
 

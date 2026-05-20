@@ -11,6 +11,8 @@ office: Route 767
 telephone:
 type: phd
 linkedin: https://www.linkedin.com/in/alonso-cerrato-nieto-4a4181189/
+check_staff: Colin Jacobs
+check_date: 2028-01-01
 
 Alonso Cerrato Nieto is a PhD Candidate in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at the Medical Imaging department of Radboud University Medical Center. In January 2024, he joined [MERAI lab](https://www.diagnijmegen.nl/projects/merai/), an ICAI Lab between the partners Radboudumc and [MeVis Medical Solutions](https://www.mevis.de) working under the guidance of [Mathias Prokop](https://www.diagnijmegen.nl/people/mathias-prokop/) and [Colin Jacobs](https://www.diagnijmegen.nl/people/colin-jacobs/). His research focuses on accurate lung cancer diagnosis and staging using AI-based detection and quantification.
 

@@ -11,6 +11,8 @@ office:
 type: phd
 linkedin: https://www.linkedin.com/in/joel-jacob-tomson/
 scholar: https://scholar.google.com/citations?hl=en&user=3H8BrVUAAAAJ
+check_staff: Henkjan Huisman
+check_date: 2028-12-31
 
 Joel Jacob Tomson is a Biomedical Engineer and Researcher specializing in assistive technology and AI applications in medical imaging. He holds a Master’s in Biomedical Engineering from the Indian Institute of Technology Delhi, where he earned the department’s highest CGPA and the Dr. Shivraj Nandan Sinha Award for Best Thesis in 2024. His Bachelor's degree was also in Biomedical Engineering from the University of Mumbai where he was awarded the Gold medal at his institute for scoring the highest CGPA.
 
