@@ -1,6 +1,6 @@
 title: PhD candidate AI-based pan-cancer prediction of biomarkers from histopathology
 groups: diag, pathology
-closed: false
+closed: true
 type: general
 picture: vacancies/prostate_pathology.png
 people: Nadieh Khalili, Geert Litjens
