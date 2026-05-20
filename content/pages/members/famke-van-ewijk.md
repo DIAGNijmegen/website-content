@@ -3,7 +3,7 @@ name: Famke van Ewijk
 template: people-single
 picture: people/Famke_van_Ewijk.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: Famke.vanEwijk@radboudumc.nl
