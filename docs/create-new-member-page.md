@@ -24,6 +24,8 @@ publons: link
 orcid: link
 twitter: link
 show_publication_years: yes (if this tag is not present it will be automatically set to yes)
+check_staff: responsible staff member who can verify whether this person is still active (Firstname Lastname)
+check_date: date to review this person's status (YYYY-MM-DD; use contract end date or start date + 6 months if unknown)
 
 {Text bio.} 
 The bio should be written in the 3rd person. Include your former education, the topic of your research and your supervisors. Include links where possible.
