@@ -1,6 +1,6 @@
 title: Explainability through Reasoning Segmentation
 groups: diag, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/reasoning_segmentation.jpg
 template: vacancy-single
