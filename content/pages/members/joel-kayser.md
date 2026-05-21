@@ -3,7 +3,7 @@ name: Joel Käyser
 template: people-single
 picture: people/Joel_Kayser.jpg
 position: Student assistant
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: joelkayser@hotmail.com
