@@ -1,6 +1,6 @@
 title: PhD Position in AI for Cardiovascular Imaging – Generative AI & Digital Twins
 groups: diag
-closed: false
+closed: true
 type: general
 picture:
 people: Merel Huisman, Henkjan Huisman
