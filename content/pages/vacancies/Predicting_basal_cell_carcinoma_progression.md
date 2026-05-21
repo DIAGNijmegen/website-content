@@ -1,6 +1,6 @@
 title: Predicting Basal Cell Carcinoma Progression from Histopathology Using Artificial Intelligence
 groups: diag, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/basal_cell_carcinoma_microscopic.png
 template: vacancy-single
