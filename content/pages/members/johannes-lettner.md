@@ -3,7 +3,7 @@ name: Johannes Lettner
 template: people-single
 picture: people/Johannes_Lettner.jpg
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Johannes.Lettner@radboudumc.nl
