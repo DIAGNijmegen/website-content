@@ -1,6 +1,6 @@
 title: Multimodal Registration in Prostate Cancer
 groups: diag, pathology
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc_prostate_registration.png
 template: vacancy-single
