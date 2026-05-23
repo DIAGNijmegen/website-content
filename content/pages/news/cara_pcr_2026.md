@@ -9,4 +9,3 @@ CARA Lab is attending this year's EuroPCR conference in Paris! Prof. [member/nie
 In a hotline session, [member/rick-volleberg] will present the 5-year follow-up results of the PECTUS-obs study, which is his final paper before defending his impressive PhD thesis. Congratulations, Rick!
 
 You can find the abstract book [here](https://www.pcronline.com/Cases-resources-images/PCR-Course-Abstract-Books/EuroPCR-Abstract-Book/2026b)!
-
