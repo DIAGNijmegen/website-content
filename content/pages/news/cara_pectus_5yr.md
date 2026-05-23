@@ -1,5 +1,5 @@
 title: 5-year results of PECTUS-obs published in EuroIntervention
-date: 2026-05-23
+date: 2026-05-22
 description: The long-term outcome paper of the observerational PECTUS-obs study has been published in EuroIntervention!
 picture: news/cara_pectus_5yr.png
 groups: cara-lab
