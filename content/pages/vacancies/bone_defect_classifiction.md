@@ -18,11 +18,12 @@ rTKA is technically demanding and costly, with outcomes often inferior to primar
 The objective of this project is to develop supervised and/or unsupervised 3D-based classification systems using AI techniques to overcome the limitations of traditional systems [2].
 
 The student will focus on processing unstructured 3D data, such as meshes or point clouds of tibial defects, and extracting meaningful features for classification. Key activities include:
--	Applying techniques such as Graph Neural Networks (GNNs) or Statistical Shape Models (SSMs) to learn shape-related features like volume and topology. 
--	Utilizing clustering algorithms to group defects into categories that allow for the automatic allocation of new clinical cases.  
--	Integrating augmentation strategies (e.g., stems, cones, sleeves) into the model to enhance predictive classification.  
--	Applying Explainable AI (XAI) methods to highlight the anatomical features determining classification, ensuring clinical transparency.  
--	Validating the clinical relevance of these clusters through collaboration with experienced surgeons and comparing the results against the AORI gold standard.  
+
+- Applying techniques such as Graph Neural Networks (GNNs) or Statistical Shape Models (SSMs) to learn shape-related features like volume and topology. 
+- Utilizing clustering algorithms to group defects into categories that allow for the automatic allocation of new clinical cases.  
+- Integrating augmentation strategies (e.g., stems, cones, sleeves) into the model to enhance predictive classification.  
+- Applying Explainable AI (XAI) methods to highlight the anatomical features determining classification, ensuring clinical transparency.  
+- Validating the clinical relevance of these clusters through collaboration with experienced surgeons and comparing the results against the AORI gold standard.  
 
 ## Data
 
