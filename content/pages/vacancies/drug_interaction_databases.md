@@ -23,10 +23,10 @@ This project aims to develop an AI-driven DDI Manager tool that is correct, comp
 
 The project will focus on:
 
-- Extrapolate the (expected) effect of coadministration, action and mechanism of the ~1000 drugs from the database  
-- Combining data to fill the database for DDI management   
-- Develop procedures for regular updates of the database 
-- Develop procedures for assessing correctness of DDI recommendations 
+- Extrapolating the expected effects, actions, and mechanisms of coadministration for approximately 1,000 drugs from the database
+- Combining data to fill the database for DDI management
+- Developing procedures for regular database updates
+- Developing procedures for assessing the correctness of DDI recommendations
 
 
 ## Data
