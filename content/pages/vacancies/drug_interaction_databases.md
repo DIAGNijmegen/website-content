@@ -22,6 +22,7 @@ Another problem is that the development of a complete and up-to-date DDI databas
 This project aims to develop an AI-driven DDI Manager tool that is correct, complete, and continuously updated by automating and standardizing the extrapolation of drug-drug interactions for new drugs based on existing knowledge.
 
 The project will focus on:
+
 - Extrapolate the (expected) effect of coadministration, action and mechanism of the ~1000 drugs from the database  
 - Combining data to fill the database for DDI management   
 - Develop procedures for regular updates of the database 
