@@ -3,7 +3,7 @@ name: Kiran de Wit
 template: people-single
 picture: people/Kiran_de_Wit.jpeg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: Kiran.deWit@radboudumc.nl
