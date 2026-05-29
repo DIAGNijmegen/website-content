@@ -3,7 +3,7 @@ name: Hiba Qoubbane
 template: people-single
 picture: people/Hiba_Qoubbane.jpg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: hiba.qoubbane@radboudumc.nl
