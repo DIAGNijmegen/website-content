@@ -3,7 +3,7 @@ name: Ziad Al-Haj Hemidi
 template: people-single
 picture: people/Ziad_Al-Haj_Hemidi.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag
 default_group: diag
 email: Ziad.Al-HajHemidi@radboudumc.nl
