@@ -1,6 +1,6 @@
 title: Early prediction of multi-drug resistant Klebsiella species using machine learning
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/bacteria.jpeg
 template: vacancy-single
