@@ -6,9 +6,10 @@ description: It is time for the DIAG newsletter of June!
 
 ## DIAG at conferences
 
-Multiple DIAG members will visit the week of the Digital and Computational Pathology in Graz. There will be invited talks by our members [member/Salma_Dammak], [member/Nadieh_Khalili] and [member/Francesco_Ciompi] on the 18th of June.  [member/Carlijn_lems], [frederique-meeuwsen] and [member/Nefise_Uysal] will be presenting their work on the 18th of June as well. [member/Judith_lefkes] and '[member/Robert_spaans] will be presenting on the 19th of June. If that is not exciting enough, there will be a lot of posters from DIAG members as well!
+Multiple DIAG members will visit the week of the Digital and Computational Pathology in Graz. There will be invited talks by our members [member/salma-dammak], [member/nadieh-khalili] and [member/francesco-ciompi] on the 18th of June.  [member/Carlijn-lems], [member/frederique-meeuwsen] and [member/Nefise-Uysal] will be presenting their work on the 18th of June as well. Furthermore, [member/Judith-lefkes] and [member/Robert-spaans] will be presenting on the 19th of June. If that is not exciting enough, there will be a lot of posters from DIAG members as well!
 
 Visit the [website](https://www.ecdp2026.org/)  for more information and we hope to see you all in Austria!
+
 ## PhD defenses in June
 
 The first day of June is an exciting one for DIAG: there will be three PhD defenses!
@@ -26,9 +27,9 @@ We wish all of them good luck!
 
 We welcomed the following new members in May:
 
-- [member/Tommaso_Russo]
-- [member/Romy_Liefhebber]
-- [member/Lotte_Schoneveld]
+- [member/Tommaso-Russo]
+- [member/Romy-Liefhebber]
+- [member/Lotte-Schoneveld]
 
 ## Highlighted publications
 
