@@ -1,4 +1,8 @@
-title: Monthly DIAG News – June 2026 date: 2026-06-01 picture: news/monthly_news2.png groups: diag description: It is time for the DIAG newsletter of June!
+title: Monthly DIAG News – June 2026 
+date: 2026-06-01 
+picture: news/monthly_news2.png 
+groups: diag
+description: It is time for the DIAG newsletter of June!
 
 ## DIAG at conferences
 
