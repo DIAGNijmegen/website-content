@@ -6,7 +6,7 @@ description: It is time for the DIAG newsletter of June!
 
 ## DIAG at conferences
 
-Multiple DIAG members will visit the week of the Digital and Computational Pathology in Graz. There will be invited talks by our members [member/salma-dammak], [member/nadieh-khalili] and [member/francesco-ciompi] on the 18th of June.  [member/Carlijn-lems], [member/frederique-meeuwsen] and [member/Nefise-Uysal] will be presenting their work on the 18th of June as well. Furthermore, [member/Judith-lefkes] and [member/Robert-spaans] will be presenting on the 19th of June. If that is not exciting enough, there will be a lot of posters from DIAG members as well!
+Multiple DIAG members will visit the week of the Digital and Computational Pathology in Graz. There will be invited talks by our members [member/salma-dammak], [member/nadieh-khalili] and [member/francesco-ciompi] on the 18th of June.  [member/carlijn-lems], [member/frederique-meeuwsen] and [member/nefise-uysal] will be presenting their work on the 18th of June as well. Furthermore, [member/judith-lefkes] and [member/robert-spaans] will be presenting on the 19th of June. If that is not exciting enough, there will be a lot of posters from DIAG members as well!
 
 Visit the [website](https://www.ecdp2026.org/)  for more information and we hope to see you all in Austria!
 
