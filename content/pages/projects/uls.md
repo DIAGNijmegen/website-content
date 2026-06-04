@@ -7,7 +7,7 @@ template: project-single
 groups: diag
 people: Max de Grauw, Bram van Ginneken, Alessa Hering
 description: Building and Evaluating Universal Lesion Segmentation Models for Computed Tomography
-bibkeys: 
+bibkeys: Grau22a, Grau22b
 
 ## Background
 
