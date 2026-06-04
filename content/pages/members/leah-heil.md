@@ -3,7 +3,7 @@ name: Leah Heil
 template: people-single 
 picture: people/Leah_Heil.png
 groups: diag, cara-lab 
-position: PhD Candidate, PhD Candidate
+position: PhD Candidate
 type: phd
 active: yes 
 default_group: diag 
