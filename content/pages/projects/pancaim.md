@@ -1,6 +1,6 @@
 title: PANCAIM
 title_long: Pancreatic cancer AI for genomics and personalized Medicine
-finished: false
+finished: true
 type: general
 template: project-single
 groups: pathology, diag
