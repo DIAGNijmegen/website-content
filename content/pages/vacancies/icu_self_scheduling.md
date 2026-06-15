@@ -1,6 +1,6 @@
 title: AI-driven self-scheduling application for ICU/MC nurses
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/icu_schedule.jpg
 template: vacancy-single
