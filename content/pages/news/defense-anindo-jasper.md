@@ -2,7 +2,7 @@ title: Anindo Saha and Jasper Twilt successfully defended their PhD theses
 date: 2026-06-01
 picture: news/defense-anindo-jasper.png
 description: Anindo Saha and Jasper Twilt defended their PhD theses on AI for prostate cancer detection and co-organized the PI-CAI symposium.
-groups:
+groups: diag
 
 On Monday, [member/anindo-saha] and [Jasper J. Twilt](https://magicnijmegen.nl/people/jasper-twilt) both successfully defended their PhD theses in the Aula of the Radboud University.
 Anindo defended his thesis entitled ['Artificial Intelligence x Prostate Cancer Detection on MRI'](https://repository.ubn.ru.nl/handle/2066/332323), while Jasper defended ['Artificial Intelligence and Biparametric MRI in Prostate Cancer Detection: From Benchmarking to Workflow Strategies'](https://repository.ubn.ru.nl/handle/2066/332320).
