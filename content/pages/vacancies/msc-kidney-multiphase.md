@@ -41,4 +41,4 @@ In recent literature [1,2,3,4,5], multiple methods for leveraging multi-phase CT
 
 ## Information 
 
-For more information, see the full vacancy [here](https://www.ru.nl/en/students/news/ellis-excellence-fellowships-apply-now-for-a-project-0#13).
+For more information or to apply, please contact sarah.deboer@radboudumc.nl.
