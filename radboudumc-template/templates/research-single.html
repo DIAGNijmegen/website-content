@@ -45,6 +45,20 @@
     </div>
     {% endif %}
 
+
+    {% if page.finished_projects %}
+    <h2>Finished projects</h2>
+    <div class="row mt-4">
+        {% for project in page.finished_projects.split(',') %}
+            {% for card in pages %}
+                {% if card.category == 'projects' and card.slug == project.strip() %}
+                    {% include "blocks/card.html" %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
     {% if page.algorithms %}
     <h2>Algorithms</h2>
     <p>Several algorithms that this group has developed can be tried on the grand-challenge.org platform:</p>
