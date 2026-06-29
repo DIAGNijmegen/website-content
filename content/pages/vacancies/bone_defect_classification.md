@@ -1,6 +1,6 @@
 title: Supervised and unsupervised classification of bone defects in revision total knee arthroplasty
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/tka.jpeg
 template: vacancy-single
