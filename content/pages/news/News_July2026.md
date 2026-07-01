@@ -1,5 +1,5 @@
 title: Monthly DIAG News – July 2026
-date: 2026-06-01
+date: 2026-07-01
 picture: news/ECDP_2026.png
 groups: diag
 description: It is time for the July news letter! 
