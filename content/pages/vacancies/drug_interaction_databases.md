@@ -1,6 +1,6 @@
 title: State-of-the-art drug-drug interaction databases empowered by AI
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/drug_interaction_database.jpg
 template: vacancy-single
