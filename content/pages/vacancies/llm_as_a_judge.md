@@ -1,6 +1,6 @@
 title: LLM-as-a-Judge as a validation framework for clinical Generative AI tools
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/ehr_llm.jpeg
 template: vacancy-single
