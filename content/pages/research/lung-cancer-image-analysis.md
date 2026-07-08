@@ -6,7 +6,7 @@ groups: diag
 people: Colin Jacobs, Mathias Prokop, Cornelia Schaefer-Prokop, Steven Schalekamp, Ernst Scholten, Noa Antonissen, Dré Peeters, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Julia Haentjes, Doris Schouwenaars, Lotte Besselaar, Scott Korman
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: nelson-pop, solace, merai, amara, imagio
-algorithms: lung-nodule-detector-for-ct, airway-nodule-detection-for-routine-clinical-ct-sc, pulmonary-nodule-malignancy-prediction, temporal-nodule-analysis
+algorithms: lung-nodule-detector-for-ct, airway-nodule-detection-for-routine-clinical-ct-sc, pulmonary-nodule-malignancy-prediction, temporal-nodule-analysis, aito-petct-mp
 
 Lung cancer is the leading cause of cancer-related death worldwide, for which the five-year survival rates have yet to surpass 20%. The World Health Organization (WHO) has estimated that there were 2.21 million cases of lung cancer and 1.80 million deaths due to lung cancer in 2020. Tobacco smoking remains the main risk factor for lung cancer. Imaging is crucial for early detection, diagnosis, treatment planning and monitoring of lung cancer. It plays an important role in the multidisciplinary management of lung cancer patients.
 
