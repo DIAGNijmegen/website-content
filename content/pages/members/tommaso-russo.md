@@ -8,7 +8,7 @@ groups: diag
 default_group: diag
 email: Tommaso.Russo@radboudumc.nl
 office: 
-type: phd
+type: student
 linkedin: 
 scholar: 
 website: 
