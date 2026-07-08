@@ -10,6 +10,8 @@ Last month was the 22nd edition of the European Congress on Digital Pathology EC
 
 ![ECDP]({{ IMGURL }}/images/news/ECDP_2026.png)
 
+This month from July 8th to July 10th is the Medical Imaging with Deep Learning (MIDL) conference in Taipei. Several members of DIAG will also be attending this conference for presentations and poster sessions. For more information about this conference, and to see which presentations will be given by DIAG members, you can have a look [here](https://2026.midl.io/).
+
 ## New DIAG members
 
 We welcomed the following new members in June:
