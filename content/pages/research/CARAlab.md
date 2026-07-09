@@ -1,6 +1,6 @@
 title: CARA Lab
 finished: false
-picture: projects/cara_lab_model_segmentation.png
+picture: projects/cara_lab_model_segmentation2.png
 template: research-single
 groups: diag
 description: Towards robust and trustworthy AI-systems for real-time analysis of optical coherence tomography (OCT) images at the cardiac catheterization lab.
