@@ -1,6 +1,6 @@
 title: Best Spotlight Award for Sander Moonemans and Sebastiaan Ram
 date: 2026-07-09
-description: Sander Moonemans and Sebastiaan Ram received the Best Spotlight Award at MIDL 2026 for their presentation on Democratising Pathology Co-Pilots
+description: Sander Moonemans and Sebastiaan Ram received the Best Spotlight Award at MIDL 2026 for their presentation on Democratising Pathology Co-Pilots.
 picture: news/sander-sebastiaan-midl.jpg
 groups: diag, pathology
 
