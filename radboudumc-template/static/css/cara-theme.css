@@ -5810,8 +5810,10 @@ Styles of the home page.
     @media (min-width: 992px) {
       .content-home article {
         height: 280px; }
-        .content-home article .img-thumbnail {
-          max-height: 200px; } }
+.content-home article .img-thumbnail {
+     width: 100%;
+     height: 200px;
+     object-fit: cover; } }
   .content-home .block-gray .vacancy {
     background-color: #fff; }
   .content-home .block-white .vacancy {
