@@ -5813,8 +5813,7 @@ Styles of the home page.
 .content-home article .img-thumbnail {
      width: 100%;
      height: 240px;
-     object-fit: cover;
-object-position: center 30%;} }
+     object-fit: cover;} }
   .content-home .block-gray .vacancy {
     background-color: #fff; }
   .content-home .block-white .vacancy {
