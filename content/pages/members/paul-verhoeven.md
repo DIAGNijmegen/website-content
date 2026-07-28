@@ -5,7 +5,7 @@ picture: people/paul_verhoeven.jpg
 position: Master Student
 active: yes
 groups: diag, pathology
-default_group: diag, pathology
+default_group: pathology
 email: 
 office: 
 type: student
