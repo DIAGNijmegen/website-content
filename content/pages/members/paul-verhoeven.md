@@ -1,5 +1,5 @@
 title: Paul Verhoeven
-name: Paul ZimVerhoevenmer
+name: Paul Verhoeven
 template: people-single
 picture: people/paul_verhoeven.jpg
 position: Master Student
