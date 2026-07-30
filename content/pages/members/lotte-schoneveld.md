@@ -3,7 +3,7 @@ name: Lotte Schoneveld
 template: people-single
 picture: people/Lotte_Schoneveld.JPG
 position: Bachelor Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Lotte.Schoneveld@radboudumc.nl
