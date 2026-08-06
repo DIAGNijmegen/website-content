@@ -1,6 +1,6 @@
 title: Using AI to improve vaccine safety assessment
 groups: diag, pathology
-closed: false
+closed: true
 type: student
 picture: vacancies/msc_mntv.png
 template: vacancy-single
