@@ -9,6 +9,8 @@ default_group: pathology
 email:
 office: 
 type: student
+check_staff: Geert Litjens
+check_date: 2027-03-01
 
 Alessia Moretti is a master's student in Biomedical Engineering at the Politecnico of Turin, specializing in Digital Healthcare and Artificial Intelligence. She has previously completed the bachelor's degree in Biomedical Engineering at the University of Bologna.
 
