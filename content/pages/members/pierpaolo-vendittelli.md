@@ -3,7 +3,7 @@ name: Pierpaolo Vendittelli
 template: people-single
 picture: people/Pierpaolo_Vendittelli.png
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: pierpaolo.vendittelli@radboudumc.nl
