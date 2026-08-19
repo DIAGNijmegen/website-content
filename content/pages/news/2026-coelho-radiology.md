@@ -12,6 +12,8 @@ The study introduces a two-step deep learning (DL) framework that derives a cont
 
 👉 Read the full publication [here](https://pubs.rsna.org/doi/10.1148/radiol.253360)!
 
+An accompanying editorial by Dr. Tristan Barrett is also available [here](https://doi.org/10.1148/radiol.262030).
+
 𝗦𝘁𝘂𝗱𝘆 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄 🧪
 This single-center retrospective study analyzed 12,496 consecutive prostate multiparametric MRI examinations performed between January 2014 and December 2023 at [Radboud University Medical Center](https://www.radboudumc.nl). A DL model was first trained on the most reliable low-quality (artifact-degraded structures) and high-quality (clear delineated zones) axial T2-weighted images to produce a continuous image quality score. This score was then applied in an independent internal test set of 568 multiparametric MRI examinations and calibrated against diagnostic performance, measured as the AUC of an AI model and the accuracy of radiologists for clinically significant prostate cancer (csPCa) detection, using histopathology as the reference standard.
 
