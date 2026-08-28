@@ -2,17 +2,21 @@ title: Renate Dinnessen
 name: Renate Dinnessen
 template: people-single
 picture: people/Renate_Dinnessen.jpg
-position: PhD Candidate
+position: Postdoctoral Researcher
 active: yes
 groups: diag
 default_group: diag
 email: renate.dinnessen@radboudumc.nl
 office: Route 767
-telephone:
-type: phd
+type: postdoc
 linkedin: https://www.linkedin.com/in/renate-dinnessen/
 check_staff: Colin Jacobs
-check_date: 2026-07-31
+check_date: 2027-07-31
 
-Renate Dinnessen is a PhD candidate in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at the Medical Imaging Department of Radboud University Medical Center. She finished the Master’s programme of Epidemiology at Maastricht University and the Bachelor’s programme of Medical Imaging and Radiotherapy at the Fontys University of Applied Sciences. 
-In August 2022, she joined the [project/amara] project. The goal of this project is to improve risk stratification of incidental and screen-detected lung nodules using AI algorithms. This will accelerate the identification of malignant nodules and limit unnecessary work-up for benign nodules, therefore improving the quality of life of patients and reducing healthcare costs. She is supervised by [member/colin-jacobs].
+Renate Dinnessen is a postdoctoral researcher in the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/) at the Medical Imaging Department of Radboud University Medical Center. 
+
+She obtained her Master’s degree in Epidemiology at Maastricht University after obtaining her Bachelor’s degree in Medical Imaging and Radiotherapy at the Fontys University of Applied Sciences.
+ 
+In August 2022, she joined DIAG as a PhD candidate on the [project/amara] project, under the supervision of [member/colin-jacobs]. The goal of this project is to improve risk stratification of incidental and screen-detected lung nodules using AI algorithms. This has the potential to accelerate the identification of malignant nodules and limit unnecessary work-up for benign nodules, therefore improving the quality of life of patients and reducing healthcare costs. 
+
+In August 2026, she continued her research as a postdoctoral researcher under the supervision of [member/colin-jacobs].
