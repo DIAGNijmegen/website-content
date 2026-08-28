@@ -3,7 +3,7 @@ name: Lohith Ashwa
 template: people-single
 picture: people/Lohith_Ashwa.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Lohith.Ashwa@radboudumc.nl
