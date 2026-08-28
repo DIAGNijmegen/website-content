@@ -3,7 +3,7 @@ name: Mattia Sarno
 template: people-single
 picture: people/Mattia_Sarno.png
 position: Visiting Researcher
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 type: student
