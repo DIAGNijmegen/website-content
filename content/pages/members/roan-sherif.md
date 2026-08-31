@@ -3,7 +3,7 @@ name: Roan Sherif
 template: people-single
 picture: people/Roan_Sherif.jpeg
 position: Student assistant
-active: yes
+active: no
 groups: pathology
 default_group: pathology
 email: roan.sherif@radboudumc.nl
