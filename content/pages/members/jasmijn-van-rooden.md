@@ -10,4 +10,4 @@ email: Jasmijn.vanRooden@radboudumc.nl
 type: student-assistant
 linkedin: 
 
-Jasmijn van Rooden is a student assistant in DIAG since Jan 2026. She assists various projects with annotation efforts. Sarah is supervised by [member/colin-jacobs].
+Jasmijn van Rooden is a student assistant in DIAG since Jan 2026. She assists various projects with annotation efforts. Jasmijn is supervised by [member/colin-jacobs].
