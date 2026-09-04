@@ -27,11 +27,11 @@ DIAG members are orginazing the Computational Pathology Symposium at ECP in Stoc
 ## New DIAG members
 We welcomed the following new members in August:
 
-- [member/Diletta-Fioretti]
+- [member/diletta-fioretti]
   
-- [member/Jochem_Bossenbroek]
+- [member/jochem_bossenbroek]
   
-- [member/Nynke-Dijkhuis]
+- [member/nynke-dijkhuis]
 
 - [member/alessia-moretti]
 
