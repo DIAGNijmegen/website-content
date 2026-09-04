@@ -23,7 +23,7 @@ We are excited for MICCAI 2026 and look forward to seeing many of you in Strasbo
 
 ## DIAG at ECP
 
-DIAG members are orginazing the Computational Pathology Symposium at ECP in Stockholm this year. On the 13th of September [members/Jeroen-van-der-laak] and [members/frederique-meeuwsen] are organising an exciting event focused on computational pathology. This year a Mythbusters session will be hosted!
+DIAG members are orginazing the Computational Pathology Symposium at ECP in Stockholm this year. On the 13th of September [member/Jeroen-van-der-laak] and [member/frederique-meeuwsen] are organising an exciting event focused on computational pathology. This year a Mythbusters session will be hosted!
 ## New DIAG members
 We welcomed the following new members in August:
 
