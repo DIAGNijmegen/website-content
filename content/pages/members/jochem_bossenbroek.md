@@ -1,4 +1,4 @@
-title:: Jochem Bossenbroek
+title: Jochem Bossenbroek
 name: Jochem Bossenbroek
 template: people-single
 picture: people/Jochem_Bossenbroek.jpeg
