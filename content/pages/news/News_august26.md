@@ -29,7 +29,7 @@ We welcomed the following new members in August:
 
 - [member/diletta-fioretti]
   
-- [member/jochem_bossenbroek]
+- [member/jochem-bossenbroek]
   
 - [member/nynke-dijkhuis]
 
