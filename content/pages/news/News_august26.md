@@ -1,4 +1,8 @@
-title: Monthly DIAG News – August 2026 date: 2026-09-01 picture: news/MICCAI2026.jpg groups: diag description: After a long and hot summer, it is time for the DIAG newsletter again!
+title: Monthly DIAG News – August 2026 
+date: 2026-09-01 
+picture: news/MICCAI2026.jpg 
+groups: diag 
+description: After a long and hot summer, it is time for the DIAG newsletter again!
 
 ## DIAG at MICCAI 2026
 
