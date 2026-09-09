@@ -1,6 +1,6 @@
 title: Student assistant universal lesion annotation in whole-body longitudinal CT imaging
 groups: diag
-closed: false
+closed: true
 type: general
 picture: vacancies/oncology.jpg
 template: vacancy-single
