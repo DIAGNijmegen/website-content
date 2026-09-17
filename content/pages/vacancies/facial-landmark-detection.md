@@ -4,7 +4,7 @@ closed: true
 type: student
 picture: vacancies/facial-landmarks.png
 template: vacancy-single
-people: Frits Rangel, Silvan Quax
+people: <!-- Frits Rangel, Silvan Quax -->
 description: Development of a method for automatic facial landmark detection in cephalograms.
 
 **This is an AI for Health MSc project. Students are
