@@ -5,8 +5,7 @@ type: general
 people: Anindo Saha, Henkjan Huisman, Jurgen Fütterer
 template: vacancy-single
 picture: vacancies/PCaMRI.jpg
-description: We are opening a PhD position to investigate multimodal and agentic AI systems for precision prostate cancer care. Please feel free to share this opportunity with anyone who may be interested.
-
+description: We are opening a PhD position to investigate to develop and validate prostate AI systems that integrate multimodal health data into a holistic representation of the patient and support personalised clinical decision-making.
 
 ## 🔮The PROMETHEUS Project  
 Clinical decisions in prostate cancer management require physicians to combine imaging, prostate-specific antigen trajectories, histopathology, comorbidities, prior findings, treatments, clinical guidelines and long-term outcomes. In this PhD position, embedded within the [European Innovation Council](https://eic.ec.europa.eu/index_en) PROMETHEUS project, you will develop and validate prostate AI systems that integrate multimodal health data into a holistic representation of the patient and support personalised clinical decision-making.
@@ -26,7 +25,7 @@ We particularly encourage applications from individuals across all groups tradit
 You will be appointed for four years as a PhD candidate with the standard salary and secondary conditions for PhD candidates in the Netherlands. The research should result in publications, leading up to a PhD thesis.
 
 ## 📩 To Apply  
-Please submit a motivation letter; CV; your MSc thesis, prior publications or another representative work sample; and the contact details of two references through the following link: https://lnkd.in/ewKCW26z
+Please submit a motivation letter; CV; your MSc thesis, prior publications or another representative work sample; and the contact details of two references through [this link](https://www.careersatradboudumc.com/vacancies/phd-candidate-multimodal-and-agentic-ai-for-precision-prostate-cancer-care-nijmegen-380490).
 
 Application deadline: 1 October 2026  
 Preferred starting date: 1 November 2026  
