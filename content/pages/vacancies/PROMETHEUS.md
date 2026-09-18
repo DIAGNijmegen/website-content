@@ -5,7 +5,7 @@ type: general
 people: Anindo Saha, Henkjan Huisman, Jurgen Fütterer
 template: vacancy-single
 picture: vacancies/PCaMRI.jpg
-description: We are opening a PhD position to investigate to develop and validate prostate AI systems that integrate multimodal health data into a holistic representation of the patient and support personalised clinical decision-making.
+description: We are opening a PhD position to investigate, develop and validate prostate AI systems that integrate multimodal health data into a holistic representation of the patient and support personalised clinical decision-making.
 
 ## 🔮The PROMETHEUS Project  
 Clinical decisions in prostate cancer management require physicians to combine imaging, prostate-specific antigen trajectories, histopathology, comorbidities, prior findings, treatments, clinical guidelines and long-term outcomes. In this PhD position, embedded within the [European Innovation Council](https://eic.ec.europa.eu/index_en) PROMETHEUS project, you will develop and validate prostate AI systems that integrate multimodal health data into a holistic representation of the patient and support personalised clinical decision-making.
