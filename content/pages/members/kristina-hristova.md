@@ -12,4 +12,4 @@ type: student
 check_staff: Geert Litjens
 check_date: 2027-03-01
 
-Kristina will join the Computational Pathology Group as an MSc thesis student on 1 September 2026. Her research will focus on using artificial intelligence to improve vaccine safety assessment. In particular, she will develop weakly supervised deep-learning methods to automate the severity scoring of brain and spinal-cord histopathology slides. She will be supervised by [member/salma-dammak] and will work closely with Maria [member/cristina-fernandez] on the project.
+Kristina will join the Computational Pathology Group as an MSc thesis student on 1 September 2026. Her research will focus on using artificial intelligence to improve vaccine safety assessment. In particular, she will develop weakly supervised deep-learning methods to automate the severity scoring of brain and spinal-cord histopathology slides. She will be supervised by [member/salma-dammak] and will work closely with [member/maria-cristina-fernandez] on the project.
