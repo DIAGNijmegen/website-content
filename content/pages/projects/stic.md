@@ -7,7 +7,7 @@ groups: pathology, diag
 default_group: pathology 
 people: Joep Bogaerts, John-Melle Bokhorst, Jeroen van der Laak, Michiel Simons, Joanne de Hullu, Laura Galvez Jimenez, Anouk Bouwmeester, Lotte Laan
 description: The aim of STIC is to improve the diagnostics of precursor lesions to high grade serous carcinoma (HGSC), the most common and lethal form of ovarian cancer. 
-bibkeys: Boga22, Boga23, Boga24
+bibkeys: Boga22, Boga23, Boga24, Goot25, Bouw26
 type: normal
 
 The project on “Deep learning for improved detection of premalignant lesions in the Fallopian tube ” aims to improve the diagnostics of precursor lesions to high grade serous carcinoma (HGSC), the most common and lethal form of ovarian cancer. The most relevant precursor lesion is known as Serous Tubal Intraepithelial Carcinoma (STIC). 
