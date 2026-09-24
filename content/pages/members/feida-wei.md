@@ -3,7 +3,7 @@ name: Feida Wei
 template: people-single
 picture: people/Feida_Wei.jpg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Feida.Wei@radboudumc.nl
