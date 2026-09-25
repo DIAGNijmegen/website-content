@@ -20,4 +20,6 @@ The Precision Medicine for Radiology (PMR) project develops an integrated AI pla
 PMR is a collaboration between Thirona B.V., Plain Medical B.V., and Radboudumc. Together, the partners combine expertise in AI development, radiology, clinical validation, and medical software implementation. The goal is to translate promising research prototypes into a clinically validated demonstration platform that supports precision medicine and creates additional value from every CT scan acquired in routine care.
 
 ## Funding
-PMR is supported by the EFRO Oost 2021-2027 programme and is carried out by Thirona B.V., Plain Medical B.V., and Radboudumc.
+PMR is supported by the [Europees Fonds voor Regionale Ontwikkeling (EFRO) - Oost-Nederland](https://www.efro-oost.eu/) 2021-2027 programme and is carried out by [Thirona B.V.](https://thirona.eu/), [Plain Medical B.V.](https://plain-medical.com/), and [Radboudumc](https://www.radboudumc.nl/).
+
+![EFRO Oost-Nederland]({{ IMGURL }}/images/projects/op_oost_logo.png)
