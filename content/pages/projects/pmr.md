@@ -2,7 +2,7 @@ title: PMR: Precision Medicine for Radiology
 title_long: PMR: Precision Medicine for Radiology
 finished: false
 type: general
-picture: projects/efro-pmr2.png
+picture: projects/efro-pmr3.png
 template: project-single
 groups: diag
 people: Colin Jacobs, Alessa Hering
