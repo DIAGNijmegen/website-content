@@ -6,7 +6,7 @@ description: Using AI to predict which vulvar premalignant lesions (LS/dVIN) wil
 template: project-single
 groups: diag, pathology
 default_group: pathology
-people: Felix Pettai, Laura Jimenez Galvez, Jeroen van der Laak, Michiel Simons, Joanne de Hullu, Mieke ten Eikelder
+people: Felix Pettai, Laura Galvez Jimenez, Jeroen van der Laak, Michiel Simons, Joanne de Hullu, Mieke ten Eikelder
 bibkeys:
 
 ## Background
