@@ -1,4 +1,10 @@
 people:
+  - name: Mieke ten Eikelder
+    position: Gynaecological Oncologist
+    affiliation: Radboudumc
+    picture: people/external/Mieke_ten_Eikelder.jpg
+    url: https://www.radboudumc.nl/personen/mieke-ten-eikelder
+    email: Mieke.TenEikelder@radboudumc.nl
   - name: Satish Lubeek
     position: Dermatologist
     affiliation: Dermatology, Radboudumc
