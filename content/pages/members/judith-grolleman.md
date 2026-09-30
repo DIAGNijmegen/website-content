@@ -3,7 +3,7 @@ name: Judith Grolleman
 template: people-single
 picture: people/Judith_Grolleman.png
 position: Project Manager
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: judith.grolleman@outlook.com
