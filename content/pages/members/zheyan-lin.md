@@ -3,7 +3,7 @@ name: Zheyan Lin
 template: people-single
 picture: people/Zheyan_Lin.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Zheyan.Lin@radboudumc.nl
