@@ -3,7 +3,7 @@ name: Lotte Laan
 template: people-single
 picture: people/Lotte_Laan.jpeg
 position: Master Student
-active: yes
+active: no
 groups: diag, pathology
 default_group: pathology
 email: Lotte.Laan@radboudumc.nl
