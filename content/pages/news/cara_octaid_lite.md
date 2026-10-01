@@ -1,5 +1,5 @@
 title: OCT-AID-lite brings automated plaque segmentation closer to real-time clinical use
-date: 2026-02-10
+date: 2026-10-01
 description: The CARA Lab published OCT-AID-lite, a lightweight AI model enabling fast, near real-time analysis of coronary OCT images.
 picture: news/cara_octaid_lite.png
 groups: cara-lab
