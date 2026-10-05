@@ -1,6 +1,7 @@
 title: Mirthe Schenkel
 name: Mirthe Schenkel
-template: people-single 
+template: people-single
+picture: people/mirthe-schenkel.png
 groups: diag, cara-lab 
 position: MSc Student, MSc Student
 type: student, student
