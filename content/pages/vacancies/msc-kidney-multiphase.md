@@ -1,6 +1,6 @@
 title: Multi-phase AI for kidney cancer
 groups: diag
-closed: false
+closed: true
 type: student 
 picture: vacancies/msc-kidney-multiphase.png
 template: vacancy-single
