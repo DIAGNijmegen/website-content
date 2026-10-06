@@ -1,6 +1,6 @@
 title: Monthly DIAG News – Oktober 2026
 date: 2026-10-01
-picture: content/images/news/September_news.jfif
+picture: news/September_news.png
 groups: diag
 description: Time for another newsletter!
 ## DIAG at conferences
