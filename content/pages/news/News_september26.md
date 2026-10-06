@@ -1,4 +1,3 @@
-
 title: Monthly DIAG News – Oktober 2026
 date: 2026-10-01
 picture: content/images/news/September_news.jfif
@@ -16,7 +15,6 @@ We welcomed the following new members in September:
 - [member/livia-de-waard]
 
 ## Highlighted publications
-
 - Pantanowitz, J., Manko, C. D., Majewski, J., Berbís, M. A., Farris, A. B., 3rd, Karsan, A., Bychkov, A., Luna, A., Williams, B., Delahunt, B., Eloy, C., McClintock, D. S., Hollemans, E., Tuthill, J. M., Van der Laak, J., Cheng, J. Y., Lennerz, J. K., Sinard, J. H., Aneiros-Fernandez, J., Calderaro, J., … Rashidi, H. (2026). How does AI perform compared to human expert panels in medical Delphi studies? A pilot study through the lens of pathology. _Journal of pathology informatics_, _21_, 100661. https://doi.org/10.1016/j.jpi.2026.100661
 - Heil, L., Luttikholt, T. J., van der Zande, J. L., Mol, J.-Q., van der Waerden, R. G. A., Cancian, P., … Volleberg, R. H. J. A. (2026). Artificial intelligence-derived volumetric high-risk plaque features are predominantly located proximal to maximal luminal stenosis. _Circulation. Cardiovascular Interventions_, (e017300), e017300. doi:10.1161/CIRCINTERVENTIONS.126.017300
 - Volleberg, R. H. J. A., Shin, D., van der Waerden, R. G. A., Porter, C. R., Thomas, S. V., Sosa, F., … van Royen, N. (2026). Real-world external validation of artificial intelligence-based full-vessel segmentation for intracoronary optical coherence tomography. _Journal of the American Heart Association_, (e049353), e049353. doi:10.1161/JAHA.125.049353
