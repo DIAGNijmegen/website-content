@@ -6,15 +6,14 @@ on:
     paths:
       - "content/images/**"
 
+permissions:
+  contents: write
+  
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
 jobs:
-  cancel-running-jobs:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.12.1
-        with:
-          access_token: ${{ github.token }}
-
   theses:
     runs-on: ubuntu-latest
     outputs:
