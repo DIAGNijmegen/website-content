@@ -44,7 +44,7 @@ jobs:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: |
-          echo "::set-output name=dir::$(yarn cache dir)"
+          echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
           yarn config set prefix $(yarn cache dir)
           echo $(yarn global bin) >> $GITHUB_PATH
           yarn config set global-folder $(yarn cache dir)
