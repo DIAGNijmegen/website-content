@@ -21,12 +21,12 @@ jobs:
       changes: ${{ steps.auto-commit-action.outputs.changes_detected }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: 3.9
+          python-version: 3.12
 
       - name: Install dependencies
-        run: pip install imageio==2.16.2
+        run: pip install imageio==2.38.0
 
       - name: Crop thesis covers
         run: python ./crop_thesis_covers.py
