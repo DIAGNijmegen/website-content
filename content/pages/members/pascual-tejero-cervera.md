@@ -1,7 +1,7 @@
 title: Pascual Tejero Cervera
 name: Pascual Tejero Cervera
 template: people-single
-picture: people/ Pascual_Tejero_Cervera.png
+picture: people/Pascual_Tejero_Cervera.png
 position: PhD Candidate
 active: yes
 groups: diag
