@@ -3,7 +3,7 @@ name: Daan Geijs
 template: people-single
 picture: people/Daan_Geijs.jpg
 position: PhD Candidate
-active: yes 
+active: no 
 groups: diag, pathology
 default_group: pathology 
 email: daan.geijs@radboudumc.nl
