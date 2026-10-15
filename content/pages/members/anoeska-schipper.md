@@ -3,7 +3,7 @@ name: Anoeska Schipper
 template: people-single
 picture: people/Anoeska_Schipper.jpg
 position: PhD Candidate
-active: yes
+active: no
 groups: diag, ai-for-health
 default_group: diag
 email: anoeska.schipper@radboudumc.nl
