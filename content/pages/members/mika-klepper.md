@@ -2,13 +2,13 @@ title: Mika Klepper
 name: Mika Klepper
 template: people-single
 picture: people/Mika_Klepper.png
-position: Master Student
-active: no
-groups: diag, pathology
-default_group: pathology
+position: Research Scientist RTC AI
+active: yes
+groups: rtc, diag
+default_group: rtc
 email: Mika.Klepper@radboudumc.nl
 office: 
-type: student
+type: tech
 
 Mika Klepper is a Master’s student in Artificial Intelligence at Radboud University, specializing in the Intelligent Technology track with a focus on Neurotechnology and Healthcare. Starting on September 1st, 2025, he will conduct his thesis research in collaboration with the Computational Pathology group (CPG) at Radboudumc under the supervision of [member/geert-litjens]. His project focuses on the use of foundation models for automated detection of liver hypertrophy in histopathological whole-slide images as part of drug safety studies.
 
