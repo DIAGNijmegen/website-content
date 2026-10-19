@@ -23,9 +23,7 @@ The RTC AI can assist with AI expertise when applying for research grants. There
 Training deep learning algorithms requires a lot of GPU compute power. Our RTC AI has state-of-the-art hardware with the best GPU's currently available. Recently a new [NVIDIA DGX™ A100](https://www.nvidia.com/en-us/data-center/dgx-a100/) was added to boost our computing power. This is the largest and most advanced available AI hardware system on the market. We are the only research facility in the Netherlands to have direct access to such a machine. We offer the usage of our GPU's through [SOL](https://rtc.diagnijmegen.nl/software/sol/) to other researchers within the Radboudumc. Contact us for more information about using our hardware for your research. -->
 
 ## Courses
-To share our knowledge and expertise on artificial intelligence and spefically deep learning for healthcare we organize workshops and courses regularly. We contribute to the [Intelligent Systems in Medical Imaging course](https://www.ru.nl/courseguides/socsci/courses-osiris/ai/nwi-imc037-intelligent-systems-medical-imaging/) for students. Co-organize the [AI for Health course](https://www.ai-for-health.nl/courses/) which offers employees of the Radboudumc a deep dive in the healthcare applications of AI. Finally, we offer workshops and training opportunities for researchers in the Radboudumc that would like to make use of our software or hardware solutions.
+To share our knowledge and expertise on artificial intelligence and specifically deep learning for healthcare we organize workshops and courses. For instance, we organize the [AI for Health course](https://rtc.diagnijmegen.nl/info/ai-course/) which offers employees of the Radboudumc a deep dive in the healthcare applications of AI. 
 
 <!--## Support MSc students and visiting researchers
 Msc students and visiting researchers that are using AI in their research can receive support from the RTC AI. This can offered by usage of our hardware, access to our code base and through expert advice on how to tackle a specific AI problem. -->
-
-
