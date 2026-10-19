@@ -1,7 +1,7 @@
 title: "Artificial Intelligence for Prostate Cancer Detection and Screening on MRI in Global Populations: The SCARLET-1 Study" — in Radiology
 date: 2026-10-19
 description: Landmark, international study of 21,252 patients (46 cities, 22 countries) with suspected prostate cancer demonstrates the potential of AI for prostate cancer detection on MRI, while revealing critical challenges for safe clinical implementation.
-picture: news/2026-saha-radiology.png
+picture: news/2026-saha-radiology.jpeg
 groups: diag
 
 The SCARLET-1 study is now published in an early-access format in [Radiology, the flagship journal of the Radiological Society of North America (RSNA)](https://pubs.rsna.org/). Building on the [2024 PI-CAI study in The Lancet Oncology](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00220-1/abstract), SCARLET-1 represents the next major step in our efforts towards advancing AI for prostate cancer detection on MRI, and is one of the largest and most geographically comprehensive investigations of AI for prostate imaging to date. 
