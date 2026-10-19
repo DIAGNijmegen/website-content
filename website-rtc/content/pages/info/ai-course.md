@@ -4,7 +4,7 @@ groups: rtc
 picture: projects/ai_for_health.png
 
 ## AI for Health course
-Have you ever thought about exploring and understanding the field of artificial intelligence? Due to the successes in past years, the AI for Health course will be held again in Q1 2027. This course, designed specifically for clinicians, researchers and support staff working in hospitals, provides insight and hands-on experience into the many possibilities of artificial intelligence in healthcare. 
+Have you ever thought about exploring and understanding the field of artificial intelligence? Due to the successes in past years, the AI for Health course will be held again on the **14th of January 2027**. This course, designed specifically for clinicians, researchers and support staff working in hospitals, provides insight and hands-on experience into the many possibilities of artificial intelligence in healthcare. 
 
 To meet the needs of our participants as much as possible, we offer two different tracks:
 
@@ -22,8 +22,7 @@ Following our tracks you will:
 This course is a must for:
     
 - Anyone wanting to support decision making processes through the use of healthcare data.
--  Anyone believing there is more potential in healthcare data than is currently being exploited.
+- Anyone believing there is more potential in healthcare data than is currently being exploited.
 - Anyone interested in understanding the possibilities and limitations of using artificial intelligence to improve healthcare.
    
-More information can be found in the [Online Learning Environment](https://radboudumc.capp12.nl/recourses/1515/).
-
+Sign up for the course via the [Online Learning Environment](https://radboudumc.capp12.nl/recourses/1515/).
