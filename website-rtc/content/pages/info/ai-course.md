@@ -11,6 +11,8 @@ To meet the needs of our participants as much as possible, we offer two differen
 - **light track**, in which you get a good overview of the role AI can have in clinical practice.
 - **full track**, in which you will, on top of the content you get in the light track, also learn to implement AI solutions yourself using Python.
 
+The course will take place every Thursday over a period of 5 weeks (light track) or 10 weeks (full track). The light track only covers the lectures in the morning. The full track also includes programming practicals in the afternoon and five more weeks for working on an AI project with a small team. Lunch is included for both tracks. 
+
 Following our tracks you will:
 
 - Gain insight in how artificial intelligence can impact healthcare.
