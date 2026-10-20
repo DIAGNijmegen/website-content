@@ -2,20 +2,19 @@ title: Anushka Ashish Kore
 name: Anushka Ashish Kore
 template: people-single
 picture: people/Anushka_Ashish_Kore.jpg
-position: Research Scientist RTC AI
-active: yes
+position: Research Scientist RTC AI, PhD Candidate
+active: no, yes
 groups: rtc, diag
-default_group: rtc
+default_group: diag
 email: AnushkaAshish.Kore@radboudumc.nl
-office: Route 768, Room 2.27
-type: tech
+type: tech, phd
 linkedin: https://www.linkedin.com/in/anushka-kore/
 scholar: https://scholar.google.com/citations?hl=en&user=y_8RjDwAAAAJ
 orcid: https://orcid.org/0009-0003-5434-1396
 check_staff: Silvan Quax
 check_date: 2026-05-01
 
-Anushka Kore is an AI Researcher at [RTC AI](https://rtc.diagnijmegen.nl/) within the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) (DIAG). Since October 2025, she has been part of the RTC AI team, working on a project in collaboration with the Prevention Hub at the Department of Primary Care, focusing on extracting and classifying lifestyle information from unstructured clinical notes to support prevention-related research. Her work involves validating and optimizing BERT-based natural language processing models, for lifestyle factors such as smoking, alcohol, and drug use. The project aims to enable large-scale, privacy-preserving use of lifestyle data from Radboudumc and the RTC Health Data GP database, improving how such information can be leveraged for public health and prevention research.
+Anushka Kore is a PhD candidate within the [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) (DIAG). Between October 2025-2026, she has been part of the RTC AI team, working on a project in collaboration with the Prevention Hub at the Department of Primary Care, focusing on extracting and classifying lifestyle information from unstructured clinical notes to support prevention-related research. Her work involves validating and optimizing BERT-based natural language processing models, for lifestyle factors such as smoking, alcohol, and drug use. The project aims to enable large-scale, privacy-preserving use of lifestyle data from Radboudumc and the RTC Health Data GP database, improving how such information can be leveraged for public health and prevention research.
  
 Prior to this, Anushka completed her B.E. in Biomedical Engineering from the University of Mumbai in 2022. After a year in the biomedical industry as a Product Specialist, she began her M.Sc. in Biomedical Engineering at TU Delft, specializing in Medical Physics.
  
