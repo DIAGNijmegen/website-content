@@ -6,7 +6,6 @@ template: project-single
 groups: rse, diag, rtc
 people: James Meakin, Henkjan Huisman, Sjoerd Kerkstra, Paul Konstantin Gerke, Harm van Zeeland, Miriam Groeneveld, Anne Mickan, Chris van Run, Thomas Koopman 
 description: The home of challenges in biomedical imaging.
-
 bibkeys:
 github: https://github.com/DIAGNijmegen/grand-challenge
 
