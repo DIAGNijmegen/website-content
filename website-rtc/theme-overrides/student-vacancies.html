@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Vacancies{% endblock %}
+{% block page_picture %}{{ IMGURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+{% include 'blocks/breadcrumbs.html' %}
+
+{% set student_vacancies = pages | selectattr('category', 'equalto', 'vacancies') | selectattr('type', 'equalto', 'student') | list %}
+{% set open_vacancies = student_vacancies | selectattr('closed', 'equalto', 'false') | list %}
+{% set closed_vacancies = student_vacancies | selectattr('closed', 'equalto', 'true') | list %}
+{% set student_projects = pages | selectattr('category', 'equalto', 'projects') | selectattr('type', 'equalto', 'student') | list %}
+{% set running_projects = student_projects | selectattr('finished', 'equalto', 'false') | list %}
+{% set completed_projects = student_projects | selectattr('finished', 'equalto', 'true') | list %}
+
+<div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+{{ page.content }}
+
+    <h2 style="margin: 2em 0 1em 0;">Project Vacancies</h2>
+    {% if open_vacancies %}
+    <div class="row">
+        {% for card in open_vacancies %}
+            {% include "blocks/card.html" %}
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>There are currently no open project vacancies.</p>
+    {% endif %}
+
+    {% if closed_vacancies %}
+    <hr style="margin-top: 6em !important;">
+
+    <h2 style="margin: 2em 0 1em 0;">Closed Vacancies</h2>
+    <div class="row">
+        {% for card in closed_vacancies %}
+            {% include "blocks/card.html" %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if running_projects %}
+    <hr style="margin-top: 6em !important;">
+
+    <h2 style="margin: 2em 0 1em 0;">Running Projects</h2>
+    <div class="row">
+        {% for card in running_projects %}
+            {% include "blocks/card.html" %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if completed_projects %}
+    <hr style="margin-top: 6em !important;">
+
+    <h2  style="margin: 2em 0 1em 0;">Completed Projects</h2>
+    <div class="row">
+        {% for card in completed_projects %}
+            {% include "blocks/card.html" %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+
+</div>
+{% endblock %}

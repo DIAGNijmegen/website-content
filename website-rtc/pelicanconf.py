@@ -32,7 +32,7 @@ NAV_SECTIONS = [
     {"name": "Members", "url": "members", "icon": "users"},
     #     {"name": "Projects", "url": "projects", "icon": "folder"},
     #     {"name": "Vacancies", "url": "vacancies"},
-    {"name": "MSc Projects", "url": "student_projects", "icon": "book"},
+    {"name": "AI internships", "url": "student_projects", "icon": "book"},
     {
         "name": "Publications",
         "url": "publications",
@@ -109,6 +109,8 @@ INDEX_SAVE_AS = "highlights/index.html"
 
 # Theme settings
 THEME = "../radboudumc-template"
+# RTC-specific templates that take precedence over the shared theme templates
+THEME_TEMPLATES_OVERRIDES = ["theme-overrides"]
 DIRECT_TEMPLATES = ["index", "archives", "sitemap"]
 
 
