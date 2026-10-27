@@ -1,5 +1,6 @@
 title: ICH and PHE segmentation
-finished: false
+finished: true
+date: 2019-08-27
 type: general
 description: For the CONTRAST consortium and Dutch ICH Surgery Trial (DIST) we are developing an application for the segmentation and quantification of intracerebral hemorrhage and peri-hematomal edema in non-contrast CT.
 template: project-single

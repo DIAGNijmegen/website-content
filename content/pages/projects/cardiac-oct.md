@@ -1,5 +1,6 @@
 title: Coronary artery segmentation
-finished: false
+finished: true
+date: 2021-03-01
 type: general
 description: For the department of Cardiology we are developing an application for the segmentation of coronary arteries in cardiac OCT recordings.
 template: project-single

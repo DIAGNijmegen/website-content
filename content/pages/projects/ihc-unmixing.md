@@ -1,5 +1,6 @@
 title: Quantifying IHC pathology stains
-finished: false
+finished: true
+date: 2022-03-09
 type: general
 description: For the Pathology department we are developing an application that can unmix different IHC stains to aid analysist in quantifying pathology scans.
 template: project-single

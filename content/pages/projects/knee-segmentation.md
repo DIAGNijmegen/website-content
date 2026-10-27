@@ -1,5 +1,6 @@
 title: Knee segmentation
-finished: false
+finished: true
+date: 2019-08-27
 type: general
 description: For the Orthopedics department we are developing an application for the segmentation of the tibia, patella and fibula in non-contrast CT images of the legs.
 template: project-single

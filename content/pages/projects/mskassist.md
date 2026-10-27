@@ -1,6 +1,7 @@
 title: MSKAssist: AI-assisted assessment of hand and wrist radiographs
 title_long: MSKAssist: AI-assisted assessment of hand and wrist radiographs
 finished: false
+date: 2026-10-27
 type: general
 picture: projects/mskassist.jpg
 template: project-single

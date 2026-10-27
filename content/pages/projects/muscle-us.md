@@ -1,5 +1,6 @@
 title: Muscle ultrasound classification
-finished: false
+finished: true
+date: 2019-08-27
 type: general
 description: For the Neurophysiology department we have developed an algorithm for the identification of abnormal muscle tissue in ultrasound images of the tibialis anterior.
 template: project-single

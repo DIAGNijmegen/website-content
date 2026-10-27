@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block description %}Projects{% endblock %}
+{% block page_picture %}{{ SITEURL }}/{{SITE_PICTURE}}{% endblock %}
+{% block content %}
+{% include 'blocks/breadcrumbs.html' %}
+
+{# RTC version of the theme's projects.html: projects are sorted newest first; projects without a date last #}
+{% set all_projects = pages | selectattr('category', 'equalto', 'projects') | list %}
+{% set projects = (all_projects | selectattr('date') | sort(attribute='date', reverse=True) | list)
+                + (all_projects | rejectattr('date') | list) %}
+
+<div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    {% if not page.content_after %}
+      {{ page.content }}
+    {% endif %}
+
+    <h2 style="margin: 2em 0 1em 0;">Current research projects</h2>
+
+    <div class="row">
+        {% for card in projects %}
+            {% if card.type != 'student' and card.finished == 'false' %}
+                {% include "blocks/card.html" %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {% if not page.hide_software and page.hide_software != 'true' %}
+    <h2 style="margin-bottom: 1em;">Software</h2>
+
+    {% for software in pages %}
+        {% if software.category == 'software' %}
+        <div class="row mb-4">
+            <div class="col-md-4">
+                {% if software.picture %}
+                <img class="img-thumbnail" src="{{ IMGURL }}/images/{{ software.picture }}">
+                {% endif %}
+
+            </div>
+
+            <div class="col-md-8">
+                <header>
+                    <h3 class="entry-title"><a href="{{ SITEURL }}/{{ software.url }}" rel="bookmark" title="Permalink to {{ software.title|striptags }}">{{ software.title }}</a></h3>
+                </header>
+
+                <p>{{ software.description }}</p>
+
+                <p>
+                    <a href="{{ SITEURL }}/{{ software.url }}" class="btn btn-primary">More information</a>
+                    {% if software.github %}
+                    <a href="{{ software.github }}" class="btn btn-secondary"><svg class="svg-icon svg-icon-github"><use xlink:href="#icon-github"></use></svg> Github repository</a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {% set ns = namespace(has_student_projects=False) %}
+    {% for card in projects %}
+        {% if card.type == 'student' %}
+            {% if card.finished == 'false' %}
+                {% if not ns.has_student_projects %}
+                    {% set ns.has_student_projects = True %}
+                    <h2 style="margin: 2em 0 1em 0;">Current student projects</h2>
+                    <div class="row">
+                {% endif %}
+                {% include "blocks/card.html" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% if ns.has_student_projects %}
+    </div>
+    {% endif %}
+
+    <h2  style="margin: 2em 0 1em 0;">Finished projects</h2>
+    <div class="row">
+        {% for card in projects %}
+            {% if card.finished == 'true'%}
+                {% include "blocks/card.html" %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {% if page.content_after %}
+    <div class="row">
+      <div class="col-md-12">
+      {{ page.content }}
+      </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

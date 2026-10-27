@@ -245,17 +245,21 @@
                     {% endfor %}
                 </div>
             </div>
+            {# All projects (running and finished), newest first; projects without a date last #}
+            {% set all_projects = pages | selectattr('category', 'equalto', 'projects') | list %}
+            {% set projects = (all_projects | selectattr('date') | sort(attribute='date', reverse=True) | list)
+                            + (all_projects | rejectattr('date') | list) %}
+            {% set max_home_projects = 9 %}
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        {% for card in pages %}
-                            {% if card.category == 'projects' %}
-                                {% if card.finished == 'false' %}
-                                 {% include "blocks/card.html" %}
-                                {% endif %}
-                            {% endif %}
+                        {% for card in projects[:max_home_projects] %}
+                            {% include "blocks/project-card.html" %}
                         {% endfor %}
                     </div>
+                    {% if projects | length > max_home_projects %}
+                    <p class="text-center mt-4"><a href="{{ SITEURL }}/projects/" class="btn btn-primary">Show more projects</a></p>
+                    {% endif %}
                 </div>
             </div>
         </div>

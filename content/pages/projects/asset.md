@@ -1,6 +1,7 @@
 title: ASSET: Automatic Fetal Biometry in First Trimester 3D Volumetric Ultrasound
 title_long: ASSET: Artificial intelligence Supported Sonographic tomography for fetal Examination in the first Trimester
 finished: false
+date: 2026-10-27
 type: general
 picture: projects/asset.jpg
 template: project-single

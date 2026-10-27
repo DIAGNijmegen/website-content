@@ -1,5 +1,6 @@
 title: AMI
 finished: true
+date: 2019-01-21
 type: general
 picture: projects/ami-combined.png
 template: project-single

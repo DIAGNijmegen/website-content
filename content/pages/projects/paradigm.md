@@ -1,6 +1,7 @@
 title: PARADIGM: The diagnostic potential of 3D ultrasound with AI in maternity care
 title_long: PARADIGM: The diagnostic potential of 3D ultrasound with AI in maternity care
-finished: false
+finished: true
+date: 2022-07-26
 type: general
 picture: projects/paradigm.jpg
 template: project-single
