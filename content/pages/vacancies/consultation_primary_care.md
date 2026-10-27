@@ -1,6 +1,6 @@
 title: Predicting repeat consultation and treatment plan in extended scope primary care for patients visiting
 groups: rtc, diag
-closed: false
+closed: true
 type: student
 picture: vacancies/consultation_primary_care.jpg
 template: vacancy-single
