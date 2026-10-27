@@ -9,7 +9,7 @@ people: Bram van Ginneken, Matthieu Rutten, Ward Hendrix, Nils Hendrix, Dolf Wit
 description: Comprehensive analysis of hand and wrist radiographs with the help of artificial intelligence
 bibkeys:
 
-## Problem description:
+## Problem description
 Hand and wrist radiographs are among the most common X-ray examinations, and every emergency department orders them, usually after a fall. Yet radiology departments are under growing pressure, and not every hospital has musculoskeletal (MSK) expertise around the clock. The images are also difficult to read, with many small bones that partly overlap. Acute non-displaced fractures are easily missed, and so are accompanying ligament injuries. Treatment and follow-up often depend on precise measurements of alignment and joint spaces, which take time to do by hand and vary between readers. 
 
 ## Project summary
