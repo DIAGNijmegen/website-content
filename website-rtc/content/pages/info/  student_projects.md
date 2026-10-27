@@ -6,9 +6,6 @@ template: student-vacancies
 url: student_projects/
 save_as: student_projects/index.html
 
-![AI internships]({{ IMGURL }}/images/courses/Front_image2.png)
-
-
 We offer AI internships in the Radboudumc for motivated Master students that are interested in solving healthcare problems. Projects typically have a duration of 6 months. An overview of open and closed internship projects can be found below.
 
 ## How to apply
