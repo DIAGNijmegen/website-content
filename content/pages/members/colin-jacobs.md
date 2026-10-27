@@ -4,7 +4,7 @@ template: people-single
 picture: people/Colin_Jacobs.jpg
 position: Associate Professor
 active: yes
-groups: diag
+groups: diag, rtc
 default_group: diag
 email: colin.jacobs@radboudumc.nl
 office: Route 767, Room 2.30

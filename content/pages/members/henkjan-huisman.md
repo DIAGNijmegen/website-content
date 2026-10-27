@@ -4,7 +4,7 @@ template: people-single
 picture: people/Henkjan_Huisman.jpg
 position: Professor
 active: yes
-groups: diag
+groups: diag, rtc
 default_group: diag
 email: henkjan.huisman@radboudumc.nl
 office: Route 767, Room 30
