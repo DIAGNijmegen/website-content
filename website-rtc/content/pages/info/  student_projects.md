@@ -3,6 +3,8 @@ description: AI internships at the Radboudumc for Master students. Do you have a
 groups: rtc
 picture: courses/Front_image2.png
 template: student-vacancies
+url: student_projects/
+save_as: student_projects/index.html
 
 ![AI internships]({{ IMGURL }}/images/courses/Front_image2.png)
 
