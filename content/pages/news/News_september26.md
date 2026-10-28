@@ -1,4 +1,4 @@
-title: Monthly DIAG News – Oktober 2026
+title: Monthly DIAG News – October 2026
 date: 2026-10-01
 picture: news/September_news.png
 groups: diag
