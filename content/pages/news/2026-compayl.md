@@ -1,5 +1,5 @@
 title: COMPAYL++ workshop at MICCAI 2026
-date: 2026-27-09
+date: 2026-10-27
 description: COMPAYL++ at MICCAI 2026: a record number of submissions and a full day of computational pathology.
 picture: news/compayl-2026.png
 groups: diag, pathology
