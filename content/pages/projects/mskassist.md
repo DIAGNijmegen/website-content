@@ -6,7 +6,7 @@ type: general
 picture: projects/mskassist.jpg
 template: project-single
 groups: rtc
-people: Bram van Ginneken, Matthieu Rutten, Ward Hendrix, Nils Hendrix, Dolf Wittkämper
+people: Bram van Ginneken, Matthieu Rutten, Ward Hendrix, Nils Hendrix, Dolf Wittkämper, Bart Busink
 description: Comprehensive analysis of hand and wrist radiographs with the help of artificial intelligence
 bibkeys:
 
