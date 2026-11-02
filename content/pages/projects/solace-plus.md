@@ -2,7 +2,7 @@ title: SOLACE+: Strengthening the screening Of Lung cAnCer in Europe - Pilots, L
 title_long: SOLACE+: Strengthening the screening Of Lung cAnCer in Europe - Pilots, Learning, Uptake and Sustainability
 finished: false
 type: general
-picture: projects/solace-plus-logo.png
+picture: projects/solace-plus-logo.jpg
 template: project-single
 groups: diag
 people: Colin Jacobs, Steven Schalekamp, Noa Antonissen, Mathias Prokop, Erik van der Heijden, Wouter van Geffen
