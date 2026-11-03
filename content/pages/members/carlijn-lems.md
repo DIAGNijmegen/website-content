@@ -10,7 +10,6 @@ email: carlijn.lems@radboudumc.nl
 office: Route 812, room 2.39
 type: phd
 linkedin: https://www.linkedin.com/in/carlijnlems/
-scholar: https://scholar.google.com/citations?user=gGColhsAAAAJ&hl=en&oi=ao
 check_staff: Francesco Ciompi
 check_date: 2028-02-01
 
