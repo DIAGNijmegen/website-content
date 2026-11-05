@@ -130,7 +130,7 @@ def parse_bibtex_file(filename, full_strings_bib):
 
                 bib_item["journal"] = codecs.decode(name, "ulatex")
 
-                if "arxiv" in name.lower() or "medrxiv" in name.lower() or "research square" or "preprint" in name.lower():
+                if "arxiv" in name.lower() or "medrxiv" in name.lower() or "research square":
                     bib_item["type"] = "preprint"
             if "booktitle" in bib_item:
                 name = bib_item["booktitle"]
