@@ -3,7 +3,7 @@ title_long: Chest x-ray analysis
 finished: false
 type: general
 picture: projects/cxr.jpg
-template: project-single
+template: research-single
 groups: diag
 people: Bram van Ginneken, Keelin Murphy
 description: Chest radiography is ubiquitous in radiology. We develop tools to interpret these exams automatically.
@@ -14,21 +14,21 @@ bibkeys: Murp20a, Habi20, Maho20, Murp20, Ginn18, Phil19a, Mele18, Koes18, Mele1
 Chest radiography is the most common radiological exam in the world. In many hospitals 40% of all exams made in the radiology department are chest x-rays. The advent of deep learning has increased the interest for chest x-ray analysis. At DIAG, we have pioneered tuberculosis detection with chest x-ray, but we also have research projects aimed at detecting other diseases from chest radiographs.
 
 ## Tuberculosis screening and chest radiography
-Tuberculosis (TB) is a highly infectious disease that still kills 1.5 million people every year, despite the fact that a cheap cocktail of antibiotics can cure almost every TB patient. Finding TB before patients infect others and putting people on treatment is crucial. 
+Tuberculosis (TB) is a highly infectious disease that still kills 1.5 million people every year, despite the fact that a cheap cocktail of antibiotics can cure almost every TB patient. Finding TB before patients infect others and putting people on treatment is crucial.
 
-Chest radiography has always been widely used to find TB. Digital chest radiography has made x-ray cheaper and easier to use. No films, chemicals and water are needed to produce a digital radiograph, automatic exposure control ensures high image quality, and images are instantly available. The cost per exam, once a digital unit is operational, is near zero. Digital chest radiography, therefore, has a large potential to be used in TB case finding and prevalence surveys, as an adjunct test, next to molecular testing. Molecular diagnostics for TB, such as the [GeneXpert](http://www.nejm.org/doi/pdf/10.1056/NEJMoa0907847) test have become a standard for TB diagnosis, because they can make a definitive diagnosis of TB in two hours. However, these tests are still much more expensive and time-consuming than radiography. Radiography can act as a filter: TB suspects undergo symptom screening and chest radiography, and those with symptoms and/or abnormalities in the chest radiograph undergo further testing. 
+Chest radiography has always been widely used to find TB. Digital chest radiography has made x-ray cheaper and easier to use. No films, chemicals and water are needed to produce a digital radiograph, automatic exposure control ensures high image quality, and images are instantly available. The cost per exam, once a digital unit is operational, is near zero. Digital chest radiography, therefore, has a large potential to be used in TB case finding and prevalence surveys, as an adjunct test, next to molecular testing. Molecular diagnostics for TB, such as the [GeneXpert](http://www.nejm.org/doi/pdf/10.1056/NEJMoa0907847) test have become a standard for TB diagnosis, because they can make a definitive diagnosis of TB in two hours. However, these tests are still much more expensive and time-consuming than radiography. Radiography can act as a filter: TB suspects undergo symptom screening and chest radiography, and those with symptoms and/or abnormalities in the chest radiograph undergo further testing.
 
-One issue remains: the lack of human expert readers in countries with a high burden of TB. CAD4TB eliminates this problem by automating the reading process. 
+One issue remains: the lack of human expert readers in countries with a high burden of TB. CAD4TB eliminates this problem by automating the reading process.
 
 ## The CAD4TB project
-Our work in developing software to detect signs of tuberculosis started in 1996 when digital x-ray machines were first entering the market. We work with [Delft Imaging](https://www.delft.care), famous as the inventor of the Odelca camera from the 1960s, one of the most widely used systems in x-ray TB screening in the world. Our project resulted in a [prototype computer-aided detection system for TB in 2001](/publications/ginn02a/). At that time, however, digital x-ray was not yet widely adopted for TB case finding. 
+Our work in developing software to detect signs of tuberculosis started in 1996 when digital x-ray machines were first entering the market. We work with [Delft Imaging](https://www.delft.care), famous as the inventor of the Odelca camera from the 1960s, one of the most widely used systems in x-ray TB screening in the world. Our project resulted in a [prototype computer-aided detection system for TB in 2001](/publications/ginn02a/). At that time, however, digital x-ray was not yet widely adopted for TB case finding.
 
 In 2007, we attracted a research grant and established the CAD4TB project with partners in South Africa, the [University of Cape Town Lung Institute](http://lunginstitute.co.za), and in Zambia, the NGO [Zambart](http://www.zambart.org/).
 
 ## The CAD4TB software
 The first CAD4TB beta prototype (CAD4TB v0.01) was field-tested in 2010. In 2011, the first official prototype version was released (CAD4TB v1.08), notably improved by training the system with a much larger number of images. A string of new versions of the software has been released: in 2012 v2.09, in 2013 v3.07, and in 2014 v4.10. Version v4.10 was the first version to receive a CE label. In 2016, version 5 saw the light and in 2019 version 6 was released, based on deep learning. Algorithm development behind CAD4TB is now carried out at [Thirona](https://www.thirona.eu), a spin-off company from the Diagnostic Image Analysis Group.
 
-CAD4TB is commercially available via [Delft Imaging](https://www.delft.care) and has hundreds of installations in over 40 countries worldwide. 
+CAD4TB is commercially available via [Delft Imaging](https://www.delft.care) and has hundreds of installations in over 40 countries worldwide.
 
 This BBC report shows CAD4TB in action in Ghana:
 
