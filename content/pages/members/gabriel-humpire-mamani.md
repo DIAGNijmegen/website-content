@@ -1,7 +1,7 @@
 title: Gabriel Humpire Mamani
 name: Gabriel Humpire Mamani
 template: people-single
-picture: people/Gabriel_Humpire_Mamani.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: diag
@@ -13,6 +13,4 @@ type: phd
 linkedin: http://www.linkedin.com/in/ghumpire
 scholar: http://scholar.google.com/citations?user=oE82pPoAAAAJ
 
-Gabriel was a Ph.D. candidate at the Diagnostic Image Analysis Group (DIAG). He started working on the AMI Oncology project in February 2016, supervised by [member/bram-van-ginneken], [member/colin-jacobs], and Nikolas Lessmann. Gabriel finished his PhD contract at Radboudumc in February, 2020.
-
-Gabriel graduated in Computer Science at the National University of San Agustin in Peru. He received his master's degree in Computer Science at the University of Sao Paulo in Brazil in 2012. His research interests include Computer Vision, Image Processing, Video processing, and Machine Learning. 
+This person is no longer working at DIAG.

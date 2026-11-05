@@ -1,7 +1,7 @@
 title: David Tellez
 name: David Tellez
 template: people-single
-picture: people/David_Tellez.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: pathology, diag
@@ -13,4 +13,4 @@ linkedin: https://www.linkedin.com/in/davidtellezm
 scholar: https://scholar.google.com/citations?user=O6dYqTEAAAAJ
 researcherid: http://www.researcherid.com/rid/V-7094-2017
 
-David Martin Tellez was a PhD student in the CP group until June 2021. He succesfully defended his PhD thesis titled ['Advancing computational pathology with deep learning: from patches to gigapixel image-level classification'](https://www.computationalpathologygroup.eu/publications/tell21a/).
+This person is no longer working at DIAG.

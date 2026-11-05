@@ -1,7 +1,7 @@
 title: Sophie van den Broek
 name: Sophie van den Broek
 template: people-single
-picture: people/Sophie_van_den_Broek.jpg
+picture: people/default_member_image.jpg
 position: Student assistant
 active: no
 groups: pathology
@@ -11,4 +11,4 @@ office: Route 812, room 3.42
 type: student-assistant
 linkedin: https://www.linkedin.com/in/sophie-van-den-broek-a83754158
 
-Sophie van den Broek worked as student-assistant in the Computational Pathology Group since May 2017. She supported several PhD projects by making annotations. 
+This person is no longer working at DIAG.

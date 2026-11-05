@@ -1,7 +1,7 @@
 title: Elias Baumann
 name: Elias Baumann
 template: people-single
-picture: people/Elias_Baumann.png
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: diag, pathology
@@ -11,4 +11,4 @@ office:
 telephone: 
 type: student
 
-Elias Baumann received his bachelor’s degree in computer science from Technical University Munich, Germany, in 2016 followed by a master’s degree in information systems from Humboldt University Berlin, Germany, in 2020. Elias is currently pursuing his PhD in computational pathology at ITMP Bern, Switzerland where he is working on evaluating intratumor heterogeneity using digital whole slide images by aggregating deep learning derived features. His primary interests are machine- and deep learning, computer vision as well as biomedical image analysis, but he increasingly also works with -omics data to incorporate additional information sources into his projects. 
+This person is no longer working at DIAG.

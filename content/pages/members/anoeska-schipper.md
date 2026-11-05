@@ -1,7 +1,7 @@
 title: Anoeska Schipper
 name: Anoeska Schipper
 template: people-single
-picture: people/Anoeska_Schipper.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: diag, ai-for-health
@@ -13,4 +13,4 @@ linkedin: https://www.linkedin.com/in/anoeskaschipper/
 check_staff: Matthieu Rutten
 check_date: 2025-06-01
 
-Anoeska Schipper completed the Research Master's track in Communication Science at the University of Amsterdam in 2012 (cum laude). She worked 7.5 years at Deloitte in eDiscovery and Technology and Innovation, developing and implementing AI-based tooling such as text classification and anomaly detection. As of April 2022, she started her PhD position on “AI-based Diagnostic Decision Making in Primary Care” under supervision of Ron Kusters, Steef Kurstjens, [member/matthieu-rutten] and [member/bram-van-ginneken]. The project focuses on the development and implementation of an AI-based diagnostic tool, to detect patterns in diagnostic test results (laboratory and radiology) that are routinely requested by general practitioners.
+This person is no longer working at DIAG.

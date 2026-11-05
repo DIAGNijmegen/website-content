@@ -1,7 +1,7 @@
 title: Sven Lafebre
 name: Sven Lafebre
 template: people-single
-picture: people/Sven_Lafebre.jpg
+picture: people/default_member_image.jpg
 position: Research Software Engineer
 active: no
 groups: diag, rse
@@ -11,3 +11,4 @@ office:
 telephone:
 type: tech
 
+This person is no longer working at DIAG.

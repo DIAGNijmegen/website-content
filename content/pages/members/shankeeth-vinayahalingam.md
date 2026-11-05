@@ -1,7 +1,7 @@
 title: Shankeeth Vinayahalingam
 name: Shankeeth Vinayahalingam
 template: people-single
-picture: people/shank.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: diag, ai-for-health
@@ -11,4 +11,4 @@ office:
 type: phd
 linkedin: https://www.linkedin.com/in/shankeeth-vinayahalingam-304b3b159/
 
-
+This person is no longer working at DIAG.

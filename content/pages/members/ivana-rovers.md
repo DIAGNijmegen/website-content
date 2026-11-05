@@ -1,7 +1,7 @@
 title: Ivana Rovers
 name: Ivana Rovers
 template: people-single
-picture: people/Ivana_Rovers.JPG
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag, pathology
@@ -10,4 +10,4 @@ email: Ivana.Rovers@radboudumc.nl
 office: 
 type: student
 
-Ivana Rovers is in her last year of her Master Medical Engineering at Eindhoven University of Technology. To apply her knowledge on medical image analysis, she will join the Computational Pathology Group for an internship under the supervision of [member/nadieh-khalili]. She will start her project in August 2025, which aims to develop a deep learning algorithm that predicts the presence of MSI with pathology images in cancer patients.
+This person is no longer working at DIAG.

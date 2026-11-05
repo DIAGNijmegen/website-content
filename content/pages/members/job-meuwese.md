@@ -1,7 +1,7 @@
 title: Job Meuwese
 name: Job Meuwese
 template: people-single 
-picture: people/Job_Meuwese.png
+picture: people/default_member_image.jpg
 groups: diag, cara-lab 
 position: MSc Student, MSc Student
 type: student, student
@@ -12,4 +12,4 @@ email: job.meuwese@radboudumc.nl
 check_staff: Jos Thannhauser
 check_date: 2026-04-01
 
-Job Meuwese is a final-year student in the Technical Medicine master’s program Medical Sensing and Stimulation at the University of Twente. His interests lie in developing AI tools and other technological innovations to improve patient care. He joined DIAG in October 2025 as a graduation student in the [CARA Lab](https://www.cara-ai-lab.nl/), focusing on the implementation of AI during cardiac intervention procedures. Job is supervised by Peter Damman, Niels Stens and [member/jos-thannhauser].
+This person is no longer working at DIAG.

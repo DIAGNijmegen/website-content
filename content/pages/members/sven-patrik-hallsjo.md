@@ -1,7 +1,7 @@
 title: Sven-Patrik Hallsjö
 name: Sven-Patrik Hallsjö
 template: people-single
-picture: people/Sven_Patrik_Hallsjo.jpg
+picture: people/default_member_image.jpg
 position: Postdoctoral Researcher
 active: no
 email: sven-patrik.hallsjo@radboudumc.nl
@@ -12,4 +12,4 @@ default_group: pathology
 linkedin: https://www.linkedin.com/in/patrikhallsjo/
 scholar: https://scholar.google.com/citations?user=0q_jaHYAAAAJ&hl=sv
 
-Sven-Patrik Hallsjö worked as a postdoctoral researcher in the Computational Pathology group of Radboud university medical center, Nijmegen and at Linköping University, Linköping, Sweden. 
+This person is no longer working at DIAG.
