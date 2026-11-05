@@ -1,7 +1,7 @@
 title: Merijn van Erp
 name: Merijn van Erp
 template: people-single
-picture: people/Merijn_van_Erp.jpg
+picture: people/default_member_image.jpg
 position: Scientific Programmer
 active: no
 groups: diag, pathology
@@ -12,4 +12,4 @@ type: tech
 check_staff: Jeroen van der Laak
 check_date: 2026-05-01
 
-Merijn van Erp is a scientific programmer at the departments of Cell Biology and Pathology of the Radboudumc. He obtained his master degree in Computer Science at the Radboud University Nijmegen and his Professional Doctorate in Engineering at the Eindhoven University of Technology. After working in the industry for a decade, he has been working on the H2020 Multimot project since Januari of 2016. The Mulitmot project aims to build an open data ecosystem for cell migration research, through standardization, dissemination and meta-analysis efforts. Within the Multimot project, he is developing an automated image analysis toolkit for spheroid migration assays. He is also provides general support for automated image analysis projects as part of the Microscopic Imaging Centre.
+This person is no longer working at DIAG.

@@ -1,7 +1,7 @@
 title: Marcel Oei
 name: Marcel Oei
 template: people-single
-picture: people/Marcel_Oei_bw.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: diag
@@ -12,4 +12,4 @@ type: phd
 telephone: +31 24 3652282
 linkedin: https://www.linkedin.com/in/marcel-oei-bb2a3a10/
 
-Marcel Oei studied medicine at the Erasmus MC/Erasmus University Rotterdam. In March 2010 he started his PhD project at the department of Radiology of the Radboud university medical center. His PhD research focuses on CT and MR perfusion in stroke and in head and neck oncology.
+This person is no longer working at DIAG.

@@ -1,7 +1,7 @@
 title: Bob Sanders
 name: Bob Sanders
 template: people-single
-picture: people/Bob_Sanders.jpeg
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag
@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-Bob Sanders obtained a bachelor degree in Psychology & Technology at the Eindhoven University of Technology and is currently pursuing a master degree in Artificial Intelligence at the Radboud University in Nijmegen. From November 2022 until May 2023 he will be working on the project  [few-shot learning for medical image segmentation](https://www.ai-for-health.nl/projects/few-shot-segmentation/) as part of the Diagnostic Image Analysis Group. His project is supervised by [member/bram-van-ginneken].
+This person is no longer working at DIAG.

@@ -1,7 +1,7 @@
 title: Roan Sherif
 name: Roan Sherif
 template: people-single
-picture: people/Roan_Sherif.jpeg
+picture: people/default_member_image.jpg
 position: Student assistant
 active: no
 groups: pathology
@@ -12,4 +12,4 @@ type: student-assistant
 check_staff: Valerie Dechering
 check_date: 2026-05-01
 
-Roan Sherif is currently studying Dentistry at Radboud University in Nijmegen. She joined the Computational Pathology group in June 2022, where she assists PhD students by preparing slides for digitization and making annotations. Roan is working under the supervision of [member/pierpaolo-vendittelli] and [member/megan-schuurmans] on the [PANCAIM project](https://pancaim.eu/). 
+This person is no longer working at DIAG.

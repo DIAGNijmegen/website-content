@@ -1,7 +1,7 @@
 title: Tajwar Abrar Ableef
 name: Tajwar Abrar Ableef
 template: people-single
-picture: 
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag
@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-
+This person is no longer working at DIAG.

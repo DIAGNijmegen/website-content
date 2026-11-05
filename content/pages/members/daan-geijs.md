@@ -1,7 +1,7 @@
 title: Daan Geijs
 name: Daan Geijs
 template: people-single
-picture: people/Daan_Geijs.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no 
 groups: diag, pathology
@@ -14,4 +14,4 @@ scholar: https://scholar.google.nl/citations?user=qj6BUocAAAAJ&hl=nl
 check_staff: Geert Litjens
 check_date: 2026-06-01
 
-Daan Geijs studied [Biomedical Engineering](https://www.utwente.nl/onderwijs/master/opleidingen/biomedical-engineering/) at the [University of Twente](https://www.utwente.nl/) and specialized in [Image and Diagnostics](https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/specialization/specialisatie-imaging-invitro-diagnostics/). Subsequently, he finished his [master thesis](/publications/geij19) segmenting tumor by applying deep learning on fluorescent multiplex breast cancer images in 2019. In the same period, he finished the master study [Science Education and Communication](https://www.utwente.nl/en/education/master/programmes/science-education-communication/) in Physics and worked as a secondary school Physics teacher. In March 2020 he started as PhD candidate in the [Computational Pathology Group](https://www.computationalpathologygroup.eu/) and [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/) where he works under the supervision of [member/geert-litjens] implementing deep learning in the daily routine of pathologists assessing skin cancer.  
+This person is no longer working at DIAG.

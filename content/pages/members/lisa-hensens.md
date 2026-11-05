@@ -1,7 +1,7 @@
 title: Lisa Hensens
 name: Lisa Hensens
 template: people-single
-picture: people/Lisa_Hensens.jpg
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag, pathology
@@ -10,4 +10,4 @@ email: lisahensens@gmail.com
 office: 
 type: student
 
-Lisa obtained her Bachelor’s degree in Artificial Intelligence at Radboud University and continued her studies at the same university with the master’s programme Artificial Intelligence: Intelligent Technology. She will work on her Master Thesis under the supervision of [member/pierpaolo-vendittelli], where she will dive into developing deep learning systems to quantify pathomics features in pancreatic cancer and use these features to build a prediction model of patient survival.
+This person is no longer working at DIAG.

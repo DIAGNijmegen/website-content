@@ -1,7 +1,7 @@
 title: Hiba Qoubbane
 name: Hiba Qoubbane
 template: people-single
-picture: people/Hiba_Qoubbane.jpg
+picture: people/default_member_image.jpg
 position: Student assistant
 active: no
 groups: pathology
@@ -12,4 +12,4 @@ type: student-assistant
 check_staff: Valerie Dechering
 check_date: 2026-05-01
 
-Hiba Qoubbane started working as a student assistent at the Computational Pathology Group in June 2022. She assists PhD students and postdocs in various projects by preparing slides for digitization and making annotations. She is currently pursuing her bachelor's degree in Dentistry at Raboud University Nijmegen. 
+This person is no longer working at DIAG.

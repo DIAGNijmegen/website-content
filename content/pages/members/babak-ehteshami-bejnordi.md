@@ -1,7 +1,7 @@
 title: Babak Ehteshami Bejnordi
 name: Babak Ehteshami Bejnordi
 template: people-single
-picture: people/Babak_Ehteshami_Bejnordi.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 email: babak@radboudumc.nl
@@ -10,4 +10,4 @@ type: phd
 groups: diag, pathology
 default_group: pathology
 
-Babak Ehteshami Bejnordi was a PhD student in the CP group until December 2017. He succesfully defended his PhD thesis titled ['Histopathological diagnosis of breast cancer using machine learning'](https://www.computationalpathologygroup.eu/publications/bejn17a/).
+This person is no longer working at DIAG.

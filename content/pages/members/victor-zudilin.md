@@ -1,7 +1,7 @@
 title: Victor Zudilin
 name: Victor Zudilin
 template: people-single
-picture: people/Victor_Zudilin.jpg
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag
@@ -15,8 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-Victor is a Data Science master student at Radboud University, Nijmegen. He received his bachelor's degree in Software Engineering at the University of Newcastle, Australia, in 2013. In September 2022 he joined the [Diagnostic Image Analysis Group](http://diagnijmegen.nl) to work on his internship and master thesis until September 2023, focusing on prostate cancer lesion detection and developing a new cross-cancer image format. He is supervised by [member/joeran-bosma].
-
-
-
-
+This person is no longer working at DIAG.

@@ -1,7 +1,7 @@
 title: Milly van de Warenburg
 name: Milly van de Warenburg
 template: people-single
-picture: people/Milly_van_de_Warenburg.jpg
+picture: people/default_member_image.jpg
 position: Student assistant
 active: no
 groups: pathology
@@ -11,4 +11,4 @@ office: Route 812, room 3.42
 type: student-assistant
 linkedin: https://www.linkedin.com/in/millyvandewarenburg
 
-Milly worked from May 2017 until 2021 as a student assistent in the Computational Pathology Group. She supported varying research projects for the group by making annotations and preparing slides for digitization. 
+This person is no longer working at DIAG.

@@ -1,7 +1,7 @@
 title: Patrick Brand
 name: Patrick Brand
 template: people-single
-picture: people/Patrick_Brand.jpg
+picture: people/default_member_image.jpg
 position: PhD Candidate
 active: no
 groups: diag
@@ -13,4 +13,4 @@ telephone:
 linkedin: https://www.linkedin.com/in/patrick-b-406194121/
 scholar: https://scholar.google.com/citations?user=gvqXgSEAAAAJ
 
-Patrick Brand is a PhD student at the Department of Radiology of [Radboud university medical center](https://www.radboudumc.nl/research), Nijmegen. He studied Computer Science at Delft University of Technology. In January 2019 he started his PhD project at [Diagnostic Image Analysis Group](http://www.diagnijmegen.nl/). He works under supervision of [member/henkjan-huisman] on Deep Learning for Prostate MRI intervention guidance ([project/ai4imageguidedintervention] project).
+This person is no longer working at DIAG.

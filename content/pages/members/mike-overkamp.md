@@ -1,7 +1,7 @@
 title: Mike Overkamp
 name: Mike Overkamp
 template: people-single
-picture: people/Mike_Overkamp.jpg
+picture: people/default_member_image.jpg
 position: Research Software Engineer
 active: no
 groups: diag, rse, rtc
@@ -11,4 +11,4 @@ office: Route 767, Room 2.25
 telephone:
 type: tech
 
-Mike Overkamp obtained a BSc degree in Artificial Intelligence at the Radboud University, investigating the possibilities of speeding up a mobile application to detect pre-eclampsia by applying knowledge compilation on the Bayesian network used. After graduating, he started working as a web developer and later as a robotics engineer. Currently, he works at the [Diagnostic Image Analysis Group](http://diagnijmegen.nl) as a Research Software Engineer under supervision of James Meakin.
+This person is no longer working at DIAG.

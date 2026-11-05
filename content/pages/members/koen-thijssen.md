@@ -1,7 +1,7 @@
 title: Koen Thijssen
 name: Koen Thijssen
 template: people-single
-picture: people/Koen_Thijssen.PNG
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag
@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-Koen Thijssen obtained his bachelor degree in Physics and Astronomy at the Radboud University in Nijmegen. He is now working on his Masters in Particle and Astrophysics that includes the Computational and Data Science Synergy track. From May 2023 until mid 2024 he will be working on his internship at the [Diagnostic Image Analysis Group](http://diagnijmegen.nl) (DIAG) at Radboudumc working on the topic of [Prediction of bladder filling during radiotherapy treatment](https://www.diagnijmegen.nl/vacancies/aifh_msc_bladderfilling/). This project is supervised by [member/peter-koopmans].
+This person is no longer working at DIAG.

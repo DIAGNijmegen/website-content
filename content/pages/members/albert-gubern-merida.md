@@ -1,7 +1,7 @@
 title: Albert Gubern-Mérida
 name: Albert Gubern-Mérida
 template: people-single
-picture: 
+picture: people/default_member_image.jpg
 position: Master Student
 active: no
 groups: diag
@@ -14,3 +14,5 @@ scholar:
 publons: 
 orcid: 
 linkedin:
+
+This person is no longer working at DIAG.

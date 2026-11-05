@@ -6,5 +6,8 @@ groups: diag
 default_group: diag
 position: Research Scientist
 type: scientist
-picture: people/bram-platel.jpg
+picture: people/default_member_image.jpg
 linkedin: https://www.linkedin.com/in/bramplatel/
+
+
+This person is no longer working at DIAG.

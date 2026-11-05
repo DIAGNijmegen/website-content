@@ -1,7 +1,7 @@
 title: Midas Meijs 
 name: Midas Meijs 
 template: people-single 
-picture: people/Midas_Meijs.jpg 
+picture: people/default_member_image.jpg
 position: PhD Candidate 
 active: no 
 groups: diag
@@ -14,4 +14,4 @@ linkedin: https://www.linkedin.com/in/midas-meijs/
 scholar: https://scholar.google.nl/citations?user=RomFCTIAAAAJ&hl=nl&oi=ao 
 researcherid: https://publons.com/researcher/R-4681-2019/
 
-Midas Meijs studied Biomedical Engineering (BSc) and Medical Engineering (MSc) at Eindhoven University of Technology (TU/e). In June 2015 he joined the Diagnostic Image Analysis Group as a PhD student working on Computer Aided Diagnosis in acute stroke, under supervision of Rashindra Manniesing and Bram van Ginneken.
+This person is no longer working at DIAG.
