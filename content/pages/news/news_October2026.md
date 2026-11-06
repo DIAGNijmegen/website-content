@@ -5,7 +5,7 @@ groups: diag
 description: Time for another newsletter!
 
 ## DIAG at conferences
-DIAG will be present during ESMO AI in Berlin. [member/Clément Grisi] and [member/José] will present their research abstracts investigating tumor-agnostic features associated with microsatellite instability (MSI) in H&E-stained whole-slide images (WSIs), exploring the potential of AI to identify shared morphological patterns across different cancer types.
+DIAG will be present during ESMO AI in Berlin. [member/clement-grisi] and [member/jose-teixeira] will present their research abstracts investigating tumor-agnostic features associated with microsatellite instability (MSI) in H&E-stained whole-slide images (WSIs), exploring the potential of AI to identify shared morphological patterns across different cancer types.
 
 In addition, [member/Nadieh Khalili] has been invited to give a talk entitled _“Towards Multimodal Evidence-Based Medical Diagnosis via Reasoning Agentic Workflows”_, highlighting DIAGs work on CHIMERA-Agent and how agentic AI can integrate histopathology, radiology, and clinical data to support evidence-based clinical decision-making in oncology.
 
