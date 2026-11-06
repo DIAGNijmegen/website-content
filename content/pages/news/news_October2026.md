@@ -12,9 +12,12 @@ In addition, [member/Nadieh Khalili] has been invited to give a talk entitled _â
 [**Learn more about ESMO AI 2026**](https://www.esmo.org/meeting-calendar/ "https://www.esmo.org/meeting-calendar/")
 ## New DIAG members
 We welcomed the following new members in October:
-- [member/fatemeh-ragh]
-- [member/marlou-jongkees]
-- [member/Anushka-Ashish-Kore]
+<ul>
+  <li>[member/fatemeh-ragh]</li>
+  <li>[member/marlou-jongkees]</li>
+  <li>[member/Anushka-Ashish-Kore]</li>
+</ul>
+
 ## Highlighted publications
 - Dimitriadis, A., Kalliatakis, G., Osuala, R., et al. (2026). Cross-attention fusion of biparametric MRI sequences with demographic and clinical variables for patient-level classification of clinically significant prostate cancer. _Scientific Reports_.
 - Suazo-Zepeda, E., de Bock, G.H., Antonissen, N.J., Jacobs, C., Mohamed Hoesein, F.A., Gietema, H.A., Sidorenkov, G.A., Vliegenthart, R., & Heuvelmans, M.A. (2026). Associations between CT characteristics of lung cancer lesions and histologic subtypes in lung cancer screening. _European radiology_.
