@@ -1,9 +1,4 @@
-
-title: Monthly DIAG News – November 2026
-date: 2026-11-01
-picture: news/monthly_news2.png
-groups: diag
-description: Time for another newsletter!
+title: Monthly DIAG News – November 2026 date: 2026-11-01 picture: news/monthly_news2.png groups: diag description: Time for another newsletter!
 ## DIAG at conferences
 DIAG will be present during ESMO AI in Berlin. [member/Clément Grisi] and [member/José] will present their research abstracts investigating tumor-agnostic features associated with microsatellite instability (MSI) in H&E-stained whole-slide images (WSIs), exploring the potential of AI to identify shared morphological patterns across different cancer types.
 
