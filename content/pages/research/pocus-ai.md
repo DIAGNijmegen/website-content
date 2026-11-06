@@ -6,6 +6,7 @@ type: general
 description: We develop real-time deep learning algorithms to use and interpret exams made with point-of-care (portable) ultrasound devices.
 template: research-single
 groups: diag
+position_group: diag
 people: Thomas van den Heuvel, Keelin Murphy, Chase Neff, Chris de Korte, Bram van Ginneken
 bibkeys: Heuv19a, Heuve18a, Heuv18, Heuv18b, Heuve18a, Heuve17a
 

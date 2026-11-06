@@ -3,6 +3,7 @@ finished: true
 picture: projects/msk.jpg
 template: research-single
 groups: diag
+position_group: diag
 description: Musculoskeletal conditions are a major cause of disability. We develop image analysis algorithms to improve diagnosis and treatment.
 projects: lower-back-pain, vertebral-fractures, body-composition-assessment, scoliosis-simulation
 algorithms: vertebra-segmentation, vertebral-fracture-assessment, vertebral-abnormality-scoring, rib-segmentation, femur-segmentation-in-ct, hip-bone-segmentation-in-ct, tibia-segmentation-in-ct, wrist-segmentation, body-composition

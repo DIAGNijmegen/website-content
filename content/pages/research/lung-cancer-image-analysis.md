@@ -3,6 +3,7 @@ finished: false
 picture: projects/lung-cancer-image-analysis.png
 template: research-single
 groups: diag
+position_group: diag
 people: Colin Jacobs, Mathias Prokop, Cornelia Schaefer-Prokop, Steven Schalekamp, Mirre Scholte, Ernst Scholten, Noa Antonissen, Renate Dinnessen, Lars Leijten, Bogdan Obreja, Fennie van der Graaf, Michel Vitale, Lisa Klok, Alonso Cerrato Nieto, Jorim van der Ster, Livia de Waard, Doris Schouwenaars, Lotte Besselaar, Jasmijn van Rooden
 description: Lung cancer is the most deadly cancer worldwide. We develop artificial intelligence algorithms that will help to improve lung cancer care.
 projects: nelson-pop, amara, merai, solace, solace-plus, imagio, pmr, clinac-nodule
@@ -15,4 +16,3 @@ In the AI for Thoracic Imaging research group, we aim to develop, validate and d
 ![Lung AI group]({{ IMGURL }}/images/research/lungaigroup.jpg)
 
 Click on the cards below to learn about the various projects in this research group.
-

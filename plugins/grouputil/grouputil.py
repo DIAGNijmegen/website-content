@@ -51,6 +51,9 @@ def update_member_position(person_dict, group_name):
     # If a person has only one group, all positons belong to this group
     # in this case the 'groups' value will be string, check for the
     # list length of 1 is added for robustness
+    if len(group_name) == 0:
+        return person_dict
+
     groups = person_dict["groups"]
     if isinstance(groups, str) or (isinstance(groups, list) and len(groups) == 1):
         return person_dict

@@ -3,6 +3,7 @@ finished: true
 picture: projects/neuro.jpg
 template: research-single
 groups: diag
+position_group: diag
 description: Artificial intelligence in neuroimaging
 projects: tbi, image-analysis-in-acute-stroke
 

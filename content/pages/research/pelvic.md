@@ -3,6 +3,7 @@ finished: false
 picture: projects/pelvic.jpg
 template: research-single
 groups: diag
+position_group: diag
 description: Pelvic image analysis explores the use of imaging AI to support and improve diagnosis and intervention
 projects: ai4adhesion, ai4imageguidedintervention, procancer, healthyai
 finished_projects: prostateradiology, pancaim
