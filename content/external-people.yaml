@@ -1201,6 +1201,18 @@ people:
     url: https://www.linkedin.com/in/gemmasoleguardia
     picture: people/external/Gemma_Sole_Guardia.jpg
     email: gemma.soleguardia@radboudumc.nl
+  - name: Mathias Prokop
+    position: Professor
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/mathias-prokop/
+    picture: people/external/Mathias_Prokop.jpg
+    email:
+  - name: Wouter van Geffen
+    position: Professor
+    affiliation: Radboudumc
+    url: https://www.linkedin.com/in/wouter-van-geffen-34284b39/
+    picture: people/external/Wouter_van_Geffen.jpeg
+    email:
   - name: Hester Gietema
     position: Radiologist
     affiliation: Maastricht UMC+
