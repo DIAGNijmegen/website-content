@@ -2,7 +2,7 @@ title: Rick Volleberg
 name: Rick Volleberg
 template: people-single
 picture: people/Rick_Volleberg.jpg
-position: PhD Candidate 
+position: Postdoc, Postdoctoral researcher
 active: yes
 groups: diag, cara-lab
 default_group: diag
