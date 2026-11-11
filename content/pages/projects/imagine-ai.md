@@ -15,3 +15,5 @@ Image-guided interventional radiology plays an important role in the minimally i
 ## Aim
 The aim of this project is to develop an image-guided interventional radiology workstation that integrates multiple deep learning algorithms for the automatic detection and segmentation of clinically relevant anatomical structures and pathological regions, including the liver, tumours, and areas of necrosis. The ultimate goal is to deliver a fully functional workstation that enables radiologists to evaluate the feasibility and clinical potential of deep learning-based image analysis in interventional treatment planning.
 
+## Funding
+The project was funded by the [Hanarth Fonds](https://www.hanarthfonds.nl/nl/gehonoreerde-aanvragen/2023-call/kristian-overduin)
