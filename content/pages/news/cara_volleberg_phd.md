@@ -4,7 +4,7 @@ description: On October 9th, Rick Volleberg defended his PhD thesis "Intracorona
 picture: news/cara_volleberg_phd.jpg
 groups: cara-lab
 
-On October 9th, 2026, Rick Volleberg succesfully defended his PhD thesis, **"Optical Coherence Tomography: Exploring the Full Potential"**, and was awarded the distinction *cum laude*.
+On October 9th, 2026, Rick Volleberg succesfully defended his PhD thesis, **"Intracoronary Optical Coherence Tomography: Exploring the Full Potential"**, and was awarded the distinction *cum laude*.
 
 Rick is one of the founders of the CARA lab. During his PhD he built up deep expertise in optical coherence tomography (OCT) and led the collection and annotation of the data behind the CARA lab's OCT-AID model. This work was essential to setting up the lab and still underpins its research today.
 
