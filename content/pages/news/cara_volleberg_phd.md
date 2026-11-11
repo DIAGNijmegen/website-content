@@ -1,6 +1,6 @@
 title: Rick Volleberg obtains PhD cum laude
 date: 2026-10-09
-description: On October 9th, Rick Volleberg defended his PhD thesis "Optical Coherence Tomography: Exploring the Full Potential" cum laude.
+description: On October 9th, Rick Volleberg defended his PhD thesis "Intracoronary Optical Coherence Tomography: Exploring the Full Potential" cum laude.
 picture: news/cara_volleberg_phd.jpg
 groups: cara-lab
 
