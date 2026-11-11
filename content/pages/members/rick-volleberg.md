@@ -8,7 +8,7 @@ groups: diag, cara-lab
 default_group: diag
 email: Rick.Volleberg@radboudumc.nl
 office: Route 616, CARA Lab
-type: phd
+type: phd, staff
 linkedin: https://www.linkedin.com/in/rick-volleberg-068bab142/?originalSubdomain=nl
 check_staff: Jos Thannhauser
 check_date: 2025-01-01
