@@ -10,4 +10,4 @@ email: amirhosein.kalhor@studenti.unipd.it
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Amirhosein Kalhor was a master student at DIAG/CPG, working on developing a multimodal deep learning model for predicting prostate cancer.

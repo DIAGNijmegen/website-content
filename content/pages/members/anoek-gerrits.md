@@ -10,4 +10,4 @@ email: anoek.gerrits@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Anoek Gerrits was a bachelor student at DIAG/CPG, working on lymphocyte infiltration in breast cancer metastasis in lymph nodes.

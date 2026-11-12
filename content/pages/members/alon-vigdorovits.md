@@ -8,4 +8,4 @@ groups: diag, pathology
 default_group: pathology
 type: student
 
-This person is no longer working at DIAG.
+Alon Vigdorovits was a visiting researcher at DIAG/CPG, contributing to the training and testing of AI models, particularly on the evaluation of nuclear pleomorphism in breast cancer.

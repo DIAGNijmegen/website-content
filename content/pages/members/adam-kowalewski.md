@@ -12,4 +12,4 @@ scholar: https://scholar.google.com/citations?user=oNSNG6AAAAAJ&hl=en&authuser=2
 linkedin: https://www.linkedin.com/in/adam-kowalewski-b1b542215/
 office:
 
-This person is no longer working at DIAG.
+Adam Kowalewski was a visiting researcher at DIAG/CPG, working on the development of AI tools for skin cancer detection and margin estimation.

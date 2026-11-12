@@ -12,4 +12,4 @@ linkedin: http://www.linkedin.com/in/anton-schreuder-21978030
 scholar: https://scholar.google.com/citations?user=Y-qreYAAAAAJ&hl=en
 researcherid: http://www.researcherid.com/rid/N-6349-2017
 
-This person is no longer working at DIAG.
+Anton Schreuder was a PhD candidate at DIAG, working on 'lung cancer screening: use the scan to decide who to scan when'.
