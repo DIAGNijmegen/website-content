@@ -12,4 +12,4 @@ type: phd
 linkedin: https://www.linkedin.com/in/coendevente/
 scholar: https://scholar.google.com/citations?user=AqL8A60AAAAJ
 
-This person is no longer working at DIAG.
+Coen de Vente was a PhD candidate at DIAG, working on deep learning techniques for the screening of eye diseases from retinal imaging.

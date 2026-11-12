@@ -14,4 +14,4 @@ scholar: https://scholar.google.nl/citations?user=qj6BUocAAAAJ&hl=nl
 check_staff: Geert Litjens
 check_date: 2026-06-01
 
-This person is no longer working at DIAG.
+Daan Geijs was a PhD candidate at DIAG, working on implementing deep learning in the daily routine of pathologists assessing skin cancer.

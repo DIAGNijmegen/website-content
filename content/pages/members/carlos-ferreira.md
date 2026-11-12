@@ -10,4 +10,4 @@ email: carlos.a.ferreira@inesctec.pt
 office:
 type: student
 
-This person is no longer working at DIAG.
+Carlos Ferreira was a visiting researcher at DIAG.

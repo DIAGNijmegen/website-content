@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-This person is no longer working at DIAG.
+Bob Sanders was a master student at DIAG, working on few-shot learning for medical image segmentation.

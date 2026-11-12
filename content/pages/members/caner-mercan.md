@@ -12,4 +12,4 @@ default_group: pathology
 linkedin: https://nl.linkedin.com/in/caner-mercan-03488389
 scholar: https://scholar.google.com/citations?user=1G7g0jQAAAAJ
 
-This person is no longer working at DIAG.
+Caner Mercan was a postdoctoral researcher at DIAG/CPG, working on developing deep learning algorithms to automate the components of the histologic grading in breast cancer.

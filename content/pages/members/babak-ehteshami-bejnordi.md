@@ -10,4 +10,4 @@ type: phd
 groups: diag, pathology
 default_group: pathology
 
-This person is no longer working at DIAG.
+Babak Ehteshami Bejnordi was a PhD candidate at DIAG/CPG, working on histopathological diagnosis of breast cancer using machine learning.

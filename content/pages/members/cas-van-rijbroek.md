@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-This person is no longer working at DIAG.
+Cas van Rijbroek was a master student at DIAG, working on developing algorithms to automatically detect enlarged lymph nodes in CT scans to facilitate the diagnosis and staging of lung cancer patients.
