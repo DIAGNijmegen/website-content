@@ -13,4 +13,4 @@ linkedin: https://www.linkedin.com/in/anoeskaschipper/
 check_staff: Matthieu Rutten
 check_date: 2025-06-01
 
-This person is no longer working at DIAG.
+Anoeska Schipper was a PhD candidate at DIAG, working on the development and implementation of an AI-based diagnostic tool to detect patterns in diagnostic test results (laboratory and radiology) that are routinely requested by general practitioners.

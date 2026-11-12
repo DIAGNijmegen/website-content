@@ -9,4 +9,4 @@ default_group: diag
 type: student
 email: Adam.Farrag@radboudumc.nl
 
-This person is no longer working at DIAG.
+Adam Farrag was a master student at DIAG, working on monitoring of AI algorithms for lung nodule detection and malignancy risk estimation, aiming to assess their long-term performance and stability in clinical practice.

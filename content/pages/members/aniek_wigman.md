@@ -10,4 +10,4 @@ email:
 office: Route 812, room 3.42
 type: student-assistant
 
-This person is no longer working at DIAG.
+Aniek Wigman was a student assistant at DIAG/CPG, assisting in research projects by collecting research data, preparing work for publications and more.

@@ -11,4 +11,4 @@ office: Route 767
 type: phd
 linkedin: https://www.linkedin.com/in/AnkevanderEerden/
 
-This person is no longer working at DIAG.
+Anke van der Eerden was a PhD candidate at DIAG, working on susceptibility-weighted imaging and diffusion tensor imaging in traumatic brain injury.
