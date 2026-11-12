@@ -10,4 +10,4 @@ linkedin: https://www.linkedin.com/in/charlotte-neger-76b99a129/
 office: 
 type: 
 
-This person is no longer working at DIAG.
+Charlotte Neger was a PhD candidate at DIAG, working on deep learning techniques for improved assessment of oncological CT scans. Cheryl stopped her PhD trajectory after 1.5 years.

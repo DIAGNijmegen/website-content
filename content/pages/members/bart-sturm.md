@@ -9,4 +9,4 @@ default_group: pathology
 email: Bart.Sturm@radboudumc.nl
 type: student
 
-This person is no longer working at DIAG.
+Bart Sturm was a PhD candidate at DIAG/CPG, working on 'On digital and computational pathology - A paradigm shift towards pathology captured in pixels'.

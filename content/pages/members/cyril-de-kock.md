@@ -11,4 +11,4 @@ office:
 type: student 
 linkedin: https://www.linkedin.com/in/cyrilromain
 
-This person is no longer working at DIAG.
+Cyril de Kock was a master student at DIAG/CPG, working on tumor-infiltrating lymphocyte detection and segmentation.

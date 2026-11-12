@@ -11,4 +11,4 @@ office: Route 767, Room 32
 type: phd
 researcherid: http://www.researcherid.com/rid/C-1364-2018
 
-This person is no longer working at DIAG.
+Bart Liefers was a PhD candidate at DIAG, working on deep learning algorithms for automated retinal image analysis.

@@ -10,4 +10,4 @@ email: cristian.tommasino@unina.it
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Cristian Tommasino was a visiting researcher at DIAG/CPG, working on knowledge distillation for image segmentation of histological images.

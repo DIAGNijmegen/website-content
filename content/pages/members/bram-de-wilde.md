@@ -13,4 +13,4 @@ linkedin: https://www.linkedin.com/in/bramdwilde
 scholar: https://scholar.google.com/citations?user=I_zwVC0AAAAJ
 website: https://bramdewilde.com
 
-This person is no longer working at DIAG.
+Bram de Wilde was a PhD candidate at DIAG, working on detecting abdominal adhesions on cine-MRI.
