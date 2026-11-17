@@ -14,4 +14,4 @@ scholar: https://scholar.google.com/citations?user=21sz-ZAAAAAJ&hl=en
 linkedin: https://www.linkedin.com/in/ecem-sogancioglu-4939545a/
 researcherid: https://publons.com/researcher/3759698/ecem-sogancioglu/
 
-This person is no longer working at DIAG.
+Ecem Sogancioglu was a PhD candidate at DIAG, working on deep learning algorithms for chest X-rays.

@@ -12,4 +12,4 @@ type: phd
 linkedin: https://www.linkedin.com/in/erikpost6/
 scholar: https://scholar.google.com/citations?user=uH0PGEAAAAAJ&hl=nl&oi=ao
 
-This person is no longer working at DIAG.
+Erik Post was a PhD candidate at DIAG, working on the development of digital progression biomarkers for people with Parkinson’s disease.

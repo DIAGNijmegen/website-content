@@ -11,4 +11,4 @@ office:
 telephone: 
 type: student
 
-This person is no longer working at DIAG.
+Elias Baumann was a visiting researcher at DIAG/CPG, working on tumor budding in colorectal cancer.

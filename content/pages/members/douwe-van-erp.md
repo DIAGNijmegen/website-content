@@ -10,4 +10,4 @@ email: douwe.vanerp@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Douwe van Erp was a master student at DIAG, working on automatic detection of abdominal aortic aneurysms.
