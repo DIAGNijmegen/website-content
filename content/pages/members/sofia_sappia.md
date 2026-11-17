@@ -3,7 +3,7 @@ name: Sofía Sappia
 template: people-single 
 picture: people/Sofia_Sappia.JPG 
 position: PhD Candidate 
-active: yes 
+active: no 
 email: mariasofia.sappia@radboudumc.nl 
 office: 
 type: phd 
