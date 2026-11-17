@@ -1,6 +1,6 @@
 title: Joeran Bosma successfully defends PhD thesis
 date: 2026-11-13
-picture: news/defense-joeran-bosma.jpg
+picture: news/defense-joeran-bosma.png
 description: Joeran Bosma successfully defended his PhD thesis on automated data mining for medical image analysis.
 groups: diag
 
