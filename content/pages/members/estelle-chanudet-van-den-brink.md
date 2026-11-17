@@ -11,4 +11,4 @@ office:
 type: administrative
 linkedin: https://www.linkedin.com/in/echanudetvdb/
 
-This person is no longer working at DIAG.
+Estelle Chanudet-van den Brink was a project leader at DIAG/CPG, working on the BIGPICTURE project.

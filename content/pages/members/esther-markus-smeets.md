@@ -10,4 +10,4 @@ email: esther.smeets@radboudumc.nl
 type: phd
 linkedin: http://www.linkedin.comin/esther-markus-smeets-449753aa/
 
-This person is no longer working at DIAG.
+Esther Markus-Smeets was a PhD candidate at DIAG/CPG and the Department of Radiology and Nuclear Medicine, working on both cancer biology and technical development of image analysis algorithms in pancreatic cancer.

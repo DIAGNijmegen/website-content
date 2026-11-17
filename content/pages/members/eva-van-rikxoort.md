@@ -11,4 +11,4 @@ type: faculty
 linkedin: http://www.linkedin.com/in/evavanrikxoort
 scholar: http://scholar.google.com/citations?user=_dqymXQAAAAJ
 
-This person is no longer working at DIAG.
+Eva van Rikxoort was an assistant professor at DIAG, working on analysis of chest CT images.

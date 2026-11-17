@@ -12,4 +12,4 @@ type: phd
 linkedin: https://www.linkedin.com/in/debbie-de-graaf-2168b1119/
 scholar: https://scholar.google.com/citations?hl=nl&user=3u9fZgsAAAAJ  
 
-This person is no longer working at DIAG.
+Debbie de Graaf was a PhD candidate at DIAG, working on developing digital, home-based measures for physical capacity and physical activity of people with Parkinson’s Disease and COPD, using smartwatch data from the ADAPT-study. 

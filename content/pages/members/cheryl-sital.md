@@ -11,4 +11,4 @@ type: phd
 linkedin: https://www.linkedin.com/in/cheryl-sital/
 scholar: https://scholar.google.com/citations?hl=en&user=XZ5vADMAAAAJ
 
-This person is no longer working at DIAG.
+Cheryl Sital was a PhD candidate at DIAG, working on deep learning techniques for improved assessment of oncological CT scans.

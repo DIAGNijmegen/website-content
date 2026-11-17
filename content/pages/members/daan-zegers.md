@@ -10,4 +10,4 @@ email: daan.zegers@radboudumc.nl
 office: Route 812, room 3.42
 type: student-assistant
 
-This person is no longer working at DIAG.
+Daan Zegers was a student assistant at DIAG/CPG, working on various projects by preparing slides for digitization and by making annotations.

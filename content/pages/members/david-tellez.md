@@ -13,4 +13,4 @@ linkedin: https://www.linkedin.com/in/davidtellezm
 scholar: https://scholar.google.com/citations?user=O6dYqTEAAAAJ
 researcherid: http://www.researcherid.com/rid/V-7094-2017
 
-This person is no longer working at DIAG.
+David Tellez was a PhD candidate at DIAG/CPG, working on 'Advancing computational pathology with deep learning: from patches to gigapixel image-level classification'.

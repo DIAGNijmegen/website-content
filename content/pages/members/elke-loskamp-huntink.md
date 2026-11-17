@@ -11,4 +11,4 @@ office: Route 812, room 2.39
 type: administrative
 linkedin: https://www.linkedin.com/in/elke-huntink-5521a121/
 
-This person is no longer working at DIAG.
+Elke Loskamp-Huntink was a study manager at DIAG.

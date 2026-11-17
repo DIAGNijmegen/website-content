@@ -15,4 +15,4 @@ linkedin: https://www.linkedin.com/in/dre-peeters-bba467162/
 check_staff: Colin Jacobs
 check_date: 2026-07-31
 
-This person is no longer working at DIAG.
+Dré Peeters was a PhD candidate at DIAG, working on developing a deep learning-based algorithm for lung nodule malignancy prediction that will accelerate the time to diagnosis and limit unnecessary nodule work-up.

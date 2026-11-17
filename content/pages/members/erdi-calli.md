@@ -14,4 +14,4 @@ linkedin: http://www.linkedin.com/in/ecalli/
 scholar: https://scholar.google.com/citations?user=QsIITmsAAAAJ
 researcherid: http://www.researcherid.com/rid/K-3172-2018
 
-This person is no longer working at DIAG.
+Erdi Calli was a PhD candidate at DIAG, working on deep learning algorithms for chest x-rays.

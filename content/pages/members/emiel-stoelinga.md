@@ -10,4 +10,4 @@ email: emiel.stoelinga@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-This person is no longer working at DIAG.
+Emiel Stoelinga was a master student at DIAG/CPG, working on the classification of lung cancers in histopathology slides.
