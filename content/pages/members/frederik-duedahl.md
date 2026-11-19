@@ -10,4 +10,4 @@ email: frederik.duedahl@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Frederik Duedahl was a visiting researcher at DIAG, working and exploring future collaboration with the lung cancer research group of [member/colin-jacobs].

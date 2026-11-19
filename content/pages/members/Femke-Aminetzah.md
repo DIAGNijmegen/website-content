@@ -11,4 +11,4 @@ office:
 type: student
 linkedin: https://www.linkedin.com/in/femkeaminetzah/
 
-This person is no longer working at DIAG.
+Femke Aminetzah was a master student at DIAG, working on recurrence prediction of non-small lung cancer by integrating multi-modal data.

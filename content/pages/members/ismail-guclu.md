@@ -11,4 +11,4 @@ office: Route 441
 type: student
 linkedin: https://linkedin.com/in/ismail-güclü-894928103
 
-This person is no longer working at DIAG.
+Ismail Guclu was a master student at DIAG, working on automatic deidentification of radiology reports using machine learning and weak supervision methods.

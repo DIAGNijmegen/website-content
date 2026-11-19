@@ -10,4 +10,4 @@ email: hermen.vanwesten@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Hermen van Westen was a master student at DIAG/CPG, working on automated detection of developmental hip dysplasia.

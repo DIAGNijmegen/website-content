@@ -12,4 +12,4 @@ type: phd
 telephone:
 linkedin:
 
-This person is no longer working at DIAG.
+Gaby Whitehead was a PhD candidate at DIAG, working on the [TB TRIAGE+]( https://tbtriage.com/) project.

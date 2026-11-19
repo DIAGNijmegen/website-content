@@ -10,4 +10,4 @@ email: Giulia.Saccomano@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Giulia Nicoletti was a visiting researcher at DIAG/CPG, working on using deep learning methods for the extraction of pathological feature from micro-CT and histological images.
