@@ -11,4 +11,4 @@ office: Route 767, Room 2.25
 telephone:
 type: tech
 
-This person is no longer working at DIAG.
+Haimasree Bhattacharya was a research software engineer at DIAG, working on automatic detection and characterization of lung nodules in chest CT.

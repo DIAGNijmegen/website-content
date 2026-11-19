@@ -14,4 +14,4 @@ linkedin: https://www.linkedin.com/in/hanspinckaers
 scholar: https://scholar.google.nl/citations?user=Z7EiSJwAAAAJ&hl=en
 researcherid: https://publons.com/researcher/2013788/hans-pinckaers/
 
-This person is no longer working at DIAG.
+Hans Pinckaers was a PhD candidate at DIAG/CPG, working on deep learning for improved prognostics in prostate cancer.

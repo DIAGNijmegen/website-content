@@ -10,4 +10,4 @@ email: gijs.smit@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-This person is no longer working at DIAG.
+Gijs Smit was a master student at DIAG/CPG, working on the use of deep learning to detect artifacts in whole slide images.

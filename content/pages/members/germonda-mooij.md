@@ -10,4 +10,4 @@ email: germonda.mooij@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-This person is no longer working at DIAG.
+Germonda Mooij was a master student at DIAG/CPG, working on automatic segmentation of prostate zones (DIAG) and detecting mitosis in breast tissues using generative models (CPG).

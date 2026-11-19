@@ -10,4 +10,4 @@ email: giulia.nicoletti@polito.it
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Giulia Nicoletti was a visiting researcher at DIAG/CPG, working on exploiting deep learning techniques to analyze histopathological images.

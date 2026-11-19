@@ -9,4 +9,4 @@ default_group: diag
 type: phd
 linkedin: https://www.linkedin.com/in/freerkvenhuizen/
 
-This person is no longer working at DIAG.
+Freerk Venhuizen was a PhD candidate at DIAG, working on the development and evaluation of automatic image analysis methods of OCT scans.

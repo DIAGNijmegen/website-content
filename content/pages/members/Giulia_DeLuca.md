@@ -13,4 +13,4 @@ type: student
 check_staff: Colin Jacobs
 check_date: 2026-05-01
 
-This person is no longer working at DIAG.
+Giulia Raffaella De Luca was a visiting researcher at DIAG, working on improving AI-based risk classification of lung nodules for lung cancer screening.

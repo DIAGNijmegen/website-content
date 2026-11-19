@@ -12,4 +12,4 @@ type: student
 check_staff: Francesco Ciompi
 check_date: 2026-08-02
 
-This person is no longer working at DIAG.
+Feida Wei was a master student at DIAG/CPG, working on developing AI-based methods for automating cytology-to-diagnosis in lung cancer using digital Rapid On-Site Evaluation (ROSE) slides, aiming to improve the reliability of cytology assessment.
