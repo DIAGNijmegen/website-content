@@ -13,4 +13,4 @@ type: phd
 linkedin: http://www.linkedin.com/in/ghumpire
 scholar: http://scholar.google.com/citations?user=oE82pPoAAAAJ
 
-This person is no longer working at DIAG.
+Gabriel Humpire Mamani was a PhD candidate at DIAG, working on the AMI Oncology project.

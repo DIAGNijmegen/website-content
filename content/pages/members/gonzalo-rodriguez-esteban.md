@@ -8,4 +8,4 @@ groups: diag, cara-lab
 default_group: diag
 type: student
 
-This person is no longer working at DIAG.
+Gonzalo Rodriguez Esteban was a master student at DIAG, working on automatic segmentation of cardiac OCTs.

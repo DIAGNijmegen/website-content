@@ -11,4 +11,4 @@ office: Route 812, room 3.42
 type: student-assistant
 linkedin: https://nl.linkedin.com/in/eva-cuppen
 
-This person is no longer working at DIAG.
+Eva Cuppen was a student assistant at DIAG/CPG, working on various projects by preparing slides for digitization and making annotations.

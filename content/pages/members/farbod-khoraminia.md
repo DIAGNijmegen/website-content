@@ -10,4 +10,4 @@ email: f.khoraminia@erasmusmc.nl
 scholar: https://scholar.google.com/citations?user=cB3Ls9UAAAAJ&hl=en&oi=ao
 type: student
 
-This person is no longer working at DIAG.
+Farbod Khoraminia was a PhD candidate at DIAG/CPG, working on two projects using deep learning to predict molecular subtypes from histology images, and another that predicts the risk of cancer progression based on transcriptomic data.

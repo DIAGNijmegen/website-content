@@ -11,4 +11,4 @@ office:
 type: student
 linkedin: https://www.linkedin.com/in/dominik-grabarczyk/
 
-This person is no longer working at DIAG.
+Dominik Grabarczyk was a postgraduate intern at DIAG, working on the integration of Dynamic Contrast Enchanced (DCE) MR data into deep learning algorithms for prostate cancer segmentation.

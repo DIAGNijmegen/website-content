@@ -10,4 +10,4 @@ type: student
 email: filip.winzell@math.lth.se
 office:
 
-This person is no longer working at DIAG.
+Filip Winzell was a visiting researcher at DIAG/CPG, working on multimodal prostate cancer and artificial intelligence.

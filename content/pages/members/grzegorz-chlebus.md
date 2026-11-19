@@ -11,4 +11,4 @@ office:
 linkedin: https://www.linkedin.com/in/gchlebus/
 type: phd
 
-This person is no longer working at DIAG.
+Grzegorz Chlebus was a PhD candidate at DIAG, working on the application of machine learning and artificial intelligence in medical image analysis.

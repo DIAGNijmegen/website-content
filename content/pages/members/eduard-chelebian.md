@@ -11,4 +11,4 @@ office:
 telephone: 
 type: student
 
-This person is no longer working at DIAG.
+Eduard Chelebian was a visiting researcher at DIAG, working on studying the intermediate representations of convolutional neural networks in histopathological imaging.

@@ -10,4 +10,4 @@ email: gidoverheijen5@gmail.com
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Gido Verheijen was a master student at DIAG/CPG, working on improving upon the assessment of whole-slide images in the Quality Control model project. 

@@ -9,4 +9,4 @@ default_group: diag
 type: student
 email: Edwin.John@radboudumc.nl
 
-This person is no longer working at DIAG.
+Edwin John was a master student at DIAG, working on the challenges of lung lobe segmentation in CT imaging.

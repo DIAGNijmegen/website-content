@@ -10,4 +10,4 @@ email: gabrielssouza.m@radboudumc.nl
 office: Route 812, room 3.42
 type: tech
 
-This person is no longer working at DIAG.
+Gabriel Silva de Souza was a research assistant at DIAG/CPG, supporting diverse PhD projects with preparation, scanning and annotations of slides.
