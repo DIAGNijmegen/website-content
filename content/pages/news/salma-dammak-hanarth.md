@@ -1,4 +1,4 @@
-title: Salma Dammak is awarded a Hanarth Fonds fellowship for for clinical AI pathology
+title: Salma Dammak is awarded a Hanarth Fonds fellowship to bring AI into clinical practice
 date: 2026-11-19
 picture: news/hanarth_salma.png
 groups: diag, pathology
