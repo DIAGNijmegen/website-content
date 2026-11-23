@@ -1,6 +1,7 @@
 title: Imagine AI
 title_long: Imagine AI - image-guided intervention radiology workstation development
 finished: false
+date: 2026-11-23
 type: general
 picture: projects/imagine-ai-workstation-screenshot.png
 template: project-single
