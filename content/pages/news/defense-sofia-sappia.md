@@ -1,7 +1,7 @@
 title:  Sofía Sappia successfully defends PhD thesis
 date: 2026-11-16
 picture: news/defense-sofia-sappia.jpg
-description: Sofía Sappia successfully defended her PhD thesis on 
+description: Sofía Sappia successfully defended her PhD thesis on AI-powered pregnancy risk detection in low-resource settings
 groups: diag
 
 On Monday, November 16th at 14:30, [member/sofia-sappia] successfully defended her PhD thesis titled 'AI-powered pregnancy risk detection in low-resource settings'.
