@@ -1,6 +1,6 @@
 title: Text mining to extract lifestyle classifications for prevention-related research
 title_long: Diving into the tangle of unstructured clinical notes: Text mining to extract lifestyle classifications for prevention-related research
-finished: false
+finished: true
 date: 2026-04-16
 type: general
 picture: projects/text-mining-PR.jpg
