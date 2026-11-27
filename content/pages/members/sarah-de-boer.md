@@ -15,4 +15,4 @@ check_staff: Alessa Hering
 check_date: 2027-10-27
 
 Sarah obtained her Master’s degree in Artificial Intelligence at the University of Amsterdam, specializing in Computer Vision and Deep Learning.
-In September 2023, she started as a PhD candidate at the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). Her PhD work is part of the [COMFORT project](https://www.comfort-ai.eu) and Sarah works on Multimodal AI models for diagnosing kidney and prostate cancer. Her supervisors are [member/alessa-hering], [member/mathias-prokop], and [member/bram-van-ginneken].
+In September 2023, she started as a PhD candidate at the [Diagnostic Image Analysis Group (DIAG)](https://www.diagnijmegen.nl/). Her PhD work is part of the [COMFORT project](https://www.comfort-ai.eu) and Sarah works on Multimodal AI models for diagnosing kidney and prostate cancer. Her supervisors are [member/alessa-hering], Mathias Prokop, and [member/bram-van-ginneken].
