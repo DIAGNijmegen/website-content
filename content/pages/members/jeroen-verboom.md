@@ -10,4 +10,4 @@ email: jeroen.verboom@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Jeroen Verboom was a master student at DIAG, working on an AI for Health graduation project on the automatic detection of radius and ulna fractures on conventional radiographs.

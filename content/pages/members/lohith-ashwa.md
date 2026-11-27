@@ -12,4 +12,4 @@ type: student
 check_staff: Geert Litjens
 check_date: 2026-08-01
 
-This person is no longer working at DIAG.
+Lohith Ashwa was a master student at DIAG/CPG, working on developing interpretable AI models to predict age and sex from bone histology slides and identifying the underlying tissue features that drive these predictions.

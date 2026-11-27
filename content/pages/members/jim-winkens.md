@@ -10,4 +10,4 @@ email: jim.winkens@radboudumc.nl
 office: Route 812, room 2.39
 type: student
 
-This person is no longer working at DIAG.
+Jim Winkens was a master student at DIAG/CPG, working on out-of-distribution detection for computational pathology with multi-head ensembles.

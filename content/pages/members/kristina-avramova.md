@@ -11,4 +11,4 @@ office:
 type: student
 linkedin: https://www.linkedin.com/in/kristina-avramova
 
-This person is no longer working at DIAG.
+Kristina Avramova was a bachelor student at DIAG, working on comparing the performance of scan-level and nodule-level algorithms for estimating lung nodule malignancy risk.

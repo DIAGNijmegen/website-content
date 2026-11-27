@@ -9,4 +9,4 @@ default_group: pathology
 email: jelle.vonk@radboudumc.nl
 type: tech
 
-This person is no longer working at DIAG.
+Jelle Vonk was a Technical Data Manager at DIAG/CPG.

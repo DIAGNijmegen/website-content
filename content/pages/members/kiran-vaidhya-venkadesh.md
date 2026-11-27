@@ -16,4 +16,4 @@ researcherid: http://www.researcherid.com/rid/AAD-3087-2020
 publons: https://publons.com/researcher/3198824/kiran-vaidhya-venkadesh/
 orcid: https://orcid.org/0000-0002-4846-9049
 
-This person is no longer working at DIAG.
+Kiran Vaidhya Venkadesh was a PhD candidate and postdoctoral researcher at DIAG, working on developing AI algorithms for radiology.

@@ -10,4 +10,4 @@ email: Jente.vanWerven@radboudumc.nl
 office: 
 type: phd
 
-This person is no longer working at DIAG.
+Jente van Werven was a PhD candidate at DIAG/CPG, working on the COMMITMENT project, which focuses on improved treatment decision making for breast cancer patients.

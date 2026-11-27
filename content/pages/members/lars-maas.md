@@ -10,4 +10,4 @@ email: lars.maas@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Lars Maas was a bachelor student at DIAG/CPG, working on using deep learning to differentiate cell types and pathologies of H&E stained bone marrow biopsies.

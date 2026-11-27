@@ -11,4 +11,4 @@ type: phd
 linkedin: https://www.linkedin.com/in/jwvdg/
 scholar: https://scholar.google.nl/citations?user=8Na1KjYAAAAJ&hl=nl
 
-This person is no longer working at DIAG.
+Jasper van der Graaf was a PhD candidate at DIAG, working on AI-based MRI analysis for treatment decision support in patients with chronic degenerative low back pain.

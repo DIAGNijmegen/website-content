@@ -12,4 +12,4 @@ type: administrative
 check_staff: Jeroen van der Laak
 check_date: 2026-05-01
 
-This person is no longer working at DIAG.
+Judith Grolleman was a project manager at DIAG/CPG, working on the COMMITMENT project.

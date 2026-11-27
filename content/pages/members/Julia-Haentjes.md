@@ -9,4 +9,4 @@ default_group: diag
 type: student
 email: Julia.J.L.Haentjes@radboudumc.nl
 
-This person is no longer working at DIAG.
+Julia Haentjes was a master student at DIAG, working on improving an existing deep learning-based lung nodule detection algorithm that was previously developed and trained on non-screening CT data.

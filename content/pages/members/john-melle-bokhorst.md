@@ -12,4 +12,4 @@ type: phd
 linkedin: https://nl.linkedin.com/in/j-m-bokhorst-579507109
 scholar: https://scholar.google.com/citations?user=4quwTU4AAAAJ&hl
 
-This person is no longer working at DIAG.
+John-Melle Bokhorst was a PhD candidate at DIAG/CPG, working on a deep learning systems for the analysis of HE-stained colorectal cancer tissue samples, with the aim of obtaining prognostic data that can guide a tailor treatment per patient or per patient category ([project/tumorbudding]).

@@ -13,4 +13,4 @@ linkedin: http://www.linkedin.com/in/kickyvanleeuwen/
 scholar: http://scholar.google.com/citations?user=h4sidJUAAAAJ
 researcherid: https://publons.com/researcher/3862857/kicky-van-leeuwen/
 
-This person is no longer working at DIAG.
+Kicky van Leeuwen was a PhD candidate at DIAG, working on developing a [methodology for validation and implementation of artificial intelligence software in radiology](https://grand-challenge.org/aiforradiology/).

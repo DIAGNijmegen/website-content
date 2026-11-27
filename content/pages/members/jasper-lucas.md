@@ -12,4 +12,4 @@ email: jasper.lucas@radboudumc.nl
 check_staff: Jos Thannhauser
 check_date: 2026-05-01
 
-This person is no longer working at DIAG.
+Jasper Lucas was a master student at DIAG, working on improving [OCT-AID](https://academic.oup.com/ehjdh/article/6/3/404/8078941), a deep learning model for segmenting intracoronary optical coherence tomography images.

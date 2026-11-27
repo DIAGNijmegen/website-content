@@ -10,4 +10,4 @@ email: jonas.laroche@radboudumc.nl
 type: student-assistant
 linkedin: https://www.linkedin.com/in/jonas-laroche-a53810268/
 
-This person is no longer working at DIAG.
+Jonas Laroche was a student assistant at DIAG, assisting various projects with annotation efforts.

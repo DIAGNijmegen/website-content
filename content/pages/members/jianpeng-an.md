@@ -11,4 +11,4 @@ office:
 telephone: 
 type: student
 
-This person is no longer working at DIAG.
+Jianpeng An was a visiting researcher at DIAG/CPG, working on deep learning and its application in histopathology.

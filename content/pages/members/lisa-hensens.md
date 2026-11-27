@@ -10,4 +10,4 @@ email: lisahensens@gmail.com
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Lisa Hensens was a master student at DIAG/CPG, working on developing deep learning systems to quantify pathomics features in pancreatic cancer and using these features to build a prediction model of patient survival.

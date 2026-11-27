@@ -9,4 +9,4 @@ default_group: diag
 email: Kevin.vandenTillaart@radboudumc.nl
 type: student
 
-This person is no longer working at DIAG.
+Kevin van den Tillaart was a master student at DIAG, working on implementing and comparing different types of AI models in whole-gland prostate segmentation as part of the [project/picus] project.

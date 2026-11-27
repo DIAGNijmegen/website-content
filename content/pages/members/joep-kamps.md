@@ -11,4 +11,4 @@ office: Route 767, Room 25
 type: tech
 linkedin: https://www.linkedin.com/in/joep-kamps-5ba48313b/
 
-This person is no longer working at DIAG.
+Joep Kamps was a data manager at DIAG.

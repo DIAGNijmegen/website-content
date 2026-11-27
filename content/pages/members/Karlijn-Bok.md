@@ -11,4 +11,4 @@ office: Route 767, Room 25
 type: student
 linkedin: https://www.linkedin.com/in/karlijn-bok-993b3718b/
 
-This person is no longer working at DIAG.
+Karlijn Bok was a master student at DIAG, working on universal lesion segmentation.

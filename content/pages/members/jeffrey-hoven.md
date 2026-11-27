@@ -10,4 +10,4 @@ email: jeffrey.hoven@radboudumc.nl
 office: Route 824
 type: student
 
-This person is no longer working at DIAG.
+Jeffrey Hoven was a research technician at DIAG/CPG, working on the predictive value of immunomarkers in neoadjuvant chemotherapy for breast cancer.

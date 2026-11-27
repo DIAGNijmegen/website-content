@@ -10,4 +10,4 @@ email: Karlijn.Rutten@radboudumc.nl
 type: student-assistant
 linkedin: https://www.linkedin.com/in/karlijn-rutten-073905185/
 
-This person is no longer working at DIAG.
+Karlijn Rutten was a student assistant at DIAG, assisting various projects with annotation efforts.

@@ -12,4 +12,4 @@ type: student
 check_staff: Pedro Mateus
 check_date: 2026-08-01
 
-This person is no longer working at DIAG.
+Lotte Laan was a master student at DIAG/CPG, working on enhancing the detection of precursor lesions and ovarian cancer in histopathological whole-slide images.

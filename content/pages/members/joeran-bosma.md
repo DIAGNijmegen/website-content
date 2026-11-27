@@ -16,4 +16,4 @@ orcid: https://orcid.org/0000-0002-6315-124X
 check_staff: Henkjan Huisman
 check_date: 2026-05-01
 
-Joeran Bosma wasa a PhD candidate at DIAG, working on AI-powered data mining for cancer detection and deep-learning based prostate MRI reconstruction for diagnosis and intervention (part of the FastMRI project).
+Joeran Bosma was a PhD candidate at DIAG, working on AI-powered data mining for cancer detection and deep-learning based prostate MRI reconstruction for diagnosis and intervention (part of the FastMRI project).

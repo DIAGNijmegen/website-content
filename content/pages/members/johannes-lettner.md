@@ -15,4 +15,4 @@ website:
 check_staff: Jeroen van der Laak
 check_date: 2026-05-01
 
-This person is no longer working at DIAG.
+Johannes Lettner was a visiting researcher at DIAG/CPG, working on computational pathology and how pathologists can aid in furthering its development.

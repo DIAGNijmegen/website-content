@@ -12,4 +12,4 @@ type: phd
 linkedin: https://www.linkedin.com/in/kars-veldkamp/
 scholar: https://scholar.google.com/citations?hl=nl&user=DSNsnRsAAAAJ 
 
-This person is no longer working at DIAG.
+Kars Veldkamp was a PhD candidate at DIAG, working on developing objective, digital biomarkers to assess autonomic dysfunction in early Parkinson’s disease.

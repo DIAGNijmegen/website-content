@@ -10,4 +10,4 @@ type: student
 email: julian.roddeman@radboudumc.nl
 office:
 
-This person is no longer working at DIAG.
+Julian Roddeman was a master student at DIAG/CPG, working on developing a super resolution deep learning model to enhance in vivo prostate MRI.

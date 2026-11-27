@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-This person is no longer working at DIAG.
+Lex Bosch was a master student at DIAG, working on the identification of diagnostic planes in 3D prenatal ultrasound images.

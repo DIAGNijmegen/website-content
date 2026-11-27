@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-This person is no longer working at DIAG.
+Koen Thijssen was a master student at DIAG, working on the prediction of bladder filling during radiotherapy treatment.

@@ -10,4 +10,4 @@ email: jorge.figueroa.triana@gmail.com
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Jorge Figueroa was a visiting researcher at DIAG/CPG.

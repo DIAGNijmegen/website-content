@@ -15,4 +15,4 @@ publons:
 orcid: 
 linkedin:
 
-This person is no longer working at DIAG.
+Liron Brundel was a master student at DIAG, working on validating and utilizing AI for the detection and classification of lumbar central canal stenosis in MRI studies.

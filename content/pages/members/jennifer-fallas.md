@@ -10,4 +10,4 @@ type: student
 email: jennifer.fallas@etu.univ-cotedazur.fr
 office:
 
-This person is no longer working at DIAG.
+Jennifer Fallas was a visiting researcher at DIAG/CPG, working on computational pathology research in breast cancer.

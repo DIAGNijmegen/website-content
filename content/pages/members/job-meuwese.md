@@ -12,4 +12,4 @@ email: job.meuwese@radboudumc.nl
 check_staff: Jos Thannhauser
 check_date: 2026-04-01
 
-This person is no longer working at DIAG.
+Job Meuwese was a master student at DIAG, working on the implementation of AI during cardiac intervention procedures.

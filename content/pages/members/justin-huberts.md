@@ -10,4 +10,4 @@ email: justin.huberts@radboudumc.nl
 office: 
 type: student
 
-This person is no longer working at DIAG.
+Justin Huberts was a master student at DIAG, working on normalization of MRI imaging.

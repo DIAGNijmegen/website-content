@@ -11,4 +11,4 @@ office: Route 767, Room 2.25
 telephone:
 type: tech
 
-This person is no longer working at DIAG.
+Karel Gerbrands was a research software engineer at DIAG/CPG, working on the development of software for computational pathology.

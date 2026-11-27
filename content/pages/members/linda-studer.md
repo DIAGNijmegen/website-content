@@ -12,4 +12,4 @@ type: postdoc
 linkedin: https://www.linkedin.com/in/linda-studer/?locale=en_US
 scholar: https://scholar.google.ch/citations?user=ukQskJgAAAAJ&hl=de
 
-This person is no longer working at DIAG.
+Linda Studer was a postdoctoral researcher at DIAG/CPG, working as a project manager for the [DIAGGRAFT project](https://www.computationalpathologygroup.eu/projects/diaggraft/).

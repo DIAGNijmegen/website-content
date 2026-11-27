@@ -12,4 +12,4 @@ type: student-assistant
 check_staff: Valerie Dechering
 check_date: 2026-05-01
 
-This person is no longer working at DIAG.
+Joel Käyser was a student assistant at DIAG/CPG, assisting PhD students and postdocs in various projects.
